@@ -1,0 +1,31 @@
+# Media never goes in git — it lives in Drive (AI_News_Desk/).
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Working files produced by the reel scripts
+_stitched.mp4
+_audio.*
+_subs_raw.ass
+_preview_*.ass
+_tmp_raw.ass
+preview_margin_*.png
+frame_clip*.png
+frame_join.png
+
+# Rendered masters
+Reel_master*.mp4
+
+# Brand masters are large PNGs and live in Drive; keep only small derived assets
+brand/*.psd
+brand/*-Master-*.png
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
