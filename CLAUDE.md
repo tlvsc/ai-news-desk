@@ -18,8 +18,10 @@ not about which project it is.
 5. EVIDENCE BEFORE DONE. Verify the artefact and report the actual numbers. A
    summary is not evidence. For video that means duration, streams, and frames —
    not "it worked".
-6. Do NOT invent content. Anchor scripts, episode copy and names come from Rafi or
-   from source material, never from me.
+6. Do NOT invent content OR NAMES. Anchor scripts, episode copy, names, and every
+   file or folder name come from Rafi or from source material, never from me. When
+   Rafi gives a name, it applies exactly as given; if unclear whether it names a
+   file or a folder, ask.
 7. Claude cannot see rendered output. Ask for frames or screenshots before any
    visual judgement.
 8. Every workflow instruction Rafi gives in ANY Claude chat gets written into this
