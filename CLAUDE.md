@@ -65,3 +65,12 @@ not about which project it is.
     Full Report's forward-looking analysis style.
 19. BULLETIN AND MAJOR STORIES ARE THE SAME PRODUCT. Order: Full Report ->
     The Bigger Picture -> Bulletin -> Cards (from the Bulletin) -> Headlines.
+20. PRODUCT RULES ARE THE TRUTH FOR THEIR PRODUCT. The Project OS files govern
+    process; for a product's content and structure, that product's own rules
+    (e.g. the Headlines blueprint, the Cards rules) win over the master prompt
+    and other OS files.
+21. HEADLINES STRUCTURE: slot 1 stored intro; slots 2 to 8 seven news stories
+    in deck order; then fun, teaser, The Bigger Picture (one item); then the
+    approved ending. Every item is about 8 seconds. Scripts follow the
+    blueprint's writing rules and the speech formula (seconds = syllables /
+    4.4, so 8 s is about 35 syllables), with syllables counted, never guessed.
