@@ -56,3 +56,12 @@ not about which project it is.
 17. PREFER DIRECT SOURCE ACCESS OVER SEARCH. If the environment blocks news sites,
     ask Rafi to enable network access first; search-only collection is slow,
     expensive and fails the master prompt's Source Fetch Gate anyway.
+
+## Product rules (Rafi, 2026-09-25)
+
+18. THE BIGGER PICTURE ITEM COUNT PER PRODUCT: Headlines 1 item, Cards 2 items,
+    Bulletin 4 items, Full Report the full list. Also save it as its own file
+    named `the bigger picture_<YYYY-MM-DD>`. Until V1 runs smoothly it uses the
+    Full Report's forward-looking analysis style.
+19. BULLETIN AND MAJOR STORIES ARE THE SAME PRODUCT. Order: Full Report ->
+    The Bigger Picture -> Bulletin -> Cards (from the Bulletin) -> Headlines.
