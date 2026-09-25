@@ -44,3 +44,15 @@ not about which project it is.
     is Windows 10 22H2. Assume nothing is installed; assume PATH is stale after any
     install; assume `python.exe` may be the Microsoft Store stub that only opens the
     Store. Check that a tool RUNS, not that it exists.
+
+## Cost control (Rafi, 2026-09-25, after a report run cost roughly 60-120 USD)
+
+14. COST IS PART OF ROUTING. Before any research run, give Rafi a cost estimate in
+    one line and wait for his go. Never start a multi-agent run without it.
+15. AT MOST TWO SEARCH AGENTS AT ONCE. Six in parallel burned the shared session
+    search limit in minutes and forced repeat rounds.
+16. SEARCH AGENTS RUN ON SONNET (`model: "sonnet"`), not Opus. Opus only for
+    editing, analysis and final checks.
+17. PREFER DIRECT SOURCE ACCESS OVER SEARCH. If the environment blocks news sites,
+    ask Rafi to enable network access first; search-only collection is slow,
+    expensive and fails the master prompt's Source Fetch Gate anyway.
