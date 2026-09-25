@@ -71,6 +71,9 @@ not about which project it is.
     and other OS files.
 21. HEADLINES STRUCTURE: slot 1 stored intro; slots 2 to 8 seven news stories
     in deck order; then fun, teaser, The Bigger Picture (one item); then the
-    approved ending. Every item is about 8 seconds. Scripts follow the
-    blueprint's writing rules and the speech formula (seconds = syllables /
-    4.4, so 8 s is about 35 syllables), with syllables counted, never guessed.
+    approved ending. News, fun and teaser items aim for 8 s (7-9 s allowed);
+    The Bigger Picture 10-12 s. Aim for about 90 s of content; the opening and
+    closing clips do not count, and 90 s is our own target, not a hard limit.
+    Scripts follow the blueprint's writing rules and the speech formula
+    (seconds = syllables / 4.4, so 8 s is about 35 syllables), with syllables
+    counted, never guessed.
