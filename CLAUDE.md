@@ -13,7 +13,9 @@ not about which project it is.
    reply, not the ninth.
 2. Keep replies SHORT. Answer first, minimum detail. No walls of text. Extend only
    when Rafi explicitly asks.
-3. NO DELETIONS. Superseded files are renamed `*_old`, never removed.
+3. NO DELETIONS. Superseded files are renamed `*_old`, never removed. In Drive, a
+   superseded file gets `_superseded` added to its name and moves to that product's
+   `supportive files/archive` folder (Rafi, 27 Sep 2026).
 4. One fix at a time: show Rafi, get approval, then the next one.
 5. EVIDENCE BEFORE DONE. Verify the artefact and report the actual numbers. A
    summary is not evidence. For video that means duration, streams, and frames —
@@ -28,8 +30,11 @@ not about which project it is.
 ## Project-specific
 
 9. MEDIA STAYS OUT OF GIT. Clips, masters and logo masters live in Google Drive
-   (`AI_News_Desk/`). This repo holds scripts, prompts, subtitle text and brand
-   config only. The Drive folder must stay replaceable without touching the repo.
+   (`AI_News_Desk/`). This repo holds prompts, subtitle text and brand config.
+   Scripts that belong to a product live in Drive, in that product's blueprint
+   Permanent Assets; this repo holds only helper scripts for Claude's cloud
+   sessions (Rafi, 27 Sep 2026). The Drive folder must stay replaceable without
+   touching the repo.
 10. BRANDING IS ADDED IN POST, NEVER GENERATED. MiniMax cannot reproduce a specific
     logo — it produces a different lookalike every render. Generate the set generic
     and overlay the real asset with ffmpeg. Set dressing and backgrounds are fine to
