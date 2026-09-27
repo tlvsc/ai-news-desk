@@ -80,7 +80,8 @@ def run(ctx, extra_args=None) -> int:
         notes.append(f"Only {len(core)} story clips available from the deck.")
     lo_s, hi_s = int(hcfg["story_box_min"] * hcfg["syllables_per_second"]), int(hcfg["story_box_max"] * hcfg["syllables_per_second"])
     lo_b, hi_b = hcfg["bigger_picture_syllables"]
-    cues = hcfg.get("pronunciation_cues", {})
+    cues = {}  # scripts are written with normal spelling; s13 adds the spoken-cue line to the prompt
+    cue_map = hcfg.get("pronunciation_cues", {})
     items = []
     slot = 2
     slot_meta = {}
@@ -155,10 +156,11 @@ def run(ctx, extra_args=None) -> int:
                "syllables": n, "box_seconds": box, "problems": probs}
         if sid in slot_meta:
             d = slot_meta[sid]
-            row.update({"item": d["item_n"], "source": d["source"], "source_url": d["url"], "card": d["id"],
+            row.update({"item": d["item_n"], "story_id": d["event_id"], "source": d["source"], "source_url": d["url"], "card": d["id"],
                         "meaning_check": results.get(sid, {}).get("result", "UNVERIFIED"), "meaning_note": results.get(sid, {}).get("note", "")})
         elif it["kind"] == "teaser":
-            row.update({"source": "AI NEWS DESK", "items": [t["item_n"] for t in teaser_card["items"]], "card": teaser_card["id"]})
+            row.update({"source": "AI NEWS DESK", "items": [t["item_n"] for t in teaser_card["items"]],
+                        "story_ids": [t["event_id"] for t in teaser_card["items"]], "card": teaser_card["id"]})
         else:
             row.update({"source": "AI NEWS DESK", "report_refs": bp.get("report_refs", [])})
         if probs:
@@ -172,11 +174,13 @@ def run(ctx, extra_args=None) -> int:
     core_count = sum(1 for r in slots if 2 <= r["slot"] <= 10 and r.get("state") != "bypass")
     pack = {"edition": ctx.edition.isoformat(), "date_title": ctx.title_date, "lane": ctx.lane,
             "prompt_file": "config/headlines_comfy_prompt.txt (Headlines_prompt_for_comfy_json, Rafael 26 Sep 2026)",
-            "cues": cues, "rate_syllables_per_second": hcfg["syllables_per_second"], "floor_seconds": 0, "hold_seconds": 0,
+            "cues": cue_map, "rate_syllables_per_second": hcfg["syllables_per_second"], "floor_seconds": 0, "hold_seconds": 0,
             "slots": slots, "ending": hcfg["approved_ending"],
             "bigger_picture": {"state": "render", "category": "The Bigger Picture", "regenerate": True,
                                "script": next(r["script"] for r in slots if r["slot"] == 11)},
             "content_seconds_excluding_open_close": round(total, 2), "core_count": core_count,
+            "card_story_ids": [d["event_id"] for d in sel["deck"] if d["kind"] == "story"],
+            "card_teaser_story_ids": [t["event_id"] for t in teaser_card["items"]],
             "review_status": "PENDING Rafael's spoken-copy review (approvals/s12_headlines_select)",
             "source_check": "scripts derived from the Full Report items named per slot; meaning check results recorded per slot",
             "generation_authorized": False, "notes": notes}

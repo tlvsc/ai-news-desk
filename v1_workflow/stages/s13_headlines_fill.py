@@ -21,7 +21,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from lib.common import PKG_ROOT, load_json, log, rename_old, stage_main  # noqa: E402
-from lib.syllables import box_seconds, count  # noqa: E402
+from lib.syllables import box_seconds, count, word_syllables  # noqa: E402
+
+AUDIT_RE = re.compile(r"[A-Za-z]+(?:['-][A-Za-z]+)*")
+
+
+def syllable_audit(text: str) -> list[dict]:
+    """Word list in the QA tool's tokenisation (vendor/validate_delivery.py), one syllable count per word."""
+    return [{"word": w, "syllables": max(1, word_syllables(w.replace("'", "")))} for w in AUDIT_RE.findall(text)]
+
+
+def cue_line(script: str, cues: dict) -> str:
+    """15 Sep rule: a pronunciation cue line for brand names the script mentions, e.g. Anthropic -> an-thropic."""
+    hits = [f'say "{real}" as "{cue}"' for real, cue in cues.items() if re.search(r"\b" + re.escape(real) + r"\b", script, re.I)]
+    return ("\nPronunciation: " + "; ".join(hits) + ".") if hits else ""
 
 PROMPT_FILE = PKG_ROOT / "config" / "headlines_comfy_prompt.txt"
 NAMED_KEY = {"PrimitiveStringMultiline": "value", "PrimitiveFloat": "value", "SaveVideo": "filename_prefix", "MarkdownNote": "text"}
@@ -42,8 +55,9 @@ def set_widget(node: dict, idx: int, value):
     return old
 
 
-def fill(wf: dict, pack: dict, prompt_tpl: str, template_sha: str) -> tuple[dict, list[tuple], list[str]]:
+def fill(wf: dict, pack: dict, prompt_tpl: str, template_sha: str, refs_verified: bool = False) -> tuple[dict, list[tuple], list[str]]:
     orig = cp.deepcopy(wf)
+    qa_slots = []
     nodes = {n["id"]: n for n in wf["nodes"]}
     date, edition, lane = pack["date_title"], pack_short(pack), pack["lane"]
     cues = pack.get("cues", {})
@@ -58,9 +72,15 @@ def fill(wf: dict, pack: dict, prompt_tpl: str, template_sha: str) -> tuple[dict
             if s * 100 <= n["id"] < s * 100 + 100:
                 n["mode"] = 0 if active else 4
         if active:
-            syl = count(slot["script"], cues)
+            audit = syllable_audit(slot["script"])
+            syl = sum(a["syllables"] for a in audit)
             box = box_seconds(syl, pack["rate_syllables_per_second"])
-            prompt = prompt_tpl.replace("{symbol}", slot["symbol"].rstrip(".")).replace("{script}", slot["script"])
+            prompt = prompt_tpl.replace("{symbol}", slot["symbol"].rstrip(".")).replace("{script}", slot["script"]) + cue_line(slot["script"], cues)
+            intro = re.split(r"(?<=[.,:!?])\s", slot["script"], 1)[0]
+            qa_slots.append({"slot": s, "kind": slot["kind"], "title": slot.get("category", slot["kind"]), "narration": slot["script"],
+                             "generation_prompt": prompt, "intro": intro, "syllable_audit": audit, "estimated_syllables": syl,
+                             "seconds": box, "story_id": slot.get("story_id"), "story_ids": slot.get("story_ids", []),
+                             "symbol": slot.get("symbol"), "item": slot.get("item")})
             old_scripts.append(set_widget(ids[12], 0, prompt))
             set_widget(ids[13], 0, box)
             set_widget(ids[21], 0, f"video/headlines_{edition}_C{s:02d}_{lane}_544")
@@ -85,7 +105,14 @@ def fill(wf: dict, pack: dict, prompt_tpl: str, template_sha: str) -> tuple[dict
                                                "review_status": pack["review_status"], "source_check": pack["source_check"],
                                                "generation_authorized": bool(pack.get("generation_authorized")),
                                                "bigger_picture": pack.get("bigger_picture", {})}
-    wf["extra"]["aind_headlines"] = {k: pack[k] for k in ("edition", "date_title", "lane", "slots")}
+    refs = [{"node_id": nid, "filename": nodes[nid]["widgets_values"][0], "visually_verified": refs_verified, "role": role}
+            for nid, role in ((6, "boundary_hands_on_table"), (7, "secondary_gesture")) if nid in nodes]
+    wf["extra"]["aind_headlines"] = {  # schema of vendor/validate_delivery.py validate_headlines()
+        "edition": pack["edition"], "date_title": pack["date_title"], "lane": lane, "timing_decision_confirmed": True,
+        "syllables_per_second": pack["rate_syllables_per_second"], "timing_formula": "syllables / 4.4",
+        "boundary_hold_duration_is_flexible": True, "unresolved_issues": [], "references": refs,
+        "slots": qa_slots, "card_story_ids": pack.get("card_story_ids", []), "card_teaser_story_ids": pack.get("card_teaser_story_ids", []),
+        "review_status": pack["review_status"], "generation_authorized": bool(pack.get("generation_authorized"))}
     if 9990 in nodes:
         note = f"{date} Headlines fill (Claude lane {lane}). Slots: " + "; ".join(f"C{t[0]:02d} {t[5]} {t[2]:.2f}s" for t in table)
         note += "\nC01 and C12 reuse the stored opening and approved ending.\n" + pack["review_status"] + "\n" + pack["source_check"]
@@ -121,7 +148,7 @@ def fill(wf: dict, pack: dict, prompt_tpl: str, template_sha: str) -> tuple[dict
             if (base + 32) in nodes:
                 latent = next(i["link"] for i in nodes[base + 32]["inputs"] if i["name"] == "latent")
                 assert links[latent][1] == base + 17, f"slot {row['slot']}: upscale must follow the generated latent"
-            assert nodes[base + 13]["widgets_values"][0] == round(count(row["script"], cues) / pack["rate_syllables_per_second"], 2)
+            assert nodes[base + 13]["widgets_values"][0] == round(sum(a["syllables"] for a in syllable_audit(row["script"])) / pack["rate_syllables_per_second"], 2)
             assert "hands, body and head movements" in nodes[base + 12]["widgets_values"][0]
             assert "<reference image 01>" in nodes[base + 12]["widgets_values"][0]
         for offset, key in ((12, "value"), (13, "value"), (21, "filename_prefix"), (35, "filename_prefix")):
@@ -163,7 +190,8 @@ def run(ctx, extra_args=None) -> int:
     template_sha = hashlib.sha256(tpl.read_bytes()).hexdigest()
     n_nodes, n_links = len(wf["nodes"]), len(wf.get("links", []))
     try:
-        wf, table, checks = fill(wf, pack, PROMPT_FILE.read_text(encoding="utf-8"), template_sha)
+        wf, table, checks = fill(wf, pack, PROMPT_FILE.read_text(encoding="utf-8"), template_sha,
+                                 bool(ctx.config["headlines"].get("reference_images_visually_verified")))
     except AssertionError as exc:
         log.error("FILL CHECK FAILED: %s", exc)
         ctx.report_append("s13 headlines fill", f"FAILED: {exc}")

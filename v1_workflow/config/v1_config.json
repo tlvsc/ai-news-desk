@@ -34,9 +34,23 @@
   "llm": {
     "mode": "live",
     "cli": "claude",
-    "models": {"cheap": "haiku", "mid": "sonnet", "strong": "opus"},
-    "effort": {"cheap": "low", "mid": "medium", "strong": "high"},
-    "batch_sizes": {"digest": 40, "classify": 40, "dedupe_pairs": 30, "report": 12, "copy": 20},
+    "models": {
+      "cheap": "haiku",
+      "mid": "sonnet",
+      "strong": "opus"
+    },
+    "effort": {
+      "cheap": "low",
+      "mid": "medium",
+      "strong": "high"
+    },
+    "batch_sizes": {
+      "digest": 40,
+      "classify": 40,
+      "dedupe_pairs": 30,
+      "report": 12,
+      "copy": 20
+    },
     "max_retries": 1,
     "timeout_seconds": 600
   },
@@ -45,7 +59,10 @@
     "story_target_syllables": 35,
     "story_box_min": 7.0,
     "story_box_max": 9.0,
-    "bigger_picture_syllables": [44, 53],
+    "bigger_picture_syllables": [
+      44,
+      53
+    ],
     "content_target_seconds": 90,
     "template_json": "",
     "prompt_file": "",
@@ -62,23 +79,38 @@
     "subtitle_margin_v": 380,
     "credit_font": "Red Hat Mono",
     "credit_size": 30,
-    "credit_margin_v": 300
+    "credit_margin_v": 300,
+    "pronunciation_cues": {
+      "Anthropic": "an-thropic",
+      "NVIDIA": "N-vidia"
+    },
+    "reference_images_visually_verified": false,
+    "comfy_template": "",
+    "comfy_output_root": ""
   },
   "cards": {
     "renderer_package_dir": "",
     "previous_cover_png": "",
     "fonts_dir": "",
     "closing_head": "Like, follow and share.",
-    "closing_body": "That was today\u2019s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.",
+    "closing_body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.",
     "teaser_title": "More in the full report",
     "teaser_closing_line": "Want the whole picture every morning?",
     "analysis_corner": "The Bigger Picture",
-    "analysis_opening": "And for the bigger picture\u2026",
-    "notice": "General news and commentary.\nNot financial advice."
+    "analysis_opening": "And for the bigger picture…",
+    "notice": "General news and commentary.\nNot financial advice.",
+    "renderer_command": ""
   },
   "drive": {
     "daily_root_id": "1nzOWXclWAExDQ6WqQ2C9DmSkM3rrqLYx",
     "claude_test_root_id": "",
     "upload_enabled": false
+  },
+  "_keys": {
+    "headlines.comfy_template": "local path of Aind_headlines_comfy_Master_workflow_template.json (Drive ID 1iGUq1LtGtVm1toPhDTqhWOC4qIjIe2xV)",
+    "headlines.comfy_output_root": "ComfyUI output root; empty = parent of comfy_output_dir (prefixes start with video/)",
+    "headlines.reference_images_visually_verified": "Rafael sets true after checking the two reference poses in the template; the QA tool requires it",
+    "headlines.pronunciation_cues": "real name -> spoken cue line added to the Comfy prompt (15 Sep rule)",
+    "cards.renderer_command": "command with {edition_json} {out_dir} {renderer_dir} placeholders; empty = render pending on the PC"
   }
 }
