@@ -44,3 +44,7 @@ not about which project it is.
     is Windows 10 22H2. Assume nothing is installed; assume PATH is stale after any
     install; assume `python.exe` may be the Microsoft Store stub that only opens the
     Store. Check that a tool RUNS, not that it exists.
+14. COUNTS ARE GUIDELINES, NOT GATES. Card count (~15), bulletin size, report size and
+    category slots are working targets. Adjust them to the day's pool, e.g. 15 plus or
+    minus 2 cards, and state the number. Never stop to ask Rafi about a count.
+15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
