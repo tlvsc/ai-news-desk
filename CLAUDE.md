@@ -44,3 +44,21 @@ not about which project it is.
     is Windows 10 22H2. Assume nothing is installed; assume PATH is stale after any
     install; assume `python.exe` may be the Microsoft Store stub that only opens the
     Store. Check that a tool RUNS, not that it exists.
+14. COMMIT AFTER EVERY BATCH, HANDOFF AT EVERY CHECKPOINT. Cloud sessions compact
+    without warning and the container is ephemeral. Push work-in-progress to the
+    designated branch after each batch of files and refresh
+    `docs/HANDOFF_NEXT_SESSION.md` before starting the next batch.
+
+## Decisions from the 2026-09-27 session (V1 workflow build)
+
+15. The Claude-lane V1 workflow package lives in `v1_workflow/` in this repo while it
+    is built and tested. Its authority copy goes to Google Drive `claude_files_only`
+    as individual text files, never zipped, only after it is finished and verified.
+16. Route B: cloud session builds and tests what it can; a Claude Code local session
+    on Rafi's i9 runs the PC-only stages (publisher collection, ComfyUI, ffmpeg).
+17. LLM calls inside the pipeline go through Claude Code headless subagents on Rafi's
+    subscription: haiku for cheap batch work, sonnet for writing, opus for analysis
+    and QA. Code does everything that does not need a model.
+18. Test runs write to a local PC folder only. No Drive writes during testing.
+19. V1 only. Not V2, not V1.1. The live ChatGPT-lane V1 prompts, automations and
+    files are never edited from this repo.

@@ -1,0 +1,84 @@
+{
+  "_comment": "AI News Desk V1 workflow config. Edit paths for the machine that runs it. Nothing here changes live V1 (ChatGPT lane).",
+  "lane": "VL1",
+  "timezone": "Asia/Jerusalem",
+  "window_hour": 9,
+  "local_root": "./runs",
+  "history_root": "./history",
+  "products": {
+    "cards": "cards",
+    "headlines": "Headlines",
+    "reports": "reports",
+    "supportive": "supportive files"
+  },
+  "gates": {
+    "pool_min": 300,
+    "report_min": 50,
+    "report_max": 150,
+    "bulletin_min": 25,
+    "bulletin_max": 30,
+    "cards_count": 15,
+    "headlines_core_min": 8,
+    "headlines_core_max": 9,
+    "dedupe_history_days": 30,
+    "previously_covered_days": 7
+  },
+  "collector": {
+    "timeout_seconds": 20,
+    "retries": 2,
+    "per_domain_delay_seconds": 1.5,
+    "max_items_per_source": 80,
+    "article_text_chars": 2500,
+    "user_agent": "AINewsDesk-V1-collector/1.0 (+contact: AI.news.desk.il@gmail.com)"
+  },
+  "llm": {
+    "mode": "live",
+    "cli": "claude",
+    "models": {"cheap": "haiku", "mid": "sonnet", "strong": "opus"},
+    "effort": {"cheap": "low", "mid": "medium", "strong": "high"},
+    "batch_sizes": {"digest": 40, "classify": 40, "dedupe_pairs": 30, "report": 12, "copy": 20},
+    "max_retries": 1,
+    "timeout_seconds": 600
+  },
+  "headlines": {
+    "syllables_per_second": 4.4,
+    "story_target_syllables": 35,
+    "story_box_min": 7.0,
+    "story_box_max": 9.0,
+    "bigger_picture_syllables": [44, 53],
+    "content_target_seconds": 90,
+    "template_json": "",
+    "prompt_file": "",
+    "approved_ending": "Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.",
+    "opening_clip": "",
+    "ending_clip": "",
+    "date_overlay_png": "",
+    "comfy_url": "http://127.0.0.1:8188",
+    "comfy_output_dir": "E:/ComfyUI/output/video",
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "subtitle_font": "Instrument Sans",
+    "subtitle_size": 52,
+    "subtitle_margin_v": 380,
+    "credit_font": "Red Hat Mono",
+    "credit_size": 30,
+    "credit_margin_v": 300
+  },
+  "cards": {
+    "renderer_package_dir": "",
+    "previous_cover_png": "",
+    "fonts_dir": "",
+    "closing_head": "Like, follow and share.",
+    "closing_body": "That was today\u2019s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.",
+    "teaser_title": "More in the full report",
+    "teaser_closing_line": "Want the whole picture every morning?",
+    "analysis_corner": "The Bigger Picture",
+    "analysis_opening": "And for the bigger picture\u2026",
+    "notice": "General news and commentary.\nNot financial advice."
+  },
+  "drive": {
+    "daily_root_id": "1nzOWXclWAExDQ6WqQ2C9DmSkM3rrqLYx",
+    "claude_test_root_id": "",
+    "upload_enabled": false
+  }
+}

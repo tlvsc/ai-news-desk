@@ -1,0 +1,23 @@
+{
+  "_comment": "Rafael-approved V1 general order of categories, 23 September 2026 (Decision Log). Critical stories lead regardless of category. cards_slots = default slot plan from the AIMD LV1 skill (13 Sep): total 13 story slots + cover + teaser + Bigger Picture + closing = 15 with market capped at 3 including criticals. Fun is always the last story.",
+  "order": [
+    {"key": "POL", "name": "Politics and government of AI", "cards_slots": 1, "aliases": ["politics", "government", "policy", "geopolitics", "defense", "sovereign"]},
+    {"key": "MKT", "name": "Market, industry and finance", "cards_slots": 3, "aliases": ["market", "industry", "finance", "stocks", "funding", "earnings", "companies", "startups"]},
+    {"key": "SEC", "name": "Security and cyber", "cards_slots": 1, "aliases": ["security", "cyber", "cybersecurity", "safety", "privacy", "fraud", "attack"]},
+    {"key": "ENE", "name": "Energy and infrastructure", "cards_slots": 1, "aliases": ["energy", "infrastructure", "data center", "data centre", "chips", "hardware", "power", "grid", "semiconductor"]},
+    {"key": "ROB", "name": "Robotics", "cards_slots": 1, "aliases": ["robotics", "robot", "humanoid", "autonomous", "drone", "self-driving", "driverless"]},
+    {"key": "MOD", "name": "Models and tools", "cards_slots": 1, "aliases": ["models", "tools", "agents", "products", "apps", "open source", "developer", "benchmark", "release"]},
+    {"key": "RES", "name": "Research and science", "cards_slots": 1, "aliases": ["research", "science", "paper", "study", "physics", "biology", "chemistry", "materials"]},
+    {"key": "LAW", "name": "Ethics and law", "cards_slots": 1, "aliases": ["ethics", "law", "court", "lawsuit", "copyright", "regulation", "antitrust", "liability"]},
+    {"key": "HEA", "name": "Health", "cards_slots": 1, "aliases": ["health", "healthcare", "medical", "hospital", "drug", "biotech", "patients"]},
+    {"key": "SOC", "name": "Society and education", "cards_slots": 1, "aliases": ["society", "education", "jobs", "schools", "universities", "culture", "media", "misinformation"]},
+    {"key": "FUN", "name": "Fun and humour", "cards_slots": 1, "aliases": ["fun", "humour", "humor", "viral", "quirky", "gaming", "entertainment"]}
+  ],
+  "market_max_including_criticals": 3,
+  "min_non_business_stories": 3,
+  "robotics_required": true,
+  "fun_required": true,
+  "importance_labels": {"10": "CRITICAL", "8": "HIGH", "6": "MEDIUM", "1": "WATCHLIST"},
+  "verification_statuses": ["CONFIRMED", "REPORTED", "PRELIMINARY", "DISPUTED"],
+  "dispositions": ["RETAINED EVENT ID", "DUPLICATE OF", "PREVIOUSLY COVERED", "OUT OF WINDOW", "UNVERIFIED", "LOW MATERIALITY", "HELD FOR REVIEW", "NOT AI-RELEVANT"]
+}
