@@ -29,3 +29,7 @@ Thumbs.db
 desktop.ini
 .DS_Store
 *.swp
+
+# Python bytecode caches
+__pycache__/
+*.pyc
