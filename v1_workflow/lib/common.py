@@ -173,6 +173,7 @@ class RunContext:
         self.short = short_date(edition)
         self.title_date = title_date(edition)
         self.lane = config.get("lane", "VL1")
+        self.auto_approve = False  # set by run_v1.py --approve-all for dry test runs only
 
     def ensure_dirs(self) -> None:
         for d in (self.work, self.approvals, self.reports_sup, self.cards_sup, self.headlines_sup, self.history):
@@ -237,6 +238,34 @@ class RunContext:
             if path.stat().st_size == 0:
                 fh.write(f"# V1 script report, edition {self.edition.isoformat()}\n\n")
             fh.write(f"## {heading}  ({stamp})\n\n{body.rstrip()}\n\n")
+
+
+RC_OK, RC_GATE, RC_APPROVAL, RC_EXTERNAL = 0, 2, 3, 4  # stage exit codes
+
+
+def require_approval(ctx, stage: str, title: str, body_md: str) -> bool:
+    """Rafael's approval pause (house rules 4 and 12). Always refreshes approvals/<stage>.pending.md; returns True only
+    when approvals/<stage>.approved exists, or when ctx.auto_approve is set for a dry test run."""
+    ctx.approvals.mkdir(parents=True, exist_ok=True)
+    flag = ctx.approvals / f"{stage}.approved"
+    pending = ctx.approvals / f"{stage}.pending.md"
+    pending.write_text(f"# APPROVAL NEEDED: {title}\n\nEdition {ctx.edition.isoformat()}. Read the draft below. To approve, run\n\n"
+                       f"    python run_v1.py --edition {ctx.edition.isoformat()} --approve {stage}\n\n"
+                       f"which creates {flag.name} in the approvals folder, then re-run. Nothing downstream runs before that.\n\n"
+                       f"{body_md.rstrip()}\n", encoding="utf-8")
+    if getattr(ctx, "auto_approve", False):
+        log.warning("%s: auto-approved (test run only, never for a real edition)", stage)
+        return True
+    return flag.exists()
+
+
+def update_checkpoint(ctx, fields: dict | None = None, stages: dict | None = None) -> None:
+    """Patch reports/supportive files/run-checkpoint.json written by s05 with later counts and gate results."""
+    path = ctx.reports_sup / "run-checkpoint.json"
+    cp = load_json(path, default={"edition": ctx.edition.isoformat(), "stages": {}})
+    cp.update(fields or {})
+    cp.setdefault("stages", {}).update(stages or {})
+    save_json(path, cp)
 
 
 def load_context(edition_text: str | None = None, config_path: Path | str | None = None,

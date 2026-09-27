@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from lib.common import load_json, log, save_json, stage_main  # noqa: E402
+from lib.common import load_json, log, save_json, stage_main, update_checkpoint  # noqa: E402
 from lib.llm_client import LLMClient  # noqa: E402
 
 
@@ -66,8 +66,9 @@ def run(ctx, extra_args=None) -> int:
         row = dict(i)
         row.update({"bulletin_headline": c.get("headline") or i["headline"], "bulletin_body": c.get("body") or i["summary"],
                     "meaning_check": r.get("result", "UNVERIFIED"), "meaning_note": r.get("note", "")})
-        (out if row["meaning_check"] == "PASS" else failed).append(row)
-        out.append(row) if row["meaning_check"] != "PASS" else None
+        out.append(row)  # failing rows stay in the bulletin flagged DRAFT for Rafael
+        if row["meaning_check"] != "PASS":
+            failed.append(row)
     counts = {"CRITICAL": 0, "HIGH": 0, "MEDIUM": 0}
     for r in out:
         counts[r["label"]] = counts.get(r["label"], 0) + 1
@@ -87,6 +88,7 @@ def run(ctx, extra_args=None) -> int:
     (ctx.reports / f"{ctx.edition.isoformat()} — Daily Bulletin.md").write_text("\n".join(lines), encoding="utf-8")
     save_json(ctx.work / "bulletin.json", {"edition": ctx.edition.isoformat(), "count": len(out), "items": out})
     ctx.set_gate("bulletin_gate", "PASS", f"{len(out)} items, {len(failed)} meaning-check drafts")
+    update_checkpoint(ctx, {"bulletin_count": len(out)}, {"bulletin_gate": "PASS"})
     ctx.report_append("s07 bulletin", f"{len(out)} bulletin items ({counts}); {len(failed)} kept as drafts after the meaning check.")
     ctx.set_stage("s07_bulletin", "done", count=len(out), drafts=len(failed))
     return 0

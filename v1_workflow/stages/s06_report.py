@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from lib.common import load_json, log, read_jsonl, save_json, stage_main  # noqa: E402
+from lib.common import load_json, log, read_jsonl, save_json, stage_main, update_checkpoint  # noqa: E402
 from lib.llm_client import LLMClient, batched  # noqa: E402
 
 SEP = "─" * 20
@@ -111,6 +111,7 @@ def run(ctx, extra_args=None) -> int:
                 fh.write(__import__("json").dumps({"id": x["id"], "edition": ctx.edition.isoformat(), "headline": x["headline"],
                                                    "summary": x["summary"], "url": x["url"]}, ensure_ascii=False) + "\n")
     ctx.set_gate("full_report_gate_50_150", "PASS", f"{len(numbered)} stories")
+    update_checkpoint(ctx, {"full_report_count": len(numbered)}, {"full_report_gate_50_150": "PASS"})
     ctx.report_append("s06 report", f"Full Report written: {path.name}, {len(numbered)} stories ({crit} critical, {high} high). "
                                     f"daily-pool.md written. LLM so far: {llm.summary()}")
     ctx.set_stage("s06_report", "done", count=len(numbered), path=str(path))
