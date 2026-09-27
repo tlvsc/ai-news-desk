@@ -52,17 +52,27 @@ def run(ctx, extra_args=None) -> int:
     for ids in by_url.values():
         for other in ids[1:]:
             uf.union(ids[0], other)
+    ents = {r["id"]: {e.lower() for e in (r.get("entities") or []) if e} for r in active}
     for i, a in enumerate(active):
         for b in active[i + 1:]:
             s = jaccard(sig[a["id"]], sig[b["id"]])
-            if s >= SAME:
+            if s < MAYBE:
+                continue
+            # two different actors doing the same kind of deed read alike: auto-merge only when an entity is shared;
+            # a pair with known, disjoint entities is a different event and never reaches the model (token rule).
+            ea, eb = ents[a["id"]], ents[b["id"]]
+            shared_actor = not ea or not eb or bool(ea & eb)
+            if s >= SAME and shared_actor:
                 uf.union(a["id"], b["id"])
-            elif s >= MAYBE:
+            elif shared_actor or s >= SAME:
                 maybe.append((a, b, round(s, 2)))
     # ambiguous pairs: cheap model, only when a pair is not already in one cluster
     llm = LLMClient(ctx)
-    pairs = [(a, b, s) for a, b, s in maybe if uf.find(a["id"]) != uf.find(b["id"])]
-    size = ctx.config["llm"]["batch_sizes"].get("dedupe_pairs", 30)
+    pairs = sorted((x for x in maybe if uf.find(x[0]["id"]) != uf.find(x[1]["id"])), key=lambda x: -x[2])
+    cap = int(ctx.config["llm"].get("max_dedupe_pairs", 240))
+    undecided = len(pairs) - cap if len(pairs) > cap else 0
+    pairs = pairs[:cap]  # the least similar leftovers stay separate events, recorded below
+    size = ctx.config["llm"]["batch_sizes"].get("dedupe_pairs", 60)
     decided = 0
     for batch in batched(pairs, size):
         payload = {"pairs": [{"a": a["id"], "b": b["id"], "similarity": s,
@@ -125,8 +135,9 @@ def run(ctx, extra_args=None) -> int:
     ctx.report_append("s03 dedupe", f"{len(active)} pending records -> {len(events)} events ({retained} retained, "
                                     f"{sum(1 for e in events if e['disposition']=='PREVIOUSLY COVERED')} previously covered, "
                                     f"{sum(1 for e in events if e['disposition']=='UNVERIFIED')} unverified date). "
-                                    f"{len(pairs)} ambiguous pairs sent to the cheap model, {decided} merged.")
-    ctx.set_stage("s03_dedupe", "done", events=len(events), retained=retained, llm_pairs=len(pairs))
+                                    f"{len(pairs)} ambiguous pairs sent to the cheap model in {-(-len(pairs) // max(1, size))} calls, {decided} merged; "
+                                    f"{undecided} less similar pairs kept separate without a call (cap {cap}).")
+    ctx.set_stage("s03_dedupe", "done", events=len(events), retained=retained, llm_pairs=len(pairs), undecided_pairs=undecided)
     return 0
 
 

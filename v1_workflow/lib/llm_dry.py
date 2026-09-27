@@ -44,15 +44,19 @@ def p_digest(payload):
 
 
 def p_dedupe_pairs(payload):
-    return {"pairs": [{"a": p["a"], "b": p["b"], "same_event": p.get("similarity", 0) >= 0.5,
-                       "reason": "DRY similarity rule"} for p in payload["pairs"]]}
+    def caps(t):
+        return set(re.findall(r"\b[A-Z][a-zA-Z]{2,}\b", t or ""))
+    return {"pairs": [{"a": p["a"], "b": p["b"],
+                       "same_event": p.get("similarity", 0) >= 0.5 and bool(caps(p.get("a_headline", "")) & caps(p.get("b_headline", ""))),
+                       "reason": "DRY: similarity plus a shared name"} for p in payload["pairs"]]}
 
 
 def p_classify(payload):
     out = []
     for ev in payload["events"]:
         key = ev.get("category_guess") or KEYS[_h(ev["id"], len(KEYS))]
-        score = 5 + _h(ev["id"] + "s", 6)  # 5..10
+        h = _h(ev["id"] + "s", 24)
+        score = 10 if h == 0 else 9 if h < 4 else 8 if h < 8 else 7 if h < 14 else 6 if h < 19 else 5  # 10 is rare, as in life
         if ev.get("fun"):
             key, score = "FUN", min(score, 7)
         out.append({"id": ev["id"], "category": key, "subcategory": "DRY topic", "importance": score,
@@ -106,7 +110,10 @@ def p_headlines_copy(payload):
     for it in payload["items"]:
         intro = {"story": "In the news.", "fun": "And a lighter story.", "teaser": "Also in the full report:",
                  "bigger_picture": "And for the bigger picture:"}.get(it["kind"], "")
-        base = f"{intro} {it['headline'].rstrip('.')}. DRY second clause of the spoken line."
+        head = it.get("headline") or " and ".join(t["headline"].rstrip(".") for t in it.get("teaser_items", [])[:2]) or "DRY item"
+        base = f"{intro} {head.rstrip('.')}. DRY second clause of the spoken line."
+        if it.get("fix"):
+            base = f"{intro} {head.rstrip('.')[:60]}. DRY rewrite to fit the box."
         if it["kind"] == "bigger_picture":
             base = f"{intro} DRY spoken analysis, money keeps flowing while power delays and debt test the build-out, and the question of who is responsible grows."
         out.append({"id": it["id"], "script": base, "symbol": "a simple glowing icon, simple text-free symbol"})

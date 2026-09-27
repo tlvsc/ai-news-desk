@@ -1,0 +1,4508 @@
+{
+ "id": "00000000-0000-0000-0000-000000000000",
+ "revision": 0,
+ "last_node_id": 9991,
+ "last_link_id": 64,
+ "nodes": [
+  {
+   "id": 1,
+   "type": "UNETLoader",
+   "title": "UNETLoader",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "MODEL",
+     "type": "MODEL",
+     "links": [
+      1
+     ]
+    }
+   ],
+   "widgets_values": [
+    "minimax_h3.safetensors",
+    "default"
+   ],
+   "widgets_values_named": {
+    "unet_name": "minimax_h3.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  {
+   "id": 2,
+   "type": "LoraLoaderModelOnly",
+   "title": "LoraLoaderModelOnly",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 1
+    }
+   ],
+   "outputs": [
+    {
+     "name": "MODEL",
+     "type": "MODEL",
+     "links": [
+      2,
+      3,
+      4
+     ]
+    }
+   ],
+   "widgets_values": [
+    "h3_turbo.safetensors",
+    1
+   ],
+   "widgets_values_named": {
+    "lora_name": "h3_turbo.safetensors",
+    "strength_model": 1
+   }
+  },
+  {
+   "id": 3,
+   "type": "CLIPLoader",
+   "title": "CLIPLoader",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "CLIP",
+     "type": "CLIP",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "clip.safetensors",
+    "minimax"
+   ],
+   "widgets_values_named": {
+    "clip_name": "clip.safetensors",
+    "type": "minimax"
+   }
+  },
+  {
+   "id": 4,
+   "type": "VAELoader",
+   "title": "VAELoader",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "VAE",
+     "type": "VAE",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "vae.safetensors"
+   ],
+   "widgets_values_named": {
+    "vae_name": "vae.safetensors"
+   }
+  },
+  {
+   "id": 5,
+   "type": "VAELoader",
+   "title": "VAELoader",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "VAE",
+     "type": "VAE",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "vae_audio.safetensors"
+   ],
+   "widgets_values_named": {
+    "vae_name": "vae_audio.safetensors"
+   }
+  },
+  {
+   "id": 6,
+   "type": "LoadImage",
+   "title": "LoadImage",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "IMAGE",
+     "type": "IMAGE",
+     "links": []
+    },
+    {
+     "name": "MASK",
+     "type": "MASK",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "ref01_hands_on_table.png",
+    "image"
+   ],
+   "widgets_values_named": {
+    "image": "ref01_hands_on_table.png",
+    "upload": "image"
+   }
+  },
+  {
+   "id": 7,
+   "type": "LoadImage",
+   "title": "LoadImage",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "IMAGE",
+     "type": "IMAGE",
+     "links": []
+    },
+    {
+     "name": "MASK",
+     "type": "MASK",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "ref01_hands_on_table.png",
+    "image"
+   ],
+   "widgets_values_named": {
+    "image": "ref01_hands_on_table.png",
+    "upload": "image"
+   }
+  },
+  {
+   "id": 8,
+   "type": "LoadAudio",
+   "title": "LoadAudio",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "AUDIO",
+     "type": "AUDIO",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "voice_sample.wav",
+    null,
+    null
+   ],
+   "widgets_values_named": {
+    "audio": "voice_sample.wav"
+   }
+  },
+  {
+   "id": 9,
+   "type": "RandomNoise",
+   "title": "RandomNoise",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "NOISE",
+     "type": "NOISE",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    1060749754396562,
+    "fixed"
+   ],
+   "widgets_values_named": {
+    "noise_seed": 1060749754396562
+   }
+  },
+  {
+   "id": 10,
+   "type": "KSamplerSelect",
+   "title": "KSamplerSelect",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "SAMPLER",
+     "type": "SAMPLER",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "euler"
+   ],
+   "widgets_values_named": {
+    "sampler_name": "euler"
+   }
+  },
+  {
+   "id": 11,
+   "type": "BasicScheduler",
+   "title": "BasicScheduler",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 3
+    }
+   ],
+   "outputs": [
+    {
+     "name": "SIGMAS",
+     "type": "SIGMAS",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    "simple",
+    6,
+    1
+   ],
+   "widgets_values_named": {
+    "scheduler": "simple",
+    "steps": 6,
+    "denoise": 1
+   }
+  },
+  {
+   "id": 22,
+   "type": "SigmaShift",
+   "title": "SigmaShift",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 4
+    }
+   ],
+   "outputs": [
+    {
+     "name": "MODEL",
+     "type": "MODEL",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    3.0
+   ],
+   "widgets_values_named": {
+    "shift": 3.0
+   }
+  },
+  {
+   "id": 26,
+   "type": "RandomNoise",
+   "title": "RandomNoise",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "NOISE",
+     "type": "NOISE",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    1060749754396562,
+    "fixed"
+   ],
+   "widgets_values_named": {
+    "noise_seed": 1060749754396562
+   }
+  },
+  {
+   "id": 29,
+   "type": "UpscaleSettings",
+   "title": "UpscaleSettings",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "UPSCALE",
+     "type": "UPSCALE",
+     "links": [
+      9,
+      14,
+      19,
+      24,
+      29,
+      34,
+      39,
+      44,
+      49,
+      54,
+      59,
+      64
+     ]
+    }
+   ],
+   "widgets_values": [
+    "mmh3_upscale.safetensors",
+    1088,
+    1920
+   ],
+   "widgets_values_named": {
+    "model_name": "mmh3_upscale.safetensors",
+    "width": 1088,
+    "height": 1920
+   }
+  },
+  {
+   "id": 30,
+   "type": "SpectrumApplyMiniMaxH3",
+   "title": "SpectrumApplyMiniMaxH3",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 2
+    }
+   ],
+   "outputs": [
+    {
+     "name": "MODEL",
+     "type": "MODEL",
+     "links": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+     ]
+    }
+   ],
+   "widgets_values": [
+    true
+   ],
+   "widgets_values_named": {
+    "enabled": true
+   }
+  },
+  {
+   "id": 112,
+   "type": "PrimitiveStringMultiline",
+   "title": "C01 script",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 113,
+   "type": "PrimitiveFloat",
+   "title": "C01 seconds",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 115,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      7
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 116,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 5
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      6
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 117,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 6
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 7
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      8
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 121,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 132,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 8
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 9
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 135,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 212,
+   "type": "PrimitiveStringMultiline",
+   "title": "C02 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 213,
+   "type": "PrimitiveFloat",
+   "title": "C02 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 215,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      12
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 216,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 10
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      11
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 217,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 11
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 12
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      13
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 221,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 232,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 13
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 14
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 235,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 312,
+   "type": "PrimitiveStringMultiline",
+   "title": "C03 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 313,
+   "type": "PrimitiveFloat",
+   "title": "C03 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 315,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      17
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 316,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 15
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      16
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 317,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 16
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 17
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      18
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 321,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 332,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 18
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 19
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 335,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 412,
+   "type": "PrimitiveStringMultiline",
+   "title": "C04 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 413,
+   "type": "PrimitiveFloat",
+   "title": "C04 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 415,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      22
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 416,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 20
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      21
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 417,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 21
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 22
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      23
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 421,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 432,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 23
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 24
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 435,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 512,
+   "type": "PrimitiveStringMultiline",
+   "title": "C05 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 513,
+   "type": "PrimitiveFloat",
+   "title": "C05 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 515,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      27
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 516,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 25
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      26
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 517,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 26
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 27
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      28
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 521,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 532,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 28
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 29
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 535,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 612,
+   "type": "PrimitiveStringMultiline",
+   "title": "C06 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 613,
+   "type": "PrimitiveFloat",
+   "title": "C06 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 615,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      32
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 616,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 30
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      31
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 617,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 31
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 32
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      33
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 621,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 632,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 33
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 34
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 635,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 712,
+   "type": "PrimitiveStringMultiline",
+   "title": "C07 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 713,
+   "type": "PrimitiveFloat",
+   "title": "C07 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 715,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      37
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 716,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 35
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      36
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 717,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 36
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 37
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      38
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 721,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 732,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 38
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 39
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 735,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 812,
+   "type": "PrimitiveStringMultiline",
+   "title": "C08 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 813,
+   "type": "PrimitiveFloat",
+   "title": "C08 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 815,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      42
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 816,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 40
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      41
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 817,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 41
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 42
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      43
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 821,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 832,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 43
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 44
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 835,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 912,
+   "type": "PrimitiveStringMultiline",
+   "title": "C09 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 913,
+   "type": "PrimitiveFloat",
+   "title": "C09 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 915,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      47
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 916,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 45
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      46
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 917,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 46
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 47
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      48
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 921,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 932,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 48
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 49
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 935,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 1012,
+   "type": "PrimitiveStringMultiline",
+   "title": "C10 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 1013,
+   "type": "PrimitiveFloat",
+   "title": "C10 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 1015,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      52
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 1016,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 50
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      51
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1017,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 51
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 52
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      53
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1021,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 1032,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 53
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 54
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1035,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 1112,
+   "type": "PrimitiveStringMultiline",
+   "title": "C11 script",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 1113,
+   "type": "PrimitiveFloat",
+   "title": "C11 seconds",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 1115,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      57
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 1116,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 55
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      56
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1117,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 56
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 57
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      58
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1121,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 1132,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 58
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 59
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1135,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 1212,
+   "type": "PrimitiveStringMultiline",
+   "title": "C12 script",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "STRING",
+     "type": "STRING",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    ""
+   ],
+   "widgets_values_named": {
+    "value": ""
+   }
+  },
+  {
+   "id": 1213,
+   "type": "PrimitiveFloat",
+   "title": "C12 seconds",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "FLOAT",
+     "type": "FLOAT",
+     "links": []
+    }
+   ],
+   "widgets_values": [
+    0.0
+   ],
+   "widgets_values_named": {
+    "value": 0.0
+   }
+  },
+  {
+   "id": 1215,
+   "type": "EmptyMiniMaxLatent",
+   "title": "EmptyMiniMaxLatent",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      62
+     ]
+    }
+   ],
+   "widgets_values": [
+    "x",
+    544,
+    960,
+    1
+   ],
+   "widgets_values_named": {
+    "mode": "x",
+    "width": 544,
+    "height": 960,
+    "batch": 1
+   }
+  },
+  {
+   "id": 1216,
+   "type": "BasicGuider",
+   "title": "BasicGuider",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "model",
+     "type": "model",
+     "link": 60
+    },
+    {
+     "name": "conditioning",
+     "type": "conditioning",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "name": "GUIDER",
+     "type": "GUIDER",
+     "links": [
+      61
+     ]
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1217,
+   "type": "SamplerCustomAdvanced",
+   "title": "SamplerCustomAdvanced",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "noise",
+     "type": "noise",
+     "link": null
+    },
+    {
+     "name": "guider",
+     "type": "guider",
+     "link": 61
+    },
+    {
+     "name": "sampler",
+     "type": "sampler",
+     "link": null
+    },
+    {
+     "name": "sigmas",
+     "type": "sigmas",
+     "link": null
+    },
+    {
+     "name": "latent_image",
+     "type": "latent_image",
+     "link": 62
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": [
+      63
+     ]
+    },
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1221,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot"
+   }
+  },
+  {
+   "id": 1232,
+   "type": "MiniMaxUpscale",
+   "title": "MiniMaxUpscale",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "latent",
+     "type": "latent",
+     "link": 63
+    },
+    {
+     "name": "settings",
+     "type": "settings",
+     "link": 64
+    }
+   ],
+   "outputs": [
+    {
+     "name": "LATENT",
+     "type": "LATENT",
+     "links": []
+    }
+   ],
+   "widgets_values": [],
+   "widgets_values_named": {}
+  },
+  {
+   "id": 1235,
+   "type": "SaveVideo",
+   "title": "SaveVideo",
+   "mode": 4,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [
+    {
+     "name": "video",
+     "type": "video",
+     "link": null
+    }
+   ],
+   "outputs": [],
+   "widgets_values": [
+    "video/slot_1088"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/slot_1088"
+   }
+  },
+  {
+   "id": 9990,
+   "type": "MarkdownNote",
+   "title": "MarkdownNote",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [],
+   "widgets_values": [
+    "template note"
+   ],
+   "widgets_values_named": {
+    "text": "template note"
+   }
+  },
+  {
+   "id": 9991,
+   "type": "Note",
+   "title": "Note",
+   "mode": 0,
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    200,
+    100
+   ],
+   "inputs": [],
+   "outputs": [],
+   "widgets_values": [
+    "protected note"
+   ]
+  }
+ ],
+ "links": [
+  [
+   1,
+   1,
+   0,
+   2,
+   0,
+   "MODEL"
+  ],
+  [
+   2,
+   2,
+   0,
+   30,
+   0,
+   "MODEL"
+  ],
+  [
+   3,
+   2,
+   0,
+   11,
+   0,
+   "MODEL"
+  ],
+  [
+   4,
+   2,
+   0,
+   22,
+   0,
+   "MODEL"
+  ],
+  [
+   5,
+   30,
+   0,
+   116,
+   0,
+   "MODEL"
+  ],
+  [
+   6,
+   116,
+   0,
+   117,
+   1,
+   "GUIDER"
+  ],
+  [
+   7,
+   115,
+   0,
+   117,
+   4,
+   "LATENT"
+  ],
+  [
+   8,
+   117,
+   0,
+   132,
+   0,
+   "LATENT"
+  ],
+  [
+   9,
+   29,
+   0,
+   132,
+   1,
+   "UPSCALE"
+  ],
+  [
+   10,
+   30,
+   0,
+   216,
+   0,
+   "MODEL"
+  ],
+  [
+   11,
+   216,
+   0,
+   217,
+   1,
+   "GUIDER"
+  ],
+  [
+   12,
+   215,
+   0,
+   217,
+   4,
+   "LATENT"
+  ],
+  [
+   13,
+   217,
+   0,
+   232,
+   0,
+   "LATENT"
+  ],
+  [
+   14,
+   29,
+   0,
+   232,
+   1,
+   "UPSCALE"
+  ],
+  [
+   15,
+   30,
+   0,
+   316,
+   0,
+   "MODEL"
+  ],
+  [
+   16,
+   316,
+   0,
+   317,
+   1,
+   "GUIDER"
+  ],
+  [
+   17,
+   315,
+   0,
+   317,
+   4,
+   "LATENT"
+  ],
+  [
+   18,
+   317,
+   0,
+   332,
+   0,
+   "LATENT"
+  ],
+  [
+   19,
+   29,
+   0,
+   332,
+   1,
+   "UPSCALE"
+  ],
+  [
+   20,
+   30,
+   0,
+   416,
+   0,
+   "MODEL"
+  ],
+  [
+   21,
+   416,
+   0,
+   417,
+   1,
+   "GUIDER"
+  ],
+  [
+   22,
+   415,
+   0,
+   417,
+   4,
+   "LATENT"
+  ],
+  [
+   23,
+   417,
+   0,
+   432,
+   0,
+   "LATENT"
+  ],
+  [
+   24,
+   29,
+   0,
+   432,
+   1,
+   "UPSCALE"
+  ],
+  [
+   25,
+   30,
+   0,
+   516,
+   0,
+   "MODEL"
+  ],
+  [
+   26,
+   516,
+   0,
+   517,
+   1,
+   "GUIDER"
+  ],
+  [
+   27,
+   515,
+   0,
+   517,
+   4,
+   "LATENT"
+  ],
+  [
+   28,
+   517,
+   0,
+   532,
+   0,
+   "LATENT"
+  ],
+  [
+   29,
+   29,
+   0,
+   532,
+   1,
+   "UPSCALE"
+  ],
+  [
+   30,
+   30,
+   0,
+   616,
+   0,
+   "MODEL"
+  ],
+  [
+   31,
+   616,
+   0,
+   617,
+   1,
+   "GUIDER"
+  ],
+  [
+   32,
+   615,
+   0,
+   617,
+   4,
+   "LATENT"
+  ],
+  [
+   33,
+   617,
+   0,
+   632,
+   0,
+   "LATENT"
+  ],
+  [
+   34,
+   29,
+   0,
+   632,
+   1,
+   "UPSCALE"
+  ],
+  [
+   35,
+   30,
+   0,
+   716,
+   0,
+   "MODEL"
+  ],
+  [
+   36,
+   716,
+   0,
+   717,
+   1,
+   "GUIDER"
+  ],
+  [
+   37,
+   715,
+   0,
+   717,
+   4,
+   "LATENT"
+  ],
+  [
+   38,
+   717,
+   0,
+   732,
+   0,
+   "LATENT"
+  ],
+  [
+   39,
+   29,
+   0,
+   732,
+   1,
+   "UPSCALE"
+  ],
+  [
+   40,
+   30,
+   0,
+   816,
+   0,
+   "MODEL"
+  ],
+  [
+   41,
+   816,
+   0,
+   817,
+   1,
+   "GUIDER"
+  ],
+  [
+   42,
+   815,
+   0,
+   817,
+   4,
+   "LATENT"
+  ],
+  [
+   43,
+   817,
+   0,
+   832,
+   0,
+   "LATENT"
+  ],
+  [
+   44,
+   29,
+   0,
+   832,
+   1,
+   "UPSCALE"
+  ],
+  [
+   45,
+   30,
+   0,
+   916,
+   0,
+   "MODEL"
+  ],
+  [
+   46,
+   916,
+   0,
+   917,
+   1,
+   "GUIDER"
+  ],
+  [
+   47,
+   915,
+   0,
+   917,
+   4,
+   "LATENT"
+  ],
+  [
+   48,
+   917,
+   0,
+   932,
+   0,
+   "LATENT"
+  ],
+  [
+   49,
+   29,
+   0,
+   932,
+   1,
+   "UPSCALE"
+  ],
+  [
+   50,
+   30,
+   0,
+   1016,
+   0,
+   "MODEL"
+  ],
+  [
+   51,
+   1016,
+   0,
+   1017,
+   1,
+   "GUIDER"
+  ],
+  [
+   52,
+   1015,
+   0,
+   1017,
+   4,
+   "LATENT"
+  ],
+  [
+   53,
+   1017,
+   0,
+   1032,
+   0,
+   "LATENT"
+  ],
+  [
+   54,
+   29,
+   0,
+   1032,
+   1,
+   "UPSCALE"
+  ],
+  [
+   55,
+   30,
+   0,
+   1116,
+   0,
+   "MODEL"
+  ],
+  [
+   56,
+   1116,
+   0,
+   1117,
+   1,
+   "GUIDER"
+  ],
+  [
+   57,
+   1115,
+   0,
+   1117,
+   4,
+   "LATENT"
+  ],
+  [
+   58,
+   1117,
+   0,
+   1132,
+   0,
+   "LATENT"
+  ],
+  [
+   59,
+   29,
+   0,
+   1132,
+   1,
+   "UPSCALE"
+  ],
+  [
+   60,
+   30,
+   0,
+   1216,
+   0,
+   "MODEL"
+  ],
+  [
+   61,
+   1216,
+   0,
+   1217,
+   1,
+   "GUIDER"
+  ],
+  [
+   62,
+   1215,
+   0,
+   1217,
+   4,
+   "LATENT"
+  ],
+  [
+   63,
+   1217,
+   0,
+   1232,
+   0,
+   "LATENT"
+  ],
+  [
+   64,
+   29,
+   0,
+   1232,
+   1,
+   "UPSCALE"
+  ]
+ ],
+ "groups": [
+  {
+   "title": "CLIP 01",
+   "bounding": [
+    0,
+    400,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 02",
+   "bounding": [
+    0,
+    800,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 03",
+   "bounding": [
+    0,
+    1200,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 04",
+   "bounding": [
+    0,
+    1600,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 05",
+   "bounding": [
+    0,
+    2000,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 06",
+   "bounding": [
+    0,
+    2400,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 07",
+   "bounding": [
+    0,
+    2800,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 08",
+   "bounding": [
+    0,
+    3200,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 09",
+   "bounding": [
+    0,
+    3600,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 10",
+   "bounding": [
+    0,
+    4000,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 11",
+   "bounding": [
+    0,
+    4400,
+    1200,
+    380
+   ]
+  },
+  {
+   "title": "CLIP 12",
+   "bounding": [
+    0,
+    4800,
+    1200,
+    380
+   ]
+  }
+ ],
+ "config": {},
+ "extra": {},
+ "version": 0.4
+}

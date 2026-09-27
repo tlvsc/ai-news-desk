@@ -52,14 +52,18 @@ def select(ctx, items: list[dict], notes: list[str]) -> tuple[list[dict], list[d
     # 1. criticals, score order, each spends its category slot
     crit = sorted([i for i in items if i["importance"] >= 10 and i["id"] != fun_id],
                   key=lambda i: (-i["importance"], keys.index(i["category"]), i["n"]))
+    left_out = []
     for it in crit:
         if room() <= 0:
-            notes.append(f"Critical item {it['n']} left out: the deck is full.")
+            left_out.append(it["n"])
             continue
         if it["category"] == "MKT" and mkt_count() >= mkt_max:
             notes.append(f"Critical item {it['n']} (market) left out: money cap of {mkt_max} story cards reached.")
             continue
         take(it, f"critical, spends the {it['category_name']} slot")
+
+    if left_out:
+        notes.append(f"{len(left_out)} critical items left out because the deck is full: items {left_out}. Rafael decides.")
 
     # 2. big release rule (10 Sep): a major release from a big company takes the first slot after the criticals
     big = [i for i in items if i["id"] not in used and i["category"] == "MOD" and i.get("big_name") and i["importance"] >= 8]

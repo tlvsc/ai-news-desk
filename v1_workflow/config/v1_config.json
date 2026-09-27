@@ -47,12 +47,13 @@
     "batch_sizes": {
       "digest": 40,
       "classify": 40,
-      "dedupe_pairs": 30,
+      "dedupe_pairs": 60,
       "report": 12,
       "copy": 20
     },
     "max_retries": 1,
-    "timeout_seconds": 600
+    "timeout_seconds": 600,
+    "max_dedupe_pairs": 240
   },
   "headlines": {
     "syllables_per_second": 4.4,
@@ -111,6 +112,7 @@
     "headlines.comfy_output_root": "ComfyUI output root; empty = parent of comfy_output_dir (prefixes start with video/)",
     "headlines.reference_images_visually_verified": "Rafael sets true after checking the two reference poses in the template; the QA tool requires it",
     "headlines.pronunciation_cues": "real name -> spoken cue line added to the Comfy prompt (15 Sep rule)",
-    "cards.renderer_command": "command with {edition_json} {out_dir} {renderer_dir} placeholders; empty = render pending on the PC"
+    "cards.renderer_command": "command with {edition_json} {out_dir} {renderer_dir} placeholders; empty = render pending on the PC",
+    "llm.max_dedupe_pairs": "most similar ambiguous pairs sent to the cheap model per run (240 = 4 calls of 60); the rest stay separate"
   }
 }

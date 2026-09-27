@@ -43,13 +43,20 @@ def word_syllables(token: str) -> int:
         return 0
     if x in OVR:
         return OVR[x]
+    if x.endswith("s") and x[:-1] in OVR:  # possessive or plural of a listed word: Salesforce's -> 3, Waymo's -> 2
+        return OVR[x[:-1]] + (1 if x[:-1].endswith(("s", "x", "z", "ch", "sh", "ce", "ge")) else 0)
     if "-" in x:
         return sum(word_syllables(p) for p in x.split("-"))
     if x.isupper() and len(x) <= 4 and token.isupper():
         return len(x)
+    if len(x) > 3 and x.endswith("s") and not x.endswith(("ss", "us", "is", "ies", "oes")):
+        stem = x[:-1]
+        if not (x.endswith("es") and stem[:-1].endswith(("s", "x", "z", "ch", "sh", "g", "c"))):
+            x = stem  # plural or third person: rules -> rule, makes -> make; changes and places keep the spoken -es
     v = re.findall(r"[aeiouy]+", x)
     n = len(v)
-    if x.endswith("e") and not x.endswith(("le", "ee", "ye")) and n > 1:
+    syllabic_le = x.endswith("le") and len(x) > 2 and x[-3] not in "aeiou"  # table, little: yes; rule, mile: no
+    if x.endswith("e") and n > 1 and not (x.endswith(("ee", "ye")) or syllabic_le):
         n -= 1
     if x.endswith("ed") and not x.endswith(("ted", "ded")) and n > 1:
         n -= 1
