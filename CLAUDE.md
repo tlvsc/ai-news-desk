@@ -62,3 +62,7 @@ not about which project it is.
 18. Test runs write to a local PC folder only. No Drive writes during testing.
 19. V1 only. Not V2, not V1.1. The live ChatGPT-lane V1 prompts, automations and
     files are never edited from this repo.
+20. DRY RUN BEFORE LIVE. Before any live model run of `v1_workflow`, run `python tests/e2e_dry.py`
+    and read the model calls per step it prints. A step that makes more than about twenty
+    calls is a bug to fix first, never a cost to accept. Rafi sees the call table before the
+    first live day.
