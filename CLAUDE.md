@@ -52,4 +52,7 @@ not about which project it is.
 14. COUNTS ARE GUIDELINES, NOT GATES. Card count (~15), bulletin size, report size and
     category slots are working targets. Adjust them to the day's pool, e.g. 15 plus or
     minus 2 cards, and state the number. Never stop to ask Rafi about a count.
+    Score cutoffs flex the same way: pick the cutoff that lands the Full Report near
+    50 to 150 stories (usually 5 or 6 and up) and the Bulletin near 30 to 50 (usually
+    6, 7 or 8 and up), then state the cutoff and the count (Rafi, 28 Sep 2026).
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
