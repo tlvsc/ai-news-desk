@@ -36,7 +36,9 @@ not about which project it is.
    sessions (Rafi, 27 Sep 2026). The Drive folder must stay replaceable without
    touching the repo. Temporary exception (Rafi, 29 Sep 2026): the daily report skill
    Temporary_independant_claude_only_15_per_category_fill_run and its scripts live in
-   this repo, in `.claude/skills/`, for now.
+   this repo, in `.claude/skills/`, for now. It stays on branch
+   claude/eager-archimedes-ajnex3 and is used only in this Claude session; do not merge it
+   to main, so ChatGPT and other tools never see a second source of truth.
 10. BRANDING IS ADDED IN POST, NEVER GENERATED. MiniMax cannot reproduce a specific
     logo — it produces a different lookalike every render. Generate the set generic
     and overlay the real asset with ffmpeg. Set dressing and backgrounds are fine to
