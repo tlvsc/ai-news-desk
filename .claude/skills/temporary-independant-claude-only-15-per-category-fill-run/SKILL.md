@@ -115,8 +115,8 @@ the story counts at each cutoff.
 ```
 python3 $K/build_products.py --workdir $W
 ```
-"auto" cutoffs: report = highest score cutoff giving at least 50 stories (plus every Fun
-story); bulletin = highest cutoff giving at least 30 (never Fun). Override with
+"auto" cutoffs: the score cutoff whose count lands closest to 50-150 for the report (plus
+every Fun story) and to 30-50 for the bulletin (never Fun); the higher cutoff on a tie. Override with
 `--report-min N --bulletin-min N` only for a reason, and say why. Writes `$W/report_ids.json`.
 
 ### 9. Editors (2 agents in parallel)
