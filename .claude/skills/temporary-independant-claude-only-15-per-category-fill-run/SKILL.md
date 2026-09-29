@@ -82,6 +82,9 @@ which stays: `$W/drops.json` {"drops": [[cat, rank, "same story kept in X"]]} or
 ```
 python3 $K/decode_links.py --workdir $W        # resumable; re-run if the container restarts
 ```
+Start it with the Bash tool's run_in_background option so the session is woken when it ends.
+Never use `nohup ... &` with a `pgrep -f` watcher: the watcher's own command line matches the
+pattern, so it never ends (29 Sep 2026: 45 minutes lost).
 Then check a sample of decoded links for cut-off endings (`?`, `=`); fixes go in
 `$W/url_fixes.json` {bad: good}.
 
@@ -169,6 +172,8 @@ Fix, rebuild, and keep the replaced files as `_old`.
   back to headline only; the PDF prints a note on those. Ask Rafi to set network access to
   Full for more full-text reads; nothing on his PC is exposed by that setting.
 - WebSearch and WebFetch budgets run out; agents use curl and Google News RSS instead.
+- Long background commands: use run_in_background so the harness wakes the session; never
+  end a turn while waiting on something that will not wake you.
 - Old news re-dated into the window is common on weekends; the curator brief now asks to
   skip it, and qa_check.py holds back what gets through.
 - Scores: selection and display use the curator's pool score (Rafi's ruling); the writer's
