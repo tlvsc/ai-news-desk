@@ -53,7 +53,8 @@ Permanent Assets (Drive 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH) and check md5
 5b5869e51313b19e0b5554b2f890cae5 (42,113 bytes); stop and tell Rafi if it differs. Fetch
 yesterday's pool into `$W/yesterday_pool.csv` from AI_News_Desk / daily_data_generated /
 <yesterday> / reports / supportive files / AIND_Pool_<yesterday>.csv (find folders by name).
-How to save a Drive file to disk exactly: see "Drive" under Gotchas.
+Save each one with drive_save.py (section "Saving a Drive file to disk"); for example
+`python3 $K/drive_save.py 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH $W/build_pdf.py --md5 5b5869e51313b19e0b5554b2f890cae5`.
 
 ### 1. Collect (about 1 minute)
 ```
@@ -161,7 +162,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
   \uXXXX escapes, so write text files with LF endings and escape such characters in code;
   update_file only changes a title or folder; PNG, PDF and large JSON cannot be uploaded
   (Rafi drags them in). Verify every upload by size.
-- Drive download: see "Saving a Drive file to disk" below.
+- Drive download: see "Saving a Drive file to disk" below; never retype base64.
 - Google News links: gd.py decodes one link at a time; parallel calls get rate-limited and
   return nothing. The decoder's regex handles the escaped `=` that once cut links short.
 - Many publisher sites are blocked by the environment's network allowlist, so stories fall
@@ -179,13 +180,23 @@ Fix, rebuild, and keep the replaced files as `_old`.
 
 ## Saving a Drive file to disk
 
-(filled in after the 29 Sep test)
+1. Call `download_file_content` with the file's Drive id (the main session or an agent).
+   It returns JSON {"content": base64, "id", "mimeType", "title"}: inline when small, or
+   saved to a tool-results file when large (the tool then answers with an "exceeds maximum
+   allowed tokens" message naming that file). Both are normal.
+2. Then run: `python3 $K/drive_save.py <file id> <out path> [--md5 HEX] [--size BYTES]`.
+   It finds the raw result in the tool-results files or the session transcripts, decodes it
+   and checks it. Never retype base64 with the Write tool: tested 29 Sep 2026, the size came
+   out right but two characters were wrong.
+3. Tested 29 Sep 2026: build_pdf.py (large, from the tool-results file), the Full Report
+   rules file and the Plain Language Law (small, inline) all came out byte for byte.
 
 ## Files
 
 - scripts/common.py: run file, dates, categories, matching helpers.
 - scripts/collect.py, build_pool.py, decode_links.py (with gd.py), make_chunks.py,
   qa_check.py, build_products.py, make_prompts.py: the steps above.
+- scripts/drive_save.py: saves a downloaded Drive file to disk exactly (step 0).
 - briefs/curator.md, writer.md, editor.md: agent prompts (filled by make_prompts.py).
 - briefs/bigger_picture.md: format and rules pointer for step 10.
 - categories.json: the 16 curator categories (LV2 taxonomy).
