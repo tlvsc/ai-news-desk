@@ -16,7 +16,7 @@ from the dated Full Report.
 
 This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and are fetched
 fresh every run (step 0); if a brief here disagrees with them, the Drive rules win:
-- Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1, Drive 1-2Awao57CDAnxbXCgcfX0uFCwwEAuDGt)
+- Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1, Drive 181ziR8GrW1G16oheR8PwJIJJePtinXbe)
 - Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1, Drive 1Nd9gu3-wCSzHKEUahGfvJVbGL9ax9gcc)
 - articles_phrasing_instructions, the Plain Language Law (Drive 14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA)
 - AIND_daily_storage_rules.txt (Drive 1Oo3_oedmFJViMiVaEnWglXGxnj8ZhbBA)
