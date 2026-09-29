@@ -4,9 +4,9 @@
 
 Selection (CLAUDE.md rule 14): stories not held back, with pool score at or above the
 report cutoff, plus every Fun Side story, go in the report; report stories at or above the
-bulletin cutoff, minus Fun, go in the bulletin. "auto" picks the highest cutoff that gives
-the report at least 50 stories (tries 8 down to 1) and the bulletin at least 30 (tries 8
-down to 5). The shown score is the pool score; the writer's own score is kept as fc_score.
+bulletin cutoff, minus Fun, go in the bulletin. "auto" picks the cutoff whose count lands
+closest to 50-150 for the report (tries 8 down to 1) and 30-50 for the bulletin (8 down
+to 5), the higher cutoff on a tie. The shown score is the pool score; the writer's own score is kept as fc_score.
 Writes to W/products: the report and bulletin markdown, report_pdf.json and bulletin_pdf.json
 (the input of build_pdf.py), daily-pool.md, and W/report_ids.json (report items split in
 two halves for the two editors). The Bigger Picture comes from W/bigger_picture.json when
@@ -21,11 +21,12 @@ from common import (FUN, NAMES, ORDER, WEEKDAYS, band, edition, load_run, long_d
                     pool_path, window_text)
 
 
-def pick(counts, lo, hi, need):
-    for t in range(hi, lo - 1, -1):
-        if counts(t) >= need:
-            return t
-    return lo
+def pick(counts, lo, hi, target):
+    """The cutoff whose story count lands closest to the target range (CLAUDE.md rule 14);
+    on a tie, the higher cutoff."""
+    a, b = target
+    dist = lambda n: 0 if a <= n <= b else (a - n if n < a else n - b)
+    return min(range(hi, lo - 1, -1), key=lambda t: (dist(counts(t)), -t))
 
 
 def clean_source(src):
@@ -59,11 +60,11 @@ def main():
     live = [e for e in entries if e['item_id'] not in held_ids]
 
     in_rep = lambda e, t: e['score'] >= t or e['v1_category'] == 'FUN'
-    rmin = pick(lambda t: sum(in_rep(e, t) for e in live), 1, 8, 50) if a.report_min == 'auto' else int(a.report_min)
+    rmin = pick(lambda t: sum(in_rep(e, t) for e in live), 1, 8, (50, 150)) if a.report_min == 'auto' else int(a.report_min)
     report = [e for e in live if in_rep(e, rmin)]
     report.sort(key=lambda e: (ORDER.index(e['v1_category']), -e['score'], e['item_id']))
     in_bul = lambda e, t: e['score'] >= t and e['v1_category'] != 'FUN'
-    bmin = pick(lambda t: sum(in_bul(e, t) for e in report), 5, 8, 30) if a.bulletin_min == 'auto' else int(a.bulletin_min)
+    bmin = pick(lambda t: sum(in_bul(e, t) for e in report), 5, 8, (30, 50)) if a.bulletin_min == 'auto' else int(a.bulletin_min)
     bulletin = [e for e in report if in_bul(e, bmin)]
 
     for n, e in enumerate(report, 1):
