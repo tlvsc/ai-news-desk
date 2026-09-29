@@ -56,9 +56,11 @@ not about which project it is.
 14. COUNTS ARE GUIDELINES, NOT GATES. Card count (~15), bulletin size, report size and
     category slots are working targets. Adjust them to the day's pool, e.g. 15 plus or
     minus 2 cards, and state the number. Never stop to ask Rafi about a count.
-    The Full Report is always score 5 and up plus every Fun Side story: it is sorted by
-    category, so a reader can go to their own section, where a 5 may matter to them
-    (Rafi, 29 Sep 2026). The Bulletin cutoff flexes: pick the cutoff that lands it near
+    The Full Report is score 5 and up plus every Fun Side story by default: it is sorted
+    by category, so a reader can go to their own section, where a 5 may matter to them.
+    Stay flexible on unusual days: if 5 and up passes about 150 stories, raise the
+    cutoff; if it gives very few, lower it; state the cutoff and the count (Rafi,
+    29 Sep 2026). The Bulletin cutoff flexes: pick the cutoff that lands it near
     30 to 50 stories (usually 6, 7 or 8 and up), then state the cutoff and the count
     (Rafi, 28 Sep 2026).
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.

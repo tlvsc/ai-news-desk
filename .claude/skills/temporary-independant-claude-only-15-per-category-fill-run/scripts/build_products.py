@@ -1,11 +1,13 @@
 """Steps 8 and 11. Assemble the V1 Full Report and Daily Bulletin from the written entries.
 
-    python build_products.py --workdir W [--report-min 5|auto|N] [--bulletin-min auto|N]
+    python build_products.py --workdir W [--report-min flex5|auto|N] [--bulletin-min auto|N]
 
 Selection (CLAUDE.md rule 14): stories not held back, with pool score at or above the
 report cutoff, plus every Fun Side story, go in the report; report stories at or above the
-bulletin cutoff, minus Fun, go in the bulletin. The report cutoff is 5 (Rafi, 29 Sep 2026:
-the report is read by section, so a 5 in a reader's field is worth having). "auto" picks the
+bulletin cutoff, minus Fun, go in the bulletin. The report cutoff "flex5" (default) is 5,
+raised while the report would pass 150 stories and lowered while it would fall under 50
+(Rafi, 29 Sep 2026: the report is read by section, so a 5 in a reader's field is worth
+having, and on unusual days we stay flexible). "auto" picks the
 cutoff whose count lands closest to 50-150 for the report (tries 8 down to 1) and 30-50 for
 the bulletin (8 down to 5), the higher cutoff on a tie; the bulletin default is auto. The shown score is the pool score; the writer's own score is kept as fc_score.
 Writes to W/products: the report and bulletin markdown, report_pdf.json and bulletin_pdf.json
@@ -38,7 +40,7 @@ def clean_source(src):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
-    ap.add_argument('--report-min', default='5')
+    ap.add_argument('--report-min', default='flex5')
     ap.add_argument('--bulletin-min', default='auto')
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); OUT = W / 'products'; OUT.mkdir(exist_ok=True)
@@ -61,7 +63,15 @@ def main():
     live = [e for e in entries if e['item_id'] not in held_ids]
 
     in_rep = lambda e, t: e['score'] >= t or e['v1_category'] == 'FUN'
-    rmin = pick(lambda t: sum(in_rep(e, t) for e in live), 1, 8, (50, 150)) if a.report_min == 'auto' else int(a.report_min)
+    rcount = lambda t: sum(in_rep(e, t) for e in live)
+    if a.report_min == 'flex5':
+        rmin = 5
+        while rcount(rmin) > 150 and rmin < 10:
+            rmin += 1
+        while rcount(rmin) < 50 and rmin > 1:
+            rmin -= 1
+    else:
+        rmin = pick(rcount, 1, 8, (50, 150)) if a.report_min == 'auto' else int(a.report_min)
     report = [e for e in live if in_rep(e, rmin)]
     report.sort(key=lambda e: (ORDER.index(e['v1_category']), -e['score'], e['item_id']))
     in_bul = lambda e, t: e['score'] >= t and e['v1_category'] != 'FUN'

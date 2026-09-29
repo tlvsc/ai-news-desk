@@ -115,7 +115,8 @@ the story counts at each cutoff.
 ```
 python3 $K/build_products.py --workdir $W
 ```
-Cutoffs: the report is always score 5 and up plus every Fun story (Rafi, 29 Sep 2026);
+Cutoffs: the report is score 5 and up plus every Fun story, raised if that passes about 150
+stories and lowered if it falls under 50 (Rafi, 29 Sep 2026: stay flexible);
 the bulletin is "auto", the cutoff whose count lands closest to 30-50 (never Fun), the higher
 cutoff on a tie. Override with
 `--report-min N --bulletin-min N` only for a reason, and say why. Writes `$W/report_ids.json`.
