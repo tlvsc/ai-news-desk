@@ -34,7 +34,9 @@ not about which project it is.
    Scripts that belong to a product live in Drive, in that product's blueprint
    Permanent Assets; this repo holds only helper scripts for Claude's cloud
    sessions (Rafi, 27 Sep 2026). The Drive folder must stay replaceable without
-   touching the repo.
+   touching the repo. Temporary exception (Rafi, 29 Sep 2026): the daily report skill
+   Temporary_independant_claude_only_15_per_category_fill_run and its scripts live in
+   this repo, in `.claude/skills/`, for now.
 10. BRANDING IS ADDED IN POST, NEVER GENERATED. MiniMax cannot reproduce a specific
     logo — it produces a different lookalike every render. Generate the set generic
     and overlay the real asset with ffmpeg. Set dressing and backgrounds are fine to
