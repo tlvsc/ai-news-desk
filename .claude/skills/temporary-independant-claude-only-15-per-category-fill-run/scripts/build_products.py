@@ -1,12 +1,13 @@
 """Steps 8 and 11. Assemble the V1 Full Report and Daily Bulletin from the written entries.
 
-    python build_products.py --workdir W [--report-min auto|N] [--bulletin-min auto|N]
+    python build_products.py --workdir W [--report-min 5|auto|N] [--bulletin-min auto|N]
 
 Selection (CLAUDE.md rule 14): stories not held back, with pool score at or above the
 report cutoff, plus every Fun Side story, go in the report; report stories at or above the
-bulletin cutoff, minus Fun, go in the bulletin. "auto" picks the cutoff whose count lands
-closest to 50-150 for the report (tries 8 down to 1) and 30-50 for the bulletin (8 down
-to 5), the higher cutoff on a tie. The shown score is the pool score; the writer's own score is kept as fc_score.
+bulletin cutoff, minus Fun, go in the bulletin. The report cutoff is 5 (Rafi, 29 Sep 2026:
+the report is read by section, so a 5 in a reader's field is worth having). "auto" picks the
+cutoff whose count lands closest to 50-150 for the report (tries 8 down to 1) and 30-50 for
+the bulletin (8 down to 5), the higher cutoff on a tie; the bulletin default is auto. The shown score is the pool score; the writer's own score is kept as fc_score.
 Writes to W/products: the report and bulletin markdown, report_pdf.json and bulletin_pdf.json
 (the input of build_pdf.py), daily-pool.md, and W/report_ids.json (report items split in
 two halves for the two editors). The Bigger Picture comes from W/bigger_picture.json when
@@ -37,7 +38,7 @@ def clean_source(src):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
-    ap.add_argument('--report-min', default='auto')
+    ap.add_argument('--report-min', default='5')
     ap.add_argument('--bulletin-min', default='auto')
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); OUT = W / 'products'; OUT.mkdir(exist_ok=True)
