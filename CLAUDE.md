@@ -70,7 +70,8 @@ not about which project it is.
     roughly half (a guideline, not a gate). Headlines news part is about 90 seconds (Rafi, 30 Sep
     2026): 7 stories of about 8 to 9 seconds, Fun about 8, teaser about 8, The Bigger Picture about
     10; the stored opening and ending come on top. Every clip time is rounded UP to the next half
-    second (8.4 becomes 8.5, 8.6 becomes 9). Everything final is saved to its designated
+    second (8.4 becomes 8.5, 8.6 becomes 9). One company gets at most 2 stories in Headlines and
+    at most 3 story cards (Rafi, 30 Sep 2026); past that, the next biggest story in the field goes in. Everything final is saved to its designated
     Drive place; what the Drive connection cannot upload goes to Rafi to upload himself.
     The environment allows about 100 source sites (the network allowlist); Google News is
     only the first of them, so read and scan those sources directly.
