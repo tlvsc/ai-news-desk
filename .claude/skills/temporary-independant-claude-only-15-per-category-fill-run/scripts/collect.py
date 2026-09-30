@@ -1,6 +1,6 @@
 """Step 1. Set the reporting window and collect dated candidates per category from Google News RSS.
 
-    python collect.py --workdir W --edition 2026-09-29 [--end 2026-09-29T06:23Z] [--hours 30]
+    python collect.py --workdir W --edition 2026-09-29 [--end 2026-09-29T06:23Z] [--hours 24]
                       [--yesterday W/yesterday_pool.csv]
 
 Writes W/run.json (edition and window, read by every later step), W/candidates/cand_NN.json,
@@ -85,7 +85,7 @@ def main():
     ap.add_argument('--workdir', required=True)
     ap.add_argument('--edition', required=True, help='edition date YYYY-MM-DD')
     ap.add_argument('--end', help='window end, ISO UTC (default: now)')
-    ap.add_argument('--hours', type=int, default=30)
+    ap.add_argument('--hours', type=int, default=24)  # Rafi, 30 Sep 2026: 24 hours; 30 only when he asks (late start)
     ap.add_argument('--yesterday', help="yesterday's pool, CSV or JSON")
     a = ap.parse_args()
     W = Path(a.workdir); (W / 'candidates').mkdir(parents=True, exist_ok=True)

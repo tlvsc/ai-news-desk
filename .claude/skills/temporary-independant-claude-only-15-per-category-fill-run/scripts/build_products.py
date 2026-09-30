@@ -4,7 +4,8 @@
 
 Selection (CLAUDE.md rule 14): stories not held back, with pool score at or above the
 report cutoff, plus every Fun Side story, go in the report; report stories at or above the
-bulletin cutoff, minus Fun, go in the bulletin. The report cutoff "flex5" (default) is 5,
+bulletin cutoff go in the bulletin, plus the top 2 or 3 Fun Side stories (Rafi, 30 Sep 2026;
+--bulletin-fun, default 3). The report cutoff "flex5" (default) is 5,
 raised while the report would pass 150 stories and lowered while it would fall under 50
 (Rafi, 29 Sep 2026: the report is read by section, so a 5 in a reader's field is worth
 having, and on unusual days we stay flexible). "auto" picks the
@@ -42,6 +43,7 @@ def main():
     ap.add_argument('--workdir', required=True)
     ap.add_argument('--report-min', default='flex5')
     ap.add_argument('--bulletin-min', default='auto')
+    ap.add_argument('--bulletin-fun', type=int, default=3)
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); OUT = W / 'products'; OUT.mkdir(exist_ok=True)
     ed = edition(run); DATE = long_date(ed); WINDOW = window_text(run)
@@ -58,7 +60,8 @@ def main():
         entries.append(e)
     hp = W / 'held.json'
     HELD = json.loads(hp.read_text()) if hp.exists() else {'stale_redated': [], 'duplicate': {}}
-    held_ids = set(HELD['stale_redated']) | set(HELD['duplicate'])
+    HELD.setdefault('outside_window', [])  # published before the window start (window shortened after collection)
+    held_ids = set(HELD['stale_redated']) | set(HELD['duplicate']) | set(HELD['outside_window'])
     held = [e for e in entries if e['item_id'] in held_ids]
     live = [e for e in entries if e['item_id'] not in held_ids]
 
@@ -76,7 +79,8 @@ def main():
     report.sort(key=lambda e: (ORDER.index(e['v1_category']), -e['score'], e['item_id']))
     in_bul = lambda e, t: e['score'] >= t and e['v1_category'] != 'FUN'
     bmin = pick(lambda t: sum(in_bul(e, t) for e in report), 5, 8, (30, 50)) if a.bulletin_min == 'auto' else int(a.bulletin_min)
-    bulletin = [e for e in report if in_bul(e, bmin)]
+    fun = sorted((e for e in report if e['v1_category'] == 'FUN'), key=lambda e: (-e['score'], e['item_id']))[:a.bulletin_fun]
+    bulletin = [e for e in report if in_bul(e, bmin) or e in fun]
 
     for n, e in enumerate(report, 1):
         e['n'] = n
@@ -98,13 +102,13 @@ def main():
     followups = sum(1 for e in report if str(e.get('freshness', '')).upper().startswith('FOLLOW'))
     spread = {b: sum(1 for e in report if e['importance_label'] == b) for b in ['CRITICAL', 'HIGH', 'MEDIUM', 'WATCHLIST']}
     rule_r = f"pool score {rmin} to 10 plus The Fun Side"
-    rule_b = f"every story scored {bmin} to 10"
+    rule_b = f"every story scored {bmin} to 10, plus the top {len(fun)} Fun Side stories"
 
     # ---------- Full Report markdown (the card renderer reads it as report_file)
     L = ["# Daily Global AI Intelligence Report (Claude LV1.1) — TEST RUN", "",
          f"Daily report date: {WEEKDAYS[ed.weekday()]}, {DATE}  ",
          f"Coverage period: {WINDOW}  ",
-         f"Final unique stories: {len(report)} (pool {len(pool)}; report rule: {rule_r}; {len(held)} pool stories held back as older news re-dated into the window or duplicates)  ",
+         f"Final unique stories: {len(report)} (pool {len(pool)}; report rule: {rule_r}; {len(held)} pool stories held back as older news re-dated into the window, duplicates or published before the window)  ",
          f"Score spread: CRITICAL {spread['CRITICAL']}, HIGH {spread['HIGH']}, MEDIUM {spread['MEDIUM']}, WATCHLIST {spread['WATCHLIST']}  ",
          f"Stories with full article text read: {len(report) - headline_only}; headline only: {headline_only}; follow-ups of earlier news: {followups}  ",
          "Source coverage certificate: SOURCE SCAN INCOMPLETE. Stories were collected through Google News; articles were read from the 101-source list where the sites allowed it. Test run approved by Rafi.  ",
@@ -135,8 +139,10 @@ def main():
     BL = ["# Daily Bulletin (Claude LV1.1) — TEST RUN", "", f"{DATE}. Coverage: {WINDOW}.  ",
           f"Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: {rule_b} (cutoff set to the day's pool, CLAUDE.md rule 14).  ",
           f"**{len(bulletin)} stories.**", ""]
-    for k in ORDER[:-1]:
+    for k in ORDER:
         grp = [e for e in bulletin if e['v1_category'] == k]
+        if k == 'FUN' and not grp:
+            continue
         BL.append(f"## {NAMES[k].upper()} — {len(grp)}")
         if not grp:
             BL.append(f"No story scored {bmin} or more today; see the Full Report.")
@@ -192,6 +198,8 @@ def main():
     def outcome(k):
         if k in HELD['duplicate']:
             return 'held: ' + HELD['duplicate'][k]
+        if k in HELD['outside_window']:
+            return f"held: published before the {run['hours']}-hour window"
         if k in held_ids:
             return 'held: older news re-dated into the window (' + E.get(k, {}).get('freshness', '') + ')'
         if k in bh:
@@ -210,9 +218,9 @@ def main():
          "## Counts", "", f"- Raw dated candidates collected inside the window: {cands}",
          f"- Curated pool: {len(pool)} (per category: " + ", ".join(f"{k} {v}" for k, v in per_cat.items()) + ")",
          f"- Removed at pool build: {len(log.get('manual_drops', []))} by the editor, {len(log.get('dupe_cross', []))} same stories in two categories",
-         f"- Held back after reading: {len(held_ids)} ({len(HELD['stale_redated'])} older news re-dated into the window, {len(HELD['duplicate'])} duplicate)",
+         f"- Held back after reading: {len(held_ids)} ({len(HELD['stale_redated'])} older news re-dated into the window, {len(HELD['duplicate'])} duplicate, {len(HELD['outside_window'])} published before the window)",
          f"- Articles read: {sum(1 for e in entries if e.get('verified_text'))} of {len(entries)}; headline only: {sum(1 for e in entries if not e.get('verified_text'))}",
-         f"- Full Report: {len(report)} ({rule_r}); Bulletin: {len(bulletin)} (pool score {bmin} to 10)", "",
+         f"- Full Report: {len(report)} ({rule_r}); Bulletin: {len(bulletin)} (pool score {bmin} to 10, plus {len(fun)} Fun Side)", "",
          "## Removed at pool build", ""] + [f"- cat {c}: {t} — {w}" for c, t, w in log.get('manual_drops', [])] + [
          "", "## Curated pool (item, V1 category, pool score, outlet, published, title, link, outcome)", ""]
     for k in sorted(pool, key=lambda k: (ORDER.index(E[k]['v1_category']) if k in E else 99, -int(float(pool[k]['importance'])), k)):
@@ -226,7 +234,7 @@ def main():
 
     print(f"cutoffs: report {rmin}+ plus Fun, bulletin {bmin}+ | report {len(report)} (held {len(held)}), "
           f"bulletin {len(bulletin)}, headline-only {headline_only}, follow-ups {followups}, spread {spread}")
-    print("bulletin by category", {k: sum(1 for e in bulletin if e['v1_category'] == k) for k in ORDER[:-1]})
+    print("bulletin by category", {k: sum(1 for e in bulletin if e['v1_category'] == k) for k in ORDER})
     print("Bigger Picture:", "included" if bp else "MISSING (write W/bigger_picture.json, then run again)")
 
 

@@ -64,3 +64,10 @@ not about which project it is.
     30 to 50 stories (usually 6, 7 or 8 and up), then state the cutoff and the count
     (Rafi, 28 Sep 2026).
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
+16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
+    only when Rafi asks, for a late start. The Bulletin also carries the top 2 or 3 Fun
+    Side stories. Cards: aim for 14 to 15 story cards; 7 to 8 of them go into Headlines,
+    roughly half (a guideline, not a gate). Everything final is saved to its designated
+    Drive place; what the Drive connection cannot upload goes to Rafi to upload himself.
+    The environment allows about 100 source sites (the network allowlist); Google News is
+    only the first of them, so read and scan those sources directly.
