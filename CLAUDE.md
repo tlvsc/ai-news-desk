@@ -66,8 +66,11 @@ not about which project it is.
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
 16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
     only when Rafi asks, for a late start. Fun Side: 5 to 10 stories in the Full Report,
-    leaving out repeats; the top 3 also go in the Bulletin. Cards: aim for 14 to 15 story cards; 7 to 8 of them go into Headlines,
-    roughly half (a guideline, not a gate). Everything final is saved to its designated
+    leaving out repeats; the top 3 also go in the Bulletin. Cards: aim for 14 to 15 story cards; 7 of them go into Headlines,
+    roughly half (a guideline, not a gate). Headlines news part is about 90 seconds (Rafi, 30 Sep
+    2026): 7 stories of about 8 to 9 seconds, Fun about 8, teaser about 8, The Bigger Picture about
+    10; the stored opening and ending come on top. Every clip time is rounded UP to the next half
+    second (8.4 becomes 8.5, 8.6 becomes 9). Everything final is saved to its designated
     Drive place; what the Drive connection cannot upload goes to Rafi to upload himself.
     The environment allows about 100 source sites (the network allowlist); Google News is
     only the first of them, so read and scan those sources directly.
