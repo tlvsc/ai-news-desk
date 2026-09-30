@@ -16,8 +16,10 @@ from the dated Full Report.
 
 This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and are fetched
 fresh every run (step 0); if a brief here disagrees with them, the Drive rules win:
-- Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1, Drive 181ziR8GrW1G16oheR8PwJIJJePtinXbe)
-- Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1, Drive 1Nd9gu3-wCSzHKEUahGfvJVbGL9ax9gcc)
+- Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1, Drive 1ipsHWmtlwW7T_Sf7Kut9Xjhn7QYYu4Wi of 30 Sep 2026)
+- Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1, Drive 1yv_Lbi2fTOrOUPHSvNU9pUeCVBb9IRO1 of 30 Sep 2026)
+  (each update gets a new Drive id; if an id above is archived, take the file of that name in its
+  blueprint folder)
 - articles_phrasing_instructions, the Plain Language Law (Drive 14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA)
 - AI News Desk — STORAGE & FILE ROUTING STANDARD (Google Doc in 00 — PROJECT OS, Drive
   1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms); it replaced AIND_daily_storage_rules.txt on
