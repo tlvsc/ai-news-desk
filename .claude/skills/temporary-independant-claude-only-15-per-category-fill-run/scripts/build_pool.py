@@ -3,12 +3,19 @@
     python build_pool.py --workdir W [--per-cat 15] [--fun 10]
 
 Reads W/run.json, W/pool/cat_NN.json and yesterday's pool (path in run.json).
-Optional editor files in W: drops.json {"drops": [[cat, rank, "why"], ...]} removes a pick;
-dedupe_overrides.json {normalised url: category id} says which category keeps a shared story.
+Optional editor files in W: drops.json {"drops": [[cat, "title", "why"], ...]} removes a pick.
+Name the pick by its exact title (or a unique start of it), as it appears in pool/cat_NN.json;
+the pool CSV's pool_rank is NOT the curator's rank, so numbers are unsafe (30 Sep 2026: a
+number removed the wrong story in two categories). A number still works for old runs, and the
+removed title is always printed. No match, or more than one, stops the script before it writes
+anything. dedupe_overrides.json {url: category id} says which category keeps a shared story;
+without it the story stays where it is a main pick rather than a backup, then in the lower
+category (30 Sep 2026: keeping it in the lower category, where it was only a backup, dropped
+the story from the pool altogether).
 Writes W/out/AIND_Pool_<edition>.json and .csv (LF line ends) and W/out/build_log.json.
 Read build_log.json: near_dupes and similar_to_yesterday need an editor's decision.
 """
-import argparse, csv, json, re
+import argparse, csv, json, re, sys
 from pathlib import Path
 
 from common import FUN, load_pool_file, load_run, norm_url, parse_utc, pool_path, short_names, similar
@@ -28,6 +35,64 @@ def in_window(pub, start, end):
     return start <= dt <= end, "datetime"
 
 
+def read_editor_files(W):
+    """drops.json and dedupe_overrides.json, checked; a bad file stops the run with a plain message."""
+    overrides, drops = {}, []
+    try:
+        if (W / 'dedupe_overrides.json').exists():
+            raw = json.loads((W / 'dedupe_overrides.json').read_text(encoding='utf-8'))
+            overrides = {norm_url(k): int(v) for k, v in raw.items()}
+        if (W / 'drops.json').exists():
+            drops = json.loads((W / 'drops.json').read_text(encoding='utf-8'))
+            if not isinstance(drops, dict) or not isinstance(drops.get('drops'), list):
+                raise ValueError('drops.json must look like {"drops": [[category number, "title", "why"], ...]}')
+            drops = drops['drops']
+            for d in drops:
+                if not (isinstance(d, list) and len(d) == 3 and isinstance(d[0], int) and isinstance(d[1], (int, str))):
+                    raise ValueError(f'each drop must be [category number, "title", "why"], got {d!r}')
+    except (ValueError, KeyError, TypeError, AttributeError) as e:
+        sys.exit(f'Editor file problem, nothing written: {e}')
+    return overrides, drops
+
+
+def norm_title(t):
+    return re.sub(r'\s+', ' ', str(t)).strip().lower()
+
+
+def apply_drops(data, drops, log):
+    for cid, key, why in drops:
+        items = data.get(cid)
+        if items is None:
+            sys.exit(f'drops.json: there is no category {cid}; nothing written.')
+        if isinstance(key, int):
+            hit = [i for i in items if i.get("rank") == key]
+        else:
+            k = norm_title(key)
+            hit = [i for i in items if norm_title(i["title"]) == k] or \
+                  [i for i in items if norm_title(i["title"]).startswith(k)]
+        if len(hit) != 1:
+            titles = "\n".join(f"  rank {i.get('rank')}: {i['title']}" for i in items)
+            sys.exit(f"drops.json: {len(hit) or 'no'} pick(s) in category {cid} match {key!r}; nothing written.\n"
+                     f"Category {cid} picks:\n{titles}")
+        it = hit[0]
+        print(f"drop, category {cid}: {it['title']} ({why})" + (" [named by number: check this title]" if isinstance(key, int) else ""))
+        log["manual_drops"].append((cid, it["title"], why))
+        data[cid] = [i for i in items if i is not it]
+
+
+def keeper(data, key, cids, overrides):
+    """Which category keeps a story picked in several: the override, else a main pick before a
+    backup, then the lower category number (the rule before 30 Sep 2026 for two main picks)."""
+    if key in overrides and overrides[key] in cids:
+        return overrides[key]
+    if key in overrides:
+        print(f"WARNING: dedupe_overrides.json names category {overrides[key]} for a story picked only in {sorted(set(cids))}; ignored")
+    def standing(cid):
+        it = next(i for i in data[cid] if norm_url(i["url"]) == key)
+        return (bool(it.get("backup")), cid)
+    return min(sorted(set(cids)), key=standing)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
@@ -37,8 +102,7 @@ def main():
     W = Path(a.workdir); run = load_run(W); (W / 'out').mkdir(exist_ok=True)
     start, end = parse_utc(run['start']), parse_utc(run['end'])
     CATS = short_names()
-    overrides = json.loads((W / 'dedupe_overrides.json').read_text()) if (W / 'dedupe_overrides.json').exists() else {}
-    drops = json.loads((W / 'drops.json').read_text())['drops'] if (W / 'drops.json').exists() else []
+    overrides, drops = read_editor_files(W)
 
     data = {}
     for cid in CATS:
@@ -53,9 +117,7 @@ def main():
 
     log = {"manual_drops": [], "out_of_window": [], "dupe_within": [], "dupe_cross": [], "near_dupes": [],
            "repeat_of_yesterday_url": [], "similar_to_yesterday": []}
-    for cid, rank, why in drops:
-        log["manual_drops"] += [(cid, i["title"], why) for i in data[cid] if i.get("rank") == rank]
-        data[cid] = [i for i in data[cid] if i.get("rank") != rank]
+    apply_drops(data, drops, log)
     # 1. out-of-window and within-category duplicates
     for cid, items in data.items():
         kept, seen = [], set()
@@ -75,14 +137,14 @@ def main():
     for cid in data:
         log["repeat_of_yesterday_url"] += [(cid, i["title"]) for i in data[cid] if norm_url(i["url"]) in yurls]
         data[cid] = [i for i in data[cid] if norm_url(i["url"]) not in yurls]
-    # 3. cross-category duplicates by URL: the override keeps it, else the lower category id
+    # 3. cross-category duplicates by URL: see keeper()
     owner = {}
     for cid in sorted(data):
         for it in data[cid]:
             owner.setdefault(norm_url(it["url"]), []).append(cid)
     for key, cids in owner.items():
         if len(set(cids)) > 1:
-            keep = overrides.get(key, cids[0])
+            keep = keeper(data, key, cids, overrides)
             for cid in set(cids) - {keep}:
                 data[cid] = [i for i in data[cid] if norm_url(i["url"]) != key]
             log["dupe_cross"].append((key, cids, keep))

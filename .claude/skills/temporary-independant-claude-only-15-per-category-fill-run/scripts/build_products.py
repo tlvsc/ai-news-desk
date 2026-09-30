@@ -4,7 +4,7 @@
 
 Selection (CLAUDE.md rule 14): stories not held back, with pool score at or above the
 report cutoff, plus every Fun Side story, go in the report; report stories at or above the
-bulletin cutoff go in the bulletin, plus the top 2 or 3 Fun Side stories (Rafi, 30 Sep 2026;
+bulletin cutoff go in the bulletin, plus the top 3 Fun Side stories (Rafi, 30 Sep 2026;
 --bulletin-fun, default 3). The report cutoff "flex5" (default) is 5,
 raised while the report would pass 150 stories and lowered while it would fall under 50
 (Rafi, 29 Sep 2026: the report is read by section, so a 5 in a reader's field is worth

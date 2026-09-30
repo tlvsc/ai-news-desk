@@ -56,7 +56,7 @@ not about which project it is.
 14. COUNTS ARE GUIDELINES, NOT GATES. Card count (~15), bulletin size, report size and
     category slots are working targets. Adjust them to the day's pool, e.g. 15 plus or
     minus 2 cards, and state the number. Never stop to ask Rafi about a count.
-    The Full Report is score 5 and up plus every Fun Side story by default: it is sorted
+    The Full Report is score 5 and up plus the Fun Side by default: it is sorted
     by category, so a reader can go to their own section, where a 5 may matter to them.
     Stay flexible on unusual days: if 5 and up passes about 150 stories, raise the
     cutoff; if it gives very few, lower it; state the cutoff and the count (Rafi,
@@ -65,8 +65,8 @@ not about which project it is.
     (Rafi, 28 Sep 2026).
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
 16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
-    only when Rafi asks, for a late start. The Bulletin also carries the top 2 or 3 Fun
-    Side stories. Cards: aim for 14 to 15 story cards; 7 to 8 of them go into Headlines,
+    only when Rafi asks, for a late start. Fun Side: 5 to 10 stories in the Full Report,
+    leaving out repeats; the top 3 also go in the Bulletin. Cards: aim for 14 to 15 story cards; 7 to 8 of them go into Headlines,
     roughly half (a guideline, not a gate). Everything final is saved to its designated
     Drive place; what the Drive connection cannot upload goes to Rafi to upload himself.
     The environment allows about 100 source sites (the network allowlist); Google News is
