@@ -181,7 +181,7 @@ def main():
                 "coverage": f"{WINDOW} · {len(report)} stories · {len(cats(report))} categories",
                 "categories": cats(report), "extra_sections": extra}
     bul_json = {"title": "Daily Bulletin", "date": DATE,
-                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more.",
+                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more, plus the top {len(fun)} from The Fun Side.",
                 "coverage": f"{WINDOW} · {len(bulletin)} stories",
                 "categories": cats(bulletin), "extra_sections": [about]}
     (OUT / 'report_pdf.json').write_text(json.dumps(rep_json, indent=1, ensure_ascii=False), encoding='utf-8')
