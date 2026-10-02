@@ -29,3 +29,40 @@ Recorded here so they are not lost; the project's task list lives on Drive
 11. 8 sampler steps, the 4 second voice sample, the unhurried presenter tone (CLAUDE.md 16, 2 Oct). Headlines rules say six steps; the prompt file has the old tone. Move after the 2 Oct clips prove it.
 12. Opening and ending regenerated as options on request, stored ones stay approved until Rafi picks (CLAUDE.md 16, 2 Oct).
 Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 in the Bulletin, bypassed opening and ending.
+
+## Learned on 2 Oct 2026 after the porting list above (recorded the same day, Rafi's ask)
+
+13. SPEAKING SPEED: the clip length sets the pace, not the prompt words. At 4.4 syllables per second,
+    with the final second reserved for the hands and breaths between stories, the presenter rushes.
+    Test on the 3 in 1 prompt by changing only the seconds: 24.5 (now), 25.5 (plus 1 s hold),
+    26.5 (4.0 per second), 27.5 (4.0 plus 1 s hold, recommended). Rafi picks; then the formula
+    changes in the fill script, CLAUDE.md rule 16 and, later, Drive rule B1a.
+14. LONG CLIPS: a 24.5 s clip with three stories was tried on 2 Oct; nothing over 12 s was tested
+    before. Record the result (pose, lip sync, screen) before allowing long clips.
+15. SCREEN INSTRUCTIONS AS TIMELINES: write the hologram screen as absolute seconds inside the clip
+    (0.0 to 0.5 logo, fades, picture, logo back, hold to the end), with "no readable text" and the
+    reflection line. Used for the 2 Oct opening and ending; if they render well, this style goes
+    into the Drive prompt blueprint.
+16. ENDING SCREEN: like, follow and share as text free symbols (thumbs up, person with plus,
+    share arrow), never words; logo back before the end.
+17. TEST JSON METHOD: a short subset at base 544x960 only (upscale saves off) with _test30 output
+    names, same seed and settings, to check new settings before the full run.
+18. VOICE SAMPLE: AIND_anchor_voice_sample_4s.mp3 (first 4 s of the 8 s sample, stream copy, 192 kb/s)
+    exists only in this session and on Rafi's PC; it belongs in Headlines Master Permanent Assets
+    (Rafi uploads).
+19. STRANGER CHECK RESULTS: a line fails when it needs background knowledge (S I = super
+    intelligence), when a watch item is named without why it matters, or when two facts sound like
+    one. Fix the line, not the reader.
+20. FIND FIRST, WRITE SECOND: when Rafi names a project file, locate it on Drive and say where it
+    is before writing anything anywhere.
+21. SHEETS GAP: this session's Drive connection cannot write into a Google Sheet; the Project
+    Task List is a Sheet. Connect Google Sheets to Claude, or Rafi/ChatGPT adds the row.
+22. CARD COPY MODEL: ask Fable for card and Headlines wording; the owner's headline for card 13
+    (the deed first: judge rejected lawsuits over Google summing up websites instead of linking)
+    is the reference; five rewrites were needed on 2 Oct because no gate existed.
+23. REPEATS: cards 8 and 10 of 2 Oct (Google satellite, Microsoft Copilot) had been reported on
+    earlier days; the repeat check must cover the last three days of cards and Headlines.
+24. CREDIT CLASH: Full Report rule 6.1 (link the original) versus the writer brief (credit the
+    outlet read when the original is blocked); 7 stories on 2 Oct credit wire copies. Rafi to settle.
+25. 14 of 15 story cards on 2 Oct fail the 15 word check; left as they were by Rafi's choice.
+    The gate (task 1) prevents this from the next run.
