@@ -4,11 +4,12 @@ These carry over from the TLVSC store repo because they are about how Rafi works
 not about which project it is.
 
 0. TOP REQUIREMENT (Rafi, 2 Oct 2026). This Claude session is temporary, until V1 works.
-   The repo (this file and the skill in `.claude/skills/`) is its source of truth. Drive is
-   read only reference: read it, but where it disagrees with the repo, the repo wins and
-   Rafi is told. Any write or change in Drive (create, upload, rename, move, archive, edit)
-   happens only on Rafi's explicit authority for that action. This rule wins over every
-   rule below, including any that says to save to Drive.
+   Drive is always the source of truth for the project: read its process, rules and
+   structure files for directions, then run the work in this repo. Never touch Drive unless
+   Rafi clearly asks (no create, upload, rename, move, archive or edit). If a problem comes
+   up, such as a Drive rule and a repo rule that disagree, flag it to Rafi and continue with
+   the repo rules. This rule wins over every rule below, including any that says to save to
+   Drive.
 1. ROUTE THE JOB BEFORE DOING IT. Before starting ANY task, scan who or what can
    actually do it — this cloud session, Claude Code local on Rafi's PC, another AI
    tool, a Drive feature, a script Rafi runs, a human. Present ALL viable paths in
