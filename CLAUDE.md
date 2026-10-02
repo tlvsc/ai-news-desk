@@ -89,3 +89,12 @@ not about which project it is.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.
+17. THE BIGGER PICTURE CORNER (Rafi, 2 Oct 2026). On the cards and in the Headlines clip it is a
+    summation of all the big things happening, focused on what moves the market, followed by
+    things to watch and follow so the story can be seen unfolding. It is never a vague
+    restatement of the day's headlines. Cards: the headline is the market summation, the body
+    names what happened and what to watch (4 lines, the notice stays). Headlines clip 11: same
+    content, 10 seconds. This is the newest ruling for this corner and overrides the "markets at
+    most a quarter" cap of the Full Report rule 5.5 and the money limits of the Cards rules, for
+    this corner only. Drive V1 files are never edited (rule 0). The Full Report PDF's Bigger
+    Picture section stays as it is until Rafi rules on it.
