@@ -66,17 +66,31 @@ python3 $K/collect.py --workdir $W --edition YYYY-MM-DD --yesterday $W/yesterday
 ```
 Default window: the 24 hours ending now (Rafi, 30 Sep 2026); use `--hours 30` only when Rafi asks, for a late start. Prints candidates per category (28 Sep: 3,765).
 
+### 1b. The 55 sources (Rafi, 2 Oct 2026; Google News stays first and main)
+```
+python3 $K/source_scan.py --workdir $W        # about 1 minute
+```
+Reads the 55 sources of `$SKILL/sources_55.txt` (copied from Rafi's Drive sheet "five per category
+source list"): each source's feed, else Google News for that site only (so blocked sites such as AP,
+Bloomberg, FT and Reuters are still read). Writes `$W/candidates_55.json` (same fields as the
+candidate files) and `$W/source_scan_report.json` (how each source was read). 2 Oct 2026: 191 stories,
+38 sources by feed, 17 by Google site search.
+
 ### 2. Curate (16 agents in parallel, about 15 minutes)
 ```
-python3 $K/make_prompts.py --workdir $W --stage curate
+python3 $K/make_prompts.py --workdir $W --stage curate [--per-cat 20]
 ```
 Launch 16 background agents in ONE message, description "Curate cat NN", prompt:
 `Read $W/prompts/curate_NN.txt and follow it exactly.` Each writes `$W/pool/cat_NN.json`
-(15 main plus 3 backup; Fun 10 plus 3).
+(15 main plus 3 backup; Fun 10 plus 3). Rafi, 2 Oct 2026: 15 per category is enough, up to 20 where
+there are plenty of good ones (never padded), so use `--per-cat 20`; curator.md has no {EXTRA}
+placeholder, so append the day's rules (read candidates_55.json too; 15 to 20 main picks, a clear
+importance 5 or more beyond 15; 3 backups flagged `"backup": true`) to each `prompts/curate_NN.txt`
+before launching.
 
 ### 3. Build the pool
 ```
-python3 $K/build_pool.py --workdir $W
+python3 $K/build_pool.py --workdir $W [--per-cat 20]
 ```
 Read `$W/out/build_log.json`. For each near duplicate or same story in two categories, decide
 which stays: `$W/drops.json` {"drops": [[cat, "exact title", "same story kept in X"]]} (name
@@ -216,6 +230,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
 - scripts/collect.py, build_pool.py, decode_links.py (with gd.py), make_chunks.py,
   qa_check.py, build_products.py, make_prompts.py: the steps above.
 - scripts/drive_save.py: saves a downloaded Drive file to disk exactly (step 0).
+- scripts/source_scan.py and sources_55.txt: the 55 sources of Rafi's sheet (step 1b).
 - briefs/curator.md, writer.md, editor.md: agent prompts (filled by make_prompts.py).
 - briefs/bigger_picture.md: format and rules pointer for step 10.
 - categories.json: the 16 curator categories (LV2 taxonomy).
