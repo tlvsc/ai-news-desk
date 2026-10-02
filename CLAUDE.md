@@ -89,6 +89,17 @@ not about which project it is.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.
+    HEADLINES GENERATION (Rafi, 2 Oct 2026, to be tested on the 2 Oct clips; if it works it moves to
+    the Drive prompt blueprint): 8 sampler steps, not 6 (8 fixed the stuttering voice); the voice
+    reference is the 4 second sample AIND_anchor_voice_sample_4s.mp3, not the 8 second one; the
+    prompt never rushes the presenter: "at a natural, unhurried pace, in an authoritative and
+    informative news presenter tone, clear and easy to understand, never rushed". The fill
+    writes these into the JSON (visible and named values) and says so in its CONFIG line.
+    OPENING AND ENDING OPTIONS (Rafi, 2 Oct 2026): when Rafi asks, slots 1 and 13 are generated
+    as new options (the opening with the 28 Sep 2026 prompt wording, the ending with the approved
+    15 Sep 2026 wording) and compared with the stored clips; the stored clips stay the approved
+    ones until Rafi picks. Stored so far: openings 2026-09-09, 2026-09-11, 2026-09-23 (two clips);
+    endings 2026-09-09 and 2026-09-15 (approved), in Headlines Master Permanent Assets.
 17. THE BIGGER PICTURE CORNER (Rafi, 2 Oct 2026). On the cards and in the Headlines clip it is a
     summation of all the big things happening, focused on what moves the market, followed by
     things to watch and follow so the story can be seen unfolding. It is never a vague
