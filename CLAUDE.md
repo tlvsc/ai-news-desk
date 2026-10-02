@@ -96,5 +96,7 @@ not about which project it is.
     names what happened and what to watch (4 lines, the notice stays). Headlines clip 11: same
     content, 10 seconds. This is the newest ruling for this corner and overrides the "markets at
     most a quarter" cap of the Full Report rule 5.5 and the money limits of the Cards rules, for
-    this corner only. Drive V1 files are never edited (rule 0). The Full Report PDF's Bigger
-    Picture section stays as it is until Rafi rules on it.
+    this corner only. Drive V1 files are never edited (rule 0). One story at three lengths (Rafi,
+    2 Oct 2026): the card is the short hook; the Bulletin carries a deeper look than the card,
+    short, explaining the card (W/bigger_picture_bulletin.json); the Full Report carries the full
+    analysis written for the day (W/bigger_picture.json).

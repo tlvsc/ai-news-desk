@@ -180,10 +180,17 @@ def main():
                 "purpose": "The day's comprehensive AI intelligence report: every story we kept from today's pool, grouped by subject and ranked by importance.",
                 "coverage": f"{WINDOW} · {len(report)} stories · {len(cats(report))} categories",
                 "categories": cats(report), "extra_sections": extra}
+    # Rafi, 2 Oct 2026: the Bulletin carries a short Bigger Picture, a deeper look than the card;
+    # the Full Report carries the full analysis. W/bigger_picture_bulletin.json: {"title", "paragraphs"}.
+    bbf = W / 'bigger_picture_bulletin.json'
+    bul_extra = [about]
+    if bbf.exists():
+        bb = json.loads(bbf.read_text(encoding='utf-8'))
+        bul_extra.insert(0, {"title": bb['title'], "paragraphs": bb['paragraphs']})
     bul_json = {"title": "Daily Bulletin", "date": DATE,
                 "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more, plus the top {len(fun)} from The Fun Side.",
                 "coverage": f"{WINDOW} · {len(bulletin)} stories",
-                "categories": cats(bulletin), "extra_sections": [about]}
+                "categories": cats(bulletin), "extra_sections": bul_extra}
     (OUT / 'report_pdf.json').write_text(json.dumps(rep_json, indent=1, ensure_ascii=False), encoding='utf-8')
     (OUT / 'bulletin_pdf.json').write_text(json.dumps(bul_json, indent=1, ensure_ascii=False), encoding='utf-8')
     ids = [e['item_id'] for e in report]
