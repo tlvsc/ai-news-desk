@@ -3,6 +3,12 @@
 These carry over from the TLVSC store repo because they are about how Rafi works,
 not about which project it is.
 
+0. TOP REQUIREMENT (Rafi, 2 Oct 2026). This Claude session is temporary, until V1 works.
+   The repo (this file and the skill in `.claude/skills/`) is its source of truth. Drive is
+   read only reference: read it, but where it disagrees with the repo, the repo wins and
+   Rafi is told. Any write or change in Drive (create, upload, rename, move, archive, edit)
+   happens only on Rafi's explicit authority for that action. This rule wins over every
+   rule below, including any that says to save to Drive.
 1. ROUTE THE JOB BEFORE DOING IT. Before starting ANY task, scan who or what can
    actually do it — this cloud session, Claude Code local on Rafi's PC, another AI
    tool, a Drive feature, a script Rafi runs, a human. Present ALL viable paths in
@@ -71,7 +77,14 @@ not about which project it is.
     2026): 7 stories of about 8 to 9 seconds, Fun about 8, teaser about 8, The Bigger Picture about
     10; the stored opening and ending come on top. Every clip time is rounded UP to the next half
     second (8.4 becomes 8.5, 8.6 becomes 9). One company gets at most 2 stories in Headlines and
-    at most 3 story cards (Rafi, 30 Sep 2026); past that, the next biggest story in the field goes in. Everything final is saved to its designated
-    Drive place; what the Drive connection cannot upload goes to Rafi to upload himself.
-    The environment allows about 100 source sites (the network allowlist); Google News is
-    only the first of them, so read and scan those sources directly.
+    at most 3 story cards (Rafi, 30 Sep 2026); past that, the next biggest story in the field goes in. Everything final goes to its designated
+    Drive place only on Rafi's explicit yes for that save (rule 0); what the Drive connection
+    cannot upload goes to Rafi to upload himself.
+    SOURCES (Rafi, 2 Oct 2026): Google News is first and main. Then read the 55 sources of the
+    Drive sheet "five per category source list" (reference only), directly, for the same
+    window, and give their stories to the curators. The network allowlist holds all of them.
+    PER CATEGORY (Rafi, 2 Oct 2026): 15 stories is enough; where there are plenty of good
+    ones, take up to 20; never pad with weak stories. The Fun Side stays at 10.
+    BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
+    for that stage, its rules and structure files), run the skill's script as the truth, and
+    fix or help the script only afterwards.
