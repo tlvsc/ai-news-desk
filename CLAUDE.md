@@ -86,6 +86,11 @@ not about which project it is.
     window, and give their stories to the curators. The network allowlist holds all of them.
     PER CATEGORY (Rafi, 2 Oct 2026): 15 stories is enough; where there are plenty of good
     ones, take up to 20; never pad with weak stories. The Fun Side stays at 10.
+    3 OCT 2026 RUN (Rafi, 3 Oct 2026, newer than the line above, so it wins for this run): 16
+    curator agents, one per LV2 category; each finds 10 new unique items from the last 24
+    hours that fit the timing window and its own category, so the pool is 160 (the 3 flagged
+    backups only replace items dropped as duplicates). Then the Full Report. Repeats are
+    checked against the last 4 days of pools (29 Sep to 2 Oct). Rafi to say if 10 stays.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.
