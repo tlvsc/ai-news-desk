@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-01",
+ "title": "India demonstrates first 5.56-km free-space quantum-secure communication link",
+ "source_used": "ANI News",
+ "article_url": "https://www.aninews.in/news/business/india-demonstrates-first-556-km-free-space-quantum-secure-communication-link20261003181508",
+ "fetched": true,
+ "key_facts": [
+  "India's Ministry of Electronics and Information Technology announced on Saturday 3 Oct 2026 the country's first free-space quantum key distribution (QKD) link, over 5.56 km.",
+  "The field trial was run by QNu Labs with BISAG-N (a government scientific society) and IIT Gandhinagar on the night of 27-28 Sep 2026, between BISAG-N and IIT Gandhinagar.",
+  "The link kept a quantum bit error rate below 5 percent and produced secure keys at 230-260 bits per second.",
+  "Keys were fed into BISAG-N's post-quantum cryptography platform Vedic Kavach to encrypt and decrypt test messages end to end.",
+  "The design combines QNu Labs' hardware QKD device Armos with software-based post-quantum cryptography and quantum random numbers, meant to stay secure if the quantum channel drops.",
+  "Free-space QKD sends keys through open air by optical link instead of fibre, a step the ministry links to future long-distance and satellite systems.",
+  "QNu Labs was founded in 2016 and builds quantum-secure communication products."
+ ],
+ "quote_evidence": [
+  "According to the ministry, the trial achieved a stable Quantum Bit Error Rate of below 5 per cent and generated secure encryption keys at a rate of 230-260 bits per second.",
+  "The field trial was carried out by QNu Labs in collaboration with the Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N) and IIT Gandhinagar on the night of September 27-28, the Ministry of Electronics and Information Technology said in a release on Saturday.",
+  "“The integration of Vedic Kavach with QNu Labs’ QKD technology marks a significant step towards practical quantum-resilient communication systems,” Dr Vinay Thakur, Director General of BISAG-N, said."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A government-backed open-air QKD trial is a building block for satellite-based quantum-secure networks in India.",
+ "event_date": "Trial 27-28 Sep 2026; ministry release 3 Oct 2026",
+ "notes": "Official ministry release relayed by ANI; results are the ministry's and partners' own figures, no outside review mentioned. 5.56 km is short by international standards; the article does not compare it."
+}

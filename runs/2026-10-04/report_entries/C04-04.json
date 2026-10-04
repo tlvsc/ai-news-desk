@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-04",
+ "v1_category": "RES",
+ "headline": "Barcelona researchers trained an AI to spot ageing in the 3D folding of DNA inside mouse blood stem cells.",
+ "score": 4,
+ "score_reason": "A modest mouse-cell result (77 percent accuracy) from a paper published on 27 Sep 2026, now surfacing through a press-release site; one point below the pool score for age.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Ageing researchers gain a cheap, open image-based test for screening would-be rejuvenation drugs, but the result is in mouse cells, the accuracy is modest and the authors stress it does not show any drug actually made cells younger.",
+ "source": "SciTechDaily",
+ "status": "PRELIMINARY",
+ "summary": "SciTechDaily reports that researchers at IDIBELL, the Barcelona Supercomputing Center and ISGlobal built ChromAgeNet, an image-reading neural network that tells young mouse blood stem cells from aged ones by the three-dimensional arrangement of their DNA, with a 77 percent probability of a correct call in a paper published in Aging Cell on 27 Sep 2026. Because the staining method is cheap and the model small, the team says it could screen many compounds for signs of a younger DNA pattern, though it does not establish that any treatment restored the cells' function.",
+ "url": "https://scitechdaily.com/ai-can-detect-hidden-signs-of-aging-in-the-3d-architecture-of-dna/",
+ "freshness": "FOLLOW-UP of 27 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Score 4 falls below the report cutoff of 5; the main session may hold it back. SciTechDaily appears to rewrite an institutional release and names no other outlet, so it stays the source."
+}

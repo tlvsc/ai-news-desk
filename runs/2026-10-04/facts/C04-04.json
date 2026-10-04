@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-04",
+ "title": "AI Can Detect Hidden Signs of Aging in the 3D Architecture of DNA",
+ "source_used": "SciTechDaily",
+ "article_url": "https://scitechdaily.com/ai-can-detect-hidden-signs-of-aging-in-the-3d-architecture-of-dna/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at IDIBELL (Bellvitge Biomedical Research Institute), the Barcelona Supercomputing Center and ISGlobal built an AI tool called ChromAgeNet that reads 3D images of the nucleus of mouse blood stem cells to tell young cells from aged ones.",
+  "The study, published in Aging Cell on 27 Sep 2026, reports a 77 percent probability of correctly distinguishing young from aged cells.",
+  "ChromAgeNet is a convolutional neural network trained on DAPI-stained nuclei; it beat a machine learning model that used chromatin features defined in advance.",
+  "Features behind its predictions include chromatin entropy (disorder) and tightly packed heterochromatin near the nuclear edge.",
+  "As a proof of concept the team applied it to aged stem cells treated with epigenetic drugs to see whether DNA organisation shifted toward a younger pattern; the authors say this does not show the drugs rejuvenated the cells.",
+  "The tool and an image dataset were released to the scientific community; leads were Maria Carolina Florian (IDIBELL/ICREA) and Paula Petrone (BSC-CNS/ISGlobal)."
+ ],
+ "quote_evidence": [
+  "In a study of mouse blood stem cells published in Aging Cell, the model showed a 77% probability of correctly distinguishing young cells from aged ones.",
+  "The results demonstrate the tool’s potential for detecting responses to interventions, but they do not establish that the drugs restored the cells’ function or rejuvenated them.",
+  "“Deep Learning Predicts Hematopoietic Stem Cell Aging From 3D Chromatin Images” by Pablo Iáñez Picazo, ... 27 September 2026, Aging Cell."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A cheap image-based AI readout of ageing in blood stem cells could speed screening of possible rejuvenation drugs, but only in mice so far.",
+ "event_date": "Paper published 27 Sep 2026",
+ "notes": "SciTechDaily piece reads as an institutional press release rewrite; the paper is a week old (27 Sep 2026), so this is a follow-up and the score is lowered by one. Mouse cells only; 77 percent accuracy is modest."
+}

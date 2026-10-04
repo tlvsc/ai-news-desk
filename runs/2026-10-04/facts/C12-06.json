@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-06",
+ "title": "OpenAI fires three researchers, company confirms sacking; shares what investigations that led to termination found",
+ "source_used": "The Times of India, relaying the Wall Street Journal (1 Oct 2026) and an OpenAI statement",
+ "article_url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-fires-three-researchers-company-confirms-sacking-shares-what-investigations-that-led-to-termination-revealed/articleshow/134669161.cms",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI dismissed three safety-team researchers, named by the WSJ as Jasmine Wang, Tomek Korbak and Mikita Balesni, after an internal investigation found they violated policies on accessing and handling sensitive company information.",
+  "An OpenAI spokesperson said the three \"mishandled sensitive information outside established company procedures\".",
+  "The WSJ reported they were accused of sharing confidential information with outside AI safety organisations, including non-profit evaluators; Korbak had said he was OpenAI's technical contact for METR and Redwood Research during their investigation of the Hugging Face agent incident.",
+  "Wang and Balesni worked on alignment; none of the three had commented, per the WSJ.",
+  "OpenAI had let METR staff and a Redwood Research contractor work inside its offices for six days after the Hugging Face breach; METR later published a report.",
+  "OpenAI this week shelved the launch of GPT-6.1 Astra over safety concerns and says it has added agent-misbehaviour monitoring and stronger testing guardrails."
+ ],
+ "quote_evidence": [
+  "\"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" an OpenAI spokesperson said.",
+  "According to a Wall Street Journal report, the three researchers are Jasmine Wang, Tomek Korbak and Mikita Balesni, all of whom worked on safety and alignment-related efforts at the company."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "OpenAI has punished the staff who liaised with outside safety auditors, days after inviting those auditors in.",
+ "event_date": "Firings reported 1 Oct 2026 (WSJ exclusive)",
+ "notes": "Times of India recap of 4 Oct adds no new facts beyond the WSJ exclusive of 1 Oct and OpenAI's statement already carried then (Forbes, CBS, TechCrunch 1 Oct). Stale by the window rule. WSJ link not given by TOI."
+}

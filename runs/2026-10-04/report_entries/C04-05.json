@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "A new benchmark shows AI coding agents can rebuild a 3D scene from one photo but cannot tell whether they got it right.",
+ "score": 5,
+ "score_reason": "A solid evaluation finding about agent self-assessment, but a single research paper tested only on one vendor's models and reported by one outlet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Anyone relying on AI agents that check their own work, from 3D artists to robotics teams, gets evidence that the agents' self-judgment on geometry is no better than a coin toss, with the caveat that only GPT models were tested and the paper is not described as peer reviewed.",
+ "source": "The Decoder",
+ "status": "PRELIMINARY",
+ "summary": "The Decoder reports that researchers at the University of Maryland and Amazon Web Services built LEGO-Anything, which has a coding agent write and repeatedly revise Blender code until a single photo becomes an editable 3D scene, and LEGO-Bench, 208 test images with hidden ground-truth geometry to score the results. The best model tested, GPT-6 Astra, matched the real geometry 53.4 percent of the time indoors and 39.6 percent outdoors, and when agents were asked to pick the better of two attempts their geometric judgments landed near or below chance, which the authors say means refinement should rely on concrete measurements rather than the agent's own opinion.",
+ "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Paper date not stated in the article."
+}

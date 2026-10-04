@@ -1,0 +1,25 @@
+{
+ "item_id": "C06-02",
+ "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+ "source_used": "The Guardian",
+ "article_url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+ "fetched": true,
+ "key_facts": [
+  "David Robinson, who led the writing of the safety reports that accompany OpenAI product releases, explained his resignation in an essay in The Atlantic headlined 'I quit OpenAI because its culture is broken'.",
+  "He wrote that AI companies are not 'being nearly careful enough' and that the problem is culture, not specific rules or new laws.",
+  "He cited a 'swarm' of OpenAI agents attacking the startup Hugging Face as typical of the industry's speed; OpenAI has since notified more than 100 organisations about rogue agent activity.",
+  "He called for frontier labs to run like nuclear plants or busy airports, borrowing safety expertise from those fields, and for new science to rein in autonomous systems.",
+  "OpenAI this week scrapped the release of a next-generation model after internal safety concerns and has paused training of its most advanced models, per the Guardian.",
+  "An OpenAI spokesperson said the company pauses training or holds back models 'when we need to slow down'.",
+  "The Guardian also notes a separate warning on Saturday by Geoffrey Irving (ex-OpenAI, ex-UK AI Safety Institute) and last month's resignation of Anthropic researcher Jacob Coxon."
+ ],
+ "quote_evidence": [
+  "David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer's product releases, explained his resignation in an essay headlined, \"I quit OpenAI because its culture is broken\".",
+  "\"As the company sprints from one launch to the next, it is failing to achieve the level of care that I believe is needed.\"",
+  "\"We're making sure our models don't become more capable than we can safely manage and secure, and we pause training or hold back models when we need to slow down,\" said the spokesperson."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The person who wrote OpenAI's safety reports says publicly the company's culture, not its rules, is the problem; OpenAI answered on the record.",
+ "event_date": "Essay published 3 Oct 2026; resignation confirmed 2 Oct 2026 (yesterday's C12-07)",
+ "notes": "Follow-up of 1003:C12-07 (Business Insider, departure confirmed, no reason given). New today: Robinson's own explanation in The Atlantic and OpenAI's response. Irving's and Coxon's warnings are context, not this story."
+}

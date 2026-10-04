@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-03",
+ "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+ "source_used": "WIRED",
+ "article_url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+ "fetched": true,
+ "key_facts": [
+  "Meta's new personal AI assistant Muse has been downloaded by millions; users connect it to bank accounts, messages or health data and let it complete tasks.",
+  "Several researchers extracted Muse's internal files and operating instructions; independent researcher Karan Joshi did so through the normal chat interface and shared the findings with WIRED.",
+  "One instruction tells Muse to build 'a page for every person in the user's life', refreshed hourly, covering family, partners, friends, colleagues and people the user follows, with sections such as Facts, History, The relationship, In common, Open threads and Strengthening.",
+  "The instructions say pages record where people live, what they do, recurring threads, dates that matter and how close the relationship is, using only available evidence.",
+  "Meta says it intended the files to be accessible for transparency; each user has a dedicated virtual machine, can wipe memories or disconnect services, and Muse asks for confirmation before actions like sending email or buying.",
+  "Meta spokesperson Daniel Roberts said Muse gathers context from public information and what the user chooses to share; Oxford's Carissa Veliz and CDT's Miranda Bogen raised concerns about how much people are handing over."
+ ],
+ "quote_evidence": [
+  "One of Muse's instructions appears to be the ability for it to create \"a page for every person in the user's life.\"",
+  "\"They're trying to know you like a friend, which is honestly pretty creepy,\" says Joshi.",
+  "\"For any agent to be useful and actually help you achieve your goals, it needs to have context about you and those you interact with,\" Meta spokesperson Daniel Roberts told WIRED in a statement."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A viral Meta assistant is instructed to keep hourly-updated dossiers on everyone in a user's life, which privacy experts say widens what Meta knows about people who never signed up.",
+ "event_date": "Reported 3 Oct 2026 (extractions in recent days)",
+ "notes": "WIRED newsletter piece with its own reporting; Meta's response included. Single outlet so far."
+}

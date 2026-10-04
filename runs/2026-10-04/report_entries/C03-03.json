@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "DeepSeek has released an experimental bridge that lets Anthropic's Claude Code add-ons run inside its own open-source agent app.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: fresh, open-source, and a notable cross-company move, but alpha software with stated gaps and one outlet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who build add-ons for Claude Code may soon run them in a rival Chinese open-source agent too, which chips at tool lock-in for coding assistants and raises Harness's profile against Anthropic, although DeepSeek itself calls the layer a test of API coverage rather than working compatibility.",
+ "source": "Pandaily",
+ "status": "REPORTED",
+ "summary": "Pandaily reports that DeepSeek published Harness v0.2.1-alpha.1 on GitHub on 3 Oct 2026, adding an experimental compatibility layer that runs Claude Code Mods, the JavaScript and TypeScript hooks Anthropic introduced at the start of October to customise its coding agent, as plugins in DeepSeek's open-source agent application. DeepSeek's release notes say the aim for now is to check that the Mods interface is broadly a subset of what Harness plugins can do, and three of Anthropic's example mods run while four others are marked not runnable and mods run without a sandbox.",
+ "url": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-1-claude-code-mods-compatibility-layer",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pandaily page needed its embedded data decoded to read; facts rest on Pandaily's account of the GitHub release notes, which were not read directly."
+}

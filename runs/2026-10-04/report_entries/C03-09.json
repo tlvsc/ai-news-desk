@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-09",
+ "v1_category": "MOD",
+ "headline": "Microsoft has released a test that judges AI agents by the database records they leave behind and finds even the best models get the record right every time on fewer than half the tasks.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a useful open benchmark with striking numbers, but a vendor's own early results without outside review.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Businesses putting AI agents on customer orders and refunds now have a public tool to check whether an agent gets the record right every time, and Microsoft's first run says even the best models do so on fewer than half the tasks, though the tasks are synthetic and the results come from the benchmark's own authors.",
+ "source": "Microsoft (Hugging Face blog)",
+ "status": "PRELIMINARY",
+ "summary": "Microsoft's Copilot Studio team writes on Hugging Face that it has released ThinkingBox, a sandbox and benchmark of 507 synthetic business workflows that grades an AI agent on the final state of the backend database rather than on its replies, running every task 20 times; across 12 models about two thirds of failed attempts ended with no error reported, and most of those left wrong values in the records. In Microsoft's figures Claude Opus 5.5 leads single-attempt success at 67 percent, Kimi-K3 solves 94 percent of tasks at least once but only 13 percent every time, and the team says about four in five failures are tool handling rather than reasoning.",
+ "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Self-published vendor results; cost figures are an index based on 20 Sep 2026 list prices, not real bills."
+}

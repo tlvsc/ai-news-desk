@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-02",
+ "title": "Google Antigravity adds Anthropic's Claude Opus 5.5 and Sonnet 5.5",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/",
+ "fetched": true,
+ "key_facts": [
+  "Google's Antigravity coding tool (its agentic IDE, built after the roughly $2.4 billion Windsurf licensing and hiring deal) now lists Anthropic's Claude Opus 5.5 and Claude Sonnet 5.5 in its model picker, per Google's model documentation.",
+  "Access is limited to paying Google AI Pro ($19.99 a month) and Ultra ($99.99 and $199.99) subscribers; a trial Pro plan, free, AI Plus and Enterprise tiers do not get them, according to the documentation and pricing reported by CloudZero.",
+  "Antigravity had been running the older Claude Opus 4.6 and Sonnet 4.6 even after Anthropic shipped Opus 5.5 on 22 Sep and Sonnet 5.5 on 28 Sep 2026; the 4.6 models are scheduled for removal on 2 Nov.",
+  "Google has not announced the change in a blog post or changelog; the model page is the only confirmation so far.",
+  "Antigravity's default is Gemini 3.1 Pro with a 1 million token context; it also offers OpenAI's GPT-OSS 120B, all billed through a Google account."
+ ],
+ "quote_evidence": [
+  "Google's Antigravity coding platform has quietly added Anthropic's Claude Opus 5.5 and Sonnet 5.5 to its model picker, but only for paying Google AI Pro and Ultra subscribers.",
+  "Google's model documentation says a trial Pro subscription doesn't unlock the new Claude models.",
+  "Google's model page confirms the addition, while the changelog still does not call out either model."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Google keeps its coding tool a place where a rival's newest models compete with Gemini, which changes how teams buy AI coding capacity (one Google bill instead of separate API accounts).",
+ "event_date": "not stated; article 3 Oct 2026, change found in Google documentation",
+ "notes": "Single outlet reading Google's documentation; no Google statement. Exact date of the change not given. Page contains unrelated promotional snippets ignored."
+}

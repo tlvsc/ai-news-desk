@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Leaked instructions show Meta's Muse assistant is told to keep an hourly-updated profile of every person in a user's life.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: documented from the extracted instructions and confirmed in part by Meta, with a very large user base.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Friends and relatives who never installed Muse can end up profiled by it, privacy regulators get a fresh test case, and Meta must defend a design that leans on relationships more than rival assistants do; Meta says the data comes only from public information and what users share, and users can wipe it.",
+ "source": "WIRED",
+ "status": "REPORTED",
+ "summary": "WIRED reports that researchers who extracted the operating instructions of Meta's new AI assistant Muse, an agent millions have connected to their messages, bank accounts and health data, found it is told to build \"a page for every person in the user's life\", refreshed every hour, recording where they live, important dates, recurring topics and how to strengthen the relationship. Meta says the files were meant to be readable, that Muse draws only on public information and what users share, and that users can delete memories at any time, but privacy researchers told WIRED the design pushes people to hand Meta far more about themselves and others than before.",
+ "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Could also sit in LAW (privacy) but the curator's SEC default kept; the story is about data governance of an agent."
+}

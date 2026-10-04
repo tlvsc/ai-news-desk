@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-03",
+ "title": "DeepSeek Harness v0.2.1-alpha.1 Adds Experimental Claude Code Mods Compatibility Layer",
+ "source_used": "Pandaily",
+ "article_url": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-1-claude-code-mods-compatibility-layer",
+ "fetched": true,
+ "key_facts": [
+  "DeepSeek published Harness v0.2.1-alpha.1 on GitHub on 3 Oct 2026, less than a week after the v0.2 preview added desktop installers and a plugin manager to its open-source agent application.",
+  "Main addition: an experimental compatibility layer that runs Claude Code Mods (Anthropic's new JavaScript/TypeScript customization hooks for its coding agent, launched at the start of October) as Harness plugins.",
+  "DeepSeek's release notes say the goal at this stage is to verify that the Mods API is broadly a subset of what Harness plugins can do, not to offer full practical compatibility; the change is credited to Harness team lead Cui Tianyi.",
+  "Anthropic's example mods Token Weather, Blast Radius and Replay Theater run; four mods from Anthropic's repository (diff, agents-md, sec-default, telemetry) are marked not runnable; mods load through Harness configuration and run without a sandbox.",
+  "Also new: a 'Let Agent create a plugin' entry, an optional Developer Tools bundle with raw session logs and host diagnostics, bug fixes and breaking changes for plugin authors including removal of runtime invariant plugins."
+ ],
+ "quote_evidence": [
+  "DeepSeek published DeepSeek Harness v0.2.1-alpha.1 on GitHub on October 3, in the middle of China's National Day holiday and less than a week after the v0.2 preview added desktop installers and a plugin manager to its open-source agent application.",
+  "At this stage, the layer is meant to verify that the Claude Code Mods API's capabilities are broadly a subset of what Harness plugins can do, rather than to offer users complete, practical compatibility.",
+  "Mods cannot simply be copied over: they load through Harness's own configuration and run without a sandbox."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Chinese open-source agent runtime is moving within days to absorb Anthropic's new extension format, an early sign that coding-agent add-ons could become portable across rival tools.",
+ "event_date": "3 Oct 2026",
+ "notes": "Pandaily page is JavaScript-rendered; text recovered from the page's embedded data. Facts rest on Pandaily's reading of DeepSeek's GitHub release notes; no other outlet found covering this alpha (MarkTechPost covers the earlier v0.2 desktop apps). Alpha software, experimental feature."
+}

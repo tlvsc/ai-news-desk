@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "Attackers began exploiting a file-server flaw within a day of its discovery by Anthropic's restricted Mythos model.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: well sourced, but a niche product and the exploitation attempts happened on 1 and 2 Oct, one day before the window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Anyone running the Rejetto file server must patch now, defenders learn that AI-found bugs get weaponised within hours, and Anthropic's claim that Mythos is too powerful to release gains a real-world test; the attacker's location rests on IP addresses that may be proxies.",
+ "source": "The Register",
+ "status": "CONFIRMED",
+ "summary": "The Register reports that a critical login-bypass flaw in the open-source Rejetto HTTP File Server, found by security firm Horizon3 with Anthropic's Mythos model and disclosed on 30 Sep 2026, was under attack from an address in China by 1 Oct and from proxy addresses in the US by 2 Oct, according to VulnCheck researcher Patrick Garrity, making it the second Mythos-found bug exploited in the wild. The flaw chained a weak random number generator with a data leak to forge login cookies, and Garrity's tracker counts 286 vulnerabilities so far from Mythos and Project Glasswing, Anthropic's programme that gives selected partners access to the model it says is too powerful for public release.",
+ "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+ "freshness": "FOLLOW-UP of 1 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Article published 3 Oct; exploitation events 1 to 2 Oct, so marked follow-up by the date rule although the story is new to the pool."
+}

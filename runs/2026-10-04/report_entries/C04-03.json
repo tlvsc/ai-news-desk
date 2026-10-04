@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-03",
+ "v1_category": "RES",
+ "headline": "Researchers screened a bacterium's whole set of protein pairings by feeding AlphaFold3 pools of proteins instead of one pair at a time.",
+ "score": 5,
+ "score_reason": "A useful methods advance in one small bacterium, reported from a journal commentary by one science news site; the '100 times faster' headline overstates a 100-fold cut in jobs that halved runtime.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Biologists studying understudied microbes, which lack the experimental data other shortcuts need, gain an affordable way to chart how a cell's proteins interact, though about 8 percent of this bacterium's proteins could not be assessed and the human proteome stays far out of reach.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports, in a text carried by Bioengineer.org, that Todor and colleagues, writing in Molecular Systems Biology, screened all 113,050 possible protein pairs in the bacterium Mycoplasma genitalium with AlphaFold3, Google DeepMind's protein structure model, by submitting random pools of 10 to 25 proteins as single jobs rather than every pair separately. The pooling cut the number of AlphaFold jobs 100-fold, roughly halved the runtime and, for reasons the authors cannot yet explain, found true interactions more accurately, though nearly 18,000 pairs involving species-specific proteins could not be evaluated at all.",
+ "url": "https://scienmag.com/pooled-alphafold3-screening-maps-a-bacteriums-protein-interactions-100-times-faster/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source corrected from Bioengineer.org (copy site) to Scienmag, which wrote the text; URL is the Scienmag original named in the article. Publication date of the study not stated."
+}

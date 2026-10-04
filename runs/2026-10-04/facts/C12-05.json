@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-05",
+ "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+ "fetched": true,
+ "key_facts": [
+  "CVE-2026-61500, a critical authentication-bypass flaw in the open-source Rejetto HTTP File Server (HFS) allowing full admin access and remote code execution, was found by Horizon3 researcher Zach Hanley using Anthropic's Mythos model and disclosed Wednesday 30 Sep 2026; fix in HFS v3.2.1.",
+  "VulnCheck's Patrick Garrity said exploitation attempts began Thursday 1 Oct from one IP address in China against vulnerable hosts in the US and Japan; on Friday 2 Oct four more hits came from two US addresses that appear to be a proxy.",
+  "It is the second Mythos-found vulnerability known to be exploited in the wild; Garrity's tracker counts 286 CVEs from Mythos and Project Glasswing, Anthropic's programme giving select partners access to the model announced in April.",
+  "The flaw chains an insecure random number generator (V8's Math.random, xorshift128+) with a code path that leaked its outputs, letting an attacker recover the session signing key and forge cookies; Mythos proposed using the Z3 solver to recover the seed.",
+  "Horizon3 joined Project Glasswing in July and says it has found many critical vulnerabilities with Mythos since."
+ ],
+ "quote_evidence": [
+  "\"Our canaries detected an actor in China targeting real vulnerable hosts in the US,\" Garrity added.",
+  "As of Friday, Mythos and Project Glasswing have uncovered 286 CVEs, according to Garrity's tracker, and up until Thursday only one of these bugs had been exploited in real-world attacks.",
+  "\"What makes this impressive is that Mythos didn't just flag the insecure PRNG in isolation – it simultaneously identified that the application leaked raw Math.random() outputs through a separate code path, recognized those two facts as a chain...\" he wrote."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Bugs found by an AI model that Anthropic keeps off the public market are now being exploited by attackers within a day of disclosure.",
+ "event_date": "Disclosure 30 Sep 2026; exploitation 1 to 2 Oct 2026",
+ "notes": "The Register's own reporting with VulnCheck and Horizon3 quoted; Anthropic itself did not comment in the article. Attacker attribution to China rests on an IP address only."
+}

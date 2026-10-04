@@ -1,0 +1,22 @@
+{
+ "item_id": "C09-04",
+ "title": "ERCOT Sees Surge in Power Demand by 2030s Amid Data Center Growth",
+ "source_used": "Fort Worth Report (19 Apr 2026) for ERCOT forecast context; EnergyNow original blocked",
+ "article_url": "https://fortworthreport.org/2026/04/19/demand-tsunami-energy-leaders-foresee-exponential-need-as-texas-economy-expands/",
+ "fetched": true,
+ "key_facts": [
+  "EnergyNow's article is blocked here (403) and its URL path reads 2026/04, so the underlying story appears to date from April 2026, not October.",
+  "ERCOT, the nonprofit that runs the Texas grid, expects peak demand of about 218 gigawatts by 2031, against a record of 85.5 GW set in August 2023 (figure as cited by Fort Worth Report in April 2026; the forecast itself dates to April 2025).",
+  "Industry speakers at TCU's Global Energy Symposium on 15 Apr 2026 attributed the growth to data centers, crypto mining, population growth and electrification.",
+  "Vistra's Ken Peters said utilities are expected to spend up to $1.4 trillion on grid and infrastructure over five years.",
+  "Amazon plans a data center at Vistra's Comanche Peak nuclear plant that would drop off the plant's output when the grid is stressed."
+ ],
+ "quote_evidence": [
+  "A year ago, the Electric Reliability Council of Texas, the nonprofit corporation that operates the state's power grid, said the current power demand record for use in Texas was 85.5 gigawatts, set in August 2023. The organization now expects an estimated peak demand of 218 gigawatts by 2031.",
+  "\"I don't believe this is a cyclical phenomenon. I believe it's structural,\" he said, noting that utilities are expected to spend as much as $1.4 trillion on the grid and infrastructure over the next five years."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Texas grid forecasts keep pointing to demand more than doubling within a decade, driven largely by data centers.",
+ "event_date": "April 2026 (EnergyNow URL); ERCOT 218 GW forecast first published April 2025",
+ "notes": "Could not read the EnergyNow article; exact ERCOT figures in it unverified. Fort Worth Report used for context only. Stale and forecast-only; candidate for QA hold-back."
+}

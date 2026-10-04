@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-09",
+ "title": "Microsoft's ThinkingBox grades AI agents on the records they leave behind, now available through Hugging Face",
+ "source_used": "Microsoft (Hugging Face blog)",
+ "article_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft's Copilot Studio team, with Toloka and university collaborators, released ThinkingBox, an agent sandbox, and ThinkingBox-Bench, 507 synthetic business workflows (retail, insurance and others), on Hugging Face behind the OpenEnv interface; code MIT, data CDLA-Permissive-2.0.",
+  "It grades agents on the final database state and side effects they leave, not on their replies or tool calls, and runs every task 20 times from a clean backend.",
+  "Across 121,680 valid trials on 12 models, 79,853 attempts failed the state checks; 67.24% of those failures ended cleanly with no tool error reported, and 77.61% of them left wrong field values.",
+  "Claude Opus 5.5 leads single-attempt pass rate at 67.16%; Kimi-K3 is the top open-weights model and solves 93.89% of tasks at least once but only 13.41% on all 20 tries; Opus 5.5 and Opus 5 both pass 241 tasks on all 20 attempts.",
+  "Cost per dependable task (all 20 passes): GPT-5.4 $6.80 for 128 tasks, GPT-6 Astra $7.45 for 231, Claude Opus 5.5 $7.80 for 241; roughly four in five failures are tool handling rather than reasoning, per Microsoft's analysis.",
+  "Microsoft says the tasks are synthetic reconstructions and the figures are a comparative index, not real bills; OpenRouter prices snapshot 20 Sep 2026."
+ ],
+ "quote_evidence": [
+  "Across 507 stateful business workflows, each run 20 times against various LLM models, it grades agents on terminal backend state and side effects.",
+  "Claude Opus 5.5 leads overall at 67.16%, two-thirds of a point above Claude Opus 5.",
+  "The practical pattern is simple: agents usually get far enough to attempt the workflow, then fail to recover from tool errors, failed preconditions, or empty lookups."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Companies putting agents on real customer records get a public, repeatable way to measure whether an agent does the job every time, and the first results say most models do not.",
+ "event_date": "3 Oct 2026 (blog post date per pool)",
+ "notes": "Self-published vendor benchmark with its own paper; no outside review reported, so PRELIMINARY. Model names and numbers taken as printed."
+}

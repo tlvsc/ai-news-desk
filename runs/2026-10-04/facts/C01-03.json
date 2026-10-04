@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-03",
+ "title": "Aleph Alpha releases open-weight Kolibri with 1M context",
+ "source_used": "TestingCatalog",
+ "article_url": "https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/",
+ "fetched": true,
+ "key_facts": [
+  "Aleph Alpha, a German AI company, released Kolibri, an open-weight English-German model for government and regulated industries, with full weights on Hugging Face under the Apache 2.0 licence.",
+  "Mixture-of-Experts Transformer: 78.1 billion parameters, 3.46 billion active per token, 384 experts with six active; context up to one million tokens (1,048,576) though adaptation reached 256,000.",
+  "Trained on 768 Nvidia B200 GPUs, about 24 trillion tokens in total, in Germany and Finland; German is 21.3% of pre-training tokens.",
+  "Vendor benchmarks: English overall 75.5, German 70.8, AIME 2025 96.9, LiveCodeBench v6 85.9, BFCL v4 61.4; Aleph Alpha says it matches models with up to four times as many active parameters.",
+  "Trained to abstain when evidence is missing (Merlin-Arthur procedure): avoided a wrong answer on 44% of AA-Omniscience items versus 14.8% for the earlier Kolibri Origin.",
+  "Four reasoning settings (none, low, medium, high) plus tool calling; customers can run it on their own hardware; a tweet quoted in the article says it launched on German Unity Day (3 Oct)."
+ ],
+ "quote_evidence": [
+  "Customers can run it on-premises rather than send internal data to a third-party inference service.",
+  "These are vendor-run results, using Aleph Alpha's own harnesses and the highest available reasoning setting where applicable.",
+  "Kolibri was trained on abstention examples and Aleph Alpha's Merlin-Arthur procedure, which teaches it to withhold an answer when evidence is absent."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A European open-weight model with a million-token context that public bodies can run on their own machines.",
+ "event_date": "3 Oct 2026 (German Unity Day launch, per a tweet quoted in the article)",
+ "notes": "All benchmark numbers are Aleph Alpha's own; no independent evaluation reported. Release itself confirmed by weights on Hugging Face."
+}

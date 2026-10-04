@@ -1,0 +1,187 @@
+{
+ "changes": [
+  {
+   "item_id": "C09-06",
+   "field": "headline",
+   "before": "Protesters in Calgary and other cities marched against new data centers on a coordinated North American day of protest.",
+   "after": "Protesters in Calgary and other cities rallied against new data centres on a coordinated North American day of protest.",
+   "reason": "Facts say a few dozen gathered/rallied at City Hall; 'marched' overstates the event."
+  },
+  {
+   "item_id": "C11-02",
+   "field": "importance_line",
+   "before": "Houston riders may get a third robotaxi brand after Tesla and Waymo, and Uber deepens its bet on partners' self-driving cars, though the InsideEVs details could not be checked.",
+   "after": "Houston riders may get a third robotaxi brand after Tesla and Waymo, and Uber deepens its bet on partners' self-driving cars, though the timing and scale of the Houston service are not confirmed.",
+   "reason": "Removed internal process note ('details could not be checked'); kept the doubt in reader terms."
+  },
+  {
+   "item_id": "C11-03",
+   "field": "importance_line",
+   "before": "Carmakers beyond Tesla are being judged on robots as well as cars, which could shape factory jobs and investment, but without the article the claim cannot be weighed.",
+   "after": "Carmakers beyond Tesla are being judged on robots as well as cars, which could shape factory jobs and investment, but which carmaker is meant and what it has achieved are not known from the headline alone.",
+   "reason": "Removed process note ('without the article the claim cannot be weighed'); same doubt in reader terms."
+  },
+  {
+   "item_id": "C11-03",
+   "field": "source",
+   "before": "WSJ",
+   "after": "The Wall Street Journal",
+   "reason": "Full publisher name, consistent with the other WSJ entries in this report."
+  },
+  {
+   "item_id": "C11-06",
+   "field": "importance_line",
+   "before": "Shipyard workers in Korea and Japan will increasingly supervise machines rather than weld, as HD Hyundai and Hanwha Ocean chase China's 63% share of orders, though the detail comes second-hand from the FT.",
+   "after": "Shipyard workers in Korea and Japan may increasingly supervise machines rather than weld, as HD Hyundai and Hanwha Ocean chase China's 63% share of orders, though the figures are company targets reported by the FT and not independently checked.",
+   "reason": "'will increasingly' stated as certainty; facts give company targets. Replaced the process note 'second-hand from the FT' with the honest doubt (company targets, not independently checked)."
+  },
+  {
+   "item_id": "C11-14",
+   "field": "summary",
+   "before": "The Financial Times reports, as relayed by Stocktwits, that Alphabet's Waymo has held internal talks about ending its robotaxi partnership with Uber and has told Uber it intends to run Austin and Atlanta on its own in January 2028, when the current agreement allows; Uber shares fell nearly 5% on 2 Oct 2026 after the report. The two companies increasingly compete head-on and have blamed each other over service quality and safety, and Uber, which has reportedly spent more than 10 billion dollars on autonomous-vehicle deals in the past year, has no self-driving technology of its own.",
+   "after": "The Financial Times reports, as relayed by Stocktwits, that Alphabet's Waymo has held internal talks about ending its robotaxi partnership with Uber and has told Uber it intends to run Austin and Atlanta on its own in January 2028, when the current agreement allows; Uber shares fell nearly 5% on 2 Oct 2026 after the report. The two companies increasingly compete head-on and have blamed each other over service quality and safety, and Uber has reportedly spent more than 10 billion dollars on autonomous-vehicle deals in the past year.",
+   "reason": "Removed 'has no self-driving technology of its own', which the facts file does not support."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "summary",
+   "before": "The Decoder reports that from October 2026 Google limits Gemini users without a subscription to its smallest model, Flash-Lite, while the $4.99-a-month AI Plus tier loses the Pro model and all three models require AI Pro at $19.99 or AI Ultra at $99.99 or more, according to Google's support page. The Decoder reads this as a copy of OpenAI's ChatGPT freemium model and a possible step toward the larger, costlier Gemini 4 Argon, while judging the day-to-day impact small.",
+   "after": "The Decoder reports that from October 2026 Google limits Gemini users without a subscription to its smallest model, Flash-Lite, while the $4.99-a-month AI Plus tier loses the Pro model and all three models require AI Pro at $19.99 or AI Ultra at $99.99 or more, according to Google's support page. The Decoder reads this as mirroring OpenAI's ChatGPT freemium model and as a possible step toward the larger, costlier Gemini 4 Argon, while judging the day-to-day impact small.",
+   "reason": "Facts say the setup 'mirrors' OpenAI's model; 'a copy of' is stronger than the source."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "summary",
+   "before": "IGN reports, citing the Japanese outlet GameBiz, that at its Capcom Open Conference RE: 2026 on 2 Oct 2026 programmer Satoshi Ishida laid out the REX project, a step-by-step upgrade of the Resident Evil maker's RE Engine aimed at making it an AI-generation game engine where staff \"create games together with AI\". Capcom says the aim is to speed up development of very large games, not to ship AI-made assets, repeating its March 2026 pledge to shareholders, though the plan leaves room for wider AI use over time.",
+   "after": "IGN reports, citing the Japanese outlet GameBiz, that at its Capcom Open Conference RE: 2026 on 2 Oct 2026 programmer Satoshi Ishida laid out the REX project, a step-by-step upgrade of the Resident Evil maker's RE Engine aimed at making it an AI-generation game engine where staff \"create games together with AI\". Capcom says the aim is to speed up development of very large games, and it told shareholders in March 2026 that it will not put AI-generated assets into its games.",
+   "reason": "Facts do not say the March pledge was repeated at the conference, only that Capcom made it in March; removed the unsupported inference 'the plan leaves room for wider AI use over time'."
+  },
+  {
+   "item_id": "C03-09",
+   "field": "headline",
+   "before": "Microsoft has released a test that judges AI agents by the database records they leave behind and finds most models cannot repeat a success twenty times.",
+   "after": "Microsoft has released a test that judges AI agents by the database records they leave behind and finds even the best models get the record right every time on fewer than half the tasks.",
+   "reason": "'most models cannot repeat a success twenty times' was a loose generalisation; the facts give the best model passing 241 of 507 tasks on all 20 tries."
+  },
+  {
+   "item_id": "C03-09",
+   "field": "summary",
+   "before": "Microsoft's Copilot Studio team writes on Hugging Face that it has released ThinkingBox, a sandbox and benchmark of 507 synthetic business workflows that grades an AI agent on the final state of the backend database rather than on its replies, running every task 20 times; across 12 models about two thirds of failed attempts ended cleanly with no error reported while leaving wrong values behind. In Microsoft's figures Claude Opus 5.5 leads single-attempt success at 67 percent, Kimi-K3 solves 94 percent of tasks at least once but only 13 percent every time, and the team says about four in five failures are tool handling rather than reasoning.",
+   "after": "Microsoft's Copilot Studio team writes on Hugging Face that it has released ThinkingBox, a sandbox and benchmark of 507 synthetic business workflows that grades an AI agent on the final state of the backend database rather than on its replies, running every task 20 times; across 12 models about two thirds of failed attempts ended with no error reported, and most of those left wrong values in the records. In Microsoft's figures Claude Opus 5.5 leads single-attempt success at 67 percent, Kimi-K3 solves 94 percent of tasks at least once but only 13 percent every time, and the team says about four in five failures are tool handling rather than reasoning.",
+   "reason": "Two separate figures (67% silent failures; 78% of those with wrong values) were merged into one claim; separated them as the facts state."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "headline",
+   "before": "The United States and 15 other countries are set to sign a Kyoto statement that puts AI at the centre of a 'golden age of science'.",
+   "after": "The United States and 15 other countries are set to release a Kyoto statement that puts AI at the centre of a 'golden age of science'.",
+   "reason": "Facts say the statement will be released; 'sign' is not stated."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "headline",
+   "before": "Researchers mapped every protein pairing in a bacterium by feeding AlphaFold3 pools of proteins instead of one pair at a time.",
+   "after": "Researchers screened a bacterium's whole set of protein pairings by feeding AlphaFold3 pools of proteins instead of one pair at a time.",
+   "reason": "'mapped every protein pairing' overstates: nearly 18,000 pairs could not be evaluated."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "headline",
+   "before": "India has tested its first open-air quantum-encrypted link, sending unbreakable keys 5.56 km between two institutes in Gujarat.",
+   "after": "India has tested its first open-air quantum-encrypted link, sending encryption keys 5.56 km through the air between two institutes in Gujarat.",
+   "reason": "'unbreakable keys' is a marketing claim not in the facts."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "summary",
+   "before": "MyBroadband reports that new laws to regulate artificial intelligence have been proposed for South Africa, though the details of who put them forward and what they would require could not be confirmed from other outlets.",
+   "after": "MyBroadband reports that new laws to regulate artificial intelligence have been proposed for South Africa.",
+   "reason": "Headline-only item: removed the process note about details not confirmed from other outlets; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "importance_line",
+   "before": "Dedicated AI legislation would set the rules for South Africans and the companies serving them, but who proposed the laws and what they contain could not be verified today.",
+   "after": "Dedicated AI legislation would set the rules for South Africans and the companies serving them, but who proposed the laws and what they contain is not yet known.",
+   "reason": "Removed process wording ('could not be verified today')."
+  },
+  {
+   "item_id": "C14-02",
+   "field": "summary",
+   "before": "Mashable reports that Common Sense Media's Youth AI Safety Institute, after about 2,600 test interactions on accounts set up as 11- and 15-year-olds, concluded that Google's AI Overview and AI Mode are an \"unacceptable risk\" for minors, finding they offered a hotline or medical referral in only 58 and 77 percent of the 214 crisis prompts that needed one. Google told Mashable the queries were \"ambiguous and contrived\" and that it could not reproduce many results; the group wants the features switched off by default for minors, who it says make up three-quarters of tween and teen search users.",
+   "after": "Mashable reports that Common Sense Media's Youth AI Safety Institute, after about 2,600 test interactions on accounts set up as 11- and 15-year-olds, concluded that Google's AI Overview and AI Mode are an \"unacceptable risk\" for minors, finding they offered a hotline or medical referral in only 58 and 77 percent of the 214 crisis prompts that needed one. Google told Mashable the queries were \"ambiguous and contrived\" and that it could not reproduce many results; the group wants the features switched off by default for minors, three-quarters of whom it says use Google's AI answers.",
+   "reason": "Facts say three-quarters of tweens and teens use the AI answers, not that minors make up three-quarters of users."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "summary",
+   "before": "Barron's reports that the insurance industry is shedding jobs and argues that artificial intelligence is only part of the explanation, with its web address pointing to Medicaid changes as another factor.",
+   "after": "Barron's reports that the insurance industry is shedding jobs and argues that artificial intelligence is only part of the explanation.",
+   "reason": "Headline-only item: removed the inference from the web address (Medicaid), which the headline does not support."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "summary",
+   "before": "IFEX, a global network of free-expression organisations, reports that 71 percent of the deals struck between AI companies and media outlets have gone to outlets in English-speaking countries, according to its headline on a review of the AI and media landscape.",
+   "after": "IFEX, a global network of free-expression organisations, reports that 71 percent of the deals struck between AI companies and media outlets have gone to outlets in English-speaking countries, in a review of the AI and media landscape.",
+   "reason": "Removed process wording ('according to its headline')."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "importance_line",
+   "before": "Newsrooms outside the English-speaking world appear to be left out of the licensing money AI firms pay publishers, which matters for journalists and readers in those countries, though we could not read the report behind the number.",
+   "after": "Newsrooms outside the English-speaking world appear to be left out of the licensing money AI firms pay publishers, which matters for journalists and readers in those countries, though the report behind the number and its method are not known.",
+   "reason": "Removed process note ('we could not read the report')."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "headline",
+   "before": "Indian outlets explained why Anthropic reportedly flew a Hindu monk to San Francisco to discuss how its chatbot Claude should tell right from wrong.",
+   "after": "Anthropic reportedly flew a Hindu monk to San Francisco to discuss how its chatbot Claude should tell right from wrong, by the monk's own account.",
+   "reason": "Headline led with 'Indian outlets explained why', a note about coverage rather than the event; now says what happened with its hedge."
+  },
+  {
+   "item_id": "C16-04",
+   "field": "importance_line",
+   "before": "Listeners get a side-by-side test of human and machine songwriting that The Verge says the humans win easily; the doubt is that we could read only a brief second-hand account, not the Times piece itself.",
+   "after": "Listeners get a side-by-side test of human and machine songwriting that The Verge says the humans win easily; the doubt is that this verdict is one Verge writer's opinion of the Times piece.",
+   "reason": "Removed process note ('we could read only a brief second-hand account')."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "summary",
+   "before": "The Wall Street Journal reports that it turned an AI tool on the question of how much Americans dislike AI, in a politics-desk piece whose findings we could not read.",
+   "after": "The Wall Street Journal reports that it turned an AI tool on the question of how much Americans dislike AI, in a piece from its politics desk.",
+   "reason": "Headline-only item: removed 'whose findings we could not read'."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "importance_line",
+   "before": "Readers would learn how deep public dislike of AI runs, which matters for the companies and politicians selling it, but the findings themselves are behind a paywall we could not open.",
+   "after": "Readers would learn how deep public dislike of AI runs, which matters for the companies and politicians selling it, though the findings themselves are not yet known.",
+   "reason": "Removed process note ('behind a paywall we could not open')."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "importance_line",
+   "before": "Millions of Indian users are now following an entirely synthetic soap opera with rivalries and fake deaths, a sign of how quickly AI entertainment builds a fandom; the column gives no view counts, so the scale is unmeasured.",
+   "after": "Indian Instagram users are following an entirely synthetic soap opera with rivalries and fake deaths, a sign of how quickly AI entertainment builds a fandom; the column gives no view counts, so the scale is unmeasured.",
+   "reason": "'Millions of Indian users' is not supported; the column gives no audience figures."
+  },
+  {
+   "item_id": "C16-07",
+   "field": "importance_line",
+   "before": "Festival visitors got a robot folk dance and nothing more changes, and because the article was unreadable we cannot confirm the robot's maker or the day it performed.",
+   "after": "Festival visitors got a robot folk dance and nothing more changes, and the robot's maker and the day it performed are not reported.",
+   "reason": "Removed process note ('because the article was unreadable we cannot confirm')."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "importance_line",
+   "before": "Filipino social media users who shared the persona learn it was synthetic, a small case of AI fakes attaching themselves to political families, but we could not read the fact-check's evidence.",
+   "after": "Filipino social media users who shared the persona learn it was synthetic, a small case of AI fakes attaching themselves to political families, though the fact-check's evidence is not known here.",
+   "reason": "Removed process note ('we could not read')."
+  }
+ ],
+ "unresolved": []
+}

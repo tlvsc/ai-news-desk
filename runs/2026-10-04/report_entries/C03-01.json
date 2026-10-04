@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "SEC",
+ "headline": "Google has stopped taking bug reports about flaws in its open-source code because AI-written false alarms were swamping its security teams.",
+ "score": 5,
+ "score_reason": "Pool 6, lowered to 5: the suspension dates from 1 Oct 2026, two days before the window, and it affects one part of one bounty program.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "A bounty program that paid outside researchers to find real holes in Google's open-source code is closed to those reports until at least early 2027, which leaves users of that code with fewer eyes on it, maintainers with less noise, and Google with a program to rebuild, although Google has not said how many reports were fake.",
+ "source": "Tom's Hardware",
+ "status": "CONFIRMED",
+ "summary": "Tom's Hardware reports that Google suspended product vulnerability submissions to its Open Source Software Vulnerability Reward Program, a bug bounty that pays researchers for flaws in Google's public code, in an X post on 1 Oct 2026, saying an influx of invalid AI-generated reports was the cause and promising an update by the first quarter of 2027. Supply chain reports and some Google Cloud repositories are still covered, and the outlet places the move alongside Linux kernel maintainers saying they are overwhelmed by AI-found CVEs and Intel pausing its own bounty, for which Intel gave no official reason.",
+ "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
+ "freshness": "FOLLOW-UP of 1 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "default_v1 was MOD; moved to SEC because the subject is a security bounty and the open-source security pipeline. Change back if the desk prefers MOD."
+}

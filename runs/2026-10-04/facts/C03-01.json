@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-01",
+ "title": "Google freezes open-source bug bounty program amid flood of invalid AI slop submissions — product flaw submissions halted until 2027 as maintainers drown in hallucinations",
+ "source_used": "Tom's Hardware",
+ "article_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
+ "fetched": true,
+ "key_facts": [
+  "Google suspended product vulnerability submissions to its Open Source Software Vulnerability Reward Program (OSS VRP), announced in an X post on 1 Oct 2026, effective the same day.",
+  "Reason given: an influx of invalid AI-generated reports; Google engineers and open-source maintainers were reportedly swamped by thousands of reports describing bugs that did not exist or could not be exploited.",
+  "Google says it will give an update by the first quarter of 2027 while it reworks this part of the program and pointed researchers to its other reward programs.",
+  "Reports submitted before 1 Oct are not affected; supply chain reports to OSS VRP continue; some Google Cloud repositories may still be covered through the Cloud VRP.",
+  "Tom's Hardware places it in a wider pattern: Linux kernel maintainers said they were overwhelmed by AI-found CVEs (about 2,000 per release) and Intel suspended its own bug bounty, without officially naming AI reports as the cause."
+ ],
+ "quote_evidence": [
+  "Google has officially suspended product vulnerability submissions to its Open Source Software Vulnerability Reward Program (OSS VRP) — a bug bounty program — over an influx of invalid AI-driven reports.",
+  "The suspension went into effect on October 1 — the day of the announcement — and does not affect product vulnerabilities submitted before that date.",
+  "Google said it may still accept reports covering product vulnerabilities through the Cloud VRP, “for some Google Cloud repos impacting Google Cloud products.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A major bug bounty closing a door because AI-written false reports cost more maintainer time than they save shows the open-source security pipeline is being clogged, not helped, by automated bug hunting.",
+ "event_date": "1 Oct 2026",
+ "notes": "Announcement was 1 Oct 2026, article 3 Oct: two days before the window, so scored down one and marked follow-up. The 'maintainers overwhelmed' detail is reported ('reportedly'), the suspension itself is official. Linux and Intel comparisons are the outlet's context, Intel's reason unconfirmed."
+}

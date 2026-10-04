@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-09",
+ "title": "Black Market for Blocked AI Claude Thrives in China",
+ "source_used": "The Chosun Daily (English), relaying The Information (2 Oct 2026) and Tom's Hardware",
+ "article_url": "https://www.chosun.com/english/industry-en/2026/10/04/SUTONPY2OFBHPAFJM5G4I5Y22Q/",
+ "fetched": true,
+ "key_facts": [
+  "The Information reported on 2 Oct 2026 that an underground market of 'token resellers' selling access to Anthropic's Claude, which is not available in China, is growing fast; Chosun relays and expands the report.",
+  "Per The Information, six of 30 firms in one Beijing (Haidian) office building resell AI access; Chinese token resellers are estimated in the thousands to tens of thousands.",
+  "Anthropic never launched in China and in September 2025 cut off foreign entities more than 50 percent owned from China and other hostile countries; Chinese engineers still prefer Claude for code.",
+  "Resellers set up servers abroad, collect many Claude accounts (registered with bulk emails from past crypto businesses, or paid with stolen cards per Tom's Hardware), and sell API access to Chinese users at under half the official price, 'laundering' the accounts.",
+  "Chosun says the illicit accounts are reportedly used for 'distillation' training of rival models by companies such as Moonshot AI and DeepSeek.",
+  "Workarounds include paper companies in Southeast Asia, the Middle East and the US signing enterprise deals with Anthropic or AWS, and resale of leftover startup tokens."
+ ],
+ "quote_evidence": [
+  "A black market for buying and selling accounts of Anthropic's AI model \"Claude,\" officially blocked in China, is rapidly growing, U.S. IT outlet The Information reported on the 2nd (local time).",
+  "According to The Information, six out of 30 companies in an office building in Haidian District, Beijing, are engaged in \"reselling AI access rights.\"",
+  "Illegally obtained accounts from the token reseller market are reportedly used for \"distillation training\" by companies like Moonshot AI and DeepSeek."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Anthropic's China ban is being routed around at industrial scale, feeding both stolen-card fraud and the copying of its model.",
+ "event_date": "The Information report 2 Oct 2026; Chosun 4 Oct 2026",
+ "notes": "Chosun page text came from embedded page data (plain HTML empty). Primary reporting is The Information (paywalled, not read); distillation use by named Chinese firms is 'reportedly' and unconfirmed."
+}

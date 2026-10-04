@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-04",
+ "v1_category": "SEC",
+ "headline": "A vendor survey says companies doubled their AI agents in a quarter while barely half of them are monitored.",
+ "score": 3,
+ "score_reason": "Lowered from 5: paid vendor content on TechCrunch, survey data from April 2026, no independent check.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Employees and customers of banks and telecoms are the ones exposed when unmonitored agents act on their data, but the numbers come from a vendor selling the fix and have had no independent review.",
+ "source": "Gravitee",
+ "status": "REPORTED",
+ "summary": "Gravitee, an API-management company that now sells tools to govern AI agents, says in a sponsored post on TechCrunch that its survey of 750 executives found the typical company's agent count rose from 26-50 to 76-100 in a single quarter, that only about half of those agents are monitored, and that 54 percent of organizations had or suspected an agent-related security or privacy incident in the past year. The data is from April 2026 and comes from a vendor with a product to sell, so it is a signal to watch rather than an independent finding.",
+ "url": "https://techcrunch.com/sponsor/gravitee/ai-agents-just-doubled-inside-the-enterprise-confidence-rose-faster-than-control-did/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Paid placement (TC Brand Studio); TechCrunch is not the source. Category moved from MOD to SEC because the subject is agent security and governance. Report release date not stated; survey fieldwork April 2026."
+}

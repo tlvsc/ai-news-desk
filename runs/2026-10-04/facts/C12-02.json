@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-02",
+ "title": "South Korean president orders probe into data leaks across financial industry",
+ "source_used": "The Korea Times (own reporting) and Korea JoongAng Daily (own reporting); Reuters original blocked",
+ "article_url": "https://www.koreatimes.co.kr/economy/20261004/lee-orders-thorough-probe-into-ai-powered-cyberattacks-in-banks",
+ "fetched": true,
+ "key_facts": [
+  "On Sunday 4 Oct 2026 President Lee Jae Myung ordered a thorough investigation into a string of personal data breaches at South Korean financial firms and told officials to draw up countermeasures (presidential spokesperson Kang Yu-jung).",
+  "Shinhan Bank reported on Thursday 1 Oct a breach affecting about 25,000 customers; KB Kookmin Bank (119 people), Hana Bank (89) and BNK Busan Bank (11 outsourced developers) reported leaks on Friday 2 Oct (JoongAng figures).",
+  "The breaches spread to non-bank lenders: Yegaram Savings Bank about 40,000 customers, Hyundai Capital 146 housing loan agents.",
+  "Leaked data included names, phone numbers, annual income, loan limits and some resident registration numbers; no data usable for unauthorised payments has been found so far, but voice-phishing follow-on fraud is feared.",
+  "Financial regulators (FSC chairman Lee Eog-weon, FSS governor Lee Chan-jin) held an emergency meeting with industry executives on Sunday; the FSC chairman said AI-powered attacks cannot be ruled out and urged AI-based defences.",
+  "Police are investigating; traces of a Chinese-language AI penetration-testing console, possibly linked to the open-source ARTEX AI tool, were found on a server believed used against Shinhan (industry officials via Korea Times)."
+ ],
+ "quote_evidence": [
+  "\"The president ordered officials to conduct a thorough investigation and make every effort to devise measures, with a grave awareness of the seriousness of the matter,\" presidential spokesperson Kang Yu-jung said.",
+  "Also on Sunday, Financial Services Commission (FSC) Chairman Lee Eog-weon said during an emergency meeting that \"the possibility of AI-powered attacks cannot be ruled out.\"",
+  "Traces of a Chinese-language AI penetration-testing tool were found on a server believed to have been used in the attack against the bank."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A national government is treating a wave of bank data leaks as a possible AI-driven attack and pulling the whole financial sector into an emergency response.",
+ "event_date": "4 Oct 2026 (breaches disclosed 1 to 2 Oct 2026)",
+ "notes": "Reuters original blocked (401). Korea Times and JoongAng wrote their own reports from the presidential office and FSC meeting; Korea Times used as source. Bank-by-bank counts for Kookmin and Hana come from JoongAng. The AI-tool link is attributed to industry officials, not confirmed by police."
+}

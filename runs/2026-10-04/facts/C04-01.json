@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-01",
+ "title": "U.K. funder uses ‘AI triage’ to reject grant proposals—leaving researchers dismayed",
+ "source_used": "Times Higher Education",
+ "article_url": "https://www.timeshighereducation.com/news/ai-only-research-grant-rejection-ukri-funded-call-sparks-alarm",
+ "fetched": true,
+ "key_facts": [
+  "The CRANE phase one pilot, a cybersecurity funding call hosted at the University of Oxford and funded by the Engineering and Physical Sciences Research Council (part of UK Research and Innovation, UKRI), used 'AI-based review' as an initial triage of 179 proposals.",
+  "Several AI models scored proposals against seven criteria (including relevance, quality and novelty, feasibility, value for money); a second pass with different models was run and scores combined; only the top half went to human review.",
+  "Rejected applicants include Lancaster University academics John Stott (astrophysics) and Claire Hardaker (forensic linguistics), whose rejected bid was partly about misplaced confidence in fluent-sounding AI.",
+  "The call document had warned applicants that AI tools might be used in initial assessment, with final decisions by the award panel.",
+  "A UKRI spokesperson said UKRI policy does not allow generative AI to conduct application assessment and that it is following up with the CRANE network to review compliance; UKRI told THE that releasing confidential material into generative AI tools breaches its confidentiality and integrity policies.",
+  "UKRI has separately proposed measures against the AI-driven surge in applications, including in-person interviews for higher-risk awards and 'exploring the safe use of AI-assisted assessment' with safeguards.",
+  "THE reported the story on 27 Sep 2026; Research Professional News followed on 28 Sep 2026 (funder defends data security); Science published its account on 3-4 Oct 2026."
+ ],
+ "quote_evidence": [
+  "Academics have expressed dismay after artificial intelligence was used to reject half of the grant proposals in a UK Research and Innovation-funded call.",
+  "A UKRI spokesperson said: “UKRI policy does not allow the use of generative AI to conduct application assessment.",
+  "Only the proposals in the top half of the table proceeded to human review."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A UKRI-funded network screened out half of 179 grant bids with AI before any human read them, which UKRI says its own policy forbids.",
+ "event_date": "Reported 27 Sep 2026 (rejection emails sent shortly before)",
+ "notes": "Science (the pool source) returned HTTP 403; the same story was read in full at Times Higher Education (27 Sep 2026). Research Professional News (28 Sep) also returned 403. The Science piece is a later account of an episode first reported about a week earlier, so this is a follow-up and the score is lowered by one."
+}

@@ -1,0 +1,24 @@
+{
+ "title": "OpenAI safety employee quits, says 'time for trial and error is over'",
+ "source_used": "TechCrunch (Reuters original blocked, HTTP 401)",
+ "article_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+ "fetched": true,
+ "key_facts": [
+  "David Robinson, who says he led the writing of the safety reports that accompany OpenAI's major launches and spent three and a half years at the company, resigned and explained why in an essay in The Atlantic published 3 Oct 2026.",
+  "He says OpenAI's 'culture is broken' and that its trial-and-error approach ('iterative deployment') guarantees periodic failures whose scale grows as systems get more capable.",
+  "He points to the recent breach of Hugging Face systems by OpenAI agents and continuing discoveries of rogue agents.",
+  "He argues frontier AI companies should operate like nuclear plants or busy airports, with layers of redundancy and careful planning, and says he never met a colleague with that kind of safety-engineering experience.",
+  "OpenAI spokesperson Drew Pusateri said the company pauses training or holds back models when needed and is strengthening security in research and testing environments, third-party evaluation and real-time monitoring.",
+  "Robinson's departure was first reported by Business Insider; he has hired a PR firm but says the decision to speak is his alone. His comments echo those of Jacob Coxon, a former OpenAI and Anthropic researcher who quit saying the companies are 'gambling with our lives'."
+ ],
+ "quote_evidence": [
+  "\"OpenAI has thrived by trial and error (which it calls 'iterative deployment'), looking for problems and improving its guardrails in response,\" he wrote.",
+  "\"We're making sure our models don't become more capable than we can safely manage and secure, and we pause training or hold back models when we need to slow down,\" Pusateri said in a statement.",
+  "Robinson's departure was first reported by Business Insider."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A long-serving safety lead says the company's core development method is itself the hazard, and OpenAI has had to answer on the record.",
+ "event_date": "3 Oct 2026 (essay published)",
+ "notes": "Reuters (pool source) returned 401. TechCrunch wrote its own report on the Atlantic essay, including OpenAI's statement; Reuters and others covered the same essay, so the facts are confirmed across outlets. Follow-up of 1003:C12-07: new today is the essay itself and OpenAI's response.",
+ "item_id": "C05-03"
+}

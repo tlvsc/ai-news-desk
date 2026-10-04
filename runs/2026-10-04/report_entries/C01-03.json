@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "German AI company Aleph Alpha has released Kolibri, an open-weight English-German model with a one-million-token context that governments can run on their own hardware.",
+ "score": 6,
+ "score_reason": "A real open-weight release from Europe's best-known AI lab with notable specs, but a mid-size model whose benchmark claims are vendor-run.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Public bodies and regulated European companies get a free-to-download bilingual model they can run in-house without sending data to a US cloud, though all performance figures come from Aleph Alpha itself and no independent test has been reported.",
+ "source": "TestingCatalog",
+ "status": "CONFIRMED",
+ "summary": "TestingCatalog reports that Aleph Alpha, the Heidelberg-based AI lab, has published Kolibri, a 78-billion-parameter mixture-of-experts model (a design that activates only about 3.5 billion parameters per word to keep running costs down) with weights free on Hugging Face under the Apache 2.0 licence and a context window of up to one million tokens, launched on German Unity Day, 3 Oct 2026. Aleph Alpha says it matches models with four times as many active parameters on maths, coding and long-document tasks and was trained to decline answering when evidence is missing, but these are the company's own benchmark results.",
+ "url": "https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Benchmarks vendor-run; release confirmed by public weights."
+}

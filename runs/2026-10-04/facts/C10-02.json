@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-02",
+ "title": "AI model may predict pancreatic cancer risk up to 5 years before diagnosis",
+ "source_used": "Medical News Today",
+ "article_url": "https://www.medicalnewstoday.com/articles/ai-model-may-predict-pancreatic-cancer-risk-up-to-5-years-before-diagnosis",
+ "fetched": true,
+ "key_facts": [
+  "Mayo Clinic researchers presented an AI model at the American College of Surgeons Clinical Congress 2026 in Washington, D.C. that flags elevated pancreatic cancer risk up to five years before diagnosis using routine electronic health record data.",
+  "The model was built on records of almost 40,000 Mayo Clinic patients: 6,066 who developed pancreatic cancer and 33,396 controls, with 7.5 to 19 years of history each.",
+  "Updated figures: AUROC 0.853 at five years before diagnosis (in a slightly smaller cohort), 0.84 at one year, 0.80 at two years, 0.76 at three years; AUPRC 0.712; calibration slope 1.08.",
+  "Among people the model gave more than 50% risk, 88% were diagnosed within a year, according to the press release.",
+  "Predictions leaned heavily on routine blood tests, especially complete blood count components, plus diabetes, pancreatitis and other pancreatic conditions.",
+  "The findings are not peer reviewed; the team is now running prospective research at Mayo and plans testing at a non-Mayo health system.",
+  "US estimates cited: about 67,530 diagnoses and 52,740 deaths from pancreatic cancer in 2026; five-year survival about 44% when localized versus 3% when spread."
+ ],
+ "quote_evidence": [
+  "\"The most important finding was that subtle patterns across a patient's healthcare journey could reveal elevated pancreatic cancer risk up to five years before the diagnosis was first documented,\" lead study author Chris Varghese",
+  "As such, it is important to note that the findings have not yet been peer-reviewed.",
+  "The current findings are an early step, not evidence that the AI model is ready for use as a pancreatic cancer screening test."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A rare, usually late-caught cancer might be flagged early from blood tests patients already have, but only if the model holds up outside Mayo's own records.",
+ "event_date": "Presented at ACS Clinical Congress 2026 (date not stated in the article); article published 4 Oct 2026",
+ "notes": "Medical News Today interviewed the authors directly, so it is the source. Conference date not given; the article is dated 4 Oct 2026."
+}

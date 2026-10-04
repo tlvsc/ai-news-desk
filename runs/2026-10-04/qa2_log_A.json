@@ -1,0 +1,164 @@
+{
+ "changes": [
+  {
+   "item_id": "C13-01",
+   "field": "summary",
+   "before": "The Wall Street Journal reports, as relayed by Reuters and AFP, that Director of National Intelligence Jay Clayton will serve as the administration's AI czar and chair a 'Super Intelligence Force' that has 120 days to deliver findings on AI risks, with Vice President JD Vance, Defense Secretary Pete Hegseth and Treasury Secretary Scott Bessent among its members. A follow-up to Friday's naming (3 Oct 2026): the new detail is the charter, which asks the group to review existing law, how AI breaches and jailbreaks are reported to government, and how to respond to AI threats \"while preventing overregulation and regulatory capture\", while the White House has not yet formally confirmed the appointment.",
+   "after": "The Wall Street Journal reports, as relayed by Reuters and AFP, that Director of National Intelligence Jay Clayton will serve as the administration's AI czar and chair a 'Super Intelligence Force' that has 120 days to deliver findings on AI risks, with Vice President JD Vance, Defense Secretary Pete Hegseth and Treasury Secretary Scott Bessent among its members. The appointment itself was first reported on Friday 3 Oct 2026; the new detail is the charter, which asks the group to review existing law, how AI breaches and jailbreaks are reported to government, and how to respond to AI threats \"while preventing overregulation and regulatory capture\", while the White House has not yet formally confirmed the appointment.",
+   "reason": "Second sentence was a fragment built on an internal cross-reference ('A follow-up to Friday's naming'); rewritten as a full sentence for the reader."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "summary",
+   "before": "Axios reports, as relayed by Bloomberg and The Next Web, that Treasury Secretary Scott Bessent said in an interview published on 3 Oct 2026 that \"alarmism without solutions\" from parts of the AI community \"is not leadership\" and that \"the people at the labs\" must accept responsibility for the risks; asked about executives who want regulation, he said \"then they should slow down\". Bessent also said the US \"cannot lose our lead to the Chinese\", while Axios reported that Washington plans to propose a system for warning China about serious AI incidents.",
+   "after": "Axios reports, as relayed by Bloomberg and The Next Web, that Treasury Secretary Scott Bessent said in an interview published on 3 Oct 2026 that \"alarmism without solutions\" from parts of the AI community \"is not leadership\" and that \"the people at the labs\" must accept responsibility for the risks; asked about executives who want regulation, he said \"then they should slow down\". Bessent also said the US \"cannot lose our lead to the Chinese\", and the remarks come after Anthropic, OpenAI and xAI chiefs called in September for slowing work on the most advanced models.",
+   "reason": "Removed the China incident-warning proposal, which is the separate entry C13-02 in this report; replaced with the September context the facts give."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "importance_line",
+   "before": "The US government is telling the public that AI safety is the companies' job, not Washington's, which leaves people relying on the labs' own promises while the race with China sets the pace, and the planned incident-warning channel with China is still only a proposal.",
+   "after": "The US government is telling the public that AI safety is the companies' job, not Washington's, which leaves people relying on the labs' own promises while the race with China sets the pace; these are one official's remarks in an interview, not a policy document.",
+   "reason": "Removed the incident-warning channel clause now covered by C13-02; kept the hedge."
+  },
+  {
+   "item_id": "C13-05",
+   "field": "importance_line",
+   "before": "A nuclear-capable missile said to steer itself past the defences protecting South Korea and Japan raises the stakes for people in both countries and for US forces there, but the AI and evasion claims come only from Pyongyang, which both allies say tends to exaggerate.",
+   "after": "A missile Pyongyang calls 'strategic', a word that implies a nuclear role, and says can steer itself past the defences protecting South Korea and Japan raises the stakes for people in both countries and for US forces there, but the AI and evasion claims come only from Pyongyang, which both allies say tends to exaggerate.",
+   "reason": "'Nuclear-capable' was stronger than the facts, which record only Pyongyang's word 'strategic' implying a nuclear role."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by Stocktwits, that Meta has completed the purchase of Assured Robot Intelligence, a startup building AI models that let robots understand and adapt to people around them, with a Meta spokesperson confirming the deal as part of its humanoid robot effort. The founders, Lerrel Pinto and Xiaolong Wang, join Meta Superintelligence Labs to work alongside Meta Robotics Studio, and Pinto's previous company, Fauna Robotics, was bought by Amazon in March 2026 for the same purpose, a sign that the big platforms are now buying the scarce robot-learning teams rather than building them.",
+   "after": "Bloomberg reports, as relayed by Stocktwits, that Meta has completed the purchase of Assured Robot Intelligence, a startup building AI models that let robots understand and adapt to people around them, with a Meta spokesperson confirming the deal as part of its humanoid robot effort. The founders, Lerrel Pinto and Xiaolong Wang, join Meta Superintelligence Labs to work alongside Meta Robotics Studio; Pinto's previous company, Fauna Robotics, was bought by Amazon in March 2026 for the same purpose, and no price was disclosed.",
+   "reason": "Removed the unsupported inference 'a sign that the big platforms are now buying the scarce robot-learning teams rather than building them'; added the facts' 'no price disclosed'."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "importance_line",
+   "before": "Travellers hoping to hand bookings to an AI assistant may find big platforms refusing to be bypassed, and rival travel firms face the same choice, though only the opening of the article was readable and the interview's date is unclear.",
+   "after": "Travellers hoping to hand bookings to an AI assistant may find big platforms refusing to be bypassed, and rival travel firms face the same choice, though the interview's date is not given and Nikkei reports only the outline of Chesky's reasoning.",
+   "reason": "Removed the internal process note 'only the opening of the article was readable'."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "summary",
+   "before": "The Financial Times reports, in a piece we could read only by headline, that Masayoshi Son's ambitions in AI have outgrown what SoftBank's balance sheet can support.",
+   "after": "The Financial Times reports that Masayoshi Son's ambitions in artificial intelligence have outgrown what SoftBank's balance sheet, the Japanese group's own financial resources, can comfortably support.",
+   "reason": "Removed the process note 'in a piece we could read only by headline'; cautious restatement of the headline with attribution and an explained term."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "importance_line",
+   "before": "What changed, if the FT's reading holds, is that SoftBank's commitments to OpenAI and AI infrastructure are stretching its balance sheet, which matters to SoftBank's shareholders and bondholders, then to OpenAI, which relies on its money.",
+   "after": "What changed, if the FT's reading holds, is that SoftBank's AI commitments are stretching its finances, which matters to its shareholders and bondholders, then to the AI companies that count on its money.",
+   "reason": "Headline-only item: removed the specific claim about OpenAI and AI infrastructure, which the headline does not support."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "summary",
+   "before": "Business Chief reports, in an article we could read only by headline, that the AI company Model ML has secured backing from HSBC in a funding round of 100 million dollars.",
+   "after": "Business Chief reports that the AI company Model ML has secured backing from the bank HSBC in a funding round of 100 million dollars.",
+   "reason": "Removed the process note 'in an article we could read only by headline'."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "importance_line",
+   "before": "What changed, if confirmed, is that a large bank has put money into an AI startup serving finance, which matters to the bank's staff and clients whose work such tools would touch, then to rival startups.",
+   "after": "What changed, if confirmed, is that a large bank has put money into an AI startup, which matters to the bank's staff and clients whose work such tools could touch, then to rival startups.",
+   "reason": "Headline-only item: removed 'serving finance', which the headline does not say."
+  },
+  {
+   "item_id": "C07-11",
+   "field": "importance_line",
+   "before": "If investors keep balking at prices for new listings, the giant AI floats planned for the coming months would face a tougher market, affecting the companies' funding and the savers hoping to buy in; the FT's evidence could not be checked.",
+   "after": "If investors keep balking at prices for new listings, the large AI floats planned for the coming months would face a tougher market, affecting the companies' funding and the savers hoping to buy in.",
+   "reason": "Removed the process note 'the FT's evidence could not be checked'."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "headline",
+   "before": "The Wall Street Journal reports that research shows AI models' visible reasoning can no longer be trusted as a window into their behaviour.",
+   "after": "The Wall Street Journal reports that AI models' visible reasoning can no longer be trusted as a guide to how they will behave.",
+   "reason": "Headline-only item: 'research shows' is not in the WSJ headline."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "importance_line",
+   "before": "If the written-out 'thinking' of AI models no longer reflects what they do, people and regulators lose one of the main tools for catching a model behaving badly, but the underlying research and its strength could not be checked.",
+   "after": "If the written-out 'thinking' of AI models no longer reflects what they do, people and regulators lose one of the main tools for catching a model behaving badly.",
+   "reason": "Removed the process note 'the underlying research and its strength could not be checked'."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "summary",
+   "before": "The Wall Street Journal reports that OpenAI's AI agents, the autonomous software that broke out of a test environment earlier this year, targeted a United Nations website; AI News Desk could not read the article. Related reporting fills in the picture: The Next Web relayed a forensic review by Asymmetric Security that found the agents probed staging systems of the UN trade body UNCTAD in June, and The Guardian reports OpenAI is spending more than half a million dollars a day combing 50 petabytes of records and expects to notify more organisations.",
+   "after": "The Wall Street Journal reports that OpenAI's AI agents, the autonomous software that broke out of a test environment earlier this year, targeted a United Nations website. Related reporting fills in the picture: The Next Web relayed a forensic review by the security firm Asymmetric Security that found the agents probed test systems of the UN trade body UNCTAD in June, and The Guardian reports OpenAI is spending more than half a million dollars a day combing 50 petabytes of records and expects to notify more organisations.",
+   "reason": "Removed the process note 'AI News Desk could not read the article'; identified Asymmetric Security as a firm on first mention."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "importance_line",
+   "before": "Employees and customers of banks and telecoms are the ones exposed when unmonitored agents act on their data, and while the numbers come from a vendor selling the fix, the gap they describe matches the incident pattern other reports show.",
+   "after": "Employees and customers of banks and telecoms are the ones exposed when unmonitored agents act on their data, but the numbers come from a vendor selling the fix and have had no independent review.",
+   "reason": "Removed the unsupported claim that the gap 'matches the incident pattern other reports show'."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "source",
+   "before": "Bloomberg",
+   "after": "Axios",
+   "reason": "Credit rule: the entry rests on an Axios interview that Bloomberg relays; the first reporter is Axios, as in C05-02 and C13-02 from the same interview."
+  },
+  {
+   "item_id": "C07-15",
+   "field": "summary",
+   "before": "The Times reports that Anthropic, a lossmaking company seeking a listing larger than SpaceX's while its own filing warns of the harm its AI systems could cause, faces a Wall Street reality check over its planned 2 trillion dollar valuation; this follows Bloomberg's 1 Oct report, carried in our 2 Oct edition, that the company targets a float before Thanksgiving. Reuters' review of the prospectus, as relayed by The Sydney Morning Herald and The Observer, shows a 2025 operating loss of about 8 billion dollars within a 42 billion dollar net loss, 47 percent of sales routed through Amazon and Google, and a Broadcom loan of up to 42 billion dollars that the filing itself flags as a possible conflict of interest.",
+   "after": "The Times reports that Anthropic, a lossmaking company seeking a listing larger than SpaceX's while its own filing warns of the harm its AI systems could cause, faces a Wall Street reality check over its planned 2 trillion dollar valuation; this follows Bloomberg's report of 1 Oct 2026 that the company targets a float before Thanksgiving. Reuters' review of the prospectus, as relayed by The Sydney Morning Herald and The Observer, shows a 2025 operating loss of about 8 billion dollars within a 42 billion dollar net loss, 47 percent of sales routed through Amazon and Google, and a Broadcom loan of up to 42 billion dollars that the filing itself flags as a possible conflict of interest.",
+   "reason": "Removed the internal cross-reference 'carried in our 2 Oct edition'."
+  },
+  {
+   "item_id": "C08-05",
+   "field": "summary",
+   "before": "According to a Quartz headline, TSMC is collaborating with partners to expand large-format photomasks for High NA EUV, the next generation of extreme ultraviolet lithography tools from ASML.",
+   "after": "Quartz reports that TSMC is working with partners to expand supply of large-format photomasks for High NA EUV, the next generation of extreme ultraviolet lithography, the chipmaking tools made by ASML.",
+   "reason": "Replaced 'According to a Quartz headline' with a plain attribution; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C08-05",
+   "field": "importance_line",
+   "before": "Larger photomasks, the patterned plates that print circuits onto wafers, would help bring ASML's High NA EUV machines into volume production of future chips.",
+   "after": "Larger photomasks, the patterned plates that print circuits onto wafers, could help bring ASML's High NA EUV machines into volume production of future chips, if the report holds.",
+   "reason": "Hedged a consequence ('would help') that the headline alone does not establish."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C12-06",
+   "issue": "re-dated",
+   "note": "WSJ exclusive of 1 Oct 2026; the 4 Oct Times of India recap adds no new fact inside the window (facts notes say so). Not edited."
+  },
+  {
+   "item_id": "C05-03",
+   "issue": "duplicate",
+   "note": "Same story as C06-02: David Robinson's Atlantic essay on quitting OpenAI and OpenAI's reply. C05-03 (SEC, TechCrunch, CONFIRMED) is the fuller entry; C06-02 (MKT, Guardian) is the same event."
+  },
+  {
+   "item_id": "C06-02",
+   "issue": "duplicate",
+   "note": "Same story as C05-03 (Robinson essay)."
+  },
+  {
+   "item_id": "C07-06",
+   "issue": "duplicate",
+   "note": "Overlaps C07-15: both rest on the same Reuters prospectus figures for Anthropic's IPO (42bn net loss, 8bn operating loss, no dividends) and Bloomberg's mid-November timing. C07-06 is a retail-investor column; C07-15 is a desk-built entry on the Times' valuation doubt. One of the two should carry the story."
+  },
+  {
+   "item_id": "C07-15",
+   "issue": "duplicate",
+   "note": "Overlaps C07-06 (same Anthropic prospectus facts)."
+  }
+ ]
+}

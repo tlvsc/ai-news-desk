@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-05",
+ "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
+ "fetched": true,
+ "key_facts": [
+  "LEGO-Anything, from researchers at the University of Maryland and AWS, has coding agents turn a single photo into an editable Blender scene by writing code, running it, inspecting the result and revising.",
+  "The accompanying LEGO-Bench holds 208 images from 104 indoor and outdoor scenes with 443 registered assets, rendered from professionally built simulator scenes so exact geometry is known for scoring.",
+  "Scenes are scored on validity, reconstruction accuracy and appearance.",
+  "All six tested GPT configurations almost always produced a working scene, but accuracy varied: GPT-6 Astra scored 53.4 percent indoors and 39.6 percent outdoors; weaker setups around 15 percent. More reasoning budget raised Astra's office-subset score from 32.3 to 61.8 percent.",
+  "When asked which of two versions better matched the photo, the models' geometric judgments were near or below chance, so agents cannot tell whether their own scene improved.",
+  "A training-free add-on, LEGO-Plugin, replaces self-judgment with measurements and protects progress from regressive edits, improving all six models, by up to 62.7 percent for weaker ones and about two points for the top model.",
+  "Reconstructed scenes used for object detection reached roughly half the performance of the specialised model DINO; segmentation and depth lagged further."
+ ],
+ "quote_evidence": [
+  "GPT-6 Astra, the best tested model, hit 53.4 percent on indoor scenes and 39.6 percent on outdoor scenes.",
+  "When models had to pick which of two versions better matched the original, their geometric judgments landed near or below chance level.",
+  "The plugin improved all six models. Weaker agents saw the biggest gains, with boosts up to 62.7 percent."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A new benchmark shows coding agents can build 3D scenes from a photo but cannot judge their own accuracy, so refinement must rest on measurements, not model opinion.",
+ "event_date": "Not stated (reported 3 Oct 2026)",
+ "notes": "Research paper with no peer review mentioned; only GPT models tested. The Decoder's own reporting."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-02",
+ "v1_category": "HEA",
+ "headline": "Mayo Clinic researchers say an AI model spotted pancreatic cancer risk in routine health records up to five years early.",
+ "score": 6,
+ "score_reason": "Large dataset and strong early numbers for a deadly cancer, but conference-only, not peer reviewed and not yet tested outside Mayo.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Patients at risk of a cancer usually caught too late could be flagged from blood tests they already have, and health systems would gain a way to target scarce screening, but the result is preliminary and could weaken on other populations.",
+ "source": "Medical News Today",
+ "status": "PRELIMINARY",
+ "summary": "Medical News Today reports that Mayo Clinic researchers presented, at the American College of Surgeons Clinical Congress 2026, an AI model trained on the records of almost 40,000 patients that distinguished future pancreatic cancer cases from controls with an AUROC of 0.853 five years before diagnosis, a score where 0.5 is chance and 1.0 is perfect. The findings are not peer reviewed and do not yet show better outcomes in practice; lead author Chris Varghese said the model's signals came largely from routine blood counts, and the team is now running prospective tests and plans to try it at a non-Mayo health system.",
+ "url": "https://www.medicalnewstoday.com/articles/ai-model-may-predict-pancreatic-cancer-risk-up-to-5-years-before-diagnosis",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Conference date not stated in the article; article dated 4 Oct 2026."
+}

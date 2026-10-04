@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "A black market of resellers is selling access to Anthropic's Claude inside China, where the model is officially blocked.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a single original outlet (The Information) and a report from 2 Oct, but new to the pool and detailed.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Chinese developers get a banned model at half price, cardholders abroad pay for stolen-card sign-ups, and Anthropic's export-style access controls look porous while rival labs may be training on Claude's answers; the distillation claim is unconfirmed and Anthropic has not commented in the piece.",
+ "source": "The Information",
+ "status": "REPORTED",
+ "summary": "The Information reports, as relayed by The Chosun Daily, that thousands of 'token resellers' in China collect Claude accounts through servers abroad and sell access to Anthropic's blocked model to Chinese users at under half the official price, with six of 30 companies in one Beijing office building in the trade. Chosun adds that accounts are opened with bulk email addresses or stolen credit cards and are reportedly used by firms such as Moonshot AI and DeepSeek for distillation, training their own models on Claude's outputs; Anthropic has tightened checks and the resellers have moved to paper companies in Southeast Asia, the Middle East and the US.",
+ "url": "https://www.chosun.com/english/industry-en/2026/10/04/SUTONPY2OFBHPAFJM5G4I5Y22Q/",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original The Information article (2 Oct, paywalled) not read; url is the Chosun page where its text was read, and Chosun adds Tom's Hardware details. Distillation attribution is 'reportedly'."
+}

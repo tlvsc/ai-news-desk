@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-01",
+ "v1_category": "RES",
+ "headline": "India has tested its first open-air quantum-encrypted link, sending encryption keys 5.56 km through the air between two institutes in Gujarat.",
+ "score": 5,
+ "score_reason": "Official, verifiable national first, but a short-range trial with no outside review and limited reach beyond India.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "India now has a working open-air quantum key link to build toward satellite-secured communications, which matters first to Indian government and defence users and then to QNu Labs and BISAG-N, though 5.56 km is a modest distance and the figures are the ministry's own.",
+ "source": "ANI News",
+ "status": "CONFIRMED",
+ "summary": "ANI reports that India's electronics ministry announced on 3 Oct 2026 the country's first free-space quantum key distribution link, a method of sending encryption keys as light through open air so that any eavesdropping is detectable, run over 5.56 km between BISAG-N and IIT Gandhinagar by the Bengaluru company QNu Labs on the night of 27-28 Sep 2026. The ministry says the link kept errors below 5 percent and produced keys at 230 to 260 bits per second, which were then used by a post-quantum encryption platform to scramble test messages, a step it describes as groundwork for longer and satellite-based quantum-secure networks.",
+ "url": "https://www.aninews.in/news/business/india-demonstrates-first-556-km-free-space-quantum-secure-communication-link20261003181508",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Trial 27-28 Sep 2026, but the news event is the ministry's release of 3 Oct 2026, so kept NEW. ANI relays an official release; figures are unreviewed."
+}

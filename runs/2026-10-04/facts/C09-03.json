@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-03",
+ "title": "Nvidia-backed Neocloud Nscale faces years of delay because UK's 'largest AI supercomputer' can't get enough power from the grid to feed its data centers",
+ "source_used": "The Guardian (24 Sep 2026), which TechRadar's 3 Oct 2026 piece relays; TechRadar text also read",
+ "article_url": "https://www.theguardian.com/technology/2026/sep/24/construction-largest-supercomputer-delayed",
+ "fetched": true,
+ "key_facts": [
+  "Nscale's planned data center in Loughton, Essex, billed as the UK's largest AI supercomputer, will miss its 2027 launch and could be delayed into the early to mid-2030s.",
+  "UK Power Networks, the local grid operator, has reportedly told Nscale the grid cannot supply enough power until the early to mid-2030s; the delay was first reported by the newsletter Morning Intelligence.",
+  "The site needs up to 90 megawatts, about the consumption of 315,000 homes.",
+  "Ofgem said in June 2026 that 315 data centers were queueing to connect to the National Grid, 73 GW of demand against a national peak of 45 GW.",
+  "Nscale, a UK startup seeking a $35 billion (26 billion pound) flotation, says it is committed to the project and is looking at onsite generation and faster connection.",
+  "The Guardian revealed in March 2026 that the site was still a working scaffolding yard; it has since been cleared.",
+  "The UK government cited the Loughton project in its 2025 AI strategy."
+ ],
+ "quote_evidence": [
+  "UK Power Networks (UKPN), the company that will connect the site to the local power grid, has reportedly told Nscale the grid will not be able to supply sufficient power to the datacentre until the early to mid-2030s.",
+  "The Loughton site is seeking up to 90MW of capacity, equivalent to the energy consumption of about 315,000 homes.",
+  "Nscale said it was \"committed to the project\" but the failure to find a quick fix to the power supply issue underlines how much energy has become a hindrance to datacentre development."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The UK's flagship AI data center cannot get grid power for years, a sign of the connection queue holding back the whole sector.",
+ "event_date": "24 Sep 2026 (Guardian report); TechRadar relay 3 Oct 2026",
+ "notes": "TechRadar's piece adds no new facts beyond the Guardian; the Guardian itself credits Morning Intelligence for the first report. Source set to The Guardian; stale by 9 days."
+}

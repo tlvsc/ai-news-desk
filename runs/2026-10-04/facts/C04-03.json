@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-03",
+ "title": "Pooled AlphaFold3 screening maps a bacterium’s protein interactions 100 times faster",
+ "source_used": "Scienmag (carried by Bioengineer.org)",
+ "article_url": "https://scienmag.com/pooled-alphafold3-screening-maps-a-bacteriums-protein-interactions-100-times-faster/",
+ "fetched": true,
+ "key_facts": [
+  "A study by Todor and colleagues in Molecular Systems Biology screened all possible protein-protein interactions in the bacterium Mycoplasma genitalium (about 475 proteins, 113,050 possible pairs) using AlphaFold3, Google DeepMind's structure-prediction model.",
+  "Instead of modelling every pair separately, the team submitted random pools of 10 to 25 proteins to AlphaFold3's free server, designed so every pair appears together in at least one pool.",
+  "Pooling cut the number of AlphaFold jobs 100-fold and roughly halved total runtime compared with pairwise runs, and also improved accuracy at identifying true interactions.",
+  "Why accuracy improves is unresolved; one hypothesis is that competition between candidate interactions in a pool suppresses false positives.",
+  "Limits: about 40 species-specific proteins (8 percent of the proteome) lack deep sequence alignments, so nearly 18,000 pairs cannot be evaluated; mutually exclusive interactions may be missed; the human proteome's roughly 200 million pairs remain out of reach for pooling alone.",
+  "The article is based on an accompanying commentary by Kevin Drew ('Proteome-wide AlphaFold pool party', Molecular Systems Biology 22(4), 477-479)."
+ ],
+ "quote_evidence": [
+  "Compared with the traditional pairwise approach, pooling reduced the total number of AlphaFold jobs by 100-fold and improved the runtime by twofold.",
+  "More surprisingly, the pooled approach also improved the overall accuracy of identifying true interactions.",
+  "As a result, nearly 18,000 protein pairs cannot be evaluated by this approach at all."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A cheap trick, pooling proteins into one AlphaFold3 job, makes whole-organism interaction maps affordable for bacteria that have no experimental data.",
+ "event_date": "Not stated; commentary in Molecular Systems Biology vol. 22 issue 4, reported 3 Oct 2026",
+ "notes": "Bioengineer.org carries a Scienmag text (bylined Drew Townsend, Scienmag), so the source is Scienmag. The headline's '100 times faster' refers to 100-fold fewer jobs; runtime improved about twofold, so the headline overstates and the score drops by one."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-01",
+ "title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+ "fetched": true,
+ "key_facts": [
+  "Starting in October 2026, Google restricts Gemini model access for personal accounts without a subscription to the smallest model, Flash-Lite.",
+  "The current free tier offers 3.6 Flash and some access to 3.1 Pro; both are removed from the free tier.",
+  "AI Plus subscribers ($4.99 a month) lose Pro access and keep only Flash-Lite and Flash.",
+  "All three models (Flash-Lite, Flash, Pro) require AI Pro ($19.99 a month) or AI Ultra ($99.99 or $199.99 a month).",
+  "The Decoder says the setup mirrors OpenAI's freemium model for ChatGPT and that the tier details are on Google's support page.",
+  "The Decoder judges the real-world impact likely small, since most casual users do not know which model they use and power users mostly already pay.",
+  "The Decoder suggests Google may be preparing for the larger, costlier Gemini 4 Argon."
+ ],
+ "quote_evidence": [
+  "Without a subscription, users will only get the smallest model, \"Flash-Lite.\"",
+  "AI Plus subscribers ($4.99/month) lose access to Pro and can only use Flash-Lite and Flash.",
+  "The real-world impact is likely small."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Free and $5 Gemini users are pushed to weaker models, in line with OpenAI's paid-tier approach.",
+ "event_date": "October 2026 (effective date of the new tiers)",
+ "notes": "Single outlet; The Decoder cites Google's support page for tier details but the article was short (about 1,100 characters). The impact assessment and the Gemini 4 Argon link are The Decoder's own analysis, not Google statements."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-03",
+ "title": "INFQ Stock Surges After Infleqtion Solves Key Technical Hurdle In Large-Scale Quantum Computing",
+ "source_used": "Stocktwits",
+ "article_url": "https://stocktwits.com/news-articles/markets/equity/infq-stock-surges-after-infleqtion-solves-key-technical-hurdle-in-large-scale-quantum-computing/cZMarKvRBaE",
+ "fetched": true,
+ "key_facts": [
+  "Infleqtion, a US neutral-atom quantum computing company listed on NYSE as INFQ, said it entangled 30 logical qubits using 80 physical qubits, announced at Quantum World Congress 2026 on a Thursday.",
+  "The company calls itself the first neutral-atom quantum company to reach 30 logical qubits on a commercial system; the signal was about 1,000 times stronger than the noise.",
+  "Logical qubits combine several physical qubits with error correction to hold information more reliably.",
+  "Infleqtion says the result validates its Sqale processor and Superstaq software; an AI-assisted discovery halved the physical gates needed for a key logical operation.",
+  "Shares rose 3.4 percent on Thursday and kept climbing after hours; retail sentiment on Stocktwits turned 'extremely bullish'.",
+  "Background: Q2 revenue of 12.6 million dollars (up 116 percent), a proposed up to 100 million dollar US Commerce Department agreement, and a contract for a fault-tolerant machine in Illinois in 2027; it went public via SPAC in February raising over 550 million dollars."
+ ],
+ "quote_evidence": [
+  "Infleqtion shares surged 3.4% on Thursday and extended the climb overnight after the quantum computing company announced it had successfully entangled 30 logical qubits using just 80 physical qubits.",
+  "Infleqtion said its 30 logical qubits were entangled into a single coherent quantum state, with the signal measuring approximately 1,000 times stronger than the underlying noise.",
+  "In a statement Thursday, the company said the result validates the architecture of its Sqale quantum processing platform and Superstaq software."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A low physical-to-logical qubit ratio is the core scaling problem; this is a company claim with no outside review reported.",
+ "event_date": "Article says Thursday, most likely 1 Oct 2026; feed date 3 Oct 2026",
+ "notes": "Company claim relayed by Stocktwits, a retail-trading news site; no peer review or independent check mentioned. The headline's 'solves key technical hurdle' overstates a single demonstration. Internal dating (Thursday) conflicts with the 3 Oct feed timestamp, so treated as a follow-up of 1 Oct 2026."
+}

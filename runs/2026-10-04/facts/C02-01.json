@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-01",
+ "title": "Meta's Muse can shop and check out for you. Here's how it works",
+ "source_used": "BigGo Finance (4 Oct 2026) and Fox News (3 Oct 2026); CNBC original blocked (403), Crypto Briefing and Traders Union also blocked",
+ "article_url": "https://finance.biggo.com/news/9d011a62-47fe-424e-8eb4-bdba605166d6",
+ "fetched": true,
+ "key_facts": [
+  "Meta's personal AI agent Muse, launched 8 Sep 2026, browses, fills forms, compares prices and completes purchases, pausing for user approval before payments.",
+  "Stripe's agent wallet Link was the first payment method; Shopify's Shop Pay was announced as a supported wallet in Muse on 23 Sep 2026, giving Muse access to Shopify stores.",
+  "At Meta Connect 2026 on 23 Sep, Meta said Walmart, Best Buy, Gap, Sephora, Ulta and Wayfair would be added as Muse-supported retailers.",
+  "Amazon has blocked Muse from searching and buying on Amazon.com and asked Meta to restrict it, citing terms that require AI agents to identify themselves.",
+  "Sensor Tower: Muse passed 5 million US downloads within 22 days of launch; Fox News cited reports of more than 3 million by late September.",
+  "For purchases, Meta says Link can generate a one-time card number so the merchant and the agent never see the user's real card.",
+  "CNBC's 3 Oct piece is an explainer of how this checkout works; the Crypto Briefing and Traders Union headlines of 3 Oct mention checkout fees and retail partnerships, which could not be read."
+ ],
+ "quote_evidence": [
+  "Shopify has fully opened its stores to Muse and integrated Shop Pay checkout, while Amazon has blocked Muse's access to its platform.",
+  "Two days later, on the 23rd, Shop Pay was officially announced as a supported wallet within Muse.",
+  "For purchases, Meta says Link can generate a one-time card number at checkout."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Agent shopping is now live for Meta's millions of Muse users, and retailers are splitting between opening up (Shopify) and blocking (Amazon).",
+ "event_date": "8 Sep 2026 launch; 23 Sep 2026 Shop Pay and retail partners; CNBC explainer 3 Oct 2026",
+ "notes": "CNBC blocked (403). Written from BigGo Finance (own compilation) and Fox News; two 3 Oct outlets mentioning possible checkout fees were blocked, so that detail is not confirmed. Underlying capability dates from September, so this is a follow-up rather than new news."
+}
