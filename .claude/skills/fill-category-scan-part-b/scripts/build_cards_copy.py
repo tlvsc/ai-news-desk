@@ -25,6 +25,8 @@ fab = json.loads((W / 'cards_work' / 'cards_copy_fable.json').read_text())
 by_card = {s['card']: s for s in fab['stories']}
 cards = [{'id': 'cover', 'kind': 'cover'}]
 for c in sel['cards_in_deck_order']:
+    if c.get('label', 'SHORT LABEL') == 'SHORT LABEL':
+        raise SystemExit(f"{c['card']}: write a short label in selection.json (step 1) before building")
     e, f = entry(W, c['item']), by_card[c['card']]
     assert f['item'] == c['item'], (c, f['item'])
     fun = c['card'] == 'fun'

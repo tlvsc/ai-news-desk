@@ -83,9 +83,7 @@ claim than the entry ("starts trading Monday" for "plans to, subject to approval
 
 ### 5. Cards build
 ```
-python3 /home/user/ai-news-desk/scripts/card_cover_adjusting_script.py YYYY-MM-DD \
-  --base <scratchpad>/cards_pkg/drive_refs/cards_13-9-26_I01_VL1_presenter_preview.png --fonts $PKG/assets/fonts \
-  --out $W/products/cards_D-M-YY/cards_D-M-YY_I01_VL1.png                       # the cover: only the date changes
+python3 $S/make_cover.py --workdir $W [--pkg <scratchpad>/cards_pkg]   # the approved cover, only the date changes
 python3 $S/build_cards_copy.py --workdir $W
 python3 $S/make_cards.py --workdir $W
 python3 $PKG/aind_cards.py render --edition $W/products/cards_edition.json --lock $W/products/cards_content_lock.json --out $W/products/cards_runN
@@ -131,10 +129,10 @@ steps 3 (script check), 5 and 6 again (rename replaced outputs `_old`), and show
 - The Bigger Picture card and clip name what to watch and why; the Bulletin version is the longer cousin.
 
 ## Files
-- scripts/card_candidates.py (step 1), make_wording_prompts.py (2), check_wording.py (3), build_cards_copy.py,
-  make_cards.py, assemble_cards.py (5), build_pack.py, fill_headlines.py, verify_headlines.py (6), review_list.py (7),
+- scripts/card_candidates.py (step 1), make_wording_prompts.py (2), check_wording.py (3), make_cover.py,
+  build_cards_copy.py, make_cards.py, assemble_cards.py (5), build_pack.py, fill_headlines.py, verify_headlines.py (6), review_list.py (7),
   common_b.py (paths and dates).
 - briefs/wording_common.md, wording_cards.md, wording_headlines.md, stranger_cards.md, stranger_headlines.md.
 - assets/Aind_headlines_comfy_template_13slots.json (the ComfyUI template), assets/pack_base.json (pack fields and
   Rafi's opening and ending).
-- The cover script is shared: /home/user/ai-news-desk/scripts/card_cover_adjusting_script.py.
+- make_cover.py calls the shared repo script scripts/card_cover_adjusting_script.py.

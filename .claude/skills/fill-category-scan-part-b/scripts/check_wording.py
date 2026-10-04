@@ -4,7 +4,7 @@
     python check_wording.py --workdir W --headlines W/headlines_work/scripts_final.json
 
 Cards: head at most 85 characters, body exactly two sentences and at most 230 characters (Bigger Picture body at
-most 165, teaser line at most 90); every sentence at most 15 words and at most one number; no banned word; never
+most 160, teaser line at most 90); every sentence at most 15 words and at most one number; no banned word; never
 starts with an outlet's "X reports that". Headlines: the same sentence rules, no digits (numbers are spoken words),
 the speaking time from syllables / 4.4 rounded up to the half second; a story aims at 8 s and warns past 9.5 s, the
 Bigger Picture warns past 11.5 s, nothing may pass 12 s. Writes the stranger check input next to the file
@@ -45,7 +45,7 @@ bad = 0
 if a.cards:
     d = json.loads(Path(a.cards).read_text()); rows, si = [], []
     items = [(s['card'], s['head'], s['body'], 230) for s in d['stories']] + [(t['id'], t['head'], '', 0) for t in d['teaser']]
-    items.append(('bp', d['bp']['head'], d['bp']['body'], 165))
+    items.append(('bp', d['bp']['head'], d['bp']['body'], 160))
     for cid, h, b, lim in items:
         p = problems(h, 'card') + (problems(b, 'card') if b else [])
         hl = 90 if not b else 85

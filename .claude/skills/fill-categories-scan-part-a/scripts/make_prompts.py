@@ -62,7 +62,9 @@ def main():
         for cid, (desc, crit) in cats.items():
             lo, hi = (a.fun, a.fun) if cid == FUN else (a.min, a.max)
             v = dict(base, CAT_ID=cid, NN=f'{cid:02d}', CAT_DESC=desc, CAT_NAME=names[cid],
-                     N_MIN=lo, N_MAX=hi, N_RANGE=(f'{lo} to {hi}' if lo != hi else str(hi)), N_MAIN=hi, N_BACKUP_FROM=hi + 1, N_TOTAL=hi + 3,
+                     N_MIN=lo, N_MAX=hi, N_RANGE=(f'{lo} to {hi}' if lo != hi else str(hi)),
+                     N_RULE=(f'{lo} good items are enough; go beyond {lo} only where there are plenty of good ones, and every main pick beyond {lo} must have importance 5 or more.'
+                             if lo != hi else f'The count stays at {hi}: pick the {hi} best, no more.'), N_MAIN=hi, N_BACKUP_FROM=hi + 1, N_TOTAL=hi + 3,
                      EXTRA=extra.get(a.stage, {}).get(str(cid), ''))
             if cid == FUN:
                 v.update(CRITERION_B='be genuinely funny or entertaining and about AI',
