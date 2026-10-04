@@ -1,7 +1,59 @@
-# Tasks for V1 (not for this temporary session)
+# Learned in the temporary scan runs, and tasks for V1
 
-Recorded here so they are not lost; the project's task list lives on Drive
-(AI News Desk — Project Task List) and Rafi copies them there (rule 0).
+THE ONE LIST (Rafi, 4 Oct 2026): everything learned while running the temporary Claude scan (27 Sep 2026 onward) is
+collected in this file, so that when V1 is ready the whole list moves to V1 at once. Every run adds its lessons here
+(Part B step 8). Not for this temporary session to apply on Drive; the V1 task list on Drive is AI News Desk — Project
+Task List (00 PROJECT OS, a Google Sheet), which this session cannot write into (rule 0 and the connector), so Rafi or
+Astra copies items there.
+
+Part 1, below the line of 27 Sep to 1 Oct, was copied on 4 Oct 2026 from the scratchpad lesson list of 30 Sep and the
+Claude lane handoffs 28B and 29A, which live only on the cloud machine and are lost when it is wiped.
+Part 2 starts at item 1 (2 Oct 2026) and is numbered as before.
+
+## Part 1: learned 27 Sep to 1 Oct 2026 (status checked against the repo on 4 Oct 2026)
+P1-1. Scan window 24 hours, 30 only on request. Applied: CLAUDE.md rule 16, collect.py.
+P1-2. Read the source sites directly, not only Google News. Applied 2 Oct: source_scan.py, the 55 sources.
+P1-3. Fun Side 5 to 10 in the Full Report, no repeats, top 3 in the Bulletin. Applied: house rules, skill, Drive rules.
+P1-4. Bulletin cutoff lands near 30 to 50 stories; Full Report 5 and up plus Fun, flexed past about 150 or very few;
+      always state cutoff and count (Rafi, 28 and 29 Sep). Applied: CLAUDE.md rule 14, build_products.py.
+P1-5. Everything final goes to its Drive place; what the connector cannot upload, Rafi uploads. Applied: rule 0
+      standing yes of 3 Oct and delivery_manifest.py. Binaries still never pass (see item 53).
+P1-6. Cards 14 to 15 story cards, about half to Headlines; one company at most 2 Headlines stories, 3 cards; money
+      cards at most 3; a headline only story gets a cautious card (Rafi, 29 and 30 Sep). Applied: house rules, card_candidates.py.
+P1-7. Headlines news part about 90 s (7 stories of 8 to 9 s, Fun 8, teaser 8, Bigger Picture 10), every clip rounded
+      UP to the next half second. Applied: check_wording.py, fill_headlines.py.
+P1-8. Hologram: the prompt sets the border and what shows inside; the opening shows the Earth, then the logo circling
+      it. The 28 Sep opening was good, the 29 Sep one was not. Applied: pack_base.json carries the 2 Oct opening.
+P1-9. When Rafi asks for the stories in the JSON, show only the spoken words, not the prompt. Applied: review_list.py.
+P1-10. Send files one at a time, never one big zip (phone storage). Applied: both skills, step 13 and step 8.
+P1-11. One source of truth per rule, one home per rule, no copies (Rafi, 30 Sep). OPEN: the proposals below.
+P1-12. Remove a story by its title, not its number; a story picked in two categories stays where it is a main pick;
+       real links are kept by the Google link, not the story number. Applied: build_pool.py, tested.
+P1-13. Never rebuild the pool after the writers start (item numbers shift). Applied: skill step 3.
+P1-14. Full network access: 128 of 235 articles readable instead of 38 (30 Sep). Applied: environment setting.
+P1-15. Check recent reports properly before suggesting extra stories (a broken check suggested repeats on 30 Sep).
+       Applied: the four day repeat list (item 28).
+P1-16. Check the approved opening before writing a new one. Applied: house rules 16 OPENING AND ENDING OPTIONS.
+P1-17. Never build before Rafi's yes (house rule 4; broken on 30 Sep). Standing.
+P1-18. A pgrep watcher matched itself and wasted about 45 minutes. Applied: run_in_background in the skill.
+P1-19. Stop at every automatic compaction; approval to continue once does not cover the next one (28 and 29 Sep,
+       and again 4 Oct, item 49). Applied: CLAUDE.md rule 18.
+P1-20. Match Rafi's numbered answers against the original list in the record before acting (a recap read "7) yes" as
+       a yes to the wrong item on 28 Sep). Standing.
+P1-21. Show each step and wait for yes; never drop categories or write card text before asking (29 Sep). Standing.
+P1-22. Mistakes of 30 Sep: old 8 story JSON sent inside the zip; hologram wording Rafi had not approved; product rules
+       copied into the house rules without asking where each rule lives.
+P1-23. Proposals of 30 Sep, no decision found in the record on 4 Oct (Rafi decides):
+       (a) house rule 8 to say each instruction is written once in its one home (product rules in that product's Drive
+           rules file, how Rafi works in CLAUDE.md), with pointers instead of copies. CLAUDE.md rule 8 still has the old wording.
+       (b) the voice walkthrough applies only when Rafi asks for one (his preferences now say so: ANSWERS IN POINTS).
+       (c) rule 10 exception: the opening logo animation around the globe may be generated, as approved. Not in CLAUDE.md.
+       (d) move rule 16 and the counts of rule 14 out of the house rules into the Drive rules files, leaving pointers.
+P1-24. Open from 28 to 30 Sep, not checked since: Bulletin rules file section 4 "scored 7 to 10" versus the flexible
+       cutoff; cover script move to Card Master Permanent Assets not approved; Astra task file still says 8 stories and
+       the old slot map; project pictures in the AI_News_Desk root waiting for Rafi's sort decision.
+
+## Part 2: learned from 2 Oct 2026 on
 
 1. (2 Oct 2026) PLAIN ENGLISH GATE for every card, Headlines line and article. Before any render
    or JSON fill, every headline and body passes two checks: (a) a script check against
@@ -144,3 +196,26 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     in 00 PROJECT OS, a Google Sheet) and V2 (no task list; the AIND V2 Open Questions and Decision Register). The V1 task list
     and the V2 Open Questions and Decision Register cannot be edited from this session (the connector only renames or
     moves files); Rafi or Astra adds the row from the text given in chat on 4 Oct 2026.
+52. (4 Oct 2026) THE V1 TASK LIST on Drive is AI News Desk — Project Task List in 00 PROJECT OS (a Google Sheet; its
+    Workflow tab is all V1). V2 has no task list, only the AIND V2 Open Questions and Decision Register. Mistake: I called
+    the V1 list "shared" from its title alone. Prevention: read what a list covers before naming whose it is.
+53. (4 Oct 2026) DRIVE DELIVERY LIMIT: the connector carries only typed text. Of 9 Part A files, 4 reached Drive (two .md
+    reports, report_pdf.json, bulletin_pdf.json); both PDFs, the pool CSV and JSON and daily-pool.md were refused (too
+    large or binary), the same as 3 Oct. It also cannot write into a Google Sheet or edit a file's content (update_file
+    only renames or moves). V1 needs an upload step on Rafi's PC (or Astra) for PDFs, cards, pool files and the JSON.
+54. (4 Oct 2026) WEEKEND WINDOW (Sat 08:20 to Sun 08:20 UTC): thin categories after the four day repeat list
+    (Developer Tools 13 after a filler, Business 10, Chips 11, Security 11); 111 articles written, 28 held (26 re-dated, 2
+    duplicates). Copy sites re-date old stories: EnergyNow and Stocktwits carried Bloomberg and Reuters stories from March,
+    April and August with new dates. Writers caught them from the text; qa_check held them.
+55. (4 Oct 2026) GATE TREND: first stranger check failed 4 of 10 Headlines lines and 5 of 20 card items (3 Oct: 6 and 6).
+    Main failures: a name never introduced (TSMC, Gemini, Terafab, Anthropic), jargon ("models", "debt watchers"), an
+    idiom ("own their risks"). Fable wording took 2.5 and 5.5 minutes, not 25 to 40.
+56. (4 Oct 2026) RENDER CROP AGAIN: the label "Hong Kong IPOs" made the Market category line too wide and the renderer
+    refused the card; "Hong Kong" fit. With the long Market category name, labels stay at about 10 characters.
+57. (4 Oct 2026) BULLETIN SPREAD: at 6 and up the Bulletin had no Ethics and law and no Society story (5 and up gave 79,
+    too many). V1 may need one guaranteed slot per category in the Bulletin.
+58. (4 Oct 2026) DRIVE RULE CHANGE: Headlines Master Section D1 was rewritten on 3 Oct 20:30 UTC: the layout image
+    instagram_pixels_boundary_stirps_subtitles is the only layout authority; the source strip moves to the top under the
+    date strip, subtitles sit at x 180 to 890, y 1356 to 1535. It affects the video post on Rafi's PC, not the JSON.
+59. (4 Oct 2026) THE ONE LIST (Rafi): all lessons of the temporary scan runs live in this file, to move to V1 when V1
+    is ready. Older lessons of 27 Sep to 1 Oct were copied in as Part 1.

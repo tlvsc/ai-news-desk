@@ -182,6 +182,7 @@ python3 $K/save_state.py --workdir $W        # copies the working files into <re
 ```
 4. Then start part B at once with the Skill tool: `fill-category-scan-part-b`. Do not wait to be asked.
 5. Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing.
+6. Write every lesson of the run into `docs/V1_TASKS.md` (the one list of lessons to move to V1; Rafi, 4 Oct 2026).
 
 ## Gotchas (27 Sep to 3 Oct 2026)
 
