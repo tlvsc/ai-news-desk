@@ -124,4 +124,6 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     a story that credits another outlet credits that outlet; headline only means another outlet or our own
     desk entry labelled AI News Desk. The Drive Full Report rule 6 says nothing about blocked originals: V1
     should add this wording there (Rafi edits Drive).
+47. (3 Oct 2026) The Bigger Picture card label reads AIND, not DESK VIEW (Rafi). Drive still says DESK VIEW in
+    Cards_Master_Rules_Structure 1.3 and 3.5 and Article_phrasing_instructions_AIND_V1 section 3.2: V1 wording to change.
 

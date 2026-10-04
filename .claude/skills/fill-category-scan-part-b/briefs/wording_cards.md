@@ -8,6 +8,6 @@ Limits (the renderer refuses text that does not fit):
 - Story card head: one sentence, at most 85 characters (three lines). Prefer 70 to 85.
 - Story card body: exactly TWO sentences, at most 230 characters: what actually happened in real-world terms, then why it matters or the honest doubt (who says it, what is unconfirmed). Each sentence at most 15 words.
 - Teaser line: one short sentence, at most 90 characters, the deed first.
-- Bigger Picture card ("And for the bigger picture" card, pill DESK VIEW): head one sentence of at most 85 characters that sums up the big thing happening that moves the market today; body at most 160 characters in two short sentences: what happened, then what to watch AND why. Source: WORKDIR/bigger_picture_bulletin.json and the entries named in bp_refs only (CLAUDE.md rule 17).
+- Bigger Picture card ("And for the bigger picture" card, label AIND): head one sentence of at most 85 characters that sums up the big thing happening that moves the market today; body at most 160 characters in two short sentences: what happened, then what to watch AND why. Source: WORKDIR/bigger_picture_bulletin.json and the entries named in bp_refs only (CLAUDE.md rule 17).
 - The Fun card: light tone, still precise, same limits as a story card.
 Validate with python json.load. Final message: one line only ("cards wording written").
