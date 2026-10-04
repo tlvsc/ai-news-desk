@@ -9,12 +9,13 @@ timelines inside their prompts.
 """
 import argparse, json, re
 from pathlib import Path
-from common_b import edition_dates
+from common_b import edition_dates, rules_gate
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('--workdir', required=True)
 W = Path(ap.parse_args().workdir)
 short = edition_dates(W)[1]
+rules_gate(W)   # GATE (Rafi, 4 Oct 2026): step 3b must be clean
 pack = json.loads((W / 'headlines_work' / f'headlines_{short}_pack.json').read_text(encoding='utf-8'))
 L = ['**Headlines: spoken words and the blue holographic screen.** In every story clip the logo changes slowly to one '
      'simple picture inside the blue border, no text and no people, then returns to the logo.', '']

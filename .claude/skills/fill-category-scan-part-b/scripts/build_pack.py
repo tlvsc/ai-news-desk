@@ -8,11 +8,12 @@ C01 opening, C02-C08 stories, C09 fun, C10 teaser, C11 The Bigger Picture, C12 u
 """
 import argparse, copy, json
 from pathlib import Path
-from common_b import B, edition_dates, entry
+from common_b import B, edition_dates, entry, rules_gate
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('--workdir', required=True)
 W = Path(ap.parse_args().workdir)
+rules_gate(W)   # GATE (Rafi, 4 Oct 2026): no Headlines pack from lines without a clean rules recheck
 ed, short, title = edition_dates(W)
 base = json.loads((B / 'assets' / 'pack_base.json').read_text(encoding='utf-8'))
 fin = json.loads((W / 'headlines_work' / 'scripts_final.json').read_text(encoding='utf-8'))

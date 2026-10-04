@@ -31,3 +31,18 @@ def prev_scripts(W):
     cands += [Path(p) for p in sorted((B.parent.parent.parent / 'runs').glob('*/headlines_work/scripts_final.json'))]
     older = [(c.parent.parent.name.replace('run_', ''), c) for c in cands if c.parent.parent.name.replace('run_', '') < ed]
     return str(max(older)[1]) if older else None
+
+
+def rules_gate(W):
+    """GATE (Rafi, 4 Oct 2026): stop unless the Headlines rules recheck (Part B step 3b) is clean for the current lines."""
+    H = Path(W) / 'headlines_work'
+    sf, rc, rr = H / 'scripts_final.json', H / 'rules_check.json', H / 'rules_result.json'
+    why = []
+    if not rc.exists() or rc.stat().st_mtime < sf.stat().st_mtime:
+        why.append('check_headlines_rules.py has not run on the current scripts_final.json')
+    elif json.loads(rc.read_text()).get('fails'):
+        why.append(f"check_headlines_rules.py reports {json.loads(rc.read_text())['fails']} rule fails")
+    if not rr.exists() or rr.stat().st_mtime < (H / 'scripts_fable.json').stat().st_mtime:
+        why.append('the rules agent (prompt_rules_headlines.txt) has not checked this edition')
+    if why:
+        raise SystemExit('STOP, step 3b is not done: ' + '; '.join(why))
