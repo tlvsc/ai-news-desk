@@ -136,3 +136,10 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     edition; card 6 and its clip did not link Robinson's essay to his exit we reported on 3 Oct. Rafi's rule: a reply
     names and explains the story it answers. Now in CLAUDE.md rule 16, writer, editor, wording and stranger briefs,
     qa_check.py (reply_without_earlier_story) and check_wording.py (FAIL). Cards 5 and 6 and clip 4 rewritten.
+51. (4 Oct 2026) OPEN, LATER (Rafi: "fix this in the other version, but not now"). Follow-up and reply stories, the upgrade
+    of item 50: (1) the checks fire on every follow-up (the curator's follow_up mark), not on reply words; (2) make_chunks.py
+    gives the writer the earlier story's headline, outlet and date from the earlier pool; (3) the full rule stays only in
+    CLAUDE.md rule 16, the briefs keep one-line pointers; (4) "yesterday" only when it was yesterday, else the date or
+    "in our 3 Oct edition". Same task for the other versions on Drive (V1 ChatGPT run and V2): the Drive Project Task List
+    and the V2 Open Questions and Decision Register cannot be edited from this session (the connector only renames or
+    moves files); Rafi or Astra adds the row from the text given in chat on 4 Oct 2026.
