@@ -250,3 +250,9 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     the writer to the Headlines Master rules file; the script check only tested the phrasing law. Fix: the brief points to
     the rules file and lists the previous day's introductions; check_headlines_rules.py and a rules agent (Part B step 3b)
     recheck every line against the rules; CLAUDE.md rule 16 HEADLINES RULES RECHECK. V1 must carry the same recheck.
+61. (4 Oct 2026) HARD GATE, NOT A REMINDER: a check written in the skill can be skipped; a script that refuses to run
+    cannot. build_pack.py and review_list.py now stop unless check_headlines_rules.py passed on the current lines and the
+    rules agent checked this edition (common_b.rules_gate). Tested: both stopped while the agent was still running, and a
+    fresh machine for 5 Oct found the 4 Oct lines in runs/2026-10-04 for the rotation check. Honest limits: judgment
+    rules (company tags, clear WHO) rest on an agent and can be missed; a new Drive rule is not in the script until added.
+    V1 needs the same pattern: every product is built only after its own rules check passes.
