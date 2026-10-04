@@ -126,4 +126,6 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     should add this wording there (Rafi edits Drive).
 47. (3 Oct 2026) The Bigger Picture card label reads AIND, not DESK VIEW (Rafi). Drive still says DESK VIEW in
     Cards_Master_Rules_Structure 1.3 and 3.5 and Article_phrasing_instructions_AIND_V1 section 3.2: V1 wording to change.
+48. (4 Oct 2026) WRITE ONLY WHAT CAN PRINT (Rafi): articles only for pool score 5 and up plus Fun; 3 Oct data: 136 of
+    160 written instead of 160, about 15 percent less reading and writing. make_chunks.py --min-score, --only-missing.
 

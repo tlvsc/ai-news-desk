@@ -100,11 +100,15 @@ python3 $K/url_fixes.py --workdir $W           # tracking codes and cut-off link
 ```
 Start the decoder with the Bash tool's run_in_background option. Never `nohup ... &` with a `pgrep -f` watcher.
 
-### 5. Chunks and article text
+### 5. Chunks and article text (write only what can print)
 ```
-python3 $K/make_chunks.py --workdir $W
+python3 $K/make_chunks.py --workdir $W         # pool score 5 and up plus the Fun Side; the rest stays pool only
 python3 $K/prefetch.py --workdir $W            # run_in_background; 3 Oct: 89 of 160 readable
 ```
+Rafi, 4 Oct 2026: the pool keeps every story as headline and link; an article is read and written only for
+stories that can reach the Full Report (curator score 5 and up, the writers never raise a score) and for the
+Fun Side. If step 8 has to lower the report cutoff on a thin day, run
+`make_chunks.py --workdir $W --min-score 4 --only-missing`, then prefetch and a second writer round for those.
 
 ### 6. Read and write (16 agents in parallel, 5 to 10 minutes)
 ```

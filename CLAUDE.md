@@ -111,6 +111,9 @@ not about which project it is.
     every day, carries the short label AIND and, on the source strip, AI News Desk (Rafi, 3 Oct 2026; the Drive Cards
     rules 1.3 and 3.5 and the phrasing file 3.2 still say DESK VIEW, a line for Rafi to change there).
     Always inside the law: our own words, short quotes only, always a credit.
+    WRITE ONLY WHAT CAN PRINT (Rafi, 4 Oct 2026, to save tokens): the pool keeps every story as headline
+    and link; an article is read and written only for stories at curator score 5 and up (the report
+    cutoff; writers never raise a score) and for the Fun Side. The rest stays pool only in daily-pool.md.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

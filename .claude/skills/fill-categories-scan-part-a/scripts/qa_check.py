@@ -53,7 +53,10 @@ def main():
     E = {}
     for f in sorted(glob.glob(str(W / 'report_entries' / '*.json'))):
         e = json.load(open(f, encoding='utf-8')); E[e['item_id']] = e
-    print('entries', len(E), 'of', len(pool), '| missing', sorted(set(pool) - set(E)))
+    wid = W / 'chunks' / '_written_ids.json'
+    expected = set(json.loads(wid.read_text())) if wid.exists() else set(pool)
+    print('entries', len(E), 'of', len(expected), 'to write (pool', len(pool), ') | missing', sorted(expected - set(E)),
+          '| pool only (not written, below the cutoff):', len(set(pool) - expected))
     P = collections.defaultdict(list)
     for k, e in E.items():
         p = pool[k]
