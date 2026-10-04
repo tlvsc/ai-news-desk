@@ -118,6 +118,9 @@ not about which project it is.
     plainly (who answers whom) and names and explains the earlier story it answers (who reported what, and
     when; "yesterday we carried a New York Times report: ..."), so a reader who missed it understands the reply.
     A reply that names no one is "widely read as a reply". The report check and the wording check enforce it.
+    HEADLINES RULES RECHECK (Rafi, 4 Oct 2026): before Rafi sees the Headlines lines, they are checked against the
+    Drive Headlines Master rules, by a script (check_headlines_rules.py) and a rules agent (Part B step 3b). Nothing
+    goes to him with a rules FAIL. Introductions rotate: never the previous day's wording (Drive rule G2).
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

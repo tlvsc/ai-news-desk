@@ -22,3 +22,12 @@ def edition_dates(W):
 
 def entry(W, item):
     return json.loads((Path(W) / 'report_entries' / f'{item}.json').read_text(encoding='utf-8'))
+
+
+def prev_scripts(W):
+    """The previous edition's final Headlines scripts (scratchpad run folders first, then the repo restart copies)."""
+    W = Path(W).resolve(); ed = run(W)['edition']
+    cands = [Path(p) for p in sorted(W.parent.glob('run_*/headlines_work/scripts_final.json'))]
+    cands += [Path(p) for p in sorted((B.parent.parent.parent / 'runs').glob('*/headlines_work/scripts_final.json'))]
+    older = [(c.parent.parent.name.replace('run_', ''), c) for c in cands if c.parent.parent.name.replace('run_', '') < ed]
+    return str(max(older)[1]) if older else None

@@ -243,3 +243,10 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     date strip, subtitles sit at x 180 to 890, y 1356 to 1535. It affects the video post on Rafi's PC, not the JSON.
 59. (4 Oct 2026) THE ONE LIST (Rafi): all lessons of the temporary scan runs live in this file, to move to V1 when V1
     is ready. Older lessons of 27 Sep to 1 Oct were copied in as Part 1.
+60. (4 Oct 2026, mistake record) HEADLINES NOT WRITTEN TO THE RULES: six of eight spoken introductions repeated the 3 Oct
+    wording ("In business", "In security", "In energy", "In robotics", "In health", "And a lighter story"), against Drive
+    Headlines Master rule G2 (introductions rotate, never two days running); Kawasaki had no company tag (G1.2); fun and
+    teaser ran 9.5 s against an aim of about 8. Cause: the Part B brief fixed "In <category>" as the shape and never sent
+    the writer to the Headlines Master rules file; the script check only tested the phrasing law. Fix: the brief points to
+    the rules file and lists the previous day's introductions; check_headlines_rules.py and a rules agent (Part B step 3b)
+    recheck every line against the rules; CLAUDE.md rule 16 HEADLINES RULES RECHECK. V1 must carry the same recheck.

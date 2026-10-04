@@ -84,6 +84,22 @@ every fix (check facts and hedges against the entry; never add a fact), run chec
 REPLY STORIES (Rafi, 4 Oct 2026): the script fails a card or clip of a reply story (pool follow_up plus reply words in its entry) unless it says it
 is a reply AND names the earlier story ("Yesterday we carried a New York Times report: ...").
 
+### 3b. Headlines rules recheck (Rafi, 4 Oct 2026; nothing goes to step 7 with a rules FAIL)
+```
+python3 $S/check_headlines_rules.py --workdir $W
+```
+It tests the Drive Headlines Master rules a script can test: deck order (A3), teaser only from the teaser card (A5),
+approved ending and the opening slot (A2), timing aim and 12 s maximum (B1), spoken introductions (B2a), INTRODUCTIONS
+ROTATE, never the previous day's wording (G2), numbers as words (B3), no outlet spoken (G1.4), pronunciation cues and
+Google DeepMind (15 Sep), one company at most 2 story clips. Then one Fable agent (model "fable"):
+`Read $W/headlines_work/prompt_rules_headlines.txt and follow it exactly.` It checks every clip against every rule of the
+Headlines Master A, B, G and 15 Sep sections, the phrasing law 1, 1A, 1B and Cards Master Section 3 (company tags under
+100 billion dollars, WHO, WHAT, WHY, deed first, the robotics clip shows what the machine does) and writes
+`$W/headlines_work/rules_result.json`. Apply or improve every fix, then run step 3 and 3b again until both pass.
+4 Oct 2026: the brief itself fixed "In <category>" and "And a lighter story" as lead-ins, so six of eight repeated the
+previous day (rule G2), and Kawasaki had no tag (G1.2). The brief now points to the rules file and lists the previous
+day's introductions.
+
 ### 4. Every factual claim against its entry
 Read each final card and line next to its report entry: same attribution, same hedge, same number. A stronger
 claim than the entry ("starts trading Monday" for "plans to, subject to approval") is rewritten.
