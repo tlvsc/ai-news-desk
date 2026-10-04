@@ -53,7 +53,7 @@ for c in rp['categories']:
     for it in c['items']:
         e = heads[it['headline']]
         cand[e['v1_category']].append(dict(id=e['item_id'], score=it['score'], fresh=e['freshness'], vt=e['verified_text'],
-                                           status=e['status'], head=it['headline']))
+                                           status=e['status'], head=it['headline'], machine=e.get('machine_action')))
 crit = [x for k in ORDER for x in cand[k] if x['score'] >= 10 and x['fresh'] == 'NEW']
 print('critical stories:', [x['id'] for x in crit] or 'none')
 draft = {'cards_in_deck_order': [], 'teaser_items': [], 'headlines_story_clips_in_order': [], 'headlines_fun': None, 'bp_refs': []}
@@ -80,10 +80,14 @@ for k in ORDER:
         comp = [c for c in COMPANIES if re.search(rf'\b{c}\b', x['head'])]
         rep = max(((len(keys(x['head']) & keys(o)) / max(1, len(keys(x['head']))), d) for d, o in old), default=(0, ''))
         print(f"  {x['id']} s{x['score']} {x['status'][:4]} {'read' if x['vt'] else 'HEADLINE ONLY'}"
+              f"{' machine action' if x['machine'] else (' NO machine action' if k == 'ROB' and x['machine'] is False else (' machine action unknown' if k == 'ROB' else ''))}"
               f"{' companies=' + ','.join(comp) if comp else ''}{f' MAYBE REPEAT of {rep[1]} ({rep[0]:.2f})' if rep[0] >= 0.35 else ''}"
               f" | {x['head'][:110]}")
     free = SLOTS[k] - sum(1 for x in crit if cat_of[x['id']] == k)
-    picks = ([y for y in new if y['vt']] + [y for y in new if not y['vt']])[:max(0, free)]
+    ranked = [y for y in new if y['vt']] + [y for y in new if not y['vt']]
+    if k == 'ROB':   # the robotics card shows a machine doing something (Cards rules section 2; writer flag machine_action)
+        ranked = [y for y in ranked if y['machine']] + [y for y in ranked if y['machine'] is None] + [y for y in ranked if y['machine'] is False]
+    picks = ranked[:max(0, free)]
     for x in picks:
         add(x, k)
 for k in HEADLINES_FROM:

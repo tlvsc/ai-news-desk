@@ -32,6 +32,11 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
 ## Steps
 
 ### 0. Setup (Drive read only; skip what is already in place)
+0. RESUME (a new session after the cloud machine was wiped): `git pull`, then
+   `python3 <part A>/scripts/save_state.py --workdir <scratchpad>/run_<edition> --restore` rebuilds W from the repo copy
+   `runs/<edition>` (report entries, facts, wording, pack, selection). Then continue at the first step whose output
+   is missing: the cover and cards (step 5) and the JSON (step 6) are rebuilt in minutes; step 7 shows Rafi the
+   sheet and the list again.
 1. Fetch the four rule files above into `$W/rules/` with drive_save.py (part A, "Saving a Drive file to disk") and
    run `python3 <part A>/scripts/rules_diff.py --new $W/rules --old <last run>/rules`. Read every changed line.
 2. If `$PKG/aind_cards.py` is missing: download AIND_Cards_Implementation_2026-09-10.zip (Drive
@@ -106,6 +111,7 @@ The fill refuses to overwrite: rename an earlier JSON `_old` first. C01 and C13 
 ### 7. STOP: Rafi's approval
 ```
 python3 $S/review_list.py --workdir $W
+python3 <part A>/scripts/save_state.py --workdir $W        # restart point before the wait
 ```
 Send Rafi the contact sheet (SendUserFile, display render) and, in the chat, the review list: every Headlines clip
 with the spoken words in bold and the holographic screen beside it, then the card wording. Ask for his approval or
@@ -113,12 +119,21 @@ edits in one line. Do not send the cards or the JSON before his approval. Edits:
 steps 3 (script check), 5 and 6 again (rename replaced outputs `_old`), and show the changed items only.
 
 ### 8. Deliver (after approval)
-- Send, one file at a time, never a zip: the contact sheet, then every card in order (I01 cover to the closing),
-  then the Headlines JSON. One line: the 4 second voice sample must be in ComfyUI/input.
-- Nothing goes to Drive unless Rafi clearly asks (rule 0); when he asks, follow the STORAGE & FILE ROUTING STANDARD;
-  PNGs and the JSON go to him to drag in, since the connector cannot upload them.
-- Report in short numbered points: cards (story cards plus extras), Headlines clips and seconds (news part, longest
-  clip), the gate results, anything open. Write what was learned into docs/V1_TASKS.md and the handoff.
+1. Send, one file at a time, never a zip: the contact sheet, then every card in order (I01 cover to the closing),
+   then the Headlines JSON. One line: the 4 second voice sample must be in ComfyUI/input.
+2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products):
+```
+python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
+```
+   Launch one background agent: `Read $W/products/drive_delivery_prompt.txt and follow it exactly.` (cards and the
+   contact sheet into cards, the copy files into cards/supportive files, the JSON, pack and scripts into
+   Headlines/supportive files). Then run the same command with `--check $W/products/drive_delivery.json` and tell
+   Rafi what is on Drive and what the connection refused.
+3. `python3 <part A>/scripts/save_state.py --workdir $W` once more (final wording and pack in the repo copy).
+4. Report in short numbered points: cards (story cards plus extras), Headlines clips and seconds (news part, longest
+   clip), the gate results, what is on Drive, anything open. Write what was learned into docs/V1_TASKS.md and the handoff.
+5. Nothing passes the gate with a FAIL: a headline over 15 words, a body of three sentences or a clip over 12 s is
+   fixed before step 7, never sent for Rafi to judge (the rule is in the law; only wording choices are his).
 
 ## Gotchas (2 and 3 Oct 2026)
 - Fable writes well but slowly (25 to 40 minutes); a stalled agent gets one nudge with SendMessage, then a second

@@ -158,15 +158,24 @@ D-M-YY is the file-name date, e.g. 3-10-26.
 - Page counts, "Page x of y" and the embedded-font line printed by build_pdf.py.
 Fix, rebuild, and keep the replaced files as `_old`.
 
-### 13. Deliver, then start part B
-- Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF,
-  the pool CSV (`products/AIND_Pool_<edition>.csv`). Nothing goes to Drive unless Rafi clearly asks (rule 0); when
-  he asks, follow the STORAGE & FILE ROUTING STANDARD, verify each upload by size, and send him what the
-  connector cannot upload (PDFs, large JSON) to drag in himself.
-- Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the bulletin's
-  category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
-- Then start part B at once with the Skill tool: `fill-category-scan-part-b`. Do not wait to be asked.
-- Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing.
+### 13. Deliver, save, then start part B
+1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF,
+   the pool CSV. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
+   bulletin's category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
+2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products, the one exception to rule 0):
+```
+python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent prompt products/drive_delivery_prompt.txt
+```
+   Launch one background agent: `Read $W/products/drive_delivery_prompt.txt and follow it exactly.` It creates the
+   missing subfolders of daily_data_generated/<edition>, uploads each file, verifies every size and writes
+   products/drive_delivery.json. Then `python3 $K/delivery_manifest.py --workdir $W --part A --check $W/products/drive_delivery.json`
+   and tell Rafi what is on Drive and what the connection refused (he gets those in chat).
+3. Repo restart point (text only, no media):
+```
+python3 $K/save_state.py --workdir $W        # copies the working files into <repo>/runs/<edition> and pushes
+```
+4. Then start part B at once with the Skill tool: `fill-category-scan-part-b`. Do not wait to be asked.
+5. Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing.
 
 ## Gotchas (27 Sep to 3 Oct 2026)
 
@@ -198,7 +207,8 @@ Fix, rebuild, and keep the replaced files as `_old`.
 - scripts/common.py: run file, dates, categories, matching helpers.
 - scripts/collect.py, source_scan.py (with sources_55.txt), build_pool.py, merge_filler.py, decode_links.py (with
   gd.py), url_fixes.py, make_chunks.py, prefetch.py, qa_check.py, build_products.py, make_prompts.py: the steps.
-- scripts/combine_pools.py, rules_diff.py, drive_save.py: step 0.
+- scripts/combine_pools.py, rules_diff.py, drive_save.py: step 0. delivery_manifest.py, save_state.py: step 13.
+- briefs/drive_delivery.md: the Drive delivery agent (filled by delivery_manifest.py).
 - briefs/curator.md, filler.md, writer.md, editor.md: agent prompts (filled by make_prompts.py).
 - briefs/bigger_picture.md: the three lengths of step 10.
 - categories.json: the 16 curator categories (LV2 taxonomy).
