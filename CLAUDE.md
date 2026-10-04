@@ -41,11 +41,13 @@ not about which project it is.
    Scripts that belong to a product live in Drive, in that product's blueprint
    Permanent Assets; this repo holds only helper scripts for Claude's cloud
    sessions (Rafi, 27 Sep 2026). The Drive folder must stay replaceable without
-   touching the repo. Temporary exception (Rafi, 29 Sep 2026): the daily report skill
-   Temporary_independant_claude_only_15_per_category_fill_run and its scripts live in
-   this repo, in `.claude/skills/`, for now. It stays on branch
-   claude/eager-archimedes-ajnex3 and is used only in this Claude session; do not merge it
-   to main, so ChatGPT and other tools never see a second source of truth.
+   touching the repo. Temporary exception (Rafi, 29 Sep 2026; renamed and split 3 Oct 2026):
+   the daily run is two chained skills, Fill_categories_scan_part_A (scan, pool, Full Report,
+   Bulletin; `.claude/skills/fill-categories-scan-part-a`) and Fill_category_scan_Part_B (cards
+   and Headlines with Rafi's approval stop; `.claude/skills/fill-category-scan-part-b`). Part A
+   starts part B by itself. Both live ONLY in this repo on branch claude/eager-archimedes-ajnex3:
+   never on Drive and never merged to main, so ChatGPT and other tools never see them (a second
+   source of truth), and they run only in a Claude session connected to this repo.
 10. BRANDING IS ADDED IN POST, NEVER GENERATED. MiniMax cannot reproduce a specific
     logo — it produces a different lookalike every render. Generate the set generic
     and overlay the real asset with ffmpeg. Set dressing and backgrounds are fine to

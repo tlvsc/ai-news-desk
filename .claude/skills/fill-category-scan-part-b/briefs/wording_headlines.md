@@ -1,0 +1,12 @@
+# Task: spoken scripts for the Headlines clips (Headlines, reader level 5 of 10, spoken by a news presenter)
+First read WORKDIR/headlines_work/wording_common.txt and WORKDIR/cards_work/selection.json (headlines_story_clips_in_order, headlines_fun, teaser_items). WORKDIR = {WORKDIR}. Earlier scripts for shape: {PREV_PACK} (slots 2 to 11).
+Write WORKDIR/headlines_work/scripts_fable.json:
+{"stories":[{"item":"...","category_word":"business","script":"...","screen":"..."}, ... 7 items in the given order],
+ "fun":{"item":"...","script":"...","screen":"..."},
+ "teaser":{"items":["...","..."],"script":"...","screen":"..."},
+ "bp":{"script":"...","screen":"..."}}
+Script shape for a story: "In <category word>. <the deed in one plain sentence>. <one plain sentence: what it means or the honest doubt>." The category word is one or two plain words (business, security, energy, robotics, science, health, society, politics, law, models). Fun starts with "And a lighter story." The teaser starts with "Also in the full report:" and gives two items from teaser_items, each a short full sentence. The Bigger Picture starts with "And for the bigger picture:" and says what moves the market and one thing to watch with why it matters, in plain words, from WORKDIR/bigger_picture_bulletin.json.
+SYLLABLE BUDGET (speaking time = syllables / 4.4 per second, rounded up to the half second): a story 35 to 40 syllables (8 to 9 s); fun and teaser at most 40; the Bigger Picture at most 48 (11 s). Never more than 53 (12 s). Do not speed the presenter up; cut words instead.
+Numbers are spoken as words ("seventy three percent"); write no digits. Acronyms are spaced so they are spoken letter by letter ("A I", "C E O"). Pronunciation cue: write Anthropic as "an-thropic" and Nvidia as "N-vidia" only where spoken. Never speak an outlet name. Keep every hedge.
+"screen": one line for the glowing blue holographic screen behind the presenter: a small simple symbol that matches the story, text free and number free, for example "a small glowing laptop with a closed padlock on its screen, simple text-free symbol". Easy for a video model to draw; no people, no faces, no logos.
+Validate with python json.load. Final message: one line only ("headlines scripts written").

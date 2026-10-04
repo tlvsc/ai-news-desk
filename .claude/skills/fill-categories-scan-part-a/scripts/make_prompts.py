@@ -1,8 +1,10 @@
 """Write every agent prompt for the run from the briefs, filled with today's date, window and paths.
 
-    python make_prompts.py --workdir W --stage curate|write|edit [--per-cat 15] [--fun 10]
+    python make_prompts.py --workdir W --stage curate [--min 15] [--max 20] [--fun 10]
+    python make_prompts.py --workdir W --stage fill --cat 13 --need 1
+    python make_prompts.py --workdir W --stage write|edit
 
-Writes W/prompts/<stage>_NN.txt (edit: edit_A.txt, edit_B.txt). Launch each agent with the
+Writes W/prompts/<stage>_NN.txt (edit: edit_A.txt, edit_B.txt; fill: fill_NN.txt). Launch each agent with the
 one-line prompt: "Read <that file> and follow it exactly." so the long text never enters
 the main conversation. Optional W/prompt_extra.json {"write": {"12": "extra instruction"}}
 adds a line for one category (for example a story that must be traced to its original outlet).
@@ -24,10 +26,16 @@ def fill(template, values):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
-    ap.add_argument('--stage', required=True, choices=['curate', 'write', 'edit'])
-    ap.add_argument('--per-cat', type=int, default=15)
+    ap.add_argument('--stage', required=True, choices=['curate', 'fill', 'write', 'edit'])
+    ap.add_argument('--min', type=int, default=15, help='curate: main picks that are enough (Rafi, 2 Oct 2026)')
+    ap.add_argument('--max', type=int, default=20, help='curate: most main picks, only where there are plenty of good ones')
+    ap.add_argument('--per-cat', type=int, help='old option: same as --min N --max N')
     ap.add_argument('--fun', type=int, default=10)
+    ap.add_argument('--cat', type=int, help='fill: the short category')
+    ap.add_argument('--need', type=int, default=1, help='fill: how many items it needs')
     a = ap.parse_args()
+    if a.per_cat:
+        a.min = a.max = a.per_cat
     W = Path(a.workdir).resolve(); run = load_run(W); (W / 'prompts').mkdir(exist_ok=True)
     start = parse_utc(run['start'])
     base = {'WORKDIR': W, 'EDITION': run['edition'], 'START': run['start'], 'END': run['end'],
@@ -35,7 +43,16 @@ def main():
     extra = json.loads((W / 'prompt_extra.json').read_text()) if (W / 'prompt_extra.json').exists() else {}
     cats, names = categories(), short_names()
     written = []
-    if a.stage == 'edit':
+    if a.stage == 'write' and not (W / 'fulltext' / '_status.json').exists():
+        print('WARNING: no W/fulltext/_status.json: run prefetch.py first, so the writers read local article text')
+    if a.stage == 'fill':
+        if not a.cat:
+            raise SystemExit('--stage fill needs --cat')
+        t = (SKILL / 'briefs' / 'filler.md').read_text(encoding='utf-8')
+        p = W / 'prompts' / f'fill_{a.cat:02d}.txt'
+        p.write_text(fill(t, dict(base, CAT_ID=a.cat, NN=f'{a.cat:02d}', CAT_DESC=cats[a.cat][0], NEED=a.need)), encoding='utf-8')
+        written.append(p.name)
+    elif a.stage == 'edit':
         t = (SKILL / 'briefs' / 'editor.md').read_text(encoding='utf-8')
         for part in ('A', 'B'):
             p = W / 'prompts' / f'edit_{part}.txt'
@@ -43,9 +60,9 @@ def main():
     else:
         t = (SKILL / 'briefs' / ('curator.md' if a.stage == 'curate' else 'writer.md')).read_text(encoding='utf-8')
         for cid, (desc, crit) in cats.items():
-            n_main = a.fun if cid == FUN else a.per_cat
+            lo, hi = (a.fun, a.fun) if cid == FUN else (a.min, a.max)
             v = dict(base, CAT_ID=cid, NN=f'{cid:02d}', CAT_DESC=desc, CAT_NAME=names[cid],
-                     N_MAIN=n_main, N_BACKUP_FROM=n_main + 1, N_TOTAL=n_main + 3,
+                     N_MIN=lo, N_MAX=hi, N_RANGE=(f'{lo} to {hi}' if lo != hi else str(hi)), N_MAIN=hi, N_BACKUP_FROM=hi + 1, N_TOTAL=hi + 3,
                      EXTRA=extra.get(a.stage, {}).get(str(cid), ''))
             if cid == FUN:
                 v.update(CRITERION_B='be genuinely funny or entertaining and about AI',

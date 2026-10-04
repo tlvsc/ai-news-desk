@@ -242,6 +242,9 @@ def main():
     print(f"cutoffs: report {rmin}+ plus Fun, bulletin {bmin}+ | report {len(report)} (held {len(held)}), "
           f"bulletin {len(bulletin)}, headline-only {headline_only}, follow-ups {followups}, spread {spread}")
     print("bulletin by category", {k: sum(1 for e in bulletin if e['v1_category'] == k) for k in ORDER})
+    empty = [NAMES[k] for k in ORDER if not any(e['v1_category'] == k for e in bulletin)]
+    if empty:
+        print('CHECK bulletin spread: no story in', ', '.join(empty), '(3 Oct 2026: consider a lower bulletin cutoff)')
     print("Bigger Picture:", "included" if bp else "MISSING (write W/bigger_picture.json, then run again)")
 
 

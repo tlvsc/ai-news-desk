@@ -1,6 +1,10 @@
-"""Step 3. Merge the 16 curators' files into one pool: 15 per category, 10 for The Fun Side.
+"""Step 3. Merge the 16 curators' files into one pool: 15 to 20 per category, 10 for The Fun Side.
 
-    python build_pool.py --workdir W [--per-cat 15] [--fun 10]
+    python build_pool.py --workdir W [--per-cat 20] [--fun 10]
+
+Each category keeps the main picks its curator wrote (at most --per-cat, Fun at most --fun). A backup moves up
+only to replace a main pick that was removed (duplicate, repeat, out of window); backups never pad a category
+(Rafi, 2 and 3 Oct 2026: 15 good stories are enough, never pad).
 
 Reads W/run.json, W/pool/cat_NN.json and yesterday's pool (path in run.json).
 Optional editor files in W: drops.json {"drops": [[cat, "title", "why"], ...]} removes a pick.
@@ -96,15 +100,16 @@ def keeper(data, key, cids, overrides):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
-    ap.add_argument('--per-cat', type=int, default=15)
+    ap.add_argument('--per-cat', type=int, default=20)
     ap.add_argument('--fun', type=int, default=10)
+    ap.add_argument('--min', type=int, default=15, help='a category under this many stories is flagged SHORT')
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); (W / 'out').mkdir(exist_ok=True)
     start, end = parse_utc(run['start']), parse_utc(run['end'])
     CATS = short_names()
     overrides, drops = read_editor_files(W)
 
-    data = {}
+    data, n_main = {}, {}
     for cid in CATS:
         f = W / 'pool' / f"cat_{cid:02d}.json"
         if not f.exists():
@@ -114,6 +119,7 @@ def main():
         for it in items:
             it["category_id"] = cid
         data[cid] = sorted(items, key=lambda x: x.get("rank", 99))
+        n_main[cid] = sum(1 for it in items if not it.get("backup"))
 
     log = {"manual_drops": [], "out_of_window": [], "dupe_within": [], "dupe_cross": [], "near_dupes": [],
            "repeat_of_yesterday_url": [], "similar_to_yesterday": []}
@@ -148,10 +154,11 @@ def main():
             for cid in set(cids) - {keep}:
                 data[cid] = [i for i in data[cid] if norm_url(i["url"]) != key]
             log["dupe_cross"].append((key, cids, keep))
-    # 4. take the top picks per category (backups move up when a main pick was removed)
-    pool = []
+    # 4. take the main picks per category; backups move up only when a main pick was removed
+    pool, target = [], {}
     for cid in sorted(data):
-        for n, it in enumerate(data[cid][:(a.fun if cid == FUN else a.per_cat)], 1):
+        target[cid] = min(a.fun if cid == FUN else a.per_cat, n_main.get(cid, 0))
+        for n, it in enumerate(data[cid][:target[cid]], 1):
             it.update(pool_rank=n, item_id=f"C{cid:02d}-{n:02d}", category=CATS[cid], from_backup=bool(it.get("backup")))
             pool.append(it)
     # 5. flag near-duplicate titles, inside the pool and against yesterday, for the editor
@@ -176,7 +183,12 @@ def main():
     (W / 'out' / 'build_log.json').write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding='utf-8')
     print("TOTAL", len(pool))
     for cid in CATS:
-        print(f"{cid:2d} {sum(1 for p in pool if p['category_id'] == cid):2d}  avail={len(data[cid])}  {CATS[cid]}")
+        got = sum(1 for p in pool if p['category_id'] == cid)
+        print(f"{cid:2d} {got:2d} of {target.get(cid, 0):2d} main picks  avail={len(data[cid])}  {CATS[cid]}"
+              + (f'  SHORT by {target[cid] - got} after removals: run a filler (make_prompts.py --stage fill --cat {cid} --need {target[cid] - got})'
+                 if got < target.get(cid, 0) else
+                 (f'  curator found {target.get(cid, 0)} good stories (under {a.min}): state the shortfall, never pad'
+                  if cid != FUN and target.get(cid, 0) < a.min else '')))
     print({k: len(v) for k, v in log.items()})
 
 

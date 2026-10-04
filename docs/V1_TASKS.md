@@ -104,3 +104,12 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     sending; consider 6 and up, or the auto cutoff.
 40. DRIVE HAS A NEW V1 FOLDER (2 Oct 20:33): scripts aind_v1_report, taxonomy (19 sections, not the 16 LV2 categories),
     headline_script, media, schedule and a test file. Not run here. Rafi to say if this session should ever run them.
+41. NEVER ASK WHAT THE RECORD ANSWERS: the Headlines JSON only names the voice sample; the file sits on Rafi's PC
+    (I made it on 2 Oct and sent it). Part B never handles audio.
+42. THE DAILY RUN IS NOW TWO CHAINED SKILLS (Rafi, 3 Oct 2026): Fill_categories_scan_part_A and Fill_category_scan_Part_B,
+    repo only. Every tool that lived in the scratchpad (article fetcher, card builders, cover wrapper, Headlines fill
+    and pack, the 13 slot template, Rafi's opening and ending) is now in the skills. Tested 3 Oct on that day's data:
+    Part B rebuilt the 19 cards byte for byte and the same Headlines JSON. For V1: port the order of work, not the files.
+43. THE NEW SCRIPT CHECK found that the 3 Oct Bigger Picture card headline has 17 words (limit 15); it went out
+    before the check existed.
+

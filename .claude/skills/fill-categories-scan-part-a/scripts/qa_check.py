@@ -89,6 +89,8 @@ def main():
         d = event_date(e.get('freshness'), parse_utc(run['end']).year)
         if d == 'unparsed':
             P['freshness_unparsed'].append((k, e.get('freshness')))
+            if not p.get('follow_up'):   # 3 Oct 2026: "FOLLOW-UP of mid-2026" still means an older event; hold it
+                P['stale_redated'].append((k, e.get('freshness'), p['importance']))
         elif d and d < cutoff and not p.get('follow_up'):
             P['stale_redated'].append((k, e.get('freshness'), p['importance']))
     for k, v in P.items():
