@@ -139,3 +139,7 @@ not about which project it is.
     2 Oct 2026): the card is the short hook; the Bulletin carries a deeper look than the card,
     short, explaining the card (W/bigger_picture_bulletin.json); the Full Report carries the full
     analysis written for the day (W/bigger_picture.json).
+18. FRESH CHAT BEFORE A RUN (Rafi, 4 Oct 2026). Before starting a daily run, if the chat already
+    carries a delivered run or a skill build, write the handoff and ask Rafi to open a new chat
+    first. A compacted chat continues only with Rafi's explicit yes (he gave it on 4 Oct 2026 for
+    the 4 Oct Part A run).

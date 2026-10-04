@@ -129,3 +129,6 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
 48. (4 Oct 2026) WRITE ONLY WHAT CAN PRINT (Rafi): articles only for pool score 5 and up plus Fun; 3 Oct data: 136 of
     160 written instead of 160, about 15 percent less reading and writing. make_chunks.py --min-score, --only-missing.
 
+49. (4 Oct 2026) CONTEXT COMPACTION happened before the 4 Oct run started. Mistake: kept working in a heavy
+    chat instead of proposing a fresh one after the skill build. Fix recorded as CLAUDE.md rule 18 (fresh chat
+    before a run). Handoff: docs/HANDOFF_2026-10-04.md. Rafi approved continuing the 4 Oct Part A in the same chat.
