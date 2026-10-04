@@ -265,3 +265,37 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
 63. (4 Oct 2026) OPENING AND ENDING: the skill rendered a new opening and ending every day, against the Drive rule
     (stored intro) and CLAUDE.md 16 (new ones only on request). Rafi: use the stored option 4 clips of 3 Oct
     (Headlines Master Permanent Assets / openings and endings / 2026-10-03). pack_base.json now bypasses slots 1 and 13.
+
+## Part 3: lessons from the Headlines production session on Rafi's desktop (30 Sep to 4 Oct 2026)
+Received 4 Oct 2026 from the desktop "remote access session", sent at Rafi's request for the V1 consolidation. Recorded
+as received; nothing below was applied in the skills on 4 Oct unless Rafi says so.
+D1. Working with Rafi: do only the step he names; never start a render, rename or move a Drive file, overwrite a delivered
+    file or add steps on your own; after a step a one sentence report, then wait. Use his names and words exactly. Short
+    replies. Drive is the only source of truth; never search his personal drives unless he names the place. Even on "just
+    render", read every spoken line first and flag problems; change nothing without his yes. A reference file he sends in
+    chat is the reference.
+D2. Writing: every story at level 5, who did what and why it matters in everyday words; cut filler that adds nothing
+    ("OpenAI replies it can pause"). 4 Oct rewrites used on the desktop: Hong Kong -> "In Hong Kong, investors bought a
+    record amount of new shares this summer, mostly in AI companies. But rising loan costs are making them more careful."
+    Robinson -> "A safety expert quit OpenAI. He says the company does not take safety seriously enough, and wants AI
+    checked as strictly as airplanes."
+D3. Hard names as spoken: "N-vidia", "an-thropic", "Kawa saki" (one gap; "Ka-wa-sa-ki" came out "Kavanua Saki").
+D4. No colon after "Also in the full report": use a period (the colon caused gibberish at the start of C10 three days running).
+D5. Generation: 8 steps. The 4 second voice reference that exists is AIND_anchor_voice_sample_4s.wav (3.82 s), or the 8 s
+    mp3 trimmed at 0.24 s for 3.82 s; the JSONs name "_4s.mp3", which does not exist on the PC. Voice description calm and
+    authoritative, no speed words. Seconds = syllables / 4.4 rounded up to the half second. Fixed seed: same text gives the
+    same clip; change the text for a retake. Node map: slot x 100 + 12 text, 13 seconds, 21 save 544, 35 save 1088; steps
+    node 11, voice node 8. The PC crashes in libx264 saving 1088 clips (old BIOS/microcode): encode finals with h264_nvenc.
+D6. Speech QA: Whisper compares words, not meaning. Gibberish: frame exact cuts (start cut with audio fade; inner cut with
+    a 3 frame presenter only blend). Wrong word: a 2 second low res clip of just the word (same refs and voice, about 50 s),
+    word at natural length, picture sped up in that slot; never glue syllables or stretch audio.
+D7. Finishing layout, single reference "instagram_pixels_boundary_stirps_subtitles": app UI top y 0-250, right x 900-1080
+    (y 1000 and below), left x 0-170 (y 850 and below), bottom y 1535 and below. Date and source strips y 284-496, fully
+    opaque, Arial Bold, date like "SUN 4 OCT 2026", source strip navy with "SOURCE" and the outlet in capitals. Subtitles
+    Arial Bold 76 px in x 180-890, y 1356-1535, at most two lines, 40 percent black rounded box, digits in subtitles.
+    Teaser and Bigger Picture credit AI NEWS DESK. Opening hologram date "SUN / 4 / OCT / 2026" dissolves in from 1.6 s and
+    out into the globe by 4.7 s. Audio: clips -16 LUFS, master -14 LUFS with a limiter; 24 to 30 fps; crop 1088 to 1080.
+D8. Openings and endings are options, not versions; the current choice is option 4, the 3 Oct opening and ending.
+D9. Open: upload the layout picture to Headlines Master Permanent Assets and update every reference (Asset Registry,
+    Daily_Global_AI_Inteligence_report_LV1.1_Claude.txt, rulebook D1), then archive AIND_start_frame_v9_instagram_check.jpg.
+    The Drive rulebook still says 6 steps; it needs 8 and the rules above (Rafi's go needed).
