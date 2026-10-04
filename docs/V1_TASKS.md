@@ -66,3 +66,41 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     outlet read when the original is blocked); 7 stories on 2 Oct credit wire copies. Rafi to settle.
 25. 14 of 15 story cards on 2 Oct fail the 15 word check; left as they were by Rafi's choice.
     The gate (task 1) prevents this from the next run.
+
+## Learned on 3 Oct 2026, the first run with 16 curators at 10 items each (recorded the same day, Rafi's ask)
+
+26. POOL MATH: 16 curators times 10 gave 160 only after a filler agent found a tenth item for one category;
+    21 cross category duplicates and 1 repeat URL were removed, and the 3 backups per category filled the gaps.
+    Keep the 3 backups, and add a filler step when a category ends below its count.
+27. FEWER SURVIVE THAN THE POOL: the writers lowered about 40 scores and 29 stories were held as older news or
+    duplicates, so a pool of 160 gave a Full Report of 112 at score 5 and up (not 150) and a Bulletin of 28 at 7 and up
+    (not 30 to 50). For about 150 the pool must be about 230, or the cutoff drops to 4.
+28. FOUR DAY REPEAT LIST: curators check 968 titles from 29 Sep to 2 Oct. It cut about 90 percent of the Models candidates,
+    so thin categories (Models, Quantum, Developer Tools, Robotics) need extra queries (one curator ran about 150).
+    The 2 Oct pool was never on Drive (rule 0), so tomorrow's repeat check needs today's pool file from Rafi.
+29. FOLLOW UPS: cards and Headlines take only stories whose freshness is NEW. Follow ups of a card story (the Anthropic
+    share sale, the Broadcom loan) go to the Bigger Picture or the teaser, not to a story card.
+30. DRIVE RULES CHANGE BETWEEN RUNS: on 2 Oct after the morning fetch the Full Report and Bulletin rules, the phrasing file
+    (now with reader levels: Full Report 7, Bulletin 7, Cards 6, Headlines 5), the Headlines Master (each clip aims at 8 s,
+    12 s at most, never speed up) and the Cards rule all changed. Fetch every governing file fresh and diff it against the
+    last copy; a helper agent does this in under a minute.
+31. BRIEFS ARE OUT OF DATE: the writer and editor briefs still say "level five" and name the old phrasing file; the Drive
+    file says 7. Rule 0 kept level five. Rafi to pick; then fix the briefs and SKILL.md in one change.
+32. WRITER BRIEF GAP: nothing says no proxies or crawler user agents; one writer probed a blocked site through a reader
+    proxy (nothing was used). Add the line.
+33. prefetch.py (fetches all article text once) lives only in the scratchpad, not in the skill. Add it to scripts.
+34. BLOCKED SOURCES: 71 of 160 stories had no readable text on the first fetch and 28 stayed headline only (WSJ, FT,
+    Bloomberg, Reuters, MLex). Many writers read a wire copy and credited it, which keeps the credit clash open.
+35. STRANGER CHECK WORKS AND IS NEEDED: first drafts failed 6 of 10 Headlines lines and 6 of 20 card items. Failure types:
+    "it" with no referent, "the photo" with no setup, background words (memory, chip machine), a watch item without why,
+    two facts that sound like one. Fable drafting took 25 to 36 minutes; the check about 5. Start drafting early.
+36. RENDER CHECK: a card whose category line is too wide (CROP) is silently left out of the run. After every render count
+    the card files against the card list. Keep the category label short ("Market, industry and finance / Funding").
+37. CLIP SECONDS: Fable's first lines ran 9 to 11 s each (news part 100 s plus); trimmed to 8 to 10 s (news part 94 s).
+    Give writers a syllable budget (about 35 to 40 for a story, 46 for the Bigger Picture), not a word budget.
+38. BIGGER PICTURE: the card and clip need a reason to watch each item (a stranger asked "why the Fed meeting?").
+    The Bulletin version carries no item numbers; the Full Report version cites them.
+39. BULLETIN BALANCE: at 7 and up the Bulletin had no Politics story and one Robotics story. Check category spread before
+    sending; consider 6 and up, or the auto cutoff.
+40. DRIVE HAS A NEW V1 FOLDER (2 Oct 20:33): scripts aind_v1_report, taxonomy (19 sections, not the 16 LV2 categories),
+    headline_script, media, schedule and a test file. Not run here. Rafi to say if this session should ever run them.
