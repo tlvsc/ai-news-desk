@@ -75,7 +75,7 @@ python3 $K/source_scan.py --workdir $W        # about 1 minute; 3 Oct 2026: 174 
 ```
 python3 $K/make_prompts.py --workdir $W --stage curate        # 15 to 20 main picks, 3 backups; Fun 10
 ```
-Launch 16 background agents in ONE message, description "Curate cat NN", prompt:
+Launch 16 background agents in ONE message (5 Oct 2026 trial: model "sonnet", CLAUDE.md MODEL TRIAL), description "Curate cat NN", prompt:
 `Read $W/prompts/curate_NN.txt and follow it exactly.` Each writes `$W/pool/cat_NN.json`. The brief carries the
 day rules (candidates_55.json, the four day repeat list, 15 to 20, never pad); nothing is appended by hand.
 
@@ -115,7 +115,7 @@ Fun Side. If step 8 has to lower the report cutoff on a thin day, run
 python3 $K/make_prompts.py --workdir $W --stage write
 ```
 One-off instructions for a category go in `$W/prompt_extra.json` {"write": {"12": "..."}} before this command.
-Launch 16 background agents, description "Read and write cat NN", prompt
+Launch 16 background agents (5 Oct 2026 trial: model "sonnet"; fillers too), description "Read and write cat NN", prompt
 `Read $W/prompts/write_NN.txt and follow it exactly.` Each writes `$W/facts/<id>.json` and
 `$W/report_entries/<id>.json` at reader level 7 (Article_phrasing_instructions_AIND_V1, Full Report section).
 

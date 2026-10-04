@@ -121,6 +121,10 @@ not about which project it is.
     HEADLINES RULES RECHECK (Rafi, 4 Oct 2026): before Rafi sees the Headlines lines, they are checked against the
     Drive Headlines Master rules, by a script (check_headlines_rules.py) and a rules agent (Part B step 3b). Nothing
     goes to him with a rules FAIL. Introductions rotate: never the previous day's wording (Drive rule G2).
+    MODEL TRIAL (Rafi, 4 Oct 2026): the 5 Oct run is a one day test. The 16 curators, the fillers and the 16 writers
+    run on Sonnet (Agent tool, model "sonnet"); the wording, stranger, rules and editor agents stay on Fable. Report
+    the token use and any quality drop next to the 4 Oct run (about 6.3 million helper tokens); Rafi decides after.
+    The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

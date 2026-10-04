@@ -256,3 +256,9 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     fresh machine for 5 Oct found the 4 Oct lines in runs/2026-10-04 for the rotation check. Honest limits: judgment
     rules (company tags, clear WHO) rest on an agent and can be missed; a new Drive rule is not in the script until added.
     V1 needs the same pattern: every product is built only after its own rules check passes.
+62. (4 Oct 2026) TOKEN COST: the 4 Oct run used about 6.3 million helper tokens (curators 2.7 M, writers 1.7 M, Drive
+    agents 0.5 M, fillers 0.3 M, editors 0.26 M, setup 0.26 M, wording 0.2 M, rules agent 0.18 M, stranger 0.13 M). At
+    API prices (no cache discount, 90 percent read): Fable 5.1 about $88, Opus 5.5 about $35, Sonnet 5.5 about $18, Haiku
+    4.5 about $9. Rafi: "still a lot"; 5 Oct trial with curators, fillers and writers on Sonnet. Cheap wins still open:
+    the Drive agent (0.5 M for nine small text files) and merging the rules agent into the stranger check. V1 should
+    pick a model per job and measure quality.
