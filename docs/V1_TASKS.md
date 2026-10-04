@@ -1,7 +1,7 @@
 # Learned in the temporary scan runs, and tasks for V1
 
 THE ONE LIST (Rafi, 4 Oct 2026): everything learned while running the temporary Claude scan (27 Sep 2026 onward) is
-collected in this file, so that when V1 is ready the whole list moves to V1 at once. Every run adds its lessons here
+collected in this file, so that when V1 is ready the whole list moves to V1 (ChatGPT's version, Rafi 4 Oct 2026) at once. Every run adds its lessons here
 (Part B step 8). Not for this temporary session to apply on Drive; the V1 task list on Drive is AI News Desk — Project
 Task List (00 PROJECT OS, a Google Sheet), which this session cannot write into (rule 0 and the connector), so Rafi or
 Astra copies items there.
@@ -299,3 +299,13 @@ D8. Openings and endings are options, not versions; the current choice is option
 D9. Open: upload the layout picture to Headlines Master Permanent Assets and update every reference (Asset Registry,
     Daily_Global_AI_Inteligence_report_LV1.1_Claude.txt, rulebook D1), then archive AIND_start_frame_v9_instagram_check.jpg.
     The Drive rulebook still says 6 steps; it needs 8 and the rules above (Rafi's go needed).
+64. (4 Oct 2026) FOR TOMORROW AND FOR CHATGPT'S V1 (Rafi: "write it in the things we learned for tomorrow and to move
+    to chatgpt"). Three clashes found between the desktop lessons (part 3) and the Claude skill:
+    (a) VOICE FILE: the JSON names AIND_anchor_voice_sample_4s.mp3; on Rafi's PC only AIND_anchor_voice_sample_4s.wav
+        (3.82 s) exists. CLAUDE.md rule 16 also says mp3. Fix: fill_headlines.py AUDIO and the rule 16 line to the .wav.
+    (b) TEASER COLON: the teaser starts "Also in the full report:"; the colon caused gibberish at the start of C10 three
+        days running. Fix: a full stop ("Also in the full report."), in wording_headlines.md, check_headlines_rules.py and
+        the review list.
+    (c) KAWASAKI: write "Kawa saki" in spoken lines ("Ka-wa-sa-ki" came out "Kavanua Saki"). Fix: a pronunciation cue
+        like an-thropic and N-vidia.
+    Not applied on 4 Oct (Rafi). Apply at the start of the 5 Oct run, then carry into V1.
