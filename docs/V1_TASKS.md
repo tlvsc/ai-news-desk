@@ -120,4 +120,8 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     a text copy of the working files lives in the repo under runs/<date> as the restart point (about 4 MB a day;
     V1 decides where this lives long term); a morning Routine only after two clean manual days. Still open: the
     credit rule (explained to Rafi, his pick pending).
+46. (3 Oct 2026) CREDIT RULE settled by Rafi: credit the outlet that reported the story, never the copy site;
+    a story that credits another outlet credits that outlet; headline only means another outlet or our own
+    desk entry labelled AI News Desk. The Drive Full Report rule 6 says nothing about blocked originals: V1
+    should add this wording there (Rafi edits Drive).
 

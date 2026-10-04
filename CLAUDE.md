@@ -102,6 +102,11 @@ not about which project it is.
     and Bulletin 7 of 10, Cards 6, Headlines 5. The writer and editor briefs follow that file.
     CLIP SECONDS (Rafi, 3 Oct 2026): keep rounding UP to the next half second, over the Drive
     Headlines Master rule 1a (two decimals); no clip passes 12 seconds (Drive Section B item 1).
+    CREDIT (Rafi, 3 Oct 2026): the source printed is always the outlet that reported the story, never
+    a copy site that carries its text; if the article we read credits another outlet, the credit goes
+    to that outlet. Headline only: take the story from another outlet that has it and credit it, or
+    build our own entry from several outlets and label the source AI News Desk, naming them inside.
+    Always inside the law: our own words, short quotes only, always a credit.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.
