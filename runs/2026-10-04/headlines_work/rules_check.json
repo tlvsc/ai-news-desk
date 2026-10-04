@@ -1,0 +1,211 @@
+{
+ "fails": 0,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [0, 1, 5, 6, 8, 11, 12]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C05-02', 'C11-01'] from the teaser card ['C01-03', 'C05-02', 'C11-01', 'C12-01']"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "ending is the approved text"
+  },
+  {
+   "rule": "A2",
+   "status": "WARN",
+   "detail": "opening slot 1 is active: a new opening is generated; the stored intro is the rule unless Rafi asked for opening options (CLAUDE.md 16)"
+  },
+  {
+   "rule": "B3",
+   "status": "WARN",
+   "detail": "digits in the opening line: Welcome to A I News Desk. I am Raphael, and Every day, I bri"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C13-01 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-01 opens with a spoken introduction: \"in politics\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C06-01 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C06-01 opens with a spoken introduction: \"on the markets\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C06-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C05-03 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C05-03 opens with a spoken introduction: \"on safety\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C05-03 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C08-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C08-01 opens with a spoken introduction: \"in chip making\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C08-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C11-04 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-04 opens with a spoken introduction: \"on the road\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-04 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C14-01 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C14-01 opens with a spoken introduction: \"in law\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C14-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C10-02 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C10-02 opens with a spoken introduction: \"in medicine\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C10-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"on a lighter note\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "teaser 10.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "bp 10.0 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (run_2026-10-03)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'OpenAI': 1, 'T S M C': 1, 'Tesla': 1}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['America', 'An Indian', 'Austin', 'Elon Musk', 'French', 'Hong Kong', 'Japanese', 'Kawasaki', 'Mayo Clinic', 'On', 'Other', 'Terafab', 'Treasury', 'White House']"
+  }
+ ],
+ "names_to_tag": [
+  "America",
+  "An Indian",
+  "Austin",
+  "Elon Musk",
+  "French",
+  "Hong Kong",
+  "Japanese",
+  "Kawasaki",
+  "Mayo Clinic",
+  "On",
+  "Other",
+  "Terafab",
+  "Treasury",
+  "White House"
+ ]
+}

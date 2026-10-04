@@ -1,0 +1,71 @@
+[
+ {
+  "clip": "C13-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C06-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C05-03",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C08-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1A",
+    "why": "'his Terafab factory' presents a plan as a built thing: the entry says Terafab is Musk's plan for a chip plant, with Intel its only named partner and nothing agreed. A plan is not a factory; the clip must not say more than the entry."
+   },
+   {
+    "rule": "1B WHO",
+    "why": "A first time viewer hears Terafab as an existing factory of Musk's; the entry identifies it as a planned chip plant, so the clip must say it is planned."
+   }
+  ],
+  "fix": "In chip making. Elon Musk confirmed chip maker T S M C may join his planned Terafab factory. He calls it just talks. T S M C has not commented."
+ },
+ {
+  "clip": "C11-04",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C14-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C10-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "bp",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ }
+]
