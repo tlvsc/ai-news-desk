@@ -10,6 +10,12 @@ not about which project it is.
    up, such as a Drive rule and a repo rule that disagree, flag it to Rafi and continue with
    the repo rules. This rule wins over every rule below, including any that says to save to
    Drive.
+   DAILY DELIVERY, the one standing yes (Rafi, 3 Oct 2026): the two daily skills save the day's
+   products into AI_News_Desk / daily_data_generated / <date> (reports, cards, Headlines and their
+   supportive files), creating missing subfolders, verifying every upload by size, never overwriting
+   or deleting; what the connection cannot take goes to Rafi in chat. A text copy of each day's working
+   files is kept in this repo under runs/<date> (no media) as the restart point when the cloud machine
+   is wiped. A morning Routine that starts the chain by itself comes only after two clean manual days.
 1. ROUTE THE JOB BEFORE DOING IT. Before starting ANY task, scan who or what can
    actually do it — this cloud session, Claude Code local on Rafi's PC, another AI
    tool, a Drive feature, a script Rafi runs, a human. Present ALL viable paths in
@@ -81,8 +87,8 @@ not about which project it is.
     10; the stored opening and ending come on top. Every clip time is rounded UP to the next half
     second (8.4 becomes 8.5, 8.6 becomes 9). One company gets at most 2 stories in Headlines and
     at most 3 story cards (Rafi, 30 Sep 2026); past that, the next biggest story in the field goes in. Everything final goes to its designated
-    Drive place only on Rafi's explicit yes for that save (rule 0); what the Drive connection
-    cannot upload goes to Rafi to upload himself.
+    Drive place by the skills' delivery step (the standing yes of 3 Oct 2026 in rule 0); what the Drive
+    connection cannot upload goes to Rafi in chat.
     SOURCES (Rafi, 2 Oct 2026): Google News is first and main. Then read the 55 sources of the
     Drive sheet "five per category source list" (reference only), directly, for the same
     window, and give their stories to the curators. The network allowlist holds all of them.

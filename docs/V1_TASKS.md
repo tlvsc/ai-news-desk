@@ -112,4 +112,12 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     Part B rebuilt the 19 cards byte for byte and the same Headlines JSON. For V1: port the order of work, not the files.
 43. THE NEW SCRIPT CHECK found that the 3 Oct Bigger Picture card headline has 17 words (limit 15); it went out
     before the check existed.
+44. (3 Oct 2026, mistake record) Two skill rules were put to Rafi as questions about single stories (a 17 word
+    headline, the robotics pick). Prevention: a rule that the gate or a script can enforce is never a question;
+    only a wording choice or a judgement between two correct options goes to Rafi. Fix: the gate fails any sentence
+    over 15 words before anything reaches him; the writer marks machine_action and the selector uses it.
+45. (3 Oct 2026) Rafi's decisions: the skills save the day's products to the Drive date folders (standing yes);
+    a text copy of the working files lives in the repo under runs/<date> as the restart point (about 4 MB a day;
+    V1 decides where this lives long term); a morning Routine only after two clean manual days. Still open: the
+    credit rule (explained to Rafi, his pick pending).
 
