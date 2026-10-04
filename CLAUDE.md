@@ -86,11 +86,14 @@ not about which project it is.
     window, and give their stories to the curators. The network allowlist holds all of them.
     PER CATEGORY (Rafi, 2 Oct 2026): 15 stories is enough; where there are plenty of good
     ones, take up to 20; never pad with weak stories. The Fun Side stays at 10.
-    3 OCT 2026 RUN (Rafi, 3 Oct 2026, newer than the line above, so it wins for this run): 16
-    curator agents, one per LV2 category; each finds 10 new unique items from the last 24
-    hours that fit the timing window and its own category, so the pool is 160 (the 3 flagged
-    backups only replace items dropped as duplicates). Then the Full Report. Repeats are
-    checked against the last 4 days of pools (29 Sep to 2 Oct). Rafi to say if 10 stays.
+    3 OCT 2026 RUN (Rafi, 3 Oct 2026, one run only): 16 curator agents, one per LV2 category,
+    10 new unique items each, pool 160. Rafi's ruling after it (3 Oct 2026): back to 15 to 20
+    per category as in the PER CATEGORY line above. Kept from the 3 Oct run: repeats are checked
+    against the last 4 days of pools, and the 3 flagged backups replace items dropped as duplicates.
+    READER LEVEL (Rafi, 3 Oct 2026): Article_phrasing_instructions_AIND_V1 sets it: Full Report
+    and Bulletin 7 of 10, Cards 6, Headlines 5. The writer and editor briefs follow that file.
+    CLIP SECONDS (Rafi, 3 Oct 2026): keep rounding UP to the next half second, over the Drive
+    Headlines Master rule 1a (two decimals); no clip passes 12 seconds (Drive Section B item 1).
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.
