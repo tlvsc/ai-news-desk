@@ -6,8 +6,9 @@ collected in this file, so that when V1 is ready the whole list moves to V1 at o
 Task List (00 PROJECT OS, a Google Sheet), which this session cannot write into (rule 0 and the connector), so Rafi or
 Astra copies items there.
 
-Part 1, below the line of 27 Sep to 1 Oct, was copied on 4 Oct 2026 from the scratchpad lesson list of 30 Sep and the
-Claude lane handoffs 28B and 29A, which live only on the cloud machine and are lost when it is wiped.
+Part 1, the lessons of 27 Sep to 1 Oct, was copied on 4 Oct 2026 from the scratchpad lesson list of 30 Sep and the
+Claude lane handoffs 27A, 28A, 28B, 29A and 30A (Drive folder of Claude lane handoffs; the scratchpad copies are lost
+when the cloud machine is wiped).
 Part 2 starts at item 1 (2 Oct 2026) and is numbered as before.
 
 ## Part 1: learned 27 Sep to 1 Oct 2026 (status checked against the repo on 4 Oct 2026)
@@ -52,6 +53,29 @@ P1-23. Proposals of 30 Sep, no decision found in the record on 4 Oct (Rafi decid
 P1-24. Open from 28 to 30 Sep, not checked since: Bulletin rules file section 4 "scored 7 to 10" versus the flexible
        cutoff; cover script move to Card Master Permanent Assets not approved; Astra task file still says 8 stories and
        the old slot map; project pictures in the AI_News_Desk root waiting for Rafi's sort decision.
+
+P1-25. Google News links were cut at escaped characters (14 links on 28 Sep, e.g. ?id=). Applied: gd.py, url_fixes.py.
+P1-26. Feeds re-date old stories into the window; the read step records the real event date and the build holds back
+       re-dated items (28 Sep: 72 held). Applied: writer brief freshness field, qa_check.py.
+P1-27. Drive text uploads strip carriage returns and mangle non-breaking spaces and \u escapes: write plain newlines and
+       ASCII escapes, then verify by size and md5. Applied: skill Gotchas, delivery check by size.
+P1-28. Curators prefer the readable outlet when several carry the same story (28 Sep: only 18 of 78 read in full under
+       the Custom network policy). Applied: curator brief, full network access.
+P1-29. Run the meaning check before any JSON leaves the session (27 Sep: the JSON went out before five lines were fixed).
+       Applied: Part B step 7 sends nothing before the gate and Rafi's approval.
+P1-30. Test page access and search limits before any multi-agent fan-out (27 Sep: the first scan returned 43 items).
+       Applied in part: collect.py and source_scan.py run before the curators.
+P1-31. Compute weekdays, never recall them (27 Sep: an agent was told a Saturday was a Friday). Standing.
+P1-32. Read the governing V1 file before quoting any criteria (27 Sep: LV1.1 criteria shown as V1, V2's card order used
+       instead of the Cards Master order). Applied: step 0 fetches the rule files every run.
+P1-33. Before telling Rafi to open a new chat, list every file that lives only in the cloud machine and save it (27 Sep
+       proposal). Applied: save_state.py writes the restart copy to runs/<date>.
+P1-34. The approved opening (28 Sep) is the stored clip Headlines_25-9-26_opening_preview_08_finished.mp4; reuse it
+       rather than generate. The 29 Sep opening had an empty panel from an older rule. Spoken words and prompt are in
+       handoff 30A. Applied: house rules 16 OPENING AND ENDING OPTIONS.
+P1-35. Mistakes of 30 Sep: drops named by rank removed the wrong stories (now by title); the read aloud audio ran 4.5
+       minutes (now the 90 second rule); three OpenAI stories went into Headlines (now the company limit); 5 OpenAI story
+       cards against a limit of 3. Applied: build_pool.py, check_wording.py, card_candidates.py.
 
 ## Part 2: learned from 2 Oct 2026 on
 
