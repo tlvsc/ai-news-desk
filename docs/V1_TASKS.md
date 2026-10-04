@@ -140,6 +140,7 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     of item 50: (1) the checks fire on every follow-up (the curator's follow_up mark), not on reply words; (2) make_chunks.py
     gives the writer the earlier story's headline, outlet and date from the earlier pool; (3) the full rule stays only in
     CLAUDE.md rule 16, the briefs keep one-line pointers; (4) "yesterday" only when it was yesterday, else the date or
-    "in our 3 Oct edition". Same task for the other versions on Drive (V1 ChatGPT run and V2): the Drive Project Task List
+    "in our 3 Oct edition". Same task for the other versions on Drive: V1 (its task list is AI News Desk — Project Task List
+    in 00 PROJECT OS, a Google Sheet) and V2 (no task list; the AIND V2 Open Questions and Decision Register). The V1 task list
     and the V2 Open Questions and Decision Register cannot be edited from this session (the connector only renames or
     moves files); Rafi or Astra adds the row from the text given in chat on 4 Oct 2026.
