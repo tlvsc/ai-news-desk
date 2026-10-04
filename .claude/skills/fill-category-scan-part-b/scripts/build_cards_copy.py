@@ -40,7 +40,7 @@ t = {x['id']: x for x in fab['teaser']}
 cards.append({'id': 'teaser', 'kind': 'teaser', 'entries': [
     {'id': x['id'], 'item': x['item'], 'cat': x['category'], 'head': t[x['id']]['head']} for x in sel['teaser_items']]})
 cards.append({'id': 'bp', 'kind': 'analysis', 'opening': 'And for the bigger picture…', 'cat': 'The Bigger Picture / AIND',
-              'head': fab['bp']['head'], 'body': fab['bp']['body'], 'src': 'AI NEWS DESK', 'pill': 'AIND',
+              'head': fab['bp']['head'], 'body': fab['bp']['body'], 'src': 'AI News Desk', 'pill': 'AIND',
               'refs': sel['bp_refs']})
 cards.append({'id': 'closing', 'kind': 'closing', 'head': 'Like, follow and share.', 'body': CLOSING})
 out = {'edition': ed, 'note': 'Card wording written by Fable from the Full Report entries, checked by check_wording.py and a stranger check.',

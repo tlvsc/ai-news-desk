@@ -26,7 +26,7 @@ pack.update(edition=ed, date_title=title,
             review_status=('Spoken lines written by Fable in plain English (sentences of at most 15 words, the deed first), checked by '
                            'check_wording.py and a stranger check; pending Rafael\'s approval.'),
             source_check=f'Story lines were written from the Full Report entries of {ed}. Outlets are shown on screen, never spoken.',
-            bigger_picture={'state': 'generated_in_C11', 'category': 'The Bigger Picture', 'source': 'AI NEWS DESK',
+            bigger_picture={'state': 'generated_in_C11', 'category': 'The Bigger Picture', 'source': 'AI News Desk',
                             'position': 'slot 11, after teaser, before the ending'})
 slots = [fixed[1]]
 for k, st in enumerate(fin['stories']):
@@ -40,7 +40,7 @@ slots.append({'slot': 10, 'kind': 'teaser', 'category': 'Teaser', 'item': '; '.j
               'script': t['script'], 'source': 'DAILY GLOBAL AI INTELLIGENCE REPORT'})
 b = fin['bp']
 slots.append({'slot': 11, 'kind': 'story', 'category': 'The Bigger Picture', 'item': 'desk analysis', 'symbol': b['screen'],
-              'script': b['script'], 'source': 'AI NEWS DESK'})
+              'script': b['script'], 'source': 'AI News Desk'})
 slots.append({'slot': 12, 'kind': 'unused', 'state': 'bypass', 'title': f'unused (seven stories from {ed})'})
 slots.append(fixed[13])
 assert len(fin['stories']) == 7, f"7 story clips expected, got {len(fin['stories'])}"

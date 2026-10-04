@@ -108,7 +108,7 @@ not about which project it is.
     build our own entry from several outlets and label the source AI News Desk, naming them inside.
     Follow the chain to the first reporter; when unclear, write "X reports, citing Y". A desk-built
     news entry keeps a news status label. The Bigger Picture card, the one AI News Desk item of
-    every day, carries the label AIND and the source AI NEWS DESK (Rafi, 3 Oct 2026; the Drive Cards
+    every day, carries the short label AIND and, on the source strip, AI News Desk (Rafi, 3 Oct 2026; the Drive Cards
     rules 1.3 and 3.5 and the phrasing file 3.2 still say DESK VIEW, a line for Rafi to change there).
     Always inside the law: our own words, short quotes only, always a credit.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
