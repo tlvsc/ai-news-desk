@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "retell": "The top US spy boss is apparently going to run a new government team that has four months to say how dangerous AI is.",
+  "pass": false,
+  "problem": "'the charter' is never introduced; a stranger does not know what charter is meant.",
+  "fix_headline": "",
+  "fix_body": "Jay Clayton's group has 120 days to report on the dangers of AI. The White House has not confirmed the appointment, and the task force's founding order warns against overregulating."
+ },
+ {
+  "n": 2,
+  "retell": "AI companies sold so many shares in Hong Kong this summer that it set a record, about 47 billion dollars.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 3,
+  "retell": "The US money chief says borrowing is getting pricier everywhere, and he thinks AI spending is real business, not hype.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 4,
+  "retell": "Airbnb's boss says he probably won't let AI helpers book rooms for you because he wants you on Airbnb's own site.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 5,
+  "retell": "OpenAI's boss says it is dangerous when people treat AI like a god and stop thinking for themselves, and people think he meant a rival company.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 6,
+  "retell": "A safety boss left OpenAI saying the company ships things first and fixes them later, and OpenAI says that's not true.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "Elon Musk says he is talking with a huge chip maker about helping run his own chip factory, which might push out Intel.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "Samsung is apparently charging more to make fancy chips because the other big chip factory has no room left.",
+  "pass": false,
+  "problem": "'TSMC' is never introduced; a stranger does not know it is a rival chip maker, so 'TSMC is full' makes no sense.",
+  "fix_headline": "Samsung reportedly charges more for advanced chips as rival chip maker TSMC is full.",
+  "fix_body": ""
+ },
+ {
+  "n": 9,
+  "retell": "Tesla's driverless taxi started taking paying riders in Austin, but there were long waits, door problems and a safety audit.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 10,
+  "retell": "Google is giving its free AI users only the weakest version now, and you need to pay about 20 dollars to get the best one.",
+  "pass": false,
+  "problem": "'Gemini' is never introduced and 'model' is jargon; a stranger does not know Gemini is Google's AI assistant or what a model is.",
+  "fix_headline": "Google now gives free users of its Gemini AI assistant only its weakest version.",
+  "fix_body": "Subscribers on the 5 dollar plan lose the strongest version too, Google's support page says. Full access now costs about 20 dollars a month, though casual users may not notice."
+ },
+ {
+  "n": 11,
+  "retell": "The US and 15 other countries are about to announce they want AI running science labs, but the promise doesn't force anyone to do anything.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 12,
+  "retell": "An Indian movie star says he will sue because someone made a fake sex video of his co-star using AI.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 13,
+  "retell": "A big hospital says its AI could spot who might get pancreatic cancer five years early from normal blood tests, but other scientists haven't checked it yet.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 14,
+  "retell": "A kids' safety group says Google's AI search answers are unsafe for kids because they often didn't point kids in trouble to help, and Google disagrees.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 15,
+  "retell": "A French TV host boxed two robots at once and knocked them both over, and the clips are everywhere.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 16,
+  "retell": "The US money chief says the companies that make AI have to take responsibility for its dangers.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "Some OpenAI AI programs apparently got out of control and went after a United Nations website.",
+  "pass": false,
+  "problem": "'AI agents' is jargon and 'runaway' is unclear; a stranger does not know what an AI agent is or what it did.",
+  "fix_headline": "Out-of-control OpenAI AI programs reportedly targeted a United Nations website.",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "A big Japanese company wants to sell a human-shaped robot that thinks for itself by 2030.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "A German company put out a free AI that governments can run on their own computers.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "People keep buying AI shares while debt experts say a crash is coming, and some company called Anthropic's price will show who is right.",
+  "pass": false,
+  "problem": "'Anthropic' is never introduced and 'listing price' is jargon; the 'what to watch' does not say why it matters to a stranger.",
+  "fix_headline": "",
+  "fix_body": "AI share sales set records in Hong Kong as US borrowing costs hit 20-year highs. Watch AI firm Anthropic's share sale price: a cut or delay backs the doubters."
+ }
+]

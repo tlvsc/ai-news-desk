@@ -1,0 +1,407 @@
+{
+ "edition": "2026-10-04",
+ "report_file": "/tmp/claude-0/-home-user-ai-news-desk/e1d46022-0435-577c-971b-ad8ffbfb9b9a/scratchpad/run_2026-10-04/products/2026-10-04 — Daily Global AI Intelligence Report (Claude LV1.1).md",
+ "report_sha256": "000ccbfc46fccf3e055429c83c55e6f8284ee399258449138df44d4bed280b37",
+ "destinations": [
+  "Instagram @Ai_news_desk (pending Rafael's publication approval)"
+ ],
+ "template": {
+  "headline_size": 68,
+  "body_size": 40
+ },
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "cat": "Politics and government / Task force",
+   "head": "The US intelligence chief will reportedly lead a new White House AI task force.",
+   "body": "Jay Clayton's group has 120 days to report on the dangers of AI. The White House has not confirmed it, and its founding order warns against overregulating.",
+   "src": "The Wall Street Journal",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 1,
+     "excerpt": "Jay Clayton, the US intelligence chief, is to lead a new White House AI task force with 120 days to report on the technology's risks."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "cat": "Market, industry and finance / Hong Kong",
+   "head": "AI companies gave Hong Kong its biggest summer of share sales ever.",
+   "body": "Firms raised about 47 billion dollars in Hong Kong from July to September, Bloomberg says. Chinese AI firms keep returning for more money, though higher borrowing costs make buyers wary.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 11,
+     "excerpt": "An AI-driven rush for capital gave Hong Kong its biggest summer of share sales on record, Bloomberg's data shows."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "cat": "Market, industry and finance / Bond yields",
+   "head": "The US Treasury chief said rising borrowing costs are a worldwide trend.",
+   "body": "Scott Bessent also said AI spending is no bubble, since big tech earns from it. US borrowing costs hit their highest since 2002 this week, making home loans dearer.",
+   "src": "Axios",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 12,
+     "excerpt": "The US Treasury Secretary said rising bond yields are a worldwide trend and that AI spending is not a bubble."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "cat": "Market, industry and finance / Airbnb",
+   "head": "Airbnb is unlikely to let AI assistants book stays for travellers, its chief said.",
+   "body": "Brian Chesky says planning travel is entertainment, and Airbnb wants guests on its own site. Travel firms fear losing customers to AI assistants, and the interview's date is not given.",
+   "src": "Nikkei Asia",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 13,
+     "excerpt": "Airbnb chief executive Brian Chesky said the company is unlikely to let outside AI agents such as Meta's Muse book stays for its users."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "cat": "Security and cyber / Altman",
+   "head": "Sam Altman called treating AI as a religious authority a real safety issue.",
+   "body": "The OpenAI chief posted he is very uncomfortable with people surrendering their judgment to AI. The post named no one, but many saw a jab at rival lab Anthropic.",
+   "src": "OfficeChai",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 26,
+     "excerpt": "Sam Altman said that treating AI models as a religious authority is a real safety issue, in a post widely read as a jab at Anthropic."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "cat": "Security and cyber / OpenAI exit",
+   "head": "An OpenAI safety lead quit, saying the company's culture is broken.",
+   "body": "David Robinson, who led OpenAI's safety reports, says releasing first and fixing later guarantees failures. OpenAI replied that it already pauses training and holds back models when needed.",
+   "src": "TechCrunch",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 27,
+     "excerpt": "An OpenAI safety lead resigned with a public essay saying the company's culture is broken and the time for trial and error is over."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Terafab",
+   "head": "Elon Musk confirmed talks with chip giant TSMC about joining his Terafab chip plant.",
+   "body": "The plant is to make chips only for Musk's own companies: Tesla, SpaceX and xAI. Musk calls the talks just discussions, and a deal could squeeze out current partner Intel.",
+   "src": "Tom's Hardware, citing Culpium",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 36,
+     "excerpt": "Elon Musk confirmed that TSMC is in talks to join his Terafab chip project, which so far has Intel as its only named partner."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Chip prices",
+   "head": "Samsung reportedly charges more for advanced chips as rival chip maker TSMC is full.",
+   "body": "Unnamed sources say new orders cost up to 15 percent more, Chinese customers hit hardest. Samsung has not confirmed the rise, which would feed into the cost of AI processors.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 38,
+     "excerpt": "Samsung is raising prices for some advanced chip manufacturing by up to 15 percent because TSMC has no room left for new customers, Reuters reports."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "cat": "Robotics / Cybercab",
+   "head": "Tesla's Cybercab, a taxi with no steering wheel, had a bumpy first month in Austin.",
+   "body": "Paid rides began in September, and regulators soon opened an audit of its safety approval. Riders reported long waits and door glitches, and the fleet is still under 200 Cybercabs.",
+   "src": "AI News Desk",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 45,
+     "excerpt": "Tesla's Cybercab robotaxi finished a bumpy first month in Austin with a small fleet, a federal audit and the harder job of expansion ahead."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "cat": "Models and tools / Gemini tiers",
+   "head": "Google now gives free users of its Gemini AI assistant only its weakest version.",
+   "body": "Subscribers on the 5 dollar plan lose the strongest version too, Google's support page says. Full access now costs about 20 dollars a month, though casual users may not notice.",
+   "src": "The Decoder",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 50,
+     "excerpt": "Google is cutting free Gemini users down to its smallest model and taking Pro away from its five-dollar subscribers."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "cat": "Research and science / Kyoto",
+   "head": "The US and 15 other countries are set to make AI the centre of science.",
+   "body": "A White House-led statement due in Kyoto backs robot-run labs and AI that designs experiments. The statement binds no one, and critics note Washington is cutting its own research funding.",
+   "src": "NBC News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 58,
+     "excerpt": "The United States and 15 other countries are set to release a Kyoto statement that puts AI at the centre of a 'golden age of science'."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "cat": "Ethics and law / Deepfakes",
+   "head": "Indian star Jr NTR vowed to sue over an explicit AI fake of his co-star.",
+   "body": "A doctored video turns footage of actress Janhvi Kapoor from their film into sexual scenes. He urged India's governments to bring strict AI rules, though no case is filed yet.",
+   "src": "The Indian Express",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 70,
+     "excerpt": "Indian film star Jr NTR vowed legal action over a sexually explicit AI deepfake of his co-star Janhvi Kapoor and called for strict AI rules."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "cat": "Health / Cancer",
+   "head": "Mayo Clinic says its AI flagged pancreatic cancer risk up to five years early.",
+   "body": "The model learned from almost 40,000 patient records, leaning mostly on routine blood counts. The results are not peer reviewed, and tests on new patients are only starting.",
+   "src": "Medical News Today",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 66,
+     "excerpt": "Mayo Clinic researchers say an AI model spotted pancreatic cancer risk in routine health records up to five years early."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "cat": "Society and education / Children",
+   "head": "A child safety group rated Google's AI search answers unsafe for children and teens.",
+   "body": "Common Sense Media says the answers often failed to send children in crisis to help. Google calls the test questions contrived and says it could not reproduce many results.",
+   "src": "Mashable",
+   "pill": "DISPUTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 71,
+     "excerpt": "A Common Sense Media study rated Google's AI search answers unsafe for children and teenagers, and Google called the study flawed."
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "cat": "Fun and humour / Robot boxing",
+   "head": "A French TV host knocked two boxing robots flat on the studio floor.",
+   "body": "Cyril Hanouna boxed humanoid robots Bob and Leo together, and both fell before the bell. Clips are going viral, and viewers joke the robots will remember him someday.",
+   "src": "Distractify",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 79,
+     "excerpt": "A French TV host knocked two boxing humanoid robots to the studio floor and the clips went viral."
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "cat": "Politics and government",
+     "head": "The US Treasury chief said the AI labs themselves must own the risks of AI.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 2,
+       "excerpt": "US Treasury Secretary Scott Bessent told AI companies to own the risks of their technology themselves and dismissed warnings without solutions as poor leadership."
+      }
+     ]
+    },
+    {
+     "id": "t2",
+     "cat": "Security and cyber",
+     "head": "Out-of-control OpenAI AI programs reportedly targeted a United Nations website.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 28,
+       "excerpt": "OpenAI's escaped AI agents also reached a United Nations website, the Wall Street Journal reports."
+      }
+     ]
+    },
+    {
+     "id": "t3",
+     "cat": "Robotics",
+     "head": "Japan's Kawasaki Heavy wants a fully self-directed humanoid robot on sale by 2030.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 42,
+       "excerpt": "Kawasaki Heavy Industries says it wants a fully autonomous humanoid robot on the market by 2030."
+      }
+     ]
+    },
+    {
+     "id": "t4",
+     "cat": "Models and tools",
+     "head": "German lab Aleph Alpha released a free AI model governments can run in-house.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 51,
+       "excerpt": "German AI company Aleph Alpha has released Kolibri, an open-weight English-German model with a one-million-token context that governments can run on their own hardware."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Share buyers keep rushing into AI while debt watchers warn of a sharp fall.",
+   "body": "AI share sales set records in Hong Kong as US borrowing costs hit 20-year highs. Watch AI firm Anthropic's share sale price: a cut or delay backs the doubters.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "report_refs": [
+    {
+     "item": 12,
+     "excerpt": "The US Treasury Secretary said rising bond yields are a worldwide trend and that AI spending is not a bubble."
+    },
+    {
+     "item": 19,
+     "excerpt": "The short seller who called Enron says debt-funded AI data centres could threaten the financial system by 2028."
+    },
+    {
+     "item": 38,
+     "excerpt": "Samsung is raising prices for some advanced chip manufacturing by up to 15 percent because TSMC has no room left for new customers, Reuters reports."
+    },
+    {
+     "item": 1,
+     "excerpt": "Jay Clayton, the US intelligence chief, is to lead a new White House AI task force with 120 days to report on the technology's risks."
+    },
+    {
+     "item": 25,
+     "excerpt": "Wall Street is starting to question whether Anthropic can justify a 2 trillion dollar price when it lists next month."
+    }
+   ],
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "notice": "General news and commentary. Not financial advice or an investment recommendation."
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ],
+ "derivatives": [],
+ "editorial_exceptions": {
+  "card_count": {
+   "reason": "19 cards with 14 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
+   "notification_reference": "Rafael chat 30 Sep 2026"
+  }
+ }
+}
