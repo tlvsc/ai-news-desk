@@ -262,3 +262,6 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
     4.5 about $9. Rafi: "still a lot"; 5 Oct trial with curators, fillers and writers on Sonnet. Cheap wins still open:
     the Drive agent (0.5 M for nine small text files) and merging the rules agent into the stranger check. V1 should
     pick a model per job and measure quality.
+63. (4 Oct 2026) OPENING AND ENDING: the skill rendered a new opening and ending every day, against the Drive rule
+    (stored intro) and CLAUDE.md 16 (new ones only on request). Rafi: use the stored option 4 clips of 3 Oct
+    (Headlines Master Permanent Assets / openings and endings / 2026-10-03). pack_base.json now bypasses slots 1 and 13.

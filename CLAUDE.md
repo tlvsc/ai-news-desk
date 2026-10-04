@@ -139,6 +139,12 @@ not about which project it is.
     15 Sep 2026 wording) and compared with the stored clips; the stored clips stay the approved
     ones until Rafi picks. Stored so far: openings 2026-09-09, 2026-09-11, 2026-09-23 (two clips);
     endings 2026-09-09 and 2026-09-15 (approved), in Headlines Master Permanent Assets.
+    APPROVED OPENING AND ENDING (Rafi, 4 Oct 2026): the daily Headlines use the stored option 4 clips of 3 Oct,
+    Headlines Master Permanent Assets / openings / 2026-10-03 / AIND_opening_option4_2026-10-03_VL1_1088.mp4 and
+    endings / 2026-10-03 / AIND_ending_option4_2026-10-03_VL1_1088.mp4. The JSON bypasses slots 1 and 13; the stitch puts
+    these two clips first and last. New openings or endings are generated only when Rafi asks.
+    QA GAPS (Rafi, 4 Oct 2026): the four missing checks (card choice, card rules, report and bulletin rules, the Bigger
+    Picture) are built on 5 Oct, scripts first.
 17. THE BIGGER PICTURE CORNER (Rafi, 2 Oct 2026). On the cards and in the Headlines clip it is a
     summation of all the big things happening, focused on what moves the market, followed by
     things to watch and follow so the story can be seen unfolding. It is never a vague

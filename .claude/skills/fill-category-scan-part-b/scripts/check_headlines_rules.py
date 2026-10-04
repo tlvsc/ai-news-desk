@@ -60,8 +60,9 @@ if pk:
     end = (slots.get(13) or {}).get('script', '')
     out('A2', not end or end.strip() == ENDING, 'ending is the approved text' if end.strip() == ENDING else f'ending differs: {end[:80]}')
     op = slots.get(1) or {}
-    out('A2', op.get('mode') == 'bypass', 'opening slot 1 is active: a new opening is generated; the stored intro is the rule '
-        'unless Rafi asked for opening options (CLAUDE.md 16)', 'WARN')
+    out('A2', op.get('state') == 'bypass', 'opening slot 1 bypass: the stored option 4 opening of 3 Oct is used' if op.get('state') == 'bypass'
+        else 'opening slot 1 is active: a new opening is generated; the stored option 4 opening of 3 Oct is the approved one '
+        'unless Rafi asked for new options (CLAUDE.md 16)', 'WARN')
     if re.search(r'\d', op.get('script', '')): out('B3', False, 'digits in the opening line: ' + op.get('script', '')[:60], 'WARN')
 for k, s, kind in clips:
     syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
