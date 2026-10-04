@@ -132,3 +132,7 @@ Already in Drive, nothing to port: report and Bulletin cutoffs, Fun Side top 3 i
 49. (4 Oct 2026) CONTEXT COMPACTION happened before the 4 Oct run started. Mistake: kept working in a heavy
     chat instead of proposing a fresh one after the skill build. Fix recorded as CLAUDE.md rule 18 (fresh chat
     before a run). Handoff: docs/HANDOFF_2026-10-04.md. Rafi approved continuing the 4 Oct Part A in the same chat.
+50. (4 Oct 2026) REPLY STORIES (Rafi, 4 Oct 2026): card 5 (Altman on AI and religion) did not say it answered the Anthropic story of our 3 Oct
+    edition; card 6 and its clip did not link Robinson's essay to his exit we reported on 3 Oct. Rafi's rule: a reply
+    names and explains the story it answers. Now in CLAUDE.md rule 16, writer, editor, wording and stranger briefs,
+    qa_check.py (reply_without_earlier_story) and check_wording.py (FAIL). Cards 5 and 6 and clip 4 rewritten.

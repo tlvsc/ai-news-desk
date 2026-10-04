@@ -81,6 +81,8 @@ words: `Read $W/cards_work/prompt_stranger_cards.txt and follow it exactly.` and
 `$W/headlines_work/prompt_stranger_headlines.txt`. Read `stranger_result.json` in both folders; apply or improve
 every fix (check facts and hedges against the entry; never add a fact), run check_wording.py again until it says
 "all pass". 3 Oct 2026: 6 of 10 lines and 6 of 20 cards failed the first stranger check.
+REPLY STORIES (Rafi, 4 Oct 2026): the script fails a card or clip of a reply story (pool follow_up plus reply words in its entry) unless it says it
+is a reply AND names the earlier story ("Yesterday we carried a New York Times report: ...").
 
 ### 4. Every factual claim against its entry
 Read each final card and line next to its report entry: same attribution, same hedge, same number. A stronger

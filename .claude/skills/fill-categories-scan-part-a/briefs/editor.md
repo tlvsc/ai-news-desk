@@ -11,6 +11,7 @@ Check each entry and FIX IT IN PLACE when needed (edit the JSON file, keep valid
 6. Old news: if the facts show the event happened well before the window and nothing new happened inside it, do not edit; list it under "unresolved" as "re-dated".
 7. Same story as another id in your list: list both under "unresolved" as "duplicate".
 8. Credit (Rafi, 3 Oct 2026): the printed source is the outlet that reported the story, never a copy site that carries its text; if the entry rests on another outlet ("Reuters reports, as relayed by..."), the source is that outlet. Fix the source name when the writer credited the copy site, and log it.
+9. REPLY STORIES (Rafi, 4 Oct 2026): an entry that is a reply, reaction or comment to an earlier story must say who answers whom and name and explain the earlier story (who reported what, and when). Add it from the facts or the pool's follow_up_of item when missing, and log it.
 Never change: score, importance_label, v1_category, url, status, freshness, verified_text, item_id.
 Log every change to WORKDIR/qa2_log_{PART}.json as {"changes": [{"item_id","field","before","after","reason"}], "unresolved": [...]}.
 Validate every edited file with python json.load. Final message: one line, e.g. "{PART}: 39 checked, 12 edited, 0 unresolved".

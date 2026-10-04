@@ -25,6 +25,12 @@ FIELDS = ['v1_category', 'headline', 'score', 'importance_label', 'importance_li
 V1 = {'POL', 'MKT', 'SEC', 'ENE', 'ROB', 'MOD', 'RES', 'LAW', 'HEA', 'SOC', 'FUN'}
 
 
+REPLY = re.compile(r"\b(repl(y|ies|ied)|in response to|responded to|reaction to|reacted to|jab|hits? back|rebut\w*|"
+                   r"answer(s|ed)? (to|a|an|the)|criticis\w+|criticiz\w+|swipe|dig at)\b", re.I)
+EARLIER = re.compile(r"\b(yesterday|earlier|last week|this week|days ago|report(ed)? of|reported|edition|"
+                     r"\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec))\b", re.I)
+
+
 def event_date(freshness, default_year):
     m = re.search(r'FOLLOW-UP of (.+)', str(freshness or ''))
     if not m:
@@ -89,6 +95,10 @@ def main():
         for fld in ('headline', 'summary', 'importance_line'):   # the fields the PDF prints
             if LEAK.search(str(e.get(fld, ''))):
                 P['process_note_in_text'].append((k, fld))
+        # REPLY STORIES (Rafi, 4 Oct 2026): a reply to an earlier story says who answers whom and names that story
+        txt = ' '.join(str(e.get(f, '')) for f in ('headline', 'summary', 'importance_line'))
+        if (p.get('follow_up') or p.get('follow_up_of')) and REPLY.search(txt) and not EARLIER.search(e.get('summary', '')):
+            P['reply_without_earlier_story'].append(k)
         d = event_date(e.get('freshness'), parse_utc(run['end']).year)
         if d == 'unparsed':
             P['freshness_unparsed'].append((k, e.get('freshness')))

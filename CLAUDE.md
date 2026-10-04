@@ -114,6 +114,10 @@ not about which project it is.
     WRITE ONLY WHAT CAN PRINT (Rafi, 4 Oct 2026, to save tokens): the pool keeps every story as headline
     and link; an article is read and written only for stories at curator score 5 and up (the report
     cutoff; writers never raise a score) and for the Fun Side. The rest stays pool only in daily-pool.md.
+    REPLY STORIES (Rafi, 4 Oct 2026): when a story is a reply, reaction or comment to an earlier story, every product says it
+    plainly (who answers whom) and names and explains the earlier story it answers (who reported what, and
+    when; "yesterday we carried a New York Times report: ..."), so a reader who missed it understands the reply.
+    A reply that names no one is "widely read as a reply". The report check and the wording check enforce it.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

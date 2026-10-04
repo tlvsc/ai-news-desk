@@ -15,5 +15,6 @@ Hard rules (a script checks them, then a stranger who knows nothing retells ever
 4. Lead with the deed, not the money: for a non-market story, funding, revenue and valuation stay out of the headline and the first sentence.
 5. What the stranger check failed on 3 Oct 2026, never do it: an "it" or "they" with no clear noun before it; "the photo", "the plant", "the loan" when nothing introduced it; a word that needs background ("memory", "chip machine"); a thing to watch without why it matters; two facts that sound like one fact.
 6. No sales language, no drama adjectives, no buy or sell advice.
+8. REPLY STORIES (Rafi, 4 Oct 2026): when a story is a reply, reaction or comment to an earlier story, the card says so plainly ("a reply to", "replied", "answered") and names the earlier story in the body ("Yesterday we carried a New York Times report: ...", "We reported his exit yesterday"); the clip says "as we reported yesterday" or the like. A reply that names no one is "widely read as a reply". check_wording.py fails a reply story that does not do both.
 7. The outlet is never part of a card headline or a spoken line (the card has a source line; clips show the outlet on screen).
 Write for the ear: read each line aloud once; if a listener needs it repeated, rewrite it.

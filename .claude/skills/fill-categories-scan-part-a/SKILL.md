@@ -120,6 +120,8 @@ Launch 16 background agents, description "Read and write cat NN", prompt
 `$W/report_entries/<id>.json` at reader level 7 (Article_phrasing_instructions_AIND_V1, Full Report section).
 
 ### 7. First check (structure and data)
+REPLY STORIES (Rafi, 4 Oct 2026): "reply_without_earlier_story" lists entries that answer an earlier story
+without naming it; add who answers whom and what the earlier story said, from the facts or the follow_up_of item.
 ```
 python3 $K/qa_check.py --workdir $W
 ```
