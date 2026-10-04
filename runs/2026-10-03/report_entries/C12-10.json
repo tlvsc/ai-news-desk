@@ -1,0 +1,16 @@
+{
+ "item_id": "C12-10",
+ "v1_category": "SEC",
+ "headline": "Salt Labs researchers got the Manus AI agent to run hidden code sent in an ordinary email, and say the flaw has since been fixed.",
+ "score": 4,
+ "score_reason": "Lowered by 1 from 5: the headline overstates the risk, because this method is already fixed and no real-world attacks are reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: researchers showed that an AI agent connected to email could be tricked into running attacker code, which affects people who give agents access to their email and accounts first, then companies using agents, but the researchers say this method is now fixed, no real attacks are reported and the date of the test is not stated.",
+ "source": "TechRadar",
+ "status": "REPORTED",
+ "summary": "TechRadar reports that Salt Labs researchers got around the safety checks of the Manus AI agent by hiding a command in an email in an unusual disguise (JSFuck, a way of writing JavaScript with only a few symbols), so the agent ran it on its server when it read the email. They reported it through Meta's bug bounty program and say it is fixed, but warn that checks on what an agent is told are not enough on their own.",
+ "url": "https://www.techradar.com/pro/security/this-popular-ai-agent-could-be-hacked-by-a-single-email-with-potentially-disastrous-consequences",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Salt Labs says the issue is resolved. Date of the research not stated."
+}

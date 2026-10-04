@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-02",
+ "title": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse — new GB10 config starts at $4999 for those who can work with less",
+ "source_used": "Tom's Hardware (original publisher)",
+ "article_url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia is adding a 64GB version of its DGX Spark small AI computer, aimed at people who do not need the 128GB model.",
+  "64GB GB10 systems from Acer, Asus, Dell, Gigabyte, HP and MSI are slated to start at $4,999 when they launch on 23 Oct 2026.",
+  "Tom's Hardware says the price may not stay there for long, because memory and storage prices keep shifting.",
+  "Where 128GB systems can be found in stock, Tom's Hardware says they cost roughly $7,000 to $9,000 now.",
+  "The 64GB model keeps the same ConnectX 7 networking chip, the same 20-core Arm processor and the same 273 GB/s memory bandwidth as the 128GB model.",
+  "Nvidia is also adding a Sync Cluster Assistant to link several Sparks together, and a Model Launcher in Sync that downloads and starts models and connects them to the OpenCode coding agent.",
+  "The 128GB Spark stays on sale for larger models, clusters and fine-tuning."
+ ],
+ "quote_evidence": [
+  "The company is introducing a 64GB version of the Spark that's meant to be more affordable to local AI trailblazers who just don't need 128GB of RAM.",
+  "64GB GB10 systems from Acer, Asus, Dell, Gigabyte, HP, and MSI are slated to start at $4999 when they launch on October 23.",
+  "Given the ever-shifting prices of memory and storage right now, they might not stay there for long."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A lower-memory model gives people who run AI models on their own desk a cheaper entry point while memory prices are high.",
+ "event_date": "2 Oct 2026 (announcement); systems launch 23 Oct 2026",
+ "notes": "One outlet (Tom's Hardware) reporting Nvidia's announcement; prices are \"slated\" starting prices, not final. Article text read (page header boilerplate skipped)."
+}

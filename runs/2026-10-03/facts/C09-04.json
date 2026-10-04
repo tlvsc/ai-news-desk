@@ -1,0 +1,24 @@
+{
+ "item_id": "C09-04",
+ "title": "Another data center in Kyiv taken offline by Russian strikes",
+ "source_used": "Mediasat",
+ "article_url": "https://mediasat.info/en/2026/10/02/russia-destroys-dream-lines-data-center-in-kyiv/",
+ "fetched": true,
+ "key_facts": [
+  "A Russian strike overnight from 27 to 28 Sep 2026 destroyed a Kyiv data center run by the Ukrainian hosting provider Dream Line (dline.ua) on Predslavynska Street.",
+  "By 1 Oct, Dream Line had moved all services and client data to backup sites, it told the Ukrainian broadcaster Hromadske Radio.",
+  "Russia had claimed the strike on 28 Sep, naming the Kyiv data centers of Dream Line and the telecom operator Ukrtelecom as targets.",
+  "Dream Line has kept running since the move, but its services are seeing outages for now; the company said 'All our employees are alive'.",
+  "Dream Line has operated since 2008; in 2023 it opened what Mediasat calls Ukraine's first data center cooled by outside air.",
+  "Mediasat adds that after a series of strikes Cosmonova lost its Kyiv site for good, and that on 1 Oct the Parkovyi data center said Russian strikes had knocked out its Kyiv site completely."
+ ],
+ "quote_evidence": [
+  "A Russian strike overnight from September 27 to 28 destroyed a Kyiv data center run by Ukrainian hosting provider Dream Line (dline.ua) on Predslavynska Street. By October 1, the company had moved all services and client data to backup sites, Dream Line told Ukrainian broadcaster Hromadske Radio.",
+  "Now Dream Line itself has confirmed that it lost its Predslavynska site.",
+  "And on October 1, the Parkovyi data center said Russian strikes had knocked out its Kyiv site completely."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Kyiv data centers are being knocked out one after another, and the customers of the hosting and internet firms they serve are left with outages.",
+ "event_date": "Strike overnight 27 to 28 Sep 2026; Dream Line's confirmation reported 1 to 2 Oct 2026",
+ "notes": "The Data Center Dynamics article (pool item, HTTP 403 Cloudflare block) could not be opened. Written from Mediasat's 2 Oct report on Dream Line, which I take to be the same event ('another data center in Kyiv') because of the matching day and wording (The New Voice of Ukraine ran 'Russia destroys another data center in Kyiv' the same day), but I could not confirm that DCD's article is about Dream Line. What is new today versus the 1 Oct Parkovyi story: Dream Line confirmed it lost its site and moved to backups."
+}

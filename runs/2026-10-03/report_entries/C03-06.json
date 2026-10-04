@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "MOD",
+ "headline": "DigitalOcean has opened a preview of a cloud service that runs AI agents in separate, locked-down environments with controlled access to outside tools.",
+ "score": 5,
+ "score_reason": "A real launch in a crowded area, but it is a public preview with no price, customer or performance figures in the report.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who want to run AI agents without building their own safe environment get another option, though it is only a preview and the praise reported comes from two people on social media, not from independent tests.",
+ "source": "InfoQ",
+ "status": "REPORTED",
+ "summary": "InfoQ reports that DigitalOcean has launched Managed Agents in public preview, a service that gives each AI agent its own isolated mini computer that can pause when idle, plus one gateway to more than 16,000 outside tools with permission settings and human approval for sensitive actions. InfoQ says it overlaps with Docker's Cloud Sandboxes but is aimed more at running agents in production than at developers' own workflows.",
+ "url": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full InfoQ article from the fulltext file. Launch date not stated in the article (\"recently\"). v1_category kept as default MOD."
+}

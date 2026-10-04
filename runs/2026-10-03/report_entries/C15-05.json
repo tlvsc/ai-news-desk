@@ -1,0 +1,16 @@
+{
+ "item_id": "C15-05",
+ "v1_category": "RES",
+ "headline": "A team at Imperial College London, with Rigetti Computing, designed in computer simulations new ways to link quantum processors with light that still work when up to half of the light sent between them is lost.",
+ "score": 3,
+ "score_reason": "Pool score 4 lowered by 1 because the headline reads as a working network but the result is a simulation with idealised parts and no local noise.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Teams trying to build bigger quantum computers by joining smaller ones could use these methods, but the results come only from idealised simulations, with no real hardware and no outside review reported.",
+ "source": "Quantum Zeitgeist",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Zeitgeist reports on a paper posted on the arXiv preprint server in which an Imperial College London team, with Rigetti Computing, found in simulations that new ways of linking quantum processors through light can cope with losing up to 50 percent of the light sent between them and can reach roughly twice as far as older methods. The simulations assume idealised parts and do not yet show the methods holding up under real-world imperfections.",
+ "url": "https://quantumzeitgeist.com/quantum-networks-fifty-percent-loss-threshold-demonstration/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Preprint; simulation only; the article text is repetitive and the figures are as the article gives them."
+}

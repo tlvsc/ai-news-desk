@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-10",
+ "title": "NVIDIA Vera CPUs land at Los Alamos to power three new future supercomputers",
+ "source_used": "Yahoo Tech",
+ "article_url": "https://tech.yahoo.com/computing/articles/nvidia-vera-cpus-land-los-064504909.html",
+ "fetched": true,
+ "key_facts": [
+  "Los Alamos National Laboratory has received its first NVIDIA Vera CPU systems, installed in the lab's Darwin testbed for early performance testing.",
+  "The node is an air-cooled MGX server with two Vera CPUs, each with 88 Olympus cores, linked by NVIDIA's NVLink Chip-to-Chip connection.",
+  "The hardware arrived in August; the Darwin team, supported by the NNSA's Advanced Simulation and Computing Program, installed it and testing followed once the software was deployed.",
+  "It is a forerunner of three planned Los Alamos supercomputers, Mission, Vision and Veritas, which will use Vera CPUs together with NVIDIA Rubin GPUs.",
+  "Mission will have three partitions: Ranger (Vera CPUs), Sandstone (Vera Rubin NVL-4) and Starlight (Vera Rubin NVL-72); Vera CPU nodes are also planned for Veritas.",
+  "The full Ranger partition is expected in 2027 alongside Sandstone; the Mission-Starlight and Vision-Transformer partitions could arrive as early as late 2026.",
+  "The earlier Grace CPU powers the lab's Venado supercomputer, built by NVIDIA and HPE."
+ ],
+ "quote_evidence": [
+  "Los Alamos National Laboratory has received its first NVIDIA Vera CPU systems, installing them inside the lab's Darwin testbed for early performance testing.",
+  "The full Ranger partition is expected to arrive at Los Alamos in 2027 alongside the Sandstone partition, while the Mission-Starlight and Vision-Transformer partitions could be delivered as early as late 2026."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A US national lab is testing Nvidia's next server processor ahead of three planned supercomputers, but only early testing is described.",
+ "event_date": "Hardware arrived in August (year not stated); article dated 2 Oct 2026",
+ "notes": "Single syndicated article quoting named Los Alamos and NVIDIA officials; no second outlet checked. No benchmark results are given. Delivery dates are stated as expected or possible."
+}

@@ -1,0 +1,484 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-08",
+   "field": "summary",
+   "before": "WIRED reports that Waymo, Zoox and Tesla robotaxis carry cameras inside the cabin, which the companies say help keep riders safe and enforce rules, with staff viewing them only when needed. Their privacy policies also allow footage to be used to improve products, and experts quoted by WIRED say US law gives riders little protection.",
+   "after": "WIRED reports that Waymo, Zoox and Tesla robotaxis carry cameras inside the cabin, which the companies say help keep riders safe and enforce rules, with staff viewing them only when needed. Their privacy policies also allow footage to be used to improve products or services, and experts quoted by WIRED say few clear US rules govern this kind of surveillance.",
+   "reason": "Facts say experts see few clear rules; 'gives riders little protection' was stronger."
+  },
+  {
+   "item_id": "C11-08",
+   "field": "importance_line",
+   "before": "Anyone who rides a robotaxi can be filmed inside the car and the rules on its use are thin, which concerns riders and lawmakers; the article shows broad company policies rather than proven misuse of rider footage.",
+   "after": "Anyone who rides in one of these robotaxis can be filmed inside the car and few clear rules limit how the footage is used, which matters first to riders; the article shows broad company policies rather than proven misuse of rider footage.",
+   "reason": "Concern of 'lawmakers' is not in the facts; 'rules are thin' restated as the experts' 'few clear rules'."
+  },
+  {
+   "item_id": "C02-01",
+   "field": "importance_line",
+   "before": "Hobbyists and developers get a free way to put Meta's AI assistant into homemade devices, and Meta is testing demand for its own home-control box, but only 5,000 of those exist and Meta itself warns builders to proceed at their own risk.",
+   "after": "Hobbyists and developers get a free way to put Meta's AI assistant into homemade devices, but Meta says it made just 5,000 of its own home-control box and itself warns builders to proceed at their own risk.",
+   "reason": "'Meta is testing demand' is the writer's inference, not in the article; 'exist' replaced by 'Meta says it made'."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "summary",
+   "before": "CBS News reports that Hirundo, an Israeli cybersecurity startup, found that Alibaba's free Qwen AI model, downloaded more than 3 billion times, avoids or slants its answers on topics the Chinese government dislikes, such as the 1989 Tiananmen Square protests and the treatment of Uyghurs. Hirundo, which has made its own edited \"Westernized\" version, says the original gave censored or biased answers to 89.8% of sensitive political prompts, and Alibaba did not respond to CBS.",
+   "after": "CBS News reports that Hirundo, an Israeli cybersecurity startup, says Alibaba's free Qwen AI model, which has been downloaded more than 3 billion times, avoids or slants answers on topics the Chinese government dislikes; in CBS's own tests Qwen denied that forced labor camps for Uyghurs exist and often refused questions about the 1989 Tiananmen Square protests. Hirundo, which has made its own edited \"Westernized\" version, says the original gave censored or biased answers to 89.8% of sensitive political prompts, and Alibaba did not respond to CBS.",
+   "reason": "Uyghur and Tiananmen examples came from CBS's own tests, not from Hirundo; 'found' softened to 'says' (Hirundo's claim)."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "importance_line",
+   "before": "Companies and users who build on free Chinese AI models, including U.S. firms such as Uber and Airbnb that have said they use Qwen, could pass political filtering on to their own customers, but the test results come from one startup with its own edited version and Alibaba has not replied.",
+   "after": "Companies and users who build on free Chinese AI models, including U.S. firms such as Uber Eats and Airbnb that have said they use Qwen, could pass political filtering on to their own customers, but the main figures come from one startup that has its own edited version, and Alibaba has not replied.",
+   "reason": "Facts name Uber Eats (not Uber); CBS also ran its own tests, so 'results come from one startup' was too narrow."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "summary",
+   "before": "CRN reports that ServiceNow, which mainly sells to very large businesses, announced on 1 Oct 2026 an AI help desk called Flow that employees can use in chat tools such as Slack and Teams to get IT problems solved. It reaches existing customers in North America from 6 Oct 2026 and everyone worldwide later this year, priced by how much the AI is used, and ServiceNow executive Jeff Hausman says it can be running within minutes or hours.",
+   "after": "CRN reports that ServiceNow, which mainly sells to very large businesses, announced on 1 Oct 2026 an AI help desk called Flow that employees can use in chat tools such as Slack and Teams to get IT problems solved. It is due to reach existing customers in North America from 6 Oct 2026 and everyone worldwide later this year, priced by how much the AI is used, and ServiceNow executive Jeff Hausman says it can be running within minutes or hours.",
+   "reason": "Source says 'slated'/'due'; 'reaches' stated the schedule as done."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "summary",
+   "before": "CRN reports that Microsoft has pushed the start of default pay-per-use billing for new Microsoft 365 Copilot Business subscriptions sold through its reseller partners from 2 Nov to 1 Dec 2026. This continues CRN's 1 Oct 2026 coverage of the plan; what is new is the delay, a default limit of 4,000 usage credits (about $40) per user each month that resellers can change or set to zero, and a list of eleven countries, including Germany, France and India, where it will not start at first.",
+   "after": "CRN reports that Microsoft has pushed the start of default pay-per-use billing for new Microsoft 365 Copilot Business subscriptions sold through its reseller partners from 2 Nov to 1 Dec 2026. Microsoft also set a default limit of 4,000 usage credits (about $40) per user each month, which resellers can change or set to zero, and a list of eleven countries, including Germany, France and India, where the billing will not start at first.",
+   "reason": "Removed story-lineage note ('continues CRN's 1 Oct coverage; what is new is') which is an internal note, not content."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "summary",
+   "before": "The Register reports that Microsoft will roll out Excel Canvas through October, a feature in which Copilot builds a report of charts, key numbers and comments from a workbook and updates it by itself when the data changes. Users need access to Copilot in Excel and can adjust the report by typing requests, and The Register notes that Microsoft dropped another Excel Copilot feature, the COPILOT() formula, in August 2026.",
+   "after": "The Register reports that Microsoft will roll out Excel Canvas through October, a feature in which Copilot builds a report of charts, key numbers and written insights from a workbook and updates it by itself when the data changes. Users need access to Copilot in Excel and can adjust the report by typing requests, and The Register notes that Microsoft dropped another Excel Copilot feature, the COPILOT() formula, in August 2026.",
+   "reason": "Source says 'insights'; 'comments' could be read as user comments."
+  },
+  {
+   "item_id": "C03-01",
+   "field": "summary",
+   "before": "Cloudflare says it is launching a Web Search API inside AI Gateway, the tool developers use to run and keep track of their AI apps, with Ceramic.ai, Exa and Linkup as the first search partners. It says the partners must follow its crawler rules, which include naming their crawlers, respecting website owners' instructions and linking back to the pages they used.",
+   "after": "Cloudflare says it is launching a Web Search API inside AI Gateway, the tool developers use to run and keep track of their AI apps, with Ceramic.ai, Exa and Linkup as the first search partners. It says the partners have committed to its crawler standards, which include using a verified crawler, respecting website owners' bot rules and linking to the original page in every result.",
+   "reason": "Facts say partners 'have committed to' standards incl. a verified crawler; 'must follow' and 'naming their crawlers' were stronger or inexact."
+  },
+  {
+   "item_id": "C03-01",
+   "field": "importance_line",
+   "before": "Developers building AI agents get a ready-made way to give them current web information with logging and billing in one place, and website owners are promised that the search partners follow crawler rules, a promise based on Cloudflare's own standards that has not been independently tested.",
+   "after": "Developers building AI agents get a built-in way to give them current web information with logging and billing in one place, and website owners are promised that the search partners follow crawler rules, a promise Cloudflare makes itself, with no outside check reported.",
+   "reason": "'Has not been independently tested' is not in the facts; 'ready-made' is marketing-style wording."
+  },
+  {
+   "item_id": "C03-02",
+   "field": "summary",
+   "before": "Tom's Hardware reports that Nvidia's partners Acer, Asus, Dell, Gigabyte, HP and MSI will start selling a 64GB version of the DGX Spark on 23 Oct 2026 at prices starting at $4,999, with the same processor, networking chip and memory speed as the 128GB model. The site says memory prices have climbed so far that 128GB machines cost roughly $7,000 to $9,000 where they can be found, and warns that the $4,999 starting price may not hold.",
+   "after": "Tom's Hardware reports that Nvidia's partners Acer, Asus, Dell, Gigabyte, HP and MSI are due to start selling a 64GB version of the DGX Spark on 23 Oct 2026 at prices starting at $4,999, with the same processor, networking chip and memory speed as the 128GB model. The site says memory prices have climbed so far that 128GB machines cost roughly $7,000 to $9,000 where they can be found, and warns that the $4,999 starting price may not hold.",
+   "reason": "Source says 'slated to start'; 'will start selling' dropped that hedge."
+  },
+  {
+   "item_id": "C01-05",
+   "field": "importance_line",
+   "before": "Video creators who have to find licensed music may save time and avoid copyright claims, but the promise that the audio is safe for commercial use comes from Adobe and the article quotes only Adobe staff and two creators who use the tool.",
+   "after": "Video creators who have to find licensed music may save time searching for it and worrying about licensing, but the promise that the audio is safe for commercial use comes from Adobe and the article quotes only Adobe staff and two creators who use the tool.",
+   "reason": "'Avoid copyright claims' is not supported; the creators say it saves search time and licensing worries."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "headline",
+   "before": "The Wall Street Journal reports that AI shopping agents, programs that browse and buy on a person's behalf, are leading some retailers to block them from their websites.",
+   "after": "The Wall Street Journal reports that AI shopping agents, programs that browse and buy on a person's behalf, are trying to change how people shop while some retailers lock them out of their websites.",
+   "reason": "Headline-only item: original implied AI agents are 'leading' retailers to block them, a causal link the headline does not state."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "importance_line",
+   "before": "Shoppers who want an AI to buy for them and stores that are blocking such programs are on opposite sides, but which retailers, and how widely, is not known.",
+   "after": "Shoppers who want an AI to buy for them may find some stores keep such programs out, though which retailers are blocking them, and how widely, is not stated.",
+   "reason": "'On opposite sides' was an invented framing; process-style 'not known' wording made neutral."
+  },
+  {
+   "item_id": "C03-05",
+   "field": "importance_line",
+   "before": "Software teams that use Copilot can build automatic code reviews into their own workflows, and the new default setting changes how thorough reviews are for anyone who never picked a level, though GitHub's note does not explain what Balanced does differently.",
+   "after": "Software teams that use Copilot can build automatic code reviews into their own workflows, and the new default setting applies to anyone who never picked a level, though GitHub's note does not explain what Balanced does differently.",
+   "reason": "'Changes how thorough reviews are' is an unsupported consequence and contradicts the source, which does not say what Balanced changes."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "importance_line",
+   "before": "Mathematicians and anyone who relies on AI-made proofs, along with the AI companies that announce them, depend on these checkers, and Lean's developers say they now feel safer, but the article says future AI models might still find tricks that work on every checker.",
+   "after": "Mathematicians and anyone who relies on AI-made proofs, along with the AI companies that announce them, depend on these checkers, and Lean's creator says today's AI will not get past all the new layers of defence, but the article says the remaining risk is smaller, not zero.",
+   "reason": "'Developers feel safer' and 'future models might find tricks that work on every checker' are not in the facts; replaced with de Moura's statement and the article's 'smaller, not zero'."
+  },
+  {
+   "item_id": "C04-06",
+   "field": "importance_line",
+   "before": "People in hurricane-prone areas, and the forecasters and emergency planners who warn them, would be affected if AI tools stay weak at judging storm strength, but how serious or fixable that weakness is cannot be told from the headline alone.",
+   "after": "People in hurricane-prone areas, and the forecasters and emergency planners who warn them, could be affected if AI tools stay weak at judging storm strength, but how serious or fixable that weakness is remains unknown.",
+   "reason": "Removed process note 'cannot be told from the headline alone'."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "headline",
+   "before": "Researchers in China showed in a laboratory that a single particle of light can be shifted in a controlled way using one tiny crystal at room temperature, an early step toward simpler quantum computer parts.",
+   "after": "Researchers in China report that a single particle of light was shifted by a controlled amount in a laboratory using a tiny crystal at room temperature, which they say gives a basis for future quantum devices.",
+   "reason": "'Early step toward simpler quantum computer parts' is stronger than the authors' 'experimental basis' for future gates and switches; 'simpler' is not in the facts."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "summary",
+   "before": "Science Advances published a study by researchers at the Chinese Academy of Sciences in which one tiny man-made crystal (a colloidal quantum dot) was placed inside a structure that traps light, and the team showed it could shift the wave of a single photon, a particle of light, by a controlled amount at room temperature. The authors say this gives an experimental basis for future quantum logic gates and very low-power optical switches, but it is a laboratory demonstration and no device has been built from it.",
+   "after": "Science Advances published a study by researchers at the Chinese Academy of Sciences in which a tiny man-made crystal (a colloidal quantum dot) was placed inside a structure that traps light, and the team showed it could shift the timing (the phase) of the light wave of a single photon, a particle of light, by a controlled amount at room temperature. The authors say this gives an experimental basis for future quantum logic gates and very low-power optical switches, but it is a laboratory demonstration and they present it only as a basis for such devices.",
+   "reason": "'No device has been built from it' is not in the abstract; replaced with what the authors say. 'Wave' made clearer."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "importance_line",
+   "before": "A basic building block of quantum logic and light switching now works without deep freezing in the lab, which matters first to researchers building light-based quantum chips and later to companies that might use them, but it is one experiment and we have only seen the paper's abstract.",
+   "after": "The authors report a basic ingredient of quantum logic and light switching working at room temperature in the lab, which matters first to researchers building light-based quantum chips and later to companies that might use them, but it is one experiment reported by its own authors.",
+   "reason": "Removed process note 'we have only seen the paper's abstract'; 'now works' was stronger than the authors' claim."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "importance_line",
+   "before": "Homeowners and communities in hurricane-prone areas, and the insurers who set prices, could get clearer risk estimates, but this is a university's own plan with no tested results, and it is not yet shown that the artificial storms will be realistic enough.",
+   "after": "Homeowners and communities in hurricane-prone areas, and the insurers who cover them, could get clearer risk estimates, but this is a university's own plan with no tested results, and it is not yet shown that the artificial storms will be realistic enough.",
+   "reason": "'Insurers who set prices' is not in the facts."
+  },
+  {
+   "item_id": "C15-03",
+   "field": "headline",
+   "before": "A quantum chip from Silicon Quantum Computing improved next-day home energy forecasts by about 20 percent on average in a trial with Schneider Electric, and the Australian government is now funding a larger test.",
+   "after": "Silicon Quantum Computing and Schneider Electric say a quantum chip improved next-day home energy forecasts by about 20 percent on average in a trial, and the Australian government is now funding a larger test.",
+   "reason": "Result is the partners' own claim from a press release; headline stated it as fact without attribution."
+  },
+  {
+   "item_id": "C15-03",
+   "field": "summary",
+   "before": "Interesting Engineering reports that Silicon Quantum Computing (SQC) and Schneider Electric, working with UNSW Sydney, found that SQC's quantum-enhanced Watermelon chip made next-day energy forecasts about 20 percent more accurate on average, and up to 41 percent in the best case, than a standard computer method, using 12 months of data. The Australian government is giving A$3.6 million (about US$2.5 million) for a second stage covering hundreds of homes, which will show whether the gains last outside the first trial.",
+   "after": "Interesting Engineering reports that Silicon Quantum Computing (SQC) and Schneider Electric, working with UNSW Sydney, say SQC's quantum-enhanced Watermelon chip made next-day energy forecasts about 20 percent more accurate on average, and up to 41 percent in the best case, than a standard computer method, using 12 months of data. The Australian government is giving A$3.6 million (about US$2.5 million) for a second stage covering hundreds of homes, which will test whether the gains hold up beyond the first trial.",
+   "reason": "'Found' replaced by 'say' (company claim); 'will show' replaced by 'will test' (outcome not known)."
+  },
+  {
+   "item_id": "C15-03",
+   "field": "importance_line",
+   "before": "Better forecasts of solar and battery use could help power companies, and in time households, manage the grid, but the 20 percent figure is the partners' own, was measured against one comparison method, and the larger test with hundreds of homes has yet to show it holds up.",
+   "after": "Better home energy forecasts could help manage rooftop solar and batteries, but the 20 percent figure is the partners' own, was measured against one comparison method, and the larger test with hundreds of homes has yet to show it holds up.",
+   "reason": "'Help power companies, and in time households, manage the grid' is not in the facts."
+  },
+  {
+   "item_id": "C15-04",
+   "field": "summary",
+   "before": "SDxCentral reports that at the QDA Forum 2026 in London a Cisco engineer said the weak point is the link between quantum and ordinary computers, while an Nvidia director described plans to plug quantum processors into existing supercomputers as extra accelerators. Nvidia also quoted its own figures, a 2.5 times faster error-decoding step and a three-fold improvement in error rate, and both firms said open standards are needed.",
+   "after": "SDxCentral reports that at the QDA Forum 2026 in London a Cisco engineer said the links between quantum machines, and between quantum and ordinary computers, are a bottleneck, while an Nvidia director described plans to plug quantum processors into existing supercomputers as extra accelerators. Nvidia also quoted its own figures, a 2.5 times faster error-decoding step and a three-fold improvement in error rate, and both firms said open standards are needed.",
+   "reason": "Facts say the links between quantum systems AND between quantum and classical systems are the bottleneck; original named only one."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "headline",
+   "before": "A New York Times report says Anthropic has been hosting religious scholars to discuss whether its Claude AI could be conscious, and that co-founder Christopher Olah told them he feared he had created something that \"suffered perpetually\".",
+   "after": "A New York Times report says Anthropic has been hosting religious scholars to discuss whether its Claude AI could be conscious, and one participant says co-founder Christopher Olah told them he feared he had created something that \"suffered perpetually\".",
+   "reason": "The 'suffered perpetually' remark is one participant's recollection; headline had dropped that attribution."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "summary",
+   "before": "The Decoder, summarising a New York Times report, says Anthropic has since fall 2025 flown dozens of religious scholars to its offices to discuss whether Claude might be conscious, and that a participant said co-founder Christopher Olah told the group he feared he had created something that \"suffered perpetually\". Olah told the Times he is \"genuinely uncertain\" whether AI models are conscious, and whether the inner patterns shown to guests reflect real experience remains an open scientific question.",
+   "after": "The Decoder, summarising a New York Times report, says Anthropic has invited dozens of religious scholars to its offices since fall 2025 to talk about whether Claude might be conscious, and that a participant said co-founder Christopher Olah told the group he feared he had created something that \"suffered perpetually\". Olah told the Times he is \"genuinely uncertain\" whether AI models are conscious, and scientists have not settled whether the inner patterns shown to guests amount to real experience.",
+   "reason": "Two clauses were near-verbatim copies of quote_evidence sentences; reworded."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "importance_line",
+   "before": "What changed: a report says a leading AI lab has been asking religious leaders whether its AI could suffer, which affects the public debate on how AI is treated and who is responsible for it, then Anthropic's critics and regulators, and the doubt is that the key quote is one participant's recollection and Olah himself says he is \"genuinely uncertain\".",
+   "after": "What changed: a report says a leading AI lab has been asking religious leaders to discuss whether its AI could be conscious, which feeds the public debate over how AI should be treated, so it matters to the public first and then to AI companies; the doubt is that the key quote is one participant's recollection and Olah himself says he is \"genuinely uncertain\".",
+   "reason": "'Anthropic's critics and regulators' and 'who is responsible' were not in the facts (blame point is The Decoder's own commentary)."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "summary",
+   "before": "MLex reports that Dan Katz, the International Monetary Fund's first deputy managing director, said new AI rules may be needed to rein in cutting-edge AI tools that pose risks to society, naming cybersecurity as the leading risk.",
+   "after": "MLex reports that Dan Katz, the International Monetary Fund's first deputy managing director, said new AI rules may be needed to hold back the development of the most advanced AI tools, which he says pose risks to society, and named cybersecurity as the leading risk.",
+   "reason": "Reworded to avoid following the source sentence closely; meaning and hedge ('may be needed') kept."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "importance_line",
+   "before": "What changed: a senior IMF official publicly raised the idea of new AI rules because of cyber risk, which affects the public and organisations facing cyber attacks first, then regulators and finance ministries, then AI developers, and the doubt is that he said rules \"may be needed\", not that any are planned.",
+   "after": "What changed: a senior IMF official was reported as saying new AI rules may be needed, with cyber risk named as the leading concern, which affects the public and organisations facing cyber attacks first, then regulators, then AI developers, and the doubt is that he said rules \"may be needed\", not that any are planned.",
+   "reason": "'Publicly raised' (venue and date unknown), 'because of cyber risk' (he named it the leading of several risks) and 'finance ministries' are not supported."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "headline",
+   "before": "Facebook whistleblower Frances Haugen said AI companies must follow the spirit, not just the wording, of their new voluntary White House safety pledge.",
+   "after": "Facebook whistleblower Frances Haugen urged AI companies to follow the spirit, not just the wording, of their new voluntary White House agreement to police themselves.",
+   "reason": "Facts describe an agreement to self-police, not a 'safety pledge'; 'must' was stronger than 'urged'."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "summary",
+   "before": "According to briefs.co's report of her CNBC \"Squawk Box\" interview on Friday 2 Oct 2026, Frances Haugen, the former Facebook employee behind the 2021 \"Facebook Files\" leak, said tech companies often follow the exact written wording of rules and asked whether AI firms will keep to the \"spirit of the rules\" of a new voluntary White House agreement. She said AI firms have been \"more proactive\" about safety than before and praised Anthropic's Dario Amodei for pushing independent audits.",
+   "after": "According to briefs.co's report of her CNBC \"Squawk Box\" interview on Friday 2 Oct 2026, Frances Haugen, the former Facebook employee behind the 2021 \"Facebook Files\" leak, said tech companies often follow the exact written wording of rules and asked whether AI firms will keep to the \"spirit of the rules\" of a new voluntary White House agreement. She said AI firms have been \"more proactive\" about safety than before and credited Anthropic's chief executive Dario Amodei with arguing for independent auditors.",
+   "reason": "Last sentence followed a quote_evidence sentence too closely; reworded."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "importance_line",
+   "before": "What changed: a well-known tech whistleblower doubts that voluntary AI promises will hold, which affects the public and lawmakers who may be asked to trust company self-policing, then regulators, then AI companies, and the doubt is that it is one critic's opinion on a pledge whose terms we have not seen.",
+   "after": "What changed: a well-known tech whistleblower questioned whether voluntary AI promises will hold, which affects the public and lawmakers who may be asked to trust company self-policing, then regulators, then AI companies, and the doubt is that it is one critic's opinion on an agreement whose terms the report does not describe.",
+   "reason": "Removed process note 'terms we have not seen'; 'doubts' softened to 'questioned whether' (she asked a question)."
+  },
+  {
+   "item_id": "C10-02",
+   "field": "importance_line",
+   "before": "People waiting for new antibody medicines and Xaira's investors and partners may care, but we have not seen what the platform does or how far the first drugs have come, so its real strength is unclear.",
+   "after": "People waiting for new antibody medicines and Xaira's investors and partners may care, but what the platform does and how far the first drugs have come is not known, so its real strength is unclear.",
+   "reason": "Removed process note 'we have not seen'."
+  },
+  {
+   "item_id": "C10-03",
+   "field": "importance_line",
+   "before": "Medical device makers and AI developers learn which FDA advice is most likely to be finished within a year, and patients would feel any effect only later, but it is a list of plans open to comment until 30 Nov, and some of last year's goals are still unfinished.",
+   "after": "Medical device makers and AI developers learn which FDA advice the agency is putting first for the coming year, and patients would see any effect only later, but it is a list of plans open to comment until 30 Nov, and some of last year's goals are still unfinished.",
+   "reason": "'Most likely to be finished within a year' was stronger than the facts (FDA says documents are published if resources permit)."
+  },
+  {
+   "item_id": "C10-04",
+   "field": "summary",
+   "before": "The Financial Times reports, based on its own analysis, that more than 20 NHS trusts have stopped using Palantir's software for managing hospital waiting lists.",
+   "after": "The Financial Times reports, based on an analysis, that more than 20 NHS trusts have stopped using Palantir's software for managing hospital waiting lists.",
+   "reason": "Headline does not say the analysis was the FT's own; 'its own' was an assumption."
+  },
+  {
+   "item_id": "C10-04",
+   "field": "importance_line",
+   "before": "Patients waiting for NHS care and the trusts (the local organisations that run NHS hospitals in England) are affected, as is Palantir, but we have not seen the analysis, so the reasons and the exact tools are unknown.",
+   "after": "Patients waiting for NHS care and the trusts (the local organisations that run NHS hospitals in England) may be affected, as may Palantir, but the reasons and the exact tools involved are not known.",
+   "reason": "Removed process note 'we have not seen the analysis'; 'are affected' softened (nothing says patients were affected)."
+  },
+  {
+   "item_id": "C10-05",
+   "field": "summary",
+   "before": "WIRED reports that several nurses say HCA's AI scheduling tool, Timpani, used at about 130 of the chain's 190 locations, often ignores their shift requests and sometimes leaves too few or too inexperienced nurses on duty. HCA says nursing leaders, not the software, make the final decisions and that the claims misrepresent the tool.",
+   "after": "WIRED reports that several nurses say HCA's AI scheduling tool, Timpani, used at about 130 of the chain's 190 locations, often ignores their shift requests and sometimes leaves too few nurses, or too few experienced ones, on duty. HCA says nursing leaders, not the software, make the final decisions, and it calls claims that the tool is designed to cut staffing at the expense of patient care a misrepresentation.",
+   "reason": "HCA disputes one specific claim, not 'the claims' in general; 'too inexperienced' corrected to 'too few experienced'."
+  },
+  {
+   "item_id": "C10-06",
+   "field": "summary",
+   "before": "HIT Consultant reports that AKASA, a healthcare billing technology company, has launched an AI platform that it says turns hospital inpatient charts into billing codes without human intervention in under 90 seconds after discharge, a job that takes human coders 30 to 60 minutes per chart. AKASA says blinded third-party tests showed it matched or beat experienced human coders, but those results come from the company.",
+   "after": "HIT Consultant reports that AKASA, a healthcare billing technology company, has launched an AI platform that it says turns hospital inpatient charts into billing codes without human intervention in under 90 seconds after discharge, a job AKASA says takes human coders 30 to 60 minutes per chart. AKASA says blinded third-party tests showed it matched or beat experienced human coders, but those results come from the company.",
+   "reason": "The 30 to 60 minute coder time is AKASA's claim; attribution added."
+  },
+  {
+   "item_id": "C10-10",
+   "field": "headline",
+   "before": "The University of Texas System is setting up a $25 million, state-funded program to oversee and speed up the AI tools used in its hospitals and medical schools, but has shared few details.",
+   "after": "The University of Texas System is setting up a $25 million, state-funded program to oversee and develop the AI tools used in its hospitals and medical schools, but has shared few details.",
+   "reason": "Facts say 'manage and develop'; 'speed up' is not supported."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "headline",
+   "before": "Pope Leo XIV said on social media that human art is different in kind from what machines make and that the difference urgently needs to be protected.",
+   "after": "Pope Leo XIV said on social media that human art is different in kind from what machines make and that it is becoming urgent to tell the two apart.",
+   "reason": "Post says it is urgent to distinguish human art from machine output; 'difference needs to be protected' was a stretch."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "headline",
+   "before": "Some middle-school students are turning to AI chatbots as friends instead of real people.",
+   "after": "The Wall Street Journal reports that some middle-school students are turning to AI chatbots as friends instead of real people.",
+   "reason": "Headline-only item: attribution to the WSJ added so the claim is not stated as our own finding."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "summary",
+   "before": "The Wall Street Journal reports that middle-school students are seeking out AI chatbots as friends in place of real people.",
+   "after": "The Wall Street Journal reports that some middle-school students are seeking out AI chatbots as friends in place of real people.",
+   "reason": "Added 'some': the headline does not say all or most students."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "importance_line",
+   "before": "Middle-school children and their parents are affected first, then schools and chatbot makers; the headline does not say how many students are involved or how the Journal measured it.",
+   "after": "Middle-school children and their parents are affected first, then schools and chatbot makers; how many students are involved and how the Journal measured it is not stated.",
+   "reason": "Removed process wording 'the headline does not say'."
+  },
+  {
+   "item_id": "C14-02",
+   "field": "headline",
+   "before": "The U.S. economy added just 29,000 jobs in September, far fewer than forecast, while more companies say AI is behind their job cuts.",
+   "after": "US employers added just 29,000 jobs in September, well short of what economists expected, while more companies say AI is behind their job cuts.",
+   "reason": "Original headline closely followed a quote_evidence sentence; reworded."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "headline",
+   "before": "China is making training compulsory for every student while the United States is still debating the risks of AI.",
+   "after": "The Washington Post reports that China is making training compulsory for every student while the United States is still debating the risks of AI.",
+   "reason": "Headline-only item: attribution added so the claim is not stated as our own finding."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "importance_line",
+   "before": "Students and teachers in China are affected first, then education policymakers in the United States and elsewhere; the headline does not say what the training covers or how it is enforced.",
+   "after": "Students and teachers in China are affected first, then education policymakers in the United States and elsewhere; what the training covers and how it is enforced is not stated.",
+   "reason": "Removed process wording 'the headline does not say'."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "summary",
+   "before": "citybiz reports, citing a Partnership for New York City report that Bloomberg also covered, that AI companies leased more than 2.2 million square feet of New York office space in the first half of 2026, more than twice their 2025 total, while entry-level job postings since 2022 have fallen by 23% to 41% in fields such as finance, administration and writing. The report does not show that AI alone caused the decline, and the group's chief executive warned that office leases do not mean quick hiring.",
+   "after": "citybiz reports, citing a Partnership for New York City report that Bloomberg also covered, that AI companies rented more than 2.2 million square feet of New York office space in the first half of 2026, more than double their total for all of 2025, while entry-level job postings since 2022 have fallen by 23% to 41% in fields such as finance, administration and writing. The report stops short of saying AI alone caused the decline, and the group's chief executive warned that office leases do not mean quick hiring.",
+   "reason": "Two clauses followed quote_evidence sentences too closely; reworded."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "headline",
+   "before": "Students accused of misusing AI in their coursework are hiring lawyers to fight the accusations.",
+   "after": "Students accused of misusing AI are turning to lawyers to fight the accusations, the Financial Times reports.",
+   "reason": "'In their coursework' was not in the headline; attribution added."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "importance_line",
+   "before": "Students facing misconduct accusations are affected first, then universities that must judge such cases, then law firms; the headline does not say how many students, which countries or how often they win.",
+   "after": "Students facing misconduct accusations are affected first, then universities that must judge such cases, then law firms; how many students, which countries or how often they win is not stated.",
+   "reason": "Removed process wording 'the headline does not say'."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "summary",
+   "before": "Axios reports, in an article carried by Yahoo Finance, that Wikipedia page views fell 8% in 2025, with Wikimedia Foundation chief executive Bernadette Meehan saying the site is feeling the effects of AI changing how people find information and that some AI companies that use its content will not pay for it. OpenAI and Anthropic are not among Wikimedia's publicly named paying customers, though Meehan said it has other agreements it did not name.",
+   "after": "Axios reports, in an article carried by Yahoo Finance, that Wikipedia page views fell 8% in 2025, a fall Axios links to AI tools giving people Wikipedia-based answers without a visit to the site, and that Wikimedia Foundation chief executive Bernadette Meehan says some AI companies that rely heavily on its content will not pay for it. OpenAI and Anthropic are not among Wikimedia's publicly named paying customers, though Meehan said it has other agreements it did not name.",
+   "reason": "The link between the fall and AI is Axios's, not Meehan's (she said the drop was not unexpected); attribution corrected."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "importance_line",
+   "before": "What changed: Wikipedia's chief says AI is cutting its traffic and some AI firms will not pay for its content, which affects Wikipedia's readers, volunteers and donors first, then the foundation, then AI companies, and the doubt is that the 8% fall is Wikimedia's own figure for one year and the article does not show AI is the only cause.",
+   "after": "What changed: Wikipedia's chief reported an 8% fall in page views, which Axios links to AI, and said some AI firms will not pay for its content, which affects Wikipedia's readers, volunteers and donors first, then the foundation, then AI companies, and the doubt is that the 8% fall is Wikimedia's own figure for one year and the article does not show AI is the only cause.",
+   "reason": "'Chief says AI is cutting its traffic' over-attributed the AI link to Meehan."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "importance_line",
+   "before": "Publishers and journalists could gain data to support licensing claims, and readers could see more clearly how AI answers rely on news, but no AI company has said it will adopt the standard.",
+   "after": "Publishers and journalists could gain data to support licensing claims, but no AI company has publicly agreed to join the advisory board or adopt the standard.",
+   "reason": "'Readers could see more clearly how AI answers rely on news' is an invented consequence; the standard reports to publishers."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "summary",
+   "before": "The Chicago Tribune reports that more than 20 musicians rallied in Chicago on Thursday 1 Oct 2026 against AI-generated music, asking for laws that separate AI-made music from human-made music and planning a listener “blackout” of streaming platforms on 26 and 27 October. Many of the musicians say AI music is built on recordings taken from the web, but the protest is small and the article reports no response from streaming services.",
+   "after": "The Chicago Tribune reports that more than 20 musicians rallied in Chicago on Thursday 1 Oct 2026 against AI-generated music, asking for legal safeguards against AI copies of their work and labels that separate fake music from real music, and planning a listener \"blackout\" of streaming platforms on 26 and 27 October. Many of the musicians say AI music is built on recordings taken from the web, but the protest is small and the article reports no response from streaming services.",
+   "reason": "Demand was legal safeguards plus real/fake labels, not 'laws that separate' the two."
+  },
+  {
+   "item_id": "C14-08",
+   "field": "headline",
+   "before": "A Los Angeles radio station’s AI co-host, Coyotec, now shares a popular weekday show, while unions and critics warn that AI hosts threaten human jobs and listener trust.",
+   "after": "A Los Angeles radio station's AI co-host, Coyotec, now shares a weekday show with a human DJ, while the actors' union SAG-AFTRA and other critics warn that AI hosts threaten jobs and listener trust.",
+   "reason": "'Popular' is not supported (audience gain is the station's own claim); only SAG-AFTRA is named as a union."
+  },
+  {
+   "item_id": "C14-09",
+   "field": "headline",
+   "before": "Banks are hiring far more people who can make teams of AI agents work together, according to job-posting data reported by CNBC.",
+   "after": "Bank job postings that mention getting AI agents to work together have jumped, according to job-listing data from the firm Draup reported by CNBC.",
+   "reason": "'Banks are hiring far more people' overstated: the data count job postings, not hires."
+  },
+  {
+   "item_id": "C14-10",
+   "field": "headline",
+   "before": "Publishers now have AI companies willing to buy their content, but they have no say in what they are paid.",
+   "after": "Fast Company says AI companies are now ready to pay publishers for their content, but the publishers get no say over the price.",
+   "reason": "Headline-only item: attribution added; reworded away from the publisher's headline."
+  },
+  {
+   "item_id": "C14-10",
+   "field": "importance_line",
+   "before": "Publishers and journalists are affected first, then AI companies that need news content; the headline does not say who sets prices, how much is paid or which firms are buying.",
+   "after": "Publishers and journalists are affected first, then AI companies that need news content; who sets prices, how much is paid and which firms are buying is not stated.",
+   "reason": "Removed process wording 'the headline does not say'."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "summary",
+   "before": "PC Gamer reports that the pope posted a message on X this week saying it is urgent to tell human art from what machines produce, and that the Church wants to renew an alliance with artists. The column, a light-hearted recap of a long argument with AI supporters, also relays a New York Times report that Anthropic lobbied the pope's advisers in May to take the idea of AI model consciousness seriously.",
+   "after": "PC Gamer reports that the pope posted a message on X this week saying it is urgent to tell human art from what machines produce, and that the Church wants to renew an alliance with artists. The column, a light-hearted recap of a long argument with AI supporters, also relays a New York Times report that Anthropic lobbied the pope's advisers in May \"to take the prospect of AI model consciousness seriously\".",
+   "reason": "Clause followed a quote_evidence sentence closely; now an explicit short quote attributed to the Times report as relayed by PC Gamer."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "summary",
+   "before": "Android Police reports that a writer tried the free AI video generator in Google Vids, Google's video editor, and found it easy and funny but flawed: speech stutters, characters change between shots, and the 'Extend' feature adds at most 20 seconds. He concludes it is a fun distraction and that Hollywood has nothing to worry about yet, which is his own opinion.",
+   "after": "Android Police reports that a writer tried the free AI video generator in Google Vids, Google's video editor, and found it easy and funny but flawed: speech stutters, characters change between shots, and the 'Extend' feature adds at most 20 seconds. He concludes it is fun to play with and that Hollywood has nothing to worry about yet, which is his own opinion.",
+   "reason": "'Fun distraction' is not in the facts."
+  },
+  {
+   "item_id": "C16-10",
+   "field": "summary",
+   "before": "Yahoo reports that comedian Bill Burr told Rolling Stone it would make more sense to build AI that replaces company bosses than AI that replaces workers, saying 'it's not for us, it's for them.' The article adds, without naming a source, that bosses at large public companies earn on average about 290 times a typical worker's pay.",
+   "after": "Yahoo reports that comedian Bill Burr told Rolling Stone it would make more sense to build AI that replaces company chief executives than AI that replaces workers, saying 'it's not for us, it's for them.' The article adds, without naming a source, that chief executives at large public companies are paid about 290 times a typical worker's pay.",
+   "reason": "Facts say CEO-to-worker pay ratio, not 'bosses' in general."
+  },
+  {
+   "item_id": "C16-02",
+   "field": "headline",
+   "before": "A viral video of an oddly shaped man dancing in a bar has been revealed as AI-made, and the account behind it has gained over 90,000 followers in days.",
+   "after": "LADbible says a viral video of an oddly shaped man dancing in a bar is AI-made, and the account behind it has gained over 90,000 followers in days.",
+   "reason": "'Has been revealed as AI-made' stated LADbible's claim as established fact; attribution added."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "summary",
+   "before": "The Wichita Eagle runs a syndicated travel article, credited on a partner newspaper's page to Bodog, reporting on poor AI travel advice, from 'bogus bars' to visa problems, and cautioning against relying on chatbots alone.",
+   "after": "The Wichita Eagle runs a syndicated travel article reporting that AI chatbots have given travellers poor advice, from 'bogus bars' to visa problems.",
+   "reason": "Headline-only item: removed the process detail about a partner newspaper and Bodog, and the 'cautioning against chatbots' line, which came from a page description, not the headline."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "importance_line",
+   "before": "Travellers who rely on chatbots for trip plans could be given wrong or unsafe advice, but the cases and how common they are could not be confirmed.",
+   "after": "Travellers who rely on chatbots for trip plans could be given wrong advice, but which cases are meant and how common they are is not known.",
+   "reason": "'Unsafe' came only from a page description; 'could not be confirmed' was a process note."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C01-04",
+   "type": "re-dated",
+   "reason": "Facts: StartLux released the models on 30 Sep 2026 (results use a 28 Sep ranking snapshot); 36Kr article is dated 3 Oct 04:13 UTC; nothing new happened inside the 2 Oct 04:51Z to 3 Oct 04:51Z window. Not edited. If kept, note the summary also refers to Amazon's Jev copy, which is not in this article's facts (it comes from yesterday's item)."
+  },
+  {
+   "item_id": "C04-05",
+   "type": "re-dated",
+   "reason": "Facts: prize announced mid-Sep; criticism and Nikon's review statement came 'last week and over the weekend'; Gizmodo says only that organizers had no update as of Friday evening. No new finding inside the window. Not edited. If kept, the importance_line 'the case shows AI-processed pictures can pass as real data' is stronger than the open review supports."
+  },
+  {
+   "item_id": "C10-01",
+   "type": "re-dated",
+   "reason": "Facts: pause announced by Epic's CEO in September (Modern Healthcare, 'last month'); first reported by the New York Times on 30 Sep 2026; TechCrunch repeats these on 2 Oct with no new development. Not edited. If kept, the summary's 'This continues the New York Times report of 30 Sep' is a lineage note that could be rephrased as the attribution it carries."
+  },
+  {
+   "item_id": "C05-02",
+   "type": "duplicate",
+   "reason": "Same story as C16-06: Pope Leo XIV's X post on human versus machine art (2 Oct 2026) plus the New York Times report that Anthropic lobbied the Vatican. C05-02 (TechCrunch, score 7, SOC) is the stronger entry; C16-06 (PC Gamer column, score 2, FUN) repeats it."
+  },
+  {
+   "item_id": "C16-06",
+   "type": "duplicate",
+   "reason": "Same story as C05-02 (Pope's X post on human art, 2 Oct 2026, and the NYT Anthropic-lobbying report)."
+  },
+  {
+   "item_id": "C05-03",
+   "type": "ambiguous attribution",
+   "reason": "Edited the headline and summary to say a participant recalled that Olah told them he feared he had created something that 'suffered perpetually', following The Decoder's headline. In the facts the sentence naming the speaker is ambiguous (Sikh activist Simran Stuelpnagel 'said he told the group...'); the NYT original was not read, so who said it should be confirmed before publication or the quote dropped."
+  }
+ ]
+}

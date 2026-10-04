@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-09",
+ "v1_category": "MKT",
+ "headline": "LocalStack has bought WonderTwin AI so developers and AI agents can test software against local copies of outside services such as GitHub and Stripe.",
+ "score": 4,
+ "score_reason": "A small deal between two niche developer-tool companies, and the benefits described are the companies' own claims.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who test software that connects to outside services, and teams letting AI agents do that testing, could avoid shared test systems and live accounts, but the combined product is planned, not yet shown, and no price or date is given.",
+ "source": "IT Brief UK",
+ "status": "REPORTED",
+ "summary": "IT Brief UK reports that LocalStack, which lets developers run copies of cloud services such as AWS on their own machines, has acquired WonderTwin AI, whose tools imitate outside apps such as GitHub, HubSpot, PostHog and Stripe. LocalStack plans to add them to its platform so developers and AI agents can test connections to those services without touching the real ones, but the report gives no price and no date for the combined product.",
+ "url": "https://itbrief.co.uk/story/localstack-acquires-wondertwin-ai-to-boost-local-testing",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full IT Brief UK article from the fulltext file. v1_category changed from default MOD to MKT because the main subject is an acquisition."
+}

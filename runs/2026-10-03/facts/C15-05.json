@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-05",
+ "title": "Imperial College Team Reaches 50% Loss Threshold For Quantum Networks",
+ "source_used": "Quantum Zeitgeist",
+ "article_url": "https://quantumzeitgeist.com/quantum-networks-fifty-percent-loss-threshold-demonstration/",
+ "fetched": true,
+ "key_facts": [
+  "Paper 'Loss-tolerant distributed lattice surgery using fusion networks' (arXiv 2610.01923) by Felix Burt, Richard Meister, Sheng-Ku Lin, Kuan-Cheng Chen, Michael Hanks, Roberto Bondesan, M. S. Kim and Kin K. Leung, listed with Imperial College.",
+  "It concerns linking separate quantum processors with photons so they can work together, where some light signals are always lost.",
+  "The article says researchers and Rigetti Computing increased the usable distance across a link from d+1 to 2d+1, beating a limit of older Bell-pair interfaces.",
+  "Several new protocols reach a 50 percent interface-erasure threshold when local noise is absent.",
+  "At low local error rates below 10^-4, simulations showed the linear chain protocols improving faster than conventional ones as losses fall.",
+  "The simulations assume idealised resource states and do not yet show performance under realistic manufacturing imperfections or environmental disturbances.",
+  "The authors also calculated how performance falls with imperfect resource states and mapped which regions can be corrected under various error types."
+ ],
+ "quote_evidence": [
+  "The research demonstrated that several newly developed protocols achieved a fifty per cent interface-erasure threshold when local noise was absent, enabling more robust distributed operations between quantum processors.",
+  "Current simulations account only for idealised resource states and do not yet demonstrate sustained performance under realistic manufacturing imperfections or complex environmental disturbances which remain significant challenges towards practical implementation."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Linking smaller quantum computers is a route to bigger ones, but this result is from idealised simulations only.",
+ "event_date": "arXiv paper 2610.01923 (October 2026); exact posting date not stated in the article.",
+ "notes": "The Quantum Zeitgeist text is an automated-sounding summary of an arXiv paper and repeats itself; only the clear points are used. Headline 'Reaches 50% Loss Threshold For Quantum Networks' overstates a simulation-only, no-local-noise result. No peer review is mentioned."
+}

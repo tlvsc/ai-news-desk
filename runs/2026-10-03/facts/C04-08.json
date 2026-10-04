@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-08",
+ "title": "Rice researchers to use NASA AI model to improve hurricane risk estimates",
+ "source_used": "Rice University",
+ "article_url": "https://news.rice.edu/news/2026/rice-researchers-use-nasa-ai-model-improve-hurricane-risk-estimates",
+ "fetched": true,
+ "key_facts": [
+  "Rice University researchers Avantika Gori and Guha Balakrishnan are developing an open-source tool built on NASA's Prithvi-WxC AI weather and climate model (developed with IBM) to simulate thousands of potential tropical cyclones.",
+  "The project is titled 'Leveraging Large Earth Foundation Models for Probabilistic Hurricane Hazard Assessment'.",
+  "Major storms are rare, so insurers and researchers have limited historical data on how often and how severely they cause losses; an average Atlantic season has 14 named storms, seven hurricanes and three major hurricanes (NOAA).",
+  "The team aims to build a dataset of about 10,000 synthetic cyclones, refined with physics-informed models to estimate wind and rainfall.",
+  "The tool is also designed to test hurricane hazard under different climate scenarios and could later be adapted to other natural hazards.",
+  "The work targets the insurance protection gap and is run with CERCat, an industry consortium of Rice and Lehigh Universities.",
+  "The release reports no results yet; the researchers say they will test how many storms the tool can generate and plan to make it open source."
+ ],
+ "quote_evidence": [
+  "AI gives us an opportunity to explore thousands of realistic storms that history alone cannot provide,” said Gori",
+  "To expand that record, the Rice team aims to develop a dataset of about 10,000 synthetic cyclones.",
+  "The research team plans to make the tool open source so others can examine, use and build on the framework."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Computer-made storms could give insurers and planners a fuller picture of rare, severe hurricanes than the short historical record allows.",
+ "event_date": "2 Oct 2026 (university announcement)",
+ "notes": "Main-session fetch had returned HTTP 406; read by retrying with the default curl user agent. Official university release about a project plan; no results are reported. Funding is not stated."
+}

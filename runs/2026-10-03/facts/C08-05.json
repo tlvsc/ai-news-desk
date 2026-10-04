@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-05",
+ "title": "ASML’s Next Growth Engine Takes Shape as Intel Tops 1 Million High NA Wafers",
+ "source_used": "Tom's Hardware (original 7 Sep 2026 coverage); TipRanks blocked (403)",
+ "article_url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-surpasses-one-million-high-na-euv-wafers-processed-outpaces-the-rest-of-the-industry-combined-company-also-trailblazing-giant-6-12-photomasks-to-speed-production-and-lower-costs1",
+ "fetched": true,
+ "key_facts": [
+  "Intel announced on Monday 7 Sep 2026 that it had processed more than one million 300-mm wafers on High-NA EUV scanners, less than two and a half years after its first tool was assembled.",
+  "Intel's count includes wafers processed during tool installation and certification, R&D and production.",
+  "Intel certified the High-NA tools for its 18A process earlier this year and uses them for some Panther Lake processors.",
+  "Intel has two ASML Twinscan EXE:5000 tools and at least one EXE:5200B scanner.",
+  "Tom's Hardware says ASML reported in April that all High-NA scanners shipped by then had processed over 500,000 wafers, so Intel has now processed more than the rest of the industry combined.",
+  "Intel is also working on larger 6x12-inch photomasks to avoid stitching two half-fields together, which cuts throughput from 175 to 125 wafers an hour on an EXE:5200B.",
+  "Moving to larger masks would need big changes across the mask supply chain, and ASML's roadmap still assumes 6x6-inch masks."
+ ],
+ "quote_evidence": [
+  "Intel announced on Monday that it had processed more than one million 300-mm wafers using its High-NA EUV scanners, less than two and a half years after its first tool was assembled.",
+  "Intel's one million wafers figure includes wafers processed during tool installation and certification, R&D, and production."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Intel is using ASML's newest chip-printing machines at larger scale than anyone else, but the count includes test and research wafers.",
+ "event_date": "7 Sep 2026 (Intel announcement); Tom's Hardware published 8 Sep 2026",
+ "notes": "OLDER NEWS RE-DATED: the pool item is a TipRanks piece dated 2 Oct 2026 (blocked, 403, not read), but the underlying Intel announcement was 7 Sep 2026. Coverage from Tom's Hardware, TechPowerUp, Yahoo Finance and others in early Sep. What TipRanks adds on 2 Oct about ASML's growth is unknown."
+}

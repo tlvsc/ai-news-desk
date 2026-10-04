@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-07",
+ "title": "Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images",
+ "source_used": "InfoQ (original publisher)",
+ "article_url": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/",
+ "fetched": true,
+ "key_facts": [
+  "Docker announced on 24 Sep 2026 at WeAreDevelopers that it is bringing its Sandbox Kit Specification to the CNCF (Cloud Native Computing Foundation).",
+  "The Apache 2.0 spec, now at version 3, packages an AI agent, its tools and a typed list of the hosts, credentials and folders it requests into an ordinary OCI container image.",
+  "The aim is to make what an agent may access reviewable and portable, instead of living in shell history, dashboards and memory.",
+  "A Kit only requests permissions; the host decides. If a required request cannot be met, the launch is refused.",
+  "Docker Sandboxes, which run agents in microVMs, is the first and so far only runtime that supports the spec.",
+  "Docker says it built Kits with AWS, Box, Datadog, Dynatrace, JFrog, NanoClaw, OpenClaw, Palo Alto Networks and Snyk, among others; CNCF CTO Chris Aniszczyk welcomed the move.",
+  "The posts do not say whether the CNCF has accepted the spec into a program or at what maturity level."
+ ],
+ "quote_evidence": [
+  "Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself.",
+  "The posts do not say whether the spec has been accepted into a CNCF program or which maturity level it would enter.",
+  "It is important to note that enforcement depends entirely on the runtime; since Docker Sandboxes is currently the only conforming implementation, portability across different runtimes has not yet been demonstrated."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A shared, reviewable way to describe what an AI agent may access could make agents easier to audit, but only one product supports it so far.",
+ "event_date": "24 Sep 2026 (Docker announcement at WeAreDevelopers)",
+ "notes": "Older news: the announcement was 24 Sep 2026, eight days before the window; InfoQ covered it on 2 Oct. Score lowered by 2. CNCF acceptance not confirmed in the article."
+}

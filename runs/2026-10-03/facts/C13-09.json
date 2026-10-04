@@ -1,0 +1,26 @@
+{
+ "item_id": "C13-09",
+ "title": "Russia’s AI Law Puts Control Ahead of Capability",
+ "source_used": "Tech Policy Press",
+ "article_url": "https://www.techpolicy.press/russias-ai-law-puts-control-ahead-of-capability/",
+ "fetched": true,
+ "key_facts": [
+  "Russia's law 'On Support for the Development of AI Technologies in the Russian Federation' was signed by President Putin on 26 Jul 2026 and took effect on 1 Sep 2026; several major provisions start on 1 Mar 2027.",
+  "It covers 'large foundation models', defined as models with at least 1 billion parameters, including foreign models offered to users in Russia.",
+  "It creates 'sovereign' and 'national' model statuses; requirements include a Russian developer, answers generated and stored in Russian-owned data centres in Russia, and conformity with Russian law and 'traditional Russian spiritual and moral values'.",
+  "Status holders get state support, a role in shaping AI policy and access to state datasets (subject to FSB agreement); the government can reserve some uses to such models.",
+  "From 1 Mar 2027, short-term copying of lawfully obtained or publicly accessible works to train a sovereign or national model is not treated as infringement; the author says this exemption may still be narrowed.",
+  "AI services such as chatbots fall under rules requiring user messages to be stored in Russia and the FSB to be given access.",
+  "The law is 13 articles long and leaves key details (status criteria, the conformity check, data access) to government rules not yet adopted.",
+  "The author argues the law puts control ahead of capability, since Russian models lean on Chinese open models and foreign hardware."
+ ],
+ "quote_evidence": [
+  "The law does less to manage the risks of AI than to establish a framework for supporting and controlling developers of large foundation models.",
+  "The resolution has not yet been adopted.",
+  "Several major provisions take effect March 1, 2027, including the rules governing sovereign and national models, developer obligations, AI-content notices and the copyright provisions."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Russia ties state support and protected markets for AI model builders to ownership, data location and conformity with state values.",
+ "event_date": "Signed 26 Jul 2026; in force 1 Sep 2026; main provisions 1 Mar 2027",
+ "notes": "Read in full from the main session's saved text. This is an analysis piece, so the interpretations (e.g. that 'national' status is a route to build on Chinese open models, or that Russia is exporting a model of control) are the author's reading. Older news re-dated: the law was signed 26 Jul 2026 and the piece says it took effect 'this month' (September)."
+}

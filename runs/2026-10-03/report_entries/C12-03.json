@@ -1,0 +1,16 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Apple said it will make it harder for Mac apps to get 'Full Disk Access', because AI agents make that level of access riskier.",
+ "score": 7,
+ "score_reason": "Kept at the pool score: a platform owner is changing a core Mac permission because of AI agents, though the details are not yet published.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed: Apple says it will require clearer user approval before an app can read everything on a Mac, which affects Mac users first, then developers of AI agents and other apps, and the doubt is that it is not yet clear what the new controls are or when they start.",
+ "source": "TechCrunch",
+ "status": "CONFIRMED",
+ "summary": "TechCrunch reports that Apple announced in a blog post for developers that it will add controls to the macOS 'Full Disk Access' setting, which lets an app reach a user's files, mail, messages and browsing history, saying AI agents raise the risk and that users will need to take \"very explicit user action\", in Apple's words, to grant it. The move follows a columnist's claim, which Meta disputes, that Meta's Muse app on Mac knew his private messages, and a WIRED report of a flaw in ChatGPT's Mac app.",
+ "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Apple's blog post date not stated; TechCrunch published 2 Oct 2026. Apple did not respond to TechCrunch."
+}

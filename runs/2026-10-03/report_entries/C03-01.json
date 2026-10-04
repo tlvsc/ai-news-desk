@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "Cloudflare launched a web search service that lets developers' AI agents look up fresh information on the internet.",
+ "score": 6,
+ "score_reason": "A real launch from a major infrastructure company, but it is a company announcement for developers with no usage or customer figures yet.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers building AI agents get a built-in way to give them current web information with logging and billing in one place, and website owners are promised that the search partners follow crawler rules, a promise Cloudflare makes itself, with no outside check reported.",
+ "source": "Cloudflare Blog",
+ "status": "CONFIRMED",
+ "summary": "Cloudflare says it is launching a Web Search API inside AI Gateway, the tool developers use to run and keep track of their AI apps, with Ceramic.ai, Exa and Linkup as the first search partners. It says the partners have committed to its crawler standards, which include using a verified crawler, respecting website owners' bot rules and linking to the original page in every result.",
+ "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full Cloudflare post from the fulltext file. v1_category kept as default MOD."
+}

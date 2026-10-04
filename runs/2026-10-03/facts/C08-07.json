@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-07",
+ "title": "Micro Center requires photo ID and signed no-export pledge to buy Nvidia RTX 5090 gaming GPU — buyer forced to sign declaration disclosing install location and promise GPU will remain in the US",
+ "source_used": "Tom's Hardware",
+ "article_url": "https://www.tomshardware.com/pc-components/gpus/micro-center-requires-photo-id-and-signed-no-export-pledge-to-buy-rtx-5090-gaming-gpu-buyer-forced-to-sign-declaration-disclosing-install-location-and-promise-gpu-will-remain-in-the-us",
+ "fetched": true,
+ "key_facts": [
+  "A customer who bought an RTX 5090 in a PowerSpec AI90 Workstation at Micro Center in Tustin, California had to sign an Advanced Computing Product Purchaser Declaration before the sale, per a Reddit post by u/Krothic.",
+  "The form asks for full legal name, address, government photo ID, phone and email, the actual end user, the installation location and the intended use.",
+  "It says 'NO EXPORT - NO EXCEPTIONS' and that Micro Center will not sell to anyone who intends to export, resell or transfer the product out of the US.",
+  "Micro Center did not say why it began requiring the form; other Reddit commenters said they had not been asked before, and one had signed a similar longer form at Central Computers last summer.",
+  "GPUs as powerful as an RTX 4090 or better were first banned for export to China in November 2023; US authorities only recently started clamping down seriously on smuggling.",
+  "Three Supermicro employees, including co-founder Yih-Shyan 'Wally' Liaw, are suspected of shipping $2.5 billion of Nvidia hardware to China.",
+  "Tom's Hardware says it is unclear how the form will stop smuggling as it does not list the card's serial number; it has asked Micro Center for comment."
+ ],
+ "quote_evidence": [
+  "NO EXPORT - NO EXCEPTIONS. Micro Center will not sell this product to a purchaser who intends to export, reexport, resell, transfer, or otherwise cause it to leave the United States, regardless of destination.",
+  "It's unclear how these Micro Center forms will stop or prevent the smuggling of RTX 5090 GPUs, especially as they don't list the serial number of the GPU being sold."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Retail checks on high-end Nvidia graphics cards suggest pressure to stop smuggling to China, but this rests on one customer's post.",
+ "event_date": "not stated (recent; Tom's Hardware published 2 Oct 2026)",
+ "notes": "Based on a single customer's Reddit post at one store (Tustin, California); Micro Center has not commented. Wccftech also ran the story on 2 Oct. Whether the policy is chain-wide or required by law is not stated."
+}

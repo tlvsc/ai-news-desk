@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-05",
+ "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+ "source_used": "WIRED",
+ "article_url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at the Objective-See Foundation found a flaw in the macOS version of OpenAI's ChatGPT app that could have let an attacker take over the app on a victim's computer.",
+  "That would give access to all chat logs and other data stored by the app, plus connections such as browser sessions, and let the attacker make ChatGPT run commands.",
+  "The app checks digital signatures up to three layers away, but a trusted script interpreter could be made to pass an untrusted script into the main ChatGPT process by spawning itself three times.",
+  "The flaw could only be exploited by an attacker who already had malware installed on the machine; researcher Patrick Wardle's proof of concept needed about a dozen lines of code.",
+  "OpenAI acknowledged the flaw and fix in its system change log on 25 Sep 2026; spokesperson Shane Bauer said the company recognizes a need to move faster.",
+  "Wardle also found a now-patched flaw in Meta's Muse assistant and says he sent OpenAI a new report on ChatGPT's link to its new always-on Dots assistant, which OpenAI is reviewing."
+ ],
+ "quote_evidence": [
+  "OpenAI publicly acknowledged the security flaw and fix in its system change log on September 25.",
+  "The flaw could only be exploited by an attacker who already had malware installed on a target machine.",
+  "The vulnerability was “insanely trivial” to exploit, he adds, and his proof of concept only required about a dozen lines of code."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "AI apps hold deep access to a computer, so a flaw in the app itself can expose everything it stores.",
+ "event_date": "OpenAI acknowledged and fixed the flaw on 25 Sep 2026; WIRED published 2 Oct 2026",
+ "notes": "Older news re-dated: the fix was announced 25 Sep 2026. No real-world attacks are mentioned. WIRED updated the story on 2 Oct 2026 (2:07 pm EDT) to explain the method."
+}

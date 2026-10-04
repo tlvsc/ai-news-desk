@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "SEC",
+ "headline": "Anthropic released a Claude Code update that fixes several cases where passwords and access keys could still show up in logs and error messages.",
+ "score": 3,
+ "score_reason": "Lowered from 4: the release came out on 30 Sep 2026 and has already been followed by two newer versions, and the notes show routine fixes with no reported harm.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who use Claude Code, Anthropic's AI coding tool, get safer logs and saved transcripts, though the notes are the company's own account and do not say whether anyone was affected or any of the gaps were exploited.",
+ "source": "Anthropic Claude Code changelog",
+ "status": "CONFIRMED",
+ "summary": "Anthropic's release notes for Claude Code version 2.1.286, its AI coding tool, list fixes for cases where the tool's automatic hiding of secrets failed: login credentials in some error messages, access tokens that were only partly masked, secrets whose name contained an invisible character, and passwords inside web addresses that contain punctuation. The notes are the company's own account and do not say whether anyone was affected or whether attackers used any of these gaps.",
+ "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "notes": "Original outlet MIXED Reality News returned a 403 (Cloudflare) and was not read; wrote from Anthropic's own changelog on GitHub. Release date 30 Sep 2026 from the npm registry. Version 2.1.286 is before 2 Oct 2026, so it may be held back as older news. v1_category changed from default MOD to SEC because the main subject is secret-leak fixes."
+}

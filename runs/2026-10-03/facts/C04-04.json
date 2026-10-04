@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-04",
+ "title": "Nvidia paper finds AI models lose accuracy on long tasks, with steep drops at scale",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/nvidia-paper-ai-models-long-tasks-accuracy/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia researchers released a paper on 30 Sep 2026, 'Staying on Task: Testing the Foundations of Long-Horizon Agent Reliability' (arXiv:2609.38712), introducing a benchmark called Long-Transduction.",
+  "The tests were deliberately simple (arithmetic, sorting UUIDs, looking up variables, transforming tables) and checked whether models keep track of state over long input.",
+  "Seven open-weight models (models whose trained settings are public) were run on 1,440 documents each, with input growing from 4,000 to 128,000 tokens, scored by exact match.",
+  "Average accuracy fell by 62.8% from 4K to 128K tokens.",
+  "DeepSeek's score went from 0.909 to 0.554; Nvidia's own Nemotron Super fell from 0.711 to 0.138.",
+  "Missing item identifiers and greater local complexity also hurt, and the paper says these weaknesses compound.",
+  "The authors advise splitting long tasks into smaller subtasks and labelling each item with a structured identifier.",
+  "The article says this adds to a growing body of 2025 and 2026 research on long-horizon limits."
+ ],
+ "quote_evidence": [
+  "In a paper released on September 30, 2026, Nvidia researchers found that average model accuracy fell by 62.8% as context length scaled up.",
+  "DeepSeek started strong, scoring 0.909 at the shorter length.",
+  "Nvidia’s own Nemotron Super fared worse. It fell from 0.711 to 0.138."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A model that accepts very long text may not reliably work through it, which matters for AI agents given long jobs.",
+ "event_date": "30 Sep 2026 (paper release)",
+ "notes": "Secondary coverage of an arXiv preprint; the paper itself was not read and no outside review is reported. The paper is dated 30 Sep 2026, before 2 Oct, so score lowered 6 to 5. Only seven open models and simple tasks were tested."
+}

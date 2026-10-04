@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-10",
+ "title": "This popular AI agent could be hacked by a single email — with potentially disastrous consequences",
+ "source_used": "TechRadar",
+ "article_url": "https://www.techradar.com/pro/security/this-popular-ai-agent-could-be-hacked-by-a-single-email-with-potentially-disastrous-consequences",
+ "fetched": true,
+ "key_facts": [
+  "Security researchers at Salt Labs found a way around the safety checks of the Manus AI agent using an email, a technique that was later fixed.",
+  "The attack only works if the agent is connected to outside services such as email or calendar; a Menlo report says 36% of consumers have given agents access to email.",
+  "Manus normally spots a hidden prompt in an email and tells the owner; Salt Labs hid a simple JavaScript command in an unusual disguise called JSFuck.",
+  "The agent decoded and ran the command in a server-side environment, so untrusted email content became executable code; Manus warned the owner only after it had run.",
+  "Salt Labs disclosed this through Meta's bug bounty program and says it is resolved and no longer exploitable.",
+  "Salt Labs' lesson: checks that inspect prompts and model behaviour are necessary but not enough; security must cover what an agent actually does across the tools and systems it can reach."
+ ],
+ "quote_evidence": [
+  "Security researchers from Salt Labs have found a way around the guardrails, and while this particular technique was subsequently fixed, chances are there are others out there, just as effective.",
+  "Salt Labs said they responsibly disclosed their findings through Meta’s bug bounty program, and that the issue “has since been resolved as is no longer exploitable.”",
+  "At this point, we reached a clear security boundary violation: untrusted email content was transformed into executable code and run within the agent’s runtime environment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI agent connected to email can be tricked into running an attacker's code, even past its own safety checks.",
+ "event_date": "Not stated (TechRadar published 2 Oct 2026)",
+ "notes": "Only a basic test payload was shown, and the flaw is fixed; the article reports no real-world attacks. TechRadar's headline overstates the current risk. Page boilerplate and newsletter text ignored."
+}

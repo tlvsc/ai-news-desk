@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-01",
+ "title": "Solving Open Research Problems Together",
+ "source_used": "Meta AI Research (research.meta.ai)",
+ "article_url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+ "fetched": true,
+ "key_facts": [
+  "Meta says it spent several months partnering with mathematicians to try its Muse Spark 1.1 and 1.2 models on open research problems, using the regular meta.ai chat in Thinking Mode with no custom research scaffold.",
+  "Meta shares six papers from the collaboration; five give answers to previously open research questions.",
+  "One paper finds a sharp threshold for how many random points in high dimensions can be fitted exactly by an ellipsoid; the case exactly at the threshold stays unresolved.",
+  "One paper disproves a 2024 conjecture about finite groups with a counterexample group of 384 elements, found by a search program that Muse Spark wrote in GAP; another AI agent, Nilradical, reported a different counterexample on 16 Sep 2026.",
+  "One paper proves that certain symmetric waves with negative energy must collapse in finite time, settling a question left open in 2015; others cover an optimization question, a number theory and string theory link, and a conjecture on evolution algebras.",
+  "In each paper named human mathematicians guided the work and checked, corrected or refined the AI's proofs.",
+  "Meta says other teams outside Meta had independently announced solutions to some of the same problems, including three concurrent works posted in August 2026 on the ellipsoid result, and credits them in the papers."
+ ],
+ "quote_evidence": [
+  "Today, we're sharing six such papers from that collaboration.",
+  "Five present answers to previously open research questions.",
+  "After completing our work, we learned that other teams outside Meta had independently announced solutions to some of the same problems using different approaches."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Meta presents its chatbot as a working partner for mathematicians, but the results are its own account and rely on checks by collaborators it names.",
+ "event_date": "2 Oct 2026 (blog post; the work took several months)",
+ "notes": "Read the full Meta blog post (fulltext file). Company's own account; no outside peer review or journal publication is mentioned. The original papers were not opened. Score lowered 8 to 7: company claim, no independent check reported, and some problems were solved elsewhere in parallel."
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "C01-02",
+  "v1_category": "SEC",
+  "headline": "Anthropic says a free Chinese AI model, Zhipu's GLM-5.3, can now build computer attacks almost as well as its own restricted Claude Mythos Preview, and that its safety limits are easy to remove.",
+  "score": 5,
+  "score_reason": "Pool score 6 lowered by 1: the Anthropic analysis dates from about 30 Sep 2026, before 2 Oct, and the evidence comes mostly from Anthropic itself.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "People and organisations that defend computer systems face attackers who can download a near-top attack tool for free and strip its safeguards cheaply, but the evidence comes mostly from Anthropic, a rival whose closed models would gain from the worry, with partial outside support from CAISI, and the safeguard test was a simulation that ran no real attacks.",
+  "source": "The Decoder",
+  "status": "REPORTED",
+  "summary": "The Decoder reported on 30 Sep 2026 that Anthropic's in-house attack-testing team found GLM-5.3, a free-to-download model from China's Zhipu AI, built working attacks on Chrome browser flaws in 50 of 410 tries, against 56 for Anthropic's Claude Mythos Preview, which Anthropic has kept to a small group of defenders. Anthropic also says the model's safety limits can be removed for roughly $1,200 to $4,400 of computing time, while The Decoder notes Anthropic has business reasons to raise the alarm and that an independent assessment by CAISI backs up the ability figures.",
+  "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+  "freshness": "FOLLOW-UP of 30 Sep 2026",
+  "verified_text": true,
+  "notes": "Original outlet: BankInfoSecurity (blocked, HTTP 403, not read). Written from The Decoder's 30 Sep 2026 report of the same Anthropic analysis. What BankInfoSecurity adds on 2 Oct 2026 is unknown. Not flagged as follow-up in the chunk, but the underlying event predates 2 Oct."
+}

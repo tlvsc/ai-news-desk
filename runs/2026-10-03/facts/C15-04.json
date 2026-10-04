@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-04",
+ "title": "Cisco and Nvidia: Quantum networks will be hybrid or bust",
+ "source_used": "SDxCentral",
+ "article_url": "https://www.sdxcentral.com/news/cisco-and-nvidia-quantum-networks-will-be-hybrid-or-bust/",
+ "fetched": true,
+ "key_facts": [
+  "Speaking at QDA Forum 2026 in London, Cisco engineer Luca Della Chiesa said the links between quantum systems, or between quantum and classical systems, are a bottleneck that stops quantum parts working together at scale.",
+  "He said the winner will be whoever builds the best system, not the best qubits, and that quantum machines will have to fit into existing data centers.",
+  "Andy Grant, Nvidia's EMEA director for supercomputing and AI, described plugging quantum processors into existing supercomputers as extra accelerators using Nvidia's NVQLink connection.",
+  "Nvidia says its approach, unveiled in July, gives a 2.5-times faster decoding speedup and a three-fold improvement in logical error rates; an AI-based predecoder compresses error information first.",
+  "In a Quantinuum, Pfizer and Nvidia collaboration, generative AI was used to design quantum circuits for molecule modelling; Quantinuum reported a 234-times faster generation of training data.",
+  "Both companies argued that open tools, formats and shared benchmarks are needed to bring quantum networking into the mainstream."
+ ],
+ "quote_evidence": [
+  "“The winner will not be who will build the best qubits, the best entanglement rate. The winner, and this I think Nvidia knows very well, is who builds the best system,” Della Chiesa said, referring to the chip giant.",
+  "Grant said Nvidia’s approach, unveiled in July, sees 2.5-times faster decode speedup and three-fold improvement in logical errors rates (LER).",
+  "Like Cisco, Nvidia argued only open interoperability would bring quantum networking into the mainstream."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Two big networking and chip vendors say quantum machines will have to plug into ordinary data centers using open standards.",
+ "event_date": "QDA Forum 2026, London, around 1-2 Oct 2026 (exact dates not stated; a sister article says the forum ran over two days).",
+ "notes": "Conference talks by vendors; performance figures are Nvidia's own and its approach was first announced in July. Same forum as C15-08."
+}

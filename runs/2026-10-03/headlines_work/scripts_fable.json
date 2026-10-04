@@ -1,0 +1,60 @@
+{
+ "stories": [
+  {
+   "item": "C07-01",
+   "category_word": "business",
+   "script": "In business. N-vidia's shares briefly hit a record on Friday, then closed just below it. Investors are back after a slump that cost it over a trillion dollars in value.",
+   "screen": "a small glowing chart arrow rising to a peak, simple text-free symbol"
+  },
+  {
+   "item": "C12-03",
+   "category_word": "security",
+   "script": "In security. Apple says it will make it harder for apps to read everything on a Mac. It blames A I agents, but has not said what changes or when.",
+   "screen": "a small glowing laptop with a closed padlock on its screen, simple text-free symbol"
+  },
+  {
+   "item": "C09-02",
+   "category_word": "energy",
+   "script": "In energy. Oracle's new Wisconsin data center may run partly on nuclear power. The local power company made the deal, and the state must still approve it.",
+   "screen": "a small glowing atom symbol beside a server rack, simple text-free symbol"
+  },
+  {
+   "item": "C11-07",
+   "category_word": "robotics",
+   "script": "In robotics. The Pentagon may add up to fifty canoe-sized robot boats on the Rio Grande. Ten already help spot illegal crossings, but no decision has been made.",
+   "screen": "a small glowing canoe-shaped boat on wavy water lines, simple text-free symbol"
+  },
+  {
+   "item": "C04-01",
+   "category_word": "science",
+   "script": "In science. Meta says mathematicians working with its Muse Spark chatbot answered five unsolved maths questions. The claim is Meta's own, and other teams solved some of them too.",
+   "screen": "a glowing light bulb beside a small checkmark, simple text-free symbol"
+  },
+  {
+   "item": "C10-08",
+   "category_word": "health",
+   "script": "In health. Fewer high-risk patients died at eleven hospitals after A I alerts called in emergency teams. It only compared before and after, so the cause is not proven.",
+   "screen": "a glowing heartbeat line with a small bell above it, simple text-free symbol"
+  },
+  {
+   "item": "C05-02",
+   "category_word": "society",
+   "script": "In society. Pope Leo wrote online that telling human art from machine art is becoming urgent. He wrote that algorithms lack the spark of humanity.",
+   "screen": "a small glowing paintbrush beside an artist's palette, simple text-free symbol"
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "script": "And a lighter story. An Airbnb host reportedly backed a flooded toilet bill with an A I photo. Google's chatbot then found its own hidden watermark in the picture.",
+  "screen": "a small glowing toilet with water drops beside a magnifying glass, simple text-free symbol"
+ },
+ "teaser": {
+  "items": ["C07-04", "C08-02"],
+  "script": "Also in the full report: Trading in future A I computing power may be coming. And China's heavy buying of chip-making machines reportedly sparked US calls for an export ban.",
+  "screen": "an open book with glowing pages, simple text-free symbol"
+ },
+ "bp": {
+  "script": "And for the bigger picture: A I is now about who gets paid, and at what price. Businesses pay less for it, while memory chips may cost more. Watch whether A I computing power starts trading Monday.",
+  "screen": "a glowing globe wrapped in connecting lines, simple text-free symbol"
+ }
+}

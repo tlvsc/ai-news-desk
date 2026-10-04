@@ -1,0 +1,25 @@
+{
+  "item_id": "C01-06",
+  "title": "PewDiePie unveils ‘uncensored’ Ajax AI model built to run on home PCs — creator says OpenAI banned him twice over model distillation used to build his product",
+  "source_used": "Tom's Hardware",
+  "article_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/pewdiepie-unveils-uncensored-ajax-ai-model-built-to-run-on-home-pcs-creator-says-openai-banned-him-twice-while-making-it",
+  "fetched": true,
+  "key_facts": [
+    "YouTuber PewDiePie unveiled Ajax, an 'uncensored' AI model built to run on home PCs, in a new video.",
+    "Ajax is a fine-tuned Qwen3.5-9B model that powers Odysseus, his self-hosted AI workspace, as an always-on assistant for search, browsing, email and calendar.",
+    "He says OpenAI banned him twice while he was building it; one email he shows names 'distillation' (training one model on another's outputs) as the reason.",
+    "He says he wanted to 'distill just a little bit'; his account was reinstated once, and the second ban came after he ran the model again to create seed data.",
+    "To remove refusals he used the open-source Heretic tool for 'abliteration'; he says it is not designed to give dangerous, actionable instructions, on his lawyer's advice, but the article says it is unclear what the real limits are.",
+    "He plans two more days of reinforcement learning, then re-running the refusal-removal step, quantizing and benchmarking before the next version.",
+    "The article says OpenAI recently attributed a distillation campaign to actors linked to Moonshot AI; no OpenAI comment on PewDiePie is quoted."
+  ],
+  "quote_evidence": [
+    "According to the OpenAI email he shows, one ban was explicitly for “distillation,” the practice of using one model’s outputs or reasoning to train another.",
+    "The page says its refusal has been removed for a “freer, less restricted AI experience” and asks users to use it responsibly.",
+    "He uses nuclear weapons as an example, but it’s unclear what the real limits might be."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "A well-known creator ships a small home-run model with refusals removed, and the story raises questions about copying from big labs' models.",
+  "event_date": "Not stated; video and article around 2 Oct 2026.",
+  "notes": "Read from the main session's fetch (HTTP 200); page header/subscription boilerplate skipped. Everything rests on the creator's own video and the email he shows; no response from OpenAI is quoted."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-04",
+ "title": "Georgia holds emergency meeting on AI exposing voters’ secret ballots",
+ "source_used": "The Guardian",
+ "article_url": "https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy",
+ "fetched": true,
+ "key_facts": [
+  "Max Springer, a postdoctoral fellow at Princeton's Center for Information Technology Policy, used a $20 AI subscription and data from an Open Records Act request to test whether Georgia voters could be matched to their ballots.",
+  "He says he recovered the voting order for 1.52 million ballots, 98.9% of in-person ballots in 114 of the 139 counties he examined; in some counties he says ballot secrecy is entirely lost.",
+  "The flaw is that each scanned ballot record carries an ID that is not random enough, so its order can be matched with check-in lists or other data such as camera images.",
+  "Georgia's state elections board held an emergency meeting on Thursday 1 Oct 2026, less than two weeks before early voting starts in the midterm election.",
+  "Outgoing secretary of state Brad Raffensperger ordered ballot ID numbers redacted from public releases after an election, which cryptographer Ben Adida said 'substantially address[es] this flaw'.",
+  "Board member Salleigh Grubbs proposed having poll workers shuffle paper ballots in a tray and said redaction breaks the transparency law; county officials and board member Janelle King dismissed her proposal as problematic. The article reports no decision."
+ ],
+ "quote_evidence": [
+  "Within a couple of hours, I had a pipeline to analyze and identify secret ballots across the state of Georgia and the agent told me exactly what further information it would need to identify real voters’ ballots,”",
+  "Georgia’s state elections board held an emergency meeting on Thursday morning to discuss how artificial intelligence has made it easier to identify voters through their ballot code, leaving people more vulnerable.",
+  "With early voting around the corner, changes to processes now are “a day late and about $30m short,” Sinners added."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI made it cheap to link voters to ballots in Georgia just before early voting, and officials disagree on a fix.",
+ "event_date": "Emergency meeting on Thursday 1 Oct 2026; Springer's test 'last month' (Sep 2026)",
+ "notes": "The 98.9% and 1.52 million figures are Springer's own claims as reported by The Guardian. Linking a ballot to a named voter needs other data (check-in order, camera images). Flaw first noticed by researchers about four years ago, per the article."
+}

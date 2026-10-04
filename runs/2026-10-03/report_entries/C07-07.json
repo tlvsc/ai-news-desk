@@ -1,0 +1,16 @@
+{
+ "item_id": "C07-07",
+ "v1_category": "MKT",
+ "headline": "Ramp says US companies are spending less on AI than in July even as their use has risen about 50%, a drop its economist links to OpenAI and Anthropic competing on price.",
+ "score": 6,
+ "score_reason": "Kept at 6: the facts support the headline, but it is one company's index covering only part of AI spending.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Cheaper AI means businesses can use more of it for less money, and Ramp's economist puts the drop down to the price fight between OpenAI and Anthropic, but the figures come from one company's index that covers only API spending (paid direct access to AI models) and leans toward large customers.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Ramp, which tracks spending data from more than 70,000 US companies, finds businesses spending less on AI since July even though their use has climbed about 50% since then, to a record at the end of September. Ramp economist Ara Kharazian says the drop comes almost entirely from price competition between OpenAI and Anthropic, with Anthropic taking 51% and OpenAI 44.5% of token spending (the small text units AI models are billed by) in the last week of September.",
+ "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Full text read. Token data comes from a subsample of the companies; Anthropic 51% and OpenAI 44.5% are the article's figures for the last week of September."
+}

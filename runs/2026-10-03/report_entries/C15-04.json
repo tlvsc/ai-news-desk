@@ -1,0 +1,16 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "Cisco and Nvidia told a London quantum conference that quantum computers will have to connect to ordinary data-center networks and use open standards to become useful.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1 because it is vendor talk at a conference with figures from Nvidia that were first announced in July.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Data-center operators and quantum builders are being told to plan for hybrid machines that mix quantum and ordinary computers, but the speakers sell this equipment, the performance numbers are Nvidia's own, and these were talks rather than independent tests.",
+ "source": "SDxCentral",
+ "status": "REPORTED",
+ "summary": "SDxCentral reports that at the QDA Forum 2026 in London a Cisco engineer said the links between quantum machines, and between quantum and ordinary computers, are a bottleneck, while an Nvidia director described plans to plug quantum processors into existing supercomputers as extra accelerators. Nvidia also quoted its own figures, a 2.5 times faster error-decoding step and a three-fold improvement in error rate, and both firms said open standards are needed.",
+ "url": "https://www.sdxcentral.com/news/cisco-and-nvidia-quantum-networks-will-be-hybrid-or-bust/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Same QDA Forum as C15-08; Nvidia's approach was first announced in July 2026."
+}

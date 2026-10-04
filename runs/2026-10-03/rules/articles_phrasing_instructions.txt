@@ -1,0 +1,66 @@
+AIND PLAIN LANGUAGE LAW v1
+Written 8 September 2026, Claude lane, from Rafael's ruling in session 2026-09-08B.
+Authority: this file governs the WORDS in every AIND product. It does not govern layout, timing or rendering; those stay in the cards rule file and the headlines blueprint.
+Scope: card text, spoken clip scripts, reel scripts, teaser lines, closing lines, and the headline wording of the written report.
+Precedence: where the source report's wording and this law disagree, this law wins. The report is raw material, never copy.
+
+====================================================================
+SECTION 1. THE LAW (approved by Rafael, 8 Sep 2026)
+====================================================================
+1. Write for a smart person who knows nothing about the industry. No jargon, no analyst nouns. Banned in card and clip text: materially, signals, exposure, ecosystem, headwinds, execution-dependent, capacity buildout, monetisation, at scale.
+2. The headline is a full sentence a person would say out loud. Subject, verb, plain object. Never a noun stack. Wrong: "Wistron Funds Server Growth". Right: "Investors poured money into the plumbing of AI today."
+3. The body is two sentences. Sentence one: what actually happened, in real world terms. Sentence two: why it matters, or the honest doubt.
+4. Numbers are translated, not copied. Say "enough power for a small city" rather than "900 megawatts of contracted capacity", unless the number itself is the story. Keep a number when it is the news: three billion euros, six billion dollars, forty percent.
+5. Elegant means short and confident, not decorated. No adjectives for drama, no stacking of clauses.
+6. First hearing test: read the card aloud once. If a listener needs it repeated, rewrite it.
+7. Reference sample: the fifteen cards of 8 September 2026, final version. Every future card set is measured against that text, not against the report's phrasing.
+8. Never lift a sentence from the source report into a card or a clip.
+
+====================================================================
+SECTION 1A. SOURCE-TO-SCRIPT MEANING CHECK
+Approved by Rafael, 26 September 2026
+====================================================================
+Required for every Headlines story and every Bulletin article, whoever writes it.
+
+1. BEFORE WRITING: read the complete relevant source article or reviewed Full Report entry, including the supporting context needed to understand it. Do not rely only on a headline, an earlier short script or a shortened pack. Identify what happened, the most important supported consequence or consequences, who is affected, and the essential context, attribution, uncertainty and qualifications. Keep these points and their source references in the existing story pack or editorial QA record; do not create another tracking file.
+
+2. WRITE AT RAFAEL'S LEVEL FIVE: clear, everyday English for an intelligent general reader, neither childish nor specialist newspaper language. Shorten the wording without losing the event, its main significance or an essential qualification. Do not invent a consequence, strengthen a possibility into a certainty, or add dramatic claims to make an item more important.
+
+3. COMPARE AFTER SHORTENING: compare the finished wording with the complete source material used in step 1. Check whether a central fact, main consequence or essential qualification has disappeared; whether any new unsupported claim or stronger certainty has appeared; and whether the article is understandable on first hearing. A fluent sentence alone does not pass this check.
+
+4. PASS OR REWRITE: an item with a missing essential point, unsupported implication or changed meaning fails and must be rewritten and checked again. If the needed source context is unavailable or unclear, identify the exact gap and keep that item as a draft. Do not call it ready or send it to generation. When Rafael requests an incomplete working draft, show the limitation explicitly; that request does not establish that the missing facts were checked. Record the source comparison, result and any unresolved issue in the existing story pack or editorial QA record. A JSON, timing, formatting or technical-validation pass is not an editorial pass.
+
+5. APPLY THE SAME CHECK TO BOTH PRODUCTS: Headlines and Bulletin may have different lengths, but both must preserve the important meaning supported by their sources. For example, if a source establishes an IPO risk and explains a safety dispute, neither point may disappear simply to shorten a court story. Do not assert that an IPO is blocked if the evidence supports only a possible delay or risk. This example is not a requirement to add IPO or safety claims to unrelated stories.
+
+6. LOCK APPROVED WORDING: after Rafael approves a version, preserve it in the downstream prompt, JSON and subtitle source. Do not rewrite approved copy during technical preparation or merely to fit a duration. An authorized wording correction must undergo this source comparison again before it is marked ready.
+
+====================================================================
+SECTION 2. WORKED EXAMPLES (before and after, 8 Sep 2026)
+====================================================================
+1. Before: "OpenAI's Firmus agreement anchors more than 900 megawatts of Asia-Pacific compute development."
+   After: "OpenAI is buying electricity in Malaysia. It signed a long deal for two new data centres, part of a build big enough to power a small city. The AI race has quietly become a race for power."
+2. Before: "Huawei's DUV coordination could weaken a central export-control chokepoint if commercial performance follows."
+   After: "China is trying to build the machines that print chips. Huawei has gathered local suppliers around one company that wants twelve of these machines working by December. If they work, the West loses its strongest hold over Chinese chips."
+3. Before: "Insilico reports lower proteomic-age estimates after rentosertib treatment."
+   After: "A drug discovered by AI left patients looking biologically younger. Forty two lung patients scored lower on six different measures of biological age after twelve weeks. It is small and early, and healthier lungs may be the real reason."
+
+====================================================================
+SECTION 3. OTHER CARD RULINGS FROM 8 SEPTEMBER 2026
+====================================================================
+1. Cover card: use the previous day's cover exactly as it is. Only the date changes. This supersedes the earlier ruling in the same day's session that the cover must be rebuilt on the codex studio frame. Rafael's words: "Look at yesterday cover use the same template just the right date".
+2. Industry winds: the deck carries one or two cards of desk analysis on industry winds and market implications, pill DESK VIEW, source AI NEWS DESK.
+3. Teaser: three to five items, and it may carry a story the automation report missed entirely.
+4. Category law stands: at least three stories from outside business and investing, and at least one robotics story every day.
+5. Gap filling: when the automation report lacks a required category or misses a large story, the Claude lane fills it from the web and marks its status honestly.
+
+====================================================================
+SECTION 4. OPEN, NOT DECIDED (do not guess)
+====================================================================
+1. Naming. On the morning of 8 September Rafael ruled that the word "brief" is out and the product is "headlines". Later the same day he used "brief" again. The correct word is not settled. Ask before renaming anything.
+2. Teaser length. The morning of 8 September set the teaser at exactly three items in a ten second box for the reel. The afternoon of 8 September set three to five items for the cards. Both may be true, one for the reel and one for the cards, but this has not been confirmed. Ask before applying either to the other product.
+3. Blueprint library structure. Rafael wants one blueprint per stage of the chain, scan, pool, report, bulletin, headlines, cards, distribution, with a house style file above them and an index file naming the current authority for each. The scan is a large process of its own that produces the pool. Discussion postponed by Rafael on 8 September. Nothing built yet.
+
+====================================================================
+SECTION 5. CHANGE LOG
+====================================================================
+8 Sep 2026, v1 created. Source: Rafael's ruling "we need to make the news elegant but simple to understand" and his approval of the rewritten 8 September card set. Prompted by card copy that read like a bank report.

@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-06",
+ "title": "AKASA debuts autonomous AI platform for inpatient medical coding and clinical documentation",
+ "source_used": "HIT Consultant",
+ "article_url": "https://hitconsultant.net/2026/10/02/akasa-launches-autonomous-ai-mid-cycle-platform-inpatient-coding-cdi/",
+ "fetched": true,
+ "key_facts": [
+  "AKASA, a healthcare billing-side generative AI company, announced the commercial launch of an autonomous AI platform for inpatient medical coding and clinical documentation integrity (CDI).",
+  "AKASA says human coders typically need 30 to 60 minutes per inpatient chart, and its platform codes inpatient stays in under 90 seconds after discharge.",
+  "AKASA says third-party blinded evaluations, covering encounters it describes as 65% to 85% of total hospital inpatient volume, showed it matched or exceeded expert human coders on main compliance measures.",
+  "AKASA says the inpatient volume it processes grew nearly 6x year over year and that its models process roughly 1 in every 10 US inpatient hospital discharges.",
+  "Its health system clients account for more than $180 billion in net patient revenue, according to AKASA.",
+  "Cleveland Clinic has deployed AKASA's prebill review and is exploring its autonomous mid-cycle tools; Nebraska Methodist Health System is also named as an early adopter.",
+  "Outpatient facility encounter automation is scheduled to follow shortly.",
+  "CEO Malinka Walaliyadde: 'Today, AKASA is making it real.'"
+ ],
+ "quote_evidence": [
+  "Healthcare revenue cycle generative AI company AKASA announced the commercial launch of its autonomous AI platform for the revenue cycle mid-cycle, expanding beyond AI-powered prebill review into fully autonomous execution for inpatient medical coding and clinical documentation integrity (CDI).",
+  "A human medical coder takes 30 to 60 minutes to review and code an acute inpatient encounter, often after a multi-day queue backlog.",
+  "Validated through rigorous third-party, blinded comparative performance evaluations testing inpatient encounters representing 65% to 85% of total hospital inpatient volume, matching or exceeding expert human coders across primary compliance metrics: MS-DRG assignment, principal diagnosis selection, clinical quality capture, and present-on-admission (POA) determination."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A billing-AI company says software can now do a job that takes human hospital coders up to an hour per chart, but the accuracy figures are its own.",
+ "event_date": "Launch announced 2 Oct 2026.",
+ "notes": "Original outlet Fierce Healthcare blocked (HTTP 403); written from HIT Consultant, which closely follows AKASA's own announcement (a PR Newswire release of 2 Oct 2026 also exists, not read). Performance and customer numbers are company claims; the third-party evaluators are not named in the text."
+}

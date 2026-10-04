@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-05",
+ "title": "Copilot code review: API support and new default effort level",
+ "source_used": "GitHub Blog changelog (original publisher)",
+ "article_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub Copilot code review can now be requested through the REST and GraphQL APIs (ways for software to talk to GitHub).",
+  "Each request can optionally set a review effort level for that review.",
+  "The change is generally available on Copilot Pro, Pro+, Max, Business and Enterprise plans.",
+  "GitHub says this lets teams start reviews from their own scripts, workflows and internal tools.",
+  "Balanced is now the default review effort level for new and existing repositories and organizations; this was announced on 28 Aug 2026 and took effect on 28 Sep 2026.",
+  "Anyone who had explicitly chosen Lite kept it; the level can be set at several levels, each overriding the one above."
+ ],
+ "quote_evidence": [
+  "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request.",
+  "This change took effect September 28, 2026.",
+  "If you explicitly selected Lite in your settings, that selection was respected."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Teams can start Copilot reviews automatically from their own tools, and the default review setting changed to Balanced.",
+ "event_date": "2 Oct 2026 (API support); default level change took effect 28 Sep 2026",
+ "notes": "Official GitHub changelog entry, short. It does not say what Balanced does differently from other levels or whether the API costs extra."
+}

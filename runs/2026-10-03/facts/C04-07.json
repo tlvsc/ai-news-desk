@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-07",
+ "title": "'A kind of Rosetta Stone': AI decodes 217-year-old secret letter ordered by Napoleon",
+ "source_used": "Live Science",
+ "article_url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+ "fetched": true,
+ "key_facts": [
+  "Carter Church, an AI engineer at the cybersecurity firm Sentinel One, posted on X on Wednesday 30 Sep 2026 that he gave OpenAI's new model GPT-6 Astra one prompt and one image and it cracked a previously unsolved 1809 cipher in about six hours.",
+  "The letter was sent at Napoleon's request by his stepson Eugene, viceroy of Italy, to Marshal Auguste de Marmont on the eastern Adriatic shore, telling him where the other French and allied armies were.",
+  "The only public image is a low-resolution scan from a 1969 French army journal with 1,300 signs, 155 of them different; the code is homophonic, meaning common letters have several symbols.",
+  "Astra transcribed the text and, through web research, found a partial table by cryptology historian Daniel Tant covering 33 symbols (about a third of the letter) that had not been linked to this letter; it used that to work out the rest.",
+  "Cryptographer Satoshi Tomokiyo, who runs the Cryptiana site on unsolved ciphers, confirmed the result and lists the letter as solved.",
+  "Historian Michael Rowe (King's College London) says the translation is believable because Napoleon's own letter to Eugene described what the message should say, but that it tells us nothing new; Zack White (University of Portsmouth) says it raises questions about Napoleon's mindset before the 1809 campaign.",
+  "Church says the code was not especially difficult and cryptographers could have cracked it with enough time and effort."
+ ],
+ "quote_evidence": [
+  "An engineer has utilized AI to break a previously unsolved cipher used by Napoleon Bonaparte to send secret messages to his generals — enabling us to read a 217-year-old letter for the first time.",
+  "The cipher version just repeated a large segment of what's in that [original] letter, so in a sense it doesn't tell us anything new — it's not like it reveals some kind of great new information,” Rowe said.",
+  "Church's result was confirmed by Satoshi Tomokiyo, a patent engineer and cryptographer who runs a website documenting unsolved historical ciphers called Cryptiana, and the letter is now listed as \"solved\" on the website."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI could help read old coded letters, but here it had a partial key to start from and the content was largely known.",
+ "event_date": "30 Sep 2026 (Church's post on X)",
+ "notes": "Event is dated 30 Sep 2026, before 2 Oct, so score lowered 5 to 4. The claim that GPT-6 Astra did the work is Church's own account, backed by Tomokiyo's confirmation of the solution. Boilerplate subscription text in the fetched file was ignored."
+}

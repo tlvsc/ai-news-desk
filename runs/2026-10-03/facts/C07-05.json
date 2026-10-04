@@ -1,0 +1,18 @@
+{
+ "item_id": "C07-05",
+ "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+ "source_used": "none for CNBC; The Tech Buzz (rewrite of CNBC, low quality, not relied on) and Benzinga via AOL (30 Sep) read as related coverage",
+ "article_url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+ "fetched": false,
+ "key_facts": [
+  "Headline facts (CNBC, 2 Oct 2026): Cerebras stock hit a post-IPO low and fell 20% for the week on Nvidia pressure and lockup expiration.",
+  "Related coverage (Benzinga via AOL, 30 Sep 2026): Cerebras's IPO lockup releases shares in 11 waves rather than all at once; a 19.4 million-share release hit on Wed 30 Sep.",
+  "Related coverage (Benzinga): two more larger releases fall on 14 Oct and 28 Oct; the whole schedule ends no later than 9 Nov 2026 (180 days after the IPO prospectus date, two trading days after third-quarter earnings).",
+  "Related coverage (Benzinga): shares were trading below the $185 IPO price, at $183.85 (down 5.76%) on 30 Sep; reports said OpenAI's new Ultrafast model tier runs on Nvidia GPUs rather than Cerebras (not confirmed by either company)."
+ ],
+ "quote_evidence": [],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A newly listed AI chip company is under pressure from Nvidia while early holders gain the right to sell.",
+ "event_date": "2 Oct 2026 (week to 2 Oct)",
+ "notes": "CNBC returns HTTP 403 (error page). The Tech Buzz piece repeats CNBC's headline facts but adds generic, partly dated background (it names H100/Blackwell as Nvidia's current chips), so it was not used for facts. Benzinga/AOL piece is from 30 Sep (earlier event, lockup schedule only)."
+}

@@ -1,0 +1,16 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "Two researchers at the think tank GovAI warned that AI labs often run their strongest models with safety protections switched off inside the company, so published safety tests may not match real use.",
+ "score": 5,
+ "score_reason": "Lowered by 1 from 6: the briefing was on 29 Sep 2026, and these are two researchers' views with no specific case named.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: outside researchers are publicly doubting whether lab safety reports can be trusted, which affects the public and lawmakers first, then regulators and AI labs, and the doubt is that these are two researchers' views from a briefing, with no specific case tied to the practice and too few trained auditors to check it.",
+ "source": "Fortune",
+ "status": "REPORTED",
+ "summary": "Fortune reports that Alan Chan and Sam Manning of the think tank GovAI told reporters on 29 Sep 2026 that top AI labs often test their strongest models internally with safeguards off, which Chan said may have played a part in recent incidents although he named no specific case, and that the safety results labs publish may not show how the models behave in real use. OpenAI and Anthropic have both acknowledged running without some safeguards in earlier incidents, but Chan himself called the evidence that AI is speeding up its own development \"mixed\".",
+ "url": "https://fortune.com/2026/10/02/we-cant-trust-them-completely-labs-safeguards/",
+ "freshness": "FOLLOW-UP of 29 Sep 2026",
+ "verified_text": true,
+ "notes": "Briefing 29 Sep 2026; Fortune published 2 Oct 2026. Incident claims about OpenAI and Anthropic are as reported by Fortune and company statements."
+}

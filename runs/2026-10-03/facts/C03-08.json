@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-08",
+ "title": "Claude Code 2.1.286 fixes four redaction gaps, one opened by an invisible character",
+ "source_used": "Anthropic Claude Code changelog on GitHub (CHANGELOG.md, section 2.1.286); npm registry for the release date",
+ "article_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+ "fetched": true,
+ "key_facts": [
+  "Claude Code version 2.1.286 lists several fixes to how secrets are hidden (redacted) in logs, transcripts and error messages.",
+  "Fixed MCP error messages showing a credential's value when \"Bearer\" or \"Basic\" came before its key name.",
+  "Fixed percent-encoded Bearer tokens being only partly masked in error messages.",
+  "Fixed redacted logs and transcripts showing a secret whose key name has an invisible character inside, such as a zero-width space.",
+  "Fixed logs and transcripts showing part of a URL password that contains punctuation such as a bracket, quote, ampersand or a second @.",
+  "The same release also fixed the /feedback transcript zip containing invalid JSON lines after secret redaction.",
+  "The npm registry lists version 2.1.286 as published on 30 Sep 2026; versions 2.1.287 (1 Oct) and 2.1.288 (2 Oct) followed."
+ ],
+ "quote_evidence": [
+  "Fixed MCP error messages showing a credential's value when \"Bearer\" or \"Basic\" came before its key name",
+  "Fixed redacted logs and transcripts showing a secret whose key name has an invisible character inside, such as a zero-width space",
+  "Fixed percent-encoded Bearer tokens being only partly masked in error messages"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Routine security hardening: places where passwords or tokens could have appeared in saved logs are closed, though the notes give no sign of real-world harm.",
+ "event_date": "30 Sep 2026 (version 2.1.286 published on npm)",
+ "notes": "Pool link (MIXED Reality News) returned a Cloudflare 403 page, so the article was not read. Used Anthropic's own release notes (official changelog) instead; the four items listed match the \"four redaction gaps\" and the \"invisible character\" in the original headline. The notes do not say whether anyone was affected or whether any gap was exploited. Release date from the npm registry. Version is already superseded by 2.1.287 and 2.1.288, so score lowered by 1."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-01",
+ "title": "Medical records giant Epic pauses product development to fix security bugs that risk patients' data",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
+ "fetched": true,
+ "key_facts": [
+  "Epic, maker of the MyChart software patients use to see their medical data, has paused most of its product development to protect its software and systems from cyberattacks.",
+  "Founder and chief executive Judy Faulkner told Modern Healthcare last month that the pause would likely last six weeks.",
+  "The pause follows a deployment of Anthropic's cybersecurity model Mythos, which unearthed security flaws that could allow access to patients' data.",
+  "Epic has not disclosed what the bugs are; chief security officer Stirling Martin told The New York Times that some customer configurations of MyChart could allow outsiders to access patient records without the intrusion being recorded in the software's logs.",
+  "Martin said the AI model did not say whether the bug could be used to alter patient records without detection, but that the risk was enough to fix the issues.",
+  "MyChart is used to maintain over 320 million patient records across US hospitals and doctors' offices; Epic says it does not have access to customers' medical data, which is the providers' responsibility.",
+  "TechCrunch says it is rare for a company to pause development to fix security bugs; Martin did not return its request for comment.",
+  "Context given by TechCrunch: HHS lists a DentaQuest breach affecting 15 million people as the largest healthcare data breach of 2026 so far."
+ ],
+ "quote_evidence": [
+  "It’s rare for a company to pause development to fix security bugs, but the advent of AI tools capable of rapidly finding and exploiting security vulnerabilities has led to concerns that attackers could have an easier time at stealing data.",
+  "The company has not disclosed the nature of the bugs, but its chief security officer Stirling Martin told The New York Times that some customer configurations of MyChart could allow outsiders to access patient records without recording any intrusion in the software’s logs.",
+  "Martin, who did not return TechCrunch’s request for comment, told the Times that the AI model did not say if the bug could be exploited to alter patient records without detection, but argued it was enough of a risk to remediate the issues."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A software maker holding hundreds of millions of patient records has slowed its own new features to fix flaws an AI model found, a sign of how AI security tools are changing how health IT firms work.",
+ "event_date": "Pause announced by Epic's CEO in September 2026 (Modern Healthcare, 'last month'); first reported by the New York Times on 30 Sep 2026; TechCrunch published 2 Oct 2026.",
+ "notes": "Follow-up of the NYT story in the 1 Oct 2026 pool (NYT item published 30 Sep 2026). Pause and flaw type come from Epic's own executives on the record, relayed by TechCrunch; I did not read Modern Healthcare or the NYT directly. The article does not say whether anyone has exploited the flaws. Could also fit SEC."
+}

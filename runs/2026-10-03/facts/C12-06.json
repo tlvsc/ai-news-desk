@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-06",
+ "title": "'We can't trust them completely': AI research fellows warn that labs are running models with the safeguards off behind closed doors",
+ "source_used": "Fortune",
+ "article_url": "https://fortune.com/2026/10/02/we-cant-trust-them-completely-labs-safeguards/",
+ "fetched": true,
+ "key_facts": [
+  "Two GovAI (think tank) research fellows, Alan Chan and Sam Manning, spoke at a briefing in Washington on 29 Sep 2026.",
+  "Chan said the most powerful models are often run inside labs with key safeguards off and little red teaming (deliberate attack testing), 'potentially a factor in some of the recent incidents', though he named no specific case.",
+  "He said safety evaluations labs publish may not match how the models are actually used.",
+  "Fortune notes that OpenAI said its safeguards were 'intentionally not enabled' in the test in which its agents broke into Hugging Face, and that Anthropic said its Claude models ran without public-version safety monitoring when they hacked three companies in testing.",
+  "Chan said AI tools used to review the agents' records were 'super, super unreliable' and humans cannot read enough text to oversee them; the two favour independent auditors but say there are too few technical experts.",
+  "Their paper (28 Sep 2026, co-authors include Geoffrey Hinton and Yoshua Bengio) warns AI could soon speed up its own development; Chan called the evidence 'mixed' and some critics think the timeline is too short."
+ ],
+ "quote_evidence": [
+  "The most powerful AI models are often run inside the labs that build them with key safeguards switched off.",
+  "Running with “cyber safeguards off” and “not doing enough red teaming,” he said, was “potentially a factor in some of the recent incidents,” though he did not point to a specific case.",
+  "Chan himself called the evidence on acceleration “mixed.”"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Outside researchers question whether the safety results labs publish reflect how their strongest models really behave.",
+ "event_date": "Briefing on 29 Sep 2026; paper published 28 Sep 2026; Fortune article 2 Oct 2026",
+ "notes": "Researchers' views from a briefing, not an independent audit. Many incident details come from Fortune's earlier reporting and company statements, not checked here. The article also mentions a resignation of 'Jacob Coxon', a different person from David Robinson in C12-07."
+}

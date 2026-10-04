@@ -1,0 +1,628 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-05",
+   "field": "importance_line",
+   "before": "What changed: a senior Democrat is calling AI a safety crisis, which affects voters and lawmakers ahead of the November midterms, then AI companies, and the doubt is that the headline does not say what he proposes.",
+   "after": "What changed: a senior House Democrat is publicly calling AI a safety crisis ahead of the midterm elections, which affects voters and lawmakers first, then AI companies, and the doubt is that the details of the guardrails he wants are not yet clear.",
+   "reason": "Removed internal process note (headline-only wording) from published text; kept to what the facts hint supports (senior House Democrat, midterms)."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "summary",
+   "before": "CNN reports, citing two unnamed sources, that President Trump is expected to pick Jay Clayton, the director of national intelligence, as AI czar and could announce it as early as Friday, with Clayton keeping his intelligence job. New since Axios reported on 30 Sep 2026 that Trump had only floated Clayton: CNN and NBC News now report he is the expected pick, though a White House official called such reporting \"baseless speculation\" until the President announces it.",
+   "after": "CNN reports, citing two unnamed sources, that President Trump is expected to pick Jay Clayton, the director of national intelligence, as AI czar and could announce it as early as Friday 2 October, with Clayton keeping his intelligence job. New since Axios reported on 30 Sep 2026 that Trump had only floated Clayton: CNN and NBC News now report he is the expected pick, though a White House official called such reporting \"baseless speculation\" until the President announces it.",
+   "reason": "'Friday' was ambiguous in a 3 Oct edition; facts give Friday = 2 Oct 2026. Hedges and attribution kept."
+  },
+  {
+   "item_id": "C13-03",
+   "field": "headline",
+   "before": "Canadian Prime Minister Mark Carney has created a national council on artificial intelligence to advise his government on AI strategy and on making the technology safer.",
+   "after": "Canada's government has a new national council on AI, set up by Prime Minister Mark Carney to advise on strategy and on making the technology safer.",
+   "reason": "Headline followed the quote_evidence sentence too closely; reworded in our own words."
+  },
+  {
+   "item_id": "C13-03",
+   "field": "summary",
+   "before": "The CBC reports, citing a Friday news release from the Prime Minister's Office, that the council will bring together public and private stakeholders to advise on speeding up AI use, building leading Canadian AI companies and AI infrastructure, making AI safer and protecting democracy. Named members include well-known AI researcher Yoshua Bengio, Mila chief executive Valerie Pisano, Senator Tom Pitfield and Patrick Pichette of Digital Transformation Canada.",
+   "after": "The CBC reports, citing a Friday news release from the Prime Minister's Office, that the council will bring together people from the public and private sectors to advise on speeding up AI use, building strong Canadian AI companies and AI infrastructure, making AI safer and protecting Canadian democracy. Named members include well-known AI researcher Yoshua Bengio, Mila chief executive Valerie Pisano, Senator Tom Pitfield and Patrick Pichette of Digital Transformation Canada.",
+   "reason": "Plain English: 'stakeholders' and 'leading ... companies' replaced with everyday wording matching the facts."
+  },
+  {
+   "item_id": "C13-07",
+   "field": "summary",
+   "before": "Defense News reports that at a briefing on 1 Oct 2026 French Air Force officers described a project called Hypairion, which aims for open aircraft systems owned by the government rather than by companies, with a first full-scale flight of fighter jets and combat drones in 2028. The officers said the 2028 drone is only a test aircraft, the first stage may not give a working military capability, and the decision to use weapons stays with humans.",
+   "after": "Defense News reports that at a briefing on 1 Oct 2026 French Air Force officers described a project called Hypairion, which aims for open, modular aircraft systems owned by the government rather than by companies, with crewed fighter jets and combat drones due to fly together in 2028. The report adds that the 2028 drone is only a test aircraft and the first stage may not give a working military capability, and an officer said the decision to use weapons stays with humans.",
+   "reason": "'Full-scale' flight is not in the facts; the test-aircraft and operational-capability caveats are the article's, not stated as officers' words; wording simplified."
+  },
+  {
+   "item_id": "C13-07",
+   "field": "importance_line",
+   "before": "It shows France wants the state, not companies, to own the AI inside its future warplanes, which affects Air Force crews, French defence firms and start-ups; it is a plan, the 2028 aircraft is only a test platform, and officers said humans keep the decision to use weapons.",
+   "after": "It shows France wants the state, not companies, to own the AI inside its future warplanes, which affects Air Force crews and French defence firms; it is a plan, the 2028 aircraft is only a test platform, and an officer said humans keep the decision to use weapons.",
+   "reason": "'start-ups' is not supported by the facts; attribution of the human-decision statement kept."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "headline",
+   "before": "Banks working with Broadcom have started gathering $60 billion in loans to pay for AI chips for Anthropic and other companies.",
+   "after": "Banks working with Broadcom have reportedly started gathering $60 billion of financing to pay for AI chips for Anthropic and other companies.",
+   "reason": "Added 'reportedly' (unnamed sources, deal not announced); 'financing' matches the facts better than 'loans'."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "summary",
+   "before": "Bloomberg reports, citing people with knowledge of the matter, that banks working with Broadcom have started gathering $60 billion of loans to pay for AI chips for Anthropic and other companies: a $42 billion slice that is repaid first and an $18 billion riskier slice led by Blackstone, which is committing $9 billion from its funds. This follows the 1 Oct 2026 report of a filing showing Broadcom would lend Anthropic up to $42 billion to lease its chips; what is new is that the banks are now collecting the money, but the deal has not been announced and Broadcom declined to comment.",
+   "after": "Bloomberg reports, citing people with knowledge of the matter, that banks working with Broadcom have started gathering $60 billion of financing to pay for AI chips for Anthropic and other companies: a $42 billion slice that is repaid first and an $18 billion riskier slice led by Blackstone, which is committing $9 billion from its funds. This follows a 1 Oct 2026 Reuters report that Broadcom would lend Anthropic up to $42 billion to lease its chips, but the Bloomberg report does not say how the two are related; the deal has not been announced and a Broadcom representative declined to comment.",
+   "reason": "Removed an implied link between the $42 billion slice and the earlier Broadcom-Anthropic lending, which the facts say the article does not make."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "importance_line",
+   "before": "It tests whether investors and banks still want to fund the AI buildout despite public backlash against data centers, with Broadcom and Anthropic the main beneficiaries, but it rests on unnamed sources and nothing has been announced.",
+   "after": "Bloomberg says it is being watched as a test of whether investors still want to fund the AI buildout despite public backlash against data centers, which matters to AI chip buyers such as Anthropic and to Broadcom, but it rests on unnamed sources and nothing has been announced.",
+   "reason": "'Main beneficiaries' overstated the facts ('Anthropic and other companies'); the 'test' framing is Bloomberg's and is now attributed."
+  },
+  {
+   "item_id": "C06-02",
+   "field": "headline",
+   "before": "Anthropic's IPO prospectus warns that how the US government views the company could damage its relationships with customers and partners.",
+   "after": "Anthropic's unpublished IPO prospectus warns that how the US government views the company could hurt its ties with customers and partners, Reuters reports.",
+   "reason": "Headline stated a non-public document's contents without attribution; Reuters attribution added."
+  },
+  {
+   "item_id": "C06-02",
+   "field": "summary",
+   "before": "Reuters reports that Anthropic's IPO prospectus, which is not public, warns that how the US government views the company could spill over and harm its ties with business customers, partners and others, even though government deals are under 1% of its yearly revenue. This adds to the 29 Sep 2026 reporting on the same prospectus; The Next Web's account says the filing cites the Pentagon's supply-chain-risk label, which a judge temporarily blocked in March, and June export controls that made Anthropic switch off two top models for customers until 1 July.",
+   "after": "Reuters reports, as relayed by The Next Web, that Anthropic's IPO prospectus, which is not public, warns that how the US government views the company could spill over and harm its ties with business customers, partners and others, even though government deals are under 1% of its yearly revenue. This adds to the 29 Sep 2026 reporting on the same prospectus; The Next Web's account says the filing cites the Pentagon's supply-chain-risk label, which a judge temporarily blocked in March, and June export controls that led Anthropic to switch off two top models for all customers until 1 July.",
+   "reason": "Source line credits The Next Web, which only relays Reuters; made the relay explicit."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "summary",
+   "before": "Bloomberg reports that Nvidia shares reached a record price during trading on Friday, the first since May, but closed up 1.3% and just short of that record. The stock has risen 23% since late July, when worries about AI spending set off a selloff that erased more than $1 trillion of its value, and Nvidia is now worth about $5.6 trillion.",
+   "after": "Bloomberg reports that Nvidia shares reached a record price during trading on Friday, the first since May, but closed up 1.3% and just short of that record. The stock has risen 23% since a low in late July, after a two-month selloff that erased more than $1 trillion of its value, and Nvidia is now worth about $5.6 trillion.",
+   "reason": "Facts say the selloff came before the late-July low; the old text said it started in late July and was set off by AI-spending worries (a cause not in the facts)."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "importance_line",
+   "before": "It shows investor confidence in AI spending coming back after months of doubt, which matters to anyone whose savings sit in stock funds that hold Nvidia and to firms building AI data centres, but the shares closed just short of their record and such rallies can reverse.",
+   "after": "It suggests investors are returning to AI stocks after months of doubt about AI spending, which matters to people whose savings sit in funds that hold Nvidia, but the shares closed just short of their record.",
+   "reason": "Removed unsupported 'such rallies can reverse' and the data-centre-builders consequence."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "summary",
+   "before": "The Wall Street Journal reports on whether the United States will spend about 9% of its GDP, the total value of everything the country produces in a year, on AI, something its headline says the AI industry is counting on.",
+   "after": "The Wall Street Journal asks whether the United States will spend about 9% of its GDP, the total value of everything the country produces in a year, on AI, and says the AI industry is counting on it.",
+   "reason": "Removed process wording ('its headline says'); kept attribution and the question form."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "importance_line",
+   "before": "If the industry's hopes are met, a large slice of the US economy would depend on AI spending, which would matter to workers, savers and companies alike, but the headline gives no timeframe or basis for the 9% figure.",
+   "after": "If the industry's hopes are met, AI spending would become a large share of the US economy, which could matter to workers, savers and companies alike, but it is not known over what period or on what basis the 9% figure is calculated.",
+   "reason": "Removed internal process note (headline-only wording) from published text; softened 'would depend on' to what the 9% figure actually means."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "headline",
+   "before": "Robotics startup FieldAI is reportedly raising $700 million at a $10 billion value, about five times its value a little over a year ago.",
+   "after": "Business Insider reports that robotics startup FieldAI is raising $700 million in a deal valuing it at $10 billion, about five times its value a little over a year ago.",
+   "reason": "Headline was nearly the publisher's headline; reworded and attribution added (single unnamed source)."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "summary",
+   "before": "Business Insider reports, citing a person familiar with the deal, that FieldAI, which builds software it calls a general-purpose brain for robots, has signed a term sheet (an agreement on the main terms) to raise $700 million at a $10 billion valuation, up from $2 billion. The deal may not have formally closed, it is not clear which investor is leading it, and FieldAI did not respond to a request for comment.",
+   "after": "Business Insider reports, citing a person familiar with the deal, that FieldAI, which builds what it calls a general-purpose brain for robots, has signed a term sheet (an agreement on the main terms) to raise $700 million at a $10 billion valuation, up from $2 billion. The deal may not have formally closed, it is not clear which investor is leading it, and FieldAI did not respond to a request for comment.",
+   "reason": "'Software' is not in the facts; the company's own description ('what it calls a ... brain') kept."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "headline",
+   "before": "The Wall Street Journal says AI-related companies are crowding other kinds of businesses out of the stock market.",
+   "after": "The Wall Street Journal says AI-linked companies are pushing the rest of the stock market aside.",
+   "reason": "'Crowding ... out of the stock market' could be read as companies leaving the market; closer cautious restatement of the headline."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "summary",
+   "before": "The Wall Street Journal reports that AI is squeezing out the rest of the stock market, a headline that points to AI-linked companies taking a growing share of investor money and attention.",
+   "after": "The Wall Street Journal reports that AI is squeezing out the rest of the stock market, which suggests AI-linked companies are becoming a bigger part of it.",
+   "reason": "Removed 'headline' process wording and the invented 'investor money and attention'; kept as a cautious restatement."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "importance_line",
+   "before": "If the headline holds, stock-market gains would depend on a narrow group of AI-linked companies, which matters to anyone with savings in stock funds, but the numbers behind the claim are not known.",
+   "after": "If that is right, stock-market gains would depend on a narrow group of AI-linked companies, which matters to anyone with savings in stock funds, but the numbers behind the claim are not known.",
+   "reason": "Removed internal process note (headline-only wording) from published text."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "headline",
+   "before": "Database company Supabase raised $150 million and agreed to buy fellow startup Turso to build tools for AI agents.",
+   "after": "Database company Supabase raised $150 million and agreed to buy fellow startup Turso while adding new tools for AI agents.",
+   "reason": "Facts do not say the purchase was made 'to build tools for AI agents' (money also goes to employee liquidity); reworded to what is supported."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "summary",
+   "before": "SiliconANGLE reports that Supabase, which sells a paid, managed version of the free PostgreSQL database, raised $150 million in a round led by Singapore's GIC and agreed to buy fellow database startup Turso for an undisclosed price. Co-founder Paul Copplestone wrote that AI agents are now creating millions of databases, and SiliconANGLE says Turso's small, fast-starting design suits that kind of use.",
+   "after": "SiliconANGLE reports that Supabase, which sells a paid, managed version of the free PostgreSQL database, raised $150 million in a round led by Singapore's GIC and agreed to buy fellow database startup Turso for an undisclosed price. Co-founder Paul Copplestone wrote that agents are spinning up millions of databases, and SiliconANGLE says Turso, a small database that starts almost instantly, could help Supabase's new service for AI agents.",
+   "reason": "'Suits that kind of use' was stronger than the facts; now SiliconANGLE's own view that Turso 'could help', attributed."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "importance_line",
+   "before": "Developers who use Supabase or Turso could see new AI agent features and a change of owner for Turso, while the price, the closing date and what happens to Turso's free product are not given.",
+   "after": "Developers who use Supabase or Turso could see new AI agent features and a change of owner for Turso, while the price, the closing date and what happens to Turso's existing product are not given.",
+   "reason": "'Turso's free product' is not in the facts."
+  },
+  {
+   "item_id": "C03-04",
+   "field": "importance_line",
+   "before": "Companies running AI programs get one vendor offering both testing before release and monitoring after launch, and Arize's open-source users are told their tools will continue, but how the two products will be combined is still to come.",
+   "after": "Dynatrace says the aim is for companies running AI programs to get testing before release and monitoring after launch from one vendor, and Arize will keep supporting its open-source tool, but how the two products will be combined is still to come.",
+   "reason": "Presented a company aim as an already delivered fact; now attributed as Dynatrace's aim."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "summary",
+   "before": "Bloomberg reports that Pimco's Stracke said AI spending, rather than inflation, has pushed yields, the return investors earn for lending money, higher.",
+   "after": "Bloomberg reports that Pimco's Stracke says AI spending, not inflation, is behind higher yields, the returns investors earn for lending money.",
+   "reason": "Plain-English rewrite of a clumsy sentence; attribution kept."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "importance_line",
+   "before": "What changed: a Pimco figure says AI spending, not inflation, is behind higher yields, which could matter to savers and borrowers first, then investors and central banks, then AI companies, and the doubt is that this is one investor's view and the headline does not give his reasoning.",
+   "after": "What changed: a Pimco figure says AI spending, not inflation, is behind higher yields, which could matter to savers and borrowers first, then investors and central banks, then AI companies, and the doubt is that this is one investor's view and his reasoning is not yet known.",
+   "reason": "Removed internal process note (headline-only wording) from published text."
+  },
+  {
+   "item_id": "C07-04",
+   "field": "importance_line",
+   "before": "If it happens, AI companies and owners of computing capacity could agree prices for computing power ahead of time, but the details of the Financial Times argument are not known and the CME launch still needs regulatory approval.",
+   "after": "If it happens, AI companies and owners of computing capacity could agree prices for computing power ahead of time, but how the Financial Times sees this market is not known and the CME launch still needs regulatory approval.",
+   "reason": "'Financial Times argument' assumed the FT piece is commentary, which the facts could not confirm."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "importance_line",
+   "before": "It matters most to people who bought Cerebras shares and shows how hard it is for a newly listed chip company to compete with Nvidia, and the staged lockup release could keep adding shares to the market into November, but the link between the fall and Nvidia is CNBC's reading, not a proven cause.",
+   "after": "It matters most to people who bought Cerebras shares and shows a newly listed chip company under pressure from Nvidia; the staged lockup release could keep adding shares to the market into November, but the link between the fall and Nvidia is CNBC's reading, not a proven cause.",
+   "reason": "'Shows how hard it is to compete with Nvidia' went beyond the facts and contradicted the closing hedge."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "headline",
+   "before": "Shares of hard drive makers Seagate and Western Digital fell by roughly 10% to 13% on Friday after a report that rival Toshiba plans to double its hard drive output for AI data centres.",
+   "after": "Shares of hard drive makers Seagate and Western Digital fell by roughly 10% to 13% in trading on Friday after a report that rival Toshiba plans to double its hard drive production capacity for AI data centres.",
+   "reason": "Facts give intraday falls and 'production capacity', not 'output'."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "summary",
+   "before": "Yahoo Finance reports that Seagate and Western Digital shares fell sharply on Friday 2 October after Nikkei reported that Toshiba plans to spend about 60 billion yen (around $400 million) to double its hard drive production capacity by financial year 2027. New since yesterday's report of the plan is the market reaction: investors fear that Toshiba, which has just over 10% of the market and wants 30%, could win customers and put pressure on prices at the AI data centres that buy these drives.",
+   "after": "Yahoo Finance reports that Seagate and Western Digital shares fell sharply on Friday 2 October after Nikkei reported that Toshiba plans to spend about 60 billion yen (around $400 million) to double its hard drive production capacity by financial year 2027. What is new is the market reaction: Yahoo Finance says investors worry that Toshiba, which has just over 10% of the market and wants 30%, could take market share and put pressure on prices at the AI data centres that buy these drives.",
+   "reason": "Investor worry is Yahoo/Proactive's reading (a possibility), now attributed; 'yesterday's report' was ambiguous because Nikkei's report and the fall were both on 2 Oct."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "importance_line",
+   "before": "It shows how sensitive these two stocks, up roughly 240% and 170% this year, are to any sign of new competition, which matters to their investors and to data centres that buy their drives, but Toshiba's plan is still only a report, runs to 2027, and Toshiba is the smallest of the three makers.",
+   "after": "It shows how quickly these two stocks, up roughly 240% and 170% this year before the fall, can drop on news of new competition, which matters to their investors and to data centres that buy their drives, but Toshiba's plan is still only a report, runs to 2027, and Toshiba currently holds just over 10% of the market.",
+   "reason": "'Any sign of new competition' and 'smallest of the three makers' are not in the facts."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "headline",
+   "before": "US businesses are using more AI but paying less for it, according to the latest Ramp AI Index, which credits price competition between OpenAI and Anthropic.",
+   "after": "Ramp says US companies are spending less on AI than in July even as their use has risen about 50%, a drop its economist links to OpenAI and Anthropic competing on price.",
+   "reason": "Headline was almost the publisher's headline; reworded, and the cause is now attributed to Ramp's economist."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "importance_line",
+   "before": "Cheaper AI helps businesses and, eventually, the people who use their products, and the price fight between OpenAI and Anthropic is the stated cause, but the figures come from one company's index that covers only paid API access and leans toward large customers.",
+   "after": "Cheaper AI means businesses can use more of it for less money, and Ramp's economist puts the drop down to the price fight between OpenAI and Anthropic, but the figures come from one company's index that covers only API spending (paid direct access to AI models) and leans toward large customers.",
+   "reason": "Removed 'eventually the people who use their products' (invented consequence); cause attributed; jargon explained."
+  },
+  {
+   "item_id": "C01-03",
+   "field": "headline",
+   "before": "Vercel's data shows that free-to-download AI models handled most of the AI traffic on its platform in August, for the first time.",
+   "after": "Vercel's data shows that free-to-download AI models handled most of the traffic on its AI Gateway service in August, for the first time.",
+   "reason": "'Its platform' could be read as all of Vercel; the figures cover the AI Gateway only."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "headline",
+   "before": "Meta is letting go of the people it hired from AI security startup Virtue AI only four months after they joined.",
+   "after": "Meta is letting go of employees it hired from the AI security startup Virtue AI, only four months after they joined.",
+   "reason": "'The people it hired' implied all of them; the article does not say how many."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "summary",
+   "before": "Semafor reports that Meta is letting go of the staff it hired in June from Virtue AI, an AI security startup, and a Meta spokesperson, Andy Stone, said the arrangement \"didn't work out as planned\"; the reason given was clashing work styles. Meta says its Superintelligence Labs team is still focused on AI safety, alignment and frontier risk.",
+   "after": "Semafor reports that Meta is letting go of employees it hired in June from Virtue AI, an AI security startup, and a Meta spokesperson, Andy Stone, said the arrangement \"didn't work out as planned\"; Semafor says he put it down to clashing work styles. Meta says its Superintelligence Labs team is still focused on AI safety, alignment and frontier risk.",
+   "reason": "Same 'all staff' overreach as the headline; clashing-work-styles reason now attributed to Semafor's reading of Stone."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "importance_line",
+   "before": "It affects the people Meta hired from Virtue AI in June and Meta's AI safety work, but Semafor does not say how many people are affected or whether the three co-founders named in June are among them.",
+   "after": "It affects the employees Meta hired from Virtue AI in June, and Meta says its AI safety work continues, but Semafor does not say how many people are affected or whether the three co-founders named in June are among them.",
+   "reason": "'Affects Meta's AI safety work' was an unsupported consequence; Meta's own claim that it continues is now stated as Meta's."
+  },
+  {
+   "item_id": "C06-06",
+   "field": "summary",
+   "before": "PYMNTS, citing The Information, reports that Thomas Lind, who led AI policy at the White House's Office of the National Cyber Director until June 2026, joined OpenAI this week to lead cyber and strategic risk on its national security policy team. OpenAI's national security policy head, Sasha Baker, told The Information that his hiring reflects the company's continued investment in addressing the national security challenges of increasingly capable AI.",
+   "after": "PYMNTS, citing The Information, reports that Thomas Lind, who led AI policy at the White House's Office of the National Cyber Director until June 2026, joined OpenAI this week to lead cyber and strategic risk on its national security policy team. OpenAI's national security policy head, Sasha Baker, told The Information that the hire shows OpenAI is continuing to invest in handling the national security risks of increasingly capable AI.",
+   "reason": "Second sentence tracked the source's wording closely; reworded in plain English."
+  },
+  {
+   "item_id": "C06-06",
+   "field": "importance_line",
+   "before": "It adds a former White House cyber and AI policy adviser to OpenAI's national security staff while regulators probe AI dangers, but a single hire shows little about OpenAI's plans and the report is secondhand.",
+   "after": "It adds a former White House cyber and AI policy adviser to OpenAI's national security staff while regulators probe AI dangers, but a single hire shows little about OpenAI's plans.",
+   "reason": "Removed process remark ('the report is secondhand')."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "headline",
+   "before": "Most euro zone companies plan to pay for AI projects from their own cash rather than borrowing, the European Central Bank says in a blog post.",
+   "after": "Most euro zone firms that plan to invest in AI expect to pay for it from their own cash rather than by borrowing, a European Central Bank blog post says.",
+   "reason": "The 72% figure covers firms planning AI investment, not most euro zone companies."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "importance_line",
+   "before": "It suggests Europe's AI push is paid for mostly out of companies' own money, which may slow smaller or cash-poor firms against US rivals, but these are survey answers about plans and the blog does not necessarily reflect the ECB's own views.",
+   "after": "It suggests Europe's AI push is paid for mostly out of companies' own money, which may limit how fast cash-poor firms can invest, but these are survey answers about plans and Reuters notes the blog does not necessarily reflect the ECB's own views.",
+   "reason": "'Smaller ... firms' and 'against US rivals' are not in the facts."
+  },
+  {
+   "item_id": "C07-09",
+   "field": "importance_line",
+   "before": "It matters to savers and pension holders whose funds hold US stocks and bonds because borrowing costs are at their highest since 2002, but it is one analyst's view of risks, not a forecast that has come true.",
+   "after": "It matters to savers and pension holders whose funds hold US stocks and bonds because US government bond yields are at their highest since 2002, but it is one analyst's view of risks, not a forecast that has come true.",
+   "reason": "'Borrowing costs' was broader than the facts (US government bond yields)."
+  },
+  {
+   "item_id": "C07-10",
+   "field": "summary",
+   "before": "Reuters reports that Firmus, an Australian data centre company backed by Blackstone and Nvidia, has a term sheet pricing its shares to value it at about $30.6 billion, nearly triple its August value, and some fund managers question the jump and call its record \"unproven\". New since yesterday's report of the valuation target: investors are divided, but early orders already exceed the $5 billion deal size, with investor ordering due to open on Tuesday and trading expected from 23 October.",
+   "after": "Reuters reports that Firmus, an Australian data centre company backed by Blackstone and Nvidia, has a term sheet pricing its shares to value it at about $30.6 billion, nearly triple its August value, and some investors question the jump, citing an \"unproven\" track record. New since yesterday's report of the valuation target: investors are divided, but early indicative orders already exceed the $5 billion deal size, with investor ordering due to open on Tuesday and trading expected from 23 October.",
+   "reason": "Orders are 'indicative' in the source; doubters include investors and analysts, not only fund managers."
+  },
+  {
+   "item_id": "C07-10",
+   "field": "importance_line",
+   "before": "It shows investors split over whether AI data centre valuations are running ahead of results, which matters to people whose funds may buy in, but the $5 billion earnings forecast is the company's own and the listing has not yet happened.",
+   "after": "It shows investors split over whether AI data centre valuations are running ahead of results, which matters to people whose funds may buy in, but the company's forecast of about $5 billion in yearly earnings within five years is its own estimate and the listing has not yet happened.",
+   "reason": "'The $5 billion earnings forecast' was unexplained and confusable with the $5 billion deal size."
+  },
+  {
+   "item_id": "C15-02",
+   "field": "importance_line",
+   "before": "A company searching for new superconductors (materials that carry electricity without loss) is reported to be raising money, which matters mainly to materials researchers and investors, but we have no details on who is investing or whether the round has closed.",
+   "after": "A company searching for new superconductors (materials that carry electricity without loss) is reported to be raising money, which matters mainly to materials researchers and investors, but who is investing and whether the round has closed are not known.",
+   "reason": "Removed process wording ('we have no details')."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "importance_line",
+   "before": "What changed: police have stepped in after hacking damage was officially confirmed at four major banks, which affects bank customers first, then the banks and regulators, and the doubt is that the article gives no figures on what data was taken and no detail on how AI was used.",
+   "after": "What changed: police have stepped in after hacking damage was officially confirmed at several major banks, including four named in the report, which affects bank customers first, then the banks and regulators, and the doubt is that no figures on what data was taken are given, and \"AI hacking attacks\" is Chosunbiz's own description.",
+   "reason": "Facts say 'including' four banks, not exactly four; added the outlet's-own-description hedge."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "headline",
+   "before": "A former president of the Italian bank Fideuram was tricked by a fake WhatsApp message and an AI-copied voice into sending about 95 million euros, and at least 36 million euros are still missing.",
+   "after": "A former president of the Italian bank Fideuram was reportedly tricked by a fake WhatsApp message and an AI-copied voice into sending about 95 million euros, and at least 36 million euros are still missing.",
+   "reason": "Second-hand press report with no court finding; 'reportedly' added."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "summary",
+   "before": "L'Unione Sarda, citing Corriere della Sera, reports that Paolo Molesini, then president of the Italian bank Fideuram, was tricked in February 2026 by a fake WhatsApp message from someone posing as a senior executive of its parent bank Intesa and by a call in which scammers copied a lawyer's voice with AI tools, leading to transfers of about 95 million euros, mostly to China and Hong Kong. A large part was recovered, but at least 36 million euros vanished into cryptocurrency and Milan prosecutors are still tracing it; the scam is months old and is only now reported.",
+   "after": "L'Unione Sarda, citing Corriere della Sera, reports that Paolo Molesini, a former president of the Italian bank Fideuram, was tricked in February 2026 by a fake WhatsApp message that seemed to come from a senior executive of its parent bank Intesa and by a call in which scammers copied a lawyer's voice with AI tools, and about 95 million euros was sent, mostly to China and Hong Kong. A large part was recovered, but at least 36 million euros vanished into cryptocurrency and Milan prosecutors are still tracing it; the scam dates from February and was reported on 3 October.",
+   "reason": "'Then president' is not in the facts; 'only now reported' was an unverified claim; first sentence kept to one clear chain of events."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "importance_line",
+   "before": "What changed: the case shows that a fake message plus a copied voice can move tens of millions of euros out of a bank, which affects bank staff and customers first, then banks and prosecutors, and the doubt is that this is a second-hand press report of an ongoing investigation with no outcome yet.",
+   "after": "What changed: the case shows that a fake message plus a copied voice can move tens of millions of euros out of a bank, which affects bank staff and customers first, then banks and prosecutors, and the doubt is that this is a press report, not a court finding, of an ongoing investigation with no outcome yet.",
+   "reason": "Removed process wording ('second-hand')."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "summary",
+   "before": "TechCrunch reports that Apple announced in a blog post for developers that it will add controls to the macOS 'Full Disk Access' setting, which lets an app reach a user's files, mail, messages and browsing history, saying AI agents raise the risk and that users will need to take \"very explicit user action\", in Apple's words, to grant it. The move follows a columnist's claim, which Meta disputes, that Meta's Muse app read his private messages, and a WIRED report of a flaw in ChatGPT's Mac app.",
+   "after": "TechCrunch reports that Apple announced in a blog post for developers that it will add controls to the macOS 'Full Disk Access' setting, which lets an app reach a user's files, mail, messages and browsing history, saying AI agents raise the risk and that users will need to take \"very explicit user action\", in Apple's words, to grant it. The move follows a columnist's claim, which Meta disputes, that Meta's Muse app on Mac knew his private messages, and a WIRED report of a flaw in ChatGPT's Mac app.",
+   "reason": "The claim in the facts is that the app 'knew' his messages, not that it 'read' them."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "importance_line",
+   "before": "What changed: Apple says it will require clearer user approval before an app can read everything on a Mac, which affects Mac users first, then developers of AI agents and other apps, and the doubt is that Apple has not said what the new controls are or when they start.",
+   "after": "What changed: Apple says it will require clearer user approval before an app can read everything on a Mac, which affects Mac users first, then developers of AI agents and other apps, and the doubt is that it is not yet clear what the new controls are or when they start.",
+   "reason": "'Apple has not said' was stronger than the facts (the article does not say)."
+  },
+  {
+   "item_id": "C12-04",
+   "field": "importance_line",
+   "before": "What changed: AI made an old, known flaw cheap to use, so secret ballots in Georgia could be matched to voters' names with extra data, which affects Georgia voters first, then election officials, and the doubt is that this is one researcher's own test and the article reports no agreed fix.",
+   "after": "What changed: a researcher says AI made an old, known flaw cheap to use, so secret ballots in Georgia could be matched to voters' names with extra data, which affects Georgia voters first, then election officials, and the doubt is that this is one researcher's own test and the article reports no agreed fix.",
+   "reason": "The AI-made-it-cheap claim is Springer's; attributed."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "Business Insider reports that an OpenAI spokesperson confirmed on Friday 2 Oct 2026 that David Robinson, a leader on its Safety Systems team who worked on system cards (public documents that describe what its models can do), left last week. New since 1 Oct 2026, when OpenAI said it had parted ways with three researchers for violating its policies on sharing sensitive information, this is another senior safety departure, after safety head Johannes Heidecke left earlier this year.",
+   "after": "Business Insider reports that an OpenAI spokesperson confirmed on Friday 2 Oct 2026 that David Robinson, a leader on its Safety Systems team who worked on system cards (public documents that describe its models), left last week. New since 1 Oct 2026, when OpenAI said it had parted ways with three researchers it said had broken its rules on sharing sensitive information: Business Insider calls this another upheaval among OpenAI's safety staff, after safety head Johannes Heidecke left earlier this year.",
+   "reason": "Old text called Robinson's exit 'another senior safety departure' right after the three researchers, who are not described as safety staff; the 'upheaval' framing is now attributed to Business Insider."
+  },
+  {
+   "item_id": "C12-08",
+   "field": "headline",
+   "before": "GitLab told customers who run their own AI Gateway to update at once, because a critical flaw could let a logged-in user run commands on the server.",
+   "after": "GitLab told customers who run their own AI Gateway to update at once, because a critical flaw could let a logged-in user with access to its AI agent features run commands on the server.",
+   "reason": "Facts require Duo Agent Platform access, not just any login."
+  },
+  {
+   "item_id": "C12-10",
+   "field": "headline",
+   "before": "Salt Labs researchers got the Manus AI agent to run hidden code sent in an ordinary email, and that flaw has since been fixed.",
+   "after": "Salt Labs researchers got the Manus AI agent to run hidden code sent in an ordinary email, and say the flaw has since been fixed.",
+   "reason": "The fix is Salt Labs' statement; attribution added."
+  },
+  {
+   "item_id": "C12-10",
+   "field": "importance_line",
+   "before": "What changed: researchers showed that an AI agent connected to email could be tricked into running attacker code, which affects people who give agents access to their email and accounts first, then companies using agents, and the doubt is that this method is fixed, no real attacks are reported and the test date is not stated.",
+   "after": "What changed: researchers showed that an AI agent connected to email could be tricked into running attacker code, which affects people who give agents access to their email and accounts first, then companies using agents, but the researchers say this method is now fixed, no real attacks are reported and the date of the test is not stated.",
+   "reason": "Garbled 'the doubt is that this method is fixed' fixed; fix attributed to the researchers."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "summary",
+   "before": "TokenPost reports that Samsung has proposed a price in the mid-$4 range per unit of capacity for its 2027 HBM4 memory, against roughly $1.50 for the current HBM3E version; HBM is the layered memory placed right next to AI chips. This is a proposed price in talks, not a signed deal, and the wider industry price-rise figures quoted are estimates rather than disclosed contract prices.",
+   "after": "TokenPost, relaying a Maeil Business report, says Samsung has proposed a price in the mid-$4 range per unit of capacity for its 2027 HBM4 memory, against roughly $1.50 for the current HBM3E version; HBM is the layered memory placed right next to AI chips. This is a proposed price in talks, not a signed deal, and TokenPost stresses that the figures are estimates, not disclosed contract prices.",
+   "reason": "Summary referred to 'wider industry price-rise figures' it never gave; original Maeil Business source now named."
+  },
+  {
+   "item_id": "C09-01",
+   "field": "importance_line",
+   "before": "People living near planned data centers are the target of this money, but it is a company pledge, CBS names no towns or timetable, and the opposition it describes centers on worries about the environment and local resources.",
+   "after": "It is aimed at people living near Amazon's data centers, but it is a company pledge, and the opposition CBS describes centers on worries about harm to the environment and local resources.",
+   "reason": "'CBS names no towns or timetable' is not supported (a five-year period is given); 'planned' data centers not in the facts."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "A full ban would tighten limits on how Chinese chipmakers get equipment and would affect ASML's sales, but the item is a call for action, not a decision, and the details were not available to check.",
+   "after": "A full ban would tighten limits on how Chinese chipmakers get equipment and would affect ASML's sales, but the item is a call for action, not a decision, and who is calling for it and how much China has bought are not known.",
+   "reason": "Removed process wording ('the details were not available to check')."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "summary",
+   "before": "Wisconsin Watch reports that We Energies, a Wisconsin power company, announced on 2 Oct 2026 a deal that lets Oracle claim between 10% and 20% of the electricity from the Point Beach nuclear plant for its Port Washington data center campus, which Oracle is building with OpenAI. The deal still needs approval from Wisconsin's Public Service Commission, and a utility spokesman says that if it is approved it could spare the utility's other customers about $300 million in fuel costs over five years.",
+   "after": "Wisconsin Watch reports that We Energies, a Wisconsin power company, announced on 2 Oct 2026 a deal that would let Oracle claim between 10% and 20% of the electricity from the Point Beach nuclear plant for its Port Washington data center campus, which Oracle is building with OpenAI. The deal still needs approval from Wisconsin's Public Service Commission, and a utility spokesman says that if it is approved it could spare the utility's other customers about $300 million in fuel costs over five years.",
+   "reason": "The deal is not yet approved, so 'lets' became 'would let'."
+  },
+  {
+   "item_id": "C09-03",
+   "field": "summary",
+   "before": "Bloomberg reports, citing unnamed people familiar with the matter, that the Trump administration plans to offer Vistra a loan package of about $4 billion to upgrade three nuclear plants, two in Ohio and one in Pennsylvania. Energy Secretary Chris Wright could announce it as soon as Monday, but neither the Energy Department nor Vistra had commented, and the size of the planned expansions was not yet known.",
+   "after": "Bloomberg reports, citing unnamed people familiar with the matter, that the Trump administration plans to offer Vistra a loan package of about $4 billion to upgrade three nuclear plants, two in Ohio and one in Pennsylvania. Energy Secretary Chris Wright could announce it as soon as Monday, but neither the Energy Department nor Vistra had immediately responded to requests for comment, and the size of the planned expansions was not yet known.",
+   "reason": "Facts say they did not immediately respond, not that they declined to comment."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "importance_line",
+   "before": "If China did catch up in chip-printing machines, it would weaken Western limits on Chinese chipmaking and affect equipment makers such as ASML, but this is a reported view of two executives, not a result.",
+   "after": "If China did catch up in chip-printing machines, it could weaken Western limits on Chinese chipmaking and affect equipment makers such as ASML, but this is a reported view of two executives, not a result.",
+   "reason": "'Would weaken' was a certainty not in the facts."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "headline",
+   "before": "China's Biren Technology is getting its next AI graphics chip, the BR20X, ready for mass production as a challenger to Nvidia.",
+   "after": "Digitimes reports that China's Biren Technology is getting its next AI graphics chip, the BR20X, ready for mass production in a challenge to Nvidia.",
+   "reason": "Headline-only item: added attribution and reworded away from the publisher's headline."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "importance_line",
+   "before": "If Biren can build the chip in volume with manufacturing available inside China, Chinese AI companies would have another home-grown option besides Nvidia, but no performance or production figures were available.",
+   "after": "If Biren can build the chip in volume with manufacturing available inside China, Chinese AI companies would have another home-grown option besides Nvidia, but no performance or production figures are known.",
+   "reason": "Removed process wording ('were available')."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "headline",
+   "before": "Dream Line, a Ukrainian hosting company, says a Russian strike destroyed its Kyiv data center, one of several in the city knocked out in recent days.",
+   "after": "Dream Line, a Ukrainian hosting company, says a Russian strike destroyed its Kyiv data center, one of at least three in the city reported lost to strikes.",
+   "reason": "'Knocked out in recent days' is not supported for all three (Cosmonova's loss is undated in the facts)."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "summary",
+   "before": "Mediasat reports that Ukrainian hosting company Dream Line told Hromadske Radio a Russian strike on the night of 27 to 28 Sep 2026 destroyed its Kyiv data center, and that it has since moved all services and client data to backup sites. It follows the 1 Oct 2026 report on the Parkovyi data center and is at least the third Kyiv data center reported lost in recent days; Dream Line's services are still seeing some outages.",
+   "after": "Mediasat reports that a Russian strike on the night of 27 to 28 Sep 2026 destroyed the Kyiv data center of Ukrainian hosting company Dream Line, which has confirmed the loss and told Hromadske Radio it has moved all services and client data to backup sites. It follows the 1 Oct 2026 report on the Parkovyi data center and is at least the third Kyiv data center reported lost, with Dream Line's services still seeing some outages.",
+   "reason": "The facts say Dream Line told Hromadske Radio about the move to backups, not that the radio was told of the strike; 'in recent days' dropped."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "importance_line",
+   "before": "Customers of Kyiv's hosting and internet firms bear the outages, and data centers are clearly now targets in the war, but this entry rests on one outlet's account of the company's own statement.",
+   "after": "Customers of Kyiv's hosting and internet firms bear the outages, and Russia claimed the strike and named Kyiv data centers as targets, but this entry rests on one outlet's account of the company's own statement.",
+   "reason": "'Clearly now targets in the war' was stronger than the facts; Russia's claim is the supported basis."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "headline",
+   "before": "Tokyo Electric Power and other Japanese utilities are tightening their electricity rules for data centers so that operators cannot hold more grid power than they end up using.",
+   "after": "Tokyo Electric Power and other Japanese utilities are tightening their electricity rules for data centers to stop operators from reserving more grid power than they end up using.",
+   "reason": "'So that operators cannot hold' promised an outcome; the facts give the aim."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "importance_line",
+   "before": "It affects companies that reserve power for data centers in Japan and the utilities that must plan around those reservations, but the specific new rules are not spelled out in what we could read.",
+   "after": "It affects companies that reserve power for data centers in Japan and the utilities that must plan around those reservations, but what the new rules require and when they start are not yet known.",
+   "reason": "Removed process wording ('in what we could read')."
+  },
+  {
+   "item_id": "C08-07",
+   "field": "summary",
+   "before": "Tom's Hardware reports, based on a customer's Reddit post, that a Micro Center store in Tustin, California required a buyer of a PC containing an Nvidia RTX 5090 graphics card to sign a form promising not to export it and to give photo ID, the installation location and the intended use. Micro Center has not said why it has started doing this, and Tom's Hardware says it is unclear how the form would stop smuggling because it does not record the card's serial number.",
+   "after": "Tom's Hardware reports, based on a customer's Reddit post, that a Micro Center store in Tustin, California required a buyer of a PC containing an Nvidia RTX 5090 graphics card to sign a form promising not to export it and to give photo ID, the installation location and the intended use. Micro Center has not said why it has started doing this, and Tom's Hardware says it is unclear how the form would stop smuggling, especially as it does not record the card's serial number.",
+   "reason": "The source says 'especially as', not 'because'."
+  },
+  {
+   "item_id": "C08-08",
+   "field": "importance_line",
+   "before": "Makers and buyers of AI network equipment get a shared way to say who is responsible when a light-based part fails, but the standard is not a legal requirement, no company is named as using it, and the standard itself was not read.",
+   "after": "JEDEC says makers and buyers of AI network equipment get clearer shared rules on who is responsible for the reliability of light-based parts, but the release says the standard imposes no legal requirement and names no company that has adopted it.",
+   "reason": "Removed process wording ('the standard itself was not read'); benefit is now JEDEC's claim, not ours."
+  },
+  {
+   "item_id": "C08-09",
+   "field": "importance_line",
+   "before": "It shows how a large cloud company designs its own AI chips, which matters to businesses that buy AI computing, but it is a programme feature, not a new announcement, and the video content was not checked.",
+   "after": "The programme is billed as a look at how a large cloud company designs its own AI chips, which matters to businesses that buy AI computing, but it is a programme feature, not a new announcement.",
+   "reason": "Removed process wording ('video content was not checked'); 'shows how' became 'is billed as' since only the description was available."
+  },
+  {
+   "item_id": "C08-10",
+   "field": "importance_line",
+   "before": "Scientists at a US national laboratory get early access to Nvidia's next server processor for simulation and AI work, but only a test node is installed, no performance results are given, and the delivery dates for the supercomputers are stated as expected or possible.",
+   "after": "A US national laboratory is getting early hands-on time with Nvidia's newer server processor, but only a test node is installed, no performance results are given, and the delivery dates for the supercomputers are stated as expected or possible.",
+   "reason": "'For simulation and AI work' is not in the facts."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "headline",
+   "before": "Data center developer Crusoe has filed plans for a $4.8 billion data center campus in Jayton, Texas, Data Center Dynamics reports.",
+   "after": "Data Center Dynamics reports that Crusoe has submitted a filing for a $4.8 billion data center campus in Jayton, Texas.",
+   "reason": "Headline was almost the publisher's headline; reworded."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "importance_line",
+   "before": "People in and around Jayton and the local power customers would be affected if the campus goes ahead, but a filing is a plan, and its size, power source and timing are not stated in the headline.",
+   "after": "People in and around Jayton and the local power customers would be affected if the campus goes ahead, but a filing is a plan, and its size, power source and timing are not known.",
+   "reason": "Removed internal process note (headline-only wording) from published text."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "headline",
+   "before": "Alibaba has held early talks with Spanish solar company Solaria about power for a data center in Spain, Bloomberg reports.",
+   "after": "Alibaba has held early talks with Spanish renewable-energy company Solaria about power for a possible data center in Spain, Bloomberg reports.",
+   "reason": "The facts call the data center 'potential' and Solaria a renewable-energy company, not specifically solar."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "summary",
+   "before": "Bloomberg reports, citing unnamed people familiar with the matter, that Alibaba has held early talks with Spanish renewable-energy company Solaria about supplying power to a data center in Spain.",
+   "after": "Bloomberg reports, citing unnamed people familiar with the matter, that Alibaba has held early talks with Spanish renewable-energy company Solaria about supplying power to a potential data center in Spain.",
+   "reason": "The data center is only potential in the facts."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "importance_line",
+   "before": "It points to Chinese cloud companies looking for clean power in Europe, which could matter to Spanish electricity users and regulators, but the talks are described as early, rest on unnamed sources, and both companies declined to comment.",
+   "after": "It points to a Chinese cloud company looking for clean power in Europe, which could matter to Spanish electricity users and regulators, but the talks are described as early, rest on unnamed sources, and both companies declined to comment.",
+   "reason": "One company was described as 'Chinese cloud companies' (plural)."
+  },
+  {
+   "item_id": "C11-01",
+   "field": "summary",
+   "before": "Breaking Defense reports, citing a memo it reviewed and a statement from Acting Army Secretary Adam Telle, that the Army will set up a Futures and Autonomous Systems Command and a new executive office for buying autonomous systems; Axios reported it first. The memo tells that office to prioritize getting autonomous weapons, combat vehicles and supply boats into service no later than the 2028 budget year, and to spread two new specialist jobs, drone technicians and robotics technicians, across the Army.",
+   "after": "Breaking Defense reports, citing a memo it reviewed that was signed by Acting Army Secretary Adam Telle and a statement from an Army spokesperson, that the Army will set up a Futures and Autonomous Systems Command and a new executive office for buying autonomous systems; Axios reported it first. The memo tells that office to prioritize getting autonomous weapons, combat vehicles and supply boats into service no later than the 2028 budget year, and to expand two specialist jobs, drone technicians and robotics technicians, to all applicable Army units.",
+   "reason": "The statement came from a spokesperson (Telle signed the memo); the two jobs already exist and are being expanded, not 'new'."
+  },
+  {
+   "item_id": "C11-01",
+   "field": "importance_line",
+   "before": "The Army is reorganising to buy and field far more autonomous weapons and vehicles, which affects soldiers who will fight alongside them and the companies that sell to the Army; the reporting rests on one memo, and no budget or full timeline is given beyond a 2028 target.",
+   "after": "The Army is reorganising to buy and field more autonomous weapons and vehicles, which affects soldiers who will fight alongside them and the companies that sell to the Army; the reporting rests on one memo, and no budget or full timeline is given beyond a 2028 target.",
+   "reason": "'Far more' is not supported by the facts."
+  },
+  {
+   "item_id": "C11-02",
+   "field": "headline",
+   "before": "The United States is short of a key machine part it needs in order to compete in the race to build human-shaped robots.",
+   "after": "MarketWatch reports that the United States is short of a critical machine part, which it says holds the country back in the race to build human-shaped robots.",
+   "reason": "Headline-only item stated as fact without attribution and changed 'to win' into 'to compete in'."
+  },
+  {
+   "item_id": "C11-02",
+   "field": "importance_line",
+   "before": "A parts shortage could slow US makers of humanoid (human-shaped) robots and, later, the factories and customers who hope to use them; the headline does not say which part is meant or how large the shortage is.",
+   "after": "A parts shortage could slow US makers of humanoid (human-shaped) robots and, later, the factories and customers who hope to use them; which part is meant and how large the shortage is are not known.",
+   "reason": "Removed internal process note (headline-only wording) from published text."
+  },
+  {
+   "item_id": "C11-03",
+   "field": "importance_line",
+   "before": "Two leading Chinese robotaxi firms face a longer wait for profit and are looking to the Middle East and Europe, which matters to their investors and to cities hoping to host them; this is one analyst forecast, not a result.",
+   "after": "Two Chinese robotaxi firms face a longer wait for profit and are looking to the Middle East and Europe, which matters to their investors and to cities hoping to host them; this is one analyst forecast, not a result.",
+   "reason": "'Leading' is not in the facts."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "headline",
+   "before": "The German Army will begin training with new attack drones in November.",
+   "after": "Bloomberg reports that German soldiers are due to start training with new attack drones in November.",
+   "reason": "Headline-only item stated as fact without attribution and nearly the publisher's headline."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "summary",
+   "before": "Bloomberg reports that the German Army will start training with new attack drones next month, November.",
+   "after": "Bloomberg reports that the German Army is due to start training with new attack drones next month, November.",
+   "reason": "Facts support 'due to start', not a certain 'will start'."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "importance_line",
+   "before": "German soldiers are due to begin working with armed drones, which affects the army’s own troops and drone makers; the headline does not say which drones, how many or how large the training is.",
+   "after": "German soldiers are due to begin working with armed drones, which affects the army's own troops and drone makers; which drones, how many and how large the training is are not known.",
+   "reason": "Removed internal process note (headline-only wording) from published text."
+  },
+  {
+   "item_id": "C11-05",
+   "field": "summary",
+   "before": "DefenseScoop reports that ten warrant officers (senior technical specialists) finished a 19-week Robotics Technician Integrator course at Fort Bragg, North Carolina, on Friday, the first group in a new Army job that grew out of a Special Forces pilot. The graduates are meant to advise commanders on using drones, ground robots and electronic warfare tools, and Army leaders say they are “scaling this across the Army”, though for now the pilot stays within Special Forces.",
+   "after": "DefenseScoop reports that ten warrant officers (senior technical specialists) finished a 19-week Robotics Technician Integrator course at Fort Bragg, North Carolina, on Friday, the first group in a new Army job that grew out of a Special Forces pilot. The graduates are meant to advise commanders on using drones, ground robots and electronic warfare tools, and acting Army chief of staff Gen. Christopher LaNeve said in a press release, \"We are scaling this across the Army,\" though for now the pilot stays within Special Forces.",
+   "reason": "A quote must name its speaker; 'Army leaders' replaced by Gen. LaNeve."
+  },
+  {
+   "item_id": "C11-07",
+   "field": "summary",
+   "before": "Outlook India, summarising a Reuters report, says the Pentagon is weighing an expansion of a pilot that uses solar-powered, canoe-sized Seasats “Lightfish” robot boats to spot illegal crossings and drug smuggling on the Rio Grande, and may test them in the Gulf of Mexico and later the Pacific. The Pentagon told Reuters the boats helped with an average of 452 detections, 350 apprehensions and 100 turnbacks a month, but for now it is only studying an expansion, not committing to one.",
+   "after": "Outlook India, summarising a Reuters report, says the Pentagon is weighing an expansion of a pilot that uses solar-powered, canoe-sized Seasats \"Lightfish\" robot boats to spot illegal crossings on the Rio Grande, and may test them in the Gulf of Mexico and later the Pacific. The Pentagon told Reuters the boats helped with an average of 452 detections, 350 apprehensions and 100 turnbacks a month, but for now it is only studying an expansion, not committing to one.",
+   "reason": "'And drug smuggling' is not in the facts."
+  },
+  {
+   "item_id": "C11-07",
+   "field": "importance_line",
+   "before": "Migrants and smugglers on the Rio Grande may face near-constant robot surveillance, while border agencies get cheaper coverage; the results are the Pentagon’s own figures and the expansion is not yet decided.",
+   "after": "People crossing the Rio Grande could face more constant robot surveillance, and border agencies may get cheap, long-lasting coverage; but the results are the Pentagon's own figures and the expansion is not yet decided.",
+   "reason": "'Smugglers' is not in the facts; 'near-constant' and 'cheaper' softened to what the facts support."
+  }
+ ],
+ "unresolved": []
+}

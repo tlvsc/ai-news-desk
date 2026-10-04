@@ -1,0 +1,25 @@
+{
+  "item_id": "C01-04",
+  "title": "Jev was dethroned, and the StartLux China open-source decision-making model surged to the top spot.",
+  "source_used": "36Kr",
+  "article_url": "https://eu.36kr.com/en/p/4009510615027849",
+  "fetched": true,
+  "key_facts": [
+    "StartLux, a Shanghai AI company founded less than five months ago, officially released the open-source StartLux-Decision models on 30 Sep, according to 36Kr.",
+    "A decision model picks from options given to it (yes or no, one of three, a grade, a tool) instead of writing text first.",
+    "The 27B version scored 63.88 on Decision Index 0.2.1 against 57.91 for the latest Jev (1.13), beating it on 31 of 38 benchmarks; in chess against Jev 1.13 it won 35 of 36 games.",
+    "Those results are self-tests by the StartLux team using public tools and a snapshot of the public ranking as of 28 Sep 2026; a separate set of 7 public tests averaged 91.82% accuracy.",
+    "Five sizes were released (0.8B, 2B, 4B, 9B and 27B parameters) with quantized files for local use; the 4B version answers three questions at once in about 26 milliseconds on a single H200 GPU.",
+    "The company says it took about 3 days from choosing the direction to finishing the first round of development and checking, helped by an AI-assisted research system.",
+    "The article says high-risk actions such as payment, deletion and permission changes still need their original confirmation steps."
+  ],
+  "quote_evidence": [
+    "It should be noted that the above results are self-test results completed by the StartLux team based on public evaluation tools and the snapshot of the public Decision Index ranking as of September 28, 2026",
+    "In such chess games, StartLux won 35 out of 36 matches.",
+    "This time, StartLux's Decision model has launched 5 versions with 0.8B, 2B, 4B, 9B and 27B parameters in one go, and provides quantized models that support local deployment."
+  ],
+  "status": "PRELIMINARY",
+  "why_it_matters_hint": "A free, small decision model that runs on a home machine adds a Chinese rival to the Jev decision-model race, but the scores are the company's own.",
+  "event_date": "30 Sep 2026 (release date stated in the article); article published 3 Oct 2026 (04:13 UTC).",
+  "notes": "Read in full from the main session's fetch (HTTP 200). Continues yesterday's (2 Oct) item C01-01 'Amazon releases its own Jev clone as decision models flood the web' (TechCrunch, 1 Oct 2026). The headline is machine-translated and garbled ('Jev was dethroned...'). Tone of the article is promotional; claims such as 'world's strongest decision model' are the article's, not independently confirmed."
+}

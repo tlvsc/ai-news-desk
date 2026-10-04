@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-09",
+ "title": "Don’t be fooled—LLMs don’t reason",
+ "source_used": "MIT Technology Review",
+ "article_url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+ "fetched": true,
+ "key_facts": [
+  "This is an opinion essay by Thore Graepel, chair of machine learning at University College London and a former core member of the AlphaGo team at DeepMind.",
+  "He argues that today's large language models pick the next word over and over, which he likens to fast, gut-level 'system 1' thinking, and that chain-of-thought is still the same process run longer.",
+  "He names three shortcomings: no explicit, inspectable record of what the model holds as settled, doubted or ruled out; knowledge and reasoning tangled together in the weights; and chains of thought that are often made up after the fact, according to research he cites.",
+  "He contrasts this with AlphaGo's move 37 against Lee Sedol in March 2016, which he says came from AlphaGo's search over a game tree, not from its intuition, which gave the move about a 1 in 10,000 chance.",
+  "He says this is why he recently left his position at Google DeepMind and proposes systems that keep an 'epistemic state' and have an independent part check each reasoning step against evidence.",
+  "He says gains from chain-of-thought are real, above all in mathematics and coding, but that making 'system 1' bigger will not give trustworthy machine intelligence.",
+  "The piece gives no new test results; it is the author's argument."
+ ],
+ "quote_evidence": [
+  "I do not think we reach trustworthy machine intelligence by making system 1 bigger.",
+  "The gains have proved real, above all in mathematics and coding.",
+  "This is why I recently left my position at Google DeepMind."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A former DeepMind AlphaGo researcher says chatbots lack the checkable reasoning that science and medicine need.",
+ "event_date": "2 Oct 2026 (essay published)",
+ "notes": "Opinion essay, not a research finding or news report; the status label REPORTED means one outlet carrying one expert's view."
+}

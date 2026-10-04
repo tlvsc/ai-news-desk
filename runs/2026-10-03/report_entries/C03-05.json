@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "MOD",
+ "headline": "GitHub now lets developers start a Copilot code review from their own scripts and tools, and has made Balanced the standard review setting.",
+ "score": 5,
+ "score_reason": "A useful upgrade for teams already using Copilot, but a small change announced in a short changelog note.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams that use Copilot can build automatic code reviews into their own workflows, and the new default setting applies to anyone who never picked a level, though GitHub's note does not explain what Balanced does differently.",
+ "source": "GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "GitHub says developers on its Copilot Pro, Pro+, Max, Business and Enterprise plans can now request a Copilot code review through its REST and GraphQL APIs, which are ways for other software to talk to GitHub, and can choose how thorough each review should be. GitHub also says Balanced became the default review level on 28 Sep 2026, and anyone who had explicitly picked Lite kept it.",
+ "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full GitHub changelog entry from the fulltext file. The API support is new on 2 Oct 2026; the Balanced default was announced 28 Aug 2026 and took effect 28 Sep 2026 (stated in the summary). v1_category kept as default MOD."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-03",
+ "title": "SQC and Schneider Electric deploy hybrid quantum-classical models for energy forecasting",
+ "source_used": "Interesting Engineering",
+ "article_url": "https://interestingengineering.com/innovation/quantum-chip-energy-forecasting-australia",
+ "fetched": true,
+ "key_facts": [
+  "Silicon Quantum Computing (SQC), an Australian company, and Schneider Electric tested SQC's quantum-enhanced 'Watermelon' chip to improve household energy forecasting.",
+  "In the first stage, applied to next-day forecasting data over 12 months, the approach improved forecast accuracy by an average of 20 percent against a classical benchmark, with gains up to 41 percent.",
+  "The Australian government is giving A$3.6 million (US$2.5 million) so the project, run with UNSW Sydney, can move to stage two of its Critical Technologies Challenge Program.",
+  "Stage two will test hundreds of Australian homes and connect the quantum system directly to Schneider Electric's existing workflows.",
+  "The target problem is predicting energy demand and supply as homes add rooftop solar, batteries and electric vehicles.",
+  "Watermelon was launched in 2025 and is used for telecoms, banking and high-frequency trading; it can be accessed by cloud or bought as hardware.",
+  "The article says stage two will test whether the gains from the first trial hold when moving from a limited dataset to hundreds of real homes."
+ ],
+ "quote_evidence": [
+  "During the first stage of the program, researchers applied Watermelon to next-day energy forecasting data covering a 12-month period.",
+  "Compared with the classical benchmark, the quantum-enhanced approach produced an average 20% improvement in forecasting accuracy, with improvements reaching as high as 41%.",
+  "The second stage will test the technology on a much larger dataset covering hundreds of homes across Australia."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Better home energy forecasts could help manage rooftop solar and batteries, but the accuracy figures are the partners' own and not independently reviewed.",
+ "event_date": "Stage 2 funding announced about 1-2 Oct 2026 (Dealroom item 1 Oct 2026 23:41 UTC; Quantum Insider and Interesting Engineering 2 Oct 2026); stage 1 results cover a 12-month data period.",
+ "notes": "Original Computer Weekly blog blocked (403 Cloudflare). Same story read at Interesting Engineering; The Quantum Insider (press release text) read and agrees on all figures. Results come from a press release by the two companies; no independent check reported."
+}

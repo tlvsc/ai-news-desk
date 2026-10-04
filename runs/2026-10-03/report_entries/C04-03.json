@@ -1,0 +1,16 @@
+{
+ "item_id": "C04-03",
+ "v1_category": "RES",
+ "headline": "The makers of Lean, the software that checks AI-found math proofs, are adding safeguards after AI was used to trick it into accepting a false result.",
+ "score": 7,
+ "score_reason": "Reputable outlet with named experts and current reporting, but a specialist topic from a single source.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Mathematicians and anyone who relies on AI-made proofs, along with the AI companies that announce them, depend on these checkers, and Lean's creator says today's AI will not get past all the new layers of defence, but the article says the remaining risk is smaller, not zero.",
+ "source": "New Scientist",
+ "status": "REPORTED",
+ "summary": "New Scientist reports that Lean, the program used to show that AI-found math answers are correct, was fooled in July when an engineer used AI to find and exploit two bugs in two of its checking engines (called kernels) to back a false claim of disproving the famous Collatz conjecture. Lean's developers say they have added more checks, and the next version will ship with four kernels instead of one, though the article says the remaining risk is smaller but not zero.",
+ "url": "https://www.newscientist.com/article/2591256-mathematicians-and-ai-are-in-a-behind-the-scenes-battle-over-whats-true/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full article (main-session fetch had returned HTTP 406; retried with the default curl user agent). The July exploit is older; today's news is Lean's response. Single outlet."
+}

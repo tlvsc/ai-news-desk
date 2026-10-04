@@ -1,0 +1,26 @@
+{
+  "item_id": "C01-07",
+  "title": "Ai2 Open-Sources AstaBrief 8B for Fast Scientific Report Generation",
+  "source_used": "Unite.AI",
+  "article_url": "https://www.unite.ai/ai2-open-sources-astabrief-8b-for-fast-scientific-report-generation/",
+  "fetched": true,
+  "key_facts": [
+    "The Allen Institute for AI (Ai2) said on 2 Oct 2026 that it is open-sourcing AstaBrief 8B, which turns a research question and retrieved excerpts into a cited report, releasing weights and training data.",
+    "It runs as 'Fast mode' in Asta's Generate a report feature, beside the existing Claude-powered 'Thinking mode'.",
+    "Ai2 reports Fast mode averages 51.1 seconds per report versus 178.5 seconds for Thinking mode, about 3.5 times faster.",
+    "The model is licensed under Apache 2.0, based on Qwen3-8B, and meant for research and educational use; institutions can run it on their own hardware, even behind their own firewall.",
+    "On Ai2's ScholarQA-CS2 test it averaged 87 across the tracked metrics versus 77.3 for base Qwen3-8B; on DeepScholarBench it scored 53.50 versus 60.25 for Asta ScholarQA and 56.26 for DR-Tulu-8B.",
+    "In a small human study (three researchers, 14 questions) DR Tulu won on overall preference while two of the three preferred AstaBrief on citation accuracy.",
+    "Ai2 says most training and evaluation was finished in 2025 and has not been rerun against current frontier models.",
+    "Among 374 Asta users who tried Fast mode, 84.2% of feedback was positive versus 85.2% for Thinking mode, which Ai2 says is too sparse for strong conclusions."
+  ],
+  "quote_evidence": [
+    "Ai2 reports that DR Tulu won on overall preference, while two of the three researchers preferred AstaBrief over the other systems on citation accuracy.",
+    "Ai2 cautions that most of the training and evaluation was completed in 2025, that the proprietary models used to generate training data and serve as comparison points reflect the frontier at that time, and that it has not rerun the full evaluation against current frontier models.",
+    "The AstaBrief 8B model card states that the model is licensed under Apache 2.0, is based on Qwen3-8B, and is intended for research and educational use under Ai2’s Responsible Use Guidelines."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "A small open model can write cited science reports much faster than the Claude-based mode, and can run on an institution's own machines, but the quality figures are Ai2's own.",
+  "event_date": "2 Oct 2026 (Ai2 announcement).",
+  "notes": "Read in full from the main session's fetch (HTTP 200). The Unite.AI author line says the article is AI-generated and reviewed by editors. All benchmark numbers are Ai2's own."
+}

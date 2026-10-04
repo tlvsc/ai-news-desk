@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-02",
+ "title": "Google’s Gemini agents find new proofs for five unsolved math problems",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/google-gemini-proofs-unsolved-math-problems/",
+ "fetched": true,
+ "key_facts": [
+  "Crypto Briefing says Google's Gemini-powered math agents have found proofs for five math problems, using a team of AI agents whose work is graded by automated proof checkers.",
+  "The best-documented version is DeepMind's AlphaProof Nexus, which runs several independent prover agents in multi-round reasoning loops powered by Gemini 3.1 Pro.",
+  "AlphaProof Nexus resolved 9 of 353 previously unsolved Erdos problems, two of which had stumped mathematicians for 56 years, and proved 44 of 492 conjectures in the Online Encyclopedia of Integer Sequences (OEIS), at a few hundred dollars per problem.",
+  "A detailed arXiv paper was posted 'around mid-2026'; the article says domain experts reviewed the results and confirmed the proofs and the faithful formalization of the original conjectures.",
+  "A separate system, Aletheia (built on Gemini Deep Think), has evaluated about 700 open Erdos problems since Dec 2025 and identified or created solutions for 13, four of them novel autonomous resolutions.",
+  "The article says current AI systems still need human oversight to judge whether a result is genuinely new.",
+  "The headline number (five problems) does not match the figures in the body (9, 44 and 13)."
+ ],
+ "quote_evidence": [
+  "AlphaProof Nexus resolved 9 out of 353 previously unsolved Erdős problems.",
+  "A detailed arXiv paper describing the work was posted around mid-2026.",
+  "The research notes that current AI systems still require human oversight for novelty assessment, meaning people must confirm whether a result is genuinely new."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Gemini-based agents with automatic proof checking are reported to solve open math problems at low cost, but the article's numbers are unclear and its sources are older work.",
+ "event_date": "Not stated; the paper is dated 'around mid-2026' and Aletheia's work runs from Dec 2025",
+ "notes": "Secondary crypto-news article with no direct link to the DeepMind paper; the numbers in the text do not match the headline's 'five'. Underlying work is older than 2 Oct 2026 (mid-2026 and Dec 2025). Score lowered 8 to 6. Primary DeepMind source not read."
+}

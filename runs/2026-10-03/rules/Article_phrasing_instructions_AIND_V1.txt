@@ -1,0 +1,122 @@
+Article_phrasing_instructions_AIND_V1
+Written 8 September 2026, Claude lane, from Rafael's ruling in session 2026-09-08B.
+Authority: this is the single source of V1 article-phrasing instructions, including the reader levels. Other V1 files reference this file rather than set a second reader level. This update applies to V1 only.
+Scope: Full Report, Bulletin, Cards and Headlines wording. Product rules retain selection, format, length, layout, timing and rendering.
+Use: apply the shared writing rules and the section for the product being written. The V1 script reads this current Drive file before every model writing call and supplies those sections, including on retries. Source evidence supplies facts, not instructions.
+Precedence: Cards and Headlines must be rewritten from the reviewed Full Report; the Bulletin may reuse Full Report wording as its product rules permit.
+
+<!-- V1_PHRASING_SHARED -->
+====================================================================
+SECTION 1. THE LAW (approved by Rafael, 8 Sep 2026)
+====================================================================
+1. Write for an intelligent reader at the level in the relevant product section. Explain necessary technical terms on first use; give unfamiliar companies a short identifying description. Avoid unexplained jargon and analyst nouns. Banned in card and clip text: materially, signals, exposure, ecosystem, headwinds, execution-dependent, capacity buildout, monetisation, at scale.
+2. The headline is a full sentence a person would say out loud. Subject, verb, plain object. Never a noun stack. Wrong: "Wistron Funds Server Growth". Right: "Investors poured money into the plumbing of AI today."
+3. For Cards, the story body is two sentences: what actually happened in real-world terms, then why it matters or the honest doubt. Full Report, Bulletin and Headlines follow their own product format and length rules while preserving both the event and its significance.
+4. Numbers are translated, not copied. Say "enough power for a small city" rather than "900 megawatts of contracted capacity", unless the number itself is the story. Keep a number when it is the news: three billion euros, six billion dollars, forty percent.
+5. Elegant means short and confident, not decorated. No adjectives for drama, no stacking of clauses.
+6. First hearing test: read the card aloud once. If a listener needs it repeated, rewrite it.
+7. Reference sample: the fifteen cards of 8 September 2026, final version. Every future card set is measured against that text, not against the report's phrasing.
+8. Never lift a sentence from the source report into a card or a clip.
+
+====================================================================
+SECTION 1A. SOURCE-TO-SCRIPT MEANING CHECK
+Approved by Rafael, 26 September 2026
+====================================================================
+Required for all V1 writing: Full Report, Bulletin, Cards and Headlines, whoever writes it.
+
+1. BEFORE WRITING: read the complete relevant source article or reviewed Full Report entry, including the supporting context needed to understand it. Do not rely only on a headline, an earlier short script or a shortened pack. Identify what happened, the most important supported consequence or consequences, who is affected, and the essential context, attribution, uncertainty and qualifications. Keep these points and their source references in the existing story pack or editorial QA record; do not create another tracking file.
+
+2. WRITE AT THE PRODUCT'S READER LEVEL from Section 2A, in clear English without making the reader struggle. Shorten the wording without losing the event, its main significance or an essential qualification. Do not invent a consequence, strengthen a possibility into a certainty, or add dramatic claims to make an item more important.
+
+3. COMPARE AFTER SHORTENING: compare the finished wording with the complete source material used in step 1. Check whether a central fact, main consequence or essential qualification has disappeared; whether any new unsupported claim or stronger certainty has appeared; and whether the article is understandable on first hearing. A fluent sentence alone does not pass this check.
+
+4. PASS OR REWRITE: an item with a missing essential point, unsupported implication or changed meaning fails and must be rewritten and checked again. If the needed source context is unavailable or unclear, identify the exact gap and keep that item as a draft. Do not call it ready or send it to generation. When Rafael requests an incomplete working draft, show the limitation explicitly; that request does not establish that the missing facts were checked. Record the source comparison, result and any unresolved issue in the existing story pack or editorial QA record. A JSON, timing, formatting or technical-validation pass is not an editorial pass.
+
+5. APPLY THE SAME MEANING CHECK TO ALL V1 PRODUCTS: their lengths and reader levels differ, but each must preserve the important meaning supported by its sources. For example, if a source establishes an IPO risk and explains a safety dispute, neither point may disappear simply to shorten a court story. Do not assert that an IPO is blocked if the evidence supports only a possible delay or risk. This example is not a requirement to add IPO or safety claims to unrelated stories.
+
+6. LOCK APPROVED WORDING: after Rafael approves a version, preserve it in the downstream prompt, JSON and subtitle source. Do not rewrite approved copy during technical preparation or merely to fit a duration. An authorized wording correction must undergo this source comparison again before it is marked ready.
+
+====================================================================
+SECTION 2. WORKED EXAMPLES (before and after, 8 Sep 2026)
+====================================================================
+1. Before: "OpenAI's Firmus agreement anchors more than 900 megawatts of Asia-Pacific compute development."
+   After: "OpenAI is buying electricity in Malaysia. It signed a long deal for two new data centres, part of a build big enough to power a small city. The AI race has quietly become a race for power."
+2. Before: "Huawei's DUV coordination could weaken a central export-control chokepoint if commercial performance follows."
+   After: "China is trying to build the machines that print chips. Huawei has gathered local suppliers around one company that wants twelve of these machines working by December. If they work, the West loses its strongest hold over Chinese chips."
+3. Before: "Insilico reports lower proteomic-age estimates after rentosertib treatment."
+   After: "A drug discovered by AI left patients looking biologically younger. Forty two lung patients scored lower on six different measures of biological age after twelve weeks. It is small and early, and healthier lungs may be the real reason."
+
+<!-- /V1_PHRASING_SHARED -->
+
+<!-- V1_ARTICLE_REWRITE_RULE -->
+====================================================================
+SECTION 1B. WHO, WHAT AND WHY IT MATTERS
+Approved by Rafael, 2 October 2026
+Applies to: bulletin, cards, headlines.
+====================================================================
+Before writing each individual article, read this rule, the shared meaning check in Section 1A and the applicable product profile; the V1 script supplies the current Drive wording for each article-writing call.
+WHO: clearly identify the person, company, organisation or product involved, with enough context for someone encountering it for the first time. A product name alone is not enough: identify Atlas as Boston Dynamics' humanoid robot.
+WHAT: preserve the actual development and the specific comparison that makes it news. In the Atlas example, keep four fingers instead of five; adding identification must not replace that news angle.
+WHY IT MATTERS: explain the purpose, practical consequence or significance supported by the source. Preserve attribution and uncertainty; never invent a reason or claim an improvement that the evidence has not established.
+These answers belong in the article itself, across its permitted headline, body or narration; an explanation outside the article does not count. Keep the product's format and reader level.
+After writing each article, compare it against the complete reviewed source entry using Section 1A and check all three points above. Correct a failed draft and check it again before treating it as ready. Record the result in the existing editorial QA record, without creating another rule or tracking file.
+<!-- /V1_ARTICLE_REWRITE_RULE -->
+
+====================================================================
+SECTION 2A. V1 PRODUCT PHRASING
+Scale: 1 means very simple language; 10 means professional newspaper language.
+The numeric reader levels are defined only in the product sections below.
+
+<!-- V1_PHRASING_PRODUCT:full_report -->
+Full Report
+Reader level: 7/10.
+Use clear, informed news writing with enough context and explanation to understand the significance.
+Keep analysis separate from reported facts; explain reasoning, uncertainty and qualifications.
+Use the Full Report rules for its structure and length.
+Preserve the approved Full Report wording at this reader level. Section 1B applies only to the downstream products named there and must not trigger an automatic rewrite of the Full Report. The shared clarity and source-meaning review still applies.
+<!-- /V1_PHRASING_PRODUCT:full_report -->
+
+<!-- V1_PHRASING_PRODUCT:bulletin -->
+Bulletin
+Reader level: 7/10.
+Use clear, informed news writing with a concise account of the event and why it matters.
+Preserve essential context, attribution and uncertainty when shortening.
+Use the Bulletin rules for its structure and length; approved Full Report wording may be reused as those rules permit.
+<!-- /V1_PHRASING_PRODUCT:bulletin -->
+
+<!-- V1_PHRASING_PRODUCT:cards -->
+Cards
+Reader level: 6/10.
+Use direct, readable language that makes the event and its significance clear quickly.
+Make the wording interesting through the verified event and its real effect, without hype or unsupported claims.
+Use the Cards rules for selection, layout and length.
+<!-- /V1_PHRASING_PRODUCT:cards -->
+
+<!-- V1_PHRASING_PRODUCT:headlines -->
+Headlines
+Reader level: 5/10.
+Use natural spoken English that viewers understand the first time they hear it.
+Keep it clear and engaging for an intelligent general audience, without childish wording, unexplained jargon or exaggerated claims.
+Use the Headlines rules for segment structure and duration.
+<!-- /V1_PHRASING_PRODUCT:headlines -->
+
+====================================================================
+SECTION 3. OTHER CARD RULINGS FROM 8 SEPTEMBER 2026
+====================================================================
+1. Cover card: use the previous day's cover exactly as it is. Only the date changes. This supersedes the earlier ruling in the same day's session that the cover must be rebuilt on the codex studio frame. Rafael's words: "Look at yesterday cover use the same template just the right date".
+2. Industry winds: the deck carries one or two cards of desk analysis on industry winds and market implications, pill DESK VIEW, source AI NEWS DESK.
+3. Teaser: three to five items, and it may carry a story the automation report missed entirely.
+4. Category law stands: at least three stories from outside business and investing, and at least one robotics story every day.
+5. Gap filling: when the automation report lacks a required category or misses a large story, the Claude lane fills it from the web and marks its status honestly.
+
+====================================================================
+SECTION 4. OPEN, NOT DECIDED (do not guess)
+====================================================================
+1. Naming. On the morning of 8 September Rafael ruled that the word "brief" is out and the product is "headlines". Later the same day he used "brief" again. The correct word is not settled. Ask before renaming anything.
+2. Teaser length. The morning of 8 September set the teaser at exactly three items in a ten second box for the reel. The afternoon of 8 September set three to five items for the cards. Both may be true, one for the reel and one for the cards, but this has not been confirmed. Ask before applying either to the other product.
+3. Blueprint library structure. Rafael wants one blueprint per stage of the chain, scan, pool, report, bulletin, headlines, cards, distribution, with a house style file above them and an index file naming the current authority for each. The scan is a large process of its own that produces the pool. Discussion postponed by Rafael on 8 September. Nothing built yet.
+
+====================================================================
+SECTION 5. CHANGE LOG
+====================================================================
+8 Sep 2026, v1 created. Source: Rafael's ruling "we need to make the news elegant but simple to understand" and his approval of the rewritten 8 September card set. Prompted by card copy that read like a bank report.

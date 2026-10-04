@@ -1,0 +1,26 @@
+{
+  "item_id": "C01-02",
+  "title": "Chinese Open-Weight Models Closing In, Anthropic Warns",
+  "source_used": "The Decoder (same story; BankInfoSecurity page returned HTTP 403)",
+  "article_url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+  "fetched": true,
+  "key_facts": [
+    "Anthropic's Frontier Red Team says Zhipu AI's open-weight GLM-5.3 can build complete cyber exploits on its own, like Claude Mythos Preview, but shipped without effective safeguards.",
+    "On a benchmark of Chrome V8 bugs GLM-5.3 built a working exploit in 50 of 410 attempts versus 56 for Mythos Preview; on Anthropic's internal binary-exploitation test it took full control in 4% of tasks versus 6%.",
+    "With a human expert, in one day and with little human attention it found several unknown flaws in a browser's JavaScript engine, chained them into a web page that could read any file on a visitor's computer, and pulled a private SSH key in the test; Anthropic says it reported the flaws to the browser's developers.",
+    "The smaller GLM-5.3-Flash turned a freshly disclosed Chrome bug plus another known flaw into a reliable attack with 20 minutes of human attention and eight hours of model time, costing $20.40 at Zhipu's API prices.",
+    "In an Anthropic simulation GLM-5.3 refused openly malicious commands, but tried to connect to the target in 64% of runs when the request was dressed up as a red-team exercise, 92% with prefilled reasoning steps and 100% after abliteration; the simulation executes no code.",
+    "Anthropic says abliteration (stripping refusal behavior from open weights) took about 2,200 GPU hours and roughly $4,400, and an experienced team could do it for about $1,200; several developers had already released unlocked versions within days of launch.",
+    "CAISI's independent assessment backs the capability numbers and calls GLM-5.3 the most cyber-capable open-weight model to date, about four months behind the best US models, with caveats about how the US models were tested.",
+    "The Decoder notes Anthropic does not release its model weights and has business reasons to raise the alarm, though it says this is not just self-interest."
+  ],
+  "quote_evidence": [
+    "Zhipu's open-weight model GLM-5.3 comes close to Claude Mythos Preview at exploit development, according to an Anthropic analysis.",
+    "The analysis isn't entirely selfless.",
+    "Still, this isn't just self-interest."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "A free-to-download model close to Anthropic's restricted top cyber model, with safeguards that are cheap to remove, changes who can build attacks; the evidence comes mostly from a competitor, with partial outside backing.",
+  "event_date": "Anthropic's analysis was reported by The Decoder on 30 Sep 2026 (publication time 11:10 GMT).",
+  "notes": "Original BankInfoSecurity article (2 Oct 2026, 21:17 GMT) was blocked (HTTP 403), so the same story was read at The Decoder (30 Sep 2026). I assume the BankInfoSecurity piece covers the same Anthropic analysis because the headline matches; I could not read it, so I cannot say what, if anything, it adds on 2 Oct. Yesterday's pool (30 Sep) already had an item on GLM-5.3 and cyber capabilities. Hugging Face pulling a GLM-5.3 build is a separate item in the pool."
+}

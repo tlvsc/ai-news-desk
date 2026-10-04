@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-03",
+ "title": "Microsoft Delays Default Copilot Usage-Based Billing To Dec. 1, Adds Spending Cap Option",
+ "source_used": "CRN",
+ "article_url": "https://www.crn.com/news/ai/2026/microsoft-delays-default-copilot-usage-based-billing-to-dec-1-adds-spending-cap-option",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft has delayed default usage-based billing (UBB) for new Microsoft 365 Copilot Business subscriptions bought through its Cloud Solution Provider (CSP) reseller programme: originally 2 Nov, now 1 Dec 2026.",
+  "On 2 Nov Microsoft will instead open Partner Center sandbox environments so resellers can test UBB.",
+  "Copilot Business licences get an adjustable default spending limit of 4,000 Copilot Credits (about $40) per user per month; partners can set it to zero to turn UBB off.",
+  "Copilot Business plans cost $18 to $32 per user per month; advanced AI use is billed on consumption on top, and the products covered include Copilot Cowork, Work IQ APIs and GitHub Copilot Harness.",
+  "UBB will roll out first in unnamed 'supported markets'; Australia, Belgium, Brazil, France, Germany, India, Italy, Korea, the Netherlands, Poland and Spain will not initially support it.",
+  "The reseller or partner that receives the bill is ultimately responsible for all charges on the CSP account, including unexpected consumption.",
+  "Users who hit the limit can ask for more, and administrators approve or refuse; IT administrators can also keep Copilot Credits and UBB switched off.",
+  "Microsoft changed its 'Copilot in 30' trial rules: customers with existing Copilot seats are no longer eligible."
+ ],
+ "quote_evidence": [
+  "Originally set to start Nov. 2, usage-based billing (UBB) by default is now set to start Dec. 1, according to the Redmond, Wash.-based vendor.",
+  "Along with the rollout delay, Microsoft revealed that partners will have a default billing cap of 4,000 Copilot Credits—about $40—per user per month for M365 Copilot Business licenses.",
+  "Partners can set the spending limit to zero to turn off usage-based billing."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Resellers and their small-business customers get about a month more and a default spending limit before pay-per-use AI billing is switched on by default.",
+ "event_date": "Not stated for the delay itself; CRN says Microsoft updated its FAQ on Wednesday (30 Sep 2026) and its Copilot Credits Guide on Thursday (1 Oct 2026); CRN published 2 Oct 2026.",
+ "notes": "Continues the CRN story of 1 Oct 2026 (pool item 1001:C02-04, 'Microsoft Enables Consumption Billing By Default For Copilot Business'). New today: the delay to 1 Dec, the 4,000-credit default cap, the sandbox date, the list of countries left out. All details come from Microsoft documents as relayed by CRN. Exact date of the delay announcement not stated."
+}

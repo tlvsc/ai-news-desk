@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-10",
+ "title": "To decipher local laws, researchers used AI to build a database of millions of them",
+ "source_used": "University of California, Berkeley",
+ "article_url": "https://news.berkeley.edu/2026/10/02/to-decipher-local-laws-researchers-used-ai-to-build-a-database-of-millions-of-them/",
+ "fetched": true,
+ "key_facts": [
+  "UC Berkeley researchers led by Diag Davenport (Goldman School of Public Policy and School of Information) built a free, open-access database of local laws from all 50 states, which the university calls the first for local laws specifically.",
+  "The team collected nearly 10,000 documents, roughly 7 million pages, many of them blurry or poorly structured PDFs, from more than 3,000 counties and about 6,000 other local jurisdictions.",
+  "A vision-language model for reading scanned pages, LightOnOCR, extracted text and structure, and OpenAI models were used to tag and organize samples of the laws.",
+  "The database holds millions of unique ordinances and lets researchers search for patterns in how communities regulate housing, public space and business.",
+  "The team put a version online in June, and some people have already built searchable interfaces on it.",
+  "A paper on the project was accepted last week at NeurIPS, to be presented in December.",
+  "Davenport says future tools built on the data, such as chatbots for specific topics, must be free and public; he says the work was not possible until six to twelve months ago and was done at a larger scale than anyone else, as far as he knows."
+ ],
+ "quote_evidence": [
+  "The team published a version of the database online in June; some people have already created searchable interfaces based on the team’s work.",
+  "The resulting database contains millions of unique ordinances from all 50 states.",
+  "“As far as I’m aware, we’ve done this at a larger scale than anyone else.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Local laws that were scattered across thousands of hard-to-search sites can now be compared in one place.",
+ "event_date": "Database online June 2026 (exact date not stated); paper accepted the week before 2 Oct; release dated 2 Oct 2026",
+ "notes": "Official university release. The database has been online since June and the paper acceptance was last week, so score lowered 4 to 3 (older event). 'First-of-its-kind' and 'largest' are the team's own claims. The release gives no accuracy figures for the AI tagging."
+}

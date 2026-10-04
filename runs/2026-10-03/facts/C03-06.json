@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-06",
+ "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
+ "source_used": "InfoQ (original publisher)",
+ "article_url": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/",
+ "fetched": true,
+ "key_facts": [
+  "DigitalOcean launched DigitalOcean Managed Agents in public preview: a managed cloud layer for AI agents with isolated microVM runtimes, governed tool access and serverless AI inference.",
+  "It combines a Harness Runtime and an Action Gateway.",
+  "The Harness Runtime gives persistent, isolated compute for agents such as Claude Code, Codex CLI, OpenCode, Hermes and LangGraph-built agents; sessions can be paused, resumed or forked, and pause automatically when idle.",
+  "The Action Gateway gives agents one MCP endpoint to more than 16,000 tools, including web search, browser automation, DigitalOcean's own APIs and connectors for GitHub, HubSpot and Stripe.",
+  "The gateway has central permission settings, requires human approval for sensitive operations, and handles rate limiting, retries and timeouts.",
+  "InfoQ says it arrives around the same time as Docker's Cloud Sandboxes; the two overlap, but Docker's is more focused on developer workflows and DigitalOcean's on production infrastructure and orchestration.",
+  "Two people quoted on X.com, Elvis Saravia and Ryan Martin, were positive about it."
+ ],
+ "quote_evidence": [
+  "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference.",
+  "The gateway implements several security measures, including centralized permission management to define which tools and actions are available to each agent and requiring human approval for sensitive operations.",
+  "Docker Cloud Sandboxes are more focused on developer workflows, particularly the ability to move a sandbox between local and cloud compute, while DigitalOcean Managed Agents are more focused on production infrastructure, and provide more orchestration and tool support."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Another cloud provider is offering ready-made, locked-down places to run AI agents, a task developers have had to build themselves.",
+ "event_date": "Not stated exactly: InfoQ says \"recently launched\"; other outlets covered it on 1 to 2 Oct 2026",
+ "notes": "One outlet (InfoQ) relaying the company announcement; praise quoted is from two people on social media, not tests. It is a public preview. Exact launch date not given in the article, so freshness is NEW with that doubt noted."
+}

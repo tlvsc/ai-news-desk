@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-05",
+ "title": "Contest-Winning Microscope Video Is Full of AI Confabulations, Scientists Say",
+ "source_used": "Gizmodo",
+ "article_url": "https://gizmodo.com/contest-winning-microscope-video-is-full-of-ai-confabulations-scientists-say-2000820652",
+ "fetched": true,
+ "key_facts": [
+  "Nikon says it is 'carefully re-reviewing' information from National University of Singapore optical engineer Ning Xu after commenters accused him of using AI in his winning entry to the 16th annual Small World in Motion contest.",
+  "The entry, per Nature, showed cilia moving in lung tissue samples from a child with primary ciliary dyskinesia, with unidentified red, blue and purple structures beneath the cilia.",
+  "Nikon Instruments announced the win in mid-September and reposted it on LinkedIn last week, drawing criticism.",
+  "University of Florida bioengineering researcher Edward Phelps said the purple structures look like mitochondria but are arranged in a way that does not occur in biology, and the blue nodules resemble nuclei but do not act like them.",
+  "LinkedIn user Ian Donovan pointed out the video carried a SynthID watermark (Google DeepMind's AI marker), according to CNN.",
+  "Nikon says Xu is cooperating and supplied technical documentation; Nikon's updated blog post says an unsupervised neural-network method was used in post-processing to distinguish and visualize features.",
+  "Xu says the original footage of the cilia and their motion is real and AI was used only on reconstructed grayscale data to distinguish and color structures, without anatomical claims.",
+  "A fifth-place winner told the BBC the contest rules clearly said generative AI could not be used; as of Friday evening the organizers had no update."
+ ],
+ "quote_evidence": [
+  "Another LinkedIn user, UT Southwestern Medical Center PhD student Ian Donovan, pointed out that the video had a SynthID watermark, according to CNN.",
+  "Xu also stated that the original video of the cilia and its motion are real, and that AI was only used on the “reconstructed grayscale data to distinguish and color structures with similar morphology.”",
+  "As of Friday evening, a spokesperson for the contest organizers didn’t have any update on the situation for Gizmodo."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI-processed microscope images can look like real biology, and a contest and scientists are now asking where honest enhancement ends.",
+ "event_date": "Win announced mid-Sep 2026; criticism and Nikon's review statement came last week and over the weekend before this report (exact dates not stated)",
+ "notes": "Gizmodo summarizes reports from Nature, CNN, BBC and the Telegraph; no new finding today, only that Nikon is reviewing and organizers had no update. Score lowered 6 to 5 (older controversy, no new development)."
+}

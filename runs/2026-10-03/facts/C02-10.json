@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-10",
+ "title": "Gemini desktop to get broader Computer Use permissions",
+ "source_used": "TestingCatalog",
+ "article_url": "https://www.testingcatalog.com/gemini-desktop-to-get-broader-computer-use-permissions/",
+ "fetched": true,
+ "key_facts": [
+  "TestingCatalog spotted a new 'Additional sandbox options' setting under the computer use section of the Gemini desktop app.",
+  "Its description suggests Gemini could operate outside selected folders, access the internet and work across other apps without asking approval for every step.",
+  "High-stakes actions, including purchases or approving legal documents, would still need human confirmation.",
+  "The capability is currently associated with trusted testing, and Google has not announced when it will reach regular users.",
+  "Other unreleased desktop features in development include Tasks Mode and a revamped Gemini Spark.",
+  "Google officially introduced Gemini 4 Argon on 30 Sep 2026, first for selected cybersecurity experts through its Fairwind programme, and is evaluating it for computer use; Google has not confirmed any link to the desktop app capabilities.",
+  "TestingCatalog says presence in trusted testing gives no reliable launch date; some Gemini features ship quickly, others stay gated for months."
+ ],
+ "quote_evidence": [
+  "TestingCatalog recently spotted a new “Additional sandbox options” setting under the computer use section.",
+  "The capability is currently associated with trusted testing, and Google has not announced when it will reach regular users.",
+  "However, Google has not confirmed any connection between Argon and the capabilities now appearing in the Gemini desktop app."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Google may be preparing to let Gemini work across a whole computer with fewer prompts, but nothing is confirmed or dated.",
+ "event_date": "Not stated ('recently spotted'); TestingCatalog published it on 2 Oct 2026.",
+ "notes": "One outlet reading an unreleased setting; the story is about a possible feature, not a launch."
+}

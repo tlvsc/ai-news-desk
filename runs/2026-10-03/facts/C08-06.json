@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-06",
+ "title": "Lumentum CEO warns laser shortage could outlast the AI chip crunch",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/lumentum-ceo-warns-laser-shortage-could-outlast-the-ai-chip-crunch/",
+ "fetched": true,
+ "key_facts": [
+  "Lumentum CEO Michael Hurlston said at the RAISE Summit in Paris on 8 July that the shortage of indium phosphide, the material for lasers in AI data centre optical transceivers, could become more acute than the memory chip shortage.",
+  "On Lumentum's May earnings call he said demand for EML and pump lasers exceeds supply by more than 30%.",
+  "Nvidia put $2 billion into Lumentum in March and the same amount into Coherent, tied to future capacity access and purchase commitments, per Yahoo Finance coverage cited by the article.",
+  "The article says Lumentum expects to sell out its entire 2028 production capacity within the next two quarters.",
+  "China added indium phosphide to its export control list in February 2025; the article says Beijing controls about 70% of global refined indium and Chinese indium exports fell about 72% year on year by late 2025.",
+  "Lumentum's guidance suggests the laser imbalance will not ease between fiscal 2026 and fiscal 2027, with capacity added in phases from 2026 to 2028.",
+  "The article argues the laser shortage could limit how fast data centres can network their GPUs, even if they have enough chips."
+ ],
+ "quote_evidence": [
+  "The shortage of indium phosphide, I think, will become even more acute than what we see from the memory guys.",
+  "On Lumentum's May earnings call, Hurlston put a number on it: demand for EML and pump lasers now exceeds supply by more than 30%.",
+  "Between the two of us, I don't think we can service the demand that Nvidia and others are now putting on us."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A shortage of laser parts could limit how quickly AI data centres can link their chips, but this is one executive's view of his own market.",
+ "event_date": "8 July (remarks at RAISE Summit, Paris); May earnings call; the article gives no year, context points to 2026",
+ "notes": "OLDER NEWS RE-DATED: the pool date is 2 Oct 2026 but the article's own events are the 8 July conference remarks and the May earnings call. Year not stated in the text; inferred as 2026 from the surrounding dates (March investment, fiscal 2026/2027 guidance). Claims are the CEO's own and one outlet's reading; the article cites TechTimes, LEDinside and mlq.ai second-hand."
+}

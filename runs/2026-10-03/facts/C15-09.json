@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-09",
+ "title": "A quantum computer can work and still be a dead end",
+ "source_used": "CTech by Calcalist (article text read from the page's embedded article data)",
+ "article_url": "https://www.calcalistech.com/ctechnews/article/i41g9m967",
+ "fetched": true,
+ "key_facts": [
+  "Opinion piece by Dr. Guy Raz, co-founder, CEO and CTO of Q-Factor, published 2 Oct 2026 in Calcalist's CTech.",
+  "He argues the next quantum hardware race will be decided by scaling overhead: control, calibration, readout and error correction have to grow along with the number of qubits.",
+  "He says a design can fail even if every part works, because running the parts together becomes too complex; even modular designs can be held back by the links between modules.",
+  "He says neutral atoms are the most promising platform for the coming scaling phase.",
+  "He cites a Caltech array of 6,100 neutral-atom qubits and a Harvard-led team using up to 448 qubits for repeated error correction; the large arrays and the key fault-tolerant operations have been shown only separately.",
+  "He says Q-Factor, building on research at the Weizmann Institute and the Technion, is designing a much larger single atomic core aimed at the million-qubit scale, and has developed a method to reverse heating caused by two-qubit gates.",
+  "He says Q-Factor researchers and collaborators propose using helper atoms to improve readout, supported by simulations."
+ ],
+ "quote_evidence": [
+  "The next quantum hardware race will be decided by scaling overhead.",
+  "In the race to one million qubits, the challenge is not only getting there, but making sure the rest of the machine can scale with them."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A company founder names the control and readout burden as the main obstacle to very large quantum computers, but the piece also promotes his own design.",
+ "event_date": "Published 2 Oct 2026; opinion piece, no single event.",
+ "notes": "Opinion by the CEO of a company that sells the approach it favours; not an independent finding and no new test results. The page returned HTTP 200 but the article body sits in embedded JSON, which was used."
+}

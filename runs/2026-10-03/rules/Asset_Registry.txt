@@ -1,0 +1,212 @@
+﻿AI News Desk — ASSET REGISTRY
+
+
+This is the single asset list for names, current Drive locations, links, approval status and known recovery gaps. The reference entries formerly held in AIND_reference_library_index.txt are maintained here. The former index is retained for history; it is no longer a separate maintained asset list.
+An entry in the former index does not grant a new production approval. Existing approval scopes, candidate status, historical status and recovery limits are preserved below.
+For project routing and all daily storage rules, use AI News Desk — STORAGE & FILE ROUTING STANDARD (Drive ID 1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms). Product-specific production rules remain in each product's existing blueprint.
+
+
+CURRENT PRODUCT LOCATIONS
+Cards: AI_News_Desk / Card Master Permanent Assets
+Folder ID: 15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW
+Combined card blueprint/rules/structure: 1mA6HnSS3McV7rVxSEyW5tjVUGzsqGQyT. The rules and all card permanent material are together in this folder.
+Headlines (V1): AI_News_Desk / Blueprint_Library / Headlines blueprint
+Blueprint folder ID: 1k5SOW_vXFq4Oo0mIR36PjFJfwRDHh-8u
+Current V1 Headlines blueprint/rules/structure: Headlines_Master_Rules_Structure.txt (Drive ID 16ksAk7ClvmZoqvuYBuZsdn9fJ8NQXpmk), inside Headlines blueprint. This is the sole V1 Headlines rulebook; there is no inheritance from V9.1 or any older version. Headlines scripts (folder ID 1QNIzhYUOYo_0G34rfGMIdI_JX2JeOAoj) and Headlines Master Permanent Assets (folder ID 1ZSGR9LRdyRY1jS4egew_8RyOsBLyNkDH) are also inside Headlines blueprint. The permanent-assets folder holds the prompt, ComfyUI template, images, voice and reusable opening/ending assets. V1.1 and V2 retain their separate authorities.
+Shared/report/agent prompts: AI_News_Desk / Prompt Library / prompts, folder ID 1uzjcUMuZ7_1B_CEM3CIkWh_O0Sk45PBn. Product blueprints have moved out to their product folder. Shared resources are referenced by their original IDs, without duplicate uploads.
+Former Reference Assets (1OfzLXpJxuoeXyUsfu5igl6q11YTgxZ9X) and Cards_Master (1jtVignnfKrESrT5VXu0QTZjUaV-Ub0eR) were verified empty and moved into the existing archive (1zG753uYzi8qPzDlGSKlXayUjQILDSsfP). Do not use them for builds.
+
+
+JSON INPUT IMAGES
+AIND_start_frame_v9_B_400_2160x3840.png — https://drive.google.com/file/d/1iaNs1elbxwgzaGDzIpeftlPvF0tDmiFc/view
+AIND_codex_frame_hologram_matched_4K_6.png — https://drive.google.com/file/d/11QsVUtDr0uCmcjlJI7B-vsGcWcB2L-oA/view
+Working copies remain in C:\Users\erans\AppData\Local\Comfy-Desktop\ComfyUI-Shared\input.
+Voice: AIND_anchor_voice_sample_8s.mp3 — https://drive.google.com/file/d/1EiI1LA5zGOoUZS2v8DCpwIXAR1nX1Dp6/view
+
+
+FRAMING
+Instagram: AIND_start_frame_v9_instagram_check.jpg — https://drive.google.com/file/d/11kcWAaSAKMe-N0zj9mgwKeVI432sHubu/view
+TV boundary: AIND_holographic_TV_screen_boundary_GEOMETRY_V2_1080x1920.png — https://drive.google.com/file/d/1WQt7glaC3emTRfXLqtE3Qlw_BOFaI6WD/view
+TV blueprint V1 — https://drive.google.com/file/d/1kGDZCnOlvNMKrDpNFinGSdoNnZIDjjl5/view
+TV blueprint V2 clarification — https://drive.google.com/file/d/1roAs2ArL2CZEaypiqCLsq5ViD618_k60/view
+
+
+PROMPTS, JSON AND SEED
+V1 Headlines has no inherited rulebook. Earlier blueprint references are retained below as history.
+JSON template Aind_headlines_comfy_Master_workflow_template.json — https://drive.google.com/file/d/1iGUq1LtGtVm1toPhDTqhWOC4qIjIe2xV/view
+Control seed 1060749754396562 — AIND control seed 1060749754396562 — 2026-08-22
+Approved opening and hashtags — https://drive.google.com/file/d/1i8Vdm3qZhlmeL17x1mcVKzDUArLOX-cf/view
+Plain language law — https://drive.google.com/file/d/14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA/view
+
+
+CARDS
+Card background newsdesk_start_frame_v1.png — https://drive.google.com/file/d/1AP8GK_F3xa0GUXRJqXw3E0EzIZ012LwM/view
+The folder contains make_cards_Wed9-9-26.py. The current rules cite make_cards_Fri11-9-26.py; that newer original and the individual September 11 card PNGs have not been recovered. Do not label the older renderer as the current one.
+The older ASSETS_INDEX.txt is a historical inventory; its statement that the hologram image exists only on Raphael's machine is now superseded by the verified Drive copy above.
+
+
+REUSABLE STITCHING CLIPS
+Openings: https://drive.google.com/drive/folders/1DiOkFQKlz3aWHiz9DHl-jPvBsdcJbRSs
+Endings: https://drive.google.com/drive/folders/162kAHYI-KxGxoozqOHY7Npgr6s9oOnkl
+Openings / 2026-09-09: AIND_7Sep_opening_cover.mp4 — https://drive.google.com/file/d/18pCYYzFwdl620YENiP7B1sEkMP_nFU67/view
+Openings / 2026-09-11: AIND_Fri11-9-26_clip01_DATE_PREVIEW.mp4 — https://drive.google.com/file/d/1fZ6zYNiclrJR6F9iexxtI7rMHPtD3bO5/view
+Endings / 2026-09-09: AIND_Sat5-9-26_Last_clip_1088_00001_.mp4 — https://drive.google.com/file/d/1rk4OGcczLKrdE4WsvCjl2MNlL7JwNZVn/view
+The September 9 folder is provenance by reference edition, not a claim that the clips were generated that date.
+
+
+REGISTERED CHATGPT CARD RENDERER
+AIND_Cards_Implementation_2026-09-10.zip, original file ID 13Ic8tAb_IgWFUTWgrzmC0eLp4OxCzk3V, is now in Card Master Permanent Assets. Existing package bytes and ID preserved. Contains the registered aind_cards.py workflow and its rules/QA. This move does not claim that the package code implements the latest cover/ending revisions; current approved product rules govern, and code synchronization must be checked before a build. The dated Claude script is historical reference only.
+
+
+ASSET APPROVALS AND HISTORY
+
+
+AI NEWS DESK — ASSET REGISTRY
+Updated: Aug 18, 2026
+Purpose: identify approved, active, historical and pending assets and where they are stored.
+
+
+STATUS KEY
+APPROVED = current reference/production asset.
+ACTIVE = currently used but still being tested.
+HISTORICAL = retained for history; not current production truth.
+PENDING = available in this session but not yet archived to the dedicated Drive structure.
+CANDIDATE = under consideration; not yet selected or approved for production.
+
+
+CORE PROJECT DOCUMENTS — VERIFIED IN DRIVE
+• AI_News_Desk_Master_Plan_2026.docx — APPROVED strategic plan. Keep; do not replace without explicit instruction.
+• AI_News_Desk_Gold_Production_Standard_v1.docx / .md — APPROVED founding production baseline, subject to later dated overrides.
+• AI_News_Desk_Project_Information_v1.docx — reference summary; not a replacement Master Plan. Current location should remain unchanged unless Rafael instructs otherwise.
+• AI_News_Desk_Pilot_Shipping_Copy_v1.md — HISTORICAL / pilot release material.
+• AI_News_Desk_Pilot_Ship_Ready_v1.mp4 — HISTORICAL / pilot video asset.
+• AI_News_Desk_Pilot_End_Card_v1.png — HISTORICAL / pilot asset.
+
+
+EXISTING DRIVE ASSET FOLDERS — VERIFIED
+• logos — existing logo storage; do not relocate automatically.
+• videos — existing video storage; do not relocate automatically.
+• vids_raw — existing raw-video storage; do not relocate automatically.
+
+
+LOGOS — APPROVED
+• AI News Desk horizontal master logo — APPROVED.
+• AI News Desk circular master logo — APPROVED.
+• Rule: do not redesign or regenerate the logo without approval; exact logo treatment normally belongs in compositing/post.
+
+
+PRESENTER REFERENCES — APPROVED IDENTITY INPUTS
+• Rafael_Presenter_Reference_01_Neutral.jpg — APPROVED identity reference.
+• Rafael_Presenter_Reference_02_Smile.jpg — APPROVED expression reference.
+• Additional Rafael photos uploaded/reviewed during the 17 August work include neutral, three-quarter, profile and smiling references. These support identity geometry and expression.
+• Identity rule: real Rafael references override prose if there is a conflict.
+
+
+STUDIO / MASTER-FRAME REFERENCES
+• Existing AI News Desk studio/video imagery is the approved visual direction.
+• Do not invent a new studio when a real approved frame exists.
+• Current best new candidate reference source: 18 August paid Kling video judged approximately 95% good overall, but generated in 16:9. It is useful as reference material, not as a squeezed 9:16 production master.
+• Screenshots/frames uploaded on 18 August are PENDING archival review.
+
+
+VIDEO / PROMPT EXPERIMENTS — HISTORICAL OR ACTIVE
+• AI_News_Desk_2026-08-17_SIMPLE_8_SECTION_COPY_PASTE_PROMPTS — HISTORICAL failed/unsuitable production prompt package. Do not treat as current production prompt.
+• AI_News_Desk_2026-08-17_Complete_Generation_Package — HISTORICAL experiment. Useful for tracing what was attempted; not the current production prompt.
+• AI_News_Desk_Workflow_2026-08-17 — APPROVED historical record of 17 August workflow/production decisions; later decisions override specific earlier wording where documented.
+• kling_20260818_VIDEO_Create_one_1818_0.mp4 — ACTIVE reference from current session; approximately 95% good overall per Rafael, but wrong 16:9 aspect ratio for the final vertical production target.
+
+
+RENDERER / POST-PRODUCTION TOOL CANDIDATES — CURRENT
+• MiniMax H3 local ComfyUI workflow — ACTIVE / TESTING. An observed step-zero crash at 720 × 1280 was traced to incompatible latent geometry: the width becomes 45 after the current downsampling path, which is odd for 2 × 2 spatial patchification. Preferred next test: 736 × 1312 for more detail and VRAM headroom; lower-load fallback: 576 × 1024. Do not treat 800 × 1424 as safe under the same rule because 1424 ÷ 16 = 89, also odd.
+• LTX-2.5 by Lightricks — CANDIDATE, not selected. It is an open-weights audio-video model with image-to-video, audio-to-video and native multishot capabilities. Those features could reduce separate presenter/voice/lip-sync steps, but that benefit is unproven for this project. Official local ComfyUI guidance specifies a CUDA GPU with 32 GB+ VRAM; Rafael’s RTX 3090 has 24 GB. Third-party quantized/distilled builds exist, but operation within 24 GB is untested on Rafael’s machine.
+• Wan2.2 — CANDIDATE / SECONDARY. Strong general open video family, but not currently preferred over a renderer with a more integrated presenter-audio route.
+• Hallo3 — CANDIDATE / FALLBACK. Audio-driven portrait animation focused on identity consistency; local practicality and output quality for the full studio shot are untested.
+• Final-video upscaler — NOT INSTALLED / CANDIDATE. A lower-resolution native vertical render followed by upscaling only after the complete bulletin is assembled is under evaluation. No upscaler is approved or installed.
+• Post-production tools — ACTIVE / PARTIALLY TESTED. ffmpeg stitching, Whisper transcription and English subtitle burn-in on the i5 have been exercised. Repeatability, final visual QA and the complete automated chain remain to be verified.
+
+
+PROJECT OS — VERIFIED CREATED 18 AUGUST 2026
+• AI News Desk — MASTER PROJECT MEMORY — current project truth.
+• AI News Desk — DECISION LOG — chronological approved-decision history.
+• AI News Desk — LIVING WORKFLOW MAP — operational status/dependency map.
+• AI News Desk — ASSET REGISTRY — this file.
+• Session Handoffs folder — one dated handoff per working session.
+
+
+DEDICATED STORAGE FOLDERS — VERIFIED CREATED 18 AUGUST 2026
+• Daily Global AI Intelligence Reports
+  • 2026-08-17
+  • 2026-08-18
+• Prompt Library
+Current product references: Card Master Permanent Assets (15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW) is directly under AI_News_Desk. Headlines Master Permanent Assets (1ZSGR9LRdyRY1jS4egew_8RyOsBLyNkDH) is inside AI_News_Desk / Blueprint_Library / Headlines blueprint. See the current product-location block at the beginning of this document.
+Current product references: Card Master Permanent Assets (15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW) is directly under AI_News_Desk. Headlines Master Permanent Assets (1ZSGR9LRdyRY1jS4egew_8RyOsBLyNkDH) is inside AI_News_Desk / Blueprint_Library / Headlines blueprint. See the current product-location block at the beginning of this document.
+
+
+ARCHIVAL RULES
+• Never overwrite source/master assets.
+• When a new asset becomes approved, record exact filename/location here.
+• If an asset is superseded, mark it HISTORICAL/DEPRECATED rather than deleting its history.
+• Do not move legacy assets merely to make the folder tree look cleaner; move only when explicitly approved or already within an approved migration action.
+
+
+
+
+ASSET SYNC — 1 SEPTEMBER 2026 — CLAUDE PRODUCTION EVIDENCE
+
+
+LOCKED / ACTIVE
+• Start frame v9 option B, logo width 400: locked vertical production reference.
+• v9 clasped-hands still: approved stable posture reference.
+• v9 Instagram safe-zone check: validated reference for vertical framing.
+• AI News Desk master logo artwork and keyed hologram assets: approved post-production sources.
+• Approved navy/cyan studio plate and presenter-left composition: unchanged.
+• Final delivery master: 1080 × 1920, 30 fps.
+
+
+PRESENTER DATASET
+• Forty-three presenter stills are indexed; priority-A images represent the intended “five years fresher” appearance.
+• Short presenter video references and Rafael's voice sample are available for Ref2V and future LoRA preparation.
+• Real skin texture was intentionally preserved; do not train on plastic face-restored portraits.
+
+
+STUDIO DATASET
+• Current assets strongly represent one locked camera angle.
+• This is sufficient for the active Ref2V pipeline but insufficient for a general studio LoRA.
+• Acquire or generate controlled multi-angle studio material before studio-LoRA training.
+
+
+WORKFLOW ASSETS
+• Decoded H3 workflow baseline: Ref2V, 544 × 960, Euler/simple, one speed LoRA, nine clip branches, locked reference images/video/audio.
+• The existing speed LoRA is not a custom presenter or studio LoRA.
+• One top-level workflow file is a 105-character stub and is not a usable production graph; complete archive versions exist for the nine-clip workflow family.
+
+
+MEDIA GAPS
+• Claude's media index records approved card/reel packages and related media that existed only in old Claude chats and were not saved to Drive.
+• Recover originals before deleting any Claude chat. If recovery is impossible, regenerate and label the result REGENERATED.
+
+
+See the canonical reconciliation document in 00 — PROJECT OS for the complete asset lineage and missing-media procedure.
+
+
+REFERENCE LIBRARY AND RECOVERY STATUS
+The current product folders and exact asset links are recorded at the start of this registry. Reusable openings and endings retain their reference-edition folders and unchanged filenames; a filename date can predate its reuse.
+The individual September 11 card originals and make_cards_Fri11-9-26.py remain recorded as unrecovered. The older renderer and combined image are not substitutes for missing originals. The registered ChatGPT card package and its synchronization limit are recorded above.
+
+
+APPROVED FINAL CARD COVER REFERENCE — CURRENT RAFAEL DECISION
+Rafael approved the latest displayed cover as the final reference for the cards cover and instructed that these are the current cover rules until he changes them. This supersedes the previous pending-cover status and conflicting older cover layout instructions only.
+Use the approved image as the visual reference: studio and presenter lowered slightly so the holographic screen stays inside the frame; retain Today in AI at the accepted size; reduce the title-to-date gap; stack in above cards on the right, larger and bold as displayed; retain the blue edition date, existing tagline, branding and progress marks. The reference's edition date is example content, not a permanent date for future covers. Preserve the approved image without regeneration or overwrite.
+Approved cover reference: AI_News_Desk / Card Master Permanent Assets / exec-77e747fb-bd8f-4f57-bf6a-234f19e7bb5c.png, file ID 1Jaz1oyGJbH-vBo5ipGBBxSegQZ_IXml0. Original filename and image bytes preserved.
+Approval scope is the cover reference and its rules. Renderer-code synchronization, a complete daily deck, a video, and publication are not claimed by saving this reference. Next requested topic: review Rafael's edited advert endings for logical phrasing and native English; do not treat suggested copy corrections as approved replacements.
+
+
+
+
+SUPERSEDED HEADLINES REFERENCES — RETAINED FOR HISTORY
+The following former V1 location and authority wording is historical only. Use the current product-location block above. V1.1 and V2 retain their separate authorities.
+Headlines: AI_News_Desk / Headlines Master Permanent Assets
+Folder ID: 1ZSGR9LRdyRY1jS4egew_8RyOsBLyNkDH
+Current Headlines blueprint/rules/structure: V9.2 (1jbb9kiUbb7GZr5I5izBE133X71KGnnaI), inheriting V9.1 (1xoHG5FVqSvQvOu9WPnTSSZo2pkJ3l6uF) only where V9.2 does not override it. Blueprints, JSON seeds/workflows, images, voice and reusable opening/ending folders are together here. This reuses the former Production Assets folder ID; no separate Production Assets library remains.
+Current product references: Card Master Permanent Assets (15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW) and Headlines Master Permanent Assets (1ZSGR9LRdyRY1jS4egew_8RyOsBLyNkDH), directly under AI_News_Desk. See the current product-location block at the beginning of this document.
+END OF SUPERSEDED HEADLINES REFERENCES

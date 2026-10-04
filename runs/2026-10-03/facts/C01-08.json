@@ -1,0 +1,25 @@
+{
+  "item_id": "C01-08",
+  "title": "AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision",
+  "source_used": "The Decoder",
+  "article_url": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+  "fetched": true,
+  "key_facts": [
+    "A Mercor study had 12 licensed CPAs (average 5.5 years of experience) work through simplified tasks from the APEX Accounting Benchmark.",
+    "The article says AI models are faster, more accurate and far cheaper than the accountants at structured bookkeeping tasks.",
+    "The accountants averaged about 37 percent; 18 months ago the best models scored below that, and today they solve the same tasks almost flawlessly.",
+    "The full APEX Accounting benchmark has 160 tasks across 10 simulated companies, built by more than 40 professionals averaging 11 years of experience.",
+    "On it, Claude Opus 5.5 leads with 61.8 percent of grading criteria met, followed by Fable 5.1 at 61.0 percent and GPT-6 Astra at 57.9 percent.",
+    "Mercor says no model fully solved almost 60 percent of the tasks, so AI cannot close the books without oversight yet.",
+    "Mercor admits the study tests what AI does best (hunting down details, following instructions) and leaves out client talks, colleague check-ins and years of built-up context; it expects major productivity gains but says accountants cannot be replaced."
+  ],
+  "quote_evidence": [
+    "AI models are faster, more accurate, and far cheaper than accountants at structured bookkeeping tasks.",
+    "Still, Mercor says no model fully solved almost 60 percent of the tasks.",
+    "Mercor also admits the study's tasks test exactly what AI does best, which is hunting down details and following instructions precisely."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "AI now matches or beats accountants on simplified bookkeeping tasks, but the study itself says it leaves out much of the real job.",
+  "event_date": "Not stated; The Decoder article dated 2 Oct 2026.",
+  "notes": "Read in full from the main session's fetch (HTTP 200); the article is short. The study is Mercor's own, relayed by one outlet; study publication date not stated."
+}

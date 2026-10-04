@@ -1,0 +1,271 @@
+{
+ "edition": "2026-10-03",
+ "note": "Card wording written by Fable agents from the 3 Oct 2026 Full Report entries, then checked by a script and a stranger check.",
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "item": "C13-03",
+   "cat": "Politics and government / Canada",
+   "head": "Canada's prime minister has set up a national council to advise on making AI safer.",
+   "body": "Mark Carney named AI researcher Yoshua Bengio and others to advise on strategy and safety. It only gives advice, and its powers, budget and start date are not yet known.",
+   "src": "CBC",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "item": "C06-03",
+   "cat": "Market, industry and finance / Funding",
+   "head": "Robot software start-up FieldAI is reportedly raising $700 million from investors.",
+   "body": "The deal would make the robot software maker worth five times its value last year. It rests on one unnamed source, and the deal may not have closed yet.",
+   "src": "Business Insider",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "item": "C07-01",
+   "cat": "Market, industry and finance / Stock market",
+   "head": "Nvidia's shares touched a record price on Friday for the first time since May.",
+   "body": "Investors came back after a summer slump wiped over a trillion dollars off its value. The gain shrank by the close, and the shares ended just below the May record.",
+   "src": "Bloomberg",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "item": "C07-07",
+   "cat": "Market, industry and finance / AI prices",
+   "head": "US companies now use far more AI than in July yet pay less for it.",
+   "body": "Spending tracker Ramp says AI use rose by about half since July while bills fell. Its economist puts that down to OpenAI and Anthropic undercutting each other on price.",
+   "src": "The Decoder",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "item": "C12-03",
+   "cat": "Security and cyber / Mac apps",
+   "head": "Apple will make it harder for Mac apps to read everything on your computer.",
+   "body": "Apple says AI agents make such access riskier, so users must give very clear permission. It has not said what the new controls are or when they start.",
+   "src": "TechCrunch",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "item": "C12-02",
+   "cat": "Security and cyber / Fraud",
+   "head": "An AI-copied voice and a fake WhatsApp text reportedly fooled an Italian banker.",
+   "body": "Italian bank Fideuram's former president was tricked in February into sending about 95 million euros. Much was recovered, but at least 36 million euros are still missing, a newspaper reports.",
+   "src": "L'Unione Sarda.it",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "item": "C08-01",
+   "cat": "Energy and infrastructure / Chips",
+   "head": "Samsung reportedly wants over triple today's price for its next AI memory chips.",
+   "body": "This is next year's newer version of the memory that sits beside AI processors. The figure is a proposal in ongoing talks, not a signed contract price.",
+   "src": "TokenPost",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "item": "C09-02",
+   "cat": "Energy and infrastructure / Nuclear power",
+   "head": "An Oracle data center in Wisconsin may soon run partly on nuclear power.",
+   "body": "We Energies would let Oracle take up to a fifth of a nuclear plant's electricity. Regulators must approve it, and the utility says other customers would save on fuel costs.",
+   "src": "Wisconsin Watch",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C11-07",
+   "cat": "Robotics / Boats",
+   "head": "The Pentagon may add up to 50 robot boats to patrol the Rio Grande border.",
+   "body": "Ten canoe-sized, solar-powered boats already patrol the river and can stay out for months. It says they help catch hundreds a month, but the expansion is only under study.",
+   "src": "Outlook India",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "item": "C02-01",
+   "cat": "Models and tools / Meta",
+   "head": "Meta opened up its Muse AI so hobbyists can build their own gadgets around it.",
+   "body": "The free code wires Muse, Meta's new AI assistant, to homemade screens, buttons and sensors. Meta also gives away 5,000 home-control boxes but warns builders: proceed at your own risk.",
+   "src": "The Verge",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "item": "C04-01",
+   "cat": "Research and science / Mathematics",
+   "head": "Meta says its Muse chatbot helped mathematicians crack five unsolved problems.",
+   "body": "The chatbot suggested proofs and examples, and named mathematicians then checked and corrected them. No outside review is reported, and other teams independently found some of the answers.",
+   "src": "Meta AI Research",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "item": "C13-01",
+   "cat": "Ethics and law / Courts",
+   "head": "An appeals court froze Minnesota's law against AI-made fake nude pictures, for now.",
+   "body": "Elon Musk's AI firm xAI won the pause while it sues, calling the law unconstitutional. It was America's first such ban, and a lower court had refused xAI last month.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "item": "C10-08",
+   "cat": "Health / Hospitals",
+   "head": "Fewer patients died after 11 hospitals let an AI warning call the emergency team.",
+   "body": "Deaths among high-risk adults fell by about a fifth once the alerts began, researchers report. The study only compared two periods, so the alerts may not be the cause.",
+   "src": "2 Minute Medicine",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "item": "C05-02",
+   "cat": "Society and education / Art",
+   "head": "Pope Leo says telling human art apart from machine-made work is becoming urgent.",
+   "body": "He wrote on X that machines just calculate from millions of images other people made. He added that 'algorithms lack the spark of humanity', an opinion rather than a rule.",
+   "src": "TechCrunch",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "item": "C16-01",
+   "cat": "Fun and humour / Fake photos",
+   "head": "An Airbnb guest on Reddit says a host's $1,700 toilet-flood 'proof' was an AI photo.",
+   "body": "Google's Gemini chatbot spotted its own hidden watermark in the photo, the post says. The bill was rejected, the guest adds, though it all rests on one unconfirmed post.",
+   "src": "PC Gamer",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "item": "C07-04",
+     "cat": "Market, industry and finance",
+     "head": "A market to buy and sell AI computing power in advance is reportedly coming."
+    },
+    {
+     "id": "t2",
+     "item": "C08-02",
+     "cat": "Energy and infrastructure",
+     "head": "China's buying spree at chip-tool maker ASML reportedly spurs US calls for a total ban."
+    },
+    {
+     "id": "t3",
+     "item": "C01-01",
+     "cat": "Models and tools",
+     "head": "Alibaba's free Qwen AI steers clear of topics China's rulers dislike, a start-up says."
+    },
+    {
+     "id": "t4",
+     "item": "C14-02",
+     "cat": "Society and education",
+     "head": "The US added only 29,000 jobs in September, and more employers blame AI for cuts."
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / Desk view",
+   "head": "AI is getting cheaper to use but may cost more to build, and banks are stepping in.",
+   "body": "Businesses pay less to use AI, while banks reportedly arrange a $60 billion chip loan. Watch whether it closes: that shows if lenders still back AI chips.",
+   "src": "AI NEWS DESK",
+   "pill": "DESK VIEW",
+   "refs": [
+    "C06-01",
+    "C07-01",
+    "C07-07"
+   ]
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ]
+}

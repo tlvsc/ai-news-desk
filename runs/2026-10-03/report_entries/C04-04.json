@@ -1,0 +1,16 @@
+{
+ "item_id": "C04-04",
+ "v1_category": "RES",
+ "headline": "Nvidia researchers report that seven openly available AI models became far less accurate on simple tasks as the amount of text they had to handle grew.",
+ "score": 5,
+ "score_reason": "Preprint released 30 Sep 2026 (two days old), known only through one secondary outlet, with no outside review reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and companies building AI agents that work through long documents are affected, because the paper suggests a model that accepts long text may not reliably work through it, but this is one unreviewed preprint covering seven open models and simple tasks.",
+ "source": "Crypto Briefing",
+ "status": "PRELIMINARY",
+ "summary": "Crypto Briefing reports on a 30 September Nvidia paper in which seven openly available AI models were tested on basic jobs such as sorting and arithmetic, and their average accuracy fell by 62.8 percent when the input grew from 4,000 to 128,000 tokens (small pieces of text). Nvidia's own Nemotron Super model dropped from 0.711 to 0.138 on the paper's accuracy scale, and the authors advise splitting long jobs into smaller steps.",
+ "url": "https://cryptobriefing.com/nvidia-paper-ai-models-long-tasks-accuracy/",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "notes": "Paper released 30 Sep 2026; coverage dated 2 Oct 2026. Score lowered 6 to 5 (stale, preprint, one secondary outlet). The paper itself was not read."
+}

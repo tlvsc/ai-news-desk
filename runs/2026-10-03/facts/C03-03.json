@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-03",
+ "title": "Database startup Supabase raises $150M, acquires Turso",
+ "source_used": "SiliconANGLE (original publisher)",
+ "article_url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
+ "fetched": true,
+ "key_facts": [
+  "Supabase, which sells a paid, managed version of the open-source PostgreSQL database, raised $150 million.",
+  "Singapore's GIC sovereign wealth fund led the round, joined by Alphabet's CapitalG, IronArc and SquarePeg.",
+  "Supabase also agreed to buy fellow database startup Turso for an undisclosed sum.",
+  "Turso offers a database for AI agents built on SQLite, a small open-source database that runs on low-power devices and starts almost instantly.",
+  "Supabase also introduced Supabase Compute, a new cloud service that gives long-running AI agents hosted sandboxes; SiliconANGLE says Turso could help it.",
+  "Supabase will use the money for employee liquidity and new AI agent features.",
+  "Co-founder and CEO Paul Copplestone wrote in a blog post that agents are spinning up millions of databases."
+ ],
+ "quote_evidence": [
+  "Supabase announced the raise today alongside another business milestone: it has agreed to buy fellow database startup Turso for an undisclosed sum.",
+  "“Agents are spinning up millions of databases to power the prototypes, explorations, dashboards, and apps they’re building,”",
+  "Supabase will use the proceeds from its funding round to provide liquidity for employees and build new AI agent features."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows money flowing to database tools built for AI agents, and a consolidation of two database startups.",
+ "event_date": "2 Oct 2026 (\"announced today\")",
+ "notes": "Single outlet (SiliconANGLE) relaying the company announcement. Deal is \"agreed\", closing not stated. Price undisclosed. The \"Turso could help Supabase Compute\" point is SiliconANGLE's own analysis."
+}

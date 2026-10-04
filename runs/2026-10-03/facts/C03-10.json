@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-10",
+ "title": "Device Streaming and Android skills - available in Android CLI",
+ "source_used": "Android Developers Blog (Google; original publisher)",
+ "article_url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html",
+ "fetched": true,
+ "key_facts": [
+  "Google updated Android CLI, its command-line tool that AI agents and other tools use to create, build, test and manage Android projects.",
+  "New: Android Device Streaming lets an agent use real physical devices remotely, as if plugged in over USB, over a secure ADB over SSL connection.",
+  "Through the terminal an agent can start devices, deploy builds, collect logs and traces, and take screenshots.",
+  "Google says its Android skills repository, structured SKILL.md instruction files that give agents official Android guidance, now has over 20 skills and that all skills are evaluated.",
+  "A new Wear Compose Material 3 skill covers Wear OS (smartwatch) app design.",
+  "Google says the skills work with Android Studio, Antigravity and third-party agents such as Claude and Codex.",
+  "Google quotes FotMob's Android tech lead saying one skill let the team migrate eight lists in an afternoon; the article says the changes compiled and were checked on an emulator."
+ ],
+ "quote_evidence": [
+  "Android Device Streaming gives you access to real physical devices, remotely.",
+  "Android skills are structured instructions (SKILL.md files) that ground AI agents with our official guidance from developer.android.com.",
+  "Skills are designed to be environment-agnostic."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Lets AI coding agents test Android apps on real hardware without the developer owning each device, and adds guidance files so agents follow Google's current advice.",
+ "event_date": "2 Oct 2026 (feed date for the Android Developers Blog post)",
+ "notes": "Official Google blog post, so the benefits and the FotMob result are Google's own selected evidence. Pool source label was blog.google; the link is the Android Developers Blog."
+}

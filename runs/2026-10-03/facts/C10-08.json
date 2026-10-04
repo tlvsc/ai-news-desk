@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-08",
+ "title": "Artificial intelligence (AI)-triggered rapid response notifications were associated with lower mortality among inpatients",
+ "source_used": "2 Minute Medicine",
+ "article_url": "https://www.2minutemedicine.com/artificial-intelligence-ai-triggered-rapid-response-notifications-were-associated-with-lower-mortality-among-inpatients/",
+ "fetched": true,
+ "key_facts": [
+  "Nahass and colleagues studied an AI-powered electronic alert system that automatically notifies the rapid response team (RRT) when the Epic Deterioration Index (EDI) risk score reaches at least 60.",
+  "The study covered adult admissions at 11 hospital sites: 10,803 patients before the system went live (scores calculated but not used) and 12,329 afterward.",
+  "Unadjusted in-hospital mortality fell from 23.1% to 18.6% (2,500 deaths versus 2,297), an absolute difference of 4.5 percentage points; the adjusted odds ratio for death was 0.82 (95% CI 0.74-0.91).",
+  "Rapid response activations rose from 25.3% to 37.5%; escalation to higher-level care did not rise significantly.",
+  "Only 46.6% of post-implementation encounters produced a notification, because some were filtered out (for example existing intensive or comfort care, or recent alerts).",
+  "For patients just below the threshold (EDI 55-59) the adjusted odds ratio was 0.99 (95% CI 0.70-1.39); just above it was 0.86 (95% CI 0.63-1.17).",
+  "Limits: unequal seasonal distribution of the before and after periods, incomplete implementation at two hospitals, and uncertain generalizability beyond the sites studied."
+ ],
+ "quote_evidence": [
+  "Automated rapid response team notifications were associated with lower inpatient deaths and more rapid response activations.",
+  "The study found that unadjusted mortality decreased from 23.1% before implementation to 18.6% afterward, with an adjusted odds ratio of 0.82.",
+  "This study was limited by unequal seasonal distributions of the pre- and post-intervention phases, incomplete implementation at two hospitals, and uncertain generalizability beyond the sites studied."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Linking an AI deterioration score to automatic alerts for the response team was associated with fewer deaths among high-risk inpatients, in a before-and-after comparison.",
+ "event_date": "Not stated; the article does not name the journal or the study's publication date. 2 Minute Medicine published 3 Oct 2026.",
+ "notes": "One outlet summarising a study; the journal and any outside review are not named. Before-and-after design, not a randomised trial; the near-threshold comparison was not conclusive. The Epic Deterioration Index is a tool from Epic (see C10-01)."
+}

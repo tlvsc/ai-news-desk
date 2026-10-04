@@ -1,0 +1,16 @@
+{
+ "item_id": "C03-10",
+ "v1_category": "MOD",
+ "headline": "Google updated its Android command-line tool so AI coding agents can test apps on real devices hosted remotely, and added more instruction files for agents.",
+ "score": 4,
+ "score_reason": "A useful tool update for Android developers who use AI agents, but it is a vendor blog post with one chosen success story and no wider data.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Android developers who use AI agents can test on real devices they do not own and get fresher guidance for the agents, though the only result given is one handpicked example from the app maker FotMob.",
+ "source": "Android Developers Blog",
+ "status": "CONFIRMED",
+ "summary": "Google's Android Developers Blog says its Android CLI, a text-based tool that AI agents use to build and test Android apps, can now connect agents to real physical devices over the internet through Android Device Streaming, so they can install builds, collect logs and take screenshots. Google also says it now offers more than 20 skills, short instruction files that give agents its official Android guidance, including a new one for Wear OS smartwatch apps.",
+ "url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Read the full Google blog post from the fulltext file. Source changed from the pool label blog.google to the publisher name Android Developers Blog. v1_category kept as default MOD."
+}

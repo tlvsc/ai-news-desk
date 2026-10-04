@@ -1,0 +1,25 @@
+{
+  "item_id": "C01-10",
+  "title": "OpenAI retires gpt-5.4-cyber on 20 days' notice, where its policy sets months",
+  "source_used": "FourWeekMBA (same story; MIXED Reality News blocked, HTTP 403 / Cloudflare)",
+  "article_url": "https://fourweekmba.com/ai-openai-gpt-54-cyber-deprecation-notice/",
+  "fetched": true,
+  "key_facts": [
+    "OpenAI's deprecations page has an entry for gpt-5.4-cyber dated 11 Sep 2026 with a shutdown date of 1 Oct 2026, according to FourWeekMBA, which read the page directly on 2 Oct 2026.",
+    "The 20-day interval is FourWeekMBA's own arithmetic; the page does not state 20 days or any notification date.",
+    "The entry says the model is deprecated and will be removed from the API on 1 Oct 2026 and tells users to migrate to 'the most capable cyber model available to you'; it names no replacement.",
+    "OpenAI's policy on the same page: unless safety or compliance concerns require a faster timeline, minimum notice is at least 6 months for generally available models and at least 3 months for specialised variants.",
+    "The page gives no reason for the short notice, does not say which tier the model is in, and does not say whether the safety or compliance exception was used.",
+    "Other 2026 entries on the page gave about 182 to 184 days of notice (97 days for text-to-speech models).",
+    "FourWeekMBA did not test the API and did not confirm that the model was actually removed."
+  ],
+  "quote_evidence": [
+    "OpenAI’s own deprecations page shows an entry for gpt-5.4-cyber dated September 11, 2026, with a shutdown date of October 1, 2026.",
+    "The 20-day interval is computed by this publication.",
+    "The page gives no reason for the length of notice and does not say which notice category gpt-5.4-cyber falls in."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "A published notice-period promise of months was followed by a roughly 20-day window, and the page gives no reason.",
+  "event_date": "Deprecation entry dated 11 Sep 2026; shutdown date 1 Oct 2026.",
+  "notes": "Original MIXED Reality News (2 Oct 2026, 16:25 GMT) was blocked (HTTP 403, Cloudflare page). Written from FourWeekMBA (2 Oct 2026), a business-analysis site that read OpenAI's page itself; I did not open OpenAI's page. The 20-day figure is FourWeekMBA's own count. FourWeekMBA does not allege a policy breach."
+}

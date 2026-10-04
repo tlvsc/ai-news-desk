@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-09",
+ "title": "LocalStack acquires WonderTwin AI to boost local testing",
+ "source_used": "IT Brief UK (original publisher)",
+ "article_url": "https://itbrief.co.uk/story/localstack-acquires-wondertwin-ai-to-boost-local-testing",
+ "fetched": true,
+ "key_facts": [
+  "LocalStack has acquired WonderTwin AI.",
+  "WonderTwin AI builds local emulators (working copies that run on a developer's own machine) of outside applications such as GitHub, HubSpot, PostHog and Stripe.",
+  "LocalStack says it plans to bring those emulators into its platform, which already simulates cloud environments such as AWS and Snowflake locally.",
+  "The stated aim is to let developers and AI agents test software connections locally rather than against live systems or shared vendor sandboxes.",
+  "LocalStack CTO Waldemar Hummer and WonderTwin AI founder Tela Andrews are quoted supporting the deal.",
+  "LocalStack has more than 1,500 customers and hundreds of millions of Docker pulls, according to the article.",
+  "The article gives no price and no date for combining the products."
+ ],
+ "quote_evidence": [
+  "LocalStack has acquired WonderTwin AI, adding local application emulators for software integration testing to its development platform.",
+  "LocalStack plans to integrate those tools into its platform so developers and AI agents can test software connections locally rather than against live application programming interfaces.",
+  "LocalStack has more than 1,500 customers and has recorded hundreds of millions of Docker pulls."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Extends local testing from cloud services to outside apps, which matters when several AI agents test code at the same time.",
+ "event_date": "2 Oct 2026 (feed date; the article does not give the deal date)",
+ "notes": "One outlet (IT Brief UK) relaying company statements; benefits are the companies' own claims. No price disclosed."
+}

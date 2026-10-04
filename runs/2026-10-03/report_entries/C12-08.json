@@ -1,0 +1,16 @@
+{
+ "item_id": "C12-08",
+ "v1_category": "SEC",
+ "headline": "GitLab told customers who run their own AI Gateway to update at once, because a critical flaw could let a logged-in user with access to its AI agent features run commands on the server.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: critical rating, but the attacker needs a login with special access and only self-hosted setups are affected.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a serious flaw in the AI part of a widely used software-building platform now has a fix, which affects IT teams at companies hosting their own GitLab AI Gateway first, then their developers and GitLab, and the doubt is that an attacker needs a valid login with special access and the article reports no attacks using it.",
+ "source": "BleepingComputer",
+ "status": "CONFIRMED",
+ "summary": "BleepingComputer reports that GitLab issued an advisory on Friday 2 Oct 2026 about a critical flaw (CVE-2026-90970) in its AI Gateway, the service behind its Duo AI features, that could let a logged-in user with special access escape a protective sandbox (a walled-off area meant to keep code contained) and run commands on the server. GitLab released fixed versions 19.2.4, 19.3.2 and 19.4.1, and its own cloud service is already protected, so only companies hosting their own AI Gateway need to act.",
+ "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "GitLab's own advisory, as reported by BleepingComputer."
+}

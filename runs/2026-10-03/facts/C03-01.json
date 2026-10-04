@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "Introducing Web Search API via AI Gateway",
+ "source_used": "Cloudflare Blog (original publisher)",
+ "article_url": "https://blog.cloudflare.com/introducing-web-search-api/",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare announced a Web Search API, offered through its AI Gateway (its control layer for managing and tracking AI apps).",
+  "Launch search partners are Ceramic.ai, Exa and Linkup.",
+  "The aim is to let AI agents search the live web for fresh information instead of guessing page addresses.",
+  "Cloudflare says its partners have committed to its crawler standards: a verified crawler, respect for site owners' bot rules, and a link to the crawled source in every result.",
+  "Search calls show up in AI Gateway logs and use AI Gateway credits; Cloudflare says it charges the partners' list API prices with no markup.",
+  "Cloudflare says it will mark which partners support Zero Data Retention, and users can bring their own keys.",
+  "Developers can call it through a standard REST endpoint or a Cloudflare Workers binding; Cloudflare says built-in server tools are coming soon."
+ ],
+ "quote_evidence": [
+  "Today, we’re announcing Cloudflare’s partnership with web search providers to bring you grounded intelligence via AI Gateway.",
+  "We’re kicking off this launch with our partners from Ceramic.ai, Exa, and Linkup.",
+  "We also offer web search directly at list API pricing from our partners, without any additional markup."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Gives developers a ready-made way to feed live web information to AI agents, with logging, billing and crawler rules handled in one place.",
+ "event_date": "2 Oct 2026 (the post says \"today\"; feed date 2 Oct 2026)",
+ "notes": "Company announcement on its own blog (Birthday Week); benefits and partner compliance are Cloudflare's own claims. No usage or customer numbers given."
+}

@@ -1,0 +1,16 @@
+{
+ "item_id": "C10-01",
+ "v1_category": "HEA",
+ "headline": "Epic, the company behind the MyChart patient portal, has paused most of its product development to fix security flaws that an AI model found.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the pause and the flaws were first reported on 30 Sep 2026, so today's piece adds context rather than a new event.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Patients whose records sit in MyChart and the hospitals that run it are affected, as is Epic itself, but Epic has not said what the flaws are, and the article does not say whether anyone has used them.",
+ "source": "TechCrunch",
+ "status": "CONFIRMED",
+ "summary": "TechCrunch reports that Epic, whose MyChart software is used to maintain more than 320 million patient records for US hospitals and clinics, has paused most product development, which founder Judy Faulkner told Modern Healthcare would likely last six weeks, while it fixes flaws found by Anthropic's Mythos AI model. This continues the New York Times report of 30 Sep 2026: Epic's security chief says some MyChart setups could let outsiders see patient records without leaving a trace in the logs.",
+ "url": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "notes": "Continues yesterday's pool item 1001:C10-02 (New York Times, 30 Sep 2026). Facts come from Epic executives on the record via TechCrunch; Modern Healthcare and the NYT were not read directly. Epic has not disclosed the nature of the bugs. Could also fit SEC."
+}

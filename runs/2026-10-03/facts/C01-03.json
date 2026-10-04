@@ -1,0 +1,26 @@
+{
+  "item_id": "C01-03",
+  "title": "Open-weight AI models take majority of Vercel traffic",
+  "source_used": "IT Brief Asia",
+  "article_url": "https://itbrief.asia/story/open-weight-ai-models-take-majority-of-vercel-traffic",
+  "fetched": true,
+  "key_facts": [
+    "Vercel's September AI Gateway Production Index says open-weight models made up 56% of token volume on its AI Gateway in August, up from 13% in April and 7% in December 2025; August was the first month with a majority.",
+    "The data is anonymised aggregate traffic through Vercel's AI Gateway, which moves tens of trillions of tokens a month; spending is estimated from published list prices.",
+    "The average price per token fell 23.2% in August, the third straight monthly decline and the steepest since April 2026; the average token costs less than half what it did five months earlier.",
+    "Open-weight models were only 14% of gateway spending in August, so higher-priced closed models still took most of the money.",
+    "Anthropic held 64% of gateway spend in August and has taken at least 61 cents of each dollar every month since December.",
+    "Half of August's tokens went to models available for less than three months.",
+    "Anthropic's Fable 5 fell from 13.2% to 4.9% of gateway spend between July and August while Opus 5, at roughly half the price per token, rose to 22.5%.",
+    "OpenAI's GPT-6 Astra reached one in every three dollars spent on OpenAI models through the gateway within two days of launch."
+  ],
+  "quote_evidence": [
+    "According to Vercel's September AI Gateway Production Index, open-weight models accounted for 56% of token volume in August, up from 13% in April and 7% in December 2025.",
+    "While open-weight models accounted for most token volume, they represented a much smaller share of spending.",
+    "Anthropic held 64% of gateway spend in August."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "Free-to-download models now carry most of the text traffic on one large developer service while paid closed models still take most of the money.",
+  "event_date": "Data covers August 2026; the Vercel index is called the September index. The publication date of the index is not stated; IT Brief Asia published on 2 Oct 2026.",
+  "notes": "Read in full from the main session's fetch (HTTP 200). Figures describe one company's gateway, not the whole market. Token counts and spend are Vercel's estimates."
+}

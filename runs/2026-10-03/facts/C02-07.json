@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-07",
+ "title": "Gemini app gains new ‘Map’ tool, replacing ‘/’ with ‘@’",
+ "source_used": "9to5Google",
+ "article_url": "https://9to5google.com/2026/10/02/gemini-app-map-tool/",
+ "fetched": true,
+ "key_facts": [
+  "Google has introduced a 'Map' tool in the Gemini app on Android and iOS; it is not available on the web.",
+  "It sits at the end of the carousel next to Photos, Camera, Avatar, Files, Drive and Notebooks.",
+  "It shows a live map of the user's current location with a circular focus area; users can pan, zoom and search for any location.",
+  "After choosing an area and pressing 'Explore this area', a 'Map Area' item is added to the prompt box where users can add text.",
+  "9to5Google says the Map tool is widely rolled out.",
+  "In the latest Google app beta (version 17.63), Gemini replaces the '/' used to invoke skills with the '@' symbol already used for Connected Apps, which will soon be renamed 'Connectors'.",
+  "Google announced on Wednesday (30 Sep 2026) that skills will replace Gems; the '@' change is not widely rolled out yet."
+ ],
+ "quote_evidence": [
+  "Google has introduced a “Map” tool to aid your location-based Gemini app prompts on Android and iOS.",
+  "The Map tool is widely rolled out.",
+  "This change is not widely rolled out yet."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Gemini phone users can now pick a map area and ask about it, a small interface addition.",
+ "event_date": "Not stated; published 2 Oct 2026. The skills-replace-Gems announcement was 30 Sep 2026.",
+ "notes": "The '@' change comes from reading a beta app, so it may change before release."
+}

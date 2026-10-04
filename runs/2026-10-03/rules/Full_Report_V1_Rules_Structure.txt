@@ -1,0 +1,261 @@
+FULL REPORT BLUEPRINT V1 — RULES AND STRUCTURE
+AI_News_Desk / Blueprint_Library / Full Report blueprint V1
+Written 28 Sep 2026 by Claude (Claude Code cloud session) at Rafael's request, from the
+Full Report PDF of 27 Sep 2026 and its program, after Rafael said of the 27 Sep bulletin
+and report: "it did amazing job on the bulletin and report. and we must preserve this
+this exact ability".
+
+====================================================================
+0. AUTHORITY AND SCOPE
+====================================================================
+1. This file is the single source of truth for the V1 Full Report PDF: its look, its
+   structure, its selection, its writing and how it is rebuilt. Where an older record
+   disagrees about the report's PDF look or structure, this file wins.
+2. It does not replace the shared word rules. The words in every product are governed by
+   Article_phrasing_instructions_AIND_V1 (AIND PLAIN LANGUAGE LAW v1, Drive
+   14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA). Section 5 below says how the law applies here.
+3. This blueprint holds exactly one rules file (this one) and one Permanent Assets folder.
+   Do not create a second rules file, a copy of the program elsewhere, or a parallel
+   report template. Change this file instead and add a line to the change log.
+4. The PDF program is shared with the bulletin and lives in ONE place only:
+   Bulletin blueprint V1 / Permanent Assets / build_pdf.py
+   (Drive 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH, 42,113 bytes, md5 starts 5b5869e5).
+   Do not copy it into this blueprint. A change to it must be tested against BOTH the
+   bulletin and the report reference files.
+5. The story format (section 5.3) is the same one the bulletin copied from LV1.1 with
+   Rafael's approval on 27 Sep 2026. "AIND V2 — Full Report Blueprint — Working v0.1.md"
+   (Drive 1fydvTJliHyiSxktkVJnA3MGqVa_DI66U) belongs to the V2 lane and is not replaced
+   by this file.
+
+====================================================================
+1. PERMANENT ASSETS (folder: Full Report blueprint V1 / Permanent Assets)
+====================================================================
+1. _full_report_reference_input.json — the exact input that produced the 27 Sep 2026
+   Full Report (138 stories, 11 categories, The Bigger Picture, About this edition;
+   153,288 bytes, md5 c9a9192d669d4fca331c1ad7cc90f69f). Use it to test any change to
+   the program.
+2. _full_report_reference_file.pdf — the 27 Sep 2026 Full Report itself
+   (Full_Report_27-9-26.pdf, 38 pages, A4, 294,852 bytes). Rafael adds this file by
+   hand; the Drive connection cannot upload a PDF of this size. Every future report is
+   compared against it.
+3. The program: see section 0.4 (not stored here).
+4. Fonts: the same as the bulletin (Source Serif 4, Instrument Sans). The program
+   downloads any missing font on first run and stops if it cannot; it never falls back
+   to another font.
+
+====================================================================
+2. LOOK
+====================================================================
+Page, margins, colours and fonts are exactly the bulletin's (Bulletin_V1_Rules_Structure
+section 2): A4 portrait, white; navy #09132A, electric blue #3FA9F5, blue ink #1B75BA,
+blue tint #E8F4FE, amber #FFC45A and amber tint #FFF3DB, greys #566074, #8A93A3,
+#D8DEE7, #EEF1F5; Source Serif 4 for headlines and reading text, Instrument Sans for
+navigation, labels and source lines; every font embedded.
+
+What differs in the report (points, size/leading):
+- Product title "Full Report": Serif Display 50/54, with 15 mm under the masthead rule
+  (the bulletin uses 11 mm).
+- Section title (category name): Serif Display 27/31 (bulletin 25/29).
+- Story headline: Serif Subhead 14/17.2 (bulletin 16.5/20.5).
+- Story text: Serif 9.6/13.9, 5.5 pt after each paragraph (bulletin 10.8/16).
+- Source line: Sans 8.4 in the bulletin, Sans 7.8/10.5 in the report.
+- Label row: 7 pt after it (bulletin 9).
+
+Front page, top to bottom: masthead "AI NEWS DESK" with its blue bar, navy rule, title,
+date, purpose line (indented 30 mm from the right), coverage line, 13 mm space, then
+CONTENTS: blue ink label, "n categories · n stories", navy rule with a 28 mm blue accent,
+and one linked row per category. In the report each category row also shows that
+category's first (highest ranked) headline in Serif Italic 9.4 under the name, cut to
+fit one line. Then one row for each extra section, marked "Feature". The front page
+ends there: the first category starts on page 2.
+
+Every page: the same footer and running header as the bulletin, reading "Full Report"
+instead of "Daily Bulletin". The PDF opens with its bookmarks panel showing the
+categories.
+
+Section header: the bulletin's (navy 0.8 pt rule with a 28 mm blue accent, "SECTION nn",
+category name, "n stories · ranked by importance"). A section starts on the same page
+as the previous one when its heading and the opening of its first story fit; otherwise
+it moves to the next page. A heading never sits alone at the bottom of a page.
+
+Story grid (report only): under the full-width section header the stories run in TWO
+columns with an 8 mm gutter and a hairline down the gutter. Column 1 fills first, then
+column 2; on the last page of a section the two columns are balanced. Stories in the
+same column are separated by a hairline. There is no hanging rank numeral in the report.
+
+Story block, order:
+1. Headline.
+2. Label row: "Importance: HIGH (8)", "Rank n of m in category", status pill.
+3. The paragraphs (section 5.3).
+4. Source line: "Source: <Publisher> ↗ · domain.com", the publisher name a live link to
+   the original article.
+The headline, label row and first lines of text never split across columns or pages,
+and a source line never starts a column alone.
+
+Extra sections (The Bigger Picture, About this edition): full-width section header,
+then the text in the same two columns (a full-width line at 9.6 pt would run to about
+120 characters).
+
+If the last page would be nearly empty (under a quarter full), the program retries with
+tighter vertical spacing and keeps it only if it saves a page.
+
+====================================================================
+3. STRUCTURE
+====================================================================
+1. Front page as above.
+2. Categories in the V1 order of 23 Sep 2026, skipping any with no story:
+   Politics and government; Market, industry and finance; Security and cyber; Energy and
+   infrastructure; Robotics; Models and tools; Research and science; Ethics and law;
+   Health; Society and education; The Fun Side (always last, and part of the report).
+3. Inside each category the highest score comes first. Rank n of m is the story's place
+   inside its category.
+4. After the categories: "The Bigger Picture — Daily AI Analysis" (section 5.5), then
+   "About this edition" (section 7).
+5. The markdown edition of the report (same day, same stories) is kept beside the PDF
+   in reports / supportive files.
+
+====================================================================
+4. SELECTION
+====================================================================
+1. Source: the day's verified pool after quality checks. Items re-dated into the window
+   (an old event reported again without new facts) and duplicates of the same story are
+   held back and listed in the day's QA record, not printed.
+2. Rule (Rafael, 29 Sep 2026, CLAUDE.md rule 14): the report is score 5 and up plus
+   the Fun Side by default. It is sorted by category, so a reader can go to
+   their own section, where a 5 may matter to them. Stay flexible on unusual days: if
+   5 and up passes about 150 stories, raise the cutoff; if it gives very few (under
+   about 50), lower it. State the cutoff and the count; never stop to ask about them.
+   Examples: 27 Sep 2026 printed every kept story, 138; 28 Sep 2026 used 5 and up, 78;
+   29 Sep 2026 used 5 and up, 127.
+   The Fun Side (Rafael, 30 Sep 2026): 5 to 10 stories, leaving out repeats of earlier
+   days; its top 3 also go in the Daily Bulletin.
+3. Pool target (Rafael, 28 Sep 2026): about 15 candidates per category, Fun Side about
+   10. Counts are guidelines, not gates.
+4. Score bands: 10 CRITICAL, 8 and 9 HIGH, 6 and 7 MEDIUM, 1 to 5 WATCHLIST. A famous
+   name or a big dollar figure never raises a score.
+
+====================================================================
+5. WRITING
+====================================================================
+5.1 Reader and phrasing: use the shared rules and the Full Report section of
+    Article_phrasing_instructions_AIND_V1; that file alone defines the reader level.
+5.2 Every story is written from the full source article when it can be opened. Keep
+    every hedge and every attribution ("Bloomberg reports"). A proposal is not an
+    action, a company claim is not an independent finding, a possibility is never
+    written as a fact. Stories are written in our own words, not copied, and always
+    credit and link the source (section 6).
+5.3 Story format (LV1.1 section 8, same as the bulletin):
+    - Headline: one full sentence saying what happened, not leading with an unexplained
+      acronym or product name.
+    - Importance label and score, rank, status (shown in the label row).
+    - Paragraph 1, the summary: one or two complete sentences; the first is the event
+      with its attribution, the next gives the practical "why it matters" or new facts.
+    - Paragraph 2: "Why it matters: " plus one sentence naming what changed, who it
+      affects (people first, then institutions, then companies) and the honest doubt.
+    - Paragraph 3, only when the original article could not be opened: "Note: we could
+      not open the original article; this entry relies on its headline and related
+      coverage."
+5.4 No sales language, no buy or sell advice, no marketing words. Name a stock or
+    sector only when the market effect is the news.
+5.5 The Bigger Picture (LV1.1 section 9):
+    - Title "The Bigger Picture — Daily AI Analysis"; first line "What today's
+      developments could mean for technology, business and everyday life".
+    - Built from today's report plus the previous 7 to 14 reports.
+    - Fixed order: 1. What AI can do now; 2. People and society; 3. Safety, security and
+      law; 4. Infrastructure; 5. Markets (at most a quarter of the analysis, no tickers,
+      no buy or sell advice).
+    - Every claim labelled: Fact, Inference, scenario, speculation, weak signal,
+      unknown or missing data. Cite the story by item number. A Fact must be attributed
+      to its source as in the story.
+    - Forecasts: each gives a probability, a horizon (days to 4 weeks, 1 to 3 months,
+      3 to 12 months, 1 to 3 years, 3 to 10+ years), a confidence level and its signal,
+      what would confirm it and what would weaken it, and who is affected (people before
+      companies). Mutually exclusive scenarios add up to about 100 percent.
+    - Required ending: A. Highest conviction developments to watch; B. Low probability,
+      high impact scenarios; C. Signals that would change this view; D. Key unknowns
+      and data gaps.
+    - It is the desk's analysis, kept separate from reported facts.
+
+====================================================================
+6. CREDIT AND LINKS
+====================================================================
+1. Every story names its publisher and links to the original article, never to a
+   Google News or other redirect link, and never with tracking codes. Credit to the
+   people who reported the story is required; this is why the link stays even on
+   headline-only stories.
+2. The source name is the publisher only. Internal notes ("via", "(blocked)", research
+   remarks) are removed before printing; a long name is cut at its first comma.
+
+====================================================================
+7. FIXED TEXT
+====================================================================
+- Title: Full Report. Date: "<day> <Month> <year>", for example 27 September 2026.
+- Purpose line: "The day's comprehensive AI intelligence report: every story we kept
+  from today's pool, grouped by subject and ranked by importance."
+- Coverage line: "<reporting window> (<hours> hours) · <n> stories · <n> categories".
+- About this edition, three short paragraphs: where the stories were collected and for
+  which window; how many full articles were read and how many are headline only; the
+  score scale and the line "Nothing here is investment advice."
+
+====================================================================
+8. INPUT FORMAT (what build_pdf.py reads)
+====================================================================
+The same format as the bulletin (Bulletin_V1_Rules_Structure section 8):
+{"title": "Full Report", "date": "...", "purpose": "...", "coverage": "...",
+ "categories": [{"name": "...", "items": [{"headline", "score", "importance", "rank",
+                 "rank_of", "status", "paragraphs": [...], "source", "url"}]}],
+ "extra_sections": [{"title": "The Bigger Picture — Daily AI Analysis", "paragraphs": [...]},
+                    {"title": "About this edition", "paragraphs": [...]}]}
+Any other key is ignored and never printed. _full_report_reference_input.json is a
+complete real example.
+
+====================================================================
+9. REBUILD
+====================================================================
+1. Take build_pdf.py from Bulletin blueprint V1 / Permanent Assets.
+2. Build the input JSON from the day's verified entries (sections 4, 5, 8).
+3. Run: python build_pdf.py --input report_input.json --kind report --out Full_Report_D-M-YY.pdf
+4. The program installs ReportLab if missing, renders until "Page x of y" and the
+   contents page numbers are stable, and checks that every font is embedded.
+5. Test after any change to the program: build from _full_report_reference_input.json
+   and compare page by page with _full_report_reference_file.pdf (38 pages); do the
+   same for the bulletin reference.
+
+====================================================================
+10. FILES AND STORAGE
+====================================================================
+- Daily output: Full_Report_D-M-YY.pdf in AI_News_Desk / daily_data_generated /
+  YYYY-MM-DD / reports; its input JSON and markdown in reports / supportive files
+  (AI News Desk — STORAGE & FILE ROUTING STANDARD, Drive 1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms).
+- A superseded file gets "_superseded" added to its name and moves to supportive files /
+  archive. Nothing is deleted.
+
+====================================================================
+11. FINAL CHECK BEFORE SHIPPING
+====================================================================
+1. The cutoff and the count are stated; held-back items are in the QA record.
+2. Categories in order, highest score first inside each, Fun Side last.
+3. Every story has a publisher name and a working direct link.
+4. Every story keeps its hedges and attribution; headline-only stories carry the note.
+5. The Bigger Picture labels every claim and cites item numbers.
+6. Page count, contents page numbers and "Page x of y" agree; every font is embedded.
+7. Spot-check the first page and two story pages against the reference PDF.
+8. Publication needs Rafael's explicit approval.
+
+====================================================================
+12. OPEN QUESTIONS FOR RAFAEL
+====================================================================
+1. Reader level is resolved in Article_phrasing_instructions_AIND_V1, Full Report section.
+2. LV1.1 says the report ends with "Stories Worth Asking More About"; neither the V1 PDF
+   nor the 27 and 28 Sep markdown carries it. Decide whether it comes back.
+
+====================================================================
+13. CHANGE LOG
+====================================================================
+28 Sep 2026: v1 created from the 27 Sep 2026 Full Report, its input and its program.
+29 Sep 2026: section 4.2 updated to Rafael's rule of 29 Sep: 5 and up by default,
+            flexible on unusual days. The earlier text is archived as _superseded.
+30 Sep 2026: section 4.2 adds Rafael's Fun Side rule (5 to 10 stories, no repeats, top 3
+            in the bulletin); section 10 points to the STORAGE & FILE ROUTING STANDARD,
+            which replaced AIND_daily_storage_rules.txt on 29 Sep 2026. The earlier text
+            is archived as _superseded.

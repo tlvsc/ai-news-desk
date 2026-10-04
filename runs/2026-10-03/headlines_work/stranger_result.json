@@ -1,0 +1,72 @@
+[
+ {
+  "n": 1,
+  "retell": "Nvidia's stock briefly hit its highest price ever on Friday and ended the day just under that, after a big drop earlier that had wiped out more than a trillion dollars.",
+  "pass": false,
+  "problem": "Timing is unclear on first hearing: 'They closed just below it, after a slump' sounds like the trillion-dollar slump happened on Friday between the record and the close, which cannot be true if the close was 'just below' the record. Two facts (Friday's record and the earlier slump) blur into one event. Minor: 'wiped out over a trillion dollars' of what is left to the listener.",
+  "fix": "In business. Nvidia's shares briefly hit a record on Friday, then closed just below it. That follows a slump that wiped out over a trillion dollars."
+ },
+ {
+  "n": 2,
+  "retell": "Apple is going to stop apps from being able to read everything on a Mac so easily, because it says AI helper programs make that riskier, but it hasn't said exactly how yet.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 3,
+  "retell": "Oracle's new building full of computers in Wisconsin might get part of its electricity from nuclear power, but the state's officials still have to okay the deal.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 4,
+  "retell": "The US military might put up to fifty small robot boats on the Rio Grande river, where ten already watch for people sneaking across the border, but nothing has been decided.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 5,
+  "retell": "Meta says math experts used its chatbot to crack five unsolved math problems, but only Meta is saying that, and other groups got some of the same answers too.",
+  "pass": false,
+  "problem": "'Open math questions' is jargon: a stranger does not know 'open' means 'unsolved'. Also 'other teams reached some of the same answers' is unclear on one hearing: the viewer cannot tell whether that backs up Meta's claim or shows the chatbot was not needed, so the second sentence lands as two facts with no clear point.",
+  "fix": "In science. Meta says mathematicians used its chatbot to answer five unsolved math questions. Only Meta says so; other teams also reached some of those answers."
+ },
+ {
+  "n": 6,
+  "retell": "At eleven hospitals, fewer very sick patients died after AI warnings started, but someone only compared before and after, so nobody can be sure the AI is why.",
+  "pass": false,
+  "problem": "Unclear 'It': 'It only compared before and after' has no referent. Nothing earlier in the line was named as a study or report, so the viewer does not know what 'it' is (the AI? the hospitals?).",
+  "fix": "In health. Fewer high-risk patients died at eleven hospitals once AI alerts began. That only compares before and after, so the cause is not proven."
+ },
+ {
+  "n": 7,
+  "retell": "The Pope posted online that it is getting urgent to be able to tell art made by people from art made by machines, because computer programs do not have the human spark.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 8,
+  "retell": "An Airbnb host supposedly charged a guest for a flooded toilet, but the photo was faked with AI and Google's chatbot spotted the hidden tag that gave it away.",
+  "pass": false,
+  "problem": "'The photo' arrives with no setup: the first sentence never mentions a photo, so on one hearing the viewer asks 'what photo?'. Minor: 'its hidden mark' needs background knowledge that AI images carry a hidden tag, though most will infer it.",
+  "fix": "And a lighter story. An Airbnb host reportedly billed a guest over a photo of a flooded toilet. The photo was AI made; Google's chatbot found its hidden mark."
+ },
+ {
+  "n": 9,
+  "retell": "The full report also says a place to buy and sell AI computing power might be coming, and some people in the US want to stop selling chip machines to China.",
+  "pass": false,
+  "problem": "'Chip machine sales' is an unclear compound: a stranger cannot tell whether it means machines that make chips or machines that contain chips (I read it as chip-making machines; if that is wrong the fix must change). 'A market for AI computing power' is abstract; a stranger cannot picture what the market does.",
+  "fix": "Also in the full report: a market to trade AI computing power may be coming. Some in the US want to ban chip-making machine sales to China."
+ },
+ {
+  "n": 10,
+  "retell": "The big idea is that AI is now all about who earns money and how much things cost, since companies are spending less on it while memory might get pricier, and we should watch whether people start trading computing power.",
+  "pass": false,
+  "problem": "'Memory may cost more' needs background knowledge: a stranger hears 'memory' and does not know it means computer memory chips. 'Watch whether computing power trading begins' is a what-to-watch with no why: the viewer is not told how it connects to 'who gets paid, and at what price'. Also 'spend less on it' leans on a loose 'it'. Note: the original is already about 46 syllables; the fix is 51 and could not be shorter without dropping a fact.",
+  "fix": "And for the bigger picture: AI is now about who gets paid, and at what price. Companies spend less on AI, but memory chips may cost more. One sign to watch: whether computing power trading begins."
+ }
+]

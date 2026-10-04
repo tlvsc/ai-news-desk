@@ -1,0 +1,16 @@
+{
+  "item_id": "C01-07",
+  "v1_category": "MOD",
+  "headline": "The Allen Institute for AI has released AstaBrief 8B, a small free model that writes cited science reports about three and a half times faster than the Claude-based mode beside it.",
+  "score": 4,
+  "score_reason": "Pool score kept: a real open release, but a niche tool with speed and quality figures from the maker itself.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Researchers and research institutions can run it on their own hardware, even behind a firewall for sensitive work, but the speed and quality figures are Ai2's own and a small human test did not rank it first overall.",
+  "source": "Unite.AI",
+  "status": "REPORTED",
+  "summary": "Unite.AI reports that the Allen Institute for AI (Ai2) said on 2 Oct 2026 it is releasing the model weights and training data of AstaBrief 8B, a small model that turns a research question and found excerpts into a cited report, now offered as \"Fast mode\" in its Asta science platform. Ai2 says Fast mode averages 51.1 seconds per report against 178.5 seconds for the Claude-powered mode and comes within range of it on quality, but in a small human study researchers preferred another system overall, and Ai2 notes most testing was done in 2025 and not rerun against today's top models.",
+  "url": "https://www.unite.ai/ai2-open-sources-astabrief-8b-for-fast-scientific-report-generation/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "notes": "All figures are Ai2's own; the Unite.AI piece is marked as AI-generated and reviewed by editors."
+}

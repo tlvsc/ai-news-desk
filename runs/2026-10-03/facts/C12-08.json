@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-08",
+ "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+ "fetched": true,
+ "key_facts": [
+  "GitLab warned customers on Friday 2 Oct 2026 to patch a critical flaw (CVE-2026-90970) in its AI Gateway, the service behind its AI-native GitLab Duo features.",
+  "It could let an authenticated user with Duo Agent Platform access escape the prompt template sandbox through a crafted flow configuration and run arbitrary commands on the AI Gateway.",
+  "Fixed versions are 19.2.4, 19.3.2 and 19.4.1 for self-hosted AI Gateway users.",
+  "Customers using GitLab's own cloud AI Gateway are already protected; GitLab contacted self-hosted customers before the public notice.",
+  "Last month GitLab patched a separate maximum-severity flaw (CVE-2026-85706) that CISA listed as actively exploited the next day.",
+  "GitLab has over 30 million registered users and is used by over 50% of the Fortune 100."
+ ],
+ "quote_evidence": [
+  "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances.",
+  "Tracked as CVE-2026-90970, this security flaw stems from an improper neutralization weakness and can let attackers with basic privileges and Duo Agent Platform access execute arbitrary commands on unpatched instances.",
+  "GitLab released versions 19.2.4, 19.3.2, and 19.4.1 to address this vulnerability for Self-Hosted AI Gateway users and said that customers using a GitLab-hosted AI Gateway are already protected and do not need to take action."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A critical flaw in the AI part of a widely used coding platform needs patching, but only on self-hosted setups.",
+ "event_date": "Advisory on Friday 2 Oct 2026",
+ "notes": "Status CONFIRMED because it is GitLab's own advisory. The article reports no attacks using this flaw; the exploited flaw it mentions is a different, earlier one."
+}

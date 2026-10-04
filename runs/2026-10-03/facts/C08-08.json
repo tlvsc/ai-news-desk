@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-08",
+ "title": "JEDEC Publishes Silicon Photonics Reliability Standard for AI and Data Centers",
+ "source_used": "FourWeekMBA (reads JEDEC's Business Wire press release); original HPCwire page blocked (Cloudflare, HTTP 403)",
+ "article_url": "https://fourweekmba.com/ai-jedec-jesd264-silicon-photonics-reliability-standard/",
+ "fetched": true,
+ "key_facts": [
+  "JEDEC published JESD264, 'Silicon Photonics Qualification and Reliability Requirements', on 1 Oct 2026 via Business Wire.",
+  "JEDEC calls it the first industry-wide standard for qualifying silicon photonics components and testing their reliability; that is JEDEC's own description.",
+  "The release says silicon photonics lacked an industry-wide framework for reliability ownership and validation, which created uncertainty across the supply chain.",
+  "JEDEC says the standard sets clearer reliability responsibilities among foundries, OSATs (outsourced assembly and test companies) and system developers, for datacentre, telecoms and AI network uses.",
+  "The release names laser integration, modulators, photodiodes and waveguides among the areas covered, plus assembly process requirements and traceability expectations.",
+  "The release names no adopter, no effective date and no compliance obligation; JEDEC has nearly 400 member companies.",
+  "JEDEC board chairman Mian Quddus says it 'helps establish the reliability foundation needed for broader silicon photonics adoption'."
+ ],
+ "quote_evidence": [
+  "On 1 October 2026, JEDEC Solid State Technology Association published JESD264, titled Silicon Photonics Qualification and Reliability Requirements.",
+  "JESD264 helps establish the reliability foundation needed for broader silicon photonics adoption, accelerating innovation and strengthening alignment across the industry.",
+  "The release names no company that has adopted JESD264, gives no effective date, imposes no compliance obligation, involves no regulator and sets out no timeline."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A shared reliability standard for light-based chip parts could ease buying decisions for AI network equipment, but adoption is not yet shown.",
+ "event_date": "1 Oct 2026 (JEDEC press release via Business Wire)",
+ "notes": "HPCwire (the pool outlet, 'off the wire') returned a Cloudflare block. The only readable account was FourWeekMBA, a commentary site that says it read JEDEC's release in full and did not read the standard itself; contents of JESD264 are therefore JEDEC's own description at second hand. Event is 1 Oct 2026, one day before the cutoff."
+}

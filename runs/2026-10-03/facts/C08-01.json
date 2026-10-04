@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-01",
+ "title": "[Exclusive] Samsung to Triple HBM Prices Next Year",
+ "source_used": "TokenPost (with Wccftech); original Maeil Business (mk.co.kr) blocked by Cloudflare (HTTP 403)",
+ "article_url": "https://www.tokenpost.com/news/business/26313",
+ "fetched": true,
+ "key_facts": [
+  "Maeil Business (Korea) published an exclusive on 2 Oct 2026 saying Samsung will triple HBM prices next year; Wccftech and TokenPost relay it as Samsung's HBM4 price being proposed or negotiated at more than three times the HBM3E price.",
+  "The HBM4 price for 2027 is put at a mid-$4 level per unit of capacity (TokenPost: per gigabit; Wccftech: per gigabyte), against roughly $1.50 for the current HBM3E.",
+  "HBM is sold on long-term annual contracts whose prices and volumes are negotiated well in advance; Wccftech says Samsung is locking in 2027 supply.",
+  "Micron has signed agreements for most of its 2027 HBM supply, and Micron CEO Sanjay Mehrotra said HBM prices next year would be far higher than in 2026.",
+  "Industry estimates put the average HBM selling price in 2027 about 121% above this year; a 12-layer 36GB HBM4 unit is estimated to go from about $600 to about $1,300.",
+  "TokenPost stresses these are estimates, not disclosed contract prices, and that actual prices vary by customer, specification and contract terms.",
+  "Samsung's final HBM4 contract prices remain a key variable; SK Hynix is still negotiating its 2027 volumes and prices with customers."
+ ],
+ "quote_evidence": [
+  "Samsung Electronics has proposed a mid-$4 price per gigabit for 2027 high-bandwidth memory (HBM4), more than three times the roughly $1.50 price for current HBM3E, as chipmakers negotiate supply for artificial intelligence systems.",
+  "These are estimates rather than disclosed contract prices; actual prices vary by customer, specifications and contract terms.",
+  "According to Maeil Business, the price for HBM4 is currently being negotiated at more than three times the figure of HBM3E."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Memory is a big part of AI chip cost, so a much higher HBM4 price in 2027 could raise what AI buyers pay, but the price is still in negotiation.",
+ "event_date": "2 Oct 2026 (Maeil Business exclusive); talks cover 2027 supply",
+ "notes": "Original Maeil Business page blocked (403 Cloudflare). Read TokenPost and Wccftech, which relay the Maeil report. The headline 'triple HBM prices' is stronger than the facts: the comparison is new-generation HBM4 versus the older HBM3E, and the figure is a proposal in talks. Outlets differ on gigabit vs gigabyte."
+}

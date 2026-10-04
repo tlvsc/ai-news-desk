@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-03",
+ "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+ "fetched": true,
+ "key_facts": [
+  "Apple announced, in a blog post aimed at developers, that it is adding controls around the macOS 'Full Disk Access' setting.",
+  "Full Disk Access was designed to let backups work, and lets an app reach files, mail, messages and browsing history.",
+  "Apple said AI agents have increased the risks of this level of access, and that some developers use it in ways that could expose everything on a user's system without their full knowledge.",
+  "Going forward, users who want to grant it will need to take 'very explicit user action'.",
+  "The move follows an Inc. columnist's claim that Meta's Muse app on Mac knew his private messages (Meta disputed the claim) and a WIRED report of a flaw in ChatGPT's Mac app.",
+  "Apple did not respond to TechCrunch's inquiry; the article does not say what the new controls are or when they arrive."
+ ],
+ "quote_evidence": [
+  "The company says that, going forward, it will introduce new controls aimed at ensuring that users who “genuinely wish to grant an app this extraordinary level of access” can do so only with “very explicit user action.”",
+  "As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially.",
+  "Apple did not respond to TechCrunch’s inquiry about the feature change."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Apple is making it harder to give any app, including AI agents, full access to a Mac's files and messages.",
+ "event_date": "2 Oct 2026 (date of the TechCrunch report; the blog post's own date is not stated)",
+ "notes": "Status CONFIRMED because it is Apple's own published statement; the specific new controls are not described, so the practical effect is unknown. Article body is mixed with TechCrunch page boilerplate, ignored."
+}

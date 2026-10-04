@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "retell": "Canada's leader picked a famous AI scientist and some others to advise him on keeping AI safe, but the group can only advise and nobody knows yet what money or power it gets or when it starts.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 2,
+  "retell": "A company that makes robot brains is said to be getting $700 million from investors, which would make it worth five times what it was last year, but it comes from one secret source and may not be done.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 3,
+  "retell": "Nvidia's stock briefly hit its highest price ever on Friday after a rough summer, but by the end of the day it slipped back to just under its old May high.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 4,
+  "retell": "American companies are using about half again as much AI as in July but paying less for it, because the two big AI sellers keep cutting prices to beat each other.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 5,
+  "retell": "Apple will make Mac apps ask you very clearly before they can see everything on your computer, because AI helpers make that riskier, but it has not said how or when.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 6,
+  "retell": "Scammers used a copied AI voice and a fake WhatsApp message to trick a former Italian bank boss into sending about 95 million euros, and at least 36 million is still gone.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "Samsung reportedly wants to charge more than triple for next year's memory chips that go next to AI chips, but it is just an opening ask in talks, not a signed deal.",
+  "pass": false,
+  "problem": "Unclear 'It' opening the body (the price? the demand?). 'AI memory chips' in the headline and 'AI chips' in the body sound like the same thing, so 'memory that sits beside AI chips' reads as circular on first pass. 'Three times the price' never says three times what (kept, since the card does not say).",
+  "fix_headline": "",
+  "fix_body": "They are next year's newer version of the memory that sits beside AI processors. The figure is a proposal in ongoing talks, not a signed contract price."
+ },
+ {
+  "n": 8,
+  "retell": "A big Oracle computer building in Wisconsin might get up to a fifth of a nuclear plant's electricity if regulators agree, and the power company says its other customers would save on fuel.",
+  "pass": false,
+  "problem": "'The plant's electricity' points to a plant nobody has named; the headline says 'the state's nuclear power', which sounds like all of it, then the body gives a fifth of one unnamed plant.",
+  "fix_headline": "",
+  "fix_body": "We Energies would let Oracle take up to a fifth of a nuclear plant's electricity. Regulators must approve it, and the utility says other customers would save on fuel costs."
+ },
+ {
+  "n": 9,
+  "retell": "The US military might add up to 50 solar-powered robot boats to the Rio Grande river border, where ten already help catch hundreds of people a month, but it is only an idea being studied.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 10,
+  "retell": "Meta gave away the code so tinkerers can hook its new Muse AI assistant up to homemade screens and buttons, and is handing out 5,000 home-control boxes, but says you build at your own risk.",
+  "pass": false,
+  "problem": "'It also gives away 5,000 home-control boxes': 'It' points back to 'the free code', but code cannot give away boxes; the giver is Meta.",
+  "fix_headline": "",
+  "fix_body": "The free code wires Muse, Meta's new AI assistant, to homemade screens, buttons and sensors. Meta also gives away 5,000 home-control boxes but warns builders: proceed at your own risk."
+ },
+ {
+  "n": 11,
+  "retell": "Meta says its Muse chatbot helped real mathematicians solve five problems nobody had cracked, though the humans had to fix its work, nobody outside has checked, and other teams found some answers on their own.",
+  "pass": false,
+  "problem": "'which named mathematicians then checked' reads first as 'the proofs named some mathematicians'; the reader must re-read to see 'named mathematicians' means real, identified people.",
+  "fix_headline": "",
+  "fix_body": "The chatbot suggested proofs and examples, and named mathematicians then checked and corrected them. No outside review is reported, and other teams independently found some of the answers."
+ },
+ {
+  "n": 12,
+  "retell": "A court paused Minnesota's ban on AI-made fake nude pictures while Elon Musk's AI company fights it as unconstitutional, after a lower court said no to the company last month.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 13,
+  "retell": "In 11 hospitals, after an AI alarm started calling the emergency team, about a fifth fewer very sick adults died, but the study cannot prove the alarm was the reason.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 14,
+  "retell": "The Pope posted that we urgently need a way to tell human art from machine art, because machines just compute from millions of pictures people made and, in his view, lack a human spark.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 15,
+  "retell": "A Reddit user says an Airbnb host tried to bill them $1,700 for a flooded toilet using a photo that Google's AI recognised as its own creation, and the bill got thrown out, but it is one unconfirmed post.",
+  "pass": false,
+  "problem": "'the Reddit post says': no post has been mentioned; the headline only says a guest 'says'. ('The bill was rejected' by whom is also unsaid; kept, since the card does not say.)",
+  "fix_headline": "An Airbnb guest on Reddit says a host's $1,700 toilet-flood 'proof' was an AI photo.",
+  "fix_body": "Google's Gemini chatbot spotted its own hidden watermark in the photo, the post says. The bill was rejected, the guest adds, though it all rests on one unconfirmed post."
+ },
+ {
+  "n": 16,
+  "retell": "People may soon be able to buy and sell AI computer power ahead of time, like a market for it, reports say.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "China is buying so many chip-making machines from ASML that some in the US want to ban those sales completely, reports say.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "A start-up says Alibaba's free Qwen AI avoids topics the Chinese government does not like.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "The US only added 29,000 jobs in September, and more bosses are saying AI is why they are cutting staff.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "Using AI is getting cheaper for businesses while building it may get pricier, so banks are reportedly putting together $60 billion for chips, and we should watch that loan, Samsung's chip price and the Fed.",
+  "pass": false,
+  "problem": "'the loan' has no antecedent: 'banks gather $60 billion for chips' never says it is a loan or who gets it. 'The Fed's October meeting' is a thing to watch with no why (cannot be fixed without adding a fact; flagging only). 'Samsung's memory price' only makes sense if the reader saw card 7.",
+  "fix_headline": "",
+  "fix_body": "Businesses pay less to use AI; banks reportedly arrange a $60 billion chip loan. Watch if that loan lands, Samsung's memory price and the Fed's October meeting."
+ }
+]

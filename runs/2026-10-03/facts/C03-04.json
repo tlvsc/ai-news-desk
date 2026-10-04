@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-04",
+ "title": "Dynatrace completes Arize acquisition for AI observability",
+ "source_used": "Dynatrace press release (dynatrace.com), plus Dynatrace's 13 Aug 2026 Business Wire release read on Yahoo Finance",
+ "article_url": "https://www.dynatrace.com/news/press-release/dynatrace-completes-acquisition-of-arize/",
+ "fetched": true,
+ "key_facts": [
+  "Dynatrace said on 1 Oct 2026 that it has completed its acquisition of Arize, an AI observability and evaluation platform.",
+  "The aim is to bring AI evaluation (testing before launch) and observability (watching behaviour once live) together for AI applications and agents.",
+  "Arize will keep supporting Phoenix, its open-source platform, and AX, its enterprise platform; over time its capabilities will be integrated into Dynatrace.",
+  "The deal was first announced on 13 Aug 2026 as a cash-and-stock transaction valued at $915 million (about $815 million in cash plus replacement equity awards for Arize staff), according to Dynatrace's August release.",
+  "The August release said the founders Jason Lopatecki and Aparna Dhinakaran would join Dynatrace at closing, and the deal was expected to close later that quarter or early in the next.",
+  "The completion release quotes an IDC analyst and a TELUS engineering executive in support of the deal."
+ ],
+ "quote_evidence": [
+  "Dynatrace (NYSE: DT), the leading AI-powered observability platform, today announced that it has completed its acquisition of Arize, an AI observability and evaluation platform delivering continual learning for agents.",
+  "Arize will continue supporting both Phoenix, its open-source platform, and AX, its enterprise platform.",
+  "Dynatrace will acquire Arize for $915 million, subject to customary adjustments, consisting of approximately $815 million in cash as well as replacement equity awards for Arize employees joining Dynatrace."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Closes a $915 million deal that puts AI testing and live monitoring of AI apps under one company, with Arize's open-source tools promised to continue.",
+ "event_date": "1 Oct 2026 (completion); deal announced 13 Aug 2026",
+ "notes": "Pool link (Developer Tech News) returned a captcha page, so no text. Wrote from Dynatrace's own completion press release (read in full), with the $915 million terms taken from Dynatrace's 13 Aug 2026 release. HPCwire, Engineering.com and MarketScreener also returned 403. A SaasRise summary was not used: it reads as machine-written and adds details (debt facility, product names) that the press releases do not support. Event (completion) is 1 Oct 2026, one day before the window, so score lowered by 1."
+}

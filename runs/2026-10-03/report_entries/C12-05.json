@@ -1,0 +1,16 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "Researchers found that malware already on a Mac could have taken over the ChatGPT app and read its stored chats, until OpenAI fixed the flaw.",
+ "score": 5,
+ "score_reason": "Lowered by 1 from 6: OpenAI already fixed and acknowledged it on 25 Sep 2026, and an attacker needed malware on the Mac first.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a now-fixed flaw shows that AI apps with deep access to a computer are attractive targets, which affects ChatGPT Mac users first, then OpenAI and other AI-app makers, and the doubt is that an attacker needed malware on the machine already and the article reports no real-world attacks.",
+ "source": "WIRED",
+ "status": "CONFIRMED",
+ "summary": "WIRED reports that researchers at the Objective-See Foundation found a flaw in ChatGPT's Mac app that let software already on a computer sneak requests through a trusted helper part, giving access to chat logs and browser sessions and the power to make ChatGPT run commands. OpenAI acknowledged and fixed it on 25 Sep 2026, so the news is a week old, and the same researcher says he has sent OpenAI another report about its new Dots assistant, which OpenAI is reviewing.",
+ "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+ "freshness": "FOLLOW-UP of 25 Sep 2026",
+ "verified_text": true,
+ "notes": "Fix acknowledged by OpenAI on 25 Sep 2026; WIRED story is 2 Oct 2026."
+}
