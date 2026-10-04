@@ -18,8 +18,8 @@
   },
   {
    "rule": "A2",
-   "status": "WARN",
-   "detail": "opening slot 1 is active: a new opening is generated; the stored intro is the rule unless Rafi asked for opening options (CLAUDE.md 16)"
+   "status": "PASS",
+   "detail": "opening slot 1 bypass: the stored option 4 opening of 3 Oct is used"
   },
   {
    "rule": "B3",

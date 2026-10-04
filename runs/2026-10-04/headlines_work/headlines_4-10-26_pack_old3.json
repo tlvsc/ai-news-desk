@@ -25,16 +25,14 @@
   {
    "slot": 1,
    "kind": "opening",
-   "state": "bypass",
+   "state": "active",
    "category": "New opening option",
    "item": "opening",
    "script": "Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!",
    "symbol": "timeline: logo 0 to 0.5 s, empty screen 0.5 to 3 s, earth with electric logo 3 to 7 s, logo back 7.5 to 11.5 s",
    "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place. Hologram screen timeline, clip length 11.5 seconds, speech starts at 0 seconds. 0.0 to 0.5 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 0.5 to 3.0 seconds: the logo fades out slowly; the screen stays empty, plain blue glass with its thin glowing blue border, no picture, no text. 3.0 to 7.0 seconds: a glowing earth appears in the centre of the screen, and the electric logo line runs around the globe in one steady circle; no letters, no numbers, no flags. 7.0 to 7.5 seconds: the earth fades out and the original logo fades back in at the exact same size, position and brightness as the start frame. 7.5 to 11.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, positive: \"Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!\" at the last second of the speech, when  it is the end of the sentence he puts his hands on the table and go back to the same position he started <reference image 01>.\nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk.\nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin.\nAudio: the anchor's voice only, with quiet professional studio ambience. No music.\nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
    "source": "AI NEWS DESK",
-   "note": "Rafi, 2 Oct 2026: his wording and screen timing (New Desk read as News Desk). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_opening_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
-   "stored_clip": "AIND_opening_option4_2026-10-03_VL1_1088.mp4",
-   "stored_clip_where": "Headlines Master Permanent Assets / openings / 2026-10-03, Drive 1rDhcSPq910bxg14kbSAbKP9Lg-QM4ylJ, 2,734,509 bytes"
+   "note": "Rafi, 2 Oct 2026: his wording and screen timing (New Desk read as News Desk)"
   },
   {
    "slot": 2,
@@ -135,16 +133,14 @@
   {
    "slot": 13,
    "kind": "ending",
-   "state": "bypass",
+   "state": "active",
    "category": "New ending option",
    "item": "ending",
    "script": "Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.",
    "symbol": "timeline: logo 0 to 1 s, like follow share symbols 1.5 to 6 s, logo back 6.5 to 8.5 s",
    "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place, with its thin glowing blue border always visible. Hologram screen timeline, clip length 8.5 seconds, speech starts at 0 seconds. 0.0 to 1.0 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 1.0 to 1.5 seconds: the logo fades out slowly. 1.5 to 6.0 seconds: three simple glowing text-free symbols side by side on the screen, for like, follow and share: a thumbs up, a person outline with a plus sign, and a share arrow; no letters, no numbers, no words. 6.0 to 6.5 seconds: the symbols fade out and the original logo fades back in at the exact same size, position and brightness as the start frame. 6.5 to 8.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, and with hands, body and head movements that fits the context: \"Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.\" at the end of the sentence he puts his hands on the table and move back to the same position he started <reference image 01>. \nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk. \nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin. \nAudio: the anchor's voice only, with quiet professional studio ambience. No music. \nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
    "source": "AI NEWS DESK",
-   "note": "Rafi, 2 Oct 2026: his screen timing; approved wording kept; symbols text-free (15 Sep rule). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_ending_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
-   "stored_clip": "AIND_ending_option4_2026-10-03_VL1_1088.mp4",
-   "stored_clip_where": "Headlines Master Permanent Assets / endings / 2026-10-03, Drive 1OE4n8P0L4nt1PX6g0Vq8Me4V-YBoXdn-, 1,997,601 bytes"
+   "note": "Rafi, 2 Oct 2026: his screen timing; approved wording kept; symbols text-free (15 Sep rule)"
   }
  ]
 }
