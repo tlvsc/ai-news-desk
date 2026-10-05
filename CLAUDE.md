@@ -160,3 +160,6 @@ not about which project it is.
     carries a delivered run or a skill build, write the handoff and ask Rafi to open a new chat
     first. A compacted chat continues only with Rafi's explicit yes (he gave it on 4 Oct 2026 for
     the 4 Oct Part A run).
+19. THE START LINE (Rafi, 5 Oct 2026). A daily run starts with one fixed line, "Run Part A for <date>", in a cloud session
+    on branch claude/eager-archimedes-ajnex3 (docs/START_LINE.md). Never add extra items, fixes or lessons to a start
+    message; they live in this file, the skills and the repo.

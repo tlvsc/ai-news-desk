@@ -308,7 +308,8 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
         the review list.
     (c) KAWASAKI: write "Kawa saki" in spoken lines ("Ka-wa-sa-ki" came out "Kavanua Saki"). Fix: a pronunciation cue
         like an-thropic and N-vidia.
-    NOT applied (Rafi, 5 Oct 2026: "just write it"). Logged for V1 only; apply in the skill only when Rafi says so.
-65. (5 Oct 2026, mistake record) I told the 5 Oct session to apply item 64 before Part B, which Rafi never approved ("just
-    write it"); it turned a big run into a stop for Kawa saki. Prevention: a lesson Rafi says to write is only written, never
-    put into a start prompt as work. Fix: handoff item 5 corrected, item 64 marked not applied.
+    APPLIED in the Part B skill on 5 Oct 2026 (Rafi approved). Carry into V1.
+65. (5 Oct 2026, mistake record) START MESSAGES: I put one small approved item (item 64) into the start message of the 5 Oct
+    run, so a global run opened with a Kawasaki detail; then I misread Rafi and reverted the approved item. Rafi: a start
+    is ONE fixed line, "Run Part A for <date>". Everything else lives in CLAUDE.md, the skills and the repo, never in the
+    start message. Prevention: docs/START_LINE.md holds the only start line; I add nothing to it.
