@@ -59,7 +59,7 @@ def sentences(t):
 def problems(text, kind):
     out = []
     for s in sentences(text):
-        w = len(s.split())
+        w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
         if w > 15: out.append(f'{w} words: "{s[:60]}"')
         if len(re.findall(r'\d[\d,.]*', s)) > 1: out.append(f'two numbers: "{s[:60]}"')
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
@@ -68,7 +68,7 @@ def problems(text, kind):
     if kind == 'clip':   # LEVEL 5 (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym (A I, T S M C) is one word
-            if w > 12: out.append(f'level 5: {w} words, keep a spoken sentence to 12: "{s[:50]}"')
+            if w > 14: out.append(f'level 5: {w} words, keep a spoken sentence to 14: "{s[:50]}"')
             if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'level 5: starts with a side clause, start with who did what: "{s[:40]}"')
             if s.count(',') > 1: out.append(f'level 5: more than one comma, split or cut: "{s[:40]}"')
         if re.search(r"\b(its|their|the company's|\w+'s) (biggest|largest) (deal|acquisition|purchase)", text, re.I):

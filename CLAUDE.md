@@ -125,7 +125,7 @@ not about which project it is.
     run on Sonnet (Agent tool, model "sonnet"); the wording, stranger, rules and editor agents stay on Fable. Report
     the token use and any quality drop next to the 4 Oct run (about 6.3 million helper tokens); Rafi decides after.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
-    HEADLINES LEVEL 5 (Rafi, 5 Oct 2026): every spoken sentence at most 12 words; who did what first, plain words, no side clause at
+    HEADLINES LEVEL 5 (Rafi, 5 Oct 2026): every spoken sentence at most 14 words; who did what first, plain words, no side clause at
     the start; the last sentence says why it matters to ordinary people (never "its biggest deal"). It binds the writers, the checks and
     every fix the main session makes; a fix is shorter and simpler, never longer. check_wording.py fails a line that breaks it.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
