@@ -1,0 +1,17 @@
+{
+ "headline": "Researchers built EnhancerDetector, a deep-learning tool that spots enhancers, the DNA stretches that switch genes on and off, in organisms from humans to fruit flies using only the DNA sequence.",
+ "score": 5,
+ "score_reason": "Good cross-species results and a small lab check, but only six candidates were tested and no outside review is reported.",
+ "importance_line": "Genome researchers could annotate new genomes faster, though the lab check covered only six candidate sequences and the tool is pitched as a first-stage aid.",
+ "source": "Scienmag, as relayed by Bioengineer.org",
+ "summary": "Scienmag, as relayed by Bioengineer.org, reports on a BMC Genomics study in which a model trained on human DNA outperformed existing methods on human, mouse and fly data, and of six fly candidates it predicted, five drove a glowing reporter gene in living flies, four of them matching earlier findings. The authors present it as a first-stage tool for annotating newly sequenced genomes, not a replacement for experiments.",
+ "freshness": "NEW",
+ "status": "REPORTED",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag named as source. Only six fly candidates were tested.",
+ "url": "https://bioengineer.org/ai-learns-the-hidden-dna-code-that-marks-enhancers-across-species/",
+ "verified_text": true,
+ "item_id": "C04-12",
+ "v1_category": "RES",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

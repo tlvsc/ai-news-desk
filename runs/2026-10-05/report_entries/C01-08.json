@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-08",
+ "v1_category": "MOD",
+ "url": "https://startupfortune.com/gpt-6-astra-cleared-world-of-warcrafts-orc-zone-by-reading-network-packets-not-pixels/",
+ "machine_action": false,
+ "headline": "OpenAI's GPT-6 Astra finished a World of Warcraft starting zone without seeing the screen, by reading the game's raw network messages and building its own route-finding tool.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: reported on 3 Oct, a game demonstration whose wider security meaning is the outlet's commentary.",
+ "importance_line": "It shows an AI model writing its own tools and decoding an undocumented network protocol, which is relevant to security teams, though no attack on real systems has been shown.",
+ "source": "Startup Fortune, citing Tom's Hardware",
+ "status": "REPORTED",
+ "summary": "Startup Fortune reports, citing Tom's Hardware, that GPT-6 Astra cleared World of Warcraft's orc starting zone in about 40 minutes without dying, using the open-source agent-wow client on a private test server. The model read raw server messages and quest data instead of the screen and wrote its own pathfinding program; Startup Fortune notes that nobody has shown the model doing the same to a real corporate network.",
+ "freshness": "FOLLOW-UP of 3 Oct 2026",
+ "verified_text": true,
+ "notes": "Tom's Hardware report dated 3 Oct 2026.",
+ "importance_label": "WATCHLIST"
+}

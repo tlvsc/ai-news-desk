@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-01",
+ "title": "Virtual biotech staffed by 37,000 AI agents found a marker for more successful medicines",
+ "source_used": "Earth.com (via AOL)",
+ "article_url": "https://www.aol.com/articles/virtual-biotech-staffed-37-000-060200000.html",
+ "fetched": true,
+ "key_facts": [
+  "Stanford team led by James Zou built a 'virtual biotech' of AI agents; lead author Harrison Zhang",
+  "37,075 agents read trial registries, papers and press releases in about six hours",
+  "Humans checked 100 trials and agreed with the agents about 88% of the time",
+  "Drugs aimed at genes active in few cell types were 40% more likely to move from phase 1 to phase 2 and 48% more likely to reach phase 4",
+  "Their trials reported side effects 32% lower on average",
+  "The result is a link found in past trial records, not proof of cause",
+  "The agents ran no lab experiments; their lung cancer and colitis proposals still need testing",
+  "Code is public on GitHub"
+ ],
+ "quote_evidence": [
+  "The agents found the pattern in records of trials that already happened, so it's a link, not proof that a narrow target makes a drug work.",
+  "The agents didn't run any lab experiments, though.",
+  "The code is public on GitHub, so other teams can run the agents themselves."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Could help drugmakers choose targets before costly trials, but only as a statistical link.",
+ "event_date": "Published 5 Oct 2026",
+ "notes": "AOL carries Earth.com's own reporting (interviews with Zou cited as told to Earth.com); original Earth.com link not seen, AOL page used. Study journal/preprint not named in text."
+}

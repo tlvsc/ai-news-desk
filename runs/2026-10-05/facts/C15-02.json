@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-02",
+ "title": "IBM's quantum computer did in 19 seconds what a supercomputer could take 110 years to do!",
+ "source_used": "Moneycontrol",
+ "article_url": "https://www.moneycontrol.com/science/ibm-s-quantum-computer-did-in-19-seconds-what-a-supercomputer-could-take-110-years-to-do-article-14044188.html",
+ "fetched": true,
+ "key_facts": [
+  "IBM Nighthawk R2 processor ran random circuit sampling",
+  "61 qubits, 36 cycles, 918 two-qubit gates",
+  "One million samples in 19 seconds",
+  "Frontier supercomputer estimated at about 110 years",
+  "Estimate uses tensor-network contraction and depends on method",
+  "Preprint on arXiv, not peer reviewed",
+  "Advantage is on a specialised benchmark only"
+ ],
+ "quote_evidence": [
+  "However, the estimate depends on the simulation method.",
+  "The research, available as a preprint on arXiv, has also not undergone peer review."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Quantum advantage claim on a narrow benchmark.",
+ "event_date": "not stated; published 4 Oct 2026",
+ "notes": "Source text is Moneycontrol's write-up of the preprint; the preprint itself was not opened."
+}

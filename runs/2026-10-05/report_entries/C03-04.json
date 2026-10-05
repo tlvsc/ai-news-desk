@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "MOD",
+ "machine_action": false,
+ "notes": "Read PPC Land, which relays Cloudflare's own blog post; Cloudflare's blog link not fetched.",
+ "headline": "Cloudflare has added a web search service for AI agents that charges between $0.25 and $7 per 1,000 requests.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1 because the launch happened on 2 Oct 2026 and was already in the 2 Oct pool.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI agents get web search billed through Cloudflare, and website owners get promises about crawler behavior that the post does not explain how Cloudflare will check.",
+ "source": "Cloudflare (via PPC Land)",
+ "status": "CONFIRMED",
+ "summary": "PPC Land reports, from a Cloudflare blog post, that Cloudflare released a Web Search API on 2 Oct 2026 that sends AI agents' queries to three search companies, Ceramic.ai, Exa and Linkup, at their list prices with no added markup. The post does not say whether the product is in beta or generally available, and gives no speed or quality figures.",
+ "url": "https://ppc.land/cloudflare-web-search-for-ai-agents-costs-0-25-to-7-per-1-000-requests/",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "verified_text": true
+}

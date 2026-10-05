@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-04",
+ "title": "Cloudflare web search for AI agents costs $0.25 to $7 per 1,000 requests",
+ "source_used": "PPC Land (relaying a Cloudflare blog post)",
+ "article_url": "https://ppc.land/cloudflare-web-search-for-ai-agents-costs-0-25-to-7-per-1-000-requests/",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare released a Web Search API inside AI Gateway on 2 Oct 2026, according to a post by Michelle Chen, Sam Else and Gabriel Massadas.",
+  "Queries from AI agents go to Ceramic.ai, Exa or Linkup, whose crawlers must meet Cloudflare's verified-bot rules.",
+  "Searches appear in AI Gateway logs, draw down the gateway credit balance and are offered at the providers' list prices with no markup; bring-your-own-key is supported.",
+  "A request takes a query of 1 to 1,024 characters and returns 1 to 10 results; Ceramic.ai is the default provider.",
+  "PPC Land computes a 28-fold spread between cheapest and dearest entries; 20 searches would cost between half a US cent and 14 cents at list prices.",
+  "The post does not say whether the product is in beta or generally available, and gives no latency, freshness or quality figures.",
+  "Native Server Tools for web search are coming to AI Gateway with no date given."
+ ],
+ "quote_evidence": [
+  "Cloudflare on October 2, 2026 released a Web Search API inside AI Gateway, sending queries from AI agents to Ceramic.ai, Exa or Linkup and obliging each provider's crawler to meet the company's verified-bot rules.",
+  "The post does not say whether the product is in beta or generally available, which plans can use it or where.",
+  "Cloudflare is not building an index for this product."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers can buy agent web search through Cloudflare's existing billing and logging, and site owners get promises on crawler identification.",
+ "event_date": "2 Oct 2026",
+ "notes": "Relayed by PPC Land from Cloudflare's own blog post and documentation. Event older than 4 Oct. Also in the 2 Oct pool (Cloudflare Blog)."
+}

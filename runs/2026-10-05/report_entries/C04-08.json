@@ -1,0 +1,17 @@
+{
+ "headline": "Stanford researchers built Paper2Agent, a system that turns a published research paper and its code into an AI agent that answers questions by running the paper's own methods.",
+ "score": 5,
+ "score_reason": "Interesting research tool with strong test numbers, but the authors' own tests and no venue named.",
+ "importance_line": "Scientists who struggle to run other labs' software could query papers in plain English, but 26 of 100 papers could not be converted and the results are the authors' own tests.",
+ "source": "Earth.com",
+ "summary": "Earth.com reports that a Stanford team led by Jiacheng Miao and James Zou turned 74 of 100 biology papers into working agents, which scored 91.2% on 300 questions against 80.3% for Claude working straight from each paper's code. In one test, three linked agents helped point to GPR137 as a likely psoriasis gene using only data earlier teams had already collected, and the authors stress that people still choose the questions and judge the answers.",
+ "freshness": "NEW",
+ "status": "REPORTED",
+ "notes": "Journal or preprint venue not named in the article; findings are the authors' own tests. Kept at 5.",
+ "url": "https://www.earth.com/science/research-papers-can-now-become-ai-agents-that-answer-questions/",
+ "verified_text": true,
+ "item_id": "C04-08",
+ "v1_category": "RES",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-10",
+ "v1_category": "ENE",
+ "headline": "Cognition, the maker of the Devin AI coding agent, says Nvidia's new Vera Rubin rack gave it up to 4.8 times the output of the previous generation on CoreWeave's cloud.",
+ "score": 4,
+ "score_reason": "Stale: announced 30 Sep and already carried in the previous edition; nothing new found today; lowered 1 from 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Faster racks lower the cost of running AI coding agents, which touches AI developers and cloud providers, but the 4.8 times figure is the customer's own claim for one workload.",
+ "source": "CoreWeave",
+ "status": "REPORTED",
+ "summary": "CoreWeave, a cloud company that rents out AI computing, announced on 30 Sep 2026 that Nvidia's Vera Rubin NVL72 system is in limited availability, and quotes Cognition as seeing up to 4.8 times more token throughput (text processed per second) than on the previous GB200 NVL72 for its coding workload. We carried the availability story in our previous edition of 1 Oct 2026; what is new today is renewed coverage by MIXED Reality News, with no new figures found, and the number remains the customer's own claim.",
+ "url": "https://www.coreweave.com/blog/cognition-becomes-first-customer-for-nvidia-vera-rubin-nvl72-on-coreweave-cloud",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item is MIXED Reality News (blocked); credited to CoreWeave, which published the claim, and linked to its blog. The 1 Oct edition reference follows the follow_up_of link to yesterday's pool item."
+}

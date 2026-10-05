@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-10",
+ "title": "AI finds 44 star systems that could hide Earth-like planets",
+ "source_used": "The Brighter Side of News",
+ "article_url": "https://www.thebrighterside.news/post/ai-finds-44-star-systems-that-could-hide-earth-like-planets/",
+ "fetched": true,
+ "key_facts": [
+  "University of Bern and the PlanetS national research centre built a machine-learning model (random forest of 500 trees); study in Astronomy & Astrophysics; Jeanne Davoult developed it.",
+  "Trained on tens of thousands of simulated systems from the Bern Model of Planet Formation and Evolution.",
+  "Precision up to 99% on simulated systems (94% for the lowest-mass stars).",
+  "Applied to 1,567 observed systems: 51 got over 90% of tree votes; 7 binary systems excluded, leaving 44.",
+  "A preliminary stability check found room for an extra planet in 42 of 44 systems.",
+  "Earth-like defined as 0.5 to 3 Earth masses and equilibrium temperature 160 to 510 K.",
+  "Limits: the simulation makes too many planets close to stars; predictions are unconfirmed."
+ ],
+ "quote_evidence": [
+  "The model reached precision scores of up to 99% when tested on simulated planetary systems. That result measures performance within a computer-generated population.",
+  "The predicted worlds around actual stars remain unconfirmed, and the method's value will depend on follow-up observations.",
+  "The calculation supports the possibility of additional planets; it does not demonstrate that they exist or guarantee their long-term stability."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "The list could help astronomers choose where to spend scarce telescope time.",
+ "event_date": "Study date not stated; article 4 Oct 2026",
+ "notes": "Kept at 5; clear hedges preserved."
+}

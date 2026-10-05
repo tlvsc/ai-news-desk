@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-06",
+ "title": "Effect of research paper mills enough to start affecting LLM query results",
+ "source_used": "ERR News",
+ "article_url": "https://news.err.ee/1610155906/effect-of-research-paper-mills-enough-to-start-affecting-llm-query-results",
+ "fetched": true,
+ "key_facts": [
+  "Anton Sokolov, doctoral student at Tallinn University of Technology (TalTech) and researcher at the Tyche Institute, studies retractions of bogus science.",
+  "Retraction Watch lists about 61,000 retracted papers from 2010 to 2025, about two per thousand papers a year.",
+  "His dataset of nearly 15,000 retraction records in computer science: authorship violations under 2%; peer-review problems cited in about 7 of 10 notices; computer-generated text about one third.",
+  "A Novaator experiment in early September bought co-authorship for $800 in 20 days.",
+  "In a study published last year, a language model did not mention the retraction in more than 6,500 assessments of retracted or questionable papers.",
+  "His preliminary pilot calculation: more than 20,000 papers flagged by the Problematic Paper Screener had not been retracted as of June.",
+  "He suggests authors digitally sign their contributions."
+ ],
+ "quote_evidence": [
+  "The number of retractions shows how much is being cleaned up, not how much garbage remains.",
+  "The risk is real and it has already been measured.",
+  "At the moment, an author of a scientific paper is simply a name in the text."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If flawed papers enter model training data, chatbot answers could repeat them.",
+ "event_date": "Interview published around 4 Oct 2026; Novaator experiment early Sep 2026",
+ "notes": "One researcher's views and a preliminary calculation; reported by ERR as an interview. Kept at 5."
+}

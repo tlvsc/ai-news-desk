@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "machine_action": false,
+ "notes": "Techzine original blocked (403); read The Register, which reported the same release.",
+ "headline": "Google has released official Swift client libraries for its cloud services, aimed at developers who run Swift on servers.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1 because the release is dated 2 Oct 2026 and the facts show a niche developer audience.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Swift developers who want to build server software on Google Cloud get official tools, but The Register notes server-side Swift adoption has been slow.",
+ "source": "The Register",
+ "status": "CONFIRMED",
+ "summary": "The Register reports that Google has released Google Cloud API Client Libraries for Swift, which let programs written in Apple's Swift language call Google Cloud services from servers. Google's developer relations staff say Swift 6 has become a viable cloud language, while The Register notes that Swift ranks 18th on the TIOBE popularity index and server-side use has grown slowly. The release dates from 2 Oct 2026.",
+ "url": "https://www.theregister.com/software/2026/10/02/google-hearts-apples-swift-so-much-its-pumping-out-server-side-support/5300921",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "verified_text": true
+}

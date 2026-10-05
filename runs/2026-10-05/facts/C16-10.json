@@ -1,0 +1,24 @@
+{
+ "item_id": "C16-10",
+ "title": "Open-source tool designs LEGO builds with more than 2,000 real pieces — their programs output detailed CAD files, but no models have been built yet",
+ "source_used": "Tom's Hardware",
+ "article_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
+ "fetched": true,
+ "key_facts": [
+  "Open-source tool LDraw Nova lets AI models design LEGO builds from a prompt, producing LDraw CAD files.",
+  "One example is the 2,175-piece Sakura Garden, from a prompt to Claude Opus 5.5.",
+  "Developer Carlos Antelo posted it on Friday after three earlier attempts.",
+  "No design has been built with real bricks; Antelo says he 'didn't even try'.",
+  "Limits: no physics or stability checking, and only frontier models make large accurate builds.",
+  "Antelo's 'wild' estimate is about $5 in token costs for Astra building one Technic mechanism.",
+  "It differs from Carnegie Mellon's LegoGPT/BrickGPT, which checks stability."
+ ],
+ "quote_evidence": [
+  "None of the designs have been built with real bricks yet, though; developer Carlos Antelo says he \"didn't even try.\"",
+  "\"physics modeling is something Nova is currently lacking\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI agents can now plan large LEGO models as files, but nothing has been tested in real bricks.",
+ "event_date": "2 Oct 2026 (Friday release)",
+ "notes": "Released Friday 2 Oct, before the window; score lowered by 1."
+}

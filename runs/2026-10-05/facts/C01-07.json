@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-07",
+ "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+ "fetched": true,
+ "key_facts": [
+  "Google Cloud AI Research and several universities describe a method, RRSI (Regularized Recursive Self-Improvement of Agent Harnesses)",
+  "A harness is the framework of prompts, tools, memory and logic around a fixed language model",
+  "Self-optimizing harnesses tend to memorize their test tasks, so gains on unseen tasks shrink",
+  "RRSI caps how many edits a change can bundle, shrinks that cap over time, and uses a critic to reject benchmark-specific hardcoding",
+  "Tested on eight benchmarks with Claude Opus 4.8 frozen, per the paper",
+  "Up to 14.1 points gain on training tasks and up to 4.7 on five unseen benchmarks, about 30% fewer tokens than the unregularized version",
+  "Study covers only harnesses around frozen models"
+ ],
+ "quote_evidence": [
+  "Because the agent keeps working on the same limited set of test tasks, it ends up memorizing them.",
+  "According to the paper, RRSI gains up to 14.1 points on the tasks it was trained on and up to 4.7 points on five benchmarks it never saw."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Guards against self-improving agents that only look better because they memorized their tests.",
+ "event_date": "early Oct 2026 (paper date not stated)",
+ "notes": "Paper results reported by The Decoder; no outside review mentioned."
+}

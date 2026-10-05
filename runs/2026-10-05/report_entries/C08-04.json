@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-04",
+ "v1_category": "ENE",
+ "headline": "OpenAI has built its first custom chip, Jalapeño, with Broadcom, to run its AI models for users rather than to train them.",
+ "score": 5,
+ "score_reason": "Older news (June unveiling, Hot Chips talk) and performance figures are OpenAI's own; lowered 2 from 7.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows an AI lab trying to lower its dependence on Nvidia for serving users, which touches OpenAI, Nvidia and rival chip designers, but the speed and efficiency claims come only from OpenAI's own tests.",
+ "source": "remio, citing OpenAI and Tom's Hardware",
+ "status": "REPORTED",
+ "summary": "The technology site remio reports, citing OpenAI's presentation at the Hot Chips conference and interviews with OpenAI hardware chief Richard Ho, that Jalapeño, built with Broadcom to run trained models (known as inference), went from design to manufacturing hand-off in nine months and delivered 1.5 to 1.9 times more work at peak throughput than rival platforms in selected tests. Those figures are OpenAI's own, the chip was first unveiled in June 2026 so this is older news, and it does not replace the Nvidia hardware OpenAI uses to train models.",
+ "url": "https://www.remio.ai/post/openai-jalapeno-inference-chip-challenges-nvidias-general-purpose-ai-hardware",
+ "freshness": "FOLLOW-UP of Jun 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Credit chain: remio rests on OpenAI statements and Tom's Hardware interviews, neither opened. Exact June day not stated, freshness gives month only."
+}

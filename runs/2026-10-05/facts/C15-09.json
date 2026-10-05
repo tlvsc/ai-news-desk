@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-09",
+ "title": "Cloudflare Plans Public Certificate Authority to Issue Quantum-Safe TLS Certificates",
+ "source_used": "InfoQ",
+ "article_url": "https://www.infoq.com/news/2026/10/postquatam-certificates/",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare plans a free public certificate authority for quantum-safe TLS certificates",
+  "Uses Merkle Tree Certificates, advancing in the IETF PLANTS working group",
+  "Naive post-quantum signatures would inflate handshake data about forty times",
+  "Hybrid: traditional X.509 plus Merkle certificate, legacy clients fall back",
+  "Tested with Google Chrome engineers, low handshake latency kept",
+  "Free issuance, broad public issuance targeted early 2027"
+ ],
+ "quote_evidence": [
+  "Cloudflare announced plans to operate a free public Certificate Authority designed to issue quantum-safe Transport Layer Security certificates.",
+  "Cloudflare plans to open standard issuance at no charge to all web properties"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Makes post-quantum authentication practical.",
+ "event_date": "not stated",
+ "notes": "InfoQ's text includes an AI-generated summary note; facts taken from the body text only."
+}

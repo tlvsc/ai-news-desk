@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-08",
+ "title": "Gemini Gains Access to Google Wallet: Tickets, Expenses, and Rewards via Voice Commands",
+ "source_used": "Basic Tutorials (relaying Android Authority and 9to5Google)",
+ "article_url": "https://basic-tutorials.com/news/gemini-gains-access-to-google-wallet-tickets-expenses-and-rewards-via-voice-commands/",
+ "fetched": true,
+ "key_facts": [
+  "Gemini can now access Google Wallet via the @Google Wallet command or the Connected Apps list.",
+  "It can find boarding passes, tickets and loyalty cards, summarise spending and list card rewards.",
+  "Spending analysis needs a bank account linked to Google Wallet through Plaid.",
+  "Gemini cannot start payments or change financial accounts; 9to5Google says this is intentional.",
+  "Android Authority says the phased rollout began 29 Sep 2026.",
+  "Rollout is U.S. only, personal Google accounts only; no date for Germany or Europe.",
+  "Access is opt-in and can be revoked."
+ ],
+ "quote_evidence": [
+  "It cannot initiate payments or make changes to accounts, however; Google has intentionally disabled these features.",
+  "Technically, Gemini is limited to read-only access; according to all sources available so far, the AI cannot initiate a transaction."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Gemini can read Wallet data but not spend money.",
+ "event_date": "Rollout began 29 Sep 2026 (per Android Authority, as cited)",
+ "notes": "Older news re-dated: rollout started 29 Sep 2026. Basic Tutorials relays 9to5Google and Android Authority; the privacy worries in the article are the outlet’s own view."
+}

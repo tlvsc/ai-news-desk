@@ -1,0 +1,17 @@
+{
+ "headline": "Google says its internal AI agent PageBreak has found and proven more than 500 web security flaws in Google's own applications.",
+ "score": 5,
+ "score_reason": "Pool score kept: a company claim of notable scale, not independently verified, disclosure date unclear.",
+ "importance_line": "Google's security engineers get fewer false alarms and users of its services get faster fixes, but the figures are Google's own and have not been independently checked.",
+ "source": "GBHackers, citing Google",
+ "status": "REPORTED",
+ "summary": "GBHackers reports that Google has disclosed an internal AI security agent called PageBreak, which found and confirmed more than 500 cross-site scripting flaws, a type of bug that lets an attacker run their own code in a web page, across Google's own web applications. Google says the agent reports only flaws it can prove by reproducing the exploit, which gives a near-zero false-positive rate, and it is a company claim not yet independently checked.",
+ "url": "https://gbhackers.com/google-pagebreak-ai-agent/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Google's original disclosure not read; the date of the disclosure is not stated in the article, so freshness NEW is an assumption.",
+ "item_id": "C12-11",
+ "v1_category": "SEC",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-12",
+ "v1_category": "MOD",
+ "url": "https://asianmoviepulse.com/2026/10/deepseek-v4-1-flash-two-rates-for-one-model-and-a-legacy-id-that-now-serves-another/",
+ "machine_action": false,
+ "headline": "DeepSeek's V4.1 Flash model charges double during set peak hours, and older DeepSeek model names now quietly run it instead.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: the release dates from 10 Sep 2026 and the source is a marketplace page, not independent reporting.",
+ "importance_line": "Developers using DeepSeek's API could see bills change by time of day and different answers under old model names, but the account comes from a vendor-linked page.",
+ "source": "Asian Movie Pulse, citing DeepSeek documentation",
+ "status": "REPORTED",
+ "summary": "Asian Movie Pulse, in a page that promotes the OrcaRouter AI marketplace, reports that DeepSeek's documentation lists two prices for V4.1 Flash, released on 10 Sep 2026: $0.15 per million input tokens off-peak and $0.30 at peak, with output at $0.60 and $1.20. It adds that requests to older model names are now answered by V4.1 Flash at the Flash price, so a name in a developer's settings may no longer describe the model that replies.",
+ "freshness": "FOLLOW-UP of 10 Sep 2026",
+ "verified_text": true,
+ "notes": "Marketplace-promotional source; peak hours are OrcaRouter's listing.",
+ "importance_label": "WATCHLIST"
+}

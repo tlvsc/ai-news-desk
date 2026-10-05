@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-11",
+ "v1_category": "SEC",
+ "headline": "Gartner warns that companies which delay testing quantum-safe encryption beyond 2027 could face at least 200 percent higher migration costs.",
+ "score": 5,
+ "score_reason": "Analyst survey and forecast, not an incident; relayed by one outlet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Security chiefs are the main audience, and Gartner's finding that 51 percent have not started suggests many firms are behind, though the cost figure is Gartner's own estimate.",
+ "source": "BW Businessworld, citing Gartner",
+ "status": "REPORTED",
+ "summary": "BW Businessworld reports that research firm Gartner says organisations that wait until after 2027 to pilot post-quantum cryptography (encryption designed to resist quantum computers) could pay at least 200 percent more for full migration. In Gartner's survey, 51 percent of chief information security officers had not started any such work, and it flags 'harvest now, decrypt later' attacks, where stolen data is stored until quantum computers can break it.",
+ "url": "https://www.businessworld.in/article/delaying-post-quantum-crypto-pilots-could-raise-costs-200-gartner-626820",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Survey date not stated for the PQC finding."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-08",
+ "title": "GPT-6 Astra cleared World of Warcraft's orc zone by reading network packets, not pixels",
+ "source_used": "Startup Fortune, citing Tom's Hardware",
+ "article_url": "https://startupfortune.com/gpt-6-astra-cleared-world-of-warcrafts-orc-zone-by-reading-network-packets-not-pixels/",
+ "fetched": true,
+ "key_facts": [
+  "Tom's Hardware reported on 3 Oct 2026 that GPT-6 Astra cleared World of Warcraft's orc starting zone, the Valley of Trials, in about 40 minutes without dying",
+  "The model never rendered a frame; it worked from raw server network messages and quest data in SQL files",
+  "It ran on agent-wow, an open-source client, on a private AzerothCore server, not Blizzard's live servers",
+  "Astra wrote a module capturing 28 types of server messages and a Python script to assemble the game world",
+  "It built its own C++ pathfinding helper using navigation mesh files and the Detour library",
+  "OpenAI rates Astra at its 'Critical' cybersecurity threshold under its Preparedness Framework",
+  "Startup Fortune says no one has shown Astra attacking real networks"
+ ],
+ "quote_evidence": [
+  "On October 3, Tom's Hardware reported that OpenAI's GPT-6 Astra cleared the Valley of Trials, the orc starting zone in World of Warcraft, finishing every quest and arriving in Sen'jin Village in roughly 40 minutes without dying once.",
+  "Parsing a WoW server's packet structure ... and reverse-engineering a corporate network's authentication flow are different problems"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows the model building its own tools and reading raw network traffic, a skill relevant to security.",
+ "event_date": "reported 3 Oct 2026",
+ "notes": "Commentary framing is Startup Fortune's; facts attributed to Tom's Hardware."
+}

@@ -1,0 +1,24 @@
+{
+ "title": "AI Cyberattacks Surge to 25% of Global Data Breaches",
+ "source_used": "Chosun Ilbo (English edition), page text read from the page's embedded article data",
+ "article_url": "https://www.chosun.com/english/industry-en/2026/10/05/W4V7VLWSOFARNIPZTLQVFMYOHY/",
+ "fetched": true,
+ "key_facts": [
+  "IBM's '2026 Cost of a Data Breach' report, published in July, covers 602 organizations from March 2025 to February 2026.",
+  "25% of malicious breaches used AI-based attacks, up 56% on the year before.",
+  "Average damage from AI hacking was about 6 million dollars against 4.99 million dollars for all breaches.",
+  "62% of AI-based attacks targeted core infrastructure, mostly finance and energy.",
+  "More than 20% of surveyed firms had breaches aimed at AI models or applications.",
+  "For 30 South Korean firms, 31% of malicious breaches were AI-driven.",
+  "In a May survey of 456 organizations, over half used AI agents to detect attacks but only 18% used them to find and fix weaknesses ahead of time."
+ ],
+ "quote_evidence": [
+  "Sixty-two percent of AI-based attacks targeted core infrastructure, with the financial and energy sectors facing the highest concentration of attacks.",
+  "only 18% utilized them to proactively identify and fix security vulnerabilities."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Quantifies AI's share of breaches and a defence gap.",
+ "event_date": "IBM report July 2026; data March 2025 to February 2026",
+ "notes": "Plain page fetch returned no body for the strip; article text recovered from embedded page data. Older report re-dated by Chosun on 5 Oct; score lowered by 1.",
+ "item_id": "C12-07"
+}

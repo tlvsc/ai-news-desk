@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-01",
+ "title": "Swedish researchers build AI that runs biology lab with oversight",
+ "source_used": "The Brighter Side of News (also read Bioengineer.org)",
+ "article_url": "https://www.thebrighterside.news/post/scientists-build-an-ai-that-can-propose-experiments-run-them-and-learn-from-the-results/",
+ "fetched": true,
+ "key_facts": [
+  "Chalmers University of Technology (Sweden) built a closed-loop AI system that generates biology hypotheses, plans experiments, directs lab robots, analyses results and refines later questions.",
+  "Tested on brewer's yeast, Saccharomyces cerevisiae; published in the Journal of the Royal Society Interface.",
+  "Hybrid design: about 60,000 structured relationships about yeast, inductive logic programming (735 logic programs generated) and a language model that designs interventions.",
+  "Produced 1,933 candidate hypotheses involving 16 amino acids; five amino acids (glutamate, arginine, proline, glutamine, lysine) were tested under chemical stress.",
+  "Some hypotheses held (arginine plus caffeine slowed growth more than expected), others failed (arginine did not rescue cells from lithium stress); failures were stored.",
+  "Per Brighter Side, aminoadipate partly protected cells from formic acid stress; humans still handled some physical tasks and set research limits."
+ ],
+ "quote_evidence": [
+  "Researchers at Chalmers University of Technology developed a closed-loop system that can generate biological hypotheses, decide how to test them, translate those plans into machine-readable instructions, analyze experimental results and use the findings to refine later questions.",
+  "The laboratory was not completely autonomous, because humans still handled some physical tasks and set research boundaries."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A lab loop that links reasoning to real experiments, with humans still setting limits.",
+ "event_date": "Study published in the Journal of the Royal Society Interface; coverage dated 2 Oct 2026",
+ "notes": "NewsBytes page blocked (HTTP 403); read The Brighter Side of News and Bioengineer.org (Chalmers study coverage) instead. Coverage first dated 2 Oct 2026, so lowered 7 to 6 as not new today. Bioengineer.org says 'minimal human involvement'; Brighter Side says some physical tasks remained human, we kept the cautious version."
+}

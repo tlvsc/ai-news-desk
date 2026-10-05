@@ -1,0 +1,22 @@
+{
+ "item_id": "C08-13",
+ "title": "Renesas develops high-voltage GaN transistor for AI data centers.",
+ "source_used": "Bisinfotech (relaying a Renesas product announcement)",
+ "article_url": "https://www.bisinfotech.com/renesas-debuts-dual-side-cooled-650v-gan-device-to-power-megawatt-scale-ai-data-centers/",
+ "fetched": true,
+ "key_facts": [
+  "Renesas Electronics introduced the TP65H020G4PLSGBD, a 650-volt gallium nitride (GaN) transistor with double-sided cooling for AI data center power systems.",
+  "AI server racks are moving from about 120 kW toward megawatts of power.",
+  "The 8x8 mm package cuts board size by 57% and top-side thermal impedance by 10% versus a 10x15 mm top-cooled package.",
+  "A 6 kW 800V-to-48V reference design showed 0.21% better full-load efficiency from the package.",
+  "Samples are with select AI data center OEMs and ODMs; mass production starts in mid-2027."
+ ],
+ "quote_evidence": [
+  "With artificial intelligence workloads increasing demands on power for server racks to be increased from around 120 kW to megawatts of power, the engineers have faced serious limitations in terms of space and cooling capacity.",
+  "Currently, samples of TP65H020G4PLSGBD are already available in some selected AI data center OEMs and ODMs and the mass production of this product will start in mid-2027."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Power conversion is a growing bottleneck in AI data centers; this is a vendor product with vendor-stated gains.",
+ "event_date": "Reported 5 Oct 2026",
+ "notes": "Reads like a company press release; gains are Renesas figures. Article wording says \"is developing\" yet also says samples are available."
+}

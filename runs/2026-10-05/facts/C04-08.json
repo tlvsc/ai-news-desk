@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-08",
+ "title": "Research papers can now become AI agents that answer questions",
+ "source_used": "Earth.com",
+ "article_url": "https://www.earth.com/science/research-papers-can-now-become-ai-agents-that-answer-questions/",
+ "fetched": true,
+ "key_facts": [
+  "Paper2Agent, built by Stanford's Jiacheng Miao, James Zou and colleagues, turns a research paper and its shared code into an AI agent that answers questions by running the paper's own code.",
+  "Works through three agents that set up the software, turn methods into tools and test them; packaged with the Model Context Protocol (MCP).",
+  "26 of 100 biology papers could not be converted; 74 became working agents, 593 of 599 proposed tools passed tests.",
+  "On 300 questions the agents scored 91.2%, versus 80.3% for Claude working directly from the code.",
+  "AlphaGenome agent: 22 tools in about 45 minutes, $14, on a laptop.",
+  "Three linked agents helped point to GPR137 as a likely psoriasis gene using data earlier teams had collected; no new lab work.",
+  "Authors say researchers remain responsible for selecting directions and evaluating evidence."
+ ],
+ "quote_evidence": [
+  "It works best on papers that come with usable code, and 26 of the 100 biology papers the team tried couldn't be converted.",
+  "No new lab work was done, since every check used data the earlier teams had already collected.",
+  "In every test here, the researchers chose which papers to connect."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Turning papers into tools could make published methods easier for other scientists to use.",
+ "event_date": "Not stated",
+ "notes": "Journal or preprint venue not named in the article; findings are the authors' own tests. Kept at 5."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-05",
+ "title": "AI Toxicity Predictions Overstated: New Benchmark Exposes Hidden Data Leakage",
+ "source_used": "Bioengineer.org (text credited to Scienmag)",
+ "article_url": "https://bioengineer.org/ai-toxicity-predictions-overstated-new-benchmark-exposes-hidden-data-leakage/",
+ "fetched": true,
+ "key_facts": [
+  "Gachon University (South Korea) built ToxBench, a benchmark auditing how toxicity-prediction models are tested; published in BMC Bioinformatics.",
+  "Uses Tox21 (7,538 compounds, 12 endpoints), ClinTox (1,379 compounds) and SIDER (1,350 compounds, 27 tasks).",
+  "Four model types, random versus scaffold-based splits, five seeds, 120 conditions.",
+  "On Tox21, moving to scaffold splitting cut AUROC by 0.057 to 0.079 points (mean 0.070) across all four models.",
+  "Test compounds with close similarity (above 0.6) to training data fell from 43.9% to 12.1% with scaffold splitting.",
+  "ClinTox results were dominated by sampling noise (plus or minus 0.085 to 0.160 AUROC).",
+  "Scaffold splitting worsened probability calibration on all three datasets."
+ ],
+ "quote_evidence": [
+  "The study, published in BMC Bioinformatics, quantifies exactly how much performance drops when structurally similar molecules are kept out of the test set.",
+  "Moving from random to scaffold splitting reduced the area under the receiver operating characteristic curve, or AUROC, by 0.057 to 0.079 points across all four model classes on Tox21, with a mean drop of 0.070.",
+  "ClinTox, the smallest of the three, showed a reversed performance ordering between split types."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Drug-safety predictions are only as credible as the way they were tested.",
+ "event_date": "Study published in BMC Bioinformatics; article dated 5 Oct 2026",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag is named as source. Score kept at 5."
+}

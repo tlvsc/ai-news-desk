@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-10",
+ "v1_category": "MOD",
+ "headline": "MongoDB has launched Atlas Agent Engine, a public-preview product for running business AI agents with memory and oversight built in.",
+ "score": 5,
+ "score_reason": "Pool score kept: relevant enterprise launch, but it is a preview, and customers quoted are evaluating.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that already use MongoDB could run AI agents with logging and policy controls in one place, but it is only in public preview and customers quoted are still evaluating.",
+ "source": "IT Brief Asia",
+ "status": "REPORTED",
+ "summary": "IT Brief Asia reports that MongoDB, a database company, has launched Atlas Agent Engine in public preview, a service for running AI agents in production that combines memory and governance, including logging of what each human or software identity does. MongoDB says it works with existing models and cloud providers and supports open standards such as MCP and A2A, while early customers such as Lendi Group and Paysafe say they are evaluating it.",
+ "url": "https://itbrief.asia/story/mongodb-launches-atlas-agent-engine-for-production-ai",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Company announcement relayed by trade outlet; MCP (Model Context Protocol) and A2A (agent-to-agent) are agent communication standards."
+}

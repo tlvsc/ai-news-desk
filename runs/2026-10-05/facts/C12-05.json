@@ -1,0 +1,24 @@
+{
+ "title": "Chinese Hackers Impersonate Anthropic Employee to Extract AI Secrets",
+ "source_used": "Futurism (citing Proofpoint, CNN)",
+ "article_url": "https://futurism.com/artificial-intelligence/chinese-hackers-impersonate-anthropic-ai-secrets",
+ "fetched": true,
+ "key_facts": [
+  "Proofpoint, a US cybersecurity firm, reports a group it calls TA419 impersonated AI professionals, including an Anthropic staffer and an ex-White House official.",
+  "Targets were AI policy experts at US think tanks, universities and law firms.",
+  "Emails invited targets to a made-up 'AI Policy Advisory Committee' or a fictional Senate report, then sent malware-laced documents aimed at cloud accounts.",
+  "One email used the subject 'Request for Feedback on Military Integration of Claude'.",
+  "Proofpoint researcher Mark Kelly told CNN the group is 'Chinese government-aligned' based on targeting, infrastructure, technical artifacts and industry partners.",
+  "Lynne Edwards Parker, formerly of the White House OSTP, was among those impersonated.",
+  "Proofpoint expects the campaigns to continue."
+ ],
+ "quote_evidence": [
+  "We are confident,\" Mark Kelly, a Proofpoint researcher, told CNN, that the hacking cohort is a \"Chinese government-aligned threat actor",
+  "These campaigns will likely also continue spoofing the identities of real subject-matter experts."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Impersonation of AI-lab staff to reach policy experts and their cloud accounts.",
+ "event_date": "Proofpoint report, date not stated (reported 4 Oct 2026)",
+ "notes": "Futurism relays Proofpoint and CNN; Proofpoint original not read. Attribution to China is Proofpoint's assessment.",
+ "item_id": "C12-05"
+}

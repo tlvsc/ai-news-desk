@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-12",
+ "v1_category": "ROB",
+ "headline": "A humanoid robot, controlled remotely by a surgeon, removed the gallbladders of two pigs in a research study.",
+ "score": 5,
+ "score_reason": "Interesting research milestone but tiny, animal-only and still teleoperated; matches pool score.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients are not yet affected; the study shows feasibility only, with two animal operations and sterility, control delay and calibration problems unresolved.",
+ "source": "Streamline Feed",
+ "status": "REPORTED",
+ "summary": "Streamline Feed reports on a study from the University of California San Diego, published in Nature, in which a Unitree G1 humanoid robot, steered remotely by a surgeon, carried out two gallbladder removals in pigs. It was not autonomous surgery: human staff prepared the animals and assisted, the robot needed repeated repositioning, and the authors say sterility, control delay, calibration and overheating problems must be solved before any use on people.",
+ "url": "https://streamlinefeed.co.ke/news/humanoid-robot-pig-surgery-remote-control",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Surgery is also HEA-adjacent; kept in ROB because the subject is the robot."
+}

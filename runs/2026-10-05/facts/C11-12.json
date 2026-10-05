@@ -1,0 +1,22 @@
+{
+ "item_id": "C11-12",
+ "title": "Humanoid Robot Performs Pig Surgery Under Remote Control",
+ "source_used": "Streamline Feed (reporting on a Nature study)",
+ "article_url": "https://streamlinefeed.co.ke/news/humanoid-robot-pig-surgery-remote-control",
+ "fetched": true,
+ "key_facts": [
+  "Researchers led by UC San Diego, published in Nature, used a Unitree G1 humanoid (nicknamed Surgie) for two pig gallbladder removals",
+  "A surgeon controlled it remotely from a console; it was not autonomous",
+  "Console-control times were 56 min 15 s and 31 min 59 s; the robot was repositioned or recalibrated 8 and 4 times",
+  "In a peg-transfer test the humanoid took about 560 s versus 118 s for the da Vinci Xi surgical robot",
+  "Authors list latency (about 156 ms), calibration, sterility and overheating as open problems"
+ ],
+ "quote_evidence": [
+  "A humanoid robot has completed two laparoscopic gallbladder removals in pigs, but the experiment was not autonomous surgery.",
+  "It is a preclinical feasibility demonstration—not evidence that humanoids are ready to operate on people or replace surgical teams."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A general-purpose humanoid did live animal surgery under human remote control, but is far from human use.",
+ "event_date": "not stated in article",
+ "notes": "Journal and publication date not confirmed beyond the article's statements (it mentions both Nature and a Nature Medicine highlight)."
+}

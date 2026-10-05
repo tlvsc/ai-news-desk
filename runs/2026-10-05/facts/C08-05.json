@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-05",
+ "title": "Chinese AI Chips Could Flood the Market. Alibaba’s New Chip Is 3X Better Than Its Predecessor.",
+ "source_used": "DataCenterNews Asia Pacific (2 Oct 2026); Barchart page returned HTTP 202 with no text",
+ "article_url": "https://datacenternews.asia/story/alibaba-unveils-full-stack-ai-push-with-new-qwen-chips",
+ "fetched": true,
+ "key_facts": [
+  "Alibaba's chip design unit T-Head introduced the Zhenwu V900 AI processor for training and inference at the Apsara Conference in Hangzhou.",
+  "Alibaba says the chip delivers three times the performance of the Zhenwu M890, released in May.",
+  "It carries 216 GB of GPU memory and 1,200 GB/s of inter-chip bandwidth, according to Alibaba, and supports FP8 and FP4 precision.",
+  "Mass production and commercial release are scheduled for the first quarter of 2027.",
+  "CEO Eddie Wu targets Alibaba Cloud data center capacity above 20GW by 2032."
+ ],
+ "quote_evidence": [
+  "T-Head, Alibaba's chip design unit, introduced the Zhenwu V900 AI processor for training and inference workloads.",
+  "The chip delivers three times the performance of the earlier Zhenwu M890, released in May.",
+  "The chip is scheduled for mass production and commercial release in the first quarter of 2027."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A homegrown Chinese AI chip with a 2027 production date, performance figures from Alibaba itself.",
+ "event_date": "2 Oct 2026 (reported)",
+ "notes": "Barchart original (HTTP 202, empty) not read; used DataCenterNews Asia Pacific report of the same announcement. Barchart's \"could flood the market\" framing is not verified here."
+}

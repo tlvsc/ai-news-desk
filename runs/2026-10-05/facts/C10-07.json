@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-07",
+ "title": "Medical AI is already in hospitals, but most of the devices haven't been properly tested",
+ "source_used": "Earth.com",
+ "article_url": "https://www.earth.com/science/most-ai-medical-devices-approved-by-the-fda-have-not-been-tested-on-humans/",
+ "fetched": true,
+ "key_facts": [
+  "Census by Rawan Abulibdeh (University of Toronto) and MIT Critical Data colleagues, in PLOS Digital Health",
+  "1,357 AI devices cleared or approved by FDA through 5 Dec 2025",
+  "34 had a registered trial; 3 studied patient outcomes",
+  "94% of the 34 trials run by the manufacturer; 73.5% enrolled under 500 people",
+  "1,059 devices read images, only 3 of them with a registered trial",
+  "Most reach market via the 510(k) route (similarity to an existing device)",
+  "Limit: unregistered private studies would not show up; no non-AI comparison group",
+  "Sepsis tool missed 67% of cases in a 2021 outside test"
+ ],
+ "quote_evidence": [
+  "Of 1,357 AI devices the FDA has cleared for use in patient care, three were tested on whether patients lived longer or better.",
+  "Untested doesn't mean unsafe, and the authors are careful about that.",
+  "The full study was published in the journal PLOS Digital Health."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Clearance does not show patient benefit; evidence gap is large.",
+ "event_date": "Data to 5 Dec 2025; story 4 Oct 2026",
+ "notes": "Earth.com interviewed author Cajas Ordonez; study itself not read."
+}

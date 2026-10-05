@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-09",
+ "title": "Fighting AI Slop in Science Papers",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/fighting-ai-slop-in-science-papers/",
+ "fetched": true,
+ "key_facts": [
+  "arXiv announced a limit of two submissions per month per submitter, after receiving 40,363 submissions in September 2026 (20,569 in September 2024, 9,869 in September 2016).",
+  "The month also produced almost 9,000 support tickets; moderators see more thin, 'salami' and dense AI-written papers.",
+  "In May arXiv imposed a one-year ban for unchecked AI content.",
+  "Seoul National University and the University of Minnesota published 'Science or Slop?' with SciSlopBench, built from 390 AI-generated papers each paired with a human-written one.",
+  "The benchmark identified the AI paper in 85.9% of pairs; SciSlopHarness cut the remaining AI-human gap by 63% against the strongest revision baseline.",
+  "The new paper scored 'moderate' (40/100) on its own demo."
+ ],
+ "quote_evidence": [
+  "Last week, preprint server arXiv announced that it will be instituting a new rate-limiting policy for submitters, who will now be capped at two submissions per month.",
+  "The benchmark correctly identified the AI-generated paper in 85.9% of these comparisons.",
+  "Our moderators are observing an increase in thin papers of narrow scope, as well as 'salami' papers."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A flood of low-quality AI-written papers strains the review system scientists rely on.",
+ "event_date": "arXiv announcement about a week before 4 Oct 2026 (Hacker News discussion on a Thursday, 1 Oct); research paper date not stated",
+ "notes": "arXiv announcement described as 'last week' in the 4 Oct article, so lowered 5 to 4 as not new today. Benchmark figures are the authors' own."
+}

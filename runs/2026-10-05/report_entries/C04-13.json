@@ -1,0 +1,17 @@
+{
+ "headline": "Chinese researchers built TERfinder, a deep-learning tool that maps which distant DNA switches control which genes in myeloid leukemia and uses the map to sort patients into higher and lower risk groups.",
+ "score": 5,
+ "score_reason": "Strong computer results, but no clinical testing and independent validation is still needed.",
+ "importance_line": "Leukemia patients and doctors may eventually get finer risk grouping, but this is computer analysis of existing data and the four-gene panel has not been independently validated.",
+ "source": "Scienmag, as relayed by Bioengineer.org",
+ "summary": "Scienmag, as relayed by Bioengineer.org, reports on a BMC Bioinformatics study in which TERfinder separated interacting from non-interacting DNA-switch and gene pairs with a score (AUROC) of 0.9644 on chromosomes it had not seen, and a four-gene signature drawn from its network analysis split acute myeloid leukemia patients into high- and low-risk groups. The authors say predicted links need lab confirmation and the signature needs independent validation before any clinical use.",
+ "freshness": "NEW",
+ "status": "PRELIMINARY",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag named as source. Computer analysis only; no clinical test reported.",
+ "url": "https://bioengineer.org/deep-learning-tool-reads-leukemias-regulatory-code-to-predict-patient-risk/",
+ "verified_text": true,
+ "item_id": "C04-13",
+ "v1_category": "RES",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

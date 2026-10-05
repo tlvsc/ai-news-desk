@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-04",
+ "title": "OpenAI Jalapeño Inference Chip Challenges Nvidia’s General-Purpose AI Hardware",
+ "source_used": "remio (analysis post citing OpenAI's Hot Chips presentation and interviews with Richard Ho incl. Tom's Hardware)",
+ "article_url": "https://www.remio.ai/post/openai-jalapeno-inference-chip-challenges-nvidias-general-purpose-ai-hardware",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI built its first custom AI accelerator, Jalapeño, with Broadcom; it is designed for inference, running trained models.",
+  "OpenAI and Broadcom unveiled it in June 2026; Richard Ho, OpenAI's vice president of hardware, gave more detail at Hot Chips 2026.",
+  "OpenAI says it went from register-transfer-level design to tape-out in nine months, against an older baseline of 18 months to two years (Ho to Tom's Hardware).",
+  "Rack of 128 accelerators, pod of 2,048; 700-watt rating, sustained draw reportedly at or below 550 watts.",
+  "OpenAI says it delivered 1.5 to 1.9 times more work at peak throughput than rival platforms in selected tests with GPT-OSS-120B, DeepSeek R1 and Kimi K2.5.",
+  "Figures come from OpenAI's testing; deployment is limited and the chip does not replace Nvidia hardware used for training."
+ ],
+ "quote_evidence": [
+  "OpenAI designed its first custom accelerator in nine months, creating a direct challenge to the general-purpose hardware that powers most large AI services.",
+  "OpenAI still has much to prove.",
+  "OpenAI and Broadcom unveiled Jalapeño in June 2026 as the first processor in a planned, multigeneration computing platform."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Custom inference chips let AI labs cut cost and power per answer, but OpenAI's numbers are self-reported.",
+ "event_date": "Jun 2026 (unveiling); Hot Chips 2026 presentation (date not stated)",
+ "notes": "Analysis post re-covering a June 2026 announcement and a Hot Chips talk; not new this week. Read the first ~10,000 of 23,800 characters. Original sources (OpenAI, Tom's Hardware) not opened."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-02",
+ "v1_category": "RES",
+ "headline": "IBM researchers say a 61-qubit quantum processor finished a benchmark calculation in 19 seconds that they estimate would take the Frontier supercomputer about 110 years.",
+ "score": 5,
+ "score_reason": "Striking claim but a preprint without peer review, on a narrow benchmark, and the estimate depends on the simulation method.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It adds to evidence of quantum advantage for researchers, but only on one specialised test, and better classical algorithms could shrink the 110-year estimate.",
+ "source": "Moneycontrol, citing an IBM research preprint on arXiv",
+ "status": "PRELIMINARY",
+ "summary": "Moneycontrol reports, citing an IBM preprint on arXiv, that IBM's Nighthawk R2 processor used 61 qubits and 918 two-qubit gates to produce one million samples in 19 seconds on a test called random circuit sampling. The researchers estimate that the US Frontier supercomputer would need about 110 years to reproduce it, but the paper has not been peer reviewed and the estimate depends on the simulation method used, so faster classical methods could cut it.",
+ "url": "https://www.moneycontrol.com/science/ibm-s-quantum-computer-did-in-19-seconds-what-a-supercomputer-could-take-110-years-to-do-article-14044188.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source text is Moneycontrol's write-up of the preprint; the preprint itself was not opened."
+}

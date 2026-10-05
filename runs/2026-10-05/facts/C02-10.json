@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-10",
+ "title": "MongoDB launches Atlas Agent Engine for production AI",
+ "source_used": "IT Brief Asia",
+ "article_url": "https://itbrief.asia/story/mongodb-launches-atlas-agent-engine-for-production-ai",
+ "fetched": true,
+ "key_facts": [
+  "MongoDB launched Atlas Agent Engine, in public preview, for customers already using MongoDB Atlas.",
+  "It combines execution, memory and governance in a single layer for running AI agents in production.",
+  "It launches alongside MongoDB 9.0 and Atlas Infinite and uses Voyage AI models for embeddings and retrieval.",
+  "Pricing is consumption-based for Atlas Agent Runtime and Atlas Agent Memory.",
+  "It logs actions against human or software identities and applies policy controls through one control plane.",
+  "It supports open standards including MCP and A2A and can run across clouds and self-managed setups.",
+  "Early users or evaluators named include Lendi Group and Paysafe; MongoDB says it has more than 70,000 customers."
+ ],
+ "quote_evidence": [
+  "MongoDB has launched Atlas Agent Engine, a product for deploying AI agents in production.",
+  "The platform logs actions against identities, whether human or software-based, and applies policy controls through a single control plane."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Companies want a single governed place to run AI agents rather than stitching together separate tools.",
+ "event_date": "Not stated; reported 4 Oct 2026",
+ "notes": "Launch article draws on company statements; early users say they are evaluating, not running in production."
+}

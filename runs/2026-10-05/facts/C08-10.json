@@ -1,0 +1,22 @@
+{
+ "item_id": "C08-10",
+ "title": "Cognition says Nvidia's Vera Rubin rack gave it up to 4.8x the token throughput of GB200",
+ "source_used": "CoreWeave blog (30 Sep 2026); MIXED Reality News page blocked (403)",
+ "article_url": "https://www.coreweave.com/blog/cognition-becomes-first-customer-for-nvidia-vera-rubin-nvl72-on-coreweave-cloud",
+ "fetched": true,
+ "key_facts": [
+  "CoreWeave announced the Nvidia Vera Rubin NVL72 platform is in limited availability on CoreWeave Cloud, with hundreds of Rubin GPUs across multiple regions.",
+  "Cognition, maker of the Devin AI software engineer, is the first customer and reports up to 4.8 times more total token throughput than GB200 NVL72 on its SWE-2 inference workloads.",
+  "The figure is quoted from Cognition's Silas Alberti and covers one workload.",
+  "Cognition ran production workloads within days of rack handover.",
+  "Vera Rubin NVL72 combines 72 Rubin GPUs and 36 Vera CPUs; CoreWeave cites a 45x lower token cost versus Blackwell (vendor claim)."
+ ],
+ "quote_evidence": [
+  "Cognition, creator of Devin, is the first customer to bring production agentic AI workloads to NVIDIA Vera Rubin NVL72 on CoreWeave Cloud.",
+  "Having scaled from initial bridge capacity to thousands of GPUs for training and dedicated inference on CoreWeave, Cognition's engineers ran production workloads within days of rack handover without requiring custom bring-up work of their own."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Early customer numbers for Nvidia's newest rack are self-reported by the vendor and its customer.",
+ "event_date": "30 Sep 2026",
+ "notes": "Follow-up of yesterday's CoreWeave/Cognition story (1 Oct pool, C08-04). The MIXED article was blocked; nothing new beyond renewed coverage was found, so staleness lowers the score."
+}

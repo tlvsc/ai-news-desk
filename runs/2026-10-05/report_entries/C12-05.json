@@ -1,0 +1,17 @@
+{
+ "headline": "A hacking group that researchers link to the Chinese government posed as an Anthropic employee and other AI figures to trick US policy experts into installing malware.",
+ "score": 6,
+ "score_reason": "Pool score kept: specific, sourced espionage campaign; attribution is the security firm's assessment.",
+ "importance_line": "AI policy experts at US think tanks, universities and law firms were targeted, and their cloud accounts are at risk; the China link is Proofpoint's assessment and Anthropic's own role is only as the impersonated name.",
+ "source": "Futurism, citing Proofpoint and CNN",
+ "status": "REPORTED",
+ "summary": "Futurism reports, citing a Proofpoint report and CNN, that a group called TA419, which Proofpoint says is aligned with the Chinese government, impersonated an Anthropic staffer and a former White House science official in emails to AI policy experts. After a few friendly exchanges about a made-up advisory committee, the group sent documents carrying malware meant to break into the targets' cloud accounts, and Proofpoint expects the campaign to continue.",
+ "url": "https://futurism.com/artificial-intelligence/chinese-hackers-impersonate-anthropic-ai-secrets",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Proofpoint original not read; credit chain Proofpoint -> CNN -> Futurism.",
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "importance_label": "MEDIUM",
+ "machine_action": false
+}

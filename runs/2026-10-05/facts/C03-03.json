@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-03",
+ "title": "Google brings Swift to the backend with its own Cloud SDK",
+ "source_used": "The Register (Techzine blocked, HTTP 403)",
+ "article_url": "https://www.theregister.com/software/2026/10/02/google-hearts-apples-swift-so-much-its-pumping-out-server-side-support/5300921",
+ "fetched": true,
+ "key_facts": [
+  "Google has released Google Cloud API Client Libraries for Swift, for server-side use.",
+  "The libraries target Swift 6.2 and later and use SwiftNIO asynchronous event loops, HTTP/2 multiplexing and gRPC transport.",
+  "Google's Karl Weinmeister and Carlos O'Ryan say Swift 6 with strict concurrency checking has become a viable systems and cloud language.",
+  "The SDK is aimed at servers, containers and DevOps, with web frameworks such as Hummingbird or Vapor.",
+  "Swift ranked 9th on the TIOBE index in January 2020 and ranks 18th now; Stack Overflow's 2025 survey has it 20th.",
+  "IBM backed away from its server-side Swift commitment in 2019; Amazon has done little with its Smoke Framework recently.",
+  "The Register notes adoption on the server has been slow and questions how much language ergonomics will matter as AI coding agents write more code."
+ ],
+ "quote_evidence": [
+  "Google has taken note and has just rolled out Google Cloud API Client Libraries for Swift, evidently convinced Swift has a backend role thanks to its performance and ease of use.",
+  "\"For years, Swift was perceived mainly as a UI language tied to Apple client devices,\" said Karl Weinmeister, director of developer relations, and Carlos O'Ryan, software engineer, in a blog post.",
+  "Even so, server-side adoption of Swift has been slow."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Swift developers get an official Google Cloud client library, but server-side Swift adoption has been slow.",
+ "event_date": "The Register article dated 2 Oct 2026",
+ "notes": "Techzine original blocked; read The Register, which reported the same release. Event dated 2 Oct 2026 so older than 4 Oct."
+}

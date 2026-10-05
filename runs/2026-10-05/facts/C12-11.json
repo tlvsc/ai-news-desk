@@ -1,0 +1,24 @@
+{
+ "title": "Google PageBreak AI Agent Finds Over 500 XSS Vulnerabilities Across Its Web Applications",
+ "source_used": "GBHackers (reporting Google's disclosure)",
+ "article_url": "https://gbhackers.com/google-pagebreak-ai-agent/",
+ "fetched": true,
+ "key_facts": [
+  "Google's Product Security team disclosed PageBreak, an internal AI security agent.",
+  "It found and validated more than 500 cross-site scripting (XSS) flaws across Google's first-party web applications.",
+  "Each candidate flaw goes to a validator that tries to reproduce the exploit on a running application; only proven ones are reported, giving a near-zero false-positive rate per Google.",
+  "It began as a pilot in November 2025 and became a full project in January 2026; most deployments use Gemini 3.1 Pro and Gemini 3.5 Flash.",
+  "As of 4 Sep 2026 it found only two XSS issues across hundreds of apps built on Google's hardened web frameworks, both in internal or debug endpoints.",
+  "Google found no evidence of exploitation in the wild for the cache-poisoning example.",
+  "Google is linking PageBreak to CodeMender, which proposes fixes for human review."
+ ],
+ "quote_evidence": [
+  "The AI proposes an attack path; deterministic tooling proves whether the path actually works.",
+  "Google said it found no evidence of exploitation in the wild."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI used on the defensive side with proof-based validation.",
+ "event_date": "Disclosure date not stated; data as of 4 Sep 2026",
+ "notes": "Company's own claim about itself, relayed by GBHackers; Google original not read; disclosure date unknown.",
+ "item_id": "C12-11"
+}

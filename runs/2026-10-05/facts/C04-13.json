@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-13",
+ "title": "Deep Learning Tool Reads Leukemia's Regulatory Code to Predict Patient Risk",
+ "source_used": "Bioengineer.org (text credited to Scienmag)",
+ "article_url": "https://bioengineer.org/deep-learning-tool-reads-leukemias-regulatory-code-to-predict-patient-risk/",
+ "fetched": true,
+ "key_facts": [
+  "Chinese researchers built TERfinder, a deep-learning framework combining genome, epigenome and transcriptome data; published in BMC Bioinformatics.",
+  "It predicts enhancer-promoter interactions (which distant DNA switches control which genes).",
+  "On held-out chromosomes it reached AUROC 0.9644 and AUPRC 0.9584; the full model beat stripped-down versions (p below 0.01).",
+  "Motif analysis flagged the C/EBP and ETV families as candidate master regulators in myeloid leukemia.",
+  "Single-cell analysis found SPI1 and CEBPA networks active in acute myeloid leukemia blasts and linked to poor survival.",
+  "A four-gene signature (SPI1, CEBPA, MYC, PTPN6) split patients into high- and low-risk groups (log-rank p below 0.01).",
+  "Caveats: predicted links need lab confirmation and the signature needs independent validation before clinical use."
+ ],
+ "quote_evidence": [
+  "TERfinder achieved an area under the receiver operating characteristic curve of 0.9644.",
+  "The four-gene signature, while statistically robust in the analyzed cohorts, would require independent validation before clinical deployment.",
+  "The model's predictions are inferences derived from training data."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A short gene panel could one day refine leukemia risk grouping, but only after independent validation.",
+ "event_date": "Study in BMC Bioinformatics; article dated 4 Oct 2026",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag named as source. Computer analysis only; no clinical test reported."
+}

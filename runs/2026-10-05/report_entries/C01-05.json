@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "MOD",
+ "url": "https://eu.36kr.com/en/p/4011070893871238",
+ "machine_action": false,
+ "headline": "A research team led by He Kaiming says it has helped Claude Opus 5 clear every public level of the ARC-AGI-3 reasoning test by letting the model see game images and revisit past frames.",
+ "score": 5,
+ "score_reason": "Pool 6 lowered by 1: preprint results from the authors, reported by one outlet, on the public games only.",
+ "importance_line": "If it holds up, the result suggests that how a model sees and remembers a task can matter as much as the model itself, but the 100 score comes from the authors' own setup on public games and awaits outside review.",
+ "source": "36Kr, citing the VISTA paper",
+ "status": "PRELIMINARY",
+ "summary": "36Kr reports on a new arXiv paper, VISTA, from He Kaiming's team, saying Claude Opus 5 scored 100 on all 25 public games of ARC-AGI-3, a test of learning unfamiliar interactive games, using about 0.43 times the steps of first-time human players. The team gave the model screenshots instead of a grid of numbers plus a searchable frame history, whereas the same model scored about 40 in the official standard setup; this is the authors' claim, not yet reviewed by others.",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Source is the VISTA preprint as relayed by 36Kr; 'He Kaiming's team' per 36Kr.",
+ "importance_label": "WATCHLIST"
+}

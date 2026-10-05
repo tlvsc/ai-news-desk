@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-06",
+ "title": "New Design Removes 98.4% Of Qubit Leakage During Measurement",
+ "source_used": "Quantum Zeitgeist",
+ "article_url": "https://quantumzeitgeist.com/delft-technology-qubit-98-4-percent/",
+ "fetched": true,
+ "key_facts": [
+  "QuTech, Delft removed 98.4% of qubit leakage during measurement",
+  "Leakage reduction unit integrated into standard readout",
+  "No added processing time",
+  "99.2% computational-state assignment fidelity",
+  "Combined with neural-network decoding to cut logical error rates",
+  "No post-selection used",
+  "Compatible with Purcell filters"
+ ],
+ "quote_evidence": [
+  "achieved 98.4% removal of qubit leakage during measurement",
+  "without relying on post-selection techniques"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Leakage handled inside measurement saves error-correction time.",
+ "event_date": "not stated",
+ "notes": "Paper title: Improved error correction with leakage reduction units built into qubit measurement in a superconducting quantum processor; publication date not stated."
+}

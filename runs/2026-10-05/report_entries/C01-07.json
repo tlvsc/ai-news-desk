@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+ "machine_action": false,
+ "headline": "Google researchers have built a method that stops AI agents from memorizing their tests while they improve their own working setup.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: an early research result with modest, measured gains.",
+ "importance_line": "It affects teams building self-improving AI agents, who risk fooling themselves with inflated test scores, though the gains reported are small and untested outside the paper.",
+ "source": "The Decoder",
+ "status": "PRELIMINARY",
+ "summary": "The Decoder reports on a paper from Google Cloud AI Research and several universities describing RRSI, a method that limits how an AI agent rewrites its own harness, the prompts, tools and logic wrapped around a model, so it does not just memorize its test tasks. According to the paper, it gained up to 4.7 points on five unseen benchmarks and used about 30 percent fewer tokens than the unregularized version, but it covered only harnesses around frozen models.",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "",
+ "importance_label": "WATCHLIST"
+}

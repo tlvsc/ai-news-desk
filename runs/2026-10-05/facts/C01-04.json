@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-04",
+ "title": "OpenAI's GPT-6 Astra jumped to 62.7% on AI's hardest reasoning test",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/openais-gpt-6-astra-jumped-to-627-on-ais-hardest-reasoning-test/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI introduced GPT-6 Astra on 3 Sep 2026 and highlighted a 99.9% score on ARC-AGI-3, an interactive reasoning benchmark from the ARC Prize Foundation",
+  "ARC Prize's standard neutral test setup gave the same model 62.7%",
+  "The 99.9% came from a provider adapter setup that keeps an opaque reasoning state across turns, which only OpenAI could run",
+  "The previous best on the benchmark was GPT-5.6 Sol at 7.8%, per ARC Prize",
+  "François Chollet called Astra a 'step-function change' but said 'We're not making this claim' when asked if it means AGI",
+  "GPT-6.1 Sol later scored 52.7% on the standard setup and 96.4% on the adapter, at 77% lower cost per run",
+  "Fortune reported OpenAI revised several Astra benchmark figures after launch"
+ ],
+ "quote_evidence": [
+  "Under that harness, Astra scored 62.7%, according to ARC Prize's published results page.",
+  "When pressed on whether solving ARC-AGI-3 would mean a system is AGI, he answered plainly on X: \"We're not making this claim.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Two very different scores for one model show how the choice of test setup shapes AI progress claims.",
+ "event_date": "3 Sep 2026 (launch); benchmark results published since",
+ "notes": "Older launch (3 Sep) with later benchmark coverage; re-dated as follow-up. Startup Fortune relays ARC Prize figures."
+}

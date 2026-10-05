@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-09",
+ "v1_category": "SEC",
+ "headline": "Cloudflare plans a free public certificate authority that issues website security certificates designed to resist future quantum computers.",
+ "score": 5,
+ "score_reason": "Plan with a 2027 target, relayed by one outlet from Cloudflare's own blog; useful but early.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Website operators and, eventually, everyday users could get quantum-resistant connections without slow page loads, though broad issuance is not due until early 2027.",
+ "source": "InfoQ, citing a Cloudflare blog post",
+ "status": "REPORTED",
+ "summary": "InfoQ reports, based on a Cloudflare blog post, that Cloudflare plans a free public certificate authority (a body that vouches for websites' identities) to issue quantum-resistant security certificates using Merkle Tree Certificates, a design that keeps the data sent at connection time small. Cloudflare says production tests with Google Chrome engineers kept connections fast, and it is aiming for broad public issuance in early 2027.",
+ "url": "https://www.infoq.com/news/2026/10/postquatam-certificates/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "InfoQ's text includes an AI-generated summary note; facts taken from the body text only."
+}

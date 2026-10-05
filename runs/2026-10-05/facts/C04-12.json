@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-12",
+ "title": "AI Learns the Hidden DNA Code That Marks Enhancers Across Species",
+ "source_used": "Bioengineer.org (text credited to Scienmag)",
+ "article_url": "https://bioengineer.org/ai-learns-the-hidden-dna-code-that-marks-enhancers-across-species/",
+ "fetched": true,
+ "key_facts": [
+  "EnhancerDetector, a convolutional neural network by Solis, Sterling-Lentsch, Halfon and Girgis, published in BMC Genomics.",
+  "Predicts whether a DNA window is an enhancer (a DNA stretch that switches genes on or off) from sequence alone.",
+  "Outperformed existing methods in precision and F1 score on human, mouse and fly datasets.",
+  "Trained on human data, it transferred to mouse and fly; fine-tuning worked with as few as 20,000 enhancer sequences.",
+  "Class activation maps show which parts of the sequence drive each prediction.",
+  "Of six predicted candidates tested in transgenic flies, five drove reporter expression and four of those matched earlier literature.",
+  "Authors position it as a first-stage annotation tool for newly sequenced genomes."
+ ],
+ "quote_evidence": [
+  "EnhancerDetector consistently outperformed existing methods in precision and F1 score.",
+  "Of six candidates tested, five drove reporter expression.",
+  "Moreover, four of the five exhibited expression patterns consistent with those reported in the earlier literature."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A sequence-only tool could help annotate new genomes without years of experiments.",
+ "event_date": "Study in BMC Genomics; article dated 4 Oct 2026",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag named as source. Only six fly candidates were tested."
+}

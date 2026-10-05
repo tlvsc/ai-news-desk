@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-05",
+ "title": "Reddit to halt public Data API access in March 2027 as 14,000 apps register",
+ "source_used": "PPC Land (citing TechCrunch and Reddit's own posts)",
+ "article_url": "https://ppc.land/reddit-to-halt-public-data-api-access-in-march-2027-as-14-000-apps-register/",
+ "fetched": true,
+ "key_facts": [
+  "Reddit said on 30 Sep 2026 it will stop serving RSS feeds on 13 Nov 2026 and close the remaining public Data API access in March 2027.",
+  "New public API requests stop on 31 Oct 2026; access for apps and users that have not registered starts to be removed from 12 Jan 2027.",
+  "More than 14,000 apps and bots have registered, according to Reddit; DeltaBot, MagicEyeBot and RemindMeBot named as migrated or nearly migrated.",
+  "Apps are expected to move to Reddit's Devvit Developer Platform, which does not support Python; a $1,000,000 migration programme pays $1,000 to eligible apps that apply by 30 Nov 2026.",
+  "For RSS outside communities a user moderates, Reddit's post says there is no replacement.",
+  "TechCrunch said API access will be removed for unregistered developers after 12 Jan; Reddit's wording is looser (access 'starts to close').",
+  "One developer says five months of negotiation produced two contracts and objects to a liability cap."
+ ],
+ "quote_evidence": [
+  "Reddit said on September 30, 2026 that it will stop serving RSS feeds on November 13 and close what remains of public access to its Data API in March 2027",
+  "\"If you use RSS for feeds outside of a community you moderate, there is no replacement,\" the post states",
+  "More than 14,000 apps and bots have registered, according to Reddit"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Moderators, researchers and AI assistants relying on the free API or RSS must migrate or sign agreements.",
+ "event_date": "30 Sep 2026",
+ "notes": "Follow-up of the 30 Sep TechCrunch story (in the 1 Oct pool). PPC Land adds registration count, bounty and developer reaction."
+}

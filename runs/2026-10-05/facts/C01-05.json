@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-05",
+ "title": "Claude scores full marks, GPT scores 99 points, He Kaiming's team has completely aced the AGI exam.",
+ "source_used": "36Kr (Europe edition)",
+ "article_url": "https://eu.36kr.com/en/p/4011070893871238",
+ "fetched": true,
+ "key_facts": [
+  "A paper called VISTA from He Kaiming's team, uploaded to arXiv during China's National Day holiday, reports near-perfect ARC-AGI-3 results",
+  "With Claude Opus 5, the system cleared all 183 levels across the 25 public games and scored 100, per 36Kr",
+  "The same model scored about 40 in the official standard test",
+  "VISTA replaces the 64x64 grid of numbers with game images and adds a frame 'album' the model can review without spending game steps",
+  "Switching to images alone lifted GPT-5.6 Sol from 13.33 to 47.32",
+  "The prompt is four sentences and no new model was trained",
+  "Claude's 7302 total steps were about 0.43 times those of first-time human players"
+ ],
+ "quote_evidence": [
+  "Claude directly cleared all 25 public games of ARC-AGI-3 and got a perfect score of 100!",
+  "According to the paper, VISTA is the first system that achieves full score or nearly full score on ARC-AGI-3 without writing programs."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Better visual input and memory, not a new model, may explain much of the gap on this benchmark.",
+ "event_date": "early Oct 2026 (National Day holiday, 1-8 Oct)",
+ "notes": "Single Chinese outlet with enthusiastic wording; results come from the authors' paper (preprint) on the 25 public games, not independently reviewed. 36Kr says scorecards appear on the ARC Prize platform; not checked."
+}

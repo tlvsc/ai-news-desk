@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-06",
+ "v1_category": "RES",
+ "headline": "Researchers at QuTech in Delft have built a quantum chip measurement step that removes 98.4 percent of leaked qubit states without slowing the operation.",
+ "score": 5,
+ "score_reason": "Specific technical result from a university lab, one outlet's write-up, no outside review reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It targets a main source of errors that standard error correction cannot fix, which matters to quantum hardware builders, though it is a lab result on one type of chip.",
+ "source": "Quantum Zeitgeist",
+ "status": "REPORTED",
+ "summary": "Quantum Zeitgeist reports that QuTech at Delft University of Technology added a leakage reduction unit to the way a transmon qubit (a superconducting qubit) is read out, removing 98.4 percent of leakage, where a qubit slips out of its useful states and causes errors. The step adds no time to the measurement, kept 99.2 percent accuracy in reading the qubit and, combined with neural-network decoding, lowered logical error rates in test error-correction runs.",
+ "url": "https://quantumzeitgeist.com/delft-technology-qubit-98-4-percent/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Paper title: Improved error correction with leakage reduction units built into qubit measurement in a superconducting quantum processor; publication date not stated."
+}

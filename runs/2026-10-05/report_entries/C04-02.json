@@ -1,0 +1,17 @@
+{
+ "headline": "OpenAI says about 10,000 AI agents working together produced a proposed solution to one version of the Navier-Stokes fluid-flow problem in 88 hours.",
+ "score": 6,
+ "score_reason": "Large claim, but it is OpenAI's own report, covers only the forced version of the problem, and was first covered about 30 Sep.",
+ "importance_line": "Mathematicians and AI labs see a test of whether many agents can do research at scale, while the claim is the company's own, covers only one version of the problem, and sits beside a credit dispute with human researchers.",
+ "source": "KDnuggets, citing OpenAI",
+ "summary": "KDnuggets reports, citing OpenAI's own report, that about 10,000 AI agents reached a proposed solution to one version of the Navier-Stokes problem (a Millennium Prize question about whether the equations of fluid flow stay smooth) after 88 hours, followed by 17 hours of computer checking in the Lean proof tool. The result covers the case with an outside driving force, not the better-known unforced question, and mathematician Tristan Buckmaster has raised questions about credit for his earlier related work, which OpenAI says its system did not use.",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "status": "REPORTED",
+ "notes": "ana.ir original returned nothing from here; read KDnuggets, which relies on OpenAI's report. Exact OpenAI announcement date not stated; earliest coverage seen 30 Sep 2026, so lowered 7 to 6 as not new today. Result is OpenAI's own claim, not independently reviewed in the article.",
+ "url": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
+ "verified_text": true,
+ "item_id": "C04-02",
+ "v1_category": "RES",
+ "importance_label": "MEDIUM",
+ "machine_action": false
+}

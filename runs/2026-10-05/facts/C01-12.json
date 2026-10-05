@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-12",
+ "title": "DeepSeek V4.1 Flash: Two Rates for One Model, and a Legacy Id That Now Serves Another",
+ "source_used": "Asian Movie Pulse (page promoting the OrcaRouter model marketplace), citing DeepSeek documentation",
+ "article_url": "https://asianmoviepulse.com/2026/10/deepseek-v4-1-flash-two-rates-for-one-model-and-a-legacy-id-that-now-serves-another/",
+ "fetched": true,
+ "key_facts": [
+  "DeepSeek V4.1 Flash was released on 10 Sep 2026 as the smallest model of a new architecture family",
+  "Pricing has peak and off-peak rates, peak being exactly double",
+  "Off-peak: $0.15 per million input tokens and $0.60 per million output; peak: $0.30 and $1.20",
+  "Peak windows listed by OrcaRouter: 01:00-04:00 and 06:00-10:00 UTC on weekdays",
+  "Older model names the release supersedes are still accepted and answered by V4.1 Flash at the Flash price",
+  "Context window 1M tokens, maximum output 384K tokens",
+  "Vendor documentation read on 28 Sep 2026; the article's scheduling advice is editorial"
+ ],
+ "quote_evidence": [
+  "DeepSeek V4.1 Flash went out on 10 September 2026 as the smallest model in a new architecture family",
+  "the peak column holds exactly double the off-peak figure"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers' bills depend on the time of day, and old model names silently point to a new model.",
+ "event_date": "10 Sep 2026",
+ "notes": "Older news (release 10 Sep) re-dated; the page is from a marketplace with a commercial interest and rests on DeepSeek's documentation read 28 Sep."
+}

@@ -1,0 +1,17 @@
+{
+ "headline": "Swedish researchers built an AI system that forms biology hypotheses, directs lab robots to test them and learns from the results.",
+ "score": 6,
+ "score_reason": "Real experiments with a working loop, but coverage is from 2 Oct and the lab is not fully autonomous.",
+ "importance_line": "Biologists and lab teams get an early look at AI that runs experiments rather than only suggesting them, though people still set limits and handled some physical tasks, and results so far come from one well-studied yeast.",
+ "source": "The Brighter Side of News",
+ "summary": "The Brighter Side of News reports that a team at Chalmers University of Technology in Sweden linked a language model, logic software and laboratory robots into a loop that produced 1,933 candidate hypotheses about brewer's yeast and tested some of them, as described in the Journal of the Royal Society Interface. Humans still handled some physical tasks and set the research limits, and some of the system's predictions, such as one about arginine and lithium stress, proved wrong.",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "machine_action": true,
+ "status": "REPORTED",
+ "notes": "NewsBytes page blocked (HTTP 403); read The Brighter Side of News and Bioengineer.org (Chalmers study coverage) instead. Coverage first dated 2 Oct 2026, so lowered 7 to 6 as not new today. Bioengineer.org says 'minimal human involvement'; Brighter Side says some physical tasks remained human, we kept the cautious version.",
+ "url": "https://www.thebrighterside.news/post/scientists-build-an-ai-that-can-propose-experiments-run-them-and-learn-from-the-results/",
+ "verified_text": true,
+ "item_id": "C04-01",
+ "v1_category": "RES",
+ "importance_label": "MEDIUM"
+}

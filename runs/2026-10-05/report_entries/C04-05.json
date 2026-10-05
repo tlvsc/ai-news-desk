@@ -1,0 +1,17 @@
+{
+ "headline": "Researchers at South Korea's Gachon University found that AI models that predict drug toxicity may look more accurate than they are because near-identical molecules sit in both their training and test data.",
+ "score": 5,
+ "score_reason": "Solid benchmark study with a clear caution for the field, but narrow audience and no outside review reported.",
+ "importance_line": "Drug developers and regulators who rely on toxicity predictions get a warning that reported accuracy may be inflated, though the finding comes from one team and one small dataset gave noisy results.",
+ "source": "Scienmag, as relayed by Bioengineer.org",
+ "summary": "Scienmag, as relayed by Bioengineer.org, reports that Gachon University researchers built a benchmark called ToxBench and found that accuracy on the Tox21 dataset fell by 0.057 to 0.079 points (on a standard score called AUROC) when structurally similar molecules were kept out of the test set. The authors say a substantial share of reported progress in toxicity prediction may reflect this leakage, while one smaller dataset, ClinTox, gave results too noisy to rank the methods.",
+ "freshness": "NEW",
+ "status": "REPORTED",
+ "notes": "Article carries Scienmag's text (credited at the end); Scienmag is named as source. Score kept at 5.",
+ "url": "https://bioengineer.org/ai-toxicity-predictions-overstated-new-benchmark-exposes-hidden-data-leakage/",
+ "verified_text": true,
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

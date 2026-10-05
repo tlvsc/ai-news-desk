@@ -1,0 +1,17 @@
+{
+ "headline": "An Estonian researcher says fake and unreliable research papers can slip into AI chatbots' training data and may start to affect their answers.",
+ "score": 5,
+ "score_reason": "One researcher's interview with preliminary numbers, but it points at a real data-quality risk.",
+ "importance_line": "Readers and researchers who use AI to check the literature may get answers built on retracted or fake papers, though the main figures are preliminary and come from one researcher.",
+ "source": "ERR News",
+ "summary": "ERR News reports that Anton Sokolov of Tallinn University of Technology says retractions, about 61,000 from 2010 to 2025, show only how much is being cleaned up, not how much flawed science remains, and that such papers can reach language models trained on scientific text. He cites a study in which a model never mentioned the retraction in more than 6,500 assessments of retracted or questionable papers, and suggests that authors digitally sign their contributions.",
+ "freshness": "NEW",
+ "status": "REPORTED",
+ "notes": "One researcher's views and a preliminary calculation; reported by ERR as an interview. Kept at 5.",
+ "url": "https://news.err.ee/1610155906/effect-of-research-paper-mills-enough-to-start-affecting-llm-query-results",
+ "verified_text": true,
+ "item_id": "C04-06",
+ "v1_category": "RES",
+ "importance_label": "WATCHLIST",
+ "machine_action": false
+}

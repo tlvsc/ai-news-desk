@@ -1,0 +1,23 @@
+{
+ "title": "Anthropic asks Claude users to share voice data for AI model training",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic has started asking Claude users to voluntarily share voice conversations for model training.",
+  "A prompt in Claude's voice features offers 'Allow' or 'Not now'.",
+  "A separate toggle sits in Settings > Privacy.",
+  "Voice training is separate from the existing option to train on chats and coding sessions.",
+  "In the interface BleepingComputer saw, the setting is off by default.",
+  "Users can turn it off later and delete voice data from settings."
+ ],
+ "quote_evidence": [
+  "Allow us to use your voice data to improve our AI models,",
+  "In the interface we've seen, the setting is disabled by default, so Anthropic isn't automatically opting users into sharing their voice recordings."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Opt-in voice data collection with separate control from chat training.",
+ "event_date": "Reported 4 Oct 2026",
+ "notes": "Based on BleepingComputer's own look at the interface; Anthropic statement not quoted.",
+ "item_id": "C12-09"
+}
