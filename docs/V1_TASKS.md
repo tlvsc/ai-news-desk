@@ -334,3 +334,9 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     old events well; neither caught repeats of earlier reports (the check did not exist).
 71. (5 Oct 2026) Parallel sessions on the same branch: two pushes were rejected because another session had pushed; rebase
     on origin before pushing. One session reverted and then re-applied item 64 within an hour on Rafi's word.
+72. (5 Oct 2026, mistake record) HEADLINES NOT LEVEL 5. The lines were long and complicated ("Posing as A I firm an-thropic,
+    hackers sent ...") and the "why" mattered only to the company ("Schneider's biggest deal ever"). My own fixes made it worse:
+    to fit the seconds I cut the why, and to explain I added clauses. Prevention: the shape is now written and enforced.
+    Fix: check_wording.py fails a spoken sentence over 12 words (a spoken acronym counts as one), a sentence that opens with a
+    side clause, more than one comma, and a company-only why; the writer, stranger and rules briefs carry the same shape and
+    say a fix is shorter, never longer; CLAUDE.md rule 16 HEADLINES LEVEL 5. V1 needs the same gate on its Headlines writer.
