@@ -60,7 +60,6 @@ def problems(text, kind):
     out = []
     for s in sentences(text):
         w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
-        if w > 20: out.append(f'{w} words: "{s[:60]}"')
         if len(re.findall(r'\d[\d,.]*', s)) > 1: out.append(f'two numbers: "{s[:60]}"')
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
@@ -68,7 +67,6 @@ def problems(text, kind):
     if kind == 'clip':   # HEADLINES SHAPE from the phrasing file (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
-            if w > MAXW: out.append(f'headlines shape: {w} words, keep a spoken sentence to {MAXW}: "{s[:50]}"')
             if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'headlines shape: starts with a side clause, start with who did what: "{s[:40]}"')
             if s.count(',') > 1: out.append(f'headlines shape: more than one comma, split or cut: "{s[:40]}"')
     return out
@@ -82,9 +80,8 @@ REPLIES = reply_items(Path(a.workdir))
 # ONE TRUTH (Rafi, 5 Oct 2026): the sentence limit comes from the Headlines section of the phrasing file, never from this script
 _ph = (Path(a.workdir) / 'rules' / 'Article_phrasing_instructions_AIND_V1.txt').read_text(encoding='utf-8')
 _m = re.search(r'PRODUCT:headlines -->(.*?)<!--', _ph, re.S)
-_n = re.search(r'about (\d+) words', _m.group(1)) if _m else None
-if not _n: raise SystemExit('STOP: the Headlines section of the phrasing file gives no sentence limit; fetch the current file (Part A step 0)')
-MAXW = int(_n.group(1))
+if not _m: raise SystemExit('STOP: the Headlines section of the phrasing file is missing; fetch the current file (Part A step 0)')
+# Rafi, 5 Oct 2026: syllables are the only measure of a clip (35 to 40, never over 44 = 10 s); no word cap
 if a.cards:
     d = json.loads(Path(a.cards).read_text()); rows, si = [], []
     items = [(s['card'], s['head'], s['body'], 230) for s in d['stories']] + [(t['id'], t['head'], '', 0) for t in d['teaser']]
