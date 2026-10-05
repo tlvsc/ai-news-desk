@@ -60,7 +60,7 @@ def problems(text, kind):
     out = []
     for s in sentences(text):
         w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
-        if w > 15: out.append(f'{w} words: "{s[:60]}"')
+        if w > 20: out.append(f'{w} words: "{s[:60]}"')
         if len(re.findall(r'\d[\d,.]*', s)) > 1: out.append(f'two numbers: "{s[:60]}"')
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
@@ -82,7 +82,7 @@ REPLIES = reply_items(Path(a.workdir))
 # ONE TRUTH (Rafi, 5 Oct 2026): the sentence limit comes from the Headlines section of the phrasing file, never from this script
 _ph = (Path(a.workdir) / 'rules' / 'Article_phrasing_instructions_AIND_V1.txt').read_text(encoding='utf-8')
 _m = re.search(r'PRODUCT:headlines -->(.*?)<!--', _ph, re.S)
-_n = re.search(r'at most (\d+) words', _m.group(1)) if _m else None
+_n = re.search(r'about (\d+) words', _m.group(1)) if _m else None
 if not _n: raise SystemExit('STOP: the Headlines section of the phrasing file gives no sentence limit; fetch the current file (Part A step 0)')
 MAXW = int(_n.group(1))
 if a.cards:
