@@ -99,7 +99,9 @@ not about which project it is.
     per category as in the PER CATEGORY line above. Kept from the 3 Oct run: repeats are checked
     against the last 4 days of pools, and the 3 flagged backups replace items dropped as duplicates.
     READER LEVEL (Rafi, 3 Oct 2026): Article_phrasing_instructions_AIND_V1 sets it: Full Report
-    and Bulletin 7 of 10, Cards 6, Headlines 5. The writer and editor briefs follow that file.
+    and Bulletin 7 of 10, Cards 6, Headlines 4 (Rafi, 5 Oct 2026: "simple fucking English, level 4 out of 10"; the Drive file still
+    says 5, a line for Rafi to change there). Every writer re-reads section 1B and its product section BEFORE EACH ITEM, and every
+    item answers who, what and why. The writer and editor briefs follow that file.
     CLIP SECONDS (Rafi, 3 Oct 2026): keep rounding UP to the next half second, over the Drive
     Headlines Master rule 1a (two decimals); no clip passes 12 seconds (Drive Section B item 1).
     CREDIT (Rafi, 3 Oct 2026): the source printed is always the outlet that reported the story, never
@@ -125,7 +127,7 @@ not about which project it is.
     run on Sonnet (Agent tool, model "sonnet"); the wording, stranger, rules and editor agents stay on Fable. Report
     the token use and any quality drop next to the 4 Oct run (about 6.3 million helper tokens); Rafi decides after.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
-    HEADLINES LEVEL 5 (Rafi, 5 Oct 2026): every spoken sentence at most 14 words; who did what first, plain words, no side clause at
+    HEADLINES LEVEL 4 (Rafi, 5 Oct 2026; was level 5 earlier the same day): every spoken sentence at most 14 words; who did what first, plain words, no side clause at
     the start; the last sentence says why it matters to ordinary people (never "its biggest deal"). It binds the writers, the checks and
     every fix the main session makes; a fix is shorter and simpler, never longer. check_wording.py fails a line that breaks it.
     WHO WHAT WHY FIRST (Rafi, 5 Oct 2026): the Headlines writer fills who, what and why_for_people for every clip before the line

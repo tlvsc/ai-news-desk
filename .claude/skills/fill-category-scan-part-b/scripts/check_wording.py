@@ -65,14 +65,14 @@ def problems(text, kind):
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
     if kind == 'clip' and re.search(r'\d', text): out.append('digits in a spoken line')
-    if kind == 'clip':   # LEVEL 5 (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
+    if kind == 'clip':   # LEVEL 4 (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym (A I, T S M C) is one word
-            if w > 14: out.append(f'level 5: {w} words, keep a spoken sentence to 14: "{s[:50]}"')
-            if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'level 5: starts with a side clause, start with who did what: "{s[:40]}"')
-            if s.count(',') > 1: out.append(f'level 5: more than one comma, split or cut: "{s[:40]}"')
+            if w > 14: out.append(f'level 4: {w} words, keep a spoken sentence to 14: "{s[:50]}"')
+            if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'level 4: starts with a side clause, start with who did what: "{s[:40]}"')
+            if s.count(',') > 1: out.append(f'level 4: more than one comma, split or cut: "{s[:40]}"')
         if re.search(r"\b(its|their|the company's|\w+'s) (biggest|largest) (deal|acquisition|purchase)", text, re.I):
-            out.append('level 5: "biggest deal" matters to the company, say why it matters to people')
+            out.append('level 4: "biggest deal" matters to the company, say why it matters to people')
     return out
 
 
