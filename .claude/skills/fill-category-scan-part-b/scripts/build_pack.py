@@ -23,9 +23,9 @@ pack = copy.deepcopy(base)
 pack.update(edition=ed, date_title=title,
             format=('13-slot template: C01 opening (Rafi\'s words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; '
                     'C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi\'s wording, 2 Oct 2026). Each clip aims at '
-                    '8 seconds and may not pass 12 (Drive Headlines Master Section B item 1). Box times round up to the next half second.'),
-            review_status=('Spoken lines written by Fable in plain English (sentences of at most 15 words, the deed first), checked by '
-                           'check_wording.py and a stranger check; pending Rafael\'s approval.'),
+                    '8 seconds and may not pass 10 (Drive Headlines Master Section B item 1, 5 Oct 2026). Box times round up to the next half second.'),
+            review_status=('Spoken lines follow the Drive phrasing file Headlines section (who, what and why in one flowing sentence, syllables the '
+                           'measure), checked by check_wording.py, check_headlines_rules.py, a stranger check and a rules agent; approved by Rafael.'),
             source_check=f'Story lines were written from the Full Report entries of {ed}. Outlets are shown on screen, never spoken.',
             bigger_picture={'state': 'generated_in_C11', 'category': 'The Bigger Picture', 'source': 'AI News Desk',
                             'position': 'slot 11, after teaser, before the ending'})

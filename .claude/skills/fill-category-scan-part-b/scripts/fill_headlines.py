@@ -122,7 +122,7 @@ def main():
     }
     if 9990 in nodes:
         note = f"{date} Headlines fill (Claude lane). Slots: " + '; '.join(f"C{t[0]:02d} {t[6]} {t[2]:.2f}s" for t in table)
-        note += '\nC01 and C13 reuse stored opening and ending. The Bigger Picture: ' + ((pack.get('bigger_picture') or {}).get('file') or 'generated in C12')
+        note += '\nC01 and C13 reuse stored opening and ending. The Bigger Picture: ' + ((pack.get('bigger_picture') or {}).get('file') or 'generated in C11')
         note += '\n' + pack['review_status'] + '\n' + pack['source_check']
         set_widget(nodes[9990], 0, note)
     out = a.out
