@@ -1,0 +1,20 @@
+[
+ {"clip":"C13-07","pass":true,"broken":[],"fix":"","note":"35 syl 8.0 s; one flowing sentence; who, what, why (U S law could switch services off) all supported; intro From Westminster is new."},
+ {"clip":"C06-03","pass":false,"broken":[
+   {"rule":"1B WHY / Headlines shape","why":"the line ends on a fact about the company (whose software designs and runs factory products), which the brief says is not a why for people; the entry's supported effects are the pending regulator approval and Schneider's own shares falling 7 to 8 percent"},
+   {"rule":"1A","why":"'paying twenty three billion dollars' states 22.6 billion as a flat 23 without 'about'; the earlier qualification 'if regulators agree' is gone"}
+  ],"fix":"In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.","note":"fix 32 syl 7.5 s, shorter than the 38 syl line; market story so money may lead, but the honest doubt (shares fell, entry) is the supported why; tag kept for Schneider (size near the 100 billion line) and P T C."},
+ {"clip":"C12-05","pass":true,"broken":[],"fix":"","note":"LOCKED (Rafi's wording). 39 syl 9.0 s; hedge as adjective (Suspected Chinese), an-thropic cue used where spoken, why (steal their information) matches the entry's cloud account break-in aim."},
+ {"clip":"C08-07","pass":true,"broken":[],"fix":"","note":"LOCKED (Rafi's wording). 43 syl 10.0 s, at the 10 s ceiling, not over; two sentences (the shape allows a second when the why cannot ride inside); 'reportedly' hedge kept; T S M C tagged; why (A I products, chips and services dearer) supported by the entry."},
+ {"clip":"C11-04","pass":true,"broken":[],"fix":"","note":"38 syl 9.0 s; robotics clip says what the drones do (hunt Russian attack drones); why (protect Ukraine's cities) in the entry; Quantum Systems not spoken so no tag needed."},
+ {"clip":"C01-01","pass":true,"broken":[],"fix":"","note":"43 syl 10.0 s, at the ceiling, not over; 'reportedly' kept; A I start-up tag; 'China's free ones' is a plain rendering of Chinese open-weight models; a trim to 9 s would be welcome but is not a rules fail."},
+ {"clip":"C04-05","pass":true,"broken":[],"fix":"","note":"41 syl 9.5 s; 'may be trusting' hedge matches the entry; deed first, no money."},
+ {"clip":"fun","pass":false,"broken":[
+   {"rule":"1A nothing stronger than the entry","why":"'proof that refusing A I can sell' is stronger than the entry's 'a small sign ... that avoiding AI can itself be a selling point'"}
+  ],"fix":"In lighter news. A Florida pizza shop drew tens of thousands online by promising never to use A I, a sign refusing A I can sell.","note":"fix 37 syl 8.5 s, same length; only 'proof' becomes 'a sign'."},
+ {"clip":"teaser","pass":true,"broken":[],"fix":"","note":"40 syl 9.5 s, over the 8 s aim but under the ceiling; both hedges kept (I B M says; are said to); I B M is over 100 billion so no tag; Kyiv unexplained is acceptable in a teaser."},
+ {"clip":"bp","pass":false,"broken":[
+   {"rule":"1A / 1B WHY","why":"'anyone with a pension feels them' is not in the Bigger Picture entry or the pack; the supported why is that the A I rally depends on bond yields and could fade if they stay high (C07-06, watch item 3)"},
+   {"rule":"Headlines shape","why":"the ending after the semicolon is a tacked-on fragment, not part of the flowing sentence"}
+  ],"fix":"And for the bigger picture: hopes for A I keep tech shares up while U S borrowing costs sit at a twenty four year high, so watch them: if they stay high, the rally could fade.","note":"fix 42 syl 10.0 s, same length as the line; market summation, then the thing to watch and its consequence, all from the entry (yield above 5.3 percent, highest since 2002)."}
+]

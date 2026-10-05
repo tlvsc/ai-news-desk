@@ -44,7 +44,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C06-03 9.0 s (aim 9.0 s or less)"
+   "detail": "C06-03 7.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -133,8 +133,8 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "fun 8.5 s (aim 8.5 s or less)"
+   "status": "WARN",
+   "detail": "fun 9.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -164,7 +164,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "bp 10.0 s (aim 10.5 s or less)"
+   "detail": "bp 9.5 s (aim 10.5 s or less)"
   },
   {
    "rule": "B2a",

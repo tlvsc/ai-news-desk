@@ -1,0 +1,27 @@
+[
+ {"clip": "C13-07", "pass": true, "broken": [], "fix": "",
+  "note": "Intro From Westminster rotates (yesterday In politics). WHO lawmakers, WHAT the warning, hedge kept (warn, could, ministers say the data stays in Britain, the entry's qualification). No outlet spoken, no digits, no company under one hundred billion named. Sentences 11 and 13 words, deed first. 44 syllables = 10.0 s: over the 8 to 9 s aim, under 12 s. Not a reply story."},
+ {"clip": "C06-03", "pass": false,
+  "broken": [
+   {"rule": "Headlines shape (phrasing 2A): no side clause at the start", "why": "The second sentence opens with the side clause If regulators agree."},
+   {"rule": "1B WHY IT MATTERS", "why": "Many factories depend on one group is the fact of the deal, not an effect a stranger can repeat; the prompt names this very wording as not a why. The entry supports only this consequence: manufacturers using the software get one owner for it, pending regulators; it gives nothing stronger, so the fix states that plainly and adds nothing."}
+  ],
+  "fix": "In business. French giant Schneider Electric is buying factory software maker P T C. Factories using it would have one owner, if regulators agree.",
+  "note": "Fix: 40 syllables = 9.5 s against 39 now (about the same), sentences 12 and 10 words, hedge if regulators agree kept at the end, tags French giant and factory software maker kept, no money (market story, so money would be allowed but is not needed). Intro In business rotates (yesterday On the markets)."},
+ {"clip": "C12-05", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In security rotates (yesterday On safety). Cue an-thropic present and Anthropic is spoken; Anthropic above one hundred billion, no tag due. Hedge link kept; Proofpoint not spoken. WHO hackers posing as staff, WHAT malware to policy experts, WHY those experts shape A I rules (entry: the people who shape rules were targeted). Sentences 12 and 11 words. 40 syllables = 9.5 s."},
+ {"clip": "C08-07", "pass": true, "broken": [], "fix": "",
+  "note": "LOCKED, Rafi's own wording; report only. Intro From Taiwan rotates (yesterday In chip making). Hedge reportedly kept, matching the unconfirmed report. T S M C spaced, well above one hundred billion, tagged anyway as the biggest chip maker. WHY plain: A I products, chips and services more expensive (entry: higher wafer prices feed into the cost of A I and phone chips). Sentences 14 and 10 words. 43 syllables = 10.0 s, over the 9 s aim, under 12 s. Observation only: the entry's plus or minus three to six percent and early 2027 are translated to next year, allowed by phrasing rule 4."},
+ {"clip": "C11-04", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In robotics rotates (yesterday On the road). The robotics clip says what the drones do (hunt Russian attack drones). WHO Germany, WHAT pays for tens of thousands, WHY protect Ukrainian cities, all in the entry; it is a chancellor's announcement, so no hedge is dropped. Quantum Systems not spoken, so no tag due. Sentences 14 and 11 words. 38 syllables = 9.0 s."},
+ {"clip": "C01-01", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In new models (no models clip yesterday). Reflection tagged A I start-up (unknown size, tag given). Hedge reportedly kept; strong does not exceed the entry's powerful. WHY: firms get an American option instead of Chinese ones, the entry's consequence. Observation only: the entry's qualification that the model is expected to trail the best U S systems is left out; not essential for the news angle at level 5. Sentences 12 and 10 words. 41 syllables = 9.5 s."},
+ {"clip": "C04-05", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In science (no science clip yesterday). WHO Korean researchers, WHAT A I drug safety tools look better than they are, WHY drug makers may trust inflated scores, with the one-team hedge kept at the end. Gachon University not spoken, no tag needed. Sentences 14 and 11 words. 41 syllables = 9.5 s."},
+ {"clip": "fun", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In lighter news rotates (yesterday On a lighter note). Facts match the entry (Florida pizza shop, promise never to use A I, tens of thousands watched); the why is hedged with It seems, as the entry's small sign. Sentences 14 and 9 words. 38 syllables = 9.0 s, over the 8 s aim, under 12 s."},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": "",
+  "note": "Fixed lead-in Also in the full report. Hedges kept: I B M says; are said to guard. I B M above one hundred billion, no tag. No outlet spoken, no digits. Sentences 14 and 8 words. 40 syllables = 9.5 s, over the 8 s aim, under 12 s."},
+ {"clip": "bp", "pass": true, "broken": [], "fix": "",
+  "note": "Fixed opener And for the bigger picture. Market summation then what to watch, as CLAUDE.md rule 17 asks. Facts match bigger_picture.json: tech shares held up by A I hopes, U S ten-year yield highest since 2002 (twenty four years), watch whether yields stay high; anyone with a pension feels them is the plain form of the analysis line about savings in those shares. Sentences 8, 11 and 9 words. 42 syllables = 10.0 s, on the 10 s aim."}
+]

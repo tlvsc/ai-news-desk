@@ -40,65 +40,65 @@
   {
    "slot": 2,
    "kind": "story",
-   "category": "Business",
-   "item": "C06-03",
-   "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
-   "script": "In business. French equipment maker Schneider Electric is buying factory software firm P T C. Regulators still have to approve the deal.",
-   "source": "AI News Desk"
+   "category": "Politics",
+   "item": "C13-07",
+   "symbol": "a small glowing cloud with a simple padlock on it, text-free symbol",
+   "script": "From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.",
+   "source": "Bloomberg"
   },
   {
    "slot": 3,
    "kind": "story",
-   "category": "Security",
-   "item": "C12-05",
-   "symbol": "a small glowing envelope with a fishing hook hanging above it, simple text-free symbol",
-   "script": "In security. Hackers posing as A I firm an-thropic's staff sent malware to A I policy experts. Researchers tie the hackers to China's government.",
-   "source": "Futurism, citing Proofpoint and CNN"
+   "category": "Business",
+   "item": "C06-03",
+   "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
+   "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
+   "source": "AI News Desk"
   },
   {
    "slot": 4,
    "kind": "story",
-   "category": "Chips",
-   "item": "C08-07",
-   "symbol": "a small glowing computer chip with a plain upward arrow beside it, simple text-free symbol",
-   "script": "In manufacturing. Chip giant T S M C is reported to plan another price rise next year. Demand for its newest chips is said to outrun supply.",
-   "source": "DigiTimes"
+   "category": "Security",
+   "item": "C12-05",
+   "symbol": "a small glowing envelope with a fishing hook hanging above it, simple text-free symbol",
+   "script": "In security. Suspected Chinese hackers posing as an-thropic staff sent malware to government policy makers in hope to extract information.",
+   "source": "Futurism, citing Proofpoint and CNN"
   },
   {
    "slot": 5,
    "kind": "story",
-   "category": "Robotics",
-   "item": "C11-04",
-   "symbol": "a small glowing four-rotor drone with a simple shield shape beneath it, text-free symbol",
-   "script": "In robotics. Germany is paying for tens of thousands of drones, built in Ukraine. Each hunts down Russian attack drones; the exact number is not yet given.",
-   "source": "Trending Topics"
+   "category": "Chips",
+   "item": "C08-07",
+   "symbol": "a small glowing computer chip with a plain upward arrow beside it, simple text-free symbol",
+   "script": "From Taiwan. The biggest chip maker T S M C is reportedly planning to raise its prices next year. That would make A I products, chips and services more expensive.",
+   "source": "DigiTimes"
   },
   {
    "slot": 6,
    "kind": "story",
-   "category": "Models",
-   "item": "C01-01",
-   "symbol": "a small glowing open box with a simple brain shape rising out of it, text-free symbol",
-   "script": "In new models. N-vidia-backed start-up Reflection is said to be readying an open A I model. Open means anyone can run it; nothing has shipped yet.",
-   "source": "Axios"
+   "category": "Robotics",
+   "item": "C11-04",
+   "symbol": "a small glowing four-rotor drone with a simple shield shape beneath it, text-free symbol",
+   "script": "In robotics. Germany is paying for tens of thousands of Ukrainian built drones that hunt Russian attack drones, to better protect Ukraine's cities.",
+   "source": "Trending Topics"
   },
   {
    "slot": 7,
    "kind": "story",
-   "category": "Health",
-   "item": "C10-01",
-   "symbol": "a small glowing pill capsule under a simple magnifying glass, text-free symbol",
-   "script": "In health. A Stanford team had thirty seven thousand A I agents read old drug trials. The agents found a clue to safer drugs; no lab has tested it.",
-   "source": "Earth.com"
+   "category": "Models",
+   "item": "C01-01",
+   "symbol": "a small glowing open box with a simple brain shape rising out of it, text-free symbol",
+   "script": "In new models. A I start-up Reflection reportedly plans a powerful A I anyone can run, giving firms an American option beside China's free ones.",
+   "source": "Axios"
   },
   {
    "slot": 8,
    "kind": "story",
-   "category": "Society",
-   "item": "C14-09",
-   "symbol": "a small glowing hamburger with a blank price tag hanging from it, simple text-free and number-free symbol",
-   "script": "In daily life. McDonald's reportedly uses A I to set menu prices in America. It calls the tool optional; some store owners say they feel pushed.",
-   "source": "Reuters, as relayed by Futurism"
+   "category": "Science",
+   "item": "C04-05",
+   "symbol": "a small glowing test tube beside a simple question mark, text-free symbol",
+   "script": "In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.",
+   "source": "Scienmag, as relayed by Bioengineer.org"
   },
   {
    "slot": 9,
@@ -106,7 +106,7 @@
    "category": "Fun",
    "item": "C16-02",
    "symbol": "a small glowing pizza slice with a simple heart floating above it, text-free symbol",
-   "script": "And something lighter. Munchy's Pizza, a Florida family shop, promised never to use A I. The promise drew tens of thousands of people online.",
+   "script": "In lighter news. A Florida pizza shop drew tens of thousands online by promising never to use A I, a sign that refusing A I can sell.",
    "source": "CBS News"
   },
   {
@@ -115,7 +115,7 @@
    "category": "Teaser",
    "item": "C15-02; C11-11",
    "symbol": "a small glowing stack of papers with a bookmark ribbon on top, simple text-free symbol",
-   "script": "Also in the full report. I B M researchers estimate a quantum chip beat a supercomputer in one test. A I gun turrets are said to guard Kyiv.",
+   "script": "Also in the full report. I B M says its quantum computer did in seconds what a supercomputer needs years for, and A I guns are said to guard Kyiv.",
    "source": "DAILY GLOBAL AI INTELLIGENCE REPORT"
   },
   {
@@ -124,7 +124,7 @@
    "category": "The Bigger Picture",
    "item": "desk analysis",
    "symbol": "a small glowing stack of coins with a simple rising zigzag line above it, text-free and number-free symbol",
-   "script": "And for the bigger picture: hopes for A I prop up tech shares. Yet U S borrowing costs are the highest since two thousand two. Watch if they stay this high; the A I rally depends on that.",
+   "script": "And for the bigger picture: hopes for A I keep tech shares up while U S borrowing costs sit at a twenty four year high; if those costs stay high, the rally could fade.",
    "source": "AI News Desk"
   },
   {
