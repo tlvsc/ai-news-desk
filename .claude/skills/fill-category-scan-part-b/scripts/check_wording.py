@@ -115,7 +115,7 @@ if a.headlines:
                 ww = {x for x in re.findall(r"[a-z]{4,}", rec['why_for_people'].lower())} - {'that','this','with','they','their','will','would','could','more','from','have','about'}
                 if ww and len(ww & set(re.findall(r"[a-z]{4,}", s.lower()))) < max(1, len(ww) // 3):
                     p.append('the why is not spoken in the line: ' + rec['why_for_people'][:60])
-        if box > 12: p.append(f'{box} s is over the 12 s maximum')
+        if box > 10: p.append(f'{box} s is over the 10 s maximum (Rafi, 5 Oct 2026: aim 8, max 10)')
         w = f' (long: aim 8 s)' if box > warn else ''
         bad += bool(p); print(f"{'FAIL' if p else 'PASS'} {k:7} {syl:3} syl {box:4} s{w} {'; '.join(p)}")
         si.append({'n': len(si) + 1, 'line': s})

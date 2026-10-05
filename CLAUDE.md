@@ -101,8 +101,9 @@ not about which project it is.
     READER LEVEL (Rafi, 3 and 5 Oct 2026): the reader levels and the writing shape live ONLY in the Drive file
     Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts); this repo never restates them. Every writer re-reads its
     Sections 1, 1A, 1B and its product section BEFORE EACH ITEM, and every item answers who, what and why. The writer and editor briefs follow that file.
-    CLIP SECONDS (Rafi, 3 Oct 2026): keep rounding UP to the next half second, over the Drive
-    Headlines Master rule 1a (two decimals); no clip passes 12 seconds (Drive Section B item 1).
+    CLIP SECONDS (Rafi, 3 and 5 Oct 2026): count syllables (4.4 a second), round UP to the next half second, over the
+    Drive Headlines Master rule 1a (two decimals); every item aims at 8 seconds and never passes 10 (44 syllables): Rafi, 5 Oct
+    2026, "max 10 sec item, preferably 8"; the Drive Section B item 1 says 12 and is updated to 10 the same day.
     CREDIT (Rafi, 3 Oct 2026): the source printed is always the outlet that reported the story, never
     a copy site that carries its text; if the article we read credits another outlet, the credit goes
     to that outlet. Headline only: take the story from another outlet that has it and credit it, or

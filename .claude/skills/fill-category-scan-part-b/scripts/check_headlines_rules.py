@@ -67,7 +67,7 @@ if pk:
 for k, s, kind in clips:
     syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic', 'Kawa saki': 'Kawasaki'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
     aim = {'story': 9.0, 'fun': 8.5, 'teaser': 8.5, 'bp': 10.5}[kind]
-    out('B1', box <= 12, f'{k} {box} s is over the 12 s maximum') if box > 12 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
+    out('B1', box <= 10, f'{k} {box} s is over the 10 s maximum (Rafi, 5 Oct 2026)') if box > 10 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
     if kind in ('story', 'fun'):
         it = intro(s); out('B2a', 0 < len(it.split()) <= 5, f'{k} opens with a spoken introduction: "{it}"')
     if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')
