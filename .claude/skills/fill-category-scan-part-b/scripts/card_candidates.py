@@ -20,7 +20,6 @@ SLOTS = {'POL': 1, 'MKT': 3, 'SEC': 2, 'ENE': 2, 'ROB': 1, 'MOD': 1, 'RES': 1, '
 NAME = {'POL': 'Politics and government', 'MKT': 'Market, industry and finance', 'SEC': 'Security and cyber',
         'ENE': 'Energy and infrastructure', 'ROB': 'Robotics', 'MOD': 'Models and tools', 'RES': 'Research and science',
         'LAW': 'Ethics and law', 'HEA': 'Health', 'SOC': 'Society and education', 'FUN': 'The Fun Side'}
-HEADLINES_FROM = ['MKT', 'SEC', 'ENE', 'ROB', 'RES', 'HEA', 'SOC']   # 3 Oct 2026 mix: one per field, deck order
 COMPANIES = ['OpenAI', 'Anthropic', 'Google', 'Alphabet', 'Meta', 'Microsoft', 'Apple', 'Amazon', 'Nvidia', 'Tesla', 'xAI',
              'Samsung', 'Oracle', 'Broadcom', 'Intel', 'AMD', 'TSMC', 'Alibaba', 'DeepSeek', 'Palantir']
 STOP = set('the a an and of to in on for is are was with that this it its as by at from be has have will may says say new more '
@@ -90,10 +89,19 @@ for k in ORDER:
     picks = ranked[:max(0, free)]
     for x in picks:
         add(x, k)
-for k in HEADLINES_FROM:
-    first = next((c for c in draft['cards_in_deck_order'] if c['category'] == NAME[k]), None)
-    if first:
-        draft['headlines_story_clips_in_order'].append(first['item'])
+# HEADLINES (Drive Headlines Master Section A item 3 and the Cards Master category list; Rafi, 5 Oct 2026): seven story clips
+# taken from the deck IN DECK ORDER, criticals first, then ONE clip per category in the list order, Politics first:
+# Politics, Market, Security, Energy, Robotics, Models, Research (the first card of each). The 3 Oct list that skipped Politics
+# was wrong and is gone. No other selection logic.
+score_of = {x['id']: x['score'] for k in cand for x in cand[k]}
+crit = [c for c in draft['cards_in_deck_order'] if c['card'] != 'fun' and score_of.get(c['item'], 0) >= 10]
+picks = [c['item'] for c in crit]
+for k in ORDER:
+    if k == 'FUN' or len(picks) >= 7: continue
+    first = next((c for c in draft['cards_in_deck_order'] if c['category'] == NAME[k] and c['item'] not in picks), None)
+    if first: picks.append(first['item'])
+pos = {c['item']: i for i, c in enumerate(draft['cards_in_deck_order'])}
+draft['headlines_story_clips_in_order'] = sorted(picks[:7], key=lambda i: pos[i])
 fun = next((c for c in draft['cards_in_deck_order'] if c['card'] == 'fun'), None)
 draft['headlines_fun'] = fun and fun['item']
 rest = sorted((x for k in ORDER if k != 'FUN' for x in cand[k] if x['id'] not in used and x['fresh'] == 'NEW'),
