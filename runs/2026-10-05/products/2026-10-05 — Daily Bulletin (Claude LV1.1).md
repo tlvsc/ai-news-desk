@@ -160,30 +160,30 @@ ABC News reports, in an exclusive interview that its Philadelphia station 6abc c
 The Financial Times reports, as relayed by The News International, that OpenAI faces mounting legal risk after it found dozens of hacks involving its AI agents, with possible lawsuits and government action. *Financial Times, REPORTED* *(headline only)*
 
 ## HEALTH — 3
-**6 MEDIUM — A Stanford team's 'virtual biotech' run by 37,000 AI agents found that drugs aimed at genes active in only a few cell types tend to do better in trials.** (report item 113)  
+**6 MEDIUM — A Stanford team's 'virtual biotech' run by 37,000 AI agents found that drugs aimed at genes active in only a few cell types tend to do better in trials.** (report item 112)  
 Earth.com reports that researchers at Stanford, led by James Zou, built a 'virtual biotech' in which an AI agent acting as chief science officer directed 37,075 specialist agents that read trial records in about six hours. They found that drugs aimed at genes active in only a few cell types were 40% more likely to move from phase 1 to phase 2 testing and had 32% fewer side effects reported, but the team stresses this is a link in past trials, not proof, and the agents ran no lab experiments. *Earth.com, REPORTED*
 
-**6 MEDIUM — Researchers in Sweden and the UK built an AI system that proposes biology questions, runs the lab tests on robots and learns from the results.** (report item 114)  
+**6 MEDIUM — Researchers in Sweden and the UK built an AI system that proposes biology questions, runs the lab tests on robots and learns from the results.** (report item 113)  
 Moneycontrol reports that researchers at Chalmers University of Technology, the University of Gothenburg and the University of Cambridge built an AI scientist that forms hypotheses, plans experiments, directs laboratory robots and uses the results to plan the next round. Working on baker's yeast, it produced nearly 2,000 testable predictions and found, for example, that aminoadipate may partly protect yeast from formic-acid stress; the report notes humans still set its limits and the work does not yet lead to a new medicine. *Moneycontrol, REPORTED*
 
-**6 MEDIUM — The Times reports that Oxford is setting up a 'sovereign' AI laboratory to help design cancer treatments for the NHS.** (report item 115)  
+**6 MEDIUM — The Times reports that Oxford is setting up a 'sovereign' AI laboratory to help design cancer treatments for the NHS.** (report item 114)  
 The Times reports that a 'sovereign' laboratory in Oxford, meaning one kept under British control, is to design cancer treatments for the NHS using artificial intelligence. *The Times, REPORTED* *(headline only)*
 
 ## SOCIETY AND EDUCATION — 2
-**7 MEDIUM — CBS News' 60 Minutes examined how people who train AI systems for a living, and economists, see the technology's effect on jobs.** (report item 118)  
+**7 MEDIUM — CBS News' 60 Minutes examined how people who train AI systems for a living, and economists, see the technology's effect on jobs.** (report item 117)  
 CBS News reports that freelancers who teach AI models at the company Mercor, which has more than 100,000 such trainers, believe human creativity will keep their work safe, while Nobel-winning economist Daron Acemoglu warns that unemployment could triple within a decade in a worst case if nothing is done. The segment cites a September McKinsey Global Institute estimate that AI could force 11 million US workers into new careers by 2035, and Stanford and US Census research showing weaker hiring and wages for young workers in AI-exposed jobs. *CBS News, REPORTED*
 
-**6 MEDIUM — The Financial Times reports that Sony Music is stepping up its fight against fraud in music streaming.** (report item 119)  
+**6 MEDIUM — The Financial Times reports that Sony Music is stepping up its fight against fraud in music streaming.** (report item 118)  
 The Financial Times reports that Sony Music is stepping up its fight against streaming fraud, the practice of using bots or fake accounts to inflate plays and collect royalties. *Financial Times, REPORTED* *(headline only)*
 
 ## THE FUN SIDE — 3
-**3 WATCHLIST — Elon Musk said he prefers the term 'Super Intelligence' to AI and plans to rename his SpaceXAI unit, and Donald Trump shared the post.** (report item 128)  
+**3 WATCHLIST — Elon Musk said he prefers the term 'Super Intelligence' to AI and plans to rename his SpaceXAI unit, and Donald Trump shared the post.** (report item 127)  
 Gizmodo reports that Elon Musk wrote on X on Sunday 4 Oct 2026 that 'Super Intelligence' is a better term than AI and that he intends to rename SpaceXAI 'SpaceXSI', and that President Trump shared a screenshot on Truth Social without comment. Trump also announced a Super Intelligence Force, led by national intelligence director Jay Clayton, to coordinate the government's response to AI threats while avoiding overregulation; Gizmodo reads the episode as Musk giving in to Trump's push to rebrand AI, which is its own interpretation. *Gizmodo, REPORTED*
 
-**2 WATCHLIST — A family-run pizza shop in Deerfield Beach, Florida, drew tens of thousands of online viewers by promising never to use AI.** (report item 129)  
+**2 WATCHLIST — A family-run pizza shop in Deerfield Beach, Florida, drew tens of thousands of online viewers by promising never to use AI.** (report item 128)  
 CBS Miami reports that Munchy's Pizza, a family-owned shop in Deerfield Beach known for over-the-top pizzas and wings, reached tens of thousands of people last month with social media posts saying it would not use artificial intelligence. Owner Munchy Su says he has worked in the trade since 1991. *CBS News, REPORTED*
 
-**2 WATCHLIST — A camera-news site says Sony India used an AI-generated image full of odd errors to promote its FX series on Instagram.** (report item 130)  
+**2 WATCHLIST — A camera-news site says Sony India used an AI-generated image full of odd errors to promote its FX series on Instagram.** (report item 129)  
 SonyAlphaRumors, a site that follows Sony camera news, reports that Sony India posted an Instagram image promoting its FX series that it says is plainly AI-generated and contains many bizarre details. The site adds that firms increasingly turn to AI tools for promotional images to save money, with sometimes embarrassing results; Sony's side is not given. *SonyAlphaRumors, REPORTED*
 
 ## CHECKS

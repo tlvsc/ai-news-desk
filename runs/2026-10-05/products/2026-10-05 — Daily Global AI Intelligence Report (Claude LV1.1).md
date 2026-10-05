@@ -2,9 +2,9 @@
 
 Daily report date: Monday, 5 October 2026  
 Coverage period: 4 Oct 2026 08:28 UTC to 5 Oct 2026 08:28 UTC (24 hours)  
-Final unique stories: 133 (pool 242; report rule: pool score 5 to 10 plus The Fun Side; 56 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
-Score spread: CRITICAL 0, HIGH 8, MEDIUM 46, WATCHLIST 79  
-Stories with full article text read: 107; headline only: 26; follow-ups of earlier news: 13  
+Final unique stories: 132 (pool 242; report rule: pool score 5 to 10 plus The Fun Side; 57 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
+Score spread: CRITICAL 0, HIGH 8, MEDIUM 46, WATCHLIST 78  
+Stories with full article text read: 106; headline only: 26; follow-ups of earlier news: 13  
 Source coverage certificate: SOURCE SCAN INCOMPLETE. Stories were collected through Google News; articles were read from the 101-source list where the sites allowed it. Test run approved by Rafi.  
 Coverage QA: ATTENTION REQUIRED — some publisher sites block automated reading, so some stories rest on headlines only.
 
@@ -976,10 +976,10 @@ Summary: SDxCentral has published an opinion piece arguing that accessible softw
 Full article: https://www.sdxcentral.com/opinions/why-accessible-software-is-the-cornerstone-of-useful-quantum-computers/
 ---
 
-## ETHICS AND LAW — 6
+## ETHICS AND LAW — 5
 
 107. OpenAI chief executive Sam Altman said the world should accept some harm from AI in return for its benefits, setting himself apart from rival Anthropic on regulation.
-CATEGORY: Ethics and law — rank 1 of 6 in this category
+CATEGORY: Ethics and law — rank 1 of 5 in this category
 SCORE: 8 — Fresh on-record statement by the head of a leading AI lab on how AI should be regulated; read through a relay of the Politico interview, not the Reuters text.
 Importance: HIGH — Altman's stance affects how lawmakers and the public weigh safety rules, mainly the policy fight between OpenAI and Anthropic, but it is an interview position and no rule has changed.
 Source: Politico, as relayed by Benzinga. Status: CONFIRMED.
@@ -988,7 +988,7 @@ Full article: https://www.tradingview.com/news/benzinga:9bb42535d094b:0-sam-altm
 ---
 
 108. Geoffrey Hinton, a pioneer of modern AI, was reported to warn that Donald Trump misunderstands AI and that industry self-regulation does not work.
-CATEGORY: Ethics and law — rank 2 of 6 in this category
+CATEGORY: Ethics and law — rank 2 of 5 in this category
 SCORE: 7 — Headline only and not verified; lowered by 1 from the pool score.
 Importance: MEDIUM — The warning, if accurate, concerns US AI policy and the public, but the context and Hinton's exact words are not known from the headline.
 Source: NewsBytes. Status: REPORTED. (Headline only: full article not readable.)
@@ -997,7 +997,7 @@ Full article: https://www.newsbytesapp.com/news/science/geoffrey-hinton-warns-do
 ---
 
 109. Anthropic chief executive Dario Amodei called for stronger AI regulation, including a narrow government power to block deployment of unsafe AI.
-CATEGORY: Ethics and law — rank 3 of 6 in this category
+CATEGORY: Ethics and law — rank 3 of 5 in this category
 SCORE: 7 — Direct on-record interview with the head of a leading AI lab on regulation; fresh and read in full.
 Importance: MEDIUM — It affects lawmakers weighing AI rules and workers worried about jobs, but it is a company chief's proposal and nothing has been enacted.
 Source: ABC News, as carried by 6abc. Status: CONFIRMED.
@@ -1006,7 +1006,7 @@ Full article: https://6abc.com/post/anthropic-ceo-dario-amodei-calls-stronger-re
 ---
 
 110. OpenAI and its chief executive Sam Altman are reported to face growing legal risk after the company found dozens of hacks involving its AI agents.
-CATEGORY: Ethics and law — rank 4 of 6 in this category
+CATEGORY: Ethics and law — rank 4 of 5 in this category
 SCORE: 6 — Lowered from 6: only a second-hand, partly garbled relay of the FT could be read, so the details are unverified.
 Importance: MEDIUM — Could expose OpenAI to lawsuits and government action and complicate its fundraising, but the scale of any liability is unquantified and the details are second-hand.
 Source: Financial Times. Status: REPORTED. (Headline only: full article not readable.)
@@ -1015,7 +1015,7 @@ Full article: https://www.thenews.com.pk/latest/1418707-sam-altman-faces-new-leg
 ---
 
 111. Malaysia says it will bring in its first law written specifically for artificial intelligence in early 2027.
-CATEGORY: Ethics and law — rank 5 of 6 in this category
+CATEGORY: Ethics and law — rank 5 of 5 in this category
 SCORE: 5 — Pool score kept: official statement in parliament, but the law is only at the drafting stage.
 Importance: WATCHLIST — Companies and users in Malaysia face future binding AI rules, but the content is not yet public beyond a risk-based approach.
 Source: Bloomberg. Status: CONFIRMED.
@@ -1023,18 +1023,9 @@ Summary: Bloomberg reports that Digital Minister Gobind Singh Deo told parliamen
 Full article: https://www.bloomberg.com/news/articles/2026-10-05/malaysia-plans-its-first-ai-law-as-global-scrutiny-intensifies
 ---
 
-112. Huawei and Qualcomm have agreed to license each other's patents for several years across 5G, computing, AI and networking.
-CATEGORY: Ethics and law — rank 6 of 6 in this category
-SCORE: 5 — Pool score kept: announced by both companies, but terms and financial details are not disclosed.
-Importance: WATCHLIST — Reduces patent friction between two major chip and telecoms firms, but it needs regulatory approvals and no money figures were given.
-Source: Huawei and Qualcomm (joint announcement). Status: CONFIRMED.
-Summary: Reuters and the South China Morning Post report, and a joint Huawei and Qualcomm announcement confirms, a multi-year agreement to cross-license patents in 5G, compute, AI and networking, with Qualcomm also buying certain Huawei US patents. The deal closes only after the necessary regulatory approvals, and both companies say it follows fair, reasonable and non-discriminatory (FRAND) licensing principles.
-Full article: https://macaubusiness.com/huawei-and-qualcomm-announce-broad-patent-license-agreement/
----
-
 ## HEALTH — 5
 
-113. A Stanford team's 'virtual biotech' run by 37,000 AI agents found that drugs aimed at genes active in only a few cell types tend to do better in trials.
+112. A Stanford team's 'virtual biotech' run by 37,000 AI agents found that drugs aimed at genes active in only a few cell types tend to do better in trials.
 CATEGORY: Health — rank 1 of 5 in this category
 SCORE: 6 — Interesting research method with real numbers, but a past-records link with no lab test.
 Importance: MEDIUM — It may help drug developers pick safer, more promising targets before a trial starts, but it is a statistical link in past trial records that no lab experiment has yet tested.
@@ -1043,7 +1034,7 @@ Summary: Earth.com reports that researchers at Stanford, led by James Zou, built
 Full article: https://www.aol.com/articles/virtual-biotech-staffed-37-000-060200000.html
 ---
 
-114. Researchers in Sweden and the UK built an AI system that proposes biology questions, runs the lab tests on robots and learns from the results.
+113. Researchers in Sweden and the UK built an AI system that proposes biology questions, runs the lab tests on robots and learns from the results.
 CATEGORY: Health — rank 2 of 5 in this category
 SCORE: 6 — Notable closed-loop result, but tested on yeast only and still human-supervised.
 Importance: MEDIUM — It points to faster lab research for scientists in biology and medicine, but it was shown only in yeast and humans still set its limits and judge its findings.
@@ -1052,7 +1043,7 @@ Summary: Moneycontrol reports that researchers at Chalmers University of Technol
 Full article: https://www.moneycontrol.com/science/ai-scientist-is-now-running-its-own-biology-lab-it-can-design-experiments-test-ideas-and-make-new-discoveries-article-14044724.html
 ---
 
-115. The Times reports that Oxford is setting up a 'sovereign' AI laboratory to help design cancer treatments for the NHS.
+114. The Times reports that Oxford is setting up a 'sovereign' AI laboratory to help design cancer treatments for the NHS.
 CATEGORY: Health — rank 3 of 5 in this category
 SCORE: 6 — Pool score 6 lowered by 1: only the headline could be verified.
 Importance: MEDIUM — It could affect NHS cancer patients and UK research, but the plan's scale, funding and timing are not known from the headline.
@@ -1061,7 +1052,7 @@ Summary: The Times reports that a 'sovereign' laboratory in Oxford, meaning one 
 Full article: https://www.thetimes.com/uk/science/article/oxford-sovereign-lab-nhs-cancer-treatments-ai-g35p59cfj
 ---
 
-116. A Bradford NHS hospital says an AI skin-lesion checker lets it see a third more patients per clinic session.
+115. A Bradford NHS hospital says an AI skin-lesion checker lets it see a third more patients per clinic session.
 CATEGORY: Health — rank 4 of 5 in this category
 SCORE: 5 — Concrete local results, but early, trust-reported and vendor-claimed accuracy.
 Importance: WATCHLIST — Skin-cancer patients in Bradford may be seen sooner and have fewer unneeded biopsies, but the figures come from the hospital trust and the maker, and a clinician still checks every image.
@@ -1070,7 +1061,7 @@ Summary: The BBC reports that St Luke's Hospital in Bradford, which adopted the 
 Full article: https://www.bbc.co.uk/news/articles/ck5yw5e9pnrzo
 ---
 
-117. A new census found that of 1,357 FDA-cleared AI medical devices, only three have been tested on whether patients actually do better.
+116. A new census found that of 1,357 FDA-cleared AI medical devices, only three have been tested on whether patients actually do better.
 CATEGORY: Health — rank 5 of 5 in this category
 SCORE: 5 — Strong evidence-gap finding, but public-records only and no non-AI comparison.
 Importance: WATCHLIST — Patients and hospitals relying on cleared AI tools may not know if they improve outcomes, but the authors stress that untested does not mean unsafe and unregistered studies would be missed.
@@ -1081,7 +1072,7 @@ Full article: https://www.earth.com/science/most-ai-medical-devices-approved-by-
 
 ## SOCIETY AND EDUCATION — 10
 
-118. CBS News' 60 Minutes examined how people who train AI systems for a living, and economists, see the technology's effect on jobs.
+117. CBS News' 60 Minutes examined how people who train AI systems for a living, and economists, see the technology's effect on jobs.
 CATEGORY: Society and education — rank 1 of 10 in this category
 SCORE: 7 — Feature on a known debate; lowered 1 from pool score because most data points are already published.
 Importance: MEDIUM — It affects workers, especially young graduates in AI-exposed fields, and the evidence on job losses is still a mix of projections and early hiring data.
@@ -1090,7 +1081,7 @@ Summary: CBS News reports that freelancers who teach AI models at the company Me
 Full article: https://www.cbsnews.com/news/artificial-intelligence-trained-to-help-with-careers-60-minutes/
 ---
 
-119. The Financial Times reports that Sony Music is stepping up its fight against fraud in music streaming.
+118. The Financial Times reports that Sony Music is stepping up its fight against fraud in music streaming.
 CATEGORY: Society and education — rank 2 of 10 in this category
 SCORE: 6 — Lowered 1: only the headline could be confirmed; no detail verified.
 Importance: MEDIUM — It concerns artists and labels whose royalties can be diluted by fake plays, but the scale of Sony's new action is not known from the headline.
@@ -1099,7 +1090,7 @@ Summary: The Financial Times reports that Sony Music is stepping up its fight ag
 Full article: https://www.ft.com/content/51aed058-f8e0-4426-b92a-790b7863d350
 ---
 
-120. A nonprofit close to the AI safety movement, the Tarbell Center for AI Journalism, plans to give $10 million by the end of 2027 to fund reporting on AI.
+119. A nonprofit close to the AI safety movement, the Tarbell Center for AI Journalism, plans to give $10 million by the end of 2027 to fund reporting on AI.
 CATEGORY: Society and education — rank 3 of 10 in this category
 SCORE: 5 — Matches pool score; notable media-funding news, limited reach.
 Importance: WATCHLIST — It affects newsrooms and readers of AI coverage, while critics argue the funder's views could shape what is covered, though Semafor found no interference.
@@ -1108,7 +1099,7 @@ Summary: Semafor reports exclusively that Tarbell is launching a grant fund, sta
 Full article: https://www.semafor.com/article/10/04/2026/ai-nonprofit-will-spend-10-million-on-journalism
 ---
 
-121. The Guardian reports that women hold only a small share of new AI jobs while being more likely to work in roles that AI could disrupt.
+120. The Guardian reports that women hold only a small share of new AI jobs while being more likely to work in roles that AI could disrupt.
 CATEGORY: Society and education — rank 4 of 10 in this category
 SCORE: 5 — Matches pool score; data-backed feature, not a new event.
 Importance: WATCHLIST — It affects women in tech and customer-facing jobs, and the pay gap warning comes from advocates and a LinkedIn report rather than a long-run study.
@@ -1117,7 +1108,7 @@ Summary: The Guardian reports, citing a LinkedIn report, that women made up abou
 Full article: https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality
 ---
 
-122. A Boston Globe opinion essay argues that college applications sound like AI because students have been taught the same essay formulas for years.
+121. A Boston Globe opinion essay argues that college applications sound like AI because students have been taught the same essay formulas for years.
 CATEGORY: Society and education — rank 5 of 10 in this category
 SCORE: 5 — Matches pool score; opinion piece, kept at 5 for its relevance to admissions season.
 Importance: WATCHLIST — It matters to applicants and parents facing AI-detector flags, but this is one tutor's argument, not research.
@@ -1126,7 +1117,7 @@ Summary: In an opinion piece in The Boston Globe, Ben Urwand, who runs the colle
 Full article: https://www.bostonglobe.com/2026/10/05/opinion/college-application-essays-ai/
 ---
 
-123. Common Sense Media has named former US Surgeon General Vivek Murthy to chair its new Youth AI Safety Institute, which will test AI products used by children.
+122. Common Sense Media has named former US Surgeon General Vivek Murthy to chair its new Youth AI Safety Institute, which will test AI products used by children.
 CATEGORY: Society and education — rank 6 of 10 in this category
 SCORE: 5 — Matches pool score; appointment with a concrete testing plan, but no results yet.
 Importance: WATCHLIST — It affects children, parents and AI companies, though the institute's funders include AI firms whose products it may test, and no scorecards exist yet.
@@ -1135,7 +1126,7 @@ Summary: EdTech Innovation Hub reports that the nonprofit Common Sense Media app
 Full article: https://www.edtechinnovationhub.com/news/former-us-surgeon-general-vivek-murthy-to-lead-common-sense-medias-youth-ai-safety-push
 ---
 
-124. The Wall Street Journal reports that companies keep announcing layoffs without saying who will lose their jobs, where or when.
+123. The Wall Street Journal reports that companies keep announcing layoffs without saying who will lose their jobs, where or when.
 CATEGORY: Society and education — rank 7 of 10 in this category
 SCORE: 5 — Matches pool score; headline only, unverified detail.
 Importance: WATCHLIST — It concerns workers waiting on vague layoff news, but the detail behind the headline is not known.
@@ -1144,7 +1135,7 @@ Summary: The Wall Street Journal reports that corporate layoff announcements kee
 Full article: https://www.wsj.com/business/corporate-layoff-announcements-workers-e37e0546
 ---
 
-125. A Reuters investigation found that McDonald's uses AI models to set menu prices at its US restaurants, and some franchisees say they feel pressed to follow them.
+124. A Reuters investigation found that McDonald's uses AI models to set menu prices at its US restaurants, and some franchisees say they feel pressed to follow them.
 CATEGORY: Society and education — rank 8 of 10 in this category
 SCORE: 5 — Matches pool score; second-hand report of Reuters, not opened directly.
 Importance: WATCHLIST — It affects diners who may pay different prices nearby and franchise owners, while McDonald's says the system is optional.
@@ -1153,7 +1144,7 @@ Summary: Reuters reports, as relayed by Futurism, that McDonald's AI models sugg
 Full article: https://futurism.com/future-society/mcdonalds-ai-burger-pricing
 ---
 
-126. Hong Kong's government set out a four-step plan to help young people get entry-level work as AI takes over routine first-job tasks.
+125. Hong Kong's government set out a four-step plan to help young people get entry-level work as AI takes over routine first-job tasks.
 CATEGORY: Society and education — rank 9 of 10 in this category
 SCORE: 5 — Matches pool score; regional policy plan, official source.
 Importance: WATCHLIST — It affects Hong Kong graduates and employers, but the plan is a set of announced programmes and its effect on jobs is not yet shown.
@@ -1162,7 +1153,7 @@ Summary: The South China Morning Post reports on a speech by Hong Kong's innovat
 Full article: https://www.bastillepost.com/global/article/6220473-psiti-calls-for-building-an-ai-talent-ladder-for-young-generation-at-global-youth-powerhouse-summit-2026
 ---
 
-127. On World Teachers' Day, UNESCO said AI should support teachers rather than replace them, as the world faces a shortage of 44 million secondary teachers by 2030.
+126. On World Teachers' Day, UNESCO said AI should support teachers rather than replace them, as the world faces a shortage of 44 million secondary teachers by 2030.
 CATEGORY: Society and education — rank 10 of 10 in this category
 SCORE: 5 — Matches pool score; annual-day messaging, no new policy.
 Importance: WATCHLIST — It affects students and teachers worldwide, but the piece is an explainer built on existing UNESCO and UNICEF figures.
@@ -1173,7 +1164,7 @@ Full article: https://www.educationtimes.com/learning/can-ai-replace-teachers-wh
 
 ## THE FUN SIDE — 6
 
-128. Elon Musk said he prefers the term 'Super Intelligence' to AI and plans to rename his SpaceXAI unit, and Donald Trump shared the post.
+127. Elon Musk said he prefers the term 'Super Intelligence' to AI and plans to rename his SpaceXAI unit, and Donald Trump shared the post.
 CATEGORY: The Fun Side — rank 1 of 6 in this category
 SCORE: 3 — Naming spat with a real government task force attached; commentary framing, no policy detail.
 Importance: WATCHLIST — Little changed in practice beyond a new White House task force and a possible company rename; Gizmodo's view that Musk 'surrendered' is its own commentary.
@@ -1182,7 +1173,7 @@ Summary: Gizmodo reports that Elon Musk wrote on X on Sunday 4 Oct 2026 that 'Su
 Full article: https://gizmodo.com/trump-posts-not-so-subtle-boast-about-super-intelligence-victory-over-elon-musk-2000821347
 ---
 
-129. A family-run pizza shop in Deerfield Beach, Florida, drew tens of thousands of online viewers by promising never to use AI.
+128. A family-run pizza shop in Deerfield Beach, Florida, drew tens of thousands of online viewers by promising never to use AI.
 CATEGORY: The Fun Side — rank 2 of 6 in this category
 SCORE: 2 — Light viral story with a local angle; only the opening of the report could be read.
 Importance: WATCHLIST — Little changed; it is a small sign for local businesses and customers that avoiding AI can itself be a selling point.
@@ -1191,7 +1182,7 @@ Summary: CBS Miami reports that Munchy's Pizza, a family-owned shop in Deerfield
 Full article: https://www.yahoo.com/news/videos/deerfield-beach-pizzerias-vow-never-145700754.html
 ---
 
-130. A camera-news site says Sony India used an AI-generated image full of odd errors to promote its FX series on Instagram.
+129. A camera-news site says Sony India used an AI-generated image full of odd errors to promote its FX series on Instagram.
 CATEGORY: The Fun Side — rank 3 of 6 in this category
 SCORE: 2 — Light item from a single small site; no Sony response in the text.
 Importance: WATCHLIST — Little changed; it matters to marketers and brand teams, and the claim that the image is AI-made rests on the site's own inspection.
@@ -1200,7 +1191,7 @@ Summary: SonyAlphaRumors, a site that follows Sony camera news, reports that Son
 Full article: https://www.sonyalpharumors.com/sony-india-promoting-the-fx-series-with-ai-generated-image-full-of-errors/
 ---
 
-131. A man from the Birmingham area built an AI-made pop girl group that he says now has over two million YouTube subscribers.
+130. A man from the Birmingham area built an AI-made pop girl group that he says now has over two million YouTube subscribers.
 CATEGORY: The Fun Side — rank 4 of 6 in this category
 SCORE: 2 — Light human-interest story; audience figures are the creator's own.
 Importance: WATCHLIST — It shows what one person can now make with AI music and video tools, which matters to musicians and streaming platforms, but the audience claim is unverified and the project loses money.
@@ -1209,7 +1200,7 @@ Summary: Birmingham Live reports that Craig Raybould, 43, used the Suno music ge
 Full article: https://www.birminghammail.co.uk/whats-on/music-nightlife-news/midland-man-achieves-teen-dream-34701819
 ---
 
-132. Ubisoft has reportedly named a new company-wide generative-AI unit 'Motherbrain', according to Insider Gaming.
+131. Ubisoft has reportedly named a new company-wide generative-AI unit 'Motherbrain', according to Insider Gaming.
 CATEGORY: The Fun Side — rank 5 of 6 in this category
 SCORE: 2 — Light name hook on a reported plan Ubisoft has not confirmed.
 Importance: WATCHLIST — It could affect Ubisoft staff and players if confirmed, but the structure rests on unnamed sources and Ubisoft has not announced it.
@@ -1218,7 +1209,7 @@ Summary: Insider Gaming reports, as relayed in an opinion column on Australian s
 Full article: https://poptopic.com.au/entertainment/games/ubisofts-motherbrain-name-is-funny-company-wide/
 ---
 
-133. An AI-made video of South Africa rugby coach Rassie Erasmus singing to the World Cup trophy in a movie spoof is spreading online.
+132. An AI-made video of South Africa rugby coach Rassie Erasmus singing to the World Cup trophy in a movie spoof is spreading online.
 CATEGORY: The Fun Side — rank 6 of 6 in this category
 SCORE: 1 — Light viral item with no news consequence.
 Importance: WATCHLIST — Nothing material changed; it is a harmless example of AI face-swap parody of a public figure, and the article itself calls the clip fake.
@@ -1241,7 +1232,7 @@ Fact: the Wall Street Journal says OpenAI's new agent is giving large companies 
 
 ### 2. People and society
 
-Fact: CBS News's 60 Minutes reports that freelancers who train AI models at Mercor believe human creativity will keep their work safe, while economist Daron Acemoglu warns that unemployment could triple within a decade in a worst case if nothing is done (item 118). Inference: the people who teach the machines are among the first to be asked what happens to everyone else.
+Fact: CBS News's 60 Minutes reports that freelancers who train AI models at Mercor believe human creativity will keep their work safe, while economist Daron Acemoglu warns that unemployment could triple within a decade in a worst case if nothing is done (item 117). Inference: the people who teach the machines are among the first to be asked what happens to everyone else.
 
 Fact: Elon Musk said he will rename his AI unit SpaceXSI after President Trump's call to say "Super Intelligence" instead of AI, Fox Business reports (item 10). Fact: Panasonic plans to build humanoid robots, with production targeted for 2029, according to its chief AI officer in an interview with Nikkei (item 59). Speculation: a target five years away is a statement of intent, not a product.
 

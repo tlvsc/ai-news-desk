@@ -3,7 +3,7 @@
 Edition date: 2026-10-05 (Asia/Jerusalem)  
 Reporting window: 4 Oct 2026 08:28 UTC to 5 Oct 2026 08:28 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-05 08:59 UTC  
+Last updated: 2026-10-05 09:03 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
@@ -11,9 +11,9 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - Raw dated candidates collected inside the window: 3361
 - Curated pool: 242 (per category: Models & Core AI 15, Agents, Products & Applications 15, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 15, Industry Voices & Quotes 15, Companies, Startups, Funding & Deals 15, Markets, Stocks & AI Economics 18, Chips, Hardware & Compute 15, Data Centers, Energy & Infrastructure 17, Healthcare & Biotech 15, Robotics, Autonomy & Physical AI 17, Cybersecurity, Safety, Reliability & Data Governance 15, Policy, Law, Geopolitics, Defense & Sovereign AI 15, Society, Work, Media, Education & Culture 15, Quantum & Advanced Computing 15, The Fun Side 10)
 - Removed at pool build: 3 by the editor, 13 same stories in two categories
-- Held back after reading: 56 (54 older news re-dated into the window, 2 duplicate, 0 published before the window)
+- Held back after reading: 57 (54 older news re-dated into the window, 3 duplicate, 0 published before the window)
 - Articles read: 161 of 189; headline only: 28
-- Full Report: 133 (pool score 5 to 10 plus The Fun Side); Bulletin: 57 (pool score 6 to 10, plus 3 Fun Side)
+- Full Report: 132 (pool score 5 to 10 plus The Fun Side); Bulletin: 57 (pool score 6 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -182,7 +182,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C05-07 · LAW · 6 · 24/7 Wall St., citing NBC's Meet the Press and posts on X · 2026-10-05T01:42:00Z · Silicon Valley Investor David Sacks Torched Bill Gates Over His Claim That AI Could Kill a Billion People · https://247wallst.com/investing/2026/10/04/silicon-valley-investor-david-sacks-torched-bill-gates-over-his-claim-that-ai-could-kill-a-billion-people/ · held: older news re-dated into the window (FOLLOW-UP of 1 Oct 2026)
 - C13-03 · LAW · 6 · Financial Times · 2026-10-04T11:00:00Z · Legal risks pile up for Altman as OpenAI uncovers dozens of hacks · https://www.thenews.com.pk/latest/1418707-sam-altman-faces-new-legal-risks-as-openai-uncovers-hacks · Full Report + Bulletin
 - C13-04 · LAW · 5 · Bloomberg · 2026-10-05T03:34:00Z · Malaysia Plans First AI Law in 2027 as Scrutiny Intensifies · https://www.bloomberg.com/news/articles/2026-10-05/malaysia-plans-its-first-ai-law-as-global-scrutiny-intensifies · Full Report
-- C13-08 · LAW · 5 · Huawei and Qualcomm (joint announcement) · 2026-10-05T06:00:00Z · Huawei, Qualcomm strike multi-year patent agreement across 5G, AI · https://macaubusiness.com/huawei-and-qualcomm-announce-broad-patent-license-agreement/ · Full Report
+- C13-08 · LAW · 5 · Huawei and Qualcomm (joint announcement) · 2026-10-05T06:00:00Z · Huawei, Qualcomm strike multi-year patent agreement across 5G, AI · https://macaubusiness.com/huawei-and-qualcomm-announce-broad-patent-license-agreement/ · held: same Huawei Qualcomm deal kept as C08-01
 - C10-01 · HEA · 6 · Earth.com · 2026-10-05T06:05:00Z · Virtual biotech staffed by 37,000 AI agents found a marker for more successful medicines · https://www.aol.com/articles/virtual-biotech-staffed-37-000-060200000.html · Full Report + Bulletin
 - C10-02 · HEA · 6 · Moneycontrol · 2026-10-05T07:44:00Z · AI scientist is now running its own biology lab: It can design experiments, test ideas and make new... · https://www.moneycontrol.com/science/ai-scientist-is-now-running-its-own-biology-lab-it-can-design-experiments-test-ideas-and-make-new-discoveries-article-14044724.html · Full Report + Bulletin
 - C10-03 · HEA · 6 · The Times · 2026-10-05T06:08:00Z · Oxford ‘sovereign’ lab to design NHS cancer treatments · https://www.thetimes.com/uk/science/article/oxford-sovereign-lab-nhs-cancer-treatments-ai-g35p59cfj · Full Report + Bulletin
@@ -268,4 +268,4 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 
 ## Known gaps
 
-- 26 of 133 Full Report stories rest on headlines only; their sites could not be opened from this session.
+- 26 of 132 Full Report stories rest on headlines only; their sites could not be opened from this session.

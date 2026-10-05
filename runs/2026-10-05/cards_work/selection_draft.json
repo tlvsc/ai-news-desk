@@ -1,0 +1,131 @@
+{
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-01",
+   "category": "Politics and government",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s3",
+   "item": "C06-03",
+   "category": "Market, industry and finance",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s4",
+   "item": "C08-01",
+   "category": "Market, industry and finance",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s5",
+   "item": "C05-04",
+   "category": "Security and cyber",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s6",
+   "item": "C05-08",
+   "category": "Security and cyber",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s7",
+   "item": "C08-07",
+   "category": "Energy and infrastructure",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s8",
+   "item": "C09-03",
+   "category": "Energy and infrastructure",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s9",
+   "item": "C11-04",
+   "category": "Robotics",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s10",
+   "item": "C01-01",
+   "category": "Models and tools",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s11",
+   "item": "C04-04",
+   "category": "Research and science",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s12",
+   "item": "C05-01",
+   "category": "Ethics and law",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s13",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "s14",
+   "item": "C14-01",
+   "category": "Society and education",
+   "label": "SHORT LABEL"
+  },
+  {
+   "card": "fun",
+   "item": "C16-08",
+   "category": "The Fun Side",
+   "label": "SHORT LABEL"
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C11-01",
+   "category": "Robotics"
+  },
+  {
+   "id": "t2",
+   "item": "C01-02",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
+   "item": "C07-02",
+   "category": "Market, industry and finance"
+  },
+  {
+   "id": "t4",
+   "item": "C05-02",
+   "category": "Ethics and law"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C06-01",
+  "C05-04",
+  "C08-07",
+  "C11-04",
+  "C04-04",
+  "C10-01",
+  "C14-01"
+ ],
+ "headlines_fun": "C16-08",
+ "bp_refs": [
+  "C06-01",
+  "C06-02",
+  "C06-03"
+ ]
+}

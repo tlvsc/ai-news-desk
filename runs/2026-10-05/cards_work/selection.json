@@ -1,0 +1,134 @@
+{
+ "edition": "2026-10-05",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-01",
+   "category": "Politics and government",
+   "label": "Task force"
+  },
+  {
+   "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "World Labs"
+  },
+  {
+   "card": "s3",
+   "item": "C06-03",
+   "category": "Market, industry and finance",
+   "label": "PTC deal"
+  },
+  {
+   "card": "s4",
+   "item": "C08-01",
+   "category": "Market, industry and finance",
+   "label": "Patents"
+  },
+  {
+   "card": "s5",
+   "item": "C05-04",
+   "category": "Security and cyber",
+   "label": "Son"
+  },
+  {
+   "card": "s6",
+   "item": "C12-05",
+   "category": "Security and cyber",
+   "label": "Fake Anthropic"
+  },
+  {
+   "card": "s7",
+   "item": "C08-07",
+   "category": "Energy and infrastructure",
+   "label": "Chip prices"
+  },
+  {
+   "card": "s8",
+   "item": "C09-03",
+   "category": "Energy and infrastructure",
+   "label": "Data centers"
+  },
+  {
+   "card": "s9",
+   "item": "C11-04",
+   "category": "Robotics",
+   "label": "Drones"
+  },
+  {
+   "card": "s10",
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "GPT-6.1 Astra"
+  },
+  {
+   "card": "s11",
+   "item": "C04-04",
+   "category": "Research and science",
+   "label": "Reasoning"
+  },
+  {
+   "card": "s12",
+   "item": "C05-01",
+   "category": "Ethics and law",
+   "label": "Altman"
+  },
+  {
+   "card": "s13",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "Biotech"
+  },
+  {
+   "card": "s14",
+   "item": "C14-01",
+   "category": "Society and education",
+   "label": "Jobs"
+  },
+  {
+   "card": "fun",
+   "item": "C16-02",
+   "category": "The Fun Side",
+   "label": "Pizza shop"
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C11-01",
+   "category": "Robotics"
+  },
+  {
+   "id": "t2",
+   "item": "C01-01",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
+   "item": "C07-02",
+   "category": "Market, industry and finance"
+  },
+  {
+   "id": "t4",
+   "item": "C05-02",
+   "category": "Ethics and law"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C06-01",
+  "C12-05",
+  "C08-07",
+  "C11-04",
+  "C01-02",
+  "C10-01",
+  "C14-01"
+ ],
+ "headlines_fun": "C16-02",
+ "bp_refs": [
+  "C06-01",
+  "C06-02",
+  "C06-03",
+  "C07-06",
+  "C07-03"
+ ]
+}

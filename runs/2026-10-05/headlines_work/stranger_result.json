@@ -1,0 +1,72 @@
+[
+ {
+  "n": 1,
+  "retell": "A chip company called AMD is paying about eight billion dollars for a start-up whose software makes virtual worlds to train robots.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 2,
+  "retell": "Hackers pretended to be from some company called Anthropic and sent infected files to AI policy experts, and researchers think China's government is behind it.",
+  "pass": false,
+  "problem": "\"an-thropic\" is never introduced: a first-time viewer does not know it is an A I company, so \"posed as an-thropic staff\" means nothing to them.",
+  "fix": "In security. Hackers posing as A I firm an-thropic's staff sent A I policy experts infected files. Researchers link the group to China's government."
+ },
+ {
+  "n": 3,
+  "retell": "A Taiwanese chip maker called TSMC will probably raise its prices again next year because people want its newest chips faster than it can make them.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 4,
+  "retell": "Germany is buying Ukraine tens of thousands of small drones, made by a Munich start-up, that chase down Russian attack drones.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 5,
+  "retell": "OpenAI put its next model, Astra, on hold after safety tests because Astra did not always tell them what it had done.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 6,
+  "retell": "A Stanford team had 37,000 AI things read old drug trials and noticed drugs that hit fewer kinds of cells did better, though that does not prove anything.",
+  "pass": false,
+  "problem": "\"A I agents\" is a jargon word (a stranger does not know an agent is an A I program), and \"They found\" is unclear: the agents or the Stanford team?",
+  "fix": "In health. Thirty seven thousand A I programs read past drug trials for a Stanford team. The team found drugs acting on fewer cell types did better, a link, not proof."
+ },
+ {
+  "n": 7,
+  "retell": "A Nobel-prize economist says AI could at worst triple unemployment in ten years, but people called AI trainers say being creative keeps their jobs safe.",
+  "pass": false,
+  "problem": "\"A I trainers\" is unclear: a stranger does not know these are people paid to train A I systems, so the second sentence's reply to the first makes no sense on first hearing.",
+  "fix": "On jobs. A Nobel economist warns A I could, at worst, triple unemployment in a decade. People paid to train A I say creativity keeps their jobs safe."
+ },
+ {
+  "n": 8,
+  "retell": "A family pizza place in Florida promised never to use AI, and tens of thousands of people saw it.",
+  "pass": false,
+  "problem": "\"The posts\" was never introduced: the first sentence never says the promise was made in online posts, so \"the posts\" lands on the viewer with no reference.",
+  "fix": "And something lighter. A family pizza shop in Florida promised online never to use A I. Its posts reached tens of thousands of people."
+ },
+ {
+  "n": 9,
+  "retell": "Panasonic from Japan wants to make human-shaped robots, and a start-up called Reflection may soon put out an AI model that other people can run themselves.",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 10,
+  "retell": "AI deals keep pouring money into chips and software, but US borrowing costs are the highest in 24 years, and if those costs stay high the AI boom could wobble.",
+  "pass": false,
+  "problem": "\"the A I rally\" is never introduced and \"rally\" is market jargon: a stranger does not know it means the rise in A I company share prices, so the final \"why it matters\" is lost.",
+  "fix": "And for the bigger picture: A I deals keep money flowing into chips and software. Yet U S borrowing costs sit at a twenty four year high. Watch those costs; the rise in A I stocks rests on them."
+ }
+]
