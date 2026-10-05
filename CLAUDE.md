@@ -125,6 +125,9 @@ not about which project it is.
     run on Sonnet (Agent tool, model "sonnet"); the wording, stranger, rules and editor agents stay on Fable. Report
     the token use and any quality drop next to the 4 Oct run (about 6.3 million helper tokens); Rafi decides after.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
+    NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
+    every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
+    Headlines take only what survives it, and a follow-up of the last deck's story is not a card.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

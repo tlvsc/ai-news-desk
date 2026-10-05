@@ -53,7 +53,9 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
 python3 $S/card_candidates.py --workdir $W
 ```
 It prints the NEW candidates per category (score, status, read or headline only, big company names, possible
-repeats of the last decks) and writes `$W/cards_work/selection_draft.json`. Check it against the Cards rules
+repeats of the last decks) and writes `$W/cards_work/selection_draft.json`. Candidates come only from the report after the 14 day repeat check (Part A step 9b); also compare every pick with the last
+three decks in runs/ (Rafi, 5 Oct 2026: a card that old news repeats is a failure, and a follow-up of a story the last deck
+already carried is not a card). No company twice in a row; at most 2 cards per company. Check it against the Cards rules
 (criticals first and spending their slot; Rafi's order and slots; money cards at most 3; a robot doing something;
 lead with the deed; one company at most 3 cards and 2 Headlines stories; NEW stories only; no repeat of the last
 three days of cards and Headlines), write a short "label" for each card (the second level of its CATEGORY line,

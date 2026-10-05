@@ -50,7 +50,8 @@ Every script takes `--workdir $W`. collect.py writes `$W/run.json` (edition and 
 Fetch into `$W/rules/`: Full_Report_V1_Rules_Structure.txt, Bulletin_V1_Rules_Structure.txt and
 Article_phrasing_instructions_AIND_V1.txt (find each by name; check its modified time). Fetch into `$W/`:
 build_pdf.py from Bulletin blueprint V1 / Permanent Assets (Drive 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH), md5
-5b5869e51313b19e0b5554b2f890cae5 (42,113 bytes); stop and tell Rafi if it differs. Fetch the pools of the last
+5b5869e51313b19e0b5554b2f890cae5 (42,113 bytes); stop and tell Rafi if it differs. Fetch the Full Report texts of the previous 14 days into `$W/archive14/<date>.md` (drive_save.py, no content read into the
+agent's context; step 9b). Fetch the pools of the last
 four days: AI_News_Desk / daily_data_generated / <date> / reports / supportive files / AIND_Pool_<date>.csv;
 a day that is not on Drive is taken from the local run folder (`<scratchpad>/run_<date>/out/`) or, if missing,
 named in the start line. Save each file with drive_save.py ("Saving a Drive file to disk" below). Then:
@@ -145,6 +146,20 @@ python3 $K/make_prompts.py --workdir $W --stage edit
 Launch 2 background agents (`Read $W/prompts/edit_A.txt and follow it exactly.`, the same for edit_B). Read
 `$W/qa2_log_A.json` and `qa2_log_B.json`; act on every "unresolved" item (hold re-dated or duplicate stories in
 held.json; an unclear quote of a named person is kept only with its hedge, or held), then build again.
+
+### 9b. Last stage of removing duplicates: the 14 previous Full Reports (Rafi, 5 Oct 2026)
+Before the Bigger Picture and the final build, every report entry is compared with the Full Reports of the 14 days
+before the edition, saved from Drive (read only) into `$W/archive14/<date>.md` by the step 0 Drive agent
+(AI_News_Desk / daily_data_generated / <date> / reports /; an older day may sit in the old "Daily Global AI Intelligence
+Reports" folder; a day with no report text is named as a GAP, never guessed).
+```
+python3 $K/check_dup14.py --workdir $W        # prints every REPEAT with the earlier line; FOLLOW-UP kept = new facts
+```
+Read each REPEAT next to its earlier line: a real repeat (same story, no new facts) goes into `$W/held.json` under
+"duplicate" ("repeat of <date>"); a false match (different story, shared names) stays. `--hold` writes all of them;
+use it only when the list was read. A follow-up with new facts may stay in the report but is never a card or a
+Headlines story on its own. Then build again. 5 Oct 2026: 11 of 14 reports found; 10 real repeats among 132 entries
+(the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
 Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` yourself, following `$A/briefs/bigger_picture.md`.

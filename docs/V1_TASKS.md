@@ -313,3 +313,24 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     run, so a global run opened with a Kawasaki detail; then I misread Rafi and reverted the approved item. Rafi: a start
     is ONE fixed line, "Run Part A for <date>". Everything else lives in CLAUDE.md, the skills and the repo, never in the
     start message. Prevention: docs/START_LINE.md holds the only start line; I add nothing to it.
+66. (5 Oct 2026, mistake record) OLD NEWS IN THE CARDS AND THE REPORT. Rafi: "almost the entire cards" were old, and the skill
+    had no check against earlier Full Reports. Cause: Part A compared only the last 4 days of pool titles, and Part B's card
+    repeat check ran against nothing ("previous cards none" on a fresh machine). The AMD and World Labs deal had run in the
+    29 Sep report, the OpenAI shelved model on 29 Sep, the task force on 4 Oct, Panasonic humanoids on 20 Sep. Fix (Rafi: 14
+    days, last stage before the Full Report is final): Part A step 9b, check_dup14.py, 14 previous Full Reports from Drive
+    saved to disk (not read into a model); CLAUDE.md rule 16 NO OLD NEWS; the Bigger Picture is written after it. Result
+    on 5 Oct: 11 of 14 reports found (22 Sep, 26 Sep and 2 Oct have no report text on Drive), 12 repeats held of 132 entries;
+    the script also makes false matches (shared names), so every hit is read next to its earlier line. V1 needs the same
+    stage, with a proper story identity instead of word overlap, and a Drive archive that has one Full Report per day.
+67. (5 Oct 2026) COMPANY CAPS. The written cap is 2 Headlines stories and 3 story cards per company; three OpenAI cards sat
+    in a row. Part B step 1 now says no company twice in a row and at most 2 cards per company (Rafi to confirm the rule
+    text for CLAUDE.md rule 16).
+68. (5 Oct 2026) The editors missed the same Huawei and Qualcomm deal twice in one report (C08-01 and C13-08); a cross
+    category duplicate check on entries (not only on pool titles) is needed after the writers.
+69. (5 Oct 2026) delivery_manifest.py looks for the pool CSV in products/ while build_pool writes it to out/; the Drive agent
+    cannot upload (the connector takes only typed text), so 0 of 9 files reached Drive. Everything went to Rafi in chat.
+70. (5 Oct 2026) MODEL TRIAL, Sonnet: curators 1.39 M helper tokens (4 Oct: 2.7 M), writers 1.86 M (4 Oct: 1.7 M, no saving),
+    editors 0.29 M, setup 0.21 M, Drive agents 0.4 M. Quality: curators thin but acceptable; writers lowered scores and flagged
+    old events well; neither caught repeats of earlier reports (the check did not exist).
+71. (5 Oct 2026) Parallel sessions on the same branch: two pushes were rejected because another session had pushed; rebase
+    on origin before pushing. One session reverted and then re-applied item 64 within an hour on Rafi's word.
