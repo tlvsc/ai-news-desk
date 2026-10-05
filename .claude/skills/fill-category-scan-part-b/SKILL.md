@@ -46,7 +46,7 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
    1sizbDjBLJB_7K-3uRzZ4S_xI2zpCjdIs, 1,219,821 bytes) into `<scratchpad>/cards_pkg/drive_refs/`.
 4. The Headlines template is in the skill: `$B/assets/Aind_headlines_comfy_template_13slots.json` (13 slots, the
    29 Sep reference pair, Spectrum on; md5 bbbed6ed8496ee80f04288468f597aa5). The voice sample is NOT needed here:
-   the JSON only names AIND_anchor_voice_sample_4s.mp3, which Rafi keeps in ComfyUI/input on his PC.
+   the JSON only names AIND_anchor_voice_sample_4s.wav, which Rafi keeps in ComfyUI/input on his PC.
 
 ### 1. Choose on paper (main session)
 ```

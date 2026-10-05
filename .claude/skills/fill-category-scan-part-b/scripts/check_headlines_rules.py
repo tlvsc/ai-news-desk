@@ -7,7 +7,7 @@ Headlines_Master_Rules_Structure.txt (W/rules) that a script can test, then the 
   A3   story clips in deck order                      A5   teaser only from the teaser card, never a story card
   A2   ending is the approved text; opening slot      B1   aim 8 s, never over 12 s (CLAUDE.md 16: stories 8 to 9 s,
        active only when Rafi asked (CLAUDE.md 16)          Fun and teaser about 8, Bigger Picture about 10)
-  B2a  every story and the fun clip open with a short spoken introduction; teaser "Also in the full report",
+  B2a  every story and the fun clip open with a short spoken introduction; teaser "Also in the full report.",
        Bigger Picture "And for the bigger picture"
   G2   introductions rotate: never the wording of the previous day     B3  numbers as words, no digits
   G1.4 the outlet is never spoken                       15 Sep 1 and 2: pronunciation cues, Google DeepMind
@@ -65,12 +65,12 @@ if pk:
         'unless Rafi asked for new options (CLAUDE.md 16)', 'WARN')
     if re.search(r'\d', op.get('script', '')): out('B3', False, 'digits in the opening line: ' + op.get('script', '')[:60], 'WARN')
 for k, s, kind in clips:
-    syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
+    syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic', 'Kawa saki': 'Kawasaki'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
     aim = {'story': 9.0, 'fun': 8.5, 'teaser': 8.5, 'bp': 10.5}[kind]
     out('B1', box <= 12, f'{k} {box} s is over the 12 s maximum') if box > 12 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
     if kind in ('story', 'fun'):
         it = intro(s); out('B2a', 0 < len(it.split()) <= 5, f'{k} opens with a spoken introduction: "{it}"')
-    if kind == 'teaser': out('B2a', s.startswith('Also in the full report'), 'teaser opens with "Also in the full report"')
+    if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')
     if kind == 'bp': out('B2a', s.startswith('And for the bigger picture'), 'Bigger Picture opens with "And for the bigger picture"')
     out('B3', not re.search(r'\d', s), f'{k} has no digits')
     if re.search(r'\bAnthropic\b', s): out('15Sep1', False, f'{k}: write Anthropic as "an-thropic" in speech')
