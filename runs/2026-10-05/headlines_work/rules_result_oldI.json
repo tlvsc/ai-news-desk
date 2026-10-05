@@ -1,0 +1,15 @@
+[
+ {"clip":"C13-07","pass":true,"broken":[],"fix":"","note":"unchanged; 35 syl 8.0 s; one flowing sentence; who, what, why supported; intro new."},
+ {"clip":"C06-03","pass":true,"broken":[],"fix":"","note":"new line; 32 syl 7.5 s; one sentence; market story, deal first then the honest doubt (shares fell, in the entry); Schneider and P T C tagged; intro In business new; no digits; no hedge needed (confirmed deal)."},
+ {"clip":"C12-05","pass":false,"broken":[
+   {"rule":"1A nothing stronger or different than the entry","why":"the line now says 'government policy makers'; the entry says the targets were A I policy experts at think tanks, universities and law firms, not government officials"},
+   {"rule":"B2 plain natural English","why":"'in hope to extract information' is not natural spoken English (natural: 'hoping to steal their information')"}
+  ],"fix":"","note":"LOCKED, Rafi's own wording, reported only, no change proposed. 40 syl 9.5 s; sound spelling, hedge (Suspected Chinese), intro and timing all pass."},
+ {"clip":"C08-07","pass":true,"broken":[],"fix":"","note":"LOCKED, unchanged; 43 syl 10.0 s, at the 10 s ceiling, not over."},
+ {"clip":"C11-04","pass":true,"broken":[],"fix":"","note":"unchanged; 38 syl 9.0 s."},
+ {"clip":"C01-01","pass":true,"broken":[],"fix":"","note":"unchanged; 43 syl 10.0 s, at the ceiling, not over."},
+ {"clip":"C04-05","pass":true,"broken":[],"fix":"","note":"unchanged; 41 syl 9.5 s."},
+ {"clip":"fun","pass":true,"broken":[],"fix":"","note":"new line; 38 syl 9.0 s (fun aim 8, under the 10 s max); 'a sign that' now matches the entry's 'a small sign'; intro In lighter news new."},
+ {"clip":"teaser","pass":true,"broken":[],"fix":"","note":"unchanged; 40 syl 9.5 s."},
+ {"clip":"bp","pass":true,"broken":[],"fix":"","note":"new line; 40 syl 9.5 s; market summation then the thing to watch (borrowing costs) and the supported consequence (rally could fade, C07-06 / watch item 3); numbers as words; no unsupported claim."}
+]

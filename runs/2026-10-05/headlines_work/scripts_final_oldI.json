@@ -1,30 +1,48 @@
 {
  "stories": [
   {
-   "item": "C08-01",
+   "item": "C13-07",
+   "category_word": "politics",
+   "who": "British lawmakers, led by committee chair Chi Onwurah",
+   "what": "warned the government relies too much on American cloud companies, which could switch off services under U S law",
+   "why_for_people": "U S law could switch off British public services",
+   "script": "From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.",
+   "screen": "a small glowing cloud with a simple padlock on it, text-free symbol"
+  },
+  {
+   "item": "C06-03",
    "category_word": "business",
-   "who": "Qualcomm and Chinese rival Huawei, two of the biggest mobile chip makers",
-   "what": "Qualcomm will pay Huawei for its patents for the first time; for years Huawei paid Qualcomm",
-   "why_for_people": "the money now flows from an American chip giant to a Chinese one, a reversal; regulators must still approve",
-   "script": "Also in business. Qualcomm will pay Chinese rival Huawei for its patents for the first time. For years Huawei paid Qualcomm; now the money flows the other way.",
-   "screen": "two small glowing computer chips facing each other with a simple two way arrow between them, text-free symbol"
+   "who": "French giant Schneider Electric; P T C, maker of factory design software",
+   "what": "Schneider is buying P T C, a maker of factory software; its own shares fell on the news",
+   "why_for_people": "Schneider's own shares fell on the news",
+   "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
+   "screen": "a small glowing factory building with a single gear floating beside it, simple text-free symbol"
   },
   {
    "item": "C12-05",
    "category_word": "security",
    "who": "hackers posing as Anthropic staff; researchers link them to China",
    "what": "they emailed malware to A I policy experts",
-   "why_for_people": "the people who shape A I rules are being targeted",
-   "script": "In security. Hackers posing as an-thropic staff sent malware to A I policy experts. Researchers link them to China; those experts shape A I rules.",
+   "why_for_people": "to extract information from policy makers",
+   "script": "In security. Suspected Chinese hackers posing as an-thropic staff sent malware to government policy makers in hope to extract information.",
    "screen": "a small glowing envelope with a fishing hook hanging above it, simple text-free symbol"
+  },
+  {
+   "item": "C08-07",
+   "category_word": "chips",
+   "who": "T S M C, the world's largest maker of chips for other companies, based in Taiwan",
+   "what": "Is reported to be planning another price rise of three to six percent on its most advanced chip wafers for early next year, because demand is bigger than supply; T S M C has not confirmed it",
+   "why_for_people": "A I products, chips and services would get more expensive for the people who buy them; the report is unconfirmed",
+   "script": "From Taiwan. The biggest chip maker T S M C is reportedly planning to raise its prices next year. That would make A I products, chips and services more expensive.",
+   "screen": "a small glowing computer chip with a plain upward arrow beside it, simple text-free symbol"
   },
   {
    "item": "C11-04",
    "category_word": "robotics",
    "who": "Germany; drones built in Ukraine",
    "what": "Germany pays for tens of thousands of drone hunting drones",
-   "why_for_people": "Ukrainian cities get more protection from Russian attacks",
-   "script": "In robotics. Germany is paying for tens of thousands of drones that hunt Russian attack drones. They are built in Ukraine and will help protect its cities.",
+   "why_for_people": "better protection for Ukraine's cities",
+   "script": "In robotics. Germany is paying for tens of thousands of Ukrainian built drones that hunt Russian attack drones, to better protect Ukraine's cities.",
    "screen": "a small glowing four-rotor drone with a simple shield shape beneath it, text-free symbol"
   },
   {
@@ -33,34 +51,25 @@
    "who": "A I start-up Reflection, backed by Nvidia",
    "what": "reportedly plans a powerful A I anyone can run",
    "why_for_people": "firms get an American option instead of China's free models",
-   "script": "In new models. A I start-up Reflection reportedly plans a strong A I anyone can run. Firms would get an American option, not only Chinese ones.",
+   "script": "In new models. A I start-up Reflection reportedly plans a powerful A I anyone can run, giving firms an American option beside China's free ones.",
    "screen": "a small glowing open box with a simple brain shape rising out of it, text-free symbol"
   },
   {
-   "item": "C05-01",
-   "category_word": "ethics",
-   "who": "OpenAI chief Sam Altman, in a Politico interview",
-   "what": "said the world should accept some harm from A I for its benefits, while ruling out losing control of A I",
-   "why_for_people": "shapes how lawmakers and the public weigh A I safety rules; no rule has changed",
-   "script": "On A I rules. OpenAI chief Sam Altman says the world should accept some harm from A I for its benefits. He still rules out losing control of A I, and no law has changed.",
-   "screen": "a small glowing balance scale with a simple speech bubble above it, text-free symbol"
-  },
-  {
-   "item": "C14-01",
-   "category_word": "jobs",
-   "who": "people paid to train A I at the firm Mercor; economist Daron Acemoglu",
-   "what": "trainers say creativity keeps their jobs safe; Acemoglu warns unemployment could triple in a decade in a worst case",
-   "why_for_people": "workers may lose jobs; the economist's worst case is unemployment tripling",
-   "script": "On jobs. People paid to train A I say human creativity will keep them employed. A Nobel economist warns unemployment could triple in a decade at worst.",
-   "screen": "a small glowing briefcase beside a glowing balance scale, simple text-free symbol"
+   "item": "C04-05",
+   "category_word": "science",
+   "who": "researchers at South Korea's Gachon University",
+   "what": "found A I tools that predict drug toxicity look more accurate than they are, because of look-alike molecules in the tests",
+   "why_for_people": "drug makers may be trusting inflated safety scores",
+   "script": "In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.",
+   "screen": "a small glowing test tube beside a simple question mark, text-free symbol"
   }
  ],
  "fun": {
   "item": "C16-02",
   "who": "a Florida family pizza shop",
   "what": "promised never to use A I; tens of thousands watched online",
-  "why_for_people": "refusing A I can be a selling point",
-  "script": "In lighter news. A Florida pizza shop promised never to use A I, and tens of thousands watched. It seems refusing A I can be a selling point.",
+  "why_for_people": "a sign that refusing A I can sell",
+  "script": "In lighter news. A Florida pizza shop drew tens of thousands online by promising never to use A I, a sign that refusing A I can sell.",
   "screen": "a small glowing pizza slice with a simple heart floating above it, text-free symbol"
  },
  "teaser": {
@@ -71,14 +80,14 @@
   "who": "I B M, the American computer company; and Kyiv, the capital of Ukraine, as told by one military analyst",
   "what": "I B M says its quantum computer did one test in seconds that a supercomputer would need many years for; one analyst says twelve A I-controlled guns now guard Kyiv from Russian drones",
   "why_for_people": "A sign of how fast new computers may get, on one test only; and more protection for people in Kyiv, with no official confirmation",
-  "script": "Also in the full report. I B M says its quantum computer did in seconds what a supercomputer needs years for. And A I guns are said to guard Kyiv.",
+  "script": "Also in the full report. I B M says its quantum computer did in seconds what a supercomputer needs years for, and A I guns are said to guard Kyiv.",
   "screen": "a small glowing stack of papers with a bookmark ribbon on top, simple text-free symbol"
  },
  "bp": {
   "who": "A I company shares and the American bond market",
   "what": "Hope in A I is holding tech shares up while the cost of borrowing in the U S is at its highest in about twenty four years",
-  "why_for_people": "If U S borrowing costs stay this high the A I share rally could fade, which touches anyone with savings in those shares",
-  "script": "And for the bigger picture: hopes for A I keep tech shares up. Yet U S borrowing costs are the highest in twenty four years. Watch those costs; anyone with a pension feels them.",
+  "why_for_people": "if U S borrowing costs stay high, the A I share rally could fade",
+  "script": "And for the bigger picture: hopes for A I keep tech shares up while U S borrowing costs sit at a twenty four year high; if those costs stay high, the rally could fade.",
   "screen": "a small glowing stack of coins with a simple rising zigzag line above it, text-free and number-free symbol"
  }
 }

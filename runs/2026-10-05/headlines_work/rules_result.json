@@ -1,15 +1,15 @@
 [
- {"clip":"C13-07","pass":true,"broken":[],"fix":"","note":"unchanged; 35 syl 8.0 s; one flowing sentence; who, what, why supported; intro new."},
- {"clip":"C06-03","pass":true,"broken":[],"fix":"","note":"new line; 32 syl 7.5 s; one sentence; market story, deal first then the honest doubt (shares fell, in the entry); Schneider and P T C tagged; intro In business new; no digits; no hedge needed (confirmed deal)."},
+ {"clip":"C06-03","pass":true,"broken":[],"fix":"","note":"unchanged verdict; 32 syl 7.5 s; market story, deal first then the honest doubt (shares fell, in the entry); tags kept."},
+ {"clip":"C08-01","pass":true,"broken":[],"fix":"","note":"new; 38 syl 9.0 s; one flowing sentence; WHO tagged (Chip maker Qualcomm, Chinese giant Huawei); WHAT matches Nikkei (Qualcomm pays Huawei for its patents for the first time); WHY is the significance the entry supports (Huawei paid Qualcomm in 2001, now the roles reverse); nothing stronger than the entry; 'Also in business' is new wording (yesterday: On the markets) and reads naturally after In business; no digits; C16 cap fine (Schneider, P T C, Qualcomm, Huawei each once). Minor, not a fail: the pending regulatory approval is not spoken, as in C06-03."},
  {"clip":"C12-05","pass":false,"broken":[
-   {"rule":"1A nothing stronger or different than the entry","why":"the line now says 'government policy makers'; the entry says the targets were A I policy experts at think tanks, universities and law firms, not government officials"},
-   {"rule":"B2 plain natural English","why":"'in hope to extract information' is not natural spoken English (natural: 'hoping to steal their information')"}
-  ],"fix":"","note":"LOCKED, Rafi's own wording, reported only, no change proposed. 40 syl 9.5 s; sound spelling, hedge (Suspected Chinese), intro and timing all pass."},
- {"clip":"C08-07","pass":true,"broken":[],"fix":"","note":"LOCKED, unchanged; 43 syl 10.0 s, at the 10 s ceiling, not over."},
+   {"rule":"1A nothing stronger or different than the entry","why":"'government policy makers' is not in the entry; the targets were A I policy experts at think tanks, universities and law firms"},
+   {"rule":"B2 plain natural English","why":"'in hope to extract information' is not natural spoken English"}
+  ],"fix":"","note":"LOCKED, Rafi's own wording, reported only. 40 syl 9.5 s; hedge, cue, intro and timing pass."},
+ {"clip":"C08-07","pass":true,"broken":[],"fix":"","note":"LOCKED, unchanged; 43 syl 10.0 s, at the ceiling, not over."},
  {"clip":"C11-04","pass":true,"broken":[],"fix":"","note":"unchanged; 38 syl 9.0 s."},
  {"clip":"C01-01","pass":true,"broken":[],"fix":"","note":"unchanged; 43 syl 10.0 s, at the ceiling, not over."},
- {"clip":"C04-05","pass":true,"broken":[],"fix":"","note":"unchanged; 41 syl 9.5 s."},
- {"clip":"fun","pass":true,"broken":[],"fix":"","note":"new line; 38 syl 9.0 s (fun aim 8, under the 10 s max); 'a sign that' now matches the entry's 'a small sign'; intro In lighter news new."},
+ {"clip":"C05-01","pass":true,"broken":[],"fix":"","note":"new; 39 syl 9.0 s; one flowing sentence; WHO clear (Open A I chief Sam Altman); WHAT keeps the quote's meaning ('some bad things happening' becomes 'some harm', attributed with 'says'); WHY is the policy split with Anthropic, which the entry names as the thing that shapes safety rules; Open A I spaced and the an-thropic cue used where spoken; 'In ethics' is new wording; no digits; Anthropic is now spoken in two story clips (C12-05, C05-01), exactly the C16 cap of 2. Minor, not a fail: Altman's qualifier that catastrophic risks are not acceptable is not carried, which 'some harm' partly covers."},
+ {"clip":"fun","pass":true,"broken":[],"fix":"","note":"unchanged; 38 syl 9.0 s."},
  {"clip":"teaser","pass":true,"broken":[],"fix":"","note":"unchanged; 40 syl 9.5 s."},
- {"clip":"bp","pass":true,"broken":[],"fix":"","note":"new line; 40 syl 9.5 s; market summation then the thing to watch (borrowing costs) and the supported consequence (rally could fade, C07-06 / watch item 3); numbers as words; no unsupported claim."}
+ {"clip":"bp","pass":true,"broken":[],"fix":"","note":"unchanged; 40 syl 9.5 s."}
 ]

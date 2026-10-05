@@ -40,20 +40,20 @@
   {
    "slot": 2,
    "kind": "story",
-   "category": "Politics",
-   "item": "C13-07",
-   "symbol": "a small glowing cloud with a simple padlock on it, text-free symbol",
-   "script": "From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.",
-   "source": "Bloomberg"
-  },
-  {
-   "slot": 3,
-   "kind": "story",
    "category": "Business",
    "item": "C06-03",
    "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
    "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
    "source": "AI News Desk"
+  },
+  {
+   "slot": 3,
+   "kind": "story",
+   "category": "Business",
+   "item": "C08-01",
+   "symbol": "two small glowing document icons joined by a simple arrow, text-free symbol",
+   "script": "Also in business. Chip maker Qualcomm has agreed to pay Chinese giant Huawei to use its patents for the first time, a sign of how far Chinese tech has come.",
+   "source": "Nikkei Asia"
   },
   {
    "slot": 4,
@@ -94,11 +94,11 @@
   {
    "slot": 8,
    "kind": "story",
-   "category": "Science",
-   "item": "C04-05",
-   "symbol": "a small glowing test tube beside a simple question mark, text-free symbol",
-   "script": "In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.",
-   "source": "Scienmag, as relayed by Bioengineer.org"
+   "category": "Ethics",
+   "item": "C05-01",
+   "symbol": "a small glowing balance scale with a simple circuit chip on one side, text-free symbol",
+   "script": "In ethics. Open A I chief Sam Altman says the world should accept some harm from A I for its benefits, splitting from rival an-thropic on A I rules.",
+   "source": "Politico, as relayed by Benzinga"
   },
   {
    "slot": 9,

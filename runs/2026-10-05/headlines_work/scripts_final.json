@@ -1,15 +1,6 @@
 {
  "stories": [
   {
-   "item": "C13-07",
-   "category_word": "politics",
-   "who": "British lawmakers, led by committee chair Chi Onwurah",
-   "what": "warned the government relies too much on American cloud companies, which could switch off services under U S law",
-   "why_for_people": "U S law could switch off British public services",
-   "script": "From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.",
-   "screen": "a small glowing cloud with a simple padlock on it, text-free symbol"
-  },
-  {
    "item": "C06-03",
    "category_word": "business",
    "who": "French giant Schneider Electric; P T C, maker of factory design software",
@@ -17,6 +8,15 @@
    "why_for_people": "Schneider's own shares fell on the news",
    "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
    "screen": "a small glowing factory building with a single gear floating beside it, simple text-free symbol"
+  },
+  {
+   "item": "C08-01",
+   "category_word": "business",
+   "who": "chip maker Qualcomm; Chinese tech giant Huawei",
+   "what": "Qualcomm has agreed to pay Huawei to use its 5G and A I patents for the first time (deal needs regulatory approval)",
+   "why_for_people": "a sign of how far Chinese tech has come",
+   "script": "Also in business. Chip maker Qualcomm has agreed to pay Chinese giant Huawei to use its patents for the first time, a sign of how far Chinese tech has come.",
+   "screen": "two small glowing document icons joined by a simple arrow, text-free symbol"
   },
   {
    "item": "C12-05",
@@ -55,13 +55,13 @@
    "screen": "a small glowing open box with a simple brain shape rising out of it, text-free symbol"
   },
   {
-   "item": "C04-05",
-   "category_word": "science",
-   "who": "researchers at South Korea's Gachon University",
-   "what": "found A I tools that predict drug toxicity look more accurate than they are, because of look-alike molecules in the tests",
-   "why_for_people": "drug makers may be trusting inflated safety scores",
-   "script": "In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.",
-   "screen": "a small glowing test tube beside a simple question mark, text-free symbol"
+   "item": "C05-01",
+   "category_word": "ethics",
+   "who": "Open A I chief Sam Altman",
+   "what": "says the world should accept some harm from A I in return for its benefits, while rejecting catastrophic risks",
+   "why_for_people": "he splits from rival an-thropic on A I rules",
+   "script": "In ethics. Open A I chief Sam Altman says the world should accept some harm from A I for its benefits, splitting from rival an-thropic on A I rules.",
+   "screen": "a small glowing balance scale with a simple circuit chip on one side, text-free symbol"
   }
  ],
  "fun": {
