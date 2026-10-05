@@ -42,7 +42,10 @@ def rules_gate(W):
         why.append('check_headlines_rules.py has not run on the current scripts_final.json')
     elif json.loads(rc.read_text()).get('fails'):
         why.append(f"check_headlines_rules.py reports {json.loads(rc.read_text())['fails']} rule fails")
-    if not rr.exists() or rr.stat().st_mtime < (H / 'scripts_fable.json').stat().st_mtime:
-        why.append('the rules agent (prompt_rules_headlines.txt) has not checked this edition')
+    if not rr.exists() or rr.stat().st_mtime < sf.stat().st_mtime:
+        why.append('the rules agent (prompt_rules_headlines.txt) has not checked the CURRENT lines (any edit after it needs a new check)')
+    wc = H / 'wording_check.json'
+    if not wc.exists() or wc.stat().st_mtime < sf.stat().st_mtime or json.loads(wc.read_text()).get('fails'):
+        why.append('check_wording.py has not passed on the current lines (level 5, who, what, why)')
     if why:
         raise SystemExit('STOP, step 3b is not done: ' + '; '.join(why))

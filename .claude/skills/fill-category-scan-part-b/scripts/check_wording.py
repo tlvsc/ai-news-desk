@@ -103,10 +103,20 @@ if a.headlines:
     for k, s, warn in items:
         syl = fill.syllables(s, CUES); box, sp = fill.box_seconds(syl, 4.4, 0, 0); total += box
         p = problems(s, 'clip') + reply_problem(k, s, REPLIES)
+        rec = next((x for x in d['stories'] if x['item'] == k), d.get(k) if k in ('fun',) else None)
+        if rec is not None:   # WHO, WHAT, WHY FIRST (Rafi, 5 Oct 2026)
+            miss = [f for f in ('who', 'what', 'why_for_people') if not str(rec.get(f, '')).strip()]
+            if miss: p.append('missing ' + ', '.join(miss) + ' (fill who, what, why first, then write the line)')
+            else:
+                ww = {x for x in re.findall(r"[a-z]{4,}", rec['why_for_people'].lower())} - {'that','this','with','they','their','will','would','could','more','from','have','about'}
+                if ww and len(ww & set(re.findall(r"[a-z]{4,}", s.lower()))) < max(1, len(ww) // 3):
+                    p.append('the why is not spoken in the line: ' + rec['why_for_people'][:60])
         if box > 12: p.append(f'{box} s is over the 12 s maximum')
         w = f' (long: aim 8 s)' if box > warn else ''
         bad += bool(p); print(f"{'FAIL' if p else 'PASS'} {k:7} {syl:3} syl {box:4} s{w} {'; '.join(p)}")
         si.append({'n': len(si) + 1, 'line': s})
     print(f'news part (7 stories, fun, teaser, Bigger Picture): {total} s; about 90 s is the target')
     (Path(a.headlines).parent / 'stranger_input.json').write_text(json.dumps(si, indent=1, ensure_ascii=False))
+if a.headlines:   # stamp for the gate in common_b.rules_gate
+    (Path(a.headlines).parent / 'wording_check.json').write_text(json.dumps({'fails': bad, 'file': str(a.headlines)}))
 print('RESULT', 'all pass' if not bad else f'{bad} to fix')

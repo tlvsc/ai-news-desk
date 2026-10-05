@@ -34,7 +34,8 @@ for sub, files in (('cards_work', (('wording_common.txt', 'wording_common.md'), 
                                    ('prompt_stranger_cards.txt', 'stranger_cards.md'))),
                    ('headlines_work', (('wording_common.txt', 'wording_common.md'), ('prompt_headlines.txt', 'wording_headlines.md'),
                                        ('prompt_stranger_headlines.txt', 'stranger_headlines.md'),
-                                       ('prompt_rules_headlines.txt', 'rules_check_headlines.md')))):
+                                       ('prompt_rules_headlines.txt', 'rules_check_headlines.md'),
+                                       ('prompt_rewrite_headlines.txt', 'rewrite_headlines.md')))):
     (W / sub).mkdir(exist_ok=True)
     for out, brief in files:
         (W / sub / out).write_text(fill(brief), encoding='utf-8')

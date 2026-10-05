@@ -128,6 +128,10 @@ not about which project it is.
     HEADLINES LEVEL 5 (Rafi, 5 Oct 2026): every spoken sentence at most 14 words; who did what first, plain words, no side clause at
     the start; the last sentence says why it matters to ordinary people (never "its biggest deal"). It binds the writers, the checks and
     every fix the main session makes; a fix is shorter and simpler, never longer. check_wording.py fails a line that breaks it.
+    WHO WHAT WHY FIRST (Rafi, 5 Oct 2026): the Headlines writer fills who, what and why_for_people for every clip before the line
+    and writes the line from them; the script fails a clip without them or whose why is not spoken. The main session never rewrites a
+    line by hand: failing lines go to a Fable rewrite agent (Part B step 3a); Rafi's own wording is locked. The gate refuses the JSON
+    and the review list unless the checks passed on the current lines.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
     Headlines take only what survives it, and a follow-up of the last deck's story is not a card.

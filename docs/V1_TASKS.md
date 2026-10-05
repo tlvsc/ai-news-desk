@@ -340,3 +340,11 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     Fix: check_wording.py fails a spoken sentence over 12 words (a spoken acronym counts as one), a sentence that opens with a
     side clause, more than one comma, and a company-only why; the writer, stranger and rules briefs carry the same shape and
     say a fix is shorter, never longer; CLAUDE.md rule 16 HEADLINES LEVEL 5. V1 needs the same gate on its Headlines writer.
+73. (5 Oct 2026, mistake record) THE SYSTEM LET COMPLICATED LINES THROUGH. Rafi: "don't fix the article, fix the problem". Causes: (a) the
+    writer brief asked for who, what, why in prose but nothing forced it, so the why was the first thing cut to fit the seconds;
+    (b) the main session rewrote lines by hand after the checks, and the gate only looked at the first draft (rules agent newer than
+    scripts_fable.json, not the current lines). Fix: the writer fills who, what and why_for_people as data before the line;
+    check_wording.py fails a clip without them or whose why is not spoken, and stamps wording_check.json; the gate (common_b.rules_gate)
+    refuses the JSON and the review list unless check_wording and the rules agent passed on the CURRENT lines; the main session never
+    rewrites a line (Part B step 3a, a Fable rewrite agent; Rafi's own wording is locked). V1 needs the same: structured who/what/why
+    per item, and no output built from lines that changed after their checks.

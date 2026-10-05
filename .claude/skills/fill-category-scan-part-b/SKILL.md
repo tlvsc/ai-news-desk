@@ -86,6 +86,13 @@ every fix (check facts and hedges against the entry; never add a fact), run chec
 REPLY STORIES (Rafi, 4 Oct 2026): the script fails a card or clip of a reply story (pool follow_up plus reply words in its entry) unless it says it
 is a reply AND names the earlier story ("Yesterday we carried a New York Times report: ...").
 
+### 3a. Fixing a failing line (Rafi, 5 Oct 2026)
+The main session never writes or rewrites a Headlines line itself (on 5 Oct its own fixes were the most complicated lines).
+Failing lines go into `$W/headlines_work/rewrite_request.json` {"locked": [items in Rafi's own wording], "fail": {item: [reasons]}},
+then one Fable agent: `Read $W/headlines_work/prompt_rewrite_headlines.txt and follow it exactly.` Rafi's own wording is taken as
+given ("locked"). Then step 3 and 3b again. build_pack.py and review_list.py refuse to run unless check_wording.py and the rules
+agent passed on the CURRENT lines, so no edit can skip the checks.
+
 ### 3b. Headlines rules recheck (Rafi, 4 Oct 2026; nothing goes to step 7 with a rules FAIL)
 ```
 python3 $S/check_headlines_rules.py --workdir $W
