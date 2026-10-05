@@ -19,8 +19,9 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 (step 0); if a brief here disagrees with them, flag it to Rafi in one line and follow CLAUDE.md (rule 0):
 - Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1; take the file of that name)
 - Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1)
-- Article_phrasing_instructions_AIND_V1 (Drive 14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA; call it only by this name). Its
-  product sections set the reader levels: Full Report and Bulletin 7 of 10, Cards 6, Headlines 5 (Rafi, 3 Oct 2026).
+- Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts, Drive 1wgZgciFEB9UfsUNgrdMEcIFj94Balop4 since 5 Oct 2026; call it
+  only by this name). It is the ONLY place for reader levels and the writing shape; no brief or script restates them. Every writer,
+  and the main session when it writes the Bigger Picture, re-reads Sections 1, 1A, 1B and the product section BEFORE EACH ITEM.
 - AI News Desk — STORAGE & FILE ROUTING STANDARD (00 — PROJECT OS) for where things would go on Drive.
 - CLAUDE.md in this repo (house rules; rules 14, 16 and 17 set counts, cutoffs and the Bigger Picture).
 
@@ -118,7 +119,7 @@ python3 $K/make_prompts.py --workdir $W --stage write
 One-off instructions for a category go in `$W/prompt_extra.json` {"write": {"12": "..."}} before this command.
 Launch 16 background agents (5 Oct 2026 trial: model "sonnet"; fillers too), description "Read and write cat NN", prompt
 `Read $W/prompts/write_NN.txt and follow it exactly.` Each writes `$W/facts/<id>.json` and
-`$W/report_entries/<id>.json` at reader level 7 (Article_phrasing_instructions_AIND_V1, Full Report section).
+`$W/report_entries/<id>.json` at the Full Report level of Article_phrasing_instructions_AIND_V1 (read before each entry).
 
 ### 7. First check (structure and data)
 REPLY STORIES (Rafi, 4 Oct 2026): "reply_without_earlier_story" lists entries that answer an earlier story

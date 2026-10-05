@@ -65,14 +65,14 @@ def problems(text, kind):
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
     if kind == 'clip' and re.search(r'\d', text): out.append('digits in a spoken line')
-    if kind == 'clip':   # LEVEL 4 (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
+    if kind == 'clip':   # HEADLINES SHAPE from the phrasing file (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym (A I, T S M C) is one word
-            if w > 14: out.append(f'level 4: {w} words, keep a spoken sentence to 14: "{s[:50]}"')
-            if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'level 4: starts with a side clause, start with who did what: "{s[:40]}"')
-            if s.count(',') > 1: out.append(f'level 4: more than one comma, split or cut: "{s[:40]}"')
+            if w > MAXW: out.append(f'headlines shape: {w} words, keep a spoken sentence to {MAXW}: "{s[:50]}"')
+            if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'headlines shape: starts with a side clause, start with who did what: "{s[:40]}"')
+            if s.count(',') > 1: out.append(f'headlines shape: more than one comma, split or cut: "{s[:40]}"')
         if re.search(r"\b(its|their|the company's|\w+'s) (biggest|largest) (deal|acquisition|purchase)", text, re.I):
-            out.append('level 4: "biggest deal" matters to the company, say why it matters to people')
+            out.append('headlines shape: "biggest deal" matters to the company, say why it matters to people')
     return out
 
 
@@ -81,6 +81,12 @@ ap.add_argument('--workdir', required=True); ap.add_argument('--cards'); ap.add_
 a = ap.parse_args()
 bad = 0
 REPLIES = reply_items(Path(a.workdir))
+# ONE TRUTH (Rafi, 5 Oct 2026): the sentence limit comes from the Headlines section of the phrasing file, never from this script
+_ph = (Path(a.workdir) / 'rules' / 'Article_phrasing_instructions_AIND_V1.txt').read_text(encoding='utf-8')
+_m = re.search(r'PRODUCT:headlines -->(.*?)<!--', _ph, re.S)
+_n = re.search(r'at most (\d+) words', _m.group(1)) if _m else None
+if not _n: raise SystemExit('STOP: the Headlines section of the phrasing file gives no sentence limit; fetch the current file (Part A step 0)')
+MAXW = int(_n.group(1))
 if a.cards:
     d = json.loads(Path(a.cards).read_text()); rows, si = [], []
     items = [(s['card'], s['head'], s['body'], 230) for s in d['stories']] + [(t['id'], t['head'], '', 0) for t in d['teaser']]

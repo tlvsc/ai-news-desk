@@ -4,7 +4,7 @@ the Full Report carries the full analysis, the Bulletin a deeper look than the c
 clip (Part B) the short hook. All three tell the same story: a summation of the big things happening, focused on
 what moves the market, then things to watch, each with the reason to watch it.
 
-Rules: WORKDIR/rules/Full_Report_V1_Rules_Structure.txt section 5.5 (fixed order, labels, forecasts,
+Rules: BEFORE EACH ITEM you write or fix, re-read Sections 1, 1A and 1B and your product section of WORKDIR/rules/Article_phrasing_instructions_AIND_V1.txt (its rule EVERY WRITER, EVERY ITEM). WORKDIR/rules/Full_Report_V1_Rules_Structure.txt section 5.5 (fixed order, labels, forecasts,
 endings A to D). Use today's report entries (WORKDIR/report_entries) plus earlier reports when available.
 
 1. Full Report: write WORKDIR/bigger_picture.json:

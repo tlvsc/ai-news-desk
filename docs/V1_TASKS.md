@@ -348,3 +348,8 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     refuses the JSON and the review list unless check_wording and the rules agent passed on the CURRENT lines; the main session never
     rewrites a line (Part B step 3a, a Fable rewrite agent; Rafi's own wording is locked). V1 needs the same: structured who/what/why
     per item, and no output built from lines that changed after their checks.
+74. (5 Oct 2026) ONE TRUTH FOR WRITING RULES. Rafi: "no two truths". The Drive file Article_phrasing_instructions_AIND_V1 now holds the
+    Headlines level 4 shape, a model line and the rule EVERY WRITER, EVERY ITEM (re-read Sections 1, 1A, 1B and the product section
+    before each item). New Drive id 1wgZgciFEB9UfsUNgrdMEcIFj94Balop4 (uploaded and verified byte for byte, 14,240 bytes, md5 0b087a96);
+    the old file is renamed _superseded and moved to prompts / V1.1a_superseeded. The repo no longer restates any reader level or
+    the shape: CLAUDE.md, both skills and all briefs point to the file, and check_wording.py reads its sentence limit from it.

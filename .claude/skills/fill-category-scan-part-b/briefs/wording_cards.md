@@ -1,4 +1,4 @@
-# Task: wording for the cards deck (Cards, reader level 6 of 10)
+# Task: wording for the cards deck (Cards, the reader level and the writing shape in its product section of WORKDIR/rules/Article_phrasing_instructions_AIND_V1.txt (the only place they are set))
 First read WORKDIR/cards_work/wording_common.txt and WORKDIR/cards_work/selection.json (cards_in_deck_order, teaser_items, bp_refs). WORKDIR = {WORKDIR}. Style example from an earlier deck: {PREV_CARDS} (aim simpler and shorter than any dense body there).
 Write WORKDIR/cards_work/cards_copy_fable.json:
 {"stories":[{"card":"s1","item":"...","head":"...","body":"..."}, ... one per card in cards_in_deck_order including "fun"],
