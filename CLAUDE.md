@@ -130,7 +130,7 @@ not about which project it is.
     fix or help the script only afterwards.
     HEADLINES GENERATION (Rafi, 2 Oct 2026, to be tested on the 2 Oct clips; if it works it moves to
     the Drive prompt blueprint): 8 sampler steps, not 6 (8 fixed the stuttering voice); the voice
-    reference is the 4 second sample AIND_anchor_voice_sample_4s.wav, not the 8 second one; the
+    reference is the 4 second sample AIND_anchor_voice_sample_4s.mp3, not the 8 second one; the
     prompt never rushes the presenter: "at a natural, unhurried pace, in an authoritative and
     informative news presenter tone, clear and easy to understand, never rushed". The fill
     writes these into the JSON (visible and named values) and says so in its CONFIG line.
