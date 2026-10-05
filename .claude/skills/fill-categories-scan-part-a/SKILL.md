@@ -19,7 +19,7 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 (step 0); if a brief here disagrees with them, flag it to Rafi in one line and follow CLAUDE.md (rule 0):
 - Full_Report_V1_Rules_Structure.txt (Blueprint_Library / Full Report blueprint V1; take the file of that name)
 - Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1)
-- Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts, Drive 1BYxqOqKDY6xBc1vNKIOiZyjbhIhrp-XJ since 5 Oct 2026; call it
+- Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts, Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026; call it
   only by this name). It is the ONLY place for reader levels and the writing shape; no brief or script restates them. Every writer,
   and the main session when it writes the Bigger Picture, re-reads Sections 1, 1A, 1B and the product section BEFORE EACH ITEM.
 - AI News Desk — STORAGE & FILE ROUTING STANDARD (00 — PROJECT OS) for where things would go on Drive.

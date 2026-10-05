@@ -350,7 +350,7 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     per item, and no output built from lines that changed after their checks.
 74. (5 Oct 2026) ONE TRUTH FOR WRITING RULES. Rafi: "no two truths". The Drive file Article_phrasing_instructions_AIND_V1 now holds the
     Headlines level 4 shape (general, no story used as a model) and the rule EVERY WRITER, EVERY ITEM (re-read Sections 1, 1A, 1B and the product section
-    before each item). New Drive id 1BYxqOqKDY6xBc1vNKIOiZyjbhIhrp-XJ (third upload of the day, 14,436 bytes, md5 696f2cdc; level 5 restored after a 4 trial read childish);
+    before each item). New Drive id 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af (third upload of the day, 14,436 bytes, md5 696f2cdc; level 5 restored after a 4 trial read childish);
     the old file is renamed _superseded and moved to prompts / V1.1a_superseeded. The repo no longer restates any reader level or
     the shape: CLAUDE.md, both skills and all briefs point to the file, and check_wording.py reads its sentence limit from it.
 75. (5 Oct 2026, mistake record) "SIMPLE" TURNED INTO CHILDISH. Rafi set level 4 to get plain English; I wrote "one idea per

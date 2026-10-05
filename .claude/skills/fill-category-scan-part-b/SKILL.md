@@ -18,7 +18,7 @@ CLAUDE.md (rule 0):
 - Headlines_Master_Rules_Structure.txt (Blueprint_Library / Headlines blueprint; take the file of that name)
 - Headlines_prompt_for_comfy_json.txt (Headlines Master Permanent Assets)
 - AIMD_LV1_Adverts_Automation_Skill_V1.md (Prompt Library / prompts, Drive 124MVq-0ZTmlouD693MBb1j5diBTAn9pp)
-- Article_phrasing_instructions_AIND_V1 (already in W/rules from part A): the ONLY place for reader levels and the writing shape (Drive 1BYxqOqKDY6xBc1vNKIOiZyjbhIhrp-XJ since 5 Oct 2026); every writer re-reads it before each item.
+- Article_phrasing_instructions_AIND_V1 (already in W/rules from part A): the ONLY place for reader levels and the writing shape (Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026); every writer re-reads it before each item.
 - CLAUDE.md rules 16 and 17 (counts, seconds rounded up, 12 s maximum, company caps, the Bigger Picture corner).
 
 ## Paths
