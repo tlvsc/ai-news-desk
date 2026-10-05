@@ -1,0 +1,18 @@
+[
+ {"clip": "C06-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C12-05", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C08-07", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-04", "pass": false,
+  "broken": [{"rule": "1A", "why": "The entry's headline and summary say the drones are built in Ukraine (Germany pays, Quantum Systems supplies, production in Ukraine). The clip's 'Munich start-up Quantum Systems designs them' drops that central fact and lets a listener assume a German factory builds them. 'Designs' is also a word the entry never uses."}],
+  "fix": "In robotics. Germany is buying Ukraine tens of thousands of small drones that hunt Russian attack drones. Munich start-up Quantum Systems builds them in Ukraine."},
+ {"clip": "C01-02", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C10-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "fun", "pass": false,
+  "broken": [{"rule": "B2", "why": "Plain words, first hearing: 'The posts reached tens of thousands of people' refers to posts nothing introduced; the first sentence only says the shop 'promised'. A first-time listener asks 'what posts?' (the pattern the 3 Oct stranger check failed on). The entry says the promise was made in social media posts."}],
+  "fix": "And something lighter. A family pizza shop in Florida posted a promise never to use A I. The posts reached tens of thousands of people."},
+ {"clip": "teaser", "pass": false,
+  "broken": [{"rule": "G1.2", "why": "Reflection is a start-up worth far under one hundred billion dollars and carries only the one-word tag 'Start-up'; the rule asks for a two to three word tag so a first-time viewer knows what it is (1B WHO). Panasonic's 'Japanese group' tag meets the rule."}],
+  "fix": "Also in the full report. Japanese group Panasonic plans humanoid robots. A I start-up Reflection may soon release a model others can run."},
+ {"clip": "bp", "pass": true, "broken": [], "fix": ""}
+]

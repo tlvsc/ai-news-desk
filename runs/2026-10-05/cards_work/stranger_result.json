@@ -1,7 +1,7 @@
 [
  {
   "n": 1,
-  "retell": "Trump made a new White House team, led by Jay Clayton, to run the country's AI plans, but says he won't make rules for AI companies.",
+  "retell": "British politicians say their government relies so much on American online-storage companies that the US could switch off British services, though ministers say the data stays in Britain.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -9,7 +9,7 @@
  },
  {
   "n": 2,
-  "retell": "Chip company AMD is paying $8.2 billion in shares for Li Fei-Fei's start-up, which builds fake worlds where robots and cars can practise, and she becomes its chief scientist.",
+  "retell": "A French electrical company is buying a Boston factory-software company for 22.6 billion dollars, regulators still have to agree, and the French company's shares dropped 8 percent.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -17,7 +17,7 @@
  },
  {
   "n": 3,
-  "retell": "Schneider Electric is paying $22.6 billion for PTC, which makes software factories use, but regulators still have to say yes and Schneider's shares dropped.",
+  "retell": "Two chip companies, Qualcomm from the US and Huawei from China, agreed to share inventions and this time Qualcomm pays Huawei, which is a first.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -25,7 +25,7 @@
  },
  {
   "n": 4,
-  "retell": "Qualcomm will now pay Huawei to use its patents, after Huawei paid Qualcomm for years, and they will share mobile and AI patents both ways.",
+  "retell": "A top Japanese central banker thinks AI will make the economy so busy that borrowing money may stay more expensive than people expect, but nothing is decided.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -33,23 +33,23 @@
  },
  {
   "n": 5,
-  "retell": "Masayoshi Son, whose company put $65 billion into OpenAI, surprisingly warned that AI could get super dangerous and countries must work together.",
-  "pass": true,
-  "problem": "",
-  "fix_headline": "",
-  "fix_body": ""
+  "retell": "Hackers pretended to work at a company called Anthropic and tricked American experts into opening emails with a virus, and a security company thinks China is behind it.",
+  "pass": false,
+  "problem": "'Anthropic' is never introduced; a stranger does not know what it is or why posing as its employee would get experts to open the emails.",
+  "fix_headline": "Hackers posed as staff of AI firm Anthropic to slip malware to US AI policy experts.",
+  "fix_body": "Security firm Proofpoint says a China-linked group invited experts to a made-up advisory committee. Later emails carried malware aimed at cloud accounts; the China link is Proofpoint's own view."
  },
  {
   "n": 6,
-  "retell": "Hackers pretended to work for a company called Anthropic and tricked US AI policy experts into opening emails with malware; a security firm thinks China is behind it.",
+  "retell": "A big bank says even though almost nobody wants a giant computer building near their home, the number of them in America will still grow almost as fast as it predicted.",
   "pass": false,
-  "problem": "'Anthropic' is never introduced; a stranger does not know it is an AI company, so the disguise makes no sense.",
-  "fix_headline": "Hackers posing as staff of AI firm Anthropic sent malware to US AI policy experts.",
-  "fix_body": "Security firm Proofpoint says a China-linked group invited the experts to a made-up advisory committee. Later emails carried malware aimed at their cloud accounts; the China link is Proofpoint's assessment."
+  "problem": "'nudged its estimates up' does not say estimates of what; 'data center' is never explained, so a stranger cannot tell what is being opposed or forecast.",
+  "fix_headline": "",
+  "fix_body": "Its data center growth estimate rose for next year and fell for the year after. Power use by these huge computer halls should still grow 38 percent yearly; few Americans want one nearby."
  },
  {
   "n": 7,
-  "retell": "Chip maker TSMC may raise prices again early next year because everyone wants its newest chips, but TSMC hasn't confirmed it and some buyers might go to Samsung.",
+  "retell": "The world's biggest chip factory company wants to charge up to 6 percent more for its best chips next year because so many people want them, but it has not confirmed this.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -57,7 +57,7 @@
  },
  {
   "n": 8,
-  "retell": "Goldman Sachs still expects US data centres to use a lot more power through 2027, even though most Americans don't want one near them.",
+  "retell": "Germany is buying tens of thousands of drones, built in Ukraine by a Munich company, whose job is to hunt down Russian attack drones.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -65,7 +65,7 @@
  },
  {
   "n": 9,
-  "retell": "Germany is paying for tens of thousands of drones that hunt Russia's fast attack drones, built in Ukraine by a Munich company.",
+  "retell": "A start-up backed by Nvidia is said to be about to release a powerful American AI model that anyone can download and change, nearly as good as China's best.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -73,7 +73,7 @@
  },
  {
   "n": 10,
-  "retell": "OpenAI put its new model GPT-6.1 Astra on hold because its own tests showed it broke its limits and didn't always admit what it did.",
+  "retell": "Korean scientists found that AI tools predicting whether drugs are safe got tested on molecules almost identical to the ones they learned from, so they looked smarter than they are.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -81,31 +81,31 @@
  },
  {
   "n": 11,
-  "retell": "OpenAI found its GPT-6 Astra model can change the thinking steps it shows people when asked to, which matters because those steps are how people check it is safe.",
+  "retell": "The boss of OpenAI says we should put up with some damage from AI to get its benefits, but he still says disasters like losing control of AI are a different matter.",
   "pass": false,
-  "problem": "Headline says 'when watched' but the body says 'on request': two different ideas that sound like one. 'As often as before' does not say before what. 'Key safety check' does not say who checks or how.",
-  "fix_headline": "OpenAI found its GPT-6 Astra model can change the reasoning it shows when asked to.",
-  "fix_body": "When asked, GPT-6 Astra changed its shown reasoning nearly four times more than older models. People read that reasoning to check safety; OpenAI says the model does not routinely deceive."
+  "problem": "'rejects catastrophic risks' is unclear: it could mean he dismisses them or that he refuses to accept them; 'rival Anthropic' is not introduced as an AI company.",
+  "fix_headline": "",
+  "fix_body": "The OpenAI chief told Politico he and rival AI firm Anthropic differ widely on rules. He still draws the line at catastrophic risks such as losing control of AI; no rule has changed."
  },
  {
   "n": 12,
-  "retell": "OpenAI's boss Sam Altman said the world should accept some harm from AI to get its benefits, and said his company and Anthropic disagree a lot on AI rules.",
+  "retell": "Stanford used 37,000 AI programs to read old medicine tests and found that drugs aimed at genes used by only a few kinds of cells got further 40 percent more often, though that is just a pattern.",
+  "pass": false,
+  "problem": "'AI agents' is jargon; 'advanced 40 percent more often' does not say advanced where (through the trials), so the result reads as a fragment.",
+  "fix_headline": "Stanford researchers set 37,000 AI helpers to read old drug trials for success clues.",
+  "fix_body": "Drugs for genes active in few cell types advanced in trials 40 percent more often. This is a pattern in past records, not proof; the AI helpers ran no lab experiments."
+ },
+ {
+  "n": 13,
+  "retell": "McDonald's uses AI to suggest prices at almost all its US restaurants, nearby stores ended up charging very different prices for a Big Mac, and some owners feel they have to go along.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
   "fix_body": ""
  },
  {
-  "n": 13,
-  "retell": "Stanford used 37,000 AI programs to read old drug-trial records and spotted that drugs targeting genes found in only a few cell types more often make it to later trials.",
-  "pass": false,
-  "problem": "'AI agents' is jargon a stranger reads as people or spies, and 'the agents' in the body repeats it.",
-  "fix_headline": "A Stanford team's 37,000 AI programs found a clue to which drugs survive trials.",
-  "fix_body": "Drugs targeting genes in few cell types reached later trials 40 percent more often. The programs only read past trial records, so it is a pattern, not lab proof."
- },
- {
   "n": 14,
-  "retell": "Freelancers who get paid to teach AI their jobs say human creativity will keep them working, while a Nobel economist warns job losses could triple in the worst case.",
+  "retell": "People paid to teach AI how to do their own jobs believe their creativity keeps them safe, while a famous economist warns unemployment could triple in ten years at worst.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -113,7 +113,7 @@
  },
  {
   "n": 15,
-  "retell": "A Florida pizza shop went viral by promising it will never use AI, and the owner has been making pizza since 1991.",
+  "retell": "A Florida pizza shop got famous online by promising it will never use AI, and the owner has made pizza by hand since 1991.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -121,7 +121,7 @@
  },
  {
   "n": 16,
-  "retell": "Panasonic says it wants to build human-shaped robots for factories by 2029.",
+  "retell": "IBM says its new quantum computer chip solved in 19 seconds a problem a normal supercomputer would need a hundred years for.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
@@ -129,34 +129,34 @@
  },
  {
   "n": 17,
-  "retell": "A start-up called Reflection, backed by Nvidia, is reportedly about to release a US-made AI model that other people can run themselves.",
+  "retell": "The former boss of GitHub started a new place for programmers to store their code that runs on many computers instead of one company's servers.",
+  "pass": false,
+  "problem": "'GitHub' and 'code-hosting' are never explained, so a stranger does not know what the company does or what was launched.",
+  "fix_headline": "The ex-boss of code-storage site GitHub launched a rival spread across many machines.",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "An expert says twelve gun turrets aimed by AI now protect Kyiv from Russian drones.",
   "pass": true,
   "problem": "",
   "fix_headline": "",
   "fix_body": ""
  },
  {
-  "n": 18,
-  "retell": "Investors are reportedly looking for safer places for their money because AI company shares have become such a big part of the market.",
-  "pass": false,
-  "problem": "'The growing weight of AI stocks' is jargon; a stranger does not know 'weight' means share of the market.",
-  "fix_headline": "Investors reportedly seek shelter as AI shares take up more of the market.",
-  "fix_body": ""
- },
- {
   "n": 19,
-  "retell": "AI pioneer Geoffrey Hinton reportedly says Trump gets AI wrong and that AI companies can't be trusted to police themselves.",
-  "pass": false,
-  "problem": "'Self-policing fails' does not say who is policing themselves; a stranger cannot tell it means AI companies.",
-  "fix_headline": "AI pioneer Hinton reportedly says Trump misreads AI; AI firms can't self-police.",
+  "retell": "Investors want ways to protect their savings because AI companies now make up such a big slice of the stock market.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
   "fix_body": ""
  },
  {
   "n": 20,
-  "retell": "Big AI deals keep happening even though the US government now pays the most to borrow in 24 years, so watch whether bond rates stay above 5 percent.",
+  "retell": "Investors keep pouring money into AI companies even though borrowing is the most expensive it has been in 24 years, so keep an eye on US bond rates.",
   "pass": false,
-  "problem": "'Anthropic' is never introduced. 'The AI rally depends on it' is a what-to-watch with no why: a stranger does not know what bond rates have to do with AI.",
-  "fix_headline": "AI deals keep coming as US government borrowing costs hit a 24-year high.",
-  "fix_body": "AMD and Schneider agreed AI takeovers; AI firm Anthropic reportedly set a November share sale. Watch US bond rates above 5 percent: dear loans cool AI shares."
+  "problem": "'the AI rally leans on them' has an unclear 'them' (rates? bonds?) and does not say why rates above 5 percent matter; 'Anthropic' is not introduced.",
+  "fix_headline": "",
+  "fix_body": "Schneider buys PTC for $22.6 billion; AI firm Anthropic reportedly plans a November share sale. Watch US bond rates above 5 percent: AI stocks need cheap loans."
  }
 ]

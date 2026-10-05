@@ -3,39 +3,39 @@
  "cards_in_deck_order": [
   {
    "card": "s1",
-   "item": "C13-07",
+   "item": "C13-01",
    "category": "Politics and government",
-   "label": "Cloud reliance"
+   "label": "Task force"
   },
   {
    "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "World Labs"
+  },
+  {
+   "card": "s3",
    "item": "C06-03",
    "category": "Market, industry and finance",
    "label": "PTC deal"
   },
   {
-   "card": "s3",
+   "card": "s4",
    "item": "C08-01",
    "category": "Market, industry and finance",
    "label": "Patents"
   },
   {
-   "card": "s4",
-   "item": "C07-05",
-   "category": "Market, industry and finance",
-   "label": "Rates"
-  },
-  {
    "card": "s5",
-   "item": "C12-05",
+   "item": "C05-04",
    "category": "Security and cyber",
-   "label": "Fake Anthropic"
+   "label": "Son"
   },
   {
    "card": "s6",
-   "item": "C09-03",
-   "category": "Energy and infrastructure",
-   "label": "Data centers"
+   "item": "C12-05",
+   "category": "Security and cyber",
+   "label": "Fake Anthropic"
   },
   {
    "card": "s7",
@@ -45,39 +45,39 @@
   },
   {
    "card": "s8",
+   "item": "C09-03",
+   "category": "Energy and infrastructure",
+   "label": "Data centers"
+  },
+  {
+   "card": "s9",
    "item": "C11-04",
    "category": "Robotics",
    "label": "Drones"
   },
   {
-   "card": "s9",
-   "item": "C01-01",
-   "category": "Models and tools",
-   "label": "Reflection"
-  },
-  {
    "card": "s10",
-   "item": "C04-05",
-   "category": "Research and science",
-   "label": "Drug safety"
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "GPT-6.1 Astra"
   },
   {
    "card": "s11",
+   "item": "C04-04",
+   "category": "Research and science",
+   "label": "Reasoning"
+  },
+  {
+   "card": "s12",
    "item": "C05-01",
    "category": "Ethics and law",
    "label": "Altman"
   },
   {
-   "card": "s12",
+   "card": "s13",
    "item": "C10-01",
    "category": "Health",
    "label": "Biotech"
-  },
-  {
-   "card": "s13",
-   "item": "C14-09",
-   "category": "Society and education",
-   "label": "Menu prices"
   },
   {
    "card": "s14",
@@ -95,38 +95,39 @@
  "teaser_items": [
   {
    "id": "t1",
-   "item": "C15-02",
-   "category": "Quantum and advanced computing"
-  },
-  {
-   "id": "t2",
-   "item": "C03-01",
-   "category": "Developer tools"
-  },
-  {
-   "id": "t3",
-   "item": "C11-11",
+   "item": "C11-01",
    "category": "Robotics"
   },
   {
-   "id": "t4",
+   "id": "t2",
+   "item": "C01-01",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
    "item": "C07-02",
    "category": "Market, industry and finance"
+  },
+  {
+   "id": "t4",
+   "item": "C05-02",
+   "category": "Ethics and law"
   }
  ],
  "headlines_story_clips_in_order": [
-  "C06-03",
+  "C06-01",
   "C12-05",
   "C08-07",
   "C11-04",
-  "C01-01",
+  "C01-02",
   "C10-01",
-  "C14-09"
+  "C14-01"
  ],
  "headlines_fun": "C16-02",
  "bp_refs": [
-  "C06-03",
+  "C06-01",
   "C06-02",
+  "C06-03",
   "C07-06",
   "C07-03"
  ]

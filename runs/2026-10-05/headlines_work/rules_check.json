@@ -4,27 +4,42 @@
   {
    "rule": "A3",
    "status": "PASS",
-   "detail": "story clips in deck order: [1, 5, 6, 8, 9, 12, 13]"
+   "detail": "story clips in deck order: [1, 4, 6, 7, 8, 11, 12]"
   },
   {
    "rule": "A5",
    "status": "PASS",
-   "detail": "teaser items ['C01-01', 'C11-01'] from the teaser card ['C01-01', 'C05-02', 'C07-02', 'C11-01']"
+   "detail": "teaser items ['C11-11', 'C15-02'] from the teaser card ['C03-01', 'C07-02', 'C11-11', 'C15-02']"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "ending is the approved text"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "opening slot 1 bypass: the stored option 4 opening of 3 Oct is used"
+  },
+  {
+   "rule": "B3",
+   "status": "WARN",
+   "detail": "digits in the opening line: Welcome to A I News Desk. I am Raphael, and Every day, I bri"
   },
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C06-01 9.0 s (aim 9.0 s or less)"
+   "detail": "C06-03 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-01 opens with a spoken introduction: \"in business\""
+   "detail": "C06-03 opens with a spoken introduction: \"in business\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C06-01 has no digits"
+   "detail": "C06-03 has no digits"
   },
   {
    "rule": "B1",
@@ -44,12 +59,12 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C08-07 8.5 s (aim 9.0 s or less)"
+   "detail": "C08-07 9.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C08-07 opens with a spoken introduction: \"from taiwan\""
+   "detail": "C08-07 opens with a spoken introduction: \"in manufacturing\""
   },
   {
    "rule": "B3",
@@ -74,17 +89,17 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C01-02 8.5 s (aim 9.0 s or less)"
+   "detail": "C01-01 9.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C01-02 opens with a spoken introduction: \"in tech\""
+   "detail": "C01-01 opens with a spoken introduction: \"in new models\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C01-02 has no digits"
+   "detail": "C01-01 has no digits"
   },
   {
    "rule": "B1",
@@ -104,22 +119,22 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "C14-01 9.5 s (aim 9.0 s or less)"
+   "detail": "C14-09 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C14-01 opens with a spoken introduction: \"on jobs\""
+   "detail": "C14-09 opens with a spoken introduction: \"in daily life\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C14-01 has no digits"
+   "detail": "C14-09 has no digits"
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "fun 8.5 s (aim 8.5 s or less)"
+   "status": "WARN",
+   "detail": "fun 9.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -133,8 +148,8 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "teaser 9.0 s (aim 8.5 s or less)"
+   "status": "PASS",
+   "detail": "teaser 8.5 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -149,7 +164,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "bp 10.0 s (aim 10.5 s or less)"
+   "detail": "bp 10.5 s (aim 10.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -169,39 +184,35 @@
   {
    "rule": "C16",
    "status": "PASS",
-   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'T S M C': 1, 'OpenAI': 1}"
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'T S M C': 1}"
   },
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Astra', 'China', 'Chip', 'Demand', 'Drugs', 'Florida', 'From Taiwan', 'Germany', 'Hackers', 'Its', 'Japanese', 'Munich', 'Nobel', 'On', 'Panasonic', 'People', 'Quantum Systems', 'Reflection', 'Researchers', 'Russian', 'Stanford', 'Thirty', 'Ukraine', 'World Labs', 'Yet']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['America', 'China', 'Chip', 'Demand', 'Each', 'Florida', 'French', 'Germany', 'Hackers', 'Kyiv', 'McDonald', 'Munchy', 'Open', 'Pizza', 'Reflection', 'Researchers', 'Russian', 'Schneider Electric', 'Stanford', 'Ukraine', 'Yet']"
   }
  ],
  "names_to_tag": [
-  "Astra",
+  "America",
   "China",
   "Chip",
   "Demand",
-  "Drugs",
+  "Each",
   "Florida",
-  "From Taiwan",
+  "French",
   "Germany",
   "Hackers",
-  "Its",
-  "Japanese",
-  "Munich",
-  "Nobel",
-  "On",
-  "Panasonic",
-  "People",
-  "Quantum Systems",
+  "Kyiv",
+  "McDonald",
+  "Munchy",
+  "Open",
+  "Pizza",
   "Reflection",
   "Researchers",
   "Russian",
+  "Schneider Electric",
   "Stanford",
-  "Thirty",
   "Ukraine",
-  "World Labs",
   "Yet"
  ]
 }

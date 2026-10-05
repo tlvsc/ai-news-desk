@@ -41,27 +41,27 @@
    "slot": 2,
    "kind": "story",
    "category": "Business",
-   "item": "C06-01",
-   "symbol": "a small glowing computer chip beside a simple glowing wireframe cube, simple text-free symbol",
-   "script": "In business. Chip maker A M D is buying A I start-up World Labs. Its software builds virtual worlds that train robots. The price is about eight billion dollars.",
-   "source": "Silicon UK"
+   "item": "C06-03",
+   "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
+   "script": "In business. French equipment maker Schneider Electric is buying factory software firm P T C. Regulators still have to approve the deal.",
+   "source": "AI News Desk"
   },
   {
    "slot": 3,
    "kind": "story",
    "category": "Security",
    "item": "C12-05",
-   "symbol": "a small glowing envelope with a warning triangle on its front, simple text-free symbol",
-   "script": "In security. Hackers posing as A I firm an-thropic's staff sent policy experts infected files. Researchers link the group to China's government.",
+   "symbol": "a small glowing envelope with a fishing hook hanging above it, simple text-free symbol",
+   "script": "In security. Hackers posing as A I firm an-thropic's staff sent malware to A I policy experts. Researchers tie the hackers to China's government.",
    "source": "Futurism, citing Proofpoint and CNN"
   },
   {
    "slot": 4,
    "kind": "story",
-   "category": "Energy",
+   "category": "Chips",
    "item": "C08-07",
-   "symbol": "a small glowing round silicon wafer with a rising arrow above it, simple text-free symbol",
-   "script": "From Taiwan. Chip maker T S M C reportedly plans another price rise next year. Demand for its newest chips is said to outrun supply.",
+   "symbol": "a small glowing computer chip with a plain upward arrow beside it, simple text-free symbol",
+   "script": "In manufacturing. Chip giant T S M C is reported to plan another price rise next year. Demand for its newest chips is said to outrun supply.",
    "source": "DigiTimes"
   },
   {
@@ -69,53 +69,53 @@
    "kind": "story",
    "category": "Robotics",
    "item": "C11-04",
-   "symbol": "two small glowing four-rotor drones, one chasing the other, simple text-free symbol",
-   "script": "In robotics. Germany is buying Ukraine tens of thousands of small drones that hunt Russian attack drones. Munich start-up Quantum Systems builds them in Ukraine.",
+   "symbol": "a small glowing four-rotor drone with a simple shield shape beneath it, text-free symbol",
+   "script": "In robotics. Germany is paying for tens of thousands of drones, built in Ukraine. Each hunts down Russian attack drones; the exact number is not yet given.",
    "source": "Trending Topics"
   },
   {
    "slot": 6,
    "kind": "story",
-   "category": "Technology",
-   "item": "C01-02",
-   "symbol": "a small glowing shield beside a glowing pause symbol, simple text-free symbol",
-   "script": "In tech. OpenAI has shelved its next model, Astra, after safety tests. OpenAI says Astra did not always report what it had done.",
-   "source": "The Wall Street Journal"
+   "category": "Models",
+   "item": "C01-01",
+   "symbol": "a small glowing open box with a simple brain shape rising out of it, text-free symbol",
+   "script": "In new models. N-vidia-backed start-up Reflection is said to be readying an open A I model. Open means anyone can run it; nothing has shipped yet.",
+   "source": "Axios"
   },
   {
    "slot": 7,
    "kind": "story",
    "category": "Health",
    "item": "C10-01",
-   "symbol": "a small glowing pill capsule beside a magnifying glass, simple text-free symbol",
-   "script": "In health. Thirty seven thousand A I programs read past drug trials for a Stanford team. Drugs acting on fewer cell types did better, a link, not proof.",
+   "symbol": "a small glowing pill capsule under a simple magnifying glass, text-free symbol",
+   "script": "In health. A Stanford team had thirty seven thousand A I agents read old drug trials. The agents found a clue to safer drugs; no lab has tested it.",
    "source": "Earth.com"
   },
   {
    "slot": 8,
    "kind": "story",
    "category": "Society",
-   "item": "C14-01",
-   "symbol": "a small glowing briefcase beside a glowing balance scale, simple text-free symbol",
-   "script": "On jobs. A Nobel economist warns A I could, at worst, triple unemployment in a decade. People paid to train A I say creativity protects their jobs.",
-   "source": "CBS News"
+   "item": "C14-09",
+   "symbol": "a small glowing hamburger with a blank price tag hanging from it, simple text-free and number-free symbol",
+   "script": "In daily life. McDonald's reportedly uses A I to set menu prices in America. It calls the tool optional; some store owners say they feel pushed.",
+   "source": "Reuters, as relayed by Futurism"
   },
   {
    "slot": 9,
    "kind": "fun",
    "category": "Fun",
    "item": "C16-02",
-   "symbol": "a small glowing pizza slice with a heart shape above it, simple text-free symbol",
-   "script": "And something lighter. A family pizza shop in Florida promised online never to use A I. Its posts reached tens of thousands of people.",
+   "symbol": "a small glowing pizza slice with a simple heart floating above it, text-free symbol",
+   "script": "And something lighter. Munchy's Pizza, a Florida family shop, promised never to use A I. The promise drew tens of thousands of people online.",
    "source": "CBS News"
   },
   {
    "slot": 10,
    "kind": "teaser",
    "category": "Teaser",
-   "item": "C11-01; C01-01",
-   "symbol": "an open book with glowing pages, simple text-free symbol",
-   "script": "Also in the full report. Japanese group Panasonic plans humanoid robots. A I start-up Reflection may release a model others can run.",
+   "item": "C15-02; C11-11",
+   "symbol": "a small glowing stack of papers with a bookmark ribbon on top, simple text-free symbol",
+   "script": "Also in the full report. I B M says its quantum chip beat a supercomputer in one test. A I gun turrets are said to guard Kyiv from drones.",
    "source": "DAILY GLOBAL AI INTELLIGENCE REPORT"
   },
   {
@@ -123,8 +123,8 @@
    "kind": "story",
    "category": "The Bigger Picture",
    "item": "desk analysis",
-   "symbol": "a small glowing globe with a rising chart line across it, simple text-free symbol",
-   "script": "And for the bigger picture: A I deals keep money flowing into chips and software. Yet U S borrowing costs sit at a twenty four year high. Watch them; A I stocks rest on them.",
+   "symbol": "a small glowing stack of coins with a simple rising zigzag line above it, text-free and number-free symbol",
+   "script": "And for the bigger picture: hopes for A I prop up tech shares. Yet U S borrowing costs are the highest since two thousand two. Watch if they stay this high; the A I rally depends on that.",
    "source": "AI News Desk"
   },
   {
