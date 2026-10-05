@@ -18,8 +18,8 @@
   "source": "AI News Desk",
   "position": "slot 11, after teaser, before the ending"
  },
- "format": "13-slot template: C01 opening (Rafi's words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi's wording, 2 Oct 2026). Each clip aims at 8 seconds and may not pass 12 (Drive Headlines Master Section B item 1). Box times round up to the next half second.",
- "review_status": "Spoken lines written by Fable in plain English (sentences of at most 15 words, the deed first), checked by check_wording.py and a stranger check; pending Rafael's approval.",
+ "format": "13-slot template: C01 opening (Rafi's words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi's wording, 2 Oct 2026). Each clip aims at 8 seconds and may not pass 10 (Drive Headlines Master Section B item 1, 5 Oct 2026). Box times round up to the next half second.",
+ "review_status": "Spoken lines follow the Drive phrasing file Headlines section (who, what and why in one flowing sentence, syllables the measure), checked by check_wording.py, check_headlines_rules.py, a stranger check and a rules agent; approved by Rafael.",
  "source_check": "Story lines were written from the Full Report entries of 2026-10-05. Outlets are shown on screen, never spoken.",
  "generation_authorized": false,
  "slots": [
@@ -40,20 +40,20 @@
   {
    "slot": 2,
    "kind": "story",
-   "category": "Business",
-   "item": "C06-03",
-   "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
-   "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
-   "source": "AI News Desk"
+   "category": "Politics",
+   "item": "C13-07",
+   "symbol": "a small glowing cloud with a simple padlock on it, text-free symbol",
+   "script": "From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.",
+   "source": "Bloomberg"
   },
   {
    "slot": 3,
    "kind": "story",
    "category": "Business",
-   "item": "C08-01",
-   "symbol": "two small glowing document icons joined by a simple arrow, text-free symbol",
-   "script": "Also in business. Chip maker Qualcomm has agreed to pay Chinese giant Huawei to use its patents for the first time, a sign of how far Chinese tech has come.",
-   "source": "Nikkei Asia"
+   "item": "C06-03",
+   "symbol": "a small glowing factory building with a single gear floating beside it, simple text-free symbol",
+   "script": "In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.",
+   "source": "AI News Desk"
   },
   {
    "slot": 4,
@@ -94,11 +94,11 @@
   {
    "slot": 8,
    "kind": "story",
-   "category": "Ethics",
-   "item": "C05-01",
-   "symbol": "a small glowing balance scale with a simple circuit chip on one side, text-free symbol",
-   "script": "In ethics. Open A I chief Sam Altman says the world should accept some harm from A I for its benefits, splitting from rival an-thropic on A I rules.",
-   "source": "Politico, as relayed by Benzinga"
+   "category": "Science",
+   "item": "C04-05",
+   "symbol": "a small glowing test tube beside a simple question mark, text-free symbol",
+   "script": "In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.",
+   "source": "Scienmag, as relayed by Bioengineer.org"
   },
   {
    "slot": 9,
