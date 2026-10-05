@@ -12,7 +12,7 @@ G1.1 sound spelling (acronyms spaced, cues an-thropic, N-vidia and Kawa saki onl
 worth under one hundred billion dollars has a two to three word tag (if you are not sure of its size, it needs a tag),
 G1.3 one idea per sentence, G1.4 hedges kept and no outlet spoken, B2 plain words and the deed first, the robotics clip says
 what the robot or vehicle does, B3 numbers as words, 1B WHO is clear for a first time viewer, WHAT keeps the news angle,
-WHY IT MATTERS is said for ordinary people (not what matters only to the company) and supported by the entry, THE HEADLINES SHAPE of the phrasing file (short plain sentences of at most 14 words, who did what first, no side clause at the start, a fix is never longer than the line), 1A nothing stronger than the entry, CLAUDE.md rule 16 REPLY STORIES (a reply or a
+WHY IT MATTERS is said in the line so plainly that a stranger can repeat it (a fact about the deal, the company or the regulator is not a why; "many factories use that software" is not a why), and supported by the entry, THE HEADLINES SHAPE of the phrasing file (short plain sentences of at most 14 words, who did what first, no side clause at the start, a fix is never longer than the line), 1A nothing stronger than the entry, CLAUDE.md rule 16 REPLY STORIES (a reply or a
 follow up names the earlier story), and the timing aim (story about 8 to 9 s, fun and teaser about 8 s, Bigger Picture
 about 10 s; syllables / 4.4, never over 12 s).
 Write WORKDIR/headlines_work/rules_result.json:

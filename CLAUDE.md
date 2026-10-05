@@ -128,7 +128,7 @@ not about which project it is.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
     reads the sentence limit from that file and fails a line that breaks the shape. A fix is shorter and simpler, never longer.
-    WHO WHAT WHY FIRST (Rafi, 5 Oct 2026): the Headlines writer fills who, what and why_for_people for every clip before the line
+    WHO WHAT WHY FIRST (Rafi, 5 Oct 2026; the stranger check answers who, what and why from the line alone, and a line fails when it cannot): the Headlines writer fills who, what and why_for_people for every clip before the line
     and writes the line from them; the script fails a clip without them or whose why is not spoken. The main session never rewrites a
     line by hand: failing lines go to a Fable rewrite agent (Part B step 3a); Rafi's own wording is locked. The gate refuses the JSON
     and the review list unless the checks passed on the current lines.
