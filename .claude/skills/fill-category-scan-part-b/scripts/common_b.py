@@ -46,6 +46,6 @@ def rules_gate(W):
         why.append('the rules agent (prompt_rules_headlines.txt) has not checked the CURRENT lines (any edit after it needs a new check)')
     wc = H / 'wording_check.json'
     if not wc.exists() or wc.stat().st_mtime < sf.stat().st_mtime or json.loads(wc.read_text()).get('fails'):
-        why.append('check_wording.py has not passed on the current lines (level 5, who, what, why)')
+        why.append('check_wording.py has not passed on the current lines (level 4, who, what, why)')
     if why:
         raise SystemExit('STOP, step 3b is not done: ' + '; '.join(why))
