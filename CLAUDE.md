@@ -133,8 +133,10 @@ not about which project it is.
     and writes the line from them; the script fails a clip without them or whose why is not spoken. The main session never rewrites a
     line by hand: failing lines go to a Fable rewrite agent (Part B step 3a); Rafi's own wording is locked. The gate refuses the JSON
     and the review list unless the checks passed on the current lines.
-    HEADLINES ORDER (Drive Headlines Master A3; Rafi, 5 Oct 2026): the seven clips follow the deck: criticals first, then the first card of each
-    category in the Drive list order, Politics, Market, Security, Energy, Robotics, Models, Research. The skill's 3 Oct "one per field" list that skipped Politics was wrong.
+    HEADLINES ORDER (Drive Headlines Master Section A item 3; corrected 5 Oct 2026): the seven story clips are the STRONGEST card stories by
+    score, criticals first, kept in deck order (Politics, Market, Security, Energy, Robotics, Models, Research, Law, Health, Society), normally keeping
+    robotics and including law, research or society. Not one clip per category: that was Claude's invention of 5 Oct 2026, wrongly written here as
+    Rafi's ruling, and it opened the 5 Oct show with a score 5 story while a score 8 was left out. The Drive file is the only source of this rule.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
     Headlines take only what survives it, and a follow-up of the last deck's story is not a card.

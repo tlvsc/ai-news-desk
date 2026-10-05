@@ -89,18 +89,19 @@ for k in ORDER:
     picks = ranked[:max(0, free)]
     for x in picks:
         add(x, k)
-# HEADLINES (Drive Headlines Master Section A item 3 and the Cards Master category list; Rafi, 5 Oct 2026): seven story clips
-# taken from the deck IN DECK ORDER, criticals first, then ONE clip per category in the list order, Politics first:
-# Politics, Market, Security, Energy, Robotics, Models, Research (the first card of each). The 3 Oct list that skipped Politics
-# was wrong and is gone. No other selection logic.
+# HEADLINES (Drive Headlines Master Section A item 3; corrected 5 Oct 2026): seven story clips taken from the deck IN DECK
+# ORDER: criticals first, then the STRONGEST card stories by score (ties by deck position), normally keeping robotics. Not one
+# clip per category (a 5 Oct invention that opened the show with a score 5 story and left out a score 8).
 score_of = {x['id']: x['score'] for k in cand for x in cand[k]}
-crit = [c for c in draft['cards_in_deck_order'] if c['card'] != 'fun' and score_of.get(c['item'], 0) >= 10]
-picks = [c['item'] for c in crit]
-for k in ORDER:
-    if k == 'FUN' or len(picks) >= 7: continue
-    first = next((c for c in draft['cards_in_deck_order'] if c['category'] == NAME[k] and c['item'] not in picks), None)
-    if first: picks.append(first['item'])
 pos = {c['item']: i for i, c in enumerate(draft['cards_in_deck_order'])}
+story = [c for c in draft['cards_in_deck_order'] if c['card'] != 'fun']
+picks = [c['item'] for c in story if score_of.get(c['item'], 0) >= 10]
+for c in sorted(story, key=lambda c: (-score_of.get(c['item'], 0), pos[c['item']])):
+    if len(picks) >= 7: break
+    if c['item'] not in picks: picks.append(c['item'])
+rob = next((c['item'] for c in story if c['category'] == NAME['ROB']), None)
+if rob and rob not in picks:
+    picks[-1] = rob  # keep robotics (A3), replacing the weakest pick
 draft['headlines_story_clips_in_order'] = sorted(picks[:7], key=lambda i: pos[i])
 fun = next((c for c in draft['cards_in_deck_order'] if c['card'] == 'fun'), None)
 draft['headlines_fun'] = fun and fun['item']
