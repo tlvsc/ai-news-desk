@@ -112,25 +112,6 @@
   {
    "id": "s6",
    "kind": "story",
-   "cat": "Energy and infrastructure / Data centers",
-   "head": "Goldman Sachs says local opposition has barely dented its US data center forecast.",
-   "body": "Its data center growth estimate rose for next year and fell for the year after. Data center power use should still grow 38 percent yearly; few Americans want one nearby.",
-   "src": "Reuters",
-   "pill": "REPORTED",
-   "coverage": {
-    "robotics": false,
-    "outside_business": true
-   },
-   "report_refs": [
-    {
-     "item": 43,
-     "excerpt": "Goldman Sachs says public opposition has barely changed its forecast for how many US data centers will be built through 2027."
-    }
-   ]
-  },
-  {
-   "id": "s7",
-   "kind": "story",
    "cat": "Energy and infrastructure / Chip prices",
    "head": "TSMC reportedly plans another price rise on its most advanced chips early next year.",
    "body": "The biggest contract chip maker reportedly wants up to 6 percent more, after earlier rises. Orders for its newest chip technology reportedly outrun supply; TSMC has not confirmed the report.",
@@ -144,6 +125,25 @@
     {
      "item": 42,
      "excerpt": "TSMC is reported to be planning a further 3% to 6% price rise on advanced chip wafers for early 2027 because demand for its newest process is outrunning supply."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Data centers",
+   "head": "Goldman Sachs says local opposition has barely dented its US data center forecast.",
+   "body": "Its data center growth estimate rose for next year and fell for the year after. Data center power use should still grow 38 percent yearly; few Americans want one nearby.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 43,
+     "excerpt": "Goldman Sachs says public opposition has barely changed its forecast for how many US data centers will be built through 2027."
     }
    ]
   },
@@ -245,10 +245,10 @@
   {
    "id": "s13",
    "kind": "story",
-   "cat": "Society and education / Menu prices",
-   "head": "McDonald's prices its menu with AI, and some owners say they feel pushed to follow.",
-   "body": "The models suggest a price for every item at nearly 14,000 US restaurants. Big Mac prices differed by a fifth at nearby stores; McDonald's calls the tool optional.",
-   "src": "Reuters, as relayed by Futurism",
+   "cat": "Society and education / Women in AI",
+   "head": "Women get only a quarter of new AI jobs and earn far less in them.",
+   "body": "A LinkedIn report, via The Guardian, found women took a quarter of new AI hires. Men in AI earn a median $45,000 more, partly because women fill lower-paid roles.",
+   "src": "The Guardian",
    "pill": "REPORTED",
    "coverage": {
     "robotics": false,
@@ -256,8 +256,8 @@
    },
    "report_refs": [
     {
-     "item": 112,
-     "excerpt": "A Reuters investigation found that McDonald's uses AI models to set menu prices at its US restaurants, and some franchisees say they feel pressed to follow them."
+     "item": 108,
+     "excerpt": "The Guardian reports that women hold only a small share of new AI jobs while being more likely to work in roles that AI could disrupt."
     }
    ]
   },

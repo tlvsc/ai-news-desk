@@ -1,0 +1,14 @@
+[
+ {"clip": "C06-03", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C12-05", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C08-07", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-04", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C01-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C10-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-09", "pass": false,
+  "broken": [{"rule": "1A", "why": "An essential qualification has disappeared (phrasing file 1A item 3). The entry carries both sides: McDonald's calls the pricing portal 'a tool, not a mandate' and says the system is optional, while several franchisees told Reuters they felt pressured. The clip keeps only the franchise owners' side ('feel pushed to comply') and drops the company's reply, so a first-time viewer hears an unanswered accusation. The hedge 'reportedly' is kept and the rest of the line passes."}],
+  "fix": "In daily life. McDonald's reportedly uses A I to set menu prices in America. It calls the tool optional; some store owners say they feel pushed."},
+ {"clip": "fun", "pass": true, "broken": [], "fix": ""},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": ""},
+ {"clip": "bp", "pass": true, "broken": [], "fix": ""}
+]

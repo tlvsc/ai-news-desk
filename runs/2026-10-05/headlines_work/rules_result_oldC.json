@@ -1,0 +1,83 @@
+[
+ {
+  "clip": "C06-03",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHO / G1.2",
+    "why": "Schneider Electric is spoken with no tag. It is not a household name, so a first time viewer does not know what kind of company is buying, and the day's model line tags even T S M C. P T C has its tag; the deed, the hedge (regulators must still say yes) and the plain why stay."
+   }
+  ],
+  "fix": "In business. French giant Schneider Electric is buying factory software maker P T C. Many factories use that software. Regulators must still say yes."
+ },
+ {
+  "clip": "C12-05",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C08-07",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Rafi's locked wording, reported only: intro From Taiwan rotates (yesterday In chip making), T S M C spaced, tag The biggest chip maker, reportedly kept, no outlet spoken, no digits, why for people supported by the entry (higher wafer prices feed into A I and phone chips; 'services' is a small stretch). Second sentence is 14 words, at the cap. Timing 43 syllables = 10.0 s, over the 8 to 9 s aim, under the 12 s maximum."
+ },
+ {
+  "clip": "C11-04",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.3 / 1B WHO",
+    "why": "'Its cities get more protection' is ambiguous on first hearing: the sentence before names Germany first, so 'Its' can be heard as Germany's cities; the entry says Ukrainian city residents gain the protection."
+   }
+  ],
+  "fix": "In robotics. Germany will buy Ukraine tens of thousands of drones that hunt enemy drones. Ukraine's cities get more protection from Russian attacks."
+ },
+ {
+  "clip": "C01-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.2 / 1B WHO",
+    "why": "Reflection carries a one word tag, 'Start-up', which does not say what field it works in; G1.2 asks for a two to three word tag and the entry names it an A I start-up. The hedge 'may', the news angle and the why stay."
+   }
+  ],
+  "fix": "In new models. A I start-up Reflection may soon release an A I anyone can run. Firms would get an American choice instead of China's free models."
+ },
+ {
+  "clip": "C10-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C14-09",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "bp",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHO / 1A",
+    "why": "The borrowing costs have no country: the entry (C07-06) is about the US ten year yield at its highest since 2002, and the pack's who is the American bond market. Spoken without 'U S', a viewer hears a world or local claim the entry does not support. Fix adds two syllables, 46 = 10.5 s, about the 10 s aim."
+   }
+  ],
+  "fix": "And for the bigger picture: hope in A I keeps technology shares up. Yet U S borrowing costs are the highest in twenty four years. Watch those costs; the A I rally depends on them."
+ }
+]

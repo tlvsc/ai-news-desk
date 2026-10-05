@@ -1,0 +1,25 @@
+[
+ {"clip": "C06-03", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In business rotates (yesterday On the markets). Schneider Electric tagged French electrical firm, P T C tagged software maker and spaced. Market story, so the deed without the money is allowed; the twenty three billion dollar price is left out for time (adding it would pass 11 s). Hedge kept (regulators must still say yes), no outlet spoken, 39 syllables = 8.86 s, box 9.0."},
+ {"clip": "C12-05", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In security rotates (yesterday On safety). Cue an-thropic used because Anthropic is spoken; Anthropic is the impersonated name, worth over one hundred billion, no tag needed. China link kept as the researchers' judgement, Proofpoint stays on screen (G1.4). Why for people: the experts who shape A I rules are the targets, supported by the entry. 39 syllables = 8.86 s, box 9.0."},
+ {"clip": "C08-07", "pass": true, "broken": [], "fix": "",
+  "note": "Rafi's locked wording, reported only, no change proposed. Intro From Taiwan rotates (yesterday In chip making). T S M C spaced, tag The biggest chip maker, hedge reportedly kept, no outlet spoken, no digits, deed before money. Sentence two is 14 words, at the cap. Why for people (A I products, chips and services dearer) rests on the entry's importance line; services is a small stretch. 43 syllables = 9.77 s, box 10.0: over the 8 to 9 s aim, under the 12 s maximum."},
+ {"clip": "C11-04", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In robotics rotates (yesterday On the road). Robotics clip says what the machine does (drones that hunt enemy drones). The earlier ambiguity (Its cities) is gone: Ukraine's cities is explicit, and Russian names the enemy. Quantum Systems is not spoken, so no tag is due. Entry supports the protection claim; no exact number was claimed. 37 syllables = 8.41 s, box 8.5."},
+ {"clip": "C01-01", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In new models rotates. Reflection tagged A I start-up (G1.2). Nvidia is not spoken, so no N-vidia cue is due. Hedge may kept; nothing released yet is carried by may soon release. The entry's qualification that the model trails the best American systems is left out; the news angle (an American choice against Chinese open models) and the uncertainty survive, so it passes 1A. China's free models is the level 4 wording for open-weight. 39 syllables = 8.86 s, box 9.0."},
+ {"clip": "C10-01", "pass": true, "broken": [], "fix": "",
+  "note": "Intro In health rotates (yesterday In medicine). Stanford is a university, not a company, and is widely known; researchers does the identifying. Thousands of A I helpers matches 37,075 agents. The finding is generalised to a pattern that may help pick safer drugs (safer rests on 32 percent fewer side effects); the hedge No lab has tested it is kept. 37 syllables = 8.41 s, box 8.5."},
+ {"clip": "C14-09", "pass": false,
+  "broken": [
+   {"rule": "1A / 1B WHO", "why": "The entry is about McDonald's US restaurants (nearly 14,000 US stores, a Reuters investigation of US franchisees); the line says each store's prices with no country, so a viewer outside America hears a claim about their own McDonald's, wider than the entry supports. The fix adds U S (two syllables): 41 syllables = 9.32 s, box 9.5 instead of 9.0, about the same length; every fact and hedge (reportedly, owners may choose, some feel pushed, diners may pay more) stays."}
+  ],
+  "fix": "In daily life. McDonald's reportedly sets prices at each U S store with A I. The chain says owners may choose; some feel pushed. Diners may pay more than at the next store."},
+ {"clip": "fun", "pass": true, "broken": [], "fix": "",
+  "note": "Intro And something lighter rotates (yesterday On a lighter note). Shop named by place and trade (A Florida pizza shop), no company tag needed. Tens of thousands matches the entry; Saying no to A I can sell is the entry's small sign, kept as can. 35 syllables = 7.95 s, box 8.0."},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": "",
+  "note": "Lead-in Also in the full report kept (B2a). I B M spaced, worth over one hundred billion, no tag. The quantum claim is attributed (I B M says) and limited (in one test), matching the preliminary status; the Kyiv guns carry reportedly, matching the single analyst source. Neither story has a story card. 37 syllables = 8.41 s, box 8.5."},
+ {"clip": "bp", "pass": true, "broken": [], "fix": "",
+  "note": "Opener And for the bigger picture kept. Market summation plus a thing to watch (rule 17). U S named for the borrowing costs; twenty four years matches yields at their highest since 2002 (C07-06); the A I rally depends on them is the Full Report's own Bigger Picture watch item 3. Numbers as words. 46 syllables = 10.45 s, box 10.5, about the 10 s aim."}
+]

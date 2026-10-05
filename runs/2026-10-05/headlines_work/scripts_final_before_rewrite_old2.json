@@ -1,0 +1,93 @@
+{
+ "stories": [
+  {
+   "item": "C06-03",
+   "category_word": "business",
+   "who": "Schneider Electric, a big French maker of electrical equipment, and P T C, an American company whose software is used to design and build factory products",
+   "what": "Schneider has agreed to buy P T C for about twenty three billion dollars in cash; regulators still have to approve the deal",
+   "why_for_people": "Many factories use that software to make goods, so the deal matters to them; regulators must still say yes",
+   "script": "In business. Schneider Electric is buying P T C, a maker of factory software. Many factories use that software. Regulators must still say yes.",
+   "screen": "a small glowing factory building with a single gear floating beside it, simple text-free symbol"
+  },
+  {
+   "item": "C12-05",
+   "category_word": "security",
+   "who": "A hacking group that security researchers at Proofpoint link to the Chinese government",
+   "what": "Posed as an Anthropic employee in emails to A I policy experts, then sent them files with hidden malware to get into their cloud accounts",
+   "why_for_people": "The people who advise governments on A I rules are being spied on, and their online accounts are at risk; the China link is the researchers' judgement",
+   "script": "In security. Hackers posing as an-thropic staff tried to hack A I experts' accounts. Researchers link them to China. Those experts help shape A I rules.",
+   "screen": "a small glowing envelope with a fishing hook hanging above it, simple text-free symbol"
+  },
+  {
+   "item": "C08-07",
+   "category_word": "chips",
+   "who": "T S M C, the world's largest maker of chips for other companies, based in Taiwan",
+   "what": "Is reported to be planning another price rise of three to six percent on its most advanced chip wafers for early next year, because demand is bigger than supply; T S M C has not confirmed it",
+   "why_for_people": "A I products, chips and services would get more expensive for the people who buy them; the report is unconfirmed",
+   "script": "From Taiwan. The biggest chip maker T S M C is reportedly planning to raise its prices next year. That would make A I products, chips and services more expensive.",
+   "screen": "a small glowing computer chip with a plain upward arrow beside it, simple text-free symbol"
+  },
+  {
+   "item": "C11-04",
+   "category_word": "robotics",
+   "who": "Germany, whose leader Friedrich Merz announced it in Kyiv, and Quantum Systems, a German drone start-up that will build the drones in Ukraine",
+   "what": "Germany will pay for tens of thousands of small drones, built in Ukraine, that hunt and shoot down enemy drones; the exact number and dates are not given",
+   "why_for_people": "People in Ukrainian cities get more protection from Russian drone attacks this winter",
+   "script": "In robotics. Germany will buy Ukraine tens of thousands of drones that hunt enemy drones. Its cities get more protection from Russian attacks.",
+   "screen": "a small glowing four-rotor drone with a simple shield shape beneath it, text-free symbol"
+  },
+  {
+   "item": "C01-01",
+   "category_word": "models",
+   "who": "Reflection, an American A I start-up backed by the chip maker Nvidia",
+   "what": "Is reported to be about to release an A I model that anyone can download and run on their own computers; it is said to trail the best American systems but match the best Chinese free models",
+   "why_for_people": "Companies that want a cheap A I they run themselves could get an American choice instead of a Chinese one; nothing is released yet",
+   "script": "In new models. Start-up Reflection may soon release an A I that anyone can run. Firms would get an American choice instead of China's free models.",
+   "screen": "a small glowing open box with a simple brain shape rising out of it, text-free symbol"
+  },
+  {
+   "item": "C10-01",
+   "category_word": "health",
+   "who": "Researchers at Stanford University in California",
+   "what": "Set thousands of A I helpers to read records of old drug trials; the helpers found that drugs aimed at genes active in only a few body cells did better in trials",
+   "why_for_people": "It may help drug makers pick safer drugs before they test them on people, but it is a pattern in old records and no lab has tested it",
+   "script": "In health. Stanford researchers had thousands of A I helpers read old drug trials. They found a pattern that may help pick safer drugs. No lab has tested it.",
+   "screen": "a small glowing pill capsule under a simple magnifying glass, text-free symbol"
+  },
+  {
+   "item": "C14-09",
+   "category_word": "society",
+   "who": "McDonald's, the fast food chain, and the owners of its American restaurants",
+   "what": "Reporters found that McDonald's uses A I to suggest a price for each item at each restaurant; the chain says owners may choose, some owners say they feel pushed to follow",
+   "why_for_people": "Diners may pay more for the same burger than at a store nearby",
+   "script": "In daily life. McDonald's reportedly sets each store's prices with A I. The chain says owners may choose; some feel pushed. Diners may pay more than at the next store.",
+   "screen": "a small glowing hamburger with a blank price tag hanging from it, simple text-free and number-free symbol"
+  }
+ ],
+ "fun": {
+  "item": "C16-02",
+  "who": "Munchy's Pizza, a family pizza shop in Florida",
+  "what": "Promised online never to use A I, and tens of thousands of people saw the posts",
+  "why_for_people": "A small sign that saying no to A I can sell, for small shops and the people who buy from them",
+  "script": "And something lighter. A Florida pizza shop promised never to use A I. Tens of thousands watched online. Saying no to A I can sell.",
+  "screen": "a small glowing pizza slice with a simple heart floating above it, text-free symbol"
+ },
+ "teaser": {
+  "items": [
+   "C15-02",
+   "C11-11"
+  ],
+  "who": "I B M, the American computer company; and Kyiv, the capital of Ukraine, as told by one military analyst",
+  "what": "I B M says its quantum computer did one test in seconds that a supercomputer would need many years for; twelve A I-controlled guns are reportedly set up in Kyiv to shoot down drones",
+  "why_for_people": "A sign of how fast new computers may get, on one test only; and more protection for people in Kyiv, with no official confirmation",
+  "script": "Also in the full report. I B M says a quantum chip beat a supercomputer in one test. And A I guns reportedly guard Kyiv from drones.",
+  "screen": "a small glowing stack of papers with a bookmark ribbon on top, simple text-free symbol"
+ },
+ "bp": {
+  "who": "A I company shares and the American bond market",
+  "what": "Hope in A I is holding technology shares up while the cost of borrowing in America is at its highest in about twenty four years",
+  "why_for_people": "If borrowing costs stay this high, loans cost more and the A I share rally could fade, which touches anyone with savings in these shares",
+  "script": "And for the bigger picture: hope in A I keeps technology shares up. Yet borrowing costs are the highest in twenty four years. Watch those costs; the A I rally depends on them.",
+  "screen": "a small glowing stack of coins with a simple rising zigzag line above it, text-free and number-free symbol"
+ }
+}

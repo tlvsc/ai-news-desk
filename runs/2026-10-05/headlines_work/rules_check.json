@@ -4,7 +4,7 @@
   {
    "rule": "A3",
    "status": "PASS",
-   "detail": "story clips in deck order: [1, 4, 6, 7, 8, 11, 12]"
+   "detail": "story clips in deck order: [0, 1, 4, 5, 7, 8, 9]"
   },
   {
    "rule": "A5",
@@ -29,7 +29,22 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C06-03 8.5 s (aim 9.0 s or less)"
+   "detail": "C13-07 8.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-07 opens with a spoken introduction: \"from westminster\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-07 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C06-03 9.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -58,13 +73,13 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C08-07 9.0 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C08-07 10.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C08-07 opens with a spoken introduction: \"in manufacturing\""
+   "detail": "C08-07 opens with a spoken introduction: \"from taiwan\""
   },
   {
    "rule": "B3",
@@ -88,8 +103,8 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C01-01 9.0 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C01-01 10.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -103,43 +118,28 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C10-01 8.5 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C04-05 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C10-01 opens with a spoken introduction: \"in health\""
+   "detail": "C04-05 opens with a spoken introduction: \"in science\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C10-01 has no digits"
+   "detail": "C04-05 has no digits"
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C14-09 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C14-09 opens with a spoken introduction: \"in daily life\""
-  },
-  {
-   "rule": "B3",
-   "status": "PASS",
-   "detail": "C14-09 has no digits"
-  },
-  {
-   "rule": "B1",
-   "status": "WARN",
-   "detail": "fun 9.0 s (aim 8.5 s or less)"
-  },
-  {
-   "rule": "B2a",
-   "status": "PASS",
-   "detail": "fun opens with a spoken introduction: \"and something lighter\""
+   "detail": "fun opens with a spoken introduction: \"in lighter news\""
   },
   {
    "rule": "B3",
@@ -164,7 +164,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "bp 10.5 s (aim 10.5 s or less)"
+   "detail": "bp 10.0 s (aim 10.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -189,30 +189,26 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['America', 'China', 'Chip', 'Demand', 'Each', 'Florida', 'French', 'Germany', 'Hackers', 'Kyiv', 'McDonald', 'Munchy', 'Open', 'Pizza', 'Reflection', 'Researchers', 'Russian', 'Schneider Electric', 'Stanford', 'Ukraine', 'Yet']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['American', 'British', 'China', 'Florida', 'French', 'From Taiwan', 'From Westminster', 'Germany', 'Korean', 'Kyiv', 'Reflection', 'Russian', 'Schneider Electric', 'Suspected Chinese', 'That', 'Ukraine', 'Ukrainian']"
   }
  ],
  "names_to_tag": [
-  "America",
+  "American",
+  "British",
   "China",
-  "Chip",
-  "Demand",
-  "Each",
   "Florida",
   "French",
+  "From Taiwan",
+  "From Westminster",
   "Germany",
-  "Hackers",
+  "Korean",
   "Kyiv",
-  "McDonald",
-  "Munchy",
-  "Open",
-  "Pizza",
   "Reflection",
-  "Researchers",
   "Russian",
   "Schneider Electric",
-  "Stanford",
+  "Suspected Chinese",
+  "That",
   "Ukraine",
-  "Yet"
+  "Ukrainian"
  ]
 }
