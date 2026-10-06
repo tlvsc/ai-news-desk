@@ -1,0 +1,202 @@
+{
+ "fails": 0,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [0, 1, 2, 5, 8, 9, 10]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C05-03', 'C11-02'] from the teaser card ['C04-05', 'C05-03', 'C08-04', 'C11-02']"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C13-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-01 opens with a spoken introduction: \"an update\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C06-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C06-01 opens with a spoken introduction: \"in finance, an update\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C06-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C06-02 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C06-02 opens with a spoken introduction: \"in finance\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C06-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C12-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C12-01 opens with a spoken introduction: \"an update from seoul\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C12-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C11-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-01 opens with a spoken introduction: \"an update from kyiv\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C01-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C01-01 opens with a spoken introduction: \"in tech, an update\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C01-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C04-02 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C04-02 opens with a spoken introduction: \"in the lab\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C04-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"for a laugh\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "teaser 9.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report.\" (full stop, no colon)"
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "bp 10.0 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (2026-10-05)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'Google': 1}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['American', 'An', 'BlackRock', 'Chat', 'China', 'Chinese', 'Comedian Jon Stewart', 'DeepSeek', 'For', 'Google DeepMind', 'Gulf', 'Kyiv', 'Nato', 'Reflection', 'Russia', 'Saturday', 'Seoul', 'South Korea', 'Sunday', 'Ukraine']"
+  }
+ ],
+ "names_to_tag": [
+  "American",
+  "An",
+  "BlackRock",
+  "Chat",
+  "China",
+  "Chinese",
+  "Comedian Jon Stewart",
+  "DeepSeek",
+  "For",
+  "Google DeepMind",
+  "Gulf",
+  "Kyiv",
+  "Nato",
+  "Reflection",
+  "Russia",
+  "Saturday",
+  "Seoul",
+  "South Korea",
+  "Sunday",
+  "Ukraine"
+ ]
+}

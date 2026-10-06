@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-11",
+ "v1_category": "FUN",
+ "headline": "Figure, a US humanoid-robot maker, melted its retired Figure 02 robots in a Finnish steel furnace, a farewell that actor Arnold Schwarzenegger suggested.",
+ "score": 4,
+ "score_reason": "Pool score 4 kept as the late gap-fill instruction says: a widely shared robot stunt with no wider effect; Figure posted the film on 30 Sep 2026, before the window, so the usual stale rule would lower it by 1.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Mostly a spectacle for people who follow humanoid robots, it shows how a robot maker disposes of old machines full of its own technology, but the claims that the jumps were autonomous and the footage real come from Figure alone.",
+ "source": "Deseret News",
+ "status": "CONFIRMED",
+ "summary": "Deseret News reports, citing Figure's own film and blog post of 30 Sep 2026, that the US humanoid-robot maker melted down its retired Figure 02 robots at a foundry in Imatra, Finland, in a Terminator-style send-off with a cameo by Arnold Schwarzenegger, who played a robot from the future in those films. The melting was Schwarzenegger's suggestion: on 19 Aug 2026 he replied \"You should melt them\" to a post on X in which Figure's chief executive, Brett Adcock, asked for ideas for the send-off, and Figure says it chose melting to protect its custom hardware and trained the robots to make the jump on their own.",
+ "url": "https://www.deseret.com/business/2026/10/05/arnold-schwarzenegger-terminator-ai-humanoid-robots-molten-steel-bmw-automobile-manufacturing/",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Late gap-fill item. Read in full: Deseret News (fulltext folder), Figure's own blog post (figure.ai/news/f-02-decommission, 30 Sep 2026), The Times of India and KITV; cross-checked against Gizmodo, TechEBlog, Interesting Engineering, Tom's Hardware and Inshorts. NDTV Profit and Root-Nation.com returned 403 (not read). Credit chain ends at Figure's own film and blog post, so the entry reads 'Deseret News reports, citing Figure'. RE-DATED: Figure's post is dated 30 Sep 2026 and outlets covered it from 30 Sep to 4 Oct, so freshness is FOLLOW-UP of 30 Sep 2026 and qa_check.py will list it as stale_redated (older than 4 Oct); the usual rule would also lower the score by 1, kept at 4 only because the gap-fill instruction says to use the pool score. REPLY STORY: Schwarzenegger's reply of 19 Aug 2026 to Adcock's post on X is explained in the summary; we never carried that exchange in an earlier edition (not found in the 23 Sep to 5 Oct reports or the 2 to 5 Oct pools). machine_action is true: Figure says the robots jumped on their own (the film also shows a robot lowered on a chain per Times of India and TechEBlog). See the facts file for the small differences between outlets."
+}

@@ -1,0 +1,146 @@
+{
+ "edition": "2026-10-06",
+ "note": "v3 = the CARD FILTER (CLAUDE.md rule 16) applied by card_candidates.py on 6 Oct 2026, labels and notes by the main session. v1 and v2 kept as selection_v1_old.json and selection_v2_old.json. Fun card is a placeholder until the robot story is in the report.",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-01",
+   "category": "Politics and government",
+   "label": "Pentagon ban",
+   "note": "UPDATE STORY: name the earlier story (our 3 Oct edition carried the Pentagon labelling Anthropic a supply-chain risk, see the entry); new today: the Pentagon says it has fully stopped using Anthropic products."
+  },
+  {
+   "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "OpenAI raise",
+   "note": "UPDATE STORY: our 30 Sep edition reported OpenAI aiming to raise up to 30 billion dollars; new today: United Arab Emirates funds and BlackRock named, and 'at least' 30 billion."
+  },
+  {
+   "card": "s3",
+   "item": "C06-02",
+   "category": "Market, industry and finance",
+   "label": "DeepSeek raise"
+  },
+  {
+   "card": "s4",
+   "item": "C06-03",
+   "category": "Market, industry and finance",
+   "label": "Moonshot AI"
+  },
+  {
+   "card": "s5",
+   "item": "C12-02",
+   "category": "Security and cyber",
+   "label": "Wikipedia bots"
+  },
+  {
+   "card": "s6",
+   "item": "C12-01",
+   "category": "Security and cyber",
+   "label": "Bank hacks",
+   "note": "UPDATE STORY: we carried South Korea's bank data leaks on 4 Oct; new today: the president says signs of AI use in the hacks."
+  },
+  {
+   "card": "s7",
+   "item": "C08-01",
+   "category": "Energy and infrastructure",
+   "label": "AMD supply"
+  },
+  {
+   "card": "s8",
+   "item": "C09-01",
+   "category": "Energy and infrastructure",
+   "label": "Nuclear power"
+  },
+  {
+   "card": "s9",
+   "item": "C11-01",
+   "category": "Robotics",
+   "label": "Kyiv turrets",
+   "note": "UPDATE STORY: our 5 Oct edition carried an analyst saying twelve AI-aimed gun turrets guard Kyiv; new today: the Air Force confirms the first kills of jet-powered drones."
+  },
+  {
+   "card": "s10",
+   "item": "C01-01",
+   "category": "Models and tools",
+   "label": "Beam model",
+   "note": "UPDATE STORY: our 5 Oct edition carried the report that Reflection AI was preparing a US-made open model; new today: the model, called Beam, is unveiled (the company's own claims, not independently verified)."
+  },
+  {
+   "card": "s11",
+   "item": "C04-02",
+   "category": "Research and science",
+   "label": "New enzymes"
+  },
+  {
+   "card": "s12",
+   "item": "C05-01",
+   "category": "Ethics and law",
+   "label": "Council hearing"
+  },
+  {
+   "card": "s13",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "Acne scans"
+  },
+  {
+   "card": "s14",
+   "item": "C10-02",
+   "category": "Health",
+   "label": "UK health plan"
+  },
+  {
+   "card": "s15",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "Anti-AI groups"
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Daily Show",
+   "note": "PLACEHOLDER until the funny robot story is added to the report; keep the existing wording."
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C11-02",
+   "category": "Robotics"
+  },
+  {
+   "id": "t2",
+   "item": "C05-03",
+   "category": "Politics and government"
+  },
+  {
+   "id": "t3",
+   "item": "C04-05",
+   "category": "Research and science"
+  },
+  {
+   "id": "t4",
+   "item": "C08-04",
+   "category": "Energy and infrastructure"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C13-01",
+  "C06-01",
+  "C06-02",
+  "C12-01",
+  "C11-01",
+  "C01-01",
+  "C04-02"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C07-01",
+  "C06-01",
+  "C06-02",
+  "C07-03"
+ ]
+}

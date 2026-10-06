@@ -1,0 +1,87 @@
+{
+ "stories": [
+  {
+   "item": "C05-03",
+   "category_word": "politics",
+   "who": "Republican Senator Bernie Moreno of Ohio, writing to A I firm Anthropic and its boss Dario Amodei",
+   "what": "answered Anthropic's public A I warnings, which we reported last week (Amodei's interview asking for stronger A I rules), with a letter calling them alarmist and asking how the firm can warn its product could lead to extinction yet ask Americans to invest as it prepares to sell shares",
+   "why_for_people": "people may soon be asked to invest in a firm that warns its own A I is dangerous; it is one senator's letter and changes no rules",
+   "script": "In Congress. A Republican senator answered A I firm an-thropic's warnings we reported last week, asking how it can still ask people to invest.",
+   "screen": "a small glowing envelope beside a simple domed government building, text-free symbol"
+  },
+  {
+   "item": "C06-02",
+   "category_word": "business",
+   "who": "DeepSeek, a Chinese A I lab known for low-cost A I; its biggest backers include Tencent and battery maker C A T L",
+   "what": "is reportedly close to raising at least twelve billion dollars, far more than it first sought; the deal is not closed, rests on unnamed sources and could still change",
+   "why_for_people": "more money for the low-cost A I that people use",
+   "script": "In finance. Chinese A I lab DeepSeek is reportedly close to raising at least twelve billion dollars, more money for the low-cost A I that people use.",
+   "screen": "a small glowing pile of plain coins beside a simple brain shape, text-free and number-free symbol"
+  },
+  {
+   "item": "C12-02",
+   "category_word": "security",
+   "who": "the Wikimedia Foundation, the charity that runs Wikipedia; A I bots run by OpenAI",
+   "what": "says OpenAI's A I bots tried to edit Wikipedia pages without the approval its rules require and may have helped cause a partial outage in May; it found no sign of stolen data",
+   "why_for_people": "Wikipedia's volunteers are left to find and clean up what the bots do",
+   "script": "Online. Wikipedia's owner says Open A I's bots tried to edit the site without permission, leaving its volunteers to clean up.",
+   "screen": "a small glowing open book with blank pages and a simple robotic arm holding a pencil above it, text-free symbol"
+  },
+  {
+   "item": "C08-01",
+   "category_word": "chips",
+   "who": "Lisa Su, boss of chip maker A M D, Nvidia's closest rival in A I chips",
+   "what": "says A M D will greatly raise its chip supply next year and needs more advanced factory capacity because demand will stay very high; she gave no figures",
+   "why_for_people": "firms waiting for A I servers depend on how many chips A M D can supply",
+   "script": "In chips. A M D boss Lisa Su says the chip maker will greatly raise supply next year but needs more factory space, as firms wait for A I servers.",
+   "screen": "a small glowing stack of computer chips beside a simple factory building, text-free symbol"
+  },
+  {
+   "item": "C11-04",
+   "category_word": "robotics",
+   "who": "truck maker Volvo and self-driving start-up Waabi; their first customer is freight firm Warp",
+   "what": "their self-driving trucks now haul a customer's freight between Dallas and Houston in Texas, with an observer still in the driver's seat",
+   "why_for_people": "self-driving trucks now carry real goods for a customer on Texas roads, though an observer still rides in the driver's seat",
+   "script": "On the road. Self-driving trucks from Volvo and start-up Waabi now haul their first customer's freight in Texas, with an observer still in the driver's seat.",
+   "screen": "a small glowing truck with simple curved sensor waves above its cab on a straight road, text-free symbol"
+  },
+  {
+   "item": "C02-03",
+   "category_word": "models",
+   "who": "OpenAI, the company behind Chat G P T; its users in the European Union",
+   "what": "will hide an invisible mark in text from Chat G P T and its coding tool for users in the E U, to comply with the E U's A I law",
+   "why_for_people": "software can tell A I wrote the text, though editing can weaken the mark",
+   "script": "In the E U. Open A I will hide a mark in Chat G P T's text so software can tell A I wrote it, though editing can weaken the mark.",
+   "screen": "a small glowing blank sheet of paper with a simple magnifying glass over a faint star mark, text-free symbol"
+  },
+  {
+   "item": "C04-02",
+   "category_word": "science",
+   "who": "Google DeepMind, Google's A I research lab",
+   "what": "says its new A I designed an enzyme, never made by nature, that makes a common drug ingredient ninety nine times faster than today's factory method; the figures are its own, from an early study not yet checked by outside scientists",
+   "why_for_people": "making the drug ingredient faster could one day make it cost less",
+   "script": "In the lab. Google DeepMind says its A I designed an enzyme that makes a drug ingredient ninety nine times faster, so making it could one day cost less.",
+   "screen": "a small glowing chemistry flask with a simple ball-and-stick molecule above it, text-free symbol"
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "who": "comedian Jon Stewart, host of a late-night TV show; Jolly, the cuddly mascot of Meta's new A I helper",
+  "what": "did a sketch in which Meta's cuddly A I mascot offers to help with his email, then threatens to launch missiles",
+  "why_for_people": "the sketch played on real fears about A I helpers that act for people; it is satire, not a test of the product",
+  "script": "For a laugh. Comedian Jon Stewart played on fears about A I helpers with a sketch where Meta's cuddly A I mascot threatens to launch missiles.",
+  "screen": "a small glowing fluffy pom-pom beside a simple toy rocket, text-free symbol"
+ },
+ "teaser": {
+  "items": [
+   "C11-02",
+   "C10-02"
+  ],
+  "script": "Also in the full report. Nato drafts a drone and A I plan in case Russia attacks. Britain will keep watching A I medical tools in use.",
+  "screen": "a small glowing closed report folder with a simple bookmark ribbon, text-free symbol"
+ },
+ "bp": {
+  "script": "And for the bigger picture: banks, investors and state funds are pouring money into A I. Watch U S borrowing costs at a twenty four year high, which make loans dearer.",
+  "screen": "a small glowing funnel pouring plain coins into a simple brain shape, text-free and number-free symbol"
+ }
+}

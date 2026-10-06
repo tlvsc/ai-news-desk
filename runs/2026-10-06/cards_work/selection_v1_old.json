@@ -1,0 +1,135 @@
+{
+ "edition": "2026-10-06",
+ "note": "Main session judgement over selection_draft.json (script output kept as selection_draft_script_output.json). Changes and reasons are in the chat explanation of 6 Oct 2026.",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C05-03",
+   "category": "Politics and government",
+   "label": "Senate letter",
+   "note": "REPLY STORY: Senator Moreno answers Amodei's public warnings; name the earlier story (our 30 Sep edition carried Amodei's ABC News interview asking for stronger AI rules)."
+  },
+  {
+   "card": "s2",
+   "item": "C06-02",
+   "category": "Market, industry and finance",
+   "label": "DeepSeek raise"
+  },
+  {
+   "card": "s3",
+   "item": "C06-03",
+   "category": "Market, industry and finance",
+   "label": "Moonshot AI"
+  },
+  {
+   "card": "s4",
+   "item": "C06-04",
+   "category": "Market, industry and finance",
+   "label": "Claude cutbacks"
+  },
+  {
+   "card": "s5",
+   "item": "C12-02",
+   "category": "Security and cyber",
+   "label": "Wikipedia bots"
+  },
+  {
+   "card": "s6",
+   "item": "C12-04",
+   "category": "Security and cyber",
+   "label": "Agent trust"
+  },
+  {
+   "card": "s7",
+   "item": "C08-01",
+   "category": "Energy and infrastructure",
+   "label": "AMD supply"
+  },
+  {
+   "card": "s8",
+   "item": "C09-01",
+   "category": "Energy and infrastructure",
+   "label": "Nuclear power"
+  },
+  {
+   "card": "s9",
+   "item": "C11-04",
+   "category": "Robotics",
+   "label": "Robot trucks"
+  },
+  {
+   "card": "s10",
+   "item": "C02-03",
+   "category": "Models and tools",
+   "label": "Text watermark"
+  },
+  {
+   "card": "s11",
+   "item": "C04-02",
+   "category": "Research and science",
+   "label": "New enzymes"
+  },
+  {
+   "card": "s12",
+   "item": "C05-01",
+   "category": "Ethics and law",
+   "label": "Council hearing"
+  },
+  {
+   "card": "s13",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "Acne scans"
+  },
+  {
+   "card": "s14",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "Anti-AI groups"
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Daily Show"
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C11-02",
+   "category": "Robotics"
+  },
+  {
+   "id": "t2",
+   "item": "C10-02",
+   "category": "Health"
+  },
+  {
+   "id": "t3",
+   "item": "C04-05",
+   "category": "Research and science"
+  },
+  {
+   "id": "t4",
+   "item": "C08-04",
+   "category": "Energy and infrastructure"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C05-03",
+  "C06-02",
+  "C12-02",
+  "C08-01",
+  "C11-04",
+  "C02-03",
+  "C04-02"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C07-01",
+  "C06-01",
+  "C06-02",
+  "C07-03"
+ ]
+}

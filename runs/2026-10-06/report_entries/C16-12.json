@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-12",
+ "v1_category": "FUN",
+ "headline": "California's athletic commission told robot-fighting startup REK to stop holding unsanctioned human-versus-robot cage fights after YouTuber Frankie LaPenna fought three of its humanoid robots.",
+ "score": 4,
+ "score_reason": "Pool score 4 kept as the late gap-fill instruction says: a viral robot stunt with a small legal angle; the fight (18 Sep 2026) and the letter (30 Sep 2026) are before the window, so the usual stale rule would lower it by 1.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "The commission treats fights between people and robots like any other combat-sport contest, which affects fighters and organisers first, but it is unclear whether REK will stage another bout with a human or whether robot-only fights are covered, and reports differ on how the fight went.",
+ "source": "Tom's Hardware",
+ "status": "CONFIRMED",
+ "summary": "Tom's Hardware reports, quoting a cease-and-desist letter that REK chief executive Cix Liv posted on X on 30 Sep 2026 with the words \"We made it boys\", that California's state athletic commission, which oversees combat sports, ordered the robot-fighting startup to stop holding or promoting boxing or martial-arts contests involving a human without its approval, and warned that holding one without a licence is a misdemeanour. The letter refers to an 18 Sep 2026 bout in San Francisco in which YouTuber Frankie LaPenna fought three REK humanoid robots, which Fox News, citing REK's technology partner Reflex Arc, says were steered by human pilots.",
+ "url": "https://www.tomshardware.com/tech-industry/robotics/robotics-startup-has-real-human-vs-robot-cage-match-california-responds-with-cease-and-desist-order-regulator-threatens-misdemeanor-charges-after-youtuber-fights-three-robotic-humanoids",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Late gap-fill item. Read in full: Tom's Hardware (4 Oct 2026), TechSpot (fulltext folder), PCMag UK, Fox News (CyberGuy column) and GIGAZINE. Credit chain: PCMag UK and GIGAZINE name Tom's Hardware, which quotes the letter and Liv's X post, so the entry reads 'Tom's Hardware reports, quoting' the letter; the pool item TechSpot names no source. RE-DATED AND REPEAT: the fight was on 18 Sep 2026 and the letter and Liv's post are dated 30 Sep 2026, and our 3 Oct pool (C16-05) and 4 Oct pool (C11-10) already carried the story but it was not printed in the 3 to 5 Oct Full Reports; freshness is therefore FOLLOW-UP of 30 Sep 2026 and qa_check.py will list it as stale_redated (older than 4 Oct). The usual rule would also lower the score by 1, kept at 4 only because the gap-fill instruction says to use the pool score. Sources disagree on how the bout went (TechSpot: kicked and punched to the floor; PCMag UK: reportedly won every fight and lost one round; Fox: knocked down once, then per Liv ended the bout with the robot's head coming off), so the entry says only that accounts differ via the importance line. machine_action is true because humanoid robots are seen kicking and punching, but they were remotely piloted by humans with AI helping their balance (Fox citing Reflex Arc, PCMag UK, GIGAZINE), not acting on their own."
+}
