@@ -1,6 +1,6 @@
 {
  "edition": "2026-10-06",
- "note": "v3 = the CARD FILTER (CLAUDE.md rule 16) applied by card_candidates.py on 6 Oct 2026, labels and notes by the main session. v1 and v2 kept as selection_v1_old.json and selection_v2_old.json. Fun card is a placeholder until the robot story is in the report. v5 (6 Oct 2026, Rafi: change only the robot story and the funny story): robotics = C11-03 (LG and Nvidia AI car platform for Hyundai) instead of the Ukraine turrets (C11-01) as card s9 and Headlines clip 5; fun = C16-04 (Alexa Plus bug) instead of C16-01. Teaser unchanged. v6 (6 Oct 2026, Rafi: 'I did not ask you to touch the card'): CARDS restored to the v3 deck (s9 = C11-01 turrets, fun = C16-01); only the Headlines clips use C11-03 and C16-04.",
+ "note": "v3 = the CARD FILTER (CLAUDE.md rule 16) applied by card_candidates.py on 6 Oct 2026, labels and notes by the main session. v1 and v2 kept as selection_v1_old.json and selection_v2_old.json. Fun card is a placeholder until the robot story is in the report. v5 (6 Oct 2026, Rafi: change only the robot story and the funny story): robotics = C11-03 (LG and Nvidia AI car platform for Hyundai) instead of the Ukraine turrets (C11-01) as card s9 and Headlines clip 5; fun = C16-04 (Alexa Plus bug) instead of C16-01. Teaser unchanged.",
  "cards_in_deck_order": [
   {
    "card": "s1",
@@ -55,9 +55,9 @@
   },
   {
    "card": "s9",
-   "item": "C11-01",
+   "item": "C11-03",
    "category": "Robotics",
-   "label": "Kyiv turrets",
+   "label": "Hyundai car AI",
    "note": "UPDATE STORY: our 5 Oct edition carried an analyst saying twelve AI-aimed gun turrets guard Kyiv; new today: the Air Force confirms the first kills of jet-powered drones."
   },
   {
@@ -99,9 +99,9 @@
   },
   {
    "card": "fun",
-   "item": "C16-01",
+   "item": "C16-04",
    "category": "The Fun Side",
-   "label": "Daily Show",
+   "label": "Alexa bug",
    "note": "PLACEHOLDER until the funny robot story is added to the report; keep the existing wording."
   }
  ],

@@ -1,11 +1,14 @@
 {
  "locked": [],
  "fail": {
-  "C13-01": [
-   "FACT: 'dropped ... over its safety limits' says the safety limits were the reason. The entry (BBC) says Defense Secretary Hegseth labelled Anthropic a supply-chain risk in February AFTER it refused to drop its safety limits, and a Pentagon official now says the department has ceased using Anthropic products. Say it as 'after a dispute over its safety limits' (or an equally accurate plain wording that does not repeat the word dispute). Keep the update lead-in and the pointer to what we reported on Saturday, 3 October; keep every hedge; the new line is not longer than the old one."
+  "C12-01": [
+   "WHO (rules agent and stranger check): 'the president' is never identified; a first-time viewer can hear a bank's president. Say South Korea's president. HEADLINES SHAPE: the hackers carry two descriptions in a row ('we told you about on Sunday' and 'who leaked customers' personal data'); never stack descriptions on one name. Keep the opener topic first (it may stay 'Security worries in Seoul:' if it still reads well), keep the hedge ('signs', 'may'), keep the pointer to what we covered on Sunday 4 Oct, keep the why spoken. Their suggested fixes, to improve not copy: 'South Korea's president sees signs A I helped hackers leak bank customers' data in some attacks we covered on Sunday.'"
   ],
   "C01-01": [
-   "FACT: 'matches China's top free ones' is plural and says 'top'. The entry (TechCrunch) says Reflection claims Beam matches ONE Chinese open model, Z.ai's GLM-5.2, on advanced reasoning tests with far less computing power. Say it with a single model ('a leading Chinese free A I' or similar), keep the hedge that the claim is the company's own ('which it claims' or equal), keep the update lead-in and 'we reported yesterday'. why_for_people must not repeat 'China's top free ones'. The new line is not longer than the old one."
+   "WHY (stranger check): the line never says why this matters to ordinary people, only to companies; take the why from the entry's importance_line and facts only, add no fact. WORDING: 'a top free Chinese one' leaves 'one' far from the 'A I' it stands for; 'as we said yesterday it would' breaks into the middle of the sentence. Keep a topic-clear opener (it may stay 'A new American A I:'), keep the hedge that the claim is the company's own, keep the pointer to yesterday's report (5 Oct). Their suggested fix, to improve not copy: 'Start-up Reflection has unveiled Beam, a new American A I, as we said yesterday it would. It claims firms can use Beam in place of a top free Chinese A I.'"
+  ],
+  "C11-03": [
+   "G1.1 sound spelling (rules agent): write the acronym LG as 'L G' so the voice says the two letters. The opener 'In robotics.' is Rafi's own order and stays exactly as it is; change nothing else unless it is needed for this."
   ]
  }
 }

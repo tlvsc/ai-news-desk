@@ -1,25 +1,25 @@
 {
- "fails": 0,
+ "fails": 1,
  "checks": [
   {
    "rule": "A3",
-   "status": "PASS",
-   "detail": "story clips in deck order: [0, 1, 2, 5, 8, 9, 10]"
+   "status": "FAIL",
+   "detail": "story clips in deck order: [0, 1, 2, 5, -1, 9, 10]"
   },
   {
    "rule": "A5",
    "status": "PASS",
-   "detail": "teaser items ['C05-03', 'C11-02'] from the teaser card ['C04-05', 'C05-03', 'C08-04', 'C11-02']"
+   "detail": "teaser items ['C04-05', 'C11-02'] from the teaser card ['C04-05', 'C05-03', 'C08-04', 'C11-02']"
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C13-01 8.5 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C13-01 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C13-01 opens with a spoken introduction: \"an update\""
+   "detail": "C13-01 opens with a spoken introduction: \"the pentagon has dropped an-thropic\""
   },
   {
    "rule": "B3",
@@ -34,7 +34,7 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-01 opens with a spoken introduction: \"in finance, an update\""
+   "detail": "C06-01 opens with a spoken introduction: \"turning to money\""
   },
   {
    "rule": "B3",
@@ -44,12 +44,12 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C06-02 9.0 s (aim 9.0 s or less)"
+   "detail": "C06-02 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-02 opens with a spoken introduction: \"in finance\""
+   "detail": "C06-02 opens with a spoken introduction: \"from china, more funding\""
   },
   {
    "rule": "B3",
@@ -59,12 +59,12 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C12-01 9.0 s (aim 9.0 s or less)"
+   "detail": "C12-01 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C12-01 opens with a spoken introduction: \"an update from seoul\""
+   "detail": "C12-01 opens with a spoken introduction: \"security worries in seoul\""
   },
   {
    "rule": "B3",
@@ -74,27 +74,27 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "C11-01 9.5 s (aim 9.0 s or less)"
+   "detail": "C11-03 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C11-01 opens with a spoken introduction: \"an update from kyiv\""
+   "detail": "C11-03 opens with a spoken introduction: \"in robotics\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C11-01 has no digits"
+   "detail": "C11-03 has no digits"
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C01-01 8.5 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C01-01 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C01-01 opens with a spoken introduction: \"in tech, an update\""
+   "detail": "C01-01 opens with a spoken introduction: \"a new american a i\""
   },
   {
    "rule": "B3",
@@ -109,7 +109,7 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C04-02 opens with a spoken introduction: \"in the lab\""
+   "detail": "C04-02 opens with a spoken introduction: \"science now\""
   },
   {
    "rule": "B3",
@@ -118,13 +118,13 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "fun 8.5 s (aim 8.5 s or less)"
+   "status": "WARN",
+   "detail": "fun 9.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "fun opens with a spoken introduction: \"for a laugh\""
+   "detail": "fun opens with a spoken introduction: \"time for a smile\""
   },
   {
    "rule": "B3",
@@ -134,7 +134,7 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "teaser 9.5 s (aim 8.5 s or less)"
+   "detail": "teaser 10.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -163,38 +163,52 @@
   },
   {
    "rule": "G2",
-   "status": "PASS",
-   "detail": "no introduction repeats the previous day (2026-10-05)"
+   "status": "OVERRIDE",
+   "detail": "introductions used the previous day (2026-10-05): [('C11-03', 'in robotics')]",
+   "was": "FAIL",
+   "override": {
+    "by": "Rafi",
+    "date": "2026-10-06",
+    "quote": "You say in fucking robotics.",
+    "note": "G2 forbids repeating yesterday's introduction ('In robotics' was used on 5 Oct); Rafi ordered it for the robotics clip, his newest decision wins."
+   }
   },
   {
    "rule": "C16",
    "status": "PASS",
-   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'Google': 1}"
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'OpenAI': 1, 'Google': 1}"
   },
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An', 'BlackRock', 'Chat', 'Chinese', 'Comedian Jon Stewart', 'DeepSeek', 'For', 'Google DeepMind', 'Gulf', 'Kyiv', 'Nato', 'Reflection', 'Russia', 'Saturday', 'Seoul', 'South Korea', 'Sunday', 'Ukraine']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Alexa Plus', 'American', 'Beam', 'BlackRock', 'Chat', 'Chinese', 'DeepSeek', 'From China', 'Google DeepMind', 'Gulf', 'Hyundai', 'NATO', 'Reflection', 'Russia', 'Saturday', 'Science', 'Security', 'Seoul', 'South Korea', 'Sunday', 'Tech', 'Time', 'Turning', 'We']"
   }
  ],
  "names_to_tag": [
-  "An",
+  "Alexa Plus",
+  "American",
+  "Beam",
   "BlackRock",
   "Chat",
   "Chinese",
-  "Comedian Jon Stewart",
   "DeepSeek",
-  "For",
+  "From China",
   "Google DeepMind",
   "Gulf",
-  "Kyiv",
-  "Nato",
+  "Hyundai",
+  "NATO",
   "Reflection",
   "Russia",
   "Saturday",
+  "Science",
+  "Security",
   "Seoul",
   "South Korea",
   "Sunday",
-  "Ukraine"
- ]
+  "Tech",
+  "Time",
+  "Turning",
+  "We"
+ ],
+ "overrides": 1
 }
