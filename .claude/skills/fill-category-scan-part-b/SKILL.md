@@ -1,6 +1,6 @@
 ---
 name: fill-category-scan-part-b
-description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from Fable, runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
+description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from Opus agents (CLAUDE.md MODEL POLICY), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
 ---
 
 # Fill_category_scan_Part_B
