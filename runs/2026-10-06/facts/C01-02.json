@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-02",
+ "title": "GPT-6 Astra and GPT-6.1 Sol reported to now run 50% faster",
+ "source_used": "Crypto Briefing, 5 Oct 2026, read from fulltext/C01-02.txt (HTTP 200); the poster of the X post checked once in BigGo Finance (see notes)",
+ "article_url": "https://cryptobriefing.com/openai-gpt-6-astra-sol-50-percent-faster/",
+ "fetched": true,
+ "key_facts": [
+  "According to a post on X (the poster is not named), GPT-6 Astra and GPT-6.1 Sol are now 50% faster across products that use Sign in with ChatGPT.",
+  "The speed-up is not limited to OpenAI's own chat app; it covers products built on Sign in with ChatGPT, the login that lets users bring their ChatGPT account into third-party apps.",
+  "Astra is OpenAI's flagship and Sol the cheaper sibling; GPT-6 Astra arrived in September 2026, GPT-6 Sol on 22 September and GPT-6.1 Sol at DevDay on 29 September.",
+  "GPT-6.1 Sol was pitched as a direct rival to Astra for coding and professional workflows; the article gives $2 per million tokens for Sol against $10 for Astra, and a cached-input price of $0.10 per million tokens.",
+  "OpenAI also introduced an Ultrafast tier that can generate output at up to 300 tokens per second; the 50% gain is described as a separate announcement.",
+  "The article's practical takeaway: an app on Sign in with ChatGPT that uses Astra or Sol should return responses noticeably faster than before.",
+  "The article leans on unnamed 'research findings' for its price, performance and adoption remarks and speculates about opportunities for investors in AI stocks; neither is used."
+ ],
+ "quote_evidence": [
+  "According to a post on X, GPT-6 Astra and GPT-6.1 Sol are now 50% faster across products that use Sign in with ChatGPT.",
+  "The speed increase is not limited to OpenAI’s own chat app.",
+  "If an app runs on Sign in with ChatGPT and uses Astra or Sol, responses should arrive noticeably faster than they did before."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Apps built on Sign in with ChatGPT that use Astra or Sol should answer noticeably faster, which the article says makes the login easier for developers to sell.",
+ "event_date": "Not stated in the article (Crypto Briefing published 5 Oct 2026, 18:37 UTC); BigGo Finance dates the announcement 5 Oct 2026.",
+ "notes": "Crypto Briefing names no poster for the 'post on X'. One Google News search found BigGo Finance (finance.biggo.com, 6 Oct 2026 01:25 UTC), which credits the announcement to OpenAI Codex lead Thibault Sottiaux on 5 Oct 2026 as day one of a promised 28-day run of daily updates, and says it covers OpenAI's subscription products and partners such as OpenCode, Pi, Amp and Devin. That attribution rests on BigGo alone (an aggregator) and is credited to it in the summary. BigGo's figure of 30 to 50 tokens per second does not match 50% faster (it is about 67%), so it is not used. Our 30 Sep 2026 edition covered the DevDay extension of Sign in with ChatGPT (The New Stack). Weak article: filler about research findings and AI stocks left out (no market advice, rules section 5.4). No conflict with the rules files, except that rules section 6.2 says the source name is the publisher only while the brief says to write 'X reports, citing Y' when the chain is unclear; the brief was followed, as in the 5 Oct entries."
+}

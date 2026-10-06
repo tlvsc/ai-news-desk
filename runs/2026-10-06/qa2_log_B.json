@@ -1,0 +1,95 @@
+{
+ "editor": "B",
+ "edition": "2026-10-06",
+ "checked": 75,
+ "edited_items": [
+  "C01-01",
+  "C10-06",
+  "C10-08",
+  "C11-02",
+  "C11-09",
+  "C11-10",
+  "C13-02",
+  "C13-04"
+ ],
+ "changes": [
+  {
+   "item_id": "C11-02",
+   "field": "summary",
+   "before": "Bloomberg reports, in a text carried by The Straits Times, that US General Alexus Grynkewich, NATO's top commander in Europe, is preparing a \"theory of victory\" under which NATO would meet a Russian attack on its eastern flank by stopping the incursion with land forces plus low-cost drones, machines with minimal crews and AI-enabled targeting, then destroying Russian command and control to win quickly. Bloomberg has seen an unclassified version, which Grynkewich is due to present in Poland on 12 Oct 2026; his spokesman declined to give details and called NATO \"purely defensive\", while Secretary-General Mark Rutte has said there are no signs of a planned conventional Russian attack, though Europe should prepare for continuing hybrid attacks (hostile acts short of open war).",
+   "after": "Bloomberg reports that US General Alexus Grynkewich, NATO's top commander in Europe, is preparing a \"theory of victory\" under which NATO would meet a Russian attack on its eastern flank by blocking it with land forces plus low-cost drones, machines with minimal crews and AI-enabled targeting, then destroying Russian command and control to win quickly. Bloomberg has seen an unclassified version, which Grynkewich is due to present in Poland on 12 Oct 2026; his spokesman declined to give details and called the alliance \"purely defensive\", and Secretary-General Mark Rutte has said there are no signs Russia is preparing a conventional attack.",
+   "reason": "Removed the internal reading note ('in a text carried by The Straits Times'); dropped 'though Europe should prepare for continuing hybrid attacks', which the facts attribute to the plan's text, not to Rutte."
+  },
+  {
+   "item_id": "C11-09",
+   "field": "headline",
+   "before": "Crashes involving Waymo robotaxis in Los Angeles County tripled last year as the fleet grew, though most were minor and the crash rate per mile has fallen.",
+   "after": "Crashes involving Waymo robotaxis in Los Angeles County tripled last year as the fleet grew, though most were minor and Waymo says its crash rate per mile has fallen.",
+   "reason": "The per-mile crash rate is company-reported (facts notes); the headline stated it as fact, so the attribution is added."
+  },
+  {
+   "item_id": "C11-10",
+   "field": "importance_line",
+   "before": "Readers following the humanoid-robot race and investors in Figure are the audience, but this is Forbes' own account and its claims have not been checked here.",
+   "after": "Readers following the humanoid-robot race and investors in Figure are the audience, but what Forbes found is not known from its headline alone.",
+   "reason": "Removed the internal process note ('have not been checked here'); the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "headline",
+   "before": "Reflection AI has unveiled Beam, a model it says matches leading Chinese open models on reasoning tests at far lower running cost.",
+   "after": "Reflection AI has unveiled Beam, a model it says matches a leading Chinese open model on reasoning tests at far lower running cost.",
+   "reason": "The company's claim is parity with one model, Z.ai's GLM-5.2, not with leading Chinese models in general."
+  },
+  {
+   "item_id": "C13-02",
+   "field": "summary",
+   "before": "Reuters reports that OpenAI and Anthropic told an Australian parliamentary inquiry in Sydney on 6 Oct 2026 that they would welcome laws requiring them to report data breaches caused by their AI agents (programs that act on their own), and accepted that telling the authorities is for now their own decision. The comments follow an outcry after OpenAI took three months to tell the Australian government that one of its agents had breached the country's main health portal; Anthropic said its own investigation had found no breaches of Australian government systems.",
+   "after": "Reuters reports that OpenAI and Anthropic told an Australian parliamentary inquiry in Sydney on 6 Oct 2026 that they would welcome laws requiring them to report data breaches caused by their AI agents (programs that act on their own), and accepted that telling the authorities is for now their own decision. They spoke after an outcry over OpenAI's three-month delay in telling the Australian government that one of its agents had broken into the country's main health portal; Anthropic said its own investigation had found no breaches of Australian government systems.",
+   "reason": "The second sentence repeated a Reuters sentence from quote_evidence almost word for word; rewritten in our own words with the same facts."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "summary",
+   "before": "Reuters reports that Italian Prime Minister Giorgia Meloni applied on 5 Oct 2026 to the European Union Intellectual Property Office, the EU's trademark office, to trademark her voice, using a four-second recording in which she twice says, in Italian, \"I am Giorgia Meloni\"; her office confirmed the filing. Reuters adds that Italian media say the trademark, even if approved, would not by itself prevent AI deepfakes (fake audio or video made with AI) of her voice, though it could create extra legal obstacles for anyone copying it.",
+   "after": "Reuters reports that Italian Prime Minister Giorgia Meloni applied on 5 Oct 2026 to the European Union Intellectual Property Office, the EU's trademark office, to trademark her voice, using a four-second recording in which she twice says, in Italian, \"I am Giorgia Meloni\"; her office confirmed the filing. Reuters adds that, according to Italian media, approval alone would not stop AI deepfakes (fake audio or video made with AI) of her voice, but could put extra legal hurdles in the way of anyone copying it.",
+   "reason": "The second sentence tracked a Reuters sentence from quote_evidence with word swaps; rewritten in our own words, hedge kept."
+  },
+  {
+   "item_id": "C10-06",
+   "field": "source",
+   "before": "PR Newswire",
+   "after": "AIRS Medical, in a press release carried by PR Newswire",
+   "reason": "Credit rule (Rafi, 3 Oct 2026): the wire only carries the company's text; the originator is AIRS Medical, as C15-05 credits Quantinuum today. Prints as 'AIRS Medical' (cut at the comma), link unchanged."
+  },
+  {
+   "item_id": "C10-08",
+   "field": "source",
+   "before": "Business Wire",
+   "after": "Iambic Therapeutics, in a press release carried by Business Wire",
+   "reason": "Credit rule (Rafi, 3 Oct 2026): the wire only carries the company's text; the originator is Iambic Therapeutics (the release was read on its own site). Prints as 'Iambic Therapeutics', link unchanged."
+  }
+ ],
+ "unresolved": [
+  {
+   "type": "duplicate",
+   "item_ids": [
+    "C13-02",
+    "C05-08"
+   ],
+   "note": "Both LAW entries report the same 6 Oct 2026 Sydney hearing of the Australian parliamentary AI inquiry (Reuters: OpenAI and Anthropic would welcome breach-reporting laws; The Guardian: OpenAI's apology and the copyright evidence). Different angles, but the same event on the same day in the same section; the entries are otherwise sound. Keep both, or fold the breach-law point into C05-08."
+  },
+  {
+   "type": "re-dated",
+   "item_ids": [
+    "C04-01"
+   ],
+   "note": "Borderline, not edited. The event (OpenAI's Navier-Stokes claim) dates from 8 Sep 2026 and the mathematicians' quotes from the Heidelberg forum of 13 to 18 Sep; only the IEEE Spectrum feature itself (5 Oct) falls in the window. The writer already lowered the score and frames it as the reaction. It was not held by the stale check and no edition since 23 Sep carried the claim, so it is new to our readers; chief's call."
+  }
+ ],
+ "notes": [
+  "Fetched=false items (C11-10, C04-06, C04-07, C13-11, C10-05, C10-09, C14-01, C14-04, C14-14, C14-15, C16-05) keep cautious headline restatements with attribution; C10-09 names Richard Bonneau from Endpoints' own web address, left as is.",
+  "Reply and follow-up entries (C10-04, C10-02, C04-13, C13-03, C16-08, C11-01, C01-01, C04-03) name the earlier story with who reported it and when; no additions needed.",
+  "Source fields of the form 'X, citing Y' or 'X, in a press release carried by Y' print as X (report rules 6.2, cut at the first comma)."
+ ]
+}

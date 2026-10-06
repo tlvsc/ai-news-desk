@@ -1,0 +1,26 @@
+{
+ "stale_redated": [
+  "C01-04",
+  "C04-04",
+  "C06-13",
+  "C08-02",
+  "C09-04",
+  "C09-05",
+  "C12-13",
+  "C14-05",
+  "C14-10",
+  "C14-16",
+  "C14-17",
+  "C14-19",
+  "C15-03",
+  "C16-07",
+  "C16-09"
+ ],
+ "duplicate": {
+  "C14-12": "repeat of 5 Oct item 105 (same CBS url)",
+  "C12-10": "same story kept as C13-02 (Reuters, reporting AI-agent breaches, Australian hearing 6 Oct)",
+  "C12-15": "same hearing, overlaps kept C05-08 (OpenAI apology, agents on government sites); video page only",
+  "C07-12": "same story kept as C06-05 (DayOne IPO filing, 5 Oct)",
+  "C09-08": "same AFP report as 4 Oct pool item C09-11, no new fact"
+ }
+}

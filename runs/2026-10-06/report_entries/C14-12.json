@@ -1,0 +1,17 @@
+{
+ "item_id": "C14-12",
+ "v1_category": "SOC",
+ "headline": "Nobel Prize-winning economist Daron Acemoglu warned on CBS's 60 Minutes that US unemployment could triple within a decade in a worst case if nothing is done.",
+ "score": 3,
+ "score_reason": "Lowered 2 from the pool score 5: the 60 Minutes segment aired on 4 Oct and ran in our 5 Oct edition (item 105); this is a repeat of the same remarks.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "A leading economist's worst-case warning matters first to workers in jobs AI can do, then to governments and companies that could change how AI is designed or taxed, but it is a conditional scenario from one economist, not a forecast.",
+ "source": "CBS News",
+ "status": "REPORTED",
+ "summary": "CBS News reports, in a 60 Minutes segment that aired on 4 Oct and that NDTV Profit repeated on 5 Oct, that Nobel Prize-winning economist Daron Acemoglu said US unemployment could triple within a decade in a worst-case scenario if the country stays on its current course. Acemoglu added that the number of people employed training AI is small compared with those who will be replaced, and said companies could design AI to complement workers or the government could reward hiring through the tax code; we carried this segment in our 5 Oct edition (item 105).",
+ "url": "https://www.cbsnews.com/news/artificial-intelligence-trained-to-help-with-careers-60-minutes/",
+ "freshness": "FOLLOW-UP of 4 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Duplicate of our 5 Oct item 105 (same CBS url): hold back. NDTV Profit page (the chunk's item) returned 403, as did NDTV and Benzinga; entry written from the CBS News original, read in full. qa_check will not hold it as stale (4 Oct is not before its cutoff), so add it under 'duplicate' or let check_dup14.py flag it."
+}

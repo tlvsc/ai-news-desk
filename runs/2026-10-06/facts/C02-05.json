@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-05",
+ "title": "The Top 100 Gen AI Consumer Apps — 7th Edition",
+ "source_used": "a16z",
+ "article_url": "https://a16z.com/100-gen-ai-apps-7/",
+ "fetched": true,
+ "key_facts": [
+  "Andreessen Horowitz (a16z) published the seventh edition of its Top 100 Gen AI Consumer Apps: the top 50 web products by monthly visits (Similarweb) and the top 50 mobile apps by monthly active users (Sensor Tower); only 11 products are new, the fewest debuts of the seven lists, and products mainly built for NSFW use are now excluded.",
+  "For the first time it adds a ranking by observed spending on US consumer cards, with data from YipitData; the data is US-only and from panels rather than a census, so a16z says it should not be read as total company revenue.",
+  "Nearly half of US consumers report using AI but only 25% use it daily; as of August, 4.5% of eligible consumers in YipitData's US e-receipt panel had an active paid personal subscription to at least one of ChatGPT, Gemini or Claude, up from 2.1% a year earlier.",
+  "The top 10% of spenders account for roughly half of all observed spending; the top 1% account for 19.5%, more than the bottom 50% combined (16.6%), and pay an average of $903 a month against $25 for the median payer; heavy spenders favour coding, productivity and creative tools.",
+  "ChatGPT leads: about 2x Gemini and 6x Claude in August web visits, 2.5x Gemini and 14x Claude in mobile monthly active users, and 3x as many US consumer paid subscribers as Claude or Gemini (YipitData panel); Claude has emerged as a clear third and is roughly level with Gemini on US consumer subscribers.",
+  "29 of the top 50 vendors by spend do not appear on the web or mobile traffic lists, and only seven companies make all three lists.",
+  "Personal AI agents are emerging: startups such as Instinct, Tomo, Poke, Lindy and Town report hundreds of thousands of users, and Meta's Muse (launched 9 Sep) reportedly passed 5 million downloads in under a month; Amazon shut down access for Muse in under two weeks, while Shopify, Instacart, OpenTable, Expedia and others signed official integrations.",
+  "Of the 44 AI-native products in the top web ranking, 84% offer paid subscriptions, 64% charge for usage or extra credits, 14% carry ads and 2% earn transaction or platform fees; a16z says OpenAI said ChatGPT advertising reached a $1 billion annualized revenue run rate in August."
+ ],
+ "quote_evidence": [
+  "For the first time, we’re adding a ranking by observed spending on U.S. consumer cards, thanks to YipitData.",
+  "While nearly half of U.S. consumers now report using AI, only 25% are engaged with it daily.",
+  "The top 10% of spenders account for roughly half of all observed spending."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "a16z's first spending ranking shows that few people pay for AI and that a small group of heavy users supplies much of the money, which it says points to new products and business models for everyone else.",
+ "event_date": "6 Oct 2026 (report published); spending data to August 2026, agent data to late September 2026",
+ "notes": "Read in full on a16z.com (HTTP 200, fulltext/C02-05.txt); published 6 Oct 2026 02:38 UTC per the pool. a16z is a venture capital firm that invests in AI, and its notice says some information comes from third parties, including its portfolio companies. Spending figures are YipitData panel estimates for the US only, not company revenue; traffic ranks use Similarweb and Sensor Tower. The Instinct and Muse user figures are founder claims or reports, not checked. Kept MOD per default_v1; could also sit in MKT."
+}

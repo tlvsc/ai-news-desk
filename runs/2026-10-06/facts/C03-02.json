@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-02",
+ "title": "Introducing Google Cloud Modernize, transforming for (and with) AI",
+ "source_used": "Google Cloud blog (Google Cloud's own post)",
+ "article_url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai",
+ "fetched": true,
+ "key_facts": [
+  "Google Cloud announced Google Cloud Modernize on 5 Oct 2026: a portfolio that brings together Migration Center, Google Cloud VMware Engine, Google Cloud Mainframe Modernization and a new EKS-to-GKE Migration Agent, with what it calls agentic capabilities for infrastructure assessment, platform modernization and application modernization.",
+  "Modernization Hub is a newly launched in-console experience where developers and architects can analyze source code, map dependencies and speed up modernization for Java, .NET and mainframe applications; it integrates the App Modernization CLI (CodMod), which uses Gemini to analyze large source code repositories.",
+  "In Migration Center, the Agentic Quick Estimator (generally available) uses new Gemini capabilities to turn VMware inventory exports into total cost of ownership projections for Compute Engine; Google says this condenses weeks of spreadsheet modeling into minutes.",
+  "The EKS-to-GKE Agentic Migration (public preview) automates moving workloads from AWS Elastic Kubernetes Service to GKE (discovery, Kubernetes manifest translation, storage and network mapping) with human-in-the-loop approval gates.",
+  "New compute options: X5 (GA) with single-node 43 TiB memory for SAP S/4HANA, above the previous 29 TiB ceiling; M4N (GA), which Google says cuts licensing costs by more than 20% for Oracle and other core-licensed databases; Z4D (GA) and Z4M (preview) with large local NVMe storage and 400 Gbps networking.",
+  "Mainframe tools named: Mainframe Assessment Tool, Dual Run (replays live production transactions on both the mainframe and the new cloud applications before go-live) and Mainframe Connector.",
+  "Customer examples given by Google: NetEase Games on GKE (scaling time from hours to five minutes, server costs down 40%), Intesa Sanpaolo (Dual Run in its core banking move off the mainframe), Deutsche Börse Group (SAP S/4HANA and DAX calculations; disaster recovery from hours to minutes, aggregation latency down over 50%).",
+  "Google offers a no-cost modernization assessment through its Rapid Migration & Modernization Program (RaMP) and a webinar on 17 November; Cognizant is named as a delivery partner."
+ ],
+ "quote_evidence": [
+  "Today, we’re announcing Google Cloud Modernize, an end-to-end transformation portfolio to help enterprises collapse multi-year roadmaps with the power of AI.",
+  "Central to this portfolio is Modernization Hub, a newly launched in-console experience where developers and architects can analyze source code, map dependencies, and accelerate modernization for Java, .NET, and mainframe applications.",
+  "This condenses weeks of spreadsheet modeling into a defensible business case in minutes."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Gives developers and IT teams at large companies AI help to examine and move older Java, .NET, mainframe and Amazon-hosted Kubernetes systems onto Google Cloud; Google says it cuts weeks of cost modeling to minutes.",
+ "event_date": "5 Oct 2026 (post says 'Today, we're announcing'; Google Cloud's blog feed lists it at 16:00 UTC on 5 Oct 2026)",
+ "notes": "Read in full from fulltext/C03-02.txt; date confirmed from Google Cloud's own blog feed, inside the window. A vendor launch post: every performance or savings figure (20% licensing cut, 40% server cost cut, weeks to minutes, 50% latency cut) is Google's or its quoted customers', with no independent test. Part of the package is a bundle of existing tools; the post marks the EKS-to-GKE agent and Z4M as preview. Our reading: the customer examples show Google Cloud products already in use, not tests of the new package. Cognizant quote is marketing text and not used."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C08-08",
+ "title": "AMD attempts to get ahead of expected RTX Spark launch with Gorgon Halo AI benchmarks — company says it has shipped 'over half a million agentic PCs' to date",
+ "source_used": "Tom's Hardware (original reporting, read in full)",
+ "article_url": "https://www.tomshardware.com/pc-components/cpus/amd-attempts-to-get-ahead-of-expected-rtx-spark-launch-with-gorgon-halo-ai-benchmarks-company-says-it-has-shipped-over-half-a-million-agentic-pcs-to-date",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia is expected to launch RTX Spark devices later this week, with Microsoft's event on Wednesday 7 Oct 2026 where the launch is expected.",
+  "Ahead of it, AMD shared benchmarks for its new Gorgon Halo chips, the range that will compete with RTX Spark; the first Gorgon Halo devices launched days earlier, some costing upwards of $7,099.",
+  "AMD compared its top Ryzen AI Max+ Pro 495 (192GB memory configuration) with Intel's Core Ultra X9 388H (64GB), not with RTX Spark, whose performance has not been seen apart from a few questionable Geekbench leaks; Tom's Hardware says the two chips are not in the same class of device.",
+  "AMD used ComfyUI to measure generative AI performance; its advantage ranges from 1.1 times up to 32.2 times, the top end a clear outlier that Tom's Hardware could not trace and thinks may be an optimisation issue or a model too big for the Intel machine.",
+  "AMD says the 495 reaches up to 20 tokens per second on GLM 5.3 Flash (320 billion parameters, 18 billion active) and up to 42 tokens per second on Qwen 3.8 Flash Next; Tom's Hardware notes 'up to' hides drops at longer context lengths.",
+  "Gorgon Halo is largely a refresh of Strix Halo: memory rises to 192GB from 128GB and boost clocks by 100MHz; RTX Spark devices top out at 128GB. More memory lets bigger models run locally but not necessarily faster.",
+  "AMD told the press it had shipped 'over half a million' agentic PCs (its term for AI PCs built to run agents locally) after first boasting of shipping \"10s of millions\" of AI PCs (mostly laptops).",
+  "Tom's Hardware's earlier review found Strix Halo's Ryzen AI Max+ 395 behind Nvidia's DGX Spark on time to first token and tokens per second across three models."
+ ],
+ "quote_evidence": [
+  "Nvidia is expected to launch RTX Spark devices later this week, following a not-so-subtle tease at the end of last week (and the chip’s announced fall release).",
+  "Rather, it’s comparing the Ryzen AI Max+ Pro 495 to Intel’s Core Ultra X9 388H.",
+  "The performance advantage ranges from 1.1x up to 32.2x, though the end point is a clear outlier."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AMD is trying to frame the comparison before Nvidia's rival PC chip arrives, but the numbers are its own and the match-up is not like for like.",
+ "event_date": "5 Oct 2026 (AMD benchmarks and press pre-briefing); Nvidia launch expected 7 Oct 2026",
+ "notes": "Tom's Hardware is the original reporter (its own analysis of AMD's pre-briefing); the fetched page carried site boilerplate which was skipped. Company-supplied benchmarks, not independently tested; Tom's Hardware itself questions them. Prices of the first devices (about $7,000 for top configurations) not used in the entry."
+}

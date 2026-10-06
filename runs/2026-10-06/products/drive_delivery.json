@@ -1,0 +1,83 @@
+[
+ {
+  "folder": "reports",
+  "title": "Full_Report_6-10-26.pdf",
+  "local_bytes": 363903,
+  "drive_id": null,
+  "drive_bytes": null,
+  "status": "too large",
+  "note": "not sent, no upload call made: base64 is 485,204 characters, more than one tool call can carry (the connection takes content only as text typed through the call); same limit as 3 to 5 Oct. Rafi gets the PDF in chat."
+ },
+ {
+  "folder": "reports",
+  "title": "Daily_Bulletin_6-10-26.pdf",
+  "local_bytes": 219551,
+  "drive_id": null,
+  "drive_bytes": null,
+  "status": "too large",
+  "note": "not sent, no upload call made: base64 is 292,736 characters, same limit. Rafi gets the PDF in chat."
+ },
+ {
+  "folder": "reports",
+  "title": "2026-10-06 — Daily Bulletin (Claude LV1.1).md",
+  "local_bytes": 48109,
+  "drive_id": "1zpYAjFc4hGFMCOMewZMHtNigwo1LGXI9",
+  "drive_bytes": 48109,
+  "status": "OK",
+  "note": "size equal; downloaded back and compared byte for byte: identical, md5 87e4a2d7c32c8e36f32e0d78360b73d9"
+ },
+ {
+  "folder": "reports",
+  "title": "2026-10-06 — Daily Global AI Intelligence Report (Claude LV1.1).md",
+  "local_bytes": 218419,
+  "drive_id": "1PGJ_Yfqj1HGxUV3FUqHSMk4wHjtdvGdg",
+  "drive_bytes": 218419,
+  "status": "OK",
+  "note": "size equal; downloaded back and compared byte for byte: identical, md5 21966162a360d3b29d060b15920a0220"
+ },
+ {
+  "folder": "reports/supportive files",
+  "title": "AIND_Pool_2026-10-06.csv",
+  "local_bytes": 137675,
+  "drive_id": "1LfLi7YJME3IATfC6nftSmMwJr2k5OVwF",
+  "drive_bytes": 58812,
+  "status": "damaged",
+  "note": "my typed upload was cut off at 58,812 of 137,675 bytes and one Google News link inside it was wrong (found by comparing the downloaded copy with the local file); renamed AIND_Pool_2026-10-06_superseded.csv and moved to reports/supportive files/archive (folder 1_NEdZ1KJwgUKikO25KWkH15o24O_1CAd); nothing deleted; no correct copy is on Drive under the real title. Local copies: products/ and out/AIND_Pool_2026-10-06.csv (same md5 35dc3d039ba9e6a552d31982f21dcd0f); the repo copy runs/2026-10-06/out comes with save_state.py. Rafi gets the CSV in chat; the next run's step 0 reads this day from the local run folder or the repo copy, not from Drive."
+ },
+ {
+  "folder": "reports/supportive files",
+  "title": "AIND_Pool_2026-10-06.json",
+  "local_bytes": 234352,
+  "drive_id": null,
+  "drive_bytes": null,
+  "status": "too large",
+  "note": "not sent, no upload call made: 234,352 bytes, more than the largest file that went through whole today (218,419 bytes of plain English text), with 206 Google News links and Korean text; the 4 and 5 Oct pool JSON files stayed off Drive for the same reason. Local copy: out/AIND_Pool_2026-10-06.json; the repo copy runs/2026-10-06/out comes with save_state.py. Rafi gets it in chat."
+ },
+ {
+  "folder": "reports/supportive files",
+  "title": "daily-pool.md",
+  "local_bytes": 82284,
+  "drive_id": null,
+  "drive_bytes": null,
+  "status": "too large",
+  "note": "not sent, no upload call made: 82,284 bytes of Google News links and Korean text. The connection takes content only as text typed through the call (the same limit that left the 4 Oct pool files off Drive); my typed copy of the pool CSV, the same kind of content, was cut off and had a wrong link in it, and a damaged copy cannot be deleted (rule 3), only archived. Local copy: products/daily-pool.md; the repo copy runs/2026-10-06/products comes with save_state.py. Rafi gets it in chat."
+ },
+ {
+  "folder": "reports/supportive files",
+  "title": "report_pdf.json",
+  "local_bytes": 211451,
+  "drive_id": "1rGr9WSm3xZE-OLfpEHUj22Oa_bSrj4hp",
+  "drive_bytes": 211451,
+  "status": "OK",
+  "note": "size equal; downloaded back and compared byte for byte: identical, md5 8374f88f8b8526dae80a0d9e32180d24"
+ },
+ {
+  "folder": "reports/supportive files",
+  "title": "bulletin_pdf.json",
+  "local_bytes": 84294,
+  "drive_id": "1-YutSbhGI8DK9xnQiNiru5qT-9mgObpm",
+  "drive_bytes": 84294,
+  "status": "OK",
+  "note": "size equal (get_file_metadata fileSize 84294); downloaded back and compared byte for byte: identical, md5 b7bbee01a6e65b791a1c81fdda56ff7b"
+ }
+]

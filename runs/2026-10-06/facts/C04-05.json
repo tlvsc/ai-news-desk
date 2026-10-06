@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-05",
+ "title": "A new kind of microscope: Agentic AI turns simple language into self-guided experimentation",
+ "source_used": "Newswise (carries Argonne National Laboratory's own news release of 5 Oct 2026)",
+ "article_url": "https://www.newswise.com/doescience/a-new-kind-of-microscope-agentic-ai-turns-simple-language-into-self-guided-experimentation",
+ "fetched": true,
+ "key_facts": [
+  "Argonne National Laboratory, a US Department of Energy lab, says its researchers recently demonstrated agentic AI (AI that follows plain-language requests and decides next steps) in the SYNAPS-I project, which links neutron, X-ray and microscopy data across national labs; SYNAPS-I is part of the DOE's Genesis Mission and is led by Lawrence Berkeley National Laboratory.",
+  "Phase one of SYNAPS-I, tested earlier this year at Argonne's Advanced Photon Source (APS), its supercomputing facility, its Center for Nanoscale Materials (CNM) and other DOE facilities, used fine-tuned foundation models to rebuild X-ray images of microelectronics in real time, compressing hours or days of analysis into seconds.",
+  "Phase two adds an agentic AI layer: a natural-language interface lets scientists direct beamlines by describing what they want, such as 'measure this region', and the system automates region-of-interest searches before switching to a high-resolution scan.",
+  "The agent works with PtychoFM, Argonne's ptychography model (ptychography is an X-ray technique that rebuilds sharp images from overlapping diffraction patterns), uses the vision ability of a multimodal large language model, and connects to Meta's Segment Anything Model 3 (SAM3) to isolate and label image features.",
+  "The AI operates autonomously for low-risk actions and asks for human approval or guidance only for higher-risk or uncertain operations.",
+  "In the test on a microelectronics sample at the 26-ID hard X-ray nanoprobe beamline shared by CNM and APS, the team instructed the agent in natural language to locate the interface between two regions in an integrated circuit device; starting deep inside the device, it scanned, analysed, segmented and navigated until it found the region.",
+  "The team says the platform could apply to catalysts, metals and quantum devices and calls the demonstration a major step toward autonomous AI-driven laboratories.",
+  "The release gives no date for the demonstration beyond 'recently', and no outside evaluation or timetable for wider use."
+ ],
+ "quote_evidence": [
+  "“Instead of writing code or entering technical commands, researchers can talk to the AI, which then handles data collection, processing and analysis automatically,” said Ming Du, an Argonne computational scientist and a member of the SYNAPS-I team.",
+  "AI operates autonomously without human supervision for low-risk actions and asks for human approval or guidance only for operations with higher risk or uncertainty.",
+  "Using natural language, the team instructed the AI agent to locate the interface between two regions in an integrated circuit device."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Scientists who share national-lab X-ray beamlines could spend less time on controls and data handling, but this is one demonstration on one sample reported by the lab itself.",
+ "event_date": "Demonstration 'recently' (no date given); release dated 5 Oct 2026.",
+ "notes": "Argonne's own page returned a Cloudflare check (HTTP 403). The same release was read in full on Newswise (DOE Science News Source, 5 Oct 2026, 7:50 PM EDT, 'by Argonne National Laboratory'), which carries Argonne's own text, so Argonne is credited and its link is used. The wording 'major step' is the lab's own."
+}

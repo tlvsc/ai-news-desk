@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-01",
+ "v1_category": "MOD",
+ "headline": "Reflection AI has unveiled Beam, a model it says matches a leading Chinese open model on reasoning tests at far lower running cost.",
+ "score": 7,
+ "score_reason": "Pool 8 lowered by 1: the unveiling is official, but the benchmark claims are the company's own and the open weights are promised, not yet published.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers, public agencies and companies that want to run AI on their own systems could get a US-built alternative to the leading Chinese open models, but the performance claims are Reflection's own and outsiders cannot test Beam until its weights are published.",
+ "source": "TechCrunch",
+ "status": "PRELIMINARY",
+ "summary": "TechCrunch reports that Reflection AI, a two-year-old Nvidia-backed startup in Brooklyn, has unveiled Beam, a text-only open-weight model (one whose trained parameters are to be published so others can run and adapt it) that the company says matches the Chinese developer Z.ai's GLM-5.2 on advanced reasoning tests while needing three to four times less computing power than rival models. This continues the Axios report of 4 Oct 2026, carried in our 5 Oct 2026 edition, that Reflection was about to launch a US-made open model; new today are the model's name, benchmark claims that are the company's own and not independently verified, and a promise to publish the weights and full technical details later this month.",
+ "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+ "freshness": "FOLLOW-UP of 4 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full TechCrunch text read (fulltext HTTP 200). Follow-up of our 5 Oct 2026 item 63 (Axios scoop, 4 Oct 2026); the unveiling itself happened on 5 Oct 2026, so freshness is FOLLOW-UP of the earlier report as the pool flags it. Score lowered 8 to 7 because the headline claim is the company's own and 'open-weight' is still a promise (weights due this month). Status PRELIMINARY for the same reason. TechCrunch does not state the baseline of the '3-4x less inference compute' claim precisely; the summary says 'rival models', following its earlier 'of rivals'."
+}

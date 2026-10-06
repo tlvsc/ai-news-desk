@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-03",
+ "v1_category": "MOD",
+ "headline": "OpenAI says it will add an invisible watermark to text from ChatGPT and its coding tool Codex in the European Union, to comply with the EU AI Act.",
+ "score": 6,
+ "score_reason": "Pool score kept: an official OpenAI announcement tied to EU transparency rules in force since 2 August, with real limits on who gets it and how well it works.",
+ "importance_label": "MEDIUM",
+ "importance_line": "ChatGPT and Codex users in the EU will get text carrying a hidden mark, but in OpenAI's own test swapping 10% of words for synonyms cut detection from about 92% to 66%, only approved researchers and expert organizations can use the detector for now, and OpenAI says a missing mark does not prove a person wrote the text.",
+ "source": "TechCrunch",
+ "status": "CONFIRMED",
+ "summary": "TechCrunch reports that OpenAI said in a blog post on Monday 5 Oct that over the coming weeks text from ChatGPT and its coding tool Codex will carry an invisible watermark, a hidden pattern in the word choices that a detector can find, for eligible users on all plans in the EU only. OpenAI says the watermark does not identify the user and is needed to comply with the EU AI Act, whose transparency rules, in force since 2 August, require AI-generated content to be marked in a way other systems can identify; developers anywhere can opt in through OpenAI's API (the service that lets software use its models), where it is off by default.",
+ "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on TechCrunch (HTTP 200). OpenAI's blog post (5 Oct 2026) is the primary source and was not read. The description of Codex as OpenAI's coding tool is ours (general knowledge), not from the article. Kept MOD per default_v1; could also sit in LAW (EU AI Act compliance; curator also_fits 13)."
+}

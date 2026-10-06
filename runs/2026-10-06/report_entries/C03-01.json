@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "GitHub has released ReviewBench, a public test of how well AI tools review programmers' code changes.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: fresh (5 Oct 2026), but a vendor's own benchmark in research preview with figures that are GitHub's alone.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Programmers and companies that choose or build AI code reviewers get a public way to compare them, but GitHub made the test, also uses it on its own Copilot tool, and its post mentions no outside review of the figures.",
+ "source": "The GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "GitHub, the code-hosting platform, says its new ReviewBench test, now in research preview, scores AI tools that review proposed code changes (pull requests) on 219 real public examples in 19 programming languages, and that senior engineers who had not helped build its dataset agreed with its labels in 96.6 percent of cases. GitHub also says the test's results have consistently pointed the same way as later live trials of its own Copilot code review tool.",
+ "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full (fulltext/C03-01.txt). Post date 5 Oct 2026 from GitHub's own feed. All figures are GitHub's own; no outside review reported."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-04",
+ "v1_category": "MOD",
+ "headline": "A study of eight AI models found that the one with the lower listed price cost more overall in 32% of comparisons.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: the paper was first posted on 25 Mar 2026 and revised on 28 May 2026, so the finding is months old, and it is a preprint with no outside review reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and companies that pay for AI by usage cannot judge the real cost from the price list alone, but this is a preprint with no outside review reported, it dates from spring 2026, and the models it tested are months old.",
+ "source": "GIGAZINE, citing an arXiv paper",
+ "status": "PRELIMINARY",
+ "summary": "GIGAZINE reports on a preprint by researchers from Stanford, Carnegie Mellon, UC Berkeley and Microsoft Research which tested eight AI models that reason step by step on thousands of math, coding and science tasks and found that the model with the lower listed price cost more in total in 32% of comparisons, a result the team blames on cheaper models “overthinking” and “over-acting”. In one example, Google's cheaper Gemini 3 Flash took more than 1,000 steps, cost $14 and still failed a frame-by-frame YouTube video analysis that its pricier sibling Gemini 3.1 Pro finished in 85 steps for $1; the paper was first posted on 25 Mar 2026 and revised on 28 May 2026, so this is older research that GIGAZINE is covering now.",
+ "url": "https://gigazine.net/gsc_news/en/20261006-ai-cheaper-model-more-cost/",
+ "freshness": "FOLLOW-UP of 28 May 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "OLDER NEWS RE-DATED, held-back candidate: the paper (arXiv 2603.23971, 'The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More') was submitted 25 Mar 2026 and last revised 28 May 2026 per its arXiv page, checked 6 Oct 2026; GIGAZINE's 6 Oct 2026 write-up adds no new research. Score lowered 5 to 3 as stale. Full GIGAZINE text read (fulltext HTTP 200). Link kept to GIGAZINE, the outlet that reported it; the paper is at arxiv.org/abs/2603.23971. The summary says '32% of comparisons' and 'thousands of tasks' to match the abstract, and leaves out GIGAZINE's 9.7x cost figure, which the abstract gives as a variation in thinking tokens. Rules section 6.2 says the source is the publisher only; the brief's 'X reports, citing Y' was followed, as in the 5 Oct entries."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-14",
+ "title": "South Korea's Financial Regulator Suspends Second Round of Network Separation Deregulation After AI-Powered Hacking Wave",
+ "source_used": "BigGo Finance (finance.biggo.com), full text; the article does not name the Korean outlet it draws on",
+ "article_url": "https://finance.biggo.com/news/6b6cda66-5b92-4f48-94ce-0966fa03255b",
+ "fetched": true,
+ "key_facts": [
+  "According to financial authorities on 6 Oct 2026, the Financial Services Commission (FSC) postponed selecting firms for the second round of network separation deregulation, which was due to be announced on 7 Oct, to allow additional review with the Financial Supervisory Service in light of the recent incidents.",
+  "The deregulation would let financial firms use external high-performance AI and security software services to find and fix vulnerabilities, which existing network separation limited; the second round would have widened the eligible pool from 49 to 75 firms and the number selected from 10 to at most 15.",
+  "Breaches hit first-round participants: Shinhan Bank (about 25,000 customers) and Hana Bank (89 customers); Woori Bank confirmed attack attempts but no leakage so far.",
+  "The FSC, the FSS and the Financial Security Institute are investigating on site and have ordered emergency self-inspections at about 500 financial companies; banks and card companies had to finish by 6 Oct, securities firms, insurers, savings banks and electronic finance operators by 8 Oct.",
+  "The attacks were first identified on 30 Sep, when an outside party accessed Shinhan Bank's loan-agent service and extracted data on 25,000 people; KB Kookmin, Hana and BNK Busan banks, Yegaram Savings Bank (about 40,000 people), Welcome Savings Bank (2,200 records) and Hyundai Capital (146 people) followed, and the same attacker IP address was found across seven companies.",
+  "A Financial Security Institute official said traces of ARTEX, an open-source AI penetration-testing platform released mainly in the Chinese-language community, were found, and that AI was used but did not operate independently of human intervention.",
+  "FSC Chairman Lee Eok-won said on 4 Oct that the possibility of AI-utilised attacks cannot be ruled out; no leakage that could be used directly for fraudulent payments had been confirmed, but secondary harm such as voice phishing could not be excluded.",
+  "Authorities say they will not reverse the overall direction of network separation deregulation, because the weaknesses were in authentication and access control of externally exposed business support systems."
+ ],
+ "quote_evidence": [
+  "South Korea's financial authorities have abruptly suspended the schedule for selecting financial companies for the second round of network separation deregulation.",
+  "According to financial authorities on October 6, the Financial Services Commission decided to postpone the selection of firms eligible for network separation deregulation, citing the need for additional review of agenda items with the Financial Supervisory Service in light of the recent incidents.",
+  "It is correct that AI was used in the attack, but the AI did not operate independently without human intervention."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The hacking wave has delayed a plan to let financial firms use outside AI tools for defence, while officials say the policy direction stays.",
+ "event_date": "Postponement reported 6 Oct 2026 (selection had been due 7 Oct); attacks identified from 30 Sep 2026",
+ "notes": "Read in full. BigGo Finance is an aggregator and does not name the Korean outlet it relies on; no English original was found (Google News searches 6 Oct). Only the postponement is certainly new on 6 Oct; the ARTEX finding was reported by Korean outlets on 3 and 4 Oct 2026. Follow-up of our 5 Oct 2026 item on seven financial companies hit (pool 1005:C12-02). Same story line as C12-01 and C12-09."
+}

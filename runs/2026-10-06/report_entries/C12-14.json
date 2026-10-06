@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-14",
+ "v1_category": "SEC",
+ "headline": "South Korea's financial authorities have postponed choosing firms for the second round of relaxed network-separation rules because of the wave of hacks on banks.",
+ "score": 5,
+ "score_reason": "Pool score kept: a concrete regulatory consequence dated 6 Oct; the report is a secondary account of Korean sources.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Bank customers and the roughly 500 financial firms now doing emergency self-inspections are affected, and the hacks have delayed a plan to let firms use outside AI tools to find weaknesses in their own systems, but authorities say they will not reverse the overall policy and the report is a secondary account that does not name its original source.",
+ "source": "BigGo Finance, citing South Korean financial authorities",
+ "status": "REPORTED",
+ "summary": "BigGo Finance, citing South Korean financial authorities, reports that on 6 Oct 2026 the Financial Services Commission postponed choosing firms for the second round of an easing of network-separation rules, which limit financial firms' use of outside AI and security services, because of the hacking wave across the sector; the selection had been due on 7 Oct. This continues the story we carried on 5 Oct 2026 about seven financial companies hit by attacks; the new development is the postponement, and the article adds that first-round participants Shinhan Bank and Hana Bank were among those breached and quotes a Financial Security Institute official saying AI was used, but only as a tool by a human hacker, not acting on its own.",
+ "url": "https://finance.biggo.com/news/6b6cda66-5b92-4f48-94ce-0966fa03255b",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Aggregator article; the original Korean outlet is not named and no English original was found. Only the postponement is certainly new today. Same story line as C12-01 and C12-09. Conflict reported: the source field keeps 'BigGo Finance, citing South Korean financial authorities' because the chain is unclear (CLAUDE.md credit rule of 3 Oct 2026) while Full Report rules 6.2 says publisher only; build_products cuts it at the first comma, so the PDF prints BigGo Finance."
+}

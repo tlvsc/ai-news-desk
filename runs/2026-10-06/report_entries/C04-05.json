@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "Argonne National Laboratory says an AI agent taking plain-language instructions has steered an X-ray imaging instrument to a target inside a computer chip largely on its own.",
+ "score": 6,
+ "score_reason": "Kept at the pool score: a named national-lab demonstration with specifics, but it is the lab's own single test with no outside review.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Scientists who share the lab's X-ray instruments could spend less time on controls and data handling, but this is the lab's own account of one test on one chip sample, with no outside review and no date for wider use.",
+ "source": "Argonne National Laboratory",
+ "status": "PRELIMINARY",
+ "summary": "Argonne National Laboratory, a US Department of Energy research centre, says its team on SYNAPS-I, a DOE effort to link X-ray and neutron experiment data across national labs, has added agentic AI (software that carries out multi-step tasks on its own) to an X-ray imaging instrument, so researchers can direct it in plain language, such as 'measure this region', instead of using control panels. In a test on a microelectronics sample, the agent was told to find the boundary between two regions of a computer chip and located it by repeatedly imaging, analysing and moving, with a person asked to approve only higher-risk or uncertain actions.",
+ "url": "https://www.anl.gov/article/a-new-kind-of-microscope-agentic-ai-turns-simple-language-into-selfguided-experimentation",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Argonne's own page returned a Cloudflare check (HTTP 403), so the release was read in full on Newswise (DOE Science News Source, 5 Oct 2026), which carries Argonne's own text; Argonne is credited and its link kept. The release says the demonstration took place 'recently' and gives no date, outside evaluation or timetable. An AI agent operating lab equipment is software, so machine_action is false (no robot, drone or vehicle shown)."
+}

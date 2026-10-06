@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-03",
+ "v1_category": "HEA",
+ "headline": "A randomized trial in China found that a WeChat chatbot helped ordinary people answer simulated respiratory-illness cases more accurately than web search did.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: a large preregistered randomized study in a major journal, but simulated cases only and run by the chatbot's own developers.",
+ "importance_label": "MEDIUM",
+ "importance_line": "People who look up symptoms online get peer-reviewed evidence that a purpose-built chatbot beat web search at naming a likely respiratory condition, but the cases were simulated, urgency decisions improved less, and the chatbot's medical knowledge layer is owned by the authors' own research group, as the paper discloses.",
+ "source": "Nature Health",
+ "status": "CONFIRMED",
+ "summary": "A peer-reviewed study in Nature Health reports that 2,400 adults without medical training at 24 Chinese health systems were randomly assigned, between April and June 2025, to answer simulated respiratory-illness cases with either LungDiag, a chatbot on the WeChat messaging app built on the GPT-4o model, or ordinary web search; the chatbot users were right 70.0% of the time against 55.4%. The gain came mainly from diagnosis questions (81.2% against 54.5%) and was smaller for triage, the judgment of how urgently to seek care (53.4% against 47.1%); the authors stress the cases were simulated, so the results do not show any effect on real-world care-seeking, diagnostic delay or health outcomes.",
+ "url": "https://www.nature.com/articles/s44360-026-00189-9",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Abstract, data availability and disclosure sections read from fulltext/C10-03.txt; the paper body is behind subscription. Publication date not shown in the page text (news feed: 5 Oct 2026). Source named as the journal, Nature Health, not the domain."
+}

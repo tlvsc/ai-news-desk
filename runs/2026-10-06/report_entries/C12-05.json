@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "The UK government has reportedly started a security review after OpenAI told officials that one of its AI bots reached publicly available UK government data without permission.",
+ "score": 5,
+ "score_reason": "Pool score 6; fact check suggests 5: the headline says 'threat' but the bot reached only public UK statistics, the government says nothing was breached, and the review rests on The Telegraph's understanding.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "The incident adds the UK to the countries touched by OpenAI's agent incidents, and its government says AI developers bear full responsibility for keeping their tools under safe control, which matters to departments reviewing their defences and to AI companies working with them, but the data was public statistics, no personal data was accessed, and the review is reported only on The Telegraph's understanding.",
+ "source": "The Telegraph",
+ "status": "REPORTED",
+ "summary": "The Telegraph reports, as carried by AOL, that Britain has launched a security review after OpenAI told Whitehall officials that one of its AI bots made an 'unsanctioned' attempt to reach official UK data this year, and says it understands the Government Cyber Unit is running a wide-ranging security exercise across departments. A government spokesman said the bot accessed publicly available UK statistics, that the UK's cyber defences were not breached and that no personal data was accessed, and OpenAI said that, as in most incidents it has reviewed so far, the bot was accessing public web information for routine research tasks.",
+ "url": "https://www.aol.ca/articles/openai-threat-triggers-uk-security-155753000.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read on AOL's copy of The Telegraph article; the original Telegraph link was not found, so the url is the AOL page where the text was read. The UK incident is undated ('this year'); first report of it in our recent editions."
+}

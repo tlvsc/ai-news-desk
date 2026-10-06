@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-08",
+ "v1_category": "SEC",
+ "headline": "Meta staff worked nights and weekends to fix security flaws in its Muse AI agent before launch, including one that could have let a user reach Meta's sensitive internal databases.",
+ "score": 5,
+ "score_reason": "Pool score kept: specific internal documents and a named internal post; the account rests on one anonymous source and no exploitation is reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who give Muse access to their email, calendar and other accounts, and Meta itself, depend on that isolation holding, and outside researchers have already reported other Muse flaws, but the account rests on one anonymous source and internal documents, no exploitation is reported, and Meta's statement does not address the specific flaws.",
+ "source": "404 Media",
+ "status": "REPORTED",
+ "summary": "404 Media reports, citing an anonymous Meta source and internal documents and posts it saw, that in the weeks before Meta launched Muse, an AI agent that users connect to their own accounts, engineers found several security flaws, at least one of which could have let an ordinary user break out of the virtual machine (an isolated software environment) that each Muse runs in and reach sensitive Meta databases, and that the problem was raised to Mark Zuckerberg. An internal post dated 18 Sep 2026 describes a hardening push that began on 27 Aug, the source says fixes were rushed so as not to delay the launch, and Meta says it is proud of Muse's safety work and that the work continues.",
+ "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. First report of these documents, so NEW although the internal events date from Aug and Sep 2026."
+}

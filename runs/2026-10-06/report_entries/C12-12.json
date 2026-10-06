@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-12",
+ "v1_category": "SEC",
+ "headline": "Amazon Web Services has fixed flaws in its AI agent software that could let attackers bypass sign-in checks and steal credentials.",
+ "score": 4,
+ "score_reason": "Pool score 5; fact check suggests 4: unverified, only the headline could be read and no other outlet carries the story.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People whose data is handled by AI agents running on Amazon's cloud, and the organisations that run them, are affected if the flaws were exploited, but which products are involved, who found the flaws and whether anyone used them are not yet known.",
+ "source": "GBHackers",
+ "status": "REPORTED",
+ "summary": "GBHackers reports that Amazon Web Services has fixed flaws in its AI agent software that could let attackers bypass authentication and steal credentials.",
+ "url": "https://gbhackers.com/aws-fixes-ai-agent-flaws/",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only. GBHackers page returned 202 with a captcha redirect (also on retry); no other outlet found carrying the story after several Google News searches."
+}

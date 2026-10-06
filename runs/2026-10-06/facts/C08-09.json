@@ -1,0 +1,26 @@
+{
+ "item_id": "C08-09",
+ "title": "Navitas and Microchip collaborate on 800V reference design for AI data centers",
+ "source_used": "Semiconductor Today (its report on the joint Navitas and Microchip announcement)",
+ "article_url": "https://www.semiconductor-today.com/news_items/2026/oct/navitas-microchip-051026.shtml",
+ "fetched": true,
+ "key_facts": [
+  "Navitas Semiconductor (Torrance, California) and Microchip Technology (Chandler, Arizona) have collaborated on an 800V DC-to-6V DC reference design for AI data-centre rack power; announced 5 Oct 2026.",
+  "The industry is shifting toward 800V DC rack power architectures to improve distribution efficiency and power density for high-power GPU clusters; the design is aligned with the Open Compute Project (OCP) 800V DC standard.",
+  "It combines Microchip's digital power control and security parts (dsPIC33AK digital signal controllers, TA100 CryptoAuthentication device) with Navitas's GaNFast gallium nitride (GaN) power devices.",
+  "The power board uses 16 GaN transistors and targets up to 96% peak efficiency at full load, with a power density of 2,100 watts per cubic inch, and is about 20% thinner than a mobile phone.",
+  "It converts 800V DC straight to 6V DC, combining the 800V-to-50V and 50V-to-6V stages in one converter.",
+  "It will come with a reference board, software and documentation, and is being showcased at Microchip's event at the 2026 OCP Global Summit in San Jose, California (12 to 15 Oct).",
+  "Quotes come from Microchip's Joe Thomsen and Navitas's Vipin Bothra; the efficiency and density figures are stated targets from the companies.",
+  "Semiconductor Today's page is a report built on the companies' announcement; the wire press release (GlobeNewswire, 5 Oct 2026) is blocked here."
+ ],
+ "quote_evidence": [
+  "To help accelerate this transition, power semiconductor firm Navitas Semiconductor Corp of Torrance, CA, USA and Microchip Technology Inc of Chandler, AZ, USA have collaborated on an 800V DC-to-6V DC reference design for AI data-center rack power applications.",
+  "The PDB targets delivering up to 96% peak efficiency at full load with 1MHz switching frequency, enabling a power density of 2100W/in3.",
+  "The solution is being showcased at Microchip’s event at the 2026 Open Compute Project (OCP) Global Summit in San Jose, CA, USA (12–15 October)."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Higher-voltage rack power is meant to make AI data-centre power distribution more efficient, and a ready-made design shortens the work for builders.",
+ "event_date": "5 Oct 2026",
+ "notes": "Pool item is Semiconductor Today's report of a joint Navitas and Microchip press release (GlobeNewswire, 5 Oct 2026, wire page not reachable here); credited to Semiconductor Today. Company claims and targets, not independently tested; no customer or launch date named."
+}

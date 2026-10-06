@@ -1,0 +1,26 @@
+{
+ "item_id": "C13-01",
+ "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+ "source_used": "BBC News (full article, from the prefetched text)",
+ "article_url": "https://www.bbc.com/news/articles/c5j9x9pr0240o",
+ "fetched": true,
+ "key_facts": [
+  "A US Department of Defense official told the BBC in a statement on Monday 5 Oct 2026 that the Pentagon 'has ceased the use of Anthropic products'.",
+  "Defense Secretary Pete Hegseth labelled Anthropic a national-security supply-chain risk in February and announced on 27 Feb a six-month deadline, so the Pentagon was to stop using it by late August; the BBC says it is not clear why there has been a delay.",
+  "The label followed Anthropic's refusal, citing mass surveillance and autonomous weapons, to remove safety guardrails from Claude and give the military unfettered access; the BBC says the law behind the label is typically reserved for companies based in countries that pose a threat to the US.",
+  "Several people familiar with the matter (former defense officials and AI contractors, some anonymous) told the BBC that as recently as last week Claude was still used by the department in research, analysis, intelligence gathering and military operations against Iran, including through Palantir's Maven Smart System, the Pentagon's main platform for organising intelligence data.",
+  "Anthropic called the designation 'unprecedented and unlawful' and has sued the Trump administration to overturn it; an Anthropic spokesman declined to comment on the Pentagon's statement.",
+  "While the case is in court the Pentagon has signed contracts with Google, xAI and OpenAI; two people familiar say OpenAI tools have been more widely adopted in recent months in some military departments.",
+  "Lauren Kahn of Georgetown's Center for Security and Emerging Technology says that because Claude was deeply integrated into Maven it would have been hard to remove quickly.",
+  "The BBC says the details of the department stopping all use of Anthropic's tools had not been previously reported; Trump met Anthropic chief executive Dario Amodei twice at the White House last week."
+ ],
+ "quote_evidence": [
+  "The Pentagon \"has ceased the use of Anthropic products\", the department official said in a statement on Monday.",
+  "The details of the department stopping all use of Anthropic's tools have not been previously reported.",
+  "Hegseth set a six-month deadline to phase out Anthropic on 27 February, one day before the US and Israel attacked Iran."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "First confirmation that the Pentagon has fully dropped Claude, which sources say was embedded in its main intelligence-data platform and still in use last week.",
+ "event_date": "5 Oct 2026 (Pentagon statement); the designation dates from Feb 2026; sources say use continued until last week",
+ "notes": "Follow-up of 1004:C13-04 (ABC News, published 3 Oct 2026, 'Judge appears skeptical of Pentagon arguments in legal fight over Anthropic supply chain risk designation'); that pool item was not printed in our 4 Oct edition and only its headline is known, so the summary does not describe it. Single original outlet (BBC) with an anonymous official and unnamed sources; Times of India, Kenya Insights and others only relay the BBC, so status REPORTED, not CONFIRMED."
+}

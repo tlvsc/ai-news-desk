@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-04",
+ "title": "AHA blog responds to BCBS report suggesting hospitals’ use of AI documentation tools drives increased healthcare costs",
+ "source_used": "American Hospital Association: the full blog 'Better Information, Better Care: How Coding Supports Today's Complex Patients' (5 Oct 2026) and the short AHA news item (fulltext/C10-04.txt) that summarizes it",
+ "article_url": "https://www.aha.org/news/blog/2026-10-05-better-information-better-care-how-coding-supports-todays-complex-patients",
+ "fetched": true,
+ "key_facts": [
+  "An AHA blog published 5 Oct 2026 answers a Blue Cross Blue Shield Association (BCBSA) report; the AHA news item names the authors as Molly Smith, group vice president of policy, and Jen Holloman, director of health IT policy.",
+  "The AHA says BCBSA's September white paper suggests hospitals' use of AI-enabled documentation tools drives higher costs through increased coding intensity, estimating $942 million in additional spending for BCBSA plans between 2023 and 2025, and implies the spending may be wasteful.",
+  "The AHA argues patients today are older and more clinically complex and that lower-acuity care has moved to outpatient settings, so more complex coding does not mean wrong coding.",
+  "The AHA says the analysis did not review the underlying medical records to see whether diagnoses were clinically supported and does not appear to identify which claims involved AI tools.",
+  "The AHA says the $942 million is a cumulative two-year figure and, by its own calculation from BCBSA's March 2026 issue brief, inpatient coding intensity added only about 0.3 percentage points to commercial spending growth.",
+  "The AHA says the test is whether the medical record supports a diagnosis, and points to a federal audit (HHS Inspector General found unsupported diagnoses in 247 of 271 sampled enrollee-years at Blue Cross and Blue Shield of Alabama) and a Justice Department allegation against Anthem about Medicare Advantage diagnoses.",
+  "Our earlier coverage of the BCBSA analysis: 25 Sep 2026 edition (Tech Startups) and 27 Sep 2026 edition (TechCrunch citing BCBSA and The New York Times, no hospital response given then)."
+ ],
+ "quote_evidence": [
+  "The central question is not whether hospitals are reporting more diagnoses.",
+  "BCBSA’s analysis insinuates conclusions about AI-enabled coding without reviewing the underlying medical records to determine whether reported diagnoses were clinically supported.",
+  "It may simply reflect more complete documentation of increasingly complex patients."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "Hospitals' side of a dispute with insurers over whether AI documentation tools raise costs; both sides are interested parties and neither shows a record-by-record check.",
+ "event_date": "5 Oct 2026 (AHA blog); the BCBSA analysis it answers appeared in September 2026 and was carried in our 25 and 27 Sep editions",
+ "notes": "Reply story (Rafi, 4 Oct 2026): the AHA answers the BCBSA analysis; the summary names it, says who reported what and when, and points to our 25 and 27 Sep 2026 editions. The BCBSA paper itself was not read (Fierce Healthcare of 24 Sep and HealthLeaders of 30 Sep returned HTTP 403); its content is described from the AHA blog and our earlier entries. AHA is a party to the dispute; its blog is advocacy. The pool link is the short AHA news item; the entry links the full blog."
+}

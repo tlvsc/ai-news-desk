@@ -1,0 +1,13 @@
+{
+ "item_id": "C16-05",
+ "title": "AI troll bot turns Marcus Hutchins’ trolls in circles",
+ "source_used": "none: the Cybernews page returned HTTP 403 and no other outlet carrying the story was found",
+ "article_url": "https://cybernews.com/ai-news/marcus-hutchins-anti-troll-ai-bot-github/",
+ "fetched": false,
+ "key_facts": [],
+ "quote_evidence": [],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The headline points to AI being tried as a defence against online trolling; nothing beyond the headline was read.",
+ "event_date": "unknown; Cybernews published on 5 Oct 2026",
+ "notes": "No article text could be obtained. Cybernews returned HTTP 403 to the main session's fetch (fulltext/_status.json). Five Google News RSS searches (3, 7 and 14 day windows, with Hutchins, MalwareTech, GitHub, troll and bot as keywords) returned only the Cybernews item, so no other outlet could be credited. Hutchins' own site (malwaretech.com) sits behind a Cloudflare challenge and was not pursued. The URL slug (marcus-hutchins-anti-troll-ai-bot-github) suggests an anti-troll AI bot published on GitHub, but that is not confirmed. Who built the bot, how it works and how it was tested are gaps. Entry written as headline only; the summary is one cautious sentence with attribution."
+}

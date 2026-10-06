@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-02",
+ "title": "DeepMind unveils AI system that designs enzymes no living cell ever made",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/deepmind-unveils-ai-system-that-designs-enzymes-no-living-cell-ever-made/",
+ "fetched": true,
+ "key_facts": [
+  "Google DeepMind released a preprint for AlphaProtein Novo on 5 Oct 2026, announced on X by Pushmeet Kohli, DeepMind's vice president of science and strategic initiatives; it is a generative model that designs enzymes from scratch rather than tweaking natural ones.",
+  "The team built two custom enzymes: one makes piperidine, a six-membered ring found in many drugs, and DeepMind says it does so 99 times faster than the industrial process chemists use today; the other breaks down DEHP, a plastic softener that regulators have flagged for links to reproductive harm and liver damage.",
+  "Neither enzyme exists in nature; DeepMind says the system reached state-of-the-art activity on both benchmark reactions it was tested on.",
+  "Natural phthalate-degrading enzymes tend to lose activity above room temperature; the article says that if DeepMind's enzyme keeps working when hot it could close a gap that has kept enzymatic plastic breakdown mostly in the lab (the outlet's own reasoning, not a DeepMind result).",
+  "The enzyme work was done with external collaborators, including a group at the Francis Crick Institute.",
+  "The article stresses that a preprint is not a peer-reviewed paper and a benchmark reaction is not a validated, scaled-up industrial process.",
+  "Context given: Isomorphic Labs, DeepMind's drug-discovery spinout, raised $2.1 billion this year; AlphaProtein Novo is a separate research effort."
+ ],
+ "quote_evidence": [
+  "Google DeepMind says its new system designed an enzyme that makes a key drug ingredient 99 times faster than the industrial process chemists currently rely on.",
+  "A preprint is not a peer-reviewed paper, and a successful benchmark reaction is not the same as a validated, scaled-up industrial process running for months without degrading.",
+  "AlphaProtein Novo's enzyme work was done with external collaborators, including a group at the Francis Crick Institute."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "If it holds, enzymes designed to order could cut the cost of making drug ingredients and break down a plastic softener at the high temperatures industry uses; so far it is DeepMind's preprint, not an industrial process.",
+ "event_date": "Preprint announced on X on 5 Oct 2026.",
+ "notes": "Read in full on Startup Fortune. Single source: Google News searches on 6 Oct 2026 for AlphaProtein Novo and the enzyme details found no other outlet and no DeepMind page, so nothing could be cross-checked. The page text also carries unrelated link teasers (a Kyoto statement line, an SSI funding line, 'also read' items); they were ignored. The EPA and CDC remarks on DEHP are the outlet's own context, not DeepMind's."
+}

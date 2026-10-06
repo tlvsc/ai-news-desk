@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-04",
+ "title": "Airbus demonstrates Quantum-Secure communications in live tactical operations",
+ "source_used": "EDR Magazine (text of an Airbus announcement); identical text also read at The Critical Communications Review",
+ "article_url": "https://www.edrmagazine.eu/airbus-demonstrates-quantum-secure-communications-in-live-tactical-operations-airbus-demonstrates-quantum-secure-communications-in-live-tactical-operations",
+ "fetched": true,
+ "key_facts": [
+  "Airbus Defence and Space says it has demonstrated a quantum-secure tactical communications network connecting military and law-enforcement users across different operational networks, which it calls a first.",
+  "The live trial took place in Malta on 10 and 11 Sep 2026 and was self-funded.",
+  "The architecture combined post-quantum cryptography (PQC, quantum-resistant algorithms) with quantum key distribution (QKD, physics-based secure key exchange) across multiple nodes.",
+  "Key management and software-defined networking (SDN) orchestrated encryption and routing as mission conditions changed.",
+  "At the centre was Agnet, Airbus's communication and collaboration platform; Merqury Cybersecurity supplied key management and SDN; Stormshield network encryptors and QKD from Telsy (a TIM Enterprise brand) via Quantum Telecommunications Italy ran over Melita's telecom infrastructure in Malta.",
+  "Airbus says the trial counters the 'harvest now, decrypt later' threat, where information intercepted today could be decrypted by future quantum computers.",
+  "No performance figures, user names or outside comment are given."
+ ],
+ "quote_evidence": [
+  "Airbus Defence and Space has successfully demonstrated a quantum-secure tactical communications network connecting military and law enforcement users across different operational networks for the first time.",
+  "Conducted in Malta on the 10th and 11th September 2026, the self-funded live trial went beyond testing individual technologies.",
+  "The trial furthermore directly counters the critical “harvest now, decrypt later” threat, where sensitive information intercepted today could be decrypted by future quantum computers."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A defence supplier's field test of encryption meant to withstand future quantum computers, but every claim is Airbus's own.",
+ "event_date": "Trial on 10 and 11 Sep 2026 in Malta; announced 5 Oct 2026.",
+ "notes": "EDR Magazine (5 Oct 2026, 12:30 UTC) and The Critical Communications Review (5 Oct, 21:00 UTC) print identical text, which reads as an Airbus announcement; no independent comment, figures or user names. No earlier report of the trial found in a 21-day news search. Not carried in the previous 14 Full Reports."
+}

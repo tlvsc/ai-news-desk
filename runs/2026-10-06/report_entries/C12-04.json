@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-04",
+ "v1_category": "SEC",
+ "headline": "A researcher showed that AI agents that trust one another can be tricked into passing a hacker's instructions along through the MCP standard that links them.",
+ "score": 6,
+ "score_reason": "Pool score kept: named researcher, named vendors and fixes; it is proof-of-concept work and another expert says the attack is not new.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Organisations that connect AI agents with MCP, and the people whose data those agents can reach, face a way for attackers to move between internal systems, and Ars argues that firms rushing to build agents have dropped the 'zero trust' principle (assume any part of a network may be compromised), but this is proof-of-concept work, the flaws found were fixed, and experts disagree on whether it is a new class of attack or a subclass of a known one.",
+ "source": "Ars Technica",
+ "status": "REPORTED",
+ "summary": "Ars Technica reports that independent researcher Syed Anas Mohiuddin showed, in proof-of-concept tests on AI agents at organisations including Google, JPMorgan Chase and the US federal government, that a malicious instruction planted in one agent can be passed to other agents that trust it, using trust gaps in the Model Context Protocol (MCP), a standard that lets AI apps and agents communicate. Google and four other organisations have acknowledged such flaws in the past five months, and the Google flaw (rated 8 for severity) and a Rapid7 flaw (rated 2.7 out of 10) are fixed, but another researcher, Markus Vervier of the security firm X41 D-Sec, says the better label is prompt injection (hiding commands in text an AI reads), of which the technique is a simple subclass.",
+ "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Date of the researcher's latest disclosure not stated by Ars; individual flaws were disclosed over the past five months. Related to the week's agent-security items (C12-12)."
+}

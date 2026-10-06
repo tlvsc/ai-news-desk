@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "Airbus says it has tested a quantum-secure communications network linking military and law-enforcement users in a two-day live trial in Malta.",
+ "score": 5,
+ "score_reason": "Pool score kept: a named defence company reports a two-day live trial with named partners, but the claims are Airbus's own and the users are unnamed.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Military and police users who want communications that stay safe from future quantum computers get an early field example, but the claims come from Airbus alone and the users are not named.",
+ "source": "EDR Magazine, carrying an Airbus announcement",
+ "status": "REPORTED",
+ "summary": "EDR Magazine carries an Airbus Defence and Space announcement that the company tested a quantum-secure network linking military and law-enforcement users in Malta on 10 and 11 Sep 2026, combining post-quantum cryptography (encryption built to resist future quantum computers) with quantum key distribution (a physics-based way of sharing secret keys). Airbus, which funded the trial itself and calls it a first, presents it as an answer to the “harvest now, decrypt later” threat, in which data intercepted today could be read by future quantum computers, but it gives no figures and does not name the users.",
+ "url": "https://www.edrmagazine.eu/airbus-demonstrates-quantum-secure-communications-in-live-tactical-operations-airbus-demonstrates-quantum-secure-communications-in-live-tactical-operations",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Trial held 10 and 11 Sep 2026, but the news event is Airbus's announcement of 5 Oct 2026 (EDR Magazine 12:30 UTC; The Critical Communications Review 21:00 UTC carries the same text), so kept NEW; no earlier report of the trial found in a 21-day search. The identical text in both outlets reads as an Airbus announcement; no independent comment, figures or user names, hence REPORTED. Meaning check: who (Airbus Defence and Space, named partners), what (live trial of PQC plus QKD network, 10-11 Sep, Malta), why (harvest-now-decrypt-later threat), hedges (company's own claim, 'calls it a first', no figures) all kept; no deployment claim added."
+}

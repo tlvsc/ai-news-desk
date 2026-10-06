@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-08",
+ "title": "Meta Rushed to Fix Muse ‘VM Escape' Vulnerability Soon Before Launch",
+ "source_used": "404 Media, full text",
+ "article_url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
+ "fetched": true,
+ "key_facts": [
+  "404 Media reports that in the weeks before Muse launched, Meta engineers found several security vulnerabilities in the AI agent product, at least one of which could have let malicious users break out of Muse's intended environment and reach Meta's own sensitive databases and services.",
+  "Each Muse instance runs on a kernel-based virtual machine that connects to, but is meant to be isolated from, Meta's critical infrastructure; a 'KVM escape' is when an instance breaks out of that machine.",
+  "According to an anonymous Meta source and internal security documents and posts seen by 404 Media, at least one flaw could have let an ordinary Muse user reach data in sensitive internal databases, and at least one related to an exploit found in Linux virtual machine code in July.",
+  "The issue was raised to Mark Zuckerberg and several security teams worked nights and weekends before launch to fix it.",
+  "An internal post of 18 Sep 2026, ten days after launch, by Meta's vice president of core infrastructure Surupa Biswas, vice president of engineering Francois Richard and senior director Josh Barry says a service hardening push began on 27 Aug and lasted a 'handful of weeks and weekends', after 'a sudden spike in reported KVM escapes'.",
+  "The source says security teams were asked to push hot fixes without delaying the launch, leading to 'half-baked protections', and that many senior engineers believe a massive data breach is inevitable (Muse is called Hatch inside Meta).",
+  "Meta's bug bounty pays up to $300,000 for a VM escape; a Meta spokesperson said Meta is proud of the work to make Muse safe, secure and private and that the work continues.",
+  "Outside researchers have since found other Muse security issues, including a zero-day found by Patrick Wardle that let apps and terminal commands control a user's Muse."
+ ],
+ "quote_evidence": [
+  "In the immediate weeks before Muse’s launch, Meta engineers found several security vulnerabilities in the company’s viral AI agent product, at least one of which could have allowed malicious users to break outside of Muse’s intended environment and access Meta’s own sensitive databases and services, 404 Media has learned.",
+  "The security issue was considered serious enough that it was raised to Mark Zuckerberg, and several different security teams worked nights and weekends in the leadup to launch to fix the issues.",
+  "“With Muse, we are directly hosting and running agents on behalf of end users, a fundamentally different paradigm,” the post said."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Muse holds users' email, calendar and account access inside a virtual machine whose isolation from Meta's systems matters, and insiders reportedly doubted the quick fixes; no exploitation is reported.",
+ "event_date": "Fix push began 27 Aug 2026; internal post 18 Sep 2026; first reported by 404 Media on 5 Oct 2026",
+ "notes": "Read in full. First report of these internal documents (no earlier item in our 3 to 5 Oct editions), so freshness is NEW even though the internal events date from August and September. The account rests on one anonymous Meta source plus internal documents seen by 404 Media; Meta's statement is general and does not address the flaws. The article says Muse launched about 8 Sep 2026 (the post came ten days after launch)."
+}

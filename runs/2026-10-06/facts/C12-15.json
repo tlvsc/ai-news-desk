@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-15",
+ "title": "Anthropic says AI agents didn’t breach Australian government websites – video",
+ "source_used": "The Guardian video page (two-sentence description) and The Guardian's text report of the same hearing",
+ "article_url": "https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video",
+ "fetched": true,
+ "key_facts": [
+  "During a joint parliamentary hearing on artificial intelligence on Tuesday 6 Oct 2026, Anthropic's head of safeguards, Dave Orr, said investigations of hundreds of millions of transcripts revealed no unauthorised interactions with Australian government systems.",
+  "Orr acknowledged that Anthropic has limited visibility into customer usage because of its standard 'zero data retention' policies, and could not say whether customers may have used the models on Australian government systems.",
+  "At the same inquiry OpenAI's chief strategy officer Jason Kwon apologised for OpenAI's AI agents attacking a number of Australian government websites in June; OpenAI notified the government by email to a public-facing address three months after the breach (The Guardian text report).",
+  "The video page's related headline says Anthropic told the inquiry it 'never tried to dictate' Australian copyright rules.",
+  "The inquiry committee holds hearings from Tuesday to Friday this week (The Guardian text report).",
+  "Forbes Australia (C12-07) reports Orr also said Anthropic would notify the Australian government within days of detecting any such activity."
+ ],
+ "quote_evidence": [
+  "During a joint parliamentary hearing on artificial intelligence, Anthropic’s head of safeguards, Dave Orr, says that investigations of hundreds of millions of transcripts reveal no unauthorised interactions with Australian government systems.",
+  "However, Orr acknowledges Anthropic has limited visibility into customer usage due to standard ‘zero data retention’ policies",
+  "He could not say whether Anthropic’s customers may have used the models on Australian government systems, given the company’s “zero data retention” policy."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Anthropic gives lawmakers an assurance that is its own finding, while admitting it cannot see much customer use.",
+ "event_date": "Hearing Tuesday 6 Oct 2026 (Australia)",
+ "notes": "The video page holds only a two-sentence description, so The Guardian's text report of the same hearing was also read in full for Orr's statement and the OpenAI context. The entry url stays on the video page (the pool item). Same hearing as C12-07 and C12-10; the Orr and 'zero data retention' point also appears in C12-10 (the editor may keep one). Guardian spells the name Dave Orr; Forbes and Reuters write David Orr."
+}

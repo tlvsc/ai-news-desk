@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-04",
+ "v1_category": "MOD",
+ "headline": "Canadian AI company Cohere has unveiled North 2, an overhauled platform that lets large organisations run AI agents with memory and spending limits.",
+ "score": 5,
+ "score_reason": "Pool score kept: a notable enterprise agent upgrade confirmed by Cohere and two outlets, but the claims are the company's own and no measured results are given.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Administrators and staff at large organisations get tools to cap what AI agents cost and to limit what they are allowed to do, but the claims are Cohere's own and the report gives no prices or independent test results.",
+ "source": "SiliconANGLE",
+ "status": "CONFIRMED",
+ "summary": "SiliconANGLE reports that Cohere, a Canadian AI company that sells to large organisations, unveiled North 2 on Monday 5 Oct, an overhaul of its platform for running AI agents (software that works through multistep tasks on its own): agents now keep a memory between sessions, can be shared across a company and hand steps that need sign-off to a person. Its admin console tracks token use (the units in which AI models measure and bill their work) by person and agent and lets administrators cap spending, and its security controls screen for personal data and attempts to hijack an agent and keep each agent to the actions it is authorised to take.",
+ "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "VentureBeat's original (the pool's source) could not be opened here: HTTP 429 with a security checkpoint page. Written from SiliconANGLE's own report (read in full) and checked against The Register's report (read in full); source credited to SiliconANGLE and the link is its article. Announced Monday 5 Oct 2026. Kept MOD per default_v1."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-04",
+ "title": "It was found that in 32% of AI usage cases, using a cheaper model resulted in higher overall costs.",
+ "source_used": "GIGAZINE (English edition), 6 Oct 2026, read from fulltext/C01-04.txt (HTTP 200); the paper's arXiv page (2603.23971) checked once for its dates and abstract",
+ "article_url": "https://gigazine.net/gsc_news/en/20261006-ai-cheaper-model-more-cost/",
+ "fetched": true,
+ "key_facts": [
+  "A research team from Stanford University, Carnegie Mellon University, UC Berkeley and Microsoft Research had eight state-of-the-art AI models do over 6,800 tasks, including math, programming and science, to compare low-cost and high-cost models.",
+  "In 32% of cases the low-cost model ended up costing more overall.",
+  "Example: asked to analyse a YouTube video frame by frame, the high-priced Gemini 3.1 Pro finished in 85 steps for $1; the low-priced Gemini 3 Flash took over 1,000 steps, failed to complete the task and cost $14.",
+  "The team blames the AI's 'overthinking' and 'over-acting': complex tasks need more reasoning steps and actions, so a stronger model can sometimes run a task faster and cheaper.",
+  "In another test Gemini 3 Flash used more than 60,000 thinking tokens where GPT-5.4 solved the problem with only 25 tokens.",
+  "Repeating the same instructions on the same model, the most expensive trial cost 9.7 times the cheapest.",
+  "Lead author 'Lin Zhao Chen' is quoted as saying you should not judge which model is cheap based solely on price.",
+  "The study is named as 'The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More' (PDF 2603.23971v2)."
+ ],
+ "quote_evidence": [
+  "The results showed that in 32% of cases, the low-cost model ended up costing more overall.",
+  "The research team points out that the cause is the AI's 'overthinking' and 'over-acting.'",
+  "The cost of the task was $1 (approximately 158 yen) for the former and $14 (approximately 2211 yen) for the latter."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A lower listed price does not guarantee a lower bill: cheaper models can think and act far longer on hard tasks, so cost has to be judged per task.",
+ "event_date": "Study first posted 25 Mar 2026 (v1) and last revised 28 May 2026 (v2), per its arXiv page checked on 6 Oct 2026; GIGAZINE's write-up is dated 6 Oct 2026 (02:36 UTC).",
+ "notes": "OLDER NEWS RE-DATED: the arXiv record (arxiv.org/abs/2603.23971, authors Lingjiao Chen, Chi Zhang, Yeye He, Ion Stoica, Matei Zaharia, James Zou; no comments or journal reference shown) says submitted 25 Mar 2026, last revised 28 May 2026; GIGAZINE's write-up adds no new research, so freshness is FOLLOW-UP of 28 May 2026 and the item is a held-back candidate for qa_check. GIGAZINE's 'Lin Zhao Chen' appears to be first author Lingjiao Chen. Differences between GIGAZINE and the abstract: the abstract says 32% of model-pair comparisons (GIGAZINE says 32% of cases) and 12 task sets (GIGAZINE says over 6,800 tasks); the 9.7x figure is thinking-token variation in the abstract but cost in GIGAZINE, so the summary uses 'comparisons', 'thousands of tasks' and leaves the 9.7x figure out. The tested models (GPT-5.4, Gemini 3 Flash and 3.1 Pro) predate the paper's May revision. Preprint, no outside review reported."
+}

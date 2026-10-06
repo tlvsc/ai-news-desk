@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-04",
+ "v1_category": "RES",
+ "headline": "Google DeepMind has developed a way to hide a watermark in AI-designed proteins without stopping them working, but the mark can be scrubbed.",
+ "score": 4,
+ "score_reason": "Lowered from 6: DeepMind announced SynthID Bio on 30 Sep 2026, before the window, and this explainer adds no new facts about the work.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Biosecurity screeners and protein designers could get a way to tell AI-designed proteins from natural ones, but the mark can be removed, cannot name who made a protein, and there is no agreement on who should hold the key that reads it.",
+ "source": "Singularity Hub",
+ "status": "REPORTED",
+ "summary": "Singularity Hub reports that Google DeepMind has developed SynthID Bio, announced on 30 Sep 2026, a method that hides a subtle watermark in AI-designed proteins so they can later be recognised and that, in lab tests, watermarked protein binders (molecules built to latch onto a target protein) worked as well as unmarked ones. The article adds that the mark can be removed by running a protein through another design tool and cannot yet identify who made a protein, and that Oliver Crook of the University of Oxford told Science it could add complexity for researchers whose work raises no safety concern.",
+ "url": "https://singularityhub.com/2026/10/05/google-deepmind-gives-ai-designed-proteins-a-watermark/",
+ "freshness": "FOLLOW-UP of 30 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Old news re-dated into the window: DeepMind's own post (read) is dated 30 Sep 2026 and Google News lists a Nature paper and coverage by many outlets from 30 Sep to 4 Oct (only DeepMind's post was read). None of our editions since 23 Sep carried it. This 5 Oct explainer adds an outside comment (relayed from Science) but no new facts, so the QA check will hold it as re-dated unless the editor keeps it. Score lowered by two for that."
+}

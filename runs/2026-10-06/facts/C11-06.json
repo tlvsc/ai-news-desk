@@ -1,0 +1,26 @@
+{
+ "item_id": "C11-06",
+ "title": "Doosan to lead W98.9b AI robotics projects",
+ "source_used": "Seoul Economic Daily (English edition, AI-translated from Korean, original reporting by Jang Hyun-ki); cross-checked with Chosunbiz and Korea IT Times, which carry the same Doosan Robotics announcement",
+ "article_url": "https://en.sedaily.com/finance/2026/10/06/doosan-robotics-to-build-korean-physical-ai-on-domestic",
+ "fetched": true,
+ "key_facts": [
+  "Doosan Robotics said on 6 Oct 2026 that its proposals for a next-generation collaborative-robot project and an intelligent welding project were both selected as state projects under Korea's K On-Device AI Semiconductor Technology Development Program and Robot Industry Technology Development Program (run with the trade and industry ministry and the KEIT research agency).",
+  "Total research and development spending is 98.9 billion won (about $70 million, per Korea IT Times), of which about 68.1 billion won is government funding.",
+  "Project 1: collaborative robots that perceive, judge and control on their own without an external PC or cloud, using a domestic AI system-on-chip (a neural processing unit plus real-time communication and control) developed by AI chip startup Mobilint; three models with 5, 10 and 20 kg payloads plus an industrial humanoid capable of two-armed work and omnidirectional movement.",
+  "Doosan Robotics plans to commercialise them from 2031 after 72-hour nonstop demonstrations at two or more customer sites and international safety certification; Chosunbiz and Korea IT Times give this project 54 months.",
+  "Project 2: collaborative robots with AI and digital twins to automate difficult welding at nuclear power plant component level; robots recognise welding targets by camera, correct their position and learn skilled workers' movements to generate welding paths and weaving motions; 45 months.",
+  "Doosan's own targets: match skilled workers' welding paths at 95% or higher, keep path error within plus or minus 3 millimetres by a state-accredited testing institution's standard, and automate multilayer welding of five or more layers, cutting work time by more than 50%.",
+  "Demonstrations will be at Doosan Enerbility's nuclear power center, then shipbuilding, plants and defense after nuclear quality certification; DeepX, Sage and a Changwon National University foundation are partners, Doosan Enerbility a customer company.",
+  "Park In-won, president of Doosan Robotics, said labour shortages and the ageing of skilled workers are structural problems and that the aim is robots that learn and reproduce skilled workers' tacit knowledge."
+ ],
+ "quote_evidence": [
+  "Total research and development spending on the projects comes to 98.9 billion won, of which about 68.1 billion won is government funding.",
+  "The company plans to commercialize them from 2031 after conducting 72-hour nonstop demonstrations at two or more customer sites and obtaining international safety certification.",
+  "Doosan Robotics aims to match robot welding paths with those of skilled workers at a rate of 95% or higher and to reduce path error to within plus or minus 3 millimeters by the standards of a state-accredited testing institution."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A state-backed push to build collaborative robots with a home-made AI chip, and robots that learn welding from skilled workers, aimed at labour shortages and security-sensitive sites such as nuclear power; the products are not due until 2031.",
+ "event_date": "Announced by Doosan Robotics on 6 Oct 2026; commercial products planned from 2031.",
+ "notes": "The Korea Herald page (the pool's original) returned no response here (HTTP 000), so the same announcement was read in Seoul Economic Daily, Chosunbiz and Korea IT Times; the facts agree except that the ministry is named 'Trade, Industry and Energy' by two outlets and 'Trade, Industry and Resources' by Chosunbiz, so the entry says only 'trade and industry ministry'. All three rest on the company's statement (with a named president's quote) and the Korea Herald carries it too, so status is CONFIRMED for the selection and budget; no ministry or KEIT statement was seen, and the targets are the company's own. Seoul Economic Daily is credited as the outlet read and as its own reporting."
+}

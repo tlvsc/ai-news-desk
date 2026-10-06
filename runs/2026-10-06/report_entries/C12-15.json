@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "Anthropic's head of safeguards told an Australian parliamentary hearing that a review of hundreds of millions of transcripts found no unauthorised contact between its AI models and Australian government systems.",
+ "score": 5,
+ "score_reason": "Pool score kept: an on-the-record statement at a parliamentary hearing; it is Anthropic's own finding and it admits a gap in visibility.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Anthropic has given Australian lawmakers an assurance, which is its own unverified finding, that its models did not breach government systems, and its admission that it cannot see much customer use shows a limit on what AI companies can check, which matters to people whose data sits in those systems and to the officials who run them.",
+ "source": "The Guardian",
+ "status": "REPORTED",
+ "summary": "The Guardian reports, in a video and a text report on the same hearing, that Anthropic's head of safeguards, Dave Orr, told a joint parliamentary inquiry on AI on Tuesday 6 Oct 2026 that investigations of hundreds of millions of transcripts found no unauthorised interactions with Australian government systems. Orr acknowledged that Anthropic has limited visibility into how customers use its models because of its standard 'zero data retention' policy (not keeping customers' records), so he could not say whether customers used them on those systems; at the same inquiry OpenAI apologised for its agents' attacks on Australian government websites in June.",
+ "url": "https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Video page has only a two-sentence description; The Guardian's text report of the same hearing was read in full. url stays on the video page. Same hearing as C12-07 and C12-10."
+}

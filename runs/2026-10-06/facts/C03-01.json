@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "ReviewBench: An open benchmark for AI code review",
+ "source_used": "The GitHub Blog (GitHub's own post)",
+ "article_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub, with Microsoft, built ReviewBench, an offline benchmark for AI code review agents; the post says it is available to use today and that a research preview version is on the ReviewBench website, where people can compare code review agents and submit their own.",
+  "The benchmark holds 219 public pull requests from 187 public open source licensed repositories in 19 languages; GitHub analysed 103.9 million pull requests so that language and repository-size mix matches GitHub overall, and it weights pull-request size toward larger, multi-file changes.",
+  "Every finding is labelled for severity and category; ReviewBench reports six metrics in two families (known issues and newly discovered ones), with grounded recall as the headline cross-system comparison, and users can weight precision against recall.",
+  "Before release, senior engineers who had not helped build the dataset re-labelled every ground-truth finding from scratch; their true/false-positive judgments agreed with ReviewBench 96.6% of the time. GitHub says it versions the dataset, judge and matcher and publishes the validation method and known threats to validity.",
+  "GitHub says it uses ReviewBench to evaluate its own Copilot code review (CCR) and that offline changes have consistently pointed the same way as later production results.",
+  "Example given: a lite-tier multi-model ensemble review. ReviewBench predicted higher precision, recall and comment volume with lower cost per review; the online A/B test showed addressed rate (precision) +8.0%, recall +13.6%, comment volume +61% and cost per review -8.0%, all relative to the production control.",
+  "Severity check given: ReviewBench predicted a 227% increase in critical comments; the online figure was 262%."
+ ],
+ "quote_evidence": [
+  "We built ReviewBench, a new code review offline benchmark, to address that gap, and it is available for you to use today.",
+  "Their true/false-positive judgments agreed with ReviewBench 96.6% of the time.",
+  "The online A/B test moved in the same direction as ReviewBench predicted: addressed rate (precision) rose 8.0%, recall rose 13.6%, and comment volume rose 61%, while cost per review fell 8.0%, all relative to the production control."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Teams that build or choose AI code reviewers get a public yardstick, and GitHub says it already predicts how changes to its own Copilot code review perform with real users.",
+ "event_date": "5 Oct 2026 (GitHub blog feed lists the post at 15:59 UTC)",
+ "notes": "Read in full from fulltext/C03-01.txt; post date confirmed from GitHub's own blog feed (Mon, 05 Oct 2026 15:59:40 +0000), inside the window. Every number and the validation claim are GitHub's own; the post reports no outside review and describes ReviewBench as a research preview. GitHub also uses it to measure its own Copilot product. The Fbeta weighting and the three-stage golden-set process are not described in the text we have."
+}

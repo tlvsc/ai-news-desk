@@ -1,0 +1,25 @@
+{
+ "item_id": "C07-03",
+ "title": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
+ "fetched": true,
+ "source_used": "Investing.com summary of the Financial Times report, read on Yahoo Finance. FT original not opened (HTTP 403, paywall). Breakingthenews.net and KuCoin one-paragraph flashes agree on the main points.",
+ "article_url": "https://finance.yahoo.com/technology/ai/articles/wall-street-tests-lender-appetite-214705266.html",
+ "key_facts": [
+  "Investing.com, summarising the FT: Bank of America, Citigroup and Morgan Stanley, having committed to fund it, began syndicating (offering to other institutions) a record $60 billion debt package backing Anthropic's lease of Google chips.",
+  "It is the largest chip-financing transaction to date and is watched as a gauge of debt-market appetite for capital-intensive AI projects.",
+  "Syndication began Monday with $42 billion of senior secured loans backed by Broadcom's A-minus credit rating; the debt could later be sold through private placement or investment-grade bond markets.",
+  "An $18 billion junior tranche without Broadcom's guarantee is expected to launch later; Blackstone has committed about $9 billion and is helping syndicate the rest.",
+  "Underwriters may wait until after Anthropic's planned IPO later this year to tap broader markets for the junior debt, because the IPO disclosures would give lenders visibility.",
+  "The money funds Anthropic's chip orders for 2027 delivery; lease payments start only after the hardware is deployed.",
+  "Broadcom's latest quarterly report and investor term sheets indicate Anthropic could issue up to $42 billion of convertible notes to Broadcom to cover its lease obligations."
+ ],
+ "quote_evidence": [
+  "Syndication began on Monday with $42 billion in senior secured loans backed by Broadcom's A-minus credit rating, a structure that could eventually allow the debt to be sold across private placement or investment-grade bond markets.",
+  "An additional $18 billion junior debt tranche without Broadcom guarantees is expected to launch later, with Blackstone already committing approximately $9 billion while assisting in syndicating the remainder.",
+  "Because the unbacked junior tranche exposes lenders directly to Anthropic's credit profile, underwriters may hold off on tapping broader markets until after the startup completes its planned initial public offering later this year."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The sale is watched as a test of whether debt buyers will fund AI chip purchases at this size.",
+ "event_date": "5 Oct 2026 (syndication began Monday)",
+ "notes": "FT paywalled (HTTP 403); text is Investing.com's summary of the FT report, carried on Yahoo Finance. KuCoin's flash garbles the amounts ($420 billion, $180 billion, $90 billion): the figures used here follow Investing.com and our 3 Oct 2026 entry. Follow-up of our 3 Oct 2026 item (Bloomberg, 2 Oct). The syn-... parameter was dropped from the FT link."
+}

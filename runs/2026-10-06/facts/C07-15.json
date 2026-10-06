@@ -1,0 +1,25 @@
+{
+ "item_id": "C07-15",
+ "title": "Cerebras Stock Surges After OpenAI CEO Calls Chipmaker a ‘Close Partner’",
+ "fetched": true,
+ "source_used": "Investopedia text on its Yahoo Finance copy (same headline and time); Stocktwits text on Yahoo Finance for the reply context; Reuters market wrap (AOL copy) for the 9% close. Investopedia original not opened (HTTP 402).",
+ "article_url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-stock-surges-openai-ceo-164923148.html",
+ "key_facts": [
+  "Cerebras shares rose on Monday 5 Oct 2026 (up 8% in recent trading, per Investopedia) after OpenAI CEO Sam Altman called the company a 'close partner' in a social post; Reuters puts the gain at 9% at the close.",
+  "Altman said the companies have 'deep engagement pushing on the frontiers of speed'.",
+  "Stocktwits quotes the X post, made late Friday 2 Oct: 'There is some speculation about our partnership with Cerebras. Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.'",
+  "Cerebras shares had slumped about 20% the week before and closed Friday at $166.43, the lowest close since the May IPO, after research firm SemiAnalysis reported that OpenAI would use Nvidia GPUs rather than Cerebras hardware for the 'Ultrafast' mode of its GPT-6.1 Sol model.",
+  "A lockup expiry also added pressure: up to 19.4 million insider shares became eligible for sale on 30 Sep.",
+  "OpenAI is Cerebras' biggest customer by revenue backlog; the companies signed a $10 billion deal in January for 750 megawatts of computing power through 2028.",
+  "The stock is trading just below its $185 IPO price."
+ ],
+ "quote_evidence": [
+  "Cerebras shares rose Monday after OpenAI CEO Sam Altman called the company a close partner.",
+  "Cerebras came under pressure after research firm SemiAnalysis reported that OpenAI would use Nvidia GPUs instead of Cerebras hardware for the \"Ultrafast\" mode of its GPT-6.1 Sol model.",
+  "Cerebras Systems rose 9% after OpenAI CEO Sam Altman said on social media the chip designer is a \"close partner\" and that the companies have \"deep engagement pushing on the frontiers of speed.\""
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A short public statement from OpenAI's chief executive lifted a stock that had fallen on doubts about the OpenAI deal, without saying which chips run the fast mode.",
+ "event_date": "Altman's X post late Friday 2 Oct 2026; share rise Monday 5 Oct 2026",
+ "notes": "REPLY STORY: Altman's post names no one; it is widely read (Stocktwits, Investopedia) as an answer to speculation after SemiAnalysis's claim, which we carried in our 1 Oct 2026 edition (OfficeChai). Investopedia page blocked (HTTP 402); text read on its Yahoo Finance copy. Follow-up of our 3 Oct 2026 edition item (CNBC, Cerebras at its post-IPO low)."
+}

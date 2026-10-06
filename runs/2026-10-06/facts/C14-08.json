@@ -1,0 +1,26 @@
+{
+ "item_id": "C14-08",
+ "title": "People are asking ChatGPT to help them decide how to vote in the midterms",
+ "source_used": "NPR (fulltext/C14-08.txt, 7,893 chars, HTTP 200)",
+ "article_url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+ "fetched": true,
+ "key_facts": [
+  "NPR spoke with voters using AI chatbots to research their ballots in the first midterm election since AI 'has taken the country by storm'; Adam Johnson, 40, of Morgantown, West Virginia, held an hours-long ChatGPT conversation about his ballot.",
+  "About half of American adults use AI chatbots and about 42% of users use them to search for information, according to the Pew Research Center.",
+  "About one in five voters say they consult chatbots for election news and voting, with Democratic and Republican voters using them at similar rates, according to a September survey by the American Association of Political Consultants Foundation.",
+  "Voters said they use chatbots for races lower on the ballot with thin news coverage, to build comparison tables of candidates and to verify or debunk viral claims; Lakshmi Iyer used Claude to build Ballot Lookup, a volunteer site showing Pennsylvania voters their ballots.",
+  "Johns Hopkins postdoctoral fellow Rafael Batista says the properties that make chatbots useful also make them subtly persuasive and eager to please, so users may leave more confident without learning more.",
+  "AI companies do not disclose how commercial models are trained or choose sources, so biases are hard to know; Anthropic and Google did not respond to NPR, and OpenAI pointed to its election page saying it monitors bias to keep ChatGPT politically neutral.",
+  "Voters acknowledged weaknesses: Johnson called ChatGPT 'a people pleaser'; Tyler Black checks one chatbot's answers against another to catch hallucinations, which Batista says beats reusing one model but is unproven.",
+  "Batista advises voters to hide their personal preferences in prompts and to use incognito mode so the chatbot has little prior information on them."
+ ],
+ "quote_evidence": [
+  "About half of American adults report using AI-powered chatbots and about 42% of users said they use it to search for information, according to the Pew Research Center.",
+  "About one in five voters said they consult AI chatbots for election news and voting, and Democratic and Republican voters are using bots at similar rates, according to a September survey conducted by the American Association of Political Consultants Foundation, a nonprofit focusing on political expression.",
+  "Experts say the properties that make chatbots useful also make them subtly persuasive and eager to please."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Voters are using chatbots as a research tool for the November midterms, and experts warn the tools can quietly reinforce what users already believe.",
+ "event_date": "Published 5 Oct 2026; midterm elections on 3 Nov 2026.",
+ "notes": "Read in full. Largely anecdotal (named voters) plus a Pew figure and one survey; no measurement of how chatbots change votes. NPR's text spells Batista's university 'John Hopkins'; the entry uses Johns Hopkins."
+}

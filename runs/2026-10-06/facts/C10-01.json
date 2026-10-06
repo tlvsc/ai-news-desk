@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-01",
+ "title": "This startup is issuing AI-generated acne prescriptions",
+ "source_used": "The Verge (full text from fulltext/C10-01.txt); it relays Nolla Health's announcement and cites Bloomberg",
+ "article_url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+ "fetched": true,
+ "key_facts": [
+  "Healthcare startup Nolla Health announced on Monday (5 Oct 2026) that users in Utah can scan their faces with its app, and its AI system rates acne severity and writes a prescription on its own; The Verge says Bloomberg reported this earlier.",
+  "It launches as a pilot with gradually loosening physician oversight: two physicians approve each AI-generated prescription before it is issued for the first 100 patients; for up to 500 patients they review prescriptions only after they are issued; after that physicians review a sample of at least 10% a month plus every case involving an escalation or side effect (Nolla Health).",
+  "Utah started allowing AI systems to renew certain medications earlier this year, and several other healthcare companies are experimenting with AI prescriptions there; Nolla Health says it is the first in the country to issue initial prescriptions rather than renewals.",
+  "The service costs $4.99 a month and applies only to Utah residents aged 18 or over with mild-to-moderate acne.",
+  "Nolla Health says it will direct users to a physician if the AI cannot confidently select a treatment; according to Bloomberg the AI can currently prescribe eight different skin treatments.",
+  "Nolla Health says the pilot is designed to complement, not replace, physicians, by handling routine low-acuity cases so dermatologists can focus on complex, high-risk patients.",
+  "The Verge's subhead says Utah has signed off on the system; no statement from the state was in the text read."
+ ],
+ "quote_evidence": [
+  "People in Utah can now use AI to get a prescription for acne treatment.",
+  "But Nolla Health says it’s the first in the country to issue initial prescriptions, rather than renewals.",
+  "“The pilot is designed to complement, not replace, physicians,” Nolla Health writes in its press release."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A reported US first for AI writing first-time prescriptions, run as a small Utah pilot whose doctor checks ease as patient numbers grow.",
+ "event_date": "Monday 5 Oct 2026 (announcement)",
+ "notes": "Credit chain: The Verge writes its own report from Nolla Health's press release (quoted) and says Bloomberg reported it earlier, citing Bloomberg for the eight treatments; the chain is not fully clear, so the entry reads 'The Verge, citing Nolla Health's announcement and an earlier Bloomberg report'. Utah's sign-off is The Verge's own statement. Pilot scale: one state, adults only, mild-to-moderate acne."
+}

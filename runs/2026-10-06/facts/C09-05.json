@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-05",
+ "title": "Finland strips big data centers of automatic grid priority in a policy overhaul",
+ "source_used": "TechRadar (pool link, fetched text); earlier coverage date checked in the Google News listing for Data Center Dynamics (page not opened)",
+ "article_url": "https://www.techradar.com/pro/finland-drops-first-come-first-served-grid-connections-leaving-data-centers-way-down-the-queue",
+ "fetched": true,
+ "key_facts": [
+  "Finland's government has drafted an amendment that would end arrival-order (first-come, first-served) grid connections.",
+  "Large computing facilities would go into lower priority categories unless they meet extra requirements on local electricity production and flexibility.",
+  "The government says the aim is to encourage major power users to reduce pressure on electricity prices and constrained network capacity.",
+  "For qualifying projects, 50% of expected yearly electricity use would have to be covered by generation located in the surrounding area, and data centers would have to offer flexible generation or demand reduction through an organised trading platform, at least 10% of their maximum demand.",
+  "Qualifying projects would enter a common six-month allocation process, with the first allocation scheduled for December 2027.",
+  "The amendment is scheduled to take effect on 1 Jan 2027 and could also affect earlier requests that have no completed connection agreement.",
+  "Data Center Dynamics already carried the plan on 30 Sep 2026 under the headline 'Finland to abandon first-come, first-served grid connections, dropping data centers down the queue' (listing date; page not opened)."
+ ],
+ "quote_evidence": [
+  "Finland's government has drafted an amendment that would end arrival-order grid connections with rules that give smaller projects earlier access.",
+  "The change would place large computing facilities into lower priority categories unless they satisfy additional electricity production and flexibility requirements.",
+  "The amendment is scheduled to take effect on January 1, 2027, and could also affect earlier requests without completed connection agreements."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A government draft that would make big data centers wait behind other users for grid power unless they bring their own nearby generation and flexibility.",
+ "event_date": "Draft reported by Data Center Dynamics on 30 Sep 2026; TechRadar article dated 5 Oct 2026.",
+ "notes": "Older news re-dated: the draft was in the news on 30 Sep 2026 (Data Center Dynamics headline date from Google News; its page returned a Cloudflare challenge and was not opened). The pool headline reads as if the change is done, but TechRadar describes a draft that would take effect on 1 Jan 2027. TechRadar does not name the ministry behind the draft. Not in our earlier reports or the last four pools."
+}

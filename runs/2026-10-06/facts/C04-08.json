@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-08",
+ "title": "Can Scientists Build a Lie Detector for AI Chatbots?",
+ "source_used": "Northeastern Global News",
+ "article_url": "https://news.northeastern.edu/2026/10/05/ai-lie-detector-research/",
+ "fetched": true,
+ "key_facts": [
+  "Northeastern University experts say AI chatbots can still share false information and that researchers do not fully understand how models produce their answers, which is why AI is called a 'black box'.",
+  "David Bau (Khoury College of Computer Sciences) has for two years worked at the National Deep Inference Fabric (NDIF), a National Science Foundation-funded AI lab based at Northeastern, using open-source models, supercomputers and a software library called NNsight that shows a model's neurons firing as it answers.",
+  "Bau describes a 'white box' for AI as, broadly, a lie detector that picks up patterns in a model's neural network activity showing it is tricking a user; the hope is to share those patterns with people who use these systems so they can tell when a chatbot is being deceptive.",
+  "Bau, with Khoury College, has formed the International Consortium for Interpretable AI (ICINAi): more than 40 academics worldwide who share AI models, testing methods and computing resources.",
+  "Byron Wallace, a Khoury professor and consortium member, says much of the work will focus on finding unfaithful explanations (models concealing information through deceptive practices), hidden objectives and biases.",
+  "Dean Beth Mynatt says the consortium will create the science and metrics needed so AI can be developed reliably and safely.",
+  "Bau's team has begun collecting detailed data on when AI models show sycophantic behavior when answering medical questions.",
+  "The article reports no results, no working detector and no timetable; it gives only Northeastern researchers' views."
+ ],
+ "quote_evidence": [
+  "“When we use these systems, we don’t know what their algorithms are,” said David Bau, a professor in the Khoury College of Computer Sciences.",
+  "It is composed of more than 40 academics working in AI from across the globe to develop white box AI solutions, Bau said.",
+  "The hope is to share those patterns with people who use these systems so they can tell when a chatbot is being deceptive, Bau said."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People use chatbots for medical, financial and life advice and may get misleading answers; a deception detector would help, but this is a newly formed research group with no results yet.",
+ "event_date": "Not stated for the consortium's formation; article dated 5 Oct 2026.",
+ "notes": "Read in full. A university news feature built from its own researchers' statements; no outside experts and no results. The headline is a question and the article does not claim a lie detector exists."
+}

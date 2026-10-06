@@ -1,0 +1,17 @@
+{
+ "item_id": "C07-13",
+ "v1_category": "MKT",
+ "machine_action": false,
+ "headline": "Wingspire and Stonebriar, two equipment finance companies, are selling bonds backed by equipment-contract payments, but it is unclear how much of the money relates to AI chips.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: Bloomberg's headline links the deals to GPU (AI chip) financing, but the public summaries read say they do not give the AI share, so the link is unconfirmed.",
+ "importance_line": "Bond investors are being asked to buy debt that may include AI chip loans, but the AI share of both bond pools is not disclosed, so how much chip lending is in them is unknown.",
+ "source": "TokenPost",
+ "status": "REPORTED",
+ "summary": "TokenPost reports that Wingspire Equipment Finance and Stonebriar Commercial Finance are selling bonds repaid from equipment-contract payments, Wingspire's six classes of notes totalling $407.07 million and Stonebriar's backed by a pool of contracts with a discounted balance of about $957.87 million, though neither public summary says how much is tied to AI computing. Bloomberg's headline on the same deals says GPU (AI chip) financing is filtering into asset-backed bonds, and TokenPost notes that Wingspire separately announced $140 million of financing for GPU servers on 20 August 2026, not shown to be part of this sale.",
+ "url": "https://www.tokenpost.com/news/business/26894",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Bloomberg page blocked (HTTP 403); MarketScreener, Finimize, Traders Union and Crypto Briefing also blocked. TokenPost (a digital-asset news site) wrote its own piece from the public deal summaries. Bloomberg's claim that GPU financing is filtering into these deals could not be checked, so the score is lowered by 1 and the doubt is stated. Bloomberg link: https://www.bloomberg.com/news/articles/2026-10-05/gpu-financing-filters-into-abs-with-stonebriar-wingspire-deals",
+ "importance_label": "WATCHLIST"
+}

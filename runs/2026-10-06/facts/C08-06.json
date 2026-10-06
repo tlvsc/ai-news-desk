@@ -1,0 +1,26 @@
+{
+ "item_id": "C08-06",
+ "title": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
+ "source_used": "IndexBox (summary of EE Times' interviews), with WIRED (9 Sep 2026) for background",
+ "article_url": "https://www.indexbox.io/blog/kepler-computing-to-begin-memory-production-next-year-to-ease-ai-chip-bottlenecks/",
+ "fetched": true,
+ "key_facts": [
+  "EE Times (via IndexBox, 5 Oct 2026): Kepler Computing, founded in 2018, intends to begin producing memory products by next year to ease bottlenecks in high-bandwidth memory (HBM) and static random-access memory (SRAM) in AI chips.",
+  "Kepler has worked with GlobalFoundries on production and built its own fab for its proprietary three-dimensional, ferroelectric memory technology; Intel Capital is an investor.",
+  "The company says a small Kepler fab line beside a customer's existing fab could jump to leading manufacturing nodes several generations ahead at about one tenth of the investment of a new advanced node, without extreme ultraviolet lithography.",
+  "CEO Debo Olaosebikan says Kepler has two memories, one effectively an HBM replacement and one an SRAM replacement, with at least ten times more capacity than SRAM and five to ten times more bandwidth per watt than HBM.",
+  "Kepler says all its production capacity for 2027 is allocated; it declined to name customers or partners beyond GlobalFoundries, saying only that they work in AI data centres and manufacturing.",
+  "Kepler declined to give details of its ferroelectric memory material, citing the risk that foreign adversaries could use the knowledge to get around EUV lithography.",
+  "Intel Capital's Srini Ananth said Kepler is ready to work with industry partners toward larger-scale manufacturing; Kepler also plans to develop logic chips in the longer term.",
+  "Background (WIRED, 9 Sep 2026): the San Jose start-up came out of stealth mode with $468 million raised from backers including GlobalFoundries, Intel Capital, AMD Ventures, Baillie Gifford and Gates Frontier; the US Commerce Department committed up to $245 million in July."
+ ],
+ "quote_evidence": [
+  "Kepler Computing, a company founded in 2018, intends to begin production of memory products aimed at easing the bottlenecks that affect high-bandwidth memory and static random-access memory in artificial intelligence chips by next year, according to EE Times.",
+  "The company said all of its production capacity for 2027 is allocated.",
+  "Kepler declined to name customers and partners beyond GlobalFoundries, saying only that they operate in AI data centers and manufacturing."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A new memory type that uses less power per unit of data could ease AI's memory and energy bottlenecks, if the company's claims hold.",
+ "event_date": "Reported 5 to 6 Oct 2026 (EE Times); the company came out of stealth mode on 9 Sep 2026",
+ "notes": "EE Times page unreachable (HTTP 000); text read at IndexBox, which summarises EE Times' interviews with Kepler's CEO, CTO and an Intel Capital director. Background and funding from WIRED (9 Sep 2026). Company claims, not independently tested."
+}

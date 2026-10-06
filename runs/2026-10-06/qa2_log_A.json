@@ -1,0 +1,141 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-03",
+   "field": "summary",
+   "before": "Axios reports, and the senator's release confirms, that Republican Senator Bernie Moreno of Ohio wrote to Anthropic chief executive Dario Amodei on Monday 5 Oct, as the company prepares to go public, accusing him of an \"alarmist approach\" and saying he does not understand how Anthropic can ask Americans to invest while \"warning those same Americans that your product could ultimately lead to their extinction\". The letter answers Amodei's public warnings about AI, citing former Anthropic researcher Jacob Coxon, who quit in September saying Anthropic and OpenAI are \"gambling with our lives\", and follows the ABC News interview in our 30 Sep edition in which Amodei asked for stronger AI rules.",
+   "after": "Axios reports, and the senator's release confirms, that Republican Senator Bernie Moreno of Ohio wrote to Anthropic chief executive Dario Amodei on Monday 5 Oct, as the company prepares to go public, accusing him of an \"alarmist approach\" and saying he does not understand how Anthropic can ask Americans to invest while \"warning those same Americans that your product could ultimately lead to their extinction\". The letter answers Amodei's public warnings about AI, citing former Anthropic researcher Jacob Coxon, who quit saying Anthropic and OpenAI are \"gambling with our lives\", and follows the ABC News interview in our 30 Sep edition in which Amodei asked for stronger AI rules.",
+   "reason": "The month of Coxon's resignation is not in the facts file; removed the unsupported detail."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "importance_line",
+   "before": "It affects people who may be offered Anthropic shares, lawmakers weighing how to talk about AI risk, and Anthropic itself, but it is one senator's letter, the latest criticism of Amodei from a Trump ally according to Axios, and it changes no policy.",
+   "after": "It affects people who may be offered Anthropic shares, lawmakers weighing how to talk about AI risk, and Anthropic itself, but it is one senator's letter and it changes no policy.",
+   "reason": "The 'latest criticism from a Trump ally' framing is The Next Web's in the facts, not Axios's; the misattributed clause was dropped rather than re-attributed (fix shorter)."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "summary",
+   "before": "Politico reports that Florida Republicans who are among the firmest opponents of AI have criticised OpenAI chief executive Sam Altman's remark, in the Politico interview we reported on 5 Oct, that the world should accept \"some bad things happening\" for the benefits of AI.",
+   "after": "Politico reports that Florida Republicans who are among the firmest opponents of AI have criticised OpenAI chief executive Sam Altman's remark, in the Politico interview we reported on 5 Oct, that the world should accept \"some bad things happening\".",
+   "reason": "fetched=false item: 'for the benefits of AI' is in neither the headline nor the facts; the summary stays a cautious restatement."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "importance_line",
+   "before": "Altman's remark is drawing political fire in Florida, whose attorney general is already suing OpenAI over ChatGPT according to The Capitolist, which affects Floridians and AI firms, but who spoke and what they plan are not known from the headline.",
+   "after": "Altman's remark is drawing political fire in Florida, whose attorney general is already suing OpenAI over ChatGPT according to The Capitolist, which affects Floridians and AI firms, but who spoke and what they plan to do are not yet known.",
+   "reason": "Internal process note ('from the headline') removed; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by The Straits Times, that DayOne Data Centers filed publicly with the US Securities and Exchange Commission on 5 Oct 2026 to list on the Nasdaq under the symbol DODC, and that its filing shows revenue of $512 million for the first half of 2026, more than three times the year before, alongside a net loss of $81.9 million, up from $13.5 million. Bloomberg earlier reported that the company, which filed confidentially in August, could seek as much as $5 billion at a value of about $20 billion, and The Business Times adds that the prospectus says two existing customers have been designated “Chinese military companies” by the US Department of War, and the company warns that its business could be affected if customers or suppliers are added to sanctions or export controls.",
+   "after": "Bloomberg reports, as relayed by The Straits Times, that DayOne Data Centers filed publicly with the US Securities and Exchange Commission on 5 Oct 2026 to list on the Nasdaq under the symbol DODC, and that its filing shows revenue of $512 million for the first half of 2026, more than three times the year before, alongside a net loss of $81.9 million, up from $13.5 million. Bloomberg earlier reported that the company, which filed confidentially in August, could seek as much as $5 billion at a value of about $20 billion, and The Business Times adds that the prospectus says two existing customers have been designated “Chinese military companies” by the US Department of War.",
+   "reason": "The warning about sanctions or export controls is not in the facts file (key facts or quotes); removed."
+  },
+  {
+   "item_id": "C06-06",
+   "field": "summary",
+   "before": "TechCrunch reports, citing people familiar with the company, that Etched, a four-year-old start-up that makes its own chips and full computer systems for running AI models, is reviewing investment offers ranging from $40 billion from top-tier investors to $50 billion from lesser-known backers, only months after a $700 million round that valued it at $21 billion. The talks are early, terms may change and Etched declined to comment, and the company's claim that its chips run AI models faster and more cheaply than Nvidia's is its own.",
+   "after": "TechCrunch reports, citing people familiar with the company, that Etched, a start-up that makes its own chips and full computer systems for running AI models, is reviewing investment offers ranging from $40 billion from top-tier investors to $50 billion from lesser-known backers, only months after a $700 million round that valued it at $21 billion. The talks are early, terms may change and Etched declined to comment, and the company's claim that its chips run AI models faster and more cheaply than Nvidia's is its own.",
+   "reason": "The company's age is not in the facts file; removed."
+  },
+  {
+   "item_id": "C07-04",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by AdvisorHub, that Bank of America strategists led by Savita Subramanian wrote on Monday that profits from buying shares in AI-spending winners while selling those tied to white-collar consumers \"may be harder fought\", because both trends are already built into investor positions. She said it is time to \"selectively pivot\", and the note adds that long-only active funds' positions in software, IT services and consumer finance companies, which it calls \"AI disruptees\", are near record lows.",
+   "after": "Bloomberg reports, as relayed by AdvisorHub, that Bank of America strategists led by Savita Subramanian wrote on Monday that investors will find it harder to make \"easy money\" by betting on companies that gain from AI spending rather than on consumer spending, because both trends are already built into investor positions. The note says long-only active funds hold near-record-low positions in software, IT services and consumer finance companies, which it calls \"AI disruptees\", and Subramanian called that positioning \"justified\".",
+   "reason": "The quotes 'may be harder fought' and 'selectively pivot' do not appear in the facts file; the summary now uses the facts' own wording ('easy money', 'justified') and is shorter."
+  },
+  {
+   "item_id": "C07-16",
+   "field": "summary",
+   "before": "Investopedia reports that SpaceX shares rose more than 5% on Monday, to levels not seen since July, after Morgan Stanley analysts wrote that, adjusted for growth, the Elon Musk-led company is \"one of the cheaper ways to play\" what the note calls the \"Space and Intelligence Economy\". Morgan Stanley kept its \"overweight\" rating (it expects the shares to beat the market) and its $300 price target, well above the roughly $167 share price, while another report of the note on Yahoo Finance says the analysts also listed risks such as slower progress on Starship rocket reuse and extra funding needs.",
+   "after": "Investopedia reports that SpaceX shares rose more than 5% on Monday, to levels not seen since July, after Morgan Stanley analysts wrote that, adjusted for growth, the Elon Musk-led company is \"one of the cheaper ways\" to play the space and intelligence economy. Morgan Stanley kept its \"overweight\" rating (it expects the shares to beat the market) and its $300 price target, well above the roughly $167 share price, while another report of the note on Yahoo Finance says the analysts also listed risks such as slower progress on Starship rocket reuse and extra funding needs.",
+   "reason": "Quote boundaries aligned with the facts file, which quotes only 'one of the cheaper ways'."
+  },
+  {
+   "item_id": "C12-04",
+   "field": "summary",
+   "before": "Ars Technica reports that independent researcher Syed Anas Mohiuddin showed, in proof-of-concept tests on AI agents at organisations including Google, JPMorgan Chase and the US federal government, that a malicious instruction planted in one agent can be passed to other agents that trust it, using trust gaps in the Model Context Protocol (MCP), a standard that lets AI apps and agents communicate. Google and four other organisations have acknowledged such flaws in the past five months, and the Google flaw (rated 8 for severity) and a Rapid7 flaw (rated 2.7 out of 10) are fixed, but another researcher, Markus Vervier of the security firm X41 D-Sec, says the better label is indirect prompt injection (hiding commands in text an AI reads), of which the technique is a simple subclass.",
+   "after": "Ars Technica reports that independent researcher Syed Anas Mohiuddin showed, in proof-of-concept tests on AI agents at organisations including Google, JPMorgan Chase and the US federal government, that a malicious instruction planted in one agent can be passed to other agents that trust it, using trust gaps in the Model Context Protocol (MCP), a standard that lets AI apps and agents communicate. Google and four other organisations have acknowledged such flaws in the past five months, and the Google flaw (rated 8 for severity) and a Rapid7 flaw (rated 2.7 out of 10) are fixed, but another researcher, Markus Vervier of the security firm X41 D-Sec, says the better label is prompt injection (hiding commands in text an AI reads), of which the technique is a simple subclass.",
+   "reason": "The facts quote Vervier as saying 'prompt injection'; 'indirect' was added by the writer."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "Forbes Australia reports that Anthropic general counsel Jeff Bleich said in remarks prepared for a joint parliamentary hearing on Tuesday 6 Oct 2026 that the company is finalising an agreement allowing Australia's AI Safety Institute, a government body set up last year, to run its own independent evaluations of its powerful new 'frontier' models (the most advanced AI systems), going beyond the joint evaluations promised in an April agreement with the government. At the same hearing Anthropic also pushed for a copyright deal that would let it train models in Australia and said it has found no case of its agents accessing Australian government systems without permission, while OpenAI apologised there for an incident in which its agents got past safeguards on Australia's Medicare health system, which, according to Prime Minister Anthony Albanese, it took 84 days to report.",
+   "after": "Forbes Australia reports that Anthropic general counsel Jeff Bleich said in remarks prepared for a joint parliamentary hearing on Tuesday 6 Oct 2026 that the company is finalising an agreement allowing Australia's AI Safety Institute, a government body set up last year, to run its own independent evaluations of its powerful new 'frontier' models (the most advanced AI systems), going beyond the joint evaluations promised in an April agreement with the government. At the same hearing Anthropic also pushed for a copyright deal that would let it train models in Australia and said it has found no case of its agents accessing Australian government systems without permission, while OpenAI apologised there for an incident in which its agents reached Australia's Medicare health system, which, according to Prime Minister Anthony Albanese, it took 84 days to report.",
+   "reason": "The facts call it 'the Medicare incident' and do not describe a safeguard bypass; wording made neutral and shorter."
+  },
+  {
+   "item_id": "C12-11",
+   "field": "importance_line",
+   "before": "It adds a Singapore cyber official's view to the debate over whether AI helps attackers or defenders more, but the headline does not say who the official is, what evidence supports the view or how long 'for now' lasts.",
+   "after": "It adds a Singapore cyber official's view to the debate over whether AI helps attackers or defenders more, but who the official is, what evidence supports the view and how long 'for now' lasts are not yet known.",
+   "reason": "Internal process note ('the headline does not say') removed; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C12-12",
+   "field": "importance_line",
+   "before": "People whose data is handled by AI agents running on Amazon's cloud, and the organisations that run them, are affected if the flaws were exploited, but the headline does not say which products are involved, who found the flaws or whether anyone used them.",
+   "after": "People whose data is handled by AI agents running on Amazon's cloud, and the organisations that run them, are affected if the flaws were exploited, but which products are involved, who found the flaws and whether anyone used them are not yet known.",
+   "reason": "Internal process note ('the headline does not say') removed; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C08-10",
+   "field": "importance_line",
+   "before": "Tight supply of a material used in AI chip packaging is a pinch point for chip makers and the AI hardware built on their chips, but how much output is being added, and when, is not known from the headline.",
+   "after": "Tight supply of a material used in AI chip packaging is a pinch point for chip makers and the AI hardware built on their chips, but how much output is being added, and when, is not yet known.",
+   "reason": "Internal process note ('from the headline') removed; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "importance_line",
+   "before": "Households and businesses on the 13-state PJM grid (about 67 million people) are told the loan will lower bills and prevent outages, but it is conditional, the extra 433 megawatts is already sold to Meta, and it is not due before about 2031.",
+   "after": "Households and businesses on the 13-state PJM grid (about 67 million people) are told the loan will lower bills and prevent outages, but it is conditional, the extra 433 megawatts is already sold to Meta, and the Perry work is not due before 2031.",
+   "reason": "Only the Perry uprate is dated (second quarter of 2031) in the facts; the line no longer dates all three plants."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "summary",
+   "before": "EE Times reports, as relayed by IndexBox, that Kepler Computing, a San Jose start-up backed by Intel Capital, intends to start producing memory in 2027 as a lower-power alternative to high-bandwidth memory (HBM), the stacked memory placed beside AI processors, and says it moves five to ten times more data per watt of power than HBM. These are the company's own claims: it declined to reveal its key ferroelectric material, named no customer besides GlobalFoundries, its manufacturing partner and an investor, and says all its 2027 capacity is already allocated.",
+   "after": "EE Times reports, as relayed by IndexBox, that Kepler Computing, a San Jose start-up backed by Intel Capital, intends to start producing memory in 2027 as a lower-power alternative to high-bandwidth memory (HBM), the stacked memory placed beside AI processors, and says it moves five to ten times more data per watt of power than HBM. These are the company's own claims: it declined to reveal its key ferroelectric material, named no customer or partner besides GlobalFoundries, its manufacturing partner and an investor, and says all its 2027 capacity is already allocated.",
+   "reason": "The facts say Kepler declined to name customers or partners beyond GlobalFoundries; GlobalFoundries is a partner, not shown to be a customer."
+  },
+  {
+   "item_id": "C09-13",
+   "field": "importance_line",
+   "before": "Residents of unincorporated LA County communities, where opposition to proposed projects has grown in the San Gabriel Valley, would be spared very large data centers and developers shut out, but Tuesday's step only starts the drafting of a rule, which still needs environmental review.",
+   "after": "Residents of unincorporated LA County communities would be spared very large data centers and developers shut out, but Tuesday's step only starts the drafting of a rule, and the outcome of the vote is not yet known.",
+   "reason": "The San Gabriel Valley opposition claim and the environmental-review step are not in the facts file; the facts say the vote's outcome is not known."
+  }
+ ],
+ "unresolved": [
+  {
+   "type": "duplicate",
+   "item_ids": [
+    "C06-05",
+    "C07-12"
+   ],
+   "note": "Same story: DayOne Data Centers' US IPO filing of 5 Oct 2026. C06-05 is Bloomberg (via The Straits Times, net loss $81.9m) and C07-12 is Reuters (via The Edge Malaysia, net loss $77.2m). Both left in place for the main session to choose one; C06-05 also received a meaning fix (see changes)."
+  },
+  {
+   "type": "re-dated",
+   "item_ids": [
+    "C09-08"
+   ],
+   "note": "Borderline. The AFP report (Finland investigates forest clearing for a Google data center) is dated 4 Oct 2026, one day before the window; the 5 Oct Tom's Hardware relay adds no new fact; the 4 Oct pool item (1004:C09-11) was pool-only and never printed. Not edited per rule 6. If the main session keeps it, the summary's closing clause 'AFP's report dates from 4 Oct 2026 and Tom's Hardware's version adds no new facts' is an internal process note that should be dropped."
+  },
+  {
+   "type": "note",
+   "item_ids": [
+    "C05-04",
+    "C05-09"
+   ],
+   "note": "Not a duplicate: both come from the same Vanity Fair interview (same url) but carry different remarks (mission before shareholders; Musk a bully). Kept as two entries, as the 5 Oct edition did for different parts of one interview. Flagged only so the main session knows two entries share one link."
+  }
+ ]
+}

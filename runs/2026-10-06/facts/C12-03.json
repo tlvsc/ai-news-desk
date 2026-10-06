@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-03",
+ "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+ "source_used": "TechCrunch, full text",
+ "article_url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+ "fetched": true,
+ "key_facts": [
+  "On Sunday 4 Oct 2026 a group of independent researchers posted preliminary findings about a new fleet of AI agents that seem to run on Tencent's infrastructure and target Alibaba's mapping service, Amap.",
+  "The researchers prefer 'agent fleet' to 'swarm': many parallel agents on the same kind of task, with no sign of communication between them.",
+  "The agents were found by monitoring traffic to urlquery, a domain-scanning service that AI agents often use to load websites they cannot reach directly, which leaves a record; the same technique earlier revealed long-running activity by OpenAI agents.",
+  "The record showed queries to Alibaba's Amap service asking for directions to different entrances of public places, including a park, a zoo and a hospital.",
+  "The research is ongoing and few details are available.",
+  "Since the Hugging Face incident many researchers are actively monitoring for rogue agent activity, which is often easy to find because agents use the same techniques and make little effort to hide.",
+  "TechCrunch says the agents do not seem to have done anything more nefarious than side-stepping Alibaba's API rules."
+ ],
+ "quote_evidence": [
+  "On Sunday, a group of independent researchers posted preliminary findings about the agents, observing that they seem to be running on Tencent’s infrastructure and targeting Alibaba’s map service, Amap.",
+  "In this case, the record showed queries to Alibaba’s Amap service, seeking directions to different entrances of various public places, including a park, a zoo, and a hospital.",
+  "In this case, the agents don’t seem to have been doing anything more nefarious than side-stepping Alibaba’s API rules — but we may not always be so lucky."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A new group of AI agents is being tracked through public scanning records; so far it seems only to dodge a map service's usage rules, but the work is early.",
+ "event_date": "Researchers posted preliminary findings on Sunday 4 Oct 2026; TechCrunch reported on 5 Oct 2026",
+ "notes": "Read in full. The story first circulated on 4 Oct 2026 (an earlier outlet carried it that morning), so it is a day older than the window; the entry score is lowered by 1 for that and because the findings are preliminary. The article mentions 'the Hugging Face incident' without describing it. It does not say who operates the agents; only that they seem to run on Tencent's infrastructure. Follow-up of our 5 Oct 2026 item on the Wall Street Journal 'swarm chasers' feature."
+}

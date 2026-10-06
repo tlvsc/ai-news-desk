@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "Together AI has released a free tool that lets programmers run open AI models inside coding assistants such as Claude Code and Codex.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a real release (5 Oct 2026), but a beta tool whose savings figure is the maker's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams paying for coding assistants could cut costs by moving routine work to cheaper open models without changing tools, but the savings figure is Together AI's own and the models it connects to are Together AI's own paid service.",
+ "source": "Together AI",
+ "status": "CONFIRMED",
+ "summary": "Together AI, which hosts open AI models (models with publicly released files), says its new Together Link, a free open-source tool now in beta, connects coding assistants such as Anthropic's Claude Code and OpenAI's Codex to open models like Kimi K3 and GLM 5.3. Users still pay Together AI for the model use, and the company says the tool, which includes an automatic router that picks a cheaper or stronger model for each session, cuts spending by over 50 percent compared with running every session on Anthropic's Claude Opus 5.5.",
+ "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item was MarkTechPost (HTTP 403, not read); story read at Together AI's own announcement, product page and docs (WORKDIR/work03/together_blog.txt, together_link_page.txt, together_docs.txt); url is Together AI's blog post. Savings figures are Together AI's own."
+}

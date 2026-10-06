@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-09",
+ "title": "FSS flags 28 AI-driven hacking IPs, orders South Korea finance to shore up defenses",
+ "source_used": "Chosunbiz (English edition), full text",
+ "article_url": "https://biz.chosun.com/en/en-finance/2026/10/06/NKCODDI64RGQRKWTNL65IYTRWE/",
+ "fetched": true,
+ "key_facts": [
+  "On 6 Oct 2026 the Financial Supervisory Service (FSS), South Korea's financial regulator, said in a notice that it circulated 33 IP addresses that attempted hacking tied to recent security incidents in the financial sector, or 28 after removing duplicates, with some country information.",
+  "The hacking attacks are presumed to have used AI agents.",
+  "The FSS had shared 19 attacker IPs with the industry the previous day; as of that day the IPs spanned 12 countries, with the United States most common at five, plus one domestic IP.",
+  "Hackers of unknown nationality tunnelled through IPs in various countries, explored multiple services in financial firms' systems, found vulnerabilities and launched concentrated attacks; the FSS warns that some IPs cannot be tied to a country and that caution is needed in interpreting country data.",
+  "The FSS narrowed the list using IPs that accessed through abnormal routes and stole customers' personal information from some banks, including Shinhan Bank, and asked institutions to complete self-inspections and fixes by 8 Oct.",
+  "It also sent a 12-item checklist asking, among other things, whether the shared attacker IPs are blocked, whether there were intrusion attempts or damage tied to them, and whether real-time security monitoring is running.",
+  "Toss Bank, an internet-only bank, found abnormal access attempts through flagged IPs in July and August and as early as January.",
+  "Some in the cybersecurity industry suspect a China-origin attack because of traces of a Chinese-language AI penetration testing tool disclosed in July, but authorities have not named any country of origin."
+ ],
+ "quote_evidence": [
+  "Financial authorities identified 28 internet protocol (IP) addresses in connection with hacking attacks on the financial sector that are presumed to have used artificial intelligence (AI) agents.",
+  "However, the FSS emphasized in the notice that \"some IPs cannot be tied to a specific country, and even if a country is identified, there is a possibility of circumvention, so caution is needed in interpretation.\"",
+  "In the case of Toss Bank, an internet-only bank, it found that not only in July–August this year but also as early as January there were abnormal access attempts via some attacker IPs flagged by authorities."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A regulator has put a concrete list of attacker addresses and a deadline in front of the whole financial sector, though AI use and the attackers' location are still unproven.",
+ "event_date": "FSS notice 6 Oct 2026; the attacks were first reported 2 to 3 Oct 2026",
+ "notes": "Read in full. Follow-up of our 5 Oct 2026 item on seven financial companies hit by hacks (pool 1005:C12-02). The article lists Japan twice in its country list. Yonhap carried the same 28-address news on 6 Oct. Same story line as C12-01 and C12-14; C12-14 quotes a Financial Security Institute official saying AI was used as a tool by a human hacker, which this article does not."
+}

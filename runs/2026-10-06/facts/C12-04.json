@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-04",
+ "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+ "source_used": "Ars Technica, full text",
+ "article_url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+ "fetched": true,
+ "key_facts": [
+  "Independent researcher Syed Anas Mohiuddin tested agents from organisations including Google, JP Morgan Chase, Weviate (as Ars spells it), Rapid7, the French government's interministerial digital directorate and the US federal government.",
+  "His proof-of-concept attacks exploit trust gaps in the Model Context Protocol (MCP), a standard through which AI apps and agents communicate inside an internal network.",
+  "In the past five months Google and four other organisations have acknowledged vulnerabilities that let one agent inside a network pass harmful instructions to other internal agents that trust it.",
+  "Rapid7's flaw (CVE-2026-97228) had a severity rating of 2.7 out of 10 and was fixed last month; Google's flaw, in its MCP toolbox for databases, was rated 8 and fixed with an allow-list of IP ranges and block lists.",
+  "Mohiuddin calls the class 'protocol pivoting': an attacker enters through one protocol, exploits the trust between protocols and escalates to capabilities reachable only through another, such as Google's Agent-to-Agent (A2A) protocol.",
+  "Markus Vervier of X41 D-Sec says the better term remains 'prompt injection' and that the technique is a simple subclass of it.",
+  "Ars argues that MCP is already everywhere before being sufficiently tested and that organisations rushing to build agent systems have abandoned the 'zero trust' principle.",
+  "Rapid7's Douglas McKee says anything passed from an AI model to a tool should be treated like input from a stranger on the internet."
+ ],
+ "quote_evidence": [
+  "Independent researcher Syed Anas Mohiuddin tested agents from organizations including Google, JP Morgan Chase, Weviate, Rapid7, the French government’s interministerial digital directorate, and the US federal government.",
+  "The vulnerability affecting Google was more severe, with a rating of 8.",
+  "Markus Vervier, a researcher at X41 D-Sec who has also devised AI attacks that exploit MCP, said the better term remains “prompt injection” and that Syed’s technique is a simple subclass of that."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Agents that automatically trust each other give attackers a route through internal systems; the flaws found were fixed, but the weakness comes from how the protocol is used.",
+ "event_date": "Flaws acknowledged over the past five months (Rapid7's fixed in September 2026); Ars report published 5 Oct 2026",
+ "notes": "Read in full. Ars spells Weaviate as 'Weviate' and JPMorgan as 'JP Morgan'. Ars does not date the researcher's latest disclosure; Unite.AI (an AI-generated rewrite the same evening) places it in an October 2026 research update with the original preprint dated 24 May 2026, which is only supporting context. Score kept because this is new reporting and analysis, although the individual flaws were disclosed and fixed earlier."
+}

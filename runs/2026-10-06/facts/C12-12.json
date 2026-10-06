@@ -1,0 +1,13 @@
+{
+ "item_id": "C12-12",
+ "title": "AWS Fixes AI Agent Flaws Enabling Authentication Bypass and Credential Theft",
+ "source_used": "none (headline only)",
+ "article_url": "https://gbhackers.com/aws-fixes-ai-agent-flaws/",
+ "fetched": false,
+ "key_facts": [],
+ "quote_evidence": [],
+ "status": "REPORTED",
+ "why_it_matters_hint": "From the headline only: AWS has fixed AI agent flaws that allowed authentication bypass and credential theft; products, finder and exploitation are unknown.",
+ "event_date": "not stated (GBHackers item published 5 Oct 2026)",
+ "notes": "No article text obtained. The GBHackers page returned HTTP 202 with a captcha redirect in the main session's fetch and again on a retry. Google News searches (several phrasings, 5 and 7 day windows) found no other outlet carrying this story. The related Infosecurity Magazine item of 29 Sep 2026 on Amazon Bedrock AgentCore SDK flaws (BeyondTrust, command execution through package names) describes different flaws and was not used; whether it is connected is unknown. Which AWS products are meant, who found the flaws and whether anyone exploited them are unknown."
+}

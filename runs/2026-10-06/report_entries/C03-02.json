@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "Google Cloud has launched a bundle of AI-assisted tools, called Google Cloud Modernize, for moving companies' older software and servers onto its cloud.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a real launch (5 Oct 2026), but partly a bundle of existing tools and every savings figure is Google's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and IT teams at large companies get AI help with examining and moving older systems, and one tool is built to pull workloads off Amazon's Kubernetes service, but Google's claims of speed and savings come without independent tests and that tool is still in public preview.",
+ "source": "Google Cloud",
+ "status": "CONFIRMED",
+ "summary": "Google Cloud says in a blog post that Google Cloud Modernize combines its existing migration tools with new AI features, built partly on its Gemini models, to help large companies move older systems onto its cloud. New parts include a Modernization Hub in its web console for examining the code and dependencies of Java, .NET and mainframe (large, older business computer) applications, and an AI agent, in public preview, that automates moving applications from Amazon's Kubernetes service (a system for running programs in containers) to Google's equivalent, with human approval steps.",
+ "url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full (fulltext/C03-02.txt). Post date 5 Oct 2026 16:00 UTC from Google Cloud's own feed. Vendor launch post: all figures are Google's or its quoted customers'."
+}

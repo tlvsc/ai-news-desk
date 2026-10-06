@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "Reka AI has released a research preview of Rho-1, a single AI model that handles text, images, video and robot control.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: an early research preview from a known lab with an unusual single-network design, but the report shows no results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Researchers and robotics teams get an early example of one model that takes in images, produces video and drives a robot, which The Decoder places in a wider push toward “world models” (AI that learns how the physical world works), but it is a research preview with no reported results.",
+ "source": "The Decoder",
+ "status": "PRELIMINARY",
+ "summary": "The Decoder reports that Reka AI, whose Reka Core model competed with GPT-4 and Claude 3 on benchmarks in April 2024, has released a research preview of Rho-1, one neural network that works with text, images, video and robot control actions at the same time, where most AI systems hand each kind of task to a separate specialist model. The same network that predicts camera images also drives robot movements; to get around the shortage of robot training data, Reka built a separate model that extracts control commands from ordinary internet videos, and the report gives no benchmark or robot test results.",
+ "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full Decoder text read (fulltext HTTP 200); it is short, with no results and nothing on availability. Release date not stated; The Decoder published 5 Oct 2026 and MarkTechPost followed on 6 Oct 2026, and a 14-day search found no earlier coverage, so NEW. Kept in MOD: the story is about the model; no robot is shown doing a task, so machine_action is false."
+}

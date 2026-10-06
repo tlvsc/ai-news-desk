@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-04",
+ "title": "Cohere's North 2 puts AI agents on a budget and gives them a memory",
+ "source_used": "SiliconANGLE (own report, read in full); checked against The Register (read in full)",
+ "article_url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
+ "fetched": true,
+ "key_facts": [
+  "Cohere, an AI company (described by The Register as Canadian) that sells to large organisations, unveiled North 2 on Monday 5 Oct 2026, an overhaul of its platform for running AI agents inside large organisations.",
+  "North 2 has a redesigned system for orchestrating multistep agent work that works through tasks on its own and pulls in a human for steps that need sign-off; agents built from a simple prompt can be shared across a company, each agent keeps memory between sessions, and a skills feature packages logic agents call repeatedly.",
+  "Shared libraries hold documents and assets every agent should be able to reach; prebuilt templates and a drag-and-drop workflow builder cover recurring processes; connectors now cover Slack, GitHub, SharePoint and OneDrive, with financial data connectors (PitchBook, S&P Global, FactSet) planned.",
+  "The admin console, North Admin, now tracks token use down to the individual user and agent; administrators can set consumption tiers for users and groups, cap usage across the company and set alerts before a limit is reached.",
+  "Guardrails per agent screen for personally identifiable information in prompts and responses and for attempted prompt injection; autonomy policies keep each agent to the actions it is authorised to take. The Register adds that access control lists can be assigned to libraries and skills so that staff such as interns cannot reach proprietary data just by asking.",
+  "North 2 is model-agnostic, so administrators can assign models from outside Cohere, and it still runs on-premises or in a customer's own virtual private cloud, including fully air-gapped installations.",
+  "Cohere says it is counting on its work with Nvidia to lower running costs; Nvidia's Kari Briski said it helps North 2 'deliver more tokens for less'. Named users include Bell Canada's Bell Cyber unit, South Korea's LG CNS and Radical Ventures, an early Cohere investor.",
+  "North has been generally available since August 2025, according to SiliconANGLE, and North 2 arrives less than three weeks after Cohere signed a merger agreement with German AI developer Aleph Alpha; The Register notes it is the latest of many enterprise agent platforms and that competition is heating up as OpenAI, Meta and others target the enterprise."
+ ],
+ "quote_evidence": [
+  "Artificial intelligence company Cohere Inc. today unveiled North 2, an overhaul of its platform for running AI agents inside large organizations.",
+  "Alongside a redesigned system for orchestrating multistep agent work, the update gives administrators new controls for capping token spending.",
+  "The orchestration system works through multistep tasks on its own and pulls in a human for steps that need sign-off."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Companies that deploy AI agents get ways to see and cap what the agents spend and to limit what data they can reach, which is the main worry the coverage says holds back business use.",
+ "event_date": "5 Oct 2026 (announced Monday)",
+ "notes": "VentureBeat's original (the pool's source) could not be opened here: HTTP 429 with a security checkpoint page. Entry written from SiliconANGLE's own report (read in full) and checked against The Register's report (read in full); both carry the same facts, and several other outlets (HPCwire, Techzine, Unite.AI, The Globe and Mail, MobileSyrup) carried the news by headline. Source credited to SiliconANGLE; the link is its article. All feature descriptions are Cohere's own; no prices or independent tests are given. Kept MOD per default_v1."
+}

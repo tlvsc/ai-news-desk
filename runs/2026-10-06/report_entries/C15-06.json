@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-06",
+ "v1_category": "RES",
+ "headline": "Researchers at the Indian Institute of Technology Delhi have sent quantum signals and ordinary data together over a single 50-kilometre optical fibre.",
+ "score": 5,
+ "score_reason": "Pool score kept: a named university team and a stated distance, but one demonstration reported from a statement, with no outside review.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Banks, government agencies and hospitals could one day get quantum-secure links over ordinary fibre, but this is a single demonstration under controlled conditions, reported from a university statement with no outside comment.",
+ "source": "Rediff, citing an IIT Delhi statement",
+ "status": "REPORTED",
+ "summary": "Rediff reports, citing an IIT Delhi statement, that a team led by physics professor Bhaskar Kanseri sent entangled photons (particles of light whose states are linked, a resource for secure quantum communication) and ordinary data together over a 50 km optical fibre, and that the work was published in the journal Optics Communication. The challenge is that ordinary signals are far stronger and can disturb the delicate quantum ones; Kanseri says the two can coexist “under carefully controlled conditions”, which could make quantum networks cheaper and easier to build by sharing existing fibre.",
+ "url": "https://www.rediff.com/news/report/iit-delhi-demonstrates-quantum-entanglement-over-optical-fibre/20261005.htm",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Only Rediff found. The text reads like a wire-style report built on an IIT Delhi statement; no wire credit appears in the text read. Journal name as printed by Rediff. The paper's publication date is not stated; statement reported 5 Oct 2026, so kept NEW. No outside comment, hence REPORTED. Meaning check: who (IIT Delhi team led by Kanseri), what (entangled photons plus classical data over 50 km of one fibre), why (shared fibre could cut cost and ease roll-out), hedges (statement-based, controlled conditions, long-term applications only) all kept; no deployment or first-in-world claim added."
+}

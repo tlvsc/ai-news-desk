@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-03",
+ "title": "Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model",
+ "source_used": "The Decoder, 5 Oct 2026, read from fulltext/C01-03.txt (HTTP 200; a short article of about 1,200 characters)",
+ "article_url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+ "fetched": true,
+ "key_facts": [
+  "Reka AI released a research preview of Rho-1, a 19-billion-parameter omni-model that processes and generates text, images, video and robot control actions in a single neural network.",
+  "Unlike most AI systems, which route tasks to specialised models, Rho-1 runs all modalities as tokens in one shared context window, with no tool calls or external models.",
+  "The model generates continuous video in real time and responds to new instructions on the fly without restarting.",
+  "The same weights that predict camera images also drive robot movements.",
+  "To work around scarce robot training data, Reka built an inverse dynamics model that pulls control signals from ordinary internet videos.",
+  "Rho-1 trained on 320 H100 GPUs over about three months.",
+  "In April 2024 Reka shipped Reka Core, a multimodal language model that competed with GPT-4, Claude 3 and Gemini Ultra on benchmarks.",
+  "The Decoder says the release fits a broader push in AI research toward so-called world models; the article reports no benchmark or robot test results."
+ ],
+ "quote_evidence": [
+  "Reka AI has released a research preview of Rho-1.",
+  "Unlike most AI systems that route tasks to specialized models, Rho-1 runs all modalities as tokens in one shared context window with no tool calls or external models.",
+  "To work around scarce robot training data, Reka AI built an inverse dynamics model that pulls control signals from ordinary internet videos."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "One network that predicts video and also drives a robot, without handing tasks to separate models, which The Decoder links to the broader push toward world models.",
+ "event_date": "Not stated. The Decoder published 5 Oct 2026 (18:26 UTC) and MarkTechPost covered it on 6 Oct 2026; a 14-day Google News search found no earlier coverage.",
+ "notes": "Very short article with no benchmark results and no word on availability (open weights, API or demo), so the entry stays descriptive and says the report shows no results. Status PRELIMINARY: a research preview with no outside review reported. Kept in MOD (default): the story is about the model; the article says the model drives robot movements but describes no robot actually doing a task, so machine_action is false. No conflict with the rules files."
+}

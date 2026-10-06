@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-01",
+ "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+ "source_used": "IEEE Spectrum",
+ "article_url": "https://spectrum.ieee.org/millennium-prize-ai",
+ "fetched": true,
+ "key_facts": [
+  "IEEE Spectrum (freelance writer Benjamin Skuse, 5 Oct 2026) reports from the Heidelberg Laureate Forum in Germany, which opened on 13 Sep 2026 for a week; talk there was dominated by AI companies' advances in mathematics.",
+  "OpenAI claims to have solved the Navier-Stokes existence and smoothness problem, one of seven Millennium Prize Problems set in 2000 by the Clay Mathematics Institute; only the Poincaré conjecture has been solved by humans. The article says the claim, if verified, would be a watershed moment for automated reasoning.",
+  "Fields Medalist Jacob Tsimerman (University of Toronto) said AI capabilities have risen faster than many people expected and, while saying he did not know the details, that solving Navier-Stokes feels pretty definitive.",
+  "Fields Medalist Peter Scholze (University of Bonn) said the AI companies are solving such problems as benchmarks, as some kind of PR stunt; Geordie Williamson (University of Sydney) said OpenAI behaved extremely poorly; Michael Harris (Columbia) said most reports depict OpenAI as bullying and disrupting norms.",
+  "NYU mathematician Tristan Buckmaster, who was working on Navier-Stokes with Anthropic's Levent Alpöge, claimed correspondence with OpenAI that appeared coercive, censorious and even threatening. OpenAI did not respond to requests for comment before publication.",
+  "Williamson says understanding and solved problems are becoming uncorrelated, so how people are assessed, who gets jobs and how people are educated must be reevaluated.",
+  "Mita Ramabulana (University of Cape Town) said two of the 10 advances OpenAI announced in August overlapped with his own work; Ailsa Robertson (University of Amsterdam) said colleagues use LLMs intensively, some spending thousands of euros on extra tokens, after OpenAI announced in July 100,000 free licences for academic researchers.",
+  "Rumours: Anthropic used an unreleased Claude on the Riemann hypothesis in August and made progress on a related problem but not the main goal; OpenAI is reportedly focusing on the Hodge conjecture."
+ ],
+ "quote_evidence": [
+  "OpenAI’s claim to have solved a second, the Navier-Stokes existence and smoothness problem, if verified, represents a watershed moment for automated reasoning.",
+  "“I think that OpenAI behaved extremely poorly, and that we should acknowledge that in the community,” said Williamson.",
+  "“They’re really just solving these difficult mathematical problems as benchmarks, as some kind of PR stunt,” opined Fields Medalist Peter Scholze, of the University of Bonn, in Germany, during a panel discussion at the event about AI in mathematical research."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Mathematicians, especially early-career ones, describe pressure to use costly AI tools, overlap with AI-announced results and a needed rethink of hiring and teaching (Williamson); the Navier-Stokes claim itself is still unverified.",
+ "event_date": "OpenAI announced its Navier-Stokes claim on 8 Sep 2026 (BBC); the forum began 13 Sep 2026; the article is dated 5 Oct 2026.",
+ "notes": "Read in full (fulltext file). The article gives no date for OpenAI's claim and no 88 hours; those come from the BBC report of 8 Sep 2026 (read in full): about 10,000 AI agents, 88 hours, not independently verified or accepted by the Clay Mathematics Institute; Buckmaster said information on his work was passed to OpenAI, OpenAI said it had not seen their work. The pool linked this item to 5 Oct pool item 'OpenAI says AI agents solved centuries-old mathematical problem in 88 hours' (ANA, 4 Oct 2026), which is the same 8 Sep claim reported late; neither appears in any edition we printed since 23 Sep (archive checked). The article is a feature on the reaction to older news."
+}

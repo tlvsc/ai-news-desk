@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "A new study found that 50 members of the European Parliament, 46 of them women, have been targeted by deepfake pornography.",
+ "score": 6,
+ "score_reason": "Pool score kept: specific numbers from a named study and a dated EU ban; read through a relay of Politico Europe's report and not independently checked.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Women in the European Parliament are the main targets, and a study author says politicians can hardly avoid it because their images are online, which adds weight to calls to enforce the EU's coming ban on AI tools that make nude images, but the figures come from one civil-society study and have not been independently checked.",
+ "source": "POLITICO Europe, citing Agora Digitale Transformation",
+ "status": "REPORTED",
+ "summary": "Politico Europe reports, as relayed by UA.NEWS, that a study by the German civil-society group Agora Digitale Transformation found that 50 members of the European Parliament have been targeted by deepfake pornography (sexual images made with generative AI, often without the person's consent); 46 of them are women, about one in six of the Parliament's women members. The authors urge the European Commission to hold the payment services and domain registrars that enable such sites to account, and 119 MEPs from several parties wrote to EU leaders on 30 Sep 2026 asking for quick enforcement of the EU ban, due to start on 2 Dec 2026, on AI tools that create nude images.",
+ "url": "https://www.politico.eu/article/female-european-parliament-lawmakers-targeted-deepfake-porn/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Politico page returned 403; text read on the UA.NEWS relay of Politico Europe's report; the original Politico link is kept as the url. The study itself was not read. Conflict reported: the source field keeps 'POLITICO Europe, citing Agora Digitale Transformation' (CLAUDE.md credit rule of 3 Oct 2026) while Full Report rules 6.2 says publisher only; build_products cuts it at the first comma, so the PDF prints POLITICO Europe."
+}

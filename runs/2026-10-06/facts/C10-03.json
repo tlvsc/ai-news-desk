@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-03",
+ "title": "Accuracy of a respiratory assessment chatbot in a nationwide messaging system for layperson diagnosis and triage: a randomized preregistered study",
+ "source_used": "Nature Health (journal page: full abstract, data and disclosure sections; paper body is behind subscription), from fulltext/C10-03.txt",
+ "article_url": "https://www.nature.com/articles/s44360-026-00189-9",
+ "fetched": true,
+ "key_facts": [
+  "A peer-reviewed study in Nature Health tested LungDiag, a task-limited chatbot on WeChat built on GPT-4o with a respiratory knowledge layer, against ordinary mobile web search.",
+  "It was a prospective, multicentre, single-blind, randomized, preregistered comparison using simulated cases; AI-assisted search tools were switched off in the web-search (control) group.",
+  "Between April and June 2025, 2,400 adults with no formal medical training at 24 Chinese healthcare systems were assigned 1:1; 2,176 questionnaires (1,088 per group) entered the main analysis.",
+  "Model-based overall accuracy was 70.0% with LungDiag against 55.4% with web search, a difference of 14.6 percentage points (P < 0.001).",
+  "Diagnosis items: 81.2% against 54.5%; triage items improved less: 53.4% against 47.1%; LungDiag users took longer (median 527 seconds against 461).",
+  "For high-urgency triage, sensitivity and specificity were 85.6% and 62.1% with LungDiag against 80.9% and 56.0% with web search.",
+  "The authors state the findings do not establish effects on real-world care-seeking, diagnostic delay or clinical outcomes.",
+  "The respiratory knowledge resource is owned and maintained by the authors' research group (disclosed in the paper); the authors report no personal financial interest in it. Funding: Guangzhou National Laboratory and Chinese national and provincial science foundations."
+ ],
+ "quote_evidence": [
+  "LungDiag improved simulated case-question answering among lay participants, particularly for preliminary diagnostic recognition; however, these findings do not establish effects on real-world care-seeking, diagnostic delay or clinical outcomes.",
+  "The largest difference was observed for diagnosis items (81.2% versus 54.5%), whereas triage gains were smaller (53.4% versus 47.1%).",
+  "Between April and June 2025, 2,400 adults without formal medical training at 24 Chinese healthcare systems were randomly assigned 1:1 to LungDiag assistance or browser-based search, with dedicated AI and generative AI-assisted search functions disabled in the control arm."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Peer-reviewed randomized evidence that a purpose-built chatbot beat web search at lay diagnosis of lung conditions in simulated cases, with no proof yet of real-world benefit.",
+ "event_date": "Published in Nature Health in 2026 (online date 5 Oct 2026 per the news feed; the page text shows no date); data collected Apr to Jun 2025",
+ "notes": "Abstract read in full; the paper body is behind subscription. The study ran in 2025 but the publication is new, so freshness is NEW. Simulated cases only. The authors' group owns the chatbot's knowledge layer (disclosed)."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Independent researchers say they have spotted a new fleet of AI agents that seems to run on Tencent's servers and to target Alibaba's Amap maps service.",
+ "score": 5,
+ "score_reason": "Pool score 6; fact check suggests 5: the researchers posted on Sunday 4 Oct, before the window, and the findings are preliminary.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Web services such as Alibaba's Amap have a concrete example of AI agents sidestepping a service's usage rules, and researchers show such fleets can be spotted in the records of urlquery, a website-scanning service that agents use to load pages they cannot reach directly, but the findings are preliminary, TechCrunch does not say who operates the agents, and nothing worse than rule-dodging has been reported.",
+ "source": "TechCrunch",
+ "status": "PRELIMINARY",
+ "summary": "TechCrunch reports that independent researchers posted preliminary findings on Sunday 4 Oct 2026 about a fleet of AI agents that seem to run on Tencent's infrastructure and to send requests to Alibaba's Amap mapping service for directions to the entrances of places such as a park, a zoo and a hospital. This continues the hunt for rogue agents in the Wall Street Journal feature we carried on 5 Oct 2026; the researchers call this group a fleet rather than a swarm because the agents work in parallel with no sign of communication, and TechCrunch says it seems to be doing nothing worse than side-stepping Alibaba's rules for using its service.",
+ "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Findings were posted Sunday 4 Oct 2026, a day before the window, so the score is lowered by 1. Follow-up of the 5 Oct 2026 WSJ swarm chasers item (pool 1005:C12-10)."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-08",
+ "v1_category": "ROB",
+ "headline": "Start-up Safeworld has launched with more than $12 million to test in simulation whether robots run by generative AI are safe around people.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: robot safety testing is a real gap as generative AI moves into robots, but this is a seed-stage start-up with no test results shown.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who work alongside robots, in factories and on construction sites, are the ones this testing aims to protect, but Safeworld is a seed-stage start-up whose method is described only by its founders, with no results shown yet and its business model still undecided.",
+ "source": "TechCrunch",
+ "status": "CONFIRMED",
+ "summary": "TechCrunch reports that Safeworld, founded by Carnegie Mellon University researcher Ding Zhao with entrepreneur Kyle Wong and engineer Simo Rachidi, has emerged from stealth (pre-launch secrecy) with an early-stage seed round of more than $12 million led by Shine Capital and a16z Speedrun, to test robot control software for safety. It builds a digital copy of a work site, such as a factory's blind corner, runs the robot's real software in it and tests thousands of encounters with simulated people, because robots driven by generative AI (the kind behind chatbots) are less predictable than traditional programs; solar-installation robot developer Gritt Robotics is a partner, and the company is still deciding whether to sell a platform or a service.",
+ "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. TechCrunch's own reporting; the funding and launch are the company's announcement (CONFIRMED), while the method and the founders' profitability claim are theirs alone and no test results are shown. A start-up launch about testing software, not a robot shown at work, so machine_action is false. The article's headline is a question, so the entry states the event instead."
+}

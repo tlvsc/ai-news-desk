@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-01",
+ "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+ "source_used": "TechCrunch (Rebecca Bellan), 5 Oct 2026, read from fulltext/C01-01.txt (HTTP 200)",
+ "article_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+ "fetched": true,
+ "key_facts": [
+  "Reflection AI, a Brooklyn startup founded in 2024 by two former Google DeepMind researchers, officially unveiled Beam, its first frontier open-weight model, in a blog post on Monday 5 Oct 2026.",
+  "Beam is a text-only mixture-of-experts model: 501 billion parameters, 23 billion active, pretrained on 23.8 trillion tokens, 1 million token context window; Z.ai's GLM-5.2 has about 744 billion total and 40 billion active.",
+  "The company says Beam scores on par with Z.ai's GLM-5.2 on advanced reasoning benchmarks and beats today's leading Western open models with '3-4x less inference compute'; the claims have not been independently verified.",
+  "Reflection's own benchmarks show Beam beating Thinking Machines Lab's Inkling (released in July) on four coding tests where both report results; Inkling is multimodal, Beam is text-only.",
+  "Reflection says it will release Beam's weights and full technical details this month, with distribution through hyperscalers and neoclouds and open-source library integrations at launch.",
+  "Reflection has raised about $4.7 billion per PitchBook (backers include Nvidia, Sequoia Capital, Lightspeed), was last valued at $25 billion pre-money, and signed compute deals worth over $7 billion with SpaceX and Nebius for Nvidia GB300 chips through 2029.",
+  "It pitches Beam to enterprises and sovereign nations for 'AI factories' (customised local AI systems trained on an institution's own data) and is testing a sovereign AI factory partnership with Shinsegae Group in South Korea.",
+  "The announcement confirms Axios's weekend reporting that Reflection was close to a launch; Reflection did not answer TechCrunch's requests in time."
+ ],
+ "quote_evidence": [
+  "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model.",
+  "Reflection’s performance claims haven’t been independently verified, but on advanced reasoning benchmarks, the company says Beam scores on par with Z.ai’s GLM-5.2 and outperforms today’s leading Western open models while using “3-4x less inference compute.”",
+  "Reflection says it will release Beam’s weights and full technical details this month, with distribution through hyperscalers and neoclouds and integrations across open source libraries at launch."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "It could heat up the race for a Western open-weight alternative to DeepSeek, Qwen and Z.ai, if Reflection's unverified claims hold.",
+ "event_date": "5 Oct 2026 (Reflection's blog post, a Monday); the earlier Axios scoop it confirms was published 4 Oct 2026.",
+ "notes": "Follow-up of item 63 in our 5 Oct 2026 edition (Axios scoop of 4 Oct 2026). New today: the name Beam, its size, Reflection's own benchmark claims and a promise to publish the weights this month. 'Open-weight' is still a promise: the weights are not public yet. Status PRELIMINARY because the performance claims are the company's own and unverified; the unveiling itself is official. TechCrunch does not say exactly whom the '3-4x less inference compute' is measured against (an earlier line says 'of rivals'), so the summary says 'rival models'. Funding, valuation and compute-deal figures are TechCrunch citing PitchBook and are left out of the summary. No conflict with the rules files."
+}

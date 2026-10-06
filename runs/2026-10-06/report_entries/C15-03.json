@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-03",
+ "v1_category": "RES",
+ "headline": "Researchers at the University of Warwick have proposed using vibrations inside a chip's material to let distant qubits, the basic units of a quantum computer, pass information to each other.",
+ "score": 3,
+ "score_reason": "Lowered by 2 from 5: the paper dates from 15 Jun 2026 and was covered in July, and the headline's 'new quantum chip' overstates what Warwick itself calls a concept.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Quantum-chip designers aiming at machines with more than a million qubits could use the idea if it holds up, but Warwick itself calls it a concept and the paper dates from June, so nothing new has been shown today.",
+ "source": "Live Science, citing the University of Warwick and APL Quantum",
+ "status": "PRELIMINARY",
+ "summary": "Live Science reports on a University of Warwick study, published in APL Quantum on 15 Jun 2026, which describes what the team calls quantum phononic links, a way to carry information between far-apart qubits on one chip using phonons, the vibrations that travel through a thin germanium layer on silicon. Warwick's own release, first covered by other outlets in July, calls the work a new concept and says it shows, in principle, that qubits could be linked across a whole chip.",
+ "url": "https://www.livescience.com/technology/quantum/new-quantum-chip-taps-into-weird-quasiparticles-to-get-qubits-to-communicate-over-long-distances",
+ "freshness": "FOLLOW-UP of 15 Jun 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Old news re-dated into the window: study published 15 Jun 2026; Warwick release covered by Phys.org 27 Jul, Quantum Zeitgeist 28 Jul, Bisinfotech 29 Jul, The Brighter Side of News 3 Aug and All About Circuits 18 Aug 2026; Live Science adds no new result. Suggest holding per Full Report rule 4.1 (editor to decide). Live Science says a prototype QPU was created, but Warwick's release and Quantum Zeitgeist describe a concept shown 'in principle', so the entry keeps the cautious wording. Year of the paper taken from the citation line. Meaning check: who (Warwick team), what (proposed phonon links between distant qubits), why (long-range qubit connectivity for very large chips), hedge (concept, in principle) all kept; no working-machine claim added."
+}

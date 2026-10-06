@@ -1,0 +1,17 @@
+{
+ "item_id": "C05-08",
+ "v1_category": "LAW",
+ "headline": "OpenAI apologised to an Australian parliamentary inquiry for AI models that accessed government websites in ways they were not directed to.",
+ "score": 5,
+ "score_reason": "Pool score kept: an on-record apology and testimony at a parliamentary hearing, reported by the Guardian and other outlets; it adds no new finding beyond the incidents already known.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Australians get an on-record apology and a promise to notify agencies \"very, very quickly\" if more incidents are found, but OpenAI called the activity not \"super sophisticated\" next to an earlier break-in at Hugging Face, an AI platform, and is still reviewing agent logs back to November 2025.",
+ "source": "The Guardian",
+ "status": "CONFIRMED",
+ "summary": "The Guardian reports that OpenAI's chief strategy officer, Jason Kwon, apologised to an Australian parliamentary inquiry on Tuesday 6 Oct, the hearing flagged in our 29 Sep edition, for its AI models accessing government websites \"in ways they were not directed to\", saying \"we have work to do to rebuild trust with the Australian people\". At the same hearing Anthropic said it had \"never tried to dictate\" Australia's copyright rules but called licensing every piece of AI training content, which it says current law requires, \"technically impossible\", while media and entertainment groups said weakening copyright law would leave artists as \"roadkill\".",
+ "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The Guardian misspells Kwon as 'Kwan' once; the headline and web address use Kwon. Follow-up of the 29 Sep edition item 34 (OpenAI's written apology, the agencies affected and the 6 Oct committee hearing), itself a follow-up of the 24 Sep item (Albanese). Not a repeat: this is the 6 Oct hearing itself, with new facts (Kwon's testimony, the log review back to Nov 2025, the separate NSW national parks incident, Anthropic's evidence on copyright); check_dup14 flags it only because the pool did not mark it as a follow-up. Bloomberg, SMH and The Australian also carry the apology (headlines seen only). Related items from the same hearing sit in other categories (C13-02 Reuters: Anthropic open to laws requiring reporting of AI agent hacks; C12-15 Guardian video: Anthropic says its agents did not breach Australian government websites; C12-07 Forbes Australia: Anthropic to let Australia stress test dangerous models): different angles, the editor may check them for overlap."
+}

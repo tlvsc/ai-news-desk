@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-03",
+ "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+ "source_used": "Together AI's own announcement (blog post dated 10/5/2026, product page together.ai/link and docs page docs.together.ai/docs/togetherlink); the MarkTechPost page returned HTTP 403",
+ "article_url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+ "fetched": true,
+ "key_facts": [
+  "Together AI (a company that hosts open AI models; billing is serverless pay-as-you-go or credit packs) published the Together Link announcement on 5 Oct 2026, written by Will Van Eaton and Hassan El Mghari; the product page says Together Link is now in beta.",
+  "Together Link connects the coding agent a team already uses to open models on Together AI; supported tools are Claude Code, Claude Desktop, Codex (in the ChatGPT app and the CLI), OpenCode and Pi. Settings and logins stay as they were and going back to the native closed models takes one command.",
+  "Models named: Kimi K3 and GLM 5.3 for hard coding tasks, GLM 5.3 Flash and DeepSeek V4.1 Flash for everyday tasks; the product page also lists MiniMax M3.",
+  "Setup is one command (curl -fsSL https://link.together.ai/install | bash) plus a Together AI API key; the docs list macOS or Linux (Bash and curl) as requirements.",
+  "An 'Auto' router reads each session's first task and picks a model: with an Anthropic key it routes between Opus 5.5 and GLM 5.3, without one between GLM 5.3 and GLM 5.3 Flash; routing happens once per session so prompt caching keeps working.",
+  "A per-session tracker shows what was spent next to what the same session would have cost on Opus 5.5; the FAQ puts the saving at 50-80% compared with running every session on Opus 5.5 and the blog says over 50%. These are Together AI's own claims.",
+  "The product page calls Together Link a free, open-source tool; users pay only for model usage at Together AI's per-token rates, with no separate contract.",
+  "Together AI says it serves the largest share of OpenRouter tokens for DeepSeek V4.1 Flash (40.8%), GLM 5.3 Flash (28.2%) and Kimi K3 (23.1%), as of 30 Sep 2026."
+ ],
+ "quote_evidence": [
+  "Together Link connects the harness your team already uses to the best open models on Together AI and cuts your spend by over 50%.",
+  "Together Link is a free, open-source tool that connects your coding agent, like Claude Code or Codex, to open models on Together AI, including Kimi K3, GLM 5.3, MiniMax M3, and DeepSeek V4.1 Flash.",
+  "Billing runs on your existing Together API key, against serverless pay-as-you-go or credit packs."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Software teams that pay for coding assistants can send routine work to cheaper open models without changing tools, according to Together AI, which sells the models.",
+ "event_date": "5 Oct 2026 (Together AI blog post dated 10/5/2026; MarkTechPost covered it at 22:51 UTC the same day)",
+ "notes": "The pool item came from MarkTechPost, whose page returned HTTP 403, so no text was read there; the same story was read at Together AI's own announcement, product page and docs (saved in WORKDIR/work03/together_blog.txt, together_link_page.txt, together_docs.txt). Anything MarkTechPost adds (hands-on tests, outside comment) is not covered. Every savings figure is Together AI's; the docs list macOS and Linux only; the product is in beta; Together AI sells the model access the tool points to. Owners of Claude Code (Anthropic), Codex (OpenAI) and Claude Opus are background knowledge, not stated in the post."
+}
