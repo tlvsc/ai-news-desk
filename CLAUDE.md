@@ -138,6 +138,17 @@ not about which project it is.
     HEADLINES ORDER (Rafi, 5 Oct 2026, one source of truth): the order and choice of the seven clips are set ONLY by the Drive file
     Headlines_Master_Rules_Structure.txt (General order of categories, criticals lead, and Section A item 3). This repo never restates or
     reinterprets it; card_candidates.py applies it and names the file. Claude broke this twice on 5 Oct 2026 by writing its own reading here.
+    HEADLINES AS ONE BULLETIN (Rafi, 6 Oct 2026; it belongs in the Drive Headlines Master B2a, which Rafi or ChatGPT still have to update
+    there; until then this is the one place): the clips are written together, as one bulletin a human newsreader reads, not as ten
+    templates ("working like a robot instead of thinking what the viewers listen to and how the news would start"). Never open a clip
+    with the label "An update"; a follow-up says plainly, inside the sentence, when we reported the earlier story. No two neighbouring
+    clips open the same way or repeat a category phrase; openers and bridges sound natural and vary, a bridge only where the link is
+    true; the first clip starts with the news itself. Headlines stories are chosen and worded for what matters to people all over the
+    world: prefer a story that shows AI development affecting people over one that is mainly war or politics (Rafi, 6 Oct 2026, on the
+    Ukraine gun turrets: "good, but it becomes political and loses the point"; LG and Nvidia's AI car platform became the robotics
+    clip). The clip order stays HEADLINES ORDER. TEST (6 Oct 2026): realistic pictures on the holographic screen for a few clips, as a
+    second JSON next to the normal one; the Drive Headlines Master (15 Sep, item 3, and G3) keeps text-free symbols until Rafi says
+    the test worked.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
     Headlines take only what survives it. A meaningful update of an earlier story can be a card (CARD FILTER below).
