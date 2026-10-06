@@ -385,3 +385,7 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     I did not fetch before starting, so I ran the two editors and the Bigger Picture second reader on Fable and wrote the Bigger Picture on Sonnet in the main session,
     against the policy (editors and Bigger Picture on Opus, Fable only on Rafi's word). Found when the final push was refused. Prevention: step 0 of Part A starts with
     git fetch and a diff of CLAUDE.md and the skills against origin; a changed rule is read before any agent is launched. Fix: proposed to Rafi in chat; not yet in the skill.
+84. (6 Oct 2026) THE POOL MUST BE A SORTABLE TABLE FOR PEOPLE, AND LATER FOR WEBSITE VIEWERS (Rafi). Today build_pool.py writes only a CSV (AIND_Pool_<date>.csv):
+    no filter arrows, the time is plain text. Rafi wants to sort by importance, time released, source and category. For V1: keep the pool as one clean data file with fixed
+    columns (item_id, category, importance, published as a real date and time, source, title, summary, link), and put a sortable table on top of it for Rafi and, later,
+    for the website. The data file is the one truth; the table is only a view. In this temporary session: a small script in Part A makes the Excel file each day (Rafi's pick pending).
