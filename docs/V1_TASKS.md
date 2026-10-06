@@ -358,3 +358,8 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     must still say yes."). Rafi: "you made the news stupid", back to level 5. Lesson: simple means simple WORDS in full natural
     adult sentences, two per clip after the introduction (who did what, then why it matters to the viewer); a rule that only limits
     length produces fragments. Now in the phrasing file and the briefs; the stranger check fails childish or context-free lines.
+76. (6 Oct 2026) MODEL POLICY (Rafi): Sonnet for the main session and the bulk agents; Opus 5.5 at extra high effort for the hard
+    tasks; Fable only when Rafi says a result is not enough, and only for that item. A first 6 Oct session started on Fable ran the
+    curators (about $17 in 7 minutes) and was stopped when Rafi gave this policy; that work was dropped. Prevention: the model policy
+    is in CLAUDE.md, so the start line (rule 19) carries no model words. Limit: the Agent tool sets a model but not an effort level;
+    the effort selector in the app sets the session's own effort.

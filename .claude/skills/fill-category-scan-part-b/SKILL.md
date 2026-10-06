@@ -63,11 +63,11 @@ at most about 15 characters), and save it as `$W/cards_work/selection.json` with
 teaser_items (3 to 4, categories not already on cards), headlines_story_clips_in_order (7, roughly half of the
 story cards, deck order), headlines_fun, bp_refs (the entries the Bigger Picture card rests on).
 
-### 2. Wording (2 Fable agents in parallel, 25 to 40 minutes: start at once)
+### 2. Wording (2 hard task agents in parallel, 25 to 40 minutes: start at once)
 ```
 python3 $S/make_wording_prompts.py --workdir $W
 ```
-Launch both in ONE message with the Agent tool, model "fable", run in background:
+Launch both in ONE message with the Agent tool, model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word), run in background:
 `Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and
 follow it exactly.` They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_fable.json`.
 While they work, do step 5's cover (it needs no wording).
@@ -78,7 +78,7 @@ cp $W/headlines_work/scripts_fable.json $W/headlines_work/scripts_final.json
 python3 $S/check_wording.py --workdir $W --cards $W/cards_work/cards_copy_fable.json --headlines $W/headlines_work/scripts_final.json
 ```
 Fix every FAIL and shorten every clip marked long (story about 8 to 9 s, the news part about 90 s), keeping the old
-file as `_old`. Then two fresh Fable agents (model "fable", in parallel, a few minutes each), which see only the
+file as `_old`. Then two fresh hard task agents (model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word), in parallel, a few minutes each), which see only the
 words: `Read $W/cards_work/prompt_stranger_cards.txt and follow it exactly.` and the same for
 `$W/headlines_work/prompt_stranger_headlines.txt`. Read `stranger_result.json` in both folders; apply or improve
 every fix (check facts and hedges against the entry; never add a fact), run check_wording.py again until it says
@@ -89,7 +89,7 @@ is a reply AND names the earlier story ("Yesterday we carried a New York Times r
 ### 3a. Fixing a failing line (Rafi, 5 Oct 2026)
 The main session never writes or rewrites a Headlines line itself (on 5 Oct its own fixes were the most complicated lines).
 Failing lines go into `$W/headlines_work/rewrite_request.json` {"locked": [items in Rafi's own wording], "fail": {item: [reasons]}},
-then one Fable agent: `Read $W/headlines_work/prompt_rewrite_headlines.txt and follow it exactly.` Rafi's own wording is taken as
+then one hard task agent: `Read $W/headlines_work/prompt_rewrite_headlines.txt and follow it exactly.` Rafi's own wording is taken as
 given ("locked"). Then step 3 and 3b again. build_pack.py and review_list.py refuse to run unless check_wording.py and the rules
 agent passed on the CURRENT lines, so no edit can skip the checks.
 
@@ -100,7 +100,7 @@ python3 $S/check_headlines_rules.py --workdir $W
 It tests the Drive Headlines Master rules a script can test: deck order (A3), teaser only from the teaser card (A5),
 approved ending and the opening slot (A2), timing aim and 12 s maximum (B1), spoken introductions (B2a), INTRODUCTIONS
 ROTATE, never the previous day's wording (G2), numbers as words (B3), no outlet spoken (G1.4), pronunciation cues and
-Google DeepMind (15 Sep), one company at most 2 story clips. Then one Fable agent (model "fable"):
+Google DeepMind (15 Sep), one company at most 2 story clips. Then one Fable agent (model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word)):
 `Read $W/headlines_work/prompt_rules_headlines.txt and follow it exactly.` It checks every clip against every rule of the
 Headlines Master A, B, G and 15 Sep sections, the phrasing law 1, 1A, 1B and Cards Master Section 3 (company tags under
 100 billion dollars, WHO, WHAT, WHY, deed first, the robotics clip shows what the machine does) and writes

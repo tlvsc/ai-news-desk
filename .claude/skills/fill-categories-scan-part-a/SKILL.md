@@ -77,7 +77,7 @@ python3 $K/source_scan.py --workdir $W        # about 1 minute; 3 Oct 2026: 174 
 ```
 python3 $K/make_prompts.py --workdir $W --stage curate        # 15 to 20 main picks, 3 backups; Fun 10
 ```
-Launch 16 background agents in ONE message (5 Oct 2026 trial: model "sonnet", CLAUDE.md MODEL TRIAL), description "Curate cat NN", prompt:
+Launch 16 background agents in ONE message (model "sonnet", CLAUDE.md MODEL POLICY), description "Curate cat NN", prompt:
 `Read $W/prompts/curate_NN.txt and follow it exactly.` Each writes `$W/pool/cat_NN.json`. The brief carries the
 day rules (candidates_55.json, the four day repeat list, 15 to 20, never pad); nothing is appended by hand.
 
@@ -117,7 +117,7 @@ Fun Side. If step 8 has to lower the report cutoff on a thin day, run
 python3 $K/make_prompts.py --workdir $W --stage write
 ```
 One-off instructions for a category go in `$W/prompt_extra.json` {"write": {"12": "..."}} before this command.
-Launch 16 background agents (5 Oct 2026 trial: model "sonnet"; fillers too), description "Read and write cat NN", prompt
+Launch 16 background agents (model "sonnet", fillers too; CLAUDE.md MODEL POLICY), description "Read and write cat NN", prompt
 `Read $W/prompts/write_NN.txt and follow it exactly.` Each writes `$W/facts/<id>.json` and
 `$W/report_entries/<id>.json` at the Full Report level of Article_phrasing_instructions_AIND_V1 (read before each entry).
 
@@ -144,7 +144,7 @@ and up). Read the "CHECK bulletin spread" line: a category with no story is stat
 ```
 python3 $K/make_prompts.py --workdir $W --stage edit
 ```
-Launch 2 background agents (`Read $W/prompts/edit_A.txt and follow it exactly.`, the same for edit_B). Read
+Launch 2 background agents (model "opus", CLAUDE.md MODEL POLICY; `Read $W/prompts/edit_A.txt and follow it exactly.`, the same for edit_B). Read
 `$W/qa2_log_A.json` and `qa2_log_B.json`; act on every "unresolved" item (hold re-dated or duplicate stories in
 held.json; an unclear quote of a named person is kept only with its hedge, or held), then build again.
 

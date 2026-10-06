@@ -123,9 +123,11 @@ not about which project it is.
     HEADLINES RULES RECHECK (Rafi, 4 Oct 2026): before Rafi sees the Headlines lines, they are checked against the
     Drive Headlines Master rules, by a script (check_headlines_rules.py) and a rules agent (Part B step 3b). Nothing
     goes to him with a rules FAIL. Introductions rotate: never the previous day's wording (Drive rule G2).
-    MODEL TRIAL (Rafi, 4 Oct 2026): the 5 Oct run is a one day test. The 16 curators, the fillers and the 16 writers
-    run on Sonnet (Agent tool, model "sonnet"); the wording, stranger, rules and editor agents stay on Fable. Report
-    the token use and any quality drop next to the 4 Oct run (about 6.3 million helper tokens); Rafi decides after.
+    MODEL POLICY (Rafi, 6 Oct 2026, replaces the MODEL TRIAL): the main session and the bulk agents (16 curators, fillers,
+    16 writers, setup, Drive delivery) run on Sonnet (Agent tool model "sonnet"). Hard tasks run on Opus 5.5 at extra high
+    effort (Agent tool model "opus"): the editors, the Bigger Picture, the card and Headlines wording, the stranger check, the
+    rules agent and the rewrite agent. Fable (model "fable") is used ONLY when Rafi, after seeing a result, says it is not
+    enough, and then only for the item he names. Report the helper token use per stage next to the 4 and 5 Oct runs.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
     reads the sentence limit from that file and fails a line that breaks the shape. A fix is shorter and simpler, never longer.
