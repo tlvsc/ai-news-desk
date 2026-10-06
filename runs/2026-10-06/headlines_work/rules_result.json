@@ -1,86 +1,86 @@
 [
  {
   "clip": "C13-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "41 syl 9.5 s (script WARN only). The first clip opens with the news itself (Rafi, 6 Oct). 'A defence official says' keeps the attribution; the why is the stake for people, limits on mass spying (entry: refused to drop safety limits, citing mass surveillance). Follow-up pointer holds: our Saturday 3 Oct edition item 6 cited the Pentagon's supply-chain-risk label (the fuller coverage was 27 Sep)."
+  "pass": false,
+  "overridden_by": "Rafi, 6 Oct 2026: 'Everything was fucking okay in the beginning' (he kept his original wording and moved on to the delivery JSON)",
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS",
+    "why": "first rules agent run (11:56): the line gives only the cause; the why for people is not spoken"
+   }
+  ],
+  "fix": "An update. The Pentagon says it dropped an-thropic's A I after the safety limits dispute we reported Saturday, so staff lose that tool."
  },
  {
   "clip": "C06-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "41 syl 9.5 s (script WARN only). Follow-up checked: our 30 Sep edition item 6, OpenAI aiming to raise up to 30 billion dollars. 'may join' keeps the talks hedge; tags present (Gulf state funds, investor BlackRock); the why (Gulf funds get a stake in Chat G P T) is as far as the entry goes."
+  "pass": false,
+  "overridden_by": "Rafi, 6 Oct 2026: 'Everything was fucking okay in the beginning' (he kept his original wording and moved on to the delivery JSON)",
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS",
+    "why": "first rules agent run (11:56): everything after the introduction is a deal fact; the why for people is not spoken"
+   }
+  ],
+  "fix": "In finance. Open A I is reportedly in talks with Gulf funds and BlackRock on the funding we reported last week, cash for the Chat G P T people use."
  },
  {
   "clip": "C06-02",
   "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "The why ('for the low-cost A I that people use') is thin but it is the entry's own importance line; nothing stronger is supported, so no fix could add one. Hedges kept (is said to be, close to, at least). 'From China' is not a 5 Oct wording (G2), though 5 Oct used 'From Westminster' and 'From Taiwan'."
+  "note": "the first run flagged the repeated lead-in 'In finance.'; it is now 'Also in finance.' (Rafi's own words)"
  },
  {
   "clip": "C12-01",
-  "pass": false,
-  "broken": [
-   {
-    "rule": "1B WHO",
-    "why": "'the president' is never identified: 'in Seoul' gives only a city, and in a bank-hack story a first-time viewer can hear a bank's president. The entry says South Korea's president, Lee Jae Myung."
-   },
-   {
-    "rule": "HEADLINES SHAPE (never stack descriptions on one name)",
-    "why": "'bank hackers' carries two descriptions in a row, 'we told you about on Sunday' and ', who leaked customers' personal data'; the second hangs after the Sunday pointer and is hard to follow on one hearing."
-   }
-  ],
-  "fix": "Security worries in Seoul: South Korea's president sees signs A I helped hackers leak bank customers' data in some attacks we covered on Sunday.",
-  "note": "Fix 38 syl 9.0 s (now 39). Keeps the introduction, the hedges ('sees signs', 'some'), the why (bank customers' data leaked) and the follow-up inside the sentence (checked: our Sunday 4 Oct edition item 30, the bank data leaks). One comma-free sentence, no side clause."
+  "pass": true,
+  "note": "passed twice (first run and quick run); the intro 'In security.' repeats 5 Oct: G2 overridden by Rafi"
  },
  {
   "clip": "C11-03",
-  "pass": false,
-  "broken": [
-   {
-    "rule": "G1.1 sound spelling",
-    "why": "'LG' is an unspaced acronym; every other acronym in the bulletin is spaced (A I, U S, Chat G P T). Write 'L G' so the voice says the two letters."
-   }
-  ],
-  "fix": "In robotics. Tech group L G and N-vidia are reportedly building the A I brain for Hyundai's first mass-market self-driving car, so driving could get easier.",
-  "note": "Only 'LG' changes; 40 syl 9.5 s, unchanged. 'In robotics' and the missing card are Rafi's overrides (G2 and A3 waived). Not failed, for the main session to judge: Hyundai has no separate tag (G1.2), but 'Hyundai's ... self-driving car' says it makes cars and 'car maker' would repeat 'car' and lengthen the line. The vehicle's deed is said (self-driving); 'reportedly' and 'could' keep the hedges."
+  "pass": true,
+  "note": "passed the quick run after the 'car maker' tag; 'In robotics.' repeats 5 Oct: G2 overridden by Rafi"
  },
  {
   "clip": "C01-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "42 syl 10.0 s, at the maximum (script WARN). Follow-up checked: our 5 Oct edition item 63 (Axios: Reflection about to launch). 'claims' keeps the company-claim hedge. The why (companies can use an American A I instead of a top free Chinese one) is the entry's own (developers, agencies and companies); the stranger check flagged it as not for ordinary people, and the entry supports nothing wider."
+  "pass": false,
+  "overridden_by": "Rafi, 6 Oct 2026: 'Everything was fucking okay in the beginning' (he kept his original wording and moved on to the delivery JSON)",
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS",
+    "why": "first rules agent run (11:56): the line ends on the company's claim and never says who gains"
+   }
+  ],
+  "fix": "In tech. U S start-up Reflection unveiled the A I we reported yesterday, which it claims can give firms a match for a top free Chinese one."
  },
  {
   "clip": "C04-02",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "40 syl 9.5 s (script WARN only). 'says' and 'may one day' keep the preprint hedge; 'medicine costs' renders the entry's 'cut the cost of making drug ingredients'. 'Science now' differs from 5 Oct 'In science' (G2)."
+  "pass": true
  },
  {
   "clip": "fun",
   "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Amazon confirmed the bug behind the 'la' reports and says a fix is coming; 'for minutes' comes from user reports inside the confirmed affliction. 'Time for a smile' is new wording (5 Oct: 'In lighter news')."
+  "note": "the Alexa line was written by an Opus writer and passed the script checks; the rules agent passed the near identical line of the flowing version. The line itself was not rules-agent-checked."
  },
  {
   "clip": "teaser",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Two teaser items from the teaser card (A5 by script). 'drafts' keeps the draft status, 'in case' the hypothetical; NATO is spoken as a word, so it stays unspaced. The script's 10.0 s counts NATO as four letters; spoken it is about 41 syl, 9.5 s."
+  "pass": false,
+  "overridden_by": "Rafi, 6 Oct 2026: 'Everything was fucking okay in the beginning' (he kept his original wording and moved on to the delivery JSON)",
+  "broken": [
+   {
+    "rule": "1B WHAT",
+    "why": "first rules agent run (11:56): 'answered' does not say the senator attacked the warnings as alarmist"
+   }
+  ],
+  "fix": "Also in the full report. Nato drafts a drone and A I plan should Russia attack. A senator hit back at an-thropic's A I warnings we reported last week."
  },
  {
   "clip": "bp",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "44 syl 10.0 s, at the maximum. A market summation, then one thing to watch and why (CLAUDE.md rule 17). The 24-year high is checked (10-year yield highest since 2002, C07-01); 'raise mortgage payments' is backed by C07-01 (people with mortgages feel the highest long-term borrowing costs since 2002)."
+  "pass": false,
+  "overridden_by": "Rafi, 6 Oct 2026: 'Everything was fucking okay in the beginning' (he kept his original wording and moved on to the delivery JSON)",
+  "broken": [
+   {
+    "rule": "1A nothing stronger than the entry",
+    "why": "first rules agent run (11:56): 'pouring money' turns talks into money already flowing"
+   }
+  ],
+  "fix": "And for the bigger picture: banks, investors and state funds are lining up money for A I. Watch U S borrowing costs at a twenty four year high, which make loans dearer."
  }
 ]

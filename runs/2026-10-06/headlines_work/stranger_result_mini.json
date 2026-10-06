@@ -1,0 +1,32 @@
+[
+ {
+  "n": 1,
+  "retell": "South Korea's president thinks hackers may have used AI to break into some banks, and those hacks spilled customers' private information.",
+  "who": "South Korea's president (about hackers who hit some banks)",
+  "what": "sees signs AI was used in some bank hacks",
+  "why": "bank customers' data leaked, and AI may be helping hackers do it",
+  "pass": false,
+  "problem": "Unclear 'they' in 'they leaked customers' data': no banks are named, only 'bank hacks', so a listener may hear that the banks leaked the data. The label opener 'Security worries in Seoul:' is a fragment before the news (South Korea already gives the place).",
+  "fix": "South Korea's president sees signs that hackers used A I to break into some banks. We told you on Sunday that those hacks leaked customers' data."
+ },
+ {
+  "n": 2,
+  "retell": "LG and Nvidia are reportedly making the computer brain for Hyundai's first self-driving car for regular buyers, which could make driving easier.",
+  "who": "LG and Nvidia, for Hyundai",
+  "what": "reportedly building the AI brain of Hyundai's first mass-market self-driving car",
+  "why": "driving could get easier",
+  "pass": false,
+  "problem": "'In robotics.' is a two-word fragment read like a section header, so the line sounds chopped. The fix folds it into the sentence and drops the label 'tech group' to stay shorter; every name and hedge ('reportedly', 'could') stays.",
+  "fix": "In robotics, L G and N-vidia are reportedly building the A I brain for Hyundai's first mass-market self-driving car. That could make driving easier."
+ },
+ {
+  "n": 3,
+  "retell": "A US start-up called Reflection showed off its new AI, Beam, just as the news said it would yesterday, and it says Beam is as good as a top Chinese AI but much cheaper to run.",
+  "who": "US start-up Reflection",
+  "what": "unveiled its new AI, Beam, which it claims matches a top Chinese AI",
+  "why": "it claims the same power for far less running cost",
+  "pass": false,
+  "problem": "Two facts sound like one: after the label opener 'A new American A I:', two everyday-word names arrive back to back ('start-up Reflection has unveiled Beam'), so at first hearing a listener cannot tell whether the AI is Reflection or Beam. 'It claims' leaves the claimant vague.",
+  "fix": "U S start-up Reflection has unveiled its new A I, Beam, as we said yesterday it would. The firm claims Beam matches a top Chinese A I but runs far cheaper."
+ }
+]

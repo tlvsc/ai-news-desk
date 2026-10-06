@@ -1,0 +1,25 @@
+[
+ {
+  "clip": "C12-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C11-03",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.2",
+    "why": "Hyundai is spoken with no two to three word tag. Hyundai Motor is valued below one hundred billion dollars, and the brief says a company of unsure size needs a tag anyway. 'Hyundai's ... self-driving car' implies a car maker but is not a tag: on 4 Oct an untagged Kawasaki failed the same rule and became 'Japanese firm Kawasaki', and this clip's own who field says 'car maker Hyundai'. The fix adds 'car maker' and gives the why as 'to help drivers' (entry: drivers may get more advanced driving help). The script counts 40 syllables (9.09 s), the same as now; a hand count gives about 42 against 43 now. It keeps one comma, 'In robotics.' exactly, 'L G', 'N-vidia' and the hedge 'reportedly'."
+   }
+  ],
+  "fix": "In robotics. Tech group L G and N-vidia are reportedly building the A I brain for car maker Hyundai's first mass-market self-driving car, to help drivers."
+ },
+ {
+  "clip": "C01-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ }
+]

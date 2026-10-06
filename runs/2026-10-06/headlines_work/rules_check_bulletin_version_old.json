@@ -16,7 +16,7 @@
   {
    "rule": "A5",
    "status": "PASS",
-   "detail": "teaser items ['C05-03', 'C11-02'] from the teaser card ['C04-05', 'C05-03', 'C08-04', 'C11-02']"
+   "detail": "teaser items ['C04-05', 'C11-02'] from the teaser card ['C04-05', 'C05-03', 'C08-04', 'C11-02']"
   },
   {
    "rule": "B1",
@@ -26,7 +26,7 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C13-01 opens with a spoken introduction: \"we begin with an update\""
+   "detail": "C13-01 opens with a spoken introduction: \"the pentagon has dropped an-thropic\""
   },
   {
    "rule": "B3",
@@ -35,13 +35,13 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C06-01 8.5 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C06-01 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-01 opens with a spoken introduction: \"in finance\""
+   "detail": "C06-01 opens with a spoken introduction: \"turning to money\""
   },
   {
    "rule": "B3",
@@ -50,13 +50,13 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C06-02 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C06-02 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-02 opens with a spoken introduction: \"also in finance\""
+   "detail": "C06-02 opens with a spoken introduction: \"from china, more funding\""
   },
   {
    "rule": "B3",
@@ -71,7 +71,7 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C12-01 opens with a spoken introduction: \"in security\""
+   "detail": "C12-01 opens with a spoken introduction: \"security worries in seoul\""
   },
   {
    "rule": "B3",
@@ -95,13 +95,13 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C01-01 8.0 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C01-01 10.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C01-01 opens with a spoken introduction: \"in tech\""
+   "detail": "C01-01 opens with a spoken introduction: \"a new american a i\""
   },
   {
    "rule": "B3",
@@ -116,7 +116,7 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C04-02 opens with a spoken introduction: \"in the lab\""
+   "detail": "C04-02 opens with a spoken introduction: \"science now\""
   },
   {
    "rule": "B3",
@@ -126,12 +126,12 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "fun 9.5 s (aim 8.5 s or less)"
+   "detail": "fun 9.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "fun opens with a spoken introduction: \"and finally, something lighter\""
+   "detail": "fun opens with a spoken introduction: \"time for a smile\""
   },
   {
    "rule": "B3",
@@ -141,7 +141,7 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "teaser 9.5 s (aim 8.5 s or less)"
+   "detail": "teaser 10.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -171,7 +171,7 @@
   {
    "rule": "G2",
    "status": "OVERRIDE",
-   "detail": "introductions used the previous day (2026-10-05): [('C12-01', 'in security'), ('C11-03', 'in robotics')]",
+   "detail": "introductions used the previous day (2026-10-05): [('C11-03', 'in robotics')]",
    "was": "FAIL",
    "override": {
     "by": "Rafi",
@@ -183,30 +183,38 @@
   {
    "rule": "C16",
    "status": "PASS",
-   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'Google': 1}"
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'OpenAI': 1, 'Google': 1}"
   },
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Alexa Plus', 'BlackRock', 'Chat', 'Chinese', 'DeepSeek', 'Google DeepMind', 'Gulf', 'Hyundai', 'Nato', 'Reflection', 'Russia', 'Saturday', 'South Korea', 'Sunday', 'Tech', 'We']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Alexa Plus', 'American', 'Beam', 'BlackRock', 'Chat', 'Chinese', 'DeepSeek', 'From China', 'Google DeepMind', 'Gulf', 'Hyundai', 'NATO', 'Reflection', 'Russia', 'Saturday', 'Science', 'Security', 'Seoul', 'South Korea', 'Sunday', 'Tech', 'Time', 'Turning', 'We']"
   }
  ],
  "names_to_tag": [
   "Alexa Plus",
+  "American",
+  "Beam",
   "BlackRock",
   "Chat",
   "Chinese",
   "DeepSeek",
+  "From China",
   "Google DeepMind",
   "Gulf",
   "Hyundai",
-  "Nato",
+  "NATO",
   "Reflection",
   "Russia",
   "Saturday",
+  "Science",
+  "Security",
+  "Seoul",
   "South Korea",
   "Sunday",
   "Tech",
+  "Time",
+  "Turning",
   "We"
  ],
  "overrides": 2
