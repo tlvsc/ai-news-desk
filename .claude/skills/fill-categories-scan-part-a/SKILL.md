@@ -158,8 +158,8 @@ python3 $K/check_dup14.py --workdir $W        # prints every REPEAT with the ear
 ```
 Read each REPEAT next to its earlier line: a real repeat (same story, no new facts) goes into `$W/held.json` under
 "duplicate" ("repeat of <date>"); a false match (different story, shared names) stays. `--hold` writes all of them;
-use it only when the list was read. A follow-up with new facts may stay in the report but is never a card or a
-Headlines story on its own. Then build again. 5 Oct 2026: 11 of 14 reports found; 10 real repeats among 132 entries
+use it only when the list was read. A follow-up with new facts stays in the report; whether it can be a card is
+decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update can). Then build again. 5 Oct 2026: 11 of 14 reports found; 10 real repeats among 132 entries
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture

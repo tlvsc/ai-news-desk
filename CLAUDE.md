@@ -68,9 +68,9 @@ not about which project it is.
     is Windows 10 22H2. Assume nothing is installed; assume PATH is stale after any
     install; assume `python.exe` may be the Microsoft Store stub that only opens the
     Store. Check that a tool RUNS, not that it exists.
-14. COUNTS ARE GUIDELINES, NOT GATES. Card count (~15), bulletin size, report size and
-    category slots are working targets. Adjust them to the day's pool, e.g. 15 plus or
-    minus 2 cards, and state the number. Never stop to ask Rafi about a count.
+14. COUNTS ARE GUIDELINES, NOT GATES. Card count (the CARD FILTER target), bulletin size, report size and
+    category slots are working targets. Adjust them to the day's pool and state the number.
+    Never stop to ask Rafi about a count.
     The Full Report is score 5 and up plus the Fun Side by default: it is sorted
     by category, so a reader can go to their own section, where a 5 may matter to them.
     Stay flexible on unusual days: if 5 and up passes about 150 stories, raise the
@@ -81,12 +81,12 @@ not about which project it is.
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
 16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
     only when Rafi asks, for a late start. Fun Side: 5 to 10 stories in the Full Report,
-    leaving out repeats; the top 3 also go in the Bulletin. Cards: aim for 14 to 15 story cards; 7 of them go into Headlines,
+    leaving out repeats; the top 3 also go in the Bulletin. Cards: the number of story cards comes from the CARD FILTER below; 7 of them go into Headlines,
     roughly half (a guideline, not a gate). Headlines news part is about 90 seconds (Rafi, 30 Sep
     2026): 7 stories of about 8 to 9 seconds, Fun about 8, teaser about 8, The Bigger Picture about
     10; the stored opening and ending come on top. Every clip time is rounded UP to the next half
-    second (8.4 becomes 8.5, 8.6 becomes 9). One company gets at most 2 stories in Headlines and
-    at most 3 story cards (Rafi, 30 Sep 2026); past that, the next biggest story in the field goes in. Everything final goes to its designated
+    second (8.4 becomes 8.5, 8.6 becomes 9). Company limits (Rafi, 30 Sep 2026) are
+    in the CARD FILTER below; past a limit, the next biggest story in the field goes in. Everything final goes to its designated
     Drive place by the skills' delivery step (the standing yes of 3 Oct 2026 in rule 0); what the Drive
     connection cannot upload goes to Rafi in chat.
     SOURCES (Rafi, 2 Oct 2026): Google News is first and main. Then read the 55 sources of the
@@ -140,7 +140,17 @@ not about which project it is.
     reinterprets it; card_candidates.py applies it and names the file. Claude broke this twice on 5 Oct 2026 by writing its own reading here.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
-    Headlines take only what survives it, and a follow-up of the last deck's story is not a card.
+    Headlines take only what survives it. A meaningful update of an earlier story can be a card (CARD FILTER below).
+    CARD FILTER (Rafi, 6 Oct 2026; the ONE place for card numbers and company limits; replaces the fixed slots of the Drive Cards Master
+    Section 2 item 4, which Rafi or ChatGPT still have to update there; scripts and skills point here and hold no numbers): the category
+    order stays (read from the Drive Cards Master Section 2 item 4). Critical stories (score 10) come first, each spending its category's
+    slot. Every category keeps its best story if it scores base_min or more; fun is always last. The remaining slots, up to target story
+    cards, go to the highest scored stories left, if they score extra_min or more, at most max_per_category per category (market
+    market_max, the money cap). A meaningful update of an earlier story can be a card (a decision, a confirmation, a first result or a
+    new party) and the card names the earlier story; a repeat of the last three decks without a meaningful update is a failure. Only
+    stories read in full; a robotics card shows a machine doing something. Past a limit, the next biggest story in the field goes in.
+    Headlines are chosen by the Drive Headlines Master (HEADLINES ORDER above), which says the strongest card stories by score.
+    CARD_FILTER: base_min=5 extra_min=7 target=15 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

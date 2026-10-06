@@ -1,6 +1,6 @@
 ---
 name: fill-category-scan-part-b
-description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (14 to 15 story cards plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from Fable, runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
+description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from Fable, runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
 ---
 
 # Fill_category_scan_Part_B
@@ -52,16 +52,17 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
 ```
 python3 $S/card_candidates.py --workdir $W
 ```
-It prints the NEW candidates per category (score, status, read or headline only, big company names, possible
-repeats of the last decks) and writes `$W/cards_work/selection_draft.json`. Candidates come only from the report after the 14 day repeat check (Part A step 9b); also compare every pick with the last
-three decks in runs/ (Rafi, 5 Oct 2026: a card that old news repeats is a failure, and a follow-up of a story the last deck
-already carried is not a card). No company twice in a row; at most 2 cards per company. Check it against the Cards rules
-(criticals first and spending their slot; Rafi's order and slots; money cards at most 3; a robot doing something;
-lead with the deed; one company at most 3 cards and 2 Headlines stories; NEW stories only; no repeat of the last
-three days of cards and Headlines), write a short "label" for each card (the second level of its CATEGORY line,
-at most about 15 characters), and save it as `$W/cards_work/selection.json` with: cards_in_deck_order,
-teaser_items (3 to 4, categories not already on cards), headlines_story_clips_in_order (7, roughly half of the
-story cards, deck order), headlines_fun, bp_refs (the entries the Bigger Picture card rests on).
+The script applies the CARD FILTER of CLAUDE.md rule 16 (all numbers and company limits are read from that file, the
+category order from the Drive Cards Master copy in `$W/rules`; this skill holds no numbers) and prints the picks, the
+LEFT OUT list (every story of score 6 and up that got no card, with the reason), big company names and possible repeats
+of the last three decks, and writes `$W/cards_work/selection_draft.json`. Candidates come only from the report after the 14
+day repeat check (Part A step 9b). An UPDATE of an earlier story is kept only when the update is meaningful (CLAUDE.md
+rule 16): read it next to its entry and the old deck, and the card then names the earlier story. A repeat of the last three
+decks without a meaningful update is a failure (Rafi, 5 and 6 Oct 2026). Then write a short "label" for each card (the
+second level of its CATEGORY line, at most about 15 characters), and save it as `$W/cards_work/selection.json` with:
+cards_in_deck_order, teaser_items (3 to 4 stories without a card), headlines_story_clips_in_order (chosen by the Drive
+Headlines Master, strongest card stories by score in deck order; the script prints it), headlines_fun, bp_refs (the
+entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection.
 
 ### 2. Wording (2 hard task agents in parallel, 25 to 40 minutes: start at once)
 ```
