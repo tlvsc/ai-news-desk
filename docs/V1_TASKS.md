@@ -363,3 +363,25 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     curators (about $17 in 7 minutes) and was stopped when Rafi gave this policy; that work was dropped. Prevention: the model policy
     is in CLAUDE.md, so the start line (rule 19) carries no model words. Limit: the Agent tool sets a model but not an effort level;
     the effort selector in the app sets the session's own effort.
+
+## Part 4: lessons from the 6 Oct 2026 run (Part A, Sonnet curators and writers, Fable editors)
+77. (6 Oct 2026, mistake record) DECODER LAUNCHED WITH A SHELL "&". I started decode_links.py as `( ... ) &` inside a background Bash call, so the
+    harness had nothing to wait on. Caught at once, relaunched with run_in_background (243 of 243 decoded). Prevention: the skill gotcha already says it; V1 should
+    start long jobs only through one wrapper that the harness tracks.
+78. (6 Oct 2026) delivery_manifest.py looks for AIND_Pool_<date>.csv in products/, but build_pool.py writes it to out/. The manifest listed it MISSING LOCALLY.
+    Worked around by copying the CSV into products/ (5 Oct had done the same). Fix: build_pool or the manifest uses one place.
+79. (6 Oct 2026) check_dup14.py is too loose at a word overlap of 0.5: 14 REPEAT lines, every one a false match or a follow-up with new facts (shared names such as
+    OpenAI or Australia; the "earlier" line printed is cut and sometimes a different story). Reading the pairs cost many tool calls. V1: print the full earlier headline,
+    require a shared event word plus a number, and mark a follow-up with new facts automatically.
+80. (6 Oct 2026) ONE EVENT IN FIVE ENTRIES. The 6 Oct Australian parliamentary hearing reached the pool five times (categories 5, 12, 12, 12, 13) with different urls,
+    so build_pool's same-url check did not catch it; only the writers' notes did. I held two (C12-10, C12-15) and kept three angles. V1: an event-level duplicate check across
+    categories (same date, same named parties) before the writers start.
+81. (6 Oct 2026) BIGGER PICTURE FIRST DRAFT HAD 12 SMALL OVERSTATEMENTS found by the second reader (a company's own plan stated as fact, "first" with no source for it,
+    "street protest" for a dinner disruption, a horizon that did not match its forecast, "cost of waiting" with nothing behind it). All fixed before delivery. Lesson: the
+    main session writing the Bigger Picture re-checks every Inference and every number word against its entry; keep the second reader as a standing step.
+82. (6 Oct 2026) THIN DAYS. Category 1 gave 12 of 15 even after about 100 extra queries (repeats of the last 4 days and stale re-reports); categories 2, 3, 15 had only 3 to 7
+    entries at score 5. Counts stay guidelines (rule 14); the report landed at 147 (cutoff 5), the Bulletin at 58 (cutoff 6; 7 gave 20, 6 gave 55 plus 3 Fun).
+83. (6 Oct 2026, mistake record) STALE CLONE AT THE START OF A RUN. The cloud session cloned the branch before the 6 Oct model policy commit (06:40 UTC) landed, and
+    I did not fetch before starting, so I ran the two editors and the Bigger Picture second reader on Fable and wrote the Bigger Picture on Sonnet in the main session,
+    against the policy (editors and Bigger Picture on Opus, Fable only on Rafi's word). Found when the final push was refused. Prevention: step 0 of Part A starts with
+    git fetch and a diff of CLAUDE.md and the skills against origin; a changed rule is read before any agent is launched. Fix: proposed to Rafi in chat; not yet in the skill.
