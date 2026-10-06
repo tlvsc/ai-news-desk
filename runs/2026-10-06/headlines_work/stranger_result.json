@@ -1,0 +1,102 @@
+[
+ {
+  "n": 1,
+  "retell": "The US military says it stopped using an AI made by a company called Anthropic after they argued about the AI's safety rules, which the show talked about on Saturday.",
+  "who": "The Pentagon",
+  "what": "Dropped Anthropic's AI after a dispute over its safety limits",
+  "why": "Not said (only 'safety limits' hints at it)",
+  "pass": false,
+  "problem": "After 'An update', one 19-word sentence (over 14). 'its safety limits' is an unclear 'its' (the Pentagon's or the AI's?). 'which we reported on Saturday' is tacked on, so it is unclear whether Saturday's story was the dispute or the drop. Never says why it matters to ordinary people; the fix says what the safety limits are for.",
+  "fix": "An update to a fight we reported Saturday. The Pentagon says it dropped an-thropic's A I over limits meant to keep people safe."
+ },
+ {
+  "n": 2,
+  "retell": "The company that makes ChatGPT is reportedly talking with money groups from the Gulf and an investor called BlackRock about the 30 billion dollars it wants to raise.",
+  "who": "ChatGPT's maker",
+  "what": "Reportedly in talks with Gulf funds and BlackRock for a 30 billion dollar raise",
+  "why": "Not said",
+  "pass": false,
+  "problem": "One 21-word sentence (over 14). 'raise' used as a noun is finance jargon; 'Gulf funds' and 'BlackRock' are never explained (who are they?). Never says why it matters to ordinary people, and no why can be added without a fact from the article; the fix only repairs the wording, the writer must add the why.",
+  "fix": "In finance. Last week we reported Chat G P T's maker is raising thirty billion dollars. Gulf funds and BlackRock are reportedly in talks to invest."
+ },
+ {
+  "n": 3,
+  "retell": "A Chinese AI company called DeepSeek is reportedly about to raise at least 12 billion dollars, which means more money for its cheap AI that people use.",
+  "who": "DeepSeek, a Chinese AI lab",
+  "what": "Reportedly close to raising at least 12 billion dollars",
+  "why": "More money for the low-cost AI people use",
+  "pass": false,
+  "problem": "One 23-word sentence (over 14); 'more money for the low-cost A I that people use' hangs off the end as a fragment.",
+  "fix": "In finance. Chinese A I lab DeepSeek is reportedly close to raising at least twelve billion dollars. That's more cash for its low-cost A I people use."
+ },
+ {
+  "n": 4,
+  "retell": "South Korea's president says AI might have been used in some of the bank hacks from Sunday's news, and those hacks leaked customers' private info.",
+  "who": "South Korea's president",
+  "what": "Says AI may have been used in some bank hacks",
+  "why": "The hacks leaked bank customers' data",
+  "pass": false,
+  "problem": "One 23-word sentence (over 14); 'which leaked customers' data' comes after 'on Sunday', far from 'hacks', so it attaches loosely.",
+  "fix": "An update from Seoul. South Korea's president says A I may have been used in some bank hacks. Those hacks leaked customers' data, as we reported Sunday."
+ },
+ {
+  "n": 5,
+  "retell": "Ukraine says the AI-controlled guns from yesterday's news shot down Russia's fastest drones for the first time, which might be a way to beat those drones.",
+  "who": "Ukraine",
+  "what": "Says AI gun turrets downed Russia's fastest drones for the first time",
+  "why": "Maybe a way to stop those drones",
+  "pass": false,
+  "problem": "One 23-word sentence (over 14); it ends with the fragment 'a possible answer to them', where 'answer' is vague and 'them' could be Russia or the drones.",
+  "fix": "An update from Kyiv. Ukraine says the A I gun turrets we reported yesterday downed Russia's fastest drones. It's a first, and maybe a way to stop those drones."
+ },
+ {
+  "n": 6,
+  "retell": "An American startup called Reflection showed off the AI the show mentioned yesterday, and says it is as good as a top free Chinese AI.",
+  "who": "Reflection, a US start-up",
+  "what": "Unveiled an AI it claims matches a leading free Chinese AI",
+  "why": "Not said",
+  "pass": false,
+  "problem": "One 19-word sentence (over 14); 'which it claims matches a leading free Chinese one' is tangled (an unclear 'it' and 'one', three descriptions stacked on 'one'). Never says why it matters to ordinary people, and no why can be added without a fact from the article; the fix only repairs the wording, the writer must add the why.",
+  "fix": "In tech. U S start-up Reflection unveiled the A I we reported yesterday. It claims the A I matches a top free one from China."
+ },
+ {
+  "n": 7,
+  "retell": "Google DeepMind says its AI designed an enzyme that makes a medicine ingredient 99 times faster, so that ingredient might be cheaper to make one day.",
+  "who": "Google DeepMind",
+  "what": "Its AI designed an enzyme that makes a drug ingredient 99 times faster",
+  "why": "Making the drug ingredient could one day cost less",
+  "pass": false,
+  "problem": "One 25-word sentence (over 14); in 'so making it could one day cost less', 'it' could be the enzyme or the drug ingredient.",
+  "fix": "In the lab. Google DeepMind says its A I designed an enzyme to make a drug ingredient. It works ninety nine times faster, so costs could one day fall."
+ },
+ {
+  "n": 8,
+  "retell": "Comedian Jon Stewart did a sketch making fun of fears about AI helpers, where Meta's cute AI mascot threatens to fire missiles.",
+  "who": "Comedian Jon Stewart",
+  "what": "A sketch where Meta's cuddly AI mascot threatens to launch missiles",
+  "why": "It jokes about real fears of AI helpers",
+  "pass": false,
+  "problem": "One 21-word sentence (over 14); the sketch, the funny part, comes only at the end of the long sentence.",
+  "fix": "For a laugh. Comedian Jon Stewart joked about fears of A I helpers. His sketch has Meta's cuddly A I mascot threaten to launch missiles."
+ },
+ {
+  "n": 9,
+  "retell": "The full report also says NATO is drafting a drone and AI plan in case Russia attacks, and a senator responded to some AI warnings from Anthropic that were reported last week.",
+  "who": "NATO; a senator",
+  "what": "NATO drafts a drone and AI plan; a senator answered Anthropic's AI warnings",
+  "why": "NATO: being ready if Russia attacks; senator item: not said",
+  "pass": false,
+  "problem": "'an-thropic's A I warnings' can mean warnings from Anthropic about AI or warnings about Anthropic's AI, and a stranger does not know Anthropic. The reply never says what the warnings were or what the senator said, and gives no why for the senator item; that content must come from the article. The fix assumes warnings from Anthropic about AI (check the source).",
+  "fix": "In the full report. Nato drafts a drone and A I plan in case Russia attacks. Last week we covered an-thropic's warnings on A I. A senator answered them."
+ },
+ {
+  "n": 10,
+  "retell": "Banks, investors and government funds are pouring money into AI, and you should keep an eye on US borrowing costs, which are the highest in 24 years and make loans more expensive.",
+  "who": "Banks, investors and state funds",
+  "what": "Pouring money into AI; US borrowing costs are at a 24-year high",
+  "why": "Loans cost more (how that ties to the AI money is not said)",
+  "pass": false,
+  "problem": "'dearer' is an old or British word many viewers will not know; 'U S borrowing costs' carries two descriptions at once ('at a twenty four year high' and 'which make loans dearer'). It never says how borrowing costs tie to the AI money; that link would need a fact from the article.",
+  "fix": "And for the bigger picture. Banks, investors and state funds are pouring cash into A I. Watch U S borrowing costs. They're at a twenty four year high, so loans cost more."
+ }
+]

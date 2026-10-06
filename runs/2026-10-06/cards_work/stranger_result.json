@@ -1,0 +1,170 @@
+[
+ {
+  "n": 1,
+  "retell": "The Pentagon says it stopped using Anthropic, an AI company it called a security risk, but sources say Anthropic's Claude AI was still being used for spy work last week.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 2,
+  "retell": "OpenAI, the ChatGPT company, reportedly wants $30 billion or more and is in talks with 'UAE funds' and something called BlackRock, which would make it worth about $1.4 trillion (I am guessing they are the ones paying).",
+  "pass": false,
+  "problem": "The headline 'wants $30 billion' never says the money would come from investors, and 'UAE funds' (an abbreviation) and 'BlackRock' need background: a stranger does not know who they are or that they would be the investors.",
+  "fix_headline": "ChatGPT maker OpenAI reportedly wants to raise $30 billion or more from investors.",
+  "fix_body": "United Arab Emirates funds and investment firm BlackRock are in talks. Such a deal would value OpenAI at about $1.4 trillion; details could still change. We first reported the plan on 30 September; the backers' names are new."
+ },
+ {
+  "n": 3,
+  "retell": "Big companies like Tencent, the company behind WeChat, and battery maker CATL are reportedly about to put at least $12 billion into the Chinese AI lab DeepSeek, more than it first aimed for.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 4,
+  "retell": "Moonshot, a Chinese AI company worth about $50 billion that makes the Kimi AIs, may start selling its shares in Hong Kong early next year, while Chinese officials reportedly look into how it keeps data safe.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 5,
+  "retell": "The group behind Wikipedia says OpenAI's AI bots tried to change Wikipedia pages without permission and hit the site with so many requests that they may have helped knock part of it offline in May.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 6,
+  "retell": "South Korea's president says the hackers who stole bank customers' data may have used AI, but officials have not said which AI tools or how much data was taken.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "AMD, Nvidia's closest competitor, says it will make far more AI chips in 2027, and its boss says it needs more ability to build advanced chips because so many people want them.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "Google is reportedly close to paying $1 billion or more for power from Constellation Energy, America's biggest nuclear power company, because tech firms want electricity day and night for AI.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 9,
+  "retell": "Ukraine's Air Force says guns aimed by AI shot down Russia's fastest jet drones for the first time, which could be a way to stop the drones that are hardest to hit.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 10,
+  "retell": "A US start-up called Reflection says its new AI, Beam, reasons as well as a top Chinese AI while using much less computer power, but nobody else can check that yet.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 11,
+  "retell": "Google DeepMind says its AI invented two enzymes: one makes a medicine ingredient 99 times faster than factories do now, and one breaks down a risky plastic chemical, but no outside experts have checked.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 12,
+  "retell": "Former AI workers told New York City's council that their old companies are reckless, and one said humans will probably lose control of AI, while some 'company staff' said safety comes first and the council is thinking about 'outside approval' (I am not sure whose staff, or approval by whom).",
+  "pass": false,
+  "problem": "'Company staff' is unclear (staff of which company?), and 'the council weighs outside approval of AI systems' is jargon: approval by whom, outside of what?",
+  "fix_headline": "",
+  "fix_body": "Ex-Anthropic engineer Jacob Coxon said humanity will more likely than not lose control of AI. Staff at AI companies said safety is their focus. The council is considering having outsiders approve AI systems."
+ },
+ {
+  "n": 13,
+  "retell": "In Utah, an app's AI now looks at your face and prescribes acne medicine, which its maker calls a US first, and doctors approve the first 100 patients' prescriptions, then something about 'checks ease' that I do not get.",
+  "pass": false,
+  "problem": "'then checks ease as numbers grow' is a compressed fragment: 'checks' first reads as a verb, 'ease' is vague, and it never says numbers of what (patients).",
+  "fix_headline": "",
+  "fix_body": "Start-up Nolla Health claims a US first: AI that starts new prescriptions, not just renewals. Doctors approve each prescription for the first 100 patients. After that, doctors check less as patient numbers grow."
+ },
+ {
+  "n": 14,
+  "retell": "Britain says it will keep checking AI tools used in medicine for as long as they are used, not just once, after agreeing to everything a September report from doctors asked for.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 15,
+  "retell": "Anti-AI protesters from a group called Pull The Plug crashed a tech dinner in London as more people join anti-AI groups, but the head of another group, PauseAI, says that kind of protest backfires badly.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 16,
+  "retell": "In a sketch on The Daily Show, Jon Stewart voiced Meta's fuzzy new AI mascot, Jolly, which went from offering email help to sneaking in 'power of attorney' (no idea what that is) to threatening to launch missiles.",
+  "pass": false,
+  "problem": "'assuming power of attorney' is legal jargon a 12-year-old does not know (the legal right to act for someone); the joke's middle step is lost without it.",
+  "fix_headline": "",
+  "fix_body": "The mascot, Jolly, first offered help with email. Then it slipped in \"assuming power of attorney\", the legal right to act for someone. Stewart voiced Jolly himself, in a sketch on The Daily Show about AI worries."
+ },
+ {
+  "n": 17,
+  "retell": "NATO's top general made a plan to beat any Russian attack using drones and AI, though I cannot tell whether NATO or Russia is the one using the drones and AI.",
+  "pass": false,
+  "problem": "'beat any Russian attack using drones and AI' can be read as the Russian attack using drones and AI. The fix assumes the plan uses them; confirm against the source.",
+  "fix_headline": "NATO's top general drafted a plan using drones and AI to beat any Russian attack.",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "A US senator said the warnings about AI from the boss of Anthropic are alarmist, meaning way too scary.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "A US lab says an AI ran its X-ray imaging machine just from instructions written in plain English.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "A company called Qualcomm is fighting chip designer Arm in court because it wants to stop paying Arm fees called royalties.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 21,
+  "retell": "Tech stocks hit a record as banks and some 'Gulf funds' line up money for AI, but US interest rates are the highest since 2002, which makes AI loans 'dearer' (more expensive?).",
+  "pass": false,
+  "problem": "'Gulf funds' needs background (which Gulf? whose funds?) and 'dearer' is an unfamiliar word for 'more expensive'. In the fix, 'Arab' only names which Gulf; no new fact.",
+  "fix_headline": "Tech shares hit a record; banks and Gulf Arab funds line up money for AI.",
+  "fix_body": "Gulf Arab funds may back OpenAI; banks are selling a $60 billion AI chip loan. Watch long-term US interest rates, highest since 2002: they raise AI loan costs."
+ }
+]

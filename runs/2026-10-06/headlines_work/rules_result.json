@@ -1,0 +1,102 @@
+[
+ {
+  "clip": "C13-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS (phrasing file Headlines section)",
+    "why": "The line gives only the cause (a dispute over Anthropic's safety limits), a fact about the company and the regulator; it never says what changes for anyone. The why_for_people (Pentagon analysts lose that A I tool, the entry's importance line) is not spoken; the script's word overlap passed on what-words (dispute, safety, limits, Pentagon)."
+   }
+  ],
+  "fix": "An update. The Pentagon says it dropped an-thropic's A I after the safety limits dispute we reported Saturday, so staff lose that tool.",
+  "note": "Fix 37 syl 8.5 s, same as now. Keeps 'says', the cue, the dispute as the cause (not 'over its limits', per the rewrite request) and the Saturday pointer (checked: our 3 Oct edition item 6, Anthropic's prospectus warning that cites the Pentagon's supply-chain-risk label). 'staff lose that tool' is the entry's 'Pentagon analysts lose an AI tool'; 'its analysts' reads better but costs one syllable (38, 9.0 s)."
+ },
+ {
+  "clip": "C06-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS (phrasing file Headlines section)",
+    "why": "Everything after the introduction is a deal fact (who is in talks, for which raise); nothing says why it matters to people. The why_for_people (money for the company behind the ChatGPT people use; the entry: it matters to ChatGPT's users) is not spoken; the script passed only on 'chat' and 'talks'."
+   }
+  ],
+  "fix": "In finance. Open A I is reportedly in talks with Gulf funds and BlackRock on the funding we reported last week, cash for the Chat G P T people use.",
+  "note": "Fix 40 syl 9.5 s, same as now. Room for the why comes from 'an update' (the pointer 'we reported last week' already marks the update; checked: our 30 Sep edition item 6, OpenAI aiming to raise up to 30 billion dollars) and from the thirty billion figure, last week's news (Section 1 rule 4) and named by that pointer. The entry supports no effect on people beyond ChatGPT's users; anything stronger would be invented (1B). Apply with the C06-02 fix, or two clips in a row open 'In finance'."
+ },
+ {
+  "clip": "C06-02",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "B2a natural spoken introduction (G2 pool)",
+    "why": "'In finance.' repeats the lead-in of the clip just before it ('In finance, an update.'); a presenter briefing each item like a newsreader does not say the same lead-in twice in a row."
+   }
+  ],
+  "fix": "From China. A I lab DeepSeek is reportedly close to raising at least twelve billion dollars, more money for the low-cost A I that people use.",
+  "note": "Fix 37 syl 8.5 s (now 39, 9.0 s). Only the lead-in changes; 'Chinese' moves into it, leaving the tag 'A I lab' (G1.2: DeepSeek is valued far under 100 billion dollars). 'From China' was not a 5 Oct lead-in (G2). Hedges kept (reportedly, close to, at least); market story, so the money is the deed. The why is thin but it is the entry's own (matters to people who use its low-cost AI); nothing stronger is supported."
+ },
+ {
+  "clip": "C12-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "38 syl 9.0 s. 'An update from Seoul' is new wording. 'says ... may have been used' matches 'signs have emerged' and the open question of which tools; follow-up named (our 4 Oct edition, Sunday). The why is spoken: the hacks leaked customers' data. No outlet, no digits."
+ },
+ {
+  "clip": "C11-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "40 syl 9.5 s (aim 8 to 9, under 10). Robotics clip says what the machine does (turrets shot down drones). 'Ukraine says' keeps it Ukraine's own account; 'for the first time' keeps the news angle; 'a possible answer to them' is the entry's importance line; follow-up named (our 5 Oct edition, yesterday)."
+ },
+ {
+  "clip": "C01-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY IT MATTERS (phrasing file Headlines section)",
+    "why": "The line ends on the company's claim (the what) and never says who gains. The why_for_people (firms could get an American AI that matches a leading free Chinese one) is not spoken; the script passed on what-words (claims, matches, leading, free, Chinese)."
+   }
+  ],
+  "fix": "In tech. U S start-up Reflection unveiled the A I we reported yesterday, which it claims can give firms a match for a top free Chinese one.",
+  "note": "Fix 36 syl 8.5 s (now 37). 'an update' dropped: 'we reported yesterday' names the follow-up (our 5 Oct edition, the Axios report of the planned launch). 'it claims can give' keeps the company-claim hedge and the entry's 'could get'; the American angle rides on 'U S start-up'; one Chinese model, singular, as the rewrite request asked. Minor, not a fail: 'on reasoning tests' and the lower computing power are still not spoken."
+ },
+ {
+  "clip": "C04-02",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "40 syl 9.5 s (aim 8 to 9, under 10). Google DeepMind named in full (15 Sep item 2, under 100 billion test does not apply, it is Google's); 'says' and 'could one day' keep the preprint hedge; the why (making the ingredient could cost less) is the entry's importance line; 'enzyme' is explained by what it does; deed first, no money."
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "37 syl 8.5 s. 'For a laugh' is new (5 Oct: In lighter news). Jon Stewart tagged 'Comedian'; Meta is over 100 billion dollars; the why (fears about AI helpers) is spoken and in the entry; 'sketch' keeps it clearly satire."
+ },
+ {
+  "clip": "teaser",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHAT (keeps the news angle)",
+    "why": "'A senator answered an-thropic's A I warnings' does not say what he answered: the news (entry headline) is that he attacked the warnings as alarmist. 'answered' is neutral and could even mean he agreed."
+   }
+  ],
+  "fix": "Also in the full report. Nato drafts a drone and A I plan should Russia attack. A senator hit back at an-thropic's A I warnings we reported last week.",
+  "note": "Fix 41 syl 9.5 s, same as now (aim about 8 s; two items need the time). 'hit back at' says it is a reply and keeps the critical stance (REPLY STORIES: who answers whom, earlier story named: our 30 Sep edition item 105, Amodei asking for power to block unsafe AI). 'should Russia attack' keeps the hypothetical of 'in case' at one syllable less. Both items come from the teaser card, not story cards (A5)."
+ },
+ {
+  "clip": "bp",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1A nothing stronger than the entry (G1.4 hedge; Section 1 rule 5, no drama)",
+    "why": "'state funds are pouring money into A I' turns talks into money already flowing: the Gulf funds are only in talks that could still change (C06-01), and the card says 'Gulf funds may back OpenAI' and 'line up money for AI'. 'pouring' also adds drama."
+   }
+  ],
+  "fix": "And for the bigger picture: banks, investors and state funds are lining up money for A I. Watch U S borrowing costs at a twenty four year high, which make loans dearer.",
+  "note": "Fix 42 syl 10.0 s, same as now. Only 'pouring money into' becomes 'lining up money for', the card's own words. The rest passes rule 17: a market summation, then one thing to watch with why it matters (loans dearer); the twenty four year high is checked (10-year yield highest since 2002, C07-01)."
+ }
+]

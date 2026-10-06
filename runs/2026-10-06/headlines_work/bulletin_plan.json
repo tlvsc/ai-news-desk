@@ -1,0 +1,32 @@
+{
+ "edition": "2026-10-06",
+ "weekday_today": "Tuesday 6 Oct 2026",
+ "yesterday": "Monday 5 Oct",
+ "two_days_ago": "Sunday 4 Oct",
+ "three_days_ago": "Saturday 3 Oct",
+ "last_week": "30 Sep (Wednesday)",
+ "story_clips_in_fixed_order_from_the_Drive_Headlines_Master": [
+  "C13-01",
+  "C06-01",
+  "C06-02",
+  "C12-01",
+  "C11-03",
+  "C01-01",
+  "C04-02"
+ ],
+ "fun": "NOT PICKED YET: leave the existing fun block of scripts_final.json untouched; it will be replaced later",
+ "teaser_choose_two_of_the_four_teaser_card_items": [
+  "C11-05",
+  "C05-03",
+  "C04-05",
+  "C08-04"
+ ],
+ "bigger_picture_source": "bigger_picture_bulletin.json and the entries in cards_work/selection.json bp_refs",
+ "follow_ups_the_line_must_name_the_earlier_story": {
+  "C13-01": "we reported on Saturday 3 Oct (Anthropic's unpublished IPO filing warns that how the US government sees it could hurt its business)",
+  "C06-01": "we reported on 30 Sep (OpenAI aiming to raise up to 30 billion dollars); new today: the Gulf funds and BlackRock named",
+  "C12-01": "we reported on Sunday 4 Oct (the president ordered an investigation of the bank data leaks; AI only suspected)",
+  "C01-01": "we reported on Monday 5 Oct (Reflection about to launch a US open model); new today: it is called Beam",
+  "teaser C05-03": "we reported on 30 Sep (the Anthropic chief's ABC News interview asking for stronger AI rules)"
+ }
+}

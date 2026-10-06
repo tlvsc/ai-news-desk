@@ -1,6 +1,6 @@
 {
  "edition": "2026-10-06",
- "note": "v3 = the CARD FILTER (CLAUDE.md rule 16) applied by card_candidates.py on 6 Oct 2026, labels and notes by the main session. v1 and v2 kept as selection_v1_old.json and selection_v2_old.json. Fun card is a placeholder until the robot story is in the report. v4 (6 Oct 2026, Rafi's pick, by hand over the script draft): robotics = C11-03 (LG and Nvidia AI car platform for Hyundai) as card and Headlines clip, shown before the Ukraine turrets card (C11-01, stays a card); teaser line 1 = C11-05 (Walmart and Wing drone delivery) instead of NATO (C11-02).",
+ "note": "v3 = the CARD FILTER (CLAUDE.md rule 16) applied by card_candidates.py on 6 Oct 2026, labels and notes by the main session. v1 and v2 kept as selection_v1_old.json and selection_v2_old.json. Fun card is a placeholder until the robot story is in the report.",
  "cards_in_deck_order": [
   {
    "card": "s1",
@@ -52,12 +52,6 @@
    "item": "C09-01",
    "category": "Energy and infrastructure",
    "label": "Nuclear power"
-  },
-  {
-   "card": "s16",
-   "item": "C11-03",
-   "category": "Robotics",
-   "label": "Hyundai car AI"
   },
   {
    "card": "s9",
@@ -114,7 +108,7 @@
  "teaser_items": [
   {
    "id": "t1",
-   "item": "C11-05",
+   "item": "C11-02",
    "category": "Robotics"
   },
   {
@@ -138,7 +132,7 @@
   "C06-01",
   "C06-02",
   "C12-01",
-  "C11-03",
+  "C11-01",
   "C01-01",
   "C04-02"
  ],
