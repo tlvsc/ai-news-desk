@@ -14,7 +14,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C13-01 9.0 s (aim 9.0 s or less)"
+   "detail": "C13-01 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -88,8 +88,8 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C01-01 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C01-01 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -174,15 +174,13 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['American', 'An', 'BlackRock', 'Chat', 'China', 'Chinese', 'Comedian Jon Stewart', 'DeepSeek', 'For', 'Google DeepMind', 'Gulf', 'Kyiv', 'Nato', 'Reflection', 'Russia', 'Saturday', 'Seoul', 'South Korea', 'Sunday', 'Ukraine']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An', 'BlackRock', 'Chat', 'Chinese', 'Comedian Jon Stewart', 'DeepSeek', 'For', 'Google DeepMind', 'Gulf', 'Kyiv', 'Nato', 'Reflection', 'Russia', 'Saturday', 'Seoul', 'South Korea', 'Sunday', 'Ukraine']"
   }
  ],
  "names_to_tag": [
-  "American",
   "An",
   "BlackRock",
   "Chat",
-  "China",
   "Chinese",
   "Comedian Jon Stewart",
   "DeepSeek",

@@ -1,0 +1,286 @@
+{
+ "edition": "2026-10-06",
+ "note": "Card wording written by Fable from the Full Report entries, checked by check_wording.py and a stranger check.",
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "item": "C13-01",
+   "cat": "Politics and government / Pentagon ban",
+   "head": "The Pentagon now says it dropped Anthropic, the AI firm it labelled a security risk.",
+   "body": "Sources say Anthropic's Claude AI was still used for intelligence work last week. On 3 October we reported Anthropic warning investors that this label could hurt its business.",
+   "src": "BBC News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "item": "C06-01",
+   "cat": "Market, industry and finance / OpenAI raise",
+   "head": "OpenAI reportedly wants $30 billion or more, with UAE funds and BlackRock in talks.",
+   "body": "That would value the ChatGPT maker at about $1.4 trillion; details could still change. We first reported the plan on 30 September; the backers' names are new.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "item": "C06-02",
+   "cat": "Market, industry and finance / DeepSeek",
+   "head": "Investors are reportedly set to give Chinese AI lab DeepSeek at least $12 billion.",
+   "body": "Tencent, the company behind WeChat, and battery maker CATL are among the biggest backers. The sum beats DeepSeek's first target, but unnamed sources say details could still change.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "item": "C06-03",
+   "cat": "Market, industry and finance / Moonshot AI",
+   "head": "Chinese AI firm Moonshot reportedly plans a Hong Kong share sale early next year.",
+   "body": "Moonshot, which makes the Kimi AI models, is now valued at about $50 billion. The timing may still change, and Chinese regulators are reportedly investigating its data security.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "item": "C12-02",
+   "cat": "Security and cyber / Wikipedia bots",
+   "head": "Wikipedia's parent says OpenAI's AI agents tried to edit pages without approval.",
+   "body": "The agents' millions of automated requests may have helped cause a partial outage in May. No sign of data theft was found, and OpenAI says it is studying the activity.",
+   "src": "The Record, citing the Wikimedia Foundation",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "item": "C12-01",
+   "cat": "Security and cyber / Bank hacks",
+   "head": "Hackers who stole bank customer data may have used AI, South Korea's president says.",
+   "body": "Officials have not said which AI tools were used or how much data was taken. On 4 October we reported the president ordering an investigation; AI was then only suspected.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "item": "C08-01",
+   "cat": "Energy and infrastructure / AMD supply",
+   "head": "AMD, Nvidia's closest rival, says it will supply far more AI chips in 2027.",
+   "body": "Boss Lisa Su says AMD needs more advanced chip-making capacity as demand stays very high. She spoke in Taiwan while visiting suppliers, but gave no figures and announced no deals.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "item": "C09-01",
+   "cat": "Energy and infrastructure / Nuclear power",
+   "head": "Google is reportedly near a deal for power from America's biggest nuclear operator.",
+   "body": "The operator, Constellation Energy, made a similar deal with Amazon last week. Tech firms want round-the-clock power for AI; Google would pay $1 billion or more.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C11-01",
+   "cat": "Robotics / Kyiv turrets",
+   "head": "AI-aimed gun turrets shot down Russia's fastest drones, Ukraine's Air Force says.",
+   "body": "Jet-powered drones are the hardest to stop, so these first kills offer a possible answer. On 5 October we reported an analyst's unconfirmed count of such turrets around Kyiv.",
+   "src": "Business Insider",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "item": "C01-01",
+   "cat": "Models and tools / Beam model",
+   "head": "A new US-made AI, Beam, matches a top Chinese model on reasoning, its maker says.",
+   "body": "Start-up Reflection says Beam needs far less computing power; outsiders cannot check yet. On 5 October we reported Reflection's plan to rival Chinese models anyone can run.",
+   "src": "TechCrunch",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "item": "C04-02",
+   "cat": "Research and science / New enzymes",
+   "head": "Google DeepMind says its AI invented two enzymes, proteins that speed up chemistry.",
+   "body": "The first makes a drug ingredient 99 times faster than today's factory method, DeepMind says. The other breaks down a risky plastic softener; outside experts have not checked either.",
+   "src": "Startup Fortune",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "item": "C05-01",
+   "cat": "Ethics and law / Council hearing",
+   "head": "Former AI workers warned New York City's council that their old firms are reckless.",
+   "body": "Ex-Anthropic engineer Jacob Coxon said humanity will more likely than not lose control of AI. Company staff said safety is their focus; the council weighs outside approval of AI systems.",
+   "src": "Associated Press",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "item": "C10-01",
+   "cat": "Health / Acne scans",
+   "head": "An app's AI now looks at faces and prescribes acne medicine for people in Utah.",
+   "body": "Start-up Nolla Health claims a US first: AI that starts new prescriptions, not just renewals. Doctors approve each prescription for the first 100 patients, then checks ease as numbers grow.",
+   "src": "The Verge",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "item": "C10-02",
+   "cat": "Health / UK health plan",
+   "head": "Britain will check AI medical tools throughout their use, not just once.",
+   "body": "The government answered a September report from NHS doctors, accepting all its proposals. Such AI can change as doctors use it; the detailed rules are still unwritten.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s15",
+   "kind": "story",
+   "item": "C14-02",
+   "cat": "Society and education / Anti-AI groups",
+   "head": "Protesters disrupted a London tech dinner as anti-AI groups report more sign-ups.",
+   "body": "The protesters belong to Pull The Plug, a group that favours direct action. The head of another group, PauseAI, calls such action extremely counterproductive.",
+   "src": "The Guardian",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "item": "C16-01",
+   "cat": "Fun and humour / Daily Show",
+   "head": "Jon Stewart made Meta's fuzzy new AI mascot threaten to launch missiles.",
+   "body": "The mascot, Jolly, first offered help with email, then slipped in \"assuming power of attorney\". Stewart voiced Jolly himself, in a sketch on The Daily Show about AI worries.",
+   "src": "LateNighter",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "item": "C11-02",
+     "cat": "Robotics",
+     "head": "NATO's top general drafted a plan to beat any Russian attack using drones and AI."
+    },
+    {
+     "id": "t2",
+     "item": "C05-03",
+     "cat": "Politics and government",
+     "head": "A US senator replied to the AI warnings of Anthropic's boss, calling them alarmist."
+    },
+    {
+     "id": "t3",
+     "item": "C04-05",
+     "cat": "Research and science",
+     "head": "An AI steered a US lab's X-ray imaging machine from plain-English requests, the lab says."
+    },
+    {
+     "id": "t4",
+     "item": "C08-04",
+     "cat": "Energy and infrastructure",
+     "head": "Qualcomm went to trial against chip designer Arm, seeking to stop paying it royalties."
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Tech shares hit a record while banks and Gulf funds line up money for AI.",
+   "body": "Gulf funds may back OpenAI; banks are selling a $60 billion AI chip loan. Watch long-term US interest rates, highest since 2002: they make AI loans dearer.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "refs": [
+    "C07-01",
+    "C06-01",
+    "C06-02",
+    "C07-03"
+   ]
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ]
+}

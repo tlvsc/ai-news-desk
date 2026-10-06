@@ -109,3 +109,20 @@ Part B: step 0 done (rules identical to 5 Oct; renderer pkg in $S/cards_pkg; fon
 Step 2 running: two Opus wording agents (cards, Headlines). Cover made (TUE 6 OCT 2026, seen).
 Next: check_wording, stranger agents (opus), check_headlines_rules + rules agent, fact check, build cards, build JSON, review_list, save_state, STOP for Rafi.
 Pending Rafi decisions: keep or revert lessons already pushed (items 77-83), keep or redo Bigger Picture (Fable/Sonnet deviation), step 10 skill fix, start-of-run update check, one-writer-per-branch, whether to override C06-01 as a card, Google twice in a row s11/s12.
+
+## Update 6 Oct about 11:30 UTC (after Rafi said continue here)
+Rafi chose to continue in this chat ("leave the images for now, let me see the headlines and the holographic screen, and while I read generate the cards").
+M6 (mistake, Rafi angry): he asked FIRST to read the Headlines; I started the two fact fixes, the card build and the checks before showing them.
+  Prevention: show what he names first (text in chat), then run the rest in the background. Fix: done in this chat at 11:27 (all 10 clips shown); record the rule in CLAUDE.md only after his yes.
+Done since the recap: rewrite_request.json (C13-01, C01-01 fact fixes) -> Opus rewrite agent launched; card teaser t3 fixed ("X-ray imaging machine", old = cards_copy_fable_v3_old.json);
+selection.json label of s3 shortened to "DeepSeek" (renderer refused "DeepSeek raise", CATEGORY too wide; old = selection_v3a_old.json);
+cards built: build_cards_copy, make_cards, render cards_run1 (s3 refused), cards_run2 OK, assemble: 20 cards 1080x1920 + contact sheet in products/cards_6-10-26. Fun card still the placeholder.
+Pictures on cards: Rafi said leave for now (D3 parked).
+Next: rewrite lands -> check_wording -> Opus stranger (cards, Headlines) + rules agent -> fact check -> build pack and JSON -> review_list -> save_state -> STOP.
+
+## Update 6 Oct about 11:40 UTC (Headlines rewrite done, gates running)
+Rewrite agent (Opus) changed only C13-01 and C01-01 (verified by diff against scripts_final_before_rewrite.json). New lines: C13-01 "An update. The Pentagon says it dropped an-thropic's A I after a dispute over its safety limits, which we reported on Saturday." C01-01 "In tech, an update. U S start-up Reflection has unveiled the A I we reported yesterday, which it claims matches a leading free Chinese one."
+check_wording all pass, check_headlines_rules all pass, news part 91.5 s. Both lines shown to Rafi.
+Running (Opus): cards stranger, Headlines stranger, Headlines rules agent. Pending: apply cards_work/fact_fixes.json (6 hedge fixes from my entry check: s3 head, s7 body, s9 body, s10 body, s12 body, t1 head) together with the stranger fixes, check_wording again, render cards_run3, assemble, send the contact sheet.
+Rafi asked: "finish the cards in the meantime". He has NOT yet chosen the fun item. Options sent: 1 Alexa Plus repeating "la" (C16-04), 2 Jagex trailer six fingers (C16-03), 3 Figure robots melted (C16-11, old, PDFs rebuilt), 4 keep Jon Stewart (C16-01). My pick: 1.
+Rewrite agent cost: 185k tokens, 33 tool calls, 10 min.
