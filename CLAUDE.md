@@ -127,7 +127,7 @@ not about which project it is.
     goes to him with a rules FAIL. Introductions rotate: never the previous day's wording (Drive rule G2).
     MODEL POLICY (Rafi, 6 Oct 2026, replaces the MODEL TRIAL): the main session and the bulk agents (16 curators, fillers,
     16 writers, setup, Drive delivery) run on Sonnet (Agent tool model "sonnet"). Hard tasks run on Opus 5.5 at extra high
-    effort (Agent tool model "opus"): the editors, the Bigger Picture, the card and Headlines wording, the stranger check, the
+    effort (Agent tool model "opus"): the editors, the stranger check, the
     rules agent and the rewrite agent. NEVER Haiku (Rafi, 7 Oct 2026: not for setup, Drive, writers or anything else).
     STORY CHOICE FOR CARDS AND HEADLINES (Rafi, 7 Oct 2026, replaces the Fable-only-on-request line: "this is our adverts, if it
     sucks nobody follows and the business falls"): Fable chooses the stories of the cards and the Headlines and writes their wording, under the Drive
@@ -180,7 +180,10 @@ not about which project it is.
     Claude keeps docs/DRIVE_DIFFS_FOR_CHATGPT.md (every difference) and docs/V1_TASKS.md (every lesson), and when the scan is fully operational both go to ChatGPT. Aim: 14 story cards and 7 Headlines
     story clips, not counting Fun, teaser, Bigger Picture, like and follow, cover and closing.
     BIGGER PICTURE WEIGHT (Rafi, 7 Oct 2026): the Bigger Picture must be a meaningful analysis with a meaningful thing to watch, in the Full Report, the Bulletin, the card and the Headlines clip, and each
-    must say it is not financial advice.
+    must say it is not financial advice. Fable writes it (all three lengths) and puts real effort into seeing what comes next: scheduled events in the coming days and weeks (earnings, votes, court dates,
+    launches, data releases), each with its date and source, and says plainly when a date is not confirmed. In the Full Report and the Bulletin it stays at the END for now (Rafi, 7 Oct 2026). The Headlines clip
+    screen flashes a warning sign with the words "This is not financial advice" (Rafi, 7 Oct 2026; newer than the text-free screen rule, which stays for every other clip), and the post caption carries
+    the same line.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and

@@ -16,4 +16,5 @@ Rafi, 7 Oct 2026: the repo wins for now. When the scan is fully operational this
 13. Repeats: checked against the pools of the last 4 days, the Full Reports of the last 14 days (step 9b) and, for cards and Headlines, 7 days of decks.
 14. Drive delivery: the connection cannot upload from a path; large files go to Rafi in chat (lesson 85).
 15. Credit rules, reply story rules, write-only-what-can-print: see CLAUDE.md rule 16 (3 to 4 Oct 2026).
-16. Not financial advice: the Bigger Picture in every product carries the line (7 Oct 2026).
+16. Not financial advice: the Bigger Picture in every product carries the line; the Headlines Bigger Picture clip screen flashes a warning sign with the words (text on screen, the one exception to the text-free screens of Headlines Master 15 Sep item 3 and G3); the post caption carries it (7 Oct 2026).
+17. The Bigger Picture is written by Fable with a forward look (dated events to watch with sources), at the end of the Full Report and Bulletin (7 Oct 2026).

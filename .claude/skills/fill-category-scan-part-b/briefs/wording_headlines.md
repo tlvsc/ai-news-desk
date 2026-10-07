@@ -15,3 +15,5 @@ SYLLABLE BUDGET (speaking time = syllables / 4.4 per second, rounded up to the h
 Numbers are spoken as words ("seventy three percent"); write no digits. Acronyms are spaced so they are spoken letter by letter ("A I", "C E O"). Pronunciation cue: write Anthropic as "an-thropic" and Nvidia as "N-vidia" and Kawasaki as "Kawa saki" only where spoken. Never speak an outlet name. Keep every hedge.
 "screen": one line for the glowing blue holographic screen behind the presenter: a small simple symbol that matches the story, text free and number free, for example "a small glowing laptop with a closed padlock on its screen, simple text-free symbol". Easy for a video model to draw; no people, no faces, no logos.
 Validate with python json.load. Final message: one line only ("headlines scripts written").
+
+- BIGGER PICTURE CLIP SCREEN (Rafi, 7 Oct 2026): the screen of the Bigger Picture clip is a glowing warning sign that flashes the words "This is not financial advice"; every other clip keeps its text-free symbol.
