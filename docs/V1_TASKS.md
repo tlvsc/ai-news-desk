@@ -413,3 +413,7 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     model sentence). Later the same day Rafi ruled one flowing sentence with who, what and why, never a word count (commits ba2a0f0 and 61c4270), and the script and writer were changed, but the stranger and rewrite
     briefs kept the old line. On 7 Oct 2026 the stranger failed all 10 Headlines lines for it and the rules agent failed 7. Prevention: when a rule changes, search the whole repo for its old wording (grep) before closing.
     Fix: both briefs corrected on 7 Oct 2026 (Rafi chose the one flowing sentence).
+93. (7 Oct 2026, mistake record) REPEAT CARDS. The 7 Oct deck had updates of stories that were on the cards of 6 Oct (Pentagon and Anthropic, DeepSeek, Korean bank hack, Google nuclear deal) and an
+    OpenAI story of the same thread; Rafi: "3 days in a row". Who: card_candidates.py (a script, not a model) chose them under the 6 Oct rule that an update may be a card when meaningful; its repeat check
+    compares headline words only (flagged just 2 of 14 at 0.38 to 0.42), and the main session (Sonnet 5.5) accepted the deck and showed it without comparing the cards with the last decks; Opus agents only worded it.
+    Prevention: compare every card with the last 3 decks by name and topic before showing. Fix: updates are excluded by default (cards_work/update_allowed.json, Rafi names exceptions), written into CLAUDE.md.

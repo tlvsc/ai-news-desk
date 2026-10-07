@@ -168,6 +168,9 @@ not about which project it is.
     Headlines are chosen by the Drive Headlines Master (HEADLINES ORDER above), which says the strongest card stories by score.
     CARDS FROM THE BULLETIN (Rafi, 7 Oct 2026): story cards are chosen only from the stories of the Bulletin, not from the whole Full Report, and the target
     is 14 story cards (Headlines stay 7); card_candidates.py reads products/bulletin_pdf.json.
+    NO UPDATE CARDS (Rafi, 7 Oct 2026, angry: Pentagon and Anthropic, DeepSeek, OpenAI and the Korean bank hack came back as cards on 3 days in a row): an update of
+    an earlier story is a card ONLY when a major story changed meaningfully AND Rafi has named it; the default is none (card_candidates.py reads cards_work/update_allowed.json,
+    empty by default). Before Rafi sees a deck, every card is compared with the cards and Headlines of the last 3 days by name and topic, and the table is shown.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and

@@ -99,7 +99,10 @@ for c in rp['categories']:
                          comp=[x for x in COMPANIES if re.search(rf'\b{x}\b', it['headline'])], rep=rep))
 cand_nf = [x for x in cand if x['k'] != 'FUN']
 why = {}
-ok = lambda x: x['read'] and (x['k'] != 'ROB' or x['mach'] is not False)
+# Rafi, 7 Oct 2026: an UPDATE of an earlier story is a card only when a major story changed meaningfully, and only when Rafi names it.
+_ua = W / 'cards_work' / 'update_allowed.json'
+UPDATE_ALLOWED = set(json.loads(_ua.read_text())) if _ua.exists() else set()
+ok = lambda x: x['read'] and (not x['upd'] or x['id'] in UPDATE_ALLOWED) and (x['k'] != 'ROB' or x['mach'] is not False)
 chosen, cnt = [], {}
 def capk(k): return F['market_max'] if k == 'MKT' else F['max_per_category']
 def can(x):
