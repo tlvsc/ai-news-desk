@@ -417,3 +417,6 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     OpenAI story of the same thread; Rafi: "3 days in a row". Who: card_candidates.py (a script, not a model) chose them under the 6 Oct rule that an update may be a card when meaningful; its repeat check
     compares headline words only (flagged just 2 of 14 at 0.38 to 0.42), and the main session (Sonnet 5.5) accepted the deck and showed it without comparing the cards with the last decks; Opus agents only worded it.
     Prevention: compare every card with the last 3 decks by name and topic before showing. Fix: updates are excluded by default (cards_work/update_allowed.json, Rafi names exceptions), written into CLAUDE.md.
+94. (7 Oct 2026, mistake record) NOVICE TEST AT CHOICE TIME. Rafi asked "who are these people, does a novice know them" about the Dalio and Dimon cards. The picker brief had no novice test; the reader level rule
+    (identify unfamiliar names, explain terms) is applied only when the wording is written and then checked by the stranger agent. Prevention: ask at the choice stage, not only after wording. Fix: the picker brief and
+    pick_gate.py (G15b) now require a novice_test for every card: who a novice would not know, the plain introduction, and whether the story still lands.

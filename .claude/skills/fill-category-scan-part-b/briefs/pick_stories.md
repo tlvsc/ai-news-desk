@@ -12,7 +12,7 @@ READ FIRST, ALL OF IT (these are the rules; this brief only adds the job):
 
 THE JOB: write {W}/cards_work/selection_fable.json (valid JSON):
 {
- "cards": [ {"item": "C05-02", "label": "Dalio bubble", "reason": "why this story, why people will care", "not_repeat_because": "what you checked in the 7 day decks"} , ... exactly 14, in DECK ORDER (Drive category order, high score first inside a category) ],
+ "cards": [ {"item": "C05-02", "label": "Dalio bubble", "reason": "why this story, why people will care", "not_repeat_because": "what you checked in the 7 day decks", "novice_test": "who a novice would not know, the plain introduction, and does it still land"} , ... exactly 14, in DECK ORDER (Drive category order, high score first inside a category) ],
  "fun": {"item": "C16-01", "label": "Fun", "reason": "..."},
  "teaser": [ {"item": "C09-02"}, ... exactly 4 report stories that get NO card and were not in the last 7 days ],
  "headlines": [ 7 ids from your cards, in deck order, the strongest stories ],
@@ -28,6 +28,7 @@ Rules of the choice:
 - Variety: not a money heavy deck (markets at most 2 or 3), no company on more than 3 cards, at most 2 per category; a robotics card shows a machine doing something.
 - Headlines clips: seven of the strongest cards, in deck order; prefer stories that show AI changing people's lives over mainly war or politics.
 - Fun: funny at once for anyone, NEW, never a repeat. If no Bulletin fun story is truly funny, say so in left_out_notes and take the best.
+- NOVICE TEST (Rafi, 7 Oct 2026): our reader is a novice in AI. For every card write "novice_test": who or what a novice would not know (a person, a company, a product name), the plain words that would introduce it, and whether the story still lands with only that introduction. Prefer stories that do not depend on a name the reader has never heard; if you keep one, say why it still works.
 - You never write the card or Headlines wording; that comes after Rafi approves the list.
 
 THEN RUN THE GATE and fix until it passes (you may edit only selection_fable.json):

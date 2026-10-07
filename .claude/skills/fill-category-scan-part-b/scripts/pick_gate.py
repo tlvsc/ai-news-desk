@@ -135,6 +135,7 @@ def gate(W):
     chk('G13 robotics card shows a machine doing something', all(ents[i].get('machine_action') is not False for i in ids if ents[i]['v1_category'] == 'ROB'), '')
     chk('G14 labels are at most 15 characters', all(len(c.get('label', '')) <= 15 and c.get('label') for c in cards), str([c['item'] for c in cards if len(c.get('label', '')) > 15]))
     chk('G15 every pick has a reason and a not-a-repeat reason', all(c.get('reason') and c.get('not_repeat_because') for c in cards), str([c['item'] for c in cards if not (c.get('reason') and c.get('not_repeat_because'))]))
+    chk('G15b every card has a novice test (who a novice would not know, the plain introduction)', all(c.get('novice_test') for c in cards), str([c['item'] for c in cards if not c.get('novice_test')]))
     chk('G16 Bigger Picture sources are in the report and not held', all(i in rset and i not in hid for i in bpr), str([i for i in bpr if i not in rset]))
     # G17 7 day repeat: shared names or topic words with a card, clip, teaser or Bigger Picture line of the last 7 days
     disputes = sel.get('disputed_repeats', {})
