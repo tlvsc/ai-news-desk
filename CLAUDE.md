@@ -186,6 +186,8 @@ not about which project it is.
     the same line.
     PEOPLE WITH THEIR POSITION (Rafi, 7 Oct 2026): every named person is given their position and organisation in the same sentence, so their words carry weight, for example "Ray Dalio, founder of
     Bridgewater, one of the world's biggest hedge funds" or "Jamie Dimon, chief executive of JPMorgan Chase, the biggest US bank". Never a vague label like "big investor" or "billionaire investor". Applies to every product.
+    HEADLINES START WITH POLITICS (Rafi, 7 Oct 2026): the Headlines reel follows the deck order, so when the deck has a Politics card its clip is clip 1; Fable may choose which other cards
+    become clips, but it never skips Politics or reorders the deck. "Prefer AI affecting people over war or politics" (6 Oct) applies only when choosing among the other categories.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
