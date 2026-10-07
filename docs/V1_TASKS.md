@@ -409,3 +409,7 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
 91. (7 Oct 2026, mistake record) I read Rafi's "keep it somewhere around 100 to 120" as "keep 93" and delivered 93 stories, below his range, and he was angry. Prevention: when a number
     rule and a cutoff cannot both hold, make the number win and say how; never answer a count instruction with the old count. Fix: build_products.py --report-fill-to 110 fills the report from the
     next lower score when the cutoff leaves fewer than 100 (7 Oct 2026: cutoff 6 gave 93, plus 17 best stories of score 5 gave 110); recorded in CLAUDE.md rule 14 and the Part A skill.
+92. (7 Oct 2026, mistake record) STALE 14 WORD RULE. An earlier Claude session added "a sentence over 14 words fails" to the stranger and rewrite briefs on 5 Oct 2026 (commit 3ce9b66, 10:47 UTC, "Level 5 gate", from Rafi's
+    model sentence). Later the same day Rafi ruled one flowing sentence with who, what and why, never a word count (commits ba2a0f0 and 61c4270), and the script and writer were changed, but the stranger and rewrite
+    briefs kept the old line. On 7 Oct 2026 the stranger failed all 10 Headlines lines for it and the rules agent failed 7. Prevention: when a rule changes, search the whole repo for its old wording (grep) before closing.
+    Fix: both briefs corrected on 7 Oct 2026 (Rafi chose the one flowing sentence).
