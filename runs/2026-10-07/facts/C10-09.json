@@ -1,0 +1,23 @@
+{
+ "item_id": "C10-09",
+ "title": "AI may help catch heart transplant rejection without biopsies",
+ "source_used": "UA.News, relaying News-Medical; Medical Xpress page returned 403",
+ "article_url": "https://ua.news/en/health/shi-model-poiednala-ekg-i-analizi-krovi-dlia-viiavlennia-vidtorgnennia-news-medical",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at NYU Langone Health tested an AI model that analyzes electrocardiograms (ECGs) and blood tests to detect heart transplant rejection.",
+  "Models were trained on 5,300 ECGs from 2,357 adult heart transplant recipients treated in 2018 to 2024, matched to biopsies from the previous month.",
+  "One model used ECG only; the other combined ECG with two blood tests (gene-activity markers and donor DNA fragments).",
+  "In a test group of 38 patients, the combined model correctly identified 94% of people with no rejection.",
+  "The blood-only approach wrongly flagged 19 patients as possibly needing a biopsy; the combined approach could spare them.",
+  "Published online 25 Sep 2026 in JHLT Open; authors call it the first to combine these biomarkers and ECG in one model compared directly to biopsy.",
+  "Next step is testing in more patients at several transplant centers."
+ ],
+ "quote_evidence": [
+  "The next step will be to test the model in a larger number of patients at several transplant centers."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "An AI model might let some transplant patients skip invasive heart biopsies, but it was tested on only 38 patients.",
+ "event_date": "Study published 25 Sep 2026",
+ "notes": "Medical Xpress original blocked (403); read UA.News relaying News-Medical. Study published 25 Sep 2026, before the 6 Oct window, so score lowered by 1."
+}

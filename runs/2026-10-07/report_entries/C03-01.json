@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "Google has released EmbeddingGemma 2, a small open model that lets apps search text, code, images, video and audio together on the user's own device.",
+ "score": 7,
+ "score_reason": "Useful open release for on-device search, but the benchmark gains are Google's own figures.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers can now build private, offline search across mixed media on ordinary hardware, though the performance claims come from Google and have not been independently tested.",
+ "source": "Google",
+ "status": "CONFIRMED",
+ "summary": "Google announced EmbeddingGemma 2, an open \"embedding\" model (software that turns text, pictures, audio or video into numbers so a computer can find similar items) with 740 million parameters, released under the commercially permissive Apache 2.0 licence, that handles text, code, images, video and audio in one shared space. Google says it lifts its code-search score from 68.76 to 78.68, beats some specialist models more than twice its size, and can run on the device itself, so apps can search a person's own files and recordings privately and offline.",
+ "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the Google blog post (company announcement); performance claims are Google's own."
+}

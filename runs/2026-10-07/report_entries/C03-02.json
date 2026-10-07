@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "GitHub says AI coding agents are straining the way it stores code, and it is rebuilding that storage to cope with far heavier traffic.",
+ "score": 6,
+ "score_reason": "Important for the biggest code platform, but it is a plan with internal test numbers, not a released change.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers and companies that depend on GitHub could see a faster, sturdier service if the rebuild works, but the 35-fold speed figure is GitHub's own internal result and the system is not yet live.",
+ "source": "The GitHub Blog",
+ "status": "REPORTED",
+ "summary": "GitHub says in an engineering post that AI agents now work in code repositories alongside people, and that Git activity (the stream of saves, pushes and reads) grew from 218.2 billion to 473.3 billion events a month in a year, and 7.38 billion commits in September alone. It explains that its current design keeps five full copies of each repository, so adding copies to speed up reading slows down writing, and says a new design that separates the two has reached up to 35 times higher write speed in internal tests, with details promised in a later post.",
+ "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Company engineering blog; the 35x figure is an internal benchmark and the new system is not yet released. Score lowered 7 to 6: describes work in progress, not a launch."
+}

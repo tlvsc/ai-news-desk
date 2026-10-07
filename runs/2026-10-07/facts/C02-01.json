@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-01",
+ "title": "You can now open Claude directly in Google Docs, Sheets and Slides (and vice versa, open and edit the files in Claude)",
+ "source_used": "9to5Google",
+ "article_url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+ "fetched": true,
+ "key_facts": [
+  "Claude for Google Workspace add-on is in public beta starting 6 Oct 2026",
+  "A sidebar opens beside a file in Docs, Sheets or Slides",
+  "Docs: fix spelling, rewrite portions, restyle sections without breaking formatting",
+  "Sheets: write formulas, build tables from document context, build new sheets from uploaded files",
+  "Slides: build slides from existing layouts or themes, flag elements to update",
+  "\"Ask before edits\" mode previews changes",
+  "Available to all paid Claude users via the Google Workspace marketplace",
+  "New Claude connectors edit Docs, Sheets and Slides files from within Claude by pasting a link"
+ ],
+ "quote_evidence": [
+  "Anthropic's Claude now supports sidebar integration with Google Docs, Sheets, and Slides.",
+  "There’s an “ask before edits” mode where Claude will let you preview changes before they’re made.",
+  "The Claude for Google Workspace beta is available to all paid Claude users through the Google Workspace marketplace."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Claude users can now work with it inside Google's apps, a direct challenge to Gemini in Workspace.",
+ "event_date": "2026-10-06",
+ "notes": "VentureBeat original (chunk link, HTTP 429) could not be fetched; text read at 9to5Google, which reports the same launch. Pool link was the VentureBeat article."
+}

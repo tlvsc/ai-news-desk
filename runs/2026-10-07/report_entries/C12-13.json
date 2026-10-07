@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-13",
+ "v1_category": "SEC",
+ "headline": "Researchers at browser-security company Island say a phishing campaign uses fake ChatGPT, Gemini, Claude and Perplexity sites to steal advertising-account logins and multi-factor codes.",
+ "score": 5,
+ "score_reason": "Kept at 5: specific technique and scale reported by a named security firm; a niche audience.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who manage advertising accounts for several clients could lose access and ad budgets, but the researchers' counts are not confirmed compromises.",
+ "source": "BleepingComputer, citing Island",
+ "status": "REPORTED",
+ "summary": "BleepingComputer reports that the fake AI sites, which exploit the recent launch of Meta's Muse agent, open a fake Google sign-in window inside the page (a 'browser-in-the-browser' trick), after which a human operator prompts victims for passwords and one-time codes. Island says the targets are agency staff and media buyers whose accounts can spend advertising budgets, and that a Telegram control channel received hundreds of victim submissions, which does not necessarily mean that many accounts were compromised.",
+ "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the pool link."
+}

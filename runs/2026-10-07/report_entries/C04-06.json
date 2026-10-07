@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-06",
+ "v1_category": "RES",
+ "headline": "Researchers extended Yann LeCun's JEPA AI design so one model can predict physical, chemical and biological systems, and its top liver cancer suggestion killed more tumour cells in lab tests.",
+ "score": 5,
+ "score_reason": "Interesting range of results, but they are the authors' own, early-stage and mixed.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Scientists hoping for one general-purpose model to guide experiments get a first broad test, but the evidence is the authors' own, the gains are uneven, and the cancer result is lab-stage only.",
+ "source": "The Decoder",
+ "status": "PRELIMINARY",
+ "summary": "The Decoder reports that a team led by PhAI Labs, with Stanford, Oxford and Princeton collaborators, built JEPA-Anything, which extends Yann LeCun's JEPA approach (models that predict an abstract summary of a system's next state) and, the authors say, beat a standard version on ten tests across physics, robotics and weather. Its top liver cancer idea, pairing the immune signal IL-18 with blocking the CD73 enzyme, killed more tumour cells in patient tissue samples and mice than either treatment alone, though the study does not show it could become a therapy.",
+ "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Machine action false: simulated robots only."
+}

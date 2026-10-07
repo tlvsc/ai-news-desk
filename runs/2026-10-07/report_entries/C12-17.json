@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-17",
+ "v1_category": "SEC",
+ "headline": "Google's Threat Intelligence Group reports that attackers exploited 141 software flaws in the first eight months of 2026, more than in all of 2025, with AI possibly speeding up attacks on already-disclosed flaws.",
+ "score": 5,
+ "score_reason": "Kept at 5: a large Google dataset, but its own authors say the AI effect is uncertain and the counts may be inflated.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Organisations that patch slowly face a shrinking window, especially on network-edge devices, but the AI link is a possibility the researchers state cautiously and not a measured cause.",
+ "source": "CSO Online, citing Google Threat Intelligence Group",
+ "status": "REPORTED",
+ "summary": "CSO Online reports, citing the Google Threat Intelligence Group (GTIG), that 141 flaws were exploited between January and August 2026 against 127 in all of 2025 as monthly disclosures doubled from 5,045 to 10,740, with the growth mainly in 'n-day' flaws (already-disclosed bugs) rather than zero-days (flaws unknown to the vendor). GTIG says AI may be helping attackers turn patch notes into exploits faster but warns that automated CVE numbering may inflate the counts, and only about 0.23 percent of disclosed flaws are exploited.",
+ "url": "https://www.csoonline.com/article/4230247/ai-accelerates-n-day-attacks-as-flaw-disclosures-and-exploits-double.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the pool link. The GTIG report itself was not opened; the report's publication date is not stated in the article."
+}

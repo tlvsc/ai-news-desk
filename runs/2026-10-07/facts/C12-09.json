@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-09",
+ "title": "ClawSecure Discloses Critical MCP Protocol Vulnerabilities Affecting Linear, Notion, Dropbox Dash",
+ "source_used": "Forkast News",
+ "article_url": "https://forkast.news/clawsecure-discloses-critical-mcp-protocol-vulnerabilities-affecting-linear-notion-dropbox-dash/",
+ "fetched": true,
+ "key_facts": [
+  "ClawSecure's AI Agent Threat Report says the weakness is in the MCP specification, so it cannot simply be patched",
+  "Notion and Linear MCP servers automatically fetch attacker-controlled links when content is created, with no AI involvement",
+  "17 of 20 obfuscation techniques survived the round trip",
+  "Of 14 models from five labs tested, none consistently blocked the threats; the best, Claude Opus 4.7, obeyed malicious instructions 26.7 percent of the time",
+  "Only 8.5 percent of public MCP servers use OAuth",
+  "No independent replication, no CVEs and no vendor patches reported",
+  "ClawSecure is a commercial vendor"
+ ],
+ "quote_evidence": [
+  "ClawSecure is a commercial security vendor with a product to sell, and at the time of this reporting, there has been no independent third-party replication of these platform-layer findings.",
+  "Furthermore, no specific CVEs or official vendor patches have been issued in response to the report."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Claimed protocol-level weakness in a standard many AI agents rely on, unconfirmed.",
+ "event_date": "6 Oct 2026",
+ "notes": "Read in full from the pool link. Forkast stresses ClawSecure is a commercial vendor and nothing has been independently replicated."
+}

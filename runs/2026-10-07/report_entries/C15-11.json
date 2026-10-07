@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-11",
+ "v1_category": "MOD",
+ "headline": "D-Wave opened an early-access beta program for a software simulator of its planned gate-model quantum computer to a few customers and universities.",
+ "score": 5,
+ "score_reason": "A simulator preview for a limited group; the hardware it prepares for is not yet available.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Early customers can practise on the software before hardware exists, but the claimed efficiency of D-Wave's approach is the company's own and untested at scale.",
+ "source": "D-Wave, as reported by Digital Watch Observatory",
+ "status": "REPORTED",
+ "summary": "Digital Watch Observatory reports that D-Wave, known for its annealing quantum computers, has launched a beta program giving a limited set of customers, including bank BBVA and Germany's Julich Supercomputing Centre, early access to a simulator of its upcoming gate-model quantum computer. D-Wave says its design is built for efficient error correction, a claim that is the company's own.",
+ "url": "https://dig.watch/updates/d-wave-launched-quantum-simulator-beta-program",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Rewrite of D-Wave's own announcement; claims are the company's. Category set to MOD (product/tool) from default RES."
+}

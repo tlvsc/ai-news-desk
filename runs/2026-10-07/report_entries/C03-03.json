@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "Meta has released as open source Rebalancer, the software it uses to decide where tasks, servers and hardware should be placed, which it says handles about 40 million such problems a day.",
+ "score": 5,
+ "score_reason": "Useful open tool from a large company, but Meta published it on 21 Sep 2026, so it is older news.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Engineers who run large computing systems can reuse Meta's placement tool, though the scale figures are Meta's own and the release is more than two weeks old.",
+ "source": "Engineering at Meta",
+ "status": "CONFIRMED",
+ "summary": "Meta's engineering blog says the company has open-sourced Rebalancer, a library for \"assignment problems\", meaning the puzzle of placing items such as tasks, servers or racks into the right slots while obeying limits on power, capacity and spread. Meta says it has used the tool for over nine years and that it now solves roughly 40 million such problems a day. The post is dated 21 Sep 2026, so MarkTechPost's 6 Oct coverage is a late follow-up.",
+ "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+ "freshness": "FOLLOW-UP of 21 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "MarkTechPost page blocked (HTTP 403). Read Meta's own engineering blog instead; it is dated 21 Sep 2026, so the news is older than the 6 Oct coverage. Score lowered 6 to 5 as stale. Note: MarkTechPost headline says \"C++\"; the Meta text read here does not say so, so the entry does not repeat it."
+}

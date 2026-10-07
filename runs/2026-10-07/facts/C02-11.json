@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-11",
+ "title": "Google Docs Adds Native Markdown File Editing, With Rendered .md Previews in Google Drive",
+ "source_used": "9to5Google",
+ "article_url": "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
+ "fetched": true,
+ "key_facts": [
+  "Google Drive and Docs add native support for markdown (.md) files",
+  "Real-time editing, comments and full rendering of formatting",
+  "Drive shows rendered markdown with clickable links and structured tables",
+  "Google says it helps AI agents collaborate on documents and sync with Gemini Notebook",
+  "Google's Chandu Thota calls markdown \"the common language between humans and AI agents\"",
+  "Rolling out from 5 Oct 2026; may take up to 15 days; on by default, even on admin-controlled accounts"
+ ],
+ "quote_evidence": [
+  "Spurred by the use of markdown files in the AI age, Google Drive and Google Docs are adding full, native support for markdown (.md) files.",
+  "Markdown support in Google Drive and Docs is rolling out starting today but may take up to 15 days to show up for everyone."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Markdown is the format AI agents and many people use for notes and instructions.",
+ "event_date": "2026-10-05",
+ "notes": "gHacks original returned 403; read at 9to5Google (5 Oct 2026), which reports the same Google announcement. Rollout began before the window: score lowered by 1 (5 to 4)."
+}

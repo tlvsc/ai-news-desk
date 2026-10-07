@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-08",
+ "title": "South Korean megachurches probe suspected AI-linked cyberattacks",
+ "source_used": "Reuters (lead via Devdiscourse); Korea JoongAng Daily",
+ "article_url": "https://www.reuters.com/legal/litigation/south-korean-megachurches-probe-suspected-ai-linked-cyberattacks-2026-10-07/",
+ "fetched": true,
+ "key_facts": [
+  "Yoido Full Gospel Church (Yeongdeungpo) and SaRang Church (Seocho) in Seoul are investigating suspected cyberattacks",
+  "Oasis Security recovered attack tools and logs from an overseas attacker's server last month",
+  "About 330,000 donation records from Yoido Full Gospel appeared stolen in August; data on about 960,000 members; about 68,000 electronic approval documents and 14,706 internal messaging records",
+  "SaRang Church HR data: 286 employee and official records and more than 89,000 members",
+  "The Korea Internet & Security Agency notified Yoido Full Gospel of signs of a leak",
+  "Logs referred to a 'sub-agent', which Oasis read as a possible sign of AI use"
+ ],
+ "quote_evidence": [
+  "Two South Korean megachurches are investigating suspected cyberattacks that may have exposed the personal data of hundreds of thousands of congregants, with evidence suggesting AI tools may have been used in the attacks, according to the churches and a cybersecurity firm.",
+  "Security firm Oasis Security recovered attack tools and logs from an overseas attacker’s server last month and found large amounts of information linked to Yoido Full Gospel Church in Yeongdeungpo District, western Seoul, and SaRang Church in Seocho District, southern Seoul, the company said on Tuesday."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Another South Korean breach with a suggested AI link, now affecting religious organisations.",
+ "event_date": "attack tools found last month; announced 6-7 Oct 2026",
+ "notes": "Reuters page blocked (HTTP 401); Reuters lead read via Devdiscourse syndication, details from Korea JoongAng Daily, which quotes Oasis Security."
+}

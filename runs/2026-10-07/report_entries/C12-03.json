@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Anthropic has widened access to its most capable AI models for verified security teams through an expanded Cyber Verification Program with three access tiers.",
+ "score": 7,
+ "score_reason": "Kept at 7: an official company announcement with clear terms; the effect depends on how many teams qualify.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Vetted security teams, including those testing power grids and bank-transfer networks, can apply for less restricted AI tools to find and fix flaws, but the same capabilities could help attackers, which Anthropic says it manages through vetting and data retention; this is the company's own account.",
+ "source": "Anthropic",
+ "status": "CONFIRMED",
+ "summary": "Anthropic announced that its Cyber Verification Program now has three tiers, Defense, Red Team and Specialized Access, each including its most capable models such as Claude Mythos 5.1, with fewer cyber-misuse blocks for vetted organisations; Reuters also reported it on 6 Oct 2026. The Specialized tier, for testing systems like power grids and bank-transfer networks, is reviewed in depth with the US government, and enrolled organisations must allow data retention so Anthropic can monitor for misuse.",
+ "url": "https://www.anthropic.com/news/cyber-verification-program",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters page blocked (HTTP 401); written from Anthropic's own announcement page, which Reuters carried. Anthropic is a maker of the models described, so the account is the company's own."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C09-04",
+ "v1_category": "ENE",
+ "headline": "The US government's energy forecaster expects American electricity use to reach record highs in 2026 and 2027, driven by AI data centers.",
+ "score": 8,
+ "score_reason": "Pool 8 kept: an official forecast, but the AI share of the growth is not quantified in the text we read.",
+ "importance_label": "HIGH",
+ "importance_line": "It signals that power demand, and with it the pressure on bills and grids, is rising for households and businesses nationwide, though a forecast is not a measurement.",
+ "source": "Reuters",
+ "status": "CONFIRMED",
+ "summary": "Reuters reports that the US Energy Information Administration, the government's statistics agency for energy, said in its monthly outlook on 6 Oct 2026 that US electricity consumption will set records in 2026 and 2027, driven by AI-hungry data centers and electrification. The agency expects use to reach about 4,356 billion kilowatt-hours in 2027, up from a record 4,195 billion in 2025, with renewables at 27% of generation and coal at 15% by 2027.",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S14M:0-us-power-use-to-beat-record-highs-in-2026-and-2027-as-ai-use-surges-eia-says/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters' own page returned 401, so the url is TradingView's copy of the Reuters story, which shows only the opening paragraph. Figures come from that paragraph and from bloomingbit's relay; Digital Today's differing figure was not used. A forecast, not a measured result."
+}

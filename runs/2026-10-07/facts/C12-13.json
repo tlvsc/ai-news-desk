@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-13",
+ "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+ "fetched": true,
+ "key_facts": [
+  "Fake ChatGPT, Gemini, Claude and Perplexity sites steal login credentials and MFA codes using browser-in-the-browser attacks",
+  "The campaign used the recent launch of Meta's Muse AI agent as a lure",
+  "Targets are agency staff, media buyers and administrators with accounts across multiple clients",
+  "A human operator takes over and can ask for passwords up to three times, SMS or authenticator codes, Okta pushes or QR codes",
+  "The operation traces back to March through misconfigured public GitHub repositories",
+  "A Telegram control channel received hundreds of victim submissions, not necessarily successful compromises"
+ ],
+ "quote_evidence": [
+  "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks.",
+  "The researchers have also found that the Telegram control channel used in the attacks had received hundreds of victim submissions, although that figure does not necessarily reflect the number of successfully compromised accounts."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI product names used as bait to take over ad accounts.",
+ "event_date": "6 Oct 2026",
+ "notes": "Read in full from the pool link."
+}

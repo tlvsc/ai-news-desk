@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-17",
+ "title": "AI accelerates n-day attacks, as flaw disclosures and exploits double",
+ "source_used": "CSO Online",
+ "article_url": "https://www.csoonline.com/article/4230247/ai-accelerates-n-day-attacks-as-flaw-disclosures-and-exploits-double.html",
+ "fetched": true,
+ "key_facts": [
+  "GTIG recorded 141 exploited flaws from January to August 2026 against 127 in all of 2025",
+  "Monthly vulnerability disclosures doubled from 5,045 in January to 10,740 in August",
+  "Monthly exploitation rose from 10.5 in 2025 to nearly 18 in 2026; zero-days rose from 8 to 11 a month",
+  "High-risk exploited flaws rose from 28 in 2025 to 75 in the first eight months of 2026",
+  "Only 0.23 percent of disclosed flaws, roughly 1 in 431, are exploited; automated CVE assignment may inflate the baseline",
+  "A BeyondTrust flaw found with an AI research agent was weaponised within four days of disclosure",
+  "Edge and security appliances accounted for 14 percent of exploited flaws"
+ ],
+ "quote_evidence": [
+  "It is possible that threat actors are finding it more accessible or efficient to use LLMs and AI tools to automate analysis of differences between product versions, patches, vulnerability disclosure announcements, and Proof-of-Concept (POC) code to rapidly weaponize n-days, rather than to discover new zero-days,",
+  "While CVE discovery volume metrics surge, adversary exploitation activity remains concentrated in perimeter appliances and exposed enterprise services."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "More exploited flaws and faster attacks on known bugs, with AI a possible but unproven driver.",
+ "event_date": "Jan-Aug 2026 data",
+ "notes": "Read in full from the pool link. The GTIG report itself was not opened; the report's publication date is not stated in the article."
+}

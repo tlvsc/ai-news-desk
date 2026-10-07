@@ -1,0 +1,24 @@
+{
+ "item_id": "C11-05",
+ "title": "Tesla's self-driving system misreads speed limits, safety group says",
+ "source_used": "Carscoops (reporting a Reuters-covered study)",
+ "article_url": "https://www.carscoops.com/2026/10/belgian-test-tesla-fsd-faults/",
+ "fetched": true,
+ "key_facts": [
+  "Belgian nonprofit Johanna.be tested a Tesla Model 3 over three days in July, about 400 km, running FSD 14.2.2.6 in Standard mode.",
+  "FSD exceeded the 30 km/h limit on 16 of 29 Brussels road segments, averaging 44 km/h at the top speed of those segments.",
+  "The car showed a wrong, higher limit to the driver on roughly 90 percent of tested segments.",
+  "It exceeded the 20 km/h limit in 5 of 12 residential home zones and repeatedly tried to pass cyclists on cycle streets.",
+  "The report says FSD generally yielded to pedestrians and cyclists.",
+  "Dutch regulator RDW approved FSD in April and told Reuters it received the report and would assess it; Tesla did not respond to Reuters.",
+  "Test was one car, one software version, selected Belgian roads."
+ ],
+ "quote_evidence": [
+  "Importantly, the test involved just one car, one software version, and selected Belgian roads, so it can’t really establish how often every FSD-equipped Tesla behaves this way.",
+  "Johanna.be has asked both authorities to revisit the approvals ahead of a possible October 6 vote on use across the EU."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A single-car study that gives regulators specific faults to examine ahead of an EU decision.",
+ "event_date": "July 2026 (test); report published about 6 Oct 2026",
+ "notes": "Reuters page (video, HTTP 401) unreadable; text read from Carscoops, which cites Reuters for the RDW and Tesla responses. Reuters headline matches."
+}

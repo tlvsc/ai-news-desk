@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "MOD",
+ "headline": "Databricks says Meta's advertising tool server is now on its marketplace, letting marketers manage Meta ad campaigns by chatting with an AI assistant connected to their company data.",
+ "score": 5,
+ "score_reason": "Routine partner integration announced by the vendor itself.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Marketing teams that use Databricks can run Meta campaigns through an AI agent with spending limits, but the announcement is a vendor's promotion with no results reported.",
+ "source": "Databricks",
+ "status": "CONFIRMED",
+ "summary": "Databricks, the data and AI company, announced that Meta's ads MCP server (a connector, built on the Model Context Protocol standard, that lets AI agents use Meta's advertising tools) is now in the Databricks Marketplace. Marketers can ask its Genie assistant to review and launch Meta campaigns using their own company data, and Databricks says access is governed by administrators and by Meta's own rules, such as blocking any budget increase over 20%.",
+ "url": "https://www.databricks.com/blog/meta-ads-mcp-databricks",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Databricks promotional blog; Meta's rules are described by Databricks."
+}

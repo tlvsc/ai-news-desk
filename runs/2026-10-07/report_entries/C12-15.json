@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "Security firm Horizon3.ai used Anthropic's Mythos AI model to find a critical flaw in Rejetto HFS, an open-source file server, and security firm VulnCheck now reports probes aimed at it.",
+ "score": 5,
+ "score_reason": "Kept at 5: a concrete flaw with scanning reported, though only probing and not confirmed breaches.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Operators of Rejetto HFS file servers face probes for the flaw, and the case shows AI models finding flaws that attackers then probe, but no successful attacks are reported.",
+ "source": "Security Affairs, citing VulnCheck and Horizon3",
+ "status": "REPORTED",
+ "summary": "Security Affairs reports, citing VulnCheck and Horizon3, that the flaw, CVE-2026-61500 (severity score 9.3), lets an attacker forge admin session cookies and run code on Rejetto HFS 3.x servers because the software built its cookie-signing key from a predictable random-number generator; it was published on 13 Jul 2026 and VulnCheck says it began detecting probes for it. Horizon3 says Mythos linked several weaknesses into a working attack path, while VulnCheck so far reports probing rather than confirmed breaches.",
+ "url": "https://securityaffairs.com/200444/ai/anthropic-mythos-found-a-bug-in-rejetto-hfs-attackers-are-now-exploiting-it.html",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "SC Media page blocked (HTTP 403); written from Security Affairs. Tech Times (URL dated 5 Oct 2026) says exploitation began within 24 hours of disclosure and is only the second in-the-wild case from Project Glasswing; those claims conflict with the 13 Jul 2026 publication date and were not used. Security Affairs's headline says 'exploiting' but its text describes probes."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-06",
+ "title": "Someone Scraped 5.6 Billion TikTok Videos and Put the Data on Hugging Face for Free",
+ "source_used": "Decrypt",
+ "article_url": "https://decrypt.co/380229/someone-scraped-5-billion-tiktok-videos-posted-data-hugging-face",
+ "fetched": true,
+ "key_facts": [
+  "A developer called hashfunction posted metadata for about 5.6 billion public TikTok videos on Hugging Face, free to download.",
+  "It is metadata, not video: captions, hashtags, sound IDs, view and like counts; 460 GB of Parquet files.",
+  "It is licensed CC BY-NC 4.0, free for research and personal use; commercial use is routed to datasocial.ai and the scraper code is sold separately for $1,699.",
+  "DataSocial's own write-up describes reaching TikTok's private mobile API with generated device identities and spoofed requests.",
+  "TikTok's US terms bar automated extraction without written approval; its official Research Tools are limited to qualifying researchers.",
+  "Hugging Face's counter showed 1,181 downloads."
+ ],
+ "quote_evidence": [
+  "A developer who goes by hashfunction has posted metadata for about 5.6 billion public TikTok videos on the open-source AI repository Hugging Face, free to download.",
+  "Section 3.4 of TikTok's U.S. terms of service bars extracting data from the platform with automated software unless TikTok approves it in writing."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI developers want such data and TikTok limits access, so the release raises terms-of-service and legal questions.",
+ "event_date": "Posted by 6 Oct 2026",
+ "notes": "No TikTok response reported in the article. The scraping method is DataSocial's own description."
+}

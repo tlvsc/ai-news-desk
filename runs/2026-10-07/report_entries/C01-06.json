@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-06",
+ "v1_category": "MOD",
+ "headline": "OpenAI opened a public beta of its Decisions API, which lets developers get fast, structured answers such as classifications and routing choices from its GPT-6 Luna model.",
+ "score": 5,
+ "score_reason": "Developer-facing beta; speed claim is OpenAI's and general release is still weeks away.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers can add quick sorting and routing decisions to apps at low cost, but the speed claim is OpenAI's own and the product is still in beta.",
+ "source": "OpenAI (via Unite.AI)",
+ "status": "REPORTED",
+ "summary": "Unite.AI reports, citing OpenAI's changelog and documentation, that OpenAI released its Decisions API in public beta on 6 Oct 2026, an interface that answers developer-set questions about text and images with a probability, a pick from fixed options or a score. OpenAI says it is about 10 times faster than its Responses API and costs $0.10 per million input tokens, with general availability expected in the coming weeks.",
+ "url": "https://www.unite.ai/openai-releases-decisions-api-in-public-beta-powered-by-gpt-6-luna/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read at Unite.AI, which cites OpenAI's changelog and docs; source credited to OpenAI via Unite.AI."
+}

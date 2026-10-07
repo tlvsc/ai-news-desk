@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "SEC",
+ "headline": "Security company Tuskira has released free, open-source software that keeps passwords and keys away from AI agents by attaching them only when an approved action is made.",
+ "score": 6,
+ "score_reason": "Practical fix for a real risk with AI agents, but it is a vendor tool with no independent test reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Teams that give AI agents access to tools like GitHub and Jira could keep credentials out of laptops and build servers, but the tool is new, vendor-described and leaves a leaked unbound key able to ask for any profile.",
+ "source": "Help Net Security",
+ "status": "REPORTED",
+ "summary": "Help Net Security reports that Tuskira, a security company, has released AI Agent Gateway as open source: a checkpoint that sits between AI agents and the tool servers (using MCP, a standard for connecting agents to services such as GitHub and Jira) and model providers they call. The gateway checks every request against the agent's permissions and adds the real credential from an encrypted store only for allowed calls, so the agent never holds it; the article notes that a key left without a profile attached lets a caller name its own profile.",
+ "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Help Net Security describes the vendor's own product; no independent test reported."
+}

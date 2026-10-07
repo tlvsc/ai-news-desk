@@ -1,0 +1,25 @@
+{
+ "item_id": "C05-07",
+ "title": "Sam Altman says OpenAI entering ‘new era of discovery’ with AI mathematics results",
+ "source_used": "India Today",
+ "article_url": "https://www.indiatoday.in/amp/technology/news/story/chatgpt-solves-372-complex-math-problems-after-hugging-face-hack-sam-altman-reacts-3011300-2026-10-07",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI says an unreleased AI model solved 372 maths problems, published on GitHub.",
+  "Altman shared the blog post on X: 'We are entering a new era of discovery now'.",
+  "Results cover algebra, number theory, theoretical computer science, mathematical logic and topology.",
+  "Each result used on average about three hours of ChatGPT Pro thinking compute; the model was given roughly 4,000 problems.",
+  "Many proofs were checked with Lean; not all are peer reviewed.",
+  "OpenAI consults an advisory group on mathematics and AI at the Institute for Advanced Study.",
+  "OpenAI plans to fund workshops and conferences on understanding AI-produced results."
+ ],
+ "quote_evidence": [
+  "OpenAI CEO Sam Altman shared the blog post on X.",
+  "Many of the proofs had been checked using Lean - a widely used proof-checking programme.",
+  "Though not all have been peer-reviewed yet."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A company claims AI is producing mathematical results at scale, still awaiting full outside review.",
+ "event_date": "6-7 Oct 2026",
+ "notes": "CNBC TV18 page returned no text; read India Today (amp page) on the same story. India Today also says OpenAI solved the Navier-Stokes Millennium Challenge last month and that a New York University professor said the company may have used his work; those are India Today's statements and are not repeated as fact. Other outlets give different counts (722); India Today's 372 is used."
+}

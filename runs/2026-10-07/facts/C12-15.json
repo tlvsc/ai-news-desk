@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-15",
+ "title": "AI model Mythos aids discovery of critical Rejetto HFS vulnerability",
+ "source_used": "Security Affairs",
+ "article_url": "https://securityaffairs.com/200444/ai/anthropic-mythos-found-a-bug-in-rejetto-hfs-attackers-are-now-exploiting-it.html",
+ "fetched": true,
+ "key_facts": [
+  "CVE-2026-61500, CVSS 9.3, affects Rejetto HFS 3.x and allows authentication bypass and code execution",
+  "Found by Horizon3.ai's Zach Hanley with Anthropic's Mythos model under Project Glasswing; published through the VulnCheck CNA on 13 Jul 2026",
+  "VulnCheck's Canary Intelligence network started detecting probes for the flaw",
+  "HFS used Math.random() output to derive the session-cookie signing key and exposed values from the same stream during login",
+  "Mythos connected the weak random-number generator and the leaked values into a working chain",
+  "An earlier HFS flaw, CVE-2024-23692, is in CISA's Known Exploited Vulnerabilities catalog"
+ ],
+ "quote_evidence": [
+  "A Rejetto HFS vulnerability, tracked as CVE-2026-61500 (CVSS score of 9.3), discovered with the help of the Anthropic Mythos AI model is now being exploited in the wild, turning an interesting security research experiment into a much more practical warning for defenders.",
+  "Earlier today, VulnCheck‘s Canary Intelligence network started detecting probes for CVE-2026-61500"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI-assisted flaw discovery is being followed quickly by attacker probing.",
+ "event_date": "disclosed 13 Jul 2026; probes about 5 Oct 2026",
+ "notes": "SC Media page blocked (HTTP 403); written from Security Affairs. Tech Times (URL dated 5 Oct 2026) says exploitation began within 24 hours of disclosure and is only the second in-the-wild case from Project Glasswing; those claims conflict with the 13 Jul 2026 publication date and were not used. Security Affairs's headline says 'exploiting' but its text describes probes."
+}

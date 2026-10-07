@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-12",
+ "title": "Home Assistant 2026.10 Ships Tomorrow — The Open-Source Smart Home Gets Its MCP Moment",
+ "source_used": "Forkast News",
+ "article_url": "https://forkast.news/home-assistant-2026-10-ships-tomorrow-the-open-source-smart-home-gets-its-mcp-moment/",
+ "fetched": true,
+ "key_facts": [
+  "Home Assistant 2026.10 is due on 7 Oct at 4:00 PM ET, per Forkast News.",
+  "It builds the Model Context Protocol (MCP) into the open-source smart-home platform so AI agents can control devices.",
+  "A new AI settings page gives a one-click MCP server setup with a copyable URL at /api/mcp, using existing tokens or OAuth.",
+  "Forkast says it exposes over 2,000 built-in integrations to agents, and is free and local.",
+  "Forkast contrasts it with Google's Home MCP at $20 a month in US early access.",
+  "Forkast raises a security question about exposing home controls to third-party agents."
+ ],
+ "quote_evidence": [
+  "Home Assistant 2026.10, which officially releases on October 7 at 4:00 PM ET, integrates the Model Context Protocol (MCP) directly into the platform.",
+  "Exposing your local smart home controls to third-party AI agents via MCP is a powerful convenience, but it requires a new level of vigilance regarding privacy and data access."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Lets people point an AI of their choice at their home devices without a subscription.",
+ "event_date": "Release due 7 Oct 2026",
+ "notes": "Single outlet, partly opinion; Google pricing and other comparisons are Forkast's. Apple HomePad claims not repeated."
+}

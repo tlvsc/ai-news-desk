@@ -1,0 +1,22 @@
+{
+ "item_id": "C09-04",
+ "title": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says",
+ "source_used": "Reuters lead paragraph (via TradingView page metadata) and bloomingbit relay of the EIA outlook; Digital Today relay checked",
+ "article_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S14M:0-us-power-use-to-beat-record-highs-in-2026-and-2027-as-ai-use-surges-eia-says/",
+ "fetched": true,
+ "key_facts": [
+  "The US Energy Information Administration (EIA) said in its Short-Term Energy Outlook on 6 Oct 2026 that US power consumption will hit records in 2026 and 2027.",
+  "Reuters (Scott DiSavino) attributes the rise to AI-hungry data centers and electrification.",
+  "Consumption is forecast to rise to 4,356 billion kWh in 2027 from a record 4,195 billion kWh in 2025 (bloomingbit gives the same figures as trillion kWh with three decimals).",
+  "Renewables are projected at 27% of generation by 2027; coal's share is forecast to fall to 15%.",
+  "AI and cryptocurrency data centers are named as drivers."
+ ],
+ "quote_evidence": [
+  "US power consumption will rise to record highs in 2026 and 2027, driven by AI-hungry data centers and electrification, the US Energy Information Administration said in its Short-Term Energy Outlook (STEO) on Tuesday.",
+  "The agency said renewables' share of electricity generation is projected to climb to 27% by 2027, while coal's share is forecast to fall to 15%."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The official US forecast now puts AI data centers among the drivers of record electricity use.",
+ "event_date": "6 Oct 2026",
+ "notes": "Reuters page returned 401. Read only Reuters' opening paragraph (TradingView metadata) and bloomingbit's short relay; the full Reuters text was not available. Digital Today's relay quotes 419.5 billion kWh for 2025, which is ten times too small against the other two; not used. Its extra price figures (wholesale +11%, PJM +41%) come via Cryptopolitan and were not verified, so left out."
+}

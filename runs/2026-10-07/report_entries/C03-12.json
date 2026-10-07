@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-12",
+ "v1_category": "MOD",
+ "headline": "Forkast News reports that the open-source Home Assistant smart-home software is adding a free built-in connection that lets AI assistants of the owner's choice control home devices.",
+ "score": 5,
+ "score_reason": "Useful for smart-home users, but single-source, pre-release and partly commentary.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Smart-home owners could use any AI assistant to control devices at no charge, though this rests on one outlet's preview and it raises security and privacy questions.",
+ "source": "Forkast News",
+ "status": "REPORTED",
+ "summary": "Forkast News reports that Home Assistant 2026.10, due on 7 Oct, builds in MCP (the Model Context Protocol, a standard that lets AI assistants use other software's tools) so owners can connect an AI of their choice to their home devices through a one-click setting. Forkast says the feature is free and runs locally, contrasts it with Google's $20-a-month Home MCP service, and warns that giving third-party agents control of a home needs care over privacy and data access.",
+ "url": "https://forkast.news/home-assistant-2026-10-ships-tomorrow-the-open-source-smart-home-gets-its-mcp-moment/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Single outlet, partly opinion; Google pricing and other comparisons are Forkast's. Apple HomePad claims not repeated."
+}

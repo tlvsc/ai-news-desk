@@ -1,0 +1,22 @@
+{
+ "item_id": "C01-05",
+ "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+ "fetched": true,
+ "key_facts": [
+  "Google released EmbeddingGemma 2, an open model that turns text, images, video, audio and code into numerical vectors.",
+  "It has 740 million parameters; Google says it is the most compact of its kind and beats models up to twice its size on multimodal embedding benchmarks.",
+  "It runs locally without an API key, 20 to 70 ms per query via WebGPU in a browser, using about 191 MB of RAM.",
+  "It cuts local vector database storage by up to six times; a 270-million-parameter text-only version exists.",
+  "Weights are on Hugging Face and Kaggle."
+ ],
+ "quote_evidence": [
+  "At 740 million parameters, Google says it's the most compact model of its kind and outperforms competing models up to twice its size on multimodal embedding benchmarks.",
+  "The model runs locally without an API key."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Small enough to run search over private files on a device without sending data out.",
+ "event_date": "6 Oct 2026",
+ "notes": "Performance claims are Google's."
+}

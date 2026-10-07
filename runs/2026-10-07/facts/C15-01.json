@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-01",
+ "title": "Xanadu and GlobalFoundries Partner to Scale Photonic Quantum Chip Production",
+ "source_used": "Quantum Zeitgeist (rewrite of the companies' press release)",
+ "article_url": "https://quantumzeitgeist.com/quantum-chip-production-xanadu-globalfoundries/",
+ "fetched": true,
+ "key_facts": [
+  "Xanadu Quantum Technologies and GlobalFoundries (GF) will make components for utility-scale quantum computers on GF's 300 mm production line in Malta, New York",
+  "First priority is industrializing Xanadu's superconducting nanowire single-photon detectors (SNSPDs)",
+  "These are to be combined with Xanadu's ultra-low-loss silicon nitride photonics, the backbone of its architecture",
+  "Companies say the detectors should speed up Xanadu's machines and cut chip overhead for large systems",
+  "They are also exploring high-performance quantum modules",
+  "Output is meant to underpin Xanadu's upcoming fault-tolerant demonstrators and future quantum data centers",
+  "No volumes, dates or financial terms given in the text read"
+ ],
+ "quote_evidence": [
+  "Transitioning quantum computing technology to a high-volume manufacturing line is fundamental to delivering quantum computing at scale, said Xanadu CEO Christian Weedbrook.",
+  "This partnership creates a path to industrialize the critical components needed to accelerate the deployment of fault-tolerant systems, said GF's Nicholas Sergeant."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Moves a photonic quantum design from lab prototypes toward factory production, but no volumes or dates are given.",
+ "event_date": "2026-10-06",
+ "notes": "HPCwire original blocked (HTTP 403 Cloudflare); text read at Quantum Zeitgeist, which cites the companies' GlobeNewswire release. Barron's and Yahoo Finance report a share-price jump but were not read."
+}

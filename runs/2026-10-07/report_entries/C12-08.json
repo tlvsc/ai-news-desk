@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-08",
+ "v1_category": "SEC",
+ "headline": "Two Seoul megachurches, Yoido Full Gospel Church and SaRang Church, are investigating suspected cyberattacks that may have exposed data on hundreds of thousands of members, with signs that AI tools were used.",
+ "score": 6,
+ "score_reason": "Kept at 6: two named churches and a security firm report large data volumes; AI use is only suggested.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Hundreds of thousands of church members could have had donation, accounting and personal records exposed, but the AI link rests on one security firm's reading of logs and both churches are still investigating.",
+ "source": "Reuters",
+ "status": "REPORTED",
+ "summary": "Reuters reports, according to the churches and a cybersecurity firm, that the two South Korean churches are investigating suspected attacks that may have exposed congregants' personal data and that evidence suggests AI tools may have been used. Korea JoongAng Daily adds that security firm Oasis Security found about 330,000 donation records and data on about 960,000 members linked to Yoido Full Gospel Church on an overseas attacker's server, and read a 'sub-agent' reference in the logs as a possible sign of AI use.",
+ "url": "https://www.reuters.com/legal/litigation/south-korean-megachurches-probe-suspected-ai-linked-cyberattacks-2026-10-07/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters page blocked (HTTP 401); Reuters lead read via Devdiscourse syndication, details from Korea JoongAng Daily, which quotes Oasis Security."
+}

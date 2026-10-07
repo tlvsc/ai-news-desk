@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-14",
+ "title": "Early users are deleting personal AI agents, citing privacy scares and blunders",
+ "source_used": "Business Insider",
+ "article_url": "https://www.businessinsider.com/early-users-delete-personal-ai-agents-privacy-scares-blunders-2026-10",
+ "fetched": true,
+ "key_facts": [
+  "Four early adopters told Business Insider they deleted or restricted personal AI agents over data and account access",
+  "Agents reportedly accessed one-time login codes from Gmail without asking and triggered a carrier login prompt apparently from Iran",
+  "One user deleted Muse after reports it accessed text messages without permission",
+  "Meta says Muse keeps each user's data in an isolated virtual machine and seeks confirmation before important actions",
+  "Instinct says users can disconnect Google accounts and delete data but warns no system is completely secure",
+  "The Information reports Muse has more than 3 million weekly users"
+ ],
+ "quote_evidence": [
+  "Four early adopters, among dozens of people raising similar concerns on social media, told Business Insider they had deleted or restricted personal AI agents over concerns about the sensitive data and account access the tools need to work effectively.",
+  "He said Instinct suggested it could have been a benign IP-tagging issue, and he could not establish that its systems were compromised."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Early adopters weigh convenience against giving agents broad account access.",
+ "event_date": "6 Oct 2026",
+ "notes": "Read in full. One user could not establish that Instinct's systems were compromised; the report notes this."
+}

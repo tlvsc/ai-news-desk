@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-12",
+ "title": "The part Chinese AI could play in predicting extreme weather",
+ "source_used": "Eco-Business (republishing a Dialogue Earth interview feature)",
+ "article_url": "https://www.eco-business.com/news/the-part-chinese-ai-could-play-in-predicting-extreme-weather/",
+ "fetched": true,
+ "key_facts": [
+  "The piece says Chinese AI weather models, including Fengwu, Pangu-Weather and Fuxi, are cheap and fast and appear to lead the field.",
+  "AI forecasting takes minutes and about a thousandth of the compute of conventional physics-based forecasts, per the article.",
+  "In July 2023 Fengwu predicted Typhoon Doksuri's path 24 hours ahead with an error of 38.7 km; the China Meteorological Administration's Mazu early-warning system, released July 2025, is used in over two dozen countries.",
+  "Models struggle with typhoon intensity, severe convective storms and extreme rainfall; in the August 2025 Yuzhong, Gansu flash flood that killed 32 people neither AI nor conventional models forecast the rainfall.",
+  "A study by Zhang Zhongwei (Karlsruhe Institute of Technology) found popular AI models systematically underestimated the frequency and intensity of record-breaking events.",
+  "Experts note data gaps in remote and Global South areas, the 'black box' nature of models and a need for verification standards."
+ ],
+ "quote_evidence": [
+  "Currently, AI global weather forecasting models do particularly well on mid-range, large-scale atmospheric circulation",
+  "if it isn’t in their datasets, they can’t predict it happening",
+  "Further discussions are still needed regarding the verification procedures and standards for AI-based weather forecasting"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Cheap AI forecasts could help poorer countries, but extreme events remain the weak spot.",
+ "event_date": "mixed; mostly background from 2023 to 2026",
+ "notes": "Explainer feature; the text says 'Dialogue Earth spoke to the experts', so the first reporter is Dialogue Earth. Mix of old and new background; no single new event."
+}

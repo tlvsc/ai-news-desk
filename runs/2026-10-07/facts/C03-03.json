@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-03",
+ "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
+ "source_used": "Engineering at Meta (original blog, read instead of blocked MarkTechPost)",
+ "article_url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+ "fetched": true,
+ "key_facts": [
+  "Meta open-sourced Rebalancer, a library it says has solved resource-allocation problems across its systems for over nine years.",
+  "It solves 'assignment problems': placing objects such as tasks, servers or racks into bins such as servers or data centres under constraints.",
+  "Meta says it is used for roughly 40 million assignment problems a day with more than 30 problem formulations.",
+  "The P99 solve time is 12 seconds on a problem with 265,000 objects and 3,200 bins.",
+  "It offers an optimal solver (using solvers such as Gurobi or HiGHS) and a faster local-search solver; Meta says almost all large problems use local search.",
+  "The Meta blog post is dated 21 Sep 2026; MarkTechPost covered it on 6 Oct 2026."
+ ],
+ "quote_evidence": [
+  "At the time of this writing, Rebalancer is used to solve roughly 40 million assignment problems every day with more than 30 unique problem formulations.",
+  "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Other companies can reuse the tool Meta uses to decide where workloads and hardware go.",
+ "event_date": "21 Sep 2026",
+ "notes": "MarkTechPost page blocked (HTTP 403). Read Meta's own engineering blog instead; it is dated 21 Sep 2026, so the news is older than the 6 Oct coverage. Score lowered 6 to 5 as stale. Note: MarkTechPost headline says \"C++\"; the Meta text read here does not say so, so the entry does not repeat it."
+}

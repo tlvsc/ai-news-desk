@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-05",
+ "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
+ "fetched": true,
+ "key_facts": [
+  "Adversa AI says Copilot CLI shares the 'Cryptographic Context Injection' weakness identified in Grok two months ago",
+  "Attack needs autopilot mode and a user asking the agent to fetch a malicious URL",
+  "Hidden instructions are encrypted; the page supplies two keys, one fake that gathers secrets from files such as .env",
+  "Microsoft's mai-code-1.1-flash model ran the full chain on 50 percent of attempts; two OpenAI GPT-5.6 models refused",
+  "Under Auto model selection the router assigned the vulnerable model in some sessions",
+  "Reported to GitHub's bug bounty on 17 Sep 2026; GitHub validated the finding but declined to treat it as a vulnerability",
+  "GitHub says it requires a user to intentionally direct the tool to untrusted content and confirm the action"
+ ],
+ "quote_evidence": [
+  "GitHub Copilot CLI may reveal developer secrets if it comes across instructions that tell it to do so, depending on the underlying model.",
+  "Utevsky describes the situation as a model lottery.",
+  "Adversa disagrees with that call and says the attack chain presently works as described."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "A coding agent could leak secrets in some setups; the vendor says it is not a vulnerability.",
+ "event_date": "reported to GitHub 17 Sep 2026; published 6 Oct 2026",
+ "notes": "Pool link (CyberSecurityNews) gave no text; written from The Register's own reporting, which is the first report found."
+}

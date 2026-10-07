@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "SOC",
+ "headline": "Stack Overflow's 2026 survey of more than 30,000 developers finds most now use AI at work but few would trust it with important decisions without checking.",
+ "score": 6,
+ "score_reason": "Large survey with useful numbers on AI use at work, but the sample is self-selected and the headline claim about editors could not be checked.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers and their employers get a snapshot showing AI use is widespread while trust and company guidance lag, though the survey is voluntary and run by Stack Overflow.",
+ "source": "SecurityBrief Asia",
+ "status": "REPORTED",
+ "summary": "SecurityBrief Asia reports that Stack Overflow's 2026 Developer Survey, with more than 30,000 responses from 169 countries, found that 66% of respondents use coding assistants or agents and only 17.2% use no AI tools at work. Nearly half said they trust AI output when they can easily verify it, only 6.6% would trust it for important decisions, and just 24% said their employer had published approved tools or formal AI guidance.",
+ "url": "https://securitybrief.asia/story/stack-overflow-survey-shows-developers-trust-ai-with-caveats",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Visual Studio Magazine blocked; read SecurityBrief Asia. That article does not mention the VS Code ranking in the original headline, so the entry does not state it. Survey is by Stack Overflow, which sells and promotes developer services."
+}

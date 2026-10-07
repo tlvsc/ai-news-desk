@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-05",
+ "title": "‘Mind-reading’ AI tool can see what you see",
+ "source_used": "New York Post (The Times page not in fulltext folder; NY Post carries the same story)",
+ "article_url": "https://nypost.com/2026/10/06/tech/ai-tool-can-read-minds-and-recreate-with-frightening-accuracy/",
+ "fetched": true,
+ "key_facts": [
+  "Israeli scientists built a system called Brain-IT that reconstructs images people are viewing from their fMRI brain scans.",
+  "The work, led by Michal Irani of the Weizmann Institute of Science, is described in a paper submitted to the International Conference on Learning Representations (ICLR).",
+  "It was trained on over 70,000 images collected while eight subjects viewed pictures.",
+  "A back-and-forth step (image to predicted scan to image) lets the models build themselves a large synthetic training set.",
+  "Irani says it works with about one hour of scanning for a new subject, rather than many hours for earlier methods.",
+  "The system identified 128 functional brain regions shared across people.",
+  "Irani suggests uses in helping paralysed people communicate; neuroscientist Tommy Sprague (UC Santa Barbara) says covert reading of thoughts would be worrying."
+ ],
+ "quote_evidence": [
+  "produces reconstructions that more closely resemble the viewed images both structurally and semantically",
+  "None of us can afford 40 hours of imaging for a new subject",
+  "150 years of sci-fi can come true anytime, and that’s worrisome in a lot of ways"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Cheaper brain decoding could help communication for paralysed people but raises privacy questions.",
+ "event_date": "6 Oct 2026",
+ "notes": "Pool item was The Times (unreadable here); read the New York Post's version instead. Paper only submitted to ICLR, not yet peer-reviewed as far as the article says. The NY Post piece is tabloid in tone; claims about accuracy are the researchers'."
+}

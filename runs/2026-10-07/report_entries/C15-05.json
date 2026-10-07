@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-05",
+ "v1_category": "RES",
+ "headline": "Cisco has unveiled a prototype piece of software that would manage a network linking different quantum computers, deciding who gets quantum connections and when.",
+ "score": 6,
+ "score_reason": "A named vendor prototype with technical detail, but Cisco itself calls it research and no customer or test result is reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Researchers and companies hoping to link quantum computers could get a common control layer, but this is a Cisco research prototype with no deployment reported.",
+ "source": "Network World",
+ "status": "REPORTED",
+ "summary": "Network World reports that Cisco has added a prototype Quantum Network Controller, software meant to coordinate quantum computers, memories and switches so that applications can request quantum links without knowing the hardware behind them, according to blog posts by Cisco's Outshift unit. Cisco describes it as a research prototype, and the article reports no customer deployments or test results.",
+ "url": "https://www.networkworld.com/article/4231343/cisco-readies-new-control-plane-for-quantum-networks.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "All technical claims come from Cisco blog posts quoted by Network World."
+}

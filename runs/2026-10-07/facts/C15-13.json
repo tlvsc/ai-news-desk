@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-13",
+ "title": "Researchers Prepare Bell States with Extremely Low Error Rates Approaching One in Ten Thousand",
+ "source_used": "Quantum Zeitgeist",
+ "article_url": "https://quantumzeitgeist.com/superconducting-qubits-bell-state-preparation-low-error-rates/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Universitat de Barcelona (Jordi Comelles and colleagues) propose an analogue method to prepare Bell states in superconducting circuits",
+  "Reports infidelities as low as about 10 to the minus 4 (one in ten thousand)",
+  "Preparation takes roughly 100 nanoseconds, comparable to digital methods (80 to 130 ns)",
+  "Typical digital methods give errors around 10 to the minus 3",
+  "Uses adiabatic interpolation and resonant population transfer instead of discrete gates",
+  "Performance depends on realistic parameters that are not fully defined",
+  "Authors say further work must define limits for scaling beyond small systems; paper on arXiv 2609.09013 (author named Ana Palacios)"
+ ],
+ "quote_evidence": [
+  "It now reaches infidelities on the order of 10-4 within approximately 100 nanoseconds.",
+  "While performance relies on realistic parameters, these are not fully defined and establishing those limits is vital for assessing scalability."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A possible gentler route to very accurate entangled pairs, but shown only for small systems and under assumed parameters.",
+ "event_date": "not stated (arXiv number suggests a September 2026 submission)",
+ "notes": "The article does not clearly say whether the result is a hardware experiment or a theoretical analysis; the caveat on 'realistic parameters' suggests modelling. Author naming differs in the article (Comelles vs Palacios)."
+}

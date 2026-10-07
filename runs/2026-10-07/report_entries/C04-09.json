@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-09",
+ "v1_category": "RES",
+ "headline": "A Nature Biotechnology study found that AI models of how cells respond to gene changes can beat simple baselines when judged with better-calibrated measures.",
+ "score": 5,
+ "score_reason": "Pool score kept: useful correction to earlier negative benchmarks, from a company-linked team.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Biologists and drug developers using AI to predict gene effects get a better way to judge the models, but results still vary by dataset and the authors have a commercial stake.",
+ "source": "Genetic Engineering and Biotechnology News",
+ "status": "REPORTED",
+ "summary": "Genetic Engineering and Biotechnology News reports that Shift Bioscience and collaborators, in Nature Biotechnology, say earlier tests understated AI “virtual cell” models because common scoring measures could not detect real biological signal. Using better-calibrated measures across 14 datasets, nine deep learning models often beat simple baselines, though results varied by dataset and measure.",
+ "url": "https://www.genengnews.com/topics/artificial-intelligence/new-calibration-framework-improves-confidence-in-ai-virtual-cell-models/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full."
+}

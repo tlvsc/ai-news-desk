@@ -1,0 +1,358 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-12",
+   "field": "headline",
+   "before": "NASA is developing humanoid robots that could one day work beside astronauts on the Moon and Mars, doing the most dangerous jobs.",
+   "after": "NASA is developing humanoid robots that could one day work beside astronauts on the Moon and Mars, taking on dangerous jobs.",
+   "reason": "Meaning: stronger than the facts support ('the most dangerous jobs')"
+  },
+  {
+   "item_id": "C11-12",
+   "field": "importance_line",
+   "before": "Future astronauts could face less risk from radiation and dust, but this is early development, with tests so far on arms handling hatches and cargo and no flight date given.",
+   "after": "Future astronauts could hand some dangerous tasks to robots, but this is early development, with tests so far on robotic arms handling hatches and cargo and no flight date given.",
+   "reason": "Meaning: radiation and dust not in facts"
+  },
+  {
+   "item_id": "C02-02",
+   "field": "summary",
+   "before": "TechCrunch reports that Hark, a startup founded by serial founder Brett Adcock less than a year ago, widely released Hark Pro on 6 Oct 2026, a free-to-start assistant (with a paid tier for heavy users) built on a model trained for computer use that takes tasks over on the user's own computer. It shows the user how the agent moves around the web in a small window to build trust, and Hark says it is not out to sell ads or data, though TechCrunch notes users must share their whole digital life and it is unclear what the specialised model gives up compared with a general-purpose one. Yesterday we noted a report that Figure planned to release Hark this week; today's news is that the wide release has happened and a hardware device is promised for 2027.",
+   "after": "TechCrunch reports that Hark, a startup founded by serial founder Brett Adcock less than a year ago, widely released Hark Pro on 6 Oct 2026, an assistant built on a model trained for computer use that carries out tasks on the user's own computer, free to start with a paid tier for heavy users and a hardware device promised for 2027. Hark says it will not sell ads or data, though users must connect their email, calendar and payment cards; yesterday we carried a headline saying Figure planned to release Hark this week, and today's news is that the wide release has happened.",
+   "reason": "Summary was 3 sentences; Full Report allows 1-2. Reply/follow-up link kept"
+  },
+  {
+   "item_id": "C02-03",
+   "field": "summary",
+   "before": "SiliconANGLE reports, citing interviews first given to CNBC, that Meta is working with Walmart, Stripe and the enterprise AI firm Sierra on the Personal Agent Protocol, which is meant to let businesses tell authorised AI agents apart and see what personal agents do on their websites. Sierra co-founder Bret Taylor, who also chairs OpenAI Group, says there \"will be chaos until such a standard exists\" and expects OpenAI to back it later; the move follows a call by six major banks for clearer rules on AI agents.",
+   "after": "SiliconANGLE reports, citing interviews first given to CNBC, that Meta is working with Walmart, Stripe and the enterprise AI firm Sierra on the Personal Agent Protocol, which is meant to let businesses tell authorised AI agents apart and see what personal agents do on their websites. Sierra co-founder Bret Taylor, who also chairs OpenAI Group, says there \"will be chaos until such a standard exists\" and expects OpenAI to back it later; SiliconANGLE says the move appears to answer a call by six major banks for standards on AI agents.",
+   "reason": "Hedge restored: facts say 'appears to respond to'"
+  },
+  {
+   "item_id": "C02-04",
+   "field": "summary",
+   "before": "The Free Press Journal reports that Google has expanded Gemini in Chrome to Android users across India, where it can summarise pages, answer questions and use apps such as Keep and Calendar. Auto browse, which carries out multi-step tasks such as filling in a long form or placing a grocery order, is switched on for desktop and Android but only for Google AI Pro and AI Ultra subscribers, and for now only on devices set to English.",
+   "after": "The Free Press Journal reports that Google has expanded Gemini in Chrome to Android users across India, months after the desktop version, at no extra cost and for now only on devices set to US or UK English; it can summarise pages, answer questions and use apps such as Keep and Calendar. Auto browse, which carries out multi-step tasks such as filling in a long form or placing a grocery order, is switched on for desktop and Android but only for Google AI Pro and AI Ultra subscribers.",
+   "reason": "Meaning: the English-language limit applies to Gemini in Chrome on Android, not to auto browse; added the US/UK detail"
+  },
+  {
+   "item_id": "C03-01",
+   "field": "summary",
+   "before": "Google announced EmbeddingGemma 2, an \"embedding\" model (software that turns text, pictures, audio or video into numbers so a computer can find similar items) that handles text, code, images, video and audio in one shared space. It has 740 million parameters, is released under the commercially permissive Apache 2.0 licence, and Google says it lifts its code-search score from 68.76 to 78.68 and beats some specialist models more than twice its size. Because it can run on the device itself, Google says apps can search a person's own files and recordings privately and without an internet connection.",
+   "after": "Google announced EmbeddingGemma 2, an open \"embedding\" model (software that turns text, pictures, audio or video into numbers so a computer can find similar items) with 740 million parameters, released under the commercially permissive Apache 2.0 licence, that handles text, code, images, video and audio in one shared space. Google says it lifts its code-search score from 68.76 to 78.68, beats some specialist models more than twice its size, and can run on the device itself, so apps can search a person's own files and recordings privately and offline.",
+   "reason": "Summary was 3 sentences; Full Report allows 1-2"
+  },
+  {
+   "item_id": "C03-02",
+   "field": "summary",
+   "before": "GitHub says in an engineering post that AI agents now work in code repositories alongside people, driving Git activity (the stream of saves, pushes and reads) from 218.2 billion to 473.3 billion events a month in a year, and 7.38 billion commits in September alone. It explains that its current design keeps five full copies of each repository, so adding copies to speed up reading slows down writing, and says a new design that separates the two has reached up to 35 times higher write speed in internal tests, with details promised in a later post.",
+   "after": "GitHub says in an engineering post that AI agents now work in code repositories alongside people, and that Git activity (the stream of saves, pushes and reads) grew from 218.2 billion to 473.3 billion events a month in a year, and 7.38 billion commits in September alone. It explains that its current design keeps five full copies of each repository, so adding copies to speed up reading slows down writing, and says a new design that separates the two has reached up to 35 times higher write speed in internal tests, with details promised in a later post.",
+   "reason": "Meaning: facts give growth, not that agents caused it"
+  },
+  {
+   "item_id": "C01-02",
+   "field": "importance_line",
+   "before": "Developers and Google users get cheaper image generation, but the quality claims are Google's own and its Pro model still often looks better.",
+   "after": "Developers and Google users get cheaper image generation, but the quality claims are Google's own and The Decoder notes its Pro model still often looks better.",
+   "reason": "Attribution kept: the Pro comparison is The Decoder's view"
+  },
+  {
+   "item_id": "C01-03",
+   "field": "importance_line",
+   "before": "Users of Grok may get a new model version, but we have no details on what changed and no second outlet confirming it.",
+   "after": "Grok users may get a new model version, but what changed has not been reported and no second outlet has confirmed the release.",
+   "reason": "Removed internal process note ('we have no details')"
+  },
+  {
+   "item_id": "C01-04",
+   "field": "importance_line",
+   "before": "The report suggests Chinese labs are not slowing down on safety grounds, but we could read only its opening and cannot check the count.",
+   "after": "The report suggests Chinese labs are not slowing down in response to safety warnings, but the count of 16 models is Nikkei's and has not been confirmed by other outlets.",
+   "reason": "Removed internal process note ('we could read only its opening')"
+  },
+  {
+   "item_id": "C02-05",
+   "field": "summary",
+   "before": "TechCrunch reports that Sigil Wen, a Thiel Fellow, launched an invite-only beta of Underdog on Monday 5 Oct 2026, an assistant whose model runs wholly on the user's own Mac or Windows PC, with other systems promised. It uses a 27-billion-parameter model that Wen says compares favourably with a top model from six months ago, and the app will be free and ad-free, with the company taking a tiny cut of payments the assistant makes through Stripe.",
+   "after": "TechCrunch reports that Sigil Wen, a Thiel Fellow, launched an invite-only beta of Underdog on Monday 5 Oct 2026, an assistant whose model runs wholly on the user's own Mac or Windows PC, with other systems promised. It uses a 27-billion-parameter model that Wen says compares favourably on some benchmarks with Claude Opus 4.6, a leading model, and the app will be free and ad-free, with the company taking a tiny cut of payments the assistant makes through Stripe.",
+   "reason": "Hedge restored: 'on some benchmarks', model named as in facts"
+  },
+  {
+   "item_id": "C02-10",
+   "field": "summary",
+   "before": "InfoWorld reports that Atlassian rolled out the Agentic Multiplayer Protocol (AMP) on 7 Oct 2026, a foundation for how humans and AI agents work together on its platform, including a Teamwork Graph that records what a person wrote and what an agent did across Claude, Codex, Figma and Rovo. Some features are available now, while controls over what AI can see and what access agent accounts get are promised \"soon\", and analysts quoted by InfoWorld say the real value depends on those later controls.",
+   "after": "InfoWorld reports that Atlassian rolled out the Agentic Multiplayer Protocol (AMP) on 7 Oct 2026, a foundation for how humans and AI agents work together on its platform, including a Teamwork Graph that records what a person wrote and what an agent did across Claude, Codex, Figma and Rovo. Some features are available now, while controls over the identities and access of AI agents are promised \"soon\", and analysts quoted by InfoWorld say the real value depends on those later controls.",
+   "reason": "Meaning: facts name non-human identity controls only"
+  },
+  {
+   "item_id": "C02-18",
+   "field": "headline",
+   "before": "SAP introduced a new group of Joule AI agents and assistants at its Connect event in Las Vegas, designed to carry out work across a company's departments rather than inside one.",
+   "after": "SAP introduced a new group of Joule AI agents and assistants at its Connect event in Las Vegas, built to work across a company's business processes and data.",
+   "reason": "Meaning: stronger than the facts support ('rather than inside one' not in facts)"
+  },
+  {
+   "item_id": "C03-06",
+   "field": "headline",
+   "before": "An anonymous developer has put details of about 5.6 billion public TikTok videos on Hugging Face for free, a collection gathered in a way TikTok's rules do not allow.",
+   "after": "An anonymous developer has put details of about 5.6 billion public TikTok videos on Hugging Face for free, though TikTok's terms bar such automated collection without its written approval.",
+   "reason": "Meaning: stronger than the facts support: Decrypt notes the terms; it does not establish the rules were broken"
+  },
+  {
+   "item_id": "C05-10",
+   "field": "summary",
+   "before": "OfficeChai reports that Zuckerberg said in an interview that with Llama 4 Meta \"fell off the trajectory\" it needed, because he modelled the team on large Instagram and ads machine-learning groups instead of \"a very tight-knit team\". He said Meta then built a new group, Meta Superintelligence Lab, whose first major output is the Muse Spark model.",
+   "after": "OfficeChai reports that Zuckerberg said in an interview that with Llama 4 Meta \"fell off the trajectory\" it needed, because he modelled the team on large Instagram and ads machine-learning groups instead of \"a very tight-knit team\". He said Meta then built a new group, Meta Superintelligence Lab, which has since produced the Muse Spark model.",
+   "reason": "Meaning: stronger than the facts support ('first major output' not in facts)"
+  },
+  {
+   "item_id": "C02-11",
+   "field": "headline",
+   "before": "Google made Docs and Drive able to open, edit and display Markdown files directly, so people and AI agents can work on them together without converting the files.",
+   "after": "Google is rolling out direct Markdown file editing and previews in Docs and Drive, so people and AI agents can work on the same files without converting them.",
+   "reason": "Meaning: rollout in progress (up to 15 days), not complete"
+  },
+  {
+   "item_id": "C04-03",
+   "field": "summary",
+   "before": "HPCwire reports, in its headline, that a Google study finds AI is accelerating scientific inquiry.",
+   "after": "HPCwire reports that a study by Google finds AI is speeding up scientific research.",
+   "reason": "Removed internal process note ('in its headline')"
+  },
+  {
+   "item_id": "C04-03",
+   "field": "importance_line",
+   "before": "If confirmed, it would bear on researchers and funders, but the study's method and evidence are not known to us.",
+   "after": "If the finding holds, it would matter to researchers and funders, but the study's method and evidence have not been reported.",
+   "reason": "Removed internal process note ('not known to us')"
+  },
+  {
+   "item_id": "C04-10",
+   "field": "summary",
+   "before": "Chemistry World reports, in its headline, that AI helps chemists consider more options when picking the best reactants for an experiment.",
+   "after": "Chemistry World reports that AI can help chemists weigh a wider range of starting chemicals when planning an experiment.",
+   "reason": "Removed internal process note ('in its headline'); no longer copies the publisher headline"
+  },
+  {
+   "item_id": "C04-10",
+   "field": "importance_line",
+   "before": "If confirmed, it would help chemists plan experiments, but the method and evidence are not known to us.",
+   "after": "If the approach holds up, it could help chemists plan experiments, but the method and evidence have not been reported.",
+   "reason": "Removed internal process note ('not known to us')"
+  },
+  {
+   "item_id": "C04-06",
+   "field": "headline",
+   "before": "Researchers extended Yann LeCun's JEPA AI design so one model can predict physical, chemical and biological systems, and it suggested a liver cancer drug pairing that worked in lab tests.",
+   "after": "Researchers extended Yann LeCun's JEPA AI design so one model can predict physical, chemical and biological systems, and its top liver cancer suggestion killed more tumour cells in lab tests.",
+   "reason": "Meaning: stronger than the facts support ('worked'): the study does not show it could become a therapy"
+  },
+  {
+   "item_id": "C04-06",
+   "field": "summary",
+   "before": "The Decoder reports that a team led by PhAI Labs, with Stanford, Oxford and Princeton collaborators, built JEPA-Anything, which extends Yann LeCun's JEPA approach (models that predict an abstract summary of a system's next state) and beat a standard version on ten tests across physics, robotics and weather. Its top liver cancer idea, pairing the immune signal IL-18 with blocking the CD73 enzyme, killed more tumour cells in patient tissue samples and mice than either treatment alone, though the study does not show it could become a therapy.",
+   "after": "The Decoder reports that a team led by PhAI Labs, with Stanford, Oxford and Princeton collaborators, built JEPA-Anything, which extends Yann LeCun's JEPA approach (models that predict an abstract summary of a system's next state) and, the authors say, beat a standard version on ten tests across physics, robotics and weather. Its top liver cancer idea, pairing the immune signal IL-18 with blocking the CD73 enzyme, killed more tumour cells in patient tissue samples and mice than either treatment alone, though the study does not show it could become a therapy.",
+   "reason": "Attribution kept: the ten-task result is the authors' own"
+  },
+  {
+   "item_id": "C04-09",
+   "field": "headline",
+   "before": "A Nature Biotechnology study found that AI models of how cells respond to gene changes look much better when judged with more sensitive measures.",
+   "after": "A Nature Biotechnology study found that AI models of how cells respond to gene changes can beat simple baselines when judged with better-calibrated measures.",
+   "reason": "Meaning: stronger than the facts support ('look much better'); results varied"
+  },
+  {
+   "item_id": "C15-04",
+   "field": "source",
+   "before": "The Quantum Insider, carrying a Pasqal press release",
+   "after": "Pasqal (press release), as carried by The Quantum Insider",
+   "reason": "Credit: The Quantum Insider only carries Pasqal's press release text"
+  },
+  {
+   "item_id": "C15-10",
+   "field": "source",
+   "before": "The Quantum Insider, carrying an Infleqtion press release",
+   "after": "Infleqtion (press release), as carried by The Quantum Insider",
+   "reason": "Credit: The Quantum Insider only carries Infleqtion's press release text"
+  },
+  {
+   "item_id": "C05-04",
+   "field": "source",
+   "before": "AOL.com, citing the \"Smart Girl Dumb Questions\" podcast",
+   "after": "Business Insider, as republished by AOL.com",
+   "reason": "Credit: the AOL page is Business Insider's article (it quotes 'told Business Insider')"
+  },
+  {
+   "item_id": "C05-04",
+   "field": "summary",
+   "before": "AOL.com reports that Hinton, often called the \"Godfather of AI\", said on the \"Smart Girl Dumb Questions\" podcast on 6 Oct 2026 that AI firms should convince a regulator their products are safe before release, the way drugmakers must with the US Food and Drug Administration. He warned that AI now helps improve itself, and said he guessed \"we have a year or two before everything gets much worse\", adding that it is \"just a guess\".",
+   "after": "Business Insider reports, in an article republished by AOL.com, that Hinton, often called the \"Godfather of AI\", said on the \"Smart Girl Dumb Questions\" podcast on 6 Oct 2026 that AI firms should convince a regulator their products are safe before release, the way drugmakers must with the US Food and Drug Administration. He warned that AI now helps improve itself, and said he guessed \"we have a year or two before everything gets much worse\", adding that it is \"just a guess\".",
+   "reason": "Credit: first reporter is Business Insider"
+  },
+  {
+   "item_id": "C13-10",
+   "field": "importance_line",
+   "before": "Florida's case against OpenAI may be tested early, but only the headline is known and the grounds for dismissal are not reported here.",
+   "after": "Florida's case against OpenAI may face an early test, but the grounds for the dismissal request have not been reported.",
+   "reason": "Removed internal process note ('only the headline is known', 'here')"
+  },
+  {
+   "item_id": "C13-12",
+   "field": "importance_line",
+   "before": "Suno's users in Italy could gain protection on moderation, price changes and rights over their music, but the AGCM has found nothing yet and has not said which version of the terms it examined.",
+   "after": "Suno's users in Italy could gain protection on price changes, account closures and rights over their music, but the AGCM says only that the terms may be unfair and has made no finding yet.",
+   "reason": "Meaning: 'moderation' and 'which version of the terms' not in facts"
+  },
+  {
+   "item_id": "C13-13",
+   "field": "importance_line",
+   "before": "Indonesia may regulate AI sector by sector, but only the headline is known and nothing is reported about timing or content.",
+   "after": "Indonesia may regulate AI sector by sector, but the timing and content of the rules have not been reported.",
+   "reason": "Removed internal process note ('only the headline is known')"
+  },
+  {
+   "item_id": "C13-15",
+   "field": "importance_line",
+   "before": "Singapore residents and firms are told to rely on current safeguards for AI agents for now, and the choice not to require model access for the government is a stated trade-off that critics may question.",
+   "after": "Singapore residents and firms are told current safeguards cover AI agents for now, while the government reviews them and prefers cooperation to a rule requiring access to AI models.",
+   "reason": "Meaning: 'critics may question' is invented"
+  },
+  {
+   "item_id": "C05-05",
+   "field": "headline",
+   "before": "Grab chief executive Anthony Tan warned that fast AI adoption could widen the gap between people who benefit and people left behind, risking social unrest.",
+   "after": "Grab chief executive Anthony Tan warned that fast AI adoption could widen the gap between people who benefit and people left behind, pointing to recent unrest in Indonesia.",
+   "reason": "Meaning: stronger than the facts support ('risking social unrest'; the read text cites Indonesia's unrest as a reminder)"
+  },
+  {
+   "item_id": "C05-12",
+   "field": "importance_line",
+   "before": "660 people lose jobs, and the company's claim that AI efficiency is not the cause rests on its own word, while AI-driven strategy is clearly behind the shake-up.",
+   "after": "About 660 people lose their jobs; the company says AI efficiency is not the cause, though it ties the cuts to a strategy shift toward delivering results with AI.",
+   "reason": "Meaning: stronger than the facts support ('AI-driven strategy is clearly behind'; unverified Fast Company framing)"
+  },
+  {
+   "item_id": "C05-13",
+   "field": "headline",
+   "before": "Former Google chief executive Eric Schmidt said AI coding tools now write code better than he could, and that programmers will become architects who direct AI.",
+   "after": "Former Google chief executive Eric Schmidt said AI coding tools now write code he could not have written at 22, and that programmers will become architects who direct AI.",
+   "reason": "Meaning: stronger than the facts support: facts compare with what he could write at 22"
+  },
+  {
+   "item_id": "C14-03",
+   "field": "headline",
+   "before": "A Brookings study of Danish workers found that chatbots have not yet changed pay, hours or hiring, but they are already changing what workers do.",
+   "after": "A Brookings study of Danish workers found that, up to the end of 2024, chatbots had not changed pay, hours or hiring, but were already changing what workers do.",
+   "reason": "Meaning: data end in Dec 2024"
+  },
+  {
+   "item_id": "C14-03",
+   "field": "summary",
+   "before": "Brookings researchers report that a survey of about 25,000 Danish workers in 11 AI-exposed occupations, linked to official earnings records, shows no effect of chatbot use on pay, hours or hiring up to December 2024, with any difference ruled out above 2%. The study finds work is being reorganised instead: workers report new tasks such as checking AI output, and chatbot users were more likely to have switched occupations, mostly into IT support and clerical roles.",
+   "after": "Brookings researchers report that a survey of about 25,000 Danish workers in 11 AI-exposed occupations, linked to official earnings records, shows no effect of chatbot use on pay, hours or hiring up to December 2024, with any difference ruled out above 2%. The study finds work is being reorganised instead: workers report new tasks such as checking AI output, and chatbot users appear more likely to have switched occupations, mostly into IT support and clerical roles.",
+   "reason": "Hedge restored: facts say the hours data 'suggest' switching"
+  },
+  {
+   "item_id": "C14-05",
+   "field": "summary",
+   "before": "Billboard reports that Michael Smith, 54, was sentenced in Manhattan federal court on 6 Oct 2026 to 18 months in prison and two years of supervised release for using AI to make thousands of songs and bots to play them billions of times, earning more than $8 million in royalties. It is the first criminal case over streaming fraud, and the sentence is well below the 46 to 57 months the federal guidelines called for.",
+   "after": "Billboard reports that Michael Smith, 54, was sentenced in Manhattan federal court on 6 Oct 2026 to 18 months in prison and two years of supervised release for using AI to make thousands of songs and bots to play them billions of times, earning more than $8 million in royalties. Billboard calls it the first criminal conviction over streaming fraud, and the sentence is well below the 46 to 57 months the federal guidelines called for.",
+   "reason": "Attribution kept: 'first' is Billboard's claim"
+  },
+  {
+   "item_id": "C14-08",
+   "field": "headline",
+   "before": "A rigorous trial in England found that an AI lesson-planning tool saved primary teachers about 49 minutes a week without lowering the quality of their materials.",
+   "after": "A randomised trial in England found that an AI lesson-planning tool saved primary teachers about 49 minutes a week without lowering the quality of their materials.",
+   "reason": "Removed evaluative adjective 'rigorous'; named the trial type"
+  },
+  {
+   "item_id": "C14-10",
+   "field": "headline",
+   "before": "Delhi Police say they arrested a man who used AI tools to make a fake CCTV video of a senior officer, during protests over a journalist's real complaint against that officer.",
+   "after": "Delhi Police say they arrested a man who used AI tools to make a fake CCTV video of a senior officer, during protests over a journalist's separate complaint against that officer.",
+   "reason": "Meaning: 'real' implied the complaint is verified"
+  },
+  {
+   "item_id": "C14-11",
+   "field": "summary",
+   "before": "Chosun Ilbo's English edition reports on a study that links exposure to generative AI with rising depression among young people in AI-heavy industries since ChatGPT arrived, with job-loss fears in finance and tech, according to its headline and summary.",
+   "after": "Chosun Ilbo's English edition reports on a study that links exposure to generative AI with rising depression among young people in AI-heavy industries since ChatGPT arrived, along with job-loss fears in finance and tech.",
+   "reason": "Removed internal process note ('according to its headline and summary')"
+  },
+  {
+   "item_id": "C14-11",
+   "field": "importance_line",
+   "before": "Study details were not available in the text we could see, so the size of the effect and whether AI is the cause are unknown.",
+   "after": "Young workers in finance and tech may be affected, but the study's size, method and whether AI is the cause have not been reported.",
+   "reason": "Removed internal process note ('the text we could see')"
+  },
+  {
+   "item_id": "C16-07",
+   "field": "headline",
+   "before": "Florida State softball assistant coaches went viral in an AI-generated video trend, the Tallahassee Democrat reports.",
+   "after": "Florida State softball coaches went viral in an AI-generated video trend, the Tallahassee Democrat reports.",
+   "reason": "Meaning: 'assistant' not in the headline evidence"
+  },
+  {
+   "item_id": "C16-07",
+   "field": "summary",
+   "before": "The Tallahassee Democrat reports in a headline that Florida State University softball coaches have gone viral in an AI video trend.",
+   "after": "The Tallahassee Democrat reports that Florida State University softball coaches have become a viral hit in an AI video trend.",
+   "reason": "Removed internal process note ('in a headline')"
+  },
+  {
+   "item_id": "C16-07",
+   "field": "importance_line",
+   "before": "Only the headline is confirmed, so who is affected and what the video shows are unknown.",
+   "after": "Mainly entertainment; what the video shows and who made it have not been reported.",
+   "reason": "Removed internal process note ('only the headline is confirmed')"
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C03-01",
+    "C01-05"
+   ],
+   "type": "duplicate",
+   "note": "Both are Google's EmbeddingGemma 2 launch (Google blog vs The Decoder)."
+  },
+  {
+   "item_ids": [
+    "C04-01",
+    "C05-07"
+   ],
+   "type": "duplicate",
+   "note": "Both are OpenAI's batch of AI maths results (The Verge 722 manuscripts / 372 families vs India Today 372 results)."
+  },
+  {
+   "item_ids": [
+    "C16-04"
+   ],
+   "type": "re-dated",
+   "note": "Ramen robot photo went viral the week before 7 Oct; nothing new inside the window."
+  },
+  {
+   "item_ids": [
+    "C16-02"
+   ],
+   "type": "re-dated",
+   "note": "Game mash-up trend posts dated 27 Sep to 2 Oct; nothing new inside the window."
+  },
+  {
+   "item_ids": [
+    "C05-06"
+   ],
+   "type": "re-dated",
+   "note": "Gates' NYT interview was 'last week'; EL PAIS adds only background on US AI-tax bills."
+  },
+  {
+   "item_ids": [
+    "C04-12"
+   ],
+   "type": "re-dated",
+   "note": "Explainer feature; facts say mostly 2023 to 2026 background and no single new event inside the window."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-06",
+ "title": "OpenAI Releases Decisions API in Public Beta, Powered by GPT-6 Luna",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/openai-releases-decisions-api-in-public-beta-powered-by-gpt-6-luna/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI released the Decisions API in public beta on 6 Oct 2026, via a POST /v1/decisions endpoint using gpt-6-luna.",
+  "It returns typed answers (yes-no probability, one choice from a set, or a score) to developer-defined questions about text and images.",
+  "OpenAI says it is about 10x faster than the Responses API.",
+  "Pricing is $0.10 per 1M input tokens, with only input tokens billed.",
+  "It supports Zero Data Retention and HIPAA for eligible customers, with US and European data residency.",
+  "It followed a limited preview at DevDay 2026; general availability is expected in the coming weeks.",
+  "GPT-6 Luna launched with GPT-6 Sol on 22 Sep 2026."
+ ],
+ "quote_evidence": [
+  "OpenAI released the Decisions API in public beta on October 6, 2026, introducing an endpoint that returns typed answers to developer-defined questions over text and image inputs.",
+  "OpenAI says the new endpoint produces those answers about 10x faster than the Responses API.",
+  "OpenAI says it expects the Decisions API to reach general availability in the coming weeks."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A cheap, fast way for apps to classify and route content with a reasoning model.",
+ "event_date": "6 Oct 2026",
+ "notes": "Unite.AI article is AI-generated and reviewed by its editors; it cites OpenAI's changelog and docs. Speed claim is OpenAI's."
+}

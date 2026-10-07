@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-07",
+ "title": "Redpine Opens 20 Million Research Papers to AI Agents Through Publisher Licensing Deals",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/redpine-publisher-deal-licensed-research-ai-agents/",
+ "fetched": true,
+ "key_facts": [
+  "Swedish company Redpine announced on 6 Oct 2026 that publishers including BMJ Group, Sage, IOP Publishing, IGI Global, Wanfang Data and RCNi joined its content partnerships.",
+  "The partnerships span more than 20 million peer-reviewed articles, licensed to AI agents through APIs and the Model Context Protocol (MCP).",
+  "Retrieved passages carry identifiers such as DOIs and page references so answers can be traced.",
+  "Publishers set permitted uses and pricing; Redpine says it shares the vast majority of revenue with them; the announcement does not say how individual authors are paid.",
+  "Sage's participation is a pilot covering more than 400 medical and life-science journals.",
+  "Listed pricing is $1 per 1,000 tokens with no upfront subscription.",
+  "In a company-published test on 179 expert-validated biomedical questions, an agent with Redpine scored 84.7 against 75.9 for web search alone."
+ ],
+ "quote_evidence": [
+  "publishers including BMJ Group, Sage, IOP Publishing, IGI Global Scientific Publishing, Wanfang Data, and RCNi have joined its content partnerships",
+  "The announcement does not establish how individual authors will be compensated under their own publishing contracts",
+  "They are still vendor-reported findings from a defined benchmark"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Licensed access could let AI answers cite the actual papers, with publishers paid.",
+ "event_date": "6 Oct 2026",
+ "notes": "Unite.AI's text is itself labelled AI-generated and editor-reviewed; facts come from Redpine's announcement. Benchmark is vendor-run."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-08",
+ "title": "Meta’s ads MCP server comes to Databricks: Put your customer intelligence to work in advertising campaigns",
+ "source_used": "Databricks blog",
+ "article_url": "https://www.databricks.com/blog/meta-ads-mcp-databricks",
+ "fetched": true,
+ "key_facts": [
+  "Meta's ads MCP server is now available in Databricks Marketplace.",
+  "Connected to Databricks' Genie assistant, marketers can ask in plain language about Meta campaign performance alongside their company data.",
+  "The server exposes more than 25 tools covering creating campaigns, changing budgets and bids, audiences, creative and performance data.",
+  "Administrators control access through Unity Catalog; Unity Gateway governs tool calls and keeps audit logs.",
+  "Meta lets advertisers set rules, such as blocking any budget rise over 20%, which the server enforces on every tool call.",
+  "Setup uses a Meta user access token and the required permissions."
+ ],
+ "quote_evidence": [
+  "The ads MCP server from Meta, now available in Databricks Marketplace, gives marketers a more direct path from those insights to campaign decisions.",
+  "The server checks every tool call against those rules before it executes."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "AI agents can act on ad accounts under budget rules set by the advertiser.",
+ "event_date": "6 Oct 2026",
+ "notes": "Databricks promotional blog; Meta's rules are described by Databricks."
+}

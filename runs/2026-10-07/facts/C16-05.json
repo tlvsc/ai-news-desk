@@ -1,0 +1,25 @@
+{
+ "item_id": "C16-05",
+ "title": "Mistral AI Drops 'Le Chonk': A Massive AI Model Named After a Cat Meme",
+ "source_used": "Decrypt",
+ "article_url": "https://decrypt.co/380192/mistral-ai-drops-le-chonk-massive-ai-model-cat-meme",
+ "fetched": true,
+ "key_facts": [
+  "Paris-based Mistral AI launched Mistral Large 4 on Tuesday (6 Oct 2026), a model with 1 trillion parameters, of which about 49 billion are active per answer.",
+  "The nickname \"Le Chonk\" comes from a fan-made joke model, \"Le Chaton Fat\", invented in June after Mistral renamed its Le Chat assistant to Vibe.",
+  "CEO Arthur Mensch played along and Mistral's launch post lists the model \"very officially\" as le Chonk.",
+  "Price is $1.36 per million input tokens and $4.18 per million output tokens, about a third of Claude Opus 5.5 on input and a fifth on output.",
+  "Mistral's chief scientist called it the strongest open-weight model from the US or Europe; that is the company's claim.",
+  "Large 4 scored 59.9 on AutomationBench, below Claude Sonnet 5.5 (71.8) and Opus 5.5 (69.5), and ranked second of five in a Surge AI blind coding test.",
+  "Mistral says it will release the model weights by the end of October."
+ ],
+ "quote_evidence": [
+  "\"[Mistral Large 4] is at the frontier of open models, and by far the strongest open-weight model from the US or Europe,\" Mistral AI's Chief scientist Guillaume Lample, wrote on X.",
+  "CEO Arthur Mensch played along, replying that the model was really called \"le gros chaton,\" French for \"the big kitten.\"",
+  "Mistral says it will release Large 4's weights—the trained numbers that make the model work—by the end of October"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A major open-weight model priced well below US rivals, with performance claims others can test once the weights are released.",
+ "event_date": "6 Oct 2026",
+ "notes": "Mostly company claims; independent testing awaits the weight release. Substantive MOD story; kept in FUN for the nickname angle, main session may move it."
+}

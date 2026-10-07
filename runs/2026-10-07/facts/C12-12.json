@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-12",
+ "title": "The AI app builder your team trusts has a root-level backdoor",
+ "source_used": "CSO Online column",
+ "article_url": "https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html",
+ "fetched": true,
+ "key_facts": [
+  "VulnCheck began seeing continuous exploitation attempts against internet-facing Langflow on 29 Aug 2026",
+  "CVE-2026-0768 has a CVSS score of 9.8 and sits in a validate endpoint that passes submitted code to Python's exec()",
+  "In many default deployments no authentication is needed, and code runs as root",
+  "Attackers look for .env files, SSH keys, OpenAI API keys, AWS credentials and database credentials",
+  "Over 360 exploitation attempts logged on VulnCheck's UK honeypots; the number of successful attacks is unknown",
+  "Twelve Langflow flaws exploited in the wild in 2026 against one before 2026",
+  "The flaw is patched and the fix is available"
+ ],
+ "quote_evidence": [
+  "That number reflects observed attempts against instrumented systems.",
+  "CVE-2026-0768 is patched and the fix is available."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI workflow platforms are becoming targets for credential theft.",
+ "event_date": "from 29 Aug 2026",
+ "notes": "Read in full. It is a contributed opinion piece, not CSO staff reporting; the underlying exploitation started on 29 Aug 2026, so the item is older news re-dated."
+}

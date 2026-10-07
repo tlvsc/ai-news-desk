@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-01",
+ "v1_category": "MOD",
+ "headline": "Anthropic released a Claude add-on that opens as a sidebar inside Google Docs, Sheets and Slides, and added connectors so Claude can edit Google files from its own chat.",
+ "score": 8,
+ "score_reason": "Verified, concrete launch (public beta) that puts a rival assistant inside Google's own office apps; score kept from the pool.",
+ "importance_label": "HIGH",
+ "importance_line": "Anyone who writes in Google Workspace and pays for Claude can now use it inside those apps, though it is a public beta and Google's own Gemini already offers similar help.",
+ "source": "9to5Google",
+ "status": "CONFIRMED",
+ "summary": "9to5Google reports that Anthropic's Claude for Google Workspace add-on is in public beta from 6 Oct 2026, opening a sidebar beside a file in Docs, Sheets or Slides to fix spelling, rewrite passages, write spreadsheet formulas or build slides, with an \"ask before edits\" mode that previews changes. It is available to all paid Claude users through the Google Workspace marketplace, and new Claude connectors let people edit Google files from within Claude by pasting a file link.",
+ "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "VentureBeat original (chunk link, HTTP 429) could not be fetched; text read at 9to5Google, which reports the same launch. Pool link was the VentureBeat article."
+}

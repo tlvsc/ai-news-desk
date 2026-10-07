@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-04",
+ "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs",
+ "source_used": "Help Net Security",
+ "article_url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
+ "fetched": true,
+ "key_facts": [
+  "Tuskira released AI Agent Gateway as open source; it sits between AI agents and the MCP tool servers and model providers they call.",
+  "It runs in the user's own environment without a Tuskira account.",
+  "The gateway checks a key and profile on every call, blocks denied calls and attaches the real credential from an encrypted store, so the agent never holds the token.",
+  "A key with no profile attached lets the caller name its own profile, so a leaked unbound key can ask for any profile.",
+  "The demo stack stores LLM request and response bodies (up to 1 MiB each); one setting turns that off.",
+  "It runs on macOS and Linux; Windows through WSL2 is untested."
+ ],
+ "quote_evidence": [
+  "An allowed call gets the real credential pulled from an encrypted store and attached on the way out, so the agent never holds the GitHub token.",
+  "A key with no profile attached lets the caller name its own profile in a request header, so a leaked unbound key can ask for any profile it wants."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Keeps passwords and keys out of the config files of every developer laptop and build server.",
+ "event_date": "7 Oct 2026",
+ "notes": "Help Net Security describes the vendor's own product; no independent test reported."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-02",
+ "title": "Faster qLDPC: Up to 74x Speedup for Logical Gates | IonQ",
+ "source_used": "IonQ blog",
+ "article_url": "https://www.ionq.com/blog/how-qldpc-with-scheduled-error-correction-unlocks-faster-fault-tolerant-quantum-computers",
+ "fetched": true,
+ "key_facts": [
+  "IonQ researchers Mark Webster and Nicolas Delfosse describe a way to speed up qLDPC error-correcting codes",
+  "qLDPC codes need far fewer physical qubits per logical qubit than the surface code, but operating on them is slow",
+  "Method measures several logical operators jointly, with classical codes scheduling the measurements, giving up to 3x speedup for state preparation and logical gates",
+  "A new logical version of CliNR (Clifford Noise Reduction) gives up to 74x for logical Clifford operations and up to 5x for Toffoli gates versus one-at-a-time measurement",
+  "Tested on two qLDPC codes, Q70 and Q102, in IonQ's Walking Cat architecture",
+  "Joint measurement of 10 and 20 operators used on average 2.1 and 1.7 cat states per logical measurement",
+  "Work is a recent preprint (arXiv 2607.16166); the blog is IonQ's own and carries forward-looking-statement warnings"
+ ],
+ "quote_evidence": [
+  "IonQ researchers have devised a way to realize the full benefits of high-rate qLDPC codes without being slowed down by their processing limitations.",
+  "IonQ achieves up to a 74x speedup for logical Clifford operations and up to 5x for critical Toffoli gates compared to traditional sequential methods."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Faster logical operations would let future error-corrected machines run more work per hour, if the preprint holds up.",
+ "event_date": "not stated (recent preprint)",
+ "notes": "Company blog about its own preprint; no outside review mentioned."
+}

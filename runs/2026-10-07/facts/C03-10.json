@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-10",
+ "title": "Dell Adds Data Context, Prep, And Storage Features To Its AI Data Platform",
+ "source_used": "The Next Platform",
+ "article_url": "https://www.nextplatform.com/store/2026/10/06/dell-adds-data-context-prep-and-storage-features-to-its-ai-data-platform/5301356",
+ "fetched": true,
+ "key_facts": [
+  "Dell is adding features to its AI Data Platform focused on agentic AI.",
+  "A Unified Semantic Layer gives words such as 'defect' the same definition across systems, with a searchable glossary.",
+  "An Enterprise Knowledge Graph links structured and unstructured data using metadata, lineage and query history.",
+  "Knowledge Agents can be given rules on guidance, token spending and which data they can see.",
+  "GPU-accelerated data processing (Nvidia cuDF and Apache Arrow) is added; Dell says GPUs can mean 20 times faster batch processing.",
+  "Dell also released an open-source Dell Storage Performance Tool for ObjectScale and PowerScale."
+ ],
+ "quote_evidence": [
+  "“The infrastructure is ready, but the data isn't,” Varun Chhabra, senior vice president of Dell’s Infrastructure Solutions Group, told journalists.",
+  "With the new open source Dell Storage Performance Tool for ObjectScale and PowerScale, organizations can more accurately measure the needed size of their AI infrastructures and keep data flowing to their GPUs."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Dell argues poor company data, not hardware, holds back AI projects.",
+ "event_date": "This week (6 Oct 2026)",
+ "notes": "Based on a Dell briefing; speed and cost claims are Dell's."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-06",
+ "title": "Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+ "fetched": true,
+ "key_facts": [
+  "A team led by PhAI Labs with researchers from Stanford, Oxford and Princeton introduced JEPA-Anything, an extension of Yann LeCun's JEPA architecture.",
+  "JEPA models predict an abstract summary of a missing or future state rather than raw data; JEPA-Anything splits the prediction into several modules that are pushed to capture different aspects.",
+  "Against a standard JEPA under identical conditions, prediction error fell 35% in a simplified Pong test with interventions and 13% for unseen combinations of interventions.",
+  "It beat the baseline across ten tasks spanning physics, robotics and weather, according to the authors; gains were small on image tasks and the baseline won one of three robot-walking environments.",
+  "The model's top liver-cancer candidate paired IL-18 with CD73 blockade; in organoids and tissue from three patients and in mice it killed more tumour cells than either alone.",
+  "The study does not establish whether this could become a therapy.",
+  "Trained on simulated orbits, it recovered Kepler's third law with an exponent of -1.4991 against the true -1.5, from one chosen training run.",
+  "Code and models are publicly available."
+ ],
+ "quote_evidence": [
+  "The study doesn't establish whether this could become an actual therapy.",
+  "The team only evaluated one training run, and picked the one with the lowest error.",
+  "Clean separation of the learned parts doesn't mean they capture real cause-and-effect relationships, the authors caution."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A single method works across many sciences, but results are early and the cancer finding is lab-stage only.",
+ "event_date": "reported 6 Oct 2026",
+ "notes": "Authors' own results; no outside review mentioned."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-13",
+ "v1_category": "RES",
+ "headline": "Barcelona researchers describe a method of creating a pair of entangled qubits that they say reaches an error rate near one in ten thousand, about ten times lower than typical digital methods, though the scale-up limits are not defined.",
+ "score": 4,
+ "score_reason": "Lowered by 1: the headline reads as a demonstrated result, but the article stresses undefined 'realistic parameters' and only small systems.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Quantum chip designers get a possible way to prepare entangled pairs more accurately, but the result is a preprint for small systems and is not shown at scale.",
+ "source": "Quantum Zeitgeist",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Zeitgeist reports on a preprint from researchers at the Universitat de Barcelona describing an analogue way of preparing entangled qubit pairs (Bell states) in superconducting circuits, with error rates as low as about one in ten thousand in roughly 100 billionths of a second, against about one in a thousand for typical digital methods. The article notes that the results depend on assumed realistic parameters that are not fully defined and that scaling beyond small systems is untested.",
+ "url": "https://quantumzeitgeist.com/superconducting-qubits-bell-state-preparation-low-error-rates/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Preprint (arXiv 2609.09013), secondary write-up. Unclear whether results are experimental or modelled. Coverage dated 6 Oct 2026."
+}

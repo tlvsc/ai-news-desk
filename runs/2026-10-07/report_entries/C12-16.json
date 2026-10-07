@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-16",
+ "v1_category": "SEC",
+ "headline": "IBM says its Lightwell vulnerability clearinghouse has found and fixed more than 400 flaws in widely used Java libraries and is now generally available to customers.",
+ "score": 5,
+ "score_reason": "Kept at 5: a company announcement with figures that are not independently checked.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that depend on open-source Java software get a paid route to faster fixes, but the 400-plus figure is IBM's own claim and no outside review is reported.",
+ "source": "Cybersecurity Dive",
+ "status": "REPORTED",
+ "summary": "Cybersecurity Dive reports that IBM announced on Tuesday 6 Oct 2026 that Lightwell, which uses AI to review open-source code and build version-specific fixes, now lets customers request priority security reviews and receive patches without taking systems offline. The outlet adds that nearly six in 10 Java services contain at least one exploitable vulnerability, according to a Datadog report from February, and that the Linux Foundation and Chainguard run similar clearinghouses.",
+ "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the pool link."
+}

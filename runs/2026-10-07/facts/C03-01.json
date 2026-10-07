@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-01",
+ "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+ "source_used": "Google blog (blog.google)",
+ "article_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+ "fetched": true,
+ "key_facts": [
+  "Google launched EmbeddingGemma 2, an embedding model that maps text, code, images, video and audio into one shared space.",
+  "It is built on the Gemma 4 architecture, has 740 million parameters and is released under the Apache 2.0 licence.",
+  "The first EmbeddingGemma has had more than 20 million downloads, Google says.",
+  "On the MTEB Code test its score rose from 68.76 to 78.68, a 9.92-point gain.",
+  "Google says it beats some specialist models more than twice its size on image, video, document and audio tasks.",
+  "Embeddings can be generated on the device, which Google says helps privacy and works offline."
+ ],
+ "quote_evidence": [
+  "Today, we’re launching EmbeddingGemma 2, expanding beyond text to unify code, images, video, and audio in a shared embedding space.",
+  "EmbeddingGemma 2 matches the strong multilingual text performance of EmbeddingGemma while delivering a significant 9.92-point improvement on code performance (in MTEB Code, from 68.76 to 78.68)."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Lets developers build search over photos, video, audio and code that runs on a phone or laptop without sending data to a server.",
+ "event_date": "6 Oct 2026",
+ "notes": "Read the Google blog post (company announcement); performance claims are Google's own."
+}

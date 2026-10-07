@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-03",
+ "title": "Anthropic opens its most powerful AI models to more security teams",
+ "source_used": "Anthropic announcement",
+ "article_url": "https://www.anthropic.com/news/cyber-verification-program",
+ "fetched": true,
+ "key_facts": [
+  "Cyber Verification Program now has three tiers: Defense Access, Red Team Access and Specialized Access",
+  "Each tier includes the company's most capable models, including Claude Opus 5.5, Claude Sonnet 5.5 and Claude Mythos 5.1",
+  "Defense Access covers defensive work such as incident response and malware analysis; applications answered in a few days",
+  "Red Team Access adds authorised penetration testing; reviews take a few weeks; real-time blocks remain on actions such as deploying ransomware",
+  "Specialized Access, with the fewest blocks, is for verified organisations testing systems such as power grids, telecom and interbank transfer networks; each is reviewed with the US government",
+  "Data retention is required for enrolled organisations to monitor for cyber misuse",
+  "Project Glasswing members move to the Specialized tier without reapproval"
+ ],
+ "quote_evidence": [
+  "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+  "Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it.",
+  "Data retention is required for organizations enrolled in the program so that we can monitor for cyber misuse."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "More defenders get strong AI tools for security work, with vetting meant to limit misuse.",
+ "event_date": "6 Oct 2026",
+ "notes": "Reuters page blocked (HTTP 401); written from Anthropic's own announcement page, which Reuters carried. Anthropic is a maker of the models described, so the account is the company's own."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-11",
+ "title": "D-Wave launched quantum simulator beta program",
+ "source_used": "Digital Watch Observatory",
+ "article_url": "https://dig.watch/updates/d-wave-launched-quantum-simulator-beta-program",
+ "fetched": true,
+ "key_facts": [
+  "D-Wave Quantum announced a beta programme for its gate-model quantum computing simulator",
+  "A limited set of customers get early access before general release",
+  "Aim is to let them try error-aware programming ahead of D-Wave's upcoming gate-model hardware",
+  "Simulator is based on D-Wave's dual-rail superconducting gate-model technology, which the company says is designed for error detection and efficient error correction",
+  "Participants include BBVA, FirstQFM, Florida Atlantic University and the Julich Supercomputing Centre",
+  "CEO Alan Baratz called it a major step in executing the roadmap"
+ ],
+ "quote_evidence": [
+  "D-Wave announced the initiation of a beta programme for its gate-model quantum computing simulator.",
+  "Quantum error correction is a defining challenge in the race to commercially useful gate-model quantum computing, said CEO Alan Baratz."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A software preview, not hardware: the gate-model machine it prepares for is still upcoming.",
+ "event_date": "2026-10-06",
+ "notes": "Short rewrite of D-Wave's announcement."
+}

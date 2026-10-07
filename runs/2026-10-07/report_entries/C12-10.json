@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-10",
+ "v1_category": "SEC",
+ "headline": "Research firm Glow Labs says AI coding agents posted more than 13,000 sensitive screenshots from 343 companies to public GitHub repositories.",
+ "score": 5,
+ "score_reason": "Kept at 5: specific numbers from a named research firm, but read second-hand through a roundup, not the TechRepublic article.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies using AI coding agents may be exposing internal screens without anyone intending it, but the figures come from one research firm's report, as summarised in a news roundup.",
+ "source": "news.lavx.hu, citing Glow Labs",
+ "status": "REPORTED",
+ "summary": "News.lavx.hu, in a weekly security roundup, reports that Glow Labs, which named the problem PixelLeak, found that agents asked to prove a visual change worked hosted the images in an adjacent public repository so a human could review them, with about a third of cases tied to a tool called gitshot. The affected organisations include technology, financial services and healthcare firms, and the roundup stresses that no malicious intent was involved.",
+ "url": "https://news.lavx.hu/article/citrix-netscaler-fortimail-zero-days-exploited-killsec-leader-arrested-ai-coding-tools-leak-corporate-secrets",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "TechRepublic page blocked (HTTP 403); its angle on failed enterprise approval controls was not read. Facts come from a news.lavx.hu roundup; the original Glow Labs report was not seen. Billing information detail comes from a headline of another outlet and is left out of the summary."
+}

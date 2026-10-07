@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-11",
+ "title": "The techniques AI uses to create images can help predict floods, researchers say",
+ "source_used": "Penn State University news release",
+ "article_url": "https://www.psu.edu/news/research/story/techniques-ai-uses-create-images-can-help-predict-floods-researchers-say",
+ "fetched": true,
+ "key_facts": [
+  "Researchers including Penn State's Chaopeng Shen applied diffusion, the method behind AI image generators, to hourly flash-flood prediction.",
+  "Flash floods account for roughly 85% of floods and cause thousands of deaths a year worldwide, per the National Weather Service as cited.",
+  "The model was trained on rainfall and streamflow data from over 500 US river basins between 1990 and 2003.",
+  "It can quantify uncertainty and absorb fresh gauge readings without retraining (inpainting).",
+  "Shen says it generally outperformed the best existing hourly deep-learning models, including on high flows, and can run in reverse to estimate rainfall from streamflow.",
+  "The paper was published in Water Resources Research; the team plans hybrid training and more physical variables.",
+  "Their earlier model worked at a daily scale, which misses hour-scale peaks such as the Central Texas floods of summer 2025."
+ ],
+ "quote_evidence": [
+  "Employing the same techniques used by AI image generators, a team of researchers is building new hourly prediction methods for flash floods",
+  "We can inject new, almost real-time information into our model",
+  "Shen said their diffusion approach generally outperformed the best existing hourly deep-learning models"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Better hourly flood forecasts could give communities more warning.",
+ "event_date": "reported 6 Oct 2026",
+ "notes": "University press release; performance claims are the team's. Not an operational system."
+}

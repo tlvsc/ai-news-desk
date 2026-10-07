@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-13",
+ "title": "Silicon Labs unveils AI development tools to accelerate Edge IoT innovation",
+ "source_used": "PR Newswire (Silicon Labs press release; New Electronics page blocked, HTTP 403)",
+ "article_url": "https://www.prnewswire.com/news-releases/silicon-labs-expands-ai-developer-platform-to-simplify-iot-development-and-scale-edge-intelligence-302900358.html",
+ "fetched": true,
+ "key_facts": [
+  "Silicon Labs, a maker of low-power wireless chips, announced developer tools at its Works With Summit on 7 Oct 2026.",
+  "Its Simplicity AI SDK is in public beta and works with AI coding assistants GitHub Copilot, Cursor and Codex.",
+  "A new Hardware Intent Agent uses requirements, schematics and datasheets to guide hardware configuration and check it against the original intent.",
+  "It says this can find pin conflicts and peripheral mismatches before manufacturing and reduce board respins.",
+  "An open-source developer community launches in beta, starting with Bluetooth Low Energy.",
+  "Silicon Labs is now a Databricks partner so edge machine-learning tools can connect to its data platform."
+ ],
+ "quote_evidence": [
+  "Simplicity AI SDK has entered public Beta, giving developers and their AI coding assistants structured access to Silicon Labs SDKs, tools, documentation, and connected hardware.",
+  "“More capable silicon should not create more development complexity,” said Manish Kothari, Senior Vice President of Software at Silicon Labs."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Helps developers of smart devices use AI coding assistants that know Silicon Labs hardware.",
+ "event_date": "7 Oct 2026",
+ "notes": "New Electronics page blocked; read the Silicon Labs press release on PR Newswire. Company announcement, claims are the company's."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-05",
+ "title": "EADV: Autonomous AI Can Increase Clinical Capacity for Dermatologists",
+ "source_used": "Bioengineer.org (relaying Scienmag); HealthDay page returned no text",
+ "article_url": "https://bioengineer.org/autonomous-ai-frees-dermatologists-for-thousands-more-skin-cancer-appointments/",
+ "fetched": true,
+ "key_facts": [
+  "An autonomous AI system in two UK hospitals followed 8,391 patients on urgent suspected skin cancer pathways, presented at the EADV Congress 2026 in Vienna.",
+  "The system, a CE-marked Class III medical device, discharged benign lesions on its own and routed higher-risk cases to teledermatologists.",
+  "86% of offered patients consented; the pathway covered 94% of urgent suspected skin cancer referrals at the two sites.",
+  "The AI discharged 31% of patients at one hospital and 25% at the other without specialist review.",
+  "Researchers estimate 2,851 clinician hours saved, about 62% more capacity, or over 8,500 extra face-to-face appointments in 16 months.",
+  "Sensitivity exceeded 98% for invasive melanoma, squamous cell and basal cell carcinoma, with specificity of 72.1%.",
+  "Surveillance found six false negatives (five basal cell carcinomas, one melanoma in situ); no adverse outcomes were identified in available follow-up.",
+  "Lead author Dr Lucy Thomas of Chelsea & Westminster Hospital NHS Foundation Trust calls it proof of concept; La Roche-Posay partly supported the work."
+ ],
+ "quote_evidence": [
+  "We believe the greatest value of autonomous AI lies not in the technology itself, but in the specialist capacity it unlocks.",
+  "If these findings are replicated across larger populations and different healthcare settings, autonomous AI could become an important part of creating a more sustainable dermatology service."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Autonomous AI cleared about half of urgent skin referrals without a face-to-face visit, freeing specialist time, but six missed cancers were found after discharge.",
+ "event_date": "Presented at EADV Congress 2026, reported 5 Oct 2026",
+ "notes": "HealthDay page returned HTTP 200 with no text. Read Bioengineer.org, which credits Scienmag. Conference results, not peer-reviewed publication as far as the text says."
+}

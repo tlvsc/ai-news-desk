@@ -1,0 +1,22 @@
+{
+ "item_id": "C12-16",
+ "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
+ "source_used": "Cybersecurity Dive",
+ "article_url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+ "fetched": true,
+ "key_facts": [
+  "IBM's Lightwell clearinghouse has found and fixed more than 400 vulnerabilities in popular Java libraries, announced Tuesday 6 Oct 2026",
+  "Lightwell is now generally available; customers can request priority security reviews of specific open-source flaws",
+  "Linux Foundation's Akrites and Chainguard's Athena are similar clearinghouses",
+  "Datadog said in February that nearly six in 10 Java services contain at least one exploitable vulnerability",
+  "IBM stresses backporting fixes into live apps so customers need not choose between security and uptime"
+ ],
+ "quote_evidence": [
+  "IBM’s vulnerability discovery clearinghouse has found and fixed more than 400 vulnerabilities in popular Java libraries, the company announced on Tuesday.",
+  "Finding those bugs is only half the battle: the real work is backporting fixes directly into active production apps so customers do not have to pick between security and uptime"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI-assisted patching for widely used open-source Java code.",
+ "event_date": "6 Oct 2026",
+ "notes": "Read in full from the pool link."
+}

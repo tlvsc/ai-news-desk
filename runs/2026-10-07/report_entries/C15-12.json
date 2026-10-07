@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-12",
+ "v1_category": "RES",
+ "headline": "Researchers from the Watson Research Center and the University of Wisconsin-Madison linked two distant qubits across a 100-qubit chain with entanglement quality just above the accepted threshold, using a method that discards failed runs.",
+ "score": 5,
+ "score_reason": "Preprint result on current hardware; fidelity is modest and the method throws away failed runs.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Quantum hardware researchers get a technique for long-distance entanglement on current chips, but a fidelity of 0.59 is only just above the certification threshold and the result is not peer reviewed.",
+ "source": "Quantum Zeitgeist",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Zeitgeist reports on a preprint by researchers at the Watson Research Center and the University of Wisconsin-Madison who created an entangled pair of qubits (a Bell pair) spanning 100 qubits on a superconducting processor, with a fidelity of 0.59, just above the 0.5 level that counts as proof of entanglement. The method detects errors and discards failed runs, called postselection, which cuts the classical computing needed; the plain method reached only 0.39.",
+ "url": "https://quantumzeitgeist.com/entangled-bell-pair-spanning-100-qubits-fidelity/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reported from an arXiv preprint (2609.08925); not peer reviewed per the article. Quantum Zeitgeist is a secondary write-up of the paper. Preprint likely submitted in September 2026; coverage is dated 6 Oct 2026."
+}

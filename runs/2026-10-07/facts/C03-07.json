@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-07",
+ "title": "Copilot tops GitHub's own AI code review benchmark. An independent one tells a different story.",
+ "source_used": "The New Stack",
+ "article_url": "https://thenewstack.io/github-reviewbench-code-review/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub unveiled ReviewBench, an open benchmark developed with Microsoft for AI code review tools; it used 219 public pull requests from 187 repositories in 19 languages.",
+  "GitHub Copilot code review leads the initial leaderboard with a 40.1% grounded F1 score.",
+  "GitHub ran the first tests itself using publicly available products; vendors did not run or verify them, and tests were run on different dates (Copilot on 1 Oct, Cubic and Greptile in June).",
+  "On Martian's independent online leaderboard (6 Oct) Cubic is first with 64.9% F1 and Copilot fourth with 60.9%.",
+  "On Martian's offline leaderboard Qodo Deep ranks first and Copilot fifth with a 58% F2 score.",
+  "The New Stack says the scores are not directly comparable because the datasets and methods differ."
+ ],
+ "quote_evidence": [
+  "A vendor-published benchmark topped by that vendor’s own product makes those qualifications particularly notable.",
+  "These scores still aren’t directly comparable with ReviewBench."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows how the choice of benchmark can change which AI code reviewer looks best.",
+ "event_date": "5 Oct 2026 (GitHub announced \"on Monday\"); our 6 Oct edition carried the launch",
+ "notes": "Follow-up: our 6 Oct 2026 edition carried GitHub's ReviewBench announcement; new today is the independent comparison with Martian's leaderboards."
+}

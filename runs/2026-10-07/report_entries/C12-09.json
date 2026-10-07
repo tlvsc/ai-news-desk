@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "Security vendor ClawSecure says the Model Context Protocol, a widely used standard for connecting AI agents to company data, has design weaknesses affecting Linear, Notion and Dropbox Dash, but its findings are not independently confirmed.",
+ "score": 5,
+ "score_reason": "Lowered from 6 to 5: vendor research with no independent replication, no CVE and no patch, so the headline overstates what is established.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies connecting AI agents to tools such as Notion and Linear may face a built-in data-leak risk, but this is one vendor's unreplicated claim and the affected companies have not confirmed it.",
+ "source": "Forkast News, citing ClawSecure",
+ "status": "PRELIMINARY",
+ "summary": "Forkast News reports that ClawSecure's AI Agent Threat Report says servers in Notion and Linear automatically fetch attacker-controlled links when content is created, which could turn write access into a data-leak channel, and that none of 14 tested AI models reliably blocked hidden-instruction attacks (the best, Claude Opus 4.7, obeyed malicious instructions 26.7 percent of the time). Forkast notes that ClawSecure sells security products, that no independent replication has been reported and that no CVE (official vulnerability number) or vendor patch has been issued.",
+ "url": "https://forkast.news/clawsecure-discloses-critical-mcp-protocol-vulnerabilities-affecting-linear-notion-dropbox-dash/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the pool link. Forkast stresses ClawSecure is a commercial vendor and nothing has been independently replicated."
+}

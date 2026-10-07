@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-02",
+ "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+ "source_used": "Google Research blog",
+ "article_url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+ "fetched": true,
+ "key_facts": [
+  "Google Research presents five partner-run case studies of its Population Dynamics Foundation Model (PDFM), part of Google Earth AI, in public health.",
+  "PDFM turns privacy-preserving search trends, mobility, built-environment and environmental data into location 'embeddings' (compact numerical fingerprints) refreshed monthly.",
+  "Measles: adding Canadian border-area embeddings raised the share of MMR vaccination variation explained from 16% to 22% (+36%) across 146 US border counties; estimates for 4.7 million border residents moved by at least 3 percentage points.",
+  "Cardiovascular mortality: PDFM matched census-based nowcasting across about 3,100 US counties (mean error 18.7 vs 19.1 deaths per county, differences not significant).",
+  "Dengue: paired with TimesFM 2.0, one-month forecasts improved in up to 72% of active-transmission municipalities across about 2,450 Mexican municipalities, 2020 to 2025.",
+  "Postpartum depression: across 332,970 survey participants, embeddings added a small but significant gain (AUC +0.0020 in seen states, +0.0038 in unseen states).",
+  "A fifth study in the Democratic Republic of the Congo (403 health zones) reported gains of 9.7% in precision-recall area at 4 weeks and 18.1% in Precision@5 at 8 weeks."
+ ],
+ "quote_evidence": [
+  "Without requiring task-specific fine-tuning, these off-the-shelf location embeddings matched or improved on conventional inputs across a wide variety of disease domains, geographic settings, and epidemiological tasks.",
+  "Statistically significant 1-month forecast gain ... via TimesFM integration, concentrated in active transmission hotspots.",
+  "Transferable gain in risk prediction (AUC +0.0020 on a 0.62 baseline in seen states; +0.0038 in unseen states)."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Fresher, cheaper local data could let health departments act before multi-year official statistics arrive.",
+ "event_date": "6 Oct 2026",
+ "notes": "Google's own blog about its own model; evaluations were run by partner institutions but selected and presented by Google. Some gains are very small (postpartum AUC)."
+}

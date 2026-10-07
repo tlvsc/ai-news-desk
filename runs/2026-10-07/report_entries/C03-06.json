@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "MOD",
+ "headline": "An anonymous developer has put details of about 5.6 billion public TikTok videos on Hugging Face for free, though TikTok's terms bar such automated collection without its written approval.",
+ "score": 6,
+ "score_reason": "Large open dataset with legal questions, but the details of the scraping come from its publisher and TikTok has not been quoted.",
+ "importance_label": "MEDIUM",
+ "importance_line": "AI developers get a huge free source of social-media data, while TikTok, its creators and courts face new questions about scraping, though no TikTok response is reported.",
+ "source": "Decrypt",
+ "status": "REPORTED",
+ "summary": "Decrypt reports that a developer going by hashfunction posted metadata for about 5.6 billion public TikTok videos on Hugging Face (a site where AI developers share models and datasets), covering captions, hashtags, sound IDs and engagement counts but not the videos themselves. The data is free for non-commercial use while the scraper's code is sold for $1,699, and Decrypt notes that TikTok's terms bar automated extraction without written approval and that the dataset's own write-up describes using TikTok's private mobile API.",
+ "url": "https://decrypt.co/380229/someone-scraped-5-billion-tiktok-videos-posted-data-hugging-face",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "No TikTok response reported in the article. The scraping method is DataSocial's own description."
+}

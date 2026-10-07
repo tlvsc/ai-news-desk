@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-14",
+ "title": "Shanghai AI Lab Open-Sources Intern-Decision, Small Models That Output Decisions, Not Text",
+ "source_used": "Pandaily",
+ "article_url": "https://pandaily.com/shanghai-ai-lab-intern-decision-open-source-0-8b-2b-4b-decision-model",
+ "fetched": true,
+ "key_facts": [
+  "Shanghai AI Lab open-sourced Intern-Decision, small models of 0.8B, 2B and 4B parameters, released on 28 Sep per Pandaily.",
+  "They return a structured answer with probabilities (choice, score or yes/no) instead of long text, in one forward pass.",
+  "They fine-tune the language part of Qwen3.5 and can take images as input, shown on game and browser tasks.",
+  "The lab says the 4B model averages 90.02% accuracy over seven test suites, 1.28 points above Jev (88.74%), a commercial reference model.",
+  "Latency is about 44 milliseconds on a single RTX 4090; the figures are self-reported.",
+  "Training data is not included; weights are on Hugging Face; chipmaker MetaX announced Day-0 support."
+ ],
+ "quote_evidence": [
+  "Instead of producing long passages of text, the models are built to return a structured judgment directly, together with probabilities for each possible answer.",
+  "These figures are self-reported by the developers, and the repository notes that evaluation protocols and scope differ between models."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Small decision models could make automated choices cheaper and easier to audit.",
+ "event_date": "28 Sep 2026 (release); Pandaily article 7 Oct 2026",
+ "notes": "Page text read from the article data embedded in the Pandaily page. Release dated 28 Sep, so stale; score lowered 5 to 4."
+}

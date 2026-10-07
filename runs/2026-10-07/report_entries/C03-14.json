@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-14",
+ "v1_category": "MOD",
+ "headline": "Shanghai AI Lab has released small open models that answer questions with a choice and a probability, rather than writing text, and reports they edge out a commercial rival.",
+ "score": 4,
+ "score_reason": "Interesting open release, but dated 28 Sep 2026 and based on the lab's own test results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building agents and filters may get cheaper, more auditable decision tools, but the accuracy figures are the lab's own and the release is over a week old.",
+ "source": "Pandaily",
+ "status": "REPORTED",
+ "summary": "Pandaily reports that Shanghai AI Lab has open-sourced Intern-Decision, a family of small models (0.8 to 4 billion parameters, the adjustable settings a model learns) that return a structured choice, score or yes/no answer with probabilities instead of text. The lab says its 4B model averages 90.02% on seven tests against 88.74% for a commercial rival, figures the report says are self-reported; Pandaily dates the release to 28 Sep 2026.",
+ "url": "https://pandaily.com/shanghai-ai-lab-intern-decision-open-source-0-8b-2b-4b-decision-model",
+ "freshness": "FOLLOW-UP of 28 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Page text read from the article data embedded in the Pandaily page. Release dated 28 Sep, so stale; score lowered 5 to 4."
+}

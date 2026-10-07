@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-05",
+ "title": "Stack Overflow 2026 Survey: VS Code Leads, Visual Studio Takes Third",
+ "source_used": "SecurityBrief Asia (Visual Studio Magazine page blocked, HTTP 403)",
+ "article_url": "https://securitybrief.asia/story/stack-overflow-survey-shows-developers-trust-ai-with-caveats",
+ "fetched": true,
+ "key_facts": [
+  "Stack Overflow published its 2026 Developer Survey, with more than 30,000 responses from 169 countries.",
+  "Coding assistants or agents were used by 66% of respondents; only 17.2% said they use no AI tools.",
+  "Nearly half trust AI output when they can verify it easily; only 6.6% would trust it for important decisions.",
+  "78.7% said source attribution is important or very important for AI-generated code or answers.",
+  "Only 24% said their employer had published approved tools or formal AI guidance.",
+  "45% of developers were classed as complacent in their jobs, 33% unhappy and 22% happy."
+ ],
+ "quote_evidence": [
+  "Nearly half of respondents said they trust AI output when they can verify it easily, while only 6.6% said they would trust it for important decisions.",
+  "Some 78.7% of respondents said attribution was important or very important when assessing AI-generated code or technical answers."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows developers use AI widely but check its work, and that workplace rules lag behind use.",
+ "event_date": "Survey results published 6 or 7 Oct 2026 (exact day not stated)",
+ "notes": "Visual Studio Magazine blocked; read SecurityBrief Asia. That article does not mention the VS Code ranking in the original headline, so the entry does not state it. Survey is by Stack Overflow, which sells and promotes developer services."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-05",
+ "v1_category": "FUN",
+ "headline": "Mistral AI launched its trillion-parameter Mistral Large 4 model, which it nicknames \"Le Chonk\" after a cat joke that fans began in June.",
+ "score": 3,
+ "score_reason": "Pool score kept; a notable model launch, but the performance claims are the company's own and untested.",
+ "importance_line": "Developers and companies that want models they can run themselves are affected most; the strength claims come from Mistral and one Surge AI test, and the weights are not yet public.",
+ "source": "Decrypt",
+ "status": "REPORTED",
+ "summary": "Decrypt reports that Paris-based Mistral AI released Mistral Large 4 on Tuesday, a model with 1 trillion adjustable settings (parameters), and that the company's launch post uses the joking nickname \"Le Chonk\", taken from a fan-made cat-model meme that CEO Arthur Mensch played along with. Mistral prices it at about a third of Claude Opus 5.5's input cost and says it will publish the model's weights by the end of October, which would let outsiders check its claim to be the strongest open model from the US or Europe.",
+ "url": "https://decrypt.co/380192/mistral-ai-drops-le-chonk-massive-ai-model-cat-meme",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Could fit MOD (models); kept as FUN because of the meme-name angle. Performance claims are Mistral's.",
+ "importance_label": "WATCHLIST"
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-05",
+ "title": "Cisco readies new control plane for quantum networks",
+ "source_used": "Network World",
+ "article_url": "https://www.networkworld.com/article/4231343/cisco-readies-new-control-plane-for-quantum-networks.html",
+ "fetched": true,
+ "key_facts": [
+  "Cisco's prototype Quantum Network Controller is designed to coordinate quantum computers, memories and switches on one network",
+  "Described in a blog post by Vijoy Pandey, SVP and GM of Outshift by Cisco",
+  "Pandey: connecting 1,000 quantum nodes point to point takes close to 500,000 dedicated links",
+  "Applications would request entanglement by naming endpoints, rate, fidelity and timing; Cisco calls this Entanglement-as-a-Service",
+  "Controller uses Cisco's Universal Quantum Switch announced earlier this year, which Cisco says connects systems from vendors such as IBM, IonQ, Google and Rigetti",
+  "A new prototype of Cisco's Network-Aware Quantum Compiler works with the controller and adds a distributed error-correction package",
+  "Cisco's own team calls the controller a research prototype"
+ ],
+ "quote_evidence": [
+  "Cisco's Quantum Network Controller is a research prototype exploring what that operational layer could look like, wrote Reza Nejabati and Sabitha Krishnamurthy.",
+  "The Controller keeps checking that the link stays healthy for as long as the application is using it, wrote Pandey."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Software to run a network of quantum machines is a missing piece, but Cisco itself calls this a prototype.",
+ "event_date": "2026-10-06",
+ "notes": "Cisco's claims are relayed by Network World from Cisco blog posts."
+}

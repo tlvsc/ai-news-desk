@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-14",
+ "title": "Apollo Research wants AI evaluators inside the lab during training, not just at launch",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/apollo-research-embedded-ai-evaluations-training/",
+ "fetched": true,
+ "key_facts": [
+  "AI safety group Apollo Research argues independent evaluators should have continuous access to models during training, calling it 'embedded evaluations'.",
+  "It published its case in blog posts between 30 Sep and 5 Oct 2026.",
+  "Today, external evaluations usually happen shortly before a public release; Apollo says the most informative moments have passed by then.",
+  "The aim is to catch behaviours such as scheming while they form; Apollo wants close to employee-level access.",
+  "Apollo CEO Marius Hobbhahn testified in early October 2026 before a US Senate Homeland Security subcommittee, advocating mandatory independent evaluations.",
+  "Apollo, founded in 2023, focuses on deceptive alignment, where a system appears well-behaved while pursuing other goals.",
+  "Crypto Briefing notes labs would have to share far more than they do now."
+ ],
+ "quote_evidence": [
+  "The group argues that independent evaluators should have continuous access to AI models throughout training, not just a brief look right before a public release.",
+  "Apollo laid out its case in a series of blog posts published between September 30 and October 5, 2026.",
+  "Hobbhahn advocated for mandatory independent evaluations in AI development."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Access to training is the sticking point for independent AI safety testing.",
+ "event_date": "30 Sep to 5 Oct 2026",
+ "notes": "Apollo's blog posts began before 6 Oct but the story was reported 6 Oct; score kept. No lab has agreed to the proposal in the text. Crypto Briefing is a secondary outlet summarising Apollo's posts."
+}

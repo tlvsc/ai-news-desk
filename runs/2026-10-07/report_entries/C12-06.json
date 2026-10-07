@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "Security firm CloudSEK reports that a ransomware affiliate used an AI-assistant control port as a channel to run commands inside a victim's network.",
+ "score": 5,
+ "score_reason": "Lowered from 6 to 5: a single security firm's account from 5 Oct 2026, based on one actor's exposed servers.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Defenders running MCP servers on their own networks have a concrete example of criminals abusing them, but this is one firm's account of one actor and no independent confirmation is reported.",
+ "source": "CloudSEK, as relayed by GBHackers News",
+ "status": "REPORTED",
+ "summary": "GBHackers News relays research by CloudSEK, published on 5 Oct 2026, saying an affiliate of the Gentlemen ransomware gang who calls himself Azazel ran scripts against a locally bound MCP server (a standard that lets AI assistants run tools) to execute checks across six internal hosts in one victim's environment. CloudSEK says it knows of no earlier public report of criminals using MCP this way in a live campaign, and its findings rest on servers the attacker left exposed.",
+ "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "GBHackers page gave no text (HTTP 202); written from CloudSEK's own report, the first source. CloudSEK's report is dated 5 Oct 2026."
+}

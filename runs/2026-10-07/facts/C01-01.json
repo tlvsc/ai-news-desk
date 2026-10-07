@@ -1,0 +1,23 @@
+{
+ "item_id": "C01-01",
+ "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
+ "source_used": "TechCrunch (Reuters page returned HTTP 401)",
+ "article_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+ "fetched": true,
+ "key_facts": [
+  "Mistral AI released Mistral Large 4 (nicknamed Le Chonk), a multimodal model with 1 trillion parameters, on Tuesday 6 Oct 2026.",
+  "It is not open-weight yet: access is through a public guardrail endpoint, with weights planned in about three weeks after safety testing.",
+  "Mistral says it trained the model on its own compute using 4,000 Nvidia GPUs, which VP Science Pierre Stock called two to three times fewer than Chinese competitors.",
+  "Benchmark results are still pending; Mistral hopes it will be best among open-weight models outside China and may beat closed models in areas such as cybersecurity, finance and chip design.",
+  "Mistral's Series D last month, led by Samsung, valued it at 21 billion euros; ASML led the Series C."
+ ],
+ "quote_evidence": [
+  "On Tuesday, French AI lab Mistral AI released Mistral Large 4 (ML4), a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+  "With benchmark results still pending, Mistral hopes ML4 will be best in class among open-weight models, especially outside of China.",
+  "Mistral plans to make its weights available in just three weeks, after safety testing is complete."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Western lab is offering a very large model it plans to open up, as an alternative to Chinese open models and closed US ones.",
+ "event_date": "6 Oct 2026",
+ "notes": "Reuters page blocked (401); read TechCrunch. Reuters headline says it outperforms some Chinese rivals; TechCrunch says benchmarks are pending, so this is a company claim."
+}

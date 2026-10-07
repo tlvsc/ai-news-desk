@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-02",
+ "title": "Building Git infrastructure for agent-scale development",
+ "source_used": "The GitHub Blog",
+ "article_url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub says it is rebuilding the Git infrastructure behind its repositories because developers and AI agents now work in them at the same time.",
+  "Total Git activity grew from 218.2 billion events a month to 473.3 billion between September 2025 and August 2026.",
+  "In September 2026 developers and agents made 7.38 billion commits, more than five times a year earlier.",
+  "The current system (Spokes) keeps five full copies of each repository, so adding copies for reads makes writes slower.",
+  "GitHub says the new design separates storage durability from read capacity.",
+  "In internal benchmarks it reports up to 35 times higher write throughput; a follow-up post is promised."
+ ],
+ "quote_evidence": [
+  "In September alone, developers and agents made 7.38 billion commits on GitHub, more than five times as many as a year earlier.",
+  "In internal benchmarks, it has delivered up to 35 times higher write throughput, with read capacity that scales on its own to meet demand."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The busiest repositories are hitting limits of the old design as AI agents multiply the number of changes.",
+ "event_date": "6 Oct 2026",
+ "notes": "Company engineering blog; the 35x figure is an internal benchmark and the new system is not yet released. Score lowered 7 to 6: describes work in progress, not a launch."
+}

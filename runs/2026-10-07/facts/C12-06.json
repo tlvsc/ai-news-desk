@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-06",
+ "title": "Gentlemen Ransomware Affiliate Uses MCP as C2 Channel in Live Cyberattacks",
+ "source_used": "CloudSEK report",
+ "article_url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+ "fetched": true,
+ "key_facts": [
+  "CloudSEK report dated 5 Oct 2026 on a Gentlemen ransomware affiliate calling himself Azazel",
+  "Exposed open directory and storage servers held more than two dozen victim directories and about 6TB of stolen data across six countries",
+  "The affiliate also ran his own leak site, LEAKNED, keeping proceeds from the ransomware operator",
+  "A script called MCP exec_in_session on a locally bound server to loop SSH checks across six internal hosts",
+  "CloudSEK says it found no prior public report of MCP used operationally as a C2 channel in a live criminal campaign",
+  "Beacon logs showed scanning for exposed MCP server ports under the name 'internet-census-mcp-scanner'",
+  "Mitigation advice: never bind an MCP server beyond strict loopback and audit exec_in_session"
+ ],
+ "quote_evidence": [
+  "CloudSEK has not identified prior public reporting of a threat actor operationally using MCP exec_in_session as a C2 channel in a live criminal campaign.",
+  "Each check was executed via exec_in_session MCP calls to 127.0.0.1:35367 this script is the confirmed operational use of MCP as an attack execution channel in this investigation."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Criminals reported to use an AI-tool connection standard to run attack commands.",
+ "event_date": "5 Oct 2026",
+ "notes": "GBHackers page gave no text (HTTP 202); written from CloudSEK's own report, the first source. CloudSEK's report is dated 5 Oct 2026."
+}

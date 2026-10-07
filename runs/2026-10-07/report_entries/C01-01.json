@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-01",
+ "v1_category": "MOD",
+ "headline": "French AI company Mistral released Mistral Large 4, a one-trillion-parameter model it says can beat some Chinese rivals, though its open weights are still three weeks away.",
+ "score": 8,
+ "score_reason": "Major launch from Europe's leading AI lab, but the performance claim is Mistral's own and benchmarks are pending.",
+ "importance_label": "HIGH",
+ "importance_line": "Developers and governments looking for a non-US, non-Chinese model get a new option, but the open release is not yet available and the performance claim is Mistral's own.",
+ "source": "TechCrunch",
+ "status": "REPORTED",
+ "summary": "TechCrunch reports that Mistral AI, the Paris-based AI developer, released Mistral Large 4, a multimodal model nicknamed Le Chonk with one trillion parameters (the adjustable settings a model learns in training), and Reuters carried the company's claim that it beats some Chinese models in certain areas. For now it is available only through a guarded public endpoint; Mistral says it will publish the open weights, the files that let others run the model, in about three weeks after safety testing, and that benchmark results are still pending.",
+ "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters page blocked (HTTP 401); text read at TechCrunch. Reuters named for the headline claim only."
+}

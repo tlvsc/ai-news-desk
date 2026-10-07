@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "MOD",
+ "headline": "The New Stack reports that GitHub's own new test puts Copilot first for AI code review, while an independent test ranks it fourth.",
+ "score": 6,
+ "score_reason": "Adds the independent context missing from the 6 Oct launch story; the rankings are not directly comparable.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Teams choosing an AI code reviewer get a warning that vendor benchmarks can flatter their maker, though the two tests measure different things and cannot be compared directly.",
+ "source": "The New Stack",
+ "status": "REPORTED",
+ "summary": "The New Stack reports, following our 6 Oct 2026 edition on GitHub's launch of the ReviewBench test for AI code review tools, that GitHub's own Copilot leads the new leaderboard with a 40.1% score on a test GitHub ran itself, with some rivals tested months earlier. On Martian's independent leaderboards, which the article says are not directly comparable, Copilot ranks fourth online and fifth offline behind tools such as Cubic and Qodo.",
+ "url": "https://thenewstack.io/github-reviewbench-code-review/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up: our 6 Oct 2026 edition carried GitHub's ReviewBench announcement; new today is the independent comparison with Martian's leaderboards."
+}

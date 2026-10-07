@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-11",
+ "v1_category": "MOD",
+ "headline": "Software-monitoring company New Relic has released a command-line tool that lets developers and AI agents investigate outages and check whether a fix worked without opening a dashboard.",
+ "score": 5,
+ "score_reason": "Product announcement with no outside evidence of results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Engineers and AI agents handling outages can work from the terminal instead of switching tools, but the benefits are New Relic's own description.",
+ "source": "Help Net Security",
+ "status": "REPORTED",
+ "summary": "Help Net Security reports that New Relic, an observability company (its software tracks whether online services are running properly), has announced Ground Truth CLI, a command-line tool that lets developers and AI agents investigate production problems and check recovery from the terminal. The company says it ties together its Autopilot and NerdGraph interfaces so people and agents can work from the same evidence.",
+ "url": "https://www.helpnetsecurity.com/2026/10/06/new-relic-ground-truth-cli/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Help Net Security relays New Relic's announcement; no independent test."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-09",
+ "title": "New Calibration Framework Improves Confidence in AI Virtual Cell Models",
+ "source_used": "Genetic Engineering and Biotechnology News",
+ "article_url": "https://www.genengnews.com/topics/artificial-intelligence/new-calibration-framework-improves-confidence-in-ai-virtual-cell-models/",
+ "fetched": true,
+ "key_facts": [
+  "A study from Shift Bioscience and collaborators was published in Nature Biotechnology: 'Deep Learning Perturbation Models Can Outperform Baselines on Calibrated Metrics'.",
+  "AI 'virtual cell' models predict how switching genes on or off changes a cell's gene activity; earlier studies found deep models often failed to beat simple baselines.",
+  "The team argues part of the problem is the benchmarks and built a positive-control baseline plus a 'dynamic range fraction' measure of metric quality.",
+  "Across 14 datasets and 18 metrics, common measures such as mean squared error were often poorly calibrated, while weighted and rank-based metrics did better.",
+  "Using better metrics, nine deep models were benchmarked; older models such as scGPT and GEARS often beat uninformative baselines and newer ones such as PRESAGE and scLambda did better, though results varied.",
+  "A simple additive baseline stayed hard to beat where training covered only 0.63% of gene combinations (Norman19) but not where it covered 10.3% (Wessels23).",
+  "Shift Bioscience, a Cambridge, UK company, plans to use the framework to find targets for cell rejuvenation and age-related disease, starting with fibrosis."
+ ],
+ "quote_evidence": [
+  "AI virtual cell models may be more capable of predicting cellular responses to genetic perturbations than earlier benchmarks suggested—but only when researchers use evaluation metrics sensitive enough to detect biologically meaningful signals",
+  "Across 14 genetic perturbation datasets and 18 evaluation metrics, commonly used measures ... were often poorly calibrated",
+  "results varied by dataset and metric"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Better yardsticks change whether virtual cell models look useful for drug target discovery.",
+ "event_date": "reported 7 Oct 2026",
+ "notes": "Authors include a company with a commercial interest; GEN quotes its CSO."
+}

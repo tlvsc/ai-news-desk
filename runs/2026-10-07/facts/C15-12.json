@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-12",
+ "title": "Researchers Build Entangled Bell Pair Spanning 100 Qubits With 59% Fidelity",
+ "source_used": "Quantum Zeitgeist",
+ "article_url": "https://quantumzeitgeist.com/entangled-bell-pair-spanning-100-qubits-fidelity/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from IBM's Watson Research Center and the University of Wisconsin-Madison prepared an entangled Bell pair spanning 100 qubits on a superconducting processor",
+  "Fidelity 0.59 plus or minus 0.02, above the 0.5 threshold used to certify entanglement",
+  "Baseline dynamic-circuit method reached 0.39 plus or minus 0.01",
+  "Uses error detection and postselection, discarding runs that fail checks, to cut classical processing demands without extra qubits",
+  "Also prepared W states up to 20 qubits, with fidelity gains of about 0.2",
+  "Paper: Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits (arXiv 2609.08925), by Smith, Pokharel, Maurya and Takita",
+  "Preprint; the article does not mention peer review"
+ ],
+ "quote_evidence": [
+  "Entanglement measures now reach a fidelity of 0.59 when creating a long-range Bell pair spanning 100 qubits; this exceeds the established entanglement certification threshold of 0.5.",
+  "Achieving substantial improvements relies heavily on postselection, discarding unsuccessful attempts."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Shows long-range entanglement on real hardware, with a cost: many runs are thrown away.",
+ "event_date": "not stated (arXiv number suggests a September 2026 submission)",
+ "notes": "Article names the affiliation as Watson Research Centre; read as IBM's Thomas J. Watson Research Center is not confirmed in text, so wording stays close to the article."
+}

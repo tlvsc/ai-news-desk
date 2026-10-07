@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-02",
+ "v1_category": "SEC",
+ "headline": "South Korean officials believe hackers used a Chinese security tool called Artex AI in breaches of at least seven financial institutions that exposed data on about 68,000 people.",
+ "score": 7,
+ "score_reason": "Lowered from 8 to 7: the WSJ headline states the Chinese AI tool as fact, but the reporting only says officials believe it was used.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Customers of at least seven South Korean banks and credit firms had borrowing, income and contact details exposed in what is described as the first known AI-agent hack of the financial sector, but the tool's role is a stated belief rather than a finding and the figures come from local media.",
+ "source": "The Record (Recorded Future News), citing local news reports",
+ "status": "REPORTED",
+ "summary": "The Record reports, citing local South Korean news reports, that officials believe the Chinese cybersecurity tool Artex AI was used against institutions including Hana Bank, KB Kookmin Bank and Shinhan Bank, with 33 IP addresses linked to at least 12 countries and a 28-member investigation team formed. This continues our 6 Oct 2026 report on President Lee Jae Myung saying signs of AI use had emerged; new today are the tool's reported name, the 68,000 figure and the IP findings, all still second-hand.",
+ "url": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "WSJ original blocked (HTTP 401); story written from The Record. Earlier editions: 4, 5 and 6 Oct 2026 on the same breaches."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-10",
+ "title": "Atlassian Introduces AMP: The Agentic Multiplayer Protocol to Power Human-AI Collaboration",
+ "source_used": "InfoWorld",
+ "article_url": "https://www.infoworld.com/article/4231567/atlassian-launches-amp-to-tackle-ai-code-visibility-attribution.html",
+ "fetched": true,
+ "key_facts": [
+  "Atlassian rolled out AMP, the Agentic Multiplayer Protocol",
+  "Meant to differentiate coding by AI from human coding",
+  "Teamwork Graph indexes source code and shows version history of human versus agent work across Claude, Codex, Figma and Rovo",
+  "Rovo Work handles complex multi-step tasks with human review and can run for hours in a sandbox",
+  "EU AI Inference limits LLM processing to EU-hosted models, per the vendor",
+  "Non-human identity controls promised to roll out \"soon\"",
+  "Analysts say code-origin visibility is good but its usefulness is unproven"
+ ],
+ "quote_evidence": [
+  "Atlassian today rolled out new offerings designed to make it easier for IT to differentiate coding by AIs from human coding.",
+  "Atlassian said that those capabilities are available immediately.",
+  "The not-yet-ready capabilities, Dickson said, are the far more valuable ones."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Visibility into what AI agents did in company code is a gap that holds back enterprise adoption, per Atlassian.",
+ "event_date": "2026-10-07",
+ "notes": "Business Wire press release (chunk link) unreachable (HTTP 000); text read at InfoWorld, which also quotes IDC and other analysts."
+}

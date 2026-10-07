@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-02",
+ "title": "Google's new image model Nano Banana 2.1 generates better images for less money",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+ "fetched": true,
+ "key_facts": [
+  "Google released Nano Banana 2.1, an image generation and editing model, replacing Nano Banana 2 (February 2026).",
+  "It is built on Gemini 3.6 Flash; Nano Banana Pro likely remains Google's best image model.",
+  "A 1K image costs 3.36 cents, down from 6.70; a 4K image drops from 15.10 to 7.56 cents; Pro costs 13.40 cents per 1K image.",
+  "Google says it improves text rendering, character consistency, panoramas and infographics; handles up to 14 reference images.",
+  "Rolling out in the Gemini app, AI Mode in Search, AI Studio, Flow, Stitch, Google Ads and Gemini Enterprise Platform.",
+  "The older gemini-3.1-flash-image will be shut down on 29 Oct 2026."
+ ],
+ "quote_evidence": [
+  "Google is also cutting prices roughly in half compared with Nano Banana 2.",
+  "In practice, Nano Banana Pro often still produces noticeably better images.",
+  "Google will shut down the previous model, \"gemini-3.1-flash-image,\" on October 29, 2026."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Image generation gets about half as expensive while Pro stays the quality leader.",
+ "event_date": "6 Oct 2026",
+ "notes": "Quality claims are Google's; The Decoder notes Pro often still looks better."
+}

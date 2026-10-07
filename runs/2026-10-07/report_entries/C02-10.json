@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-10",
+ "v1_category": "MOD",
+ "headline": "Atlassian launched the Agentic Multiplayer Protocol, a set of tools meant to show which code and work was done by AI agents and which by people.",
+ "score": 6,
+ "score_reason": "Same-day enterprise launch with named analysts, but several parts are promised only \"soon\" and analysts doubt how useful the labelling will be; score kept.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Software teams and their managers could see who or what wrote each change, but analysts say the most valuable identity controls are not yet available.",
+ "source": "InfoWorld",
+ "status": "CONFIRMED",
+ "summary": "InfoWorld reports that Atlassian rolled out the Agentic Multiplayer Protocol (AMP) on 7 Oct 2026, a foundation for how humans and AI agents work together on its platform, including a Teamwork Graph that records what a person wrote and what an agent did across Claude, Codex, Figma and Rovo. Some features are available now, while controls over the identities and access of AI agents are promised \"soon\", and analysts quoted by InfoWorld say the real value depends on those later controls.",
+ "url": "https://www.infoworld.com/article/4231567/atlassian-launches-amp-to-tackle-ai-code-visibility-attribution.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Business Wire press release (chunk link) unreachable (HTTP 000); text read at InfoWorld, which also quotes IDC and other analysts."
+}

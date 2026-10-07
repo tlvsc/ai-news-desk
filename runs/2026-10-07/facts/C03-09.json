@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-09",
+ "title": "TikTok Brings Its Ads MCP to Claude, Perplexity and Six More",
+ "source_used": "The Keyword (thekeyword.co), citing TikTok Newsroom",
+ "article_url": "https://www.thekeyword.co/news/tiktok-ads-mcp-connectors",
+ "fetched": true,
+ "key_facts": [
+  "TikTok made its ads MCP server a ready-made connector in eight platforms: Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB Tech Lab Agent Registry.",
+  "It announced this at Advertising Week New York on 5 October, in a TikTok Newsroom post.",
+  "The server itself launched in May; an Agentic Hub of prebuilt skills was added at the end of June.",
+  "The server has around 400 tools; the version in Claude's directory leaves out 26, mostly billing and payment functions.",
+  "In Claude it needs a Pro or Max plan and a TikTok for Business account; authorisation lasts 30 days.",
+  "TikTok says advertisers using it grew more than 200% since launch (July to September, internal data, no starting figure given)."
+ ],
+ "quote_evidence": [
+  "TikTok has made its ads Model Context Protocol (MCP) server available as a ready-made connector inside eight AI platforms and registries, including Claude and Perplexity.",
+  "The version listed in Claude's directory drops 26 of them, according to TikTok's list of unavailable tools."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Media buyers can connect TikTok ad accounts to AI assistants without a developer, but money-related tools need manual setup.",
+ "event_date": "5 Oct 2026",
+ "notes": "The Keyword reports TikTok's announcement; growth figure is TikTok's internal claim. The original is TikTok Newsroom, not read."
+}

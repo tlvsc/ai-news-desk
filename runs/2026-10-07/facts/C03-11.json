@@ -1,0 +1,22 @@
+{
+ "item_id": "C03-11",
+ "title": "New Relic adds terminal-based investigation and recovery checks with Ground Truth CLI",
+ "source_used": "Help Net Security",
+ "article_url": "https://www.helpnetsecurity.com/2026/10/06/new-relic-ground-truth-cli/",
+ "fetched": true,
+ "key_facts": [
+  "New Relic announced Ground Truth CLI, a command-line tool, with its Autopilot API.",
+  "It lets developers and AI agents investigate production incidents and check recovery criteria without leaving the terminal.",
+  "It connects to Autopilot, NerdGraph and memory APIs.",
+  "New Relic's Head of AI Camden Swita said observability is becoming 'headless' and trapped in the 'dashboard era'.",
+  "An example: after a change, an engineer checks whether an error-rate check shows recovery and saves findings for handoff."
+ ],
+ "quote_evidence": [
+  "New Relic has announced New Relic Ground Truth CLI augmented with New Relic Autopilot API, bringing headless observability straight to developers and AI agents in their natural workflows.",
+  "“Traditional observability offerings are trapped in the dashboard era,” said Camden Swita, Head of AI at New Relic."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Moves incident investigation from dashboards into the terminal where developers and agents work.",
+ "event_date": "6 Oct 2026",
+ "notes": "Help Net Security relays New Relic's announcement; no independent test."
+}

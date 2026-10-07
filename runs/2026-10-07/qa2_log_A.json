@@ -1,0 +1,434 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-03",
+   "field": "source",
+   "before": "Stocktwits, citing Axios",
+   "after": "Axios",
+   "reason": "Credit: the interview is Axios's; Stocktwits only relayed it."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "summary",
+   "before": "Stocktwits reports, citing an Axios interview, that Nvidia CEO Jensen Huang said US companies should \"absolutely\" use Chinese AI models and that the real concern is the campaign to ban them. His comments came a day after Treasury Secretary Scott Bessent said the US could sanction overseas model developers found to be stealing from American companies; Huang also argued that cheaper, open AI would raise demand for the chips Nvidia sells.",
+   "after": "Axios reports, as relayed by Stocktwits, that Nvidia CEO Jensen Huang told it on 7 Oct 2026 that US companies should \"absolutely\" use Chinese AI models, while saying firms should still answer for breaking contracts or user privacy. His comments came a day after Treasury Secretary Scott Bessent said the US could sanction overseas model developers found to be stealing from American companies; Huang also argued that free AI \"should be great for chips\", which Nvidia sells.",
+   "reason": "Credit moved to Axios; removed unsupported claim that Huang called the ban campaign the real concern; kept his caveat."
+  },
+  {
+   "item_id": "C08-10",
+   "field": "source",
+   "before": "Digital Today, citing Gigazine",
+   "after": "Gigazine",
+   "reason": "Credit: Digital Today relays Gigazine's report."
+  },
+  {
+   "item_id": "C08-10",
+   "field": "summary",
+   "before": "Digital Today reports, citing Japanese outlet Gigazine, that the Technology & Statecraft Center, a US policy research group, argues that continued exports of advanced immersion DUV lithography machines (which print circuit patterns onto chips) could let China build enough capacity to make \"hundreds of millions of H100-class chips\", and could erase the US lead in 5 to 10 years. The group estimates China has about 300 such machines since 2020 and urges a ban on exports of them to China, saying most licences are currently approved.",
+   "after": "Japanese outlet Gigazine reports, as relayed by Digital Today, that the Technology & Statecraft Center, a US policy research group, argues that continued exports of advanced immersion DUV lithography machines (which print circuit patterns onto chips) could let China build enough capacity to make \"hundreds of millions of H100-class chips\", and could shrink or erase the US lead in 5 to 10 years. The group estimates China has about 300 such machines since 2020 and urges a ban on exports of them to China, saying most licences are currently approved.",
+   "reason": "Credit order fixed to the first reporter; 'shrink or' restored from the report's own hedge."
+  },
+  {
+   "item_id": "C13-11",
+   "field": "importance_line",
+   "before": "It shows a presidential naming order reaching federal lawyers, but the account rests on unnamed people and only the opening of the NBC report was readable.",
+   "after": "It shows a presidential naming order reaching federal lawyers, but the account rests on unnamed people.",
+   "reason": "Removed internal process note about what was readable."
+  },
+  {
+   "item_id": "C13-18",
+   "field": "importance_line",
+   "before": "US taxpayers pay for submarine parts only as Anduril delivers them, which may speed output, but the plant is years from running and Anduril has no record yet of building submarine components at scale.",
+   "after": "US taxpayers pay for the submarine parts only as Anduril delivers them, with the company carrying most of the risk, but the plant is not due to run until the end of the decade.",
+   "reason": "Removed unsupported claims (may speed output; no record of building submarine parts, which the facts contradict: it already builds a California facility for them)."
+  },
+  {
+   "item_id": "C13-19",
+   "field": "headline",
+   "before": "Former Australian prime minister Kevin Rudd has urged the United States and China to agree on a minimum set of AI guardrails before a catastrophe forces the issue.",
+   "after": "Former Australian prime minister Kevin Rudd has urged the United States and China to agree on a minimum set of AI guardrails.",
+   "reason": "Removed 'before a catastrophe forces the issue', not in the facts."
+  },
+  {
+   "item_id": "C13-19",
+   "field": "importance_line",
+   "before": "It adds an experienced diplomat's voice to the case for US-China AI safety rules, but it is opinion, not policy, and Washington's current line is against joint work.",
+   "after": "It adds an experienced diplomat's voice to the case for US-China AI safety rules, but it is opinion, not policy.",
+   "reason": "Removed claim about Washington's line that is not in this item's facts."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "source",
+   "before": "Reuters, as relayed by The Economic Times",
+   "after": "Reuters",
+   "reason": "Credit: The Economic Times carries Reuters text."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "source",
+   "before": "SAP, reported by Reuters",
+   "after": "SAP",
+   "reason": "Credit: the entry rests on SAP's own announcement, the first source; Reuters is named in the summary."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "source",
+   "before": "Bloomberg, as relayed by The Business Times",
+   "after": "Bloomberg",
+   "reason": "Credit: The Business Times carries Bloomberg text."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "source",
+   "before": "Bloomberg, as relayed by investingLive",
+   "after": "Bloomberg",
+   "reason": "Credit: investingLive relays Bloomberg's report."
+  },
+  {
+   "item_id": "C07-04",
+   "field": "importance_line",
+   "before": "Anyone who owns US shares through funds is watching whether company profits keep up with AI-driven expectations; the details of the claim could not be read.",
+   "after": "Anyone who owns US shares through funds is watching whether company profits keep up with AI-driven expectations.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "importance_line",
+   "before": "Companies in Asia may find borrowing for AI projects more costly than US rivals do; the details and figures could not be read.",
+   "after": "Companies in Asia raising money for AI projects may face higher borrowing costs, according to the headline.",
+   "reason": "Removed process note; softened a comparison the headline does not make."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "importance_line",
+   "before": "Savers and investors see a record pace of share sales running into doubts about AI and borrowing costs; the underlying figures could not be read.",
+   "after": "Savers and investors see heavy share sales running into doubts about AI and borrowing costs.",
+   "reason": "Removed unsupported 'record pace' and the process note."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "source",
+   "before": "Reuters, as relayed by The American Bazaar",
+   "after": "Reuters",
+   "reason": "Credit: The American Bazaar relays Reuters's report."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "importance_line",
+   "before": "Cloud companies, AI developers and server makers are spending much more, partly because memory costs more; the 92% comes from Lightwave's headline and the research firm's own estimate.",
+   "after": "Cloud companies, AI developers and server makers are spending much more, partly because memory costs more; the 92% is the research firm's estimate.",
+   "reason": "Removed process wording about the headline."
+  },
+  {
+   "item_id": "C07-09",
+   "field": "summary",
+   "before": "NBC News reports that its correspondent Christine Romans interviewed BlackRock chief executive Larry Fink on 6 Oct 2026 about a possible AI bubble and how to build the technology safely, on a day US markets closed at record highs. The headline says Fink fears losing the AI race more than a bubble; the page carries only a short description of the video.",
+   "after": "NBC News reports that its correspondent Christine Romans interviewed BlackRock chief executive Larry Fink on 6 Oct 2026 about a possible AI bubble and how to build the technology safely, on a day US markets closed at record highs. According to the report's headline, Fink said he fears losing the AI race more than a bubble.",
+   "reason": "Removed internal note about the page content."
+  },
+  {
+   "item_id": "C07-09",
+   "field": "importance_line",
+   "before": "Investors hear a leading fund manager weigh bubble fears against falling behind; his actual words could not be read.",
+   "after": "Investors hear one of the biggest fund managers weigh bubble fears against the risk of falling behind in AI.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "source",
+   "before": "Nikkei Asia, relayed by Seeking Alpha",
+   "after": "Nikkei Asia",
+   "reason": "Credit: Seeking Alpha relays Nikkei Asia's report."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "summary",
+   "before": "Seeking Alpha reports, citing Nikkei Asia, that TSMC, the world's largest contract chipmaker, added $100 billion of spending in July, taking its planned US investment to $265 billion and its US sites to 12, while Quanta, Wistron and others have won approval to spend hundreds of millions of dollars on US server and circuit-board plants. A Taiwanese research institute is quoted as projecting that the US will hold 40% of Taiwanese firms' AI server capacity by 2030, up from 23% this year, with Taiwan's share falling from 47% to 30%.",
+   "after": "Nikkei Asia reports, as relayed by Seeking Alpha, that TSMC, the world's largest contract chipmaker, added $100 billion of spending in July, taking its planned US investment to $265 billion and its US sites to 12, while Quanta, Wistron and others have won approval to spend hundreds of millions of dollars on US server and circuit-board plants. A Taiwanese research institute projects that the US will hold 40% of Taiwanese firms' AI server capacity by 2030, up from 23% this year, with Taiwan's share falling from 47% to 30%.",
+   "reason": "Credit order fixed to Nikkei Asia as first reporter."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "importance_line",
+   "before": "More AI server production moving to the US and Southeast Asia could shift where AI hardware is made, but this is a secondhand summary of one report with forecasts rather than completed plants.",
+   "after": "More AI server production moving to the US and Southeast Asia could shift where AI hardware is made, but much of it rests on plans and forecasts rather than finished plants.",
+   "reason": "Removed process wording ('secondhand summary')."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "source",
+   "before": "Yahoo Finance, citing Vanity Fair's Fair Game podcast",
+   "after": "Yahoo Finance",
+   "reason": "Credit simplified: the column is Yahoo Finance's; the Vanity Fair remark is named in the summary."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "headline",
+   "before": "A Yahoo Finance column used a Vanity Fair remark about Nvidia chief Jensen Huang 'selling picks and shovels' to argue that Nvidia stock is cheap as it nears a $6 trillion value.",
+   "after": "A Yahoo Finance column used a Vanity Fair remark about Nvidia chief Jensen Huang 'selling picks and shovels' to argue that Nvidia's share price is modest next to its expected earnings.",
+   "reason": "Removed 'cheap', which reads as buy advice."
+  },
+  {
+   "item_id": "C05-14",
+   "field": "source",
+   "before": "Stocktwits, citing CNBC",
+   "after": "CNBC",
+   "reason": "Credit: the interview is CNBC's; Stocktwits relayed it."
+  },
+  {
+   "item_id": "C05-14",
+   "field": "summary",
+   "before": "Stocktwits, as carried by Yahoo Finance, reports that Chaudhry told CNBC on 6 Oct 2026 that talk of a \"SaaSpocalypse\", meaning AI replacing software firms, is overblown and that \"cyber is not keeping up\" with fast-moving AI models. He added that AI agents will be \"far more dangerous\" weak links than human users, while the company reaffirmed its fiscal 2027 revenue guidance of about $3.9 billion.",
+   "after": "Zscaler chief executive Jay Chaudhry told CNBC on 6 Oct 2026, as relayed by Stocktwits, that talk of a \"SaaSpocalypse\", meaning AI replacing software firms, is overblown and that \"cyber is not keeping up\" with fast-moving AI models. He added that AI agents will be \"probably far more dangerous\" weak links than human users, while the company reaffirmed its fiscal 2027 revenue guidance of about $3.9 billion.",
+   "reason": "Credit moved to CNBC; restored 'probably' hedge in the quote."
+  },
+  {
+   "item_id": "C05-15",
+   "field": "importance_line",
+   "before": "It shows how a large consulting firm's leader is answering fears about AI, but without the article, the context and her exact words are not confirmed.",
+   "after": "It shows how the head of a large consulting firm is answering fears that AI threatens its business.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C06-11",
+   "field": "importance_line",
+   "before": "A new $250 million round for a startup described as working on chip simulation, but the investors, use of funds and detail behind it are not known to us.",
+   "after": "A large round for a young startup described as working on chip simulation; the investors and use of the money are not stated.",
+   "reason": "Removed process wording ('not known to us')."
+  },
+  {
+   "item_id": "C06-13",
+   "field": "importance_line",
+   "before": "OpenAI gets a larger role inside a widely used workplace tool, which matters to Atlassian's customers, but neither company post as we read it gives a price, a term or a dollar figure.",
+   "after": "OpenAI gets a larger role inside a widely used workplace tool, which matters to Atlassian's customers, but neither company post gives a price, a term or a dollar figure, according to FourWeekMBA.",
+   "reason": "Attribution restored to FourWeekMBA instead of 'as we read it'."
+  },
+  {
+   "item_id": "C07-12",
+   "field": "summary",
+   "before": "Investor's Business Daily reports that Michael Burry, the investor famous for betting against the housing market before 2008, maintains that the AI boom will end and send the stock market into a major correction or crash, even as the S&P 500 and Nasdaq reach new highs. Only the opening of the article was available, so his reasons are not stated here.",
+   "after": "Investor's Business Daily reports that Michael Burry, the investor famous for betting against the housing market before 2008, maintains that the AI boom will end and send the stock market into a major correction or crash, even as the S&P 500 and Nasdaq reach new highs.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C07-12",
+   "field": "importance_line",
+   "before": "Investors hear a well-known sceptic repeat that AI shares could fall sharply; it is one person's view, and the reasoning could not be read.",
+   "after": "Investors hear a well-known sceptic repeat that AI shares could fall sharply; it is one person's view.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C07-13",
+   "field": "importance_line",
+   "before": "Anyone holding US index funds is more tied to AI shares than it may seem, and the article says the next cloud-company results may show whether that holds.",
+   "after": "Anyone holding US index funds is more tied to AI shares than it may seem, since the index's records now rest on AI-linked stocks.",
+   "reason": "Removed claim about cloud-company results that is not in the facts."
+  },
+  {
+   "item_id": "C07-14",
+   "field": "importance_line",
+   "before": "Savers and banks could be exposed to risks from the AI build-out that go beyond high share prices; the paper's findings could not be read.",
+   "after": "It shows a regional Federal Reserve bank studying financial risks from the AI build-out that go beyond high share prices.",
+   "reason": "Removed speculative exposure claim and the process note."
+  },
+  {
+   "item_id": "C07-15",
+   "field": "importance_line",
+   "before": "Investors in the two AI companies hear a large shareholder say neither has lost; the reasoning and numbers could not be read.",
+   "after": "Investors in the two AI companies hear a large shareholder say neither has lost.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C08-07",
+   "field": "importance_line",
+   "before": "It ends a threat to Micron's memory sales, including chips used in AI servers, and a rare payday for Netlist, but its effect on prices or supply for users is not stated.",
+   "after": "It ends a threat to Micron's memory sales, including chips used in AI servers, and pays Netlist $600 million, but its effect on prices or supply for users is not stated.",
+   "reason": "Removed unsupported 'rare' (Netlist settled with Samsung earlier)."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "source",
+   "before": "Anthropic (company announcement; also reported by Reuters)",
+   "after": "Anthropic",
+   "reason": "Credit simplified: the entry rests on Anthropic's own announcement; Reuters is named in the summary."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "importance_line",
+   "before": "Hospitals, utilities and security firms can apply for less restricted AI tools to find and fix flaws, but the same capabilities could help attackers, which Anthropic says it manages through vetting and data retention; this is the company's own account.",
+   "after": "Vetted security teams, including those testing power grids and bank-transfer networks, can apply for less restricted AI tools to find and fix flaws, but the same capabilities could help attackers, which Anthropic says it manages through vetting and data retention; this is the company's own account.",
+   "reason": "Removed 'hospitals', not in the facts."
+  },
+  {
+   "item_id": "C03-04",
+   "field": "headline",
+   "before": "Security company Tuskira has released free, open-source software that keeps passwords and keys away from AI coding agents by attaching them only when an approved action is made.",
+   "after": "Security company Tuskira has released free, open-source software that keeps passwords and keys away from AI agents by attaching them only when an approved action is made.",
+   "reason": "Removed 'coding'; the facts describe AI agents in general."
+  },
+  {
+   "item_id": "C12-10",
+   "field": "importance_line",
+   "before": "Companies using AI coding agents may be exposing internal screens, including billing information, without anyone intending it, but the figures come from one research firm via a secondary outlet.",
+   "after": "Companies using AI coding agents may be exposing internal screens without anyone intending it, but the figures come from one research firm's report, as summarised in a news roundup.",
+   "reason": "Removed billing detail, which the facts exclude as unverified."
+  },
+  {
+   "item_id": "C12-13",
+   "field": "importance_line",
+   "before": "People who manage advertising accounts for several clients could lose access and ad budgets, and a real sign-in pop-up can be told from the fake because the fake cannot leave or be resized outside the browser window, but the researchers' counts are not confirmed compromises.",
+   "after": "People who manage advertising accounts for several clients could lose access and ad budgets, but the researchers' counts are not confirmed compromises.",
+   "reason": "Removed pop-up detection advice not in the facts."
+  },
+  {
+   "item_id": "C12-14",
+   "field": "importance_line",
+   "before": "People weighing whether to give an AI agent access to their email and accounts face a real trade-off, but the cases are anecdotal and the companies dispute that the tools are unsafe.",
+   "after": "People weighing whether to give an AI agent access to their email and accounts face a real trade-off, but the cases are anecdotal and the companies say they protect users' data.",
+   "reason": "Softened 'dispute that the tools are unsafe'; Instinct says no system is completely secure."
+  },
+  {
+   "item_id": "C12-15",
+   "field": "importance_line",
+   "before": "Operators of Rejetto HFS file servers, mostly small businesses and home users, should update, and the case shows AI models finding flaws that attackers then probe, but no successful attacks are reported.",
+   "after": "Operators of Rejetto HFS file servers face probes for the flaw, and the case shows AI models finding flaws that attackers then probe, but no successful attacks are reported.",
+   "reason": "Removed unsupported user profile ('small businesses and home users') and update advice not in the facts."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "importance_line",
+   "before": "It signals that power demand, and with it the pressure on bills and grids, is rising for households and businesses nationwide, though a forecast is not a measurement and we could read only part of the Reuters text.",
+   "after": "It signals that power demand, and with it the pressure on bills and grids, is rising for households and businesses nationwide, though a forecast is not a measurement.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "summary",
+   "before": "Bloomberg and Reuters report that AMD chief executive Lisa Su, speaking in Taiwan, said AMD will raise its chip supply substantially in 2027 because demand for its processors still exceeds what it can make; the details here come from a GuruFocus summary on TradingView. New since our 6 Oct edition, which carried Reuters on the supply plan, Bloomberg's headline adds that Su urged major AI companies to cooperate, which the summary describes as a call for more cooperation on AI safety, and it says AMD is now planning three to five years ahead and needs more advanced wafer capacity (the silicon discs chips are cut from).",
+   "after": "Bloomberg and Reuters report that AMD chief executive Lisa Su, speaking in Taiwan, said AMD will raise its chip supply substantially in 2027 because demand for its processors still exceeds what it can make. New since our 6 Oct edition, which carried Reuters on the supply plan, Su urged major AI companies to cooperate more on safety, and AMD is now planning three to five years ahead and needs more advanced wafer capacity (the silicon discs chips are cut from).",
+   "reason": "Removed internal note about the source summary; shortened."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "source",
+   "before": "Reuters, citing Bloomberg News",
+   "after": "Bloomberg News",
+   "reason": "Credit: Reuters cites Bloomberg News, the first reporter."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "summary",
+   "before": "Reuters reports, citing Bloomberg News, that Intel will keep working on Elon Musk's Terafab chipmaking venture, a headline that Investing.com's relay of the Bloomberg report links to Terafab's separate talks with TSMC. This follows our 4 Oct report that Musk confirmed discussions with TSMC about Terafab, with Intel the only other named partner.",
+   "after": "Bloomberg News reports, according to headlines also carried by Reuters, that Intel will keep working on Elon Musk's Terafab chipmaking venture. On 4 Oct we reported that Musk confirmed talks with TSMC about Terafab, with Intel the only other named partner.",
+   "reason": "Credit order fixed; removed an unsupported link claim from an unread relay."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "It bears on whether Terafab, Musk's planned chip plant for his own companies, keeps Intel as a manufacturing partner, but only headlines are available and the terms are unknown.",
+   "after": "It bears on whether Terafab, Musk's planned chip plant for his own companies, keeps Intel as a manufacturing partner, but the terms are unknown.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "importance_line",
+   "before": "Residents and officials of Indiana County would be most affected by a campus of this size, but we could not read the details such as power needs, cost or approvals.",
+   "after": "Residents and officials of Indiana County would be most affected by a campus of this size, but its power needs, cost and approvals are not stated.",
+   "reason": "Removed process wording ('we could not read')."
+  },
+  {
+   "item_id": "C09-10",
+   "field": "importance_line",
+   "before": "It would show how much of China's computing infrastructure one company holds, but we could not read who measured it, how or when, so the figure stays unchecked.",
+   "after": "It would show how much of China's computing infrastructure one company holds, but how and when the share was measured is not stated.",
+   "reason": "Removed process wording ('we could not read')."
+  },
+  {
+   "item_id": "C09-11",
+   "field": "importance_line",
+   "before": "It points to regional permit rules shaping where AI infrastructure goes, which matters to Aragon residents and local officials, but we could not read what the costs are or who bears them.",
+   "after": "It points to permit rules shaping where AI infrastructure goes, which matters to Aragon residents and local officials, and the report questions what the boom costs.",
+   "reason": "Removed process wording ('we could not read')."
+  },
+  {
+   "item_id": "C08-08",
+   "field": "importance_line",
+   "before": "HBM4 prices affect what AI chips cost to build, but only a headline from one site is available and no prices are known.",
+   "after": "HBM4 prices affect what AI chips cost to build, but the report comes from a single site and no prices are known.",
+   "reason": "Removed internal process note."
+  },
+  {
+   "item_id": "C08-11",
+   "field": "importance_line",
+   "before": "If true, it would show AI labs building their own chips and Samsung winning work from TSMC, but neither company has confirmed anything and the specifications are leaks.",
+   "after": "If true, it would show AI labs building their own chips and Samsung winning advanced chip work, but none of the companies has confirmed anything and the specifications are leaks.",
+   "reason": "Removed 'from TSMC', not in the facts."
+  },
+  {
+   "item_id": "C08-15",
+   "field": "headline",
+   "before": "Japan's Rapidus, backed by $15 billion in state money, must win customers to prove it can make cutting-edge chips by next year.",
+   "after": "Japan's state-backed chipmaker Rapidus, which has $15 billion in government support, still needs customers as it prepares to make the most advanced chips next year.",
+   "reason": "Headline said it 'must ... prove' by next year; rewritten to what the analysis says."
+  },
+  {
+   "item_id": "C08-15",
+   "field": "summary",
+   "before": "Reuters reports in an analysis that Rapidus, Japan's state-backed chipmaker set up in 2022, plans to start making 2-nanometre chips, the most advanced class, in the second half of the next fiscal year, but still needs customers; on Monday it said it would partner with 17 firms, including Synopsys and Infosys, to help clients design chips. Analysts quoted say the announcement is only incremental progress and that running a fab with stable yields is extremely difficult, and Rapidus has so far received $15 billion in government support.",
+   "after": "Reuters reports in an analysis that Rapidus, Japan's state-backed chipmaker set up in 2022, plans to start making 2-nanometre chips, the most advanced class, in the second half of the next fiscal year, but still needs customers; on Monday it said it would partner with 17 firms, including Synopsys and Infosys, to help clients design chips. An analyst quoted says that announcement is not evidence of commercial traction and that running a fab with stable yields is extremely difficult, and Rapidus has so far received $15 billion in government support.",
+   "reason": "Matched the analyst's actual wording ('not evidence of commercial traction')."
+  },
+  {
+   "item_id": "C09-16",
+   "field": "importance_line",
+   "before": "It matters to Japanese customers and lenders as a sign of AI capacity moving into Asia, though the facts come from a short Reuters brief and the CEO's claim that the US and Europe are getting harder is his own view.",
+   "after": "It matters to Japanese customers and lenders as a sign of AI capacity moving into Asia, though the CEO's view that building in the US and Europe is getting harder is his own.",
+   "reason": "Removed process note ('short Reuters brief')."
+  },
+  {
+   "item_id": "C11-01",
+   "field": "importance_line",
+   "before": "If the EU approves Tesla's supervised driving software, drivers across the bloc could use it, but the report's details are unverified here and a driver must still supervise the system.",
+   "after": "If the EU approves Tesla's supervised driving software, drivers across the bloc could use it, but no EU decision has been made and a driver must still supervise the system.",
+   "reason": "Removed process note ('unverified here')."
+  },
+  {
+   "item_id": "C11-03",
+   "field": "importance_line",
+   "before": "Agility, maker of the Digit humanoid, is claiming real customer demand ahead of a stock listing, but the figure is its own and rests on milestones, with no outside check here.",
+   "after": "Agility, maker of the Digit humanoid, is claiming real customer demand ahead of a stock listing, but the figure is its own and depends on milestones.",
+   "reason": "Removed process wording ('no outside check here')."
+  },
+  {
+   "item_id": "C11-05",
+   "field": "source",
+   "before": "Reuters, as relayed by Carscoops",
+   "after": "Reuters",
+   "reason": "Credit: Carscoops relays Reuters's report."
+  },
+  {
+   "item_id": "C11-09",
+   "field": "importance_line",
+   "before": "Oil-rig workers and bomb-disposal teams are the intended beneficiaries, but the 7,000-a-year death figure is Minerva's own estimate and the robots are still at pilot stage.",
+   "after": "Oil-rig workers and bomb-disposal teams could be kept further from danger, but the robots are still at pilot stage and a human operates the fine work from a distance.",
+   "reason": "Removed a death-rate figure not in the entry; kept the honest doubt."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C08-09",
+   "issue": "re-dated",
+   "detail": "Qualcomm-Huawei deal announced 5 Oct 2026; facts show nothing new inside the window."
+  },
+  {
+   "item_id": "C12-06",
+   "issue": "re-dated",
+   "detail": "CloudSEK report dated 5 Oct 2026 (freshness says follow-up of 5 Oct); nothing new inside the window. Not edited; if kept, source should read CloudSEK (written from its own report, not GBHackers) and the summary's lead should credit CloudSEK."
+  },
+  {
+   "item_id": "C08-12",
+   "issue": "re-dated",
+   "detail": "Event is AUO's glass-substrate showcase at Semicon Taiwan in early September; only the Nikkei feature opening was read, nothing new in the window. Not edited; importance_line also carries a process note ('only the article's opening is available')."
+  }
+ ]
+}

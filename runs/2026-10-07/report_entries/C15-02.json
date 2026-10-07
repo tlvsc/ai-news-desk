@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-02",
+ "v1_category": "RES",
+ "headline": "IonQ researchers say a new scheduling method could make a space-saving type of quantum error correction run logical operations up to 74 times faster.",
+ "score": 6,
+ "score_reason": "Lowered by 1: company blog on a recent preprint, with no outside review, and the 74x figure is the best case against a slow baseline.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Quantum engineers and IonQ customers could eventually see error-corrected machines run faster, but this is an unreviewed company result on paper, not hardware.",
+ "source": "IonQ",
+ "status": "PRELIMINARY",
+ "summary": "IonQ says in a company blog that researchers Mark Webster and Nicolas Delfosse found a way to run operations on qLDPC codes, an error-correction method that protects information using far fewer physical qubits than the older surface code, much faster. They report speedups of up to 74 times for one class of operations (Clifford gates) and up to 5 times for Toffoli gates, compared with measuring one item at a time, results from a recent preprint that outside experts have not yet reviewed.",
+ "url": "https://www.ionq.com/blog/how-qldpc-with-scheduled-error-correction-unlocks-faster-fault-tolerant-quantum-computers",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Company's own blog; claims are IonQ's. 'Up to' figures are best cases."
+}

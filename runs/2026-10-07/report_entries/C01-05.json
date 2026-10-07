@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "MOD",
+ "headline": "Google released EmbeddingGemma 2, a small open model that lets apps search text, images, audio and video on the user's own device.",
+ "score": 5,
+ "score_reason": "Niche developer tool; benchmark claims are Google's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers can build private, offline search without sending data to a server, but the claim of beating larger models comes from Google.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Google released EmbeddingGemma 2, an open model that converts text, images, video, audio and code into numbers so similar items can be found and compared. Google says that at 740 million parameters it beats rival models up to twice its size, and that it runs on a device in about 191 MB of memory, so apps can search private data offline.",
+ "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": ""
+}

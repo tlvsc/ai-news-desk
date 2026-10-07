@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-11",
+ "v1_category": "RES",
+ "headline": "Penn State researchers used the same AI technique that makes images to forecast flash floods hour by hour across more than 500 US river basins.",
+ "score": 5,
+ "score_reason": "Pool score kept: useful result, but a research model, not a deployed warning system.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Communities hit by sudden floods could eventually get earlier and better-calibrated warnings, but this is a research model tested on 1990-2003 data and the performance claims come from the team.",
+ "source": "Penn State University",
+ "status": "REPORTED",
+ "summary": "Penn State says a team led by Chaopeng Shen adapted diffusion, the noise-removal method used in AI image generators, to predict hourly flash-flood risk, training it on rainfall and river-flow records from over 500 US basins and publishing it in Water Resources Research. Shen says it generally beat the best existing hourly AI models and can take in fresh river-gauge readings without retraining.",
+ "url": "https://www.psu.edu/news/research/story/techniques-ai-uses-create-images-can-help-predict-floods-researchers-say",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "University news release."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-12",
+ "v1_category": "SEC",
+ "headline": "A CSO Online commentary warns that attackers are exploiting a severe flaw in Langflow, a popular open-source tool for building AI workflows, to run code on exposed servers and steal credentials.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: a contributed commentary about exploitation that began on 29 Aug 2026, so the news is not fresh; a fix is available.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Organisations running internet-facing Langflow servers risk losing cloud and AI service keys, but the counts come from test servers, the real number of successful attacks is unknown, and the piece is an opinion column.",
+ "source": "CSO Online (contributed column), citing VulnCheck",
+ "status": "REPORTED",
+ "summary": "CSO Online, in a column by cybersecurity engineer Anjali Gopinadhan Nair, reports that security firm VulnCheck has seen continuous exploitation attempts since 29 Aug 2026 against Langflow flaw CVE-2026-0768 (severity score 9.8 out of 10), which lets an unauthenticated attacker run Python code as root through a code-checking endpoint, after which attackers hunt for API keys and cloud credentials. VulnCheck logged over 360 attempts on its UK test servers, a fix is available, and the column notes that credentials already stolen stay usable until they are replaced.",
+ "url": "https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html",
+ "freshness": "FOLLOW-UP of 29 Aug 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. It is a contributed opinion piece, not CSO staff reporting; the underlying exploitation started on 29 Aug 2026, so the item is older news re-dated."
+}
