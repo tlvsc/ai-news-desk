@@ -1,0 +1,24 @@
+{
+ "item_id": "C11-16",
+ "title": "Video: Dexterous robot hand learns the delicate art of silk embroidery",
+ "source_used": "New Atlas",
+ "article_url": "https://newatlas.com/robotics/agilink-robot-hand-learns-silk-embroidery/",
+ "fetched": true,
+ "key_facts": [
+  "Agilink, a spin-off of Chinese robotics company AgiBot, trained its OmniHand 3 Ultra robot hand with Suzhou embroidery master Fu Xianghong.",
+  "The hand learned to split silk strands, thread a needle, stretch fabric across a frame and stitch.",
+  "Splitting the thread means one finger teases apart the strands (16, per the video) while the others hold tension.",
+  "The model in the video is not named; it looks identical to the OmniHand 3 Ultra-M, about human-hand size, 630 g, direct-drive, holds 3 kg stably, repeats positions to about 0.2 mm.",
+  "Fingertip vision-based sensors measure force in three dimensions and detect deformations of 0.08 mm, per the company.",
+  "New Atlas says fine force control is a bottleneck for humanoids, and such hands could matter most in homes rather than most factory jobs."
+ ],
+ "quote_evidence": [
+  "Agilink, a spin-off of Chinese robotics giant AgiBot, asked Fu Xianghong, a master of traditional Suzhou embroidery, to train its OmniHand 3 Ultra.",
+  "The synthetic hand has learned to split silk strands, thread a needle, stretch fabric across a frame, and stitch.",
+  "Agilink hasn't said exactly which model appears in the video."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Fine touch and force control is a bottleneck for humanoid robots working safely around people.",
+ "event_date": "2026-10-06",
+ "notes": "Company video and claims; no independent test. Model in video not confirmed by Agilink."
+}

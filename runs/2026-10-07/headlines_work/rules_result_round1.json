@@ -1,0 +1,23 @@
+[
+ {"clip":"C06-02","pass":false,"broken":[
+   {"rule":"1A","why":"\"more proof the boom is built on debt\" is stronger than the entry, which says the plan only shows how much borrowed money is flowing into chips and rests on unnamed sources; \"forty billion dollars in loans\" also drops the bonds (about ten billion in bank loans and thirty billion in debt)"},
+   {"rule":"1B WHY","why":"the spoken why is a sweeping verdict on the industry, not a plain consequence a stranger can repeat from the entry; 'to run its A I' is not in the entry text"}],
+  "fix":"First, the money. Rocket firm SpaceX reportedly wants to borrow forty billion dollars for N-vidia chips, a sign of how much A I runs on debt."},
+ {"clip":"C09-03","pass":true,"broken":[],"fix":""},
+ {"clip":"C11-02","pass":true,"broken":[],"fix":""},
+ {"clip":"C11-16","pass":true,"broken":[],"fix":""},
+ {"clip":"C02-01","pass":false,"broken":[
+   {"rule":"1A","why":"the entry says the add-on is a public beta; the line drops that essential qualification and states it as a finished launch"}],
+  "fix":"In software. A I firm an-thropic is testing its Claude assistant inside Google Docs, Sheets and Slides, so paying users get help right in their files."},
+ {"clip":"C05-04","pass":true,"broken":[],"fix":""},
+ {"clip":"C14-02","pass":true,"broken":[],"fix":""},
+ {"clip":"fun","pass":true,"broken":[],"fix":""},
+ {"clip":"teaser","pass":false,"broken":[
+   {"rule":"G1.2","why":"Mistral is worth well under one hundred billion dollars; \"France's Mistral\" gives a country, not a two to three word tag saying what it is"},
+   {"rule":"1A","why":"\"Nigeria will use A I to check its election results\" drops that the election commission says A I will only help check them, on its own claim"}],
+  "fix":"Also in the full report. French firm Mistral says its new A I beats some Chinese rivals. Nigeria's poll body says A I will help check results."},
+ {"clip":"bp","pass":false,"broken":[
+   {"rule":"HEADLINES SHAPE (Rafi 7 Oct 2026: one flowing sentence after the introduction)","why":"the body is two separate sentences (the claim, then 'Watch ...') before the disclaimer; the watch item and its reason should ride in one sentence"},
+   {"rule":"1A","why":"\"A I is now being built on borrowed money\" generalises from two debt-funded builds (SpaceX, Lambda) to all of A I"}],
+  "fix":"And for the bigger picture: the A I build leans on borrowed money, so watch U S inflation next week, since a hot number makes that debt dearer. Not financial advice."}
+]

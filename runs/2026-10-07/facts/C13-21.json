@@ -1,0 +1,26 @@
+{
+ "item_id": "C13-21",
+ "title": "Court Finds That Using Copyrighted Material as AI Training Data Is Not Fair Use",
+ "source_used": "Futurism",
+ "article_url": "https://futurism.com/artificial-intelligence/court-finds-copyrighted-material-training-data-fair-use",
+ "fetched": true,
+ "key_facts": [
+  "The US Third Circuit Court of Appeals upheld a ruling that Ross Intelligence broke copyright law by training its legal search engine on Thomson Reuters' Westlaw material.",
+  "The material at issue was Westlaw 'headnotes', short editorial summaries of legal issues, which Ross effectively copied verbatim.",
+  "The original Delaware federal ruling (last year) found Ross's use was not transformative because it was made to build a competing legal research tool.",
+  "Ross shut down in 2021, shortly after the suit was filed, citing financial strain from the litigation.",
+  "Futurism, citing Reuters, calls it a first-of-its-kind appeals ruling on AI training and fair use.",
+  "Ross's remnants have vowed to go to the Supreme Court.",
+  "Commentator Aaron Moss (Copyright Lately) says it is not the best vehicle for a sweeping ruling: interlocutory review, damages unresolved, Ross gone, and its AI was not generative.",
+  "A hearing in Concord Music Group's suit against Anthropic over song lyrics is scheduled for later this month."
+ ],
+ "quote_evidence": [
+  "Last week, a US appeals court upheld a ruling that AI legal research company Ross Intelligence had broken copyright law by training its legal search engine on materials taken from Thomson Reuters' Westlaw legal research platform and database.",
+  "\"Judging by all the victory laps, you might think everyone had read a different opinion,\" Moss wrote.",
+  "Moss argued that the case isn't the \"best vehicle for a sweeping ruling on generative AI.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "First appeals-court ruling on AI training and fair use, but narrow: non-generative AI that copied text verbatim.",
+ "event_date": "'Last week' per Futurism (week of 28 Sep 2026; exact date not stated)",
+ "notes": "Futurism headline says training on copyrighted material is 'not fair use' in general; the article shows a narrower holding. Exact ruling date and judges not stated in the article. Futurism's 'first of its kind' is attributed to Reuters, which was not read."
+}

@@ -1,0 +1,71 @@
+[
+ {
+  "clip": "C06-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C09-03",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C11-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C11-16",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C02-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C05-04",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C14-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "bp",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.4",
+    "why": "The SpaceX borrowing plan is reported from unnamed sources (entry C06-02, status REPORTED), but the line states it as fact with no hedge ('now plan to borrow more')."
+   },
+   {
+    "rule": "1A",
+    "why": "'A I firms like SpaceX now plan to borrow more' is stronger than the entries: the only reported borrowing is SpaceX's; Lambda (C06-03) is raising money at a valuation, not borrowing, so the plural claim is not supported."
+   }
+  ],
+  "fix": "And for the bigger picture: SpaceX reportedly plans to borrow for A I chips, so watch next week's U S inflation figure, since high inflation makes loans cost more."
+ }
+]

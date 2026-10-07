@@ -1,0 +1,12 @@
+[
+ {"clip":"C06-02","pass":true,"broken":[],"fix":""},
+ {"clip":"C09-03","pass":true,"broken":[],"fix":""},
+ {"clip":"C11-02","pass":true,"broken":[],"fix":""},
+ {"clip":"C11-16","pass":true,"broken":[],"fix":""},
+ {"clip":"C02-01","pass":true,"broken":[],"fix":""},
+ {"clip":"C05-04","pass":true,"broken":[],"fix":""},
+ {"clip":"C14-02","pass":false,"broken":[{"rule":"G1.2","why":"Pew Research Center is an organisation worth far under one hundred billion dollars and is spoken without a two to three word tag; 'a Pew Research survey' names the survey, not who Pew is, so a first time viewer outside the US does not know it is a polling group (entry: Pew Research Center, a US polling organisation)."}],"fix":"Now to jobs. U S pollster Pew finds seven in ten Americans expect A I to mean fewer jobs, and worry has grown most among the young."},
+ {"clip":"fun","pass":true,"broken":[],"fix":""},
+ {"clip":"teaser","pass":true,"broken":[],"fix":""},
+ {"clip":"bp","pass":true,"broken":[],"fix":""}
+]

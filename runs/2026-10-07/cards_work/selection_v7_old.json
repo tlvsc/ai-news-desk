@@ -1,0 +1,180 @@
+{
+ "edition": "2026-10-07",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C05-02",
+   "category": "Market, industry and finance",
+   "label": "Dalio bubble",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s2",
+   "item": "C06-02",
+   "category": "Market, industry and finance",
+   "label": "Musk chip debt",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s3",
+   "item": "C05-01",
+   "category": "Security and cyber",
+   "label": "Dimon warning",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s4",
+   "item": "C09-03",
+   "category": "Energy and infrastructure",
+   "label": "Data centers",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s5",
+   "item": "C09-04",
+   "category": "Energy and infrastructure",
+   "label": "Record power",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s6",
+   "item": "C11-02",
+   "category": "Robotics",
+   "label": "Waymo Detroit",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s7",
+   "item": "C01-01",
+   "category": "Models and tools",
+   "label": "Mistral Large 4",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s8",
+   "item": "C02-01",
+   "category": "Models and tools",
+   "label": "Claude in Docs",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s9",
+   "item": "C15-01",
+   "category": "Research and science",
+   "label": "Quantum parts",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s10",
+   "item": "C05-04",
+   "category": "Ethics and law",
+   "label": "Hinton FDA",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s11",
+   "item": "C13-04",
+   "category": "Ethics and law",
+   "label": "Agent liability",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s12",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "Lilly drug AI",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s13",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "Pew jobs poll",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s14",
+   "item": "C03-05",
+   "category": "Society and education",
+   "label": "Developer trust",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Angry AI boss",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C02-03",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t2",
+   "item": "C09-09",
+   "category": "Energy and infrastructure"
+  },
+  {
+   "id": "t3",
+   "item": "C14-05",
+   "category": "Society and education"
+  },
+  {
+   "id": "t4",
+   "item": "C10-08",
+   "category": "Health"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C05-02",
+  "C05-01",
+  "C09-03",
+  "C11-02",
+  "C02-01",
+  "C05-04",
+  "C14-02"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C05-02",
+  "C06-02",
+  "C07-01",
+  "C09-04",
+  "C09-03"
+ ]
+}

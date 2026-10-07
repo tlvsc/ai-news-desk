@@ -1,0 +1,206 @@
+{
+ "fails": 0,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [1, 4, 6, 7, 8, 10, 13]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C01-01', 'C13-24'] from the teaser card ['C01-01', 'C02-04', 'C09-09', 'C13-24']"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C06-02 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C06-02 opens with a spoken introduction: \"first, the money\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C06-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C09-03 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C09-03 opens with a spoken introduction: \"in energy\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C09-03 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C11-02 8.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-02 opens with a spoken introduction: \"driverless cars next\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C11-16 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-16 opens with a spoken introduction: \"staying with robots\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-16 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C02-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C02-01 opens with a spoken introduction: \"in software\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C02-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C05-04 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C05-04 opens with a spoken introduction: \"turning to safety\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C05-04 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C14-02 8.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C14-02 opens with a spoken introduction: \"now to jobs\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C14-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"and now a smile\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "teaser 9.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report.\" (full stop, no colon)"
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "bp 10.0 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (2026-10-06)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'SpaceX': 1, 'Anthropic': 1, 'Google': 1}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Agilink', 'Albania', 'Americans', 'Chinese', 'Claude', 'Detroit', 'Driverless', 'Elon Musk', 'First', 'French', 'Geoffrey Hinton', 'Google Docs', 'Mistral', 'Nigeria', 'Nobel', 'Now', 'Pew', 'Robotaxi', 'Sheets', 'Slides', 'Staying', 'Towns', 'Turning', 'Waymo']"
+  }
+ ],
+ "names_to_tag": [
+  "Agilink",
+  "Albania",
+  "Americans",
+  "Chinese",
+  "Claude",
+  "Detroit",
+  "Driverless",
+  "Elon Musk",
+  "First",
+  "French",
+  "Geoffrey Hinton",
+  "Google Docs",
+  "Mistral",
+  "Nigeria",
+  "Nobel",
+  "Now",
+  "Pew",
+  "Robotaxi",
+  "Sheets",
+  "Slides",
+  "Staying",
+  "Towns",
+  "Turning",
+  "Waymo"
+ ]
+}

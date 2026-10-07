@@ -2,7 +2,7 @@
  "title": "Daily Bulletin",
  "date": "7 October 2026",
  "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6), plus the top 3 from The Fun Side.",
- "coverage": "6 Oct 2026 07:41 UTC to 7 Oct 2026 07:41 UTC (24 hours) · 43 stories",
+ "coverage": "6 Oct 2026 07:41 UTC to 7 Oct 2026 07:41 UTC (24 hours) · 45 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -12,7 +12,7 @@
      "score": 8,
      "importance": "HIGH",
      "rank": 1,
-     "rank_of": 1,
+     "rank_of": 6,
      "status": "CONFIRMED",
      "paragraphs": [
       "MeriTalk reports that a Pentagon spokesperson confirmed \"The Department of War has ceased the use of Anthropic products\", eight months after Defense Secretary Pete Hegseth labelled the AI company a supply chain risk when it objected to Claude being used for mass surveillance and fully autonomous weapons; our 6 Oct 2026 edition carried the BBC's report of the halt. New today is the legal picture: the D.C. Circuit upheld the label 2-1 on 25 Sep 2026, so the Pentagon may keep Claude out, while a California judge on 27 Aug 2026 sided with Anthropic against broader federal restrictions, and Anthropic could still ask the full appeals court or the Supreme Court to act.",
@@ -20,6 +20,20 @@
      ],
      "source": "MeriTalk",
      "url": "https://www.meritalk.com/articles/dod-halts-use-of-anthropic-ai-after-court-upholds-supply-chain-risk-designation/"
+    },
+    {
+     "headline": "The UAE opened its Ai Everything summit in Abu Dhabi by promoting AI-run government, while Mistral AI's chief pitched alternatives to US and Chinese AI.",
+     "score": 7,
+     "importance": "MEDIUM",
+     "rank": 2,
+     "rank_of": 6,
+     "status": "REPORTED",
+     "paragraphs": [
+      "CNBC Africa reports that the two-day Ai Everything Abu Dhabi summit opened on 6 Oct 2026 with more than 400 exhibitors, 180 speakers and 200 investors managing $100 billion, where UAE AI minister Omar Sultan Al Olama said about 80,000 government employees are being trained as AI 'super users' and an Abu Dhabi official set out a goal of the world's first AI-native government by 2027. CNN interviewed Mistral AI chief executive Arthur Mensch there about the AI safety debate, and he told CNBC Africa and The National that demand for alternatives to US and Chinese AI is large and that Mistral may invest in UAE data centres; no regulatory decision was reported.",
+      "Why it matters: It shows how a Gulf state and a European AI firm are pitching 'sovereign AI' to governments, but no rule or agreement was announced."
+     ],
+     "source": "CNBC Africa",
+     "url": "https://www.cnbcafrica.com/2026/uae-trains-80000-government-workers-as-ai-super-users-as-ai-everything-abu-dhabi-opens"
     }
    ]
   },
@@ -41,7 +55,7 @@
      "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html"
     },
     {
-     "headline": "Billionaire investor Ray Dalio said the AI boom looks like a classic bubble that is close to the point where it could burst.",
+     "headline": "Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds, said the AI boom looks like a classic bubble that is close to the point where it could burst.",
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
@@ -300,7 +314,7 @@
      "score": 8,
      "importance": "HIGH",
      "rank": 1,
-     "rank_of": 5,
+     "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
       "Reuters reports in an investigation that Tesla has pressed European Union officials hard to approve its Full Self-Driving software and that the pressure is working.",
@@ -315,7 +329,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 5,
+     "rank_of": 8,
      "status": "CONFIRMED",
      "paragraphs": [
       "ClickOnDetroit reports that Waymo rolled out fully driverless driving in Detroit on Tuesday 6 Oct 2026, after months of learning the city and working with local officials. Rides are limited to Waymo employees while the company builds a safety framework, and it says public riders will follow once the technology is validated.",
@@ -329,7 +343,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 5,
+     "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
       "Stock Titan, summarising company filings, reports that Agility Robotics cites more than $300 million in multi-year humanoid robot orders, with the value subject to milestones, ahead of a 6 Oct 2026 investor day for its proposed merger with Churchill Capital Corp XI. TradingView adds that the deal would bring in about $620 million and list the company as AGLT.",
@@ -338,6 +352,20 @@
      ],
      "source": "AI News Desk",
      "url": "https://www.stocktitan.net/news/CCXI/agility-robotics-to-livestream-analyst-investor-day-gvpyt9ksaxry.html"
+    },
+    {
+     "headline": "A robot hand from Chinese firm Agilink has learned to split silk threads, thread a needle and stitch traditional Suzhou embroidery.",
+     "score": 7,
+     "importance": "MEDIUM",
+     "rank": 4,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "New Atlas reports that Agilink, a spin-off of the Chinese robotics company AgiBot, trained its OmniHand 3 Ultra robot hand with embroidery master Fu Xianghong, and the hand now splits silk strands, threads a needle and stitches. New Atlas says fine control of force is a real bottleneck for humanoid robots and that such hands could matter most in homes, though Agilink has not said exactly which hand model appears in its video.",
+      "Why it matters: It shows progress in robot touch, which matters for future home and care robots, but it is a company demonstration and the exact hand model is unconfirmed."
+     ],
+     "source": "New Atlas",
+     "url": "https://newatlas.com/robotics/agilink-robot-hand-learns-silk-embroidery/"
     }
    ]
   },
@@ -472,7 +500,7 @@
       "Quantum Zeitgeist reports, citing a joint Xanadu and GlobalFoundries announcement, that the two companies will make parts for large quantum computers on GlobalFoundries' 300 mm production line in Malta, New York, starting with light detectors that Xanadu expects to make its machines faster. Xanadu builds quantum computers that use particles of light (photons) as qubits, and the companies say the parts are meant to support its planned error-tolerant demonstration machines; the text gives no production volumes, dates or financial terms.",
       "Why it matters: Quantum computer builders and their investors get a sign that photonic parts could be made on standard chip lines, though the companies give no output figures or timetable."
      ],
-     "source": "Quantum Zeitgeist",
+     "source": "Quantum Zeitgeist, citing the companies",
      "url": "https://quantumzeitgeist.com/quantum-chip-production-xanadu-globalfoundries/"
     },
     {
@@ -499,7 +527,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 5,
+     "rank_of": 7,
      "status": "REPORTED",
      "paragraphs": [
       "Business Insider reports, in an article republished by AOL.com, that Hinton, often called the \"Godfather of AI\", said on the \"Smart Girl Dumb Questions\" podcast on 6 Oct 2026 that AI firms should convince a regulator their products are safe before release, the way drugmakers must with the US Food and Drug Administration. He warned that AI now helps improve itself, and said he guessed \"we have a year or two before everything gets much worse\", adding that it is \"just a guess\".",
@@ -513,7 +541,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 5,
+     "rank_of": 7,
      "status": "REPORTED",
      "paragraphs": [
       "MeriTalk reports that Republican Josh Hawley and Democrat Chris Murphy announced the AI Agent Accountability Act, which would apply the Computer Fraud and Abuse Act, the main US anti-hacking law, to operators who knowingly run an agent that recklessly causes hacking damage, and would make developers criminally and civilly liable if they failed to put in reasonable safeguards after they knew or had reason to know of an agent's hacking ability. It is only a proposal, and MeriTalk notes that President Trump has repeatedly rejected extra AI regulation.",
@@ -532,7 +560,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 1,
+     "rank_of": 5,
      "status": "REPORTED",
      "paragraphs": [
       "insitro, an AI company focused on drug discovery, said in a press release that machine-learning models it built with Eli Lilly to predict how small-molecule drug candidates behave in the body can now be used by certain biotech companies on Lilly's TuneLab platform. The models were trained on decades of Lilly's animal and lab data from hundreds of thousands of molecules, and insitro says they could help weed out weak candidates before they are made, although the company has not published outside testing.",
@@ -551,7 +579,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 5,
+     "rank_of": 6,
      "status": "REPORTED",
      "paragraphs": [
       "SecurityBrief Asia reports that Stack Overflow's 2026 Developer Survey, with more than 30,000 responses from 169 countries, found that 66% of respondents use coding assistants or agents and only 17.2% use no AI tools at work. Nearly half said they trust AI output when they can easily verify it, only 6.6% would trust it for important decisions, and just 24% said their employer had published approved tools or formal AI guidance.",
@@ -565,7 +593,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 5,
+     "rank_of": 6,
      "status": "REPORTED",
      "paragraphs": [
       "Marketing-Interactive reports that Tan, head of the Southeast Asian ride-hailing and delivery company Grab, told Dow Jones' Risk Journal event in Singapore on 6 Oct 2026 that AI could create a \"K-shaped recovery\", in which people with access to the technology pull ahead. He pointed to recent unrest in Indonesia as a reminder of how fast economic discontent can escalate and said Grab is building AI tools for small merchants.",
@@ -579,7 +607,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 5,
+     "rank_of": 6,
      "status": "CONFIRMED",
      "paragraphs": [
       "CNN reports that the merger of Paramount and Warner Bros. Discovery took effect on 6 Oct 2026, creating Skydance, whose CEO David Ellison says AI is a \"force multiplier\" for filmmakers and whose leaders plan to unify the streaming technology behind services such as HBO Max. The combined company has more than 200 million streaming subscribers and about $80 billion in debt, and one analyst quoted by CNN reads the promised cost savings from technology and integration as a sign of layoffs; CNN itself became part of Skydance on the same day.",
@@ -593,7 +621,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 4,
-     "rank_of": 5,
+     "rank_of": 6,
      "status": "CONFIRMED",
      "paragraphs": [
       "Radio Ink reports, citing Pew Research Center, that 71% of Americans expect AI to mean fewer jobs over the next 20 years, up from 64% in August 2024, with only Australia and South Korea (76% each) more pessimistic among 37 countries surveyed. Pew also found 52% of Americans are more concerned than excited about AI in daily life, and adults aged 18 to 34 are now slightly more concerned (55%) than those 50 and older (53%).",
@@ -607,7 +635,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 5,
-     "rank_of": 5,
+     "rank_of": 6,
      "status": "CONFIRMED",
      "paragraphs": [
       "Brookings researchers report that a survey of about 25,000 Danish workers in 11 AI-exposed occupations, linked to official earnings records, shows no effect of chatbot use on pay, hours or hiring up to December 2024, with any difference ruled out above 2%. The study finds work is being reorganised instead: workers report new tasks such as checking AI output, and chatbot users appear more likely to have switched occupations, mostly into IT support and clerical roles.",
@@ -622,11 +650,25 @@
    "name": "The Fun Side",
    "items": [
     {
+     "headline": "A visit to a Seoul robot theme park found that its dancing humanoid robots are far less independent than they look.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 1,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "The New York Times reports, as relayed by Moneycontrol, that Galaxy Robot Park in Seoul runs a 50-minute show with 10 humanoid robots from China's Unitree, which look smooth in fast K-pop dances but jerky in slow moves and far weaker than the human taekwondo fighters beside them. One humanoid that seems to chat with visitors is steered by a handler hiding a controller behind his back, and the most practical machine in the park is a bartender made of two arms on a sphere, a sign of the gap between what humanoids appear to do and how independently they actually work.",
+      "Why it matters: It matters to anyone judging the hype around humanoid robots, from buyers to investors, though it is one reporter's account of a single park."
+     ],
+     "source": "New York Times",
+     "url": "https://www.moneycontrol.com/world/inside-south-korea-s-robot-park-the-humanoid-future-still-has-some-way-to-go-article-14045692.html"
+    },
+    {
      "headline": "An AI job interviewer lost its temper on video after an applicant answered in made-up gibberish, and the clip has spread online.",
      "score": 5,
      "importance": "WATCHLIST",
-     "rank": 1,
-     "rank_of": 6,
+     "rank": 2,
+     "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
       "Futurism reports that a TikTok user known as The Dreadful Studio answered an AI avatar's interview questions for a management job in invented, nonsense words, and the avatar grew visibly angry before ending the screening and calling him unqualified. Futurism says the video drew mockery from Reddit users and criticism that using such avatars in hiring is dehumanizing, and it notes a similar stunt last month by satirical influencer Graham Zip.",
@@ -636,32 +678,18 @@
      "url": "https://futurism.com/artificial-intelligence/footage-ai-job-interviewer-berserk"
     },
     {
-     "headline": "Amazon shoppers are sharing screenshots of the sometimes blunt guesses its AI makes about them on the \"About You\" page.",
-     "score": 4,
-     "importance": "WATCHLIST",
-     "rank": 2,
-     "rank_of": 6,
-     "status": "REPORTED",
-     "paragraphs": [
-      "Business Insider reports that Amazon's \"About You\" page, a customer profile of preferences that Amazon's AI infers from shopping history, searches, reviews and Alexa conversations, is trending on social media for its blunt entries. Amazon launched the feature in May and lets users edit or delete what it shows, and Business Insider's own reporters found the results accurate in some cases and wrong in others.",
-      "Why it matters: Amazon's customers can now see, and correct, what the company has inferred about them; the inferences are partly wrong, and the posts are self-selected funny examples."
-     ],
-     "source": "Business Insider",
-     "url": "https://www.businessinsider.com/amazon-about-you-customer-profile-2026-10"
-    },
-    {
-     "headline": "A US court case over who owns the AI-made meme character Tung Tung Tung Sahur could help decide whether AI-generated art can be copyrighted.",
-     "score": 3,
+     "headline": "The jailed mayor of Tirana, Albania, sent voters a video of an AI version of himself promising free school meals from his prison cell.",
+     "score": 5,
      "importance": "WATCHLIST",
      "rank": 3,
-     "rank_of": 6,
+     "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
-      "The Guardian reports that two companies behind the Roblox game \"Steal a Brainrot\" are suing French agency Mementum, which represents the Indonesian teen who made the meme character Tung Tung Tung Sahur with OpenAI's image tool, arguing that the character cannot be copyrighted because AI-generated work lacks a human author. Mementum has pursued a takedown under EU law and a US trademark claim instead, and the Guardian quotes a Cornell law professor saying the case could show what counts as copyrightable when AI is involved.",
-      "Why it matters: Creators of AI-assisted characters and the businesses that license them are affected; the case may set an early precedent, but the court has not ruled and the outcome is unknown."
+      "Politico reports, as relayed by Vijesti.me, that Erion Veliaj, mayor of Tirana, Albania's capital, posted an Instagram video marked as AI-generated in which his digital double promises free school meals 'even from this cell'. Veliaj has been jailed since early 2025 over corruption and financial crime investigations, which he denies, and he remains officially mayor until local elections in the first half of 2027.",
+      "Why it matters: It affects Tirana voters and shows how jailed politicians can still reach the public through AI doubles, after similar cases with Imran Khan and Jair Bolsonaro; Veliaj denies the corruption allegations."
      ],
-     "source": "The Guardian",
-     "url": "https://www.theguardian.com/technology/2026/oct/06/brain-rot-tung-tung-tung-sahur-noxa-openai-video"
+     "source": "Politico",
+     "url": "https://www.politico.eu/article/jailed-albanian-mayor-erion-veliaj-uses-ai-avatar-to-make-deepfake-speech/"
     }
    ]
   }
@@ -671,18 +699,19 @@
    "title": "The Bigger Picture — Daily AI Analysis",
    "paragraphs": [
     "A deeper look at today's Bigger Picture card: what is moving the market, and what to watch. The Full Report carries the full analysis.",
-    "What moves the market today. Fact: Bloomberg reports that Taiwan's main index is up 72% this year, the best of more than 90 indices it tracks, with strategists favouring it because its AI earnings come from sales volume rather than memory prices. Fact: research firm Dell'Oro says data centre spending rose 92% in the second quarter, and Reuters reports that US software shares hit their highest since November 2025 as fears of AI wrecking their business faded.",
-    "Fact: more of the building is paid with borrowed money. The Financial Times reports, citing unnamed sources, that SpaceX is seeking about $40 billion in loans and bonds for Nvidia chips, and the Wall Street Journal reports that the cloud company Lambda is raising up to $4 billion on an order book that appears to rest largely on one customer, Anthropic. Fact: Bloomberg reports that investor Ray Dalio called AI a \"classic bubble\" and said \"we're close\" to the bursting point, pointing to heavy borrowing and rising interest rates while stocks sit near record highs. Fact: Bloomberg also reports that internal Australian central bank papers estimate a lasting 20% fall in AI shares would cut household spending there, though staff say the figure may overstate it. Fact: Heatmap News counts at least $260 billion of US data centre projects cancelled this year after local opposition, a figure not independently confirmed.",
-    "Our view: the rally rests on AI companies, and more of their building now runs on debt while borrowing costs rise. The real test is on the ground: whether the data centres get power, local approval and paying customers.",
-    "What to watch and follow. 1. Local votes on data centres, after San Francisco voted to pause approvals; each pause delays the spending the market expects. 2. AI debt deals such as SpaceX's; a failed or repriced deal would show lenders getting nervous. 3. Job cuts that name AI, such as FICO's; they show where companies expect savings, while studies so far find little effect on pay or hiring. 4. Mistral's promised open model weights in about three weeks; they decide whether its performance claims can be tested.",
-    "Unknowns. The SpaceX and DeepSeek fundraising figures come from unnamed sources and could change, and Heatmap's cancellation count has not been checked by others."
+    "What moves the market today. Fact: Bloomberg reports that Taiwan's main index is up 72 percent this year, the best of more than 90 it tracks, because its AI earnings come from chip sales rather than memory prices. Fact: the research firm Dell'Oro says data centre spending rose 92 percent in the second quarter, and Lisa Su, chief executive of the chipmaker AMD, says demand for its AI chips still exceeds what it can make.",
+    "Fact: more of the build is borrowed. The Financial Times reports, citing unnamed sources, that SpaceX, which now includes xAI, seeks about $40 billion in loans and bonds for Nvidia chips, and the Wall Street Journal reports that the cloud company Lambda is raising up to $4 billion on orders that rest largely on one customer, Anthropic. Fact: Bloomberg reports that Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds, called AI a \"classic bubble\" that is \"close\" to bursting, citing heavy borrowing and rising interest rates, while Larry Fink, chief executive of BlackRock, one of the world's biggest fund managers, told NBC News he fears losing the AI race more than a bubble.",
+    "Our view: chip demand is still measured in orders, the build now runs on debt, and the biggest money managers disagree about which risk is larger. All of them name the interest rate, so the coming inflation data and rate decisions matter to AI more than usual. On the ground, the limit has moved from chips to electricity and consent: Google now pays the whole power bill for its new sites, while Heatmap counts $260 billion of US projects cancelled after local opposition.",
+    "What to watch and follow. 1. 13 October: JPMorgan Chase reports; its chief executive Jamie Dimon says AI cyber risk rose tenfold, so watch for AI losses or lending pulled back. 2. 14 October: US inflation for September; a hot number makes borrowed AI money dearer. 3. 15 October: TSMC, the world's largest contract chipmaker, reports; a raised outlook confirms the boom is in orders, a flat one is the first crack. 4. 27 to 29 October: the US Federal Reserve and the European Central Bank decide rates, and Microsoft, Alphabet, Meta and Amazon are expected to report the same days (dates estimated, not announced); their spending plans decide whether the 92 percent continues. 5. 6 November: the US jobs report, the first measured check on cuts that name AI, after FICO and HubSpot this week.",
+    "Unknowns. The SpaceX and Lambda figures come from unnamed sources and a private letter, Heatmap's count is unchecked, and the price Google pays for its nuclear power is secret.",
+    "This is analysis of the news, not financial advice or an investment recommendation."
    ]
   },
   {
    "title": "About this edition",
    "paragraphs": [
     "This is a test edition. Stories were collected through Google News for the 24 hours ending 07:41 UTC on 7 October 2026, and articles were read from our 101-source list where the sites allowed it.",
-    "We read the full article for 76 of 93 stories. The rest are marked as headline only because their websites could not be opened from our system.",
+    "We read the full article for 92 of 110 stories. The rest are marked as headline only because their websites could not be opened from our system.",
     "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, 5 and below watchlist. Nothing here is investment advice."
    ]
   }

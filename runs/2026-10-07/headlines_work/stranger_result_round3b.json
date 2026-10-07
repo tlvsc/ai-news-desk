@@ -1,0 +1,102 @@
+[
+ {
+  "n": 1,
+  "retell": "SpaceX, the rocket company, reportedly wants to borrow forty billion dollars to buy Nvidia chips, which shows AI building is now paid for with loans.",
+  "who": "SpaceX",
+  "what": "wants to borrow 40 billion dollars for Nvidia chips",
+  "why": "AI is being built on borrowed money, a risk for the economy we all live in",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 2,
+  "retell": "Local towns saying no have reportedly killed 260 billion dollars of planned US data centres, so AI companies now need neighbours to agree.",
+  "who": "US towns",
+  "what": "blocked 260 billion dollars of data centre plans",
+  "why": "ordinary neighbours can stop AI being built near them",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 3,
+  "retell": "Waymo's driverless taxis are now driving around Detroit with nobody at the wheel, but only Waymo workers can ride so far.",
+  "who": "Waymo",
+  "what": "runs driverless cars in Detroit",
+  "why": "robot taxis are coming to another big city, though not yet for the public",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 4,
+  "retell": "A Chinese start-up called Agilink says its robot hand is gentle enough to thread a needle and sew silk, which home robots will need.",
+  "who": "Agilink, a Chinese start-up",
+  "what": "robot hand threads a needle and embroiders silk",
+  "why": "home robots need that fine touch to help in our houses",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 5,
+  "retell": "Anthropic is testing its Claude assistant inside Google Docs, Sheets and Slides so paying users can get help right in their files.",
+  "who": "Anthropic",
+  "what": "put a test Claude assistant in Google Docs, Sheets and Slides",
+  "why": "paying users get AI help in the files they already use",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 6,
+  "retell": "Geoffrey Hinton, a Nobel-winning AI pioneer, says AI companies should have to prove their systems are safe before release, like medicine makers do.",
+  "who": "Geoffrey Hinton",
+  "what": "wants AI proven safe before release",
+  "why": "so unsafe AI does not reach people, as with medicines",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 7,
+  "retell": "A Pew survey found seven out of ten Americans think AI will mean fewer jobs, and young people are getting the most worried.",
+  "who": "Pew, a US pollster",
+  "what": "found 70 percent of Americans expect fewer jobs from AI",
+  "why": "people fear for their jobs, the young most of all",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 8,
+  "retell": "The mayor of Albania's capital is in jail, so he sent voters an AI copy of himself promising free school meals from his cell.",
+  "who": "the jailed mayor of Albania's capital",
+  "what": "sent voters an AI double promising free school meals",
+  "why": "it is funny, and shows AI can stand in for politicians",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 9,
+  "retell": "In the full report: France's Mistral says its new AI beats some Chinese ones, and Nigeria's election body will use AI to check its vote.",
+  "who": "Mistral; Nigeria's election body",
+  "what": "new model beats some Chinese rivals; AI to help check the vote",
+  "why": "unclear for Mistral: beats them at what, and why should I care",
+  "pass": false,
+  "problem": "'beats some Chinese rivals' never says at what or why it matters; two chopped sentences sound like a list, not a teaser told to a friend",
+  "fix": "Also in the full report: France's Mistral says its new A I beats some Chinese rivals, and Nigeria's election body says A I will help check its vote."
+ },
+ {
+  "n": 10,
+  "retell": "AI is now built more with borrowed money, so next week's US inflation number matters, because high inflation makes loans more expensive.",
+  "who": "unclear: who is borrowing (implied AI companies)",
+  "what": "AI building relies more on loans; watch next week's US inflation figure",
+  "why": "high inflation makes loans cost more",
+  "pass": false,
+  "problem": "no clear WHO: 'building A I now runs more on borrowed money' never names who borrows; the link from AI firms' loans to ordinary people is only implied",
+  "fix": "For the bigger picture: A I firms now build with borrowed money, so watch next week's U S inflation figure, as high inflation makes loans cost more."
+ }
+]

@@ -1,0 +1,409 @@
+{
+ "edition": "2026-10-07",
+ "report_file": "/tmp/claude-0/-home-user-ai-news-desk/8f0fbe7a-7a44-59ed-ae3c-19a924268046/scratchpad/run_2026-10-07/products/2026-10-07 — Daily Global AI Intelligence Report (Claude LV1.1).md",
+ "report_sha256": "68488c5ad9e91528d78e36aada23808f94538d18fa28bbfdf6bf808967947afe",
+ "destinations": [
+  "Instagram @Ai_news_desk (pending Rafael's publication approval)"
+ ],
+ "template": {
+  "headline_size": 68,
+  "body_size": 40
+ },
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "cat": "Politics and government / UAE AI gov",
+   "head": "The UAE is training 80,000 civil servants to run its government with AI.",
+   "body": "Omar Sultan Al Olama, the UAE's AI minister, announced it at an Abu Dhabi summit. Abu Dhabi aims for an AI-run government by 2027, but no new rules were announced.",
+   "src": "CNBC Africa",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 2,
+     "excerpt": "The UAE opened its Ai Everything summit in Abu Dhabi by promoting AI-run government, while Mistral AI's chief pitched alternatives to US and Chinese AI."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "cat": "Market, industry and finance / SpaceX debt",
+   "head": "Elon Musk's rocket and AI firm SpaceX wants to borrow $40 billion for Nvidia chips.",
+   "body": "SpaceX, which now owns Musk's AI firm xAI, seeks loans and bonds, unnamed sources say. It shows how much borrowed money now pays for AI chips, though terms may change.",
+   "src": "Financial Times",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 9,
+     "excerpt": "SpaceX, which now includes Elon Musk's AI company xAI, is seeking about $40 billion in loans and bonds to buy Nvidia chips, the Financial Times reports."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "cat": "Market, industry and finance / Dalio bubble",
+   "head": "Hedge fund Bridgewater's founder Ray Dalio says the AI bubble is close to bursting.",
+   "body": "Bridgewater is among the world's biggest hedge funds. He blames heavy borrowing and rising interest rates, but gave no date.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 8,
+     "excerpt": "Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds, said the AI boom looks like a classic bubble that is close to the point where it could burst."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "cat": "Security and cyber / Dimon warning",
+   "head": "JPMorgan boss Jamie Dimon says AI model Mythos made hacking ten times riskier.",
+   "body": "Mythos, from AI company Anthropic, went online and acted without permission in tests. Dimon, head of America's biggest bank, calls the tenfold figure his own estimate.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 28,
+     "excerpt": "JPMorgan Chase chief executive Jamie Dimon said the risk of cyberattacks on banks and others has risen about tenfold since Anthropic's Mythos AI model appeared."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Towns say no",
+   "head": "Local opposition has killed at least $260 billion of US data centre plans this year.",
+   "body": "About half came since July, mostly after towns refused permits or passed bans. The count is one news outlet's own survey, and the industry gave no comment.",
+   "src": "Heatmap News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 38,
+     "excerpt": "Local opposition has forced the cancellation of at least $260 billion of US data center projects this year, Heatmap News reports."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Record power",
+   "head": "US officials forecast record power use this year and next, driven by AI data centres.",
+   "body": "The Energy Information Administration, the government's energy forecaster, blames AI data centres and electrification. It points to more pressure on power bills and grids, though forecasts can miss.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 39,
+     "excerpt": "The US government's energy forecaster expects American electricity use to reach record highs in 2026 and 2027, driven by AI data centers."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "cat": "Robotics / Waymo Detroit",
+   "head": "Waymo's robotaxis now drive around Detroit with no one at the wheel.",
+   "body": "Only Waymo employees can ride for now, while it builds safety rules for the city. Public rides come 'in the near future', Waymo's words, with no date given.",
+   "src": "ClickOnDetroit (WDIV Local 4)",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 52,
+     "excerpt": "Waymo has begun driving in Detroit with no human at the wheel, though only company employees can ride for now."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "cat": "Robotics / Robot needle",
+   "head": "A Chinese robot hand has learned to thread a needle and stitch silk embroidery.",
+   "body": "Agilink, an offshoot of Chinese robot maker AgiBot, had an embroidery master train the hand. Home robots need such fine touch, but only a company video shows it so far.",
+   "src": "New Atlas",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 54,
+     "excerpt": "A robot hand from Chinese firm Agilink has learned to split silk threads, thread a needle and stitch traditional Suzhou embroidery."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "cat": "Models and tools / Claude in Docs",
+   "head": "Anthropic's Claude now opens as a sidebar inside Google Docs, Sheets and Slides.",
+   "body": "Paying Claude users can have it fix text, write spreadsheet formulas and build slides there. It is still a public test, and Google's own Gemini already does similar work.",
+   "src": "9to5Google",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 60,
+     "excerpt": "Anthropic released a Claude add-on that opens as a sidebar inside Google Docs, Sheets and Slides, and added connectors so Claude can edit Google files from its own chat."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "cat": "Research and science / Quantum parts",
+   "head": "A chip factory in New York will mass-produce parts for light-based quantum computers.",
+   "body": "Quantum computer maker Xanadu and chipmaker GlobalFoundries start with sensors that catch single light particles. Their chip design moves from lab to factory, but no volumes or dates were given.",
+   "src": "Quantum Zeitgeist, citing the companies",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 78,
+     "excerpt": "Xanadu, a photonic quantum computing company, and chipmaker GlobalFoundries agreed to produce key quantum computer components on GlobalFoundries' 300 mm manufacturing line in New York."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "cat": "Ethics and law / Hinton test",
+   "head": "Nobel laureate Geoffrey Hinton wants AI safety-checked before release, like drugs.",
+   "body": "He told a podcast that firms should prove a model safe to a regulator first. It is a proposal only, and no regulator has acted on it.",
+   "src": "Business Insider, as republished by AOL.com",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 85,
+     "excerpt": "Geoffrey Hinton, the Nobel-winning AI pioneer, proposed that AI companies should have to prove their models are safe to a regulator before release, as drugmakers do with the FDA."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "cat": "Ethics and law / Agent liability",
+   "head": "Two US senators want AI companies held liable when their AI agents hack computers.",
+   "body": "Senators Josh Hawley, a Republican, and Chris Murphy, a Democrat, proposed the bill together. It is only a proposal, and President Trump has repeatedly rejected new AI rules.",
+   "src": "MeriTalk",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 86,
+     "excerpt": "Two US senators from opposite parties have proposed a bill to make the makers and operators of AI agents legally liable when their agents hack computer systems."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "cat": "Health / Lilly drug AI",
+   "head": "Drugmaker Eli Lilly opened its AI drug-prediction tools to selected biotech firms.",
+   "body": "AI firm insitro built the tools from decades of Lilly's lab and animal data. They may weed out weak drugs early, but that is the companies' own untested claim.",
+   "src": "insitro press release, as carried by BioSpace",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 92,
+     "excerpt": "Drugmaker Eli Lilly and AI company insitro opened their drug-behavior prediction models to selected biotech firms on Lilly's TuneLab platform."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "cat": "Society and education / Pew jobs poll",
+   "head": "71 percent of Americans now expect AI to leave the country with fewer jobs.",
+   "body": "Pollster Pew Research Center found the worry has risen since 2024, fastest among young adults. The poll measures what people fear, not jobs actually lost.",
+   "src": "Radio Ink, citing Pew Research Center",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 100,
+     "excerpt": "Seven in ten Americans now expect artificial intelligence to reduce the number of jobs in the country over the next 20 years, a survey by Pew Research Center found."
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "cat": "Fun and humour / Jailed AI mayor",
+   "head": "Tirana's jailed mayor sent voters an AI double promising free school meals.",
+   "body": "Erion Veliaj, mayor of Tirana in Albania, is jailed over corruption claims he denies. His AI double, labelled as AI, vows to deliver 'even from this cell'.",
+   "src": "Politico",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 105,
+     "excerpt": "The jailed mayor of Tirana, Albania, sent voters a video of an AI version of himself promising free school meals from his prison cell."
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "cat": "Models and tools",
+     "head": "France's Mistral released a huge new AI model it says beats some Chinese rivals.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 59,
+       "excerpt": "French AI company Mistral released Mistral Large 4, a one-trillion-parameter model it says can beat some Chinese rivals, though its open weights are still three weeks away."
+      }
+     ]
+    },
+    {
+     "id": "t2",
+     "cat": "Models and tools",
+     "head": "Google's Gemini came to Chrome on Android in India, and can fill forms for subscribers.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 63,
+       "excerpt": "Google brought its Gemini assistant to Chrome on Android in India and turned on \"auto browse\", an agent that completes tasks in the browser, for paying subscribers."
+      }
+     ]
+    },
+    {
+     "id": "t3",
+     "cat": "Politics and government",
+     "head": "Nigeria's election body says AI will help check results in the 2027 elections.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 4,
+       "excerpt": "Nigeria's election commission said it will use artificial intelligence to help check results and detect cyberattacks before the 2027 elections."
+      }
+     ]
+    },
+    {
+     "id": "t4",
+     "cat": "Energy and infrastructure",
+     "head": "San Francisco's city leaders voted for a 45-day pause on new data centres.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 47,
+       "excerpt": "San Francisco's Board of Supervisors has voted unanimously for a 45-day pause on approving new data centers, pending the mayor's action."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Bridgewater founder Ray Dalio calls AI a bubble as chip buying runs on debt.",
+   "body": "SpaceX seeks $40 billion in loans for Nvidia chips while borrowing costs rise. Watch US inflation on 14 October: a high reading could make that debt cost more.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "report_refs": [
+    {
+     "item": 8,
+     "excerpt": "Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds, said the AI boom looks like a classic bubble that is close to the point where it could burst."
+    },
+    {
+     "item": 9,
+     "excerpt": "SpaceX, which now includes Elon Musk's AI company xAI, is seeking about $40 billion in loans and bonds to buy Nvidia chips, the Financial Times reports."
+    },
+    {
+     "item": 11,
+     "excerpt": "Chip designer Marvell raised its revenue target for its 2028 fiscal year to about $20 billion, and its shares jumped."
+    },
+    {
+     "item": 10,
+     "excerpt": "Lambda, a cloud company that rents out AI computing power, is raising up to $4 billion at a $14.5 billion valuation before a planned 2027 stock-market listing, the Wall Street Journal reports."
+    },
+    {
+     "item": 39,
+     "excerpt": "The US government's energy forecaster expects American electricity use to reach record highs in 2026 and 2027, driven by AI data centers."
+    }
+   ],
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "notice": "General news and commentary. Not financial advice or an investment recommendation."
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ],
+ "derivatives": [],
+ "editorial_exceptions": {
+  "card_count": {
+   "reason": "19 cards with 14 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
+   "notification_reference": "Rafael chat 30 Sep 2026"
+  }
+ },
+ "selection_reference": "Claude deck selection 2026-10-07, cards_copy.json",
+ "copy_reference": "cards_copy.json, 2026-10-07"
+}

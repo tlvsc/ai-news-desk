@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-21",
+ "v1_category": "LAW",
+ "headline": "A US appeals court ruled that a legal-research company broke copyright law by training its AI on Thomson Reuters' Westlaw material.",
+ "score": 6,
+ "score_reason": "Headline overstated: the ruling is narrow (non-generative AI, verbatim copying), and the ruling is from last week.",
+ "importance_label": "MEDIUM",
+ "importance_line": "It is the first appeals-court ruling on AI training and fair use, which matters to authors, publishers and AI developers, but it concerns a non-generative tool that copied text verbatim, so its reach to chatbots is doubtful.",
+ "source": "Futurism",
+ "status": "REPORTED",
+ "summary": "Futurism reports that the US Third Circuit Court of Appeals upheld a ruling that Ross Intelligence, a legal-search start-up that shut down in 2021, broke copyright law by training its search engine on Thomson Reuters' Westlaw material, mainly short editorial summaries called headnotes that it copied almost verbatim; Futurism, citing Reuters, calls it the first such appeals ruling, decided last week. Legal commentator Aaron Moss says the case is a poor test for chatbots like ChatGPT because Ross's AI was not generative and damages are unresolved; Ross's remnants plan to appeal to the Supreme Court, and a hearing in Concord Music Group's lyrics lawsuit against Anthropic is due later this month.",
+ "url": "https://futurism.com/artificial-intelligence/court-finds-copyrighted-material-training-data-fair-use",
+ "freshness": "FOLLOW-UP of the week of 28 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Ruling date not given ('last week'); Reuters, which Futurism cites for 'first of its kind', was not read. Headline of the source overstates the holding."
+}
