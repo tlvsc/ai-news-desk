@@ -75,7 +75,8 @@ not about which project it is.
     by category, so a reader can go to their own section, where a 5 may matter to them.
     Stay flexible on unusual days: if 5 and up passes about 150 stories, raise the
     cutoff; if it gives very few, lower it; state the cutoff and the count (Rafi,
-    29 Sep 2026). The Bulletin cutoff flexes: pick the cutoff that lands it near
+    29 Sep 2026). NEWER RULING (Rafi, 7 Oct 2026, replaces the 150 figure): aim the Full Report at 100 to 120 stories, because 177 is too long to read; pick
+    the cutoff (5 or 6, or whatever lands closest to that range) and state the cutoff and the count. On 7 Oct 2026 cutoff 6 gave 93 and cutoff 5 gave 177. The Bulletin cutoff flexes: pick the cutoff that lands it near
     30 to 50 stories (usually 6, 7 or 8 and up), then state the cutoff and the count
     (Rafi, 28 Sep 2026). Health and Society and education get a lower bulletin cutoff of 6, so those two sections are never empty (Rafi, 7 Oct 2026;
     build_products.py --bulletin-min-cat HEA=6,SOC=6).
