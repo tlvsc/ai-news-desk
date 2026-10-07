@@ -166,7 +166,9 @@ not about which project it is.
     new party) and the card names the earlier story; a repeat of the last three decks without a meaningful update is a failure. Only
     stories read in full; a robotics card shows a machine doing something. Past a limit, the next biggest story in the field goes in.
     Headlines are chosen by the Drive Headlines Master (HEADLINES ORDER above), which says the strongest card stories by score.
-    CARD_FILTER: base_min=5 extra_min=7 target=15 max_per_category=2 market_max=3 company_cards=3 company_clips=2
+    CARDS FROM THE BULLETIN (Rafi, 7 Oct 2026): story cards are chosen only from the stories of the Bulletin, not from the whole Full Report, and the target
+    is 14 story cards (Headlines stay 7); card_candidates.py reads products/bulletin_pdf.json.
+    CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

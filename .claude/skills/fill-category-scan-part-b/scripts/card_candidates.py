@@ -83,7 +83,8 @@ for p in prev:
         for x in ([c] if 'head' in c else c.get('entries', [])):
             if 'head' in x:
                 old.append((Path(p).parent.name, x['head'] + ' ' + x.get('body', '')))
-rp = json.loads((W / 'products' / 'report_pdf.json').read_text())
+# Rafi, 7 Oct 2026: cards are chosen from the Bulletin stories, not from the whole report.
+rp = json.loads((W / 'products' / 'bulletin_pdf.json').read_text())
 heads = {}
 for f in (W / 'report_entries').glob('C*.json'):
     e = json.loads(f.read_text(encoding='utf-8')); heads[e['headline']] = e
