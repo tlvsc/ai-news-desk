@@ -17,3 +17,5 @@ Numbers are spoken as words ("seventy three percent"); write no digits. Acronyms
 Validate with python json.load. Final message: one line only ("headlines scripts written").
 
 - BIGGER PICTURE CLIP SCREEN (Rafi, 7 Oct 2026): the screen of the Bigger Picture clip is a glowing warning sign that flashes the words "This is not financial advice"; every other clip keeps its text-free symbol.
+
+- A REAL NEWS EDITION (Rafi, 7 Oct 2026): the whole reel is read once, aloud, like a presenter on a real news bulletin: fluent, confident, each clip flowing into the next with a natural lead-in that names its own topic, never a list of labels and never a repeated phrase. Every named person is given their position and organisation in the same sentence. Seven slots are precious: each clip carries the most important fact of its story, who did it, and why it matters, in plain words an intelligent newcomer follows at once. Read your finished reel top to bottom as a listener and fix anything that sounds written, stiff or repeated before you reply.
