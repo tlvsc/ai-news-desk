@@ -136,6 +136,13 @@ def gate(W):
     chk('G14 labels are at most 15 characters', all(len(c.get('label', '')) <= 15 and c.get('label') for c in cards), str([c['item'] for c in cards if len(c.get('label', '')) > 15]))
     chk('G15 every pick has a reason and a not-a-repeat reason', all(c.get('reason') and c.get('not_repeat_because') for c in cards), str([c['item'] for c in cards if not (c.get('reason') and c.get('not_repeat_because'))]))
     chk('G15b every card has a novice test (who a novice would not know, the plain introduction)', all(c.get('novice_test') for c in cards), str([c['item'] for c in cards if not c.get('novice_test')]))
+    # G18 coverage: every category has a card when an eligible story exists; robotics gets two when two qualify
+    def eligible(k):
+        return [i for i in rset if i not in hid and ents[i]['v1_category'] == k and (ents[i]['freshness'] == 'NEW' or i in UA) and ents[i]['verified_text'] and ents[i]['score'] >= F['base_min'] and (k != 'ROB' or ents[i].get('machine_action') is not False)]
+    miss = [k for k in ORDER[:-1] if k not in cats and eligible(k)]
+    chk('G18 every category has a card when an eligible story exists (Politics and Robotics included)', not miss, f'no card for {miss}; eligible: ' + str({k: sorted(eligible(k))[:6] for k in miss}))
+    chk('G19 robotics has two cards when two qualify', cats.count('ROB') >= min(2, len(eligible('ROB'))), f'robotics cards {cats.count("ROB")}, eligible {sorted(eligible("ROB"))}')
+    chk('G20 the Bigger Picture is named as a card and a clip', sel.get('bigger_picture', {}).get('card') and sel.get('bigger_picture', {}).get('clip'), 'add "bigger_picture": {"card": true, "clip": true}')
     chk('G16 Bigger Picture sources are in the report and not held', all(i in rset and i not in hid for i in bpr), str([i for i in bpr if i not in rset]))
     # G17 7 day repeat: shared names or topic words with a card, clip, teaser or Bigger Picture line of the last 7 days
     disputes = sel.get('disputed_repeats', {})
