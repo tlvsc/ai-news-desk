@@ -406,3 +406,6 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     base_min=5 now reaches below the report cutoff of 6, an open clash for Part B.
 90. (7 Oct 2026, mistake record) I used the word "cat" and other shorthand (filler, curators, held, headline only) in a report to Rafi without explaining them; he cannot follow it.
     Prevention: name every term in full the first time and use the category's real name. Fix: replies to Rafi use full names (category, not cat), and explain a working term once in plain words.
+91. (7 Oct 2026, mistake record) I read Rafi's "keep it somewhere around 100 to 120" as "keep 93" and delivered 93 stories, below his range, and he was angry. Prevention: when a number
+    rule and a cutoff cannot both hold, make the number win and say how; never answer a count instruction with the old count. Fix: build_products.py --report-fill-to 110 fills the report from the
+    next lower score when the cutoff leaves fewer than 100 (7 Oct 2026: cutoff 6 gave 93, plus 17 best stories of score 5 gave 110); recorded in CLAUDE.md rule 14 and the Part A skill.

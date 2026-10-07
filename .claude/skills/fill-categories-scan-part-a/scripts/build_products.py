@@ -44,6 +44,7 @@ def main():
     ap.add_argument('--report-min', default='flex5')
     ap.add_argument('--bulletin-min', default='auto')
     ap.add_argument('--bulletin-fun', type=int, default=3)
+    ap.add_argument('--report-fill-to', type=int, default=0, help='if the cutoff leaves fewer stories, add the best stories of the next lower score until this many (Rafi, 7 Oct 2026: 100 to 120)')
     ap.add_argument('--bulletin-min-cat', default='', help='lower bulletin cutoff for named categories, e.g. HEA=6,SOC=6 (Rafi, 7 Oct 2026)')
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); OUT = W / 'products'; OUT.mkdir(exist_ok=True)
@@ -77,6 +78,16 @@ def main():
     else:
         rmin = pick(rcount, 1, 8, (50, 150)) if a.report_min == 'auto' else int(a.report_min)
     report = [e for e in live if in_rep(e, rmin)]
+    if a.report_fill_to and len(report) < a.report_fill_to:
+        # the best stories just below the cutoff: read in full first, then the categories with fewest stories, then id
+        below = [e for e in live if not in_rep(e, rmin) and e['score'] == rmin - 1]
+        per = {}
+        for e in report: per[e['v1_category']] = per.get(e['v1_category'], 0) + 1
+        added = 0
+        while below and len(report) < a.report_fill_to:
+            below.sort(key=lambda e: (not e.get('verified_text'), per.get(e['v1_category'], 0), e['item_id']))
+            e = below.pop(0); report.append(e); per[e['v1_category']] = per.get(e['v1_category'], 0) + 1; added += 1
+        print(f"report filled to {len(report)}: added {added} stories of score {rmin - 1}")
     report.sort(key=lambda e: (ORDER.index(e['v1_category']), -e['score'], e['item_id']))
     catmin = {k: int(v) for k, v in (x.split('=') for x in a.bulletin_min_cat.split(',') if x)}
     in_bul = lambda e, t: e['score'] >= min(t, catmin.get(e['v1_category'], t)) and e['v1_category'] != 'FUN'
@@ -104,6 +115,8 @@ def main():
     followups = sum(1 for e in report if str(e.get('freshness', '')).upper().startswith('FOLLOW'))
     spread = {b: sum(1 for e in report if e['importance_label'] == b) for b in ['CRITICAL', 'HIGH', 'MEDIUM', 'WATCHLIST']}
     rule_r = f"pool score {rmin} to 10 plus The Fun Side"
+    if a.report_fill_to and any(e['score'] == rmin - 1 and e['v1_category'] != 'FUN' for e in report):
+        rule_r = f"pool score {rmin} to 10, plus the best stories of score {rmin - 1} to reach about {a.report_fill_to}, plus The Fun Side"
     rule_b = f"every story scored {bmin} to 10, plus the top {len(fun)} Fun Side stories"
     if catmin:
         rule_b += " (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")"

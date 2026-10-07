@@ -134,7 +134,7 @@ re-dated into the window, including an undated "FOLLOW-UP of mid-2026". Add same
 
 ### 8. First build
 ```
-python3 $K/build_products.py --workdir $W [--report-min 5] [--bulletin-min 7] --bulletin-min-cat HEA=6,SOC=6
+python3 $K/build_products.py --workdir $W [--report-min 5] [--bulletin-min 7] --bulletin-min-cat HEA=6,SOC=6 --report-fill-to 110
 ```
 Report: aim at 100 to 120 stories (Rafi, 7 Oct 2026, CLAUDE.md rule 14): cutoff 5 or 6, whichever lands closest, plus the Fun Side. Bulletin: the cutoff that
 lands near 30 to 50 (usually 6, 7 or 8 and up), plus the top 3 Fun (CLAUDE.md rule 14; 3 Oct 2026 Rafi chose 7
