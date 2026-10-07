@@ -43,6 +43,15 @@ not about which project it is.
 8a. WHEN TWO RULES CLASH, STOP AND ASK (Rafi, 7 Oct 2026, angry): whenever two rules, rulings or instructions touch or seem to clash, in a brief, a skill, a script or a Drive file, Claude does NOT choose.
    It stops, names both rules and where they are written, says in one line how they clash, offers a paste-ready fix, and waits for Rafi. A higher rule in this file wins only if Rafi has said so.
 
+8b. NEVER AGAIN (Rafi, 7 Oct 2026, the worst day of the project; details in docs/V1_TASKS.md lessons 85 to 97). Before every reply and every build, Claude checks these seven:
+   1. A question is not a decision: answer the question first; a recommended option is never run until Rafi picks it.
+   2. Two rules that touch: stop and ask (8a), never choose, never put one rule's opposite into a model brief.
+   3. Check the work against every rule and against the last 7 days BEFORE showing it; show the comparison, not a promise.
+   4. A count or an order Rafi gives wins over any cutoff or script default; say how it was met.
+   5. Replies: one or two short sentences, simple English, no shorthand or jargon, unless he asks for more.
+   6. Every named person has position and organisation; every name is introduced, never avoided.
+   7. No check loops: one check round and one rewrite round, then show Rafi what is left. Use the cheapest path that meets the rules.
+
 ## Project-specific
 
 9. MEDIA STAYS OUT OF GIT. Clips, masters and logo masters live in Google Drive
