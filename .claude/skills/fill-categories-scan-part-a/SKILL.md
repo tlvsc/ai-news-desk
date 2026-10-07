@@ -52,8 +52,8 @@ Fetch into `$W/rules/`: Full_Report_V1_Rules_Structure.txt, Bulletin_V1_Rules_St
 Article_phrasing_instructions_AIND_V1.txt (find each by name; check its modified time). Fetch into `$W/`:
 build_pdf.py from Bulletin blueprint V1 / Permanent Assets (Drive 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH), md5
 5b5869e51313b19e0b5554b2f890cae5 (42,113 bytes); stop and tell Rafi if it differs. Fetch the Full Report texts of the previous 14 days into `$W/archive14/<date>.md` (drive_save.py, no content read into the
-agent's context; step 9b). Fetch the pools of the last
-four days: AI_News_Desk / daily_data_generated / <date> / reports / supportive files / AIND_Pool_<date>.csv;
+agent's context; step 9b). Take the pools of the last
+four days FROM THIS REPO, runs/<date>/out/AIND_Pool_<date>.csv (Rafi, 7 Oct 2026: no Drive agent job for them); only if a day is missing there, from AI_News_Desk / daily_data_generated / <date> / reports / supportive files / AIND_Pool_<date>.csv;
 a day that is not on Drive is taken from the local run folder (`<scratchpad>/run_<date>/out/`) or, if missing,
 named in the start line. Save each file with drive_save.py ("Saving a Drive file to disk" below). Then:
 ```
@@ -88,7 +88,7 @@ python3 $K/build_pool.py --workdir $W
 Each category keeps the main picks its curator wrote (up to 20, Fun 10); a backup moves up only to replace a
 removed pick, never to pad. Read `$W/out/build_log.json`: for a near duplicate or the same story in two
 categories decide which stays (`$W/drops.json` {"drops": [[cat, "exact title", "why"]]} or
-`$W/dedupe_overrides.json`), then run again. A category printed SHORT gets a filler:
+`$W/dedupe_overrides.json`), then run again. A category printed SHORT by 3 or more gets a filler; short by 1 or 2 gets NONE, state the count (Rafi, 7 Oct 2026, saves about 90k tokens each):
 ```
 python3 $K/make_prompts.py --workdir $W --stage fill --cat NN --need K     # agent: Read $W/prompts/fill_NN.txt ...
 python3 $K/merge_filler.py --workdir $W --cat NN && python3 $K/build_pool.py --workdir $W
@@ -136,7 +136,7 @@ re-dated into the window, including an undated "FOLLOW-UP of mid-2026". Add same
 ```
 python3 $K/build_products.py --workdir $W [--report-min 5] [--bulletin-min 7] --bulletin-min-cat HEA=6,SOC=6
 ```
-Report: score 5 and up plus the Fun Side, raised past about 150, lowered under about 50. Bulletin: the cutoff that
+Report: aim at 100 to 120 stories (Rafi, 7 Oct 2026, CLAUDE.md rule 14): cutoff 5 or 6, whichever lands closest, plus the Fun Side. Bulletin: the cutoff that
 lands near 30 to 50 (usually 6, 7 or 8 and up), plus the top 3 Fun (CLAUDE.md rule 14; 3 Oct 2026 Rafi chose 7
 and up). Read the "CHECK bulletin spread" line: a category with no story is stated to Rafi with the count.
 
@@ -163,7 +163,7 @@ decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update c
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
-Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` yourself, following `$A/briefs/bigger_picture.md`.
+Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Opus agent (Agent tool model "opus", CLAUDE.md MODEL POLICY; Rafi, 7 Oct 2026), following `$A/briefs/bigger_picture.md`.
 
 ### 11. Final build and PDFs
 ```
@@ -188,7 +188,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
 ```
 python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent prompt products/drive_delivery_prompt.txt
 ```
-   Launch one background agent: `Read $W/products/drive_delivery_prompt.txt and follow it exactly.` It creates the
+   Launch one background agent ONLY for text files up to about 30 KB (the connection retypes content, so large files cost tokens and fail; Rafi, 7 Oct 2026, lesson 85); everything larger goes to Rafi in chat and he drags it into Drive. Agent: `Read $W/products/drive_delivery_prompt.txt and follow it exactly.` It creates the
    missing subfolders of daily_data_generated/<edition>, uploads each file, verifies every size and writes
    products/drive_delivery.json. Then `python3 $K/delivery_manifest.py --workdir $W --part A --check $W/products/drive_delivery.json`
    and tell Rafi what is on Drive and what the connection refused (he gets those in chat).

@@ -398,3 +398,11 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     by 1 or 2 stories costs about 90k tokens for weak stories (skipped, rule 14); setup and Drive agents are mechanical and could run on Haiku (Rafi decides, MODEL POLICY says Sonnet).
 87. (7 Oct 2026) HELPER TOKENS, Part A: setup 255k, 16 curators about 1.52 M, 16 writers about 2.1 M, 2 Opus editors 341k, Bigger Picture (Opus) 124k, Drive delivery 93k.
 88. (7 Oct 2026) The Bigger Picture ran on an Opus agent (MODEL POLICY), not on the main session; the skill step 10 still says "write it yourself" and needs that line changed.
+89. (7 Oct 2026) RAFI'S DECISIONS ON THE TOKEN LESSONS 85 TO 88, all now in CLAUDE.md and the Part A skill: (a) never Haiku, for any job; (b) a category short by 1 or 2 stories gets no
+    filler agent; (c) earlier days' pools come from the repo, not Drive; (d) the Drive upload agent only for text files up to about 30 KB, bigger files go to Rafi in chat; (e) the Bigger
+    Picture is written by one Opus agent; (f) the Full Report aims at 100 to 120 stories (cutoff 5 or 6, closest wins; 7 Oct 2026: 6 gave 93, 5 gave 177, "177 is too long to read");
+    (g) the Bulletin cutoff is 6 for Health and Society and education so those sections are never empty. NOT decided: writing only stories at 6 and up (would save about 0.8 M tokens).
+    FOR V1 (Astra): the report size target, the per category bulletin cutoff, the no Haiku rule and the Drive upload limit belong in the V1 rules files on Drive; the cards rule
+    base_min=5 now reaches below the report cutoff of 6, an open clash for Part B.
+90. (7 Oct 2026, mistake record) I used the word "cat" and other shorthand (filler, curators, held, headline only) in a report to Rafi without explaining them; he cannot follow it.
+    Prevention: name every term in full the first time and use the category's real name. Fix: replies to Rafi use full names (category, not cat), and explain a working term once in plain words.

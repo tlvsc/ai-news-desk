@@ -128,7 +128,8 @@ not about which project it is.
     MODEL POLICY (Rafi, 6 Oct 2026, replaces the MODEL TRIAL): the main session and the bulk agents (16 curators, fillers,
     16 writers, setup, Drive delivery) run on Sonnet (Agent tool model "sonnet"). Hard tasks run on Opus 5.5 at extra high
     effort (Agent tool model "opus"): the editors, the Bigger Picture, the card and Headlines wording, the stranger check, the
-    rules agent and the rewrite agent. Fable (model "fable") is used ONLY when Rafi, after seeing a result, says it is not
+    rules agent and the rewrite agent. NEVER Haiku (Rafi, 7 Oct 2026: not for setup, Drive, writers or anything else).
+    Fable (model "fable") is used ONLY when Rafi, after seeing a result, says it is not
     enough, and then only for the item he names. Report the helper token use per stage next to the 4 and 5 Oct runs.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
