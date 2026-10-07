@@ -420,3 +420,6 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
 94. (7 Oct 2026, mistake record) NOVICE TEST AT CHOICE TIME. Rafi asked "who are these people, does a novice know them" about the Dalio and Dimon cards. The picker brief had no novice test; the reader level rule
     (identify unfamiliar names, explain terms) is applied only when the wording is written and then checked by the stranger agent. Prevention: ask at the choice stage, not only after wording. Fix: the picker brief and
     pick_gate.py (G15b) now require a novice_test for every card: who a novice would not know, the plain introduction, and whether the story still lands.
+95. (7 Oct 2026, mistake record) ACTING ON MY OWN RECOMMENDATION. Rafi asked "who are Dalio and Dimon, does a novice know them". I offered two options, recommended option 2 (re-pick without name-dependent stories), got no choice from him, and ran it:
+    two cards he never asked to remove were dropped. His rule is who, what, why: introduce the name, never avoid it. Prevention: a question is not a decision; a recommended option is never run until he picks it; answer his question first.
+    Fix: the picker brief now says an unfamiliar name gets a plain introduction and a famous name is a reason to keep a story; this rule is added here.
