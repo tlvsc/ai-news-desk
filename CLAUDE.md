@@ -176,8 +176,11 @@ not about which project it is.
     an earlier story is a card ONLY when a major story changed meaningfully AND Rafi has named it; the default is none (card_candidates.py reads cards_work/update_allowed.json,
     empty by default). Before Rafi sees a deck, every card is compared with the cards and Headlines of the last 3 days by name and topic, and the table is shown.
     NO REPEATS IN 7 DAYS (Rafi, 7 Oct 2026): no story that was a card or a Headlines clip in the last 7 days comes back, as a repeat or as an update (see NO UPDATE CARDS).
-    CLASH TO FIX ON DRIVE (7 Oct 2026, for Rafi or ChatGPT): the Drive Cards Master Section 2 item 6 says aim for 15 and item 8 says cards use the full report; the CARD FILTER here says 14 cards
-    chosen from the Bulletin; Cards Master item 7 (a money heavy deck is a failure) still stands and the picker applies it.
+    THE REPO IS THE SOURCE OF TRUTH FOR NOW; DRIVE IS CHATGPT'S (Rafi, 7 Oct 2026, replaces "clash to fix on Drive"): where this file differs from a Drive rules file there is no clash; this file wins.
+    Claude keeps docs/DRIVE_DIFFS_FOR_CHATGPT.md (every difference) and docs/V1_TASKS.md (every lesson), and when the scan is fully operational both go to ChatGPT. Aim: 14 story cards and 7 Headlines
+    story clips, not counting Fun, teaser, Bigger Picture, like and follow, cover and closing.
+    BIGGER PICTURE WEIGHT (Rafi, 7 Oct 2026): the Bigger Picture must be a meaningful analysis with a meaningful thing to watch, in the Full Report, the Bulletin, the card and the Headlines clip, and each
+    must say it is not financial advice.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
