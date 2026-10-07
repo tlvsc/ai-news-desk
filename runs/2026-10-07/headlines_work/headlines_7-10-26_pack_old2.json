@@ -49,41 +49,32 @@
   {
    "slot": 3,
    "kind": "story",
-   "category": "Markets",
-   "item": "C05-02",
-   "symbol": "a small glowing soap bubble with a simple pin touching its edge, text-free and number-free symbol",
-   "script": "On the markets. Giant hedge fund Bridgewater's founder Ray Dalio says the A I bubble is close to bursting, blaming heavy borrowing and rising rates.",
-   "source": "Bloomberg"
+   "category": "Energy",
+   "item": "C09-03",
+   "symbol": "a small glowing data centre building beside a simple raised open hand in a stop gesture, text-free symbol",
+   "script": "In energy. Towns that said no have reportedly sunk two hundred and sixty billion dollars of U S data centre plans, so A I needs the neighbours' yes.",
+   "source": "Heatmap News"
   },
   {
    "slot": 4,
    "kind": "story",
-   "category": "Security",
-   "item": "C05-01",
-   "symbol": "a small glowing bank building with a simple open padlock in front of it, text-free and number-free symbol",
-   "script": "In banking. JPMorgan Chase chief executive Jamie Dimon says an-thropic's Mythos A I made hacking ten times riskier, by his own estimate.",
-   "source": "Bloomberg"
+   "category": "Robotics",
+   "item": "C11-02",
+   "symbol": "a small glowing car seen from the front with an empty driver's seat and a simple steering wheel, text-free symbol",
+   "script": "Driverless cars next. Robotaxi firm Waymo is now driving in Detroit with no one at the wheel, though so far only its staff can ride.",
+   "source": "ClickOnDetroit (WDIV Local 4)"
   },
   {
    "slot": 5,
    "kind": "story",
-   "category": "Energy",
-   "item": "C09-03",
-   "symbol": "a small glowing data centre building beside a simple raised open hand in a stop gesture, text-free symbol",
-   "script": "In energy. Local opposition has stopped at least two hundred and sixty billion dollars of U S data centre plans this year, by one news outlet's own count.",
-   "source": "Heatmap News"
-  },
-  {
-   "slot": 6,
-   "kind": "story",
    "category": "Robotics",
    "item": "C11-16",
    "symbol": "a small glowing robotic hand holding a simple sewing needle with a thread, text-free symbol",
-   "script": "Now to robots. Chinese start-up Agilink says its robot hand can thread a needle and stitch silk embroidery, the fine touch home robots will need.",
+   "script": "Staying with robots. Chinese start-up Agilink says its robot hand can thread a needle and stitch silk embroidery, the fine touch home robots will need.",
    "source": "New Atlas"
   },
   {
-   "slot": 7,
+   "slot": 6,
    "kind": "story",
    "category": "Models",
    "item": "C02-01",
@@ -92,13 +83,22 @@
    "source": "9to5Google"
   },
   {
-   "slot": 8,
+   "slot": 7,
    "kind": "story",
    "category": "Law",
    "item": "C05-04",
    "symbol": "a small glowing medicine bottle beside a simple shield with a check mark, text-free symbol",
    "script": "Turning to safety. Nobel-winning A I pioneer Geoffrey Hinton wants A I firms to prove their models safe before release, as drug makers must.",
    "source": "Business Insider, as republished by AOL.com"
+  },
+  {
+   "slot": 8,
+   "kind": "story",
+   "category": "Society",
+   "item": "C14-02",
+   "symbol": "a small glowing group of seven simple figure outlines with three of them faded, text-free and number-free symbol",
+   "script": "Now to jobs. U S pollster Pew finds seven in ten Americans expect A I to mean fewer jobs, and worry grew most among the young.",
+   "source": "Radio Ink, citing Pew Research Center"
   },
   {
    "slot": 9,

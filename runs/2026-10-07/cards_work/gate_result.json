@@ -1,6 +1,6 @@
 {
  "ok": true,
- "md5": "5a78c8c372b706bbaddb5b302a92fd48",
+ "md5": "0a2170c7ff68a506ede899a162768dd8",
  "results": [
   [
    "G1 every id exists and is not held",
@@ -50,12 +50,17 @@
   [
    "G10 company limit on Headlines clips",
    true,
-   "{'Nvidia': 1, 'xAI': 1, 'Anthropic': 1, 'Google': 1}"
+   "{'Anthropic': 1, 'Google': 1}"
   ],
   [
    "G11 Headlines clips are cards, in deck order",
    true,
-   "['C06-02', 'C09-03', 'C11-02', 'C11-16', 'C02-01', 'C05-04', 'C14-02']"
+   "['C13-22', 'C09-03', 'C11-02', 'C11-16', 'C02-01', 'C05-04', 'C14-02']"
+  ],
+  [
+   "G11b when the deck has a Politics card, its clip is Headlines clip 1 (Rafi, 7 Oct 2026)",
+   true,
+   "clip 1 is C13-22, the Politics card is C13-22"
   ],
   [
    "G12 teaser stories are not cards and not clips",

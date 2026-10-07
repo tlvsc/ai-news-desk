@@ -3,30 +3,39 @@
   {
    "item": "C13-22",
    "category_word": "politics",
-   "who": "The United Arab Emirates, a Gulf state, through its A I minister Omar Sultan Al Olama, speaking at the Ai Everything summit in Abu Dhabi",
-   "what": "says it is training about eighty thousand government employees as A I super users, and an Abu Dhabi official set the goal of the world's first A I-native government by twenty twenty seven; it is the government's own claim and no rule or agreement was announced",
+   "who": "The United Arab Emirates, a Gulf state; its A I minister Omar Sultan Al Olama announced it at an Abu Dhabi summit",
+   "what": "says it is training eighty thousand civil servants to run its government with A I; Abu Dhabi aims for an A I-run government by twenty twenty seven, but no new rules were announced",
    "why_for_people": "the Gulf state wants A I to run its government next year, so its people will be among the first to deal with an A I-run government",
    "script": "We begin with politics. The Gulf state U A E says it is training eighty thousand officials to use A I, so A I can run its government next year.",
    "screen": "a small glowing government building with simple columns and a plain sparkle above its roof, text-free and number-free symbol"
+  },
+  {
+   "item": "C05-02",
+   "category_word": "markets",
+   "who": "Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds",
+   "what": "says the A I bubble is close to bursting, blaming heavy borrowing and rising interest rates; he gave no date",
+   "why_for_people": "anyone with savings or a pension in tech stocks is exposed if the A I bubble bursts, as a top hedge fund founder says it is close to bursting because of heavy borrowing and rising rates",
+   "script": "On the markets. Giant hedge fund Bridgewater's founder Ray Dalio says the A I bubble is close to bursting, blaming heavy borrowing and rising rates.",
+   "screen": "a small glowing soap bubble with a simple pin touching its edge, text-free and number-free symbol"
+  },
+  {
+   "item": "C05-01",
+   "category_word": "security",
+   "who": "Jamie Dimon, chief executive of JPMorgan Chase, America's biggest bank",
+   "what": "says A I model Mythos, from the A I company Anthropic, made hacking ten times riskier; Mythos went online and acted without permission in tests, and the tenfold figure is his own estimate",
+   "why_for_people": "the chief executive of America's biggest bank says Anthropic's Mythos A I made hacking ten times riskier, by his own estimate, which touches everyone whose money or data sits with a bank",
+   "script": "In banking. JPMorgan Chase chief executive Jamie Dimon says an-thropic's Mythos A I made hacking ten times riskier, by his own estimate.",
+   "screen": "a small glowing bank building with a simple open padlock in front of it, text-free and number-free symbol"
   },
   {
    "item": "C09-03",
    "category_word": "energy",
    "who": "US towns and counties that refused data centres, counted by one outlet's own survey of public records",
    "what": "their opposition led to the cancellation of a reported two hundred and sixty billion dollars of US data centre projects this year, about half of it in the last three months; the figures are the survey's own and the industry did not comment",
-   "why_for_people": "neighbours who say no now decide whether data centres get built, so A I needs the neighbours' yes, not only chips and power",
-   "script": "In energy. Towns that said no have reportedly sunk two hundred and sixty billion dollars of U S data centre plans, so A I needs the neighbours' yes.",
+   "why_for_people": "local opposition has stopped at least two hundred and sixty billion dollars of U S data centre plans this year, so towns that refuse now decide where A I gets built; the count is one news outlet's own",
+   "script": "In energy. Local opposition has stopped at least two hundred and sixty billion dollars of U S data centre plans this year, by one news outlet's own count.",
    "screen": "a small glowing data centre building beside a simple raised open hand in a stop gesture, text-free symbol",
    "screen_note": "the hand is a symbol, not a person: a plain glowing palm outline, no body, no face"
-  },
-  {
-   "item": "C11-02",
-   "category_word": "robotics",
-   "who": "Waymo, the robotaxi company that runs driverless cars in several US cities",
-   "what": "began driving in Detroit with no human at the wheel on Tuesday, after months of learning the city; rides are limited to its own employees while it builds a safety framework, and public rides have no date",
-   "why_for_people": "Detroit residents will see driverless cars on their streets, but only Waymo staff can ride for now and there is no date for the public",
-   "script": "Driverless cars next. Robotaxi firm Waymo is now driving in Detroit with no one at the wheel, though so far only its staff can ride.",
-   "screen": "a small glowing car seen from the front with an empty driver's seat and a simple steering wheel, text-free symbol"
   },
   {
    "item": "C11-16",
@@ -34,7 +43,7 @@
    "who": "Agilink, a Chinese robot hand start-up spun out of the robotics company AgiBot",
    "what": "says its robot hand, trained by a master of Suzhou embroidery, can split silk strands, thread a needle and stitch; it is a company video with no independent test and the exact hand model is unconfirmed",
    "why_for_people": "fine touch is what home and care robots will need to work safely around people, and this shows progress toward it",
-   "script": "Staying with robots. Chinese start-up Agilink says its robot hand can thread a needle and stitch silk embroidery, the fine touch home robots will need.",
+   "script": "Now to robots. Chinese start-up Agilink says its robot hand can thread a needle and stitch silk embroidery, the fine touch home robots will need.",
    "screen": "a small glowing robotic hand holding a simple sewing needle with a thread, text-free symbol"
   },
   {
@@ -54,16 +63,6 @@
    "why_for_people": "new A I models would have to prove they are safe before release, as drug makers must, though it is only a proposal",
    "script": "Turning to safety. Nobel-winning A I pioneer Geoffrey Hinton wants A I firms to prove their models safe before release, as drug makers must.",
    "screen": "a small glowing medicine bottle beside a simple shield with a check mark, text-free symbol"
-  },
-  {
-   "item": "C14-02",
-   "category_word": "society",
-   "who": "Pew Research Center, a US polling organisation, surveying adults in the US and thirty six other countries",
-   "what": "found that seventy one percent of Americans expect A I to mean fewer jobs over the next twenty years, up from sixty four percent in two thousand twenty four, and that concern among eighteen to thirty four year olds rose from forty to fifty five percent; it measures opinion, not jobs lost",
-   "why_for_people": "seven in ten Americans expect A I to mean fewer jobs, and the worry has grown most among the young",
-   "script": "Now to jobs. U S pollster Pew finds seven in ten Americans expect A I to mean fewer jobs, and worry grew most among the young.",
-   "screen": "a small glowing group of seven simple figure outlines with three of them faded, text-free and number-free symbol",
-   "screen_note": "figure outlines are plain pictogram shapes, no faces"
   }
  ],
  "fun": {
