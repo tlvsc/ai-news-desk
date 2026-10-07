@@ -184,6 +184,8 @@ not about which project it is.
     launches, data releases), each with its date and source, and says plainly when a date is not confirmed. In the Full Report and the Bulletin it stays at the END for now (Rafi, 7 Oct 2026). The Headlines clip
     screen flashes a warning sign with the words "This is not financial advice" (Rafi, 7 Oct 2026; newer than the text-free screen rule, which stays for every other clip), and the post caption carries
     the same line.
+    PEOPLE WITH THEIR POSITION (Rafi, 7 Oct 2026): every named person is given their position and organisation in the same sentence, so their words carry weight, for example "Ray Dalio, founder of
+    Bridgewater, one of the world's biggest hedge funds" or "Jamie Dimon, chief executive of JPMorgan Chase, the biggest US bank". Never a vague label like "big investor" or "billionaire investor". Applies to every product.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and

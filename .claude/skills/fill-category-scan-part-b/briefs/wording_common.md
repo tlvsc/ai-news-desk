@@ -18,3 +18,5 @@ Hard rules (a script checks them, then a stranger who knows nothing retells ever
 8. REPLY STORIES (Rafi, 4 Oct 2026): when a story is a reply, reaction or comment to an earlier story, the card says so plainly ("a reply to", "replied", "answered") and names the earlier story in the body ("Yesterday we carried a New York Times report: ...", "We reported his exit yesterday"); the clip says "as we reported yesterday" or the like. A reply that names no one is "widely read as a reply". check_wording.py fails a reply story that does not do both.
 7. The outlet is never part of a card headline or a spoken line (the card has a source line; clips show the outlet on screen).
 Write for the ear: read each line aloud once; if a listener needs it repeated, rewrite it.
+
+7. PEOPLE WITH THEIR POSITION (Rafi, 7 Oct 2026): every named person gets their position and organisation in the same sentence ("Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds"), never a vague label such as "big investor" or "billionaire investor". Introduce unfamiliar companies the same way.
