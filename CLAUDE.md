@@ -77,7 +77,8 @@ not about which project it is.
     cutoff; if it gives very few, lower it; state the cutoff and the count (Rafi,
     29 Sep 2026). The Bulletin cutoff flexes: pick the cutoff that lands it near
     30 to 50 stories (usually 6, 7 or 8 and up), then state the cutoff and the count
-    (Rafi, 28 Sep 2026).
+    (Rafi, 28 Sep 2026). Health and Society and education get a lower bulletin cutoff of 6, so those two sections are never empty (Rafi, 7 Oct 2026;
+    build_products.py --bulletin-min-cat HEA=6,SOC=6).
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
 16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
     only when Rafi asks, for a late start. Fun Side: 5 to 10 stories in the Full Report,
