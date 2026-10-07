@@ -44,6 +44,7 @@ def main():
     ap.add_argument('--report-min', default='flex5')
     ap.add_argument('--bulletin-min', default='auto')
     ap.add_argument('--bulletin-fun', type=int, default=3)
+    ap.add_argument('--bulletin-min-cat', default='', help='lower bulletin cutoff for named categories, e.g. HEA=6,SOC=6 (Rafi, 7 Oct 2026)')
     a = ap.parse_args()
     W = Path(a.workdir); run = load_run(W); OUT = W / 'products'; OUT.mkdir(exist_ok=True)
     ed = edition(run); DATE = long_date(ed); WINDOW = window_text(run)
@@ -77,7 +78,8 @@ def main():
         rmin = pick(rcount, 1, 8, (50, 150)) if a.report_min == 'auto' else int(a.report_min)
     report = [e for e in live if in_rep(e, rmin)]
     report.sort(key=lambda e: (ORDER.index(e['v1_category']), -e['score'], e['item_id']))
-    in_bul = lambda e, t: e['score'] >= t and e['v1_category'] != 'FUN'
+    catmin = {k: int(v) for k, v in (x.split('=') for x in a.bulletin_min_cat.split(',') if x)}
+    in_bul = lambda e, t: e['score'] >= min(t, catmin.get(e['v1_category'], t)) and e['v1_category'] != 'FUN'
     bmin = pick(lambda t: sum(in_bul(e, t) for e in report), 5, 8, (30, 50)) if a.bulletin_min == 'auto' else int(a.bulletin_min)
     fun = sorted((e for e in report if e['v1_category'] == 'FUN'), key=lambda e: (-e['score'], e['item_id']))[:a.bulletin_fun]
     bulletin = [e for e in report if in_bul(e, bmin) or e in fun]
@@ -103,6 +105,8 @@ def main():
     spread = {b: sum(1 for e in report if e['importance_label'] == b) for b in ['CRITICAL', 'HIGH', 'MEDIUM', 'WATCHLIST']}
     rule_r = f"pool score {rmin} to 10 plus The Fun Side"
     rule_b = f"every story scored {bmin} to 10, plus the top {len(fun)} Fun Side stories"
+    if catmin:
+        rule_b += " (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")"
 
     # ---------- Full Report markdown (the card renderer reads it as report_file)
     L = ["# Daily Global AI Intelligence Report (Claude LV1.1) — TEST RUN", "",
@@ -188,7 +192,7 @@ def main():
         bb = json.loads(bbf.read_text(encoding='utf-8'))
         bul_extra.insert(0, {"title": bb['title'], "paragraphs": bb['paragraphs']})
     bul_json = {"title": "Daily Bulletin", "date": DATE,
-                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more, plus the top {len(fun)} from The Fun Side.",
+                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more" + (" (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")" if catmin else "") + f", plus the top {len(fun)} from The Fun Side.",
                 "coverage": f"{WINDOW} · {len(bulletin)} stories",
                 "categories": cats(bulletin), "extra_sections": bul_extra}
     (OUT / 'report_pdf.json').write_text(json.dumps(rep_json, indent=1, ensure_ascii=False), encoding='utf-8')
