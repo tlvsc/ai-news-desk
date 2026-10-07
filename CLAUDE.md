@@ -40,6 +40,9 @@ not about which project it is.
 8. Every workflow instruction Rafi gives in ANY Claude chat gets written into this
    file so the next session already knows it.
 
+8a. WHEN TWO RULES CLASH, STOP AND ASK (Rafi, 7 Oct 2026, angry): whenever two rules, rulings or instructions touch or seem to clash, in a brief, a skill, a script or a Drive file, Claude does NOT choose.
+   It stops, names both rules and where they are written, says in one line how they clash, offers a paste-ready fix, and waits for Rafi. A higher rule in this file wins only if Rafi has said so.
+
 ## Project-specific
 
 9. MEDIA STAYS OUT OF GIT. Clips, masters and logo masters live in Google Drive
