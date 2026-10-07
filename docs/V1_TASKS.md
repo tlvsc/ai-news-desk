@@ -389,3 +389,12 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
     no filter arrows, the time is plain text. Rafi wants to sort by importance, time released, source and category. For V1: keep the pool as one clean data file with fixed
     columns (item_id, category, importance, published as a real date and time, source, title, summary, link), and put a sortable table on top of it for Rafi and, later,
     for the website. The data file is the one truth; the table is only a view. In this temporary session: a small script in Part A makes the Excel file each day (Rafi's pick pending).
+
+## Part 5: lessons from the 7 Oct 2026 run (Part A)
+85. (7 Oct 2026) DRIVE UPLOAD BY RETYPING IS A TOKEN WASTE. The Drive connection takes file content only as text or base64 that an agent emits; it cannot upload from a path.
+    On 7 Oct the delivery agent (93k tokens) made the folders, uploaded one 27 KB text file (1 byte off) and gave up on the other 8 files. The PDFs and big files go to Rafi in chat
+    anyway. Fix for V1: a local script or connector that uploads from a path, or Rafi drags the files; until then do not spend an agent on files above about 30 KB.
+86. (7 Oct 2026) CHEAP WINS FOUND: the four pool CSVs of earlier days come from runs/<date>/out in this repo, not from Drive (saves a Drive agent job); a filler for a category short
+    by 1 or 2 stories costs about 90k tokens for weak stories (skipped, rule 14); setup and Drive agents are mechanical and could run on Haiku (Rafi decides, MODEL POLICY says Sonnet).
+87. (7 Oct 2026) HELPER TOKENS, Part A: setup 255k, 16 curators about 1.52 M, 16 writers about 2.1 M, 2 Opus editors 341k, Bigger Picture (Opus) 124k, Drive delivery 93k.
+88. (7 Oct 2026) The Bigger Picture ran on an Opus agent (MODEL POLICY), not on the main session; the skill step 10 still says "write it yourself" and needs that line changed.
