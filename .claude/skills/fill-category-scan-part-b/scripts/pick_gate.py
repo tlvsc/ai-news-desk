@@ -131,6 +131,7 @@ def gate(W):
         for x in brief(ents[i])['companies']: comp2[x] = comp2.get(x, 0) + 1
     chk('G10 company limit on Headlines clips', all(v <= F['company_clips'] for v in comp2.values()), str(comp2))
     chk('G11 Headlines clips are cards, in deck order', all(h in ids for h in hl) and [ids.index(h) for h in hl] == sorted(ids.index(h) for h in hl), str(hl))
+    chk('G11b when the deck has a Politics card, its clip is Headlines clip 1 (Rafi, 7 Oct 2026)', 'POL' not in cats or hl[0] == ids[cats.index('POL')], f'clip 1 is {hl[0]}, the Politics card is {ids[cats.index("POL")] if "POL" in cats else "none"}')
     chk('G12 teaser stories are not cards and not clips', not (set(tz) & (set(ids) | set(hl))), str(set(tz) & set(ids)))
     chk('G13 robotics card shows a machine doing something', all(ents[i].get('machine_action') is not False for i in ids if ents[i]['v1_category'] == 'ROB'), '')
     chk('G14 labels are at most 15 characters', all(len(c.get('label', '')) <= 15 and c.get('label') for c in cards), str([c['item'] for c in cards if len(c.get('label', '')) > 15]))
