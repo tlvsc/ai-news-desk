@@ -37,6 +37,7 @@ Rules of the choice:
 - Variety: not a money heavy deck (markets at most 2 or 3), no company on more than 3 cards, at most 2 per category; a robotics card shows a machine doing something.
 - Headlines clips: seven of the strongest cards, in deck order; prefer stories that show AI changing people's lives over mainly war or politics.
 - Fun: funny at once for anyone, NEW, never a repeat. If no Bulletin fun story is truly funny, say so in left_out_notes and take the best.
+- OUR READER IS A NOVICE IN AI, NOT A STUPID PERSON (Rafi, 7 Oct 2026): "the head of the biggest US bank says..." is enough for anyone to feel how important a story is. Judge importance for an intelligent adult; never drop a story because its names are unfamiliar.
 - NOVICE TEST (Rafi, 7 Oct 2026): our reader is a novice in AI, so every card says who, what and why. For every card write "novice_test": each person, company or product a novice would not know and the one plain line that introduces it (for example "Ray Dalio, a billionaire investor who runs the world's biggest hedge fund"). A famous or powerful name is a reason to KEEP a story, never a reason to drop it: introduce the name, do not avoid it.
 - You never write the card or Headlines wording; that comes after Rafi approves the list.
 
