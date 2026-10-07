@@ -4,7 +4,7 @@
   {
    "rule": "A3",
    "status": "PASS",
-   "detail": "story clips in deck order: [1, 4, 6, 7, 8, 10, 13]"
+   "detail": "story clips in deck order: [0, 4, 6, 7, 8, 10, 13]"
   },
   {
    "rule": "A5",
@@ -14,17 +14,17 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "C06-02 9.5 s (aim 9.0 s or less)"
+   "detail": "C13-22 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C06-02 opens with a spoken introduction: \"first, the money\""
+   "detail": "C13-22 opens with a spoken introduction: \"we begin with politics\""
   },
   {
    "rule": "B3",
    "status": "PASS",
-   "detail": "C06-02 has no digits"
+   "detail": "C13-22 has no digits"
   },
   {
    "rule": "B1",
@@ -169,12 +169,12 @@
   {
    "rule": "C16",
    "status": "PASS",
-   "detail": "one company at most 2 story clips: {'SpaceX': 1, 'Anthropic': 1, 'Google': 1}"
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'Google': 1}"
   },
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Agilink', 'Albania', 'Americans', 'Chinese', 'Claude', 'Detroit', 'Driverless', 'Elon Musk', 'First', 'French', 'Geoffrey Hinton', 'Google Docs', 'Mistral', 'Nigeria', 'Nobel', 'Now', 'Pew', 'Robotaxi', 'Sheets', 'Slides', 'Staying', 'Towns', 'Turning', 'Waymo']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Agilink', 'Albania', 'Americans', 'Chinese', 'Claude', 'Detroit', 'Driverless', 'French', 'Geoffrey Hinton', 'Google Docs', 'Mistral', 'Nigeria', 'Nobel', 'Now', 'Pew', 'Robotaxi', 'Sheets', 'Slides', 'Staying', 'Towns', 'Turning', 'Waymo', 'We']"
   }
  ],
  "names_to_tag": [
@@ -185,8 +185,6 @@
   "Claude",
   "Detroit",
   "Driverless",
-  "Elon Musk",
-  "First",
   "French",
   "Geoffrey Hinton",
   "Google Docs",
@@ -201,6 +199,7 @@
   "Staying",
   "Towns",
   "Turning",
-  "Waymo"
+  "Waymo",
+  "We"
  ]
 }

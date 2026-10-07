@@ -3,7 +3,7 @@
 Edition date: 2026-10-07 (Asia/Jerusalem)  
 Reporting window: 6 Oct 2026 07:41 UTC to 7 Oct 2026 07:41 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-07 13:46 UTC  
+Last updated: 2026-10-07 14:01 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
