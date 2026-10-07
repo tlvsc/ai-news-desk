@@ -129,8 +129,12 @@ not about which project it is.
     16 writers, setup, Drive delivery) run on Sonnet (Agent tool model "sonnet"). Hard tasks run on Opus 5.5 at extra high
     effort (Agent tool model "opus"): the editors, the Bigger Picture, the card and Headlines wording, the stranger check, the
     rules agent and the rewrite agent. NEVER Haiku (Rafi, 7 Oct 2026: not for setup, Drive, writers or anything else).
-    Fable (model "fable") is used ONLY when Rafi, after seeing a result, says it is not
-    enough, and then only for the item he names. Report the helper token use per stage next to the 4 and 5 Oct runs.
+    STORY CHOICE FOR CARDS AND HEADLINES (Rafi, 7 Oct 2026, replaces the Fable-only-on-request line: "this is our adverts, if it
+    sucks nobody follows and the business falls"): Fable chooses the stories of the cards and the Headlines and writes their wording, under the Drive
+    Cards Master (Sections 2 and 3) and Headlines Master (Sections A and B), the phrasing file and this file. A script gates the choice (ids exist, read in full, no
+    repeat of the last 7 days, no update unless Rafi named it, company and category limits, counts, order) and refuses to go on until it passes. Rafi approves the list before any wording is
+    written. Opus does the checks (stranger, rules, final audit per product, a checklist of every rule with PASS or FAIL and evidence), because a different model must check the author.
+    Fable is used elsewhere only when Rafi names the item. Report the helper token use per stage next to the 4 and 5 Oct runs.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
     reads the sentence limit from that file and fails a line that breaks the shape. A fix is shorter and simpler, never longer.
@@ -171,6 +175,9 @@ not about which project it is.
     NO UPDATE CARDS (Rafi, 7 Oct 2026, angry: Pentagon and Anthropic, DeepSeek, OpenAI and the Korean bank hack came back as cards on 3 days in a row): an update of
     an earlier story is a card ONLY when a major story changed meaningfully AND Rafi has named it; the default is none (card_candidates.py reads cards_work/update_allowed.json,
     empty by default). Before Rafi sees a deck, every card is compared with the cards and Headlines of the last 3 days by name and topic, and the table is shown.
+    NO REPEATS IN 7 DAYS (Rafi, 7 Oct 2026): no story that was a card or a Headlines clip in the last 7 days comes back, as a repeat or as an update (see NO UPDATE CARDS).
+    CLASH TO FIX ON DRIVE (7 Oct 2026, for Rafi or ChatGPT): the Drive Cards Master Section 2 item 6 says aim for 15 and item 8 says cards use the full report; the CARD FILTER here says 14 cards
+    chosen from the Bulletin; Cards Master item 7 (a money heavy deck is a failure) still stands and the picker applies it.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
