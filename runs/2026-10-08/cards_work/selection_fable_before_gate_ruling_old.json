@@ -1,0 +1,140 @@
+{
+  "edition": "2026-10-08",
+  "cards": [
+    {
+      "item": "C13-01",
+      "label": "Senate AI plan",
+      "reason": "The day's biggest government move on AI: a senior US senator's six-point plan for federal safety testing of the most powerful models, against the White House's voluntary approach. Politics leads the deck and the reel.",
+      "not_repeat_because": "No Cantwell or federal-testing story in the 3 to 7 Oct decks; 4 Oct had the White House AI task force and 7 Oct the senators' agent-liability bill, both different.",
+      "novice_test": "Maria Cantwell: the senior Democrat on the Senate Commerce Committee, the committee that oversees technology. NIST: the US government's standards agency. Frontier AI: the most powerful AI models. With those three lines the card lands: Washington may test the biggest AI models before they reach you."
+    },
+    {
+      "item": "C13-03",
+      "label": "Pentagon AI buy",
+      "reason": "WIRED's own reporting: the Pentagon can award AI deals for military targeting in under a week on the strength of five-minute company videos, up to $500m without notice to Congress, and a senator warns of weak oversight. Concrete, new and about how AI reaches the battlefield.",
+      "not_repeat_because": "6 Oct card was the Pentagon dropping Anthropic; 3 Oct card was Pentagon robot boats. Tradewinds and the five-minute videos are a different story, never in a deck.",
+      "novice_test": "Tradewinds: a Pentagon fast-track buying programme. Chief Digital and Artificial Intelligence Office: the Pentagon's AI office. Joni Ernst: Republican senator for Iowa. Kill chain: the steps from finding a target to striking it. It lands: the US military is buying targeting AI on a video pitch."
+    },
+    {
+      "item": "C07-01",
+      "label": "Samsung record",
+      "reason": "Top score of the day. Samsung estimates a quarterly profit of about $80bn on AI memory demand; if confirmed on 29 Oct it is the biggest quarterly operating profit any technology company has reported. Everyone knows Samsung.",
+      "not_repeat_because": "3 Oct card was Samsung asking triple the price for its next memory chips and 4 Oct card was Samsung charging more as TSMC is full; today's is the company's own profit estimate, a new event. The 5 Oct report carried a broker forecast, not a card.",
+      "novice_test": "Samsung: the South Korean electronics giant and the world's biggest memory-chip maker. AI memory: the fast memory chips packed beside AI processors. Operating profit: profit from the business itself. It lands: AI demand just gave Samsung the biggest quarter in tech history, if the estimate holds."
+    },
+    {
+      "item": "C07-02",
+      "label": "TSMC up 51%",
+      "reason": "The clearest sign AI chip demand is holding: the world's biggest chipmaker's quarterly revenue rose 51 percent, above analysts' estimates. Pairs with Samsung as the day's market signal; earnings call on 15 Oct.",
+      "not_repeat_because": "5 Oct card was TSMC planning a price rise, 4 Oct card was Musk's Terafab talks with TSMC; a revenue result is a different story.",
+      "novice_test": "TSMC: the Taiwanese company that makes most of the world's advanced chips, including Nvidia's and Apple's. Revenue: total sales. It lands: the factory that builds the AI chips sold half as much again as a year ago."
+    },
+    {
+      "item": "C12-03",
+      "label": "Hijacked AI",
+      "exception": true,
+      "reason": "Rafi's order: every category gets at least one card. Both Bulletin security stories are barred (C12-01 headline-only follow-up; C12-02 an update of the South Korean bank hacks, a card on 6 Oct). C12-03 is the best eligible security story in the Full Report: new research that malware has taken over more than 3,400 servers running exposed AI tools in the US and Western Europe, using them to mine cryptocurrency and launch attacks. NEW, read in full, score 6.",
+      "not_repeat_because": "No malware, cryptomining or exposed-AI-server story in the 3 to 7 Oct decks; the security cards were Apple Mac apps, a voice-clone fraud, Altman, Robinson, fake Anthropic emails, Wikipedia bots, the Korean bank hacks and Dimon's warning.",
+      "novice_test": "PoeLLM: the name researchers gave the malware. Black Lotus Labs: the research team of Lumen, a large US network company. LiteLLM and Ollama: free tools people use to run AI models on their own servers. Cryptomining: using a computer's power to earn cryptocurrency. It lands: thousands of computers set up to run AI were left open and are now working for criminals."
+    },
+    {
+      "item": "C09-01",
+      "label": "Yandex drones",
+      "reason": "Drones struck a major data centre of Russia's biggest tech company, started a fire and shut operations there. A data centre as a wartime target, new to the deck, understood in five seconds. Machine action true.",
+      "not_repeat_because": "No Yandex, Russia or data-centre-attack story in any of the 3 to 7 Oct decks.",
+      "novice_test": "Yandex: Russia's leading internet and AI company, its Google. Ryazan: a region south-east of Moscow. Data centre: the building full of computers that runs online services. It lands: the computers behind Russia's internet were hit by drones; who sent them is not reported."
+    },
+    {
+      "item": "C11-02",
+      "label": "Nvidia, Figure",
+      "reason": "The humanoid card. Nvidia is reportedly in talks to put another $1bn into Figure AI, the humanoid robot start-up; Rafi named this story as the model for what counts in robotics. The card must say no original source is named and the robots build cars and sort parcels so it leads with the deed.",
+      "not_repeat_because": "3 Oct card was robot-software start-up FieldAI raising $700m; no Figure or Nvidia robot story in any deck since 3 Oct.",
+      "novice_test": "Nvidia: the US company whose chips run almost all AI. Figure AI: a California start-up building human-shaped robots for factories, founded by Brett Adcock in 2022. Helix: the AI brain in Figure's robots, built with Nvidia technology. It lands: the biggest AI chip company wants to own more of the humanoid robot business."
+    },
+    {
+      "item": "C11-17",
+      "label": "Dubai robotaxis",
+      "reason": "A machine doing something, confirmed by the companies: fully driverless Apollo Go taxis now pick up Uber riders in parts of Dubai with no one at the wheel, the first step of a multi-year plan for thousands of cars. Second robotics card under Rafi's 8 Oct rule; score 6 sits below extra_min 7, the newer ROBOTICS rule was applied.",
+      "not_repeat_because": "7 Oct card was Waymo in Detroit and 4 Oct card was Tesla's Cybercab in Austin; different company, different city, different continent.",
+      "novice_test": "Baidu: China's biggest search company, which also runs the Apollo Go robotaxi service. Apollo Go: Baidu's driverless taxi service, already running in Chinese cities. Umm Suqeim and Jumeirah: beach districts of Dubai. It lands: order an Uber in Dubai and a car with no driver may turn up."
+    },
+    {
+      "item": "C02-01",
+      "label": "ChatGPT charts",
+      "reason": "Changes what hundreds of millions of people see when they ask a question: ChatGPT answers now mix text with charts, diagrams, forms and buttons you can tap, arriving with GPT-6 and reaching free users today. Claims are OpenAI's own, no outside test yet.",
+      "not_repeat_because": "No ChatGPT interface or GPT-6 story in the 3 to 7 Oct decks; 4 Oct card was Google's Gemini tiers, 7 Oct card was Claude in Google Docs.",
+      "novice_test": "OpenAI: the company behind ChatGPT. GPT-6: its newest AI model family, announced last month. Intelligent UI: OpenAI's name for answers with charts and buttons. Plus, Pro and Go: ChatGPT's paid plans. It lands: ChatGPT stops answering only in text."
+    },
+    {
+      "item": "C01-02",
+      "label": "Haiku 5.5",
+      "reason": "Rafi asked for it as a card. Anthropic released Claude Haiku 5.5, its fastest and cheapest model, with prices about 75 percent lower on average than the previous Haiku and up to 90 percent lower on long prompts; the card must carry The Decoder's doubt that the new tokenizer may use more billed units, so real savings could be smaller.",
+      "not_repeat_because": "7 Oct card was Claude opening inside Google Docs, Sheets and Slides; a new model release at new prices is a different story. No Haiku story in any deck.",
+      "novice_test": "Anthropic: the US AI company that makes the Claude assistant. Haiku: its smallest, fastest model, used for high-volume jobs like customer support. Tokenizer: the system that splits text into the units a customer is billed for. It lands: the price of everyday AI work just fell by three quarters, on paper."
+    },
+    {
+      "item": "C04-01",
+      "label": "AI biology data",
+      "reason": "Google DeepMind, Meta, Isomorphic Labs and the US Department of Energy join Biohub in a $1.8bn push to build biological data sets for AI, aimed at predicting how cells respond to disease and treatment. Leads with the deed: data that could change how medicines are found. Score 9.",
+      "not_repeat_because": "No Biohub, Zuckerberg-Chan or AI-biology-data story in the 3 to 7 Oct decks; 6 Oct card was DeepMind's AI-designed enzymes, 7 Oct card was Lilly's drug tools, both different.",
+      "novice_test": "Biohub: the science nonprofit founded by Mark Zuckerberg, chief executive of Meta, and his wife Priscilla Chan. Google DeepMind: Google's AI lab. Isomorphic Labs: the AI drug-discovery company spun out of DeepMind. Department of Energy and National Institutes of Health: US government science agencies. It lands: the biggest names in AI and the US government are pooling $1.8bn to teach AI how living cells work."
+    },
+    {
+      "item": "C15-01",
+      "label": "DARPA quantum",
+      "reason": "Official and confirmed: the Pentagon's research arm picked Atom Computing, Diraq, IBM and IonQ for the final stage of its quantum benchmarking programme, where real machines are tested rather than paper plans, against a 2033 goal. Chosen over National Compute (same score, unannounced, anonymous sources).",
+      "not_repeat_because": "7 Oct card was a New York factory for light-based quantum parts; 5 Oct teaser was IBM's 19-second quantum feat; DARPA's selection is a different story.",
+      "novice_test": "DARPA: the US Defense Advanced Research Projects Agency, the Pentagon's research arm that funded the early internet. Quantum computer: a new kind of computer that could solve some problems far faster than today's machines. Atom Computing, Diraq, IonQ: quantum start-ups; IBM: the US computing giant. It lands: the US military has narrowed the quantum race to four builders."
+    },
+    {
+      "item": "C13-05",
+      "label": "AI robocalls",
+      "reason": "The only Bulletin law story and it touches anyone with a phone in the US: the FCC is weighing a waiver that would let political groups send robocalls with AI-generated voices to mobile phones before the November midterms, without the consent the law now demands. No decision yet.",
+      "not_repeat_because": "No FCC, robocall or AI-voice-in-politics story in the 3 to 7 Oct decks; the law cards were deepfakes in Minnesota and India, Altman, a New York council hearing, Hinton and agent liability.",
+      "novice_test": "FCC: the Federal Communications Commission, the US regulator for phones and broadcasting. Robocall: an automated phone call. Midterms: the US congressional elections in November. Waiver: permission to skip a rule. It lands: your phone could ring with a campaign message spoken by an AI."
+    },
+    {
+      "item": "C10-05",
+      "label": "NHS skin checks",
+      "reason": "Health best by audience: an AI tool will sort skin cancer referrals by urgency across all 18 NHS trusts in south-east England from this autumn, reaching a further 9 million people; the company calls it the largest rollout of autonomous medical AI in NHS history. The card must say the claims and the word autonomous come from the company's own release and no accuracy figures are given.",
+      "not_repeat_because": "6 Oct card was Britain checking AI medical tools throughout their use; 4 Oct card was Mayo Clinic's pancreatic cancer AI; a skin-cancer rollout across 18 trusts is a different story.",
+      "novice_test": "NHS: Britain's public health service. NHS trust: a regional hospital organisation. Skin Analytics: the British company behind the DERM tool. Referral: when a family doctor sends a patient to a specialist. It lands: in part of England an AI, not a doctor, will decide which skin checks are urgent."
+    },
+    {
+      "item": "C14-02",
+      "label": "ChatGPT Teens",
+      "reason": "Parents worldwide: Common Sense Media says ChatGPT for Teens fails to alert parents when it should and still does children's homework; OpenAI says the tests may have run before its parental controls were fully active, and the watchdog answers that some accounts were linked long enough. DISPUTED; the card carries both sides.",
+      "not_repeat_because": "4 Oct card was a child-safety group rating Google's AI search answers unsafe; different product and company. No ChatGPT for Teens story in any deck.",
+      "novice_test": "Common Sense Media: a US nonprofit that reviews apps and media for children's safety. ChatGPT for Teens: OpenAI's version of ChatGPT for 13 to 17 year olds, with parental controls. Crisis alert: a message to parents when a teen's chat suggests they may be in danger. It lands: the safety net for teenagers on ChatGPT may not catch them, and the two sides disagree why."
+    }
+  ],
+  "fun": {
+    "item": "C16-10",
+    "label": "Dots in love",
+    "reason": "Funny at once for anyone: WIRED let OpenAI's new Dots shopping agent loose for two days; it mistranscribed speech, failed a captcha, still found a couch, and when the tester mumbled something it replied 'Oh, I love you too'. OpenAI says that kind of mirroring is allowed. Chosen over the Bulletin's rank-1 fun story (C16-01, a creepy imp meme, creepy rather than funny) and C16-02 (headline-only)."
+  },
+  "headlines": [
+    "C13-01",
+    "C07-01",
+    "C09-01",
+    "C11-02",
+    "C02-01",
+    "C04-01",
+    "C14-02"
+  ],
+  "headlines_fun": "C16-10",
+  "teaser": [
+    {"item": "C02-02"},
+    {"item": "C05-01"},
+    {"item": "C14-06"},
+    {"item": "C11-04"}
+  ],
+  "bp_refs": [
+    "C07-01",
+    "C07-03",
+    "C05-01"
+  ],
+  "bigger_picture": {"card": true, "clip": true},
+  "disputed_repeats": {},
+  "left_out_notes": "Left out: C02-02 Microsoft Copilot acting on PC files (8, moved to the teaser by Rafi); C05-01 IMF chief Georgieva's debt and AI warning (7, teaser and Bigger Picture reference); C04-02 National Compute $100m credits (8, unannounced, anonymous sources); C09-02 China's inland data centres (7, FT text read only via BigGo); C14-06 Kakuma refugees losing online work to AI (6, below extra_min, teaser). Excluded as updates or repeats: C12-02 Korean bank hacks (6 Oct card and clip), C07-03 SpaceX debt insurance (7 Oct card and clip; Bigger Picture reference only), C10-01 Utah evaluators (6 Oct acne card), C12-01 fired OpenAI researchers (headline-only follow-up). Security card C12-03 is the exception: not in the Bulletin, taken from the Full Report on Rafi's order that every category gets at least one card. Company count: OpenAI 3 (C02-01, C14-02, fun C16-10), at the limit; 2 OpenAI clips (C02-01, C14-02), at the clip limit."
+}

@@ -1,7 +1,7 @@
 {
  "title": "Daily Bulletin",
  "date": "8 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report.",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, LAW from 6), plus the top 3 from The Fun Side.",
  "coverage": "7 Oct 2026 09:07 UTC to 8 Oct 2026 09:07 UTC (24 hours) · 43 stories",
  "categories": [
   {
@@ -16,7 +16,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "Roll Call reports that Maria Cantwell, the Democratic ranking member of the Senate Commerce Committee, released a six-point framework on 7 Oct 2026 for safety rules on frontier AI, meaning the most powerful AI models. It would have the National Institute of Standards and Technology (NIST) set the standards, with continuous testing and reporting of serious failures, and it contrasts with the White House's preference for voluntary rules.",
-      "Why it matters: a six-point plan would give the federal government a major role in setting safety standards and testing frontier AI, with incident reporting for developers. It has no bill text and comes from the minority party, so it may not pass."
+      "Why it matters: What changed: a six-point plan would give the federal government a major role in setting safety standards and testing frontier AI, with incident reporting for developers. It has no bill text and comes from the minority party, so it may not pass."
      ],
      "source": "Roll Call",
      "url": "https://rollcall.com/2026/10/07/sen-maria-cantwell-looks-to-federal-testing-role-in-ai-safety-framework/"
@@ -44,7 +44,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Information reports that the US Treasury has fined a California company, Amidi Group, $200,000 in the first penalty under its program restricting investment in China's tech sector.",
-      "Why it matters: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported, which matters first to US companies and investors with deals in China. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear."
+      "Why it matters: What changed: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported, which matters first to US companies and investors with deals in China. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "The Information",
      "url": "https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector"
@@ -58,7 +59,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "WIRED reports that the Pentagon's Tradewinds program, run by its Chief Digital and Artificial Intelligence Office, gives 'post-competitive' status, meaning buyers can skip some competition rules, to AI companies whose five-minute videos are accepted. OpenAI, Anthropic and Google are listed as participants, but none confirmed whether Tradewinds was used for the deals WIRED identified, and Senator Joni Ernst of Iowa warns of weak oversight.",
-      "Why it matters: a fast-track route lets the Pentagon award AI deals in under a week in some cases, with less competition, and such deals can reach $500 million without notice to Congress. Companies that use it get a quicker path to military contracts, and the oversight concerns raised by Senator Joni Ernst of Iowa are not yet answered."
+      "Why it matters: What changed: a fast-track route lets the Pentagon award AI deals in under a week in some cases, with less competition, and such deals can reach $500 million without notice to Congress. Companies that use it get a quicker path to military contracts, and the oversight concerns raised by Senator Joni Ernst of Iowa are not yet answered."
      ],
      "source": "WIRED",
      "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/"
@@ -161,7 +162,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Wall Street Journal reports that global stocks fell as oil prices rose and investors pulled back from AI shares.",
-      "Why it matters: It matters most to investors, because a fall in global stocks on higher oil prices and a pullback from AI shares changes what their holdings are worth, though the size of the moves is not yet clear."
+      "Why it matters: It matters most to investors, because a fall in global stocks on higher oil prices and a pullback from AI shares changes what their holdings are worth, though the size of the moves is not yet clear.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Wall Street Journal",
      "url": "https://www.wsj.com/finance/commodities-futures/global-stocks-fall-on-higher-oil-prices-ai-pullback-05f7b87e"
@@ -180,7 +182,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Wall Street Journal reports that fired OpenAI researchers have asked the company to keep visibility into AI reasoning, meaning how its models work through a problem.",
-      "Why it matters: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection, which matters to the people who use its models and to those who check them for safety; what exactly they asked for and how OpenAI responds are not yet known."
+      "Why it matters: What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection, which matters to the people who use its models and to those who check them for safety; what exactly they asked for and how OpenAI responds are not yet known.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Wall Street Journal",
      "url": "https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94"
@@ -194,7 +197,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "Reuters reports, as carried by The Japan Times, that US security firm CrowdStrike said in a report on 7 Oct 2026 that the attacker behind recent hacks of South Korean banks may be a 26-year-old in China's Guangdong province who used AI tools, while cautioning that it cannot definitively identify the person. Our 7 Oct edition carried The Record's report that officials believe a Chinese hacking tool, Artex AI, was used against banks including Shinhan Bank and KB Kookmin Bank; police have opened a probe.",
-      "Why it matters: CrowdStrike says AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented."
+      "Why it matters: What changed: CrowdStrike says AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented."
      ],
      "source": "Reuters",
      "url": "https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/"
@@ -227,7 +230,7 @@
      "status": "CONFIRMED",
      "paragraphs": [
       "TechCrunch reports that Microsoft gave prices and specifications on 7 Oct for its Surface Laptop Ultra, built on Nvidia's RTX Spark chip, from $2,600, after the Nvidia PC processor reported in our 5 Oct edition. Microsoft also says a revamped Windows 11 with a feature called Execution Containers makes it easier to sandbox AI agents, that is, run them isolated from the rest of the computer.",
-      "Why it matters: the prices and specs are public, aimed first at developers and at PC buyers who might switch from MacBooks; Microsoft's claims that the machines run AI models on the device for free and handle them well are its own pitch and have not been tested."
+      "Why it matters: What changed: the prices and specs are public, aimed first at developers and at PC buyers who might switch from MacBooks; Microsoft's claims that the machines run AI models on the device for free and handle them well are its own pitch and have not been tested."
      ],
      "source": "TechCrunch",
      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
@@ -241,7 +244,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "On 28 Sep 2026 we carried a ZDNet Korea report that Nvidia chief executive Jensen Huang was due to meet Samsung chairman Lee Jae-yong and SK Group chairman Chey Tae-won, with the supply of HBM, the fast memory stacked beside AI chips, the topic the industry was watching, though no deal had been announced. Now Hankyung reports, as relayed by Sammy Fans, that Samsung finished qualification in late September for its 12-layer HBM4E, meaning it met key customers' technical and reliability requirements, with Nvidia and large cloud companies widely considered the likely customers, but Samsung has not confirmed the report or named them.",
-      "Why it matters: if confirmed, Samsung would be ready to supply this memory, which matters to AI chip makers and the cloud firms that buy them, but the report is unconfirmed, the buyers are unnamed, and passing tests does not guarantee orders or volumes."
+      "Why it matters: What changed: if confirmed, Samsung would be ready to supply this memory, which matters to AI chip makers and the cloud firms that buy them, but the report is unconfirmed, the buyers are unnamed, and passing tests does not guarantee orders or volumes."
      ],
      "source": "Hankyung",
      "url": "https://www.sammyfans.com/2026/10/07/samsung-12-layer-hbm4e-clears-nvidia-quality-verification/"
@@ -288,38 +291,10 @@
      "status": "REPORTED",
      "paragraphs": [
       "The News International reports that Nvidia has been in talks to invest another $1 billion in Figure AI, a humanoid robot startup that its founder, Brett Adcock, set up in 2022. Nvidia already backed Figure's funding round in September 2025 and is a technology provider for Figure's Helix AI models, but the article names no original source for the new talks.",
-      "Why it matters: the chip maker Nvidia may add $1 billion to a humanoid robot startup, which matters to robot builders and to the buyers who depend on their output; the doubt: the article gives no source and no deal terms."
+      "Why it matters: What changed: the chip maker Nvidia may add $1 billion to a humanoid robot startup, which matters to robot builders and to the buyers who depend on their output; the doubt: the article gives no source and no deal terms."
      ],
      "source": "The News International",
      "url": "https://www.thenews.com.pk/latest/1419084-nvidia-eyes-major-investment-in-figure-ai-robotics-heres-what-to-know"
-    },
-    {
-     "headline": "Tesla is reportedly expecting to build more than 1,000 Optimus humanoid robots a week by the end of 2026.",
-     "score": 6,
-     "importance": "MEDIUM",
-     "rank": 3,
-     "rank_of": 8,
-     "status": "REPORTED",
-     "paragraphs": [
-      "BGR reports, citing an exclusive from The Information, that the hands and forearms of Tesla's Optimus humanoid robot need a lot of manual assembly, which slows production. BGR also reports that Tesla expects to make more than 1,000 Optimus robots a week by the end of 2026, and Elon Musk, Tesla's chief executive, has said the public could buy one by late 2027.",
-      "Why it matters: Tesla is aiming to raise output of its humanoid robot about tenfold, which matters to factory workers and to future buyers; the doubt: the 1,000-a-week goal is an expectation, the hand-assembly problem comes from a single report, and no sale price or date is set."
-     ],
-     "source": "BGR",
-     "url": "https://www.bgr.com/2279995/tesla-optimus-robot-production-ramp-up/"
-    },
-    {
-     "headline": "Uber and Baidu have launched fully driverless Apollo Go robotaxis on Uber's app in Dubai.",
-     "score": 6,
-     "importance": "MEDIUM",
-     "rank": 5,
-     "rank_of": 8,
-     "status": "CONFIRMED",
-     "paragraphs": [
-      "Scanx reports, citing a joint announcement by Uber and the Chinese company Baidu, that Apollo Go robotaxis, operated by New Horizon Luxury Transport, are now matched to Uber riders without a driver in parts of Dubai, including Umm Suqeim and Jumeirah. The launch is the first step in a multi-year partnership, and Dubai is meant to be the base for scaling to thousands of vehicles across Uber's network, though no timetable is given.",
-      "Why it matters: fully driverless cars now take Uber riders in parts of Dubai, which matters to riders and to Dubai's taxi drivers; the doubt: coverage is limited to select areas, the fleet size and timetable are not given, and the safety claims are the companies' own."
-     ],
-     "source": "scanx.trade",
-     "url": "https://scanx.trade/stock-market-news/companies/uber-launches-baidus-driverless-apollo-go-dubai/48753372"
     }
    ]
   },
@@ -348,7 +323,8 @@
      "rank_of": 12,
      "status": "CONFIRMED",
      "paragraphs": [
-      "The Decoder reports that Anthropic has released Claude Haiku 5.5, with prices about 75 percent lower on average than Haiku 4.5, and up to 90 percent lower for prompts up to 100,000 tokens. The model is aimed at high-volume jobs such as summaries and customer support, though The Decoder notes that the new tokenizer, the system that splits text into the units that are billed, may use slightly more of them, so real savings could be smaller."
+      "The Decoder reports that Anthropic has released Claude Haiku 5.5, with prices about 75 percent lower on average than Haiku 4.5, and up to 90 percent lower for prompts up to 100,000 tokens. The model is aimed at high-volume jobs such as summaries and customer support, though The Decoder notes that the new tokenizer, the system that splits text into the units that are billed, may use slightly more of them, so real savings could be smaller.",
+      "Why it matters: Companies and developers running high-volume AI tasks such as support chat can cut costs, but the honest doubt is that the new tokenizer may use more billed units per task, so real savings could be smaller than the prices suggest."
      ],
      "source": "The Decoder",
      "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/"
@@ -409,7 +385,7 @@
      "status": "CONFIRMED",
      "paragraphs": [
       "Quantum Computing Report reports that the US Defense Advanced Research Projects Agency (DARPA), the Pentagon's research arm, has picked Atom Computing, Diraq, IBM and IonQ for Stage C of its Quantum Benchmarking Initiative, the final verification phase. Stage C tests each design's physical chips, control electronics and software directly, rather than judging paper plans.",
-      "Why it matters: Atom Computing, Diraq, IBM and IonQ now face DARPA's final stage, which tests real machines against a 2033 goal that the agency itself set, and no test results are reported yet."
+      "Why it matters: What changed: Atom Computing, Diraq, IBM and IonQ now face DARPA's final stage, which tests real machines against a 2033 goal that the agency itself set, and no test results are reported yet."
      ],
      "source": "Quantum Computing Report",
      "url": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/"
@@ -456,7 +432,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Associated Press reports that the Federal Communications Commission (FCC), the US communications regulator, is considering a request from a conservative group to loosen rules on political robocalls, including calls with AI-generated voices, before the November midterm elections. US law already forbids most automated calls to mobile phones unless the person agreed in advance, and the group wants an exemption so political campaigns could make such calls with synthetic or recorded voices without that consent.",
-      "Anyone who gets these calls would be affected if the waiver is granted, and no decision is reported yet."
+      "Why it matters: What changed: the FCC is considering a waiver that would let political groups use AI-generated or prerecorded voices in unsolicited calls to cellphones before the November midterm elections. Anyone who gets these calls would be affected if the waiver is granted, and no decision is reported yet."
      ],
      "source": "Associated Press",
      "url": "https://apnews.com/article/fcc-political-robocalls-artificial-intelligence-ai-midterms-b97fb6e8d06704dc043556dba25de548"
@@ -475,7 +451,7 @@
      "status": "CONFIRMED",
      "paragraphs": [
       "On 6 Oct 2026 we carried The Verge's report that the startup Nolla Health had begun using AI to write acne prescriptions in Utah. Now Medical Daily reports that Utah's Office of Artificial Intelligence Policy has named six outside evaluators to check AI health tools tested in the state's sandbox, a scheme that eases some rules for approved pilots, and that the companies being checked pay the evaluators directly, not the state.",
-      "Why it matters: Utah named six outside evaluators for its AI health pilots and the companies they check pay them, which matters first to patients in Utah who may use these tools, and the honest doubt is that the fees and which evaluator checks which pilot are not disclosed."
+      "Why it matters: What changed: Utah named six outside evaluators for its AI health pilots and the companies they check pay them, which matters first to patients in Utah who may use these tools, and the honest doubt is that the fees and which evaluator checks which pilot are not disclosed."
      ],
      "source": "Medical Daily",
      "url": "https://www.medicaldaily.com/utah-ai-health-sandbox-third-party-evaluators-paid-companies-479625"
@@ -489,7 +465,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "TechCrunch reports that Healthleap, founded in South Africa in 2022, has raised $38 million in seed and Series A funding, and that its software is now used in more than 50 hospitals, including Penn Medicine and Cedars-Sinai. The software does not diagnose patients; it flags those who may have malnutrition or delirium for review, and the company says every customer has seen a return of at least five times, and that hospital finance teams validate that figure.",
-      "Why it matters: a $38 million funding round for software that flags at-risk hospital patients, which matters first to patients who may be missed and to hospital budgets, and the honest doubt is that the return figures are the company's own and the valuation is not disclosed."
+      "Why it matters: What is new: a $38 million funding round for software that flags at-risk hospital patients, which matters first to patients who may be missed and to hospital budgets, and the honest doubt is that the return figures are the company's own and the valuation is not disclosed."
      ],
      "source": "TechCrunch",
      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
@@ -503,7 +479,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "IQVIA, a clinical research services company listed on the New York Stock Exchange, says in a press release that its new IQVIA Life Science Models let trial sponsors, the companies that run studies, try out a study on a computer and check its main assumptions before it starts, so risks can be spotted earlier. The models are built with NVIDIA technology and run on Amazon Web Services, but the release gives no accuracy figures or results from real trials.",
-      "Why it matters: a large trial-services firm is offering drugmakers AI forecasts of trial results, which could shape how future studies that patients join are designed, and the honest doubt is that the claims rest on the company's own launch release."
+      "Why it matters: What is new: a large trial-services firm is offering drugmakers AI forecasts of trial results, which could shape how future studies that patients join are designed, and the honest doubt is that the claims rest on the company's own launch release."
      ],
      "source": "Business Wire",
      "url": "https://www.biospace.com/press-releases/iqvia-launches-iqvia-life-science-models-to-help-life-sciences-companies-predict-clinical-trial-outcomes"
@@ -517,7 +493,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "Skin Analytics says, in a Business Wire release, that its AI tool DERM will sort skin cancer referrals across all 18 NHS trusts in England's South East from autumn 2026, reaching a further 9 million people. The company calls it the largest rollout of autonomous medical AI in NHS history, and its claims of fast, accurate detection come from the company itself.",
-      "Why it matters: AI will sort skin cancer referrals across the south-east of England, which matters first to patients waiting for skin checks and then to NHS clinicians, and the honest doubt is that the release gives no accuracy figures and does not say what 'autonomous' means in practice."
+      "Why it matters: What is new: AI will sort skin cancer referrals across the south-east of England, which matters first to patients waiting for skin checks and then to NHS clinicians, and the honest doubt is that the release gives no accuracy figures and does not say what 'autonomous' means in practice."
      ],
      "source": "Business Wire",
      "url": "https://www.businesswire.com/news/home/20261007616791/en/NHS-England-South-East-Rolls-Out-Skin-Analytics-AI-Skin-Cancer-Checks-in-the-Largest-Deployment-of-Autonomous-Medical-AI-in-NHS-History"
@@ -564,7 +540,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "Yahoo reports that venture capitalist Vinod Khosla told the Masters of Scale Summit that within 20 years AI could do 65 percent of all jobs, which he says need not be bad, because the wealth it creates could let people stop doing jobs they dislike.",
-      "Why it matters: A long-range forecast of job change matters to workers, but it is one investor's prediction from a summit talk, with no supporting evidence given."
+      "Why it matters: A long-range forecast of job change matters to workers, but it is one investor's prediction from a summit talk, with no supporting evidence given.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Yahoo",
      "url": "https://www.yahoo.com/news/videos/vinod-khosla-ai-could-replace-120000187.html"
@@ -634,7 +611,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "Fast Company reports that many companies are spending more on AI while spending less on their workers.",
-      "Why it matters: If companies are spending more on AI and less on staff, it affects workers first, but the scale, the cause and the companies involved are not confirmed."
+      "Why it matters: If companies are spending more on AI and less on staff, it affects workers first, but the scale, the cause and the companies involved are not confirmed.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Fast Company",
      "url": "https://www.fastcompany.com/91620140/as-companies-spend-more-on-ai-many-spend-less-on-workers"
@@ -667,7 +645,8 @@
      "status": "REPORTED",
      "paragraphs": [
       "Fast Company reports that internet users are building a connected series of AI-made videos of OpenAI chief executive Sam Altman and Anthropic chief executive Dario Amodei.",
-      "Why it matters: It is a light look at how two AI company leaders are turned into online characters, mainly for viewers, and the details of the videos are not confirmed."
+      "Why it matters: It is a light look at how two AI company leaders are turned into online characters, mainly for viewers, and the details of the videos are not confirmed.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Fast Company",
      "url": "https://www.fastcompany.com/91619250/ai-videos-of-sam-altman-dario-amodei-are-a-cinematic-universe"
@@ -705,8 +684,9 @@
   {
    "title": "About this edition",
    "paragraphs": [
-    "Stories were collected from Google News and from direct news sources for the 24 hours ending 09:07 UTC on 8 October 2026.",
-    "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, and 1 to 5 watchlist. Nothing here is investment advice."
+    "This is a test edition. Stories were collected through Google News for the 24 hours ending 09:07 UTC on 8 October 2026, and articles were read from our 101-source list where the sites allowed it.",
+    "We read the full article for 94 of 110 stories. The rest are marked as headline only because their websites could not be opened from our system.",
+    "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, 5 and below watchlist. Nothing here is investment advice."
    ]
   }
  ]

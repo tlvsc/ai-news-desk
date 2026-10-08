@@ -1,0 +1,11 @@
+{
+ "locked": [],
+ "fail": {
+  "C11-02": [
+   "stranger check: Unclear 'it': in 'which could help it build', 'it' can mean N-vidia or Figure. Also N-vidia is never introduced, so a stranger does not know what it is; the rewrite should add its short label from the source (not added here, because this check adds no facts). Fix: In robotics. N-vidia is reportedly in talks to invest a billion dollars in Figure, so Figure could build more human-shaped robots."
+  ],
+  "teaser": [
+   "stranger check: 'act on your files' is vague: 'act on' usually means 'respond to', so a stranger cannot tell what the AI would do with the files. Use a plain verb. Fix: Also in the full report. Microsoft plans to let its A I work on your files. Refugees in Kenya say A I is costing them online work."
+  ]
+ }
+}

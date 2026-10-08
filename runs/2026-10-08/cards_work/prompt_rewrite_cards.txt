@@ -1,0 +1,16 @@
+# Task: rewrite the failing story cards and teaser line named in cards_work/rewrite_request_cards.json
+
+Change ONLY the items named in cards_work/rewrite_request_cards.json. Keep every other item word for word.
+
+Read first, in full: rules/Article_phrasing_instructions_AIND_V1.txt (Sections 1, 1A, 1B and the cards section) and rules/Cards_Master_Rules_Structure.txt, Section 3 (words). For each item you change, read its report entry (report_entries/<item>.json) and its facts file (facts/<item>.json). Those are the only sources of facts.
+
+Limits (checked by check_wording.py): headline at most 85 characters; body exactly two sentences, at most 230 characters (Bigger Picture body at most 160; teaser line at most 90); every sentence at most 15 words and at most one number; no banned word; no sentence copied word for word from the Full Report.
+
+Rules:
+- Plain English that a reader outside Britain or outside finance can follow. Explain a term or cut it. No jargon.
+- Facts only from the entry and the facts file. Never add a fact. If a fix needs a fact the files do not hold, leave that fact out.
+- Every named person has a position and an organisation in the same sentence, taken from the source (PEOPLE WITH THEIR POSITION, CLAUDE.md rule 16).
+- Introduce every organisation or abbreviation a reader may not know (for example the NHS: say it is the public health service in England).
+- Numbers: say "about" only when the source says about. Never write "more" unless the source compares with something.
+
+Output: first copy cards_work/cards_copy_fable.json to cards_work/cards_copy_fable_old.json (no deletions). Then write the updated cards_work/cards_copy_fable.json with the same structure (stories, teaser, bp). Reply with the item ids you changed and the file path, in five lines or fewer.

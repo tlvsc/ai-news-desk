@@ -1,0 +1,14 @@
+[
+ {"clip": "C13-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C07-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C09-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-02", "pass": false, "broken": [
+   {"rule": "B2 (Headlines Master; Cards Master Section 3 item 3)", "why": "This is a robotics story, not a market story, but the line leads with the money (a billion dollar investment) and never says what the robot does. B2 says a non market story leads with the deed, never the money, and the robotics clip says what the robot does. The fix puts Figure and its robots first and the money second, and keeps 'another' (the entry says Nvidia already backs Figure). LIMIT FOR RAFI (rule 8a): the entry and the article name no task the robots do, so no line from this entry can say what the robot does. CLAUDE.md ROBOTICS (8 Oct 2026) names this Nvidia and Figure funding story as the model robotics story, but it overrides only Cards Master 2.6 and 2.9, not Headlines B2. Rafi decides whether a funding story may stand as the robotics clip without a robot deed."}
+  ], "fix": "In robotics. Start-up Figure builds human-shaped robots. N-vidia is reportedly in talks to invest another billion dollars to help Figure build more."},
+ {"clip": "C02-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C04-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-02", "pass": true, "broken": [], "fix": ""},
+ {"clip": "fun", "pass": true, "broken": [], "fix": ""},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": ""},
+ {"clip": "bp", "pass": true, "broken": [], "fix": ""}
+]

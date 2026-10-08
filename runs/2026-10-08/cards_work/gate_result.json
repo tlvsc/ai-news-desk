@@ -1,0 +1,125 @@
+{
+ "ok": true,
+ "md5": "9a3b9deef87ade3807ba6cc3c01425c7",
+ "results": [
+  [
+   "G1 every id exists and is not held",
+   true,
+   "[]"
+  ],
+  [
+   "G2 count: 14 story cards (15 allowed, one extra, Rafi 8 Oct 2026), 4 teaser items, 7 Headlines clips",
+   true,
+   "15 cards, 4 teaser, 7 clips"
+  ],
+  [
+   "G3 no duplicate ids among cards",
+   true,
+   "[]"
+  ],
+  [
+   "G4 cards come from the Bulletin (an exception must be declared with a reason)",
+   true,
+   "[]"
+  ],
+  [
+   "G4b exception C12-03 allowed only when the Bulletin has no eligible story in its category",
+   true,
+   "eligible Bulletin stories: []"
+  ],
+  [
+   "G5 every card, clip and the fun story was read in full",
+   true,
+   "[]"
+  ],
+  [
+   "G6 no update of an earlier story unless Rafi named it (cards_work/update_allowed.json)",
+   true,
+   "[]"
+  ],
+  [
+   "G7 deck is in the Drive category order",
+   true,
+   "['POL', 'POL', 'MKT', 'MKT', 'SEC', 'ENE', 'ROB', 'ROB', 'MOD', 'MOD', 'RES', 'RES', 'LAW', 'HEA', 'SOC']"
+  ],
+  [
+   "G8 category limits (2, markets 3: a money heavy deck is a failure)",
+   true,
+   "[]"
+  ],
+  [
+   "G9 company limit on cards",
+   true,
+   "{'Samsung': 1, 'TSMC': 1, 'Nvidia': 1, 'OpenAI': 2, 'Anthropic': 1, 'Google': 1, 'Meta': 1}"
+  ],
+  [
+   "G10 company limit on Headlines clips",
+   true,
+   "{'Samsung': 1, 'Nvidia': 1, 'OpenAI': 2, 'Google': 1, 'Meta': 1}"
+  ],
+  [
+   "G11 Headlines clips are cards, in deck order",
+   true,
+   "['C13-01', 'C07-01', 'C09-01', 'C11-02', 'C02-01', 'C04-01', 'C14-02']"
+  ],
+  [
+   "G11b when the deck has a Politics card, its clip is Headlines clip 1 (Rafi, 7 Oct 2026)",
+   true,
+   "clip 1 is C13-01, the Politics card is C13-01"
+  ],
+  [
+   "G12 teaser stories are not cards and not clips",
+   true,
+   "set()"
+  ],
+  [
+   "G13 robotics card shows a machine doing something, or carries Rafi's robotics ruling (8 Oct 2026: humanoid funding counts)",
+   true,
+   ""
+  ],
+  [
+   "G14 labels are at most 15 characters",
+   true,
+   "[]"
+  ],
+  [
+   "G15 every pick has a reason and a not-a-repeat reason",
+   true,
+   "[]"
+  ],
+  [
+   "G15b every card has a novice test (who a novice would not know, the plain introduction)",
+   true,
+   "[]"
+  ],
+  [
+   "G18 every category has a card when an eligible story exists (Politics and Robotics included)",
+   true,
+   "no card for []; eligible: {}"
+  ],
+  [
+   "G19 robotics has two cards when two qualify",
+   true,
+   "robotics cards 2, eligible ['C11-11', 'C11-17']"
+  ],
+  [
+   "G20 the Bigger Picture is named as a card and a clip",
+   true,
+   "add \"bigger_picture\": {\"card\": true, \"clip\": true}"
+  ],
+  [
+   "G16 Bigger Picture sources are in the report and not held",
+   true,
+   "[]"
+  ],
+  [
+   "G17 no story of the last 7 days comes back (cards, Fun, teaser)",
+   true,
+   ""
+  ]
+ ],
+ "decks_missing": [
+  "2026-10-02",
+  "2026-10-01"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+  "edition": "2026-10-08",
+  "cards_in_deck_order": [
+    "C13-01",
+    "C13-03",
+    "C07-01",
+    "C07-02",
+    "C09-01",
+    "C11-02",
+    "C11-17",
+    "C02-01",
+    "C02-02",
+    "C04-01",
+    "C15-01",
+    "C13-05",
+    "C10-05",
+    "C14-02",
+    "C16-10"
+  ],
+  "headlines_story_clips_in_order": [
+    "C13-01",
+    "C07-01",
+    "C09-01",
+    "C11-02",
+    "C02-01",
+    "C02-02",
+    "C04-01"
+  ],
+  "headlines_fun": "C16-10",
+  "teaser_items": [
+    "C01-02",
+    "C05-01",
+    "C14-06",
+    "C11-04"
+  ],
+  "bp_refs": [
+    "C07-01",
+    "C07-03",
+    "C05-01"
+  ],
+  "notes": {
+    "story_cards": 14,
+    "security_slot": "EMPTY. Both Bulletin security stories are ineligible: C12-01 is headline-only (not read in full) and a follow-up; C12-02 is an update of the South Korean bank hack story (card and clip on 6 Oct, Bulletin on 7 Oct), barred by NO UPDATE CARDS and NO REPEATS IN 7 DAYS. The caller's rule (cards only from the Bulletin) and the picker brief (reserve pick allowed with exception) touch here; no card was taken from the reserve. Reserve options for Rafi: C12-03 (PoeLLM malware on 3,400 AI servers, 6, NEW, read in full), C12-04 (phishing emails hide instructions for AI assistants, 6, NEW, read in full), C12-07 (OpenAI reportedly used AI to draft its notice to Australia, 6, NEW, read in full).",
+    "robotics": "C11-02 (humanoid, Nvidia and Figure, the story Rafi named as the model) and C11-17 (Uber and Baidu driverless taxis in Dubai, a machine doing something, CONFIRMED). C11-17 scores 6, below extra_min 7; the ROBOTICS rule of 8 Oct (2 robotics cards) is newer and was applied over extra_min.",
+    "scores_used": "Bulletin scores (products/bulletin_pdf_final.json). Entry files differ by one point on C11-02 (6), C04-02 (7), C12-01 (7), C08-02 (6), C07-04 (6), C10-01 (6), C14-01 (6), C04-04 (6).",
+    "alternatives": {
+      "card_14": "C13-03 chosen among the score-7 stories left; alternatives C05-01 (IMF chief), C09-02 (China inland data centres), C09-03 (Duke Energy tariff), C06-01 (Manus), C06-02 (Isomorphic).",
+      "clip_3": "C09-01 (Yandex drone strike) chosen for variety over C07-02 (TSMC, second earnings clip), C15-01 (DARPA quantum) and C02-02 is in; all four score 8.",
+      "robotics_clip": "C11-02 by score (7) and Rafi's emphasis; C11-17 (6) is the alternative that shows a machine doing something.",
+      "fun": "C16-10 (OpenAI's Dots agent said 'I love you too' while failing at shopping) over C16-01 (creepy Rumpelstiltskin imp meme, Bulletin rank 1, creepy rather than funny)."
+    }
+  }
+}

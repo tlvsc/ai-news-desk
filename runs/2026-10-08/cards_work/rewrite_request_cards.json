@@ -1,0 +1,31 @@
+{
+ "locked": [],
+ "fail": {
+  "s10": [
+   "stranger check: 'splits text into slightly more billed pieces' needs background knowledge (that AI is paid for by small pieces of text), so a stranger cannot see why savings shrink; 'high-volume jobs' is jargon.",
+   "suggested fix (headline): ",
+   "suggested fix (body): Anthropic makes the Claude assistant. It says Haiku 5.5 suits jobs with many requests, like customer support. Users pay per piece of text, and Haiku 5.5 cuts text into slightly more pieces. So real savings are likely smaller."
+  ],
+  "s11": [
+   "stranger check: Mark Zuckerberg is named with no position, so a stranger does not see his link to Meta in the same card. The fix adds 'Meta boss' from common knowledge, not from the card: confirm against the source.",
+   "suggested fix (headline): ",
+   "suggested fix (body): They join Biohub to produce cell data. Biohub is a nonprofit set up by Meta boss Mark Zuckerberg and Priscilla Chan. The $1.8 billion effort could speed drug research, but its AI models are years away.",
+   "Position for Mark Zuckerberg: do not use 'Meta boss' (not in the source). Use the source's own words: he founded the nonprofit Biohub with Priscilla Chan (report entry)."
+  ],
+  "s14": [
+   "stranger check: 'The NHS' is never introduced: a reader outside Britain does not know it is England's public health service. '9 million more people' does not say more than what; the writer should check the source.",
+   "suggested fix (headline): England's public health service will let AI rank suspected skin cancers by urgency",
+   "suggested fix (body): The NHS plan covers south-east England. Skin Analytics, the AI's maker, claims fast, accurate checks for 9 million more people. The company gives no accuracy figures and does not say how doctors check the AI."
+  ],
+  "t2": [
+   "stranger check: 'turn a letdown into a shock' is unclear: a stranger cannot tell what lets people down or what the shock is.",
+   "suggested fix (headline): IMF chief Kristalina Georgieva: if AI disappoints, heavy AI debt could cause a shock",
+   "suggested fix (body): "
+  ],
+  "bp": [
+   "stranger check: 'SpaceX's AI borrowing' packs three ideas into one noun and needs background knowledge (why a company called SpaceX borrows for AI); joined by 'but' to Samsung's profit, two facts about two companies sound like one.",
+   "suggested fix (headline): ",
+   "suggested fix (body): Samsung estimates a record profit. But lenders worry about SpaceX borrowing money for AI. Watch the US central bank on 28 October: it sets borrowing costs."
+  ]
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "edition": "2026-10-08",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-01",
+   "category": "Politics and government",
+   "label": "Senate AI plan",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s2",
+   "item": "C13-03",
+   "category": "Politics and government",
+   "label": "Pentagon AI buy",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s3",
+   "item": "C07-01",
+   "category": "Market, industry and finance",
+   "label": "Profits",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 9
+  },
+  {
+   "card": "s4",
+   "item": "C07-02",
+   "category": "Market, industry and finance",
+   "label": "TSMC up 51%",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s5",
+   "item": "C12-03",
+   "category": "Security and cyber",
+   "label": "Hijacked AI",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s6",
+   "item": "C09-01",
+   "category": "Energy and infrastructure",
+   "label": "Yandex drones",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s7",
+   "item": "C11-02",
+   "category": "Robotics",
+   "label": "Nvidia, Figure",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s8",
+   "item": "C11-17",
+   "category": "Robotics",
+   "label": "Dubai robotaxis",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s9",
+   "item": "C02-01",
+   "category": "Models and tools",
+   "label": "ChatGPT charts",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 9
+  },
+  {
+   "card": "s10",
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "Haiku 5.5",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s11",
+   "item": "C04-01",
+   "category": "Research and science",
+   "label": "AI biology data",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 9
+  },
+  {
+   "card": "s12",
+   "item": "C15-01",
+   "category": "Research and science",
+   "label": "DARPA quantum",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s13",
+   "item": "C13-05",
+   "category": "Ethics and law",
+   "label": "AI robocalls",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s14",
+   "item": "C10-05",
+   "category": "Health",
+   "label": "NHS skin checks",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s15",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "ChatGPT Teens",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "fun",
+   "item": "C16-10",
+   "category": "The Fun Side",
+   "label": "Dots in love",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 3
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C02-02",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t2",
+   "item": "C05-01",
+   "category": "Politics and government"
+  },
+  {
+   "id": "t3",
+   "item": "C14-06",
+   "category": "Society and education"
+  },
+  {
+   "id": "t4",
+   "item": "C11-04",
+   "category": "Robotics"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C13-01",
+  "C07-01",
+  "C09-01",
+  "C11-02",
+  "C02-01",
+  "C04-01",
+  "C14-02"
+ ],
+ "headlines_fun": "C16-10",
+ "bp_refs": [
+  "C07-01",
+  "C07-03",
+  "C05-01"
+ ]
+}

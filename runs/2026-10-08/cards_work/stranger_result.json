@@ -1,0 +1,170 @@
+[
+ {
+  "n": 1,
+  "retell": "A top US senator wants the government to safety-test the most powerful AI and make AI companies report big failures, but it is only an outline and the White House prefers voluntary rules.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 2,
+  "retell": "AI companies can get a quick path to US military deals by sending a five-minute video, but a senator from Iowa warns these deals have not been checked carefully.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 3,
+  "retell": "Samsung thinks it made $80 billion profit in three months, a record for a tech company, because AI computer centres are buying lots of its memory chips; the real numbers come on 29 October.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 4,
+  "retell": "TSMC, a Taiwan chip maker that sells to Nvidia and Apple, sold 51 percent more than a year ago, more than experts expected, but no one knows how long it will last.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 5,
+  "retell": "Hackers took over more than 3,400 servers, many running AI tools nobody protected, and use them to mine cryptocurrency and attack others; nobody is sure who they are.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 6,
+  "retell": "Drones hit a computer centre of Russia's biggest AI company and set it on fire; its main services still work, and nobody has said who attacked.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "Nvidia, the AI chip company whose tech runs Figure's human-shaped robots, may put another $1 billion into Figure, but the news story does not say who told it.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "In parts of Dubai you can now book a taxi with no driver, made by Chinese company Baidu, on the Uber app, and they want thousands more around the world.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 9,
+  "retell": "ChatGPT can now answer with charts, diagrams and buttons because its new AI learned when pictures beat words; free users get it from Thursday, but nobody else has tested it yet.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 10,
+  "retell": "Anthropic's new Haiku AI costs about a quarter of the old price, but something about 'billed pieces' means you probably save less.",
+  "pass": false,
+  "problem": "'splits text into slightly more billed pieces' needs background knowledge (that AI is paid for by small pieces of text), so a stranger cannot see why savings shrink; 'high-volume jobs' is jargon.",
+  "fix_headline": "",
+  "fix_body": "Anthropic makes the Claude assistant. It says Haiku 5.5 suits jobs with many requests, like customer support. Users pay per piece of text, and Haiku 5.5 cuts text into slightly more pieces. So real savings are likely smaller."
+ },
+ {
+  "n": 11,
+  "retell": "Google, Meta and US government agencies are joining a $1.8 billion charity project to collect cell data so AI can learn how cells react to disease.",
+  "pass": false,
+  "problem": "Mark Zuckerberg is named with no position, so a stranger does not see his link to Meta in the same card. The fix adds 'Meta boss' from common knowledge, not from the card: confirm against the source.",
+  "fix_headline": "",
+  "fix_body": "They join Biohub to produce cell data. Biohub is a nonprofit set up by Meta boss Mark Zuckerberg and Priscilla Chan. The $1.8 billion effort could speed drug research, but its AI models are years away."
+ },
+ {
+  "n": 12,
+  "retell": "The US military's research agency is now testing real quantum computers from IBM and three other makers to see if they can be worth their cost by 2033.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 13,
+  "retell": "A US agency may let political groups use AI voices to call people's mobile phones before November's elections, which the law mostly bans today without permission.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 14,
+  "retell": "Health services in south-east England will let AI decide which possible skin cancers to check first, but the AI's maker has not shown how accurate it is.",
+  "pass": false,
+  "problem": "'The NHS' is never introduced: a reader outside Britain does not know it is England's public health service. '9 million more people' does not say more than what; the writer should check the source.",
+  "fix_headline": "England's public health service will let AI rank suspected skin cancers by urgency",
+  "fix_body": "The NHS plan covers south-east England. Skin Analytics, the AI's maker, claims fast, accurate checks for 9 million more people. The company gives no accuracy figures and does not say how doctors check the AI."
+ },
+ {
+  "n": 15,
+  "retell": "A child-safety group found ChatGPT for Teens often does not warn parents and called it an unacceptable risk, but OpenAI says the tests may have stopped too early.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 16,
+  "retell": "OpenAI's new AI helper found a reporter good couches but got their name wrong and said 'Oh, I love you too' to a mumble, though OpenAI says helpers should not flirt.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "Microsoft's Copilot AI will soon sort out the files on your computer for you.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "The boss of the IMF says lots of borrowing for AI could turn ... a letdown of what? ... into a shock.",
+  "pass": false,
+  "problem": "'turn a letdown into a shock' is unclear: a stranger cannot tell what lets people down or what the shock is.",
+  "fix_headline": "IMF chief Kristalina Georgieva: if AI disappoints, heavy AI debt could cause a shock",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "Refugees living in a camp in Kenya say AI is taking away the online jobs they need to live.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "Tesla may be making more than 1,000 Optimus robots that look like people every week by the end of the year.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 21,
+  "retell": "Chip companies earn lots from AI but people worry about the loans paying for it; watch the US central bank on 28 October because it decides what loans cost.",
+  "pass": false,
+  "problem": "'SpaceX's AI borrowing' packs three ideas into one noun and needs background knowledge (why a company called SpaceX borrows for AI); joined by 'but' to Samsung's profit, two facts about two companies sound like one.",
+  "fix_headline": "",
+  "fix_body": "Samsung estimates a record profit. But lenders worry about SpaceX borrowing money for AI. Watch the US central bank on 28 October: it sets borrowing costs."
+ }
+]

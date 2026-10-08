@@ -1,0 +1,418 @@
+{
+ "edition": "2026-10-08",
+ "report_file": "/tmp/claude-0/-home-user-ai-news-desk/5fe04a4c-aa00-562a-9d55-f4658ea59f09/scratchpad/run_2026-10-08/products/2026-10-08 — Daily Global AI Intelligence Report (Claude LV1.1).md",
+ "report_sha256": "70758a9f435825e8c487df531cf73cd18628d2fdf2e31cfa8dc329e7747de3f1",
+ "destinations": [
+  "Instagram @Ai_news_desk (pending Rafael's publication approval)"
+ ],
+ "template": {
+  "headline_size": 68,
+  "body_size": 40
+ },
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "cat": "Politics and government / Senate AI plan",
+   "head": "A senior senator wants the US government to test the strongest AI models for safety.",
+   "body": "Maria Cantwell, the Senate Commerce Committee's top Democrat, wants AI makers to report serious failures. Her plan is only an outline so far, and the White House prefers voluntary rules.",
+   "src": "Roll Call",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 1,
+     "excerpt": "A senior US Senate Democrat has released a plan for federal safety testing of the most powerful AI models."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "cat": "Politics and government / Pentagon AI buy",
+   "head": "AI firms can win a fast track to Pentagon deals with a five-minute video pitch.",
+   "body": "This year the Pentagon invites pitches for AI that helps find and strike military targets. Joni Ernst, a US senator for Iowa, warns such deals have had weak oversight.",
+   "src": "WIRED",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 4,
+     "excerpt": "The Pentagon is trying to speed up buying of AI for military targeting, using five-minute company videos."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "cat": "Market, industry and finance / Profits",
+   "head": "Samsung estimates it made an $80 billion profit in one quarter, a record for tech.",
+   "body": "AI data centres are snapping up Samsung's memory chips while tight supply lifts prices. The figure is Samsung's own estimate, with full results due on 29 October.",
+   "src": "Euronews",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 11,
+     "excerpt": "Samsung estimates a record quarterly profit of about $80 billion as AI memory demand surges."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "cat": "Market, industry and finance / TSMC up 51%",
+   "head": "Chip maker TSMC sold 51 percent more in its latest quarter than a year earlier.",
+   "body": "Taiwan's TSMC, whose biggest buyers are Nvidia and Apple, beat analysts' sales forecasts. One quarter cannot show how long orders for AI chips will stay this strong.",
+   "src": "Startup Fortune",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 12,
+     "excerpt": "Taiwanese chipmaker TSMC says its quarterly revenue jumped 51% as demand for AI chips held up."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "cat": "Security and cyber / Hijacked AI",
+   "head": "Hackers hijacked over 3,400 servers, often ones running AI tools left open online.",
+   "body": "Researchers at US network company Lumen say the servers mine cryptocurrency and launch new attacks. The researchers cannot say for sure who is behind the attacks.",
+   "src": "BleepingComputer",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 28,
+     "excerpt": "Malware called PoeLLM has compromised more than 3,400 servers, many running exposed AI tools."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Yandex drones",
+   "head": "Drones struck a data centre of Yandex, Russia's top AI company, and started a fire.",
+   "body": "Yandex shut the site down but says its main services for the public still work. The attacker is unnamed, but the strike shows data centres can be hit in wartime.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 34,
+     "excerpt": "Drones hit a major Yandex data centre in Russia and forced the company to suspend operations there."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "cat": "Robotics / Nvidia, Figure",
+   "head": "AI chip giant Nvidia reportedly wants to own more of humanoid robot maker Figure AI.",
+   "body": "Nvidia technology already powers the AI inside Figure's human-shaped robots. Nvidia is reportedly discussing investing another $1 billion, but the report names no source.",
+   "src": "The News International",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 49,
+     "excerpt": "Nvidia is reportedly in talks to invest another $1 billion in Figure AI, the humanoid robot maker."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "cat": "Robotics / Dubai robotaxis",
+   "head": "Taxis with no one at the wheel now carry Uber riders in parts of Dubai.",
+   "body": "The cars are Apollo Go robotaxis from Chinese company Baidu, booked through Uber's app. The two firms aim for thousands of such cars on Uber worldwide, with no timetable.",
+   "src": "scanx.trade",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 53,
+     "excerpt": "Uber and Baidu have launched fully driverless Apollo Go robotaxis on Uber's app in Dubai."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "cat": "Models and tools / ChatGPT charts",
+   "head": "ChatGPT's answers can now include charts, diagrams and buttons you can tap.",
+   "body": "ChatGPT maker OpenAI says its newest AI, GPT-6, learned when pictures work better than words. Free users get the new answers from Thursday, but no outside tests are reported yet.",
+   "src": "The Verge",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 57,
+     "excerpt": "OpenAI is letting ChatGPT answer questions with interactive charts, diagrams and buttons."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "cat": "Models and tools / Haiku 5.5",
+   "head": "Anthropic's new Claude Haiku AI costs on average about a quarter of the old price.",
+   "body": "Anthropic, maker of the Claude assistant, charges per small piece of text its AI handles. Haiku 5.5 cuts text into slightly more pieces, so the real saving is likely smaller.",
+   "src": "The Decoder",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 58,
+     "excerpt": "Anthropic has released Claude Haiku 5.5, a small AI model it calls its fastest and cheapest yet, at much lower prices."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "cat": "Research and science / AI biology data",
+   "head": "Google, Meta and US agencies will help teach AI how cells react to disease.",
+   "body": "They help nonprofit Biohub make cell data; its founders are Mark Zuckerberg and Priscilla Chan. The $1.8 billion effort could speed drug research, but its AI models are years away.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 69,
+     "excerpt": "Google, Meta and the US government are joining the Zuckerberg-backed nonprofit Biohub in a $1.8 billion push for AI biology data."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "cat": "Research and science / DARPA quantum",
+   "head": "IBM and three other quantum computer makers reach the final round of Pentagon tests.",
+   "body": "DARPA, the Pentagon's research arm, will now test their real hardware, not paper plans. The agency wants to know if such computers can pay for themselves by 2033.",
+   "src": "Quantum Computing Report",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 71,
+     "excerpt": "A US defence research agency has picked four quantum computer makers for the final testing stage of its quantum benchmarking programme."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "cat": "Ethics and law / AI robocalls",
+   "head": "A US regulator may let political groups call mobile phones using AI voices.",
+   "body": "A conservative group asked the Federal Communications Commission for this before November's elections. US law now bans most automated calls to mobiles unless the owner agreed first.",
+   "src": "Associated Press",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 80,
+     "excerpt": "The US communications regulator is weighing a request that would let political groups use AI voices in robocalls before the midterms."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "cat": "Health / NHS skin checks",
+   "head": "England's public health service will let AI rank suspected skin cancers by urgency.",
+   "body": "AI maker Skin Analytics claims fast, accurate checks for 9 million people in south-east England. The company gives no accuracy figures and does not say how doctors check the AI.",
+   "src": "Business Wire",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 89,
+     "excerpt": "AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "story",
+   "cat": "Society and education / ChatGPT Teens",
+   "head": "A child-safety group's tests found ChatGPT for Teens often fails to alert parents.",
+   "body": "The group, Common Sense Media, rated OpenAI's teen chatbot an 'unacceptable risk'. OpenAI says most tests may have ended before parental controls were fully active.",
+   "src": "The Verge",
+   "pill": "DISPUTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 95,
+     "excerpt": "A nonprofit calls OpenAI's ChatGPT for Teens an unacceptable risk, and OpenAI disputes its testing."
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "cat": "Fun and humour / Dots in love",
+   "head": "OpenAI's new AI helper answered a reporter's mumble with 'Oh, I love you too'.",
+   "body": "The ChatGPT helper, called a Dot, found good couches but got the reporter's name wrong. OpenAI says copying a user's tone is allowed, but its helpers should not start flirting.",
+   "src": "WIRED",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 105,
+     "excerpt": "WIRED's test of OpenAI's new Dots AI agent found it clumsy at shopping and, at one point, oddly affectionate."
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "cat": "Models and tools",
+     "head": "Microsoft says its Copilot AI will soon handle the files on your PC for you.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 59,
+       "excerpt": "Microsoft plans to let Copilot use the files on your Windows PC and take actions for you."
+      }
+     ]
+    },
+    {
+     "id": "t2",
+     "cat": "Politics and government",
+     "head": "IMF chief Kristalina Georgieva warns AI debt may cause a shock if AI profits disappoint.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 2,
+       "excerpt": "IMF chief Kristalina Georgieva tells countries to act faster on debt and AI rules."
+      }
+     ]
+    },
+    {
+     "id": "t3",
+     "cat": "Society and education",
+     "head": "Refugees in a Kenyan camp say AI is cutting the online work they rely on.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 100,
+       "excerpt": "Refugees in Kenya's Kakuma camp say AI is cutting the pay and supply of the low-paid online tech work they rely on."
+      }
+     ]
+    },
+    {
+     "id": "t4",
+     "cat": "Robotics",
+     "head": "Tesla reportedly expects to make over 1,000 Optimus humanoid robots a week by year's end.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 51,
+       "excerpt": "Tesla is reportedly expecting to build more than 1,000 Optimus humanoid robots a week by the end of 2026."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Chip makers cash in on AI while worry spreads over the debt paying for it.",
+   "body": "Samsung estimates a record profit; lenders worry about SpaceX borrowing for AI chips. Watch the US central bank on 28 October: it sets borrowing costs.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "report_refs": [
+    {
+     "item": 11,
+     "excerpt": "Samsung estimates a record quarterly profit of about $80 billion as AI memory demand surges."
+    },
+    {
+     "item": 15,
+     "excerpt": "The cost of insuring SpaceX's debt hit a record high as the company seeks $40 billion for AI chips."
+    },
+    {
+     "item": 2,
+     "excerpt": "IMF chief Kristalina Georgieva tells countries to act faster on debt and AI rules."
+    }
+   ],
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "notice": "General news and commentary. Not financial advice or an investment recommendation."
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ],
+ "derivatives": [],
+ "editorial_exceptions": {
+  "card_count": {
+   "reason": "20 cards with 15 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
+   "notification_reference": "Rafael chat 30 Sep 2026"
+  }
+ }
+}
