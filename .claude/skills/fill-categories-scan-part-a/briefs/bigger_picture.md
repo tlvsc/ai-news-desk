@@ -25,7 +25,7 @@ endings A to D). Use today's report entries (WORKDIR/report_entries) plus earlie
   Cite only stories that are in today's report; the script warns about any that are not.
 - Every Fact is attributed as in its story ("a researcher says", "Reuters reports").
   Keep every hedge; a report of a plan is not the plan happening.
-- In the Full Report, markets stay at most a quarter of the analysis (rule 5.5); no tickers; no buy or sell advice.
+- The one-quarter markets cap (Full Report rule 5.5) does NOT apply to the Bigger Picture corner (CLAUDE.md rule 17, newest ruling, 2 Oct 2026, "for this corner only"); no tickers; no buy or sell advice.
   Print the share: 3 Oct 2026 was 15 percent.
 
 2. Bulletin: write WORKDIR/bigger_picture_bulletin.json {"title": "The Bigger Picture — Daily AI Analysis",
