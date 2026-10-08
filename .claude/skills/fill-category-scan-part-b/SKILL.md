@@ -48,6 +48,20 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
    29 Sep reference pair, Spectrum on; md5 bbbed6ed8496ee80f04288468f597aa5). The voice sample is NOT needed here:
    the JSON only names AIND_anchor_voice_sample_4s.wav, which Rafi keeps in ComfyUI/input on his PC.
 
+### 0c. Lessons and rules check before anything is chosen (Rafi, 8 Oct 2026; mandatory)
+1. Read in full, before step 1: docs/V1_TASKS.md (every lesson, numbered, currently 1 to 130), CLAUDE.md (every rule),
+   and the Drive rule and structure files in `$W/rules/`: Cards_Master_Rules_Structure.txt, Headlines_Master_Rules_Structure.txt,
+   Headlines_prompt_for_comfy_json.txt, Article_phrasing_instructions_AIND_V1.txt, Full_Report_V1_Rules_Structure.txt and
+   Bulletin_V1_Rules_Structure.txt. Fetch the Drive files again with drive_save.py (read only) if they are not in `$W/rules/`.
+2. Write `$W/rules_check.md`: one line per lesson and per rule that touches this run, saying how this run meets it, with the
+   evidence (file and count). A lesson or rule that does not apply is listed as "not applicable" with the reason.
+3. Where a Drive file and CLAUDE.md disagree, STOP and ask Rafi (CLAUDE.md rule 8a). Do not choose.
+4. Before step 7 (the sheet for Rafi), re-check every section of the work against rules_check.md: cards, card wording,
+   Headlines, the JSON, the Full Report and the Bulletin text (no repeats, paragraph limits, a direct source link on every
+   story, no internal wording for customers). Write a PASS or FAIL per section with evidence. A FAIL is fixed before Rafi
+   sees anything. Zero mistakes are accepted: nothing is shown or delivered with an open FAIL.
+5. Follow every step of this skill in order. Do not skip a step, a gate or an agent model named in it.
+
 ### 1. Choose on paper (main session)
 ```
 python3 $S/card_candidates.py --workdir $W
