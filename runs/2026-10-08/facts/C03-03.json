@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-03",
+  "title": "GitHub has released its local sandbox for Copilot, which limits what Copilot's tools can reach on a developer's computer.",
+  "source_used": "The GitHub Blog",
+  "article_url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+  "fetched": true,
+  "key_facts": [
+    "Local sandboxing is generally available in GitHub Copilot CLI, the GitHub Copilot app and VS Code sessions using Agent Host.",
+    "Tools and commands run with restricted access to the filesystem, network, credentials and other system capabilities.",
+    "The restrictions follow policies set by the developer or their organisation.",
+    "The sandbox is powered by Microsoft eXecution Container (MXC) on Windows, macOS and Linux.",
+    "Sandbox policies apply to tool execution whichever model Copilot uses.",
+    "Local sandboxing is included with GitHub Copilot at no additional cost."
+  ],
+  "quote_evidence": [
+    "Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.",
+    "Local sandboxing is included with GitHub Copilot at no additional cost."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Tools that AI agents run on a developer's machine can be kept away from files, networks and passwords they do not need.",
+  "event_date": "7 Oct 2026",
+  "notes": "Full text read."
+}

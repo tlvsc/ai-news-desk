@@ -1,0 +1,428 @@
+{
+  "changes": [
+    {
+      "item_id": "C11-05",
+      "field": "summary",
+      "before": "Reuters reports that the US Department of Transportation approved, late on 7 Oct 2026, a five-year exemption for Aurora and other self-driving truck companies from the rule that drivers place warning devices around a stopped truck, letting them use beacons mounted on the truck cab instead. Aurora, which runs about 20 self-driving trucks on public roads, praised the decision, and the safety regulator can revoke the exemption if safety falls below earlier levels.",
+      "after": "Reuters reports that the US Department of Transportation approved, late on 7 Oct 2026, a five-year exemption for Aurora and other self-driving truck companies from the rule that drivers place warning devices around a stopped truck, letting them use beacons mounted on the truck cab instead. Aurora, which runs about 20 self-driving trucks on public roads, had applied for the five-year exemption in April, and the agency says it would revoke an exemption if safety fell below earlier levels.",
+      "reason": "meaning: 'Aurora praised the decision' is not in the facts; replaced with the supported April application"
+    },
+    {
+      "item_id": "C02-01",
+      "field": "summary",
+      "before": "The Verge reports that OpenAI is rolling out an Intelligent UI feature in ChatGPT, so answers can mix text with diagrams, charts, forms and tappable buttons. The feature comes with GPT-6, OpenAI's newest model family, and reaches paying Plus, Pro, Business and Enterprise users from today, with the free and Go plans following on Thursday.",
+      "after": "The Verge reports that OpenAI is rolling out an Intelligent UI feature in ChatGPT, so answers can mix text with diagrams, charts, forms and tappable buttons. The feature comes with GPT-6, OpenAI's newest model family, and reaches paying Plus, Pro, Business and Enterprise users from 7 Oct 2026, with the free and Go plans following on Thursday, 8 Oct.",
+      "reason": "meaning: 'from today' referred to The Verge's 7 Oct date, not this 8 Oct edition; dates made explicit"
+    },
+    {
+      "item_id": "C01-02",
+      "field": "headline",
+      "before": "Anthropic has released Claude Haiku 5.5, its fastest and most affordable small model so far, at much lower prices.",
+      "after": "Anthropic has released Claude Haiku 5.5, a small AI model it calls its fastest and cheapest yet, at much lower prices.",
+      "reason": "headline nearly copied the quote_evidence sentence and stated Anthropic's claim as fact; reworded and attributed"
+    },
+    {
+      "item_id": "C03-01",
+      "field": "summary",
+      "before": "The Register reports that Microsoft's \"hybrid intelligence\" plan, built on a model router called HydraFusion, can send simple or privacy-sensitive tasks to models on the PC and harder ones to cloud models such as OpenAI's GPT-6 or Anthropic's Claude. Microsoft is also extending Windows ML, its framework for running AI on a PC, to support llama.cpp, a popular engine for local models, and the feature reaches GitHub Copilot next week and the Copilot app over the next few months.",
+      "after": "The Register reports that Microsoft's \"hybrid intelligence\" plan, built on a model router called HydraFusion, will let Windows apps and Copilot pick, task by task, between AI models running on the PC and models in the cloud. Microsoft is also extending Windows ML, its framework for running AI on a PC, to support llama.cpp, a popular engine for local models, and the feature reaches GitHub Copilot next week and the Copilot app over the next few months.",
+      "reason": "meaning: 'simple or privacy-sensitive tasks' and the named cloud models (GPT-6, Claude) are not in the facts; first sentence also close to quote_evidence; reworded to what the facts support"
+    },
+    {
+      "item_id": "C03-01",
+      "field": "importance_line",
+      "before": "Windows users could get private, on-device AI for simple tasks and cloud AI for harder ones, but most of it is not live yet, and The Register warns that local models may cost battery life, fan noise and quality of results.",
+      "after": "Windows users could get AI that runs on their own PC for some tasks and cloud AI for others, but most of it is not live yet, and The Register doubts how running models locally will affect battery life, fan noise and the quality of results.",
+      "reason": "meaning: 'private, on-device AI for simple tasks' not supported by the facts"
+    },
+    {
+      "item_id": "C01-03",
+      "field": "importance_line",
+      "before": "Developers gain a powerful model to build on and US policymakers face a call to ease training-data rules, but the honest doubt is that these are Meta's own arguments in an essay, and its shares were still down about 10 percent this year.",
+      "after": "Developers would get a powerful model to build on and US policymakers face a call to ease training-data rules, but the honest doubt is that these are Meta's own arguments in an essay, and its shares were still down about 10 percent this year.",
+      "reason": "meaning: the release is planned ('will release'), so 'gain' changed to 'would get'"
+    },
+    {
+      "item_id": "C01-04",
+      "field": "importance_line",
+      "before": "Software developers who want AI coding help on their own computer may find the model useful, but the honest doubt is that we could not read the article, so the model's size and speed are unchecked.",
+      "after": "Software developers who want AI coding help on their own computer may find the model useful, but the honest doubt is that the model's size, speed and hardware needs are unconfirmed.",
+      "reason": "removed internal process note ('we could not read the article')"
+    },
+    {
+      "item_id": "C01-05",
+      "field": "summary",
+      "before": "WIRED reports that three engineers at the startup Axiom had OpenAI's GPT-6 Astra, a model normally used for text and code, steer a 2024 Toyota Corolla through an In-N-Out drive-through, with a safety driver ready to brake. The engineers say the models seemed to adjust to the car's controls as they went, but in a driving test they built, DrivingBench, a simple parking-lot course, only Astra finished, and very slowly.",
+      "after": "WIRED reports that three engineers at the startup Axiom had OpenAI's GPT-6 Astra, a model normally used for text and code, steer a 2024 Toyota Corolla through an In-N-Out drive-through, with a safety driver ready to brake. The models at first refused to take control and drove only after careful prompting, and on DrivingBench, a simple parking-lot course the engineers built, only Astra finished, and very slowly.",
+      "reason": "meaning: 'the models seemed to adjust to the car's controls as they went' is not in the facts; replaced with the supported refusal-then-prompting detail"
+    },
+    {
+      "item_id": "C02-05",
+      "field": "summary",
+      "before": "Maeil Business Newspaper reports that Thibaut Sotio, head of product at OpenAI, said on 7 Oct 2026 that Codex, the coding agent, and ChatGPT Work, the general task agent, together had 40 million weekly active users, an all-time high. According to OpenAI, about 20% of Codex users were non-developers in June, which the paper says shows AI moving from answering questions to doing real work such as data analysis and report writing.",
+      "after": "Maeil Business Newspaper reports that Thibaut Sotio, head of product at OpenAI, said on 7 Oct 2026 that Codex, the coding agent, and ChatGPT Work, the general task agent, together had 40 million weekly active users, an all-time high. According to OpenAI, about 20 percent of Codex users were non-developers in June, a group the paper says grew more than three times faster than developers.",
+      "reason": "meaning: 'shows AI moving from answering questions to doing real work' is not in the facts; replaced with the supported growth comparison"
+    },
+    {
+      "item_id": "C02-05",
+      "field": "importance_line",
+      "before": "It matters to office workers and to software firms that AI agents may take work from, but the 40 million figure is OpenAI's own and the article's other numbers do not match it.",
+      "after": "It shows how many people now hand tasks to OpenAI's agents, but the 40 million figure is OpenAI's own and the article's other numbers do not match it.",
+      "reason": "meaning: 'software firms that AI agents may take work from' is an invented consequence"
+    },
+    {
+      "item_id": "C03-04",
+      "field": "summary",
+      "before": "The Register reports that AWS has released Strands Box, open-source software that runs AI agents inside a sandbox and checks each action against rules that also consider what the agent has already done, such as a limit of three Slack posts in ten minutes. Marc Brooker, AWS vice president and distinguished engineer, told The Register that developers remain responsible for deciding what access to grant and where human review is needed.",
+      "after": "The Register reports that AWS has released Strands Box, open-source software that runs AI agents inside a sandbox and checks each action against rules that also consider what the agent has already done, such as a limit of three Slack posts in ten minutes. Marc Brooker, AWS vice president and distinguished engineer, told The Register that developers still have to decide what access an agent gets and when a person must review its work.",
+      "reason": "copy: second sentence repeated a quote_evidence sentence without quote marks; reworded"
+    },
+    {
+      "item_id": "C03-04",
+      "field": "importance_line",
+      "before": "Developers who let AI agents run commands or call paid services can set limits on them, but the tool runs only on macOS for now, and AWS says even correctly set rules can still allow a bad result.",
+      "after": "Developers who let AI agents run commands or call paid services can set limits on them, but the tool runs only on macOS for now, and developers still have to choose the right access and review steps themselves.",
+      "reason": "meaning: 'AWS says even correctly set rules can still allow a bad result' is not in the facts"
+    },
+    {
+      "item_id": "C04-01",
+      "field": "importance_line",
+      "before": "It could give scientists AI-ready biology data and speed up drug research for everyone who depends on new treatments, but the datasets and predictive models are targets for five years, not results.",
+      "after": "It could give scientists AI-ready biology data to help predict how cells respond to disease and treatment, but the first major dataset is due within a year and working predictive models are a five-year aim, not results.",
+      "reason": "meaning: 'speed up drug research for everyone who depends on new treatments' was an unsupported consequence; timelines corrected to the facts"
+    },
+    {
+      "item_id": "C04-03",
+      "field": "headline",
+      "before": "The 2026 State of AI Report says AI agents now do valuable work in software and science.",
+      "after": "The 2026 State of AI Report says Anthropic, OpenAI and Google now lead AI development in a three-way race.",
+      "reason": "meaning: 'AI agents now do valuable work in software and science' is not in the facts; headline now states the report's supported main finding in our own words"
+    },
+    {
+      "item_id": "C04-03",
+      "field": "summary",
+      "before": "Air Street Press reports, in its 9th annual State of AI Report, that AI agents are now doing valuable work in software and science. The report cites Anthropic's internal index, which says Claude led 26 percent of measured model research work in August, up from under 1 percent in February, and the figures are the report's own, not checked by us.",
+      "after": "Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, against 53 percent for a nuclear plant.",
+      "reason": "meaning: unsupported 'valuable work in software and science' claim removed; process note 'not checked by us' removed; figures attributed to their cited sources"
+    },
+    {
+      "item_id": "C04-04",
+      "field": "summary",
+      "before": "The Guardian reports that OpenAI released more than 370 new mathematical results on Tuesday 6 October, after saying last month that it had solved the Navier-Stokes equation, one of the world's toughest mathematical problems with a $1 million prize. The Institute for Advanced Study in Princeton, an independent group of mathematical experts, does not endorse the practice, and experts worry the results are not being vetted properly.",
+      "after": "The Guardian reports that OpenAI released more than 370 new mathematical results on Tuesday, 6 October, after saying last month that it had solved the Navier-Stokes equation, one of the world's toughest mathematical problems with a $1 million prize. The Institute for Advanced Study in Princeton, an independent group of mathematical experts, said it does not endorse testing the hardest problems on companies' private AI models, warning that people may not be able to check or take responsibility for AI-made proofs.",
+      "reason": "reply story: names what the Institute objects to (testing on proprietary models) and why, instead of the vague 'the practice'"
+    },
+    {
+      "item_id": "C04-05",
+      "field": "importance_line",
+      "before": "It shows a large life sciences company moving research-tool making into automated AI labs, which could speed up drug discovery for patients if the company's 8 times faster claim holds, though the lab does not open until early 2027.",
+      "after": "It shows a large life sciences company moving the making of research tools into automated AI labs, which could speed up lab work for scientists if the company's claim of up to 8 times faster holds, though the lab does not open until early 2027.",
+      "reason": "meaning: 'speed up drug discovery for patients' was an unsupported consequence; the lab makes research reagents"
+    },
+    {
+      "item_id": "C04-06",
+      "field": "importance_line",
+      "before": "It could mean mRNA vaccines that do not need ultra-cold storage, which would lower costs and help reach regions without it, but the results so far come only from mice.",
+      "after": "It could mean mRNA vaccines that do not need ultra-cold storage, which the researchers say could cut storage costs by up to 86 percent, but the results so far come only from mice.",
+      "reason": "meaning: 'help reach regions without it' not in the facts; cost claim attributed to the researchers"
+    },
+    {
+      "item_id": "C04-07",
+      "field": "importance_line",
+      "before": "It affects how researchers get their work reviewed and published, but we could not open the article, so the size and terms of the caps are not verified.",
+      "after": "It affects how researchers get their work reviewed and published, but the size and terms of the caps are not confirmed.",
+      "reason": "removed internal process note ('we could not open the article')"
+    },
+    {
+      "item_id": "C04-09",
+      "field": "importance_line",
+      "before": "If progress is slowing outside mathematics and coding, it changes what businesses and researchers can expect from AI, but we could not open the note, so the evidence and the researchers behind it are not verified.",
+      "after": "If progress is slowing outside mathematics and coding, it changes what businesses and researchers can expect from AI, but the evidence and the researchers behind the warning are not confirmed.",
+      "reason": "removed internal process note ('we could not open the note')"
+    },
+    {
+      "item_id": "C04-11",
+      "field": "summary",
+      "before": "Science Advances reports a study in which machine learning helped guide directed evolution of plant Rubisco, the enzyme plants use to capture carbon dioxide.",
+      "after": "Science Advances reports a study in which machine learning helped guide the directed evolution, a lab method that breeds improved versions over repeated rounds, of plant Rubisco, the enzyme plants use to capture carbon dioxide.",
+      "reason": "reader level: explained the term 'directed evolution' on first use"
+    },
+    {
+      "item_id": "C04-11",
+      "field": "importance_line",
+      "before": "It is a lab method that could help scientists redesign a key plant enzyme, but we could not open the study, so its results are not verified.",
+      "after": "It is a lab method that could help scientists redesign a key plant enzyme, but its results are not yet confirmed.",
+      "reason": "removed internal process note ('we could not open the study')"
+    },
+    {
+      "item_id": "C15-03",
+      "field": "summary",
+      "before": "Europol reports, as relayed by CoinDesk, that cryptocurrency wallets, rather than the blockchains themselves, are the main point of exposure to future quantum-computer attacks, which cannot be carried out yet. It urges a phased move now to encryption that quantum computers cannot easily break, and says cryptocurrencies will not collapse because of quantum computing.",
+      "after": "Europol reports, as relayed by CoinDesk, that cryptocurrency wallets, rather than the blockchains themselves, are the main point of exposure to future quantum-computer attacks, which cannot be carried out yet. It urges a phased move now to encryption that quantum computers cannot easily break, and expects the industry to adapt rather than see cryptocurrencies collapse.",
+      "reason": "copy: 'cryptocurrencies will not collapse because of quantum computing' was a near-copy of a Europol quote without quote marks; reworded"
+    },
+    {
+      "item_id": "C13-05",
+      "field": "summary",
+      "before": "The Associated Press reports that the Federal Communications Commission (FCC), the US communications regulator, is considering a request from a conservative group to loosen rules on political robocalls, including calls with AI-generated voices, before the November midterm elections. Federal law now bans most robocalls to cellphones without prior consent, and the request asks for a waiver that would let political groups use artificial or prerecorded voices in unsolicited calls.",
+      "after": "The Associated Press reports that the Federal Communications Commission (FCC), the US communications regulator, is considering a request from a conservative group to loosen rules on political robocalls, including calls with AI-generated voices, before the November midterm elections. US law already forbids most automated calls to mobile phones unless the person agreed in advance, and the group wants an exemption so political campaigns could make such calls with synthetic or recorded voices without that consent.",
+      "reason": "copy: second sentence was a near-copy of two quote_evidence sentences; reworded"
+    },
+    {
+      "item_id": "C13-06",
+      "field": "summary",
+      "before": "CFO Dive reports that US Representative Trahan has released a discussion draft that would make AI developers liable when their AI agents harm third parties through conduct that would be unlawful if a person did it. The draft is a proposal, not yet a bill, and Darrell West, a senior fellow at the Brookings Institution, says action on such a law is more likely in the next Congress.",
+      "after": "CFO Dive reports that US Representative Trahan has released a discussion draft that would hold AI companies responsible when their AI agents hurt other people by doing something that would be illegal if a human did it. The draft is a proposal, not yet a bill, and Darrell West, a senior fellow at the Brookings Institution, says action on such a law is more likely in the next Congress.",
+      "reason": "copy: first sentence was a near-copy of a quote_evidence sentence; reworded"
+    },
+    {
+      "item_id": "C13-06",
+      "field": "importance_line",
+      "before": "What changed: a discussion draft would make AI developers liable for harm their agents cause to third parties, whatever care they took, unless a user changed the system on purpose or was negligent. It is a proposal, not a bill, and Darrell West of the Brookings Institution expects action to come more likely in the next Congress.",
+      "after": "What changed: a discussion draft would make AI developers liable for harm their agents cause to third parties, whatever care they took, unless a user changed the system on purpose or was negligent. It is a proposal, not a bill, and Darrell West of the Brookings Institution thinks action is more likely in the next Congress.",
+      "reason": "grammar: 'expects action to come more likely' corrected"
+    },
+    {
+      "item_id": "C10-02",
+      "field": "summary",
+      "before": "Reuters reports, as carried by The Independent, that Copenhagen-based BioinvestGPT has correctly predicted five of six trial outcomes so far, including the failed del-desiran trial from Novartis. The same report notes a miss, an AI forecast of a positive result for Novartis's pelacarsen that was followed by a failed late-stage trial, and quotes experts who say human trials remain necessary.",
+      "after": "Reuters reports, as carried by The Independent, that BioinvestGPT, a Copenhagen-based AI company, says it has correctly predicted five of six trial outcomes so far, including the failed del-desiran trial from Novartis. The same report notes a miss, an AI forecast of a positive result for Novartis's pelacarsen that was followed by a failed late-stage trial, and quotes experts who say human trials remain necessary.",
+      "reason": "meaning: the five-of-six record is the company's claim, now attributed; company identified on first mention"
+    },
+    {
+      "item_id": "C10-02",
+      "field": "importance_line",
+      "before": "What is new: AI firms are partnering with drugmakers to forecast trial results, which matters first to patients who join trials that may fail and then to drugmakers, and the honest doubt is that the five-in-six record is the company's own figure and the same report includes a miss.",
+      "after": "What is new: AI firms say computer simulations can forecast trial results and help drugmakers decide which drugs to push forward, which matters first to patients who join trials that may fail and then to drugmakers, and the honest doubt is that the five-in-six record is the company's own figure and the same report includes a miss.",
+      "reason": "meaning: 'AI firms are partnering with drugmakers' is not in the facts"
+    },
+    {
+      "item_id": "C10-03",
+      "field": "headline",
+      "before": "A start-up called Healthleap has raised $38 million for AI that flags hospital patients at risk of conditions that are often missed.",
+      "after": "A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.",
+      "reason": "meaning: 'conditions that are often missed' is not stated in the facts; named the two conditions instead"
+    },
+    {
+      "item_id": "C10-04",
+      "field": "summary",
+      "before": "IQVIA, a clinical research services company listed on the New York Stock Exchange, says in a press release that its new IQVIA Life Science Models let trial sponsors, the companies that run studies, simulate them and test key assumptions before they begin, so risks can be spotted earlier. The models are built with NVIDIA technology and run on Amazon Web Services, but the release gives no accuracy figures or results from real trials.",
+      "after": "IQVIA, a clinical research services company listed on the New York Stock Exchange, says in a press release that its new IQVIA Life Science Models let trial sponsors, the companies that run studies, try out a study on a computer and check its main assumptions before it starts, so risks can be spotted earlier. The models are built with NVIDIA technology and run on Amazon Web Services, but the release gives no accuracy figures or results from real trials.",
+      "reason": "copy: 'simulate them and test key assumptions before they begin' was near the release wording in quote_evidence; reworded"
+    },
+    {
+      "item_id": "C10-04",
+      "field": "importance_line",
+      "before": "What is new: a large trial-services firm is selling AI forecasts of trial results to drugmakers, which could matter for the cost and safety of future studies that patients join, and the honest doubt is that the claims rest on the company's own launch release.",
+      "after": "What is new: a large trial-services firm is offering drugmakers AI forecasts of trial results, which could shape how future studies that patients join are designed, and the honest doubt is that the claims rest on the company's own launch release.",
+      "reason": "meaning: 'cost and safety of future studies' was an unsupported consequence"
+    },
+    {
+      "item_id": "C14-01",
+      "field": "summary",
+      "before": "Business Insider reports that Amazon cut roles across several teams on Tuesday, 6 Oct 2026, a day before this report, after employees described the cuts in an internal Slack channel. Amazon confirmed a small number of roles were cut, mainly in its Stores business, while it prepares to spend a record $220 billion on AI infrastructure; a person familiar with the matter says fewer than 1,000 employees were affected.",
+      "after": "Business Insider reports that Amazon cut roles across several teams on Tuesday, 6 Oct 2026, after employees described the cuts in an internal Slack channel. Amazon confirmed a small number of roles were cut, mainly in its Stores business, while it prepares to spend a record $220 billion on AI infrastructure; a person familiar with the matter says fewer than 1,000 employees were affected.",
+      "reason": "removed confusing internal phrase 'a day before this report' (the edition is 8 Oct)"
+    },
+    {
+      "item_id": "C14-01",
+      "field": "importance_line",
+      "before": "Affected people are Amazon's corporate staff in several countries, and the total is unconfirmed beyond Amazon's own description of a small number of roles.",
+      "after": "It affects Amazon staff in customer service, marketplace support and engineering in several countries, including India and the UK, and the total is unconfirmed beyond Amazon's 'small number' and an unnamed person's figure of fewer than 1,000.",
+      "reason": "meaning: 'corporate staff' did not match the facts (customer service, marketplace support and engineering roles in retail)"
+    },
+    {
+      "item_id": "C14-02",
+      "field": "importance_line",
+      "before": "Parents and teenagers who use the feature may rely on crisis alerts that the watchdog says often fail, and the doubt is that OpenAI says the tests ran before its parental controls were active.",
+      "after": "Parents and teenagers who use the feature may rely on crisis alerts that the watchdog says often fail, and the doubt is that OpenAI says much of the testing may have taken place before its parental controls were fully active.",
+      "reason": "meaning: OpenAI's hedge ('may have') was dropped; restored"
+    },
+    {
+      "item_id": "C05-10",
+      "field": "headline",
+      "before": "Vinod Khosla says AI could handle 65% of jobs within two decades.",
+      "after": "Venture capitalist Vinod Khosla says AI could do 65 percent of all jobs within two decades.",
+      "reason": "named person given his position in the headline"
+    },
+    {
+      "item_id": "C05-10",
+      "field": "summary",
+      "before": "Yahoo reports that venture capitalist Vinod Khosla, speaking at the Masters of Scale Summit, argues that AI could handle 65% of all jobs within two decades, which he says is not necessarily bad.",
+      "after": "Yahoo reports that venture capitalist Vinod Khosla told the Masters of Scale Summit that within 20 years AI could do 65 percent of all jobs, which he says need not be bad, because the wealth it creates could let people stop doing jobs they dislike.",
+      "reason": "copy: summary was a near-copy of a quote_evidence sentence; reworded and the supported reason added"
+    },
+    {
+      "item_id": "C05-10",
+      "field": "importance_line",
+      "before": "A long-range forecast of job change affects workers, but it comes from one investor's video, with no evidence in the text we could read.",
+      "after": "A long-range forecast of job change matters to workers, but it is one investor's prediction from a summit talk, with no supporting evidence given.",
+      "reason": "removed internal process note ('in the text we could read')"
+    },
+    {
+      "item_id": "C14-03",
+      "field": "summary",
+      "before": "Bloomberg reports, as relayed by The Straits Times, that Kevin Sneader, who leads Goldman Sachs' business in Asia-Pacific outside Japan, said new bankers will oversee AI agents from the start of their jobs, at a summit in Singapore on 8 Oct 2026. That could cut the role of middle managers and reduce the need for fresh graduates on routine analysis, according to a Singapore regulator on the same panel.",
+      "after": "Bloomberg reports, as relayed by The Straits Times, that Kevin Sneader, who leads Goldman Sachs' business in Asia-Pacific outside Japan, told the Milken Institute Asia Summit in Singapore on 8 Oct 2026 that new hires now oversee AI agents from their first day. He said nobody quite knows what will happen to middle managers, and Chia Der Jiun, managing director of the Monetary Authority of Singapore, said banks will need fewer fresh graduates for analysis and preparation work.",
+      "reason": "meaning: the middle-manager point was Sneader's and the fewer-graduates point was Chia Der Jiun's; the entry merged them under one unnamed regulator. Speakers now named with position"
+    },
+    {
+      "item_id": "C14-03",
+      "field": "importance_line",
+      "before": "The career ladder for new finance hires may be reshaped, which affects graduates and junior bankers first and then middle managers, and the doubt is that these are panel remarks from one executive rather than a stated bank plan.",
+      "after": "The career ladder for new finance hires may be reshaped, which affects graduates and junior bankers first and then middle managers, and the doubt is that these are remarks on a conference panel rather than a stated bank plan.",
+      "reason": "meaning: several panellists spoke, not one executive"
+    },
+    {
+      "item_id": "C14-06",
+      "field": "headline",
+      "before": "AI is shrinking the low-paid online tech jobs that refugees in Kenya's Kakuma camp relied on.",
+      "after": "Refugees in Kenya's Kakuma camp say AI is cutting the pay and supply of the low-paid online tech work they rely on.",
+      "reason": "meaning: the headline stated AI as the proven cause; the facts give it as the refugees' account"
+    },
+    {
+      "item_id": "C14-06",
+      "field": "summary",
+      "before": "The Guardian reports, after interviews with more than two dozen refugees, that low-paid online tech gigs in Kakuma camp are drying up and that some are now paid through 'rewards' rather than wages. The International Trade Centre estimates that jobs such as transcription, data entry, translation and web research have fallen by about 50% since 2022, and the Guardian argues that tech companies are the side that has clearly benefited.",
+      "after": "The Guardian reports, after interviews with more than two dozen refugees, that low-paid online tech gigs in Kakuma camp are drying up and that some are now paid through 'rewards' rather than wages. The International Trade Centre estimates that jobs such as transcription, data entry, translation and web research have fallen by about 50 percent since 2022, and refugee workers say that as AI speeds up their work, their paid hours and income are falling.",
+      "reason": "meaning: 'the Guardian argues that tech companies are the side that has clearly benefited' is not in the facts; replaced with the supported workers' account"
+    },
+    {
+      "item_id": "C14-07",
+      "field": "headline",
+      "before": "Companies are spending more on AI while spending less on their workers, according to Fast Company.",
+      "after": "Many companies are spending more on AI while spending less on their workers, Fast Company reports.",
+      "reason": "headline-only item: kept to the headline's 'many' and attribution"
+    },
+    {
+      "item_id": "C14-07",
+      "field": "summary",
+      "before": "Fast Company reports that many companies are spending more on AI while spending less on workers; we could not open the article, so this rests on its headline.",
+      "after": "Fast Company reports that many companies are spending more on AI while spending less on their workers.",
+      "reason": "removed internal process note ('we could not open the article, so this rests on its headline')"
+    },
+    {
+      "item_id": "C14-07",
+      "field": "importance_line",
+      "before": "Companies are shifting money from staff to AI, which affects workers first, and the doubt is that we could read only the headline, so the scale and cause are unverified.",
+      "after": "If companies are spending more on AI and less on staff, it affects workers first, but the scale, the cause and the companies involved are not confirmed.",
+      "reason": "meaning: 'shifting money from staff to AI' was stronger than the headline; removed internal process note ('we could read only the headline')"
+    },
+    {
+      "item_id": "C16-02",
+      "field": "importance_line",
+      "before": "It is a light look at how two AI company leaders are turned into online characters; the people most affected are Altman, Amodei and the viewers, and the details are unchecked because the article could not be read.",
+      "after": "It is a light look at how two AI company leaders are turned into online characters, mainly for viewers, and the details of the videos are not confirmed.",
+      "reason": "removed internal process note ('the article could not be read')"
+    },
+    {
+      "item_id": "C16-10",
+      "field": "importance_line",
+      "before": "It matters most to people who might let an AI agent act for them with their email and purchases, and the account is one writer's two-day test while OpenAI says the agent will improve.",
+      "after": "It matters most to people who might let an AI agent act for them with their email and purchases, and the account is one writer's two-day test.",
+      "reason": "meaning: 'OpenAI says the agent will improve' is not in the facts"
+    },
+    {
+      "item_id": "C16-03",
+      "field": "headline",
+      "before": "Anthropic's Claude Opus 5.5 AI model has produced a clip of a running cow that is going viral online.",
+      "after": "A running-cow animation linked to Anthropic's Claude Opus 5.5 AI model has gone viral, Cybernews reports.",
+      "reason": "headline-only item: 'has produced' was stronger than the source headline; kept cautious and attributed"
+    },
+    {
+      "item_id": "C16-03",
+      "field": "importance_line",
+      "before": "It is a light viral AI animation with little effect beyond entertainment, and the detail of how it was made is unchecked because the article could not be read.",
+      "after": "It is a light viral AI animation with little effect beyond entertainment, and how it was made is not confirmed.",
+      "reason": "removed internal process note ('the article could not be read')"
+    },
+    {
+      "item_id": "C16-04",
+      "field": "summary",
+      "before": "Kotaku reports that Unity has announced Spark, a browser tool that lets people with no game-making experience make and share games, though it is still listed as coming soon. Kotaku criticises Unity's launch trailer, which shows a generic shooter built from pre-made assets, and says it is a warning against using AI in game development.",
+      "after": "Kotaku reports that Unity has announced Spark, a browser tool that lets people with no game-making experience make and share games, though it is still listed as coming soon. Kotaku criticises Unity's launch trailer, in which a user types six words to build a generic shooter from artist-made assets, and notes that Unity's own post says asking AI to copy an existing game does not make someone a great game maker.",
+      "reason": "meaning: 'says it is a warning against using AI in game development' is not in the facts; replaced with supported points"
+    },
+    {
+      "item_id": "C16-09",
+      "field": "headline",
+      "before": "New Scientist has published a satirical cartoon on what the real risks of AI are.",
+      "after": "New Scientist has published a cartoon by Tom Gauld about the real risks of AI.",
+      "reason": "headline-only item: 'satirical' not supported; the named cartoonist is introduced"
+    },
+    {
+      "item_id": "C16-09",
+      "field": "summary",
+      "before": "New Scientist publishes a satirical cartoon on the real risks of AI.",
+      "after": "New Scientist has published a cartoon by the cartoonist Tom Gauld on the real risks of AI.",
+      "reason": "headline-only item: cartoonist named, 'satirical' removed"
+    },
+    {
+      "item_id": "C16-09",
+      "field": "importance_line",
+      "before": "It is a satirical take on AI risk for readers of a science magazine, so it informs opinion rather than news, and its content is unchecked because the page could not be read.",
+      "after": "It is a cartoonist's take on AI risk for readers of a science magazine, opinion rather than news.",
+      "reason": "removed internal process note ('the page could not be read')"
+    }
+  ],
+  "unresolved": [
+    {
+      "item_ids": [
+        "C02-01",
+        "C01-01"
+      ],
+      "type": "duplicate",
+      "note": "Same story: OpenAI rolling out GPT-6 with Intelligent UI in ChatGPT (The Verge and Engadget)."
+    },
+    {
+      "item_ids": [
+        "C02-02",
+        "C03-01"
+      ],
+      "type": "duplicate",
+      "note": "Same Microsoft Windows event announcement: Hybrid Intelligence giving Copilot local-file access and local or cloud model routing (The Verge and The Register)."
+    },
+    {
+      "item_ids": [
+        "C10-01"
+      ],
+      "type": "re-dated",
+      "note": "The six evaluators and the company-pays arrangement were public from 5 Oct 2026 (FOX 13, STAT); Medical Daily's 7 Oct account adds nothing new inside the window. Importance line still says 'New today'. Not edited."
+    },
+    {
+      "item_ids": [
+        "C13-06"
+      ],
+      "type": "name",
+      "note": "Representative Trahan's first name and state are not in the text read; check before printing."
+    },
+    {
+      "item_ids": [
+        "C05-10"
+      ],
+      "type": "name",
+      "note": "Vinod Khosla's organisation is not in the text read (only 'venture capitalist'); house rule asks for position and organisation."
+    },
+    {
+      "item_ids": [
+        "C04-09"
+      ],
+      "type": "credit",
+      "note": "Dealroom is a note site; the original outlet and researchers are unknown (headline only)."
+    },
+    {
+      "item_ids": [
+        "C10-02"
+      ],
+      "type": "credit",
+      "note": "The Independent copy has no wire credit; Reuters credit rests on the text saying BioinvestGPT shared its analyses with Reuters."
+    },
+    {
+      "item_ids": [
+        "C04-04"
+      ],
+      "type": "follow_up_of",
+      "note": "Pool follow_up_of 1007:C04-01 points to the Biohub story, not this one; the entry itself names the earlier OpenAI release."
+    }
+  ]
+}

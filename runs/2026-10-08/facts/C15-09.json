@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-09",
+ "title": "Haiqu Releases AgenticOS to Plan and Check Quantum Research",
+ "source_used": "The Quantum Insider (full text of Haiqu's press release read)",
+ "article_url": "https://thequantuminsider.com/2026/10/07/haiqu-releases-agenticos-to-plan-and-check-quantum-research/",
+ "fetched": true,
+ "key_facts": [
+  "Haiqu, a quantum software company, unveiled AgenticOS, teams of AI agents that help quantum researchers plan a project from question to a hardware-ready experiment.",
+  "The agents review literature, do first-principles mathematical derivations, assess quantum feasibility and check results against classical baselines, tests, critic agents and human review; scientists decide what gets locked.",
+  "In a chemistry study accepted at a NeurIPS 2026 workshop in Paris, four of 10 runs of leading AI agents without AgenticOS ignored an explicit setup instruction.",
+  "With AgenticOS, the same models held to the approved protocol and produced a simulated quantum result within about 3.4% of the exact diagonalization reference.",
+  "AgenticOS was used on a 3-by-3 grid version of the Hubbard model (a model used to study high-temperature superconductivity), ran on an IBM quantum computer and cut circuit depth by 75%.",
+  "Named in the release: Mykola Maksymenko, co-founder and CTO of Haiqu; Richard Givhan, co-founder and CEO of Haiqu. AgenticOS is available now to enterprise R&D teams on request; academics can apply for free access."
+ ],
+ "quote_evidence": [
+  "On their own, four of 10 agent runs ignored an explicit setup instruction, resulting in widely different answers.",
+  "Using Haiqu’s AgenticOS, the same models held to the approved protocol from start to finish and produced a simulated quantum result within approximately 3.4% of the exact diagonalization reference."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A company product launch with its own test results; the tool's claims have no outside check reported.",
+ "event_date": "7 Oct 2026",
+ "notes": "Joint company press release carried by The Quantum Insider; no outlet reporting. Source credited to the issuer, Haiqu; url is the page read. Pool score 5 kept."
+}

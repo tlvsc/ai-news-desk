@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-06",
+  "title": "GitHub is switching its leaked-password checks to a new AI model that can spot passwords with no standard format.",
+  "source_used": "The GitHub Blog",
+  "article_url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+  "fetched": true,
+  "key_facts": [
+    "GitHub's fine-tuned model reads surrounding code to identify likely credentials.",
+    "It finds passwords that have no recognisable token format.",
+    "Existing AI-detected secret alert scans switch to the new model at no additional charge for GHSP and GHAS customers.",
+    "New AI push protection and the security review checks consume AI Credits and are opt-in.",
+    "Administrators can disable the new capabilities by policy and set budgets.",
+    "The model also brings AI-detected alerts to GHES 3.23 in public preview."
+  ],
+  "quote_evidence": [
+    "It reads surrounding code to identify likely credentials, including passwords without a recognizable token format, without generating code or prose.",
+    "The new opt-in checks for push protection and the security review command will consume GitHub AI Credits."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Leaked passwords are a common route into company systems, so earlier detection matters to any team that stores code on GitHub.",
+  "event_date": "7 Oct 2026",
+  "notes": "Full text read."
+}

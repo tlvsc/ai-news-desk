@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-12",
+  "v1_category": "MOD",
+  "headline": "Microsoft Research Asia has released Agent Lightning v1.0, a small open-source tool that trains AI agents using the software they actually run.",
+  "score": 5,
+  "score_reason": "Pool 5 kept: a research release; the test gain is the team's own result and has not been reviewed outside.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Teams that train coding agents could use a lighter tool that does not force them to rebuild the agent, but the test result covers one model on one benchmark and is reported by its own researchers.",
+  "source": "Microsoft Research",
+  "status": "PRELIMINARY",
+  "summary": "Microsoft Research's blog reports that researchers at Microsoft Research Asia open-sourced a rebuilt Agent Lightning v1.0 of about 3,500 lines of code, so coding agents such as Claude Code and Codex can be trained without being rebuilt inside the training framework. In the team's own test, reinforcement learning (a trial-and-error training method) raised the score of Qwen3.5-9B on the SWE-bench Verified coding test from 41.8% to 56.4%, a gain of 14.6 points.",
+  "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (Microsoft Research blog). Results are self-reported; the text shows no outside review. The 2x speed-up figure is also the team's own."
+}

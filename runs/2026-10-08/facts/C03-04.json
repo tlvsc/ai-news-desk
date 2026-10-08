@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-04",
+  "title": "Amazon Web Services has released Strands Box, an open-source tool that limits what AI agents may do.",
+  "source_used": "The Register",
+  "article_url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+  "fetched": true,
+  "key_facts": [
+    "AWS has released Strands Box, open-source software that uses OS-level isolation to confine AI agents.",
+    "A policy engine, the Dogwood Local Engine, checks each tool call against earlier activity as well.",
+    "Example from AWS: an agent may post to Slack no more than three times in ten minutes.",
+    "Strands Shell and Monty for Python expose shell and Python operations to the same policy engine.",
+    "The tool is on GitHub for macOS only; Linux is in development and a Windows client is on AWS's radar with no date.",
+    "AWS VP and distinguished engineer Marc Brooker says developers remain responsible for access and human review."
+  ],
+  "quote_evidence": [
+    "Strands Box supports any agent or harness one wants to confine within its walls and is available on GitHub now, though only for macOS for the time being.",
+    "Developers remain responsible for deciding what access to grant and where human review is needed"
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Companies that let AI agents act without human approval get a tool to limit them, but the limits still need people to set them well.",
+  "event_date": "7 Oct 2026",
+  "notes": "Full text read."
+}

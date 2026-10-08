@@ -1,0 +1,23 @@
+{
+ "item_id": "C13-12",
+ "title": "Singapore's monetary authority sets AI risk guidelines for financial institutions",
+ "source_used": "The Register (full text); pool item MLex (paywalled)",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
+ "fetched": true,
+ "key_facts": [
+  "The Monetary Authority of Singapore (MAS), which is both the central bank and the finance regulator, published its first Guidelines on AI Risk Management for Financial Institutions on Wednesday, 7 Oct 2026.",
+  "The guidelines say AI can bring greater uncertainty and unexpected or more biased behaviour than simpler methods; generative AI carries even more uncertainty.",
+  "The regulator says agentic AI, meaning systems that act on their own, 'could further amplify these risks'.",
+  "Financial institutions are expected to extend their risk management frameworks to cover AI, with the board and senior management responsible.",
+  "Before deployment, an AI use case, including its underlying systems or models, should be reviewed by parties not involved in its development.",
+  "Ongoing monitoring is expected of both the institution's own AI systems and any third-party AI behind an application."
+ ],
+ "quote_evidence": [
+  "\"Prior to deployment, an FI should subject the AI use case, including its underlying systems or models, to reviews by parties not involved in its development to ensure that the relevant controls, such as evaluation and testing, have been adhered to,\" the guidelines state.",
+  "\"The use of AI can improve performance across business and functional areas but its complexity and probabilistic nature can lead to greater uncertainty, as well as unexpected or more biased behaviour that is harder to identify compared to the use of simpler methods,\" the guidelines state."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Financial firms using AI must run outside reviews and keep monitoring it; the guidelines do not say how strictly they will be enforced.",
+ "event_date": "7 Oct 2026",
+ "notes": "Pool item is MLex (paywalled; headline only in our fetch). The Register read in full. Other outlets in search (Blockhead, LeapRate, TNGlobal, Malay Mail) carry the same news. Chosen category LAW (regulator guidance); chunk default POL or LAW."
+}

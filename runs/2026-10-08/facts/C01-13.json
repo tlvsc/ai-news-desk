@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-13",
+ "title": "Multimodal open d1 decision models for the edge",
+ "source_used": "Liquid AI (Hugging Face blog)",
+ "article_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+ "fetched": true,
+ "key_facts": [
+  "Liquid AI released two open-weight decision models: d1-3B, and d1-omni-600M, which is experimental.",
+  "Decision models produce no tokens; they answer in a single forward pass.",
+  "d1-3B scores a mean of 82.9 across seven public datasets, above a rival called Decider 4B; d1-omni-600M scores 78.4, above Decider 2B at 77.1.",
+  "d1-3B keeps the vision ability of its LFM2.5-VL-3B backbone; the release reports no vision or audio benchmarks.",
+  "On Nvidia hardware (GeForce RTX 4090, Jetson AGX Thor, Jetson AGX Orin 64 GB, Jetson Orin Nano), d1-3B answers in under 50 ms on every device tested.",
+  "On GPU, d1-3B answers a question in under 10 ms and processes a 384px image in under 18 ms."
+ ],
+ "quote_evidence": [
+  "Unlike our generative models, decision models don’t produce tokens but answer in a single forward pass.",
+  "d1-3B achieves a mean score of 82.9, the highest in the table and above Decider 4B.",
+  "d1-3B answers a single question in under 50 ms on every measured device."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers who need fast, small models for classification and checks get open options, with speed figures from the company.",
+ "event_date": "7 Oct 2026 (article time)",
+ "notes": "Read from the Hugging Face blog (2,138 chars). Speed and score figures are Liquid AI's; d1-omni-600M is an early research release."
+}

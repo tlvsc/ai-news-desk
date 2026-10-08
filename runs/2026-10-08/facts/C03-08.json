@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-08",
+  "title": "Google is promoting a set of tools that let AI agents and developers pull its official documentation.",
+  "source_used": "Google Developers Blog",
+  "article_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+  "fetched": true,
+  "key_facts": [
+    "The Developer Knowledge API is Google's official programmatic source for developer documentation on Google Cloud, Firebase, Android and more.",
+    "It serves fresh, Markdown-formatted documentation with semantic and keyword search and grounded Q&A.",
+    "The tool set includes a gcloud CLI surface, pre-installed in Cloud Shell.",
+    "An official Developer Knowledge agent skill connects AI coding assistants to the documentation.",
+    "The post also lists an interactive API Explorer and client libraries in several languages.",
+    "The post gives no launch date and no independent review."
+  ],
+  "quote_evidence": [
+    "The Developer Knowledge API is Google's official, programmatic source of truth for developer documentation about Google Cloud, Firebase, Android, and more.",
+    "Designed specifically for modern AI agents, IDE extensions, and automated workflows, it replaces brittle web-scraping with a structured API that serves fresh, Markdown-formatted documentation."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "AI coding tools that read current Google documentation can give more accurate answers for developers on Google's platforms.",
+  "event_date": "not stated (item published 7 Oct 2026)",
+  "notes": "Full text read. Promotional post; no date."
+}

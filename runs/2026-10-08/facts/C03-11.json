@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-11",
+  "title": "Google's open-source Docsy documentation project is moving to the Linux Foundation, with new features aimed at AI agents.",
+  "source_used": "The New Stack",
+  "article_url": "https://thenewstack.io/docsy-linux-foundation-agents/",
+  "fetched": true,
+  "key_facts": [
+    "Docsy, a Google-created documentation theme for the Hugo site generator, is moving to the Linux Foundation.",
+    "The move was announced in a keynote at Open Source Summit Europe in Prague.",
+    "By the end of 2024 about 2,200 projects used Docsy, including Kubernetes, OpenTelemetry, gRPC and Jaeger.",
+    "Since version 0.15.0, Docsy can produce a Markdown copy of each page and an llms.txt index for AI tools; both are opt-in.",
+    "Version 0.17.0 adds a hidden directive that points visiting agents to llms.txt; that feature is also experimental.",
+    "The roadmap includes 'agent-friendly' documentation scores."
+  ],
+  "quote_evidence": [
+    "Docsy, the Google-created documentation project used by major cloud native projects, is now moving to the Linux Foundation as it adds features aimed specifically at that machine audience.",
+    "Both features are opt-in and remain experimental."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Better-organised documentation can answer routine questions before they reach maintainers, and it can help AI tools use a project correctly.",
+  "event_date": "7 Oct 2026 (keynote on Wednesday)",
+  "notes": "Full text read."
+}

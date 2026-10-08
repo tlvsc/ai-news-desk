@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-04",
+ "title": "GAO Audit Finds All 24 CFO Act Federal Agencies Unprepared for Post-Quantum Cryptography Migration",
+ "source_used": "Quantum Computing Report (full text read, citing GAO)",
+ "article_url": "https://quantumcomputingreport.com/gao-audit-finds-all-24-cfo-act-federal-agencies-unprepared-for-post-quantum-cryptography-migration/amp/",
+ "fetched": true,
+ "key_facts": [
+  "The US Government Accountability Office (GAO) released a public audit report (GAO-27-108740) on post-quantum cryptography readiness of the 24 CFO Act federal agencies.",
+  "Zero of the 24 reviewed agencies have fully implemented the core preparatory practices the Office of Management and Budget (OMB) requires to secure unclassified federal IT systems against future quantum decryption.",
+  "The public report is an unclassified release of a sensitive audit originally issued in September 2025; GAO worked with the Office of the National Cyber Director to redact classified operational details.",
+  "The audit measures three pillars: prioritised inventories of quantum-vulnerable cryptographic assets, multi-year migration funding assessments, and operational testing of post-quantum algorithms inside agencies.",
+  "OMB's government-wide rough-order estimate is $7.1 billion to migrate priority systems and replace legacy hardware that cannot be upgraded.",
+  "The sensitive version contains 89 recommendations across 23 agencies; the article cites a CNSSP 15 timeline: post-quantum support for new national security systems from 2027 and phase-out of non-compliant legacy hardware by 2030.",
+  "The article says survey data cited by GAO points to a cryptographically relevant quantum computer arriving as soon as the 2030s."
+ ],
+ "quote_evidence": [
+  "The findings reveal that zero out of the 24 reviewed agencies have fully implemented the core preparatory practices required by the Office of Management and Budget (OMB) to secure unclassified federal IT systems against future quantum decryption threats.",
+  "The public report is an unclassified release of a sensitive audit originally issued in September 2025."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A federal audit finds no agency fully ready for quantum-safe encryption; the audit itself dates from September 2025.",
+ "event_date": "Sep 2025 (original audit; public release reported 7 Oct 2026)",
+ "notes": "Full text read on QCR. Official GAO audit. The GAO portal link is named in the article but not given in the text."
+}

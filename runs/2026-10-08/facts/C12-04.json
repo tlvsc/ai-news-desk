@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-04",
+ "title": "Attackers Hide AI Prompt Injections Inside Phishing Emails",
+ "source_used": "Infosecurity Magazine, citing Barracuda research",
+ "article_url": "https://www.infosecurity-magazine.com/news/attackers-hide-ai-prompt/",
+ "fetched": true,
+ "key_facts": [
+  "Barracuda published research on 7 Oct 2026 analysing a phishing campaign that combined traditional social engineering with prompt injection hidden in the same message.",
+  "The email looked like internal correspondence: the From and To addresses matched, it carried a trusted spam score and came from a public-sector domain.",
+  "The email had a password-protected attachment, with the password given in the message body; opening it would lead to credential theft or malware.",
+  "Barracuda named four common hiding methods: HTML comments, invisible CSS text, Base64 data and zero-width characters.",
+  "Examples described include a hidden invoice instruction to add a fake payment-change action, and hidden resume text telling an AI screener to rate the candidate 10 out of 10.",
+  "Barracuda did not say how widespread the campaign was and said no single control stops every variation."
+ ],
+ "quote_evidence": [
+  "Barracuda said it analyzed a campaign that combined traditional social engineering, such as password-protected attachments, with prompt injection concealed in the same message.",
+  "It did not say how widespread the campaign was."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI assistant that summarises an inbox could be steered by hidden text to present a phishing email as legitimate or urgent.",
+ "event_date": "7 Oct 2026 (research published)",
+ "notes": "Article read in full (fulltext file). One firm's research on one campaign; no wider count."
+}

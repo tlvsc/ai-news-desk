@@ -1,0 +1,25 @@
+{
+  "item_id": "C04-04",
+  "title": "OpenAI's release of mathematical findings draws concerns from experts",
+  "source_used": "The Guardian (Technology)",
+  "article_url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+  "fetched": true,
+  "key_facts": [
+    "OpenAI released over 370 mathematical results on Tuesday (6 Oct 2026), across algebra, theoretical computer science and mathematical logic.",
+    "The Guardian says that last month OpenAI solved the Navier-Stokes equation, one of the world's toughest mathematical problems, with a $1m reward for a solution.",
+    "The Institute for Advanced Study in Princeton, New Jersey, an independent group of mathematical experts, said it does not endorse testing the most advanced problems on proprietary AI models.",
+    "The Institute's statement says AI can now output mathematical arguments that the prompting human cannot understand, verify or take responsibility for.",
+    "Tristan Buckmaster, a New York University mathematician who was working on the Navier-Stokes problem, told the New York Times that mathematicians prompting the models may have supplied information that helped the model reach its result.",
+    "OpenAI said it would work with the Institute for Advanced Study to give mathematicians a voice, but did not say it would stop testing its models on these problems.",
+    "The advisory board asked AI labs to grant the global mathematics community equitable access to their models."
+  ],
+  "quote_evidence": [
+    "It is now the case that AI can output mathematical arguments in situations without the human who prompted it being able to understand the arguments, verify them, or take responsibility for them.",
+    "There's likely to be a bunch of results where they take someone's work and then take it to completion.",
+    "The use of proprietary internal models by AI labs to do mathematical research risks creating a two-tier system where labs outrun the rest of the field."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "Mathematicians question whether results from proprietary AI models can be checked and credited, and whether the wider field can get access to the same tools.",
+  "event_date": "6 Oct 2026 (OpenAI release, Tuesday)",
+  "notes": "Full text read from The Guardian. Follow-up: the chunk marks follow_up true with follow_up_of 1007:C04-01, but C04-01 is the Biohub AI biology story, not this one; flagged for the main session. The Navier-Stokes claim is the Guardian's report of OpenAI's claim and is not verified by us. The event happened before 7 Oct 2026, so the score is lowered by 1 (stale). Freshness set to FOLLOW-UP of 6 Oct 2026."
+}

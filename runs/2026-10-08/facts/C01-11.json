@@ -1,0 +1,23 @@
+{
+ "item_id": "C01-11",
+ "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+ "source_used": "NVIDIA (Hugging Face blog)",
+ "article_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia says Nemotron models were fine-tuned to reach gold-medal level at the International Mathematical Olympiad (IMO) 2026 and the International Olympiad in Informatics (IOI) 2026.",
+  "The IMO system scored 30 of 42 points; its submitted proofs were graded by official IMO graders.",
+  "The IOI result was an unofficial, unsupervised run under contest-like limits, not in the official IOI ranking; it scored 535.4 out of 600.",
+  "The IMO system worked in natural language, with no formal prover, external tools or internet access.",
+  "Nvidia released the IMO checkpoints, both training datasets and Nemotron-IMO-Bench, a benchmark of 200 olympiad-level problems."
+ ],
+ "quote_evidence": [
+  "It was an unofficial, unsupervised benchmark and was not included in the official IOI ranking.",
+  "The IMO system’s submitted proofs were graded by official IMO graders.",
+  "The IOI result came from a live, prospective run under the same time, internet-access, and submission constraints as human contestants."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A specialised version of an existing model reached gold-medal level on hard reasoning tests, but the coding result is unofficial.",
+ "event_date": "IMO 2026 and IOI 2026 (contest years; exact dates not stated); blog article time 7 Oct 2026",
+ "notes": "Read from the Hugging Face blog (5,737 chars). All figures are Nvidia's; the IMO grading was official, the IOI run was unofficial."
+}

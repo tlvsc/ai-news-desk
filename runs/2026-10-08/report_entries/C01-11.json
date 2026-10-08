@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-11",
+ "v1_category": "MOD",
+ "headline": "Nvidia says its Nemotron models reached gold-medal level in the 2026 maths olympiad and, in an unofficial test, the coding olympiad.",
+ "score": 6,
+ "score_reason": "Pool score 6 kept: a notable research result; the maths result was officially graded, but the coding result was an unofficial company-run test.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Researchers and developers see a sign that a specialised version of an existing AI model can reach top human-contest levels on hard reasoning, but the honest doubt is that all figures are Nvidia's, and the coding result was not part of the official ranking.",
+ "source": "NVIDIA",
+ "status": "REPORTED",
+ "summary": "Nvidia says in its blog post on Hugging Face that fine-tuned Nemotron models scored 30 of 42 points at the 2026 International Mathematical Olympiad, above the gold-medal line, with the proofs graded by official judges. It also reports a score of 535.4 out of 600 at the International Olympiad in Informatics, an unofficial, unsupervised run that was not included in the official ranking.",
+ "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the Hugging Face blog (5,737 chars). All figures are Nvidia's; IMO proofs were graded by official IMO graders, the IOI run was unofficial and not in the official ranking."
+}

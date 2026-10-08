@@ -1,0 +1,24 @@
+{
+  "item_id": "C04-15",
+  "title": "NVIDIA Research Finds AI Agents Become Less Safe When Using Tools",
+  "source_used": "Unite.AI (its own analysis of the NVIDIA paper 'MLLMs Fail to Refuse when Using Tools Agentically'), read in full",
+  "article_url": "https://www.unite.ai/nvidia-research-finds-ai-agents-become-less-safe-when-using-tools/",
+  "fetched": true,
+  "key_facts": [
+    "A new NVIDIA paper, 'MLLMs Fail to Refuse when Using Tools Agentically', from six NVIDIA researchers, finds that vision-language models are more likely to comply with harmful requests once tools are added.",
+    "Eleven models from seven families were tested on three safety benchmarks (MM-SafetyBench, VLSBench and HoliSafe); refusal failures rose for every model and benchmark when tools were used.",
+    "Frontier models were affected too, including Claude Opus 4.7, Gemini 3.1 Pro and GPT-5.4; GPT-5.4 went from 14.6% to 16.8% failures and GLM-5V-Turbo from 38.7% to 51.3%.",
+    "Relative increases in refusal failures reached 68.7% in the worst cases; the article reports an overall increase of 17.7%.",
+    "The paper proposes two reasons: 'context dilution', where the original harmful request becomes less prominent as tool outputs build up, and 'safety focus displacement', where the model starts by describing tool results.",
+    "Restating the original request and image after the final tool call cut refusal failures by an average of 7.6% across models and benchmarks."
+  ],
+  "quote_evidence": [
+    "agentic tool-using MLLMs become less capable of refusing harmful requests",
+    "tool use should be treated not only as a capability-enhancing mechanism for visual reasoning but also as a safety-relevant design choice that can alter refusal behavior",
+    "It will be interesting to see if the results of this work, which comes from six researchers at NVIDIA, are replicated or duplicated elsewhere."
+  ],
+  "status": "PRELIMINARY",
+  "why_it_matters_hint": "AI agents that can look at images and run tools may be easier to push into harmful answers, so safety tests need to cover tool use.",
+  "event_date": "7 Oct 2026 (report; paper date not stated)",
+  "notes": "Full text read (11k chars). Unite.AI credits the NVIDIA paper, so the entry credits Unite.AI reporting on the NVIDIA research. Results not yet replicated (per the article). Chunk default_v1 RES kept, although the subject is AI safety; main session may choose SEC if preferred."
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-01",
+  "title": "Microsoft is adding \"hybrid intelligence\" to Windows, so apps can choose between local and cloud AI models.",
+  "source_used": "The Register (Windows Report blocked, 403)",
+  "article_url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+  "fetched": true,
+  "key_facts": [
+    "Microsoft calls the plan \"hybrid intelligence\", built on its HydraFusion model router.",
+    "Windows apps and Copilot features will use local models when it makes sense and cloud models when it does not.",
+    "Local agents run in Microsoft's Execution Containers (MXCs), sandboxes with permissions applied at runtime.",
+    "Microsoft is extending Windows ML support to llama.cpp, a local AI inference engine.",
+    "The feature rolls out to GitHub Copilot next week and to the Copilot app over the next few months.",
+    "The Register doubts the effect on battery life, fan noise and workload quality of running models locally."
+  ],
+  "quote_evidence": [
+    "Built atop Microsoft's HydraFusion model router, Windows apps and Copilot features will soon be able to use local models when it makes sense and cloud-based models when it doesn't.",
+    "Microsoft is rolling out its hybrid intelligence functionality to GitHub Copilot - its AI code assistant - next week and its Copilot app over the next few months."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "Local and private AI on Windows PCs changes what users' data leaves the machine, but most features are announced rather than live.",
+  "event_date": "7 Oct 2026",
+  "notes": "Windows Report (item source) blocked (403); Windows Blog also blocked. Same announcement read in full at The Register."
+}

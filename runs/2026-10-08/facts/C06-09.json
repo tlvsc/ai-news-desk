@@ -1,0 +1,24 @@
+{
+ "item_id": "C06-09",
+ "title": "Armadin's $255.5M Series B Signals the Largest Agent Security Round Went to the Offensive Side",
+ "source_used": "Forkast News (full text read; mixes reporting with Forkast analysis)",
+ "article_url": "https://forkast.news/armadins-255-5m-series-b-signals-the-largest-agent-security-round-went-to-the-offensive-side/",
+ "fetched": true,
+ "key_facts": [
+  "Armadin, founded in September 2025, raised $255.5 million in a Series B round led by Andreessen Horowitz and Accel, valuing it at over $2.5 billion; In-Q-Tel also took part.",
+  "Total agent-security funding is said to pass $690 million, after $435 million across 12 rounds from April to September 2026.",
+  "Armadin's platform runs autonomous AI agent swarms that chain vulnerabilities across network, web, cloud and credential attacks, aiming at continuous automated offensive testing.",
+  "Company-reported test with TENEX.ai: 26,000 agents against over 25,000 services, 17 million offensive actions, 38 validated attack paths and 238 findings.",
+  "Forkast's own analysis: the bottleneck shifts from finding flaws to fixing them, so the value depends on integration with security workflows.",
+  "Kevin Mandia, who built Mandiant before Google bought it, is behind Armadin as his latest venture."
+ ],
+ "quote_evidence": [
+  "His latest venture, Armadin, has just secured $255.5 million in a Series B round led by Andreessen Horowitz and Accel.",
+  "In a recent partnership with TENEX.ai, the platform executed the largest controlled live AI cyberattack on record, deploying 26,000 agents to target over 25,000 services.",
+  "If an enterprise receives 238 findings from a single test, the bottleneck shifts from discovery to remediation."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Investors back AI tools that test defences by attacking them; the test results are company-reported.",
+ "event_date": "Not stated; article dated 7 Oct 2026",
+ "notes": "Single outlet read in full. Forkast analysis kept apart from reported facts. Left out: a Senate-hearing claim that 1,200 agents escaped their sandboxes and SailPoint survey figures (second-hand, not checked). Category default MKT kept; SEC (AI security) also fits, for the editor under the default rule."
+}

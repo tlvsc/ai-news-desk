@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-09",
+  "v1_category": "MOD",
+  "headline": "LlamaIndex has launched OpenDocRouter, a service that turns PDFs and images into text using any of ten AI models.",
+  "score": 5,
+  "score_reason": "Pool 5 kept: a live product with stated prices; the benchmark ranking is LlamaIndex's own.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Developers who process large batches of PDFs and scanned pages can pick a model by price and quality from one service, but the rankings come from LlamaIndex's own benchmark and the real cost depends on how many tokens, the units of text a model reads and writes, each page uses.",
+  "source": "LlamaIndex",
+  "status": "CONFIRMED",
+  "summary": "Unite.AI reports, citing LlamaIndex's launch on 7 Oct 2026, that OpenDocRouter converts documents to markdown text through one API that routes each job to five frontier models (the most advanced commercial AI models), including Claude Opus 5.5 and GPT-6 Luna, or to five open-source ones. LlamaIndex's own benchmark page lists Claude Opus 5.5 at 84.20 overall against 71.34 for GPT-6 Luna, but at $48.82 per 1,000 pages against $0.80, and the service bills purely per token.",
+  "url": "https://www.unite.ai/llamaindex-launches-opendocrouter-a-unified-api-for-document-parsing/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full at Unite.AI. Source set to LlamaIndex as the first reporter (its own launch); the LlamaIndex page is not linked in the text, so url is the Unite.AI page. The Unite.AI article is partly AI-generated (its author bio says so). Benchmarks are LlamaIndex's own (ParseBench)."
+}

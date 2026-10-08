@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-02",
+  "title": "GitHub's Copilot command-line tool can now find AI models that a developer runs on their own computer.",
+  "source_used": "The GitHub Blog",
+  "article_url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+  "fetched": true,
+  "key_facts": [
+    "From CLI version 1.0.94-0, the /model command discovers supported models from a running local Ollama instance.",
+    "Discovery does not add a model automatically; the developer chooses and confirms it.",
+    "Ollama and the model must already be installed; the flow installs neither.",
+    "Models must support tool calling and streaming.",
+    "Choosing a local model does not turn on offline mode or disable GitHub telemetry.",
+    "GitHub also announces intelligent routing with local models, with availability to follow."
+  ],
+  "quote_evidence": [
+    "Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
+    "Choosing a local model doesn't turn on offline mode or disable GitHub telemetry."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Developers can run a model on their own machine from inside the same tool, which can keep code on the device when the model is local.",
+  "event_date": "7 Oct 2026",
+  "notes": "Full text read."
+}

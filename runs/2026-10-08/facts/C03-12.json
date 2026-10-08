@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-12",
+  "title": "Microsoft Research Asia has released Agent Lightning v1.0, a small open-source tool that trains AI agents using the software they actually run.",
+  "source_used": "Microsoft Research blog",
+  "article_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+  "fetched": true,
+  "key_facts": [
+    "Microsoft Research Asia open-sourced a rebuilt Agent Lightning v1.0 of about 3,500 lines of code.",
+    "The framework has three parts: an API Gateway, a Rollout Controller and a Customized Trainer built on verl.",
+    "It works with existing agent software such as mini-SWE-agent, OpenHands, Claude Code and Codex by pointing the model endpoint at its proxy.",
+    "In experiments, Collocated Async RL was about 2x faster end to end than synchronous RL.",
+    "RL training raised Qwen3.5-9B from 41.8% to 56.4% on SWE-bench Verified, using about 6,000 training samples.",
+    "The result is the team's own; the article shows no outside review."
+  ],
+  "quote_evidence": [
+    "RL training alone raised Qwen3.5-9B from 41.8% to 56.4% on SWE-bench Verified, a gain of 14.6 percentage points.",
+    "The entire framework is about 3,500 lines of code, with three core components: the API Gateway, the Rollout Controller, and the Customized Trainer (Figure 2)."
+  ],
+  "status": "PRELIMINARY",
+  "why_it_matters_hint": "Training coding agents with the same software they are deployed with could make trained agents behave as expected, but the gains are one team's test.",
+  "event_date": "not stated (item published 7 Oct 2026)",
+  "notes": "Full text read. Preliminary: early research result with no outside review in the text."
+}

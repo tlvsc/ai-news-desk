@@ -1,0 +1,24 @@
+{
+ "item_id": "C06-04",
+ "title": "Exclusive | Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips",
+ "source_used": "investingLive write-up that cites the WSJ exclusive. WSJ blocked (401). Yahoo Finance (Investing.com) copy seen with the same lede, not used.",
+ "article_url": "https://investinglive.com/stocks/wsj-broadcom-seeks-over-50-billion-for-openai-chips-as-oracle-spacex-chase-ai-debt-deals/",
+ "fetched": true,
+ "key_facts": [
+  "Broadcom has spent recent weeks arranging more than $50 billion of financing for a custom AI chip it develops with OpenAI (program known internally as Nexus).",
+  "Apollo and Blackstone are among the lenders Broadcom has approached; the talks are early and the size could change; closing is expected before year end.",
+  "Oracle is in talks with Apollo and Goldman Sachs to fund a large chip purchase; the structure would let Oracle lease the chips without adding its own debt.",
+  "SpaceX has spoken to lenders in recent days about a $40 billion financing for Nvidia chips; the report says the Financial Times first reported those talks.",
+  "The article says AI buyers cannot pay for hardware from cash flow and bonds alone, so private lenders are being asked to help.",
+  "Our 7 Oct edition covered the SpaceX $40 billion talks (FT); the new items today are the Broadcom and Oracle talks."
+ ],
+ "quote_evidence": [
+  "Some of the biggest names in artificial intelligence are lining up financing deals worth tens of billions of dollars each to pay for computing hardware, as the cost of building data centres strains conventional funding routes, the Wall Street Journal reported in an exclusive, citing people familiar with the discussions.",
+  "Broadcom has spent recent weeks working to arrange more than $50 billion in financing for the custom AI chip it is developing with OpenAI, according to the report.",
+  "The talks are at an early stage and the size of the deal could change, though it is expected to close before the end of the year and could cover several gigawatts of OpenAI chip capacity."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI chip buyers turning to private credit as bond markets are stretched; the deals are early.",
+ "event_date": "7 Oct 2026 (WSJ exclusive)",
+ "notes": "WSJ 401 here. Text read in the investingLive write-up, which credits the WSJ exclusive. Curator follow_up_of 1007:C06-02 (our 7 Oct item: SpaceX seeks $40 billion financing led by Apollo to buy Nvidia chips, FT reports). Conflict noted: the curator follow_up flag and the freshness rule (FOLLOW-UP only when the event is before 7 Oct) do not match here; freshness set to NEW by the rule, and the summary names the 7 Oct item."
+}

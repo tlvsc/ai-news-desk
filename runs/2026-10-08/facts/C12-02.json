@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-02",
+ "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+ "source_used": "Reuters text as carried by The Japan Times (Reuters byline and SEOUL dateline)",
+ "article_url": "https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/",
+ "fetched": true,
+ "key_facts": [
+  "CrowdStrike published a report on its website on Wednesday 7 Oct 2026 about the South Korean financial-sector attacks.",
+  "The suspect may be a 26-year-old based in China's Guangdong province, according to the report; CrowdStrike says the available information could not definitively identify the attacker.",
+  "The campaign targeted South Korean financial institutions from late September to early October 2026.",
+  "The attacker used ARTEX, a recently released Chinese-developed open-source penetration testing tool, alongside large language models; CrowdStrike assesses with moderate confidence that the actor is a Chinese speaker and likely financially motivated.",
+  "Banks including Shinhan Bank and KB Kookmin Bank reported data breaches; Seoul authorities are investigating and South Korean police have launched a probe, which had not yet responded to a request for comment.",
+  "South Korean President Lee Jae Myung said on Tuesday that signs had emerged that AI was used in some of the hacking incidents."
+ ],
+ "quote_evidence": [
+  "The company said the personal details likely belonged to the actor responsible for the activity, but cautioned that currently available information could not definitively identify the attacker.",
+  "South Korean President Lee Jae Myung said on Tuesday that signs had emerged that AI was used in some of the hacking incidents and called for heightened cybersecurity measures."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI tools were used in attacks that led to reported data breaches at South Korean banks; the attacker is not identified.",
+ "event_date": "7 Oct 2026 (CrowdStrike report); attacks late Sep to early Oct 2026",
+ "notes": "Reuters page returned HTTP 401 here. Text read through The Japan Times, which carries the Reuters story; Reuters credited as source. Anadolu returned 000 (blocked); Bloomberg returned 403. Pool item is a follow-up (follow_up_of 1007:C12-02); the new part today is CrowdStrike's attribution report. Consistent with C12-05 (S2W report on the same South Korean financial-sector campaign)."
+}

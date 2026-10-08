@@ -1,0 +1,17 @@
+{
+ "item_id": "C14-15",
+ "v1_category": "SOC",
+ "headline": "Boston-area software companies are cutting jobs and facing a takeover as investors fear AI will displace them.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered 1: two of the three events (PTC on 5 Oct and HubSpot on 6 Oct) are before 7 Oct 2026 (stale rule).",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software jobs in the Boston area are being cut while AI fears drive takeovers, which affects local staff first and then the companies, and the doubt is that the Globe says the local job effect could be muted or even positive.",
+ "source": "The Boston Globe",
+ "status": "REPORTED",
+ "summary": "The Boston Globe reports that PTC drew a takeover offer from France's Schneider Electric on 5 Oct 2026, that HubSpot said on 6 Oct 2026 it will cut nearly 700 jobs, and that Amazon will sublease more than half of its Seaport office tower on 7 Oct 2026. Two of the three moves came before 7 Oct 2026, and the Globe says the local job effect could be muted or even positive if the buyer keeps PTC's Boston base.",
+ "url": "https://www.bostonglobe.com/2026/10/07/business/ai-boston-ptc-amazon-hubspot/",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read (Boston Globe, HTTP 200). Stale rule applied: PTC (5 Oct) and HubSpot (6 Oct) are before 7 Oct, so freshness FOLLOW-UP and score 5 to 4 (drops below the report cutoff of 5). The Amazon sublease (7 Oct) is new. Flagged for the main session to decide at the cutoff; the score field is the only one to change if it is kept."
+}

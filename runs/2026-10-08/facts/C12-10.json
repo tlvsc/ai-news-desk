@@ -1,0 +1,22 @@
+{
+ "item_id": "C12-10",
+ "title": "New Zealand's National Cyber Security Centre warns of advanced AI threats",
+ "source_used": "The420.in (write-up of the NCSC warning); pool item MLex is paywalled and returned no text",
+ "article_url": "https://the420.in/ai-cybercrime-new-zealand/",
+ "fetched": true,
+ "key_facts": [
+  "New Zealand's National Cyber Security Centre (NCSC) warns that AI is changing the cyber threat environment, making attacks faster, more scalable and potentially more personalised.",
+  "The NCSC says AI is already part of the criminal toolkit, making phishing, scams and social engineering more convincing.",
+  "The NCSC warns that future AI models could automate attacks and find vulnerabilities, and that tools limited to leading frontier models could reach malicious actors by early 2027.",
+  "The NCSC handled 369 incidents of potential national significance in 2025-26, a 16.2 percent increase; four were classed as C2 (highly significant), the same as the total at that level over the previous 10 years combined.",
+  "Catriona Robinson, head of the NCSC, says cyber security is a board-level issue; the article says basic security practices still block many AI-enabled attacks."
+ ],
+ "quote_evidence": [
+  "The NCSC said it handled 369 incidents of potential national significance during 2025-26, a 16.2% increase compared with the previous year.",
+  "\"Government cannot protect every organisation from every cyber threat,\" Robinson said."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Attackers can use AI to speed up and personalise attacks, and New Zealand's incident count is rising.",
+ "event_date": "5 Oct 2026 (date of The420 story per Google News record)",
+ "notes": "MLex (pool item, paywalled) returned 424 characters of boilerplate and was not used. The420 article shows no visible date; the 5 Oct date comes from the Google News record. The420 writes its own analysis, so it is credited. The warning itself is the NCSC's; the 16.2 percent rise is not tied to AI in the text read. Judgement for the parent: The420 is used as the source instead of MLex because MLex text is not available."
+}

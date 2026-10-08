@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-01",
+ "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+ "fetched": true,
+ "key_facts": [
+  "On Wednesday 7 Oct 2026, at an event in San Francisco during Tech Week, Microsoft revealed the specs and prices of its Surface Laptop Ultra.",
+  "The Surface Laptop Ultra has two base models, from $2,600 and from $3,700 (the one with the more powerful chip), rising to $5,900 with more memory and storage; Microsoft says the top model is already out of stock.",
+  "Microsoft also revealed the Surface RTX Spark Dev Box, a developer workstation starting at $6,000, with dev tools such as VS Code, GitHub Copilot CLI, WSL and PowerShell 7.",
+  "A revamped Windows 11 includes a feature called Execution Containers, which Microsoft says makes it easier to sandbox AI agents; Satya Nadella said it will be available to all Windows 11 users.",
+  "Dell detailed its XPS 16 Creator Edition, available to preorder at Best Buy for $3,800 with delivery later in October.",
+  "Microsoft offers up to $1,000 off for people who trade in a MacBook Pro.",
+  "Nvidia had announced in June that it had agreements with Microsoft and other PC makers on AI-ready PCs built on its RTX Spark chip."
+ ],
+ "quote_evidence": [
+  "The pitch for both this PC and workstation is that they are designed to run AI models on-device locally (and for free) with the CPU, GPU, unified memory, and other hardware modifications, like superior cooling, necessary to handle them.",
+  "Microsoft also revealed its new workstation powered by the RTX Spark chip: the Surface RTX Spark Dev Box, which starts priced at $6,000 and comes equipped with Microsoft dev tools like VS Code, GitHub Copilot CLI, WSL, and PowerShell 7."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Prices and specs are now public for AI PCs aimed at developers, including those who use MacBooks today.",
+ "event_date": "7 Oct 2026",
+ "notes": "Follow-up: parent item 1005:C08-03 (our 5 Oct edition, Nvidia unveils a new PC processor). Today's news is Microsoft's prices and specs. Read in full from the main session's fetch (fulltext/C08-01.txt, 3,805 characters). Pool importance 7 kept."
+}

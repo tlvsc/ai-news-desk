@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-10",
+ "title": "OpenAI dots inspire open source imitators amid technical difficulties",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/07/openai-dots-inspire-open-source-imitators-amid-technical-difficulties/5301734",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI's dots are always-on agents that run in their own cloud computers; The Register reports that multiple users now report task failures and connection issues.",
+  "Other reported problems: cloud connectivity, dots that disappear, and refusals that appear tied to abuse prevention; the OpenAI Developer Community forum shows similar complaints.",
+  "OpenAI did not respond to a request for comment.",
+  "Open-source copies: OpenDots from Tawkit, which makes the CopilotKit toolkit (released in a post the week before), and Open Dot, built by Prathit Joshi, a growth engineer at Composio, which can use open models such as DeepSeek through OpenRouter.",
+  "ABI Research, a market research firm, argues 'AI claws' (always-on agents) will shape enterprise AI adoption.",
+  "The Register says OpenAI introduced dots 'last month'; yesterday's pool dates OpenAI's dots coverage to 4 to 5 Oct 2026 (WSJ 4 Oct, Moneycontrol 5 Oct)."
+ ],
+ "quote_evidence": [
+  "Presently, multiple users are reporting task failures and connection issues with their dots.",
+  "OpenAI did not respond to a request for comment about the usage of dots."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People weighing always-on agents; the failure reports come from users and forums, not OpenAI.",
+ "event_date": "4 Oct 2026 (earliest yesterday-pool coverage; The Register says 'last month')",
+ "notes": "Follow-up: follow_up_of 1005:C02-01 (5 Oct edition, WSJ 'OpenAI's New Agent Delivers a Reality Check for the Enterprise', 4 Oct); the article itself does not name that link. Date conflict unresolved: The Register says dots came out 'last month', the pool says 4 to 5 Oct; entry uses 4 Oct. Score lowered 5 to 4: the underlying launch is before 7 Oct (stale). Full article read."
+}

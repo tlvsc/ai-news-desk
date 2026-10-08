@@ -1,0 +1,24 @@
+{
+  "item_id": "C03-05",
+  "title": "A developer says free, AI-built versions of Adobe's creative apps will soon match the originals.",
+  "source_used": "Ars Technica",
+  "article_url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+  "fetched": true,
+  "key_facts": [
+    "Artcraft debuted seven open-source apps over the weekend that recreate the interface and tools of Adobe's main creative programs.",
+    "The apps are written in Rust, with WebAssembly versions for browsers, under MIT and Apache licences.",
+    "Developer Brandon Thomas says he used Anthropic's Claude Opus 5.5 to build them as clean-room replacements.",
+    "Thomas first said 100% feature parity within a month, then said 99% would take months, not years.",
+    "Commenters on Hacker News and elsewhere list many current shortcomings; the apps are in super early alpha.",
+    "Thomas plans to fund the apps by selling token-based access to the Artcraft visual AI model.",
+    "The article notes that the apps could face legal trouble if their trade dress too closely mimics Adobe's appearance."
+  ],
+  "quote_evidence": [
+    "Over the weekend, though, the brand debuted its pivot to a suite of seven open source apps recreating the user interface and tools found in Adobe's Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign, and Acrobat Pro.",
+    "99% parity will take a while, but I'm sure it'll be measured in months and not years."
+  ],
+  "status": "REPORTED",
+  "why_it_matters_hint": "Free replacements for paid creative software would matter to working designers and editors, but the claims are untested.",
+  "event_date": "4 Oct 2026 (launch over the weekend of 3 and 4 Oct)",
+  "notes": "Older news re-dated to 4 Oct 2026. Developer's own claims only."
+}

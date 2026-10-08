@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-07",
+  "v1_category": "MOD",
+  "headline": "IBM and Red Hat say they have fixed more than 400 unknown security flaws in widely used Java software libraries.",
+  "score": 5,
+  "score_reason": "Pool 5 kept: a follow-up of our 5 Oct item; the new facts are the companies' own figures, given without detail.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Companies that run older Java software in production could get security fixes without upgrading first, but the companies have not named the affected libraries, rated the flaws or given a timeline, so the risk cannot be checked.",
+  "source": "IBM and Red Hat",
+  "status": "REPORTED",
+  "summary": "IBM and Red Hat say their Lightwell program has fixed more than 400 previously unknown flaws in widely used Java libraries, and that its Lightwell Clearinghouse service, now generally available, lets customers name a flaw they care about and receive a patch for the version they run. This follows our 5 Oct 2026 report of Project Lightwell's launch, and the new facts are the 400 fixes and the Clearinghouse service, which Help Net Security reports.",
+  "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
+  "freshness": "FOLLOW-UP of 5 Oct 2026",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (Help Net Security, 8 Oct 2026). Source set to the companies because the article carries their press release text. The $5 billion figure from the 5 Oct headline is not in this article and is not repeated. Pool item 1007:C12-16 (IBM vulnerability clearinghouse, 7 Oct) covers the same service; the two must not both print. Security topic; default MOD kept."
+}

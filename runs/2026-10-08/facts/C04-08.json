@@ -1,0 +1,25 @@
+{
+  "item_id": "C04-08",
+  "title": "AI agents are not good at interpreting science. What can be done?",
+  "source_used": "Chemical & Engineering News (C&EN), read in full",
+  "article_url": "https://cen.acs.org/policy/publishing/ai-agents-interpreting-science/104/web/2026/10",
+  "fetched": true,
+  "key_facts": [
+    "Valentin Rodionov, an organic chemist at Case Western Reserve University, chose 42 studies that do not meet the standards of legitimate research: some retracted, others problematic or fraudulent but not formally retracted.",
+    "He uploaded sections of the papers to 30 AI models, 10 times each, mostly large language models from Anthropic, OpenAI, Meta, Google, Mistral AI and others.",
+    "In his paper, posted on arXiv in August, the models on average uncritically suggested building on the flawed research around 93% of the time.",
+    "The 42 studies include the retracted paper linking the MMR vaccine to autism, a retracted 2008 tracheal transplant paper by the disgraced surgeon Paolo Macchiarini, and a debunked cold fusion report.",
+    "Claude Sonnet 5 scored best of the 30 models, but still engaged with or created study designs based on bad science about 72% of the time.",
+    "The best tools acknowledged that something was controversial about the subject around half the time.",
+    "Proposals include Nicholas Peoples's team's 'digital sim cards' in study metadata, Peter Koo's 'uncertainty layer', and a verifier that AI companies could build in; Rodionov has launched a company, Intellicat, that sells AI companies a 'content credibility index'."
+  ],
+  "quote_evidence": [
+    "AI should not be promoting pseudoscience, conspiracy theories, and things that are detrimental to public health.",
+    "If the general public tries to engage with research, and if the large language model does not provide appropriate nuances or caveats, then it could lead to the public getting misled.",
+    "Incorrect interpretation of scientific data is a core problem in science."
+  ],
+  "status": "PRELIMINARY",
+  "why_it_matters_hint": "People who use AI to read science may get confident support for false or retracted work, which matters for clinical guidance and public trust.",
+  "event_date": "Aug 2026 (preprint posted on arXiv; exact day not stated); C&EN feature 7 Oct 2026",
+  "notes": "Full text read. The underlying study is a preprint posted on arXiv in August 2026 (older news re-dated; the C&EN feature is new). Pool score lowered by 1 (6 to 5) for that reason. Named people with position: Valentin Rodionov (organic chemist, Case Western Reserve University); Nihar Shah (computer scientist, Carnegie Mellon University); Nicholas Peoples (resident physician in emergency medicine, Massachusetts General Hospital); Peter Koo (quantitative biologist, Cold Spring Harbor Laboratory). Paolo Macchiarini is named as a disgraced surgeon in the text."
+}

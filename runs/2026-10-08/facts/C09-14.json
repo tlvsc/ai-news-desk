@@ -1,0 +1,26 @@
+{
+ "item_id": "C09-14",
+ "title": "Linux Foundation Launches OpenGrid to Build Open, Shared Infrastructure for Electric Grid",
+ "source_used": "Linux Foundation press release (linuxfoundation.org), read directly via the Google News link",
+ "article_url": "https://www.linuxfoundation.org/press/linux-foundation-launches-opengrid-to-build-open-shared-infrastructure-for-the-worlds-electric-grid",
+ "fetched": true,
+ "key_facts": [
+  "The Linux Foundation, a nonprofit organisation that hosts open-source software projects, announced the launch of OpenGrid on 7 Oct 2026 at Open Source Summit Europe in Prague.",
+  "OpenGrid is a shared data and interoperability layer that lets existing commercial and open-source grid planning tools work together; it is not a replacement for them.",
+  "It will provide open standards and schemas, programmatic APIs and a central Data Hub for validated, model-ready datasets.",
+  "Its first application, the OpenGrid Translator, is in development for release in 2027 and will move data and models between commercial platforms and open-source tools.",
+  "The release says more than 2,500 gigawatts of generation, storage and large-load projects are pending in grid connection queues worldwide; annual grid investment needs to roughly double to more than $600 billion by 2030.",
+  "The release says 80 million kilometres of power lines must be added or replaced by 2040.",
+  "OpenGrid launches with support from Breakthrough Energy GRIDS, Global Grid Catalyst, Connected Grid Initiative and Google.org.",
+  "Jim Zemlin is CEO of the Linux Foundation; Alice Yake is vice president of Breakthrough Energy GRIDS and chair of the OpenGrid Management Committee."
+ ],
+ "quote_evidence": [
+  "Grid planning has become a critical bottleneck as electricity demand grows, new data center and industrial loads come online and more generation and storage seek connection.",
+  "OpenGrid is not developing a single replacement for existing grid planning software.",
+  "Today, too many plans rely on data others cannot verify and tools much of the world cannot afford,"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Open-source planning tools for utilities and regulators, as data centres add to grid demand; no results yet, first tool due 2027.",
+ "event_date": "7 Oct 2026 (launch at Open Source Summit Europe, Prague)",
+ "notes": "Primary source read directly: the Linux Foundation release. The pool item (HPCwire) is an off-the-wire copy of this release, so the source is the Linux Foundation. Independent coverage: The Stack (Prague keynote, Alice Yake quoted); W.Media (press-release rewrite, which attributes the 2,500 GW queue figure to the International Energy Agency). The queue and investment figures are the release's own. Named people introduced with positions."
+}

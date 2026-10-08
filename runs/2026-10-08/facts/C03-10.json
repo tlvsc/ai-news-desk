@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-10",
+  "title": "Cloudflare has released two downloadable AI models, Clef and Clef-Flash, that pick from fixed answers to help AI agents decide.",
+  "source_used": "InfoQ (quoting Cloudflare's blog)",
+  "article_url": "https://www.infoq.com/news/2026/10/clef-decision-models/",
+  "fetched": true,
+  "key_facts": [
+    "Cloudflare released Clef, a 27B multimodal model, and Clef-Flash, a 9B model for latency-sensitive decisions.",
+    "Clef returns a probability for each allowed option for every question in one forward pass.",
+    "Clef-Flash has a median latency of 38.8 ms, against 209.3 ms for Clef, in Cloudflare's benchmarks.",
+    "Clef has a vision encoder and a 64k context window; Typesafe's Jev has 32k and only does text.",
+    "The models are on Workers AI and as downloadable weights on Hugging Face.",
+    "A fine-tuning service starts with Cloudflare engineers; a self-service platform is planned, with no firm date."
+  ],
+  "quote_evidence": [
+    "Clef is a 27B multimodal model that takes a state and a schema of typed questions as input and returns decisions.",
+    "It has a median latency of 38.8 ms in Cloudflare's benchmarks, compared with 209.3 ms for the 27B Clef model."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Fast fixed-answer models could sort routine requests, but the benchmark is the company's own.",
+  "event_date": "not stated; first reported in our 2 Oct 2026 edition",
+  "notes": "Repeat of the 2 Oct item. Read in full."
+}

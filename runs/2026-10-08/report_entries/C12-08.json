@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-08",
+ "v1_category": "SEC",
+ "headline": "Epic Systems used an AI model to find security gaps that could let hackers reach patient health data unseen.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered 1: the revelation was at a September conference, before 7 Oct (stale).",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a major health records company says an AI tool found flaws that could expose patient data, which affects patients and the hospitals that use Epic's software; the doubt is that the revelation dates from September and the tool did not verify whether records could be altered.",
+ "source": "New York Times",
+ "status": "REPORTED",
+ "summary": "The New York Times reports, as relayed by WPR, that Judy Faulkner, chief executive of Epic Systems, the health records software maker, said at a conference in September that the company used Anthropic's Claude Mythos model to find security flaws. It matters because the flaws could let hackers reach health data undetected, although the tool did not verify whether records could be changed.",
+ "url": "https://www.wpr.org/news/epic-ai-find-potential-security-flaws",
+ "freshness": "FOLLOW-UP of Sep 2026 (conference 'last month'; exact day not given)",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "WPR article read in full; WPR credits The New York Times, which is credited as source. NYT text and date not read. If NYT first reported on or after 7 Oct, the stale rule should be checked by the parent (writers never raise a score)."
+}

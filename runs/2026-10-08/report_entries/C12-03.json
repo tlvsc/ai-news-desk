@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Malware called PoeLLM has compromised more than 3,400 servers, many running exposed AI tools.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: new research finding; the victim count was corrected in the article.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed: attackers are turning exposed AI servers into cryptomining machines and attack launchpads, which affects server owners and their IT teams; the doubt is that the operator is not confidently identified and the count was revised from 2,100 to 3,400.",
+ "source": "BleepingComputer",
+ "status": "REPORTED",
+ "summary": "BleepingComputer reports that researchers at Black Lotus Labs, part of the US network company Lumen, say the PoeLLM malware has compromised more than 3,400 servers, many running exposed AI tools such as LiteLLM and Ollama in the United States and Western Europe. It matters because these servers are being used for cryptomining and as launchpads for further attacks, and the researchers could not confidently name the operator.",
+ "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full article read. Single research source relayed by BleepingComputer. Count revised from 2,100 to 3,400 in the article's update note."
+}

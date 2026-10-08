@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-01",
+  "v1_category": "MOD",
+  "headline": "Microsoft is adding \"hybrid intelligence\" to Windows, so apps can choose between local and cloud AI models.",
+  "score": 6,
+  "score_reason": "Pool 7 lowered 1: the features are announced and will soon arrive, so the headline reads as if they are already live.",
+  "importance_label": "MEDIUM",
+  "importance_line": "Windows users could get AI that runs on their own PC for some tasks and cloud AI for others, but most of it is not live yet, and The Register doubts how running models locally will affect battery life, fan noise and the quality of results.",
+  "source": "The Register",
+  "status": "REPORTED",
+  "summary": "The Register reports that Microsoft's \"hybrid intelligence\" plan, built on a model router called HydraFusion, will let Windows apps and Copilot pick, task by task, between AI models running on the PC and models in the cloud. Microsoft is also extending Windows ML, its framework for running AI on a PC, to support llama.cpp, a popular engine for local models, and the feature reaches GitHub Copilot next week and the Copilot app over the next few months.",
+  "url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "The item's own page (Windows Report) and the Windows Blog both returned a Cloudflare block (403). The same announcement is in The Register of 7 Oct 2026, read in full, so source and url are The Register. The Register's headline is about Copilot file access; the router facts come from its body."
+}

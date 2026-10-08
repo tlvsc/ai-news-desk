@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-02",
+ "title": "Samsung passes qualification tests for HBM4E chips with Nvidia, major hyperscalers",
+ "source_used": "Hankyung (as relayed by Sammy Fans)",
+ "article_url": "https://www.sammyfans.com/2026/10/07/samsung-12-layer-hbm4e-clears-nvidia-quality-verification/",
+ "fetched": true,
+ "key_facts": [
+  "According to Korean outlet Hankyung, Samsung Electronics' Memory Business Division completed the qualification process for its 12-layer HBM4E late in September 2026.",
+  "The memory reportedly cleared quality verification with Nvidia and major hyperscale (large cloud) customers, but Samsung did not identify its customers.",
+  "Samsung has not publicly confirmed the reported Nvidia verification.",
+  "The 12-layer chip stacks 48GB of memory and reaches up to 16Gbps per pin; Samsung claims 16% better energy efficiency from its low-power design.",
+  "Samsung began mass-producing HBM4 in February 2026 and shipped 12-layer HBM4E samples to global customers in May 2026.",
+  "There is no confirmed information on supply volumes, contract sizes or mass-production schedules."
+ ],
+ "quote_evidence": [
+  "Passing these tests means the memory has met the technical and reliability requirements set by key customers, although there is still no confirmed information on supply volumes, contract sizes, or mass-production schedules.",
+  "Samsung has not publicly confirmed the reported NVIDIA verification, and the company continues to keep customer-specific qualification details private.",
+  "According to Korean outlet Hankyung, Samsung Electronics’ Memory Business Division completed the qualification process late last month."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If confirmed, Samsung is ready to supply next-generation AI memory, but the customers and volumes are unknown.",
+ "event_date": "late Sep 2026 (exact day not stated)",
+ "notes": "Chunk source KED Global (headline only; the KED page gave 591 characters of other stories). Wccftech's version returned 403, so the Sammy Fans article was read in full; it relays Hankyung, which is credited as the first reporter. The Hankyung original was not opened. Score lowered from 7 to 6 because the event is before 7 Oct (stale) and Samsung has not confirmed it. Freshness written as FOLLOW-UP of late Sep 2026 because the exact day is not given."
+}

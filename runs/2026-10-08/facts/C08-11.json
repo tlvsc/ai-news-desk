@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-11",
+ "title": "NVIDIA’s AI-Powerhouse “DGX Station” Breaks Out Of Linux, Cramming 748 GB Of Memory And 20 PFLOPs Into A Windows Workstation",
+ "source_used": "Wccftech",
+ "article_url": "https://wccftech.com/nvidia-dgx-station-for-windows-ai-powerhouse-q4-2026-launch/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia has announced a Windows version of its DGX Station, which until now ran only on Linux; enterprise developers had to keep two environments.",
+  "The DGX Station has a single GB300 'Blackwell Ultra' GPU with 252 GB of HBM3e memory, plus a 72-core Grace CPU with 496 GB of LPDDR5X, for 748 GB in total.",
+  "Wccftech cites 20 PFLOPs of compute, 900 GB/s CPU-GPU link bandwidth, an 800 Gb/s networking card and a 1600W TDP.",
+  "Nvidia plans a release in Q4 2026 but has not shared an exact date.",
+  "Wccftech puts the price at around $100,000 and says AMD's Threadripper Halo Station, due in 2027, should be priced similarly.",
+  "The article says the figures are on paper and real-world AI results will differ."
+ ],
+ "quote_evidence": [
+  "The system was initially compatible with Linux distros, but today, the company has announced it's bringing DGX Station for Windows.",
+  "While the Halo Station is primed for a 2027 release, NVIDIA has not shared an exact date for the DGX Station for Windows, but they plan to release it in Q4 of this year.",
+  "These are only on paper; the real-world advantages within AI will be a whole different thing to talk about."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Windows-based developers can use a large AI workstation without moving to Linux; Nvidia targets enterprise teams.",
+ "event_date": "7 Oct 2026",
+ "notes": "Read in full (fulltext/C08-11.txt). The price and performance comparison are Wccftech's figures; no Nvidia price is in the article. Pool importance 5 kept."
+}

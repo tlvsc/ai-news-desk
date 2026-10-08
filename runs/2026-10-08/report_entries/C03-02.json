@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-02",
+  "v1_category": "MOD",
+  "headline": "GitHub's Copilot command-line tool can now find AI models that a developer runs on their own computer.",
+  "score": 6,
+  "score_reason": "Pool 6 kept: a useful developer change with no overstated claim.",
+  "importance_label": "MEDIUM",
+  "importance_line": "Developers who use GitHub's Copilot tool can pick a model that runs on their own machine without leaving their workflow, but the model and its helper program must already be installed, and choosing a local model does not switch on offline mode or stop usage data going to GitHub.",
+  "source": "The GitHub Blog",
+  "status": "CONFIRMED",
+  "summary": "GitHub says that from version 1.0.94-0 of its Copilot command-line tool, the model menu lists models from a running local Ollama instance, which is a program for running AI models on a computer. A developer still has to choose a model and confirm it, and GitHub notes that offline mode remains a separate choice.",
+  "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (GitHub changelog, GitHub's own announcement, so GitHub is the first reporter). GitHub also announces intelligent routing with local models, with availability to follow; not included."
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-03",
+  "v1_category": "MOD",
+  "headline": "GitHub has released its local sandbox for Copilot, which limits what Copilot's tools can reach on a developer's computer.",
+  "score": 6,
+  "score_reason": "Pool 6 kept: a finished release with no overstated claim.",
+  "importance_label": "MEDIUM",
+  "importance_line": "Developers and companies that use Copilot can set limits on what its tools may open, read or send from their own computers at no extra cost, but the protection works only if those rules are set correctly.",
+  "source": "The GitHub Blog",
+  "status": "CONFIRMED",
+  "summary": "GitHub says local sandboxing is now released to all users in its Copilot command-line tool, its Copilot app and VS Code sessions, and it restricts the files, network and passwords that Copilot's tools can reach under rules set by the developer or their organisation. The feature is built on Microsoft's execution container technology, works on Windows, macOS and Linux, and costs nothing extra.",
+  "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (GitHub changelog). A security control, so SEC may fit better than the default MOD; default kept."
+}

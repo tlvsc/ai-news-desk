@@ -1,0 +1,17 @@
+{
+  "item_id": "C01-04",
+  "v1_category": "MOD",
+  "headline": "A new Microsoft coding AI model is reported to run on a local PC, but only on a very powerful machine.",
+  "score": 5,
+  "score_reason": "Pool score 6 lowered to 5: headline only, so the claim could not be checked against the article.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Software developers who want AI coding help on their own computer may find the model useful, but the honest doubt is that the model's size, speed and hardware needs are unconfirmed.",
+  "source": "Neowin",
+  "status": "REPORTED",
+  "summary": "Neowin reports that Microsoft's new coding AI model can run on a local computer, but only on a very powerful PC.",
+  "url": "https://www.neowin.net/news/microsofts-new-coding-ai-model-can-run-locally-but-youll-need-a-monster-pc/",
+  "freshness": "NEW",
+  "verified_text": false,
+  "machine_action": false,
+  "notes": "Headline only. The Neowin page returns HTTP 403. The Google News search found no readable copy: NDTV Profit, the Microsoft blog and Technology Org were also blocked (403 or Cloudflare), and Notebookcheck is a different story (the Surface RTX Spark Dev Box) and was not used. Score lowered 6 to 5 under the 'unverified' rule in the scoring line; the caller can override."
+}

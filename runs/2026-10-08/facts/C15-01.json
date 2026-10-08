@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-01",
+ "title": "Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C",
+ "source_used": "Quantum Computing Report (same DARPA announcement, read in full); HPCwire blocked (HTTP 403, Cloudflare)",
+ "article_url": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+ "fetched": true,
+ "key_facts": [
+  "The US Defense Advanced Research Projects Agency (DARPA) selected Atom Computing, Diraq, IBM and IonQ to advance to Stage C of its Quantum Benchmarking Initiative (QBI).",
+  "Stage C is the final verification phase: the assessment moves from paper R&D plans to direct physical testing of hardware, control electronics, cryogenic packaging and software decoders.",
+  "QBI asks whether commercial quantum computers can reach utility-scale operation by 2033; DARPA defines utility scale as the point where a system's computing output is worth more than its total capital and operating costs.",
+  "The four join Microsoft and PsiQuantum, the first pilot participants of the earlier programme, in Stage C.",
+  "Stage B was a yearlong assessment of R&D execution plans, risk mitigation models and prototype data.",
+  "DARPA's Independent Verification and Validation team will test the designs under long-term testing agreements; Micah Stoutimore, QBI Director at DARPA, manages the stage.",
+  "The article names the modality of each firm: neutral atoms (Atom Computing), silicon (Diraq) and trapped ions (IonQ); IBM's modality is not stated in the text."
+ ],
+ "quote_evidence": [
+  "The Defense Advanced Research Projects Agency (DARPA) has selected four commercial quantum hardware developers—Atom Computing, Diraq, IBM, and IonQ—to advance to Stage C of the Quantum Benchmarking Initiative (QBI).",
+  "Stage C represents the final verification phase of DARPA’s evaluation framework, transitioning the assessment from theoretical R&D blueprint audits to direct physical testing, system measurement, and empirical validation of candidate fault-tolerant quantum computing (FTQC) architectures."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A US defence agency moves four quantum hardware designs into physical testing; the 2033 utility-scale goal is DARPA's own target.",
+ "event_date": "7 Oct 2026",
+ "notes": "HPCwire pool link blocked (Cloudflare 403). Same story read in full on Quantum Computing Report; QCR credited as source. Pool score 8 kept."
+}

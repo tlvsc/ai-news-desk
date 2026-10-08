@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-13",
+ "v1_category": "MOD",
+ "headline": "Liquid AI has released two open decision models for small devices, and one of them can read images, each answering in a single step.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: a niche model release; the speed and score claims are the company's.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who need fast, small models for tasks such as toxicity detection and intent classification get new open options, but the honest doubt is that the speed and score figures come from Liquid AI, and the d1-omni model is an early research release.",
+ "source": "Liquid AI",
+ "status": "REPORTED",
+ "summary": "Liquid AI says in its Hugging Face blog post that it has released two open-weight decision models (AI models whose trained files are publicly released) that give a single answer rather than writing text: d1-3B, which scores 82.9 on average across seven public tests, above a rival called Decider 4B, and d1-omni-600M, an experimental model. The company says d1-3B answers one question in under 50 milliseconds on each of the four Nvidia devices it tested, from an RTX 4090 graphics card to small Jetson boards.",
+ "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the Hugging Face blog (2,138 chars). Speed and score figures are Liquid AI's; d1-omni-600M is an early research release; no vision or audio benchmarks are reported."
+}

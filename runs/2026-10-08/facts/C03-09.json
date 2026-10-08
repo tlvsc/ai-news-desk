@@ -1,0 +1,23 @@
+{
+  "item_id": "C03-09",
+  "title": "LlamaIndex has launched OpenDocRouter, a service that turns PDFs and images into text using any of ten AI models.",
+  "source_used": "Unite.AI (relaying LlamaIndex's launch)",
+  "article_url": "https://www.unite.ai/llamaindex-launches-opendocrouter-a-unified-api-for-document-parsing/",
+  "fetched": true,
+  "key_facts": [
+    "LlamaIndex launched OpenDocRouter on 7 Oct 2026, a hosted service for document-to-markdown parsing.",
+    "It offers five frontier models (including Claude Opus 5.5, Gemini 3 Flash, GPT-6 Luna) and five open-source models.",
+    "LlamaIndex's ParseBench page lists Claude Opus 5.5 at 84.20 overall and $48.82 per 1,000 pages.",
+    "GPT-6 Luna is listed at 71.34 overall and $0.80 per 1,000 pages.",
+    "Billing is per token; prepaid credits start from $25 with a 5% fee on each top-up.",
+    "The API accepts PDF, PNG and JPEG files through a POST /v1/parse endpoint."
+  ],
+  "quote_evidence": [
+    "OpenDocRouter bills purely per token.",
+    "Claude Opus 5.5 is listed with an Overall score of 84.20, including 93.53 on Tables and 91.03 on Faithfulness, at $48.82 per 1,000 pages."
+  ],
+  "status": "CONFIRMED",
+  "why_it_matters_hint": "Organisations that digest large document piles can choose a model by cost and quality, but should test on their own pages.",
+  "event_date": "7 Oct 2026",
+  "notes": "Unite.AI article partly AI-generated per its author bio; benchmark figures are LlamaIndex's own."
+}

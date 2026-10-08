@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "A US government audit found that none of the 24 major federal agencies has fully completed the required steps to prepare for quantum-safe encryption.",
+ "score": 5,
+ "score_reason": "Real government audit, but the underlying audit is from September 2025 and this is its public release, so it is an older story re-released.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: the public version of a federal audit says no agency it reviewed has fully met the required steps for quantum-safe encryption, with an estimated $7.1 billion migration cost, and the doubt is that the audit itself dates from September 2025 and its classified details are removed.",
+ "source": "Quantum Computing Report",
+ "status": "CONFIRMED",
+ "summary": "Quantum Computing Report reports, citing the US Government Accountability Office (GAO), that none of the 24 major federal agencies covered by the Chief Financial Officers Act has fully carried out the core steps needed to prepare for post-quantum cryptography, encryption designed to resist future quantum computers. The underlying audit was first issued in September 2025, and this public version is redacted; the article cites an Office of Management and Budget estimate of $7.1 billion to migrate priority systems.",
+ "url": "https://quantumcomputingreport.com/gao-audit-finds-all-24-cfo-act-federal-agencies-unprepared-for-post-quantum-cryptography-migration/amp/",
+ "freshness": "FOLLOW-UP of Sep 2025 (day not stated in the article)",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read on Quantum Computing Report. Score lowered from 6 to 5: the underlying audit is from Sep 2025 (stale), the public release is the new part. The 89 recommendations are in the sensitive version, not the public one. GAO portal link named in the article but not given in its text."
+}

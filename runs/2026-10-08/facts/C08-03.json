@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-03",
+ "title": "HPE launches four new AMD-powered servers as part of its ProLiant Gen13 portfolio",
+ "source_used": "StorageReview (Data Center Dynamics original blocked)",
+ "article_url": "https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers",
+ "fetched": true,
+ "key_facts": [
+  "HPE announced the first four ProLiant Gen13 servers, all running 6th Gen AMD EPYC (Venice) processors.",
+  "The four are the DL585a Gen13 (two-socket, up to eight double-wide GPUs), the DL525 Gen13 (1U single-socket, up to 256 cores, the first of the four to ship), and the XD245 and XD285 Gen13 dense-compute systems.",
+  "All four carry PCIe Gen6 and a new iLO 8 management processor.",
+  "HPE's John Carter, vice president of mainstream compute, said the launch is aimed at agentic AI, EDA, CAE and simulation.",
+  "HPE's release says Gen13 will expand to mainstream enterprise servers after these four; asked about a mainstream two-socket 2U model, Carter said it is not available today.",
+  "HPE's product brief claims up to 2x compute performance without naming the comparison system."
+ ],
+ "quote_evidence": [
+  "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month.",
+  "Asked about a mainstream two-socket 2U Gen13 server, Carter said: “not today, but stay tuned.”",
+  "The product brief claims up to 2x the compute performance without naming the comparison system, and notes that direct liquid cooling is optional for denser configurations."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "New AMD-based servers for AI and engineering work are launching now, with mainstream models to follow later.",
+ "event_date": "7 Oct 2026",
+ "notes": "Chunk source Data Center Dynamics returned 403 (blocked). The same HPE launch was read on StorageReview, which reports HPE's release, the launch QuickSpecs and a pre-briefing call. Pool importance 6 kept."
+}

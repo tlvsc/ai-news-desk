@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-10",
+  "v1_category": "MOD",
+  "headline": "Cloudflare has released two downloadable AI models, Clef and Clef-Flash, that pick from fixed answers to help AI agents decide.",
+  "score": 3,
+  "score_reason": "Pool 5 lowered 2: the release is older news, first carried in our 2 Oct 2026 edition, and this article adds detail but no new event.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Teams that route support requests or other tasks through AI agents could use these models for quick decisions, but the benchmark results come from Cloudflare and commenters question them.",
+  "source": "Cloudflare",
+  "status": "CONFIRMED",
+  "summary": "InfoQ reports, citing Cloudflare's blog, that Clef is a 27-billion-parameter model that returns a probability for each allowed answer, and that the smaller Clef-Flash runs at a median 38.8 milliseconds against 209.3 for Clef. This repeats our 2 Oct 2026 report of the same release, and the detail here is mainly the speed figures.",
+  "url": "https://www.infoq.com/news/2026/10/clef-decision-models/",
+  "freshness": "FOLLOW-UP of 2 Oct 2026",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Repeat: our 2 Oct 2026 edition carried this release (Cloudflare's blog, CONFIRMED). InfoQ says 'recent Birthday Week' with no date. Score lowered 2 for stale and repeat; the 14-day check (check_dup14.py) should drop it. Not the same as AWS Strands Decider 2B."
+}

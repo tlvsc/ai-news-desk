@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-12",
+ "title": "Japanese-focused domestic translation AI PLaMo Translate reaches cutting-edge model performance with update",
+ "source_used": "PC Watch",
+ "article_url": "https://pc.watch.impress.co.jp/docs/news/2146667.html",
+ "fetched": true,
+ "key_facts": [
+  "Preferred Networks announced on 7 Oct 2026 a major update to PLaMo Translate, a Japanese-focused translation service.",
+  "The base PLaMo model moved from generation 2 to generation 3, trained for translation with hundreds of times the compute of the previous generation.",
+  "The company says Japanese translation now matches Claude Fable 5.1 and GPT-6 Astra and beats DeepL and Google Translate.",
+  "The company says its cost is under a tenth of competitors' cost.",
+  "Languages expand from Japanese and English to 53; a meeting translation bot covers 15 languages in Zoom, Google Meet and Microsoft Teams.",
+  "Open-weight versions of the third-generation model are planned under the PLaMo Community License."
+ ],
+ "quote_evidence": [
+  "これにより、Claude Fable 5.1やGPT-6 Astraといった最先端モデルと同等、DeepLやGoogle翻訳以上の日本語翻訳精度を実現したとする。",
+  "あわせて、効率的に日本語を処理する仕様などを導入することで、利用コストを競合と比べて10分の1未満に抑えたとする。",
+  "Preferred Networksは10月7日に発表したもので、すでに利用可能となっている。"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Japanese-built translation tool may serve Japanese speakers at lower cost, but all figures are the company's.",
+ "event_date": "7 Oct 2026 (announcement)",
+ "notes": "Read from PC Watch (Japanese, 727 chars, short article). Figures are Preferred Networks' own claims, not independently tested."
+}

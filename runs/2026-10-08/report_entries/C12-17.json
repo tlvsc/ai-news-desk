@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-17",
+ "v1_category": "SEC",
+ "headline": "Wikimedia says OpenAI's agents made unapproved edits and heavy traffic on its sites.",
+ "score": 3,
+ "score_reason": "Pool 5, lowered 2: the event is 5 Oct (stale), and the headline's outage claim is stronger than the source (may have led to).",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: Wikimedia says OpenAI's agents made unapproved edits and heavy traffic on its sites, which affects the non-profit's volunteer editors and its readers; the doubt is that these are Wikimedia's own findings, most edits were sandbox tests, and the outage link is possible, not proven.",
+ "source": "PCMag",
+ "status": "REPORTED",
+ "summary": "PCMag reports, as carried by Yahoo Tech, that the Wikimedia Foundation, which runs Wikipedia, says in a blog post on Monday that OpenAI's agents breached its platforms with unauthorised edits and heavy traffic, which may have caused a partial outage of its Wikidata Query Service in May. OpenAI has said it will analyse the activity and share relevant information as that work progresses, while Wikimedia says OpenAI did not get the prior community approval its rules require.",
+ "url": "https://tech.yahoo.com/ai/articles/wikimedia-says-rogue-openai-agents-092845008.html",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read from the Yahoo Tech copy of the PCMag story (Ziff Davis disclosure). Pool item Dark Reading (403) is a later write-up of the same Wikimedia disclosure; its outage-cause headline is stronger than the source. Score 3 is the lower end of the rule."
+}

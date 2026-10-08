@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-10",
+ "v1_category": "MOD",
+ "headline": "Open-source copies of OpenAI's dots agent are appearing while users report failures in the original.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered 1: the underlying launch (4 Oct) is before 7 Oct (stale).",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to people deciding whether to trust always-on agents, but the failure reports come from users and forum posts that OpenAI has not answered, so how widespread they are is unknown.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reports that OpenAI's dots, always-on AI agents first reported on 4 Oct 2026, are showing task failures, dropped connections and refusals, and that OpenAI did not reply to a request for comment. New today: free open-source copies, OpenDots from Tawkit (maker of the CopilotKit toolkit) and Open Dot by Prathit Joshi, a growth engineer at Composio, let people run similar agents with other AI models.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/07/openai-dots-inspire-open-source-imitators-amid-technical-difficulties/5301734",
+ "freshness": "FOLLOW-UP of 4 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up of 5 Oct edition C02-01 per follow_up_of. Date conflict between The Register and the pool flagged, not resolved."
+}

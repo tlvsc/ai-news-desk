@@ -1,0 +1,17 @@
+{
+  "item_id": "C04-08",
+  "v1_category": "RES",
+  "headline": "AI models often suggest building on flawed science instead of questioning it, a test of 30 models finds.",
+  "score": 5,
+  "score_reason": "Pool score 6, lowered by 1: the study was posted in August, so the underlying news is older and re-dated.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "It warns that people who use AI to read science may get confident support for retracted or false work, but it is one researcher's preprint on 42 studies, and the proposed fixes are not yet tested.",
+  "source": "Chemical & Engineering News",
+  "status": "PRELIMINARY",
+  "summary": "Chemical & Engineering News reports that Valentin Rodionov, an organic chemist at Case Western Reserve University, tested 30 AI models on 42 flawed or retracted studies, and found that they uncritically built on the flawed work about 93 percent of the time, in a preprint posted on arXiv in August. The best-scoring model, Claude Sonnet 5, still engaged with or designed studies based on bad science about 72 percent of the time, and researchers are proposing metadata labels and uncertainty notes so AI can read papers with more caution.",
+  "url": "https://cen.acs.org/policy/publishing/ai-agents-interpreting-science/104/web/2026/10",
+  "freshness": "FOLLOW-UP of Aug 2026 (preprint posted in August; exact day not stated)",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Full text read. Preprint posted on arXiv in August 2026, so the underlying news is older; the C&EN feature is new. Named with position in the text: Valentin Rodionov (organic chemist, Case Western Reserve University); Nihar Shah (computer scientist, Carnegie Mellon University); Nicholas Peoples (resident physician in emergency medicine, Massachusetts General Hospital); Peter Koo (quantitative biologist, Cold Spring Harbor Laboratory). The exact August day is not in the text."
+}

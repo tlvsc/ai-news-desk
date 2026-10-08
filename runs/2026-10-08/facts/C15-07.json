@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-07",
+ "title": "Jülich Supercomputing Centre Benchmark Evaluates Quantum Error Correction Primitives Across Quantinuum, IBM, and IQM Hardware",
+ "source_used": "Quantum Computing Report (full text read, citing the JSC study)",
+ "article_url": "https://quantumcomputingreport.com/julich-supercomputing-centre-benchmark-evaluates-quantum-error-correction-primitives-across-quantinuum-ibm-and-iqm-hardware/amp/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Germany's Jülich Supercomputing Centre (JSC) published a benchmark study of quantum error correction (QEC) primitives: mid-circuit measurement, qubit reset, dynamic feed-forward control and spectator idling.",
+  "The study tested ten commercial quantum processors from Quantinuum, IBM and IQM.",
+  "The study is titled 'Evaluating the performance of QEC primitives on quantum processors at large width and depth' and is posted as arXiv:2610.05928.",
+  "Quantinuum's trapped-ion systems showed the strongest overall performance across the tested primitives, with a signal clarity of r = 0.733 on a 91-data-qubit triangular colour code.",
+  "On an 11-patch surface-code memory experiment on IBM's ibm_phoenix, the benchmark correlated with logical error survival at 0.83 to 0.88.",
+  "The benchmark is the authors' own low-sampling test (LR-QAOA) mapped onto surface, colour and qLDPC codes."
+ ],
+ "quote_evidence": [
+  "According to the findings, Quantinuum’s trapped-ion systems demonstrated the strongest overall performance across the tested QEC primitives.",
+  "A benchmark study published by researchers at Germany’s Jülich Supercomputing Centre (JSC) has evaluated key Quantum Error Correction (QEC) primitives"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "An early research comparison of commercial quantum processors on error-fixing tasks; a preprint with no outside review reported.",
+ "event_date": "7 Oct 2026",
+ "notes": "Full text read on QCR. arXiv preprint; no peer review reported. Pool score 5 kept."
+}

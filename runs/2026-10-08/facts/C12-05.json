@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-05",
+ "title": "Hundreds of Global Servers Use AI Hacking Tools, S2W Reports",
+ "source_used": "SBS News (Korean-language article in English edition); pool item is Chosun Ilbo, which returned no text (0 characters)",
+ "article_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008789235",
+ "fetched": true,
+ "key_facts": [
+  "Security and data intelligence firm S2W released a threat intelligence report on 8 Oct 2026.",
+  "According to S2W, hundreds of servers worldwide run the same open-source AI penetration-testing tools used in recent South Korean financial-sector hacks.",
+  "Fake sale posts claiming to sell millions of customer records appeared on the dark web and Telegram; S2W found the leak samples it acquired were fraudulently manipulated (overseas emails, rare domestic surnames, legacy phone prefixes).",
+  "Financial authorities say account passwords and one-time passwords were not compromised, but loan inquiry history leaked with names and contact details.",
+  "Attackers used overseas relay servers, proxies and domestic IPs; most IPs used were not in existing global threat reputation databases.",
+  "Critics say most financial companies' security monitoring and CERT staff are outsourced or contract workers."
+ ],
+ "quote_evidence": [
+  "According to S2W's analysis, hundreds of servers equipped with the same open-source AI penetration testing tools used in the attacks are currently observed operating worldwide.",
+  "Most of the IPs used in the attacks were new addresses not even registered in existing global threat reputation databases (DBs)."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Leaked loan records could fuel targeted voice phishing, and the same AI tools are running on hundreds of servers.",
+ "event_date": "8 Oct 2026 (S2W report)",
+ "notes": "SBS article read in full; SBS notes it was translated by AI and may contain errors. Chosun Ilbo (pool item) returned 200 with no text. Consistent with CrowdStrike's report on the same campaign (C12-02) about the ARTEX tool. S2W is a firm, so the first reporter is the firm; SBS is the outlet credited."
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "C15-03",
+  "v1_category": "RES",
+  "headline": "The EU's police agency, Europol, urges the crypto industry to start moving to quantum-resistant security now.",
+  "score": 6,
+  "score_reason": "Official police-agency report on a real future risk; no such attack is possible yet, so this is a warning about timing.",
+  "importance_label": "MEDIUM",
+  "importance_line": "What changed: Europol warns that quantum computers could eventually expose the private keys that protect crypto wallets and urges a phased move now, but it says such machines do not yet exist and it did not predict when they will.",
+  "source": "Europol",
+  "status": "CONFIRMED",
+  "summary": "Europol reports, as relayed by CoinDesk, that cryptocurrency wallets, rather than the blockchains themselves, are the main point of exposure to future quantum-computer attacks, which cannot be carried out yet. It urges a phased move now to encryption that quantum computers cannot easily break, and expects the industry to adapt rather than see cryptocurrencies collapse.",
+  "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Europol page in the pool is script-only (HTTP 200, no text); its description says 'two new reports', while CoinDesk describes one, and only that one is used. Facts from CoinDesk's account of the report, which quotes Europol. CoinDesk's 6.9 million bitcoin figure is not used because its attribution is unclear. Europol credited as first reporter."
+}

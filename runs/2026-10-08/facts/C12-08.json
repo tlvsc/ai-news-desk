@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-08",
+ "title": "Epic used AI to find potential security flaws that could expose patient health records",
+ "source_used": "WPR (Wisconsin Public Radio), crediting The New York Times for the revelation",
+ "article_url": "https://www.wpr.org/news/epic-ai-find-potential-security-flaws",
+ "fetched": true,
+ "key_facts": [
+  "Epic Chief Executive Judy Faulkner revealed the security vulnerabilities and the tool's use at a conference last month (September 2026), according to The New York Times.",
+  "Epic Systems used Anthropic's Claude Mythos AI model, which is built for advanced cybersecurity and biology research.",
+  "Christopher Rowland, New York Times reporter, told WPR the tool found bad actors could potentially access health data undetected; the tool did not verify whether health records could be changed.",
+  "Epic paused certain new elements of product development to implement the patches the AI agent identified.",
+  "Epic controlled nearly 44 percent of the acute-care electronic health records market last year, according to KLAS Research; Epic, Oracle Cerner and MEDITECH account for nearly 75 percent of the US market, per Definitive Healthcare.",
+  "Rahul Gomes, department chair and associate professor of computer science at UW-Eau Claire, says few vendors serving most hospitals creates a single point of weakness."
+ ],
+ "quote_evidence": [
+  "While the AI tool did not verify if health records could be changed, he said the ability to do so is of particular concern.",
+  "Faulkner announced that Epic had paused certain new elements of product development to implement patches the AI agent identified."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI tool found flaws that could let hackers reach patient data; the revelation dates from September.",
+ "event_date": "Sep 2026 (conference; exact day not given)",
+ "notes": "Article read in full. WPR credits The New York Times for the Faulkner revelation, so the NYT is credited as source. The NYT article itself was not read and its date is not in this text. Pool URL is WPR, which is the page read."
+}

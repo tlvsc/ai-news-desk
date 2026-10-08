@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-08",
+ "title": "Now in Nature: Retrofitting language models to operate over bytes",
+ "source_used": "Ai2 (its own blog)",
+ "article_url": "https://allenai.org/blog/bolmo-nature",
+ "fetched": true,
+ "key_facts": [
+  "Ai2's Bolmo research on byte-level language models has been published in Nature; new checkpoints are on Hugging Face.",
+  "Byteifying turns an already capable subword model into a byte-level one with a relatively short extra training run.",
+  "The same process applied to Qwen 3 8B and Llama 3 8B gave Bwen 8B and Blama 8B, both close to the models they came from.",
+  "Bwen 8B is Ai2's strongest byteified model yet, outperforming Bolmo 7B across Ai2's aggregate evaluation suite.",
+  "Byte-level models read the bytes computers use for characters instead of a fixed vocabulary of word chunks.",
+  "Ai2 also released Stage 1 checkpoints, which keep the global model frozen while training the new byte-level parts."
+ ],
+ "quote_evidence": [
+  "We created a process we call byteifying, which takes an already capable subword model and converts it into a byte-level one with a relatively short additional training run.",
+  "Both come close to matching the models they were derived from, and Bwen 8B is our strongest byteified model yet—outperforming Bolmo 7B across our aggregate evaluation suite.",
+  "Working at this level can improve a model’s understanding of fine-grained text structure, from whitespace to different writing systems, without tying it to a fixed vocabulary."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Researchers can adapt existing models to read raw text more flexibly, without training from scratch.",
+ "event_date": "Not stated in the blog; blog article time 7 Oct 2026",
+ "notes": "Read from Ai2's blog (4,609 chars). The Nature paper itself was not read; the Nature publication is stated by Ai2."
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "C01-05",
+  "v1_category": "MOD",
+  "headline": "In a side project, engineers at the startup Axiom had OpenAI's GPT-6 Astra drive a Toyota Corolla to an In-N-Out drive-through.",
+  "score": 6,
+  "score_reason": "Pool score 6 kept: a striking real-world test; the headline matches the article, which also states its doubts.",
+  "importance_label": "MEDIUM",
+  "importance_line": "Robotics builders and road-safety people get an early sign that general AI models can handle physical tasks, but the honest doubt is that this was one informal test with a safety driver, and only one model finished the engineers' simple driving course.",
+  "source": "WIRED",
+  "status": "REPORTED",
+  "summary": "WIRED reports that three engineers at the startup Axiom had OpenAI's GPT-6 Astra, a model normally used for text and code, steer a 2024 Toyota Corolla through an In-N-Out drive-through, with a safety driver ready to brake. The models at first refused to take control and drove only after careful prompting, and on DrivingBench, a simple parking-lot course the engineers built, only Astra finished, and very slowly.",
+  "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": true,
+  "notes": "Read in full from WIRED (5,729 chars). The drive was a side project outside the engineers' work at Axiom (article). Other results from DrivingBench: Claude Fable 5.1 got 45 percent of the way round the course, Grok 11 percent. Event date not stated ('recently'); article published 7 Oct 2026."
+}

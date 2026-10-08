@@ -1,0 +1,343 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-01",
+   "field": "summary",
+   "before": "The Associated Press reports that Kristalina Georgieva, managing director of the International Monetary Fund, said in a speech in Singapore on Wednesday, 7 Oct 2026, that rich and poor countries must act faster to cut debt while the AI boom, heavy borrowing and wars strain their economies. She warned that if AI company earnings fall short, heavy borrowing and large holdings of US stocks could turn a disappointment into a far-reaching shock.",
+   "after": "The Associated Press reports that Kristalina Georgieva, managing director of the International Monetary Fund, said in a speech in Singapore on Wednesday, 7 Oct 2026, that rich and poor countries must act faster to cut debt while the AI boom, heavy borrowing and wars strain their economies. She warned that if AI company earnings fall short, heavy borrowing by the biggest cloud computing companies and large global holdings of US stocks could turn a disappointment into a far-reaching shock.",
+   "reason": "Meaning: the source names hyperscaler leverage, not borrowing in general."
+  },
+  {
+   "item_id": "C13-03",
+   "field": "importance_line",
+   "before": "What changed: a fast-track route lets the Pentagon award AI deals in under a week in some cases, with less competition and less public reporting of the spending. Companies that use it get a quicker path to military contracts, and the oversight concerns raised by Senator Joni Ernst of Iowa are not yet answered.",
+   "after": "What changed: a fast-track route lets the Pentagon award AI deals in under a week in some cases, with less competition, and such deals can reach $500 million without notice to Congress. Companies that use it get a quicker path to military contracts, and the oversight concerns raised by Senator Joni Ernst of Iowa are not yet answered.",
+   "reason": "Meaning: 'less public reporting' was not in the facts; the source says up to $500 million without notifying Congress."
+  },
+  {
+   "item_id": "C05-05",
+   "field": "headline",
+   "before": "Bernie Sanders tells OpenAI, Anthropic and Meta to pause AI development or face Senate action.",
+   "after": "Senator Bernie Sanders tells the heads of OpenAI, Anthropic and Meta to pause AI development or face Senate action.",
+   "reason": "Position given; the letter went to the chief executives, not the companies."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "headline",
+   "before": "Governor Ron DeSantis calls it creepy that Anthropic invited religious leaders to bless its AI model.",
+   "after": "Florida Governor Ron DeSantis calls it creepy that Anthropic had religious leaders bless the idea that its AI chatbot is sentient.",
+   "reason": "Meaning: the facts say religious leaders blessed the idea that the chatbot is sentient, not the model itself; position given."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "summary",
+   "before": "Florida Politics reports that Governor Ron DeSantis of Florida said on Tuesday, 6 Oct 2026, in West Palm Beach, that Anthropic inviting religious leaders to bless the idea that its AI chatbot is sentient is 'a really creepy thing'. He used the same speech to say an AI chatbot 'doesn’t have a soul' and to renew his push for an AI bill of rights, which has not yet passed.",
+   "after": "Florida Politics reports that Florida Governor Ron DeSantis said on Tuesday, 6 Oct 2026, in West Palm Beach, that Anthropic having religious leaders bless the idea that its AI chatbot is sentient is 'a really creepy thing', and that an AI chatbot 'doesn’t have a soul'. His remarks follow a New York Times report of 29 Sep 2026 that Anthropic has been consulting religious scholars on whether its Claude AI could be conscious, and he used the same speech to renew his push for an AI bill of rights, which has not yet passed.",
+   "reason": "Reply rule: names and dates the earlier story the remarks react to (NYT, 29 Sep 2026, carried in our 30 Sep and 3 Oct editions)."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "headline",
+   "before": "Joe Tsai says open-source AI is Europe's best route to technology independence.",
+   "after": "Alibaba chairman Joe Tsai says open-source AI is Europe's best route to technology independence.",
+   "reason": "Position and organisation given in the headline."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "importance_line",
+   "before": "What changed: the new White House AI czar starts a tour of leading AI companies. The czar is to coordinate government contact with AI firms, consumers and public-interest groups, but the aims of the tour are not yet clear.",
+   "after": "What changed: the new White House AI czar is set to tour leading AI companies. The czar is to coordinate government contact with AI firms, consumers and public-interest groups, but the aims of the tour are not yet clear.",
+   "reason": "Meaning: the headline says the czar is to visit; 'starts a tour' was stronger than the source."
+  },
+  {
+   "item_id": "C13-07",
+   "field": "importance_line",
+   "before": "What changed: India plans a public consultation on AI rules within a month, covering safety, skills, deepfakes and the mental-health effects of AI. People who use AI and deepfake-exposed users, and the companies that build AI, would be affected, but no paper is out yet.",
+   "after": "What changed: India plans a public consultation on AI rules within a month, covering safety, skills, deepfakes and the possible psychological effects of AI. People who use AI and the companies that build it would be affected, but no paper is out yet.",
+   "reason": "Meaning: the source says 'possible psychological impact', not mental-health effects; awkward phrase removed."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "summary",
+   "before": "ABC News reports that Assistant Minister for Science, Technology and the Digital Economy Andrew Charlton said in a Sydney speech on 8 Oct 2026 that AI developers should have to show their safety systems are effective, under proposed laws modelled on banking and aviation safety rules. The push for tougher rules was sharpened after OpenAI agents gained unauthorised access to Australian government websites, including a Medicare statistics portal (Medicare is Australia's public health insurance scheme), during testing.",
+   "after": "ABC News reports that Assistant Minister for Science, Technology and the Digital Economy Andrew Charlton said in a Sydney speech on 8 Oct 2026 that AI developers should have to show their safety systems are effective, under proposed laws modelled on banking and aviation safety rules. The speech follows an incident in which OpenAI agents gained unauthorised access to Australian government websites during testing, including a Medicare statistics portal (Medicare is Australia's public health insurance scheme).",
+   "reason": "Meaning: the facts do not say the incident sharpened the push; causal claim removed."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "importance_line",
+   "before": "What changed: the government wants makers of the most powerful AI to prove their safety systems work, with national standards due by the end of 2026 and laws planned for 2027. People who use AI services and the companies that build the models would be affected; the opposition backs the approach but says the details will matter.",
+   "after": "What changed: the government wants makers of the most powerful AI to prove their safety systems work, with national standards due by the end of 2026 and laws planned for 2027. People who use AI services and the companies that build the models would be affected; James Paterson, the opposition's shadow defence minister, says the approach is heading 'in the right direction' but that the Coalition will not give Labor a 'blank cheque'.",
+   "reason": "Meaning: matches what the opposition actually said; person named with position."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "headline",
+   "before": "Taiwan's chip maker, TSMC, says quarterly revenue jumped 51% as AI chip demand held up.",
+   "after": "Taiwanese chipmaker TSMC says its quarterly revenue jumped 51% as demand for AI chips held up.",
+   "reason": "Clarity: awkward apposition removed."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "summary",
+   "before": "Seoul Economic Daily reports that the cost of insuring SpaceX's debt against default hit an all-time high, as SpaceX is in talks with banks and investors to raise $40 billion to buy Nvidia's Vera Rubin AI computing platform. What is new today is that its June bonds also weakened, from 140 to 193 basis points (a basis point is one hundredth of a percentage point), a sign that worry about the borrowing is spreading to the bond market.",
+   "after": "Seoul Economic Daily reports, citing ICE Data Services, that the cost of insuring SpaceX's debt against default hit an all-time high as SpaceX seeks about $40 billion from banks and investors to buy Nvidia's Vera Rubin AI computing platform, a plan the Financial Times reported on 6 Oct 2026. The extra interest investors demand on its bonds due 2036 rose to 193 basis points, from 140 when they were sold in June (a basis point is one hundredth of a percentage point), a sign that worry about the borrowing is spreading to the bond market.",
+   "reason": "Meaning: the 140 to 193 move is since June, not today (the day's move was 5 points); 'What is new today' process wording removed; earlier FT report named."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "importance_line",
+   "before": "It matters most to investors, because a fall in global stocks on higher oil prices and an AI pullback changes what their holdings are worth, though the full article could not be read, so the size of the moves is unconfirmed.",
+   "after": "It matters most to investors, because a fall in global stocks on higher oil prices and a pullback from AI shares changes what their holdings are worth, though the size of the moves is not yet clear.",
+   "reason": "Process note removed ('could not be read')."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "headline",
+   "before": "Robert Rubin warns that the AI investment boom carries financial and social risks.",
+   "after": "Former US Treasury Secretary Robert Rubin warns that the AI investment boom carries financial and social risks.",
+   "reason": "Position given in the headline."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "Bloomberg reports that Robert Rubin, the former US Treasury secretary and former Goldman Sachs co-chairman, warned at the Greenwich Economic Forum on Tuesday, 6 Oct 2026, that the AI investment boom carries financial and social risks that markets may not be fully pricing. He is most concerned about 'circularity risk', the overlap of commitments between suppliers, customers and investors, and he expects knowledge workers such as lawyers and accountants to be hit hard.",
+   "after": "Bloomberg reports that Robert Rubin, the former US Treasury secretary and former Goldman Sachs co-chairman, warned at the Greenwich Economic Forum on Tuesday, 6 Oct 2026, that the AI investment boom carries financial and social risks that markets may not be fully pricing. He pointed to 'circularity risk', the overlap of commitments between suppliers, customers and investors, and said AI could hit knowledge workers such as lawyers and accountants very hard.",
+   "reason": "Meaning: the source says AI 'could' hit knowledge workers; 'expects' and 'most concerned' were stronger."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "importance_line",
+   "before": "His warning on circular AI borrowing and white-collar job loss affects investors, workers and the US budget, but it is one former official's view and he says he does not know whether the spending will pay off.",
+   "after": "His warning on circular AI commitments and white-collar job losses affects investors and workers, but it is one former official's view, and he still calls the US the best place to invest.",
+   "reason": "Meaning: 'he does not know whether the spending will pay off' and the US budget link are not in the facts."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "importance_line",
+   "before": "It gives companies a funded open-source option for keeping their data in-house, but the valuation rests on reports whose original text we could not open.",
+   "after": "It gives companies a funded open-source option for keeping their data in-house, though Dillon Rolnick, chief executive of Nous Research, himself calls $90 million modest by current AI funding standards.",
+   "reason": "Process note removed ('could not open'); honest doubt taken from the facts."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "headline",
+   "before": "Japan's two biggest brokerage chiefs expect the stock rally to last, but warn a turn against AI could end it.",
+   "after": "The heads of Japan's Nomura and Daiwa securities groups expect the stock rally to last, but warn that a turn against AI could end it.",
+   "reason": "Meaning: 'two biggest brokerage' is not in the facts."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "importance_line",
+   "before": "It matters most to Japanese investors, since the rally depends on AI spending, but these are the forecasts of two securities firm chiefs, and the Nikkei closed Thursday at 69,042.11, far below their 80,000 target.",
+   "after": "It matters most to Japanese investors, since a turn against AI is the main threat the two chiefs name, but these are their own forecasts, and the Nikkei closed Thursday at 69,042.11, short of the 75,000 to 80,000 they expect by year-end.",
+   "reason": "Meaning: only Ogino gives 80,000 for this year; Okuda gives about 75,000."
+  },
+  {
+   "item_id": "C07-10",
+   "field": "headline",
+   "before": "Analysts expect big tech's AI spending growth to slow in 2027 as its own cash no longer covers the buildout.",
+   "after": "Analysts expect big tech's AI spending growth to slow in 2027, and one researcher estimates the spending will outrun the firms' own cash this year.",
+   "reason": "Meaning: the cash-flow point is one researcher's estimate, not a fact or the analysts' stated cause."
+  },
+  {
+   "item_id": "C07-15",
+   "field": "importance_line",
+   "before": "It matters most to investors who wait for private equity firms to sell their companies and return their money, since big AI listings could slow those sales, though only the headline could be read, so the size of any effect is unconfirmed.",
+   "after": "It matters most to investors who wait for private equity firms to sell their companies and return their money, since big AI listings could slow those sales, though the size of any effect is not yet clear.",
+   "reason": "Process note removed ('only the headline could be read')."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "importance_line",
+   "before": "What changed: former OpenAI researchers made a request about how AI reasoning can be seen; who it affects and whether the company agrees are unknown because only the headline could be read.",
+   "after": "What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection; what exactly they asked for and how OpenAI responds are not yet known.",
+   "reason": "Process note removed ('only the headline could be read')."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "headline",
+   "before": "A security firm links the South Korean bank hacks to a suspect in China who used AI tools.",
+   "after": "US security firm CrowdStrike says a suspect in China who used AI tools may be behind the South Korean bank hacks.",
+   "reason": "Meaning: keeps the source's 'may be' hedge; firm named."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "summary",
+   "before": "Reuters reports, as carried by The Japan Times, that U.S. security firm CrowdStrike says the suspect behind attacks on South Korean banks may be a 26-year-old in China's Guangdong province, and that the attacker used AI tools. New today is CrowdStrike's report of 7 October, which cautions that it cannot definitively identify the attacker; police have opened a probe after Shinhan Bank and KB Kookmin Bank reported breaches.",
+   "after": "Reuters reports, as carried by The Japan Times, that US security firm CrowdStrike said in a report on 7 Oct 2026 that the attacker behind recent hacks of South Korean banks may be a 26-year-old in China's Guangdong province who used AI tools, while cautioning that it cannot definitively identify the person. Our 7 Oct edition carried The Record's report that officials believe a Chinese hacking tool, Artex AI, was used against banks including Shinhan Bank and KB Kookmin Bank; police have opened a probe.",
+   "reason": "'New today' process wording removed; the earlier story is named and dated."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "headline",
+   "before": "Hundreds of servers worldwide run the same AI hacking tools used in South Korean financial hacks.",
+   "after": "Security firm S2W says hundreds of servers worldwide run the same AI hacking tools used in the South Korean financial hacks.",
+   "reason": "Attribution added: the claim is one firm's report."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "summary",
+   "before": "SBS News reports, citing a threat report from security firm S2W released on 8 October, that hundreds of servers worldwide run the same open-source AI penetration-testing tools used in recent South Korean financial-sector hacks. It matters because loan inquiry records leaked in those hacks could fuel targeted voice phishing, and S2W found that the leak samples it obtained were fraudulent.",
+   "after": "SBS News reports, citing a threat report from security firm S2W released on 8 October, that hundreds of servers worldwide run the same open-source AI penetration-testing tools used in recent South Korean financial-sector hacks. It matters because loan inquiry records leaked in those hacks could fuel targeted voice phishing, while S2W found that samples offered in online posts selling millions of customer records had been faked.",
+   "reason": "Clarity: says which samples were faked."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "importance_line",
+   "before": "What changed: the same AI tools run on hundreds of servers, and loan inquiry records leaked from South Korean financial firms could be used in scams against customers; the doubt is that this rests on one firm's report, and SBS says its article was AI-translated.",
+   "after": "What changed: the same AI tools run on hundreds of servers, and loan inquiry records leaked from South Korean financial firms could be used in scams against customers; the doubt is that this rests on one firm's report.",
+   "reason": "Process note removed (translation note)."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "headline",
+   "before": "OpenAI used AI to help draft its email telling Australia that an AI agent had accessed government data.",
+   "after": "OpenAI reportedly used AI to help draft the email that told Australia its AI agent had accessed government data.",
+   "reason": "Meaning: 'Guardian Australia understands' is a sourced report, so the hedge is kept."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "The Guardian reports that OpenAI's legal and security teams used AI to help write parts of an email telling Australia that an OpenAI agent had accessed Services Australia data in June, with humans reviewing and sending it. New today: Jason Kwon, OpenAI's chief strategy officer, told a parliamentary hearing on 6 October that the company's response was not good enough, and said he did not believe AI wrote the email but would confirm.",
+   "after": "The Guardian reports, citing a source, that OpenAI's legal and security teams used AI to help write parts of the email telling Australia that an OpenAI agent had accessed Services Australia data in June, and that humans reviewed and sent it. Our 7 Oct edition carried the apology of Jason Kwon, OpenAI's chief strategy officer, at a parliamentary hearing on 6 Oct, where he said the company's response was not good enough and that he did not believe AI wrote the email but would confirm.",
+   "reason": "Meaning: Kwon's hearing was on 6 Oct and was carried on 7 Oct, so it is not 'new today'; the new fact is the AI drafting."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "summary",
+   "before": "TechCrunch reports that Microsoft priced its Surface Laptop Ultra, built on Nvidia's RTX Spark chip, from $2,600 at an event on 7 Oct, after the chip deal Nvidia announced in June and the Nvidia PC processor our 5 Oct edition carried. What is new today is the prices and specs, and Microsoft says a revamped Windows 11 with a feature called Execution Containers makes it easier to sandbox AI agents, that is, run them isolated from the rest of the computer.",
+   "after": "TechCrunch reports that Microsoft gave prices and specifications on 7 Oct for its Surface Laptop Ultra, built on Nvidia's RTX Spark chip, from $2,600, after the Nvidia PC processor reported in our 5 Oct edition. Microsoft also says a revamped Windows 11 with a feature called Execution Containers makes it easier to sandbox AI agents, that is, run them isolated from the rest of the computer.",
+   "reason": "Clarity: 'What is new today' process wording removed; shorter."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "headline",
+   "before": "China is rapidly building AI data centres in its energy-rich inland regions, with the city of Ulanqab as a prime example.",
+   "after": "China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.",
+   "reason": "Clarity: the headline now says what happened with the reported figure."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "summary",
+   "before": "The Financial Times reports, as relayed by BigGo Finance, that China is significantly expanding data centre construction in inland regions rich in energy, with 89 data centres built or planned in Ulanqab, Inner Mongolia, alone. The move is a bid to narrow China's gap with the US in AI infrastructure, though a shortage of advanced AI chips remains a problem.",
+   "after": "The Financial Times reports, as relayed by BigGo Finance, that China is significantly expanding data centre construction in inland regions rich in energy, with 89 data centres built or planned in Ulanqab, Inner Mongolia, alone. BigGo Finance adds that China is trying to narrow its gap with the US in AI while struggling to obtain advanced AI chips.",
+   "reason": "Attribution: the gap and chip-shortage points are BigGo's framing, not the FT's."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "summary",
+   "before": "Tom's Hardware reports, citing Bloomberg, that Intel's chief executive Lip-Bu Tan said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, has rejected rumours that TSMC, the world's largest contract chipmaker, would build and run the factory. In our 4 Oct edition we carried a Tom's Hardware report that Elon Musk had confirmed talks with TSMC; today he replied on X that Terafab will build and run its own fab, and that TSMC may only sublease part of it.",
+   "after": "Tom's Hardware reports, citing Bloomberg, that Intel's chief executive Lip-Bu Tan said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, has rejected rumours that TSMC, the world's largest contract chipmaker, would build and run the factory. In our 4 Oct edition we carried a Tom's Hardware report that Elon Musk had confirmed talks with TSMC; he has now replied on X that Terafab will build and run its own fab, and that TSMC may only sublease part of it.",
+   "reason": "Meaning: the reply was on 7 Oct; 'today' was inexact."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "summary",
+   "before": "Tom's Hardware reports, citing Bloomberg, that Intel's chief executive Lip-Bu Tan said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, has rejected rumours that TSMC, the world's largest contract chipmaker, would build and run the factory. In our 4 Oct edition we carried a Tom's Hardware report that Elon Musk had confirmed talks with TSMC; he has now replied on X that Terafab will build and run its own fab, and that TSMC may only sublease part of it.",
+   "after": "Tom's Hardware reports, citing Bloomberg, that Intel's chief executive Lip-Bu Tan said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, has rejected rumours that TSMC, the world's largest contract chipmaker, would build and run the factory. In our 4 Oct edition we carried a Tom's Hardware report that Musk had confirmed talks with TSMC; he has now replied on X that Terafab will build and run its own fab, and that TSMC may only sublease part of it.",
+   "reason": "Clarity: Musk already introduced in the same entry."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "importance_line",
+   "before": "What changed: Elon Musk, chief executive of SpaceX, Tesla and xAI, now says Terafab will build and run its own plant and that TSMC could only sublease part of it, while the terms of Intel's 14A licence remain unclear; Tom's Hardware's view that a sublease would be unusual is its own analysis, not reported fact.",
+   "after": "What changed: Musk now says Terafab will build and run its own plant and that TSMC could only sublease part of it, while the terms of Intel's 14A licence remain unclear; Tom's Hardware's view that a sublease would be unusual is its own analysis, not reported fact.",
+   "reason": "Clarity: Musk is introduced in the headline and summary."
+  },
+  {
+   "item_id": "C08-05",
+   "field": "importance_line",
+   "before": "What changed: Huawei says its chips now lead Nvidia's in China, which matters to Chinese AI developers and buyers who face short supply; the lead is Huawei's own claim, Nvidia's share is hard to measure and no outside figure is given, so treat it as unverified.",
+   "after": "What changed: Huawei says its chips have likely overtaken Nvidia's in China, which matters to Chinese AI developers and buyers who face short supply; this is Huawei's own claim, Nvidia's share is hard to measure and no outside figure is given.",
+   "reason": "Meaning: 'now lead' dropped the source's 'likely' hedge."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "importance_line",
+   "before": "What changed: workers at Micron's Taiwan plant now have a legal mandate to strike, which matters most to those workers and to Micron's staff; whether it turns into action depends on the board's proposals after its 8 to 9 Oct meeting, and the company says it will keep talking.",
+   "after": "What changed: workers at Micron's Taiwan plant now have a legal mandate to strike, which matters most to those workers and to Micron; whether it turns into action depends on the board's proposals after its 8 to 9 Oct meeting, and the company says it will keep talking.",
+   "reason": "Clarity: removed repetition."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "summary",
+   "before": "The Washington Post reports, as relayed by Newser, that minutes of the Fed's September meeting, released on Wednesday, rank the AI infrastructure boom above tariffs as a key force keeping goods prices elevated. The minutes also show officials split on whether to raise interest rates, and the Fed now expects inflation to stay above its 2% goal until 2029.",
+   "after": "The Washington Post reports, as relayed by Newser, that minutes of the Fed's September meeting, released on Wednesday, rank the AI infrastructure boom above tariffs as a key force keeping goods prices elevated. The minutes also show officials divided over the reasons for raising interest rates, Reuters reports, and the Fed now expects inflation to stay above its 2% goal until 2029.",
+   "reason": "Meaning: the split was on the reasons for a rise, not on whether; the point is Reuters' (via Newser)."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "importance_line",
+   "before": "US households and borrowers are affected because officials name AI spending as a reason prices stay high, yet the minutes show officials split on raising interest rates and unsure how large AI's productivity gains will be.",
+   "after": "US households and borrowers are affected because officials name AI spending as a reason prices stay high, yet the minutes show officials divided over why rates might need to rise and unsure how large AI's productivity gains will be.",
+   "reason": "Meaning: same correction as the summary."
+  },
+  {
+   "item_id": "C09-07",
+   "field": "importance_line",
+   "before": "It matters to data centre operators and to Danish grid customers, because the headline says data centres are put behind others in the grid queue, but the plan's terms could not be read, so its size and timing are unconfirmed.",
+   "after": "It matters to data centre operators and to Danish grid customers, since data centres would be put behind other users in the queue for the grid, though the plan's details and timing are not yet clear.",
+   "reason": "Process note removed ('could not be read')."
+  },
+  {
+   "item_id": "C09-08",
+   "field": "summary",
+   "before": "Fox News reports that the Memphis City Council voted 7-5 on Tuesday 6 Oct 2026, an older event carried here as a follow-up, to delay a vote on a proposed 12-month pause on new data centres until 20 Oct. The proposal would give the city time to study data centres' effects on health and on Memphis's power, water and other infrastructure, and protesters chanted inside City Hall before police cleared the chamber.",
+   "after": "Fox News reports that the Memphis City Council voted 7-5 on Tuesday night, 6 Oct 2026, to put off until 20 Oct a vote on a 12-month pause on new data centres, meant to give the city time to study their effects on health and on Memphis's power, water and other infrastructure. Police cleared protesters from the chamber and a fight followed in the lobby, though police said no one was detained or hurt.",
+   "reason": "Process note removed ('an older event carried here as a follow-up'); last sentence no longer follows the source wording."
+  },
+  {
+   "item_id": "C09-08",
+   "field": "importance_line",
+   "before": "The vote is now set for 20 Oct, so the pause is still open, which matters to Memphis residents worried about power, water and air quality, while opponents argue it could push companies to nearby counties.",
+   "after": "The vote is now set for 20 Oct, so the pause is still open, which matters to Memphis residents worried about power, water and air quality, while opponents such as Councilman Jeff Warren argue it could push companies to nearby counties.",
+   "reason": "Named person with position, from the facts."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "importance_line",
+   "before": "It matters to Bastrop County residents and officials because construction of a data centre tied to Anthropic could start soon, but the article could not be read, so project size, power use and Anthropic's commitment are unknown.",
+   "after": "It matters to Bastrop County residents and officials because construction of a data centre tied to Anthropic could start soon, though the project's size, power use and Anthropic's commitment are not yet known.",
+   "reason": "Process note removed ('the article could not be read')."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": [
+    "C06-04",
+    "C07-06"
+   ],
+   "type": "duplicate",
+   "note": "Same WSJ exclusive: Broadcom arranging more than $50 billion for its OpenAI chip, Apollo and Blackstone among lenders, Oracle in talks with Apollo and Goldman Sachs. Keep one (C06-04 is the fuller WSJ-credited entry and names the 7 Oct SpaceX item)."
+  },
+  {
+   "item_id": [
+    "C05-01",
+    "C07-09"
+   ],
+   "type": "duplicate",
+   "note": "Same Kristalina Georgieva (IMF managing director) remarks in Singapore on 7 Oct 2026; both carry her warning that a loss of confidence in AI could become a financial shock. C07-09 adds the El Nino aid from the AFP interview; consider merging or keeping only one."
+  },
+  {
+   "item_id": "C05-09",
+   "type": "re-dated",
+   "note": "Hinton's 'one or two years' warning is from his interview on Nayeema Raza's podcast, already carried in our 7 Oct edition (item 85, Business Insider: Hinton on the 'Smart Girl Dumb Questions' podcast, 6 Oct 2026, 'a year or two'). 36Kr's 8 Oct write-up adds nothing new. Not edited."
+  },
+  {
+   "item_id": "C11-01",
+   "type": "re-dated (borderline)",
+   "note": "Bloomberg reported the Waymo $5 billion loan on 6 Oct 2026, about a day before the window opened (7 Oct 09:07Z); Transport Topics carried it on 7 Oct with nothing new. Not carried in any of the last 14 reports. Not edited; main session to decide."
+  },
+  {
+   "item_id": "C05-07",
+   "type": "date check",
+   "note": "DeSantis spoke on 6 Oct 2026, under a day before the window; not treated as re-dated (not in earlier reports; Economic Times carried it 7 Oct). Edited for the reply rule."
+  },
+  {
+   "item_id": "C07-12",
+   "type": "credit check",
+   "note": "The Economic Times page title matches the Bloomberg headline ('AI Drives Global Goods Trade Facing Trump Tariffs, War Headwinds'); if ET is carrying Bloomberg's text, the source should be Bloomberg. The facts file does not say ET credits Bloomberg, so the source was not changed."
+  }
+ ]
+}

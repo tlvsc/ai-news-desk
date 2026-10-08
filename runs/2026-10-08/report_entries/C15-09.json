@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-09",
+ "v1_category": "RES",
+ "headline": "A quantum software firm, Haiqu, has released a team of AI agents that plans quantum research and checks each step of it.",
+ "score": 5,
+ "score_reason": "Company product launch backed by the company's own test results; a tool announcement, not an independent finding.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: quantum researchers and enterprise R&D teams can now use AI agents that the company says keep to an approved research plan, which could speed up their work, but the test results are the company's own and no outside check is reported.",
+ "source": "Haiqu",
+ "status": "PRELIMINARY",
+ "summary": "Haiqu, a quantum software company, has released AgenticOS, a set of AI agent teams (AI programs that carry out tasks on their own) to plan quantum research and check each step against benchmarks run on ordinary computers and against human review. In the company's chemistry test, accepted at a NeurIPS 2026 workshop, four of 10 unaided AI agent runs ignored an explicit setup instruction, while the same models using AgenticOS held to the approved protocol.",
+ "url": "https://thequantuminsider.com/2026/10/07/haiqu-releases-agenticos-to-plan-and-check-quantum-research/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read on The Quantum Insider, where it runs as Haiqu's press release (no outlet reporting). Source credited to the issuer, Haiqu; url is the page read. Names in the release (co-founder and CTO Mykola Maksymenko, co-founder and CEO Richard Givhan) are not in the summary. Score 5 kept."
+}

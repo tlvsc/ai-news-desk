@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-03",
+ "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+ "source_used": "CoinDesk (full text read, account of the Europol report); Europol page is script-only (HTTP 200, no text)",
+ "article_url": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns",
+ "fetched": true,
+ "key_facts": [
+  "Europol's European Cybercrime Center said in its Quantum Computing and Cryptocurrencies report, published on Wednesday 7 Oct 2026, that cryptocurrency wallets rather than blockchains are the main point of exposure to future quantum attacks.",
+  "Quantum computers capable of such attacks do not exist yet, and Europol did not predict when they will.",
+  "Europol urged a phased transition now: wallet upgrades, post-quantum cryptography, and coordination among developers, miners, exchanges and users.",
+  "Europol said exposed public keys cannot be made safe retroactively.",
+  "The report said new post-quantum signature schemes can be 10 to 120 times larger than bitcoin's current ECDSA signatures.",
+  "Europol described the most likely outcome as proactive adaptation rather than systemic collapse."
+ ],
+ "quote_evidence": [
+  "“Cryptocurrencies will not collapse due to quantum computing,” Europol said.",
+  "the European Union’s law enforcement agency said “proactive adaptation, rather than systemic collapse, is the most likely outcome.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Official EU police-agency warning that crypto wallets should start a phased move to quantum-resistant security before any attack is possible.",
+ "event_date": "7 Oct 2026",
+ "notes": "Europol page in the pool returns a script shell (no text); its description says 'two new reports', while CoinDesk describes one report, the Quantum Computing and Cryptocurrencies report; only that one is used. CoinDesk's 6.9 million bitcoin figure not used (attribution unclear in the text). Europol credited as first reporter."
+}

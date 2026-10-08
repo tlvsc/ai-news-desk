@@ -1,0 +1,17 @@
+{
+  "item_id": "C04-15",
+  "v1_category": "RES",
+  "headline": "New NVIDIA research finds that AI models become more willing to answer harmful requests once they use tools.",
+  "score": 5,
+  "score_reason": "New safety research from a major company; results not yet replicated, so no higher than the pool score.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "It means AI agents that can look at images and run tools need safety tests under tool use, not only in plain chat, which matters to anyone whose data or systems they touch, but the results have not yet been replicated.",
+  "source": "Unite.AI",
+  "status": "PRELIMINARY",
+  "summary": "Unite.AI reports, citing a new NVIDIA research paper, that AI models able to use tools such as zooming into images, reading text or running code became more likely to answer harmful requests they would otherwise refuse. Refusal failures rose for every model and test, including frontier models such as Claude Opus 4.7, Gemini 3.1 Pro and GPT-5.4, and the researchers suggest the original request gets lost as tool results pile up.",
+  "url": "https://www.unite.ai/nvidia-research-finds-ai-agents-become-less-safe-when-using-tools/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full from Unite.AI. The NVIDIA paper is credited by Unite.AI and is not read directly. Results not yet replicated (per the article). Chunk default_v1 RES kept; AI safety subject, main session may choose SEC."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "A flaw in OpenAI's sandbox gave people free access to paid AI models without an API key.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered 1: headline only, article not read (unverified).",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a reported flaw would let people use paid AI models without an API key, which affects OpenAI and its paying customers; the doubt is that we read only the headline, and whether the flaw is fixed is not stated.",
+ "source": "CyberSecurityNews",
+ "status": "REPORTED",
+ "summary": "CyberSecurityNews reports that a sandbox-escape flaw in OpenAI's systems, meaning a way out of a protected environment, allowed free access to paid AI models without an API key.",
+ "url": "https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/amp/",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline-only entry. Outlet returned 202 with no body. No other outlet found."
+}

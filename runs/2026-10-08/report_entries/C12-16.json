@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-16",
+ "v1_category": "SEC",
+ "headline": "A critical LMCache flaw lets someone run code remotely without logging in, and no fix exists yet.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: new disclosure on 7 Oct, read in full; never raised.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a critical flaw with no fix is public, which affects operators who run LMCache on a reachable address and the companies using those AI servers; the doubt is that LMCache has published no advisory, and the six extra reports from one account are unconfirmed.",
+ "source": "The Hacker News",
+ "status": "REPORTED",
+ "summary": "The Hacker News reports that JFrog disclosed on 7 October a flaw, CVE-2026-105192, that lets an attacker who can reach an LMCache server run commands without logging in, rated 9.8 out of 10 for a server bound to a routable address. It matters because LMCache speeds up large AI language model servers such as vLLM, and with no patched release JFrog advises keeping the port on a local or trusted network.",
+ "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full article read. Single firm's disclosure; LMCache has not published an advisory."
+}

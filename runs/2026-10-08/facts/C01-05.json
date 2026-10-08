@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-05",
+ "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+ "source_used": "WIRED",
+ "article_url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+ "fetched": true,
+ "key_facts": [
+  "Three engineers at the startup Axiom had OpenAI's GPT-6 Astra steer a 2024 Toyota Corolla to an In-N-Out drive-thru.",
+  "The model was linked to a server connected to windscreen cameras and the car's power steering; a safety driver kept a foot above the brake.",
+  "The model, normally used for text and code, navigated the car up to the take-out window; the article says nothing overtly alarming happened.",
+  "At first the models refused to take control of the car; careful prompting got them to drive.",
+  "The engineers built DrivingBench, a test on a simple parking-lot course: only Astra finished, very slowly; Claude Fable 5.1 got 45 percent of the way round and Grok 11 percent.",
+  "The engineers doubt the big AI companies trained their models to drive; the skill may have come from 3D reasoning training."
+ ],
+ "quote_evidence": [
+  "A safety driver kept one foot above the brake, just in case.",
+  "Only Astra is able to complete the course—and very slowly at that.",
+  "The engineers say big AI companies seem to be focusing on improving the spatial reasoning capabilities of their latest models, but they doubt this means they’re actually training them to drive cars."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A general language model steered a real car, with a safety driver, and only one model finished a simple test course.",
+ "event_date": "Not stated (the article says 'recently'); article published 7 Oct 2026",
+ "notes": "Read from WIRED (5,729 chars). One informal experiment reported by WIRED and the engineers' own benchmark."
+}

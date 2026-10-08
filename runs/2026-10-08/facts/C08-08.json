@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-08",
+ "title": "Arista takes Ethernet into the rack, and the network becomes the backplane",
+ "source_used": "SiliconANGLE",
+ "article_url": "https://siliconangle.com/2026/10/07/arista-takes-ethernet-rack-network-becomes-backplane/",
+ "fetched": true,
+ "key_facts": [
+  "Arista Networks announced an open Ethernet rack-scale portfolio for scale-up and scale-out AI networks, built with partners including AMD, Arm, Broadcom, d-Matrix, Meta, Microsoft and Qualcomm.",
+  "The lead product, Etherlink SU-144, is an Ethernet-based scale-up architecture that connects up to 144 accelerators in one hop and up to 1,024 across racks, built on the ESUN (Ethernet for Scale-Up Networking) initiative.",
+  "Scale-out liquid-cooled rack reference designs come in 8-, 12- and 16-switch configurations built on 7060EX7 switches, each delivering 102.4 terabits per second.",
+  "Next-generation optics are said to raise rack capacity from 1.6 to 6.5 petabits per second and cut the data-centre footprint by nearly half.",
+  "Partners integrate and deliver the configured racks; Arista will show a fully assembled liquid-cooled rack at the Open Compute Project Global Summit, 12 to 15 Oct in San Jose.",
+  "Arista's Vijay Vusirikala says there is no near-term opportunity in Nvidia's proprietary scale-up links."
+ ],
+ "quote_evidence": [
+  "In the AI era, the network can no longer be thought of as an independent pipe moving data between servers.",
+  "\"There is no near-term opportunity because that is proprietary,\" Vusirikala told me.",
+  "A 16-switch rack configuration can involve 2,000 fibers, and on-site cabling invites bend-radius violations, miswiring, signal-integrity problems, and dead optics."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Arista is selling tested AI rack designs, not just switches, aimed at hyperscalers and AI cloud firms.",
+ "event_date": "7 Oct 2026",
+ "notes": "Read in full (fulltext/C08-08.txt). The article is an analyst column by Zeus Kerravala, principal analyst at ZK Research, written for SiliconANGLE; his analysis is kept separate from Arista's announcement. Vijay Vusirikala is Arista's distinguished lead for AI systems and networks. Pool importance 5 kept."
+}

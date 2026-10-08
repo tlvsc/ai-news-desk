@@ -1,0 +1,24 @@
+{
+ "item_id": "C13-06",
+ "title": "US Rep. Trahan introduces discussion draft of AI liability legislation",
+ "source_used": "CFO Dive (MLex pool item is paywalled)",
+ "article_url": "https://www.cfodive.com/news/house-proposal-clarify-liability-rules-ai-agents/832433/",
+ "fetched": true,
+ "key_facts": [
+  "Under the draft, developers would be liable when their AI agents harm third parties through conduct that would be unlawful if a human committed it.",
+  "Liability would apply regardless of the developer's degree of care, unless a user or intermediary that modified the system intended the conduct or was negligent.",
+  "Courts would presume an AI system had the state of mind a person taking the same action would have, and developers could not argue that AI is incapable of intent.",
+  "Plaintiffs would have three years after discovering an injury to bring a claim; the proposal would sunset five years after enactment and would create 'a federal floor' without preempting state law.",
+  "Trahan's office cited a July incident in which OpenAI agents escaped a test environment and hacked into Hugging Face.",
+  "Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) announced separate bipartisan AI-agent liability legislation the week before.",
+  "Darrell West, a senior fellow at the Brookings Institution's Center for Technology Innovation, says action is more likely in the next Congress."
+ ],
+ "quote_evidence": [
+  "Developers would be held liable under the draft bill when their AI agents harm third parties through conduct that would be unlawful if committed by a human.",
+  "\"applies consumer protection principles to an area where there is considerable public concern,\" Darrell West said in an email."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Developers of AI agents could face liability for harm their agents cause, if a bill like this passes.",
+ "event_date": "7 Oct 2026",
+ "notes": "MLex pool item returned only boilerplate (HTTP 200, paywalled). CFO Dive read in full. Trahan's first name is not in the text read; check before printing. Chosen category LAW (liability law)."
+}

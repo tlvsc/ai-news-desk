@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-16",
+ "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+ "source_used": "The Hacker News (article text)",
+ "article_url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+ "fetched": true,
+ "key_facts": [
+  "JFrog disclosed on 7 Oct 2026 the flaw CVE-2026-105192 in LMCache, open-source software that speeds up LLM servers such as vLLM; JFrog rated it 9.8 out of 10 for a server bound to a routable address.",
+  "The flaw affects LMCache from version 0.3.9 (Oct 2025) through 0.5.5, the latest stable release, and also the 0.5.6 release candidates and the development branch; no fixed version exists.",
+  "The multiprocess server listens only on the local machine by default; it is reachable when an operator starts it on a routable address, as LMCache's own example Kubernetes deployment does.",
+  "The ZeroMQ socket has no authentication; one message type is unpickled before its type is checked, so a crafted message can run code with the LMCache process's privileges, which are root on the official container images according to JFrog.",
+  "The flaw was found by Yuval Moravchick of JFrog's security research team.",
+  "LMCache has not published a security advisory, and JFrog's advisory gives no way for operators to tell whether a server was already attacked.",
+  "A GitHub user opened six other LMCache security reports on 6 Oct 2026; they rest on proof-of-concept claims, have no CVE and no maintainer confirmation."
+ ],
+ "quote_evidence": [
+  "A single network message to that server can run commands as the user the LMCache process runs as.",
+  "There is no patched release.",
+  "LMCache has not published a security advisory for the flaw."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A critical unpatched flaw can let an attacker who reaches the server run commands; operators must keep the port local or on a trusted network.",
+ "event_date": "7 Oct 2026 (JFrog disclosure)",
+ "notes": "Article read in full (4,323 characters). The closing vendor line on AI agents in enterprises is advertising and is not used. Single firm's disclosure; no maintainer advisory."
+}

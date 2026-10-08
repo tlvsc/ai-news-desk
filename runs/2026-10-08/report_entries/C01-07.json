@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "headline": "Perplexity has released two new AI models, a 0.6-billion-parameter one built to run on devices and a 9-billion-parameter one reported to score 92.4 percent on the MADQA test.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered to 4: headline only; the 92.4 percent test score is a company figure that could not be checked.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI apps may care, but the honest doubt is that the article could not be read, so the 92.4 percent score is unchecked.",
+ "source": "MarkTechPost",
+ "status": "REPORTED",
+ "summary": "MarkTechPost reports that Perplexity has released pplx-embed-v2-late, a 0.6-billion-parameter model built to run on devices and a 9-billion-parameter model that scores 92.4 percent on the MADQA test.",
+ "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only. The MarkTechPost page returns HTTP 403. Two Google News searches found only MarkTechPost for this story; no other outlet found. Score lowered 5 to 4 under the 'unverified' rule, which puts it below the report cutoff of 5; the caller can override."
+}

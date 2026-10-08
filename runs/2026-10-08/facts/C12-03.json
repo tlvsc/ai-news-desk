@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-03",
+ "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Lumen's Black Lotus Labs say the PoeLLM malware has compromised more than 3,400 servers, with peak activity of as many as 800 infected systems on a single day.",
+  "PoeLLM has been active since at least April, with at least 11 command-and-control servers set up so far.",
+  "Victims are mainly in the United States and Western Europe and often run exposed AI tools such as LiteLLM and Ollama, the Gotenberg PDF converter and the Gitea toolkit.",
+  "The malware gets its command-and-control address from words in a poem hosted on GitHub; the operator has changed the poem 11 times.",
+  "Features include a remote shell, the XMRig and Iron cryptocurrency miners, HTTP and HTTPS scanning and exploit deployment; it tries CVE-2026-42271 on LiteLLM's MCP server test endpoints.",
+  "Researchers could not make a confident attribution; they assess with moderate confidence that the operator is Italian.",
+  "Update in the article: the victim count was corrected from 2,100 to 3,400 in the researchers' live report."
+ ],
+ "quote_evidence": [
+  "Researchers at Lumen's Black Lotus Labs (BLL) tracking the botnet malware say it has compromised more than 3,400 servers, with peak activity reaching as many as 800 infected systems active on a single day.",
+  "The researchers could not make a confident attribution but assess with moderate confidence that the operator is Italian, based on comments in the malware and an Italy-based server hosting the administrative interface."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Exposed AI servers are being turned into cryptomining machines and launchpads for further attacks.",
+ "event_date": "7 Oct 2026 (research published)",
+ "notes": "Article read in full (fulltext file). Single research source (Lumen's Black Lotus Labs), relayed by BleepingComputer; no outside review reported."
+}

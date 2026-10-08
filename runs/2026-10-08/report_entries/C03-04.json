@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-04",
+  "v1_category": "MOD",
+  "headline": "Amazon Web Services has released Strands Box, an open-source tool that limits what AI agents may do.",
+  "score": 5,
+  "score_reason": "Pool 6 lowered 1: the headline says it prevents disasters, but AWS itself says developers remain responsible and an allowed action can still go wrong.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Developers who let AI agents run commands or call paid services can set limits on them, but the tool runs only on macOS for now, and developers still have to choose the right access and review steps themselves.",
+  "source": "The Register",
+  "status": "CONFIRMED",
+  "summary": "The Register reports that AWS has released Strands Box, open-source software that runs AI agents inside a sandbox and checks each action against rules that also consider what the agent has already done, such as a limit of three Slack posts in ten minutes. Marc Brooker, AWS vice president and distinguished engineer, told The Register that developers still have to decide what access an agent gets and when a person must review its work.",
+  "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (The Register, which interviewed AWS). Not the same release as AWS's Strands Decider 2B, carried in our 2 Oct edition. The headline's 'prevent disasters' is The Register's wording and is the reason for the lower score."
+}

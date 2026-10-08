@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-04",
+ "v1_category": "SEC",
+ "headline": "Attackers are hiding instructions for AI assistants inside phishing emails.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: new research finding; the report covers one analysed campaign.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed: attackers are hiding instructions aimed at AI email tools inside phishing messages, which affects people who use AI to sort their inboxes; the doubt is that Barracuda analysed one campaign and did not say how many were hit.",
+ "source": "Infosecurity Magazine",
+ "status": "REPORTED",
+ "summary": "Infosecurity Magazine reports, citing security firm Barracuda, that one phishing campaign hid instructions for AI assistants inside emails that also carried a password-protected attachment aimed at the human reader. It matters because an AI assistant that summarises the inbox could be told to present the email as legitimate or urgent, though Barracuda did not say how widespread the campaign was.",
+ "url": "https://www.infosecurity-magazine.com/news/attackers-hide-ai-prompt/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full article read. Research credited to Barracuda through Infosecurity Magazine."
+}

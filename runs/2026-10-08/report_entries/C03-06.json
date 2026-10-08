@@ -1,0 +1,17 @@
+{
+  "item_id": "C03-06",
+  "v1_category": "MOD",
+  "headline": "GitHub is switching its leaked-password checks to a new AI model that can spot passwords with no standard format.",
+  "score": 5,
+  "score_reason": "Pool 5 kept: a real model switch for existing scans, plus planned paid checks; the headline is accurate.",
+  "importance_label": "WATCHLIST",
+  "importance_line": "Software teams that use GitHub's security tools may catch leaked passwords before they reach shared code, but the newest checks cost extra AI Credits and stay off unless an organisation turns them on.",
+  "source": "The GitHub Blog",
+  "status": "CONFIRMED",
+  "summary": "GitHub says its alerts for leaked credentials now run on a purpose-built model that reads the code around a possible password, so it can find passwords without a recognisable token format, at no extra charge for customers of its paid security products. New opt-in checks for pushing code and for its security review command are planned for later, and they will use paid AI Credits.",
+  "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+  "freshness": "NEW",
+  "verified_text": true,
+  "machine_action": false,
+  "notes": "Read in full (GitHub changelog). Security topic, so SEC may fit better than the default MOD; default kept. Several features are plans with billing starting later."
+}

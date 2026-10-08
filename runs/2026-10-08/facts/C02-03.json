@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-03",
+ "title": "Grok Bot Is Now a Model Router as SpaceX Continues to Pivot Further Toward AI Infrastructure",
+ "source_used": "Gizmodo",
+ "article_url": "https://gizmodo.com/grok-bot-is-now-a-model-router-as-spacex-continues-to-pivot-further-toward-ai-infrastructure-2000823057",
+ "fetched": true,
+ "key_facts": [
+  "Elon Musk, chief executive of SpaceX, announced on Twitter that the Grok Bot agent service will pick from several AI models for each request.",
+  "Models named: Anthropic's Claude Opus 5.5, the Midjourney image generator and the Suno audio maker; SpaceX's own Grok 4.7 is presumably an option too.",
+  "Musk: simple questions go to small, fast models and complex ones to large models, choosing 'whatever is most likely to give you the best outcome'.",
+  "Gizmodo's own analysis: SpaceX could become infrastructure for other AI companies (renting out compute) rather than competing only on top models; this is not confirmed.",
+  "Background in the article: SpaceX agreed earlier this year to let Anthropic use its Colossus data center; Musk confirmed that Reflection AI's open model Beam was trained on Colossus servers.",
+  "The article says there is no sign that SpaceX will stop developing its own model."
+ ],
+ "quote_evidence": [
+  "Per Musk, available models will include Anthropic’s Claude Opus 5.5, AI image generator MidJourney, AI audio maker Suno, and presumably others that weren’t named directly.",
+  "“Simple questions will route to small, fast models. Questions with complex answers will route to large models,” he explained."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Grok Bot users may get answers from other companies' models; the rule for choosing is not explained.",
+ "event_date": "6 Oct 2026 (Tuesday, per The Register's 7 Oct account; Gizmodo gives no date)",
+ "notes": "Full article read. Trailing sidebar headlines on the page are not part of the story and were ignored. The headline's 'continues to pivot' is Gizmodo's reading; the body hedges it and so does the entry. Score lowered 6 to 5: event before 7 Oct (stale)."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-02",
+ "title": "AI companies run virtual drug trials, aim to improve success of human studies",
+ "source_used": "Reuters (carried by The Independent)",
+ "article_url": "https://www.reuters.com/legal/litigation/ai-companies-run-virtual-drug-trials-aim-improve-success-human-studies-2026-10-07/",
+ "fetched": true,
+ "key_facts": [
+  "BioinvestGPT, a Copenhagen-based AI company, shared detailed analyses with Reuters in July predicting outcomes of several drug trials before results were released.",
+  "BioinvestGPT says it has correctly predicted five of six outcomes so far.",
+  "The correct calls included the negative result for Novartis's del-desiran, a muscular dystrophy drug that failed a late-stage trial, which knocked about $30 billion off Novartis's market value and shares down 11 percent.",
+  "The article also reports a miss: AI had forecast positive results for Novartis's pelacarsen, which failed a late-stage trial in September.",
+  "The global biopharma industry spends about $140 billion a year on human clinical testing, and about 12 percent of candidate drugs gain regulatory approval.",
+  "AI companies say simulations can identify which programmes warrant advancement and help assess acquisition targets.",
+  "Experts quoted say human trials will remain necessary; QuantHealth's chief medical officer Francisco Beca questioned the ethics of trials that are likely to fail."
+ ],
+ "quote_evidence": [
+  "To date, the company has correctly predicted five out of six outcomes.",
+  "The simulations are not infallible.",
+  "We shouldn't only ask how to run trials faster. We should ask how to run fewer trials that are going to fail,"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI trial simulations could cut failed human trials, but the track record is the company's own figure and the same report includes a miss.",
+ "event_date": "Trial failure in September 2026; simulation outcome calls in July 2026; wire story 7 Oct 2026",
+ "notes": "The Independent text has no byline and no wire credit. It says BioinvestGPT 'shared detailed analyses with Reuters in July', which marks this as the Reuters story; the Reuters original (pool link) returned HTTP 401, so the credit is Reuters, as carried by The Independent. The Independent headline differs from the Reuters pool headline. If the wire credit is wrong, the editor should correct the source. Francisco Beca is QuantHealth's chief medical officer (QuantHealth is an AI trial-simulation platform in Tel Aviv)."
+}

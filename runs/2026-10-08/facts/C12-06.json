@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-06",
+ "title": "Google's new SynthID website can identify AI-generated media",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+ "fetched": true,
+ "key_facts": [
+  "Google launched a site on Tuesday (6 Oct 2026) that lets anyone check whether an image, video or audio clip is AI-generated.",
+  "The tool was previously available to selected journalists, media professionals and researchers, tested at Google I/O last year; access is now open to everyone.",
+  "The site supports common image, video and audio formats, including JPG, PNG, MP4, MOV, WAV and MP3.",
+  "Google uses SynthID, introduced in 2023, to watermark media made by its Nano Banana, Veo and Lyria models and tools such as Gemini, Flow, ProducerAI and Vids.",
+  "OpenAI, Nvidia and Kakao also support SynthID; OpenAI maintains its own checking site; Apple is said to be adding support soon.",
+  "SynthID verification is built into the Gemini app and Google Chrome; Google says people make 1 million verification requests a day.",
+  "Microsoft and Meta have their own watermarking and verification standards, which TechCrunch says are not infallible and often fail to identify content made by their makers' models."
+ ],
+ "quote_evidence": [
+  "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+  "The company said people currently make 1 million requests to verify content every day."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Anyone can now check AI-made images, videos and audio, which helps people and newsrooms spot fakes.",
+ "event_date": "6 Oct 2026 (Google launch, a Tuesday)",
+ "notes": "Article read in full. Launch happened the day before the 7 Oct article, so the event is before 7 Oct (stale rule applied to score). 'Apple is said to be' is a hedge kept in the source."
+}
