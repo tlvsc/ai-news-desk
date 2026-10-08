@@ -27,6 +27,8 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 
 ## Working with Rafi during the run
 
+- 8 Oct 2026 (Rafi): for today only, every helper job that says Sonnet runs on Haiku; Opus and Fable jobs do not change. Scripts are not changed during a run; fixes go in this text and in the list files.
+
 - Replies: simple English, short numbered points, TTS friendly. No walls of text.
 - Before starting, say in one line: the edition date, the window, and anything structural that limits the run.
 - Counts and cutoffs are never questions: choose them, then state them (CLAUDE.md rule 14).
@@ -68,7 +70,7 @@ python3 $K/collect.py --workdir $W --edition YYYY-MM-DD --yesterday $W/yesterday
 ```
 The 24 hours ending now (Rafi, 30 Sep 2026); `--hours 30` only when Rafi asks, for a late start.
 
-### 1b. The 55 sources (Rafi, 2 Oct 2026; Google News stays first and main)
+### 1b. The sources (the 55 of 2 Oct 2026 plus the big outlets of 8 Oct 2026; Google News stays first and main)
 ```
 python3 $K/source_scan.py --workdir $W        # about 1 minute; 3 Oct 2026: 174 stories
 ```
@@ -88,7 +90,7 @@ python3 $K/build_pool.py --workdir $W
 Each category keeps the main picks its curator wrote (up to 20, Fun 10); a backup moves up only to replace a
 removed pick, never to pad. Read `$W/out/build_log.json`: for a near duplicate or the same story in two
 categories decide which stays (`$W/drops.json` {"drops": [[cat, "exact title", "why"]]} or
-`$W/dedupe_overrides.json`), then run again. A category printed SHORT by 3 or more gets a filler; short by 1 or 2 gets NONE, state the count (Rafi, 7 Oct 2026, saves about 90k tokens each):
+`$W/dedupe_overrides.json`), then run again. A category printed SHORT by 3 or more gets a filler; short by 1 or 2 gets NONE, state the count (Rafi, 7 Oct 2026, saves about 90k tokens each). The SHORT word printed by build_pool.py is measured against the curator's own count, not against 15: read it against 15 (Markets on 8 Oct 2026: 17 stories, inside 15 to 20, so no filler). Scripts are not changed during a run; this text is the fix (Rafi, 8 Oct 2026):
 ```
 python3 $K/make_prompts.py --workdir $W --stage fill --cat NN --need K     # agent: Read $W/prompts/fill_NN.txt ...
 python3 $K/merge_filler.py --workdir $W --cat NN && python3 $K/build_pool.py --workdir $W
