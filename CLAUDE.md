@@ -147,6 +147,7 @@ not about which project it is.
     repeat of the last 7 days, no update unless Rafi named it, company and category limits, counts, order) and refuses to go on until it passes. Rafi approves the list before any wording is
     written. Opus does the checks (stranger, rules, final audit per product, a checklist of every rule with PASS or FAIL and evidence), because a different model must check the author.
     Fable is used elsewhere only when Rafi names the item. Report the helper token use per stage next to the 4 and 5 Oct runs.
+    BIGGER PICTURE MODEL (Rafi, 8 Oct 2026): Fable at effort high for now, all three lengths. It replaces the Opus line for the Bigger Picture in the Part A skill (7 Oct 2026).
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
     HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
     reads the sentence limit from that file and fails a line that breaks the shape. A fix is shorter and simpler, never longer.

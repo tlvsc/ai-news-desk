@@ -163,7 +163,7 @@ decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update c
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
-Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Opus agent (Agent tool model "opus", CLAUDE.md MODEL POLICY; Rafi, 7 Oct 2026), following `$A/briefs/bigger_picture.md`.
+Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Fable agent (Agent tool model "fable", effort "high"; Rafi, 8 Oct 2026: Fable at high for now, replacing the Opus line of 7 Oct 2026), following `$A/briefs/bigger_picture.md`.
 
 ### 11. Final build and PDFs
 ```
