@@ -76,7 +76,7 @@ decks without a meaningful update is a failure (Rafi, 5 and 6 Oct 2026). Then wr
 second level of its CATEGORY line, at most about 15 characters), and save it as `$W/cards_work/selection.json` with:
 cards_in_deck_order, teaser_items (3 to 4 stories without a card), headlines_story_clips_in_order (chosen by the Drive
 Headlines Master, strongest card stories by score in deck order; the script prints it), headlines_fun, bp_refs (the
-entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection. Robotics (CLAUDE.md rule 16 ROBOTICS, Rafi 8 Oct 2026): 2 robotics cards, one a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and the Headlines 1 robotics clip.
+entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection. Robotics (CLAUDE.md rule 16 ROBOTICS, Rafi 8 Oct 2026): 2 robotics cards, one a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and the Headlines 1 robotics clip. These counts are guidelines: one extra is allowed where needed.
 
 ### 2. Wording (2 hard task agents in parallel, 25 to 40 minutes: start at once)
 ```

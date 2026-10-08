@@ -206,7 +206,7 @@ not about which project it is.
     become clips, but it never skips Politics or reorders the deck. "Prefer AI affecting people over war or politics" (6 Oct) applies only when choosing among the other categories.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
     ROBOTICS (Rafi, 8 Oct 2026; overrides Cards Master 2.6 and 2.9 for robotics, and the Bulletin cut-off does not stop these two stories): the Bulletin must hold at least 3 and up to 5 robotics stories;
-    Headlines must carry 1 robotics clip; the cards carry 2 robotics cards, one of them a humanoid robot story. Robotics means anything about humanoid robots
+    Headlines must carry 1 robotics clip; the cards carry 2 robotics cards, one of them a humanoid robot story. These counts are guidelines, not iron rules: one extra robotics story is allowed where needed. Robotics means anything about humanoid robots
     and any other robotics: robot inventions, developments and anything super important, which goes into the cards and the Headlines. A funding round for a humanoid robot company counts
     (the Nvidia and Figure story is the model).
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
