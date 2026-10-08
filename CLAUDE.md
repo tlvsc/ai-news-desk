@@ -205,6 +205,10 @@ not about which project it is.
     HEADLINES START WITH POLITICS (Rafi, 7 Oct 2026): the Headlines reel follows the deck order, so when the deck has a Politics card its clip is clip 1; Fable may choose which other cards
     become clips, but it never skips Politics or reorders the deck. "Prefer AI affecting people over war or politics" (6 Oct) applies only when choosing among the other categories.
     CARD_FILTER: base_min=5 extra_min=7 target=14 max_per_category=2 market_max=3 company_cards=3 company_clips=2
+    ROBOTICS (Rafi, 8 Oct 2026; overrides Cards Master 2.6 and 2.9 for robotics, and the Bulletin cut-off does not stop these two stories): the Bulletin must hold at least two robotics stories;
+    Headlines must carry one robotics clip; the cards carry at least one robotics card, preferably two, and one of them is a humanoid robot story. Robotics means anything about humanoid robots
+    and any other robotics: robot inventions, developments and anything super important, which goes into the cards and the Headlines. A funding round for a humanoid robot company counts
+    (the Nvidia and Figure story is the model).
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

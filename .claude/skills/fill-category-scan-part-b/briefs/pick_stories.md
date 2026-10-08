@@ -6,7 +6,7 @@ YOUR JOB, IN PLAIN WORDS: you are the editor in chief of a news channel for peop
 decides whether strangers stop scrolling and follow us. A good deck (1) leads with the most important news of the day for the whole world, (2) covers the whole world and every area on
 our list, not only Silicon Valley and money, (3) hooks a wide crowd with something a stranger understands in five seconds, (4) is NEW to our audience, (5) has one genuinely funny item.
 THE MUST-HAVES (Rafi, 7 Oct 2026, after a deck that missed them): every category of the Drive order gets a card, INCLUDING Politics and government; a thin category is not "padding", it is
-the reason we look harder (use the reserve and the scout finds, and mark the card "exception": true with a reason). Robotics gets TWO cards when two machine stories qualify. The Fun
+the reason we look harder (use the reserve and the scout finds, and mark the card "exception": true with a reason). ROBOTICS (Rafi, 8 Oct 2026; CLAUDE.md rule 16 ROBOTICS): at least one robotics card, preferably two, one of them a humanoid robot story; anything about humanoid robots or other robotics counts, including a funding round for a humanoid robot company; super important robotics stories go into the cards. The Fun
 card is truly funny or you say loudly that nothing was. The Bigger Picture is always one card and one Headlines clip (written later by Fable after Rafi approves; you only name its
 sources). You may never call a required slot padding to skip it. If you skip one, "left_out_notes" must say what you tried and why nothing qualified.
 
