@@ -2,7 +2,7 @@
 
 8 October 2026. Coverage: 7 Oct 2026 09:07 UTC to 8 Oct 2026 09:07 UTC (24 hours).  
 Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, LAW from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
-**41 stories.**
+**43 stories.**
 
 ## POLITICS AND GOVERNMENT — 4
 **8 HIGH — A senior US Senate Democrat has released a plan for federal safety testing of the most powerful AI models.** (report item 1)  
@@ -46,21 +46,24 @@ The Wall Street Journal reports that fired OpenAI researchers have asked the com
 **8 HIGH — US security firm CrowdStrike says a suspect in China who used AI tools may be behind the South Korean bank hacks.** (report item 27)  
 Reuters reports, as carried by The Japan Times, that US security firm CrowdStrike said in a report on 7 Oct 2026 that the attacker behind recent hacks of South Korean banks may be a 26-year-old in China's Guangdong province who used AI tools, while cautioning that it cannot definitively identify the person. Our 7 Oct edition carried The Record's report that officials believe a Chinese hacking tool, Artex AI, was used against banks including Shinhan Bank and KB Kookmin Bank; police have opened a probe. *Reuters, REPORTED*
 
-## ENERGY AND INFRASTRUCTURE — 4
+## ENERGY AND INFRASTRUCTURE — 5
 **8 HIGH — Drones hit a major Yandex data centre in Russia and forced the company to suspend operations there.** (report item 34)  
 Reuters reports, as carried by NBC News, that drones hit a major data centre owned by Yandex, Russia's leading AI and technology company, in the Ryazan region, causing a fire and forcing it to suspend operations. Yandex said its core consumer services were not affected, and it advised Yandex Cloud customers to use other zones after a power problem in one zone. *Reuters, REPORTED*
 
 **7 MEDIUM — Microsoft has set prices for new Windows AI laptops and a developer workstation built on Nvidia's chip.** (report item 35)  
 TechCrunch reports that Microsoft gave prices and specifications on 7 Oct for its Surface Laptop Ultra, built on Nvidia's RTX Spark chip, from $2,600, after the Nvidia PC processor reported in our 5 Oct edition. Microsoft also says a revamped Windows 11 with a feature called Execution Containers makes it easier to sandbox AI agents, that is, run them isolated from the rest of the computer. *TechCrunch, CONFIRMED*
 
-**7 MEDIUM — China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.** (report item 36)  
+**7 MEDIUM — Samsung has reportedly passed final quality checks for its newest AI memory chip, with Nvidia and big cloud firms likely customers.** (report item 36)  
+On 28 Sep 2026 we carried a ZDNet Korea report that Nvidia chief executive Jensen Huang was due to meet Samsung chairman Lee Jae-yong and SK Group chairman Chey Tae-won, with the supply of HBM, the fast memory stacked beside AI chips, the topic the industry was watching, though no deal had been announced. Now Hankyung reports, as relayed by Sammy Fans, that Samsung finished qualification in late September for its 12-layer HBM4E, meaning it met key customers' technical and reliability requirements, with Nvidia and large cloud companies widely considered the likely customers, but Samsung has not confirmed the report or named them. *Hankyung, REPORTED*
+
+**7 MEDIUM — China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.** (report item 37)  
 The Financial Times reports, as relayed by BigGo Finance, that China is significantly expanding data centre construction in inland regions rich in energy, with 89 data centres built or planned in Ulanqab, Inner Mongolia, alone. BigGo Finance adds that China is trying to narrow its gap with the US in AI while struggling to obtain advanced AI chips. *Financial Times, REPORTED*
 
-**7 MEDIUM — Duke Energy and data centre operators have agreed new electricity rules for big power users in North Carolina.** (report item 37)  
+**7 MEDIUM — Duke Energy and data centre operators have agreed new electricity rules for big power users in North Carolina.** (report item 38)  
 WFAE reports that Duke Energy has reached an agreement with data centre operators on a long-sought large-load tariff, a special electricity rate for big new power users in North Carolina. Under the deal, data centres and other heavy users must take the rate, and new data centres would pay upfront for dedicated facilities such as new substations, while other grid upgrades are shared across customers at first. *WFAE, CONFIRMED*
 
 ## ROBOTICS — 1
-**7 MEDIUM — Nvidia is reportedly in talks to invest another $1 billion in Figure AI, the humanoid robot maker.** (report item 48)  
+**7 MEDIUM — Nvidia is reportedly in talks to invest another $1 billion in Figure AI, the humanoid robot maker.** (report item 49)  
 The News International reports that Nvidia has been in talks to invest another $1 billion in Figure AI, a humanoid robot startup that its founder, Brett Adcock, set up in 2022. Nvidia already backed Figure's funding round in September 2025 and is a technology provider for Figure's Helix AI models, but the article names no original source for the new talks. *The News International, REPORTED*
 
 ## MODELS AND TOOLS — 3
@@ -84,7 +87,7 @@ Politico reports, in a story carried by Business Insider, that National Compute,
 Quantum Computing Report reports that the US Defense Advanced Research Projects Agency (DARPA), the Pentagon's research arm, has picked Atom Computing, Diraq, IBM and IonQ for Stage C of its Quantum Benchmarking Initiative, the final verification phase. Stage C tests each design's physical chips, control electronics and software directly, rather than judging paper plans. *Quantum Computing Report, CONFIRMED*
 
 **7 MEDIUM — The 2026 State of AI Report says Anthropic, OpenAI and Google now lead AI development in a three-way race.** (report item 72)  
-Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, against 53 percent for a nuclear plant. *Air Street Press, REPORTED*
+Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, while 53 percent opposed a nuclear plant near them. *Air Street Press, REPORTED*
 
 **7 MEDIUM — Mathematicians worry that OpenAI's hundreds of new mathematical results are not being checked properly.** (report item 73)  
 The Guardian reports that OpenAI released more than 370 new mathematical results on Tuesday, 6 October, after saying last month that it had solved the Navier-Stokes equation, one of the world's toughest mathematical problems with a $1 million prize. The Institute for Advanced Study in Princeton, an independent group of mathematical experts, said it does not endorse testing the hardest problems on companies' private AI models, warning that people may not be able to check or take responsibility for AI-made proofs. *The Guardian, REPORTED*
@@ -93,14 +96,17 @@ The Guardian reports that OpenAI released more than 370 new mathematical results
 **6 MEDIUM — The US communications regulator is weighing a request that would let political groups use AI voices in robocalls before the midterms.** (report item 80)  
 The Associated Press reports that the Federal Communications Commission (FCC), the US communications regulator, is considering a request from a conservative group to loosen rules on political robocalls, including calls with AI-generated voices, before the November midterm elections. US law already forbids most automated calls to mobile phones unless the person agreed in advance, and the group wants an exemption so political campaigns could make such calls with synthetic or recorded voices without that consent. *Associated Press, REPORTED*
 
-## HEALTH — 3
-**6 MEDIUM — A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.** (report item 86)  
+## HEALTH — 4
+**7 MEDIUM — Utah has named six outside evaluators for its AI health pilots, and the companies being tested pay them.** (report item 86)  
+On 6 Oct 2026 we carried The Verge's report that the startup Nolla Health had begun using AI to write acne prescriptions in Utah. Now Medical Daily reports that Utah's Office of Artificial Intelligence Policy has named six outside evaluators to check AI health tools tested in the state's sandbox, a scheme that eases some rules for approved pilots, and that the companies being checked pay the evaluators directly, not the state. *Medical Daily, CONFIRMED*
+
+**6 MEDIUM — A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.** (report item 87)  
 TechCrunch reports that Healthleap, founded in South Africa in 2022, has raised $38 million in seed and Series A funding, and that its software is now used in more than 50 hospitals, including Penn Medicine and Cedars-Sinai. The software does not diagnose patients; it flags those who may have malnutrition or delirium for review, and the company says every customer has seen a return of at least five times, and that hospital finance teams validate that figure. *TechCrunch, REPORTED*
 
-**6 MEDIUM — IQVIA has launched AI models designed to help drug companies predict how clinical trials will turn out.** (report item 87)  
+**6 MEDIUM — IQVIA has launched AI models designed to help drug companies predict how clinical trials will turn out.** (report item 88)  
 IQVIA, a clinical research services company listed on the New York Stock Exchange, says in a press release that its new IQVIA Life Science Models let trial sponsors, the companies that run studies, try out a study on a computer and check its main assumptions before it starts, so risks can be spotted earlier. The models are built with NVIDIA technology and run on Amazon Web Services, but the release gives no accuracy figures or results from real trials. *Business Wire, REPORTED*
 
-**6 MEDIUM — AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn.** (report item 88)  
+**6 MEDIUM — AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn.** (report item 89)  
 Skin Analytics says, in a Business Wire release, that its AI tool DERM will sort skin cancer referrals across all 18 NHS trusts in England's South East from autumn 2026, reaching a further 9 million people. The company calls it the largest rollout of autonomous medical AI in NHS history, and its claims of fast, accurate detection come from the company itself. *Business Wire, REPORTED*
 
 ## SOCIETY AND EDUCATION — 8
@@ -140,6 +146,6 @@ WIRED reports, after two days of testing, that OpenAI's Dots, an always-on AI ag
 
 ## CHECKS
 
-- Stories: 41; all come from the Full Report with facts, scores and sources unchanged.
-- Fact check suggested a lower score for 9 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
+- Stories: 43; all come from the Full Report with facts, scores and sources unchanged.
+- Fact check suggested a lower score for 11 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
 - Headline-only stories included: 6.

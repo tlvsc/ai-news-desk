@@ -2,7 +2,7 @@
  "title": "Daily Bulletin",
  "date": "8 October 2026",
  "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, LAW from 6), plus the top 3 from The Fun Side.",
- "coverage": "7 Oct 2026 09:07 UTC to 8 Oct 2026 09:07 UTC (24 hours) · 41 stories",
+ "coverage": "7 Oct 2026 09:07 UTC to 8 Oct 2026 09:07 UTC (24 hours) · 43 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -44,7 +44,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Information reports that the US Treasury has fined a California company, Amidi Group, $200,000 in the first penalty under its program restricting investment in China's tech sector.",
-      "Why it matters: What changed: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear.",
+      "Why it matters: What changed: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported, which matters first to US companies and investors with deals in China. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear.",
       "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "The Information",
@@ -182,7 +182,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "The Wall Street Journal reports that fired OpenAI researchers have asked the company to keep visibility into AI reasoning, meaning how its models work through a problem.",
-      "Why it matters: What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection; what exactly they asked for and how OpenAI responds are not yet known.",
+      "Why it matters: What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection, which matters to the people who use its models and to those who check them for safety; what exactly they asked for and how OpenAI responds are not yet known.",
       "Note: we could not open the original article; this entry relies on its headline and related coverage."
      ],
      "source": "Wall Street Journal",
@@ -197,7 +197,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "Reuters reports, as carried by The Japan Times, that US security firm CrowdStrike said in a report on 7 Oct 2026 that the attacker behind recent hacks of South Korean banks may be a 26-year-old in China's Guangdong province who used AI tools, while cautioning that it cannot definitively identify the person. Our 7 Oct edition carried The Record's report that officials believe a Chinese hacking tool, Artex AI, was used against banks including Shinhan Bank and KB Kookmin Bank; police have opened a probe.",
-      "Why it matters: What changed: AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented."
+      "Why it matters: What changed: CrowdStrike says AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented."
      ],
      "source": "Reuters",
      "url": "https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/"
@@ -212,7 +212,7 @@
      "score": 8,
      "importance": "HIGH",
      "rank": 1,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "Reuters reports, as carried by NBC News, that drones hit a major data centre owned by Yandex, Russia's leading AI and technology company, in the Ryazan region, causing a fire and forcing it to suspend operations. Yandex said its core consumer services were not affected, and it advised Yandex Cloud customers to use other zones after a power problem in one zone.",
@@ -226,7 +226,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "CONFIRMED",
      "paragraphs": [
       "TechCrunch reports that Microsoft gave prices and specifications on 7 Oct for its Surface Laptop Ultra, built on Nvidia's RTX Spark chip, from $2,600, after the Nvidia PC processor reported in our 5 Oct edition. Microsoft also says a revamped Windows 11 with a feature called Execution Containers makes it easier to sandbox AI agents, that is, run them isolated from the rest of the computer.",
@@ -236,11 +236,25 @@
      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
     },
     {
-     "headline": "China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.",
+     "headline": "Samsung has reportedly passed final quality checks for its newest AI memory chip, with Nvidia and big cloud firms likely customers.",
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 14,
+     "rank_of": 15,
+     "status": "REPORTED",
+     "paragraphs": [
+      "On 28 Sep 2026 we carried a ZDNet Korea report that Nvidia chief executive Jensen Huang was due to meet Samsung chairman Lee Jae-yong and SK Group chairman Chey Tae-won, with the supply of HBM, the fast memory stacked beside AI chips, the topic the industry was watching, though no deal had been announced. Now Hankyung reports, as relayed by Sammy Fans, that Samsung finished qualification in late September for its 12-layer HBM4E, meaning it met key customers' technical and reliability requirements, with Nvidia and large cloud companies widely considered the likely customers, but Samsung has not confirmed the report or named them.",
+      "Why it matters: What changed: if confirmed, Samsung would be ready to supply this memory, which matters to AI chip makers and the cloud firms that buy them, but the report is unconfirmed, the buyers are unnamed, and passing tests does not guarantee orders or volumes."
+     ],
+     "source": "Hankyung",
+     "url": "https://www.sammyfans.com/2026/10/07/samsung-12-layer-hbm4e-clears-nvidia-quality-verification/"
+    },
+    {
+     "headline": "China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.",
+     "score": 7,
+     "importance": "MEDIUM",
+     "rank": 4,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "The Financial Times reports, as relayed by BigGo Finance, that China is significantly expanding data centre construction in inland regions rich in energy, with 89 data centres built or planned in Ulanqab, Inner Mongolia, alone. BigGo Finance adds that China is trying to narrow its gap with the US in AI while struggling to obtain advanced AI chips.",
@@ -253,8 +267,8 @@
      "headline": "Duke Energy and data centre operators have agreed new electricity rules for big power users in North Carolina.",
      "score": 7,
      "importance": "MEDIUM",
-     "rank": 4,
-     "rank_of": 14,
+     "rank": 5,
+     "rank_of": 15,
      "status": "CONFIRMED",
      "paragraphs": [
       "WFAE reports that Duke Energy has reached an agreement with data centre operators on a long-sought large-load tariff, a special electricity rate for big new power users in North Carolina. Under the deal, data centres and other heavy users must take the rate, and new data centres would pay upfront for dedicated facilities such as new substations, while other grid upgrades are shared across customers at first.",
@@ -273,7 +287,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 9,
+     "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
       "The News International reports that Nvidia has been in talks to invest another $1 billion in Figure AI, a humanoid robot startup that its founder, Brett Adcock, set up in 2022. Nvidia already backed Figure's funding round in September 2025 and is a technology provider for Figure's Helix AI models, but the article names no original source for the new talks.",
@@ -357,7 +371,7 @@
      "status": "REPORTED",
      "paragraphs": [
       "Politico reports, in a story carried by Business Insider, that National Compute, a new company that pools computing power from major tech companies, plans to donate $100 million in computing credits to the Genesis Mission, the government-wide push to use AI to speed up science. The announcement is expected Thursday, according to two people familiar with the matter, and it would give Genesis Mission researchers access to computing that smaller labs often struggle to get.",
-      "Why it matters: It could give government-backed science projects more computing power at a time when smaller labs struggle to get it, but the donation is not yet announced and the grid behind it is still described in a draft paper."
+      "Why it matters: It could give government-backed science projects more computing power at a time when smaller labs struggle to get it, but the donation is not yet announced, rests on two people familiar with the matter, and the computing network behind it is described only in a draft paper."
      ],
      "source": "Politico",
      "url": "https://www.politico.com/news/2026/10/07/trump-compute-credits-ai-science-initiative-01109749"
@@ -384,8 +398,8 @@
      "rank_of": 11,
      "status": "REPORTED",
      "paragraphs": [
-      "Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, against 53 percent for a nuclear plant.",
-      "Why it matters: It sums up where AI stands across labs, money, data centres, safety and science, and it names predictions to check next year; much of it is the author's judgment rather than new events, and its figures are the report's own citations."
+      "Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, while 53 percent opposed a nuclear plant near them.",
+      "Why it matters: It sums up where AI stands across labs, money, data centres, safety and science for anyone following AI, including communities facing new data centres, and it names predictions to check next year; much of it is the author's judgment rather than new events, and its figures are the report's own citations."
      ],
      "source": "Air Street Press",
      "url": "https://press.airstreet.com/p/state-of-ai-2026"
@@ -429,10 +443,24 @@
    "name": "Health",
    "items": [
     {
+     "headline": "Utah has named six outside evaluators for its AI health pilots, and the companies being tested pay them.",
+     "score": 7,
+     "importance": "MEDIUM",
+     "rank": 1,
+     "rank_of": 8,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "On 6 Oct 2026 we carried The Verge's report that the startup Nolla Health had begun using AI to write acne prescriptions in Utah. Now Medical Daily reports that Utah's Office of Artificial Intelligence Policy has named six outside evaluators to check AI health tools tested in the state's sandbox, a scheme that eases some rules for approved pilots, and that the companies being checked pay the evaluators directly, not the state.",
+      "Why it matters: What changed: Utah named six outside evaluators for its AI health pilots and the companies they check pay them, which matters first to patients in Utah who may use these tools, and the honest doubt is that the fees and which evaluator checks which pilot are not disclosed."
+     ],
+     "source": "Medical Daily",
+     "url": "https://www.medicaldaily.com/utah-ai-health-sandbox-third-party-evaluators-paid-companies-479625"
+    },
+    {
      "headline": "A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.",
      "score": 6,
      "importance": "MEDIUM",
-     "rank": 1,
+     "rank": 2,
      "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
@@ -446,7 +474,7 @@
      "headline": "IQVIA has launched AI models designed to help drug companies predict how clinical trials will turn out.",
      "score": 6,
      "importance": "MEDIUM",
-     "rank": 2,
+     "rank": 3,
      "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
@@ -460,7 +488,7 @@
      "headline": "AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn.",
      "score": 6,
      "importance": "MEDIUM",
-     "rank": 3,
+     "rank": 4,
      "rank_of": 8,
      "status": "REPORTED",
      "paragraphs": [
@@ -648,7 +676,7 @@
     "What moves the market today. Fact: Euronews reports the estimate by Samsung, the South Korean memory chipmaker, of a quarterly operating profit of about $80 billion, which if confirmed on 29 October would be the biggest a technology company has ever reported, on tight memory-chip supply; it is an estimate. Fact: Startup Fortune reports that the quarterly revenue of TSMC, the Taiwanese chipmaker, rose 51 percent from a year earlier, above the estimate Bloomberg reported. Fact: Seoul Economic Daily reports, citing ICE Data Services, that the cost of insuring SpaceX's debt hit a record as it seeks about $40 billion for Nvidia computing, and The Wall Street Journal reports, citing people familiar with the talks, that Broadcom and Oracle are turning to private lenders to pay for chips.",
     "Fact: Fortune reports an estimate by Stijn Van Nieuwerburgh, a researcher at Columbia Business School, that Oracle, Microsoft, Amazon, Meta and Alphabet will together spend more on the build this year than their businesses earn in cash, for the first time. Fact: The Associated Press reports that Kristalina Georgieva, managing director of the International Monetary Fund, warned that if AI earnings fall short, heavy borrowing by the biggest cloud companies could turn a disappointment into a far-reaching shock.",
     "Our view: the same day brought Samsung's estimate of what would be the biggest quarterly operating profit ever reported by a technology company, and a record cost for insuring SpaceX's debt as it seeks $40 billion for Nvidia computing. The money still flows to the build, but on one researcher's estimate the five biggest spenders will this year spend more than they earn in cash, and the warning now comes from the IMF, not only from investors. The variable to watch is the cost of that debt.",
-    "What to watch and follow. 1. 13 October: JPMorgan Chase reports, the first big US bank of the season (company notice of 17 September); the first check from the lenders' side. 2. 14 October: US consumer prices for September (release calendars citing the Bureau of Labor Statistics; its own calendar could not be opened, so very likely, not confirmed); a hot number makes every borrowed dollar dearer. 3. 15 October: TSMC's earnings conference (TSMC investor relations page); a raised 2026 outlook says demand is still measured in orders. 4. 27 to 28 October: the Federal Reserve meets (the Fed's calendar), setting the price of the debt. 5. 29 October: Samsung's full results (Euronews). Late October, dates not confirmed: Microsoft, Alphabet, Meta and Amazon are expected to report, based on past years, and their spending plans test the estimate above.",
+    "What to watch and follow. 1. 13 October: JPMorgan Chase reports, the first big US bank of the season (company notice of 17 September); the first check from the lenders' side. 2. 14 October: US consumer prices for September (release calendars citing the Bureau of Labor Statistics; the agency's own calendar was not checked, so the date is not confirmed); a hot number makes every borrowed dollar dearer. 3. 15 October: TSMC's earnings conference (TSMC investor relations page); a raised 2026 outlook says demand is still measured in orders. 4. 27 to 28 October: the Federal Reserve meets (the Fed's calendar), setting the price of the debt. 5. 29 October: Samsung's full results (Euronews). Late October, dates not confirmed: Microsoft, Alphabet, Meta and Amazon are expected to report, based on past years, and their spending plans test the estimate above.",
     "Unknowns. The size and rate of the Broadcom and Oracle deals, which the Journal calls early; whether the SpaceX borrowing closes at $40 billion; and how much of Samsung's record is memory prices rather than volume.",
     "This is analysis of the news, not financial advice or an investment recommendation."
    ]

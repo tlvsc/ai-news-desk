@@ -2,9 +2,9 @@
 
 Daily report date: Thursday, 8 October 2026  
 Coverage period: 7 Oct 2026 09:07 UTC to 8 Oct 2026 09:07 UTC (24 hours)  
-Final unique stories: 110 (pool 259; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 110, plus The Fun Side; 37 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
-Score spread: CRITICAL 0, HIGH 12, MEDIUM 74, WATCHLIST 24  
-Stories with full article text read: 94; headline only: 16; follow-ups of earlier news: 10  
+Final unique stories: 110 (pool 259; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 110, plus The Fun Side; 35 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
+Score spread: CRITICAL 0, HIGH 12, MEDIUM 76, WATCHLIST 22  
+Stories with full article text read: 94; headline only: 16; follow-ups of earlier news: 12  
 Source coverage certificate: SOURCE SCAN INCOMPLETE. Stories were collected through Google News; articles were read from the 101-source list where the sites allowed it. Test run approved by Rafi.  
 Coverage QA: ATTENTION REQUIRED — some publisher sites block automated reading, so some stories rest on headlines only.
 
@@ -31,7 +31,7 @@ Full article: https://apnews.com/article/war-ai-georgieva-imf-oil-debt-2da9d879e
 3. The US Treasury has fined a California company for not reporting its Chinese subsidiary's investment, the first penalty under the China tech rules.
 CATEGORY: Politics and government — rank 3 of 10 in this category
 SCORE: 7 — Pool score 7 kept: the Treasury fine is a real event with an official source; only the public summary of the story was readable.
-Importance: MEDIUM — What changed: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear.
+Importance: MEDIUM — What changed: the first penalty under US rules that limit American investment in China's tech sector, aimed at deals that are not reported, which matters first to US companies and investors with deals in China. The fine is $200,000, and its wider effect on AI and robotics investment is not yet clear.
 Source: The Information. Status: REPORTED. (Headline only: full article not readable.)
 Summary: The Information reports that the US Treasury has fined a California company, Amidi Group, $200,000 in the first penalty under its program restricting investment in China's tech sector.
 Full article: https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector
@@ -242,7 +242,7 @@ Full article: https://www.bloomberg.com/news/newsletters/2026-10-07/permira-s-ru
 26. Fired OpenAI researchers want the company to keep a view into how its AI models reason.
 CATEGORY: Security and cyber — rank 1 of 8 in this category
 SCORE: 8 — Pool 8, lowered 1: headline only, article not read (unverified).
-Importance: HIGH — What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection; what exactly they asked for and how OpenAI responds are not yet known.
+Importance: HIGH — What changed: former OpenAI researchers have asked the company to keep its AI models' reasoning open to inspection, which matters to the people who use its models and to those who check them for safety; what exactly they asked for and how OpenAI responds are not yet known.
 Source: Wall Street Journal. Status: REPORTED. (Headline only: full article not readable.)
 Summary: The Wall Street Journal reports that fired OpenAI researchers have asked the company to keep visibility into AI reasoning, meaning how its models work through a problem.
 Full article: https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94
@@ -251,7 +251,7 @@ Full article: https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-t
 27. US security firm CrowdStrike says a suspect in China who used AI tools may be behind the South Korean bank hacks.
 CATEGORY: Security and cyber — rank 2 of 8 in this category
 SCORE: 8 — Pool 8 kept: the CrowdStrike report of 7 Oct is new; the attacks are older background.
-Importance: HIGH — What changed: AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented.
+Importance: HIGH — What changed: CrowdStrike says AI tools were used in attacks that led to reported data breaches at South Korean banks, which affects bank customers and the banks; the doubt is that the attacker is not identified and police had not commented.
 Source: Reuters. Status: REPORTED.
 Summary: Reuters reports, as carried by The Japan Times, that US security firm CrowdStrike said in a report on 7 Oct 2026 that the attacker behind recent hacks of South Korean banks may be a 26-year-old in China's Guangdong province who used AI tools, while cautioning that it cannot definitively identify the person. Our 7 Oct edition carried The Record's report that officials believe a Chinese hacking tool, Artex AI, was used against banks including Shinhan Bank and KB Kookmin Bank; police have opened a probe.
 Full article: https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/
@@ -311,10 +311,10 @@ Summary: Our 3 Oct edition carried a Business Insider report that David Robinson
 Full article: https://www.businessinsider.com/david-robinson-ezra-klein-interview-cognitive-dissonance-leave-openai-2026-10
 ---
 
-## ENERGY AND INFRASTRUCTURE — 14
+## ENERGY AND INFRASTRUCTURE — 15
 
 34. Drones hit a major Yandex data centre in Russia and forced the company to suspend operations there.
-CATEGORY: Energy and infrastructure — rank 1 of 14 in this category
+CATEGORY: Energy and infrastructure — rank 1 of 15 in this category
 SCORE: 8 — Pool score 8 kept: a major AI company's data centre is offline after an attack; the company confirms it, and the attacker is not named.
 Importance: HIGH — It matters to customers of Yandex Cloud in the affected zone and to the safety of data centres in the war, but the report does not say who launched the drones.
 Source: Reuters. Status: REPORTED.
@@ -323,7 +323,7 @@ Full article: https://www.reuters.com/world/drones-hit-yandex-data-centre-first-
 ---
 
 35. Microsoft has set prices for new Windows AI laptops and a developer workstation built on Nvidia's chip.
-CATEGORY: Energy and infrastructure — rank 2 of 14 in this category
+CATEGORY: Energy and infrastructure — rank 2 of 15 in this category
 SCORE: 7 — Pool 7 kept: prices and specs are on the record from Microsoft and the event is dated 7 Oct.
 Importance: MEDIUM — What changed: the prices and specs are public, aimed first at developers and at PC buyers who might switch from MacBooks; Microsoft's claims that the machines run AI models on the device for free and handle them well are its own pitch and have not been tested.
 Source: TechCrunch. Status: CONFIRMED.
@@ -331,8 +331,17 @@ Summary: TechCrunch reports that Microsoft gave prices and specifications on 7 O
 Full article: https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/
 ---
 
-36. China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.
-CATEGORY: Energy and infrastructure — rank 3 of 14 in this category
+36. Samsung has reportedly passed final quality checks for its newest AI memory chip, with Nvidia and big cloud firms likely customers.
+CATEGORY: Energy and infrastructure — rank 3 of 15 in this category
+SCORE: 7 — Pool 7 lowered to 6: the qualification was completed in late September, so the event is stale, and Samsung has not confirmed the report.
+Importance: MEDIUM — What changed: if confirmed, Samsung would be ready to supply this memory, which matters to AI chip makers and the cloud firms that buy them, but the report is unconfirmed, the buyers are unnamed, and passing tests does not guarantee orders or volumes.
+Source: Hankyung. Status: REPORTED.
+Summary: On 28 Sep 2026 we carried a ZDNet Korea report that Nvidia chief executive Jensen Huang was due to meet Samsung chairman Lee Jae-yong and SK Group chairman Chey Tae-won, with the supply of HBM, the fast memory stacked beside AI chips, the topic the industry was watching, though no deal had been announced. Now Hankyung reports, as relayed by Sammy Fans, that Samsung finished qualification in late September for its 12-layer HBM4E, meaning it met key customers' technical and reliability requirements, with Nvidia and large cloud companies widely considered the likely customers, but Samsung has not confirmed the report or named them.
+Full article: https://www.sammyfans.com/2026/10/07/samsung-12-layer-hbm4e-clears-nvidia-quality-verification/
+---
+
+37. China is rapidly building AI data centres in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone.
+CATEGORY: Energy and infrastructure — rank 4 of 15 in this category
 SCORE: 7 — Pool score 7 kept: a major financial paper's report on China's AI infrastructure build-out; text read on a relay, original blocked.
 Importance: MEDIUM — It matters for power supply in China's inland regions and for the race with the US over AI computing, but the report describes data centres that are built or planned, so how much of this capacity will run is not yet known.
 Source: Financial Times. Status: REPORTED.
@@ -340,8 +349,8 @@ Summary: The Financial Times reports, as relayed by BigGo Finance, that China is
 Full article: https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e
 ---
 
-37. Duke Energy and data centre operators have agreed new electricity rules for big power users in North Carolina.
-CATEGORY: Energy and infrastructure — rank 4 of 14 in this category
+38. Duke Energy and data centre operators have agreed new electricity rules for big power users in North Carolina.
+CATEGORY: Energy and infrastructure — rank 5 of 15 in this category
 SCORE: 7 — Pool score 7 kept: an agreement is reached, though the state utilities commission still has to approve it; read in full on WFAE.
 Importance: MEDIUM — Duke Energy says the deal would protect households and businesses from paying for data centres through higher rates, but the state utilities commission must still approve it, and environmental groups say it does not make data centres pay for new power plants.
 Source: WFAE. Status: CONFIRMED.
@@ -349,8 +358,8 @@ Summary: WFAE reports that Duke Energy has reached an agreement with data centre
 Full article: https://www.wfae.org/energy-environment/2026-10-07/duke-energy-comes-to-an-agreement-on-long-sought-large-load-tariff-for-data-centers-in-north-carolina
 ---
 
-38. HPE has launched its first four ProLiant Gen13 servers, all using AMD's newest server processors.
-CATEGORY: Energy and infrastructure — rank 5 of 14 in this category
+39. HPE has launched its first four ProLiant Gen13 servers, all using AMD's newest server processors.
+CATEGORY: Energy and infrastructure — rank 6 of 15 in this category
 SCORE: 6 — Pool 6 kept: an official HPE launch, reported with the product detail from HPE's release.
 Importance: MEDIUM — What changed: IT and data-centre teams at large companies get new AMD-based servers for AI and engineering work, with the DL525 shipping first; HPE's claim of up to twice the compute performance does not name the system it was compared with, so it is HPE's own figure.
 Source: StorageReview. Status: CONFIRMED.
@@ -358,8 +367,8 @@ Summary: StorageReview reports that HPE, the computer maker, has launched its fi
 Full article: https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers
 ---
 
-39. Elon Musk, head of SpaceX, Tesla and xAI, rejects TSMC takeover reports for Terafab, and Intel stays involved.
-CATEGORY: Energy and infrastructure — rank 6 of 14 in this category
+40. Elon Musk, head of SpaceX, Tesla and xAI, rejects TSMC takeover reports for Terafab, and Intel stays involved.
+CATEGORY: Energy and infrastructure — rank 7 of 15 in this category
 SCORE: 6 — Pool 6 kept: statements by Intel's chief executive and Musk's X post are on the record.
 Importance: MEDIUM — What changed: Musk now says Terafab will build and run its own plant and that TSMC could only sublease part of it, while the terms of Intel's 14A licence remain unclear; Tom's Hardware's view that a sublease would be unusual is its own analysis, not reported fact.
 Source: Tom's Hardware. Status: CONFIRMED.
@@ -367,8 +376,8 @@ Summary: Tom's Hardware reports, citing Bloomberg, that Intel's chief executive 
 Full article: https://www.tomshardware.com/tech-industry/semiconductors/musk-rejects-rumors-of-tsmc-takeover-of-terafab-intel-reaffirms-14a-node-deal-as-musk-floats-cleanroom-sublease
 ---
 
-40. Micron's union at its Taoyuan plant in Taiwan has voted to authorise a strike, but no date has been set.
-CATEGORY: Energy and infrastructure — rank 7 of 14 in this category
+41. Micron's union at its Taoyuan plant in Taiwan has voted to authorise a strike, but no date has been set.
+CATEGORY: Energy and infrastructure — rank 8 of 15 in this category
 SCORE: 6 — Pool 6 kept: the union's vote was announced at a press conference, with the company and ministry responses.
 Importance: MEDIUM — What changed: workers at Micron's Taiwan plant now have a legal mandate to strike, which matters most to those workers and to Micron; whether it turns into action depends on the board's proposals after its 8 to 9 Oct meeting, and the company says it will keep talking.
 Source: Focus Taiwan (CNA). Status: CONFIRMED.
@@ -376,8 +385,8 @@ Summary: Focus Taiwan (CNA) reports that the union at US memory chipmaker Micron
 Full article: https://focustaiwan.tw/business/202610070021
 ---
 
-41. Federal Reserve officials now see the AI data centre boom as a key reason goods prices stay high.
-CATEGORY: Energy and infrastructure — rank 8 of 14 in this category
+42. Federal Reserve officials now see the AI data centre boom as a key reason goods prices stay high.
+CATEGORY: Energy and infrastructure — rank 9 of 15 in this category
 SCORE: 6 — Pool score 6 kept: central bank minutes link AI spending to prices; the Washington Post report is read through a relay, the minutes were not read.
 Importance: MEDIUM — US households and borrowers are affected because officials name AI spending as a reason prices stay high, yet the minutes show officials divided over why rates might need to rise and unsure how large AI's productivity gains will be.
 Source: The Washington Post. Status: REPORTED.
@@ -385,8 +394,8 @@ Summary: The Washington Post reports, as relayed by Newser, that minutes of the 
 Full article: https://www.washingtonpost.com/business/2026/10/07/datacenter-boom-is-pushing-prices-higher-fed-officials-said/
 ---
 
-42. Sesterce, a French AI infrastructure group, plans a Finnish data centre site costing more than €10 billion.
-CATEGORY: Energy and infrastructure — rank 9 of 14 in this category
+43. Sesterce, a French AI infrastructure group, plans a Finnish data centre site costing more than €10 billion.
+CATEGORY: Energy and infrastructure — rank 10 of 15 in this category
 SCORE: 6 — Pool score 6 kept: a company plan with a stated capacity; the figures come from the company's statement as reported by Reuters.
 Importance: MEDIUM — It matters to Finland's power grid and to Jamsa, where the site would sit on a closed paper mill, but it is the company's own plan, the anchor customer is not named, and the 1 gigawatt goal is tied to market demand.
 Source: Reuters. Status: CONFIRMED.
@@ -394,8 +403,8 @@ Summary: Reuters reports that Sesterce, a French AI infrastructure group, plans 
 Full article: https://www.reuters.com/business/frances-sesterce-plans-11-billion-ai-investment-finland-2026-10-08/
 ---
 
-43. CoreWeave, a US AI cloud company, will open its first data centres in India, at an AdaniConneX campus near Mumbai.
-CATEGORY: Energy and infrastructure — rank 10 of 14 in this category
+44. CoreWeave, a US AI cloud company, will open its first data centres in India, at an AdaniConneX campus near Mumbai.
+CATEGORY: Energy and infrastructure — rank 11 of 15 in this category
 SCORE: 6 — Pool score 6 kept: a company announcement; the investment size is Bloomberg's figure and the company gave none.
 Importance: MEDIUM — It adds AI computing capacity for India's AI push, which CoreWeave links to the government's IndiaAI Mission, but the company gave no investment figure, Bloomberg's multi-billion figure is not confirmed by the company, and the first phase is not due until mid-2028.
 Source: Bloomberg. Status: CONFIRMED.
@@ -403,8 +412,8 @@ Summary: CoreWeave, a US company that rents computing power to AI firms, announc
 Full article: https://www.bloomberg.com/news/articles/2026-10-07/coreweave-tees-up-first-india-data-centers-with-adaniconnex-deal
 ---
 
-44. Denmark's parliament has passed an emergency plan for the electricity grid that puts data centres at the back of the queue.
-CATEGORY: Energy and infrastructure — rank 11 of 14 in this category
+45. Denmark's parliament has passed an emergency plan for the electricity grid that puts data centres at the back of the queue.
+CATEGORY: Energy and infrastructure — rank 12 of 15 in this category
 SCORE: 6 — Pool score 6 kept, headline only: the article could not be opened, so the score rests on the headline.
 Importance: MEDIUM — It matters to data centre operators and to Danish grid customers, since data centres would be put behind other users in the queue for the grid, though the plan's details and timing are not yet clear.
 Source: Data Center Dynamics. Status: REPORTED. (Headline only: full article not readable.)
@@ -412,8 +421,8 @@ Summary: Data Center Dynamics reports that Denmark's parliament has adopted an e
 Full article: https://www.datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue/
 ---
 
-45. The Memphis City Council delayed a vote on a one-year pause on new data centres, and the meeting turned chaotic.
-CATEGORY: Energy and infrastructure — rank 12 of 14 in this category
+46. The Memphis City Council delayed a vote on a one-year pause on new data centres, and the meeting turned chaotic.
+CATEGORY: Energy and infrastructure — rank 13 of 15 in this category
 SCORE: 6 — Pool score 6 lowered to 5: the vote happened on 6 Oct 2026, before 7 Oct, so the item is stale; the report was read in full and nothing is overstated.
 Importance: MEDIUM — The vote is now set for 20 Oct, so the pause is still open, which matters to Memphis residents worried about power, water and air quality, while opponents such as Councilman Jeff Warren argue it could push companies to nearby counties.
 Source: Fox News. Status: CONFIRMED.
@@ -421,8 +430,8 @@ Summary: Fox News reports that the Memphis City Council voted 7-5 on Tuesday nig
 Full article: https://www.foxnews.com/politics/memphis-city-council-devolves-chaos-data-center-moratorium-vote-postponed
 ---
 
-46. A data centre eyed by the AI company Anthropic in Bastrop County, Texas, could break ground soon.
-CATEGORY: Energy and infrastructure — rank 13 of 14 in this category
+47. A data centre eyed by the AI company Anthropic in Bastrop County, Texas, could break ground soon.
+CATEGORY: Energy and infrastructure — rank 14 of 15 in this category
 SCORE: 6 — Pool score 6 kept, headline only: the article could not be opened, so the score rests on the headline.
 Importance: MEDIUM — It matters to Bastrop County residents and officials because construction of a data centre tied to Anthropic could start soon, though the project's size, power use and Anthropic's commitment are not yet known.
 Source: The Business Journals. Status: REPORTED. (Headline only: full article not readable.)
@@ -430,8 +439,8 @@ Summary: The Business Journals reports that a data centre eyed by Anthropic, the
 Full article: https://www.bizjournals.com/austin/news/2026/10/07/pacifico-blackchamber-anthropic-data-center-texas.html
 ---
 
-47. The US and South Korea are planning a 6.47-gigawatt gas power plant in South Texas to power a data centre.
-CATEGORY: Energy and infrastructure — rank 14 of 14 in this category
+48. The US and South Korea are planning a 6.47-gigawatt gas power plant in South Texas to power a data centre.
+CATEGORY: Energy and infrastructure — rank 15 of 15 in this category
 SCORE: 6 — Pool score 6 kept: official releases from the US Commerce Department and NextEra Energy; the project is a plan and several claims are the project side's.
 Importance: MEDIUM — It matters to South Texas and to the Texas grid, which would gain new power, but the jobs and water claims come from the project's own releases and the first stage is not due until 2029.
 Source: FOX 7 Austin. Status: CONFIRMED.
@@ -439,10 +448,10 @@ Summary: FOX 7 Austin reports, citing releases from NextEra Energy, the US Depar
 Full article: https://www.fox7austin.com/news/south-texas-get-22b-power-project-tied-data-center
 ---
 
-## ROBOTICS — 9
+## ROBOTICS — 8
 
-48. Nvidia is reportedly in talks to invest another $1 billion in Figure AI, the humanoid robot maker.
-CATEGORY: Robotics — rank 1 of 9 in this category
+49. Nvidia is reportedly in talks to invest another $1 billion in Figure AI, the humanoid robot maker.
+CATEGORY: Robotics — rank 1 of 8 in this category
 SCORE: 7 — Pool 7 lowered by 1: the $1 billion is a report of talks, and the article names no source.
 Importance: MEDIUM — What changed: the chip maker Nvidia may add $1 billion to a humanoid robot startup, which matters to robot builders and to the buyers who depend on their output; the doubt: the article gives no source and no deal terms.
 Source: The News International. Status: REPORTED.
@@ -450,8 +459,8 @@ Summary: The News International reports that Nvidia has been in talks to invest 
 Full article: https://www.thenews.com.pk/latest/1419084-nvidia-eyes-major-investment-in-figure-ai-robotics-heres-what-to-know
 ---
 
-49. Chinese electric car maker Xpeng has named its robotaxi Yoyo.
-CATEGORY: Robotics — rank 2 of 9 in this category
+50. Chinese electric car maker Xpeng has named its robotaxi Yoyo.
+CATEGORY: Robotics — rank 2 of 8 in this category
 SCORE: 6 — Pool 6 lowered by 1: the only new fact is the name; the rest is from July and August.
 Importance: MEDIUM — What changed: Xpeng has given its driverless taxi service a brand name, which matters to future riders in China and abroad and to rival robotaxi makers; the doubt: no date, city or service size has been given, and the other facts are older company statements.
 Source: CnEVPost. Status: CONFIRMED.
@@ -459,8 +468,8 @@ Summary: CnEVPost reports that Xpeng announced on Weibo, the Chinese social medi
 Full article: https://cnevpost.com/2026/10/08/xpeng-unveils-yoyo-robotaxi-name/
 ---
 
-50. Tesla is reportedly expecting to build more than 1,000 Optimus humanoid robots a week by the end of 2026.
-CATEGORY: Robotics — rank 3 of 9 in this category
+51. Tesla is reportedly expecting to build more than 1,000 Optimus humanoid robots a week by the end of 2026.
+CATEGORY: Robotics — rank 3 of 8 in this category
 SCORE: 6 — Stays at pool 6: the target is a company expectation; the hand problem comes from one report.
 Importance: MEDIUM — What changed: Tesla is aiming to raise output of its humanoid robot about tenfold, which matters to factory workers and to future buyers; the doubt: the 1,000-a-week goal is an expectation, the hand-assembly problem comes from a single report, and no sale price or date is set.
 Source: BGR. Status: REPORTED.
@@ -468,8 +477,8 @@ Summary: BGR reports, citing an exclusive from The Information, that the hands a
 Full article: https://www.bgr.com/2279995/tesla-optimus-robot-production-ramp-up/
 ---
 
-51. The US transport department has granted self-driving truck company Aurora a five-year exemption from warning-device rules.
-CATEGORY: Robotics — rank 4 of 9 in this category
+52. The US transport department has granted self-driving truck company Aurora a five-year exemption from warning-device rules.
+CATEGORY: Robotics — rank 4 of 8 in this category
 SCORE: 6 — Stays at pool 6: an official decision with a clear legal effect, which the regulator can revoke.
 Importance: MEDIUM — What changed: self-driving trucks now have a five-year route around the rule that a driver must place warning devices, which matters to road users and to truck firms; the doubt: the exemption can be revoked, and Aurora runs only about 20 trucks on public roads today.
 Source: Reuters. Status: CONFIRMED.
@@ -477,8 +486,8 @@ Summary: Reuters reports that the US Department of Transportation approved, late
 Full article: https://www.reuters.com/business/us-grants-aurora-exemption-self-driving-trucks-safety-feature-2026-10-08/
 ---
 
-52. Uber and Baidu have launched fully driverless Apollo Go robotaxis on Uber's app in Dubai.
-CATEGORY: Robotics — rank 5 of 9 in this category
+53. Uber and Baidu have launched fully driverless Apollo Go robotaxis on Uber's app in Dubai.
+CATEGORY: Robotics — rank 5 of 8 in this category
 SCORE: 6 — Stays at pool 6: a real launch by two large companies; the scale is small so far.
 Importance: MEDIUM — What changed: fully driverless cars now take Uber riders in parts of Dubai, which matters to riders and to Dubai's taxi drivers; the doubt: coverage is limited to select areas, the fleet size and timetable are not given, and the safety claims are the companies' own.
 Source: scanx.trade. Status: CONFIRMED.
@@ -486,8 +495,8 @@ Summary: Scanx reports, citing a joint announcement by Uber and the Chinese comp
 Full article: https://scanx.trade/stock-market-news/companies/uber-launches-baidus-driverless-apollo-go-dubai/48753372
 ---
 
-53. Coles, an Australian supermarket chain, is in early talks with Ocado about trialling robots in a Melbourne store.
-CATEGORY: Robotics — rank 6 of 9 in this category
+54. Coles, an Australian supermarket chain, is in early talks with Ocado about trialling robots in a Melbourne store.
+CATEGORY: Robotics — rank 6 of 8 in this category
 SCORE: 5 — Stays at pool 5: the talks are early and rest on unnamed sources.
 Importance: WATCHLIST — What changed: one of the big Australian supermarket chains is testing whether robots can speed up its online orders, which matters to shoppers and store staff; the doubt: the talks are early, rest on unnamed sources and may never become a deal.
 Source: Australian Financial Review. Status: REPORTED.
@@ -495,8 +504,8 @@ Summary: The Australian Financial Review reports, citing sources familiar with t
 Full article: https://www.afr.com/companies/retail/coles-seeks-an-edge-in-online-grocery-race-explores-robots-in-stores-20261007-p613fs
 ---
 
-54. Overland AI has launched Ibex, a self-driving ground vehicle that the US Marine Corps has picked for counter-drone work.
-CATEGORY: Robotics — rank 7 of 9 in this category
+55. Overland AI has launched Ibex, a self-driving ground vehicle that the US Marine Corps has picked for counter-drone work.
+CATEGORY: Robotics — rank 7 of 8 in this category
 SCORE: 5 — Stays at pool 5: a real launch; performance and contract claims are the company's.
 Importance: WATCHLIST — What changed: a self-driving cargo vehicle is being put into US Marine Corps counter-drone work, which matters to Marine units and to the defense firms that supply them; the doubt: the performance figures and the first-contract claim come from the company, and no independent test is reported.
 Source: Automotive World. Status: CONFIRMED.
@@ -504,22 +513,13 @@ Summary: Automotive World reports that Overland AI, which builds self-driving mi
 Full article: https://www.automotiveworld.com/news/overland-ai-launches-ibex-autonomous-ground-vehicle/
 ---
 
-55. UBTECH Robotics and FAW-Volkswagen have agreed to develop and test humanoid robots for logistics and smart factories.
-CATEGORY: Robotics — rank 8 of 9 in this category
+56. UBTECH Robotics and FAW-Volkswagen have agreed to develop and test humanoid robots for logistics and smart factories.
+CATEGORY: Robotics — rank 8 of 8 in this category
 SCORE: 5 — Stays at pool 5: a real partnership; the outputs and rankings are the companies' claims.
 Importance: WATCHLIST — What changed: a major car group is testing humanoid robots for logistics and assembly work, which matters to factory and warehouse workers and to rival robot makers; the doubt: these are company plans and self-reported rankings, and the article gives no volumes, prices or test results.
 Source: Gasgoo. Status: CONFIRMED.
 Summary: Gasgoo reports that UBTECH Robotics, a Chinese robot maker, and the car maker FAW-Volkswagen have agreed to develop and test humanoid robots for logistics, and to set up demonstration sites for smart manufacturing. UBTECH says its robot factory, designed for a 10,000-unit scale, has started operations and expects several product lines to begin deliveries in the second half of 2026, and it bases its claim to lead the world on its own comparison of peers' financial statements.
 Full article: https://autonews.gasgoo.com/articles/news/ubtech-faw-volkswagen-partner-on-humanoid-robots-for-logistics-and-smart-manufacturing-2108068987505434624
----
-
-56. South Korea has the legal basis for paid robotaxis, but only dozens are on its roads.
-CATEGORY: Robotics — rank 9 of 9 in this category
-SCORE: 5 — Stays at pool 5: policy analysis with real numbers; the plans are not final.
-Importance: WATCHLIST — What changed: the government is moving from testing toward a 3,000-car plan, which matters to passengers, to taxi drivers whose licences and jobs are affected, and to robotaxi firms; the doubt: the budget is not final, the 3,000 figure is a plan, and the rules with the taxi industry are unresolved.
-Source: Chosun Biz. Status: REPORTED.
-Summary: Chosun Biz reports that South Korea has laid much of the legal groundwork for paid robotaxis (driverless taxis), but only 91 vehicles held operating permits at the end of 2025, according to the Korean self-driving company Autonomous A2Z, while the US and China run thousands on public roads. The government plans 200 Level 4 vehicles (cars that drive without a person even in emergencies) in demonstrations in Gwangju from the end of this year and about 3,000 cars in five to six cities in 2027, but the budget is not final.
-Full article: https://biz.chosun.com/en/en-industry/2026/10/08/RCSHQFWXUNDUZLG7AQRLYNAJTI/
 ---
 
 ## MODELS AND TOOLS — 12
@@ -646,7 +646,7 @@ Full article: https://www.reuters.com/business/healthcare-pharmaceuticals/us-gov
 70. National Compute plans to give $100 million in computing credits to the Trump administration's AI science push.
 CATEGORY: Research and science — rank 2 of 11 in this category
 SCORE: 8 — Pool score 8, lowered by 1: the donation is not yet announced and rests on two anonymous sources.
-Importance: HIGH — It could give government-backed science projects more computing power at a time when smaller labs struggle to get it, but the donation is not yet announced and the grid behind it is still described in a draft paper.
+Importance: HIGH — It could give government-backed science projects more computing power at a time when smaller labs struggle to get it, but the donation is not yet announced, rests on two people familiar with the matter, and the computing network behind it is described only in a draft paper.
 Source: Politico. Status: REPORTED.
 Summary: Politico reports, in a story carried by Business Insider, that National Compute, a new company that pools computing power from major tech companies, plans to donate $100 million in computing credits to the Genesis Mission, the government-wide push to use AI to speed up science. The announcement is expected Thursday, according to two people familiar with the matter, and it would give Genesis Mission researchers access to computing that smaller labs often struggle to get.
 Full article: https://www.politico.com/news/2026/10/07/trump-compute-credits-ai-science-initiative-01109749
@@ -664,9 +664,9 @@ Full article: https://quantumcomputingreport.com/darpa-selects-atom-computing-di
 72. The 2026 State of AI Report says Anthropic, OpenAI and Google now lead AI development in a three-way race.
 CATEGORY: Research and science — rank 4 of 11 in this category
 SCORE: 7 — Broad annual review of the AI field from a reputable specialist publication; the author's views are marked as opinion.
-Importance: MEDIUM — It sums up where AI stands across labs, money, data centres, safety and science, and it names predictions to check next year; much of it is the author's judgment rather than new events, and its figures are the report's own citations.
+Importance: MEDIUM — It sums up where AI stands across labs, money, data centres, safety and science for anyone following AI, including communities facing new data centres, and it names predictions to check next year; much of it is the author's judgment rather than new events, and its figures are the report's own citations.
 Source: Air Street Press. Status: REPORTED.
-Summary: Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, against 53 percent for a nuclear plant.
+Summary: Air Street Press, in its ninth annual State of AI Report, says the leading edge of AI is now a race between Anthropic, OpenAI and Google, and cites Anthropic's internal figures showing Claude led 26 percent of measured model research work in August, up from under 1 percent in February. The report also cites a Gallup survey from March in which 71 percent of Americans opposed an AI data centre near them, while 53 percent opposed a nuclear plant near them.
 Full article: https://press.airstreet.com/p/state-of-ai-2026
 ---
 
@@ -791,8 +791,17 @@ Full article: https://www.hindustantimes.com/entertainment/bollywood/kangana-ran
 
 ## HEALTH — 8
 
-86. A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.
+86. Utah has named six outside evaluators for its AI health pilots, and the companies being tested pay them.
 CATEGORY: Health — rank 1 of 8 in this category
+SCORE: 7 — Lowered from 7 to 6: the evaluator list was first reported on 5 Oct 2026, so this is a follow-up.
+Importance: MEDIUM — What changed: Utah named six outside evaluators for its AI health pilots and the companies they check pay them, which matters first to patients in Utah who may use these tools, and the honest doubt is that the fees and which evaluator checks which pilot are not disclosed.
+Source: Medical Daily. Status: CONFIRMED.
+Summary: On 6 Oct 2026 we carried The Verge's report that the startup Nolla Health had begun using AI to write acne prescriptions in Utah. Now Medical Daily reports that Utah's Office of Artificial Intelligence Policy has named six outside evaluators to check AI health tools tested in the state's sandbox, a scheme that eases some rules for approved pilots, and that the companies being checked pay the evaluators directly, not the state.
+Full article: https://www.medicaldaily.com/utah-ai-health-sandbox-third-party-evaluators-paid-companies-479625
+---
+
+87. A start-up called Healthleap has raised $38 million for AI that flags hospital patients who may have malnutrition or delirium.
+CATEGORY: Health — rank 2 of 8 in this category
 SCORE: 6 — Kept at 6: a real funding round with named hospital customers; the return figures are the company's own.
 Importance: MEDIUM — What is new: a $38 million funding round for software that flags at-risk hospital patients, which matters first to patients who may be missed and to hospital budgets, and the honest doubt is that the return figures are the company's own and the valuation is not disclosed.
 Source: TechCrunch. Status: REPORTED.
@@ -800,8 +809,8 @@ Summary: TechCrunch reports that Healthleap, founded in South Africa in 2022, ha
 Full article: https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/
 ---
 
-87. IQVIA has launched AI models designed to help drug companies predict how clinical trials will turn out.
-CATEGORY: Health — rank 2 of 8 in this category
+88. IQVIA has launched AI models designed to help drug companies predict how clinical trials will turn out.
+CATEGORY: Health — rank 3 of 8 in this category
 SCORE: 6 — Kept at 6: a major company's launch, but the release gives no performance data.
 Importance: MEDIUM — What is new: a large trial-services firm is offering drugmakers AI forecasts of trial results, which could shape how future studies that patients join are designed, and the honest doubt is that the claims rest on the company's own launch release.
 Source: Business Wire. Status: REPORTED.
@@ -809,8 +818,8 @@ Summary: IQVIA, a clinical research services company listed on the New York Stoc
 Full article: https://www.biospace.com/press-releases/iqvia-launches-iqvia-life-science-models-to-help-life-sciences-companies-predict-clinical-trial-outcomes
 ---
 
-88. AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn.
-CATEGORY: Health — rank 3 of 8 in this category
+89. AI will sort skin cancer referrals by urgency across 18 NHS trusts in south-east England from autumn.
+CATEGORY: Health — rank 4 of 8 in this category
 SCORE: 6 — Kept at 6: a major NHS rollout, but the accuracy and autonomy claims come from the company.
 Importance: MEDIUM — What is new: AI will sort skin cancer referrals across the south-east of England, which matters first to patients waiting for skin checks and then to NHS clinicians, and the honest doubt is that the release gives no accuracy figures and does not say what 'autonomous' means in practice.
 Source: Business Wire. Status: REPORTED.
@@ -818,8 +827,8 @@ Summary: Skin Analytics says, in a Business Wire release, that its AI tool DERM 
 Full article: https://www.businesswire.com/news/home/20261007616791/en/NHS-England-South-East-Rolls-Out-Skin-Analytics-AI-Skin-Cancer-Checks-in-the-Largest-Deployment-of-Autonomous-Medical-AI-in-NHS-History
 ---
 
-89. India's medical regulator has banned doctors and hospitals from using AI to fake patient testimonials and treatment results.
-CATEGORY: Health — rank 4 of 8 in this category
+90. India's medical regulator has banned doctors and hospitals from using AI to fake patient testimonials and treatment results.
+CATEGORY: Health — rank 5 of 8 in this category
 SCORE: 5 — Kept at 5: a regulator's rule now in force; the issue date differs between sources.
 Importance: WATCHLIST — What is new: a national rule that covers AI-made medical advertising, which matters first to patients who choose doctors and hospitals from online promotions, and the honest doubt is that the report does not say how violations will be detected.
 Source: Hindustan Times. Status: CONFIRMED.
@@ -827,8 +836,8 @@ Summary: Hindustan Times reports, citing a news agency feed, that India's Nation
 Full article: https://www.hindustantimes.com/india-news/nmc-bars-ai-generated-patient-testimonials-clinical-outcomes-in-medical-advertising-101791436205790.html
 ---
 
-90. Teladoc Health has added two AI tools to its hospital platform, one that tracks heart and breathing rates without touch and one that writes visit notes.
-CATEGORY: Health — rank 5 of 8 in this category
+91. Teladoc Health has added two AI tools to its hospital platform, one that tracks heart and breathing rates without touch and one that writes visit notes.
+CATEGORY: Health — rank 6 of 8 in this category
 SCORE: 5 — Kept at 5: a product launch with no accuracy results; the vitals tool is in limited preview.
 Importance: WATCHLIST — What is new: AI that reads vital signs through a camera and writes visit notes is reaching hospitals, which matters first to patients and the clinicians who would rely on these readings, and the honest doubt is that the vitals tool is only in private preview and the article gives no accuracy results.
 Source: Healthcare Dive. Status: REPORTED.
@@ -836,8 +845,8 @@ Summary: Healthcare Dive reports that Teladoc Health, a telehealth company, has 
 Full article: https://www.healthcaredive.com/news/teladoc-unveils-remote-monitoring-ambient-ai-features/832328/
 ---
 
-91. Suki and Wolters Kluwer are launching an AI tool that gives doctors medical guidance during patient visits.
-CATEGORY: Health — rank 6 of 8 in this category
+92. Suki and Wolters Kluwer are launching an AI tool that gives doctors medical guidance during patient visits.
+CATEGORY: Health — rank 7 of 8 in this category
 SCORE: 5 — Kept at 5: a product launch backed by company figures only.
 Importance: WATCHLIST — What is new: AI advice is moving into everyday patient visits through major hospital record systems, which matters first to patients and to the doctors who rely on it, and the honest doubt is that the 83 percent figure comes from a joint company release and does not show better health outcomes.
 Source: Newsweek. Status: REPORTED.
@@ -845,22 +854,13 @@ Summary: Newsweek reports that Suki, a health-care AI company led by its founder
 Full article: https://www.newsweek.com/pro/health-care/exclusive-suki-uptodate-bring-ai-clinical-decision-support-into-workflows-access-health-12538911
 ---
 
-92. South Korea has issued its first guidelines on using generative AI for mental-health support.
-CATEGORY: Health — rank 7 of 8 in this category
+93. South Korea has issued its first guidelines on using generative AI for mental-health support.
+CATEGORY: Health — rank 8 of 8 in this category
 SCORE: 5 — Kept at 5: an official guidance release; the survey figures are self-reported.
 Importance: WATCHLIST — What is new: national guidance on safe use of AI for emotional support, which matters first to people who talk to AI about their feelings and to parents of teenagers, and the honest doubt is that the figures come from a self-reported survey.
 Source: Seoul Economic Daily. Status: CONFIRMED.
 Summary: Seoul Economic Daily reports that South Korea's Ministry of Health and Welfare and the Korean Neuropsychiatric Association released guidelines on 8 October 2026 for using generative AI tools, such as chatbots, for mental health purposes, ahead of World Mental Health Day on 10 October. A Korea Institute for Health and Social Affairs survey of 1,019 people aged 15 to 79 found that 68.8 percent of recent AI users had used it for emotional purposes, and 14.6 percent said they had judged themselves to have a mental illness based on AI conversations or accepted an AI answer as a diagnosis.
 Full article: https://en.sedaily.com/technology/2026/10/08/korea-issues-first-guidelines-on-using-ai-for-mental-health
----
-
-93. The US FDA has cleared an AI platform that turns routine spine MRI scans into 3D bone images, which the developer says takes under a minute.
-CATEGORY: Health — rank 8 of 8 in this category
-SCORE: 5 — Kept at 5: the FDA clearance is official; the speed claim is the developer's.
-Importance: WATCHLIST — What is new: an FDA-cleared AI tool that could speed surgical planning for spine patients, which matters first to patients and spine surgeons, and the honest doubt is that the speed and accuracy claims come from the developer and a surgeon's comments, not from published results.
-Source: Diagnostic Imaging. Status: CONFIRMED.
-Summary: Diagnostic Imaging reports that the US Food and Drug Administration (FDA) has issued a 510(k) clearance, a US clearance for medical devices similar to ones already on the market, for NextMR, a cloud-based AI platform from MRI2CT that builds 3D bone images from standard spine MRI scans. The developer says the images take under 60 seconds to produce, and Frank Phillips, MD, director of minimally invasive spine surgery at Midwest Orthopaedics at Rush in Chicago, says it can mean patients avoid extra imaging, radiation and appointments.
-Full article: https://www.diagnosticimaging.com/view/fda-clears-ai-powered-platform-converting-spine-mris-to-3d-visualizations
 ---
 
 ## SOCIETY AND EDUCATION — 9
@@ -1028,13 +1028,13 @@ Full article: https://briefly.co.za/people/family-relationships/255286-i-wont-pr
 
 Fact: The Verge reports that OpenAI is rolling out answers in ChatGPT that mix text with charts, diagrams, forms and tappable buttons, reaching paying users from 7 October and the free and Go plans on 8 October; the quality and safety claims are OpenAI's own and no outside test is reported (item 57). Fact: The Verge reports that Microsoft demonstrated its Autopilot agent finding a user's tax papers on a PC, renaming and zipping them and drafting an email to the accountant, with the abilities due in Copilot over the next couple of months; the evidence so far is one video demo (item 59). Fact: Maeil Business Newspaper reports that OpenAI says its Codex and ChatGPT Work agents together had 40 million weekly users, a figure that is OpenAI's own and that the article's other numbers do not match (item 65). Fact: The Decoder reports that Anthropic released Claude Haiku 5.5 at prices about 75 percent lower on average than the previous Haiku, while noting that its new tokenizer may use more billed units, so real savings could be smaller (item 58). Fact: International Business Times reports that Mark Zuckerberg, chief executive of Meta, said in an essay that Meta will release Muse Spark 1.2, one of its strongest models, as open source (item 60). Inference: the model race is also becoming a price and reach race: Anthropic cut the price of its small model, Meta plans to give away one of its strongest, and agents are being given access to a person's files; how many people hand over tasks may soon matter as much as which lab tops a test.
 
-Fact: The Guardian reports that OpenAI released more than 370 new mathematical results on 6 October, and that the Institute for Advanced Study in Princeton, an independent group of mathematical experts, said it does not endorse testing the hardest problems on companies' private models because people may not be able to check or take responsibility for AI-made proofs; OpenAI has promised to work with the Institute but has not said it will stop (item 73). Fact: Nvidia says, in its own blog post, that fine-tuned Nemotron models scored above the gold-medal line at the 2026 International Mathematical Olympiad, with proofs graded by official judges, and that a coding-olympiad run was unofficial and outside the ranking (item 62). Fact: Air Street Press says in its ninth State of AI Report that the leading edge is now a three-way race between Anthropic, OpenAI and Google, citing figures that are the report's own (item 72). Fact: Scanx reports, citing a joint announcement by Uber and Baidu, that fully driverless Apollo Go robotaxis now take Uber riders in parts of Dubai, with no fleet size or timetable given (item 52). Fact: Reuters reports that the US Department of Transportation granted Aurora and other self-driving truck companies a five-year exemption from the rule that a driver must place warning devices around a stopped truck, and that Aurora runs about 20 trucks on public roads (item 51). Inference: capability is running ahead of verification. In mathematics the Institute for Advanced Study is questioning how AI-made proofs are checked; on the road a regulator is clearing the way. Weak signal (our view): in both cases a body outside the companies is now setting the terms.
+Fact: The Guardian reports that OpenAI released more than 370 new mathematical results on 6 October, and that the Institute for Advanced Study in Princeton, an independent group of mathematical experts, said it does not endorse testing the hardest problems on companies' private models because people may not be able to check or take responsibility for AI-made proofs; OpenAI has promised to work with the Institute but has not said it will stop (item 73). Fact: Nvidia says, in its own blog post, that fine-tuned Nemotron models scored above the gold-medal line at the 2026 International Mathematical Olympiad, with proofs graded by official judges, and that a coding-olympiad run was unofficial and outside the ranking (item 62). Fact: Air Street Press says in its ninth State of AI Report that the leading edge is now a three-way race between Anthropic, OpenAI and Google, citing figures that are the report's own (item 72). Fact: Scanx reports, citing a joint announcement by Uber and Baidu, that fully driverless Apollo Go robotaxis now take Uber riders in parts of Dubai, with no fleet size or timetable given (item 53). Fact: Reuters reports that the US Department of Transportation granted Aurora and other self-driving truck companies a five-year exemption from the rule that a driver must place warning devices around a stopped truck, and that Aurora runs about 20 trucks on public roads (item 52). Inference: capability is running ahead of verification. In mathematics the Institute for Advanced Study is questioning how AI-made proofs are checked; on the road a regulator is clearing the way. Weak signal (our view): in both cases a body outside the companies is now setting the terms.
 
 ### 2. People and society
 
 Fact: Bloomberg reports, as relayed by The Straits Times, that Kevin Sneader, who leads Goldman Sachs' business in Asia-Pacific outside Japan, told the Milken Institute Asia Summit that new hires now oversee AI agents from their first day, and that Chia Der Jiun, managing director of the Monetary Authority of Singapore, said banks will need fewer fresh graduates for analysis and preparation work; these are conference remarks, not a stated bank plan (item 97). Fact: Bloomberg reports, as relayed by The Economic Times, that new graduates in India are finding entry-level jobs at global firms' back-office hubs harder to get as AI takes routine tasks, with Citigroup's net hiring in India down to about 2,000 this year from about 4,000, while the feature finds little evidence yet of mass job losses (item 98). Fact: Business Insider reports that Amazon cut roles across several teams on 6 October while preparing to spend a record $220 billion on AI infrastructure; Amazon calls the number small and an unnamed person puts it under 1,000 (item 94). Fact: The Guardian reports, after interviews with more than two dozen refugees in Kenya's Kakuma camp, that low-paid online tasks such as transcription and data entry are drying up, with the International Trade Centre estimating that such work has fallen by about 50 percent since 2022 (item 100). Fact: The Guardian reports that Co-op Legal Services uses an AI model to score its advisers' calls with customers on more than 50 points, which a whistleblower calls oppressive and the company calls a support tool (item 99). Fact: CXOToday reports, citing an essay by Daron Acemoglu, the Nobel laureate and MIT professor, that AI job losses could take at least ten years and affect only about 5 percent of people (item 102). Inference: the first people to feel AI at work are at the two ends of the ladder, the graduate who is not hired and the data worker whose task disappears, while the evidence of mass job losses is still thin.
 
-Fact: The Verge reports that Common Sense Media, a nonprofit that reviews apps for youth safety, says ChatGPT for Teens fails to send parents alerts when it should and still does children's homework, and that OpenAI answers that the tests may have run before its parental controls were fully active (item 95). Fact: Seoul Economic Daily reports that South Korea's Ministry of Health and Welfare and the Korean Neuropsychiatric Association issued the country's first guidelines on using generative AI for mental-health support, citing a survey in which 68.8 percent of recent AI users had used it for emotional purposes and 14.6 percent had judged themselves to have a mental illness from AI conversations or accepted an AI answer as a diagnosis; the figures are self-reported (item 92). Fact: Skin Analytics says in a release that its AI tool will sort skin-cancer referrals across all 18 NHS trusts in south-east England from this autumn, reaching a further 9 million people, with no accuracy figures given (item 88). Fact: Hindustan Times reports that India's National Medical Commission, the country's medical regulator, has banned AI-made patient testimonials and faked treatment results in medical advertising, with penalties up to removal from the register (item 89). Inference: in the services that touch people most directly, teenagers' chats, mental health and cancer referrals, what arrived today is guidance, company claims and one outside critic's test, not independent accuracy results. Unknown: no entry today reports an independent accuracy figure for any of the health tools it describes.
+Fact: The Verge reports that Common Sense Media, a nonprofit that reviews apps for youth safety, says ChatGPT for Teens fails to send parents alerts when it should and still does children's homework, and that OpenAI answers that the tests may have run before its parental controls were fully active (item 95). Fact: Seoul Economic Daily reports that South Korea's Ministry of Health and Welfare and the Korean Neuropsychiatric Association issued the country's first guidelines on using generative AI for mental-health support, citing a survey in which 68.8 percent of recent AI users had used it for emotional purposes and 14.6 percent had judged themselves to have a mental illness from AI conversations or accepted an AI answer as a diagnosis; the figures are self-reported (item 93). Fact: Skin Analytics says in a release that its AI tool will sort skin-cancer referrals across all 18 NHS trusts in south-east England from this autumn, reaching a further 9 million people, with no accuracy figures given (item 89). Fact: Hindustan Times reports that India's National Medical Commission, the country's medical regulator, has banned AI-made patient testimonials and faked treatment results in medical advertising, with penalties up to removal from the register (item 90). Inference: in the services that touch people most directly, teenagers' chats, mental health and cancer referrals, what arrived today is guidance, company claims and one outside critic's test, not independent accuracy results. Unknown: no entry today reports an independent accuracy figure for any of the health tools it describes.
 
 ### 3. Safety, security and law
 
@@ -1044,9 +1044,9 @@ Fact: Roll Call reports that Maria Cantwell, the Democratic ranking member of th
 
 ### 4. Infrastructure
 
-Fact: Startup Fortune reports that TSMC, the Taiwanese chipmaker, said its third-quarter revenue rose 51 percent from a year earlier, beating the estimate Bloomberg reported, which suggests demand for AI chips has held up for now (item 12). Fact: Focus Taiwan reports that the union at Micron's Taoyuan memory-chip plant in Taiwan voted 88.3 percent to authorise a strike over profit-sharing, that no date is set, and that Jerry Lin, chairman of the Taoyuan union, said a surprise strike is among the options after the company's board meets on 8 and 9 October (item 40). Fact: Tom's Hardware reports, citing Bloomberg, that Lip-Bu Tan, chief executive of Intel, said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, says Terafab will build and run its own plant (item 39). Fact: The Washington Post reports, as relayed by Newser, that minutes of the Federal Reserve's September meeting rank the AI infrastructure boom above tariffs as a key force keeping goods prices high, and that the Fed now expects inflation to stay above its 2 percent goal until 2029 (item 41). Inference: the chip supply chain is tight enough that a strike vote at one Taiwan plant is news, and the central bank of the United States now names the build itself as a reason prices stay high. That is a new kind of cost: the AI build is no longer only a bill for its builders.
+Fact: Startup Fortune reports that TSMC, the Taiwanese chipmaker, said its third-quarter revenue rose 51 percent from a year earlier, beating the estimate Bloomberg reported, which suggests demand for AI chips has held up for now (item 12). Fact: Focus Taiwan reports that the union at Micron's Taoyuan memory-chip plant in Taiwan voted 88.3 percent to authorise a strike over profit-sharing, that no date is set, and that Jerry Lin, chairman of the Taoyuan union, said a surprise strike is among the options after the company's board meets on 8 and 9 October (item 41). Fact: Tom's Hardware reports, citing Bloomberg, that Lip-Bu Tan, chief executive of Intel, said Intel will stay part of Terafab, the chip venture of SpaceX, Tesla and xAI, and that Elon Musk, chief executive of SpaceX, Tesla and xAI, says Terafab will build and run its own plant (item 40). Fact: The Washington Post reports, as relayed by Newser, that minutes of the Federal Reserve's September meeting rank the AI infrastructure boom above tariffs as a key force keeping goods prices high, and that the Fed now expects inflation to stay above its 2 percent goal until 2029 (item 42). Inference: the chip supply chain is tight enough that a strike vote at one Taiwan plant is news, and the central bank of the United States now names the build itself as a reason prices stay high. That is a new kind of cost: the AI build is no longer only a bill for its builders.
 
-Fact: Reuters reports, as carried by NBC News, that drones hit a major Yandex data centre in Russia's Ryazan region, causing a fire and suspending operations; the report does not say who launched them (item 34). Fact: The Financial Times reports, as relayed by BigGo Finance, that China is building AI data centres fast in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone (item 36). Fact: FOX 7 Austin reports, citing releases from NextEra Energy, the US Department of Commerce and Related Digital, that a 6.47-gigawatt gas plant is planned in Encinal, Texas, to power a 5-gigawatt data centre, with the first stage due in 2029 (item 47). Fact: Reuters reports that Sesterce, a French AI infrastructure group, plans a Finnish data-centre site costing more than 10 billion euros, with an unnamed anchor customer (item 42). Fact: Bloomberg reports that CoreWeave, the US AI cloud company, will open its first Indian data centres near Mumbai, with the first phase not due until mid-2028 (item 43). Fact: WFAE reports that Duke Energy and data-centre operators agreed a special electricity rate for big power users in North Carolina under which new data centres pay upfront for dedicated facilities, subject to state approval (item 37). Fact: Data Center Dynamics reports that Denmark's parliament passed an emergency grid plan that puts data centres at the back of the queue; we could read only the headline, and the plan's details and timing are not yet clear (item 44). Fact: Fox News reports that the Memphis City Council voted 7 to 5 to delay until 20 October a vote on a 12-month pause on new data centres, at a meeting that turned chaotic (item 45). Fact: Politico reports, in a story carried by Business Insider, that National Compute, a new company pooling computing from major tech firms, plans to donate $100 million in computing credits to the US government's Genesis Mission science push, with the announcement expected Thursday, according to two people familiar with the matter (item 70). Inference: new building is planned in energy-rich inland China, Finland, south Texas and India, while places that already host data centres, Denmark, North Carolina and possibly Memphis, are writing rules that put them behind households or make them pay their own way. Scenario: if both trends hold, capacity due from 2028 arrives in new regions with new grids, and the drone strike in Ryazan is a reminder that a data centre can be a wartime target.
+Fact: Reuters reports, as carried by NBC News, that drones hit a major Yandex data centre in Russia's Ryazan region, causing a fire and suspending operations; the report does not say who launched them (item 34). Fact: The Financial Times reports, as relayed by BigGo Finance, that China is building AI data centres fast in its energy-rich inland regions, with 89 built or planned in Ulanqab, Inner Mongolia, alone (item 37). Fact: FOX 7 Austin reports, citing releases from NextEra Energy, the US Department of Commerce and Related Digital, that a 6.47-gigawatt gas plant is planned in Encinal, Texas, to power a 5-gigawatt data centre, with the first stage due in 2029 (item 48). Fact: Reuters reports that Sesterce, a French AI infrastructure group, plans a Finnish data-centre site costing more than 10 billion euros, with an unnamed anchor customer (item 43). Fact: Bloomberg reports that CoreWeave, the US AI cloud company, will open its first Indian data centres near Mumbai, with the first phase not due until mid-2028 (item 44). Fact: WFAE reports that Duke Energy and data-centre operators agreed a special electricity rate for big power users in North Carolina under which new data centres pay upfront for dedicated facilities, subject to state approval (item 38). Fact: Data Center Dynamics reports that Denmark's parliament passed an emergency grid plan that puts data centres at the back of the queue; we could read only the headline, and the plan's details and timing are not yet clear (item 45). Fact: Fox News reports that the Memphis City Council voted 7 to 5 to delay until 20 October a vote on a 12-month pause on new data centres, at a meeting that turned chaotic (item 46). Fact: Politico reports, in a story carried by Business Insider, that National Compute, a new company pooling computing from major tech firms, plans to donate $100 million in computing credits to the US government's Genesis Mission science push, with the announcement expected Thursday, according to two people familiar with the matter (item 70). Inference: new building is planned in energy-rich inland China, Finland, south Texas and India, while places that already host data centres, Denmark, North Carolina and possibly Memphis, are writing rules that put them behind households or make them pay their own way. Scenario: if both trends hold, capacity due from 2028 arrives in new regions with new grids, and the drone strike in Ryazan is a reminder that a data centre can be a wartime target.
 
 ### 5. Markets
 
@@ -1062,9 +1062,9 @@ Fact: Euronews reports Samsung's own estimate of a third-quarter operating profi
 
 4. Three scenarios for the AI debt market over 3 months, which add up to 100 percent: (a) the reported deals close at or near their sizes at a modestly higher cost, 55 percent; (b) at least one shrinks or is repriced sharply, 35 percent; (c) one fails outright and other borrowers pull back, 10 percent. Horizon: 1 to 3 months. Confidence: low. Signal: Asian shares falling as bond markets strain (item 16), the IMF's warning (item 2) and the estimate by Stijn Van Nieuwerburgh, a researcher at Columbia Business School, that spending outruns cash this year (item 24). Confirms or weakens each: the rate and size of the next deal to close. Affects: savers whose funds hold the bonds and the shares, then the borrowers.
 
-5. Micron's Taoyuan union calls a strike within 4 weeks. Probability 35 percent. Horizon: days to 4 weeks. Confidence: low. Signal: an 88.3 percent strike mandate, with the union's answer tied to the board's proposals after its 8 to 9 October meeting (item 40). Confirms: a strike date or a surprise walkout. Weakens: a revised profit-sharing offer. Affects: the plant's workers, then memory buyers already facing tight supply (item 11).
+5. Micron's Taoyuan union calls a strike within 4 weeks. Probability 35 percent. Horizon: days to 4 weeks. Confidence: low. Signal: an 88.3 percent strike mandate, with the union's answer tied to the board's proposals after its 8 to 9 October meeting (item 41). Confirms: a strike date or a surprise walkout. Weakens: a revised profit-sharing offer. Affects: the plant's workers, then memory buyers already facing tight supply (item 11).
 
-6. The Memphis City Council passes the 12-month pause on new data centres on 20 October. Probability 45 percent. Horizon: days to 4 weeks. Confidence: low. Signal: the delay passed only 7 to 5, and opponents argue a pause pushes projects to nearby counties (item 45). Confirms: a recorded vote for the pause. Weakens: a further delay or a narrower study motion. Affects: Memphis residents worried about power, water and air, then developers.
+6. The Memphis City Council passes the 12-month pause on new data centres on 20 October. Probability 45 percent. Horizon: days to 4 weeks. Confidence: low. Signal: the delay passed only 7 to 5, and opponents argue a pause pushes projects to nearby counties (item 46). Confirms: a recorded vote for the pause. Weakens: a further delay or a narrower study motion. Affects: Memphis residents worried about power, water and air, then developers.
 
 7. India publishes its AI consultation paper by about 8 November, within the month its minister promised on 8 October. Probability 60 percent. Horizon: days to 4 weeks. Confidence: low. Signal: the minister's own one-month timeline (item 8). Confirms: the paper is released. Weakens: silence past the date. Affects: Indian users of AI services and the firms that build them.
 
@@ -1074,21 +1074,21 @@ Fact: Euronews reports Samsung's own estimate of a third-quarter operating profi
 
 The dates below come from the day's entries, from the companies and institutions themselves, or from published calendars, and each one says where it comes from. Where a date is not confirmed, it says so.
 
-1. 8 to 9 October: Micron's board meets, and the Taoyuan union says its next step depends on the board's proposals (Focus Taiwan, (item 40)). Also 8 October: ChatGPT's interactive answers reach free users (The Verge, (item 57)), Denmark's deepfake bill is due to be introduced (Euronews, (item 81)), and National Compute's $100 million donation to the Genesis Mission is expected to be announced on Thursday, a date that rests on two unnamed people and is not confirmed (Politico, (item 70)). Why: the Micron meeting is the first test of whether tight memory supply turns into a labour dispute; the ChatGPT rollout is the day the new answer format reaches free users, with no outside test yet.
+1. 8 to 9 October: Micron's board meets, and the Taoyuan union says its next step depends on the board's proposals (Focus Taiwan, (item 41)). Also 8 October: ChatGPT's interactive answers reach free users (The Verge, (item 57)), Denmark's deepfake bill is due to be introduced (Euronews, (item 81)), and National Compute's $100 million donation to the Genesis Mission is expected to be announced on Thursday, a date that rests on two unnamed people and is not confirmed (Politico, (item 70)). Why: the Micron meeting is the first test of whether tight memory supply turns into a labour dispute; the ChatGPT rollout is the day the new answer format reaches free users, with no outside test yet.
 
-2. 10 October: World Mental Health Day, the date South Korea's new guidelines on AI for emotional support were timed for (Seoul Economic Daily, (item 92)). Why: it is South Korea's first national guidance for people who talk to chatbots about their feelings; what other health ministries say that day shows whether Korea is first or alone.
+2. 10 October: World Mental Health Day, the date South Korea's new guidelines on AI for emotional support were timed for (Seoul Economic Daily, (item 93)). Why: it is South Korea's first national guidance for people who talk to chatbots about their feelings; what other health ministries say that day shows whether Korea is first or alone.
 
 3. 12 to 18 October: the IMF and World Bank Annual Meetings in Bangkok, with the plenary scheduled for 16 October, subject to change (source: the IMF's own meetings page). Why: the Singapore speech by Kristalina Georgieva, managing director of the International Monetary Fund, was the warm-up (Associated Press, (item 2)); a change would be the Fund naming AI investment as a risk to growth or to banks in its headline findings at the meetings.
 
 4. 13 October: JPMorgan Chase reports third-quarter results, the first large US bank of the season (source: the company's notice of 17 September 2026). Why: Oracle is reported to be in talks with Goldman Sachs and Apollo to fund chips (Wall Street Journal, (item 20)) and Robert Rubin, the former US Treasury secretary and former Goldman Sachs co-chairman, warns of circular commitments (Bloomberg, (item 18)); what the first big bank says about lending to data centres and AI builders is the first measured check from the lenders' side.
 
-5. 14 October: US consumer prices for September, at 8:30 a.m. Eastern (source: published release calendars citing the Bureau of Labor Statistics schedule; we could not open the Bureau's own calendar, so treat the date as very likely rather than confirmed). Why: the Fed's minutes name the AI build as a force keeping goods prices high (Washington Post via Newser, (item 41)); a hot number raises the cost of every borrowed dollar in section 5, a cool one takes the pressure off.
+5. 14 October: US consumer prices for September, at 8:30 a.m. Eastern (source: published release calendars citing the Bureau of Labor Statistics schedule; we could not open the Bureau's own calendar, so treat the date as very likely rather than confirmed). Why: the Fed's minutes name the AI build as a force keeping goods prices high (Washington Post via Newser, (item 42)); a hot number raises the cost of every borrowed dollar in section 5, a cool one takes the pressure off.
 
 6. 15 October: TSMC's third-quarter earnings conference, at 2 p.m. Taiwan time, with the company in its quiet period from 5 to 14 October (source: TSMC's investor relations page). Why: it turns the 51 percent revenue rise (Startup Fortune, (item 12)) into an outlook. A raised 2026 outlook says AI chip demand is still measured in orders; a flat one is the first crack.
 
-7. 20 October: the Memphis City Council's rescheduled vote on a 12-month pause on new data centres (Fox News, (item 45)). Why: it is the next recorded council vote on whether a city can stop the build, after Denmark's parliament put data centres at the back of its grid queue (Data Center Dynamics, (item 44)).
+7. 20 October: the Memphis City Council's rescheduled vote on a 12-month pause on new data centres (Fox News, (item 46)). Why: it is the next recorded council vote on whether a city can stop the build, after Denmark's parliament put data centres at the back of its grid queue (Data Center Dynamics, (item 45)).
 
-8. 27 to 28 October: the US Federal Reserve meets, with the decision at 2 p.m. Eastern on 28 October and no new projections at this meeting (source: the Federal Reserve's October 2026 calendar). Why: the rate is the price of the debt in section 5 and the minutes already discuss AI (Washington Post via Newser, (item 41)). Late October, dates not confirmed: Microsoft, Alphabet, Meta and Amazon are expected to report quarterly results in the same window, based on past years; none of the day's entries gives a date. Why: their capital spending plans are the one number that tests the estimate by Stijn Van Nieuwerburgh, a researcher at Columbia Business School, that spending outruns cash this year (Fortune, (item 24)).
+8. 27 to 28 October: the US Federal Reserve meets, with the decision at 2 p.m. Eastern on 28 October and no new projections at this meeting (source: the Federal Reserve's October 2026 calendar). Why: the rate is the price of the debt in section 5 and the minutes already discuss AI (Washington Post via Newser, (item 42)). Late October, dates not confirmed: Microsoft, Alphabet, Meta and Amazon are expected to report quarterly results in the same window, based on past years; none of the day's entries gives a date. Why: their capital spending plans are the one number that tests the estimate by Stijn Van Nieuwerburgh, a researcher at Columbia Business School, that spending outruns cash this year (Fortune, (item 24)).
 
 9. 29 October: Samsung's full third-quarter results (Euronews, (item 11)). Why: it confirms or corrects the largest quarterly operating profit a technology company has ever estimated, and shows how much came from memory prices rather than volume.
 
@@ -1098,14 +1098,14 @@ Without a date, but decisive: the price and fate of the Firmus share sale (Bloom
 
 ### B. Low probability, high impact scenarios
 
-1. The SpaceX borrowing is cut back or repriced sharply and other AI borrowers follow, close to the risk that Kristalina Georgieva, managing director of the International Monetary Fund, warned of (Associated Press, (item 2)), with the record insurance cost on SpaceX's bonds (Seoul Economic Daily, (item 15)) and Thursday's bond-market strain (Reuters, (item 16)) as the early signs. Probability: about 10 percent in 3 months. 2. An AI-assisted bank attack outside South Korea causes losses large enough to force regulators to act, given that the same open tools run on hundreds of servers worldwide (SBS News, (item 30)) and that CrowdStrike cannot yet definitively identify the attacker behind the Korean hacks (Reuters via The Japan Times, (item 27)). Probability: under 10 percent in 3 months. 3. A surprise strike at Micron's Taoyuan plant tightens memory supply further, at a time when tight memory supply is already behind Samsung's record estimate (Focus Taiwan, (item 40); Euronews, (item 11)). Probability: about 15 percent in 4 weeks. 4. Data centres outside Russia are attacked physically, after the drone strike on Yandex's Ryazan site (Reuters via NBC News, (item 34)). Probability: under 5 percent in 3 months. 5. A US regulator or court blocks a major model release on safety grounds before any law passes, a step beyond what the framework of Maria Cantwell, the Democratic ranking member of the Senate Commerce Committee, proposes (Roll Call, (item 1)). Probability: under 5 percent in 12 months.
+1. The SpaceX borrowing is cut back or repriced sharply and other AI borrowers follow, close to the risk that Kristalina Georgieva, managing director of the International Monetary Fund, warned of (Associated Press, (item 2)), with the record insurance cost on SpaceX's bonds (Seoul Economic Daily, (item 15)) and Thursday's bond-market strain (Reuters, (item 16)) as the early signs. Probability: about 10 percent in 3 months. 2. An AI-assisted bank attack outside South Korea causes losses large enough to force regulators to act, given that the same open tools run on hundreds of servers worldwide (SBS News, (item 30)) and that CrowdStrike cannot yet definitively identify the attacker behind the Korean hacks (Reuters via The Japan Times, (item 27)). Probability: under 10 percent in 3 months. 3. A surprise strike at Micron's Taoyuan plant tightens memory supply further, at a time when tight memory supply is already behind Samsung's record estimate (Focus Taiwan, (item 41); Euronews, (item 11)). Probability: about 15 percent in 4 weeks. 4. Data centres outside Russia are attacked physically, after the drone strike on Yandex's Ryazan site (Reuters via NBC News, (item 34)). Probability: under 5 percent in 3 months. 5. A US regulator or court blocks a major model release on safety grounds before any law passes, a step beyond what the framework of Maria Cantwell, the Democratic ranking member of the Senate Commerce Committee, proposes (Roll Call, (item 1)). Probability: under 5 percent in 12 months.
 
 ### C. Signals that would change this view
 
-Toward more risk: TSMC guiding flat or lower on 15 October ((item 12)); the insurance cost on SpaceX's bonds rising past today's record ((item 15)); the Firmus sale pulled or priced far below what was marketed ((item 22)); a Micron strike date ((item 40)); Samsung's confirmed profit well below its estimate ((item 11)); a second bank sector hit by the tools S2W describes ((item 30)). Toward less risk: the Broadcom or Oracle deal signed at a rate close to other investment-grade borrowers ((item 20)); the SpaceX gauge falling back toward its June level ((item 15)); a cool September inflation print and a Fed statement that no longer names the AI build ((item 41)); OpenAI agreeing a checking process with the Institute for Advanced Study ((item 73)); an outside test confirming Haiku 5.5's savings per task ((item 58)). Toward a different story altogether: India or Australia publishing testing rules with teeth on their stated dates ((item 8), (item 9)), which would move the centre of AI regulation away from Washington.
+Toward more risk: TSMC guiding flat or lower on 15 October ((item 12)); the insurance cost on SpaceX's bonds rising past today's record ((item 15)); the Firmus sale pulled or priced far below what was marketed ((item 22)); a Micron strike date ((item 41)); Samsung's confirmed profit well below its estimate ((item 11)); a second bank sector hit by the tools S2W describes ((item 30)). Toward less risk: the Broadcom or Oracle deal signed at a rate close to other investment-grade borrowers ((item 20)); the SpaceX gauge falling back toward its June level ((item 15)); a cool September inflation print and a Fed statement that no longer names the AI build ((item 42)); OpenAI agreeing a checking process with the Institute for Advanced Study ((item 73)); an outside test confirming Haiku 5.5's savings per task ((item 58)). Toward a different story altogether: India or Australia publishing testing rules with teeth on their stated dates ((item 8), (item 9)), which would move the centre of AI regulation away from Washington.
 
 ### D. Key unknowns and data gaps
 
-Who launched the drones at the Yandex data centre ((item 34)). The identity of the attacker behind the South Korean bank hacks, which CrowdStrike says it cannot confirm ((item 27)). The size, rate and timing of the Broadcom and Oracle financings, which the Journal calls early ((item 20)). The Firmus price, on which Bloomberg and the Australian Financial Review disagree ((item 22)). Isomorphic's valuation, which rests on people familiar with the talks ((item 14)). The source of the report that Nvidia is in talks to add $1 billion to Figure AI, which the article does not give ((item 48)). The true number of Amazon's cuts ((item 94)). The size of the global stock moves in the Journal's report, which we could read only as a headline ((item 17)). Whether National Compute's donation is announced as expected ((item 70)). Whether Haiku 5.5's lower prices survive its new tokenizer in real use ((item 58)). Whether OpenAI's 40 million weekly agent users is measured the same way as its other figures, which do not match the article's other numbers ((item 65)). Whether any of the day's health tools has an independent accuracy figure, which no entry reports ((item 88), (item 90), (item 91)).
+Who launched the drones at the Yandex data centre ((item 34)). The identity of the attacker behind the South Korean bank hacks, which CrowdStrike says it cannot confirm ((item 27)). The size, rate and timing of the Broadcom and Oracle financings, which the Journal calls early ((item 20)). The Firmus price, on which Bloomberg and the Australian Financial Review disagree ((item 22)). Isomorphic's valuation, which rests on people familiar with the talks ((item 14)). The source of the report that Nvidia is in talks to add $1 billion to Figure AI, which the article does not give ((item 49)). The true number of Amazon's cuts ((item 94)). The size of the global stock moves in the Journal's report, which we could read only as a headline ((item 17)). Whether National Compute's donation is announced as expected ((item 70)). Whether Haiku 5.5's lower prices survive its new tokenizer in real use ((item 58)). Whether OpenAI's 40 million weekly agent users is measured the same way as its other figures, which do not match the article's other numbers ((item 65)). Whether any of the day's health tools has an independent accuracy figure, which no entry reports ((item 89), (item 91), (item 92)).
 
 This is analysis of the news, not financial advice or an investment recommendation.
