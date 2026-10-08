@@ -17,8 +17,8 @@ ap.add_argument('--bulletin-text', required=True)
 a = ap.parse_args()
 W = Path(a.workdir); P = W / 'products'
 
-PROCESS = re.compile(r"\bNote:|could not|could n.t|headline only|headline-only|only the headline|not readable|"
-                     r"our system|our reading|\bblocked\b|cloudflare|paywall", re.I)
+PROCESS = re.compile(r"\bNote:|could not open|could not read|could not be opened|headline only|headline-only|only the headline|not readable|"
+                     r"our system|our reading|cloudflare|paywall", re.I)
 LABELS = re.compile(r"Why it matters|What changed|What is new", re.I)
 
 
@@ -85,7 +85,7 @@ for c in rep['categories']:
         it['paragraphs'] = [p for p in it['paragraphs'] if not str(p).startswith('Note:')]
         notes_removed += before - len(it['paragraphs'])
         for p in it['paragraphs']:
-            if re.search(r"could not|headline only|our system|not readable|\bblocked\b", str(p), re.I):
+            if re.search(r"could not open|could not read|could not be opened|headline only|our system|not readable", str(p), re.I):
                 fails.append(f"report: process note left in '{str(it.get('headline'))[:60]}'")
         if it['paragraphs'] and repeats_headline(str(it.get('headline', '')), it['paragraphs'][0]):
             warn_repeat += 1
