@@ -12,6 +12,21 @@
    "detail": "teaser items ['C02-02', 'C14-06'] from the teaser card ['C02-02', 'C05-01', 'C11-04', 'C14-06']"
   },
   {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "ending is the approved text"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "opening slot 1 bypass: the stored option 4 opening of 3 Oct is used"
+  },
+  {
+   "rule": "B3",
+   "status": "WARN",
+   "detail": "digits in the opening line: Welcome to A I News Desk. I am Raphael, and Every day, I bri"
+  },
+  {
    "rule": "B1",
    "status": "PASS",
    "detail": "C13-01 9.0 s (aim 9.0 s or less)"
@@ -119,7 +134,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "fun 7.5 s (aim 8.5 s or less)"
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -174,18 +189,18 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Chat', 'Chip', 'Common Sense Media', 'Dots', 'Figure', 'For', 'From Russia', 'Kenya', 'On', 'Refugees', 'Senate Democrat Maria Cantwell', 'Teens', 'That', 'Washington', 'Watchdog', 'We', 'Yandex']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Chat', 'Chip', 'Common Sense Media', 'Figure', 'For', 'From Russia', 'Kenya', 'Oh', 'On', 'Refugees', 'Senate Democrat Maria Cantwell', 'Teens', 'That', 'Washington', 'Watchdog', 'We', 'Yandex']"
   }
  ],
  "names_to_tag": [
   "Chat",
   "Chip",
   "Common Sense Media",
-  "Dots",
   "Figure",
   "For",
   "From Russia",
   "Kenya",
+  "Oh",
   "On",
   "Refugees",
   "Senate Democrat Maria Cantwell",

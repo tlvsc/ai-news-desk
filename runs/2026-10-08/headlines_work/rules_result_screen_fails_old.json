@@ -1,0 +1,21 @@
+[
+ {"clip": "C13-01", "pass": false, "broken": [
+   {"rule": "Headlines prompt (Headlines Master Section B2, Headlines_prompt_for_comfy_json.txt: 'Static camera, locked framing, no camera movement', 'no zoom') and the 17 Sep continuity rule (same framing and camera at every join)", "why": "The new screen says 'as the camera slowly pushes in toward the lit Senate wing'. That camera move is filled into the same prompt that says static camera, no camera movement and no zoom, so the engine can push in on the whole studio shot and break the locked framing at the clip joins. Screen only: the spoken line is unchanged and still passes."}
+  ], "fix_field": "screen",
+  "fix": "a short realistic video of the US Capitol in Washington at dusk, its white dome glowing against a deep blue sky above the lit Senate wing"},
+ {"clip": "C07-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C09-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-02", "pass": true, "broken": [], "fix": "",
+  "accepted": [
+   {"rule": "B2 (Headlines Master; Cards Master Section 3 item 3)", "why": "accepted by Rafi, 8 Oct 2026: he keeps the Figure funding clip even though the sources do not say what Figure's robots do, so the line cannot say what the robot does and leads with the investment."}
+  ]},
+ {"clip": "C02-01", "pass": false, "broken": [
+   {"rule": "CLAUDE.md REAL TV SCREENS (Rafi, 8 Oct 2026: no readable words or numbers) and Headlines Master 15 Sep item 3 (no readable screen text; wording that invites text produced malformed letters)", "why": "The new screen asks for 'a chatbot answer on its screen'. A chatbot answer is written text, so the engine will draw letters on the phone, which the rule forbids. The fix keeps the phone, the coloured bars and the buttons and drops the answer. Screen only: the spoken line is unchanged and still passes."}
+  ], "fix_field": "screen",
+  "fix": "a short realistic video of a smartphone on a kitchen table, its screen unfolding into bright coloured bars and big round buttons that light up one by one"},
+ {"clip": "C04-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-02", "pass": true, "broken": [], "fix": ""},
+ {"clip": "fun", "pass": true, "broken": [], "fix": ""},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": ""},
+ {"clip": "bp", "pass": true, "broken": [], "fix": ""}
+]

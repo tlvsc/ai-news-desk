@@ -2,7 +2,10 @@
  {"clip": "C13-01", "pass": true, "broken": [], "fix": ""},
  {"clip": "C07-01", "pass": true, "broken": [], "fix": ""},
  {"clip": "C09-01", "pass": true, "broken": [], "fix": ""},
- {"clip": "C11-02", "pass": true, "broken": [], "fix": "", "accepted": [{"rule": "B2 (Headlines Master; Cards Master Section 3 item 3)", "why": "accepted by Rafi, 8 Oct 2026: he keeps the Figure funding clip even though the sources do not say what Figure's robots do, so the line cannot say what the robot does and leads with the investment."}]},
+ {"clip": "C11-02", "pass": true, "broken": [], "fix": "",
+  "accepted": [
+   {"rule": "B2 (Headlines Master; Cards Master Section 3 item 3)", "why": "accepted by Rafi, 8 Oct 2026: he keeps the Figure funding clip even though the sources do not say what Figure's robots do, so the line cannot say what the robot does and leads with the investment."}
+  ]},
  {"clip": "C02-01", "pass": true, "broken": [], "fix": ""},
  {"clip": "C04-01", "pass": true, "broken": [], "fix": ""},
  {"clip": "C14-02", "pass": true, "broken": [], "fix": ""},
