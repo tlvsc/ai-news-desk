@@ -106,14 +106,14 @@ def gate(W):
     fun = sel['fun']['item']; tz = [t['item'] for t in sel['teaser']]; hl = sel['headlines']; hfun = sel.get('headlines_fun', fun); bpr = sel['bp_refs']
     allids = ids + [fun] + tz + hl + [hfun] + bpr
     chk('G1 every id exists and is not held', all(i in ents and i not in hid for i in allids), str([i for i in allids if i not in ents or i in hid]))
-    chk('G2 count: 14 story cards, 4 teaser items, 7 Headlines clips', len(cards) == F['target'] and len(tz) == 4 and len(hl) == 7, f'{len(cards)} cards, {len(tz)} teaser, {len(hl)} clips')
+    chk('G2 count: 14 story cards (15 allowed, one extra, Rafi 8 Oct 2026), 4 teaser items, 7 Headlines clips', len(cards) in (F['target'], F['target'] + 1) and len(tz) == 4 and len(hl) == 7, f'{len(cards)} cards, {len(tz)} teaser, {len(hl)} clips')
     chk('G3 no duplicate ids among cards', len(set(ids)) == len(ids), str([i for i in ids if ids.count(i) > 1]))
     bad = [c['item'] for c in cards if c['item'] not in bset and not c.get('exception')]
     chk('G4 cards come from the Bulletin (an exception must be declared with a reason)', not bad, str(bad))
     for c in cards:
         if c.get('exception'):
             cat = ents[c['item']]['v1_category']
-            elig = [i for i in bset if i not in hid and ents[i]['v1_category'] == cat and (ents[i]['freshness'] == 'NEW' or i in UA) and ents[i]['verified_text']]
+            elig = [i for i in bset if i not in hid and ents[i]['v1_category'] == cat and (ents[i]['freshness'] == 'NEW' or i in UA) and ents[i]['verified_text'] and i not in sel.get('repeat_excluded', {})]
             chk(f'G4b exception {c["item"]} allowed only when the Bulletin has no eligible story in its category', not elig and c.get('reason'), f'eligible Bulletin stories: {elig}')
     chk('G5 every card, clip and the fun story was read in full', all(ents[i]['verified_text'] for i in ids + hl + [fun, hfun] if i in ents), str([i for i in ids + hl + [fun, hfun] if i in ents and not ents[i]['verified_text']]))
     upd = [i for i in ids + hl + tz if i in ents and ents[i]['freshness'] != 'NEW' and i not in UA]
@@ -133,7 +133,7 @@ def gate(W):
     chk('G11 Headlines clips are cards, in deck order', all(h in ids for h in hl) and [ids.index(h) for h in hl] == sorted(ids.index(h) for h in hl), str(hl))
     chk('G11b when the deck has a Politics card, its clip is Headlines clip 1 (Rafi, 7 Oct 2026)', 'POL' not in cats or hl[0] == ids[cats.index('POL')], f'clip 1 is {hl[0]}, the Politics card is {ids[cats.index("POL")] if "POL" in cats else "none"}')
     chk('G12 teaser stories are not cards and not clips', not (set(tz) & (set(ids) | set(hl))), str(set(tz) & set(ids)))
-    chk('G13 robotics card shows a machine doing something', all(ents[i].get('machine_action') is not False for i in ids if ents[i]['v1_category'] == 'ROB'), '')
+    chk('G13 robotics card shows a machine doing something, or carries Rafi\'s robotics ruling (8 Oct 2026: humanoid funding counts)', all(ents[c['item']].get('machine_action') is not False or c.get('robotics_ruling') for c in cards if ents[c['item']]['v1_category'] == 'ROB'), '')
     chk('G14 labels are at most 15 characters', all(len(c.get('label', '')) <= 15 and c.get('label') for c in cards), str([c['item'] for c in cards if len(c.get('label', '')) > 15]))
     chk('G15 every pick has a reason and a not-a-repeat reason', all(c.get('reason') and c.get('not_repeat_because') for c in cards), str([c['item'] for c in cards if not (c.get('reason') and c.get('not_repeat_because'))]))
     chk('G15b every card has a novice test (who a novice would not know, the plain introduction)', all(c.get('novice_test') for c in cards), str([c['item'] for c in cards if not c.get('novice_test')]))
