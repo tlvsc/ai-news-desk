@@ -1,8 +1,8 @@
 # Daily Bulletin (Claude LV1.1) — TEST RUN
 
 9 October 2026. Coverage: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours).  
-Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, POL from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
-**48 stories.**
+Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, POL from 6, ROB from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
+**54 stories.**
 
 ## POLITICS AND GOVERNMENT — 10
 **6 MEDIUM — President Trump has declared on Truth Social that anyone who says "artificial intelligence" instead of "super intelligence" is an enemy of the White House.** (report item 1)  
@@ -80,9 +80,27 @@ TIME reports, in an exclusive, that the investigation by Democratic Senators Eli
 **7 MEDIUM — French AI infrastructure company Sesterce plans to invest more than 10 billion euros in an AI data center campus at a former paper mill in central Finland.** (report item 37)  
 The Next Web reports, citing Sesterce's announcement, that the campus at Jämsä would start with 200 megawatts in a first phase, with building due to begin this year, and reach 600 megawatts in a second phase, creating about 2,000 construction jobs and 300 permanent ones. Local officials welcomed the plan but noted that permits are still required, and the site's owner says talks to sell it to Sesterce are well advanced. *The Next Web, citing Sesterce, CONFIRMED*
 
-## ROBOTICS — 1
+## ROBOTICS — 7
 **7 MEDIUM — Waymo, the self-driving car company owned by Google's parent Alphabet, has borrowed $5 billion from a group of investment firms to pay for its expansion.** (report item 44)  
 TechCrunch reports that Waymo closed a $5 billion loan, its first debt financing, from lenders including PIMCO, Blackstone and Sixth Street, as the company grows inside its existing cities and moves into new markets in the United States, Europe and Japan. Waymo, which now runs robotaxis in 15 markets and is testing in London and Tokyo, calls the loan a step in becoming a "scaling commercial enterprise". *TechCrunch, CONFIRMED*
+
+**6 MEDIUM — Uber and the Chinese self-driving company Pony.ai plan to start a robotaxi service in London, with test cars due on the road in the coming weeks.** (report item 45)  
+TechCrunch reports that the two companies said on Thursday they will begin testing Pony.ai's seventh-generation robotaxis in London, part of a wider push to bring driverless cars to Europe, and have not said who will own and run the fleet. Uber is also planning a separate London robotaxi service with the British startup Wayve, and it expects to offer self-driving trips in as many as 15 cities by the end of 2026. *TechCrunch, CONFIRMED*
+
+**6 MEDIUM — The Chinese carmaker XPENG has named its robotaxi service XPENG YOYO and opened invitation-only trials to members of the public.** (report item 46)  
+TechNode reports that XPENG announced the brand on Thursday and launched a ride-hailing mini program, a light app, through which people with invitation codes can take part in testing; the company says that by August it had run more than 2,000 internal test rides in Guangzhou and won permission to test on designated roads with no safety driver. TechNode stresses that invitation-only trials are not a full public launch, and that coverage area, hours and a route to profit are still open, with XPENG's chief executive targeting profit per vehicle in Guangzhou in the second half of 2027. *TechNode, CONFIRMED*
+
+**6 MEDIUM — Walmart's decade-long, multibillion-dollar effort to run its warehouses with robots has been slowed by breakdowns, redesigns and trouble with boxes and large goods.** (report item 47)  
+The Wall Street Journal reports that Walmart is automating most of its roughly 200 US supply-chain buildings but has faced shuttle robots that break down too often, cardboard boxes too big for the automated systems and trouble with oversize goods, with Rob Montgomery, who runs Walmart U.S. supply-chain operations, saying the company is in "peak complexity". Executives say fewer warehouse workers will eventually be needed but the change will not require layoffs, and spending on the rollout is expected to peak this year and next. *The Wall Street Journal, REPORTED*
+
+**6 MEDIUM — The US trucking safety regulator has allowed driverless trucks to use flashing cab beacons instead of roadside warning triangles for the next five years.** (report item 48)  
+FreightWaves reports that the Federal Motor Carrier Safety Administration granted the exemption on 7 Oct 2026 to Aurora and any other carrier of Level 4 trucks, which drive themselves within set conditions, that notifies the agency first; it replaces four three-month waivers Aurora had used since October 2025. Opponents including a truckers' association and the Truck Safety Coalition argued the beacons could be blocked by an angled trailer or fail, while the agency said it lacks data showing that triangles significantly improve driver reaction time. *FreightWaves, CONFIRMED*
+
+**6 MEDIUM — Chinese robot maker Deep Robotics has tested its DR02 humanoid robots directing traffic and guiding tourists on busy Hangzhou streets.** (report item 49)  
+AI Insider reports, citing Deep Robotics, that the company ran field trials in early October in Hangzhou's Xihu District in which its DR02 humanoid robots directed traffic at intersections, helped keep order and answered visitors' questions in several languages, in heavy traffic and steady rain. Deep Robotics says the robots use onboard sensors to move around junctions on their own, were tested on spotting unsafe behaviour, and aim to free staff for tasks needing human judgment; no independent results are given. *AI Insider, REPORTED*
+
+**6 MEDIUM — A robot maker working mainly in Thailand showed a humanoid built for shop work in Tokyo and plans to put it in Japanese convenience stores from as early as 2027.** (report item 50)  
+News On Japan reports that humanoid robots built to stock shelves and serve shoppers in more than 20 languages were shown at a retail trade event in Tokyo on 8 Oct 2026, among them the C1 from CP AI Robotics, a company working mainly in Thailand, which says the robot can identify products, refill shelves and bag purchases. The company plans full-scale use in Japanese convenience stores as early as 2027, and Weidong Sun of CP AI Robotics said one or more robots per store could cut staff workload, adding: "We are not aiming for completely unmanned stores." *News On Japan, REPORTED*
 
 ## MODELS AND TOOLS — 5
 **9 HIGH — Google has unveiled Gemini 4 Argon, a new top-tier AI model, but is releasing it first only to a small group of trusted cyber defenders.** (report item 52)  
@@ -161,6 +179,6 @@ Politico reports, as relayed by Gizmodo, that billionaire Peter Thiel told Nashv
 
 ## CHECKS
 
-- Stories: 48; all come from the Full Report with facts, scores and sources unchanged.
-- Fact check suggested a lower score for 10 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
+- Stories: 54; all come from the Full Report with facts, scores and sources unchanged.
+- Fact check suggested a lower score for 11 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
 - Headline-only stories included: 2.

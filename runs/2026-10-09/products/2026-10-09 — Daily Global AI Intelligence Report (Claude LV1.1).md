@@ -2,8 +2,8 @@
 
 Daily report date: Friday, 9 October 2026  
 Coverage period: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours)  
-Final unique stories: 108 (pool 265; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side; 72 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
-Score spread: CRITICAL 0, HIGH 7, MEDIUM 77, WATCHLIST 24  
+Final unique stories: 108 (pool 277; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side; 73 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
+Score spread: CRITICAL 0, HIGH 7, MEDIUM 79, WATCHLIST 22  
 Stories with full article text read: 102; headline only: 6; follow-ups of earlier news: 15  
 Source coverage certificate: SOURCE SCAN INCOMPLETE. Stories were collected through Google News; articles were read from the 101-source list where the sites allowed it. Test run approved by Rafi.  
 Coverage QA: ATTENTION REQUIRED — some publisher sites block automated reading, so some stories rest on headlines only.
@@ -450,31 +450,31 @@ Summary: FreightWaves reports that the Federal Motor Carrier Safety Administrati
 Full article: https://www.freightwaves.com/news/fmcsa-aurora-warning-beacon-exemption-five-year
 ---
 
-49. Amazon Web Services has released an open-source toolkit that lets robot makers collect data, train, test and deploy AI models for their machines in one workflow.
+49. Chinese robot maker Deep Robotics has tested its DR02 humanoid robots directing traffic and guiding tourists on busy Hangzhou streets.
 CATEGORY: Robotics — rank 6 of 8 in this category
+SCORE: 6 — New today; a humanoid doing public street work in rain and crowds, but a company account with no outside check or results.
+Importance: MEDIUM — Traffic staff and visitors in a Chinese tourist district met humanoid robots doing guidance work, which could shift routine street duties from people to machines; the trial is described only by Deep Robotics, with no results or official comment.
+Source: AI Insider. Status: REPORTED.
+Summary: AI Insider reports, citing Deep Robotics, that the company ran field trials in early October in Hangzhou's Xihu District in which its DR02 humanoid robots directed traffic at intersections, helped keep order and answered visitors' questions in several languages, in heavy traffic and steady rain. Deep Robotics says the robots use onboard sensors to move around junctions on their own, were tested on spotting unsafe behaviour, and aim to free staff for tasks needing human judgment; no independent results are given.
+Full article: https://theaiinsider.tech/2026/10/09/deep-robotics-tests-dr02-humanoids-in-hangzhou-traffic-and-tourist-areas/
+---
+
+50. A robot maker working mainly in Thailand showed a humanoid built for shop work in Tokyo and plans to put it in Japanese convenience stores from as early as 2027.
+CATEGORY: Robotics — rank 7 of 8 in this category
+SCORE: 6 — New on 8 Oct; a humanoid shown at a trade event aimed at a real labour shortage, but the deployment is only a plan.
+Importance: MEDIUM — Convenience-store staff and shoppers in Japan, where workers are scarce, may eventually see humanoids restocking shelves and serving customers; no store chain is named and the tasks shown live are not detailed.
+Source: News On Japan. Status: REPORTED.
+Summary: News On Japan reports that humanoid robots built to stock shelves and serve shoppers in more than 20 languages were shown at a retail trade event in Tokyo on 8 Oct 2026, among them the C1 from CP AI Robotics, a company working mainly in Thailand, which says the robot can identify products, refill shelves and bag purchases. The company plans full-scale use in Japanese convenience stores as early as 2027, and Weidong Sun of CP AI Robotics said one or more robots per store could cut staff workload, adding: "We are not aiming for completely unmanned stores."
+Full article: https://newsonjapan.com/article/150996.php
+---
+
+51. Amazon Web Services has released an open-source toolkit that lets robot makers collect data, train, test and deploy AI models for their machines in one workflow.
+CATEGORY: Robotics — rank 8 of 8 in this category
 SCORE: 5 — New on 8 Oct; a developer tool from a major cloud provider, with no outside results yet.
 Importance: WATCHLIST — Robotics companies get a packaged route from data to a working robot, which may speed products reaching workplaces; it builds on AWS and Nvidia tools, and the benefits described come from AWS executives with no independent test reported.
 Source: The Robot Report. Status: CONFIRMED.
 Summary: The Robot Report reports that the Physical AI Toolchain joins AWS cloud services with Nvidia's robotics software to cover five steps: making synthetic (computer-generated) training data, training models, testing in simulation, putting models on robots and feeding field data back to improve them. AWS says it is hardware-neutral and draws on lessons from Amazon's own fleet of more than 1 million robots, aiming to ease a shortage of real-world data for training robots.
 Full article: https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/
----
-
-50. Tesla has renamed its Full Self-Driving (Supervised) system "Tesla Assisted Driving" in Europe, after talks with Germany's transport ministry.
-CATEGORY: Robotics — rank 7 of 8 in this category
-SCORE: 5 — New on 8 Oct; the rename is a small step in a bigger approval story, and the sourcing is a social-media post and a fan site.
-Importance: WATCHLIST — Drivers across Europe can use the system only if a delayed EU vote approves it; the rename is reported secondhand, Tesla has not confirmed Germany's reported speed cap, and Sweden, France and road-safety groups have raised speeding concerns.
-Source: Not a Tesla App, citing Sawyer Merritt on X. Status: REPORTED.
-Summary: Not a Tesla App reports, citing a post by Sawyer Merritt on X, that Tesla's European websites now use the new name, a change that follows talks with Germany and that Merritt says should help win EU-wide approval. Germany reportedly also wants Tesla to keep the system from driving more than 10 percent above the speed limit, which Tesla has not confirmed, and the EU-wide vote has slipped from 6 Oct to December at the earliest.
-Full article: https://www.notateslaapp.com/news/4794/tesla-renames-fsd-to-tesla-assisted-driving-in-europe
----
-
-51. Gecko Robotics will supply its inspection robots and AI software to Anduril's new submarine-parts factories, the companies said.
-CATEGORY: Robotics — rank 8 of 8 in this category
-SCORE: 5 — New on 8 Oct, confirmed by both firms; a supplier tie-in to a larger announcement from 6 Oct.
-Importance: WATCHLIST — Robotic inspection is being built into a US plan to make submarine parts faster, as industry misses the Navy's goal of two Virginia-class submarines a year; the shipyard is not yet permitted or built, and its first operations are not planned until 2030.
-Source: Breaking Defense. Status: CONFIRMED.
-Summary: Breaking Defense reports that Gecko, whose robots inspect the inside of metal structures such as welds, will test submarine components at Anduril's Orange County, California, site and at Arsenal-2, the Baltimore County shipyard that Anduril announced on Tuesday as a $6.6 billion investment, including up to $2.9 billion from the Navy. The shipyard is meant to start work in 2030, and it comes as industry has struggled to meet the Navy's goal of two Virginia-class submarines a year.
-Full article: https://breakingdefense.com/2026/10/gecko-robotics-anduril-team-up-for-new-baltimore-county-shipyard/
 ---
 
 ## MODELS AND TOOLS — 11

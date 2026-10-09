@@ -1,0 +1,180 @@
+{
+ "edition": "2026-10-09",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C05-02",
+   "category": "Politics and government",
+   "label": "Trump's enemy",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s2",
+   "item": "C13-15",
+   "category": "Politics and government",
+   "label": "Japan says AI",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s3",
+   "item": "C06-04",
+   "category": "Market, industry and finance",
+   "label": "OpenAI revenue",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s4",
+   "item": "C07-04",
+   "category": "Market, industry and finance",
+   "label": "WTO trade",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s5",
+   "item": "C03-01",
+   "category": "Security and cyber",
+   "label": "Free scanner",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s6",
+   "item": "C12-02",
+   "category": "Security and cyber",
+   "label": "Fake reporters",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s7",
+   "item": "C09-03",
+   "category": "Energy and infrastructure",
+   "label": "Gas by truck",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s8",
+   "item": "C11-06",
+   "category": "Robotics",
+   "label": "Walmart robots",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s9",
+   "item": "C11-04",
+   "category": "Robotics",
+   "label": "XPENG robotaxi",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s10",
+   "item": "C01-01",
+   "category": "Models and tools",
+   "label": "Gemini 4 Argon",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 9
+  },
+  {
+   "card": "s11",
+   "item": "C04-04",
+   "category": "Research and science",
+   "label": "Gene-edit doubt",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s12",
+   "item": "C13-01",
+   "category": "Ethics and law",
+   "label": "USA Today sues",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s13",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "AI pre-visit",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s14",
+   "item": "C14-07",
+   "category": "Society and education",
+   "label": "Gaza classrooms",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Robot hits host",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 3
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C13-21",
+   "category": "Politics and government"
+  },
+  {
+   "id": "t2",
+   "item": "C02-01",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
+   "item": "C09-04",
+   "category": "Energy and infrastructure"
+  },
+  {
+   "id": "t4",
+   "item": "C14-06",
+   "category": "Society and education"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C05-02",
+  "C07-04",
+  "C03-01",
+  "C11-06",
+  "C01-01",
+  "C13-01",
+  "C10-01"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C07-02",
+  "C06-04",
+  "C06-01",
+  "C06-03",
+  "C07-04"
+ ]
+}

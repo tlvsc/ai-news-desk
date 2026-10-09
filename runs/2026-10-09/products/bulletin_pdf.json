@@ -1,8 +1,8 @@
 {
  "title": "Daily Bulletin",
  "date": "9 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, POL from 6), plus the top 3 from The Fun Side.",
- "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 48 stories",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, POL from 6, ROB from 6), plus the top 3 from The Fun Side.",
+ "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 54 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -377,6 +377,90 @@
      ],
      "source": "TechCrunch",
      "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/"
+    },
+    {
+     "headline": "Uber and the Chinese self-driving company Pony.ai plan to start a robotaxi service in London, with test cars due on the road in the coming weeks.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 2,
+     "rank_of": 8,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "TechCrunch reports that the two companies said on Thursday they will begin testing Pony.ai's seventh-generation robotaxis in London, part of a wider push to bring driverless cars to Europe, and have not said who will own and run the fleet. Uber is also planning a separate London robotaxi service with the British startup Wayve, and it expects to offer self-driving trips in as many as 15 cities by the end of 2026.",
+      "Why it matters: Londoners could soon be offered two different driverless services through Uber's app, one built on Chinese technology; the article gives no date for paying rides and does not say who will run the fleet."
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/"
+    },
+    {
+     "headline": "The Chinese carmaker XPENG has named its robotaxi service XPENG YOYO and opened invitation-only trials to members of the public.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 3,
+     "rank_of": 8,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "TechNode reports that XPENG announced the brand on Thursday and launched a ride-hailing mini program, a light app, through which people with invitation codes can take part in testing; the company says that by August it had run more than 2,000 internal test rides in Guangzhou and won permission to test on designated roads with no safety driver. TechNode stresses that invitation-only trials are not a full public launch, and that coverage area, hours and a route to profit are still open, with XPENG's chief executive targeting profit per vehicle in Guangzhou in the second half of 2027.",
+      "Why it matters: Selected members of the public in Guangzhou can now ride and test XPENG's robotaxi, a step toward a full public service; the service is not open to everyone, and its safety record and ability to make money are untested."
+     ],
+     "source": "TechNode",
+     "url": "https://technode.com/2026/10/09/xpeng-names-robotaxi-service-xpeng-yoyo-moves-toward-public-trials/"
+    },
+    {
+     "headline": "Walmart's decade-long, multibillion-dollar effort to run its warehouses with robots has been slowed by breakdowns, redesigns and trouble with boxes and large goods.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 4,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "The Wall Street Journal reports that Walmart is automating most of its roughly 200 US supply-chain buildings but has faced shuttle robots that break down too often, cardboard boxes too big for the automated systems and trouble with oversize goods, with Rob Montgomery, who runs Walmart U.S. supply-chain operations, saying the company is in \"peak complexity\". Executives say fewer warehouse workers will eventually be needed but the change will not require layoffs, and spending on the rollout is expected to peak this year and next.",
+      "Why it matters: Walmart's more than 140,000 warehouse workers face a job that shifts toward running and fixing machines, and the delays show how far robots are from handling ordinary retail goods; the timelines and performance figures come from Walmart and its supplier Symbotic, and one person familiar says power bills at automated grocery sites have more than tripled."
+     ],
+     "source": "The Wall Street Journal",
+     "url": "https://www.wsj.com/business/logistics/walmart-automation-robots-warehouses-65f016b2"
+    },
+    {
+     "headline": "The US trucking safety regulator has allowed driverless trucks to use flashing cab beacons instead of roadside warning triangles for the next five years.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 5,
+     "rank_of": 8,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "FreightWaves reports that the Federal Motor Carrier Safety Administration granted the exemption on 7 Oct 2026 to Aurora and any other carrier of Level 4 trucks, which drive themselves within set conditions, that notifies the agency first; it replaces four three-month waivers Aurora had used since October 2025. Opponents including a truckers' association and the Truck Safety Coalition argued the beacons could be blocked by an angled trailer or fail, while the agency said it lacks data showing that triangles significantly improve driver reaction time.",
+      "Why it matters: Driverless trucks can now stop on a highway without a person to place triangles, which the industry called a barrier to deploying them in the US; critics and a pending study of warning devices by the truckers' association show the safety question is not settled."
+     ],
+     "source": "FreightWaves",
+     "url": "https://www.freightwaves.com/news/fmcsa-aurora-warning-beacon-exemption-five-year"
+    },
+    {
+     "headline": "Chinese robot maker Deep Robotics has tested its DR02 humanoid robots directing traffic and guiding tourists on busy Hangzhou streets.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 6,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "AI Insider reports, citing Deep Robotics, that the company ran field trials in early October in Hangzhou's Xihu District in which its DR02 humanoid robots directed traffic at intersections, helped keep order and answered visitors' questions in several languages, in heavy traffic and steady rain. Deep Robotics says the robots use onboard sensors to move around junctions on their own, were tested on spotting unsafe behaviour, and aim to free staff for tasks needing human judgment; no independent results are given.",
+      "Why it matters: Traffic staff and visitors in a Chinese tourist district met humanoid robots doing guidance work, which could shift routine street duties from people to machines; the trial is described only by Deep Robotics, with no results or official comment."
+     ],
+     "source": "AI Insider",
+     "url": "https://theaiinsider.tech/2026/10/09/deep-robotics-tests-dr02-humanoids-in-hangzhou-traffic-and-tourist-areas/"
+    },
+    {
+     "headline": "A robot maker working mainly in Thailand showed a humanoid built for shop work in Tokyo and plans to put it in Japanese convenience stores from as early as 2027.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 7,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "News On Japan reports that humanoid robots built to stock shelves and serve shoppers in more than 20 languages were shown at a retail trade event in Tokyo on 8 Oct 2026, among them the C1 from CP AI Robotics, a company working mainly in Thailand, which says the robot can identify products, refill shelves and bag purchases. The company plans full-scale use in Japanese convenience stores as early as 2027, and Weidong Sun of CP AI Robotics said one or more robots per store could cut staff workload, adding: \"We are not aiming for completely unmanned stores.\"",
+      "Why it matters: Convenience-store staff and shoppers in Japan, where workers are scarce, may eventually see humanoids restocking shelves and serving customers; no store chain is named and the tasks shown live are not detailed."
+     ],
+     "source": "News On Japan",
+     "url": "https://newsonjapan.com/article/150996.php"
     }
    ]
   },

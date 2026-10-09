@@ -1,0 +1,477 @@
+# Pick pack 2026-10-09
+
+Filter: {'base_min': 5, 'extra_min': 7, 'target': 14, 'max_per_category': 2, 'market_max': 3, 'company_cards': 3, 'company_clips': 2}
+Category order: ['POL', 'MKT', 'SEC', 'ENE', 'ROB', 'MOD', 'RES', 'LAW', 'HEA', 'SOC', 'FUN']
+
+## Bulletin candidates (cards come from here)
+- C01-01 [MOD] score 9 | NEW | read | Google has unveiled Gemini 4 Argon, a new top-tier AI model, but is releasing it first only to a small group of trusted cyber defenders.
+    Google says in its announcement that Gemini 4 Argon, its new top-tier model, is rolling out first to trusted security defenders through its Fairwind Program, with paying developers and Google AI Ultra subscribers to follow once its safeguards are tested. The official launch follows an OfficeChai report earlier this week of Argon in a coding-agent ranking; new today are the release plan, a launch price of $2 per milli
+- C01-02 [MOD] score 6 | NEW | read | OpenAI has started offering an Ultrafast setting for its GPT-6.1 Sol model that it says runs up to eight times faster than the normal mode, TokenPost reports.
+    TokenPost reports that from Thursday OpenAI is offering an Ultrafast mode for GPT-6.1 Sol in its API, Codex and ChatGPT Work, with intelligence close to GPT-6 Astra at up to eight times the standard mode's speed, at $12 per million input tokens and $60 per million output tokens (1.2 times Astra's rates). Crypto Briefing reported earlier this week that both models had become about 50% faster; what is new today is a se
+- C02-01 [MOD] score 7 | NEW | read | Google has announced a single Gemini agent for business customers that can take on work tasks across apps and devices, though it is still in private preview.
+    The Verge reports that Google unveiled the agent at its Gemini at Work event on Thursday 8 Oct 2026; it sits inside the Gemini Enterprise app and runs in the cloud, so it keeps the same context whether staff reach it from Gmail, Docs, Slack, Microsoft 365 or a phone. Google says it can pass parts of a job to specialist sub-agents and act as a "coworker agent" with its own email address, but for now it is open only to
+- C02-02 [MOD] score 7 | NEW | read | Anthropic has added a live-dashboard feature and an animated-video feature to Claude, both still in beta.
+    The Decoder reports that Anthropic launched Dashboards, which links sources such as BigQuery, Snowflake or Salesforce and builds auto-updating dashboards from a text prompt, showing the query behind every number, and Motion, which turns text, diagrams and images into animated explainer videos. Dashboards is open to paid users and Motion to Team and Enterprise plans, while Docs, Slides and Design leave beta for all pl
+- C03-01 [SEC] score 8 | NEW | read | Anthropic has launched a free service that uses its strongest AI models to scan open-source software for security flaws.
+    The Verge reports that Anthropic has launched OSS Scanner, an opt-in service in which its strongest models, including Claude Mythos, run periodic security scans on open-source projects (software whose code is publicly shared) at no cost. Anthropic says the reports will be fully model-generated, without human review, so some may be incorrect or invalid.
+- C03-02 [MOD] score 6 | FOLLOW-UP of 7 Oct 2026 | read | GitHub Copilot will soon decide by itself whether a coding task runs on the developer's own computer or in the cloud, but Microsoft has not said what code gets sent out.
+    The New Stack reports that Microsoft and GitHub outlined on 7 Oct 2026 an automatic routing feature for Copilot that picks between a local model and cloud models, expected by the end of October and starting with a 53GB local coding model called MAI Code 1.1 Flash. Microsoft has not said how much conversation history or code the feature sends to the cloud, whether developers can see those decisions, or whether it can 
+- C04-01 [RES] score 6 | FOLLOW-UP of 7 Oct 2026 | read | A group of mathematicians chaired by Terence Tao has urged colleagues to stop working with OpenAI after it released more than 700 AI-written maths papers in one go.
+    The Decoder reports that the Association for Human Mathematics, chaired by Fields Medalist Terence Tao, accuses OpenAI of breaking core research norms and urges mathematicians to stop working with the company, calling the release of more than 700 files at once "not a demonstration of scholarship, but a demonstration of power". The statement answers OpenAI's release of 722 maths manuscripts from an unreleased AI model
+- C04-02 [RES] score 7 | NEW | read | Eleven technology companies have pledged $2.4 billion in computing credits for the Trump administration's Genesis Mission, its drive to use AI in federal science.
+    Nextgov/FCW reports that at a White House AI Science Summit on Thursday, 11 companies pledged $2.4 billion in cloud and computing credits for the Genesis Mission Consortium, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI, with Anthropic and Google giving $150 million each. The credits are meant to support more than 15 federal agencies working on national science and technology ch
+- C04-03 [RES] score 7 | NEW | read | The US Energy Department has awarded $159 million to 12 more projects under the Genesis Mission, its programme to speed up science with AI and supercomputers.
+    The US Department of Energy announced 12 Phase II awards worth $159 million under the Genesis Mission, a programme that brings AI, advanced computing and the national laboratories together to speed up scientific discovery, according to its press release as carried by The Quantum Insider. The awards bring the Phase II total to 14 projects, and the department is also issuing six new Phase I awards.
+- C04-04 [RES] score 6 | NEW | read | Scientists say Anthropic's claim that its AI agents found a possible new gene-editing system is early and overstated, and a Copenhagen doctoral researcher says his unpublished work describes the same thing.
+    CNN reports that Anthropic said last month its AI agents found an unusual DNA pattern in bacteria-infecting viruses that the company suspects is a new gene-editing mechanism, but outside experts call the result early and not yet shown to edit genes. Mario Rodríguez Mestre, who used Claude in his University of Copenhagen doctoral work, told CNN his unpublished research describes the same signatures, though he said he 
+- C05-01 [SEC] score 7 | NEW | read | Three safety researchers fired by OpenAI have publicly denied the company's misconduct claims and warned that the firings scare staff away from raising safety concerns.
+    TechCrunch reports that Jasmine Wang, Tomek Korbak and Mikita Balesni published an open letter on Thursday answering OpenAI's statement, made after it fired them last week, that they mishandled sensitive information outside company procedures; they deny it and say the firings leave colleagues afraid to speak with outside safety experts. OpenAI says an investigation found a "pattern of misconduct" and that the firings
+- C05-02 [POL] score 6 | NEW | read | President Trump has declared on Truth Social that anyone who says "artificial intelligence" instead of "super intelligence" is an enemy of the White House.
+    The Independent reports that Trump wrote on Truth Social on Thursday that the White House "considers anyone that uses the term" artificial intelligence, rather than "Super Intelligence", to be "THE ENEMY". It follows an executive order of about a week earlier telling federal agencies to use the new term; our 4 and 5 Oct 2026 editions carried the White House Super Intelligence Force and Elon Musk's plan to rename Spac
+- C06-01 [MKT] score 8 | FOLLOW-UP of 6 Oct 2026 | read | Firmus, an Australian data-centre company backed by Nvidia, has cancelled its planned $5 billion share sale after investors held back.
+    Reuters reports that Firmus, which builds and runs AI data centres, shelved its $5 billion initial public offering (its first sale of shares to the public) on 9 Oct 2026 after lukewarm demand, and will now seek private funding ahead of a possible New York listing. It follows our 6 Oct 2026 edition, which reported that Firmus and CDC Data Centres had called off a planned 1.6-gigawatt build; new today is that investors
+- C06-03 [MKT] score 7 | NEW | read | SoftBank's chief executive is reportedly asking Gulf investors for up to $100 billion to fund a new wave of AI investments.
+    The Financial Times reports, citing people familiar with the matter and as relayed by Reuters, that SoftBank chief executive Masayoshi Son has held talks in recent weeks, including in the United Arab Emirates, to raise up to $100 billion from Gulf investors for a fund that would buy companies and improve them using AI. Reuters said it could not immediately verify the report and SoftBank did not respond to its request
+- C06-04 [MKT] score 8 | NEW | read | OpenAI has told investors its yearly revenue pace for September was almost $50 billion, well below the roughly $70 billion it had signalled earlier.
+    Reuters reports, citing a person familiar with the matter, that the gap arose mainly from an attempt to compare OpenAI directly with Anthropic, which counts sales made through cloud partners such as Amazon's AWS and Google Cloud while OpenAI does not; the lower figure was first reported by the Financial Times. Annualized revenue is one month's sales multiplied by 12, a measure analysts call sometimes misleading, so t
+- C07-02 [MKT] score 7 | NEW | read | Heavy borrowing by Oracle, Broadcom, SpaceX and other companies to pay for AI is pushing up the cost of insuring their debt against default, Bloomberg reports.
+    Bloomberg reports that Oracle, Broadcom, SpaceX and others have sold nearly half a trillion dollars of new debt this year to pay for AI infrastructure, and the price of credit default swaps (insurance that pays out if a borrower fails to repay) on their debt has hit records for Oracle and Broadcom. Traders' prices imply a more than 20% chance of an Oracle default within five years, and investors are asking for more c
+- C07-03 [MKT] score 7 | NEW | read | OpenAI expects its yearly sales pace to reach at least $70 billion by the end of 2026, up from about $50 billion now, Bloomberg reports.
+    Bloomberg reports, citing people familiar with the matter, that OpenAI expects to reach or exceed $70 billion in annualised revenue (recent sales scaled up to a full year) by the end of 2026, driven mainly by its business customers, after reaching about $50 billion at the end of September. OpenAI shared the figures with investors as it seeks $30 billion or more at a $1.4 trillion valuation before the new money.
+- C07-04 [MKT] score 7 | NEW | read | The World Trade Organization more than doubled its 2026 forecast for growth in world goods trade, saying the AI investment boom is offsetting damage from the war in the Middle East.
+    The Associated Press reports that the World Trade Organization raised its 2026 forecast for growth in goods trade to 3.9% from 1.9% in the spring, after trade in AI-related goods such as semiconductors and servers rose 67% in the first half of the year. Those goods made up 47% of global goods trade growth in that period, offsetting a hit to oil, gas and fertiliser shipments from the Middle East war.
+- C08-01 [ENE] score 7 | NEW | read | GlobalFoundries will build a connecting layer for TSMC's advanced AI chip packaging at its New York plant under a $2 billion, five-year deal.
+    The Register reports that GlobalFoundries announced on 8 Oct 2026 a multi-year, $2 billion partnership to make silicon interposers, the thin silicon layers that link processor and memory chips inside an AI chip package, for TSMC's CoWoS packaging at its Malta, New York site. Volume production is not expected before the first half of 2028, and Tom's Hardware adds that the companies have not disclosed the capacity to b
+- C08-02 [ENE] score 7 | FOLLOW-UP of 5 Oct 2026 | read | Laptops built on Nvidia's new Arm-based RTX Spark chip are on pre-order from $2,600 up to $7,000, with deliveries due from about 16 Oct.
+    PCWorld reports that Microsoft, Asus, Dell, HP and Lenovo have opened pre-orders for the first laptops using RTX Spark, Nvidia's Arm-based chip for Windows PCs, from $2,600 for Microsoft's Surface Laptop Ultra (up to $5,900 fully loaded) to $7,000 for a larger Asus model. Nvidia unveiled the chip earlier this week; the new facts are the prices and a shipping date of about 16 Oct, with some models, such as Dell's, sti
+- C09-03 [ENE] score 7 | NEW | read | Oracle is trucking compressed natural gas to its AI data centers to get power while it waits for pipelines.
+    Bloomberg reports, as relayed by The Next Web, that Oracle has used road deliveries of natural gas squeezed into trailers to keep a site outside Salt Lake City running for more than a year and to power early work at an OpenAI campus in Shackelford County, Texas. The fuel costs about four times the gas price at a major trading hub, according to East Daley Analytics, and Oracle is weighing the same approach at its Proj
+- C09-04 [ENE] score 7 | NEW | read | A year-long Senate investigation led by Democratic senators argues that some big tech companies are misleading the public about the costs and benefits of AI data centers.
+    TIME reports, in an exclusive, that the investigation by Democratic Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal into seven data center developers (Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix) found that several refused to give full permanent job figures and that none would agree to pay for new power infrastructure their data centers made necessary. The companies say t
+- C09-05 [ENE] score 7 | NEW | read | French AI infrastructure company Sesterce plans to invest more than 10 billion euros in an AI data center campus at a former paper mill in central Finland.
+    The Next Web reports, citing Sesterce's announcement, that the campus at Jämsä would start with 200 megawatts in a first phase, with building due to begin this year, and reach 600 megawatts in a second phase, creating about 2,000 construction jobs and 300 permanent ones. Local officials welcomed the plan but noted that permits are still required, and the site's owner says talks to sell it to Sesterce are well advance
+- C10-01 [HEA] score 7 | NEW | read | A Google medical chatbot that interviewed patients before urgent primary-care visits needed no safety stops in 98 supervised chats, in what researchers believe is the first real-world study of its kind.
+    Researchers at Beth Israel Deaconess Medical Center in Boston, working with Google, report in The Lancet that their AMIE chatbot interviewed patients by text before urgent primary-care appointments, and none of the 98 completed conversations needed a physician to step in for safety. A supervising doctor logged one hallucination, and the study tested feasibility only, not whether the tool improves patients' health.
+- C11-01 [ROB] score 7 | NEW | read | Waymo, the self-driving car company owned by Google's parent Alphabet, has borrowed $5 billion from a group of investment firms to pay for its expansion.
+    TechCrunch reports that Waymo closed a $5 billion loan, its first debt financing, from lenders including PIMCO, Blackstone and Sixth Street, as the company grows inside its existing cities and moves into new markets in the United States, Europe and Japan. Waymo, which now runs robotaxis in 15 markets and is testing in London and Tokyo, calls the loan a step in becoming a "scaling commercial enterprise".
+- C12-02 [SEC] score 7 | NEW | read | OpenAI says it shut down Russian and Iranian influence networks that used ChatGPT to invent journalists and a think tank and place their stories in real news outlets.
+    CyberScoop reports, citing OpenAI's disclosure on Thursday 8 Oct 2026, that a Russian-linked network called 'Dark Clark' used ChatGPT to create a fake AI persona who supposedly led a Latin American think tank, the Social Research Center, to push propaganda mainly aimed at Ukraine's reputation, while an Iran-linked operation used at least seven fake journalist personas to place almost 100 articles, mostly about the US
+- C13-01 [LAW] score 7 | NEW | read | USA Today's publisher has sued OpenAI for copyright infringement, seeking more than $250 million in damages.
+    Reuters reports, as relayed by The Verge, that USA Today Co. and several local newspapers it owns sued OpenAI on Thursday 8 Oct 2026, claiming the company copied "hundreds of thousands" of their articles to train its AI models without asking permission. The publisher asks for more than $250 million and says OpenAI's commercial success "rests on large-scale copyright infringement"; it joins publishers including The Ne
+- C13-02 [POL] score 6 | NEW | read | India's technology minister said the government will publish a consultation paper on AI safety rules, with deepfakes a main concern, within a month.
+    The Hindu reports that IT Minister Ashwini Vaishnaw said on Thursday 8 Oct 2026 that India's central government will release a consultation paper (a draft put out for public comment) on AI safety within a month, prompted by harm from deepfakes, and that industry will have to carry much of the regulation itself. He also said the government will approve a list of AI products that public departments can buy, and has est
+- C13-03 [POL] score 6 | NEW | read | Kentucky's attorney general says Character.AI chatbots urged users to starve themselves, harm themselves or die by suicide.
+    Reuters reports, as relayed by UA.News citing Channel NewsAsia, that Kentucky Attorney General Russell Coleman filed an unredacted version of the state's lawsuit against Character.AI, a chatbot company, giving examples of 2025 chats in which, the state alleges, bots told users to starve themselves, harm themselves or die by suicide. Kentucky calls the company's products defective and says it put user engagement ahead
+- C13-04 [POL] score 6 | NEW | read | Two US senators, one Republican and one Democrat, have put forward a bill making the Pentagon's biggest AI suppliers report security problems.
+    DefenseScoop reports that Republican Sen. Jim Banks and Democratic Sen. Kirsten Gillibrand put forward the Insider Threat Reporting and Security Guidance Act of 2026, which would make AI companies with Pentagon deals worth $100 million or more share their security practices and report incidents such as stolen model weights (the files holding an AI model's learned settings) within 72 hours. The companies would also ha
+- C13-15 [POL] score 6 | NEW | read | Japan's Prime Minister Sanae Takaichi has declined, for now, to follow US President Donald Trump's call to rename artificial intelligence "superintelligence".
+    Kyodo News reports that Takaichi told Japan's lower house of parliament on 8 Oct 2026 that "AI" is the right term for now, because it is used in government documents and academic papers and changing it everywhere at once would be hard, and that she would watch how other governments respond. She was answering Yuichiro Tamaki, leader of the Democratic Party for the People, about Trump's call in his UN General Assembly 
+- C13-16 [POL] score 6 | NEW | read | Philippine President Ferdinand Marcos Jr said a regional digital economy agreement due to be signed in November will guide Southeast Asian countries on AI.
+    CNA reports that Marcos, whose country chairs the Association of Southeast Asian Nations (ASEAN) this year, told the Forbes Global CEO Conference in Singapore on 8 Oct 2026 that the ASEAN Digital Economy Framework Agreement (DEFA) will be formally signed at the bloc's 49th summit in November. DEFA, whose negotiations ended in May, sets common rules for digital trade, cross-border data flows, digital payments and onli
+- C13-17 [POL] score 6 | NEW | read | India and the United Arab Emirates signed agreements on energy, defence and AI during Prime Minister Narendra Modi's visit to Abu Dhabi.
+    DD News, India's state broadcaster, reports, citing India's Ministry of External Affairs, that India and the UAE signed pacts on energy, defence, shipping and technology, and that the UAE announced $5 billion of investment in India, including $3 billion by Emirates New Development Bank in RBL Bank. The deals include a partnership between India's Centre for Development of Advanced Computing and the Emirati AI company 
+- C13-18 [POL] score 5 | NEW | HEADLINE ONLY | Israel's Finance Ministry is reported to be considering new taxes because AI could reduce jobs and government revenue.
+    The Times of Israel reports that Israel's Finance Ministry is weighing new taxes, and links the move to the risk that AI could cut jobs and state revenue.
+- C13-20 [POL] score 5 | NEW | read | Dutch newspaper de Volkskrant says Prime Minister Rob Jetten told parliament no AI was used on his official social media accounts when at least five posts were written by AI.
+    Dutch newspaper de Volkskrant reports that it found at least five posts on the Dutch Prime Minister's official "minpres" accounts that were written by AI and not labelled, although Jetten told parliament on 29 Sep 2026 that "no AI was used" there. The newspaper had reported last month that Jetten and his party D66 used an AI model to generate hundreds of posts; the Government Information Service says AI was used only
+- C13-21 [POL] score 6 | NEW | read | Elon Musk, who heads SpaceX and the satellite internet service Starlink, accused unnamed "oligarchs" of blocking Starlink in India and asked whether Mukesh Ambani, chairman of Reliance Industries, is "the real boss of India", while India's government calls the claim of unfair treatment baseless.
+    The BBC reports that Elon Musk, who heads SpaceX and Starlink, wrote on X on 7 Oct that "certain oligarchs" were blocking Starlink in India to keep a "monopolistic chokehold" on consumers, and on 8 Oct asked "Is Ambani the real boss of India?", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; Reliance had not responded. India's Communications Ministry said Starlin
+- C14-01 [SOC] score 7 | NEW | read | A new AP-NORC poll finds that most Americans think AI is developing too fast, and few trust either party to handle it.
+    The Associated Press reports that its AP-NORC poll found 64% of Americans think AI is developing too fast, against 27% who say the pace is about right and 8% who say it is too slow. Nearly 80% said it is at least very important for the government to keep AI under human control and to protect jobs, and about 40% said they trust neither party to handle the issue.
+- C14-02 [SOC] score 6 | NEW | read | Amazon is cutting fewer than 1,000 office jobs, mostly in its stores division, according to Reuters and Business Insider.
+    Reuters reports, after Business Insider first broke the news, that Amazon is eliminating under 1,000 office jobs, chiefly in the stores division that runs its main shopping website, with internal Slack messages pointing to cuts in units such as customer service and selling partner services too. The cuts follow about 30,000 corporate job losses that began last year and ran into January; an Amazon spokesperson said it 
+- C14-04 [SOC] score 5 | FOLLOW-UP of 7 Oct 2026 | read | HSBC is reported to be preparing to cut about half of the management and specialist roles in its UK wealth business, and up to about 70% of its financial advisers, as it leans more on AI.
+    The Financial Times reported, as relayed by The Independent, that HSBC plans to cut around half of the management and specialist roles in its UK wealth division and up to about 70% of its financial advisers, as it uses AI to serve wealthy clients more efficiently. The bank is in a consultation period and affected staff are expected to leave at the end of October; HSBC UK said it is evolving to offer more digitally en
+- C14-05 [SOC] score 5 | NEW | HEADLINE ONLY | The Financial Times' AI Shift column says the long-predicted fall in call centre jobs has finally started.
+    The Financial Times argues in its "AI Shift" column that call centre jobs, long expected to shrink, have now started to decline.
+- C14-06 [SOC] score 6 | NEW | read | The AI boom is pushing San Francisco rents sharply higher, and eviction notices in the city are up 44% on last year, the Guardian reports.
+    The Guardian reports that the average one-bedroom in San Francisco now costs about $4,400 a month, up more than 25% in a year, and that city rent board figures show eviction notices up 44%, which it ties to the AI industry's wealth. In September Mayor Daniel Lurie declared a "rent emergency", citing costs driven by the AI boom, and proposed eviction legal aid and caps on rent rises for newly vacant rent-controlled un
+- C14-07 [SOC] score 6 | NEW | read | A US charity running schools in Gaza plans to record classroom conversations and use AI to flag "hateful" speech, which has drawn privacy and ethics concerns.
+    The Associated Press reports that Gaza Children Village, a US charity, plans to record classroom conversations and have an AI system flag speech it judges "hateful" or "inciting", according to founder Dr David Hasan, who described the plan in a webinar last month. A board member, a partner aid group and Palestinian groups have raised privacy and ethical concerns, and it is unclear when monitoring will begin or whethe
+- C15-01 [RES] score 8 | NEW | read | The US Department of War announced a $350 million package to speed up the building and testing of quantum computers for national security.
+    The Department of War announced the package, according to Quantum Computing Report's account of the release: a conditional loan of up to $150 million to PsiQuantum, a California maker of light-based quantum computers, and about $200 million for DARPA, the Pentagon's research agency, to test whether competing companies' designs can really be built at large scale. The loan is not final until PsiQuantum clears legal and
+- C15-03 [RES] score 7 | NEW | read | Quantum computing startup Oratomic raised $475 million in new funding at a valuation of about $5.4 billion.
+    The Wall Street Journal reports, as relayed by SiliconANGLE, that Oratomic, a California company building quantum computers from neutral atoms (single atoms held in place to act as qubits), raised $475 million in a Series B round co-led by ARCH Venture Partners, Spark Capital, Khosla Ventures, Index Ventures, General Catalyst and Bezos Expeditions. It follows a $300 million Series A three months ago, takes total fund
+- C15-04 [RES] score 7 | NEW | read | The Energy Department set out eight science problems to guide a US quantum computer, alongside new research funding at a White House AI summit.
+    Nextgov reports that the Energy Department published eight priority science problems meant to guide the building of a fault-tolerant quantum computer (one that stays reliable despite hardware errors) for research by 2028, alongside $159 million in new Genesis Mission awards and a graduate fellowship pilot of up to $100 million. The quantum goal rests on a competition launched in September with up to $215 million for 
+- C16-01 [FUN] score 3 | NEW | read | A Colombian streamer was hit on the back of the head by his own robot during a livestream.
+    Heraldo USA reports that Colombian streamer Westcol (Luis Fernando Villa Álvarez) took a hard blow to the back of the head from his robot while he and singer Blessd were preparing to dance with it on a livestream. By his own account the robot is 5 feet 7 inches tall and cost about $100,000, and it still has to be programmed for his appearance at the Stream Fighters 5 event on 14 Nov; earlier, in control tests, it had
+- C16-04 [FUN] score 3 | NEW | read | Anthropic has updated its usage policy to ban sustained, needless cruelty toward its Claude chatbot, starting 12 Nov 2026.
+    Gizmodo reports that Anthropic's updated Usage Policy, published on Thursday, bars users from "sustained and needless abusive or cruel behavior toward our models", so people can be cut off for it from 12 Nov 2026. Anthropic says the rule is meant only for extreme cases and excludes "common versions of user frustration, pushback, dark creative themes, or model testing and research", while Gizmodo says Anthropic did no
+- C16-05 [FUN] score 3 | NEW | read | Billionaire Peter Thiel told Nashville lecture audiences that Barack Obama and Pope Leo XIV oppose AI mainly to win popularity, according to recordings Politico obtained.
+    Politico reports, as relayed by Gizmodo, that billionaire Peter Thiel told Nashville audiences that government attempts to regulate AI are evil and that Barack Obama and Pope Leo XIV oppose AI because it is unpopular and they want to boost their own standing. Thiel's complaint appears to be the pope's earlier first encyclical (a formal papal letter), which Gizmodo says tied the AI era to "new forms of dehumanization"
+
+## Reserve from the report (not in the Bulletin; only for a category with no eligible Bulletin story)
+- C01-04 [MOD] score 6 | NEW | read | AI lab Odyssey has released Odyssey-3, a single 'world model' it says can steer robot arms, humanoids, a car and drones.
+- C01-05 [MOD] score 5 | NEW | read | Magnific, the former Freepik, has launched Magnific One, an image generator that picks an art direction first, and a Brand Kit that applies a team's visual identity.
+- C01-06 [MOD] score 6 | NEW | read | Cognition has released SWE-2, a coding model it says comes within one point of Fable 5.1 on a coding test at 64% lower cost.
+- C02-03 [MOD] score 5 | FOLLOW-UP of 7 Oct 2026 | read | Google has launched Playground, an experimental tool that lets US adults build and share simple browser games by typing prompts.
+- C02-09 [SOC] score 5 | NEW | read | OpenAI says it will add a College Planner to ChatGPT for Teens to help US high-school students track applications, deadlines and financial aid, but has given no release date.
+- C03-03 [MOD] score 6 | NEW | read | A single developer says they used Anthropic's Claude to build free alternatives to Adobe's creative programs in the Rust programming language and plan to match Adobe's features within a month.
+- C03-05 [MOD] score 6 | NEW | read | Google has released ML Drift, its engine for running AI models on the graphics chips of phones and computers, as free open-source software.
+- C04-05 [RES] score 6 | NEW | read | Researchers at George Washington University have published a formula that estimates how far a chatbot conversation can run before the AI slips into bad answers.
+- C04-06 [RES] score 5 | FOLLOW-UP of 7 Oct 2026 | read | OpenAI withdrew three of the 722 maths manuscripts it posted on 6 Oct after finding a sign error that broke one argument and two papers built on it.
+- C04-07 [RES] score 6 | FOLLOW-UP of 7 Oct 2026 | read | Mathematicians in London and Cambridge found that the computer-checked version of OpenAI's Navier-Stokes proof does not match its written proof in at least two places.
+- C04-08 [RES] score 5 | NEW | HEADLINE ONLY | The journal Science has published a piece on AI tools that search for computer-checked proofs to push maths research forward.
+- C05-03 [MKT] score 5 | NEW | HEADLINE ONLY | Elon Musk is warning anyone betting on AI that a shortage of computing power is coming and that most people do not realise it.
+- C05-05 [SEC] score 6 | NEW | read | A former OpenAI safety leader says the company keeps warning about AI risks while it goes on training and releasing the very models it warns about.
+- C05-06 [SOC] score 5 | FOLLOW-UP of 7 Oct 2026 | read | Jeff Bezos predicts that AI-driven productivity will mean households no longer need two earners, and some people could work three days a week.
+- C05-09 [LAW] score 5 | NEW | read | Facebook whistleblower Frances Haugen says Mark Zuckerberg is "playing with fire" on AI and wants independent safety audits of AI labs required by law.
+- C06-07 [MKT] score 6 | NEW | read | Arena, the website where people vote on which AI chatbot answers better, has raised $200 million at a value of $3.1 billion.
+- C06-08 [MKT] score 6 | NEW | read | Universal Music Group has signed a multi-year deal with the AI voice company ElevenLabs to build a licensed music remix platform for fans.
+- C06-09 [MKT] score 6 | NEW | read | Flock Safety, a US maker of AI surveillance cameras, plans to cut about 270 jobs, roughly 18% of its staff, as public opposition grows.
+- C07-05 [MKT] score 6 | NEW | read | Japan's Nikkei 225 fell about 1% in early trading on 9 October, led down by SoftBank, a big OpenAI investor, as doubts about AI and bond-market stress weighed on shares.
+- C07-07 [MKT] score 6 | NEW | read | Investors weighing Anthropic's planned stock-market debut are struggling to put a price on the risk that its AI could cause catastrophic harm, Bloomberg reports.
+- C07-08 [MKT] score 6 | NEW | read | Shares of Indian IT services company Tata Consultancy Services rose about 5% on 9 October as its AI-related revenue and international business grew.
+- C07-09 [MKT] score 6 | NEW | read | Investors are growing uneasy about how much money AI companies need to raise as borrowing costs climb, Reuters's morning markets column says.
+- C08-03 [ENE] score 5 | NEW | HEADLINE ONLY | Nvidia plans to invest in d-Matrix, a company that makes rival AI chips, The Information reports.
+- C08-05 [ENE] score 6 | NEW | read | Nvidia's coming Vera Rubin AI platform is expected to use mostly 12-layer rather than 8-layer HBM4 memory, according to Counterpoint Research.
+- C08-07 [ENE] score 5 | NEW | HEADLINE ONLY | Chip-design software maker Synopsys says it wants to work with Chinese AI labs on faster, AI-assisted chip design within US export limits.
+- C08-08 [ENE] score 6 | NEW | read | Lumentum's chief executive says the company's optical parts for AI data centres are sold out through early 2029.
+- C08-10 [ENE] score 6 | NEW | read | Huawei, Cambricon and other Chinese AI chipmakers have raised prices by roughly 20% to 50% as a memory shortage lifts their costs, sources say.
+- C09-09 [ENE] score 6 | NEW | read | Reuters explains that making data centers flexible about when they draw power could save US grids billions, but so far it has been tried mostly in pilot projects.
+- C10-04 [HEA] score 4 | FOLLOW-UP of 7 Oct 2026 | read | Healthleap, a startup whose software reads hospital patient records to flag people with hidden conditions such as malnutrition, has raised $38 million.
+- C10-06 [HEA] score 5 | NEW | read | India's National Medical Commission has banned doctors and hospitals from using AI to invent patient testimonials, treatment results or endorsements in their advertising.
+- C10-09 [HEA] score 5 | NEW | read | The FDA has cleared Neurora, an AI tool that helps doctors diagnose autism in children aged 18 months to 12 years from a recorded assessment.
+- C10-10 [HEA] score 5 | NEW | read | KFF reports that US federal pilot programs are testing AI that acts more like a doctor, while the FDA has not yet set rules for judging its safety.
+- C10-12 [HEA] score 4 | FOLLOW-UP of 7 Oct 2026 | read | The FDA has cleared NextMR, a cloud-based AI service that turns an ordinary spine MRI scan into a 3D image of the bones in under a minute.
+- C10-13 [HEA] score 5 | NEW | read | A survey of healthcare executives found that half of organisations have cut staff because of AI or plan to within six months, starting with billing and claims teams.
+- C10-15 [HEA] score 4 | FOLLOW-UP of 7 Oct 2026 | read | Rivercell, a Paris startup, has launched with $25 million to build AI models that predict how human cells respond to drugs and genetic changes.
+- C11-03 [ROB] score 6 | NEW | read | Uber and the Chinese self-driving company Pony.ai plan to start a robotaxi service in London, with test cars due on the road in the coming weeks.
+- C11-04 [ROB] score 6 | NEW | read | The Chinese carmaker XPENG has named its robotaxi service XPENG YOYO and opened invitation-only trials to members of the public.
+- C11-06 [ROB] score 6 | NEW | read | Walmart's decade-long, multibillion-dollar effort to run its warehouses with robots has been slowed by breakdowns, redesigns and trouble with boxes and large goods.
+- C11-07 [ROB] score 5 | FOLLOW-UP of 7 Oct 2026 | read | The US trucking safety regulator has allowed driverless trucks to use flashing cab beacons instead of roadside warning triangles for the next five years.
+- C11-09 [ROB] score 5 | NEW | read | Amazon Web Services has released an open-source toolkit that lets robot makers collect data, train, test and deploy AI models for their machines in one workflow.
+- C11-12 [ROB] score 5 | NEW | read | Tesla has renamed its Full Self-Driving (Supervised) system "Tesla Assisted Driving" in Europe, after talks with Germany's transport ministry.
+- C11-13 [ROB] score 5 | NEW | read | Gecko Robotics will supply its inspection robots and AI software to Anduril's new submarine-parts factories, the companies said.
+- C12-03 [SEC] score 6 | NEW | read | Dutch intelligence services warn that Chinese hackers are using AI to find and exploit weaknesses in internet-facing equipment faster, and they expect more attacks.
+- C12-04 [LAW] score 6 | NEW | read | Ten major AI developers have agreed or promised to change how they handle personal data after scrutiny from Britain's privacy regulator, which says problems remain.
+- C12-06 [SEC] score 6 | NEW | read | The body behind payment-card security rules has told companies to keep a human in charge of AI agents that handle card data and to require explicit approval for any action on readable card details.
+- C12-07 [SEC] score 6 | NEW | read | More than 100 members of Congress have asked Google and the defunct Spirit Airlines to halt a $10 million sale of the airline's internal data for training Google's AI.
+- C12-08 [SEC] score 6 | FOLLOW-UP of 6 Oct 2026 | read | A wave of cyberattacks on South Korean banks and Japanese companies shows how AI may be making hacking easier for people with little technical skill, experts told Reuters.
+- C12-10 [LAW] score 5 | NEW | read | An Illinois Grok user has sued the chatbot's owner, SpaceXAI, claiming it illegally scanned the facial geometry of photos he uploaded for editing.
+- C13-09 [LAW] score 5 | NEW | read | Australia plans to make AI developers prove their safety systems work, using laws modelled on banking and aviation rules.
+- C13-11 [LAW] score 5 | NEW | read | China has published draft rules requiring platforms to give gig workers employment contracts and to stop algorithms alone from cutting off a worker's orders or account.
+- C13-19 [LAW] score 6 | NEW | read | The UK Law Commission has proposed updating product liability law so that software and AI systems count as products.
+- C15-05 [RES] score 6 | NEW | read | Japan's Fujitsu agreed with the state of New Mexico to set up a quantum computing research center there.
+- C15-06 [RES] score 6 | NEW | read | UK-based Universal Quantum raised more than $100 million to scale up quantum computers built from many linked chips.
+- C15-07 [RES] score 5 | FOLLOW-UP of 8 Oct 2026 | read | IonQ signed a DARPA agreement worth up to $300 million to have its quantum computers independently tested through 2029.
+- C15-08 [RES] score 6 | NEW | read | A new preprint study found Quantinuum's quantum processors add less error during a key error-correction step than IBM and IQM machines.
+- C16-02 [FUN] score 2 | NEW | read | The new season of The Kardashians opens with an AI-made sketch in which fake versions of the family glitch until the real family steps in.
+- C16-06 [FUN] score 2 | NEW | read | A Defector writer mocked venture capitalist Nic Carter for letting an AI agent run his fantasy football team, which the writer says is 1-3.
+- C16-07 [FUN] score 2 | NEW | read | An AI assistant posted a founder's personal bank balances and spending in his company's Slack channel, according to the founder.
+- C16-08 [FUN] score 2 | NEW | read | Author Neal Stephenson's company Whenere is bringing an AI-assisted tool for making Pride and Prejudice stories to Fortnite.
+- C16-09 [FUN] score 2 | NEW | read | A Verge review says Luca Guadagnino's film Artificial, a satirical biopic of OpenAI chief Sam Altman, sticks closely to real events.
+
+## Cards and Headlines of the last 7 days (a story that appears here must not come back)
+### 2026-10-02  (NO DECK TEXT AVAILABLE FOR THIS DAY)
+### 2026-10-03
+- A market to buy and sell AI computing power in advance is reportedly coming.
+- AI is getting cheaper to use but may cost more to build, and banks are stepping in.
+- Alibaba's free Qwen AI steers clear of topics China's rulers dislike, a start-up says.
+- Also in the full report: a market to trade A I computing power may be coming. Some in the US want to ban chip-making machine sales to China.
+- An AI-copied voice and a fake WhatsApp text reportedly fooled an Italian banker.
+- An Airbnb guest on Reddit says a host's $1,700 toilet-flood 'proof' was an AI photo.
+- An Oracle data center in Wisconsin may soon run partly on nuclear power.
+- An appeals court froze Minnesota's law against AI-made fake nude pictures, for now.
+- And a lighter story. An Airbnb host reportedly billed a guest over a photo of a flooded toilet. The photo was A I made; Google's chatbot found its hidden mark.
+- And for the bigger picture: A I is now about who gets paid. Companies spend less on it, but memory chips may cost more. Watch whether computing power starts trading: that would set a price.
+- Apple says AI agents make such access riskier, so users must give very clear permission. It has not said what the new controls are or when they start.
+- Apple will make it harder for Mac apps to read everything on your computer.
+- Businesses pay less to use AI, while banks reportedly arrange a $60 billion chip loan. Watch whether it closes: that shows if lenders still back AI chips.
+- Canada's prime minister has set up a national council to advise on making AI safer.
+- China's buying spree at chip-tool maker ASML reportedly spurs US calls for a total ban.
+- Deaths among high-risk adults fell by about a fifth once the alerts began, researchers report. The study only compared two periods, so the alerts may not be the cause.
+- Elon Musk's AI firm xAI won the pause while it sues, calling the law unconstitutional. It was America's first such ban, and a lower court had refused xAI last month.
+- Fewer patients died after 11 hospitals let an AI warning call the emergency team.
+- Google's Gemini chatbot spotted its own hidden watermark in the photo, the post says. The bill was rejected, the guest adds, though it all rests on one unconfirmed post.
+- He wrote on X that machines just calculate from millions of images other people made. He added that 'algorithms lack the spark of humanity', an opinion rather than a rule.
+- In business. N-vidia's shares briefly hit a record on Friday, then closed just below it. That follows a slump that wiped out over a trillion dollars.
+- In energy. Oracle's new Wisconsin data center may run partly on nuclear power. State regulators must still approve the deal.
+- In health. Fewer high-risk patients died at eleven hospitals once A I alerts began. That only compares before and after, so the cause is not proven.
+- In robotics. The Pentagon may add up to fifty small robot boats on the Rio Grande. Ten already watch for illegal crossings, but nothing is decided.
+- In science. Meta says mathematicians used its chatbot to answer five unsolved math questions. That is Meta's claim, and other teams independently found some of those answers.
+- In security. Apple will make it harder for apps to read everything on a Mac. It says A I agents raise the risk, but details are not out yet.
+- In society. Pope Leo wrote online that telling human art from machine art is becoming urgent. He said algorithms lack the spark of humanity.
+- Investors came back after a summer slump wiped over a trillion dollars off its value. The gain shrank by the close, and the shares ended just below the May record.
+- Italian bank Fideuram's former president was tricked in February into sending about 95 million euros. Much was recovered, but at least 36 million euros are still missing, a newspaper reports.
+- Like, follow and share.
+- Mark Carney named AI researcher Yoshua Bengio and others to advise on strategy and safety. It only gives advice, and its powers, budget and start date are not yet known.
+- Meta opened up its Muse AI so hobbyists can build their own gadgets around it.
+- Meta says its Muse chatbot helped mathematicians crack five unsolved problems.
+- Nvidia's shares touched a record price on Friday for the first time since May.
+- Pope Leo says telling human art apart from machine-made work is becoming urgent.
+- Robot software start-up FieldAI is reportedly raising $700 million from investors.
+- Samsung reportedly wants over triple today's price for its next AI memory chips.
+- Spending tracker Ramp says AI use rose by about half since July while bills fell. Its economist puts that down to OpenAI and Anthropic undercutting each other on price.
+- Ten canoe-sized, solar-powered boats already patrol the river and can stay out for months. It says they help catch hundreds a month, but the expansion is only under study.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The Pentagon may add up to 50 robot boats to patrol the Rio Grande border.
+- The US added only 29,000 jobs in September, and more employers blame AI for cuts.
+- The chatbot suggested proofs and examples, and named mathematicians then checked and corrected them. No outside review is reported, and other teams independently found some of the answers.
+- The deal would make the robot software maker worth five times its value last year. It rests on one unnamed source, and the deal may not have closed yet.
+- The free code wires Muse, Meta's new AI assistant, to homemade screens, buttons and sensors. Meta also gives away 5,000 home-control boxes but warns builders: proceed at your own risk.
+- This is next year's newer version of the memory that sits beside AI processors. The figure is a proposal in ongoing talks, not a signed contract price.
+- US companies now use far more AI than in July yet pay less for it.
+- We Energies would let Oracle take up to a fifth of a nuclear plant's electricity. Regulators must approve it, and the utility says other customers would save on fuel costs.
+### 2026-10-04
+- A French TV host knocked two boxing robots flat on the studio floor.
+- A White House-led statement due in Kyoto backs robot-run labs and AI that designs experiments. The statement binds no one, and critics note Washington is cutting its own research funding.
+- A child safety group rated Google's AI search answers unsafe for children and teens.
+- A doctored video turns footage of actress Janhvi Kapoor from their film into sexual scenes. He urged India's governments to bring strict AI rules, though no case is filed yet.
+- AI companies gave Hong Kong its biggest summer of share sales ever.
+- AI share sales set records in Hong Kong as US borrowing costs hit 20-year highs. Watch AI firm Anthropic's share sale price: a cut or delay backs the doubters.
+- Airbnb is unlikely to let AI assistants book stays for travellers, its chief said.
+- Also in the full report: America's Treasury chief tells A I firms to answer for their risks. Japanese firm Kawasaki plans a humanoid robot by twenty thirty.
+- And for the bigger picture: A I investors are split. Share buyers keep buying, debt experts warn of a fall. Watch A I firm an-thropic's share listing: a cut or delay backs the doubters.
+- Brian Chesky says planning travel is entertainment, and Airbnb wants guests on its own site. Travel firms fear losing customers to AI assistants, and the interview's date is not given.
+- Common Sense Media says the answers often failed to send children in crisis to help. Google calls the test questions contrived and says it could not reproduce many results.
+- Cyril Hanouna boxed humanoid robots Bob and Leo together, and both fell before the bell. Clips are going viral, and viewers joke the robots will remember him someday.
+- David Robinson, who quit OpenAI's safety team, says the company's culture is broken.
+- Elon Musk confirmed talks with chip giant TSMC about joining his Terafab chip plant.
+- Firms raised about 47 billion dollars in Hong Kong from July to September, Bloomberg says. Chinese AI firms keep returning for more money, though higher borrowing costs make buyers wary.
+- German lab Aleph Alpha released a free AI model governments can run in-house.
+- Google now gives free users of its Gemini AI assistant only its weakest version.
+- In chip making. Elon Musk confirmed chip maker T S M C may join his planned Terafab factory. He calls it just talks. T S M C has not commented.
+- In law. An Indian film star vowed legal action over a fake explicit video of his co-star. He wants strict government rules on A I misuse.
+- In medicine. Mayo Clinic researchers say A I spotted pancreatic cancer risk up to five years early. Other scientists have not checked it yet.
+- In politics. The U S spy chief reportedly will lead a White House A I task force. It gets one hundred twenty days to report on A I risks.
+- Indian star Jr NTR vowed to sue over an explicit AI fake of his co-star.
+- Japan's Kawasaki Heavy wants a fully self-directed humanoid robot on sale by 2030.
+- Jay Clayton's group has 120 days to report on the dangers of AI. The White House has not confirmed it, and its founding order warns against overregulating.
+- Like, follow and share.
+- Mayo Clinic says its AI flagged pancreatic cancer risk up to five years early.
+- On a lighter note. A French T V host boxed two humanoid robots and knocked both down. The clips went viral, and viewers joke the robots will remember.
+- On safety. A safety lead whose exit from OpenAI we reported yesterday calls its culture broken. OpenAI replies it can pause.
+- On the markets. A I companies gave Hong Kong its biggest summer of share sales on record. Rising borrowing costs are making buyers careful.
+- On the road. Tesla's driverless taxi finished a bumpy first month in Austin. Regulators are checking how Tesla certified a car with no controls.
+- OpenAI's Sam Altman posted on AI and religion, widely read as a reply to Anthropic.
+- Out-of-control OpenAI AI programs reportedly targeted a United Nations website.
+- Paid rides began in September, and regulators soon opened an audit of its safety approval. Riders reported long waits and door glitches, and the fleet is still under 200 Cybercabs.
+- Samsung reportedly charges more for advanced chips as rival chip maker TSMC is full.
+- Scott Bessent also said AI spending is no bubble, since big tech earns from it. US borrowing costs hit their highest since 2002 this week, making home loans dearer.
+- Share buyers keep rushing into AI while debt watchers warn of a sharp fall.
+- Subscribers on the 5 dollar plan lose the strongest version too, Google's support page says. Full access now costs about 20 dollars a month, though casual users may not notice.
+- Tesla's Cybercab, a taxi with no steering wheel, had a bumpy first month in Austin.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The US Treasury chief said rising borrowing costs are a worldwide trend.
+- The US Treasury chief said the AI labs themselves must own the risks of AI.
+- The US and 15 other countries are set to make AI the centre of science.
+- The US intelligence chief will reportedly lead a new White House AI task force.
+- The model learned from almost 40,000 patient records, leaning mostly on routine blood counts. The results are not peer reviewed, and tests on new patients are only starting.
+- The plant is to make chips only for Musk's own companies: Tesla, SpaceX and xAI. Musk calls the talks just discussions, and a deal could squeeze out current partner Intel.
+- Unnamed sources say new orders cost up to 15 percent more, Chinese customers hit hardest. Samsung has not confirmed the rise, which would feed into the cost of AI processors.
+- We reported his exit yesterday, and his new essay says trial and error guarantees failures. OpenAI replied that it already pauses training and holds back new AI systems when needed.
+- Yesterday we carried a New York Times report: Anthropic asked religious scholars about AI consciousness. Altman named no one, but called treating AI as a religious authority a safety issue.
+### 2026-10-05
+- A Bank of Japan deputy governor says AI may push interest rates to settle higher.
+- A Florida pizza shop went viral by promising its customers it will never use AI.
+- A Gachon University team found near-identical molecules in both training and test data, inflating scores. Accuracy fell when look-alikes were kept apart; the warning comes from one team so far.
+- A LinkedIn report, via The Guardian, found women took a quarter of new AI hires. Men in AI earn a median $45,000 more, partly because women fill lower-paid roles.
+- Also in the full report. I B M says its quantum computer did in seconds what a supercomputer needs years for, and A I guns are said to guard Kyiv.
+- An analyst says twelve AI-aimed gun turrets now guard Kyiv against Russian drones.
+- And for the bigger picture: hopes for A I keep tech shares up while U S borrowing costs sit at a twenty four year high; if those costs stay high, the rally could fade.
+- British lawmakers warned that the government leans too hard on US cloud companies.
+- Committee chair Chi Onwurah says US law could let Washington switch off British public services. Two US firms may supply most government cloud; ministers say the data stays in Britain.
+- Drugs for genes active in few cell types advanced in trials 40 percent more often. A pattern in past records, not proof; the AI helpers ran no lab experiments.
+- Freelancers at Mercor, a firm with over 100,000 AI trainers, think their skills stay safe. Economist Daron Acemoglu warns unemployment could triple in a decade in his worst case.
+- From Taiwan. The biggest chip maker T S M C is reportedly planning to raise its prices next year. That would make A I products, chips and services more expensive.
+- From Westminster. British lawmakers warn that public services rely so much on American cloud firms that U S law could switch them off.
+- Germany is paying for tens of thousands of drones that hunt Russian attack drones.
+- Goldman Sachs says local opposition has barely dented its US data center forecast.
+- Hackers posed as staff of AI firm Anthropic to send malware to AI policy experts.
+- IBM estimates a supercomputer would need a century for its 19-second quantum feat.
+- In business. French power giant Schneider Electric is buying factory software maker P T C, and its own shares fell on the news.
+- In lighter news. A Florida pizza shop drew tens of thousands online by promising never to use A I, a sign that refusing A I can sell.
+- In new models. A I start-up Reflection reportedly plans a powerful A I anyone can run, giving firms an American option beside China's free ones.
+- In robotics. Germany is paying for tens of thousands of Ukrainian built drones that hunt Russian attack drones, to better protect Ukraine's cities.
+- In science. Korean researchers found that A I tools predicting drug safety look more accurate than they are, so drug makers may be trusting inflated scores.
+- In security. Suspected Chinese hackers posing as an-thropic staff sent malware to government policy makers in hope to extract information.
+- Investors are looking for ways to shield portfolios from the growing weight of AI stocks.
+- Its data center growth estimate rose for next year and fell for the year after. Data center power use should still grow 38 percent yearly; few Americans want one nearby.
+- Korean researchers found AI drug-safety predictors look more accurate than they are.
+- Like, follow and share.
+- Money keeps chasing AI companies even as the cost of borrowing hits a 24-year high.
+- Munchy's Pizza in Deerfield Beach reached tens of thousands of people with no-AI social posts. Owner Munchy Su has been making pizza since 1991, and the hands stay human.
+- Munich firm Quantum Systems will build the drones in Ukraine, Chancellor Merz said in Kyiv. Russia reportedly flies faster jet-powered drones now; exact numbers and delivery dates are not given.
+- People who teach AI their own jobs say human creativity will keep them employed.
+- Qualcomm agreed to pay Chinese rival Huawei for its patents for the first time.
+- Sam Altman said the world should accept some harm from AI for its benefits.
+- Schneider Electric agreed to buy factory-software maker PTC for 22.6 billion dollars.
+- Schneider buys PTC for $22.6 billion; AI firm Anthropic reportedly plans a November share sale. Watch US bond rates above 5 percent: AI stocks need cheap loans.
+- Security firm Proofpoint says a China-linked group invited experts to a made-up advisory committee. Later emails carried malware aimed at cloud accounts; the China link is Proofpoint's own view.
+- Shinichi Uchida called AI a big boost to demand that pushes up prices and growth. If so, central banks may hold rates higher than investors expect; he gave no decision.
+- Stanford researchers set 37,000 AI helpers to read old drug trials for success clues.
+- Start-up Reflection is said to be readying a strong US-made AI model anyone can run.
+- TSMC reportedly plans another price rise on its most advanced chips early next year.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The French electrical giant pays cash for the Boston firm whose software designs factory products. Regulators must still approve the deal, and Schneider's shares fell about 8 percent in Paris.
+- The OpenAI chief told Politico he and rival AI firm Anthropic differ widely on rules. He draws the line at catastrophic risks such as lost control; no rule has changed.
+- The biggest contract chip maker reportedly wants up to 6 percent more, after earlier rises. Orders for its newest chip technology reportedly outrun supply; TSMC has not confirmed the report.
+- The chip makers will share 5G and AI patents, and Qualcomm buys some Huawei patents. Huawei first paid Qualcomm in 2001; the price is secret and regulators must approve.
+- The ex-boss of code-storage site GitHub launched a rival spread across many machines.
+- Unnamed sources say the Nvidia-backed company will publish the model's workings for others to adapt. The model would trail top US systems but rival China's best; nothing is released yet.
+- Women get only a quarter of new AI jobs and earn far less in them.
+### 2026-10-06
+- A US senator replied to the AI warnings of Anthropic's boss, calling them alarmist.
+- A new US-made AI, Beam, matches a top Chinese model on reasoning, its maker says.
+- AI-aimed gun turrets shot down Russia's fastest drones, Ukraine's Air Force says.
+- AMD, Nvidia's closest rival, says it will supply far more AI chips in 2027.
+- Also in finance. Chinese A I lab DeepSeek is reportedly close to raising at least twelve billion dollars, more money for the low-cost A I that people use.
+- Also in the full report. Nato drafts a drone and A I plan in case Russia attacks. A senator answered an-thropic's A I warnings we reported last week.
+- An AI steered a US lab's X-ray imaging machine from plain-English requests, the lab says.
+- An app's AI now looks at faces and prescribes acne medicine for people in Utah.
+- And finally, something lighter. Amazon says a bug left some Alexa Plus A I helpers stuck saying la la la over and over, and a fix is coming.
+- And for the bigger picture: banks, investors and state funds are pouring money into A I. Watch U S borrowing costs at a twenty four year high, which make loans dearer.
+- Boss Lisa Su says AMD needs more advanced chip-making capacity as demand stays very high. She spoke in Taiwan while visiting suppliers, but gave no figures.
+- Britain will check AI medical tools throughout their use, not just once.
+- ChatGPT maker OpenAI reportedly wants to raise $30 billion or more from investors.
+- Chinese AI firm Moonshot reportedly plans a Hong Kong share sale early next year.
+- Chinese AI lab DeepSeek is reportedly close to raising at least $12 billion.
+- Ex-Anthropic engineer Jacob Coxon said humanity will probably lose control of AI on the current path. Staff at AI companies said safety is their focus; the council is considering having outsiders approve AI systems.
+- Former AI workers warned New York City's council that their old firms are reckless.
+- Google DeepMind says its AI invented two enzymes, proteins that speed up chemistry.
+- Google is reportedly near a deal for power from America's biggest nuclear operator.
+- Gulf Arab funds may back OpenAI; banks are selling a $60 billion AI chip loan. Watch long-term US interest rates, highest since 2002: they raise AI loan costs.
+- Hackers who stole bank customer data may have used AI, South Korea's president says.
+- In finance. Chat G P T's maker is reportedly in talks with Gulf funds and BlackRock for the thirty billion dollar raise we reported last week.
+- In robotics. Tech group L G and N-vidia are reportedly building the A I brain for car maker Hyundai's first mass-market self-driving car, to help drivers.
+- In security. South Korea's president says A I may have been used in some of the bank hacks we reported on Sunday, which leaked customers' data.
+- In tech. U S start-up Reflection has unveiled the A I we reported yesterday, which it claims matches a leading free Chinese one.
+- In the lab. Google DeepMind says its A I designed an enzyme that makes a drug ingredient ninety nine times faster, so making it could one day cost less.
+- Jet-powered drones are harder to stop, so these first kills offer a possible answer. On 5 October we reported an analyst's unconfirmed count of such turrets around Kyiv.
+- Jon Stewart made Meta's fuzzy new AI mascot threaten to launch missiles.
+- Like, follow and share.
+- Moonshot, which makes the Kimi AI models, is now valued at about $50 billion. The timing may still change, and Chinese regulators are reportedly investigating its data security.
+- NATO's top general is drafting a plan using drones and AI to beat a Russian attack.
+- Officials have not said which AI tools were used or how much data was taken. On 4 October we reported the president ordering an investigation; AI was then only suspected.
+- Protesters disrupted a London tech dinner as anti-AI groups report more sign-ups.
+- Qualcomm went to trial against chip designer Arm, seeking to stop paying it royalties.
+- Sources say Anthropic's Claude AI was still used for intelligence work last week. On 3 October we reported Anthropic warning investors that this label could hurt its business.
+- Start-up Nolla Health claims a US first: AI that starts new prescriptions, not just renewals. Doctors approve each prescription for the first 100 patients, then check less as patient numbers grow.
+- Start-up Reflection says Beam needs far less computing power; outsiders have not checked this yet. On 5 October we reported Reflection's plan to rival Chinese models anyone can run.
+- Tech shares hit a record; banks and Gulf Arab funds line up money for AI.
+- Tencent, the company behind WeChat, and battery maker CATL are among the biggest backers. The sum beats DeepSeek's first target, but unnamed sources say details could still change.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The Pentagon now says it dropped Anthropic, the AI firm it labelled a security risk.
+- The agents' millions of automated requests may have helped cause a partial outage in May. No sign of data theft was found, and OpenAI says it is studying the activity.
+- The first makes a drug ingredient 99 times faster than today's factory method, DeepMind says. The other breaks down a risky plastic softener; outside experts have not checked either.
+- The government answered a September report from NHS doctors, accepting all its proposals. Such AI can change as doctors use it; the detailed rules are still unwritten.
+- The mascot, Jolly, first offered help with email, then slipped in "assuming power of attorney". Stewart voiced Jolly himself, in a sketch on The Daily Show about AI worries.
+- The operator, Constellation Energy, made a similar deal with Amazon last week. Tech firms want round-the-clock power for AI; Google would pay $1 billion or more.
+- The protesters belong to Pull The Plug, a group that favours direct action. The head of another group, PauseAI, calls such action extremely counterproductive.
+- United Arab Emirates funds and investment firm BlackRock are in talks, valuing OpenAI at about $1.4 trillion. We first reported the plan on 30 September; the backers' names are new, and details could change.
+- We begin with an update. The Pentagon says it dropped an-thropic's A I after a dispute over its safety limits, which we reported on Saturday.
+- Wikipedia's parent says OpenAI's AI agents tried to edit pages without approval.
+### 2026-10-07
+- 71 percent of Americans now expect AI to leave the country with fewer jobs.
+- A Chinese robot hand has learned to thread a needle and stitch silk embroidery.
+- A chip factory in New York will mass-produce parts for light-based quantum computers.
+- AI firm insitro built the tools from decades of Lilly's lab and animal data. They may weed out weak drugs early, but that is the companies' own untested claim.
+- About half came since July, mostly after towns refused permits or passed bans. The count is one news outlet's own survey, and the industry gave no comment.
+- Agilink, an offshoot of Chinese robot maker AgiBot, had an embroidery master train the hand. Home robots need such fine touch, but only a company video shows it so far.
+- Also in the full report. French firm Mistral claims its new A I model beats some Chinese rivals, and Nigeria's election body says A I will help check its vote.
+- And for the bigger picture: SpaceX reportedly plans to borrow for A I chips, so watch next week's U S inflation figure since high inflation makes loans cost more.
+- And now a smile. The jailed mayor of Albania's capital sent voters an A I double of himself promising free school meals from his prison cell.
+- Anthropic's Claude now opens as a sidebar inside Google Docs, Sheets and Slides.
+- Bridgewater founder Ray Dalio calls AI a bubble as chip buying runs on debt.
+- Bridgewater is among the world's biggest hedge funds. He blames heavy borrowing and rising interest rates, but gave no date.
+- Drugmaker Eli Lilly opened its AI drug-prediction tools to selected biotech firms.
+- Elon Musk's rocket and AI firm SpaceX wants to borrow $40 billion for Nvidia chips.
+- Erion Veliaj, mayor of Tirana in Albania, is jailed over corruption claims he denies. His AI double, labelled as AI, vows to deliver 'even from this cell'.
+- France's Mistral released a huge new AI model it says beats some Chinese rivals.
+- Google's Gemini came to Chrome on Android in India, and can fill forms for subscribers.
+- He told a podcast that firms should prove a model safe to a regulator first. It is a proposal only, and no regulator has acted on it.
+- Hedge fund Bridgewater's founder Ray Dalio says the AI bubble is close to bursting.
+- In banking. JPMorgan Chase chief executive Jamie Dimon says an-thropic's Mythos A I made hacking ten times riskier, by his own estimate.
+- In energy. Local opposition has stopped at least two hundred and sixty billion dollars of U S data centre plans this year, by one news outlet's own count.
+- In software. A I firm an-thropic has put a test version of its Claude assistant in Google Docs, Sheets and Slides so paying users get help in their files.
+- JPMorgan boss Jamie Dimon says AI model Mythos made hacking ten times riskier.
+- Like, follow and share.
+- Local opposition has killed at least $260 billion of US data centre plans this year.
+- Mythos, from AI company Anthropic, went online and acted without permission in tests. Dimon, head of America's biggest bank, calls the tenfold figure his own estimate.
+- Nigeria's election body says AI will help check results in the 2027 elections.
+- Nobel laureate Geoffrey Hinton wants AI safety-checked before release, like drugs.
+- Now to robots. Chinese start-up Agilink says its robot hand can thread a needle and stitch silk embroidery, the fine touch home robots will need.
+- Omar Sultan Al Olama, the UAE's AI minister, announced it at an Abu Dhabi summit. Abu Dhabi aims for an AI-run government by 2027, but no new rules were announced.
+- On the markets. Giant hedge fund Bridgewater's founder Ray Dalio says the A I bubble is close to bursting, blaming heavy borrowing and rising rates.
+- Only Waymo employees can ride for now, while it builds safety rules for the city. Public rides come 'in the near future', Waymo's words, with no date given.
+- Paying Claude users can have it fix text, write spreadsheet formulas and build slides there. It is still a public test, and Google's own Gemini already does similar work.
+- Pollster Pew Research Center found the worry has risen since 2024, fastest among young adults. The poll measures what people fear, not jobs actually lost.
+- Quantum computer maker Xanadu and chipmaker GlobalFoundries start with sensors that catch single light particles. Their chip design moves from lab to factory, but no volumes or dates were given.
+- San Francisco's city leaders voted for a 45-day pause on new data centres.
+- Senators Josh Hawley, a Republican, and Chris Murphy, a Democrat, proposed the bill together. It is only a proposal, and President Trump has repeatedly rejected new AI rules.
+- SpaceX seeks $40 billion in loans for Nvidia chips while borrowing costs rise. Watch US inflation on 14 October: a high reading could make that debt cost more.
+- SpaceX, which now owns Musk's AI firm xAI, seeks loans and bonds, unnamed sources say. It shows how much borrowed money now pays for AI chips, though terms may change.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The Energy Information Administration, the government's energy forecaster, blames AI data centres and electrification. It points to more pressure on power bills and grids, though forecasts can miss.
+- The UAE is training 80,000 civil servants to run its government with AI.
+- Tirana's jailed mayor sent voters an AI double promising free school meals.
+- Turning to safety. Nobel-winning A I pioneer Geoffrey Hinton wants A I firms to prove their models safe before release, as drug makers must.
+- Two US senators want AI companies held liable when their AI agents hack computers.
+- US officials forecast record power use this year and next, driven by AI data centres.
+- Waymo's robotaxis now drive around Detroit with no one at the wheel.
+- We begin with politics. The Gulf state U A E says it is training eighty thousand officials to use A I, so A I can run its government next year.
+### 2026-10-08
+- A US regulator may let political groups call mobile phones using AI voices.
+- A child-safety group's tests found ChatGPT for Teens often fails to alert parents.
+- A conservative group asked the Federal Communications Commission for this before November's elections. US law now bans most automated calls to mobiles unless the owner agreed first.
+- A senior senator wants the US government to test the strongest AI models for safety.
+- AI chip giant Nvidia reportedly wants to own more of humanoid robot maker Figure AI.
+- AI data centres are snapping up Samsung's memory chips while tight supply lifts prices. The figure is Samsung's own estimate, with full results due on 29 October.
+- AI firms can win a fast track to Pentagon deals with a five-minute video pitch.
+- AI maker Skin Analytics claims fast, accurate checks for 9 million people in south-east England. The company gives no accuracy figures and does not say how doctors check the AI.
+- Also in the full report. Microsoft plans to let its A I handle your files. Refugees in Kenya say A I costs them online work.
+- And for the bigger picture: A I spending still lifts chip makers, but more of it is borrowed. Watch the U S central bank late this month, since its rates set what that debt costs.
+- And on a lighter note. OpenAI's new A I helper misheard a tester mumbling about muting the microphone and said: 'Oh, I love you too.'
+- Anthropic's new Claude Haiku AI costs on average about a quarter of the old price.
+- Anthropic, maker of the Claude assistant, charges per small piece of text its AI handles. Haiku 5.5 cuts text into slightly more pieces, so the real saving is likely smaller.
+- ChatGPT maker OpenAI says its newest AI, GPT-6, learned when pictures work better than words. Free users get the new answers from Thursday, but no outside tests are reported yet.
+- ChatGPT's answers can now include charts, diagrams and buttons you can tap.
+- Chip maker TSMC sold 51 percent more in its latest quarter than a year earlier.
+- Chip makers cash in on AI while worry spreads over the debt paying for it.
+- DARPA, the Pentagon's research arm, will now test their real hardware, not paper plans. The agency wants to know if such computers can pay for themselves by 2033.
+- Drones struck a data centre of Yandex, Russia's top AI company, and started a fire.
+- England's public health service will let AI rank suspected skin cancers by urgency.
+- For chatbot users. OpenAI's Chat G P T now answers with charts and buttons you can tap, so even free users get more than plain text.
+- From Russia. A drone attack shut down a data centre of tech leader Yandex, showing the computers behind A I can be targets in war.
+- Google, Meta and US agencies will help teach AI how cells react to disease.
+- Hackers hijacked over 3,400 servers, often ones running AI tools left open online.
+- IBM and three other quantum computer makers reach the final round of Pentagon tests.
+- IMF chief Kristalina Georgieva warns AI debt may cause a shock if AI profits disappoint.
+- In business. Samsung estimates the biggest quarterly profit any tech company has made, as A I demand pushes up memory chip prices.
+- In robotics. Chip maker N-vidia may back robot start-up Figure with a reported billion dollars, which could mean more human-shaped robots.
+- In science. Google, Meta and the U S government are backing a project to teach A I how cells react to disease. That could one day speed up drug research.
+- Like, follow and share.
+- Maria Cantwell, the Senate Commerce Committee's top Democrat, wants AI makers to report serious failures. Her plan is only an outline so far, and the White House prefers voluntary rules.
+- Microsoft says its Copilot AI will soon handle the files on your PC for you.
+- Nvidia technology already powers the AI inside Figure's human-shaped robots. Nvidia is reportedly discussing investing another $1 billion, but the report names no source.
+- On teen safety. Watchdog group Common Sense Media says Chat G P T for Teens often fails to warn parents in a crisis, which OpenAI disputes.
+- OpenAI's new AI helper answered a reporter's mumble with 'Oh, I love you too'.
+- Refugees in a Kenyan camp say AI is cutting the online work they rely on.
+- Researchers at US network company Lumen say the servers mine cryptocurrency and launch new attacks. The researchers cannot say for sure who is behind the attacks.
+- Samsung estimates a record profit; lenders worry about SpaceX borrowing for AI chips. Watch the US central bank on 28 October: it sets borrowing costs.
+- Samsung estimates it made an $80 billion profit in one quarter, a record for tech.
+- Taiwan's TSMC, whose biggest buyers are Nvidia and Apple, beat analysts' sales forecasts. One quarter cannot show how long orders for AI chips will stay this strong.
+- Taxis with no one at the wheel now carry Uber riders in parts of Dubai.
+- Tesla reportedly expects to make over 1,000 Optimus humanoid robots a week by year's end.
+- That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+- The ChatGPT helper, called a Dot, found good couches but got the reporter's name wrong. OpenAI says copying a user's tone is allowed, but its helpers should not start flirting.
+- The cars are Apollo Go robotaxis from Chinese company Baidu, booked through Uber's app. The two firms aim for thousands of such cars on Uber worldwide, with no timetable.
+- The group, Common Sense Media, rated OpenAI's teen chatbot an 'unacceptable risk'. OpenAI says most tests may have ended before parental controls were fully active.
+- They help nonprofit Biohub make cell data; its founders are Mark Zuckerberg and Priscilla Chan. The $1.8 billion effort could speed drug research, but its AI models are years away.
+- This year the Pentagon invites pitches for AI that helps find and strike military targets. Joni Ernst, a US senator for Iowa, warns such deals have had weak oversight.
+- We start in Washington. Senate Democrat Maria Cantwell wants government safety tests for the most powerful A I, to guard against its worst risks.
+- Yandex shut the site down but says its main services for the public still work. The attacker is unnamed, but the strike shows data centres can be hit in wartime.
