@@ -1,0 +1,47 @@
+{
+ "changes": [
+  {
+   "item_id": "C13-15",
+   "field": "source",
+   "before": "Kyodo News, as relayed by Seoul Economic Daily",
+   "after": "Kyodo News",
+   "reason": "Credit rule: Kyodo News reported the exchange; Seoul Economic Daily only relays it in AI translation."
+  },
+  {
+   "item_id": "C13-15",
+   "field": "headline",
+   "before": "Japan's Prime Minister Sanae Takaichi has declined to follow President Trump's call to rename artificial intelligence \"superintelligence\".",
+   "after": "Japan's Prime Minister Sanae Takaichi has declined, for now, to follow US President Donald Trump's call to rename artificial intelligence \"superintelligence\".",
+   "reason": "Meaning: she said AI is the right term 'at this stage' and will watch other governments, so 'for now' keeps the hedge; Trump given his position."
+  },
+  {
+   "item_id": "C13-15",
+   "field": "summary",
+   "before": "Kyodo News reports, as relayed by Seoul Economic Daily, that Takaichi told Japan's lower house on 8 Oct 2026 that \"AI\" remains the right term for now, because it is used in government documents and academic papers and changing it everywhere would be hard. She was answering Yuichiro Tamaki, leader of the Democratic Party for the People, and said she would watch how other governments respond; the question is Trump's call, in his UN General Assembly speech last month, for the US government to use \"SI\" (superintelligence) in official documents, and this edition also carries The Independent's report of 8 Oct that Trump called people who say \"artificial intelligence\" \"the enemy\" (item C05-02).",
+   "after": "Kyodo News reports that Takaichi told Japan's lower house of parliament on 8 Oct 2026 that \"AI\" is the right term for now, because it is used in government documents and academic papers and changing it everywhere at once would be hard, and that she would watch how other governments respond. She was answering Yuichiro Tamaki, leader of the Democratic Party for the People, about Trump's call in his UN General Assembly speech last month for the US government to use \"SI\" (superintelligence) in official documents; this edition also carries The Independent's 8 Oct report that Trump called people who say \"artificial intelligence\" \"the enemy\" (item C05-02).",
+   "reason": "Credit rule (attribution to Kyodo, the first reporter) and clarity: the overlong second sentence split so her answer and the earlier story it replies to read in order."
+  },
+  {
+   "item_id": "C13-16",
+   "field": "importance_line",
+   "before": "It affects the ten-member ASEAN bloc (a Southeast Asian regional group) and firms trading digital services there, but the agreement is not yet signed and Marcos gave no detail on its AI content.",
+   "after": "It affects the Association of Southeast Asian Nations (ASEAN) and firms trading digital services in the region, but the agreement is not yet signed and Marcos gave no detail on its AI content.",
+   "reason": "Meaning: 'ten-member' is not in the article and is out of date (Timor-Leste joined as the eleventh member in Oct 2025); removed rather than add an unsourced count."
+  },
+  {
+   "item_id": "C13-18",
+   "field": "summary",
+   "before": "The Times of Israel reports that the Finance Ministry is looking at new taxes because AI threatens jobs and state revenues.",
+   "after": "The Times of Israel reports that Israel's Finance Ministry is weighing new taxes, and links the move to the risk that AI could cut jobs and state revenue.",
+   "reason": "Headline-only item: summary was a near copy of the publisher headline and read 'AI threatens' as fact; now a cautious attributed restatement and names the country."
+  },
+  {
+   "item_id": "C13-20",
+   "field": "summary",
+   "before": "NL Times reports that de Volkskrant found at least five posts on the Dutch Prime Minister's official \"minpres\" accounts that were written by AI and not labelled, although Jetten told parliament on 29 Sep 2026 that \"no AI was used\" there. The newspaper had reported last month that Jetten and his party D66 used an AI model to generate hundreds of posts; the Government Information Service says AI was used only on his private accounts, does not deny it was used for the minpres posts, and disputes that they were generated entirely by AI.",
+   "after": "Dutch newspaper de Volkskrant reports that it found at least five posts on the Dutch Prime Minister's official \"minpres\" accounts that were written by AI and not labelled, although Jetten told parliament on 29 Sep 2026 that \"no AI was used\" there. The newspaper had reported last month that Jetten and his party D66 used an AI model to generate hundreds of posts; the Government Information Service says AI was used only on his private accounts, does not deny it was used for the minpres posts, and disputes that they were generated entirely by AI.",
+   "reason": "Credit rule: attribution moved from NL Times (relay) to de Volkskrant, the original reporter, matching the source field."
+  }
+ ],
+ "unresolved": []
+}
