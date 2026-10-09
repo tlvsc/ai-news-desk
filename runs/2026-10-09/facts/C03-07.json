@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-07",
+ "title": "GitHub Copilot Adds Local Sandboxing at No Extra Cost",
+ "source_used": "GitHub Changelog (original announcement)",
+ "article_url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+ "fetched": true,
+ "key_facts": [
+  "Local sandboxing for GitHub Copilot is generally available in Copilot CLI, the Copilot app and VS Code sessions using Agent Host.",
+  "Tools and commands started by Copilot run with restricted access to files, network, credentials and other system capabilities.",
+  "It is powered by Microsoft eXecution Container (MXC), which turns one policy into native controls on Windows, macOS and Linux.",
+  "Organisations can use enterprise-managed settings to require sandboxing with policies developers cannot weaken.",
+  "It applies to local MCP and language servers where supported.",
+  "Sandbox policies apply regardless of which model Copilot uses.",
+  "It is included with GitHub Copilot at no additional cost."
+ ],
+ "quote_evidence": [
+  "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host.",
+  "Local sandboxing is included with GitHub Copilot at no additional cost."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Lets developers and companies give coding agents more freedom inside set limits.",
+ "event_date": "7 Oct 2026",
+ "notes": "Technobezz (403) not readable; read GitHub's own changelog post, the original source. The New Stack (item C03-02) adds that built-in file tools and remote MCP servers are not covered by OS-level isolation. Older than 8 Oct 2026 by one day: re-dated."
+}

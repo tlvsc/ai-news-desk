@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-11",
+ "title": "MIT uses AI to create room-temperature stable mRNA vaccine and cut cold-chain costs",
+ "source_used": "DongA Science (relaying Reuters, 7 Oct)",
+ "article_url": "https://www.dongascience.com/en/news/80261",
+ "fetched": true,
+ "key_facts": [
+  "MIT researchers used an AI agent running Bayesian optimization to find a solid-state mRNA vaccine formulation.",
+  "The formulation kept 100% biological activity after more than two months at 37 degrees Celsius; formulations stable for up to one year were also found.",
+  "The AI proposed experiments, humans ran them and fed back results; six rounds gave the best formulation.",
+  "Vaccines stored this way produced immune responses comparable to existing formulations in mice and crab-eating macaques.",
+  "The team expects storage and transport costs could fall by up to 86%.",
+  "Safety and effectiveness in humans still need validation; the results were published on 28 Sep 2026 in Nature Biotechnology."
+ ],
+ "quote_evidence": [
+  "The solid-state vaccine formulation identified by AGENT maintained 100% biological activity even after being stored at 37 ℃ for more than two months.",
+  "As the work is still at the animal‑testing stage, the safety and immune efficacy in humans will require further validation."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Vaccines that need no deep freezing could reach places without cold storage, if the animal results hold in people.",
+ "event_date": "Published 28 Sep 2026 in Nature Biotechnology; Reuters report 7 Oct 2026",
+ "notes": "Older research re-reported: paper dated 28 Sep, Reuters 7 Oct, DongA 8 Oct. Reuters not read directly; DongA relays it."
+}

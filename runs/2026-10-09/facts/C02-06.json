@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-06",
+ "title": "Google's AI note-taking app transcribes your meetings completely offline",
+ "source_used": "TechCrunch (also The Verge)",
+ "article_url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+ "fetched": true,
+ "key_facts": [
+  "Google released Google AI Edge Foresight, an experimental Mac note-taking app that works completely offline.",
+  "It uses the on-device EmbeddingGemma 2 model, which TechCrunch says has 740 million parameters, and is free (per The Verge).",
+  "Users can type shorthand notes while it transcribes; the app turns them into polished notes based on the transcript.",
+  "A built-in assistant answers questions about the meeting; users can upload documents (PDFs, Google Docs, Office files, Markdown, bookmarks) as a knowledge base.",
+  "Google says files, audio and notes never leave the computer (per The Verge).",
+  "Optimised for Apple Silicon Macs; competes with Granola, and TechCrunch notes Wispr, Calendly and Superhuman (via Fathom) also have note-takers."
+ ],
+ "quote_evidence": [
+  "The Mac app can work completely offline, utilizing the on-device EmbeddingGemma 2 model, with 740 million parameters, to capture meeting notes across apps, including those from in-person meetings.",
+  "Google says your files, meeting audio, and notes “never leave your computer.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Privacy-minded workers get AI meeting notes without audio going to a cloud service.",
+ "event_date": "8 Oct 2026",
+ "notes": "Pool link was The Verge, which credits TechCrunch ('as reported earlier by TechCrunch'); TechCrunch read as the first reporter, Verge for the free and 'never leave' details. TechCrunch suggests the app may mainly showcase Google's offline models."
+}

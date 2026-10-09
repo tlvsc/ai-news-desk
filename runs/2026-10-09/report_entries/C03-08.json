@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "MOD",
+ "headline": "GitHub says its Copilot usage reports have been leaving out much of developers' AI agent activity, and the missing figures cannot be recovered.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: GitHub's notice is from 6 Oct 2026 and concerns reporting dashboards, not billing or the tool itself.",
+ "importance_line": "Companies that use Copilot dashboards to judge how much their developers rely on AI agents have been seeing undercounts, and Copilot CLI figures may be inflated, but billing is not affected.",
+ "source": "GitHub",
+ "status": "CONFIRMED",
+ "summary": "GitHub says in a notice dated 6 Oct 2026 that several code editors moved Copilot agent sessions to the Copilot SDK without identifying themselves, so most of that activity was left out of usage reports and some was counted as Copilot CLI use. A fix is available in Visual Studio Code and is expected in the other editors by November 2026, but data from developers who have not updated cannot be filled in later.",
+ "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "ADTmag page was blocked (403); the url is GitHub's own notice, which was read. ADTmag reported it on 8 Oct 2026.",
+ "importance_label": "WATCHLIST"
+}

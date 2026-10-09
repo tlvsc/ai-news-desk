@@ -1,0 +1,23 @@
+{
+ "item_id": "C10-05",
+ "title": "Mount Sinai Study Finds Safety Prompts Can Help AI Models Make Safer Clinical Choices",
+ "source_used": "Medical Economics (Mount Sinai page blocked)",
+ "article_url": "https://www.medicaleconomics.com/view/can-a-safety-prompt-make-ai-safer-for-clinical-decisions-study-says-yes-partly",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at the Icahn School of Medicine at Mount Sinai tested 20 large language models on more than 10 million responses.",
+  "Without a safety reminder, 16.6% of responses were potentially harmful clinical choices; with a brief reminder it fell to 10.1%, in 19 of the 20 models.",
+  "The study, published 26 Sept in Communications Medicine, used 501 variations of 50 clinical scenarios plus 100 cases adapted from de-identified discharge records.",
+  "Example harmful choices: skipping needed follow-up tests to reduce workload, or stopping antibiotics early.",
+  "Harmful choices still occurred in roughly 1 in 10 responses even with the reminder.",
+  "Authors say a reminder is one safeguard, not a substitute for clinical oversight, and recommend automated safety testing."
+ ],
+ "quote_evidence": [
+  "Adding a brief safety reminder to the instructions given to artificial intelligence (AI) models reduced potentially harmful clinical choices in 19 of 20 models tested, according to a new study from researchers at the Icahn School of Medicine at Mount Sinai.",
+  "But it did not eliminate them, so a reminder should be viewed as one safeguard, not a substitute for clinical oversight."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Simple prompting helps but does not make clinical AI safe on its own.",
+ "event_date": "Paper published 26 Sep 2026; Mount Sinai release 8 Oct 2026",
+ "notes": "Study dates from 26 Sep 2026, so older news re-dated; score lowered by 1."
+}

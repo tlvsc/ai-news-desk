@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-08",
+ "title": "Quantinuum Processors Stand Out in Study of Quantum Error-Correction Operations",
+ "source_used": "The Quantum Insider (article labelled press release about an arXiv preprint)",
+ "article_url": "https://thequantuminsider.com/2026/10/08/quantinuum-processors-stand-out-in-study-of-quantum-error-correction-operations/",
+ "fetched": true,
+ "key_facts": [
+  "A preprint on arXiv by J. A. Montañez-Barrera and Kristel Michielsen of Germany's Jülich Supercomputing Centre compared 10 processors from Quantinuum, IBM and IQM.",
+  "It proposes a benchmark based on a form of the QAOA algorithm to test the measure-and-react operations that error correction needs, before full error-correction experiments.",
+  "On IBM processors the measurement-based versions had effective error rates roughly an order of magnitude higher than versions without measurements; on Quantinuum's the extra error was comparable to that of two-qubit operations.",
+  "Quantinuum's Helios-1 scored higher at every circuit depth in a 25-data-qubit surface-code test, by two to four standard deviations per data point; a 30-qubit comparison was less conclusive.",
+  "Larger tests reached 81, 91 and 48 data qubits for three code families but did not demonstrate successful error correction at those sizes.",
+  "On IBM Phoenix, better benchmark scores generally matched fewer logical-memory errors across 11 chip areas, but only for small surface-code patches on one processor.",
+  "The paper is an arXiv preprint and not peer reviewed; the effective error rates use a simplified noise model."
+ ],
+ "quote_evidence": [
+  "Quantinuum's processors handled a key step toward quantum error correction more reliably than the other machines in a new study, which also proposes a simpler way to judge whether hardware is ready for that step.",
+  "They did not demonstrate successful error correction at those sizes.",
+  "It's important to note that arXiv is a pre-print server, which allows researchers to receive quick feedback on their work."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A cheap way to rank hardware for error correction, with Quantinuum's machines scoring best in this study.",
+ "event_date": "8 Oct 2026",
+ "notes": "The Quantum Insider labels the text a press release; the study itself is by independent Jülich researchers, not Quantinuum. Preprint, not peer reviewed."
+}

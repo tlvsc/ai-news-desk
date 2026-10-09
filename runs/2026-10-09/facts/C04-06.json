@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-06",
+ "title": "OpenAI withdraws three preprints a day after releasing 722 manuscripts on unsolved math problems",
+ "source_used": "Retraction Watch",
+ "article_url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/",
+ "fetched": true,
+ "key_facts": [
+  "On 6 Oct 2026 OpenAI published 722 preprints in a GitHub repository about purported progress on 372 maths problems.",
+  "On 7 Oct OpenAI withdrew three manuscripts because of a sign error that invalidated one argument and the construction used by two dependent papers.",
+  "OpenAI also revised 14 other manuscripts with proof repairs and corrections.",
+  "Cornell mathematician Alex Townsend suspects more errors will be found and said the Lean-verified results should have been announced first.",
+  "An OpenAI spokesperson said the errors were found in an audit, and that about 50% of results were released unconfirmed on the advice of the AGMAI group.",
+  "MIT's Andrew Sutherland called the quick withdrawal \"the responsible thing to do\" but said it will take much more to regain trust.",
+  "The Association for Human Mathematics criticised the release in a statement on 7 Oct."
+ ],
+ "quote_evidence": [
+  "Less than 24 hours after OpenAI posted over 700 preprints describing major math results by an internal AI model, the company has withdrawn three of the manuscripts for errors.",
+  "The error invalidated an argument in one manuscript and the construction used by two dependent papers, according to the announcement."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The first errors in a huge AI-written maths release have appeared within a day, and a mathematician expects more.",
+ "event_date": "Withdrawal announced 7 Oct 2026; release 6 Oct 2026",
+ "notes": "Follow-up of X30 (7 Oct 2026). Same cluster as C04-01, C04-07, C04-17."
+}

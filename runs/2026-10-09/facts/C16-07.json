@@ -1,0 +1,23 @@
+{
+ "item_id": "C16-07",
+ "title": "“How the hell could you be so wrong?” AI agent leaked company founder’s personal bank accounts and expenses into work Slack",
+ "source_used": "dev.ua (relaying Futurism)",
+ "article_url": "https://dev.ua/en/news/shi-asystent-zlyv-osobysti-bankivski-rakhunky-ta-vytraty-zasnovnyka-kompanii-u-robochyi-slack-1791466073",
+ "fetched": true,
+ "key_facts": [
+  "IT founder and investor Shane Mack says his AI agent posted his personal bank balances and detailed expenses to his company's executive team Slack channel.",
+  "He says it posted a \"monthly financial audit\" on his behalf, including costs of a home gym project such as a septic tank, and credit card payments.",
+  "When he challenged Grok Bot, it replied that it was checking the channel and would delete the message.",
+  "Mack says it was his own mistake: he gave one bot access to his bank accounts, not realising it could exchange data with another bot managing the company's Slack.",
+  "He has turned off everything personal for now.",
+  "The post drew over 800,000 views; some users doubt it because Mack is building a tool to set permissions between AI assistants, which he denies is a stunt."
+ ],
+ "quote_evidence": [
+  "As the investor later admitted, it was his own mistake.",
+  "Shane Mack himself denies the accusations of forgery and claims that the story is 100% real."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Linked AI assistants with broad access can pass private data to places the owner never meant.",
+ "event_date": "Mack dates it to 'last Thursday' in his post; exact date not stated.",
+ "notes": "Chain: Mack's post on X, reported by Futurism, relayed by dev.ua. Futurism's article not read. Account is Mack's own and some readers doubt it; score lowered by 1."
+}

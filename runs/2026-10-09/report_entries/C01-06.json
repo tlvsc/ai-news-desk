@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-06",
+ "v1_category": "MOD",
+ "headline": "Cognition has released SWE-2, a coding model it says comes within one point of Fable 5.1 on a coding test at 64% lower cost.",
+ "score": 6,
+ "score_reason": "Kept: a real release from a known coding-agent company, but all results are its own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Software teams get a cheaper option that Cognition says nears the top of coding-agent performance, but the scores and cost comparisons are the company's own and not independently verified.",
+ "source": "Cognition",
+ "status": "CONFIRMED",
+ "summary": "Cognition, whose coding tools include Devin, says in its launch post that SWE-2 scored 50.0% on the FrontierCode 1.1 Main coding test, within one point of Fable 5.1 at 64% lower cost, and is available from today in Devin Desktop and its command-line tool, with Devin Web and Fusion being rolled out. The model was built by further training Kimi K3, a 2.8-trillion-parameter model, using reinforcement learning (training by trial and reward) that also penalises expensive solutions.",
+ "url": "https://cognition.com/blog/swe-2",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the Cognition post (first 16,000 characters). Status CONFIRMED covers the release; all benchmark figures are Cognition's claims."
+}

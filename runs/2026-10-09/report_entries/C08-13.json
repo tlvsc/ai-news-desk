@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-13",
+ "v1_category": "ENE",
+ "headline": "Micron and Samsung are reportedly turning to TSMC to make the base layer of their next custom memory stacks for Nvidia's new NVHBM design.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: sourced industry reporting on a supply-chain shift, relayed through several outlets.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "If confirmed, two of the three big memory makers would depend on TSMC for a key part of AI memory, deepening TSMC's role in AI hardware, but these are reports from industry sources and the performance numbers are Nvidia's own.",
+ "source": "TrendForce",
+ "status": "REPORTED",
+ "summary": "TrendForce reports, citing The Elec and ZDNet, that Micron said both its NVHBM memory, co-designed with Nvidia, and its standard HBM4E will use base dies, the bottom logic layer of a memory stack, made by an outside foundry, with TSMC expected, and that Samsung is weighing base dies from either its own foundry or TSMC. NVHBM, announced in August, moves the memory controller into the base die, and Nvidia says it offers up to 30% more bandwidth and 15% lower power than standard HBM4E.",
+ "url": "https://www.trendforce.com/news/2026/10/09/news-nvidias-nvhbm-reshapes-memory-makers-base-die-strategies-as-micron-samsung-turn-to-external-foundries/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "TrendForce News curates other outlets' reports (The Elec, ZDNet, Newsis, EDAILY); chain of first reporters is named in the summary. Performance figures are attributed to NVIDIA."
+}

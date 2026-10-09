@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-08",
+ "title": "GitHub Says Copilot Reports Missed Agent Activity, Leaving Gaps That Cannot Be Recovered",
+ "source_used": "GitHub Changelog (original announcement)",
+ "article_url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics/",
+ "fetched": true,
+ "key_facts": [
+  "Copilot usage metrics showed agent activity and agent lines of code falling while overall usage kept growing; GitHub found the cause.",
+  "Several IDEs moved Copilot agent sessions to the Copilot SDK; those sessions did not identify their IDE, so most of that activity was left out and some was counted as Copilot CLI activity.",
+  "The fix is available in Visual Studio Code; other IDEs should get it by November 2026.",
+  "GitHub cannot backfill the missing data, so affected developers stay undercounted until they update.",
+  "Copilot CLI metrics may be inflated and cannot be corrected for earlier periods.",
+  "Billing is not affected."
+ ],
+ "quote_evidence": [
+  "Most of that activity was left out of reports, and some was counted as Copilot CLI activity.",
+  "Billing isn’t affected."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Companies that track AI-coding adoption with Copilot dashboards have been working from undercounts.",
+ "event_date": "6 Oct 2026",
+ "notes": "ADTmag (403) not readable; read GitHub's own changelog post of 6 Oct 2026, the original source. Older than 8 Oct 2026 by two days: re-dated."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C09-11",
+ "title": "NVIDIA's DSX Ready Brings Power and Cooling Into the AI Factory Blueprint",
+ "source_used": "Data Center Frontier",
+ "article_url": "https://www.datacenterfrontier.com/design/article/55410513/nvidias-dsx-ready-brings-power-and-cooling-into-the-ai-factory-blueprint",
+ "fetched": true,
+ "key_facts": [
+  "NVIDIA's DSX Ready program, announced 21 Sep, sets qualification requirements for battery energy storage systems (BESS) and coolant distribution units (CDUs) used with its DSX AI factory designs.",
+  "First qualified BESS suppliers: Hitachi Energy, LG Energy Solution and Tesla; first CDU suppliers: Vertiv, LG Electronics and LiquidStack (2.3 MW to 14 MW).",
+  "BESS qualification has 12 tests covering electrical stability, dynamic response, operating transitions and control systems, not just capacity.",
+  "The AI buffering test requires tracking workload power ramps within 2% of the commanded ramp.",
+  "Trane introduced two 250 MW AI factory cooling reference designs that could free up to 22 MW of electrical capacity for computing.",
+  "Qualification applies to individual products and does not replace site engineering, integration or commissioning.",
+  "Chris Malone, formerly of OpenAI, Meta and Google, joined NVIDIA as vice president of the DSX Platform."
+ ],
+ "quote_evidence": [
+  "Qualification applies to defined products and technical boundaries, while developers remain responsible for site-level design, integration and commissioning.",
+  "The company has established twelve tests covering electrical stability, dynamic response, operating transitions and control-system performance."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Nvidia is extending its influence from chips into the power and cooling kit around them.",
+ "event_date": "21 Sep 2026",
+ "notes": "Older announcement (21 Sep 2026); trade-press analysis."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-14",
+ "v1_category": "RES",
+ "headline": "A study of AI coding agents on 500 real software bugs found that writing their own tests made little difference to how often they fixed the bug.",
+ "score": 4,
+ "score_reason": "Useful finding, but the paper dates from February and April and is a preprint; one point below the pool score.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams that trust an agent's own \"tests passed\" message are warned to add independent checks, though this is one preprint measured on a single benchmark of Python bugs.",
+ "source": "Startup Fortune",
+ "status": "PRELIMINARY",
+ "summary": "Startup Fortune reports on a study by researchers at Singapore Management University, Shanghai Jiao Tong University and ByteDance that tested AI coding agents on SWE-bench Verified, a benchmark of 500 real bugs from open-source Python projects, and found that how many tests an agent wrote had no statistically significant effect on whether it fixed the bug. The agents mostly used print statements to look at values rather than assertions that pass or fail, and the paper was first posted to the arXiv preprint server in February and revised in April.",
+ "url": "https://startupfortune.com/study-finds-ai-coding-agents-barely-benefit-from-writing-their-own-tests/",
+ "freshness": "FOLLOW-UP of Feb 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Old paper reported on 8 Oct; only month known (posted February 2026, revised April 2026)."
+}

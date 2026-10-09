@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-07",
+ "title": "Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models",
+ "source_used": "The Record from Recorded Future News (read in full); Reuters page returned HTTP 401, and a short Economic Times summary of the Reuters story was seen",
+ "article_url": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal",
+ "fetched": true,
+ "key_facts": [
+  "On Thursday (8 Oct 2026) more than 100 members of Congress (the letter has 114 signers) wrote to the chief executives of Google and Spirit Airlines asking them to halt a deal.",
+  "Google would get Spirit's internal data in exchange for $10 million paid to the failed carrier; Google wants it to train AI models.",
+  "Rep. Steven Horsford said the data would include about 100 million emails, 500 million Microsoft Teams messages, employment contracts, timecard records and payroll and tax information.",
+  "The letter, led by Horsford and Sen. Elizabeth Warren, says removing names and email addresses does not necessarily make a dataset anonymous in the context of modern AI.",
+  "Google says it is not looking to buy personal information; the data will be excluded or de-identified by an independent third party before Google receives it.",
+  "Spirit is defunct; almost 1,000 people in Las Vegas lost jobs after it announced in May it would shut down."
+ ],
+ "quote_evidence": [
+  "Google wants the data to train AI models and has said it will be deidentified.",
+  "Removing names, email addresses, or other direct identifiers does not necessarily make a dataset anonymous,",
+  "The information will either be completely excluded or will be deidentified by an independent third party before Google receives any data."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Former airline employees' private messages and records could end up in AI training data, and lawmakers doubt that standard de-identification protects them.",
+ "event_date": "8 Oct 2026",
+ "notes": "Reuters (401) not readable; an Economic Times summary of the Reuters story says 'more than 120' lawmakers, while The Record counts 114 signers and says 'more than 100'. The entry uses The Record's figures."
+}

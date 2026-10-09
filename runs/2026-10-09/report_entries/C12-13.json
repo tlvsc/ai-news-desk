@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-13",
+ "v1_category": "SEC",
+ "headline": "Anthropic says its new low-cost Claude Haiku 5.5 model resists hidden-instruction attacks far better than earlier Haiku models, though it still trails the company's larger models on some tests.",
+ "score": 5,
+ "score_reason": "Pool score kept: detailed test results on safety and attack resistance, but they are the developer's own evaluations and mostly exclude production safeguards.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who build automated AI agents on a cheap model get a version that is harder to trick with instructions hidden in emails or web pages, but the figures are Anthropic's own, were mostly measured without full safeguards, and the model remains weaker than Sonnet 5.5 and Opus 5.5 on some attack tests.",
+ "source": "Help Net Security",
+ "status": "REPORTED",
+ "summary": "Help Net Security reports, from Anthropic's published evaluations, that Claude Haiku 5.5, the company's small, fast and cheaper model, is its most resistant Haiku yet to prompt injection (hidden instructions planted in emails or web pages to make an AI act against its user) and refused 84.3% of malicious requests in Claude Code tests, up from 66.6% for Haiku 4.5. Anthropic also says the model is better than Haiku 4.5 at finding software flaws and writing exploits but far behind its larger models (a pre-release version completed 3.3% of multi-stage cyber challenges against 46.1% for Sonnet 5.5), and most tests excluded the extra safeguards used in production.",
+ "url": "https://www.helpnetsecurity.com/2026/10/08/anthropic-claude-haiku-5-5/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on Help Net Security; Anthropic's own documents were not opened. All figures are Anthropic's."
+}

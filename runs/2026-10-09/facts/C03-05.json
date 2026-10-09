@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-05",
+ "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
+ "source_used": "Google Developers Blog",
+ "article_url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
+ "fetched": true,
+ "key_facts": [
+  "Google's AI Edge team released ML Drift as open source under the Apache 2.0 licence.",
+  "It is a GPU engine for running AI models on devices, across OpenGL ES, OpenCL, Metal and WebGPU, and is the core GPU engine in LiteRT.",
+  "It replaces the older TensorFlow Lite GPU delegate, which will no longer get new feature updates.",
+  "Google says it already runs on millions of devices daily, in Chrome, YouTube Shorts, Photos, Meet and AI Edge Gallery.",
+  "Google reports up to 40% lower average frame delay in YouTube Shorts effects, and up to 30% faster Adobe Lightroom and Photoshop AI features on mobile.",
+  "Windows and Linux support are desktop previews; in Gemma tests it uses up to 12% less memory than other frameworks, per Google.",
+  "It adds 5D tensor support and a guide so coding agents can write custom GPU shaders."
+ ],
+ "quote_evidence": [
+  "ML Drift is already running in production across millions of devices daily, powering key features across Google's ecosystem, including Chrome, YouTube Shorts, Photos, Meet, and the recently launched AI Edge Gallery.",
+  "With the launch of ML Drift, the legacy TFLite GPU delegate will no longer receive new feature updates."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "One open engine for on-device AI across many chips; performance numbers are Google's own.",
+ "event_date": "8 Oct 2026 (post published 8 Oct 2026)",
+ "notes": "Official Google post, read in full except the benchmark charts. All figures are Google's own claims."
+}

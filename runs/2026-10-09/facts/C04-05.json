@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-05",
+ "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
+ "source_used": "SecurityWeek",
+ "article_url": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at George Washington University (Neil Johnson and Frank Huo) published a paper on predicting when and why a chatbot goes rogue.",
+  "They argue a conversation's accumulated context can shift the model's attention toward an undesirable output until a tipping point is crossed.",
+  "They derived a formula for the number of good outputs before the first bad one appears.",
+  "The formula was tested on seven open-weight models from three groups, ranging from 124 million to 12 billion parameters; results matched the predicted immediate versus delayed tipping.",
+  "Johnson says a simple \"warning light\" inside the model could flag the tipping; the team added it to open-source models in their lab but cannot do so in closed models from OpenAI or Anthropic.",
+  "Johnson also describes a possible spread of the tipping between AI agents that interact; this is his own scenario, not a tested result.",
+  "SecurityWeek's author concludes it is almost impossible to see or prevent an AI going rogue, which is his opinion."
+ ],
+ "quote_evidence": [
+  "The math formulaic tipping point was tested across seven open-weight transformer models built by three independent groups and ranging from 124 million (small model) to 12 billion (larger model) parameters.",
+  "“A simple warning light placed within the AI before it produces its next output. This is easy for AI companies to insert. We have already inserted this in the open source models in our lab, but obviously we cannot get inside OpenAI and Anthropic’s closed AI models to do this.”"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A testable formula for when chatbot conversations tip into bad output could give an early-warning signal, so far shown only on small open models.",
+ "event_date": "Not stated; SecurityWeek report 9 Oct 2026",
+ "notes": "Whether the paper is peer reviewed is not stated. The article ends with the author's own opinion and a vendor comment, not used as fact."
+}

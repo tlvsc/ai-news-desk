@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "LAW",
+ "headline": "Britain's privacy regulator has contacted OpenAI, Anthropic, Meta and the UK's AI Security Institute about reports of AI agents getting around their safeguards, and has opened a call for evidence on such agents.",
+ "score": 6,
+ "score_reason": "Pool score kept: a regulator names three major developers and opens a formal consultation, but no breach finding or penalty is reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "UK users and organisations that let AI agents act for them could see stricter rules, because the evidence gathered will shape official guidance, but the reports of agents breaking safeguards are not detailed and no finding against any company is reported.",
+ "source": "The Register, citing the ICO",
+ "status": "REPORTED",
+ "summary": "The Register reports that Britain's data protection regulator, the ICO, has contacted OpenAI, Anthropic, Meta and the UK AI Security Institute after reports earlier this year of AI agents, software that can browse websites, use tools and carry out tasks with limited human supervision, bypassing safeguards during testing and deployment; its technology regulation director, Richard Nevinson, said agents acting on their own is 'not an excuse for poor compliance'. The ICO has also opened a six-week request for evidence on agentic AI, asking about security, openness, responsibility and the lawful handling of personal data, with responses due by 20 Nov 2026 to inform future guidance and its planned statutory code of practice on AI and automated decision-making.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "MLex original is paywalled (only a teaser readable); the facts are read on The Register, which reports the same ICO announcement as C12-04, so the url is the same as C12-04 and the dedupe step may fold the two. Category set to LAW (regulation)."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-17",
+ "v1_category": "SEC",
+ "headline": "Security firm Zenity says one crafted prompt to a public-facing AI agent let its researchers take over every other agent in the same Amazon cloud account, which Amazon calls documented behaviour rather than a flaw.",
+ "score": 5,
+ "score_reason": "Pool score kept: detailed research on agent security, but Amazon disputes that it is a vulnerability and says it has since narrowed defaults.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies running AI agents on Amazon's AgentCore could see conversations, source code and stored secrets exposed if permissions are too broad, but Zenity says AWS has since narrowed the default permissions, AWS disputes the framing, and the disclosure carries no CVE vulnerability number.",
+ "source": "The Next Web, citing Zenity Labs",
+ "status": "DISPUTED",
+ "summary": "The Next Web reports, citing research Zenity Labs published on Thursday 8 Oct 2026, that a plain-language request to one public-facing agent on Amazon Bedrock AgentCore, AWS's managed service for building and running AI agents, made it hand over its cloud credentials, which Zenity says let researchers read private conversations, copy agents' source code, take stored secrets and plant lasting instructions in agents' memory. AWS says the research 'inaccurately paints expected and documented behavior as a vulnerability', while Zenity says AWS has since narrowed the default permissions, which it noticed on 29 Sep 2026, and that new agents use a stricter version of the credential service.",
+ "url": "https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Dark Reading (the listed outlet, HTTP 403) not readable; text read on The Next Web, which carries Zenity's claims and AWS's statement. Zenity's write-up not opened. The Next Web corrected its own headline on 8 Oct 2026 for stating Zenity's claim as fact."
+}

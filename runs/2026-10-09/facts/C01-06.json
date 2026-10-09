@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-06",
+ "title": "Introducing SWE-2: Pushing the Pareto Frontier",
+ "source_used": "Cognition (company blog)",
+ "article_url": "https://cognition.com/blog/swe-2",
+ "fetched": true,
+ "key_facts": [
+  "Cognition introduced SWE-2, its most advanced coding model, on 8 Oct 2026.",
+  "It scored 50.0% on FrontierCode 1.1 Main, within one point of Fable 5.1 while being 64% cheaper, per Cognition.",
+  "Cognition says it beats SWE-1.7 and Grok 4.6 on both score and cost and comes within a few points of GPT-6 Astra at a quarter of the cost.",
+  "It is post-trained from Kimi K3, a 2.8-trillion-parameter model, using reinforcement learning at multi-trillion-parameter scale.",
+  "The training adds a cost penalty so all reasoning-effort levels are trained in a single run.",
+  "SWE-2 medium scores higher than SWE-1.7 with 58% fewer turns and 81% lower cost on average on FrontierCode 1.1 Main.",
+  "Available from today in Devin Desktop and CLI; rolling out on Devin Web and Fusion."
+ ],
+ "quote_evidence": [
+  "Today we’re introducing SWE-2, our most advanced coding model yet.",
+  "SWE-2 is available starting today in Devin Desktop and CLI.",
+  "We’re also rolling it out on Devin Web and Fusion."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A cheaper coding model near the top of reported performance could lower the cost of AI coding agents.",
+ "event_date": "8 Oct 2026",
+ "notes": "Company blog post; all scores and cost comparisons are Cognition's own. Text shows 'Kimi K33' where a footnote number follows 'Kimi K3'; read as Kimi K3."
+}

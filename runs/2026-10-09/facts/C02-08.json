@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-08",
+ "title": "OutSystems Agent Experience opens platform to Claude Code and Cursor",
+ "source_used": "IT Brief Australia (also SMBtech)",
+ "article_url": "https://itbrief.com.au/story/outsystems-opens-agent-experience-to-third-party-ai-agents",
+ "fetched": true,
+ "key_facts": [
+  "OutSystems, a low-code software platform vendor, made its Agent Experience product generally available.",
+  "It lets outside AI coding agents such as Claude Code, Cursor, Codex and Kiro work inside the OutSystems environment while governance and deployment controls stay in place (unveiled at OutSystems World Tour Las Vegas, per SMBtech).",
+  "The agents shape the application design while the platform generates the code deterministically.",
+  "Supports public cloud, private cloud, on-premise and hybrid deployment; aimed at large and regulated organisations.",
+  "OutSystems cites developer survey data that 74% of AI-generated code needs significant rework or is never deployed to production.",
+  "Company-reported customer results: YESCO cut release cycles to two weeks; Lowenstein Sandler built a litigation tracker in under three hours; Danish retailer Normal built an app in two weeks versus about six.",
+  "CEO Woodson Martin: coding agents have unlocked velocity but the real friction is operational overhead and fragmented code."
+ ],
+ "quote_evidence": [
+  "OutSystems has made its Agent Experience product generally available, opening its software platform to third-party AI coding agents.",
+  "OutSystems says the system operates at the software design level rather than only generating code."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Companies can use their preferred AI coding agents without bypassing the controls that enterprise software requires.",
+ "event_date": "Announced at OutSystems World Tour Las Vegas; exact date not stated (reports dated 8 Oct 2026).",
+ "notes": "Techzine (pool link) returned 403; read IT Brief Australia and SMBtech, which both draw on OutSystems' announcement. Customer results and the 74% figure are company-cited."
+}

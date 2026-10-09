@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-10",
+ "title": "Samsung's LittleBit squeezes AI models to a tenth of a bit per weight",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/samsungs-littlebit-squeezes-ai-models-to-a-tenth-of-a-bit-per-weight/",
+ "fetched": true,
+ "key_facts": [
+  "Samsung Research's LittleBit method compresses model weights to about 0.1 bit each, a nearly 31x memory cut.",
+  "Llama2-13B fits under 0.9GB and Llama2-70B under 2GB, per the team's paper presented as a NeurIPS 2025 poster in December (2025).",
+  "On Llama2-7B at 0.1 bits it outperforms competing methods at 0.7 bits, per the team's benchmarks.",
+  "Samsung claims up to an 11.6x inference speedup over FP16; code is public on GitHub; a LittleBit-2 successor was tied to ICML 2026.",
+  "Samsung has not said whether it will ship in products; public materials call it research.",
+  "The article sets it beside PrismML, a Caltech spinout whose compressed Bonsai 27B runs on an iPhone and which CNBC reports is in early talks with Apple.",
+  "Google's TurboQuant compresses the key-value cache and moved memory stocks when announced in March."
+ ],
+ "quote_evidence": [
+  "Samsung Research says its LittleBit technique can shrink a 13-billion-parameter model to under a gigabyte, at a compression level most quantization methods can't survive without breaking the model.",
+  "Samsung also says the compressed format unlocks up to an 11.6x inference speedup over FP16.",
+  "Samsung hasn't said whether LittleBit is headed into its own phones or Galaxy Watch lineup, and the company's public materials describe it as a research contribution rather than a shipping product."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Extreme compression could let capable models run on phones, but this is research from last December.",
+ "event_date": "Dec 2025 (paper); article 8 Oct 2026",
+ "notes": "Older research re-dated: the paper was presented in December 2025; the 8 Oct article is a roundup. Figures are Samsung's own."
+}

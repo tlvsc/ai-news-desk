@@ -1,0 +1,22 @@
+{
+ "item_id": "C12-11",
+ "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+ "source_used": "BleepingComputer (fulltext, read in full)",
+ "article_url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+ "fetched": true,
+ "key_facts": [
+  "New entries on the Microsoft 365 Roadmap show Microsoft is developing support for third-party deepfake detection and impersonation protection in Teams meetings.",
+  "Both are due for general availability in November after a worldwide rollout.",
+  "Certified third-party providers will analyse meeting audio and video for signs of synthetic or manipulated media and send detection signals to Teams, which will show in-meeting experiences and controls.",
+  "A separate impersonation-protection feature will warn users about suspected deceptive organisers or participants with warnings and risk indicators.",
+  "These are part of a series of Teams security additions, including QR-code blurring for external senders and blocking external bots."
+ ],
+ "quote_evidence": [
+  "Organizations can enhance meeting security with synthetic audio and video detection solutions provided by certified third-party providers,",
+  "When Teams detects a potential impersonation attempt, it surfaces warnings and risk indicators to help users recognize suspicious identities and make more informed decisions when joining or participating in a meeting,"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Microsoft plans to let companies plug deepfake detectors into video meetings and to warn users about impersonators, aimed at fraud using fake faces and voices.",
+ "event_date": "Roadmap entries reported 8 Oct 2026; release planned November 2026",
+ "notes": "Based on Microsoft 365 Roadmap entries as read by BleepingComputer; roadmap items can change. The Microsoft entries were not opened."
+}

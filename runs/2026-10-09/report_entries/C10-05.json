@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-05",
+ "v1_category": "HEA",
+ "headline": "A Mount Sinai study found that a short safety reminder lowered, but did not eliminate, the harmful medical choices made by AI chatbots.",
+ "score": 4,
+ "score_reason": "Useful safety result, but the paper was published on 26 Sep 2026 and only publicised on 8 Oct; lowered by 1 from 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Shows that how an AI tool is instructed changes its clinical safety, which matters to patients and hospitals adopting it, but about 1 in 10 answers were still potentially harmful and the tests were written scenarios, not real patients.",
+ "source": "Medical Economics, citing Mount Sinai",
+ "status": "REPORTED",
+ "summary": "Medical Economics reports that researchers at Mount Sinai's Icahn School of Medicine tested 20 large language models on more than 10 million responses and found that a brief safety reminder cut potentially harmful clinical choices from 16.6% to 10.1%, with the drop seen in 19 of the 20 models. The authors stress that harmful choices still appeared in roughly 1 in 10 responses and that a reminder is one safeguard, not a substitute for clinical oversight.",
+ "url": "https://www.medicaleconomics.com/view/can-a-safety-prompt-make-ai-safer-for-clinical-decisions-study-says-yes-partly",
+ "freshness": "FOLLOW-UP of 26 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Mount Sinai page blocked (edgesuite error); written from Medical Economics, which cites the Mount Sinai study published 26 Sep 2026 in Communications Medicine."
+}

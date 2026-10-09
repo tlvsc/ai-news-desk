@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "MOD",
+ "headline": "Google has released ML Drift, its engine for running AI models on the graphics chips of phones and computers, as free open-source software.",
+ "score": 6,
+ "score_reason": "Kept at the pool score: official release with real production use, but a developer tool and the numbers are Google's own.",
+ "importance_line": "App developers get one open tool that works across many types of chip, which may make AI features run faster on the device itself, though every performance figure is Google's own and Windows and Linux support is still an early preview.",
+ "source": "Google Developers Blog",
+ "status": "CONFIRMED",
+ "summary": "Google's AI Edge team announced the open-source release of ML Drift under the Apache 2.0 licence, an engine that runs AI models on a device's graphics chip across Android, iOS, web and, in preview, desktop. Google says it already runs on millions of devices, cutting frame delay by up to 40% in YouTube Shorts effects and speeding up some Adobe photo features by up to 30%, and that the older TensorFlow Lite GPU delegate will get no new features.",
+ "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool source label was blog.google; the post is on developers.googleblog.com.",
+ "importance_label": "MEDIUM"
+}

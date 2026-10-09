@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-10",
+ "title": "US government lagging in transition to post-quantum encryption, GAO finds",
+ "source_used": "Cybersecurity Dive",
+ "article_url": "https://www.cybersecuritydive.com/news/government-quantum-encryption-migration-gao/832377/",
+ "fetched": true,
+ "key_facts": [
+  "The Government Accountability Office (GAO) published a report on Tuesday (6 Oct 2026) on federal preparation for post-quantum encryption.",
+  "Of 24 major federal agencies, only one had completed inventorying its systems and vulnerable algorithms, none had identified all necessary funding and none had fully tested post-quantum algorithms.",
+  "Only five of 24 agencies used automated tools to find sensitive data protected by vulnerable algorithms; 16 of those without a test plan said it was too early because vendors had not built in the new algorithms.",
+  "GAO warns that the risk includes \"harvest now, decrypt later\": stolen encrypted data decrypted once powerful quantum computers exist; experts disagree on when that will be.",
+  "In a non-public version GAO made 89 recommendations; of the 23 agencies given recommendations, only 12 fully agreed.",
+  "NIST has standardised post-quantum algorithms and OMB, CISA and partners have issued directions and guidance."
+ ],
+ "quote_evidence": [
+  "By the end of the audit period, GAO said, only one of the 24 major federal agencies had completed the inventorying step, none had identified all necessary funding and none had fully tested PQC algorithms.",
+  "Of the 23 agencies to which GAO assigned recommendations, only 12 fully agreed to implement them."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Federal agencies are behind on moving to quantum-resistant encryption, according to the government's own auditor.",
+ "event_date": "6 Oct 2026",
+ "notes": "GAO report published Tuesday 6 Oct 2026, before the 8 Oct cutoff, so scored down one; the article is dated 8 Oct. Cybersecurity Dive reports on the GAO report; GAO itself was not opened."
+}

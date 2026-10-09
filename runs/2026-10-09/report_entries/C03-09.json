@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-09",
+ "v1_category": "MOD",
+ "headline": "Google Cloud's Agent Gateway, a traffic controller for AI agents that reads the two main agent protocols, is available in preview.",
+ "score": 3,
+ "score_reason": "Pool score 5 lowered by 2: the announcement dates from Google Cloud Next earlier this year and the 8 Oct piece is analysis of it.",
+ "importance_line": "Companies building systems of several AI agents get a way to control which tools each agent may use, but the gateway is only a preview, details may change, and the claim that it is the first of its kind is Forkast's own.",
+ "source": "Forkast News",
+ "status": "REPORTED",
+ "summary": "Forkast News reports in an analysis that Google's Agent Gateway, introduced at Google Cloud Next '26 and still in preview, understands the Model Context Protocol (MCP, a standard that connects AI agents to tools) and the Agent-to-Agent (A2A) protocol, so companies can allow an agent only specific tool calls. This is older news: the announcement was made earlier this year, and Forkast says details may change before general release.",
+ "url": "https://forkast.news/google-cloud-ships-the-first-protocol-native-agent-gateway-and-it-understands-mcp-and-a2a/",
+ "freshness": "FOLLOW-UP of 22 Apr 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Re-dated older news: the freshness date 22 Apr 2026 comes from SDxCentral's Google Cloud Next coverage, not from the Forkast article, which gives no date for the event.",
+ "importance_label": "WATCHLIST"
+}

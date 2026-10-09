@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-14",
+ "v1_category": "SEC",
+ "headline": "Researchers say Meta's new Muse AI assistant is told to build a profile page on every person in a user's life, raising privacy concerns even for people who never signed up.",
+ "score": 4,
+ "score_reason": "Lowered from 5: the listed Fast Company article could not be checked, and the underlying Wired report dates from 6-7 Oct 2026; the alleged system prompts are also unverified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Muse users and the family, friends and colleagues they message could have their details profiled, but the instructions come from a researcher's extraction reported by Wired and Mashable could not verify them, and Meta says Muse only uses public information and what users choose to share.",
+ "source": "Mashable, citing Wired",
+ "status": "REPORTED",
+ "summary": "Mashable reports, citing Wired and researcher Karan Joshi, that system instructions extracted from Meta's Muse assistant, which has passed 5 million downloads in three weeks, tell it to create 'a page for every person in the user's life' with details such as relationships, birthdays and what the user owes or has promised, and researchers at FutureSociety say a background loop refreshes the pages hourly. Mashable could not verify the instructions, though other researchers have posted similar prompts, and Meta told Wired that Muse gathers context 'based on public information and from what you've chosen to share'.",
+ "url": "https://mashable.com/tech/meta-muse-report-ai-assistant-keeps-track-of-family-friends",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The listed Fast Company page returned 403; Mashable and Technowize cover the same Wired report. The Wired report itself was not opened. Score lowered by one (original unreadable and the report is from 6-7 Oct 2026)."
+}

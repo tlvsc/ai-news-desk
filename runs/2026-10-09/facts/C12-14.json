@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-14",
+ "title": "Meta's Muse is taking off. So are the privacy concerns",
+ "source_used": "Mashable (read in full); Technowize (read) as a second account. Fast Company (the listed outlet) returned HTTP 403.",
+ "article_url": "https://mashable.com/tech/meta-muse-report-ai-assistant-keeps-track-of-family-friends",
+ "fetched": true,
+ "key_facts": [
+  "Meta's Muse AI assistant has more than 5 million downloads in three weeks.",
+  "A Wired report with independent researcher Karan Joshi says Muse has been instructed to create 'a page for every person in the user's life'.",
+  "Per researchers at FutureSociety, a 'Relationships' loop runs hourly in the background on a user's computer and updates each person's page.",
+  "The alleged system prompts say Muse compiles data from messages, photos and past conversations; pages hold relationship type, home location, likes, important dates, and what the user owes or has promised.",
+  "Mashable cannot independently verify the system instructions, but other researchers have shared the alleged prompts online.",
+  "Meta spokesperson Daniel Roberts told Wired Muse gathers context 'based on public information and from what you've chosen to share'.",
+  "Technowize adds that the app raises concerns for non-users whose details may be profiled, citing Cybernews and Wired."
+ ],
+ "quote_evidence": [
+  "Namely, the report claimed that Muse has been instructed to create “a page for every person in the user’s life.”",
+  "Mashable cannot independently verify these system instructions, but Joshi isn't the only researcher to share the alleged prompts online in recent days.",
+  "Muse gathers that based on public information and from what you’ve chosen to share"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A popular assistant is said to build profiles of everyone in a user's life, including people who never signed up, though the instructions are unverified.",
+ "event_date": "Wired report about 6-7 Oct 2026 (Mashable article 7 Oct 2026)",
+ "notes": "Fast Company page blocked (403); the same story was read on Mashable (reporting Wired and researcher Karan Joshi) and Technowize. The Wired report and the system prompts were not opened and Mashable could not verify them. Event predates 8 Oct 2026, so the score is lowered."
+}

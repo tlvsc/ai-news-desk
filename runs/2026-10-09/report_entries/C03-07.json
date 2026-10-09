@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "SEC",
+ "headline": "GitHub has made local sandboxing for its Copilot AI coding assistant generally available at no extra cost.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: the release was on 7 Oct 2026 and it is an incremental security control.",
+ "importance_line": "Developers and companies can let coding agents act more freely inside set limits, though The New Stack notes that Copilot's built-in file tools rely on checks inside the agent software and that remote tool servers sit outside the sandbox.",
+ "source": "GitHub",
+ "status": "CONFIRMED",
+ "summary": "GitHub says local sandboxing is now generally available in Copilot CLI, the Copilot app and VS Code sessions that use Agent Host, limiting the files, network, credentials and other system access of the commands Copilot runs on a developer's computer. It is built on Microsoft's eXecution Container (MXC) technology, and organisations can require it with settings developers cannot weaken.",
+ "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Technobezz page was blocked (403); the url is GitHub's own announcement, which was read. The limits on the sandbox come from The New Stack (C03-02).",
+ "importance_label": "WATCHLIST"
+}

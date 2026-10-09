@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "headline": "JetBrains has released Mellum2.1, an open 12-billion-parameter coding model built to run on a company's own hardware.",
+ "score": 5,
+ "score_reason": "Kept: genuine open release, modest size and self-reported results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that want an AI coding helper that keeps their code on their own servers get a small open option, but JetBrains' comparisons are its own and shattered.io's reading of the model card shows a 47.0% score on the SWE-bench Verified test and much weaker results on the hardest agent tests.",
+ "source": "JetBrains",
+ "status": "CONFIRMED",
+ "summary": "JetBrains says in its blog post that Mellum2.1, released under the Apache 2.0 open licence (free to use and modify), was trained mainly with reinforcement learning in real software environments so it can explore a codebase, edit files and check its own changes, and that under heavy load it serves almost twice as many tokens as the similar-sized Qwen3.5-9B. Only 2.5 billion of its 12 billion parameters are active at a time, and ready-to-run builds for tools such as llama.cpp, Ollama and LM Studio are still to come.",
+ "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original MarkTechPost article blocked (403); URL is JetBrains' own post. The 47.0% score comes from shattered.io's reading of the Hugging Face model card."
+}

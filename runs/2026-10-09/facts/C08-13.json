@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-13",
+ "title": "[News] NVIDIA’s NVHBM Reshapes Base Die Strategies: How Micron, Samsung Are Bringing TSMC Into the Fold",
+ "source_used": "TrendForce News",
+ "article_url": "https://www.trendforce.com/news/2026/10/09/news-nvidias-nvhbm-reshapes-memory-makers-base-die-strategies-as-micron-samsung-turn-to-external-foundries/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia's NVHBM, announced in August, moves the memory controller into the HBM base die.",
+  "The Elec: Micron said NVHBM and JEDEC-standard HBM4E will use base dies from an external foundry; TSMC is expected to take the role.",
+  "ZDNet: Samsung is pursuing a dual track, pairing its memory dies with base dies from Samsung Foundry or TSMC depending on the customer.",
+  "Nvidia claims up to 30% more bandwidth, 15% lower HBM power and up to 25% more area freed on the compute die versus standard HBM4E.",
+  "Amazon's Annapurna Labs is set to adopt the technology for its Trainium 4 accelerator (ZDNet).",
+  "SK hynix already uses TSMC's 12nm process for its HBM4 base die; 3nm is prioritised for HBM4E and custom HBM (EDAILY)."
+ ],
+ "quote_evidence": [
+  "According to The Elec, Micron said both its NVHBM, co-designed with NVIDIA, and JEDEC-standard HBM4E will use base dies manufactured by an external foundry.",
+  "According to NVIDIA, NVHBM delivers up to 30% greater memory bandwidth and 15% lower HBM power consumption than standard HBM4E, while freeing up to 25% more area on the XPU compute die.",
+  "Under the new model, Samsung’s HBM core dies could be paired with base dies manufactured by either Samsung Foundry or foundry rival TSMC, depending on customer requirements, the report notes."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Memory makers shift base-die production to TSMC for custom HBM.",
+ "event_date": "9 Oct 2026",
+ "notes": "TrendForce News curates other outlets' reports (The Elec, ZDNet, Newsis, EDAILY); chain of first reporters is named in the summary. Performance figures are attributed to NVIDIA."
+}

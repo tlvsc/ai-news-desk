@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "GitHub Copilot will soon decide by itself whether a coding task runs on the developer's own computer or in the cloud, but Microsoft has not said what code gets sent out.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the Microsoft post is from 7 Oct 2026 and the key privacy details are still unanswered.",
+ "importance_line": "Developers on teams with strict data rules cannot yet tell what code leaves their machine, and Microsoft's own test of the local model used 75.5GB of memory, more than most laptops have.",
+ "source": "The New Stack",
+ "status": "REPORTED",
+ "summary": "The New Stack reports that Microsoft and GitHub outlined on 7 Oct 2026 an automatic routing feature for Copilot that picks between a local model and cloud models, expected by the end of October and starting with a 53GB local coding model called MAI Code 1.1 Flash. Microsoft has not said how much conversation history or code the feature sends to the cloud, whether developers can see those decisions, or whether it can be limited to local models.",
+ "url": "https://thenewstack.io/https-thenewstack-io-copilot-local-inference-routing/",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Benchmark scores quoted by The New Stack are Microsoft's own claims; not used in the summary.",
+ "importance_label": "MEDIUM"
+}

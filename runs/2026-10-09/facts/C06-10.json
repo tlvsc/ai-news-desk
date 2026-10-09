@@ -1,0 +1,26 @@
+{
+ "item_id": "C06-10",
+ "title": "Armadin Targets Autonomous Remediation With $255.5M Series B",
+ "source_used": "BankInfoSecurity (read via decoded link), plus CyberWire business briefing of 7 Oct 2026",
+ "article_url": "https://www.bankinfosecurity.com/armadin-targets-autonomous-remediation-2555m-series-b-a-33010",
+ "fetched": true,
+ "key_facts": [
+  "Armadin, a Silicon Valley startup led by Kevin Mandia, raised $255.5 million at a $2.5 billion valuation.",
+  "Series B led by Andreessen Horowitz and Accel; CyberWire lists Bain Capital Ventures and Redpoint as participants.",
+  "The money will fund \"autonomous remediation\": compensating controls, such as firewall rules, that block exploits at machine speed while customers work on permanent fixes.",
+  "The first integration is with CrowdStrike's Falcon managed detection and response (MDR) service, letting users push a block rule with a single button; SentinelOne and Microsoft are targets.",
+  "Co-founder Evan Pena said permanent fixes can take days or weeks.",
+  "Pena said the web-application-firewall blocks are not a silver bullet and get bypassed after a short period.",
+  "Mandia sold Mandiant to Google for $5.4 billion in 2022 and left Google in 2024.",
+  "The round was already listed in a CyberWire business briefing dated 7 Oct 2026."
+ ],
+ "quote_evidence": [
+  "A startup led by Kevin Mandia raised $255.5 million at a $2.5 billion valuation to provide rapid, near-real-time defenses against critical vulnerabilities and emerging threats.",
+  "Armadin wants to develop compensating controls or stopgaps that can be deployed at machine speed to block exploits while customers work on permanent fixes, which Pena said can take days or weeks.",
+  "The first integration was with CrowdStrike's Falcon MDR, which Pena said enables users to push a block rule with a single button to stop a kill chain."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "AI-driven attackers are pushing security firms to automate the stopgap blocks that companies otherwise wait days or weeks to replace with fixes.",
+ "event_date": "by 7 Oct 2026",
+ "notes": "Round announced before 8 Oct 2026 (CyberWire briefing for 7 Oct lists it), so it is older than the pool date; exact announcement day not confirmed. Forkast News carries claims (agent counts, Senate hearing) not used here. Company claims."
+}

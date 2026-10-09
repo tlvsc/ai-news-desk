@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-01",
+ "title": "Gemini 4 Argon: our next era of frontier intelligence",
+ "source_used": "Google (official blog post)",
+ "article_url": "https://blog.google/intl/en-in/products/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+ "fetched": true,
+ "key_facts": [
+  "Google announced Gemini 4 Argon, a new frontier model, on 8 Oct 2026.",
+  "It is rolling out first to a set of trusted cyber defenders through the Fairwind Program; these users and Google's own teams get it without cyber guardrails.",
+  "Wider release to developers, enterprises and consumers comes later, starting with paid API customers and Google AI Ultra subscribers; no date given.",
+  "Google says it is in the US government's voluntary process for pre-release model access.",
+  "Introductory price is $2 per million input tokens and $10 per million output tokens; $4 and $20 after the introductory period.",
+  "Output limit rises to 1M tokens, up from 64K.",
+  "Google's own benchmark claims: 77.9% on DeepSWE v1.1, first on the Vals Index, 51.3% (rank 1) on Zapier's AutomationBench, 91.7% on LVBench, 68% (tied first) on CWE-bench v1.",
+  "Google says Argon can autonomously find, validate and patch critical software vulnerabilities; Wiz used it to find a critical flaw in healthcare software used by hospitals."
+ ],
+ "quote_evidence": [
+  "Today, we’re announcing our new frontier model, Gemini 4 Argon, which is rolling out to a set of trusted cyber defenders through our Fairwind Program.",
+  "We are actively engaged in the U.S. government’s voluntary process for pre-release model access while we gradually expand access.",
+  "It sets a new state of the art on DeepSWE v1.1 (77.9%), which measures a model’s performance in real-world long-horizon software engineering tasks."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A leading AI lab is releasing its strongest model first to security defenders, without its usual cyber safeguards, before a wider launch.",
+ "event_date": "8 Oct 2026",
+ "notes": "All benchmark results are Google's own. Pool marks this a follow-up of 6 Oct pool item C01-05 (OfficeChai: Argon with Antigravity placed ahead of GPT 6.1 Sol on a coding-agent index, 5 Oct); the official launch is new today."
+}

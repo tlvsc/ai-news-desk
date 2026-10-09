@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-06",
+ "title": "PCI SSC calls for human approval of AI agent actions involving cardholder data",
+ "source_used": "Help Net Security (fulltext, read in full)",
+ "article_url": "https://www.helpnetsecurity.com/2026/10/09/pci-ssc-payment-environments-ai-security-guidance/",
+ "fetched": true,
+ "key_facts": [
+  "The PCI Security Standards Council published 'Security Considerations for AI Systems', guidance on protecting data given to AI systems in payment environments and defending against AI-assisted attacks.",
+  "The recommendations are advisory and existing PCI requirements take precedence.",
+  "For agents with access to readable (cleartext) cardholder data, explicit human approval for any action involving that data is recommended.",
+  "A 'least agency' approach limits each AI system to the access and abilities its task needs; a named human should accept responsibility for AI output.",
+  "AI systems should not handle, generate or manage unprotected passwords or cryptographic keys.",
+  "The Council warns AI can accelerate vulnerability discovery, exploit development and social engineering, and advises security and functional testing of AI-generated code and patches.",
+  "Organisations should avoid combining sensitive data access, external communications and untrusted input in one AI system."
+ ],
+ "quote_evidence": [
+  "Its recommendations are advisory, and existing PCI requirements take precedence.",
+  "For agents with access to cleartext cardholder data, explicit human approval for any actions involving that data is recommended.",
+  "AI systems should not handle, generate or manage unprotected high-impact secrets, including passwords and cryptographic keys."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The body behind card-payment security rules sets out how AI agents should be restrained where card data is handled, though the advice is not mandatory.",
+ "event_date": "Published around 8-9 Oct 2026 (Help Net Security article dated 9 Oct 2026)",
+ "notes": "Read in full on Help Net Security; the PCI SSC document itself was not opened."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-07",
+ "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+ "source_used": "JetBrains blog (MarkTechPost blocked, HTTP 403); shattered.io for model-card figures",
+ "article_url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+ "fetched": true,
+ "key_facts": [
+  "JetBrains released Mellum2.1 on 8 Oct 2026, the next version of the 12B mixture-of-experts model it open-sourced in June.",
+  "Architecture unchanged: 2.5B active parameters, Apache 2.0 licence.",
+  "The change is post-training: reinforcement learning became the main stage, with millions of sandboxed runs across thousands of environments.",
+  "JetBrains says the model can explore a codebase, edit files and check its own changes.",
+  "Compared with Qwen3.5-9B and Gemma 4 E4B, JetBrains says it is the fastest under heavy load, serving almost twice as many tokens as Qwen3.5-9B.",
+  "Multi-token prediction makes single requests about 1.6 times faster; GGUF builds and the MTP head for vLLM are 'coming soon'.",
+  "shattered.io, citing the model card, reports 47.0% on SWE-bench Verified and much weaker results on the hardest agent benchmarks."
+ ],
+ "quote_evidence": [
+  "Today, we’re releasing Mellum2.1, the next version of the 12B mixture-of-experts model we open-sourced in June.",
+  "Under heavy load, Mellum2.1 is the fastest model in the group and serves almost twice as many tokens as Qwen3.5-9B.",
+  "Mellum2.1 is available on Hugging Face."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A small open coding model that runs on a company's own hardware keeps code and data in-house.",
+ "event_date": "8 Oct 2026",
+ "notes": "MarkTechPost (pool source) blocked; read JetBrains' own blog post, plus shattered.io for the 47.0% figure. Comparisons are JetBrains' own."
+}

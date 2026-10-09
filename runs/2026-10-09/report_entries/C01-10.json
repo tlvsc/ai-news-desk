@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-10",
+ "v1_category": "MOD",
+ "headline": "Samsung Research says its LittleBit method can shrink a 13-billion-parameter AI model to under one gigabyte, small enough for a phone.",
+ "score": 3,
+ "score_reason": "Lowered from 5: the research dates from December 2025 and the article is a roundup, not a new result.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Smaller models could let phones and laptops run capable AI without cloud servers or scarce memory chips, but this kind of compression costs accuracy, the size and speed figures are the research team's own, and the work is about ten months old.",
+ "source": "Startup Fortune",
+ "status": "REPORTED",
+ "summary": "Startup Fortune reports that Samsung Research's LittleBit technique, presented in a paper at the NeurIPS conference in December 2025, stores each of a model's weights (the numbers that hold what it has learned) in roughly a tenth of a bit, fitting Llama2-13B in under 0.9GB, and that Samsung claims up to 11.6 times faster running than the standard 16-bit format. Samsung describes it as research rather than a product, and the piece sets it beside PrismML, a start-up whose compressed 27-billion-parameter model already runs on an iPhone and which CNBC reports is in early talks with Apple.",
+ "url": "https://startupfortune.com/samsungs-littlebit-squeezes-ai-models-to-a-tenth-of-a-bit-per-weight/",
+ "freshness": "FOLLOW-UP of Dec 2025",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Older research re-dated into the window; held back candidate. Exact December day not given."
+}

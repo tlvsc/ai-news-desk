@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-12",
+ "title": "Nvidia-backed Upscale AI launches platform to connect chips from rival suppliers",
+ "source_used": "The Next Web (relaying Reuters)",
+ "article_url": "https://thenextweb.com/news/upscale-ai-token-fabric-nvidia-ai-chip-networking",
+ "fetched": true,
+ "key_facts": [
+  "Upscale AI, a Santa Clara networking startup backed by Nvidia, launched Token Fabric on Thursday 8 Oct.",
+  "It works with GPUs, custom AI chips and network cards from any vendor, using open standards including UALink and ESUN.",
+  "It combines Upscale's SkyFabriX scale-up switch chip with scale-out switches built on Nvidia's Spectrum-X Ethernet chips.",
+  "Software layers SkyOS and SkyCMD run and monitor the network and can flag bottlenecks and hardware that may need replacement.",
+  "First part due in Q4; rest rolling out through 2027; the company statement puts general availability in early 2027.",
+  "CEO Barun Kar expects Token Fabric revenue in the tens of millions of dollars next year, possibly the low hundreds of millions."
+ ],
+ "quote_evidence": [
+  "Upscale AI, a Santa Clara networking startup backed by Nvidia, launched a platform on Thursday that lets data centres link AI chips made by different suppliers, Reuters reported.",
+  "Chief executive Barun Kar told Reuters he expects Token Fabric revenue next year in the tens of millions of dollars, possibly reaching the low hundreds of millions.",
+  "Token Fabric combines SkyFabriX, Upscale’s own scale-up switch chip, with scale-out switches built on Nvidia’s Spectrum-X Ethernet chips."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open-standard network for mixed-vendor AI chips; early stage.",
+ "event_date": "8 Oct 2026",
+ "notes": "Reuters page returned 401; read The Next Web's account, which credits Reuters for the interview and rollout details and the company statement for the early-2027 date. Second half of the TNW article was not retrievable on a retry."
+}

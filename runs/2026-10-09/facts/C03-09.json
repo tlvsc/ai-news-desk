@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-09",
+ "title": "Google Cloud Ships the First Protocol-Native Agent Gateway — and It Understands MCP and A2A",
+ "source_used": "Forkast News",
+ "article_url": "https://forkast.news/google-cloud-ships-the-first-protocol-native-agent-gateway-and-it-understands-mcp-and-a2a/",
+ "fetched": true,
+ "key_facts": [
+  "Google introduced the Gemini Enterprise Agent Platform at Google Cloud Next '26 in Las Vegas; the Agent Gateway is in preview.",
+  "The gateway is built on Envoy and Kubernetes and natively understands the Model Context Protocol (MCP) and the Agent-to-Agent (A2A) protocol.",
+  "It can allow an agent only specific tool calls, using the agent's identity and role-based access control.",
+  "It works with Model Armor against prompt injection, tool poisoning and data leakage.",
+  "Forkast says A2A v1.0 is in production at 150 organizations and sits under the Linux Foundation Agentic AI Foundation, citing Google's announcements.",
+  "Google's triage agent processed over five million alerts in the last year, cutting typical 30-minute analysis to 60 seconds.",
+  "Implementation details may change before general availability."
+ ],
+ "quote_evidence": [
+  "Central to this launch is the Agent Gateway, currently in preview, which represents the first protocol-native agent gateway from a major cloud provider.",
+  "The Gateway is currently in preview, and specific implementation details and feature sets are subject to change before general availability."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Lets companies set rules for which tools each AI agent may call, but it is a preview.",
+ "event_date": "Google Cloud Next '26; the article gives no date (SDxCentral coverage of the event is dated 22 Apr 2026)",
+ "notes": "Forkast's piece (published 8 Oct 2026) is analysis of announcements made earlier at Google Cloud Next '26; the 22 Apr 2026 date is taken from SDxCentral's event coverage seen in Google News and is not stated in the article. 'First' is Forkast's own claim. Treated as older news re-dated."
+}

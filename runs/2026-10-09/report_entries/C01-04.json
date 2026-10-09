@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-04",
+ "v1_category": "MOD",
+ "headline": "AI lab Odyssey has released Odyssey-3, a single 'world model' it says can steer robot arms, humanoids, a car and drones.",
+ "score": 6,
+ "score_reason": "New release with broad claims; facts match the article, but the results are the company's own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Robotics and self-driving developers could one day start from one general model instead of building a separate system for each machine, but this is a research preview, the demonstrations are the company's own and no independent testing is reported.",
+ "source": "The Next Web",
+ "status": "REPORTED",
+ "summary": "The Next Web reports that Odyssey, a Palo Alto AI lab, launched a research preview of Odyssey-3, a world model (an AI that learns from video to predict how a scene will change) that the company says drove a car on real roads in India with a driving policy trained on about 20 hours of data. Odyssey says it scored 66.1 on a physics-video test, the highest reported on that leaderboard, and ranked first in three of four categories of another benchmark; both results are the company's own.",
+ "url": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Read The Next Web in full. Car, robot-arm, humanoid and drone demonstrations are claimed by Odyssey."
+}

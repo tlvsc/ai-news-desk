@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-05",
+ "title": "SK hynix, Samsung push 16-layer HBM4 as Rubin favors 12",
+ "source_used": "The Korea Herald",
+ "article_url": "https://www.koreaherald.com/article/10897751",
+ "fetched": true,
+ "key_facts": [
+  "Counterpoint Research said Friday (9 Oct) that most Rubin-based products will likely use 12-layer HBM4, not the eight-layer version rumoured.",
+  "This reverses Counterpoint's August report, which had pointed to an eight-layer HBM4 variant.",
+  "Making HBM can use more than three times the wafer capacity of conventional DRAM, so AI demand could keep standard memory supply tight.",
+  "SK hynix showed a 48GB 16-layer HBM4 at CES in January; Samsung has shipped 12-layer HBM4 since February.",
+  "A September report said SK hynix began volume shipments of 16-layer HBM4 for Rubin, but the company has not confirmed it.",
+  "Packaging capacity (TSMC's CoWoS) may limit finished AI accelerators even if memory is plentiful."
+ ],
+ "quote_evidence": [
+  "Market researcher Counterpoint Research said Friday that most Rubin-based products will likely use 12-layer HBM4, the sixth generation of high-bandwidth memory, rather than the eight-layer configuration that had been rumored in the industry.",
+  "Counterpoint's latest assessment also marks a shift from its August report, which had pointed to Nvidia adopting an eight-layer HBM4 variant for Rubin.",
+  "Even with sufficient memory production, limited packaging capacity could constrain the supply of completed AI accelerators."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Analyst view eases fears of lower HBM demand; memory supply stays tight.",
+ "event_date": "9 Oct 2026",
+ "notes": "Full text read at the Korea Herald. Counterpoint is the cited source of the forecast. An anonymous industry source is also quoted."
+}

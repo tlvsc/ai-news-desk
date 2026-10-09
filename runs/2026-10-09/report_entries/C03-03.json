@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "A single developer says they used Anthropic's Claude to build free alternatives to Adobe's creative programs in the Rust programming language and plan to match Adobe's features within a month.",
+ "score": 6,
+ "score_reason": "Kept at the pool score: widely discussed, but a single-outlet report on an anonymous post with unverified claims.",
+ "importance_line": "Designers and hobbyists might one day get a free Adobe-style suite, but the code has not been independently checked, the legal question is open, and Tom's Hardware cites a Sonar survey in which 96% of developers do not fully trust AI-generated code.",
+ "source": "Tom's Hardware",
+ "status": "REPORTED",
+ "summary": "Tom's Hardware reports that a Reddit user known as u/ai_art_is_art posted GitHub links to free tools such as PhotoCraft, LightCraft and FilmCraft, built with Claude as alternatives to Adobe products and designed so that AI agents can operate them directly. Commenters have warned of possible legal action and of untested AI-written code, while replies say it is a clean-room rewrite using no Adobe code.",
+ "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The original Reddit post was removed; the claims (parity in a month, clean-room) are the developer's and commenters', not verified by Tom's Hardware.",
+ "importance_label": "MEDIUM"
+}

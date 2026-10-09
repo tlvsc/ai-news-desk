@@ -1,0 +1,22 @@
+{
+ "item_id": "C03-01",
+ "title": "Anthropic launches free AI security scans for open-source projects",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic launched a service called OSS Scanner for open-source projects.",
+  "Projects that opt in get periodic security scans by Anthropic's strongest models, including Claude Mythos, at no cost.",
+  "Reports are fully model-generated, without human review or triage, so some may be incorrect or invalid.",
+  "The Verge notes AI tools have helped find major open-source flaws, such as the 'Copy Fail' bug that affected nearly every Linux distribution in May.",
+  "Some open-source projects, including Linus Torvalds and Google, are struggling with the flood of AI-generated bug reports."
+ ],
+ "quote_evidence": [
+  "It says open-source projects that opt-in will get “thorough, periodic security scans by our strongest models at no cost.”",
+  "The outputs of this opt-in vulnerability scanner will be fully model-generated, without human review or triage."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Maintainers may learn of flaws sooner but must check unreviewed AI reports themselves.",
+ "event_date": "8 Oct 2026 (article published 8 Oct 2026)",
+ "notes": "Read The Verge text (short). Anthropic's own page not opened; The Verge quotes Anthropic's statement."
+}

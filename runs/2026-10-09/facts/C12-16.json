@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-16",
+ "title": "Hackers Use GitHub-Hosted Poem to Control PoeLLM Malware Targeting AI Infrastructure",
+ "source_used": "CyberSecurityNews (fulltext, read in full)",
+ "article_url": "https://cybersecuritynews.com/hackers-use-github-hosted-poem/",
+ "fetched": true,
+ "key_facts": [
+  "A poem titled 'On the Nature of Connection' hosted in a GitHub repository guides the PoeLLM malware to its command-and-control servers.",
+  "PoeLLM extracts four words or phrases from the poem, maps each to a number with an internal dictionary, and the four numbers form the IPv4 address of the current control server; changing the words redirects infected machines.",
+  "Active since at least April 2026; researchers observed 11 poem updates after the first commit on 13 April.",
+  "It targets internet-facing LiteLLM, Ollama, Gotenberg and Gitea servers and installs XMRig and Iron cryptocurrency miners; infected servers also scan and exploit others.",
+  "Lumen's Black Lotus Labs published its report on 7 Oct 2026; the overview gives more than 3,400 affected servers while some sections keep an earlier figure of almost 2,200; most victims are in the US and Western Europe.",
+  "One likely LiteLLM attack path is command injection flaw CVE-2026-42271.",
+  "Italian-language code comments suggest an Italian-speaking operator, not a confirmed identity."
+ ],
+ "quote_evidence": [
+  "Hackers are using a poem hosted on GitHub to guide PoeLLM malware toward its command-and-control servers, turning exposed AI infrastructure into a growing cryptocurrency-mining botnet.",
+  "Changing those words lets the attacker redirect infected machines without replacing the malware.",
+  "Italian-language code comments and network evidence suggest an Italian-speaking operator, not a confirmed identity."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Exposed AI servers are being hijacked for crypto mining using a hard-to-block poem trick, so AI tools need the same patching and exposure checks as other servers.",
+ "event_date": "Active since April 2026; Lumen report 7 Oct 2026",
+ "notes": "Secondary report of Lumen's Black Lotus Labs research (original not opened). The article's victim counts are inconsistent (3,400 versus almost 2,200)."
+}

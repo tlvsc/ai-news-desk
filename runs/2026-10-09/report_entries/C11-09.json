@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-09",
+ "v1_category": "ROB",
+ "headline": "Amazon Web Services has released an open-source toolkit that lets robot makers collect data, train, test and deploy AI models for their machines in one workflow.",
+ "score": 5,
+ "score_reason": "New on 8 Oct; a developer tool from a major cloud provider, with no outside results yet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Robotics companies get a packaged route from data to a working robot, which may speed products reaching workplaces; it builds on AWS and Nvidia tools, and the benefits described come from AWS executives with no independent test reported.",
+ "source": "The Robot Report",
+ "status": "CONFIRMED",
+ "summary": "The Robot Report reports that the Physical AI Toolchain joins AWS cloud services with Nvidia's robotics software to cover five steps: making synthetic (computer-generated) training data, training models, testing in simulation, putting models on robots and feeding field data back to improve them. AWS says it is hardware-neutral and draws on lessons from Amazon's own fleet of more than 1 million robots, aiming to ease a shortage of real-world data for training robots.",
+ "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": ""
+}

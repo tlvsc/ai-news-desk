@@ -1,0 +1,23 @@
+{
+ "item_id": "C10-14",
+ "title": "RadNet cites study modeling 18.9% fewer prostate biopsies with AI",
+ "source_used": "Mugglehead Investment Magazine",
+ "article_url": "https://mugglehead.com/radnet-deephealth-prostate-biopsy-ai-study/",
+ "fetched": true,
+ "key_facts": [
+  "RadNet's DeepHealth unit issued a release on 8 Oct 2026 citing a study published in European Radiology on 26 Sep.",
+  "In a retrospective simulation using MRI scans from 2014 to 2025 in Germany, the Netherlands and the US, adding an AI risk score to radiologists' readings of equivocal PI-RADS 3 scans would have avoided 149 biopsies among 787 men (18.9%) while keeping 98.4% sensitivity for clinically significant cancer.",
+  "Patient-level sensitivity of the AI classification was 97.6% against 92.6% for PI-RADS (noninferiority met); lesion-level it was 78.8% against 88.8% (noninferiority failed).",
+  "No biopsies were actually withheld, so the study cannot show that deferring a biopsy is safe in routine care.",
+  "The cohort had a high share of confirmed significant cancer, limiting how far the savings apply to broader screening.",
+  "The Oct 8 release reported no new regulatory decision, orders or sales figure; the Prostate AI had FDA 510(k) clearance and CE marking announced 19 May."
+ ],
+ "quote_evidence": [
+  "Those figures describe the combined decision rule, not an AI-only result or an observed reduction in procedures.",
+  "No biopsies were actually withheld in the study, so it cannot establish the safety of deferring a procedure in routine care."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Modelled evidence that AI could trim prostate biopsies, still untested prospectively.",
+ "event_date": "Study 26 Sep 2026; company release 8 Oct 2026",
+ "notes": "Study dates from 26 Sep; the 8 Oct news is a company release with no new decision or sales data, so score lowered by 1. Article carries stock-price details, omitted."
+}

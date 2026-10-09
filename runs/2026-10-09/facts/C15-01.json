@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-01",
+ "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+ "source_used": "Quantum Computing Report (account of the Department of War release; war.gov returned HTTP 403)",
+ "article_url": "https://quantumcomputingreport.com/u-s-department-of-war-announces-350-million-quantum-package-highlighted-by-150-million-osc-loan-commitment-for-psiquantum/",
+ "fetched": true,
+ "key_facts": [
+  "The US Department of War, through its Office of the Under Secretary for Research and Engineering, announced a $350 million quantum technology initiative for national security uses and domestic manufacturing of fault-tolerant quantum computers.",
+  "A conditional loan of up to $150 million from the Office of Strategic Capital goes to PsiQuantum (Palo Alto) to expand its 140,000 sq ft \"PsiFactory\" manufacturing and test hub in Milpitas, California.",
+  "The loan is subject to final execution after legal, financial, technical and regulatory due diligence.",
+  "About $200 million in new funding supports DARPA Stage C of the Quantum Benchmarking Initiative: independent verification of utility-scale hardware concepts, moving from paper reviews to physical hardware testing.",
+  "Application workshops with DOE, NNSA and the Laboratory for Physical Sciences start before January 2027, on chemistry, materials science and physics.",
+  "Separately, PsiQuantum received a $125 million expanded DARPA contract in July 2026 and a $100 million CHIPS Act award in September 2026."
+ ],
+ "quote_evidence": [
+  "The conditional commitment from the OSC will support capital expenditure for specialized hardware validation equipment, subassembly integration infrastructure, and advanced cryogenic systems required for large-scale photonic prototype testing.",
+  "Stage C transitions evaluation from theoretical blueprint audits to physical hardware testing to verify whether candidate utility-scale concepts can be built as designed."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Washington is funding both the building and the independent testing of large quantum computers.",
+ "event_date": "8 Oct 2026",
+ "notes": "war.gov blocked (HTTP 403). Facts read from Quantum Computing Report, which reproduces the release; headline also carried by South China Morning Post and The SOFX Report (not read). Source printed is the Department, relayed by QCR."
+}

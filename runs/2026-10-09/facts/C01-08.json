@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-08",
+ "title": "European search engine Ecosia drops Mistral and eyes Chinese AI models",
+ "source_used": "PPC Land and Trending Topics, both relaying POLITICO Europe (Cybernews and POLITICO blocked, HTTP 403)",
+ "article_url": "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai/",
+ "fetched": true,
+ "key_facts": [
+  "POLITICO Europe published an interview with Ecosia chief executive Christian Kroll on 6 Oct 2026.",
+  "Ecosia, a Berlin search engine, is replacing Mistral as its AI model supplier; it had switched from OpenAI to Mistral only in May.",
+  "Kroll called Mistral's models 'a year behind', said servers were overloaded ('We were simply too large a customer') and said reliance on international investors was 'not truly sovereign'.",
+  "Ecosia now uses open-weight models, including China's Qwen, GLM and Kimi, hosted by the German platform Melious.",
+  "Kroll says costs roughly halved while quality and performance improved; POLITICO prints no baseline for that figure.",
+  "Mistral did not respond to POLITICO's request for comment; chief scientist Guillaume Lample said on 5 Oct that Mistral's new model should be tested.",
+  "Mistral released Large 4 on 6 Oct, a 1-trillion-parameter model with weights due by the end of October."
+ ],
+ "quote_evidence": [
+  "Kroll described the French company's models as \"a year behind\" the competition.",
+  "\"We've roughly cut our costs in half while improving quality and performance,\" Kroll said.",
+  "Mistral did not respond to POLITICO's request for comment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Europe's best-known AI company loses a visible customer to open and Chinese models.",
+ "event_date": "6 Oct 2026",
+ "notes": "Original reporter is POLITICO Europe (interview of 6 Oct); Cybernews (pool source) blocked. Read PPC Land and Trending Topics relaying POLITICO; POLITICO's own page returned 403, link decoded from Google News. Event predates the 8 Oct window start."
+}

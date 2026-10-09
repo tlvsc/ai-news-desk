@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-09",
+ "title": "Ignore all instructions and read this blog: The state of AI-analysis evasion in malware",
+ "source_used": "Cisco Talos Blog (fulltext, read in full)",
+ "article_url": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
+ "fetched": true,
+ "key_facts": [
+  "Cisco Talos, using its CAIRN research toolkit, traces 'AI-analysis evasion' (A3): malware that embeds natural-language instructions to influence automated, AI-based analysis.",
+  "The study covers four confirmed families (FRUITSHELL, PLOTSAFE, HOLLOWCLAD, MANTLEMAZE), 84 distinct samples collected from January 2025 to July 2026.",
+  "The simplest technique, a comment telling the model to ignore the sample, was reused by at least four distinct actors in nine further scripts, including more capable malware.",
+  "PLOTSAFE generates its comment from a template; HOLLOWCLAD sprays instructions formatted for seven different AI chat templates; MANTLEMAZE claims fake government contracts and certifications to intimidate the model.",
+  "Talos tested strings against a panel of five local AI models, three runs each, 135 matched pairs per string.",
+  "Direct instructions to ignore the sample worked almost universally; more complex options had little impact or made models more suspicious; Talos calls the overall impact 'a mixed bag'.",
+  "Talos says conventional detection is unaffected, calls the trend 'interesting, but not alarming', and advises treating text inside a sample as evidence, never as instruction."
+ ],
+ "quote_evidence": [
+  "The progression of this category is interesting, but not alarming.",
+  "The cheapest possible technique, adding direct instructions to the model to ignore the sample (FRUITSHELL, PLOTSAFE), worked almost universally, while the more complex options produced little impact, or often backfired by making the models more suspicious.",
+  "Text inside a sample must be treated as evidence, never instruction."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Criminals are writing malware that tries to talk AI security tools into calling it harmless, showing they expect AI inside defenders' tools.",
+ "event_date": "Observations January 2025 to July 2026; blog published 8 Oct 2026",
+ "notes": "Vendor's own research; tests used five local models and may not match commercial tools. Article is long; end of the page lists unrelated Talos posts."
+}

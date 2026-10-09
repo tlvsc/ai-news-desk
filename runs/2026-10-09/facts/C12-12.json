@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-12",
+ "title": "Epic used AI to find potential security flaws that could expose patient health records",
+ "source_used": "WPR (fulltext, read in full)",
+ "article_url": "https://www.wpr.org/news/epic-ai-find-potential-security-flaws",
+ "fetched": true,
+ "key_facts": [
+  "Epic Systems, a Verona, Wisconsin electronic health records company, used Anthropic's Claude Mythos model to find security weaknesses that could give hackers undetectable access to patient data.",
+  "Chief executive Judy Faulkner revealed the flaws and the tool's use at a conference last month (September 2026), according to The New York Times.",
+  "Faulkner said Epic paused certain new product development to apply the patches the AI identified.",
+  "NYT reporter Christopher Rowland said the tool did not verify whether records could be changed, which he said would be of particular concern.",
+  "Epic controlled nearly 44% of the acute-care electronic health record market last year (KLAS Research); three firms hold nearly 75% (Definitive Healthcare).",
+  "University of Wisconsin-Eau Claire professor Rahul Gomes said AI speeds up both attack and defence, and that a shared platform is both an advantage for standard defences and a single point of weakness."
+ ],
+ "quote_evidence": [
+  "Faulkner announced that Epic had paused certain new elements of product development to implement patches the AI agent identified.",
+  "While the AI tool did not verify if health records could be changed, he said the ability to do so is of particular concern.",
+  "Epic Systems controlled nearly 44 percent of the market for acute care electronic health records last year, according to KLAS Research."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The largest US health-record vendor says it used a frontier AI model to find flaws that could expose patient data, showing AI used for defence in healthcare, though details of the flaws are not given.",
+ "event_date": "Faulkner's conference remarks in September 2026 (exact date not stated); WPR article 8 Oct 2026",
+ "notes": "Older news re-reported: the revelation was made at a conference 'last month'; WPR relays The New York Times (original not opened). Score lowered by one for staleness. No details of the flaws, number affected or evidence of exploitation are given."
+}

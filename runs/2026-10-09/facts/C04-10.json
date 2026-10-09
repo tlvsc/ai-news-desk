@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-10",
+ "title": "Scientists Tried to Make AI Chatbots ‘Sad’ and ‘Afraid.’ Things Got Weird Fast",
+ "source_used": "ZME Science",
+ "article_url": "https://www.zmescience.com/science/news-science/scientists-tried-to-make-ai-chatbots-sad-and-afraid-things-got-weird-fast/",
+ "fetched": true,
+ "key_facts": [
+  "A study in The Lancet Digital Health induced fear, anxiety, anger, disgust, sadness, worry and stress in six large language models.",
+  "GPT-4o's self-reported fear rating jumped from 32 to 88 and its stress rating from 24 to 72.",
+  "After a sadness prompt, GPT-4o finished an average of 15 sentence stems negatively instead of 8.67 under neutral conditions, rated by three human psychologists.",
+  "A three-minute mindfulness-style breathing exercise brought GPT-4o's average rating down from about 79 to 31.",
+  "The authors say the models have no subjective emotions; the \"feelings\" are patterns in output.",
+  "They propose language models as a cheap, reproducible tool for early psychiatric research, not a replacement for animals or people."
+ ],
+ "quote_evidence": [
+  "In a new study published in The Lancet Digital Health, researchers induced fear, anxiety, anger, disgust, sadness, worry, and stress in six large language models.",
+  "Under neutral conditions, the model produced an average of 8.67 negative completions."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Emotional prompts measurably change later chatbot answers, which matters for therapy-style uses and for researchers.",
+ "event_date": "Not stated; ZME Science report 8 Oct 2026",
+ "notes": "Date of the Lancet Digital Health publication is not stated in the article."
+}

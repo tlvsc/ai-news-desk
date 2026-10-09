@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-12",
+ "v1_category": "SEC",
+ "headline": "Epic, a dominant US maker of electronic health record software, used an Anthropic AI model to find flaws that could have let hackers reach patient records without being detected, its chief executive has said.",
+ "score": 4,
+ "score_reason": "Lowered from 5: the revelation was made at a conference last month, so this is older news re-reported, and no technical detail or sign of exploitation is given.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients whose records sit in Epic's systems are affected if such flaws existed, and Epic says it paused new product work to patch them, but the flaws are not described, the AI tool did not check whether records could be altered, and the account comes second-hand through WPR and The New York Times.",
+ "source": "WPR, citing The New York Times",
+ "status": "REPORTED",
+ "summary": "WPR, citing The New York Times, reports that Epic Systems used Anthropic's Claude Mythos model to find weaknesses that could give hackers undetectable access to patient health data, and that chief executive Judy Faulkner told a conference last month that Epic paused some new product development to apply the patches the AI identified. The New York Times reporter told WPR that the tool did not check whether records could be altered, which would be of particular concern, and a university expert added that Epic's large market share, nearly 44% of acute-care records in 2025 according to KLAS Research, helps it afford top AI tools but also makes one shared platform a single point of failure.",
+ "url": "https://www.wpr.org/news/epic-ai-find-potential-security-flaws",
+ "freshness": "FOLLOW-UP of Sep 2026 (exact date not stated)",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on WPR, which relays The New York Times (not opened). The conference remark dates to September 2026 (day not stated), so the item is older news; score lowered by one."
+}

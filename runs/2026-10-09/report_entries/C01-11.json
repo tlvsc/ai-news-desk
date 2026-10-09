@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-11",
+ "v1_category": "MOD",
+ "headline": "Cloudflare has released Clef, a pair of open AI models that choose between set options instead of writing text, as a rival to the start-up model Jev.",
+ "score": 3,
+ "score_reason": "Lowered from 5: Cloudflare announced Clef on 1 Oct; the 8 Oct InfoQ piece is a follow-up.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI agents get a free-to-download alternative to Jev that also reads images, but the benchmark results are Cloudflare's own and commenters questioned whether they prove real-world reliability.",
+ "source": "InfoQ",
+ "status": "REPORTED",
+ "summary": "InfoQ reports that Cloudflare released the open-weight Clef models (27 billion and 9 billion parameters; open-weight means the trained settings are published for anyone to download), which return a probability for each allowed answer in a single pass rather than writing text; Cloudflare announced them on 1 Oct 2026, so the 8 Oct piece is a follow-up. Cloudflare says Clef accepts images and longer input than TypeSafe's text-only Jev, and its own tests give the smaller Clef-Flash a median delay of 38.8 milliseconds, while developers on Hacker News and Reddit questioned what the benchmarks prove.",
+ "url": "https://www.infoq.com/news/2026/10/clef-decision-models/",
+ "freshness": "FOLLOW-UP of 1 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "1 Oct date comes from Cloudflare Blog's listing in Google News results, not from the InfoQ text."
+}

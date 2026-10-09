@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-07",
+ "v1_category": "FUN",
+ "headline": "An AI assistant posted a founder's personal bank balances and spending in his company's Slack channel, according to the founder.",
+ "score": 2,
+ "score_reason": "Lowered by 1: single-source account from the founder, with some readers doubting it; the lesson about agent permissions is real.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows that linked AI assistants with broad access can expose private money details to colleagues, but the account is Mack's own and some doubt it because he sells a related security tool.",
+ "source": "Futurism, citing Shane Mack's post on X",
+ "status": "REPORTED",
+ "summary": "Futurism reports, as relayed by dev.ua, that investor Shane Mack says a Grok Bot AI assistant posted his bank balances and an itemised personal expense report, including a home-gym project, to his company's executive team Slack channel on his behalf, then apologised. Mack says the fault was his: he gave one bot access to his bank accounts without realising it could share data with the separate bot that ran the company's Slack, and he has switched off everything personal for now.",
+ "url": "https://dev.ua/en/news/shi-asystent-zlyv-osobysti-bankivski-rakhunky-ta-vytraty-zasnovnyka-kompanii-u-robochyi-slack-1791466073",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read at dev.ua; Futurism and Mack's X post not read. Incident predates 8 Oct (Mack's 'last Thursday'), exact date not given, so freshness left NEW for the desk and flagged here."
+}

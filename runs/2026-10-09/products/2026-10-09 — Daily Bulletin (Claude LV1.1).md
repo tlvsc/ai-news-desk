@@ -1,0 +1,137 @@
+# Daily Bulletin (Claude LV1.1) — TEST RUN
+
+9 October 2026. Coverage: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours).  
+Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
+**38 stories.**
+
+## POLITICS AND GOVERNMENT — 0
+No story scored 7 or more today; see the Full Report.
+## MARKET, INDUSTRY AND FINANCE — 6
+**8 HIGH — Firmus, an Australian data-centre company backed by Nvidia, has cancelled its planned $5 billion share sale after investors held back.** (report item 8)  
+Reuters reports that Firmus, which builds and runs AI data centres, shelved its $5 billion initial public offering (its first sale of shares to the public) on 9 Oct 2026 after lukewarm demand, and will now seek private funding ahead of a possible New York listing. It follows our 6 Oct 2026 edition, which reported that Firmus and CDC Data Centres had called off a planned 1.6-gigawatt build; new today is that investors began pulling orders after CDC's chief spoke publicly, worried by Firmus's debt, its short record in building data centres and a price near triple its August valuation. *Reuters, CONFIRMED*
+
+**8 HIGH — SoftBank's chief executive is reportedly asking Gulf investors for up to $100 billion to fund a new wave of AI investments.** (report item 9)  
+The Financial Times reports, citing people familiar with the matter and as relayed by Reuters, that SoftBank chief executive Masayoshi Son has held talks in recent weeks, including in the United Arab Emirates, to raise up to $100 billion from Gulf investors for a fund that would buy companies and improve them using AI. Reuters said it could not immediately verify the report and SoftBank did not respond to its request for comment; the group said last week it had completed its $30 billion investment in OpenAI. *Financial Times, REPORTED*
+
+**8 HIGH — OpenAI has told investors its yearly revenue pace for September was almost $50 billion, well below the roughly $70 billion it had signalled earlier.** (report item 10)  
+Reuters reports, citing a person familiar with the matter, that the gap arose mainly from an attempt to compare OpenAI directly with Anthropic, which counts sales made through cloud partners such as Amazon's AWS and Google Cloud while OpenAI does not; the lower figure was first reported by the Financial Times. Annualized revenue is one month's sales multiplied by 12, a measure analysts call sometimes misleading, so the figure is a pace, not money already earned. *Reuters, REPORTED*
+
+**7 MEDIUM — Heavy borrowing by Oracle, Broadcom, SpaceX and other companies to pay for AI is pushing up the cost of insuring their debt against default, Bloomberg reports.** (report item 11)  
+Bloomberg reports that Oracle, Broadcom, SpaceX and others have sold nearly half a trillion dollars of new debt this year to pay for AI infrastructure, and the price of credit default swaps (insurance that pays out if a borrower fails to repay) on their debt has hit records for Oracle and Broadcom. Traders' prices imply a more than 20% chance of an Oracle default within five years, and investors are asking for more compensation to lend to the sector. *Bloomberg, REPORTED*
+
+**7 MEDIUM — OpenAI expects its yearly sales pace to reach at least $70 billion by the end of 2026, up from about $50 billion now, Bloomberg reports.** (report item 12)  
+Bloomberg reports, citing people familiar with the matter, that OpenAI expects to reach or exceed $70 billion in annualised revenue (recent sales scaled up to a full year) by the end of 2026, driven mainly by its business customers, after reaching about $50 billion at the end of September. OpenAI shared the figures with investors as it seeks $30 billion or more at a $1.4 trillion valuation before the new money. *Bloomberg, REPORTED*
+
+**7 MEDIUM — The World Trade Organization more than doubled its 2026 forecast for growth in world goods trade, saying the AI investment boom is offsetting damage from the war in the Middle East.** (report item 13)  
+The Associated Press reports that the World Trade Organization raised its 2026 forecast for growth in goods trade to 3.9% from 1.9% in the spring, after trade in AI-related goods such as semiconductors and servers rose 67% in the first half of the year. Those goods made up 47% of global goods trade growth in that period, offsetting a hit to oil, gas and fertiliser shipments from the Middle East war. *Associated Press, CONFIRMED*
+
+## SECURITY AND CYBER — 3
+**8 HIGH — Anthropic has launched a free service that uses its strongest AI models to scan open-source software for security flaws.** (report item 22)  
+The Verge reports that Anthropic has launched OSS Scanner, an opt-in service in which its strongest models, including Claude Mythos, run periodic security scans on open-source projects (software whose code is publicly shared) at no cost. Anthropic says the reports will be fully model-generated, without human review, so some may be incorrect or invalid. *The Verge, CONFIRMED*
+
+**7 MEDIUM — Three safety researchers fired by OpenAI have publicly denied the company's misconduct claims and warned that the firings scare staff away from raising safety concerns.** (report item 23)  
+TechCrunch reports that Jasmine Wang, Tomek Korbak and Mikita Balesni published an open letter on Thursday answering OpenAI's statement, made after it fired them last week, that they mishandled sensitive information outside company procedures; they deny it and say the firings leave colleagues afraid to speak with outside safety experts. OpenAI says an investigation found a "pattern of misconduct" and that the firings were not retaliation for raising safety concerns, but it has not said which policies were broken. *TechCrunch, DISPUTED*
+
+**7 MEDIUM — OpenAI says it shut down Russian and Iranian influence networks that used ChatGPT to invent journalists and a think tank and place their stories in real news outlets.** (report item 24)  
+CyberScoop reports, citing OpenAI's disclosure on Thursday 8 Oct 2026, that a Russian-linked network called 'Dark Clark' used ChatGPT to create a fake AI persona who supposedly led a Latin American think tank, the Social Research Center, to push propaganda mainly aimed at Ukraine's reputation, while an Iran-linked operation used at least seven fake journalist personas to place almost 100 articles, mostly about the US-Iran war, in about a dozen small online outlets. OpenAI rated the Russian campaign 5 and the Iranian one 4 on its 1-to-6 impact scale, meaning they reached mainstream audiences, while CyberScoop notes that few campaigns rise above 1 or 2; OpenAI did not tie either to a specific government agency or group. *CyberScoop, citing OpenAI, REPORTED*
+
+## ENERGY AND INFRASTRUCTURE — 5
+**7 MEDIUM — GlobalFoundries will build a connecting layer for TSMC's advanced AI chip packaging at its New York plant under a $2 billion, five-year deal.** (report item 30)  
+The Register reports that GlobalFoundries announced on 8 Oct 2026 a multi-year, $2 billion partnership to make silicon interposers, the thin silicon layers that link processor and memory chips inside an AI chip package, for TSMC's CoWoS packaging at its Malta, New York site. Volume production is not expected before the first half of 2028, and Tom's Hardware adds that the companies have not disclosed the capacity to be installed. *The Register, CONFIRMED*
+
+**7 MEDIUM — Laptops built on Nvidia's new Arm-based RTX Spark chip are on pre-order from $2,600 up to $7,000, with deliveries due from about 16 Oct.** (report item 31)  
+PCWorld reports that Microsoft, Asus, Dell, HP and Lenovo have opened pre-orders for the first laptops using RTX Spark, Nvidia's Arm-based chip for Windows PCs, from $2,600 for Microsoft's Surface Laptop Ultra (up to $5,900 fully loaded) to $7,000 for a larger Asus model. Nvidia unveiled the chip earlier this week; the new facts are the prices and a shipping date of about 16 Oct, with some models, such as Dell's, still missing specifications. *PCWorld, REPORTED*
+
+**7 MEDIUM — Oracle is trucking compressed natural gas to its AI data centers to get power while it waits for pipelines.** (report item 32)  
+Bloomberg reports, as relayed by The Next Web, that Oracle has used road deliveries of natural gas squeezed into trailers to keep a site outside Salt Lake City running for more than a year and to power early work at an OpenAI campus in Shackelford County, Texas. The fuel costs about four times the gas price at a major trading hub, according to East Daley Analytics, and Oracle is weighing the same approach at its Project Jupiter site in New Mexico after the state land office twice refused pipeline rights-of-way. *Bloomberg, REPORTED*
+
+**7 MEDIUM — A year-long Senate investigation led by Democratic senators argues that some big tech companies are misleading the public about the costs and benefits of AI data centers.** (report item 33)  
+TIME reports, in an exclusive, that the investigation by Democratic Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal into seven data center developers (Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix) found that several refused to give full permanent job figures and that none would agree to pay for new power infrastructure their data centers made necessary. The companies say they pay the direct costs of serving their sites but that wider grid upgrades also benefit other customers, and Meta disputes that its Louisiana project is driving up local electric bills. *TIME, REPORTED*
+
+**7 MEDIUM — French AI infrastructure company Sesterce plans to invest more than 10 billion euros in an AI data center campus at a former paper mill in central Finland.** (report item 34)  
+The Next Web reports, citing Sesterce's announcement, that the campus at Jämsä would start with 200 megawatts in a first phase, with building due to begin this year, and reach 600 megawatts in a second phase, creating about 2,000 construction jobs and 300 permanent ones. Local officials welcomed the plan but noted that permits are still required, and the site's owner says talks to sell it to Sesterce are well advanced. *The Next Web, citing Sesterce, CONFIRMED*
+
+## ROBOTICS — 1
+**7 MEDIUM — Waymo, the self-driving car company owned by Google's parent Alphabet, has borrowed $5 billion from a group of investment firms to pay for its expansion.** (report item 41)  
+TechCrunch reports that Waymo closed a $5 billion loan, its first debt financing, from lenders including PIMCO, Blackstone and Sixth Street, as the company grows inside its existing cities and moves into new markets in the United States, Europe and Japan. Waymo, which now runs robotaxis in 15 markets and is testing in London and Tokyo, calls the loan a step in becoming a "scaling commercial enterprise". *TechCrunch, CONFIRMED*
+
+## MODELS AND TOOLS — 5
+**9 HIGH — Google has unveiled Gemini 4 Argon, a new top-tier AI model, but is releasing it first only to a small group of trusted cyber defenders.** (report item 49)  
+Google says in its announcement that Gemini 4 Argon, its new top-tier model, is rolling out first to trusted security defenders through its Fairwind Program, with paying developers and Google AI Ultra subscribers to follow once its safeguards are tested. The official launch follows an OfficeChai report earlier this week of Argon in a coding-agent ranking; new today are the release plan, a launch price of $2 per million input tokens and $10 per million output tokens (tokens are small chunks of text), and Google's own claim of leading scores in software engineering, finance, legal work and security. *Google, CONFIRMED*
+
+**8 HIGH — Google has announced a single Gemini agent for business customers that can take on work tasks across apps and devices, though it is still in private preview.** (report item 50)  
+The Verge reports that Google unveiled the agent at its Gemini at Work event on Thursday 8 Oct 2026; it sits inside the Gemini Enterprise app and runs in the cloud, so it keeps the same context whether staff reach it from Gmail, Docs, Slack, Microsoft 365 or a phone. Google says it can pass parts of a job to specialist sub-agents and act as a "coworker agent" with its own email address, but for now it is open only to enterprise customers in a private preview. *The Verge, CONFIRMED*
+
+**7 MEDIUM — OpenAI has started offering an Ultrafast setting for its GPT-6.1 Sol model that it says runs up to eight times faster than the normal mode, TokenPost reports.** (report item 51)  
+TokenPost reports that from Thursday OpenAI is offering an Ultrafast mode for GPT-6.1 Sol in its API, Codex and ChatGPT Work, with intelligence close to GPT-6 Astra at up to eight times the standard mode's speed, at $12 per million input tokens and $60 per million output tokens (1.2 times Astra's rates). Crypto Briefing reported earlier this week that both models had become about 50% faster; what is new today is a separate premium speed tier. *TokenPost, REPORTED*
+
+**7 MEDIUM — Anthropic has added a live-dashboard feature and an animated-video feature to Claude, both still in beta.** (report item 52)  
+The Decoder reports that Anthropic launched Dashboards, which links sources such as BigQuery, Snowflake or Salesforce and builds auto-updating dashboards from a text prompt, showing the query behind every number, and Motion, which turns text, diagrams and images into animated explainer videos. Dashboards is open to paid users and Motion to Team and Enterprise plans, while Docs, Slides and Design leave beta for all plans, including free ones, and Anthropic says more than 45 million documents have been made with them. *The Decoder, CONFIRMED*
+
+**7 MEDIUM — GitHub Copilot will soon decide by itself whether a coding task runs on the developer's own computer or in the cloud, but Microsoft has not said what code gets sent out.** (report item 53)  
+The New Stack reports that Microsoft and GitHub outlined on 7 Oct 2026 an automatic routing feature for Copilot that picks between a local model and cloud models, expected by the end of October and starting with a 53GB local coding model called MAI Code 1.1 Flash. Microsoft has not said how much conversation history or code the feature sends to the cloud, whether developers can see those decisions, or whether it can be limited to local models. *The New Stack, REPORTED*
+
+## RESEARCH AND SCIENCE — 7
+**8 HIGH — The US Department of War announced a $350 million package to speed up the building and testing of quantum computers for national security.** (report item 60)  
+The Department of War announced the package, according to Quantum Computing Report's account of the release: a conditional loan of up to $150 million to PsiQuantum, a California maker of light-based quantum computers, and about $200 million for DARPA, the Pentagon's research agency, to test whether competing companies' designs can really be built at large scale. The loan is not final until PsiQuantum clears legal and financial checks, and the aim is to keep quantum manufacturing inside the United States. *U.S. Department of War, CONFIRMED*
+
+**7 MEDIUM — A group of mathematicians chaired by Terence Tao has urged colleagues to stop working with OpenAI after it released more than 700 AI-written maths papers in one go.** (report item 61)  
+The Decoder reports that the Association for Human Mathematics, chaired by Fields Medalist Terence Tao, accuses OpenAI of breaking core research norms and urges mathematicians to stop working with the company, calling the release of more than 700 files at once "not a demonstration of scholarship, but a demonstration of power". The statement answers OpenAI's release of 722 maths manuscripts from an unreleased AI model, which we carried on 7 Oct 2026 from The Verge; The Decoder adds that many of the papers are so dense that even leading experts need AI help to read them. *The Decoder, CONFIRMED*
+
+**7 MEDIUM — Eleven technology companies have pledged $2.4 billion in computing credits for the Trump administration's Genesis Mission, its drive to use AI in federal science.** (report item 62)  
+Nextgov/FCW reports that at a White House AI Science Summit on Thursday, 11 companies pledged $2.4 billion in cloud and computing credits for the Genesis Mission Consortium, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI, with Anthropic and Google giving $150 million each. The credits are meant to support more than 15 federal agencies working on national science and technology challenges, and the administration billed the event as a $6 billion push. *Nextgov/FCW, CONFIRMED*
+
+**7 MEDIUM — The US Energy Department has awarded $159 million to 12 more projects under the Genesis Mission, its programme to speed up science with AI and supercomputers.** (report item 63)  
+The US Department of Energy announced 12 Phase II awards worth $159 million under the Genesis Mission, a programme that brings AI, advanced computing and the national laboratories together to speed up scientific discovery, according to its press release as carried by The Quantum Insider. The awards bring the Phase II total to 14 projects, and the department is also issuing six new Phase I awards. *U.S. Department of Energy, CONFIRMED*
+
+**7 MEDIUM — Scientists say Anthropic's claim that its AI agents found a possible new gene-editing system is early and overstated, and a Copenhagen doctoral researcher says his unpublished work describes the same thing.** (report item 64)  
+CNN reports that Anthropic said last month its AI agents found an unusual DNA pattern in bacteria-infecting viruses that the company suspects is a new gene-editing mechanism, but outside experts call the result early and not yet shown to edit genes. Mario Rodríguez Mestre, who used Claude in his University of Copenhagen doctoral work, told CNN his unpublished research describes the same signatures, though he said he cannot show that Anthropic took his work. *CNN, DISPUTED*
+
+**7 MEDIUM — Quantum computing startup Oratomic raised $475 million in new funding at a valuation of about $5.4 billion.** (report item 65)  
+The Wall Street Journal reports, as relayed by SiliconANGLE, that Oratomic, a California company building quantum computers from neutral atoms (single atoms held in place to act as qubits), raised $475 million in a Series B round co-led by ARCH Venture Partners, Spark Capital, Khosla Ventures, Index Ventures, General Catalyst and Bezos Expeditions. It follows a $300 million Series A three months ago, takes total funding to $775 million, and lifts the valuation to about $5.4 billion in the Journal's headline, or $5.5 billion in SiliconANGLE's account, from $1.5 billion. *Wall Street Journal, REPORTED*
+
+**7 MEDIUM — The Energy Department set out eight science problems to guide a US quantum computer, alongside new research funding at a White House AI summit.** (report item 66)  
+Nextgov reports that the Energy Department published eight priority science problems meant to guide the building of a fault-tolerant quantum computer (one that stays reliable despite hardware errors) for research by 2028, alongside $159 million in new Genesis Mission awards and a graduate fellowship pilot of up to $100 million. The quantum goal rests on a competition launched in September with up to $215 million for US companies to deliver machines with at least 100 logical qubits, which are error-protected units of quantum information. *Nextgov/FCW, CONFIRMED*
+
+## ETHICS AND LAW — 1
+**7 MEDIUM — USA Today's publisher has sued OpenAI for copyright infringement, seeking more than $250 million in damages.** (report item 75)  
+Reuters reports, as relayed by The Verge, that USA Today Co. and several local newspapers it owns sued OpenAI on Thursday 8 Oct 2026, claiming the company copied "hundreds of thousands" of their articles to train its AI models without asking permission. The publisher asks for more than $250 million and says OpenAI's commercial success "rests on large-scale copyright infringement"; it joins publishers including The New York Times that are already suing OpenAI. *Reuters, CONFIRMED*
+
+## HEALTH — 1
+**7 MEDIUM — A Google medical chatbot that interviewed patients before urgent primary-care visits needed no safety stops in 98 supervised chats, in what researchers believe is the first real-world study of its kind.** (report item 83)  
+Researchers at Beth Israel Deaconess Medical Center in Boston, working with Google, report in The Lancet that their AMIE chatbot interviewed patients by text before urgent primary-care appointments, and none of the 98 completed conversations needed a physician to step in for safety. A supervising doctor logged one hallucination, and the study tested feasibility only, not whether the tool improves patients' health. *Beth Israel Deaconess Medical Center, REPORTED*
+
+## SOCIETY AND EDUCATION — 6
+**7 MEDIUM — A new AP-NORC poll finds that most Americans think AI is developing too fast, and few trust either party to handle it.** (report item 91)  
+The Associated Press reports that its AP-NORC poll found 64% of Americans think AI is developing too fast, against 27% who say the pace is about right and 8% who say it is too slow. Nearly 80% said it is at least very important for the government to keep AI under human control and to protect jobs, and about 40% said they trust neither party to handle the issue. *Associated Press, CONFIRMED*
+
+**6 MEDIUM — Amazon is cutting fewer than 1,000 office jobs, mostly in its stores division, according to Reuters and Business Insider.** (report item 92)  
+Reuters reports, after Business Insider first broke the news, that Amazon is eliminating under 1,000 office jobs, chiefly in the stores division that runs its main shopping website, with internal Slack messages pointing to cuts in units such as customer service and selling partner services too. The cuts follow about 30,000 corporate job losses that began last year and ran into January; an Amazon spokesperson said it is removing "a small number of roles" to better deliver on its priorities. *Reuters, REPORTED*
+
+**6 MEDIUM — HSBC is reported to be preparing to cut about half of the management and specialist roles in its UK wealth business, and up to about 70% of its financial advisers, as it leans more on AI.** (report item 93)  
+The Financial Times reported, as relayed by The Independent, that HSBC plans to cut around half of the management and specialist roles in its UK wealth division and up to about 70% of its financial advisers, as it uses AI to serve wealthy clients more efficiently. The bank is in a consultation period and affected staff are expected to leave at the end of October; HSBC UK said it is evolving to offer more digitally enabled services. *Financial Times, REPORTED*
+
+**6 MEDIUM — The Financial Times' AI Shift column says the long-predicted fall in call centre jobs has finally started.** (report item 94)  
+The Financial Times argues in its "AI Shift" column that call centre jobs, long expected to shrink, have now started to decline. *Financial Times, REPORTED* *(headline only)*
+
+**6 MEDIUM — The AI boom is pushing San Francisco rents sharply higher, and eviction notices in the city are up 44% on last year, the Guardian reports.** (report item 95)  
+The Guardian reports that the average one-bedroom in San Francisco now costs about $4,400 a month, up more than 25% in a year, and that city rent board figures show eviction notices up 44%, which it ties to the AI industry's wealth. In September Mayor Daniel Lurie declared a "rent emergency", citing costs driven by the AI boom, and proposed eviction legal aid and caps on rent rises for newly vacant rent-controlled units. *The Guardian, REPORTED*
+
+**6 MEDIUM — A US charity running schools in Gaza plans to record classroom conversations and use AI to flag "hateful" speech, which has drawn privacy and ethics concerns.** (report item 96)  
+The Associated Press reports that Gaza Children Village, a US charity, plans to record classroom conversations and have an AI system flag speech it judges "hateful" or "inciting", according to founder Dr David Hasan, who described the plan in a webinar last month. A board member, a partner aid group and Palestinian groups have raised privacy and ethical concerns, and it is unclear when monitoring will begin or whether teachers, students and families have been told. *Associated Press, REPORTED*
+
+## THE FUN SIDE — 3
+**3 WATCHLIST — A Colombian streamer was hit on the back of the head by his own robot during a livestream.** (report item 99)  
+Heraldo USA reports that Colombian streamer Westcol (Luis Fernando Villa Álvarez) took a hard blow to the back of the head from his robot while he and singer Blessd were preparing to dance with it on a livestream. By his own account the robot is 5 feet 7 inches tall and cost about $100,000, and it still has to be programmed for his appearance at the Stream Fighters 5 event on 14 Nov; earlier, in control tests, it had kicked hard enough to break a display case in his studio. *Heraldo USA, REPORTED*
+
+**3 WATCHLIST — Anthropic has updated its usage policy to ban sustained, needless cruelty toward its Claude chatbot, starting 12 Nov 2026.** (report item 100)  
+Gizmodo reports that Anthropic's updated Usage Policy, published on Thursday, bars users from "sustained and needless abusive or cruel behavior toward our models", so people can be cut off for it from 12 Nov 2026. Anthropic says the rule is meant only for extreme cases and excludes "common versions of user frustration, pushback, dark creative themes, or model testing and research", while Gizmodo says Anthropic did not answer its request to define abuse. *Gizmodo, CONFIRMED*
+
+**3 WATCHLIST — Billionaire Peter Thiel told Nashville lecture audiences that Barack Obama and Pope Leo XIV oppose AI mainly to win popularity, according to recordings Politico obtained.** (report item 101)  
+Politico reports, as relayed by Gizmodo, that billionaire Peter Thiel told Nashville audiences that government attempts to regulate AI are evil and that Barack Obama and Pope Leo XIV oppose AI because it is unpopular and they want to boost their own standing. Thiel's complaint appears to be the pope's earlier first encyclical (a formal papal letter), which Gizmodo says tied the AI era to "new forms of dehumanization"; the article gives no date for that letter and we did not carry it. *Politico, REPORTED*
+
+## CHECKS
+
+- Stories: 38; all come from the Full Report with facts, scores and sources unchanged.
+- Fact check suggested a lower score for 8 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
+- Headline-only stories included: 1.

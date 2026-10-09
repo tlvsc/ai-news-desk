@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-01",
+ "title": "Hacker Used Chinese-Developed A.I. Tool to Target South Korean Banks, CrowdStrike Says",
+ "source_used": "The Register (read in full) and Infosecurity Magazine (read in full); both report CrowdStrike's analysis. The New York Times original returned HTTP 403.",
+ "article_url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+ "fetched": true,
+ "key_facts": [
+  "CrowdStrike published an analysis on 7 Oct 2026 of attacks on South Korean financial institutions (The Register: report published Wednesday; Infosecurity Magazine: blog of 7 Oct).",
+  "It says a suspected China-based, Chinese-speaking, financially motivated attacker (moderate confidence) ran the campaign from late September to early October 2026.",
+  "The attacker used ARTEX, a recently released open-source agentic penetration-testing tool developed in China, together with Anthropic's Claude Code.",
+  "Per Infosecurity Magazine, the ARTEX instance used DeepSeek v4.1-flash as its main model, with GLM-5.3 and Grok 4.6 added for extra Claude Code sessions; the attacker also asked Claude to find Korean Telegram groups that buy stolen data.",
+  "Exposed AI session logs on an attacker-linked server held a resume-writing request naming 'YY', a Chinese university and a location in Guangdong, with conflicting ages; CrowdStrike thinks these likely belong to the attacker but cannot prove it.",
+  "At least five lenders were affected (Shinhan, KB Kookmin, Hana, Yegaram Savings, BNK Busan, per The Korea Times via The Register); Shinhan reported about 25,000 customers affected, KB Kookmin 119 and Hana 89.",
+  "Police are investigating whether one person or an organised group is responsible; lawmakers plan to summon five bank heads to a 19 Oct parliamentary audit."
+ ],
+ "quote_evidence": [
+  "The researchers found references to YY in AI sessions associated with activity involving ARTEX, a recently released open source penetration-testing tool developed in China and used in the attacks alongside Claude Code.",
+  "CrowdStrike considers the details likely to belong to the attacker but says it cannot definitively establish that connection.",
+  "Police are investigating whether an individual or an organized group carried out the attacks."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A security firm links a bank-data theft campaign to commercial AI coding tools and a Chinese open-source hacking agent, but the attribution is the firm's own assessment at moderate confidence.",
+ "event_date": "Campaign late Sep to early Oct 2026; CrowdStrike report 7 Oct 2026; press coverage 8 Oct 2026",
+ "notes": "NYT page blocked (403). Read The Register and Infosecurity Magazine instead. Infosecurity says Shinhan 25,000 and Yegaram 40,000 affected (citing The Straits Times); The Register gives Shinhan 25,000, KB Kookmin 119, Hana 89. Reuters (read in C12-08) says CrowdStrike judged the attacker probably could not have run the campaign without AI. A Global Times headline (seen, not read) says China's foreign ministry rejected CrowdStrike's claims."
+}

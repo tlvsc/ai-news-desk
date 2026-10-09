@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "Cisco's Talos security team found criminals hiding written instructions in malware to talk AI analysis tools into calling it harmless, though Talos says the trend is not alarming.",
+ "score": 5,
+ "score_reason": "Pool score kept: concrete research with sample counts and tests, but it is the vendor's own study and Talos itself says the effect is limited.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Security teams that use AI to sort suspicious files are the ones affected, since the simplest trick often worked in Talos's tests, but conventional detection is unaffected, the tests used five local models rather than commercial products, and Talos says a well-built pipeline is no more exposed than a human analyst who knows the trick.",
+ "source": "Cisco Talos Blog",
+ "status": "REPORTED",
+ "summary": "Cisco Talos, the threat research arm of Cisco, reports in a blog published on 8 Oct 2026 that across 84 malware samples from four families collected between January 2025 and July 2026, authors embedded plain-language text, such as instructions to ignore or refuse to analyse the file, to steer the AI tools that analysts use to triage suspicious files (a trick known as prompt injection). In Talos's own tests on five local AI models, the plainest trick, an instruction to ignore the file, nearly always worked, while more elaborate versions did little or raised the models' suspicion; Talos says ordinary detection is unaffected and calls the trend 'interesting, but not alarming', though it shows attackers expect AI inside defenders' tools.",
+ "url": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on the original Talos blog (the vendor's own research, not independently reviewed)."
+}

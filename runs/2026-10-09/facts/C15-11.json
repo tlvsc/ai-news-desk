@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-11",
+ "title": "Quantum startup ZuriQ partners with Infineon for development of scalable quantum chips",
+ "source_used": "The Quantum Insider (joint Infineon and ZuriQ press release, dated 7 Oct 2026); Data Center Dynamics page returned HTTP 403",
+ "article_url": "https://thequantuminsider.com/2026/10/07/infineon-zuriq-scalable-quantum-chips/",
+ "fetched": true,
+ "key_facts": [
+  "Infineon Technologies and ZuriQ AG, a Swiss quantum computing company spun out of ETH Zurich, announced an expanded collaboration on scalable quantum computing hardware.",
+  "Earlier joint work trapped a 3x3 array of nine individually controlled ions, which the release calls the largest two-dimensional array of its kind to date.",
+  "The next step is to scale the technology to significantly larger qubit counts.",
+  "ZuriQ uses a natively two-dimensional Penning micro-trap architecture that moves ions across the chip with electric and magnetic fields, avoiding complex junctions.",
+  "Infineon contributes semiconductor manufacturing, advanced packaging and integrated photonics.",
+  "The release gives no timeline, funding amount or qubit target."
+ ],
+ "quote_evidence": [
+  "Previous development work by ZuriQ and Infineon demonstrated the feasibility of this novel architecture by trapping a 3×3 array of nine individually controlled ions, achieving the largest two-dimensional array of its kind to date.",
+  "The next step in the partnership is to scale the technology to significantly larger qubit counts."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A chip manufacturer and a quantum startup are working to make a 2D trapped-ion design manufacturable.",
+ "event_date": "7 Oct 2026",
+ "notes": "Press release dated 7 Oct 2026 (before the 8 Oct cutoff), scored down one. DCD copy blocked (403); text read at The Quantum Insider."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-07",
+ "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+ "source_used": "Yellow.com (same story as the New Scientist item); TechCrunch (C04-17) corroborates the paper",
+ "article_url": "https://yellow.com/news/openai-719-ai-math-proofs-fire",
+ "fetched": true,
+ "key_facts": [
+  "A paper by Alexander Bastounis (King's College London) and Fabian Circelli and Anders Hansen (University of Cambridge) examined OpenAI's Navier-Stokes proof announced on 8 Sep 2026.",
+  "They documented two places where the written argument and the Lean code diverge, including one where the code proves a weaker estimate than the paper states.",
+  "Lean is a programming language that lets a computer check a proof.",
+  "The authors say they make no claim about whether the written proof is correct; Lean confirms the final theorem but cannot show the intermediate steps are sound, so peer review is still needed.",
+  "OpenAI posted the 722 manuscripts on 6 Oct; summaries of the model's reasoning accompany only 10 results, and about 42% of the top-line results have been formalized in Lean.",
+  "The advisory group AGMAI issued guidelines on 29 Sep asking labs to stop testing advanced maths problems on proprietary models."
+ ],
+ "quote_evidence": [
+  "They documented two places where the written argument and the Lean code diverge, including one where the code proves a weaker estimate than the paper states.",
+  "The authors said they make no claim about whether the written proof is correct."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Computer-checked proofs from AI may not match the argument humans read, so they still need human peer review.",
+ "event_date": "Paper reported by 8 Oct 2026; OpenAI proof announced 8 Sep 2026",
+ "notes": "New Scientist page returned 406; the same story was read at Yellow.com and TechCrunch. The \"42%\" figure appears in Yellow.com and is worded differently in TechCrunch, so it is not used in the entry. Follow-up of X30. Same cluster as C04-01, C04-06, C04-17."
+}

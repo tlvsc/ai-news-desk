@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "The body behind payment-card security rules has told companies to keep a human in charge of AI agents that handle card data and to require explicit approval for any action on readable card details.",
+ "score": 6,
+ "score_reason": "Pool score kept: an official industry standards body gives concrete limits on AI agents in payments, but the guidance is advisory.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Banks, payment processors and shops that use AI near card numbers are told how tightly to restrain it, which could reduce card-data leaks, but the guidance is advisory, existing rules take precedence, and it does not say how firms will be checked.",
+ "source": "Help Net Security",
+ "status": "CONFIRMED",
+ "summary": "Help Net Security reports that the PCI Security Standards Council, the industry body that sets security rules for handling payment-card data, has published 'Security Considerations for AI Systems', which recommends explicit human approval for any action an AI agent takes involving readable cardholder data, limiting each AI system to the access its task needs, and keeping passwords and cryptographic keys out of AI systems. The guidance is advisory and existing PCI requirements take precedence; it also warns that AI can speed up vulnerability discovery, exploit development and social engineering, and advises security testing of AI-written code and patches.",
+ "url": "https://www.helpnetsecurity.com/2026/10/09/pci-ssc-payment-environments-ai-security-guidance/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on Help Net Security; the Council's own document was not opened. Status CONFIRMED because the document is an official publication; its content is advisory."
+}

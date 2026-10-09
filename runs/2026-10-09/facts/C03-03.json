@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-03",
+ "title": "Solo developer rebuilds Adobe Creative Suite in Rust using Claude, releases it free to all",
+ "source_used": "Tom's Hardware",
+ "article_url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+ "fetched": true,
+ "key_facts": [
+  "Reddit user u/ai_art_is_art posted on r/creativecloud about a suite of alternatives to Adobe products, built with Claude; the post was later removed but a comment with GitHub links remains.",
+  "Tools named include PhotoCraft, LightCraft, ImageCraft and FilmCraft; all are built in Rust and free to download.",
+  "The developer plans to reach 100% parity with Adobe's features within a month.",
+  "The software is agent-native: AI can use its tools and menus through a JSON control channel and an MCP server.",
+  "Some commenters warn of a lawsuit; replies say it is a clean-room reimplementation and no Adobe code was used.",
+  "Skeptics warn about unverified AI-written code; a Sonar 2026 survey of 1,100 developers found 96% do not fully trust AI-generated code.",
+  "Commenters also warn about safety and actual functionality."
+ ],
+ "quote_evidence": [
+  "Their post has since been removed, but their comment with links to their GitHub page remains.",
+  "responses to those warnings state that it is a clean-room reimplementation and no Adobe source code was used or copied in the creation of the software."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A free Adobe-style suite is promised, but the code is unchecked and the legal position is disputed.",
+ "event_date": "Reddit post date not stated; Tom's Hardware published 8 Oct 2026",
+ "notes": "Single outlet reporting on an anonymous Reddit post; claims of parity are the developer's."
+}

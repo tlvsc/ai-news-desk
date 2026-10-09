@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-04",
+ "title": "AWS Launches Strands Box to Control Autonomous AI Agents With Open-Source Sandbox",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+ "fetched": true,
+ "key_facts": [
+  "AWS released Strands Box, an open-source sandbox for AI agents, using OS-level isolation.",
+  "It uses the Dogwood Local Engine so that rules can consider what an agent has already done, not only what it wants to do.",
+  "Example rule: an agent may post to Slack no more than three times every ten minutes.",
+  "Box can control when an agent may do a Git push or cap costly API calls.",
+  "It includes Strands Shell and Monty for Python so shell and Python actions pass through the same policy engine.",
+  "It is on GitHub now for macOS only; Linux is in development and Windows 'on our radar', no release dates.",
+  "AWS engineer Marc Brooker says developers remain responsible for deciding what access to grant and where human review is needed."
+ ],
+ "quote_evidence": [
+  "“Agents increasingly run in ‘YOLO mode,’ approving every action without human review,” the AWS team explained in its announcement.",
+  "“Developers remain responsible for deciding what access to grant and where human review is needed,” Brooker added"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Gives developers rule-based limits on autonomous agents, without relying on the agent to obey.",
+ "event_date": "7 Oct 2026",
+ "notes": "Konsulteer page returned no article text; read The Register's own reporting instead (AWS announcement, Brooker interview). Older than 8 Oct 2026 by one day: re-dated."
+}

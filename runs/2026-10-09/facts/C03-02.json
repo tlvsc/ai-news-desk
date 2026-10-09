@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-02",
+ "title": "GitHub Copilot is going local — but Microsoft won’t say what gets sent to the cloud",
+ "source_used": "The New Stack",
+ "article_url": "https://thenewstack.io/https-thenewstack-io-copilot-local-inference-routing/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub Copilot will decide whether coding tasks run locally or in cloud models; automatic routing is expected by the end of October.",
+  "Microsoft outlined the plan on Wednesday (7 Oct 2026) in a post by GitHub product manager Patrick Nikoletich and Windows architect Stuart Schaefer.",
+  "Local model MAI Code 1.1 Flash: 137 billion parameters in total, 6.8 billion active, shrunk to 53GB (about 80% smaller than the cloud version) by quantization.",
+  "Microsoft's test machine, a Windows PC with 128GB of memory, showed peak memory use of 75.5GB at a 256K-token context; most developer laptops have 16GB or 32GB.",
+  "Microsoft reports 70.8% on SWE-Bench Verified for the shrunk model versus 72.6% for the full version.",
+  "Microsoft has not said how much conversation history or code Auto sends to the cloud, whether developers can see the routing decisions, or whether Auto can be limited to local models.",
+  "Local inference does not make the session offline; tools can still reach outside services."
+ ],
+ "quote_evidence": [
+  "Nikoletich and Schaefer acknowledge that “local inference does not make the session offline.”",
+  "Microsoft hasn’t said how much conversation history or repository context Auto sends to the cloud when it routes a task."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Teams with strict data-handling rules still do not know what repository data Copilot sends to the cloud.",
+ "event_date": "7 Oct 2026 (Microsoft post, per 'Wednesday' in an article published 8 Oct 2026)",
+ "notes": "Older than 8 Oct 2026 by one day: re-dated as follow-up. Benchmark figures are Microsoft's own."
+}

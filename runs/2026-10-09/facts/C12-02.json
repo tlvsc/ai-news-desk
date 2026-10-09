@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-02",
+ "title": "OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media",
+ "source_used": "CyberScoop (fulltext, read in full)",
+ "article_url": "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI disclosed on Thursday (8 Oct 2026) that it shut down two influence operations, one Russian and one Iranian, that used ChatGPT and other AI tools.",
+  "The Russian cluster, called 'Dark Clark', used a fake AI persona, Mia Clark, as head of a supposed Latin American think tank, the Social Research Center, to seed propaganda; content mostly aimed to harm Ukraine's reputation in Latin America.",
+  "OpenAI called it 'the most complex attempt to run a front identity that we've disrupted over the past two and a half years'; it says the think tank's local staff apparently did not know they worked for a Russian group.",
+  "Examples: a false TikTok claim in March about Ecuador recruiting fighters for Ukraine, a fake audio clip of the Ukrainian consul, and a fake audio clip in Bolivia in May that drew an official denial.",
+  "The Iranian operation created at least seven fake journalist personas; OpenAI found almost 100 articles under their bylines across about a dozen small to medium online outlets, mostly on the US-Iran war, with little social media reaction.",
+  "OpenAI did not attribute the Iranian activity to a specific actor, saying it resembled a for-hire influence campaign.",
+  "OpenAI rated the Russian campaign 5 and the Iranian 4 on a 1-6 impact scale; the article says few campaigns rise above 1 or 2."
+ ],
+ "quote_evidence": [
+  "OpenAI called it “the most complex attempt to run a front identity that we’ve disrupted over the past two and a half years.”",
+  "Operators created at least seven different fake journalist personas who managed to place dozens of stories online through legitimate media organizations.",
+  "OpenAI rated the Russian campaign a 5 and the Iranian campaign a 4, indicating they were significantly more successful in breaking through to mainstream audiences"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI-made journalists and think tanks got stories into real outlets and drew official denials, but the findings are OpenAI's own.",
+ "event_date": "Disclosed 8 Oct 2026; activity March to May 2026 and later",
+ "notes": "OpenAI's own report was not opened; everything comes from CyberScoop's account."
+}

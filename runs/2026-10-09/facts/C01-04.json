@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-04",
+ "title": "Odyssey-3 drives a car in India and runs humanoids from one world model",
+ "source_used": "The Next Web",
+ "article_url": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones",
+ "fetched": true,
+ "key_facts": [
+  "Odyssey, a Palo Alto AI lab, launched Odyssey-3, a world model, as a research preview on Thursday (8 Oct 2026).",
+  "A world model learns from visual data to predict how a scene will change, including how actions affect it.",
+  "Odyssey says it can control robot arms and humanoids, drive a car, fly drones and play video games.",
+  "Odyssey-3 Pro scored 66.1 on the video-to-video test of Physics-IQ Verified, the highest reported on that leaderboard, per Odyssey (best of eight attempts per task).",
+  "It also ranked first in three of four WorldMark categories, from the company's own evaluation.",
+  "A driving policy trained on about 20 hours of data drove a car on real roads in India; humanoid maker Flexion built control policies on the model.",
+  "Odyssey raised $310 million at a $1.45 billion valuation in June, with Amazon and AMD Ventures among investors."
+ ],
+ "quote_evidence": [
+  "Odyssey has launched Odyssey-3, a world model that the Palo Alto AI lab says can control robot arms and humanoids, drive a car, fly drones and play video games.",
+  "Odyssey-3 Pro scored 66.1 on the video-to-video test of Physics-IQ Verified, the highest score reported on that leaderboard, according to Odyssey.",
+  "That result comes from the company’s own evaluation."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "One general model for many machines could cut the cost of building robots and vehicles, but the evidence is the company's own demonstrations.",
+ "event_date": "8 Oct 2026",
+ "notes": "Company claims relayed by TNW; benchmark results are Odyssey's own."
+}

@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "item_id": "C05-04",
+      "field": "source",
+      "before": "Axios, as relayed by International Business Times",
+      "after": "Axios",
+      "reason": "Credit rule: the letter was first reported by Axios; IBT relayed it, so the printed source is the first reporter."
+    },
+    {
+      "item_id": "C05-04",
+      "field": "summary",
+      "before": "International Business Times reports, citing a letter Senator Sanders shared first with Axios, that he told Sam Altman, Dario Amodei and Mark Zuckerberg to \"stand by your words\", meaning earlier statements from their companies that they would pause if AI became too dangerous to control. He wrote that if they do not act, \"my colleagues and I in the U.S. Senate will\", although the outlet notes that a law forcing a pause is unlikely to pass the current Congress.",
+      "after": "In a letter first reported by Axios and relayed by International Business Times, Senator Sanders told Sam Altman, Dario Amodei and Mark Zuckerberg to \"stand by your words\", meaning earlier statements from their companies that they would pause if AI became too dangerous to control. He wrote that if they do not act, \"my colleagues and I in the U.S. Senate will\", although International Business Times notes that a law forcing a pause is unlikely to pass the current Congress.",
+      "reason": "Credit: attribution now leads with Axios as first reporter, IBT named as relay and for its own analysis."
+    },
+    {
+      "item_id": "C06-01",
+      "field": "summary",
+      "before": "Reuters reports that Firmus, which builds and runs AI data centres, shelved its $5 billion initial public offering (its first sale of shares to the public) on 9 Oct 2026 after lukewarm demand, and will now seek private funding ahead of a possible New York listing. It follows our 6 Oct 2026 edition, which reported that Firmus and CDC Data Centres had called off a planned 1.6-gigawatt build; new today is that investors began pulling orders after CDC's chief spoke publicly, citing Firmus's debt, its short record in building data centres and a price near triple its August valuation.",
+      "after": "Reuters reports that Firmus, which builds and runs AI data centres, shelved its $5 billion initial public offering (its first sale of shares to the public) on 9 Oct 2026 after lukewarm demand, and will now seek private funding ahead of a possible New York listing. It follows our 6 Oct 2026 edition, which reported that Firmus and CDC Data Centres had called off a planned 1.6-gigawatt build; new today is that investors began pulling orders after CDC's chief spoke publicly, worried by Firmus's debt, its short record in building data centres and a price near triple its August valuation.",
+      "reason": "Meaning: 'citing' wrongly made CDC's chief the one naming the debt and price worries; per facts these were investors' worries."
+    },
+    {
+      "item_id": "C07-01",
+      "field": "headline",
+      "before": "Shares of Nvidia, Oracle, CoreWeave and other AI-linked companies fell on 8 October after the Financial Times reported that OpenAI's yearly sales pace is about $20 billion lower than earlier figures suggested.",
+      "after": "Shares of Oracle, Broadcom, Nvidia and other AI-linked companies fell on 8 October after the Financial Times reported that OpenAI's yearly sales pace is about $20 billion lower than earlier figures suggested.",
+      "reason": "Meaning: CoreWeave's fall appears only in the unread CNBC headline; facts support Oracle, Broadcom and Nvidia."
+    },
+    {
+      "item_id": "C07-06",
+      "field": "headline",
+      "before": "Oracle shares fell more than 5% on 8 October because a large part of the company's future revenue rests on OpenAI, whose reported sales pace came in below earlier figures.",
+      "after": "Oracle shares fell more than 5% on 8 October after a report put OpenAI's sales pace below earlier figures, a worry for a company whose future revenue leans heavily on OpenAI.",
+      "reason": "Meaning: 'because' turned the outlet's reading into an established cause; facts say the fall came after the report."
+    },
+    {
+      "item_id": "C12-02",
+      "field": "summary",
+      "before": "CyberScoop reports, citing OpenAI's disclosure on Thursday 8 Oct 2026, that a Russian-linked network called 'Dark Clark' used ChatGPT to create a fake AI persona who supposedly led a Latin American think tank, the Social Research Center, to push propaganda mainly aimed at Ukraine's reputation, while an Iran-linked operation used at least seven fake journalist personas to place almost 100 articles, mostly about the US-Iran war, in about a dozen small online outlets. OpenAI rated the Russian campaign 5 and the Iranian one 4 on its 1-to-6 impact scale because they drew fact-checks and official denials, whereas CyberScoop notes that few campaigns it tracks rise above 1 or 2; OpenAI did not tie either to a specific government agency or group.",
+      "after": "CyberScoop reports, citing OpenAI's disclosure on Thursday 8 Oct 2026, that a Russian-linked network called 'Dark Clark' used ChatGPT to create a fake AI persona who supposedly led a Latin American think tank, the Social Research Center, to push propaganda mainly aimed at Ukraine's reputation, while an Iran-linked operation used at least seven fake journalist personas to place almost 100 articles, mostly about the US-Iran war, in about a dozen small online outlets. OpenAI rated the Russian campaign 5 and the Iranian one 4 on its 1-to-6 impact scale, meaning they reached mainstream audiences, while CyberScoop notes that few campaigns rise above 1 or 2; OpenAI did not tie either to a specific government agency or group.",
+      "reason": "Meaning: the facts give reach to mainstream audiences, not fact-checks and denials, as what the scores indicate; 'it tracks' not in facts."
+    },
+    {
+      "item_id": "C12-02",
+      "field": "importance_line",
+      "before": "OpenAI says AI-made personas got propaganda into news coverage and forced official denials in Latin America, which matters to readers of those outlets and to newsrooms that cannot easily check who a writer is, but the scale and the Russian link rest on OpenAI's own investigation and no government body is named.",
+      "after": "OpenAI says AI-made personas got propaganda into news coverage and drew an official denial in Bolivia, which matters to readers of those outlets and to newsrooms that cannot easily check who a writer is, but the scale and the Russian link rest on OpenAI's own investigation and no government body is named.",
+      "reason": "Meaning: facts show one official denial (Bolivia), not 'forced official denials in Latin America'."
+    },
+    {
+      "item_id": "C08-02",
+      "field": "summary",
+      "before": "PCWorld reports that Microsoft, Asus, Dell, HP and Lenovo have opened pre-orders for the first laptops using RTX Spark, Nvidia's Arm-based chip for Windows PCs, from $2,600 for Microsoft's Surface Laptop Ultra (up to $5,900 fully loaded) to $7,000 for a larger Asus model. This follows Nvidia's unveiling of the chip earlier this month, which our 6 Oct 2026 edition noted was expected at a Microsoft event on 7 Oct; the new facts are the prices and a shipping date of about 16 Oct, with some models, such as Dell's, still missing specifications.",
+      "after": "PCWorld reports that Microsoft, Asus, Dell, HP and Lenovo have opened pre-orders for the first laptops using RTX Spark, Nvidia's Arm-based chip for Windows PCs, from $2,600 for Microsoft's Surface Laptop Ultra (up to $5,900 fully loaded) to $7,000 for a larger Asus model. Nvidia unveiled the chip earlier this week; the new facts are the prices and a shipping date of about 16 Oct, with some models, such as Dell's, still missing specifications.",
+      "reason": "Meaning: the claim that our 6 Oct edition expected the chip at a Microsoft event on 7 Oct is not supported by the facts or notes; facts date the unveiling to the week of 5 Oct."
+    },
+    {
+      "item_id": "C08-02",
+      "field": "importance_line",
+      "before": "Windows laptops now have a high-end Arm platform of the kind Qualcomm's Snapdragon models offer, but the prices put them out of reach of most buyers, and the graphics match to an RTX 5070 holds only on paper.",
+      "after": "Windows laptops now have a high-end Arm platform of the kind Qualcomm's Snapdragon models offer, but the prices put them out of reach of most buyers, and the graphics match to an RTX 5070 is so far only on paper.",
+      "reason": "Meaning: source says 'at least on paper' (unproven), not that it holds only on paper."
+    },
+    {
+      "item_id": "C08-05",
+      "field": "summary",
+      "before": "The Korea Herald reports that Counterpoint Research said on 9 Oct 2026 that most products built on Nvidia's Rubin platform will likely use 12-layer HBM4 (high-bandwidth memory, stacked chips used beside AI processors), reversing its August view that Nvidia would adopt an eight-layer version. That eases fears that Nvidia was cutting its memory needs, while SK hynix and Samsung keep developing 16-layer versions that the article says have yet to see wide commercial use.",
+      "after": "The Korea Herald reports that Counterpoint Research said on 9 Oct 2026 that most products built on Nvidia's Rubin platform will likely use 12-layer HBM4 (high-bandwidth memory, stacked chips used beside AI processors), reversing its August view that Nvidia would adopt an eight-layer version. That eases fears that Nvidia was cutting its memory needs, while SK hynix and Samsung keep pushing 16-layer versions.",
+      "reason": "Meaning: 'yet to see wide commercial use' is not in the facts; removed."
+    },
+    {
+      "item_id": "C08-05",
+      "field": "importance_line",
+      "before": "It eases worries at SK hynix and Samsung and bears on how tight memory supply stays for AI servers and PCs, but it is an analyst forecast ('likely'), and chip yields and packaging capacity remain open hurdles.",
+      "after": "It eases worries at SK hynix and Samsung and bears on how tight memory supply stays for AI servers and PCs, but it is an analyst forecast ('likely'), and packaging capacity remains an open hurdle.",
+      "reason": "Meaning: chip yields are not in the facts; packaging capacity is."
+    },
+    {
+      "item_id": "C09-04",
+      "field": "summary",
+      "before": "TIME reports, in an exclusive, that the investigation by Democratic Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal into seven data center developers (Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix) found that several refused to give permanent job numbers and that none would agree to pay for new power infrastructure their data centers made necessary. The companies say they pay the direct costs of serving their sites but that wider grid upgrades also benefit other customers, and Meta disputes that its Louisiana project is driving up local electric bills.",
+      "after": "TIME reports, in an exclusive, that the investigation by Democratic Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal into seven data center developers (Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix) found that several refused to give full permanent job figures and that none would agree to pay for new power infrastructure their data centers made necessary. The companies say they pay the direct costs of serving their sites but that wider grid upgrades also benefit other customers, and Meta disputes that its Louisiana project is driving up local electric bills.",
+      "reason": "Meaning: facts say they refused 'comprehensive' employment data, not any job numbers."
+    },
+    {
+      "item_id": "C12-08",
+      "field": "summary",
+      "before": "Reuters reports that nine South Korean banks and two mega-churches are investigating cyberattacks that may have involved AI tools, and that Japanese firms including Daiwa Securities, SoftBank Corp and the Lawson convenience-store chain have been hit by a surge of incidents, while authorities are still checking whether and how AI was used in many cases. This continues our 6 Oct 2026 report that South Korea's president said signs of AI use had emerged in the bank hacks; new today are CrowdStrike's view that the suspected China-based attacker probably could not have run the campaign without AI, South Korea's order for a 12-point security self-assessment across finance, and a meeting of Japanese ministries on Thursday.",
+      "after": "Reuters reports that cyberattacks possibly aided by AI tools are under investigation at nine South Korean banks and two mega-churches, and that a surge of incidents has hit Japanese firms including Daiwa Securities, SoftBank Corp and the Lawson convenience-store chain, though in many cases officials have not yet established whether or how AI played a part. This continues our 6 Oct 2026 report that South Korea's president said signs of AI use had emerged in the bank hacks; new today are CrowdStrike's view that the suspected China-based attacker probably could not have run the campaign without AI, South Korea's order for a 12-point security self-assessment across finance, and a meeting of Japanese ministries on Thursday.",
+      "reason": "Copying: the first sentence nearly repeated two quote_evidence sentences word for word; reworded."
+    }
+  ],
+  "unresolved": [
+    {
+      "item_ids": [
+        "C06-04",
+        "C07-01"
+      ],
+      "type": "duplicate",
+      "detail": "Both report the same disclosure: OpenAI told investors its annualised revenue was about $50 billion, about $20 billion below the earlier ~$70 billion, because of cloud-partner counting. C07-01 adds the 8 Oct share falls. Same story line, different angles: C07-03 (Bloomberg, $70 billion year-end target), C07-06 (Oracle shares, repeats C07-01's Oracle fall), C07-05 (Nikkei/SoftBank), C07-09 (Reuters Morning Bid roundup)."
+    },
+    {
+      "item_ids": [
+        "C03-06",
+        "C06-11"
+      ],
+      "type": "duplicate",
+      "detail": "Both are Nous Research's $90 million round for Hermes for Businesses at a $1.5 billion valuation (C03-06 via The Next Web/WSJ, C06-11 via TechCrunch). Both are also re-dated (7 Oct 2026)."
+    },
+    {
+      "item_id": "C06-05",
+      "type": "re-dated",
+      "detail": "Reuters exclusive dated 6 Oct 2026; the 9 Oct Channel Insider piece only relays it. Nothing new in the window."
+    },
+    {
+      "item_id": "C03-06",
+      "type": "re-dated",
+      "detail": "WSJ report and funding news 7 Oct 2026; facts notes say re-dated."
+    },
+    {
+      "item_id": "C06-11",
+      "type": "re-dated",
+      "detail": "TechCrunch confirmation 7 Oct 2026; pool item (The AI Insider, 8 Oct) rewrites it."
+    },
+    {
+      "item_id": "C06-10",
+      "type": "re-dated",
+      "detail": "Armadin round listed in a CyberWire briefing of 7 Oct 2026; announced by 7 Oct, nothing new in the window."
+    },
+    {
+      "item_id": "C03-04",
+      "type": "re-dated",
+      "detail": "AWS Strands Box released 7 Oct 2026; facts notes say re-dated."
+    },
+    {
+      "item_id": "C09-06",
+      "type": "re-dated",
+      "detail": "Duke Energy settlement press release dated 7 Oct 2026; no new step in the window (regulator decision due mid-November)."
+    },
+    {
+      "item_id": "C08-04",
+      "type": "re-dated",
+      "detail": "Samsung HBM4E tests passed end of September; Hankyung report 7 Oct 2026."
+    },
+    {
+      "item_id": "C08-06",
+      "type": "re-dated",
+      "detail": "Intel CEO confirmation and Musk statement on Terafab dated 7 Oct 2026. Not edited per rule; note the headline is also awkward ('stands after the TSMC talks') if it is kept."
+    },
+    {
+      "item_id": "C08-09",
+      "type": "re-dated",
+      "detail": "Lisa Su-Samsung meeting on 7 Oct 2026; no deal or new step in the window."
+    },
+    {
+      "item_id": "C11-02",
+      "type": "re-dated",
+      "detail": "Slovak minister's video 7 Oct 2026; the 8 Oct Reuters piece reports the same statement, no approval yet."
+    },
+    {
+      "item_id": "C12-01",
+      "type": "re-dated",
+      "detail": "CrowdStrike analysis published 7 Oct 2026 (Wednesday); press coverage 8 Oct. Borderline: main session to decide. Not edited; its summary is also long (two sentences with long semicolon clauses). Also overlaps C12-08 (same Korean bank-hack story line; C12-08 widens to Japan)."
+    }
+  ]
+}

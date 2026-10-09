@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-10",
+ "v1_category": "RES",
+ "headline": "A US government audit found federal agencies are far behind in preparing for quantum-safe encryption.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by one: the GAO report came out on 6 Oct 2026, before the cutoff.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Sensitive data that federal agencies hold could be readable once quantum computers arrive if it is stolen now, but the timing of such machines is disputed, and only 12 of the 23 agencies advised by GAO fully agreed with its 89 recommendations.",
+ "source": "Cybersecurity Dive",
+ "status": "CONFIRMED",
+ "summary": "Cybersecurity Dive reports that the Government Accountability Office (GAO), the US government's auditor, found that of 24 major federal agencies only one had finished listing its systems that use vulnerable encryption, none had identified all the funding needed and none had fully tested the new quantum-resistant algorithms. The report, published on 6 Oct 2026, warns that data stolen now could be decrypted later by powerful quantum computers, though experts disagree on when such machines will exist.",
+ "url": "https://www.cybersecuritydive.com/news/government-quantum-encryption-migration-gao/832377/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full at Cybersecurity Dive. GAO report dated Tuesday 6 Oct 2026."
+}

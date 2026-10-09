@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-11",
+ "title": "Cloudflare Open Sources Decision Models for AI Agents",
+ "source_used": "InfoQ",
+ "article_url": "https://www.infoq.com/news/2026/10/clef-decision-models/",
+ "fetched": true,
+ "key_facts": [
+  "During its Birthday Week, Cloudflare announced Clef, open-weight models that choose between predefined options rather than generate text.",
+  "Models: Clef (27B, multimodal) and Clef-Flash (9B); both return a probability for each allowed option in a single forward pass.",
+  "Clef takes text, JSON, images or video; Cloudflare says unlike Jev it handles images, with a 64k context window against Jev's 32k.",
+  "Cloudflare's benchmarks give Clef-Flash a median latency of 38.8 ms against 209.3 ms for Clef.",
+  "A fine-tuning service starts with Cloudflare engineer support; self-service later, no date.",
+  "Models are on Workers AI and as downloadable weights on Hugging Face.",
+  "Community commenters questioned whether this is a new category and whether benchmarks prove real reliability."
+ ],
+ "quote_evidence": [
+  "During its recent \"Birthday Week\", Cloudflare announced Clef, a set of open-weight AI models designed to choose between predefined options rather than generate text.",
+  "Cloudflare released 9B- and 27B-parameter models, along with a platform for adapting them to specific decision-making tasks.",
+  "The company has made the Clef models available through Workers AI and as downloadable weights on Hugging Face, inviting developers to experiment with them and provide feedback."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Another large company has joined the race for fast, cheap 'decision models' for AI agents.",
+ "event_date": "1 Oct 2026 (Cloudflare blog date per Google News listing)",
+ "notes": "InfoQ date: 8 Oct. Announcement was earlier (Cloudflare blog item dated 1 Oct 2026 in Google News results), so older news re-dated; benchmarks are Cloudflare's."
+}

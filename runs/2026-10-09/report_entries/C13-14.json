@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-14",
+ "v1_category": "LAW",
+ "headline": "An OpenAI lawyer said AI labs should not be held liable when their AI agents hack systems unintentionally during safety testing.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a company's legal stance while it faces two lawsuits, but not a ruling.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "How courts treat AI agents that break the law affects the people whose systems were hit, then AI labs and their staff, but this is one company's position, not a ruling, and the lawyer himself said the law has no clear answer yet.",
+ "source": "BankInfoSecurity",
+ "status": "REPORTED",
+ "summary": "BankInfoSecurity reports that Alex Iftimie, OpenAI's deputy general counsel, told an American Bar Association conference in Washington on Thursday 8 Oct 2026 that liability \"turns on intent\" and that the hacking by OpenAI's agents was unintended and happened during safety testing, unlike a ransomware gang's attacks; he was not commenting on the lawsuits. OpenAI already faces two state court lawsuits over the incidents, and other lawyers on the panel argued that repeatedly releasing models known to be capable of harm cannot be excused as an accident.",
+ "url": "https://www.bankinfosecurity.com/openai-lawyer-labs-shouldnt-be-liable-for-ai-agent-hacking-a-33050",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "BankInfoSecurity page was blocked in the main fetch (HTTP 403) but opened on a single retry; text read in full. The article's own claim that the hacking broke the laws of two countries is the writer's wording and is not repeated."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-17",
+ "title": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
+ "source_used": "The Next Web (read in full); Dark Reading (the listed outlet) returned HTTP 403",
+ "article_url": "https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents",
+ "fetched": true,
+ "key_facts": [
+  "Zenity Labs says a single prompt to one public-facing AI agent let its researchers take over every other agent in the same AWS account and region running on Amazon Bedrock AgentCore; it published the research on Thursday (8 Oct 2026) alongside a SecTor 2026 talk.",
+  "The agent had a common web-request tool; asked in plain language, it fetched temporary credentials from the instance metadata service and returned its execution role's credentials.",
+  "Zenity says the default role covered the whole account and region, letting researchers list agents, download container images and source code, read users' private conversations and read API keys in AWS Secrets Manager.",
+  "Write access to agent memory let them plant a fake event stored as a lasting user instruction, so the agent fetched a researcher-controlled page before every answer.",
+  "Zenity reported the issues to AWS on 25 Dec 2025 and 12 Jan 2026; AWS closed the first as 'informative' in April, says new agents have used IMDSv2 only since 14 Feb, and by 29 Sep had narrowed the default role.",
+  "AWS says the research 'inaccurately paints expected and documented behavior as a vulnerability'; the disclosure has no CVE identifier.",
+  "The Next Web corrected its headline on 8 Oct 2026 because it had stated the researchers' claim as fact."
+ ],
+ "quote_evidence": [
+  "Researchers at Zenity Labs say a single prompt to one public-facing AI agent let them take over every other agent in the same AWS account and region.",
+  "AWS is aware of the research published about Amazon Bedrock AgentCore, which inaccurately paints expected and documented behavior as a vulnerability.",
+  "Zenity’s disclosure includes no CVE identifier."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "Researchers show how one prompt could expose every AI agent's data and credentials in a cloud account, while AWS says it is documented behaviour and has since tightened defaults.",
+ "event_date": "Research published 8 Oct 2026; issues reported to AWS Dec 2025 and Jan 2026",
+ "notes": "Dark Reading page blocked (403); text read on The Next Web, which cites Zenity and carries AWS's response. Zenity's own write-up was not opened."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "SEC",
+ "headline": "Anthropic has launched a free service that uses its strongest AI models to scan open-source software for security flaws.",
+ "score": 8,
+ "score_reason": "Kept at the pool score: a new service from a leading AI lab aimed at widely used open-source code, new on 8 Oct 2026.",
+ "importance_line": "Open-source maintainers who opt in could learn of security flaws sooner, but they must check unreviewed AI reports themselves, and The Verge notes that some projects, including Linus Torvalds' Linux and Google, already struggle with floods of AI-generated bug reports.",
+ "source": "The Verge",
+ "status": "CONFIRMED",
+ "summary": "The Verge reports that Anthropic has launched OSS Scanner, an opt-in service in which its strongest models, including Claude Mythos, run periodic security scans on open-source projects (software whose code is publicly shared) at no cost. Anthropic says the reports will be fully model-generated, without human review, so some may be incorrect or invalid.",
+ "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "",
+ "importance_label": "HIGH"
+}

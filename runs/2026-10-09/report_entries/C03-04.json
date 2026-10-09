@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "SEC",
+ "headline": "Amazon Web Services has released Strands Box, a free open-source sandbox that confines AI agents and blocks actions that break rules set by their developers.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: the release was on 7 Oct 2026 and it is macOS-only for now.",
+ "importance_line": "Developers running agents that act without human approval gain a way to stop them deleting data or running up costs, though AWS engineer Marc Brooker says developers must still decide what access to grant and where humans review.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reports that AWS has released Strands Box on GitHub, a sandbox that checks each action of an AI agent against developer-set rules that also take into account what the agent has already done, for example no more than three Slack posts every ten minutes. It runs only on macOS for now, with Linux support in development and a Windows version only \"on our radar\", according to AWS.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool link (Konsulteer) had no article text; the url is The Register, where the text was read. Rule examples are AWS examples.",
+ "importance_label": "WATCHLIST"
+}

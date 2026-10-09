@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-07",
+ "v1_category": "RES",
+ "headline": "Mathematicians in London and Cambridge found that the computer-checked version of OpenAI's Navier-Stokes proof does not match its written proof in at least two places.",
+ "score": 6,
+ "score_reason": "Specific, sourced finding that bears on trust in AI maths; the authors do not say the proof is wrong.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Mathematicians and readers who rely on computer-checked proofs are told that such checks can drift from the argument humans read, though the authors do not claim the proof itself is wrong.",
+ "source": "Yellow.com",
+ "status": "REPORTED",
+ "summary": "Yellow.com reports that a paper by Alexander Bastounis of King's College London and Fabian Circelli and Anders Hansen of the University of Cambridge found two places where OpenAI's written proof for its Navier-Stokes result, announced on 8 Sep 2026, diverges from the Lean code, the programming language a computer uses to check proofs; in one the code proves a weaker result than the written paper claims. The authors make no claim that the written proof is wrong, only that such proofs still need human peer review, and the finding adds to the dispute over OpenAI's 722 manuscripts that we carried on 7 Oct 2026 from The Verge.",
+ "url": "https://yellow.com/news/openai-719-ai-math-proofs-fire",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original (New Scientist) was unreadable; Yellow.com reported the paper in its own words and TechCrunch (C04-17) covers the same paper. Overlaps C04-17."
+}

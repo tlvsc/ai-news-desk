@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-02",
+ "v1_category": "MOD",
+ "headline": "Anthropic has added a live-dashboard feature and an animated-video feature to Claude, both still in beta.",
+ "score": 7,
+ "score_reason": "Pool 7 kept: a real product launch from a major lab, but both new features are beta and company-described.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Paying Claude users can now turn company data into live dashboards, and Team and Enterprise users can make explainer videos, though both tools are in beta and Anthropic's own account is the source.",
+ "source": "The Decoder",
+ "status": "CONFIRMED",
+ "summary": "The Decoder reports that Anthropic launched Dashboards, which links sources such as BigQuery, Snowflake or Salesforce and builds auto-updating dashboards from a text prompt, showing the query behind every number, and Motion, which turns text, diagrams and images into animated explainer videos. Dashboards is open to paid users and Motion to Team and Enterprise plans, while Docs, Slides and Design leave beta for all plans, including free ones, and Anthropic says more than 45 million documents have been made with them.",
+ "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Decoder because the Reuters page (401) was blocked; Reuters carried the same news under the original headline. Source is The Decoder as the outlet whose text was read."
+}

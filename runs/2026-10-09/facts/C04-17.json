@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-17",
+ "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+ "fetched": true,
+ "key_facts": [
+  "TechCrunch says OpenAI released hundreds of claimed solutions to hard maths problems this week after saying it had consulted an advisory group, and fell short of the group's standards.",
+  "The group, AGMAI, hosted at the Institute for Advanced Study, has nine prominent researchers and issued guidelines at the end of September.",
+  "Its first request was to stop testing advanced maths problems on proprietary models; OpenAI's release says it is doing exactly that.",
+  "OpenAI followed some principles, such as releasing quickly and including information on how the model reached results, but only 10 of the 719 manuscripts included the model's chain of thought.",
+  "A new paper from Cambridge and King's College London documents at least two discrepancies between the written and Lean versions of OpenAI's Navier-Stokes proof.",
+  "Harvard's Melanie Wood told TechCrunch there is no human understanding of such results at release, \"and now the work begins\".",
+  "AGMAI did not respond to TechCrunch's request for a fuller evaluation."
+ ],
+ "quote_evidence": [
+  "But OpenAI fell short of those standards, particularly where the mathematicians emphasized the need for human understanding of a mathematical result.",
+  "But not for all of them: Just 10 of the 719 manuscripts included releases of the model’s chain of thought."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "OpenAI said it would follow a panel's guidance on AI maths results and, on TechCrunch's reading, did so only in part.",
+ "event_date": "8 Oct 2026; release 6 Oct 2026",
+ "notes": "TechCrunch's sentence on the share of proofs without formalisation (42%) conflicts with Yellow.com (about 42% formalised) so it is not used. Judgment of \"falling short\" is TechCrunch's. Same cluster as C04-01, C04-06, C04-07."
+}

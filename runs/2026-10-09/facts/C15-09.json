@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-09",
+ "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+ "source_used": "Microsoft Security Blog",
+ "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft says post-quantum planning often focuses on protecting encrypted data but authentication systems (certificates, trust anchors, PKI services, devices) must also change.",
+  "Microsoft launched its Post-Quantum Cryptography TLS Pilot Program on 27 Aug 2026 for approved certificate authorities in its Trusted Root Program.",
+  "The pilot tests certificates using the ML-DSA-87 signature algorithm; its certificates are not publicly trusted and must not be used in production or public websites.",
+  "Seven pilot roots were added in August 2026, operated by ComSign, DigiCert, HARICA, IdenTrust Services, Sectigo, Shanghai Electronic Certification Authority and SSL.com.",
+  "Admissions are rolling through the end of 2026; ML-DSA certificates can be tested on supported Windows 11 systems from the 28 July 2026 updates.",
+  "Microsoft advises organisations to inventory certificate-dependent systems, assess vendor roadmaps, find long-lived infrastructure and build non-production test environments."
+ ],
+ "quote_evidence": [
+  "Certificates issued through the pilot are not publicly trusted and are intended solely for interoperability and ecosystem-readiness testing in closed environments, custom applications, and enterprise testbeds.",
+  "Organizations should view post-quantum readiness as a multi-year planning effort rather than a future migration project."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Microsoft is telling IT teams to start testing quantum-resistant certificates now.",
+ "event_date": "8 Oct 2026 (blog); pilot launched 27 Aug 2026",
+ "notes": "Vendor guidance post, not a mandate. The blog expands the abbreviation as \"Module-Lattice-Based Digital Signal Algorithm\" (apparent slip for Signature). The pilot itself dates from 27 Aug 2026."
+}

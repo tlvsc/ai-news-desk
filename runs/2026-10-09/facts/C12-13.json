@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-13",
+ "title": "Anthropic's new budget model gets much better at ignoring hidden commands",
+ "source_used": "Help Net Security (fulltext, read in full)",
+ "article_url": "https://www.helpnetsecurity.com/2026/10/08/anthropic-claude-haiku-5-5/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic's Claude Haiku 5.5, its model for quick, repetitive and speed-sensitive tasks, is better than Haiku 4.5 at finding vulnerabilities and writing exploits, and has stricter cyber safeguards than Haiku 4.5 but lighter than its more advanced models.",
+  "With safeguards off, in a test of known flaws in Chrome's V8 engine it achieved arbitrary code execution in four of 410 runs; a pre-release version completed 3.3% of multi-stage cyber challenges against 46.1% for Sonnet 5.5 and 67.6% for Opus 5.5.",
+  "In Claude Code tests it refused 84.3% of malicious requests, up from 66.6% for Haiku 4.5; in computer-use tests about 82.6%, up from 58.9%.",
+  "It gave harmless responses to 99.71% of harmful requests and wrongly refused 0.82% of harmless ones, down from 3.05% for Haiku 4.5.",
+  "Anthropic calls it its most prompt-injection-resistant Haiku; against adaptive attackers it largely matched the frontier models, but was less resistant than Sonnet 5.5 and Opus 5.5 on a separate Gray Swan benchmark, mostly in graphical computer use.",
+  "Most tests excluded additional production safeguards; Anthropic advises API developers to add their own safeguards.",
+  "Token prices are 90% lower than Haiku 4.5 for prompts up to 100,000 tokens."
+ ],
+ "quote_evidence": [
+  "Anthropic says Haiku 5.5 is its most resistant Haiku model yet to prompt injection.",
+  "In Claude Code tests, the model refused 84.3% of malicious requests, up from 66.6% for Haiku 4.5.",
+  "Most of these tests excluded additional production safeguards."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A cheap, fast model that is harder to trick with hidden instructions matters because it will run inside many automated agents, but the numbers are Anthropic's own.",
+ "event_date": "8 Oct 2026",
+ "notes": "All figures are Anthropic's own evaluations as reported by Help Net Security; Anthropic's system card was not opened."
+}

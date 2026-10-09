@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-08",
+ "title": "Nvidia’s big bet on physical AI aims for safer robotaxis, humanoid robots",
+ "source_used": "Ars Technica (fulltext)",
+ "article_url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia's Halos safety system launched in 2025 for self-driving cars; Halos for Robotics was announced in June 2026.",
+  "It spans a safety-focused processor (IGX Thor), monitoring software, a sensor bridge, simulation and an inspection lab.",
+  "Agility Robotics was first to build Halos into its Digit 5 humanoid, which is meant to work near people without barriers.",
+  "Boston Dynamics is an early partner in the Halos safety accreditation programme; KION Group and LG are also working with it.",
+  "Nvidia's Amit Goel says safety is the next bottleneck as robot hardware and AI models improve.",
+  "Jensen Huang described the physical AI business as driving nearly $10 billion in annual revenue (All-In Podcast, March 2026).",
+  "The article says it remains to be seen whether humanoids can become general-purpose workers."
+ ],
+ "quote_evidence": [
+  "Then the company expanded its safety architecture to more physical AI technologies by announcing Nvidia Halos for Robotics in June 2026—with the goal of enabling safe deployments of autonomous mobile robots in warehouses, humanoid robots walking around inside a factory, or even surgical robots.",
+  "The US startup Agility Robotics was first to incorporate Nvidia Halos into its latest Digit 5 humanoid robot, which is designed to work safely near people without requiring isolated workstations or physical barriers.",
+  "It remains to be seen if humanoid robots can become autonomous, general-purpose robot workers capable of handling practically any human task."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Safety is the gating issue for robots sharing space with people, and Nvidia is selling the answer.",
+ "event_date": "Halos for Robotics announced Jun 2026; feature published 8 Oct 2026",
+ "notes": "Explainer built on interviews with Nvidia's own staff; no independent assessment of the safety system. Day of the June announcement is not stated."
+}

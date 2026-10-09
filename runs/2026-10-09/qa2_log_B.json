@@ -1,0 +1,238 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-04",
+   "field": "summary",
+   "before": "TechNode reports that XPENG announced the brand on Thursday and launched a ride-hailing mini program, a light app, through which people with invitation codes can take part in testing; the company says it had completed more than 2,000 internal test rides in Guangzhou by August and has approval for road tests without a safety driver on designated roads. TechNode stresses that invitation-only trials are not a full public launch, and that coverage area, hours and a route to profit are still open, with XPENG's chief executive targeting profit per vehicle in Guangzhou in the second half of 2027.",
+   "after": "TechNode reports that XPENG announced the brand on Thursday and launched a ride-hailing mini program, a light app, through which people with invitation codes can take part in testing; the company says that by August it had run more than 2,000 internal test rides in Guangzhou and won permission to test on designated roads with no safety driver. TechNode stresses that invitation-only trials are not a full public launch, and that coverage area, hours and a route to profit are still open, with XPENG's chief executive targeting profit per vehicle in Guangzhou in the second half of 2027.",
+   "reason": "Rule 4: clause copied nearly word for word from quote_evidence; reworded."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "importance_line",
+   "before": "Selected members of the public in Guangzhou can now ride and test XPENG's robotaxi, a step toward competing with other Chinese and US operators; the service is not open to everyone, and its safety record and ability to make money are untested.",
+   "after": "Selected members of the public in Guangzhou can now ride and test XPENG's robotaxi, a step toward a full public service; the service is not open to everyone, and its safety record and ability to make money are untested.",
+   "reason": "Rule 1: competition with other operators is not in the facts."
+  },
+  {
+   "item_id": "C11-06",
+   "field": "summary",
+   "before": "The Wall Street Journal reports, in a story we read through Mint, that Walmart is automating most of its roughly 200 US supply-chain buildings but has faced shuttle robots that break down too often, cardboard boxes too big for the automated systems and oversize items such as big bags of dog food, with a senior executive describing the company as in \"peak complexity\". Walmart says the change should let it handle more stock faster and cut out-of-stock items, and its executives say it will not need layoffs because warehouse turnover is high.",
+   "after": "The Wall Street Journal reports that Walmart is automating most of its roughly 200 US supply-chain buildings but has faced shuttle robots that break down too often, cardboard boxes too big for the automated systems and trouble with oversize goods, with Rob Montgomery, who runs Walmart U.S. supply-chain operations, saying the company is in \"peak complexity\". Executives say fewer warehouse workers will eventually be needed but the change will not require layoffs, and spending on the rollout is expected to peak this year and next.",
+   "reason": "Rule 2: removed process note 'in a story we read through Mint'. Rule 1: removed claims not in the facts (more stock faster, fewer out-of-stocks, dog food example, turnover as the reason); replaced with supported facts and named the speaker."
+  },
+  {
+   "item_id": "C11-06",
+   "field": "importance_line",
+   "before": "Walmart's more than 140,000 warehouse workers face a job that shifts toward running and fixing machines, and the delays show how far robots are from handling ordinary retail goods; the timelines and performance figures come from Walmart and its supplier Symbotic, and automation is also raising costs such as electricity.",
+   "after": "Walmart's more than 140,000 warehouse workers face a job that shifts toward running and fixing machines, and the delays show how far robots are from handling ordinary retail goods; the timelines and performance figures come from Walmart and its supplier Symbotic, and one person familiar says power bills at automated grocery sites have more than tripled.",
+   "reason": "Rule 1: kept the electricity point but attributed it as the facts do (a person familiar; $800,000 vs $250,000)."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "headline",
+   "before": "OpenAI is rolling out an Ultrafast mode for its GPT-6.1 Sol model that it says runs up to eight times faster than the standard version.",
+   "after": "OpenAI has started offering an Ultrafast setting for its GPT-6.1 Sol model that it says runs up to eight times faster than the normal mode, TokenPost reports.",
+   "reason": "Rule 3/4: headline repeated the source sentence; reworded and attributed to the single outlet."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "summary",
+   "before": "TokenPost reports that OpenAI is rolling out an Ultrafast mode for GPT-6.1 Sol from Thursday in its API, Codex and ChatGPT Work, offering intelligence close to GPT-6 Astra at up to eight times the standard mode's speed, at $12 per million input tokens and $60 per million output tokens (1.2 times Astra's rates). Crypto Briefing reported earlier this week that both models had become about 50% faster; what is new today is a separate premium speed tier.",
+   "after": "TokenPost reports that from Thursday OpenAI is offering an Ultrafast mode for GPT-6.1 Sol in its API, Codex and ChatGPT Work, with intelligence close to GPT-6 Astra at up to eight times the standard mode's speed, at $12 per million input tokens and $60 per million output tokens (1.2 times Astra's rates). Crypto Briefing reported earlier this week that both models had become about 50% faster; what is new today is a separate premium speed tier.",
+   "reason": "Rule 4: opening copied the source sentence; reworded."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "importance_line",
+   "before": "Developers who need quick answers can pay a premium for speed, but in Codex and ChatGPT Work it is open only to Pro 500 users, eligible usage-based Enterprise plans and credit-based Edu plans, and the speed and quality claims rest on one outlet's report that we could not match to an OpenAI page.",
+   "after": "Developers who need quick answers can pay a premium for speed, but in Codex and ChatGPT Work it is open only to Pro 500 users, eligible usage-based Enterprise plans and credit-based Edu plans, and the speed and quality claims rest on a single outlet's report that cites no OpenAI statement.",
+   "reason": "Rule 2: removed internal process note ('we could not match')."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "headline",
+   "before": "A single developer says they used Anthropic's Claude to build free, open-source copies of Adobe's creative programs in the Rust programming language and plan to match Adobe's features within a month.",
+   "after": "A single developer says they used Anthropic's Claude to build free alternatives to Adobe's creative programs in the Rust programming language and plan to match Adobe's features within a month.",
+   "reason": "Rule 1: 'copies' and 'open-source' not supported; facts say free alternatives, described as a clean-room rewrite."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "source",
+   "before": "U.S. Department of War (.gov), as relayed by Quantum Computing Report",
+   "after": "U.S. Department of War",
+   "reason": "Rule 8: printed source is the issuer of the release, not the relay ('as relayed by Quantum Computing Report' removed from the source field; summary keeps the relay)."
+  },
+  {
+   "item_id": "C04-01",
+   "field": "summary",
+   "before": "The Decoder reports that the Association for Human Mathematics, chaired by Fields Medalist Terence Tao, accuses OpenAI of breaking core research norms and urges mathematicians to stop working with the company, calling the release of more than 700 files at once \"not a demonstration of scholarship, but a demonstration of power\". The statement answers OpenAI's release of 722 maths manuscripts from an unreleased AI model, which we carried on 7 Oct 2026 from The Verge, many of which the group says are so dense that even leading experts need AI help to read them.",
+   "after": "The Decoder reports that the Association for Human Mathematics, chaired by Fields Medalist Terence Tao, accuses OpenAI of breaking core research norms and urges mathematicians to stop working with the company, calling the release of more than 700 files at once \"not a demonstration of scholarship, but a demonstration of power\". The statement answers OpenAI's release of 722 maths manuscripts from an unreleased AI model, which we carried on 7 Oct 2026 from The Verge; The Decoder adds that many of the papers are so dense that even leading experts need AI help to read them.",
+   "reason": "Rule 1: the 'too dense to read without AI' point is The Decoder's own statement (and Moshkovitz's), not the group's; attribution corrected."
+  },
+  {
+   "item_id": "C04-06",
+   "field": "importance_line",
+   "before": "Mathematicians checking the release learn that errors are already surfacing, and about half the results were released without full formal confirmation, so more corrections are likely.",
+   "after": "Mathematicians checking the release learn that errors are already surfacing, and OpenAI says about half the results were released without full formal confirmation.",
+   "reason": "Rule 1: 'more corrections are likely' stated as certain desk inference; the expectation is the Cornell mathematician's, already in the summary. Shorter."
+  },
+  {
+   "item_id": "C04-07",
+   "field": "summary",
+   "before": "Yellow.com reports that a paper by Alexander Bastounis of King's College London and Fabian Circelli and Anders Hansen of the University of Cambridge found two places where OpenAI's written proof for its Navier-Stokes result, announced on 8 Sep 2026, diverges from the Lean code, the programming language a computer uses to check proofs; in one the code proves a weaker estimate than the paper states. The authors make no claim that the written proof is wrong, only that such proofs still need human peer review, and the finding adds to the dispute over OpenAI's 722 manuscripts that we carried on 7 Oct 2026 from The Verge.",
+   "after": "Yellow.com reports that a paper by Alexander Bastounis of King's College London and Fabian Circelli and Anders Hansen of the University of Cambridge found two places where OpenAI's written proof for its Navier-Stokes result, announced on 8 Sep 2026, diverges from the Lean code, the programming language a computer uses to check proofs; in one the code proves a weaker result than the written paper claims. The authors make no claim that the written proof is wrong, only that such proofs still need human peer review, and the finding adds to the dispute over OpenAI's 722 manuscripts that we carried on 7 Oct 2026 from The Verge.",
+   "reason": "Rule 4: phrase copied from quote_evidence; reworded."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "headline",
+   "before": "Science has published an item on using AI-driven formal proof search to advance mathematics research.",
+   "after": "The journal Science has published a piece on AI tools that search for computer-checked proofs to push maths research forward.",
+   "reason": "Rule 3: headline restated the publisher's title nearly word for word."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "summary",
+   "before": "Science lists an item titled \"Advancing mathematics research with AI-driven formal proof search\".",
+   "after": "Science, the research journal, lists a new item about using AI to search for formal proofs, ones a computer can check step by step, to advance mathematics research.",
+   "reason": "Rule 2/fetched=false: kept a cautious attributed restatement of the headline in our own words."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "importance_line",
+   "before": "Mathematicians following the dispute over AI-written proofs may care about a Science item on formal proof search; what it finds is not yet known to us.",
+   "after": "Mathematicians may want to follow AI tools that find proofs a computer can check; the title alone does not say what the item finds.",
+   "reason": "Rule 1/2: removed invented link to the AI-proofs dispute and the process note 'not yet known to us'."
+  },
+  {
+   "item_id": "C15-05",
+   "field": "importance_line",
+   "before": "It brings a major foreign technology firm into a state that already hosts national laboratories and several quantum companies, with training and jobs promised for local people, but the announcement gives no investment figure, opening date or hiring numbers.",
+   "after": "It brings a major foreign technology firm into a state that already hosts national laboratories and several quantum companies, with training programmes promised for local people, but the announcement gives no investment figure, opening date or hiring numbers.",
+   "reason": "Rule 1: facts mention education and workforce programmes, not promised jobs."
+  },
+  {
+   "item_id": "C15-06",
+   "field": "source",
+   "before": "Universal Quantum (press release, via The Quantum Insider)",
+   "after": "Universal Quantum",
+   "reason": "Rule 8: printed source is the company that issued the release, not the carrier (The Quantum Insider); summary keeps 'carried by The Quantum Insider'."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "summary",
+   "before": "The Register reports that Britain's data protection regulator, the ICO, has contacted OpenAI, Anthropic, Meta and the UK AI Security Institute after reports earlier this year of AI agents, software that can browse websites, use tools and carry out tasks with limited human supervision, bypassing safeguards during testing and deployment; its technology regulation director, Richard Nevinson, said agents acting on their own is 'not an excuse for poor compliance'. The ICO has also opened a six-week call for evidence on agentic AI, covering security, transparency, accountability and lawful use of personal data, with responses due by 20 Nov 2026 to inform future guidance and its planned statutory code of practice on AI and automated decision-making.",
+   "after": "The Register reports that Britain's data protection regulator, the ICO, has contacted OpenAI, Anthropic, Meta and the UK AI Security Institute after reports earlier this year of AI agents, software that can browse websites, use tools and carry out tasks with limited human supervision, bypassing safeguards during testing and deployment; its technology regulation director, Richard Nevinson, said agents acting on their own is 'not an excuse for poor compliance'. The ICO has also opened a six-week request for evidence on agentic AI, asking about security, openness, responsibility and the lawful handling of personal data, with responses due by 20 Nov 2026 to inform future guidance and its planned statutory code of practice on AI and automated decision-making.",
+   "reason": "Rule 4: phrase copied from quote_evidence; reworded."
+  },
+  {
+   "item_id": "C13-05",
+   "field": "summary",
+   "before": "Reuters reports that Danish Culture Minister Zenia Stampe will propose a bill on Thursday 8 Oct 2026 banning the digital copying and sharing of lifelike representations of a person, including appearance and voice, aimed at making tech companies take down manipulated content quickly. Parody, satire and work that criticises those in power would be exempt, and Stampe hopes the law takes effect around the turn of the year, subject to parliamentary approval.",
+   "after": "Reuters reports that Danish Culture Minister Zenia Stampe planned to propose a bill on Thursday 8 Oct 2026 that would make it illegal to digitally copy and share realistic imitations of a person's looks and voice, mainly to push tech companies to remove manipulated content fast. Parody, satire and work that criticises those in power would be exempt, and Stampe hopes the law takes effect around the turn of the year, subject to parliamentary approval.",
+   "reason": "Rule 4: clause copied nearly word for word from quote_evidence; reworded."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "source",
+   "before": "Beth Israel Deaconess Medical Center (via Newswise)",
+   "after": "Beth Israel Deaconess Medical Center",
+   "reason": "Rule 8: printed source is the hospital that issued the study release, not the carrier (Newswise)."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "headline",
+   "before": "A first real-world trial found that a Google medical chatbot, used by patients before urgent primary-care visits, needed no safety stops across 98 supervised conversations.",
+   "after": "A Google medical chatbot that interviewed patients before urgent primary-care visits needed no safety stops in 98 supervised chats, in what researchers believe is the first real-world study of its kind.",
+   "reason": "Rule 1: 'first real-world trial' dropped the hedge; the researchers say they believe it is the first."
+  },
+  {
+   "item_id": "C10-02",
+   "field": "importance_line",
+   "before": "Shows how much investors will bet on AI-designed medicines, which concerns future patients and drug developers, but no AI-discovered medicine has reached the market and the talks may not close.",
+   "after": "Shows how much investors will bet on AI-designed medicines, which concerns future patients and drug developers, but Isomorphic has yet to test its own drug candidates in humans and the talks may not close.",
+   "reason": "Rule 1: 'no AI-discovered medicine has reached the market' is not in the facts; replaced with the supported point."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "importance_line",
+   "before": "Voters of both parties want AI kept under human control and workers protected, yet Congress has passed no major AI law, so the poll puts pressure on lawmakers before the midterms; it measures opinion, not what AI will actually do.",
+   "after": "Most Americans want AI kept under human control and workers protected, yet Congress left for the midterm campaign without passing a major AI law; the poll measures opinion, not what AI will actually do.",
+   "reason": "Rule 1: 'voters of both parties' and 'puts pressure on lawmakers' were not supported by the facts."
+  },
+  {
+   "item_id": "C14-02",
+   "field": "summary",
+   "before": "Reuters reports, after Business Insider first broke the news, that Amazon is cutting fewer than 1,000 white-collar jobs, mainly in its stores division and also in units such as customer service and selling partner services. The cuts follow about 30,000 corporate job losses that began last year and ran into January; Amazon says it is removing \"a small number of roles\" to restructure its Stores business.",
+   "after": "Reuters reports, after Business Insider first broke the news, that Amazon is eliminating under 1,000 office jobs, chiefly in the stores division that runs its main shopping website, with internal Slack messages pointing to cuts in units such as customer service and selling partner services too. The cuts follow about 30,000 corporate job losses that began last year and ran into January; an Amazon spokesperson said it is removing \"a small number of roles\" to better deliver on its priorities.",
+   "reason": "Rule 4: opening copied the source sentence; reworded. Rule 1: 'to restructure its Stores business' not in the facts; replaced with the spokesperson's stated reason."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "importance_line",
+   "before": "Hundreds of wealth staff in the UK could lose their jobs by the end of October, and clients would get more digital service; the figures come from one anonymous source and HSBC has confirmed only that it is consulting.",
+   "after": "Many wealth staff in the UK could lose their jobs by the end of October, and clients would get more digital service; the figures come from one anonymous source and HSBC has confirmed only that it is consulting.",
+   "reason": "Rule 1: 'hundreds' is not in the facts."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "headline",
+   "before": "The Financial Times says that the long-predicted fall in call centre jobs, linked to AI, has finally started.",
+   "after": "The Financial Times' AI Shift column says the long-predicted fall in call centre jobs has finally started.",
+   "reason": "Rule 1 (fetched=false): 'linked to AI' added a causal claim the headline does not make; kept to the column's own claim."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "summary",
+   "before": "The Financial Times says in its \"AI Shift\" column that the long-predicted decline in call centre jobs has finally begun.",
+   "after": "The Financial Times argues in its \"AI Shift\" column that call centre jobs, long expected to shrink, have now started to decline.",
+   "reason": "Rule 3/4 (fetched=false): summary repeated the FT title word for word; cautious attributed restatement in our own words."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "importance_line",
+   "before": "Renters, including nurses, teachers and hospitality workers, face higher costs and displacement, though how much of the rise is due to AI rather than long-standing shortages is argued over.",
+   "after": "Renters, including nurses, teachers and hospitality workers, face higher costs and displacement, though the link to the AI boom rests on the mayor's and advocates' accounts, not on a measured share.",
+   "reason": "Rule 1: an argument over AI versus shortages is not in the facts; the AI link is the Guardian's reporting and the mayor's view."
+  },
+  {
+   "item_id": "C16-01",
+   "field": "summary",
+   "before": "Heraldo USA reports that Colombian streamer Westcol (Luis Fernando Villa Álvarez) was struck hard on the back of the head by his robot while he and singer Blessd were preparing to dance with it on a livestream. By his own account the robot is 5 feet 7 inches tall and cost about $100,000, and it still has to be programmed for his appearance at the Stream Fighters 5 event on 14 Nov; earlier, in control tests, it had kicked hard enough to break a display case in his studio.",
+   "after": "Heraldo USA reports that Colombian streamer Westcol (Luis Fernando Villa Álvarez) took a hard blow to the back of the head from his robot while he and singer Blessd were preparing to dance with it on a livestream. By his own account the robot is 5 feet 7 inches tall and cost about $100,000, and it still has to be programmed for his appearance at the Stream Fighters 5 event on 14 Nov; earlier, in control tests, it had kicked hard enough to break a display case in his studio.",
+   "reason": "Rule 4: phrase copied from quote_evidence; reworded."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C12-04",
+    "C12-05"
+   ],
+   "type": "duplicate",
+   "detail": "Same ICO announcement of 8 Oct 2026, same Register url; C12-04 is the ten-developer data commitments, C12-05 the agents contact and call for evidence. Fold into one entry or keep as two angles."
+  },
+  {
+   "item_ids": [
+    "C04-02",
+    "C15-02"
+   ],
+   "type": "duplicate",
+   "detail": "Nvidia's $1 billion: C04-02 lists it as Nvidia's share of the $2.4 billion Genesis Mission compute credits; C15-02 is Nvidia's own $1 billion five-year Genesis-linked pledge at the same event. Very likely the same money; merge or cross-reference."
+  },
+  {
+   "item_ids": [
+    "C04-03",
+    "C15-04"
+   ],
+   "type": "duplicate",
+   "detail": "Both carry the Energy Department's $159 million, 12 Phase II Genesis Mission awards; C15-04 adds the eight quantum priority problems and the fellowship pilot. Partial overlap: drop the awards from one or merge."
+  }
+ ],
+ "notes": [
+  "Related but not duplicates (different events): C04-01 (AHM boycott call), C04-06 (OpenAI withdraws 3 manuscripts), C04-07 (Lean mismatch in the Navier-Stokes proof); all three already name the 7 Oct release. C15-01, C04-02, C04-03, C15-02, C15-04 come from the same 8 Oct White House science summit.",
+  "Credits not changed but unverifiable here (no fulltext): C02-02 The Decoder (Reuters blocked), C01-05 Unite.AI (VentureBeat blocked), C04-07 Yellow.com (New Scientist unreadable); facts say each wrote its own report.",
+  "C16-07: incident dated by Mack as 'last Thursday', exact date not given; not re-dated because the facts do not show it fell well before the window."
+ ]
+}

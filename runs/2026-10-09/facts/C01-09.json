@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-09",
+ "title": "Liquid AI Builds On-Device Context Layer for Personal AI Agents",
+ "source_used": "TokenPost",
+ "article_url": "https://www.tokenpost.com/news/technology/28337",
+ "fetched": true,
+ "key_facts": [
+  "Liquid AI announced Liquid Context on 23 Sep 2026 at Snapdragon Summit 2026.",
+  "It is optimised for Qualcomm Snapdragon processors and the Hexagon NPU, for phones, wearables, PCs and vehicles.",
+  "It learns routines and preferences from permitted device signals, keeps that context locally and shares it with agents the user authorises.",
+  "It pairs the memory layer with the LFM2.5-2.6B agentic model.",
+  "A multi-year Mercedes-Benz partnership was announced 23 Apr 2026, targeting first in-car deployment as early as the second half of 2026.",
+  "Liquid AI is working on observability and improvement loops so agents can 'self-heal' and personalise over time."
+ ],
+ "quote_evidence": [
+  "Liquid AI announced Liquid Context Sept. 23 at Snapdragon Summit 2026.",
+  "Liquid Context is designed to learn routines, preferences and needs from permitted device signals, maintain that context locally and provide relevant information to agents authorized by the user.",
+  "The companies targeted an initial production deployment as early as the second half of 2026."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Private, on-device memory for AI agents, but this is an old announcement with no release date.",
+ "event_date": "23 Sep 2026",
+ "notes": "Older news re-dated: announcement was 15 days before the 8 Oct window start; TokenPost article adds no new launch."
+}

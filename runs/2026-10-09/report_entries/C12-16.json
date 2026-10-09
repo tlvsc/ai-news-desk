@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-16",
+ "v1_category": "SEC",
+ "headline": "Researchers say hackers use a poem on GitHub to steer a cryptocurrency-mining botnet that takes over exposed AI servers such as LiteLLM and Ollama.",
+ "score": 5,
+ "score_reason": "Pool score kept: a concrete campaign with a stated server count and a clever control method, but it is a secondary account and the victim figures are inconsistent.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Organisations that expose AI tools such as LiteLLM and Ollama to the internet risk having their servers hijacked for crypto mining, and the poem trick lets the attacker change control servers without touching the malware, but the report's own victim counts differ (3,400 versus almost 2,200) and the operator is not identified.",
+ "source": "CyberSecurityNews, citing Lumen's Black Lotus Labs",
+ "status": "REPORTED",
+ "summary": "CyberSecurityNews reports, citing a report published on 7 Oct 2026 by Lumen's Black Lotus Labs, that malware called PoeLLM, active since at least April 2026, reads four chosen words from a poem stored on GitHub and turns them into the address of its control server, so the operator can redirect infected machines just by editing the poem. It attacks internet-facing AI and developer tools, including LiteLLM and Ollama (software for routing and running AI models), Gotenberg and Gitea, to install cryptocurrency miners, with more than 3,400 affected servers in the report's overview (an earlier figure of almost 2,200 remains in parts of it), mostly in the United States and Western Europe.",
+ "url": "https://cybersecuritynews.com/hackers-use-github-hosted-poem/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on CyberSecurityNews, a secondary report; the Lumen Black Lotus Labs original was not opened. The article itself notes the server-count discrepancy."
+}

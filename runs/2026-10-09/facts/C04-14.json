@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-14",
+ "title": "Study finds AI coding agents barely benefit from writing their own tests",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/study-finds-ai-coding-agents-barely-benefit-from-writing-their-own-tests/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from Singapore Management University, Shanghai Jiao Tong University and ByteDance studied how AI coding agents use tests they write themselves.",
+  "They tested agents on SWE-bench Verified, a benchmark of 500 real bugs from open-source Python projects.",
+  "The number of tests an agent wrote had no statistically significant effect on whether it fixed the bug.",
+  "Agents mostly used print statements to look at values rather than assertions that pass or fail; for Claude Opus 4.5, print statements were more than 82% of feedback signals.",
+  "The paper was first posted to arXiv in February 2026 and revised in April.",
+  "The article adds its own advice that teams should rely on independent tests, which is the outlet's opinion."
+ ],
+ "quote_evidence": [
+  "Across the models tested, how many tests an agent wrote during a task had no statistically significant effect on whether it actually fixed the bug.",
+  "For Claude Opus 4.5, print statements accounted for more than 82% of the feedback signals in its self-written tests."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Letting an AI agent grade its own work may give less reassurance than the marketing suggests.",
+ "event_date": "Paper first posted February 2026, revised April 2026",
+ "notes": "Older paper re-reported on 8 Oct. Preprint; no outside review reported. Exact posting days not given."
+}

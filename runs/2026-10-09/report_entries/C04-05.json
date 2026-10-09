@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "Researchers at George Washington University have published a formula that estimates how far a chatbot conversation can run before the AI slips into bad answers.",
+ "score": 6,
+ "score_reason": "Fresh and useful safety research, but tested only on seven small open models and not shown on the big commercial chatbots.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Anyone using chatbots or AI agents could eventually get an early warning before an AI starts giving bad output, but so far this is a team's own result on open models, with no outside review reported.",
+ "source": "SecurityWeek",
+ "status": "PRELIMINARY",
+ "summary": "SecurityWeek reports that researchers Neil Johnson and Frank Huo of George Washington University derived a formula for the tipping point at which a conversation's accumulated context pushes a chatbot's attention mechanism, the part that decides which earlier text matters most, toward bad output, and tested it on seven open-weight models of 124 million to 12 billion parameters. Johnson says a simple warning light inside the model could flag the tipping, but the team could add it only to open models, not to the closed systems of OpenAI or Anthropic.",
+ "url": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Tested on open models only; the paper's review status is not stated."
+}

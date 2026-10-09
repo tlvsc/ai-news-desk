@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-03",
+ "title": "Jev, an AI for making quick decisions, has been a viral hit in Silicon Valley. But OpenAI is hot on its heels",
+ "source_used": "Fortune",
+ "article_url": "https://fortune.com/2026/10/08/jev-an-ai-for-making-quick-decisions-has-been-a-viral-hit-in-silicon-valley-but-openai-is-hot-on-its-heels/",
+ "fetched": true,
+ "key_facts": [
+  "TypeSafe AI released Jev in September; it classifies and sorts inputs (for example routing customer messages) at a fraction of the cost of leading models.",
+  "Per Vercel, nearly 13% of its paid teams tried Jev within a day of its arrival on Vercel's AI Gateway, more than twice any previous model launch in the first 24 hours.",
+  "Fortune says OpenAI launched a competing Decisions API on 6 Oct, built on the existing GPT-6 Luna model without further training.",
+  "OpenAI says its interface returns decisions up to ten times faster than calling GPT-6 Luna through the general Responses API; it accepts images, Jev accepts only text.",
+  "Input price: $0.10 per million tokens for OpenAI against $0.042 for Jev; neither charges for output tokens.",
+  "TypeSafe spent two years developing Jev and raised a $40 million seed round led by DCVC.",
+  "Developers still have to establish whether the judgments are accurate enough for their task; one developer found Jev let important emails slip through until he made his questions more specific."
+ ],
+ "quote_evidence": [
+  "Vercel said Jev reached more than twice as many paid teams in its first 24 hours as any previous model launch.",
+  "Perhaps the clearest sign that TypeSafe was on to something: on Oct. 6, just three weeks after Jev’s launch, OpenAI rolled out a competing product, called Decisions API.",
+  "Developers still have to establish whether its judgments are accurate enough for their particular task."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Cheap, fast purpose-built models for routine sorting decisions are drawing a direct response from OpenAI.",
+ "event_date": "September 2026 (Jev); 6 Oct 2026 (OpenAI Decisions API, per Fortune)",
+ "notes": "Fortune's own reporting. Another outlet (Pasquale Pillitteri) headline dated 29 Sep says OpenAI launched Decisions API; Fortune says 6 Oct. Date taken from Fortune, attributed."
+}

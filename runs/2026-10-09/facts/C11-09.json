@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-09",
+ "title": "AWS launches open-source Physical AI Toolchain for robotics",
+ "source_used": "The Robot Report (fulltext)",
+ "article_url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+ "fetched": true,
+ "key_facts": [
+  "AWS launched an open-source Physical AI Toolchain on 8 Oct 2026 to take robot developers from data collection to training, simulation, validation and deployment.",
+  "It combines AWS services (SageMaker, IoT Greengrass) with Nvidia's Isaac Sim, Isaac Lab, Isaac GR00T and Cosmos.",
+  "It covers five steps: synthetic data, model training, simulation and validation, edge deployment, continuous improvement.",
+  "AWS says it is hardware-neutral and draws on Amazon's own operations, which now include more than 1 million robots.",
+  "It is not a direct replacement for RoboMaker, the AWS robotics simulation platform shut down in 2025.",
+  "AWS cites Telexistence, which has deployed more than 300 humanoids in Japanese convenience stores.",
+  "Sri Elaprolu of AWS says robot training data is scarce compared with the text available for language models."
+ ],
+ "quote_evidence": [
+  "Amazon Web Services (AWS) today launched an open-source Physical AI Toolchain designed to help roboticists move from collecting data to training, simulating, validating and deploying AI models on their robots.",
+  "The toolchain combines five pieces of the AI development process: synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement.",
+  "Elaprolu said the toolchain includes lessons from Amazon’s own robotics operations, which now include more than 1 million robots."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Gives robot makers a ready-made route from data to deployment on Amazon's cloud.",
+ "event_date": "8 Oct 2026",
+ "notes": "Claims about usefulness are AWS's own."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-09",
+ "v1_category": "RES",
+ "headline": "Microsoft urged organisations to start testing quantum-resistant digital certificates now, well before any switch is required.",
+ "score": 5,
+ "score_reason": "Official vendor guidance with practical steps; the pilot it describes started on 27 Aug, so the news is the advice, not a new event.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "IT and security teams get a practical checklist for a migration Microsoft expects to take years, but this is vendor guidance, not a requirement, and the pilot is limited to approved certificate authorities in closed test environments.",
+ "source": "Microsoft",
+ "status": "CONFIRMED",
+ "summary": "In a security blog post, Microsoft says preparing for quantum-safe encryption must also cover the digital certificates that prove websites and devices are genuine, and points to its pilot programme, launched on 27 Aug 2026, in which approved certificate authorities (the bodies that issue them) test certificates built on a quantum-resistant signature method called ML-DSA-87. It advises companies to list every system that depends on certificates, ask vendors about their plans and set up non-production test environments, and stresses that pilot certificates are not publicly trusted and must not be used in production.",
+ "url": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+ "freshness": "FOLLOW-UP of 27 Aug 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. The pilot launched 27 Aug 2026; the blog post of 8 Oct 2026 adds the guidance."
+}

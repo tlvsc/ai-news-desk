@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-01",
+ "v1_category": "SEC",
+ "headline": "Security firm CrowdStrike says a financially motivated, probably Chinese-speaking attacker used a Chinese-made AI hacking tool together with Anthropic's Claude Code to breach South Korean lenders.",
+ "score": 8,
+ "score_reason": "Pool score kept: it names the tools and a suspect behind a major bank-data theft, but it is the security firm's own assessment at moderate confidence.",
+ "importance_label": "HIGH",
+ "importance_line": "A security firm has now named the AI tools behind the South Korean bank attacks, which affects customers of at least five lenders (about 25,000 at Shinhan alone) and every bank facing cheaper AI-assisted intrusions, but this is CrowdStrike's own moderate-confidence assessment, the attacker's identity is unproven and police are still investigating.",
+ "source": "The Register, citing CrowdStrike",
+ "status": "REPORTED",
+ "summary": "The Register reports, citing a CrowdStrike analysis published on 7 Oct 2026, that the attacker paired ARTEX, a recently released Chinese-developed open-source tool that lets AI software hunt for weaknesses in computer systems, with Anthropic's Claude Code coding assistant to breach at least five South Korean lenders, including Shinhan Bank, KB Kookmin Bank and Hana Bank; Infosecurity Magazine adds that CrowdStrike judges with moderate confidence that the attacker is a financially motivated Chinese speaker, and exposed AI session logs point to one likely individual whom CrowdStrike cannot definitively identify. This continues the story of the South Korean bank hacks, where officials were reported by The Record on 7 Oct 2026 to suspect a Chinese tool called Artex AI; the new fact today is CrowdStrike's account of how the attack was run, while police are still investigating whether one person or an organised group is responsible.",
+ "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The New York Times original (nytimes.com, HTTP 403) was not readable; text read on The Register and Infosecurity Magazine, link kept at The Register. Source chain: CrowdStrike analysis, reported by The Register. Same story line as C12-08 and the 6 Oct 2026 entries. Affected-customer figures differ between outlets (Register: Shinhan 25,000, KB Kookmin 119, Hana 89; Infosecurity: Yegaram 40,000 per The Straits Times); only the Register figures are used."
+}

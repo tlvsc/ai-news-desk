@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "OpenAI has launched a rival to Jev, a fast, low-cost AI model for routine sorting decisions that start-up TypeSafe AI released in September.",
+ "score": 5,
+ "score_reason": "Lowered from 6: the launches it describes happened before 8 Oct; the new value is Fortune's reporting and usage figures.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Businesses that sort thousands of routine messages a day could cut cost and delay by using small purpose-built models instead of general chatbots, but the contest is early, and TypeSafe's edge in reliability is an investor's view, not a test result.",
+ "source": "Fortune",
+ "status": "REPORTED",
+ "summary": "Fortune reports that Jev, built for jobs such as routing customer messages or labelling documents, was tried by nearly 13% of Vercel's paid teams within a day of reaching its AI Gateway (a service for trying different models), according to Vercel, and that OpenAI answered on 6 Oct with a Decisions API built on its existing GPT-6 Luna model. OpenAI's version accepts images and costs $0.10 per million tokens against Jev's $0.042 for text only, and developers still have to test whether either is accurate enough for their own task.",
+ "url": "https://fortune.com/2026/10/08/jev-an-ai-for-making-quick-decisions-has-been-a-viral-hit-in-silicon-valley-but-openai-is-hot-on-its-heels/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Fortune in full. 6 Oct launch date is Fortune's; another outlet's headline suggests 29 Sep, so the date may be earlier."
+}

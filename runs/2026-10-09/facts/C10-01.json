@@ -1,0 +1,24 @@
+{
+ "item_id": "C10-01",
+ "title": "Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care",
+ "source_used": "Beth Israel Deaconess Medical Center release via Newswise (matching study; NYT page blocked)",
+ "article_url": "https://www.newswise.com/articles/bidmc-researchers-conduct-first-real-world-study-of-safety-and-quality-of-patient-facing-ai-in-primary-care",
+ "fetched": true,
+ "key_facts": [
+  "BIDMC researchers, with Google, ran what they believe is the first prospective real-world study of a patient-facing conversational AI in primary care; findings appear in The Lancet.",
+  "The chatbot, AMIE (Articulate Medical Intelligence Explorer), questioned patients by text from home after they booked an urgent primary care appointment, took histories, suggested possible diagnoses and wrote a summary for the doctor.",
+  "114 patients enrolled between April and November 2025; 98 finished both the AI chat and the appointment.",
+  "A physician watched every chat in real time; none of the 98 completed conversations needed a safety-stop intervention; one hallucination and five cases needing extra clinical clarification were logged.",
+  "For the 44 cases where doctors read the AI summary, 75% said it helped them prepare and 57% said it may have influenced their approach; one doctor called it somewhat harmful because a lymphoma mention may have caused anxiety.",
+  "Patients worried about confidentiality and about the chatbot's honesty and trustworthiness.",
+  "The study tested feasibility, not whether AI improves outcomes; it was funded by Alphabet and lead author Adam Rodman was a visiting researcher at Google during part of it."
+ ],
+ "quote_evidence": [
+  "Across all 98 completed encounters, none of the conversations required a safety-stop intervention.",
+  "Rodman and colleagues emphasized that the study was designed to evaluate feasibility rather than to determine whether AI improves health outcomes."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "First real-world check that a patient-facing chatbot can run safely under physician watch.",
+ "event_date": "Study April-November 2025; published in The Lancet, reported 8 Oct 2026",
+ "notes": "The New York Times page (pool item) returned 403. Matched by topic and date (NYT headline 8 Oct 2026: AI chatbots could aid urgent care) to the BIDMC/Lancet AMIE study; the NYT text could not be checked, so that match is an inference. Credit goes to BIDMC via Newswise."
+}
