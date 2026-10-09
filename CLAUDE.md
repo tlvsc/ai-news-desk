@@ -147,7 +147,7 @@ not about which project it is.
     repeat of the last 7 days, no update unless Rafi named it, company and category limits, counts, order) and refuses to go on until it passes. Rafi approves the list before any wording is
     written. Opus does the checks (stranger, rules, final audit per product, a checklist of every rule with PASS or FAIL and evidence), because a different model must check the author.
     Fable is used elsewhere only when Rafi names the item. Report the helper token use per stage next to the 4 and 5 Oct runs.
-    BIGGER PICTURE MODEL (Rafi, 8 Oct 2026): Fable at effort high for now, all three lengths. It replaces the Opus line for the Bigger Picture in the Part A skill (7 Oct 2026).
+    BIGGER PICTURE MODEL (Rafi, 9 Oct 2026, replaces the 8 Oct line "Fable at effort high"): one agent writes all three lengths, on Fable at effort max or Opus at max, whichever is smarter; Fable max is the choice. The main session never writes it.
     HAIKU TODAY ONLY (Rafi, 8 Oct 2026): on 8 Oct 2026 every helper job that says Sonnet runs on Haiku; Opus and Fable jobs do not change. The NEVER Haiku line above stands for every other day.
     SCRIPTS STAY AS THEY ARE DURING A RUN (Rafi, 8 Oct 2026): fixes go into the skill text and its list files; a script changes only between runs, when Rafi says so.
     BIG OUTLETS (Rafi, 8 Oct 2026; extends the 55 sources line of 2 Oct): the scan also reads investing.com, MarketWatch, Yahoo Finance, CNA, BBC, Euronews, DW, taz and Sixth Tone. France 24 is not used.

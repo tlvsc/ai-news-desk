@@ -21,7 +21,7 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 - Bulletin_V1_Rules_Structure.txt (Blueprint_Library / Bulletin blueprint V1)
 - Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts, Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026; call it
   only by this name). It is the ONLY place for reader levels and the writing shape; no brief or script restates them. Every writer,
-  and the main session when it writes the Bigger Picture, re-reads Sections 1, 1A, 1B and the product section BEFORE EACH ITEM.
+  and the Bigger Picture agent, re-reads Sections 1, 1A, 1B and the product section BEFORE EACH ITEM.
 - AI News Desk — STORAGE & FILE ROUTING STANDARD (00 — PROJECT OS) for where things would go on Drive.
 - CLAUDE.md in this repo (house rules; rules 14, 16 and 17 set counts, cutoffs and the Bigger Picture).
 
@@ -165,7 +165,7 @@ decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update c
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
-Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Fable agent (Agent tool model "fable", effort "high"; Rafi, 8 Oct 2026: Fable at high for now, replacing the Opus line of 7 Oct 2026), following `$A/briefs/bigger_picture.md`.
+Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Fable agent (Agent tool model "fable", effort "max"; Rafi, 9 Oct 2026, replacing "effort high" of 8 Oct 2026; the main session never writes it), following `$A/briefs/bigger_picture.md`. Agent prompt: `Read $A/briefs/bigger_picture.md and follow it exactly; WORKDIR is $W; cutoffs: <report-min> and <bulletin-min>.`
 
 ### 11. Final build and PDFs
 ```
