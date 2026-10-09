@@ -1,0 +1,33 @@
+{
+ "changes": [
+  {
+   "item_id": "C13-21",
+   "field": "headline",
+   "before": "Elon Musk has accused unnamed Indian \"oligarchs\" of blocking Starlink's launch and asked whether billionaire Mukesh Ambani is \"the real boss of India\", while India's government rejects the claim.",
+   "after": "Elon Musk, who heads SpaceX and the satellite internet service Starlink, accused unnamed \"oligarchs\" of blocking Starlink in India and asked whether Mukesh Ambani, chairman of Reliance Industries, is \"the real boss of India\", while India's government calls the claim of unfair treatment baseless.",
+   "reason": "Musk and Ambani given position and organisation (vague label 'billionaire' removed); 'Indian' oligarchs and 'launch' not in Musk's words; government rejection stated as the ministry put it."
+  },
+  {
+   "item_id": "C13-21",
+   "field": "summary",
+   "before": "The BBC reports that SpaceX and Starlink chief Elon Musk wrote on X on 7 Oct that unnamed \"certain oligarchs\" were blocking Starlink in India to keep a \"monopolistic chokehold\" on consumers, and on 8 Oct asked \"Is Ambani the real boss of India?\", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; these are Musk's claims, and Reliance had not responded. India's Communications Ministry called them \"baseless and misconceived\" and Communications Minister Jyotiraditya Scindia said on 9 Oct that \"India does not allow a monopoly in any sector\" because Starlink, Jio's satellite arm and Eutelsat OneWeb all hold licences and still await security clearance and spectrum, while PTI reports that Rahul Gandhi, Leader of the Opposition in the Lok Sabha, answered Musk with \"Welcome to India, Elon. Wait till you discover the other guy\" and BJP leader Ram Madhav replied that spectrum will be allocated under the law without discrimination.",
+   "after": "The BBC reports that Elon Musk, who heads SpaceX and Starlink, wrote on X on 7 Oct that \"certain oligarchs\" were blocking Starlink in India to keep a \"monopolistic chokehold\" on consumers, and on 8 Oct asked \"Is Ambani the real boss of India?\", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; Reliance had not responded. India's Communications Ministry said Starlink, Jio's satellite arm and rival Eutelsat OneWeb are at broadly the same stage, all awaiting security clearance and spectrum, and called the suggestion of unfair treatment \"baseless and misconceived\", while Communications Minister Jyotiraditya Scindia said on 9 Oct that \"India does not allow a monopoly in any sector\".",
+   "reason": "Shortened to two plain sentences at reader level 7: removed the unsupported 'because' link between Scindia's monopoly line and the licences, dropped the Rahul Gandhi and Ram Madhav replies (the phrasing file gives no rule for moving them to the importance line, so shortened instead); every allegation stays attributed to Musk, ministry rejection kept."
+  },
+  {
+   "item_id": "C13-21",
+   "field": "importance_line",
+   "before": "The row decides little yet but concerns when people in India, especially in remote areas, can buy Starlink's satellite internet; the allegation is Musk's alone, the government rejects it and Reliance had not responded when the BBC wrote, PTI linked a 2.4 percent fall in Reliance shares on 8 Oct to the row although India's whole market also fell, and Deccan Herald noted that Musk's own AI chatbot Grok, asked by an X user, listed national security risks as a downside of Starlink in India.",
+   "after": "The row decides nothing yet but bears on when people in India can buy Starlink's satellite internet, which still waits on security clearance and spectrum; the allegation that business interests are blocking it is Musk's alone, and the government rejects it.",
+   "reason": "Shortened to one sentence (what changed, who it affects, honest doubt); dropped 'especially in remote areas' (not in the facts) and the share-price and Grok asides, which are not needed for the meaning."
+  },
+  {
+   "item_id": "C13-21",
+   "field": "source",
+   "before": "BBC, with PTI and ANI via The Economic Times",
+   "after": "BBC, with ANI",
+   "reason": "PTI no longer used in the entry after the shortening; ANI first reported Scindia's 9 Oct statement, The Economic Times only carried it (credit to the first reporter)."
+  }
+ ],
+ "unresolved": []
+}
