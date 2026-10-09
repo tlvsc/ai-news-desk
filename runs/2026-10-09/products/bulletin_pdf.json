@@ -1,9 +1,99 @@
 {
  "title": "Daily Bulletin",
  "date": "9 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6), plus the top 3 from The Fun Side.",
- "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 38 stories",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, POL from 6), plus the top 3 from The Fun Side.",
+ "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 44 stories",
  "categories": [
+  {
+   "name": "Politics and government",
+   "items": [
+    {
+     "headline": "President Trump has declared on Truth Social that anyone who says \"artificial intelligence\" instead of \"super intelligence\" is an enemy of the White House.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 1,
+     "rank_of": 9,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "The Independent reports that Trump wrote on Truth Social on Thursday that the White House \"considers anyone that uses the term\" artificial intelligence, rather than \"Super Intelligence\", to be \"THE ENEMY\". It follows an executive order of about a week earlier telling federal agencies to use the new term; our 4 and 5 Oct 2026 editions carried the White House Super Intelligence Force and Elon Musk's plan to rename SpaceXAI as SpaceXSI.",
+      "Why it matters: It affects federal agencies, which must use the term, and any company or person who might feel pressed to follow, but the president cannot compel private use and \"superintelligence\" already means AI beyond human ability, so the rename could confuse."
+     ],
+     "source": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ai-super-intelligence-the-enemy-b3063681.html"
+    },
+    {
+     "headline": "Two US senators, one Republican and one Democrat, have put forward a bill making the Pentagon's biggest AI suppliers report security problems.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 2,
+     "rank_of": 9,
+     "status": "REPORTED",
+     "paragraphs": [
+      "DefenseScoop reports that Republican Sen. Jim Banks and Democratic Sen. Kirsten Gillibrand put forward the Insider Threat Reporting and Security Guidance Act of 2026, which would make AI companies with Pentagon deals worth $100 million or more share their security practices and report incidents such as stolen model weights (the files holding an AI model's learned settings) within 72 hours. The companies would also have to certify their reports every 90 days, using the Pentagon's buying power to set safety expectations before Congress passes broader AI rules.",
+      "Why it matters: The bill would give the Pentagon more sight of how its AI suppliers protect their models, which matters to national security officials and the public, then to the AI companies concerned, but it is only a proposal and has not been voted on."
+     ],
+     "source": "DefenseScoop",
+     "url": "https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models/"
+    },
+    {
+     "headline": "Japan's Prime Minister Sanae Takaichi has declined, for now, to follow US President Donald Trump's call to rename artificial intelligence \"superintelligence\".",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 3,
+     "rank_of": 9,
+     "status": "REPORTED",
+     "paragraphs": [
+      "Kyodo News reports that Takaichi told Japan's lower house of parliament on 8 Oct 2026 that \"AI\" is the right term for now, because it is used in government documents and academic papers and changing it everywhere at once would be hard, and that she would watch how other governments respond. She was answering Yuichiro Tamaki, leader of the Democratic Party for the People, about Trump's call in his UN General Assembly speech last month for the US government to use \"SI\" (superintelligence) in official documents; this edition also carries The Independent's 8 Oct report that Trump called people who say \"artificial intelligence\" \"the enemy\" (item C05-02).",
+      "Why it matters: It shows a close US ally declining to follow the US president's wording at once, which matters to governments and companies that write AI documents, but she left the door open by saying she will watch how other countries respond."
+     ],
+     "source": "Kyodo News",
+     "url": "https://en.sedaily.com/international/2026/10/08/takaichi-rebuffs-trumps-push-to-rename-ai-as-si"
+    },
+    {
+     "headline": "Philippine President Ferdinand Marcos Jr said a regional digital economy agreement due to be signed in November will guide Southeast Asian countries on AI.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 4,
+     "rank_of": 9,
+     "status": "REPORTED",
+     "paragraphs": [
+      "CNA reports that Marcos, whose country chairs the Association of Southeast Asian Nations (ASEAN) this year, told the Forbes Global CEO Conference in Singapore on 8 Oct 2026 that the ASEAN Digital Economy Framework Agreement (DEFA) will be formally signed at the bloc's 49th summit in November. DEFA, whose negotiations ended in May, sets common rules for digital trade, cross-border data flows, digital payments and online consumer protection, and Marcos said it gives countries a roadmap for areas such as AI.",
+      "Why it matters: It affects the Association of Southeast Asian Nations (ASEAN) and firms trading digital services in the region, but the agreement is not yet signed and Marcos gave no detail on its AI content."
+     ],
+     "source": "CNA",
+     "url": "https://www.channelnewsasia.com/asia/philippine-president-ferdinand-marcos-jr-forbes-asean-6442061"
+    },
+    {
+     "headline": "India and the United Arab Emirates signed agreements on energy, defence and AI during Prime Minister Narendra Modi's visit to Abu Dhabi.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 5,
+     "rank_of": 9,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "DD News, India's state broadcaster, reports, citing India's Ministry of External Affairs, that India and the UAE signed pacts on energy, defence, shipping and technology, and that the UAE announced $5 billion of investment in India, including $3 billion by Emirates New Development Bank in RBL Bank. The deals include a partnership between India's Centre for Development of Advanced Computing and the Emirati AI company G42 for an 8-exaflop supercomputer cluster for India's AI Mission, and a framework for a strategic defence partnership covering cyber defence and secure communications.",
+      "Why it matters: It ties Gulf money and an Emirati AI firm to India's computing and defence plans, which affects Indian industry and the two governments, but the investments and the supercomputer are announced, not yet built."
+     ],
+     "source": "DD News",
+     "url": "https://ddnews.gov.in/en/india-uae-ink-major-pacts-on-energy-defence-ai-abu-dhabi-commits-5-billion-investment/"
+    },
+    {
+     "headline": "Israel's Finance Ministry is reported to be considering new taxes because AI could reduce jobs and government revenue.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 6,
+     "rank_of": 9,
+     "status": "REPORTED",
+     "paragraphs": [
+      "The Times of Israel reports that Israel's Finance Ministry is weighing new taxes, and links the move to the risk that AI could cut jobs and state revenue.",
+      "Why it matters: If confirmed, it would affect workers and Israeli taxpayers and companies using AI, but the proposed taxes, their size and their timing are unknown, and the ministry may only be studying options.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
+     ],
+     "source": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/"
+    }
+   ]
+  },
   {
    "name": "Market, industry and finance",
    "items": [
@@ -603,7 +693,7 @@
    "title": "About this edition",
    "paragraphs": [
     "This is a test edition. Stories were collected through Google News for the 24 hours ending 06:18 UTC on 9 October 2026, and articles were read from our 101-source list where the sites allowed it.",
-    "We read the full article for 101 of 106 stories. The rest are marked as headline only because their websites could not be opened from our system.",
+    "We read the full article for 102 of 108 stories. The rest are marked as headline only because their websites could not be opened from our system.",
     "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, 5 and below watchlist. Nothing here is investment advice."
    ]
   }

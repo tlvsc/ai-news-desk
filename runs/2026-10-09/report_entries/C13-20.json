@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-20",
+ "v1_category": "POL",
+ "headline": "Dutch newspaper de Volkskrant says Prime Minister Rob Jetten told parliament no AI was used on his official social media accounts when at least five posts were written by AI.",
+ "score": 5,
+ "score_reason": "Kept at the pool score; a national political row with a disputed finding, limited to the Netherlands.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It affects Dutch voters and MPs who rely on the government's answers, and it tests rules on labelling AI text, but the finding rests on a detection tool and two experts, and the government disputes that the posts were wholly AI-made.",
+ "source": "de Volkskrant",
+ "status": "REPORTED",
+ "summary": "Dutch newspaper de Volkskrant reports that it found at least five posts on the Dutch Prime Minister's official \"minpres\" accounts that were written by AI and not labelled, although Jetten told parliament on 29 Sep 2026 that \"no AI was used\" there. The newspaper had reported last month that Jetten and his party D66 used an AI model to generate hundreds of posts; the Government Information Service says AI was used only on his private accounts, does not deny it was used for the minpres posts, and disputes that they were generated entirely by AI.",
+ "url": "https://nltimes.nl/2026/10/08/pm-jetten-misinformed-parliament-using-ai-social-media-posts",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source credited to de Volkskrant (original reporter); read at NL Times, which relays it. The finding uses the Pangram detection tool plus two experts; the government disputes the conclusion."
+}
