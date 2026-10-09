@@ -1,0 +1,93 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-21",
+   "field": "source",
+   "before": "Reuters (video); details via VTV",
+   "after": "Reuters",
+   "reason": "Credit: Reuters reported the story first and the link is Reuters; 'details via VTV' is an internal note (rules 6.2); VTV is named in the summary."
+  },
+  {
+   "item_id": "C11-21",
+   "field": "summary",
+   "before": "Reuters reported in a video on 8 Oct 2026 that England has a new two-legged delivery robot called Iris, and Vietnam's state broadcaster VTV adds that the robot is being tested on deliveries in northern England. VTV says Iris carries parcels of up to 15 kg at up to 6 km an hour, can climb stairs and cross rough ground, and is meant to help delivery workers on hard routes rather than replace them; VTV also calls it the first such trial in Europe, a claim we could not check.",
+   "after": "Reuters reported in a video on 8 Oct 2026 that England has a new two-legged delivery robot called Iris, and Vietnam's state broadcaster VTV adds that it is being tested on parcel deliveries in northern England. VTV says Iris carries parcels of up to 15 kg at up to 6 km an hour, climbs stairs and crosses rough ground, and that its developers mean it to help delivery workers on hard routes rather than fully replace them; VTV also calls it Europe's first such delivery trial, a claim not checked independently.",
+   "reason": "Hedge restored ('not replace them entirely' in the facts); developers' intent attributed to the developers; process note 'we could not check' removed."
+  },
+  {
+   "item_id": "C11-21",
+   "field": "importance_line",
+   "before": "Delivery workers and customers on routes with stairs and narrow alleys could see robots reach doorsteps that wheeled machines cannot; the report names no developer, partner or timetable, so it is an early trial.",
+   "after": "Delivery workers on routes with stairs, narrow alleys and sharp corners could get help from a robot built for places other delivery robots struggle with; no developer, partner or timetable is named, and it is still a trial.",
+   "reason": "Removed unsupported comparison with wheeled machines (facts compare with four-legged robots); kept the doubt."
+  },
+  {
+   "item_id": "C11-22",
+   "field": "summary",
+   "before": "Medical Device Network reports, from the company's announcement, that Medical Microinstruments (MMI) raised $125 million in an oversubscribed Series D round (a late-stage private funding round) led by existing investor BioStar Capital, with Angelini Ventures and S3 Ventures joining. The money will expand sales of MMI's Symani robot, which steadies a surgeon's hands for very small operations on blood vessels and nerves, and pay for studies including REMIND, which is testing only whether Symani is safe for microsurgery on neck lymph nodes in Alzheimer's patients; Mark Toland, chief executive of MMI, says the aim is \"large-scale deployment\".",
+   "after": "Medical Device Network reports, from the company's announcement, that Medical Microinstruments (MMI) raised $125 million in an oversubscribed Series D round (a late-stage private funding round) led by existing investor BioStar Capital, with Angelini Ventures and S3 Ventures joining. MMI says the money will widen sales of its Symani robot, which helps surgeons make very small, precise movements in operations on tiny blood vessels and nerves, and pay for studies including REMIND, which is testing only whether Symani is safe for microsurgery on neck lymph nodes in Alzheimer's patients; Mark Toland, chief executive of MMI, says the aim is \"large-scale deployment\".",
+   "reason": "Company plan attributed to MMI; 'steadies a surgeon's hands' replaced by what the facts say the robot does (very small, precise movements)."
+  },
+  {
+   "item_id": "C11-22",
+   "field": "importance_line",
+   "before": "Surgeons and patients needing delicate vessel or nerve repair may get wider access to a robot-assisted option, while the benefit for Alzheimer's patients is only being tested for safety so far.",
+   "after": "Surgeons and patients needing delicate vessel or nerve repair may get wider access to a robot-assisted option, while its use in Alzheimer's patients is only being tested for safety so far.",
+   "reason": "Meaning fix: the REMIND study tests safety, not benefit."
+  },
+  {
+   "item_id": "C11-23",
+   "field": "headline",
+   "before": "Chinese robot maker Deep Robotics has put its DR02 humanoid robots on busy Hangzhou streets to direct traffic and guide tourists.",
+   "after": "Chinese robot maker Deep Robotics has tested its DR02 humanoid robots directing traffic and guiding tourists on busy Hangzhou streets.",
+   "reason": "Hedge restored: the facts describe a test, not a lasting deployment."
+  },
+  {
+   "item_id": "C11-23",
+   "field": "summary",
+   "before": "AI Insider reports, citing Deep Robotics, that the company ran field trials in early October in Hangzhou's Xihu District in which its DR02 humanoid robots directed traffic at intersections, helped maintain order and answered visitors' questions in several languages, including in heavy rain at Xixi National Wetland Park. Deep Robotics says the robots use onboard sensors to move around junctions on their own and spot unsafe behaviour, and that the aim is to free staff for tasks needing human judgment; no independent results are given.",
+   "after": "AI Insider reports, citing Deep Robotics, that the company ran field trials in early October in Hangzhou's Xihu District in which its DR02 humanoid robots directed traffic at intersections, helped keep order and answered visitors' questions in several languages, in heavy traffic and steady rain. Deep Robotics says the robots use onboard sensors to move around junctions on their own, were tested on spotting unsafe behaviour, and aim to free staff for tasks needing human judgment; no independent results are given.",
+   "reason": "Facts say 'steady rain' and 'heavy traffic', not heavy rain; spotting unsafe behaviour was a test focus, not a shown result."
+  },
+  {
+   "item_id": "C11-24",
+   "field": "headline",
+   "before": "A Thai robot maker showed a store-working humanoid in Tokyo and says it could be in Japanese convenience stores from 2027.",
+   "after": "A robot maker working mainly in Thailand showed a humanoid built for shop work in Tokyo and plans to put it in Japanese convenience stores from as early as 2027.",
+   "reason": "'Thai robot maker' was stronger than the facts ('operating mainly in Thailand'); 'as early as' hedge restored; 'store-working' replaced."
+  },
+  {
+   "item_id": "C11-24",
+   "field": "summary",
+   "before": "News On Japan reports that humanoid robots built to stock shelves, track inventory, pack goods and talk to shoppers in more than 20 languages were shown at a retail trade event in Tokyo on 8 Oct 2026, among them the C1 from CP AI Robotics, a company working mainly in Thailand. Weidong Sun of CP AI Robotics told the outlet the company hopes to start full-scale use in Japanese convenience stores as early as 2027, with robots working alongside staff rather than replacing them.",
+   "after": "News On Japan reports that humanoid robots built to stock shelves and serve shoppers in more than 20 languages were shown at a retail trade event in Tokyo on 8 Oct 2026, among them the C1 from CP AI Robotics, a company working mainly in Thailand, which says the robot can identify products, refill shelves and bag purchases. The company plans full-scale use in Japanese convenience stores as early as 2027, and Weidong Sun of CP AI Robotics said one or more robots per store could cut staff workload, adding: \"We are not aiming for completely unmanned stores.\"",
+   "reason": "The 2027 plan is the company's (article), not Sun's words 'to the outlet'; C1 tasks added as the company's claim so the entry says plainly what the machine does; Sun's quote kept short with speaker named."
+  },
+  {
+   "item_id": "C11-24",
+   "field": "importance_line",
+   "before": "Convenience-store staff and shoppers in Japan, where workers are scarce, may eventually see humanoids restocking shelves and serving customers; no store chain has signed up and the tasks shown live are not detailed.",
+   "after": "Convenience-store staff and shoppers in Japan, where workers are scarce, may eventually see humanoids restocking shelves and serving customers; no store chain is named and the tasks shown live are not detailed.",
+   "reason": "Facts say no chain is named, not that none has signed up."
+  },
+  {
+   "item_id": "C11-29",
+   "field": "importance_line",
+   "before": "Delivery customers and couriers in China may see robots take on night-time deliveries, but the details, companies and scale of the Bloomberg feature were not available to us.",
+   "after": "Couriers and customers in China may see robots take on more night-time deliveries; which companies are involved and how many robots is not yet clear.",
+   "reason": "Removed process note 'were not available to us'; kept the doubt."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C11-24",
+   "issue": "position missing",
+   "detail": "Weidong Sun is named with his organisation (CP AI Robotics) but the source gives no job title; none invented."
+  },
+  {
+   "item_id": "C11-29",
+   "issue": "score below report cutoff",
+   "detail": "Score 4 (headline only, lowered from 5); in the report only if the fill-to-110 rule takes it. Score not changed."
+  }
+ ]
+}
