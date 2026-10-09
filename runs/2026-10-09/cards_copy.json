@@ -1,0 +1,287 @@
+{
+ "edition": "2026-10-09",
+ "note": "Card wording written by Fable from the Full Report entries, checked by check_wording.py and a stranger check.",
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "item": "C05-02",
+   "cat": "Politics and government / Trump's enemy",
+   "head": "Trump called anyone saying artificial intelligence, not superintelligence, the enemy.",
+   "body": "The US president posted it a week after ordering federal agencies to use his term. He cannot make private people use it, and superintelligence already means AI beyond human ability.",
+   "src": "The Independent",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "item": "C13-15",
+   "cat": "Politics and government / Japan says AI",
+   "head": "Japan's prime minister says Japan keeps saying AI, not superintelligence, for now.",
+   "body": "Sanae Takaichi was asked in parliament about US President Trump's UN call last month. She said AI is used across official papers, and she will watch other governments.",
+   "src": "Kyodo News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "item": "C13-21",
+   "cat": "Politics and government / Musk vs India",
+   "head": "Elon Musk accused Indian tycoons of blocking Starlink; India's government denies it.",
+   "body": "Musk, who runs SpaceX and its Starlink satellite internet, says Starlink has waited five years. India's ministry says Starlink and two rivals all await security clearance, calling the claim baseless.",
+   "src": "BBC, with ANI",
+   "pill": "DISPUTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "item": "C06-04",
+   "cat": "Market, industry and finance / OpenAI sales",
+   "head": "OpenAI told investors its yearly sales pace is $20 billion below what it said before.",
+   "body": "An unnamed source says the gap comes mostly from comparing OpenAI with rival Anthropic. Anthropic counts cloud partner sales, OpenAI does not; a pace is monthly sales times twelve.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "item": "C07-04",
+   "cat": "Market, industry and finance / WTO trade",
+   "head": "The World Trade Organization doubled its 2026 trade growth forecast on AI demand.",
+   "body": "Trade in AI goods like chips and servers rose two thirds from January to June. They made almost half of all trade growth, offsetting damage from the Middle East war.",
+   "src": "Associated Press",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "item": "C03-01",
+   "cat": "Security and cyber / Free scanner",
+   "head": "AI firm Anthropic now scans open-source code, readable by all, for flaws for free.",
+   "body": "Projects that opt in get scans by its strongest AI; nobody checks the flaw reports. Anthropic says some reports may be wrong; some projects already drown in AI bug reports.",
+   "src": "The Verge",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "item": "C12-02",
+   "cat": "Security and cyber / Fake reporters",
+   "head": "OpenAI says it shut down Russian and Iranian groups using ChatGPT for fake writers.",
+   "body": "The Russian-linked group invented a think-tank head; the Iran-linked one planted almost 100 articles. The articles ran under fake journalists' names; OpenAI names no government agency behind either group.",
+   "src": "CyberScoop, citing OpenAI",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "item": "C09-03",
+   "cat": "Energy and infrastructure / Gas by truck",
+   "head": "Oracle is trucking natural gas to its AI data centres while it waits for pipelines.",
+   "body": "Trucked gas ran a Utah site a year and now feeds a Texas OpenAI campus. Analysts put trucked gas at about four times the usual price; Oracle did not comment.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C11-23",
+   "cat": "Robotics / Traffic robots",
+   "head": "Humanoid robots directed traffic and guided tourists in a trial in Hangzhou, China.",
+   "body": "Only the maker, Chinese robot firm Deep Robotics, describes the trial of its DR02 robots. The firm says they handled busy crossings in rain, to free staff for tasks needing judgment.",
+   "src": "AI Insider",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "item": "C11-06",
+   "cat": "Robotics / Walmart robots",
+   "head": "Walmart's warehouse robots break down too often and cannot handle its big boxes.",
+   "body": "After a decade, Walmart is still automating most of its roughly 200 US warehouses. Executives say fewer warehouse workers will be needed in time, without layoffs.",
+   "src": "The Wall Street Journal",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "item": "C01-01",
+   "cat": "Models and tools / Gemini 4 Argon",
+   "head": "Google unveiled its new top AI model, Gemini 4 Argon, first for security experts.",
+   "body": "Trusted experts get it without Google's usual cyber limits; paying developers follow after safety tests. Google claims top scores in coding, finance, law and security, from its own tests.",
+   "src": "Google",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "item": "C04-04",
+   "cat": "Research and science / Gene-edit doubt",
+   "head": "Scientists say AI firm Anthropic overstated its find of a possible gene-editing tool.",
+   "body": "Anthropic said last month its AI found a DNA pattern that may edit genes. Copenhagen researcher Mario Rodríguez Mestre says his unpublished work shows it; he cannot prove copying.",
+   "src": "CNN",
+   "pill": "DISPUTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "item": "C13-01",
+   "cat": "Ethics and law / USA Today sues",
+   "head": "USA Today's publisher sued OpenAI, saying it copied hundreds of thousands of stories.",
+   "body": "The publisher and its local papers say OpenAI trained AI on their articles without asking. They seek over $250 million; The New York Times also sues; OpenAI had not responded.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "item": "C10-01",
+   "cat": "Health / AI pre-visit",
+   "head": "A Google chatbot questioned patients before urgent visits and needed no safety stop.",
+   "body": "Boston hospital doctors watched all 98 completed chats live and never had to step in. The study, paid by Google's parent, tested only safety, not whether patients got better.",
+   "src": "Beth Israel Deaconess Medical Center",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s15",
+   "kind": "story",
+   "item": "C14-07",
+   "cat": "Society and education / Gaza classrooms",
+   "head": "A US charity plans to record Gaza classrooms and have AI flag 'hateful' speech.",
+   "body": "Dr David Hasan, founder of the charity Gaza Children Village, described the plan last month. A board member and a partner aid group raised privacy concerns; families may not know yet.",
+   "src": "Associated Press",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s16",
+   "kind": "story",
+   "item": "C16-01",
+   "cat": "The Fun Side / Robot hits host",
+   "head": "A Colombian streamer's own robot whacked him on the head during a livestream.",
+   "body": "Streamer Westcol turned his back while rehearsing a dance with the robot on air. He says it cost about $100,000; in earlier tests it kicked a display case apart.",
+   "src": "Heraldo USA",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "item": "C02-01",
+     "cat": "Models and tools",
+     "head": "Google showed a Gemini AI helper for firms that works across apps, now in testing."
+    },
+    {
+     "id": "t2",
+     "item": "C11-24",
+     "cat": "Robotics",
+     "head": "A humanoid shop robot shown in Tokyo could stock Japanese convenience stores from 2027."
+    },
+    {
+     "id": "t3",
+     "item": "C09-04",
+     "cat": "Energy and infrastructure",
+     "head": "US Democratic senators say some tech giants mislead on AI data centre costs and jobs."
+    },
+    {
+     "id": "t4",
+     "item": "C14-06",
+     "cat": "Society and education",
+     "head": "San Francisco rents rose a quarter, blamed on the AI boom; eviction notices rose 44%."
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "AI investors now want results, not promises, after OpenAI's lower sales figure.",
+   "body": "OpenAI's sales pace came in lower; data-centre firm Firmus dropped its share sale. Watch if OpenAI raises money at a $1.4 trillion value; not financial advice.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "refs": [
+    "C07-02",
+    "C06-04",
+    "C06-01",
+    "C06-03",
+    "C07-04"
+   ]
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ]
+}

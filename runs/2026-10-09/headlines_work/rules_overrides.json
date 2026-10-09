@@ -1,0 +1,4 @@
+[
+ {"rule": "G1.4", "match": "C01-01 speaks an outlet", "active": true, "by": "Opus rules agent (false positive), pending Rafi's yes", "date": "2026-10-09",
+  "note": "C01-01 is Google's own Gemini 4 Argon announcement; the entry's source is 'Google' (the company's blog), so the script counts the company name as a spoken outlet. The Opus rules agent judged it a false alarm. Shown to Rafi with the review list."}
+]

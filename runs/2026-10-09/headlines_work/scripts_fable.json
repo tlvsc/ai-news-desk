@@ -1,0 +1,95 @@
+{
+ "stories": [
+  {
+   "item": "C05-02",
+   "category_word": "politics",
+   "who": "Donald Trump, the US president, writing on his Truth Social site",
+   "what": "wrote on Thursday that the White House considers anyone who says artificial intelligence instead of super intelligence 'the enemy', about a week after an executive order told federal agencies to use the new term; the post changes no policy",
+   "why_for_people": "he can order the government to use his term but cannot make the public obey, so nobody outside government has to say super intelligence; and superintelligence already means A I beyond human ability, so the new name could confuse people",
+   "script": "First, to the White House. President Trump calls anyone who says A I instead of super intelligence the enemy, though he cannot make the public obey.",
+   "screen": "a short realistic video of the White House north front at dusk, its white columns lit above the lawn and fountain, filmed from the press lawn, no flag, no people"
+  },
+  {
+   "item": "C07-04",
+   "category_word": "business",
+   "who": "the World Trade Organization, the body that oversees the rules of trade between countries",
+   "what": "raised its forecast for growth in world goods trade this year to three point nine percent from one point nine percent in spring, because trade in A I goods such as chips and servers rose sixty seven percent in the first half of the year and made up nearly half of all goods trade growth, offsetting the hit to oil and gas shipments from the Middle East war; it is an official forecast",
+   "why_for_people": "A I chips and servers now sell so fast that they lift world trade and outweigh the damage of the Middle East war, which still raises energy and shipping costs; the WTO says the strength of the A I boom surprised its forecasters",
+   "script": "On trade. The World Trade Organization doubled its growth forecast for this year, as A I chips and servers sell so fast they outweigh the Middle East war.",
+   "screen": "a short realistic video of a busy container port at dawn, tall cranes lifting plain unmarked containers onto a giant cargo ship while trucks queue on the quay"
+  },
+  {
+   "item": "C03-01",
+   "category_word": "security",
+   "who": "Anthropic, the A I lab behind the Claude chatbot",
+   "what": "launched OSS Scanner, a free opt-in service in which its strongest A I models run regular security scans on open-source projects, software whose code is publicly shared and sits behind many apps; Anthropic says the reports are written by the A I alone, without human review, so some may be wrong",
+   "why_for_people": "the shared code behind many apps gets free A I scans for flaws, so bugs may be caught sooner and the apps people use may get safer, though the reports are unchecked and some may be wrong; some projects already struggle with floods of A I bug reports",
+   "script": "In security. A I lab an-thropic offers free but unchecked A I scans for flaws in the shared code behind many apps, so bugs may be caught sooner.",
+   "screen": "a short realistic video of a dark server room, a soft blue scanning light sweeping along rows of computer racks until one small red lamp lights up on a rack"
+  },
+  {
+   "item": "C11-23",
+   "category_word": "robotics",
+   "who": "Deep Robotics, a Chinese robot maker, and its DR02 human-shaped robots",
+   "what": "says it ran street trials in early October in Hangzhou, China, in which the robots directed traffic at junctions with hand signals, moved around the junctions on their own, kept order and answered tourists' questions in several languages, in heavy traffic and steady rain; every claim is the company's, with no results or official comment",
+   "why_for_people": "routine street jobs like directing traffic and guiding visitors could pass to machines, freeing staff for work that needs human judgment, though only the company describes the test and gives no results",
+   "script": "Next, robotics. Chinese firm Deep Robotics says its human-shaped robots directed traffic on real streets, so routine jobs like this could pass to machines.",
+   "screen": "a short realistic video of a white human-shaped robot at a rainy city crossroads, raising one arm to halt a line of cars and waving the other lane through"
+  },
+  {
+   "item": "C01-01",
+   "category_word": "models",
+   "who": "Google, and Gemini Four Argon, its new most powerful A I model",
+   "what": "announced the model on eight October but is releasing it first only to a set of trusted cyber defenders through its Fairwind Program, who get it without Google's usual cyber safeguards; paying developers and Google AI Ultra subscribers follow once its safeguards are tested, with no date given; Google says it leads on software engineering and security tests, but every score is Google's own",
+   "why_for_people": "the rest of us wait for Google's new top model until its safeguards are tested, with no date set; security teams get a stronger tool first, and Google's claims of leading scores are its own",
+   "script": "In tech. Google's new top A I model Gemini Four Argon goes first to cyber defenders, so the public waits until its safeguards are tested.",
+   "screen": "a short realistic video of a dark computer security room, big wall screens showing a glowing world map with moving points of light and a blue shield shape, no words or numbers"
+  },
+  {
+   "item": "C13-01",
+   "category_word": "law",
+   "who": "USA Today Co., the publisher of the newspaper USA Today and several local papers, and OpenAI, the company behind ChatGPT",
+   "what": "sued OpenAI on Thursday, claiming it copied hundreds of thousands of their articles to train its A I models without permission, and asks for more than two hundred and fifty million dollars; these are the publisher's claims, OpenAI had not responded, and the suit joins The New York Times and other publishers already suing",
+   "why_for_people": "a court may decide if A I firms must pay for the news they train on, which matters to journalists and local papers whose work feeds A I, and to the people who rely on them",
+   "script": "In law. The newspaper U S A Today sues OpenAI for copying its articles to train A I, which may decide if A I firms must pay for news.",
+   "screen": "a short realistic video of a wooden gavel coming down on a judge's bench beside a tall stack of folded newspapers with blurred unreadable print"
+  },
+  {
+   "item": "C10-01",
+   "category_word": "health",
+   "who": "researchers at Beth Israel Deaconess Medical Center, a Boston hospital, working with Google, and AMIE, Google's medical chatbot",
+   "what": "report in The Lancet that the chatbot questioned patients by text at home before urgent primary-care appointments and wrote a summary for the doctor; a physician watched every chat, and none of the ninety eight completed chats needed a safety stop, though one hallucination was logged; the study tested only whether this is workable, not whether it improves health, and Google's parent Alphabet paid for it",
+   "why_for_people": "a sign A I could safely start a doctor's visit by asking the first questions while a doctor watches, though the small trial was Google-funded, ran at one hospital and shows no health gain",
+   "script": "In health. A Google chatbot questioned patients before urgent visits in a small doctor-watched trial, a sign A I could safely start a doctor's visit.",
+   "screen": "a short realistic video of a calm clinic room, a tablet on the desk glowing with a plain chat bubble shape beside a stethoscope, the doctor's chair empty"
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "who": "Westcol, the Colombian online streamer Luis Fernando Villa Alvarez, and the robot he says stands five feet seven and cost about a hundred thousand dollars",
+  "what": "while he and singer Blessd were rehearsing a dance with the robot on a livestream, it hit him hard on the back of the head as his back was turned; in earlier control tests it kicked hard enough to break a display case in his studio; the report gives no injury details and does not name the robot's maker",
+  "why_for_people": "his robot was meant to dance with him and smacked his head instead, a laugh with a lesson: robots near people need careful control",
+  "script": "And now, something lighter. Colombian streamer Westcol was rehearsing a dance with his robot live, when it smacked him on the back of the head instead.",
+  "screen": "a short realistic video of a streamer's studio lit in purple and blue, a grey human-shaped robot swinging its arm beside an empty gaming chair and a ring light"
+ },
+ "teaser": {
+  "items": [
+   "C02-01",
+   "C14-06"
+  ],
+  "who": "Google, with a single Gemini agent for business customers; renters in San Francisco, including nurses, teachers and hospitality workers",
+  "what": "Google unveiled one cloud A I agent that keeps the same context across Gmail, Docs, Slack, Microsoft 365 and a phone and can hand parts of a job to specialist sub-agents, open only to enterprise customers in a private preview; in San Francisco the average one-bedroom costs about four thousand four hundred dollars a month, up more than a quarter in a year, eviction notices are up forty four percent, and the mayor declared a rent emergency citing the A I boom",
+  "why_for_people": "office workers may one day hand tasks to one A I helper that follows them across every work app, though only a preview group can use it; renters in the A I capital are being priced out, though the link to A I rests on the mayor's and advocates' accounts",
+  "script": "Also in the full report. Google tests one A I helper for all your work apps. And the A I boom gets blamed as San Francisco rents jump a quarter.",
+  "screen": "a short realistic video of a laptop on an office desk, its screen showing a glowing dot gliding between plain app windows, with a window view of San Francisco's steep hillside houses behind"
+ },
+ "bp": {
+  "script": "And for the bigger picture: OpenAI's reported sales fell short and investors want proof, not plans. Watch if its funding round closes, to see if A I money still flows.",
+  "screen": "a glowing warning triangle sign that flashes the words \"This is not financial advice\" inside the blue border",
+  "screen_note": "Rafi, 7 Oct 2026: the one clip whose screen carries words; every other clip shows a real TV-news style scene (REAL TV SCREENS, Rafi, 8 Oct 2026)",
+  "who": "OpenAI, the company behind ChatGPT, and its investors; Firmus, the Nvidia-backed Australian data-centre builder; the lenders behind Oracle, Broadcom and SpaceX",
+  "what": "Reuters reports, citing a person familiar with the matter, that OpenAI told investors its yearly sales pace for September was almost fifty billion dollars, not the roughly seventy billion it had signalled, mainly because of a counting difference with Anthropic; SoftBank, a major OpenAI investor, fell about five percent in early trading; Firmus shelved its five billion dollar share sale after investors pulled orders; nearly half a trillion dollars of new A I debt has been sold this year and insuring Oracle's and Broadcom's debt against default costs a record",
+  "why_for_people": "the market is starting to pay for proof, not plans: if A I money gets dearer or stops flowing, the building slows and the companies behind the A I services people use feel it first; the screen says it is not financial advice",
+  "what_to_watch": "Whether OpenAI's round of thirty billion dollars or more at a one point four trillion dollar value closes, and with which revenue definition (Bloomberg, citing people familiar with the matter; no date confirmed), and whether Firmus finds private money: together they say if the reality check is one company's or the sector's (bigger_picture_bulletin.json, what to watch, item 1)"
+ }
+}

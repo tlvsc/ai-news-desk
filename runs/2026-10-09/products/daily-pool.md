@@ -3,7 +3,7 @@
 Edition date: 2026-10-09 (Asia/Jerusalem)  
 Reporting window: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-09 12:40 UTC  
+Last updated: 2026-10-09 12:47 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
@@ -13,7 +13,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - Removed at pool build: 1 by the editor, 20 same stories in two categories
 - Held back after reading: 75 (51 older news re-dated into the window, 24 duplicate, 0 published before the window)
 - Articles read: 237 of 257; headline only: 20
-- Full Report: 108 (pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side); Bulletin: 54 (pool score 7 to 10, plus 3 Fun Side)
+- Full Report: 108 (pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side); Bulletin: 52 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -23,8 +23,6 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 
 - C05-02 · POL · 6 · The Independent · 2026-10-08T17:16Z · Trump Calls Anyone Who Says ‘AI’ Instead Of ‘Super Intelligence’ An ‘Enemy’ · https://www.independent.co.uk/news/world/americas/us-politics/trump-ai-super-intelligence-the-enemy-b3063681.html · Full Report + Bulletin
 - C05-04 · POL · 6 · Axios · 2026-10-08T12:46Z · Bernie Sanders Tells AI CEOs To Hit The Brakes, Warns Congress Will Step In If They Don’t · https://www.ibtimes.com/bernie-sanders-tells-ai-ceos-hit-brakes-warns-congress-will-step-if-they-dont-3806229 · held: repeat of the 8 Oct pool (1008 C05-05, same URL)
-- C13-02 · POL · 6 · The Hindu · 2026-10-08T11:40:00Z · AI regulations: Consultation paper in a month; safety, deepfakes among key focus areas, says Vaishnaw · https://www.thehindu.com/sci-tech/technology/ai-regulations-consultation-paper-in-a-month-safety-deepfakes-among-key-focus-areas-says-vaishnaw/article71559481.ece · Full Report + Bulletin
-- C13-03 · POL · 6 · Reuters · 2026-10-08T23:19:00Z · Character.AI chatbots encouraged users to cut and starve themselves, Kentucky alleges · https://www.reuters.com/legal/litigation/characterai-chatbots-encouraged-users-cut-starve-themselves-kentucky-alleges-2026-10-08/ · Full Report + Bulletin
 - C13-04 · POL · 6 · DefenseScoop · 2026-10-08T22:23:00Z · Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models · https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models/ · Full Report + Bulletin
 - C13-15 · POL · 6 · Kyodo News · 2026-10-08T11:46:00Z · Takaichi Rebuffs Trump's Push to Rename AI as "SI" · https://en.sedaily.com/international/2026/10/08/takaichi-rebuffs-trumps-push-to-rename-ai-as-si · Full Report + Bulletin
 - C13-16 · POL · 6 · CNA · 2026-10-08T10:36:00Z · Landmark ASEAN digital pact will guide region on AI, digital economy: Marcos · https://www.channelnewsasia.com/asia/philippine-president-ferdinand-marcos-jr-forbes-asean-6442061 · Full Report + Bulletin
@@ -32,7 +30,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-18 · POL · 6 · The Times of Israel · 2026-10-08T13:54:00Z · Finance Ministry eyes new taxes as AI threatens jobs and state revenues · https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/ · Full Report + Bulletin
 - C13-20 · POL · 6 · de Volkskrant · 2026-10-08T15:00:00Z · PM Jetten misinformed parliament about using AI for social media posts · https://nltimes.nl/2026/10/08/pm-jetten-misinformed-parliament-using-ai-social-media-posts · Full Report + Bulletin
 - C13-21 · POL · 6 · BBC, with ANI · 2026-10-09T06:42:37Z · Starlink: Why Elon Musk is taking on Mukesh Ambani and Jio over satellite internet · https://www.bbc.co.uk/news/articles/cvglw9ryjrylo · Full Report + Bulletin
-- C05-07 · POL · 5 · Politico · 2026-10-08T17:48Z · Peter Thiel slams Obama, Pope Leo in new ‘Antichrist’ lectures · https://www.politico.com/news/2026/10/08/peter-thiel-ai-obama-pope-leo-01112122 · pool only (pool score below 6)
+- C05-07 · POL · 5 · Politico · 2026-10-08T17:48Z · Peter Thiel slams Obama, Pope Leo in new ‘Antichrist’ lectures · https://www.politico.com/news/2026/10/08/peter-thiel-ai-obama-pope-leo-01112122 · Full Report
 - C05-10 · POL · 5 · Reuters · 2026-10-09T02:00Z · Governments worldwide are way behind on AI, says Bill Gates · https://interaksyon.philstar.com/trends-spotlights/2026/10/09/319246/governments-worldwide-behind-ai-bill-gates/ · pool only (pool score below 6)
 - C05-11 · POL · 5 · The Independent · 2026-10-08T13:54Z · AI military officers could be making battlefield decisions by 2030, says former CIA chief · https://www.independent.co.uk/news/world/ai-military-war-cia-petraeus-ukraine-b3063036.html · pool only (pool score below 6)
 - C05-12 · POL · 5 · Fortune · 2026-10-08T10:45Z · OpenAI's Human Rights Chief Warns 'Everyone Is Very Worried' About AI In Armed Conflicts: 'This Keeps Me Up at Night' · https://fortune.com/2026/10/06/openai-human-rights-lead-sarah-yager-military-ai-use-concerns/ · held: older news re-dated into the window (FOLLOW-UP of 6 Oct 2026)
@@ -220,6 +218,8 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-01 · LAW · 7 · Reuters · 2026-10-08T15:39:00Z · USA Today sues OpenAI for copyright infringement over AI training · https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08/ · Full Report + Bulletin
 - C12-04 · LAW · 6 · The Register · 2026-10-08T12:35:00Z · AI giants promise to play nice with personal data after UK watchdog scrutiny · https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966 · Full Report
 - C12-05 · LAW · 6 · The Register, citing the ICO · 2026-10-08T11:32:00Z · OpenAI, Anthropic, Meta questioned by UK privacy regulator over rogue AI agents · https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966 · held: same ICO announcement and Register link as C12-04, kept there
+- C13-02 · LAW · 6 · The Hindu · 2026-10-08T11:40:00Z · AI regulations: Consultation paper in a month; safety, deepfakes among key focus areas, says Vaishnaw · https://www.thehindu.com/sci-tech/technology/ai-regulations-consultation-paper-in-a-month-safety-deepfakes-among-key-focus-areas-says-vaishnaw/article71559481.ece · Full Report
+- C13-03 · LAW · 6 · Reuters · 2026-10-08T23:19:00Z · Character.AI chatbots encouraged users to cut and starve themselves, Kentucky alleges · https://www.reuters.com/legal/litigation/characterai-chatbots-encouraged-users-cut-starve-themselves-kentucky-alleges-2026-10-08/ · Full Report
 - C13-05 · LAW · 6 · Reuters · 2026-10-08T06:36:00Z · Denmark plans ban on sharing AI deepfakes without consent · https://www.reuters.com/world/denmark-plans-ban-sharing-ai-deepfakes-without-consent-2026-10-08/ · held: repeat of 8 Oct pool C13-11 (Denmark deepfakes)
 - C13-19 · LAW · 6 · Legal IT Insider · 2026-10-08T10:40:00Z · Law Commission proposes sweeping product liability reforms to bring AI and software within scope · https://legaltechnology.com/law-commission-proposes-sweeping-product-liability-reforms-to-bring-ai-and-software-within-scope/ · Full Report
 - C14-08 · LAW · 6 · ZDNET · 2026-10-08T17:05:00Z · Regulators are trying to protect you from being fired by AI – here’s how · https://www.zdnet.com/innovation/how-state-regulators-protect-you-fired-by-ai/ · held: older news re-dated into the window (FOLLOW-UP of 30 Sep 2026)
@@ -230,7 +230,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-08 · LAW · 5 · MLex · 2026-10-08T10:57:00Z · Five EU countries have yet to name AI Act enforcers · https://www.mlex.com/mlex/artificial-intelligence/articles/2535649 · pool only (pool score below 6)
 - C13-09 · LAW · 5 · ABC News · 2026-10-08T23:42:00Z · Australia looks to systems-based regulation for frontier AI standards · https://www.abc.net.au/news/2026-10-08/federal-politics-ai-regulation-andrew-charlton-speech/107241674 · Full Report
 - C13-10 · LAW · 5 · AI News Desk · 2026-10-08T06:19:00Z · OpenAI, Anthropic, Google, Microsoft flag Australian copyright barriers to AI training · https://www.lawcommentary.com/articles/openai-anthropic-australia-ai-copyright-training · held: older news re-dated into the window (FOLLOW-UP of 6 Oct 2026)
-- C13-11 · LAW · 5 · China Daily · 2026-10-09T01:01:00Z · China proposes tighter algorithm rules, broader protections for platform workers · https://global.chinadaily.com.cn/a/202610/09/WS6ac82d2ee4b06d4aa0561c3c.html · Full Report
+- C13-11 · LAW · 5 · China Daily · 2026-10-09T01:01:00Z · China proposes tighter algorithm rules, broader protections for platform workers · https://global.chinadaily.com.cn/a/202610/09/WS6ac82d2ee4b06d4aa0561c3c.html · pool only (pool score below 6)
 - C13-14 · LAW · 5 · BankInfoSecurity · 2026-10-08T22:47:00Z · OpenAI Lawyer: Labs Shouldn't Be Liable for AI Agent Hacking · https://www.bankinfosecurity.com/openai-lawyer-labs-shouldnt-be-liable-for-ai-agent-hacking-a-33050 · pool only (pool score below 6)
 - C10-01 · HEA · 7 · Beth Israel Deaconess Medical Center · 2026-10-08T22:48:00Z · Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care · https://www.newswise.com/articles/bidmc-researchers-conduct-first-real-world-study-of-safety-and-quality-of-patient-facing-ai-in-primary-care · Full Report + Bulletin
 - C10-02 · HEA · 7 · Bloomberg · 2026-10-08T12:05:00Z · Google DeepMind’s London AI drug spinout eyes $50bn valuation · https://www.cityam.com/google-deepminds-london-ai-drug-spinout-eyes-50bn-valuation/ · held: same Isomorphic Labs valuation story as C06-06 (itself a repeat of the 8 Oct pool)

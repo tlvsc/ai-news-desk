@@ -1,0 +1,205 @@
+{
+ "fails": 1,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [0, 4, 5, 8, 10, 12, 13]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C02-01', 'C14-06'] from the teaser card ['C02-01', 'C09-04', 'C11-24', 'C14-06']"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C05-02 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C05-02 opens with a spoken introduction: \"first, to the white house\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C05-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C07-04 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C07-04 opens with a spoken introduction: \"on trade\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C07-04 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C03-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C03-01 opens with a spoken introduction: \"in security\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C03-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C11-23 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-23 opens with a spoken introduction: \"next, robotics\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-23 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C01-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C01-01 opens with a spoken introduction: \"in tech\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C01-01 has no digits"
+  },
+  {
+   "rule": "G1.4",
+   "status": "FAIL",
+   "detail": "C01-01 speaks an outlet: ['Google']"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C13-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-01 opens with a spoken introduction: \"in law\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C10-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C10-01 opens with a spoken introduction: \"in health\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C10-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"and now, something lighter\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "teaser 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report.\" (full stop, no colon)"
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "bp 9.5 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (2026-10-08)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'Anthropic': 1, 'Google': 2, 'OpenAI': 1}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['ChatGPT', 'Chinese', 'Colombian', 'Courts', 'Deep Robotics', 'First', 'Fuel', 'Gemini Four Argon', 'Investors', 'Middle East', 'Newspaper', 'Next', 'On', 'President Trump', 'San Francisco', 'Today', 'Westcol', 'White House']"
+  }
+ ],
+ "names_to_tag": [
+  "ChatGPT",
+  "Chinese",
+  "Colombian",
+  "Courts",
+  "Deep Robotics",
+  "First",
+  "Fuel",
+  "Gemini Four Argon",
+  "Investors",
+  "Middle East",
+  "Newspaper",
+  "Next",
+  "On",
+  "President Trump",
+  "San Francisco",
+  "Today",
+  "Westcol",
+  "White House"
+ ]
+}

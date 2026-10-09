@@ -1,16 +1,6 @@
 {
  "edition": "2026-10-09",
- "version": "v3: Rafi 9 Oct approved the list with an extra card for Musk and India (C13-21), its teaser place back to C02-01, and the Bulletin Politics section cut to 2 stories at 6 (C05-02, C13-21)",
- "picker": "Fable 5.1 (STORY CHOICE, CLAUDE.md rule 16); read first: Cards Master Sections 1 to 3, Headlines Master Sections A and B, CLAUDE.md rules 16 and 17, cards_work/pick_pack.md (rebuilt, 54 Bulletin candidates)",
- "changes_from_v1": [
-  "Card 8: NEW C11-23 Deep Robotics DR02 humanoids directing traffic and guiding tourists in Hangzhou (the humanoid card the ROBOTICS ruling asks for, and now the robotics Headlines clip).",
-  "Card 9: C11-06 Walmart robots stays, moved from card 8 to card 9; it is a Bulletin story now, so no exception.",
-  "Dropped card: C11-04 XPENG YOYO robotaxi (v1 card 9); robotaxi stories were cards or clips on 4, 7 and 8 Oct and the humanoid story is the better robot news.",
-  "Robotics clip: C11-06 Walmart replaced by C11-23 (a humanoid robot directing traffic in the rain is the machine a stranger pictures at once).",
-  "Teaser item 2: C02-01 Google's coworker agent replaced by C11-24, the humanoid built for Japanese convenience stores (the second humanoid story gets a place; one extra robotics story is allowed where needed).",
-  "Removed: the two robotics exceptions, the repeat_excluded entry for C11-01 Waymo and the humanoid exception; both robotics cards come from the Bulletin and the humanoid requirement is met.",
-  "Unchanged: cards 1 to 7 and 10 to 14, the fun story, the other three teaser lines (C13-21 Musk and India stays the lead teaser line, as judged in v1, since Rafi has not decided), the other six clips, the Bigger Picture refs."
- ],
+ "picker": "Fable 5.1 (STORY CHOICE, CLAUDE.md rule 16); read first: Cards Master Sections 1 to 3, Headlines Master Sections A and B, CLAUDE.md rules 16 and 17, cards_work/pick_pack.md",
  "cards": [
   {
    "item": "C05-02",
@@ -24,18 +14,7 @@
    "label": "Japan says AI",
    "reason": "Politics card 2, score 6 (below the extra_min 7 guideline; chosen on Rafi's 9 Oct order for political AI news from around the world and the brief's 'cover the whole world'). Japan's prime minister told parliament that 'AI' stays the right word and she will not follow Trump's rename for now. It is a reply story that makes card 1 a two-card arc (America orders a new word, its closest Asian ally declines), it is the only head-of-government AI story outside the US today, and a stranger gets it at once.",
    "not_repeat_because": "No Takaichi, Japan government or rename story was a card or clip in the last 7 days (5 Oct had a Bank of Japan deputy governor on interest rates, a different story). Freshness NEW: her answer in the Diet is of 8 Oct. REPLY STORY: the writer must say whom she answers (Trump's UN speech last month and his order) and name Yuichiro Tamaki, leader of the Democratic Party for the People, who asked. Credit Kyodo News; the text was read through a Korean relay that credits Kyodo.",
-   "novice_test": "Sanae Takaichi: Japan's prime minister (one line). Yuichiro Tamaki: leader of an opposition party, the Democratic Party for the People, who asked the question. 'Superintelligence': the word Trump wants governments to use instead of AI. Lands: a government saying no to a word is clear to anyone.",
-   "exception": true,
-   "exception_reason": "Rafi approved this card on 9 Oct; after his order to keep only 2 Politics stories in the Bulletin (none reached 7) it is no longer a Bulletin story, so it is taken from the Full Report as an exception."
-  },
-  {
-   "item": "C13-21",
-   "label": "Musk vs India",
-   "reason": "Extra card on Rafi's order of 9 Oct 2026 ('make extra card'): Elon Musk, head of SpaceX and Starlink, asked whether Mukesh Ambani, chairman of Reliance Industries, is 'the real boss of India'; India's government calls his Starlink claim baseless. Carried by about 100 outlets; Rafi: 'very interesting for people to hear'. AI adjacent (FAMOUS PEOPLE RULE).",
-   "not_repeat_because": "No Musk and India or Starlink licence story was a card or clip in the last 7 days; the gate's name match with the 7 Oct SpaceX loan card is a different story (see disputed_repeats).",
-   "novice_test": "The world's richest man accuses India's richest man of blocking his satellite internet; India says no.",
-   "exception": true,
-   "exception_reason": "Third Politics card, above max_per_category 2, on Rafi's direct order (extra card)."
+   "novice_test": "Sanae Takaichi: Japan's prime minister (one line). Yuichiro Tamaki: leader of an opposition party, the Democratic Party for the People, who asked the question. 'Superintelligence': the word Trump wants governments to use instead of AI. Lands: a government saying no to a word is clear to anyone."
   },
   {
    "item": "C06-04",
@@ -73,18 +52,22 @@
    "novice_test": "Oracle: a big US software and cloud company that builds data centres for OpenAI (one line). Compressed natural gas: gas squeezed into tanks so a truck can carry it. 'Trading hub' price: the normal market price of gas. Lands: 'they are trucking fuel to feed AI' is vivid and plain."
   },
   {
-   "item": "C11-23",
-   "label": "Traffic robots",
-   "reason": "NEW IN V2. Robotics card 1, the HUMANOID card the ROBOTICS ruling asks for, and the robotics Headlines clip. Chinese robot maker Deep Robotics tested its DR02 humanoid robots directing traffic at junctions, keeping order and answering tourists' questions in several languages on busy Hangzhou streets, in heavy traffic and steady rain, moving around the junctions on their own sensors. A machine a stranger can picture at once doing a human job in public. Chosen over the other humanoid story (C11-24, a shop robot shown at a Tokyo trade event with store use planned from 2027) because this one works in the street now; C11-24 goes to the teaser. REPORTED: AI Insider, citing the company; no independent results or official comment, which the card and clip must say ('Deep Robotics says'). Score 6, from the Bulletin.",
-   "not_repeat_because": "No Deep Robotics, DR02, Hangzhou or traffic-robot story in the 7 day decks. The humanoid lines there are Figure funding (8 Oct), Tesla Optimus output (8 Oct), Agilink's embroidery hand (7 Oct), Kawasaki's 2030 humanoid (4 Oct) and the French TV host boxing robots (4 Oct): other companies, other machines. Freshness NEW (announced 9 Oct; trials in early October).",
-   "novice_test": "Deep Robotics: a Chinese robot maker from Hangzhou, known for four-legged robots, now building human-shaped ones (one line). DR02: its humanoid model. Hangzhou: a city of about 12 million near Shanghai; Xihu (West Lake) is its main tourist district. Lands: 'human-shaped robots directed traffic in a Chinese city in the rain' is clear to anyone; the card must say the company reports it and no one has checked."
-  },
-  {
    "item": "C11-06",
    "label": "Walmart robots",
-   "reason": "Robotics card 2 (v1 card 8; now a Bulletin story, no exception). The Wall Street Journal reports that Walmart, the world's biggest retailer, has spent a decade and billions putting robots into its roughly 200 US warehouses and is slowed by robots that break down, boxes too big for the machines and oversize goods; 140,000 warehouse jobs shift toward running and fixing machines. A machine doing something, a brand everyone knows, and a surprise: robots are not ready yet. Chosen over XPENG's robotaxi trial (robotaxis were cards or clips on 4, 7 and 8 Oct), Uber-Pony.ai London (a plan, no machine action) and Waymo's $5 billion loan (a loan, no machine action, Waymo a card on 7 Oct). Score 6.",
+   "exception": true,
+   "robotics_ruling": "CLAUDE.md rule 16 ROBOTICS (Rafi, 8 Oct 2026): 2 robotics cards and 1 robotics clip; the Bulletin holds only 1 robotics story today, so the reserve is used",
+   "reason": "Robotics card 1 and the robotics Headlines clip. EXCEPTION: taken from the reserve (the Full Report) because the Bulletin's only robotics story, C11-01 (Waymo's $5 billion loan), is a loan with no machine doing anything (machine_action false; Cards Master 2.9 and 3.3, 'not a funding round', 'lead with the deed'), Waymo is not a humanoid company so the 8 Oct funding exception does not cover it, and Waymo was a card on 7 Oct (Detroit). The Wall Street Journal reports that Walmart, the world's biggest retailer, has spent a decade and billions putting robots into its roughly 200 US warehouses and is slowed by robots that break down, boxes too big for the machines and oversize goods; 140,000 warehouse jobs shift toward running and fixing machines. A machine doing something, a brand everyone knows, and a surprise: robots are not ready yet. Score 6.",
    "not_repeat_because": "No Walmart, warehouse or Symbotic story in the 7 day decks. Robotics cards and clips there were Figure funding (8 Oct), Uber-Baidu Dubai robotaxis and Tesla Optimus (8 Oct), the Agilink embroidery hand and Waymo Detroit (7 Oct), LG-Nvidia car brain (6 Oct), Ukrainian drones (5 Oct), Tesla Cybercab and Kawasaki humanoid (4 Oct), Pentagon robot boats and FieldAI (3 Oct). Freshness NEW (WSJ, 9 Oct).",
    "novice_test": "Walmart: the world's biggest retailer, with about 200 US supply buildings. Symbotic: the robot maker supplying the system (one line, if named). Rob Montgomery: the executive who runs Walmart's US supply-chain operations (position given in the same sentence). Lands: 'Walmart's robots keep breaking and cannot handle big boxes' is clear to anyone."
+  },
+  {
+   "item": "C11-04",
+   "label": "XPENG robotaxi",
+   "exception": true,
+   "robotics_ruling": "CLAUDE.md rule 16 ROBOTICS (Rafi, 8 Oct 2026): 2 robotics cards; the Bulletin holds only 1 robotics story today, so the reserve is used",
+   "reason": "Robotics card 2. EXCEPTION from the reserve for the same reason as card 8 (the Bulletin has one robotics story, a loan with no machine action). Chinese carmaker XPENG named its driverless taxi service XPENG YOYO and opened invitation-only rides to members of the public in Guangzhou after 2,000 internal test rides and permission to run with no safety driver. A machine doing something, confirmed by the company, and it covers China. Chosen over Gecko Robotics (score 5, niche submarine-parts inspection) and over Uber-Pony.ai London (a plan, machine_action false). Not the Headlines robotics clip: robotaxi stories were clips or cards on 4, 7 and 8 Oct, so Walmart gives the reel variety.",
+   "not_repeat_because": "XPENG does not appear in the 7 day decks. The robotaxi lines there are Tesla Cybercab in Austin (4 Oct), Waymo Detroit (7 Oct) and Uber-Baidu Dubai (8 Oct): other companies, other cities. Freshness NEW (8 Oct).",
+   "novice_test": "XPENG: a Chinese electric-car maker (one line). Robotaxi: a taxi that drives itself with nobody at the wheel. Guangzhou: a city of about 19 million in southern China. Lands: 'ordinary people can now ride a driverless taxi in a Chinese city, by invitation' is plain; the card must say it is a trial, not a full launch."
   },
   {
    "item": "C01-01",
@@ -125,60 +108,34 @@
  "fun": {
   "item": "C16-01",
   "label": "Robot hits host",
-  "reason": "Truly funny at once for anyone: a Colombian streamer, Westcol, was whacked on the back of the head by his own 5-foot-7, $100,000 robot while he and singer Blessd rehearsed a dance with it live; in earlier control tests it kicked hard enough to smash a display case. Set-up then punchline. Alternatives were not funny: Anthropic banning cruelty to Claude (a policy), Thiel on Obama and the Pope (politics), the Kardashians sketch, a fantasy-football AI, a Slack bank-balance leak (all score 2 in the reserve). Heraldo USA; the report gives no injury details and does not name the robot maker, which the card must respect.",
+  "reason": "Truly funny at once for anyone: a Colombian streamer, Westcol, was whacked on the back of the head by his own 5-foot-7, $100,000 robot while he and singer Blessd rehearsed a dance with it live; in earlier control tests it kicked hard enough to smash a display case. Set-up then punchline. It is also today's only humanoid robot story (the robot is human-sized and kicks). Alternatives were not funny: Anthropic banning cruelty to Claude (a policy), Thiel on Obama and the Pope (politics), the Kardashians sketch, a fantasy-football AI, a Slack bank-balance leak (all score 2 in the reserve). Heraldo USA; the report gives no injury details and does not name the robot maker, which the card must respect.",
   "not_repeat_because": "The 4 Oct fun story was a French TV host knocking two boxing robots down (the human hits the robots); today the robot hits the human, a different event, different people, different country. No Westcol or Blessd in the decks. Freshness NEW."
  },
  "teaser": [
-  {
-   "item": "C02-01",
-   "note": "Back in the teaser after C13-21 became a card (Rafi, 9 Oct). Google's one Gemini agent for business, a coworker with its own email, in private preview."
-  },
-  {
-   "item": "C11-24",
-   "note": "NEW IN V2 (replaces C02-01 Google's coworker agent). Robotics. A humanoid built to stock shelves, serve shoppers in more than 20 languages and bag purchases was shown in Tokyo by CP AI Robotics, a company working mainly in Thailand, which plans to put it in Japanese convenience stores from as early as 2027; Weidong Sun of CP AI Robotics says the aim is not unmanned stores. The second humanoid story of the day gets a place (one extra robotics story is allowed where needed); no store chain is named. If Rafi prefers the v1 teaser, C02-01 (Google's one Gemini agent for business, a coworker with its own email, in private preview) comes back."
-  },
-  {
-   "item": "C09-04",
-   "note": "Energy. A year-long Senate investigation says big tech companies mislead the public about the costs and benefits of AI data centres; the companies dispute parts."
-  },
-  {
-   "item": "C14-06",
-   "note": "Society. The AI boom pushes San Francisco rents up more than 25 percent in a year and eviction notices up 44 percent."
-  }
+  {"item": "C13-21", "note": "Politics. Elon Musk, head of SpaceX and Starlink, asks whether Mukesh Ambani, chairman of Reliance Industries, is 'the real boss of India'; India's government calls his Starlink claim baseless. Rafi said people would find it very interesting; it is AI adjacent, not an AI story, and the FAMOUS PEOPLE RULE's scope is not decided, so it is the lead teaser line, not a card. If Rafi wants it as a card, it replaces card 2 (Japan) as the second Politics card."},
+  {"item": "C02-01", "note": "Models. Google's one Gemini agent for business can act as a coworker with its own email address, in private preview."},
+  {"item": "C09-04", "note": "Energy. A year-long Senate investigation says big tech companies mislead the public about the costs and benefits of AI data centres; the companies dispute parts."},
+  {"item": "C14-06", "note": "Society. The AI boom pushes San Francisco rents up more than 25 percent in a year and eviction notices up 44 percent."}
  ],
- "headlines": [
-  "C05-02",
-  "C07-04",
-  "C03-01",
-  "C11-23",
-  "C01-01",
-  "C13-01",
-  "C10-01"
- ],
- "headlines_note": "Clip 1 is the Politics card (Rafi, 7 Oct). Then, by Headlines Master A3 (strongest by score, keep robotics, include law, research or society) in deck order: WTO trade (market, 7), Anthropic free scanner (security, 8), Deep Robotics humanoids directing traffic (the robotics clip, 6; CHANGED from Walmart in v1: the machine a stranger pictures doing something, and the humanoid story Rafi asked for), Gemini 4 Argon (models, 9), USA Today sues OpenAI (law, 7), AI pre-visit chatbot (health, 7). Left out of the clips on purpose: OpenAI revenue (score 8) because OpenAI's money was the 6 Oct finance clip (the $30 billion raise, the same investor pitch) and Rafi prefers AI affecting people over money; Japan (politics 2) because only one politics clip is required and the other six are stronger stories; fake reporters (7) so that OpenAI appears once in the clips and security once; Walmart robots (6) because the reel carries one robotics clip and the humanoid is the better picture. Company counts in clips: Google 2 (Argon, AMIE), Anthropic 1, OpenAI 1.",
+ "headlines": ["C05-02", "C07-04", "C03-01", "C11-06", "C01-01", "C13-01", "C10-01"],
+ "headlines_note": "Clip 1 is the Politics card (Rafi, 7 Oct). Then, by Headlines Master A3 (strongest by score, keep robotics, include law, research or society) in deck order: WTO trade (market, 7), Anthropic free scanner (security, 8), Walmart robots (the robotics clip, 6), Gemini 4 Argon (models, 9), USA Today sues OpenAI (law, 7), AI pre-visit chatbot (health, 7). Left out of the clips on purpose: OpenAI revenue (score 8) because OpenAI's money was the 6 Oct finance clip (the $30 billion raise, the same investor pitch) and Rafi prefers AI affecting people over money; Japan (politics 2) because only one politics clip is required and the other six are stronger stories; fake reporters (7) so that OpenAI appears once in the clips and security once. Company counts in clips: Google 2 (Argon, AMIE), Anthropic 1, OpenAI 1.",
  "headlines_fun": "C16-01",
- "bigger_picture": {
-  "card": true,
-  "clip": true
- },
- "bp_refs": [
-  "C07-02",
-  "C06-04",
-  "C06-01",
-  "C06-03",
-  "C07-04"
- ],
+ "bigger_picture": {"card": true, "clip": true},
+ "bp_refs": ["C07-02", "C06-04", "C06-01", "C06-03", "C07-04"],
  "bp_refs_note": "What moves the market: the cost of insuring Oracle, Broadcom and SpaceX debt at records with traders pricing a more than 20 percent chance of an Oracle default in five years (C07-02); OpenAI's revenue pace $20 billion below what it signalled (C06-04); Firmus pulling its $5 billion Nvidia-backed IPO for lack of demand (C06-01, a follow-up, used as a source only); SoftBank's Son reportedly seeking up to $100 billion from the Gulf (C06-03); against them the WTO doubling its trade forecast on AI goods (C07-04). The Bigger Picture writer adds the dated events to watch and the not-financial-advice line.",
+ "repeat_excluded": {
+  "C11-01": "Waymo's $5 billion loan, the Bulletin's only robotics story: declared ineligible for the robotics cards and left out. (1) It is a loan with no machine doing anything (machine_action false): Cards Master 2.9 (the robotics slot is not a funding round) and 3.3 (money stays out of a non-market headline); CLAUDE.md's 8 Oct exception covers funding of a HUMANOID robot company, and Waymo is a robotaxi company. (2) Waymo was a card on 7 Oct (driverless in Detroit), and this loan pays for that same expansion, so by name and topic it would come back two days later. This key is the gate's only way to mark a Bulletin story ineligible so the reserve can be used; Rafi decides. If he wants Waymo in, it replaces card 9 (XPENG) and needs robotics_ruling on the card."
+ },
  "disputed_repeats": {
   "C13-21": "Teaser item only. The gate's name match is with the 7 Oct SpaceX card ('Elon Musk's rocket and AI firm SpaceX wants to borrow $40 billion for Nvidia chips'): the shared names are Elon, Musk and SpaceX, but that story was SpaceX borrowing for AI chips; this one is Musk's 7 and 8 Oct posts accusing Indian 'oligarchs' of blocking Starlink and asking whether Mukesh Ambani is 'the real boss of India', with India's Communications Ministry rejecting it. Different event, different country, different subject; the BBC and about 100 outlets carried it as new on 8 to 9 Oct."
  },
  "exceptions": [
-  "ROBOTICS (v2): both robotics cards (C11-23 humanoid traffic trial, C11-06 Walmart) come from the Bulletin; no exception, no repeat_excluded. The Bulletin now holds 7 robotics stories, above the ruling's 3 to 5 guideline (a Part A note, not a card matter).",
-  "HUMANOID (v2): met by card 8 (C11-23); the second humanoid story (C11-24) is teaser line 2. Both are company-reported trade-event or field-trial stories (AI Insider; News On Japan), so their pills are REPORTED and the wording must hedge.",
+  "ROBOTICS: cards 8 and 9 (Walmart robots, XPENG robotaxi) come from the reserve, not the Bulletin, because the Bulletin holds one robotics story (Waymo's loan) and the ROBOTICS ruling asks for 2 robotics cards; Waymo is set aside under repeat_excluded (see there). The Bulletin's 1 robotics story is itself below the ruling's 3 to 5; a Part A gap to flag.",
+  "HUMANOID: no humanoid robot story exists in today's report (the only humanoid item is the fun card, a human-sized robot hitting its owner); Odyssey-3 (C01-04, a model that steers humanoids and drove a car in India) is a Models story in the reserve and Models has stronger Bulletin stories, so it cannot be an exception. The ruling's 'one humanoid card' is therefore not met by a story card today.",
   "SCORE GUIDELINE: card 2 (Japan, 6), card 11 (gene-edit doubt, 6) and card 14 (Gaza classrooms, 6) sit below the extra_min 7 guideline or below a higher-scored story in their category; the reasons are on each card (world coverage and Rafi's 9 Oct politics order; lead with the deed, not the money; a theme repeat of the 7 Oct Pew poll).",
-  "MUSK AND INDIA (C13-21): first teaser line, not a card; reason on the teaser item; unchanged from v1 by the coordinator's instruction.",
+  "MUSK AND INDIA (C13-21): placed as the first teaser line, not a card; reason on the teaser item.",
   "2 OCT DECK: no deck text is available for 2 Oct, so the 7 day check covers 6 of 7 days; the 3 to 8 Oct decks were read line by line.",
   "OPENAI: three cards name OpenAI (revenue, fake reporters, USA Today suit), the company limit; one clip (USA Today)."
  ],
- "left_out_notes": "The 5 best stories left out: (1) C11-04 XPENG YOYO robotaxi public trials in Guangzhou, score 6 (v1 card 9): a machine doing something, but robotaxis were cards or clips on 4, 7 and 8 Oct and the humanoid trial is the better robot news; it stays in the Bulletin. (2) C11-01 Waymo's $5 billion loan, score 7, the highest-scored robotics story: a loan with no machine doing anything (Cards Master 2.9 and 3.3; the 8 Oct funding exception covers humanoid companies), and Waymo was a card on 7 Oct (Detroit) for the same expansion. (3) C15-01 the Pentagon's $350 million quantum package, score 8: a money story in a research slot and the Pentagon quantum tests were an 8 Oct card. (4) C14-01 AP-NORC poll, 64 percent of Americans say AI moves too fast, score 7: a second US worry poll two days after the Pew 71 percent card. (5) C13-03 Kentucky's attorney general says Character.AI bots urged users to starve or die, score 6: strong and dark, but the chatbot teen-safety theme was an 8 Oct card and it is the state's allegation from an unredacted filing of a January suit. Also left out: C02-01 Google's coworker agent (7, v1 teaser line, replaced by the shop humanoid), C11-03 Uber and Pony.ai London robotaxi plan (6, a plan, no machine action yet), C06-03 SoftBank's $100 billion Gulf plan (7, unverified, used as a Bigger Picture source), C02-02 Claude Dashboards and Motion (7), C09-05 Sesterce's Finnish campus (7), C08-01 GlobalFoundries-TSMC (7), C05-01 the three fired OpenAI safety researchers (7, a fourth OpenAI card), C04-02 and C04-03 Genesis Mission money (7), C15-03 and C15-04 quantum (7)."
+ "left_out_notes": "The 5 best stories left out: (1) C11-01 Waymo's $5 billion loan, score 7, the Bulletin's only robotics story: a loan, no machine doing anything, Waymo a card on 7 Oct (set aside under repeat_excluded). (2) C15-01 the Pentagon's $350 million quantum package, score 8: a money story in a research slot and the Pentagon quantum tests were an 8 Oct card; it goes to the Full Report and could serve the Bigger Picture's things to watch. (3) C14-01 AP-NORC poll, 64 percent of Americans say AI moves too fast, score 7: a second US worry poll two days after the Pew 71 percent card; in the Bulletin. (4) C13-03 Kentucky's attorney general says Character.AI bots urged users to starve or die, score 6: a strong, dark story, but the chatbot teen-safety theme was an 8 Oct card (ChatGPT for Teens) and it is the state's allegation from an unredacted filing of a January suit; left for the Full Report. (5) C06-03 SoftBank's Son seeking up to $100 billion from Gulf investors, score 7: reportedly, one source chain Reuters could not verify; used as a Bigger Picture source. Also left out: C02-02 Claude Dashboards and Motion (7, a product update beside Argon), C09-05 Sesterce's 10 billion euro Finnish campus (7), C08-01 GlobalFoundries-TSMC (7), C05-01 the three fired OpenAI safety researchers (7, would be a fourth OpenAI card and OpenAI safety drama was a 4 Oct card), C04-02 and C04-03 Genesis Mission money (7), C15-03 and C15-04 quantum (7)."
 }

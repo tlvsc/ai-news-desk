@@ -1,0 +1,64 @@
+[
+ {
+  "clip": "C05-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C07-04",
+  "pass": true,
+  "broken": "",
+  "fix": "On trade. The World Trade Organization doubled its trade growth forecast, as A I chip sales outweigh the Middle East war's damage, though fuel costs more.",
+  "note": "second rewrite adopted the Opus rules check's own proposed text (C07-04 with one comma removed for the one-comma shape rule; spoken words identical); checked by script check_wording.py and check_headlines_rules.py, all pass"
+ },
+ {
+  "clip": "C03-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C11-23",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C01-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C13-01",
+  "pass": true,
+  "broken": "",
+  "fix": "In law. News publisher U S A Today sues Chat G P T maker OpenAI for copying its stories. Courts may decide if A I firms pay for news.",
+  "note": "second rewrite adopted the Opus rules check's own proposed text (C07-04 with one comma removed for the one-comma shape rule; spoken words identical); checked by script check_wording.py and check_headlines_rules.py, all pass"
+ },
+ {
+  "clip": "C10-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "bp",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ }
+]

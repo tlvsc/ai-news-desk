@@ -1,0 +1,20 @@
+[
+ {"clip":"C05-02","pass":false,"broken":[
+   {"rule":"CLAUDE.md rule 16 REPLY STORIES","why":"The post is a follow up to the executive order of about a week earlier that told federal agencies to say super intelligence (entry summary); the line never names that order."},
+   {"rule":"1B WHAT and WHY","why":"'though he cannot make the public obey' leaves 'obey' dangling: the line names no order, so a first-time viewer cannot tell what there is to obey; the real limit (only government must follow the order) is not said."}],
+  "fix":"First, to the White House. President Trump calls anyone who says A I the enemy, but only government must obey last week's order to say super intelligence."},
+ {"clip":"C07-04","pass":true,"broken":[],"fix":""},
+ {"clip":"C03-01","pass":true,"broken":[],"fix":""},
+ {"clip":"C11-23","pass":true,"broken":[],"fix":""},
+ {"clip":"C01-01","pass":true,"broken":[],"fix":""},
+ {"clip":"C13-01","pass":true,"broken":[],"fix":""},
+ {"clip":"C10-01","pass":true,"broken":[],"fix":""},
+ {"clip":"fun","pass":true,"broken":[],"fix":""},
+ {"clip":"teaser","pass":false,"broken":[
+   {"rule":"1A","why":"'for all your work apps' is stronger than the entry, which names Gmail, Docs, Slack, Microsoft 365 and a phone, in a private preview for business customers only."},
+   {"rule":"Section 1 item 6 first hearing","why":"'rents jump a quarter' can be heard as 'in a quarter' (three months); the entry says up more than a quarter in a year."}],
+  "fix":"Also in the full report. Google tests one A I helper across your work apps. And the A I boom gets blamed as San Francisco rents jump by a quarter."},
+ {"clip":"bp","pass":false,"broken":[
+   {"rule":"1A","why":"'OpenAI's reported sales fell short' drops the essential qualification that the gap (almost fifty billion against the roughly seventy billion signalled) is mainly a counting difference, so the listener hears a weak business, which the entry does not support (bigger_picture_bulletin.json paragraphs 2 and 4)."}],
+  "fix":"And for the bigger picture: a counting change reportedly cut OpenAI's sales figure, and investors want proof. Watch its funding round, to see if A I money still flows."}
+]

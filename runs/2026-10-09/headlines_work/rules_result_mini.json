@@ -1,0 +1,12 @@
+[
+ {"clip":"C05-02","pass":true,"broken":[],"fix":""},
+ {"clip":"C07-04","pass":false,"broken":[
+   {"rule":"Phrasing file, Headlines item shape","why":"'Fuel still costs more.' is a three-word add-on sentence, but a second sentence is allowed only when the why cannot fit inside the first. Here it fits, as the fix shows. On its own, 'costs more' does not say more than what, or why, because its link to the war is lost (first hearing test, Section 1 item 6)."}],
+  "fix":"On trade. The World Trade Organization doubled its trade growth forecast, as A I chip sales outweigh the Middle East war's damage, though fuel costs more."},
+ {"clip":"C13-01","pass":false,"broken":[
+   {"rule":"G1.1 sound spelling","why":"'ChatGPT' is written unspaced in a spoken line, so the voice may say it as one word. The house spoken form, used on 6 and 8 Oct 2026, is 'Chat G P T'."},
+   {"rule":"G1.2","why":"'Newspaper' is a one-word tag for USA Today Co., a company worth far less than one hundred billion dollars. The rule asks for a two to three word tag, and the entry names the publisher."}],
+  "fix":"In law. News publisher U S A Today sues Chat G P T maker OpenAI for copying its stories. Courts may decide if A I firms pay for news."},
+ {"clip":"teaser","pass":true,"broken":[],"fix":""},
+ {"clip":"bp","pass":true,"broken":[],"fix":""}
+]

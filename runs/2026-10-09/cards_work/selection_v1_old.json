@@ -1,6 +1,6 @@
 {
  "edition": "2026-10-09",
- "note": "chosen by the Fable picker (v2 passed the gate); v3 = Rafi's changes of 9 Oct 2026 (extra card C13-21 Musk vs India, teaser t1 back to C02-01). The gate FAILs G4b (C13-15, C13-21) and G8 (3 Politics cards) only because of these orders; Rafi's order wins (CLAUDE.md 8b item 4); see gate_overrides.json",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
  "cards_in_deck_order": [
   {
    "card": "s1",
@@ -22,24 +22,15 @@
   },
   {
    "card": "s3",
-   "item": "C13-21",
-   "category": "Politics and government",
-   "label": "Musk vs India",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
-   "card": "s4",
    "item": "C06-04",
    "category": "Market, industry and finance",
-   "label": "OpenAI sales",
+   "label": "OpenAI revenue",
    "type": "NEW",
    "fresh": "NEW",
    "score": 8
   },
   {
-   "card": "s5",
+   "card": "s4",
    "item": "C07-04",
    "category": "Market, industry and finance",
    "label": "WTO trade",
@@ -48,7 +39,7 @@
    "score": 7
   },
   {
-   "card": "s6",
+   "card": "s5",
    "item": "C03-01",
    "category": "Security and cyber",
    "label": "Free scanner",
@@ -57,7 +48,7 @@
    "score": 8
   },
   {
-   "card": "s7",
+   "card": "s6",
    "item": "C12-02",
    "category": "Security and cyber",
    "label": "Fake reporters",
@@ -66,7 +57,7 @@
    "score": 7
   },
   {
-   "card": "s8",
+   "card": "s7",
    "item": "C09-03",
    "category": "Energy and infrastructure",
    "label": "Gas by truck",
@@ -75,16 +66,7 @@
    "score": 7
   },
   {
-   "card": "s9",
-   "item": "C11-23",
-   "category": "Robotics",
-   "label": "Traffic robots",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
-   "card": "s10",
+   "card": "s8",
    "item": "C11-06",
    "category": "Robotics",
    "label": "Walmart robots",
@@ -93,7 +75,16 @@
    "score": 6
   },
   {
-   "card": "s11",
+   "card": "s9",
+   "item": "C11-04",
+   "category": "Robotics",
+   "label": "XPENG robotaxi",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s10",
    "item": "C01-01",
    "category": "Models and tools",
    "label": "Gemini 4 Argon",
@@ -102,7 +93,7 @@
    "score": 9
   },
   {
-   "card": "s12",
+   "card": "s11",
    "item": "C04-04",
    "category": "Research and science",
    "label": "Gene-edit doubt",
@@ -111,7 +102,7 @@
    "score": 6
   },
   {
-   "card": "s13",
+   "card": "s12",
    "item": "C13-01",
    "category": "Ethics and law",
    "label": "USA Today sues",
@@ -120,7 +111,7 @@
    "score": 7
   },
   {
-   "card": "s14",
+   "card": "s13",
    "item": "C10-01",
    "category": "Health",
    "label": "AI pre-visit",
@@ -129,7 +120,7 @@
    "score": 7
   },
   {
-   "card": "s15",
+   "card": "s14",
    "item": "C14-07",
    "category": "Society and education",
    "label": "Gaza classrooms",
@@ -138,7 +129,7 @@
    "score": 6
   },
   {
-   "card": "s16",
+   "card": "fun",
    "item": "C16-01",
    "category": "The Fun Side",
    "label": "Robot hits host",
@@ -150,13 +141,13 @@
  "teaser_items": [
   {
    "id": "t1",
-   "item": "C02-01",
-   "category": "Models and tools"
+   "item": "C13-21",
+   "category": "Politics and government"
   },
   {
    "id": "t2",
-   "item": "C11-24",
-   "category": "Robotics"
+   "item": "C02-01",
+   "category": "Models and tools"
   },
   {
    "id": "t3",
@@ -173,7 +164,7 @@
   "C05-02",
   "C07-04",
   "C03-01",
-  "C11-23",
+  "C11-06",
   "C01-01",
   "C13-01",
   "C10-01"

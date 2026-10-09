@@ -1,6 +1,6 @@
 {
  "edition": "2026-10-09",
- "version": "v3: Rafi 9 Oct approved the list with an extra card for Musk and India (C13-21), its teaser place back to C02-01, and the Bulletin Politics section cut to 2 stories at 6 (C05-02, C13-21)",
+ "version": "v2 after the robot pass (the Bulletin now holds 7 robotics stories, incl. two humanoid stories); v1 is selection_fable_v1_old.json",
  "picker": "Fable 5.1 (STORY CHOICE, CLAUDE.md rule 16); read first: Cards Master Sections 1 to 3, Headlines Master Sections A and B, CLAUDE.md rules 16 and 17, cards_work/pick_pack.md (rebuilt, 54 Bulletin candidates)",
  "changes_from_v1": [
   "Card 8: NEW C11-23 Deep Robotics DR02 humanoids directing traffic and guiding tourists in Hangzhou (the humanoid card the ROBOTICS ruling asks for, and now the robotics Headlines clip).",
@@ -24,18 +24,7 @@
    "label": "Japan says AI",
    "reason": "Politics card 2, score 6 (below the extra_min 7 guideline; chosen on Rafi's 9 Oct order for political AI news from around the world and the brief's 'cover the whole world'). Japan's prime minister told parliament that 'AI' stays the right word and she will not follow Trump's rename for now. It is a reply story that makes card 1 a two-card arc (America orders a new word, its closest Asian ally declines), it is the only head-of-government AI story outside the US today, and a stranger gets it at once.",
    "not_repeat_because": "No Takaichi, Japan government or rename story was a card or clip in the last 7 days (5 Oct had a Bank of Japan deputy governor on interest rates, a different story). Freshness NEW: her answer in the Diet is of 8 Oct. REPLY STORY: the writer must say whom she answers (Trump's UN speech last month and his order) and name Yuichiro Tamaki, leader of the Democratic Party for the People, who asked. Credit Kyodo News; the text was read through a Korean relay that credits Kyodo.",
-   "novice_test": "Sanae Takaichi: Japan's prime minister (one line). Yuichiro Tamaki: leader of an opposition party, the Democratic Party for the People, who asked the question. 'Superintelligence': the word Trump wants governments to use instead of AI. Lands: a government saying no to a word is clear to anyone.",
-   "exception": true,
-   "exception_reason": "Rafi approved this card on 9 Oct; after his order to keep only 2 Politics stories in the Bulletin (none reached 7) it is no longer a Bulletin story, so it is taken from the Full Report as an exception."
-  },
-  {
-   "item": "C13-21",
-   "label": "Musk vs India",
-   "reason": "Extra card on Rafi's order of 9 Oct 2026 ('make extra card'): Elon Musk, head of SpaceX and Starlink, asked whether Mukesh Ambani, chairman of Reliance Industries, is 'the real boss of India'; India's government calls his Starlink claim baseless. Carried by about 100 outlets; Rafi: 'very interesting for people to hear'. AI adjacent (FAMOUS PEOPLE RULE).",
-   "not_repeat_because": "No Musk and India or Starlink licence story was a card or clip in the last 7 days; the gate's name match with the 7 Oct SpaceX loan card is a different story (see disputed_repeats).",
-   "novice_test": "The world's richest man accuses India's richest man of blocking his satellite internet; India says no.",
-   "exception": true,
-   "exception_reason": "Third Politics card, above max_per_category 2, on Rafi's direct order (extra card)."
+   "novice_test": "Sanae Takaichi: Japan's prime minister (one line). Yuichiro Tamaki: leader of an opposition party, the Democratic Party for the People, who asked the question. 'Superintelligence': the word Trump wants governments to use instead of AI. Lands: a government saying no to a word is clear to anyone."
   },
   {
    "item": "C06-04",
@@ -129,45 +118,16 @@
   "not_repeat_because": "The 4 Oct fun story was a French TV host knocking two boxing robots down (the human hits the robots); today the robot hits the human, a different event, different people, different country. No Westcol or Blessd in the decks. Freshness NEW."
  },
  "teaser": [
-  {
-   "item": "C02-01",
-   "note": "Back in the teaser after C13-21 became a card (Rafi, 9 Oct). Google's one Gemini agent for business, a coworker with its own email, in private preview."
-  },
-  {
-   "item": "C11-24",
-   "note": "NEW IN V2 (replaces C02-01 Google's coworker agent). Robotics. A humanoid built to stock shelves, serve shoppers in more than 20 languages and bag purchases was shown in Tokyo by CP AI Robotics, a company working mainly in Thailand, which plans to put it in Japanese convenience stores from as early as 2027; Weidong Sun of CP AI Robotics says the aim is not unmanned stores. The second humanoid story of the day gets a place (one extra robotics story is allowed where needed); no store chain is named. If Rafi prefers the v1 teaser, C02-01 (Google's one Gemini agent for business, a coworker with its own email, in private preview) comes back."
-  },
-  {
-   "item": "C09-04",
-   "note": "Energy. A year-long Senate investigation says big tech companies mislead the public about the costs and benefits of AI data centres; the companies dispute parts."
-  },
-  {
-   "item": "C14-06",
-   "note": "Society. The AI boom pushes San Francisco rents up more than 25 percent in a year and eviction notices up 44 percent."
-  }
+  {"item": "C13-21", "note": "Politics. Elon Musk, head of SpaceX and Starlink, asks whether Mukesh Ambani, chairman of Reliance Industries, is 'the real boss of India'; India's government calls his Starlink claim baseless. Rafi said people would find it very interesting; it is AI adjacent, not an AI story, and the FAMOUS PEOPLE RULE's scope is not decided, so it stays the lead teaser line, not a card (unchanged from v1, as the coordinator asked). If Rafi wants it as a card, it replaces card 2 (Japan) as the second Politics card."},
+  {"item": "C11-24", "note": "NEW IN V2 (replaces C02-01 Google's coworker agent). Robotics. A humanoid built to stock shelves, serve shoppers in more than 20 languages and bag purchases was shown in Tokyo by CP AI Robotics, a company working mainly in Thailand, which plans to put it in Japanese convenience stores from as early as 2027; Weidong Sun of CP AI Robotics says the aim is not unmanned stores. The second humanoid story of the day gets a place (one extra robotics story is allowed where needed); no store chain is named. If Rafi prefers the v1 teaser, C02-01 (Google's one Gemini agent for business, a coworker with its own email, in private preview) comes back."},
+  {"item": "C09-04", "note": "Energy. A year-long Senate investigation says big tech companies mislead the public about the costs and benefits of AI data centres; the companies dispute parts."},
+  {"item": "C14-06", "note": "Society. The AI boom pushes San Francisco rents up more than 25 percent in a year and eviction notices up 44 percent."}
  ],
- "headlines": [
-  "C05-02",
-  "C07-04",
-  "C03-01",
-  "C11-23",
-  "C01-01",
-  "C13-01",
-  "C10-01"
- ],
+ "headlines": ["C05-02", "C07-04", "C03-01", "C11-23", "C01-01", "C13-01", "C10-01"],
  "headlines_note": "Clip 1 is the Politics card (Rafi, 7 Oct). Then, by Headlines Master A3 (strongest by score, keep robotics, include law, research or society) in deck order: WTO trade (market, 7), Anthropic free scanner (security, 8), Deep Robotics humanoids directing traffic (the robotics clip, 6; CHANGED from Walmart in v1: the machine a stranger pictures doing something, and the humanoid story Rafi asked for), Gemini 4 Argon (models, 9), USA Today sues OpenAI (law, 7), AI pre-visit chatbot (health, 7). Left out of the clips on purpose: OpenAI revenue (score 8) because OpenAI's money was the 6 Oct finance clip (the $30 billion raise, the same investor pitch) and Rafi prefers AI affecting people over money; Japan (politics 2) because only one politics clip is required and the other six are stronger stories; fake reporters (7) so that OpenAI appears once in the clips and security once; Walmart robots (6) because the reel carries one robotics clip and the humanoid is the better picture. Company counts in clips: Google 2 (Argon, AMIE), Anthropic 1, OpenAI 1.",
  "headlines_fun": "C16-01",
- "bigger_picture": {
-  "card": true,
-  "clip": true
- },
- "bp_refs": [
-  "C07-02",
-  "C06-04",
-  "C06-01",
-  "C06-03",
-  "C07-04"
- ],
+ "bigger_picture": {"card": true, "clip": true},
+ "bp_refs": ["C07-02", "C06-04", "C06-01", "C06-03", "C07-04"],
  "bp_refs_note": "What moves the market: the cost of insuring Oracle, Broadcom and SpaceX debt at records with traders pricing a more than 20 percent chance of an Oracle default in five years (C07-02); OpenAI's revenue pace $20 billion below what it signalled (C06-04); Firmus pulling its $5 billion Nvidia-backed IPO for lack of demand (C06-01, a follow-up, used as a source only); SoftBank's Son reportedly seeking up to $100 billion from the Gulf (C06-03); against them the WTO doubling its trade forecast on AI goods (C07-04). The Bigger Picture writer adds the dated events to watch and the not-financial-advice line.",
  "disputed_repeats": {
   "C13-21": "Teaser item only. The gate's name match is with the 7 Oct SpaceX card ('Elon Musk's rocket and AI firm SpaceX wants to borrow $40 billion for Nvidia chips'): the shared names are Elon, Musk and SpaceX, but that story was SpaceX borrowing for AI chips; this one is Musk's 7 and 8 Oct posts accusing Indian 'oligarchs' of blocking Starlink and asking whether Mukesh Ambani is 'the real boss of India', with India's Communications Ministry rejecting it. Different event, different country, different subject; the BBC and about 100 outlets carried it as new on 8 to 9 Oct."

@@ -1,0 +1,191 @@
+[
+ {
+  "n": 1,
+  "retell": "Trump said anyone who still says 'artificial intelligence' instead of 'superintelligence' is the enemy.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": "",
+  "entry_check": "Matches C05-02 (CONFIRMED, The Independent). Note: entry says the order came 'about a week earlier'; card says 'a week after', acceptable rounding."
+ },
+ {
+  "n": 2,
+  "retell": "Japan's leader said Japan will keep using the word AI for now, even though Trump wants it called superintelligence.",
+  "pass": false,
+  "problem": "'replied to Trump' is stronger than the entry: she answered an opposition leader's question in parliament about Trump's call, she did not reply to Trump. 'the word AI fills official papers' is an odd phrase a stranger may not follow.",
+  "fix_headline": "Japan's prime minister says Japan keeps saying AI, not superintelligence, for now.",
+  "fix_body": "Sanae Takaichi was asked in parliament about US President Trump's UN call last month. She said AI is used across official papers, and she will watch other governments.",
+  "entry_check": "C13-15 headline: 'declined, for now, to follow' Trump's call; answer was to Yuichiro Tamaki in Japan's lower house."
+ },
+ {
+  "n": 3,
+  "retell": "Elon Musk says rich Indian businessmen are keeping his Starlink internet out of India, and India's government says that's not true.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": "",
+  "entry_check": "Matches C13-21 (DISPUTED). 'Five years' is in the BBC full text (Musk: 'spent five years complying'), not in the entry summary. Entry also names spectrum as a pending step; card names only security clearance, acceptable."
+ },
+ {
+  "n": 4,
+  "retell": "OpenAI told investors it is earning about $20 billion a year less than it said before, maybe because it counts sales differently from Anthropic.",
+  "pass": false,
+  "problem": "'a counting difference with rival Anthropic' needs background: it does not say what is counted or why that makes a gap. 'Yearly sales pace' is not explained, only 'a pace is not money earned'.",
+  "fix_headline": "",
+  "fix_body": "An unnamed source says the gap comes mostly from comparing OpenAI with rival Anthropic. Anthropic counts sales made through cloud partners; OpenAI does not. A pace is one month's sales times 12.",
+  "entry_check": "Matches C06-04 (Reuters citing a person familiar; FT first). Hedge 'unnamed source' kept. The '12 months' explanation is in the entry summary."
+ },
+ {
+  "n": 5,
+  "retell": "A world trade group says trade will grow twice as fast as it thought this year because everyone is buying AI chips and servers.",
+  "pass": false,
+  "problem": "'doubled its 2026 trade forecast' reads as trade itself doubling; it is the growth forecast (1.9% to 3.9%). 'outweighing' the war's damage is stronger than the entry's 'offsetting'. 'the first half' of what is unclear.",
+  "fix_headline": "The World Trade Organization doubled its 2026 trade growth forecast on AI demand.",
+  "fix_body": "Trade in AI goods like chips and servers rose two thirds from January to June. They made almost half of all trade growth, offsetting damage from the Middle East war.",
+  "entry_check": "C07-04: 'more than doubled' the growth forecast; 67% and 47% match 'two thirds' and 'almost half'; entry says 'offsetting'."
+ },
+ {
+  "n": 6,
+  "retell": "An AI company now checks free public software for security holes for free, but no person checks its reports.",
+  "pass": false,
+  "problem": "'Anthropic says some may be wrong': 'some' what? The flaw reports were never introduced. Anthropic is not introduced as an AI company.",
+  "fix_headline": "AI firm Anthropic now scans open-source code, readable by all, for flaws for free.",
+  "fix_body": "Projects that opt in get regular scans by its strongest AI models. No person checks the flaw reports, and Anthropic says some may be wrong. Some projects already struggle with floods of AI bug reports.",
+  "entry_check": "C03-01 (CONFIRMED, The Verge): 'without human review, so some may be incorrect'; the floods of AI bug reports are The Verge's note."
+ },
+ {
+  "n": 7,
+  "retell": "OpenAI says it stopped Russian and Iranian groups that used ChatGPT to make up fake writers and get propaganda into the news.",
+  "pass": false,
+  "problem": "Headline says both groups invented journalists; per the entry the Russian-linked one invented a think-tank head and only the Iran-linked one used fake journalists. Headline drops 'OpenAI says', the core attribution (entry status REPORTED, OpenAI's own findings).",
+  "fix_headline": "OpenAI says it shut down Russian and Iranian groups using ChatGPT for fake writers.",
+  "fix_body": "The Russian-linked group invented a think-tank head. The Iran-linked one placed almost 100 articles under fake journalists' names. OpenAI names no government agency behind either group.",
+  "entry_check": "C12-02 (CyberScoop citing OpenAI): 'Russian-linked', 'Iran-linked', 'almost 100 articles', no government agency named."
+ },
+ {
+  "n": 8,
+  "retell": "Oracle is bringing gas by truck to power its AI computer centres because the pipes aren't ready, and that gas costs about four times more.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": "",
+  "entry_check": "Matches C09-03 (Bloomberg, REPORTED). Entry says 'more than a year' (card 'a year', weaker, fine) and one analytics firm, East Daley ('Analysts', acceptable); 'usual price' stands for the trading hub price."
+ },
+ {
+  "n": 9,
+  "retell": "A Chinese company says its human-shaped robots tested directing traffic and helping tourists in a busy Chinese city.",
+  "pass": false,
+  "problem": "Headline states the robots worked the streets as plain fact; the entry is a trial described only by the maker. 'Hangzhou' needs background (a city in China). 'worked junctions' and 'judgment work' are jargon; 'It' is unclear.",
+  "fix_headline": "Humanoid robots directed traffic and guided tourists in a trial in Hangzhou, China.",
+  "fix_body": "Chinese robot maker Deep Robotics says its DR02 robots handled busy crossings in rain. It says they aim to free staff for tasks needing judgment. Only the maker describes the trial.",
+  "entry_check": "C11-23 (AI Insider citing Deep Robotics): 'has tested', 'field trials', 'no independent results'."
+ },
+ {
+  "n": 10,
+  "retell": "Walmart's warehouse robots keep breaking and can't handle big boxes, and fewer workers will be needed later, but no one gets fired.",
+  "pass": false,
+  "problem": "'supply buildings' is an unclear phrase. 'promise no layoffs' is stronger than the entry: executives say the change 'will not require layoffs'.",
+  "fix_headline": "",
+  "fix_body": "After a decade, Walmart is still automating most of its roughly 200 US warehouses. Executives say fewer warehouse workers will be needed in time, without layoffs.",
+  "entry_check": "C11-06 (WSJ): shuttle robots break down too often, boxes too big for the systems; 'will not require layoffs'."
+ },
+ {
+  "n": 11,
+  "retell": "Google made a new top AI and is giving it first to security experts, who get a version with fewer safety limits.",
+  "pass": false,
+  "problem": "'cyber defenders' and 'the usual cyber safeguards' are jargon a stranger cannot follow; 'Those defenders' depends on the headline term.",
+  "fix_headline": "Google unveiled its new top AI model, Gemini 4 Argon, first for security experts.",
+  "fix_body": "These trusted experts get a version without Google's usual limits on cyber uses. Paying developers follow once its safety limits are tested. Google claims top scores in coding, finance, law and security, from its own tests.",
+  "entry_check": "C01-01 (Google, CONFIRMED): trusted defenders, version without usual cyber safeguards, others follow once safeguards are tested, benchmarks are Google's own."
+ },
+ {
+  "n": 12,
+  "retell": "Scientists say an AI company bragged too much about its AI finding a gene tool, and a student says his own unfinished work already found it.",
+  "pass": false,
+  "problem": "Headline drops Anthropic's own hedge (it said a 'possible' tool it 'suspects'). 'he cannot prove copying' makes no sense without the link: he used Anthropic's AI, Claude, in his doctoral work. Anthropic not introduced.",
+  "fix_headline": "Scientists say AI firm Anthropic overstated its find of a possible gene-editing tool.",
+  "fix_body": "Anthropic said last month its AI found a DNA pattern that may edit genes. Copenhagen researcher Mario Rodríguez Mestre used its AI, Claude, in his doctoral work. He says his unpublished work shows it but cannot prove it was taken.",
+  "entry_check": "C04-04 (CNN, DISPUTED): 'possible new gene-editing system', 'early and overstated', 'used Claude in his University of Copenhagen doctoral work', 'cannot show that Anthropic took his work'."
+ },
+ {
+  "n": 13,
+  "retell": "The company that owns USA Today is suing OpenAI for using lots of its news stories to train AI without asking, like The New York Times did.",
+  "pass": false,
+  "problem": "Headline states the copying as fact; it is the publisher's claim (entry: 'claiming the company copied'). 'joining The New York Times' needs background: joining it in what?",
+  "fix_headline": "USA Today's publisher sued OpenAI, saying it copied hundreds of thousands of stories.",
+  "fix_body": "The publisher and its local papers say OpenAI trained AI on their articles without asking. They seek over $250 million. The New York Times and other publishers already sue OpenAI; OpenAI had not responded.",
+  "entry_check": "C13-01 (Reuters via The Verge): allegations; over $250 million; joins publishers incl. The New York Times."
+ },
+ {
+  "n": 14,
+  "retell": "A Google chatbot asked patients questions before their doctor visits, and the watching doctors never had to stop it.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": "",
+  "entry_check": "Matches C10-01. Entry says the study tested feasibility; card 'tested only safety' is close. One logged hallucination is left out, acceptable on a card."
+ },
+ {
+  "n": 15,
+  "retell": "A charity that runs schools in Gaza wants to record classes and let AI catch 'hateful' talk, and some people are worried about privacy.",
+  "pass": false,
+  "problem": "'Gaza Children Village' is not clearly the charity; 'raised concerns' does not say about what (privacy and ethics).",
+  "fix_headline": "",
+  "fix_body": "The charity is Gaza Children Village. Its founder, Dr David Hasan, described the plan in a webinar last month. A board member and a partner aid group raised privacy and ethics concerns. Families may not know.",
+  "entry_check": "C14-07 (AP): founder Dr David Hasan, webinar last month, privacy and ethical concerns, unclear whether families were told."
+ },
+ {
+  "n": 16,
+  "retell": "A streamer from Colombia got smacked on the head by his own robot while practising a dance on a live stream.",
+  "pass": false,
+  "problem": "'He says ... had already kicked a display case to bits' gives him the kick claim and makes it stronger than the source ('a hard kick that broke a display case' in control tests, reported by the outlet).",
+  "fix_headline": "",
+  "fix_body": "Streamer Westcol turned his back while rehearsing a dance with the robot on air. He says it cost about $100,000. In earlier tests it kicked a display case hard enough to break it.",
+  "entry_check": "C16-01 (Heraldo USA): back turned, blow to back of head, about $100,000 by his own account, earlier kick broke a display case."
+ },
+ {
+  "n": 17,
+  "retell": "Google showed one AI helper for businesses that works in all your apps, but it is a test version for now.",
+  "pass": false,
+  "problem": "'Gemini agent' is jargon. The entry's hedge is missing: only a private preview group can use it.",
+  "fix_headline": "Google showed a Gemini AI helper for firms that works across apps, now in testing.",
+  "fix_body": "",
+  "entry_check": "C02-01 (The Verge): 'still in private preview', enterprise customers only."
+ },
+ {
+  "n": 18,
+  "retell": "A robot shaped like a person, shown in Tokyo, might fill shelves in Japanese corner shops from 2027.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": "",
+  "entry_check": "Matches C11-24: plans 'as early as 2027'; 'could' keeps the hedge."
+ },
+ {
+  "n": 19,
+  "retell": "US senators say big tech companies are not honest about what AI data centres cost and how many jobs they bring.",
+  "pass": false,
+  "problem": "'big tech misleads' drops the entry's 'some' (some big tech companies), so it is stronger than the entry.",
+  "fix_headline": "US Democratic senators say some tech giants mislead on AI data centre costs and jobs.",
+  "fix_body": "",
+  "entry_check": "C09-04 (TIME): 'some big tech companies are misleading'; staff report of Democratic senators; companies dispute parts."
+ },
+ {
+  "n": 20,
+  "retell": "Rent in San Francisco went up a lot and more people are being told to move out, and the AI boom gets the blame.",
+  "pass": false,
+  "problem": "'The AI boom drove' states the cause as fact; the entry says the link rests on the mayor's and advocates' accounts.",
+  "fix_headline": "San Francisco rents rose a quarter, blamed on the AI boom; eviction notices rose 44%.",
+  "fix_body": "",
+  "entry_check": "C14-06 (The Guardian): one-bedroom up more than 25%, evictions up 44%, AI link per the mayor and advocates."
+ },
+ {
+  "n": 21,
+  "retell": "Investors want real results from AI companies now, not promises, after OpenAI's sales came in lower than it said.",
+  "pass": false,
+  "problem": "'$1.4 trillion round' is wrong: OpenAI seeks $30 billion or more at a $1.4 trillion value. 'shelved its listing', 'round' and 'paying for proof, not plans' are jargon. 'a sector test' is a what-to-watch without a clear why.",
+  "fix_headline": "AI investors now want results, not promises, after OpenAI's lower sales figure.",
+  "fix_body": "OpenAI's sales pace came in lower; data-centre firm Firmus dropped its share sale. Watch if OpenAI raises money at a $1.4 trillion value. Not financial advice.",
+  "entry_check": "bigger_picture.json and bigger_picture_bulletin.json: OpenAI seeks '$30 billion or more at a $1.4 trillion valuation'; Firmus shelved its $5 billion share sale. A body that also keeps 'a sector test' does not fit 160 characters."
+ }
+]

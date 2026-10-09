@@ -1,6 +1,6 @@
 {
- "ok": false,
- "md5": "f17051f0d2e43829f9a9d1691d658051",
+ "ok": true,
+ "md5": "277b5a041b00b256abe1c0a1f8de3060",
  "results": [
   [
    "G1 every id exists and is not held",
@@ -10,7 +10,7 @@
   [
    "G2 count: 14 story cards (15 allowed, one extra, Rafi 8 Oct 2026), 4 teaser items, 7 Headlines clips",
    true,
-   "15 cards, 4 teaser, 7 clips"
+   "14 cards, 4 teaser, 7 clips"
   ],
   [
    "G3 no duplicate ids among cards",
@@ -23,14 +23,14 @@
    "[]"
   ],
   [
-   "G4b exception C13-15 allowed only when the Bulletin has no eligible story in its category",
-   false,
-   "eligible Bulletin stories: ['C13-21', 'C05-02']"
+   "G4b exception C11-06 allowed only when the Bulletin has no eligible story in its category",
+   true,
+   "eligible Bulletin stories: []"
   ],
   [
-   "G4b exception C13-21 allowed only when the Bulletin has no eligible story in its category",
-   false,
-   "eligible Bulletin stories: ['C13-21', 'C05-02']"
+   "G4b exception C11-04 allowed only when the Bulletin has no eligible story in its category",
+   true,
+   "eligible Bulletin stories: []"
   ],
   [
    "G5 every card, clip and the fun story was read in full",
@@ -45,12 +45,12 @@
   [
    "G7 deck is in the Drive category order",
    true,
-   "['POL', 'POL', 'POL', 'MKT', 'MKT', 'SEC', 'SEC', 'ENE', 'ROB', 'ROB', 'MOD', 'RES', 'LAW', 'HEA', 'SOC']"
+   "['POL', 'POL', 'MKT', 'MKT', 'SEC', 'SEC', 'ENE', 'ROB', 'ROB', 'MOD', 'RES', 'LAW', 'HEA', 'SOC']"
   ],
   [
    "G8 category limits (2, markets 3: a money heavy deck is a failure)",
-   false,
-   "['POL']"
+   true,
+   "[]"
   ],
   [
    "G9 company limit on cards",
@@ -65,7 +65,7 @@
   [
    "G11 Headlines clips are cards, in deck order",
    true,
-   "['C05-02', 'C07-04', 'C03-01', 'C11-23', 'C01-01', 'C13-01', 'C10-01']"
+   "['C05-02', 'C07-04', 'C03-01', 'C11-06', 'C01-01', 'C13-01', 'C10-01']"
   ],
   [
    "G11b when the deck has a Politics card, its clip is Headlines clip 1 (Rafi, 7 Oct 2026)",
@@ -105,7 +105,7 @@
   [
    "G19 robotics has two cards when two qualify",
    true,
-   "robotics cards 2, eligible ['C11-04', 'C11-06', 'C11-23', 'C11-24']"
+   "robotics cards 2, eligible ['C11-04', 'C11-06', 'C11-13']"
   ],
   [
    "G20 the Bigger Picture is named as a card and a clip",
