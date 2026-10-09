@@ -43,11 +43,20 @@
    "category": "Politics",
    "item": "C05-02",
    "symbol": "a short realistic video of the White House north front at dusk, its white columns lit above the lawn and fountain, filmed from the press lawn, no flag, no people",
-   "script": "First, to the White House. President Trump calls those who say A I the enemy, but last week's order to say super intelligence binds only government.",
+   "script": "First, super intelligence. President Trump calls those who say A I the enemy, but Japan's prime minister Takaichi keeps A I for now and so can you.",
    "source": "The Independent"
   },
   {
    "slot": 3,
+   "kind": "story",
+   "category": "Politics",
+   "item": "C13-21",
+   "symbol": "a short realistic video of a white satellite internet dish on the flat roof of an apartment block in an Indian city at dusk, pointed at the sky, with a busy street and auto rickshaws below, no words or logos",
+   "script": "In India. SpaceX boss Elon Musk claims oligarchs block his Starlink satellite internet, a claim the government denies while Indians wait for it.",
+   "source": "BBC, with ANI"
+  },
+  {
+   "slot": 4,
    "kind": "story",
    "category": "Business",
    "item": "C07-04",
@@ -56,16 +65,16 @@
    "source": "Associated Press"
   },
   {
-   "slot": 4,
+   "slot": 5,
    "kind": "story",
    "category": "Security",
-   "item": "C03-01",
-   "symbol": "a short realistic video of a dark server room, a soft blue scanning light sweeping along rows of computer racks until one small red lamp lights up on a rack",
-   "script": "In security. A I lab an-thropic offers free but unchecked A I scans for flaws in the shared code behind many apps, so bugs may be caught sooner.",
-   "source": "The Verge"
+   "item": "C12-02",
+   "symbol": "a short realistic video of a dim newsroom at night, a laptop on a desk showing a blank grey profile silhouette beside blurred unreadable text, printed pages stacked next to it, no readable words or logos",
+   "script": "In security. A I firm OpenAI says it shut down Russian and Iranian groups that faked journalists with A I to put propaganda in real news.",
+   "source": "CyberScoop, citing OpenAI"
   },
   {
-   "slot": 5,
+   "slot": 6,
    "kind": "story",
    "category": "Robotics",
    "item": "C11-23",
@@ -74,7 +83,7 @@
    "source": "AI Insider"
   },
   {
-   "slot": 6,
+   "slot": 7,
    "kind": "story",
    "category": "Models",
    "item": "C01-01",
@@ -83,22 +92,13 @@
    "source": "Google"
   },
   {
-   "slot": 7,
-   "kind": "story",
-   "category": "Law",
-   "item": "C13-01",
-   "symbol": "a short realistic video of a wooden gavel coming down on a judge's bench beside a tall stack of folded newspapers with blurred unreadable print",
-   "script": "In law. News publisher U S A Today sues Chat G P T maker OpenAI for copying its stories. Courts may decide if A I firms pay for news.",
-   "source": "Reuters"
-  },
-  {
    "slot": 8,
    "kind": "story",
-   "category": "Health",
-   "item": "C10-01",
-   "symbol": "a short realistic video of a calm clinic room, a tablet on the desk glowing with a plain chat bubble shape beside a stethoscope, the doctor's chair empty",
-   "script": "In health. A Google chatbot questioned patients before urgent visits in a small doctor-watched trial, a sign A I could safely start a doctor's visit.",
-   "source": "Beth Israel Deaconess Medical Center"
+   "category": "Society",
+   "item": "C14-07",
+   "symbol": "a short realistic video of a plain classroom in Gaza, children at wooden desks seen from behind facing a chalkboard, a small microphone on the teacher's desk and a camera in the top corner of the room, no faces close up, no readable words",
+   "script": "In education. U S charity Gaza Children Village plans to record its classrooms and let A I flag hateful speech, raising fears for pupils' privacy.",
+   "source": "Associated Press"
   },
   {
    "slot": 9,

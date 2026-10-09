@@ -1,6 +1,6 @@
 {
  "edition": "2026-10-09",
- "note": "chosen by the Fable picker (v2 passed the gate); v3 = Rafi's changes of 9 Oct 2026 (extra card C13-21 Musk vs India, teaser t1 back to C02-01). The gate FAILs G4b (C13-15, C13-21) and G8 (3 Politics cards) only because of these orders; Rafi's order wins (CLAUDE.md 8b item 4); see gate_overrides.json | 9 Oct: card C13-15 (Japan's answer) merged into card s1 (Trump) on Rafi's ONE TOPIC, ONE CARD ruling. | 9 Oct: Rafi chose the Headlines clips (option A): Trump, Musk and India, WTO, OpenAI fake journalists, humanoid traffic robots, Gemini 4 Argon, Gaza charity.",
+ "note": "chosen by the Fable picker (v2 passed the gate); v3 = Rafi's changes of 9 Oct 2026 (extra card C13-21 Musk vs India, teaser t1 back to C02-01). The gate FAILs G4b (C13-15, C13-21) and G8 (3 Politics cards) only because of these orders; Rafi's order wins (CLAUDE.md 8b item 4); see gate_overrides.json | 9 Oct: card C13-15 (Japan's answer) merged into card s1 (Trump) on Rafi's ONE TOPIC, ONE CARD ruling.",
  "cards_in_deck_order": [
   {
    "card": "s1",
@@ -162,12 +162,12 @@
  ],
  "headlines_story_clips_in_order": [
   "C05-02",
-  "C13-21",
   "C07-04",
-  "C12-02",
+  "C03-01",
   "C11-23",
   "C01-01",
-  "C14-07"
+  "C13-01",
+  "C10-01"
  ],
  "headlines_fun": "C16-01",
  "bp_refs": [

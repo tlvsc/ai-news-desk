@@ -3,20 +3,11 @@
   {
    "item": "C05-02",
    "category_word": "politics",
-   "who": "Donald Trump, the US president, writing on his Truth Social site; and Sanae Takaichi, Japan's prime minister, answering a question in Japan's lower house of parliament",
-   "what": "Trump wrote on Thursday that the White House considers anyone who says artificial intelligence instead of super intelligence 'the enemy', about a week after an executive order told federal agencies to use the new term; the same day Takaichi told parliament that A I is the right term for now, because it is used in government documents and academic papers and changing it everywhere at once would be hard, and that she will watch how other governments respond (Kyodo News, via a translated report; her words are paraphrased); the post changes no policy",
-   "why_for_people": "Trump cannot make the world say super intelligence: Japan's prime minister keeps A I for now, and so can anyone outside the US government, since he cannot compel private use",
-   "script": "First, super intelligence. President Trump calls those who say A I the enemy, but Japan's prime minister Takaichi keeps A I for now and so can you.",
+   "who": "Donald Trump, the US president, writing on his Truth Social site",
+   "what": "wrote on Thursday that the White House considers anyone who says artificial intelligence instead of super intelligence 'the enemy', about a week after an executive order told federal agencies to use the new term; the post changes no policy",
+   "why_for_people": "last week's order to say super intelligence binds only government, so the public need not obey; and superintelligence already means A I beyond human ability, so the new name could confuse people",
+   "script": "First, to the White House. President Trump calls those who say A I the enemy, but last week's order to say super intelligence binds only government.",
    "screen": "a short realistic video of the White House north front at dusk, its white columns lit above the lawn and fountain, filmed from the press lawn, no flag, no people"
-  },
-  {
-   "item": "C13-21",
-   "category_word": "politics",
-   "who": "Elon Musk, who heads SpaceX and its satellite internet service Starlink; India's Communications Ministry and Communications Minister Jyotiraditya Scindia; Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network, named by Musk but not in the clip",
-   "what": "Musk wrote on X that unnamed 'oligarchs' are blocking Starlink in India to keep a monopoly chokehold on consumers and asked whether Ambani is 'the real boss of India'; the ministry says Starlink, Jio's satellite arm and Eutelsat OneWeb are all at the same stage, awaiting security clearance and spectrum, and calls the suggestion of unfair treatment baseless; Scindia says India allows no monopoly in any sector; Reliance had not responded; every allegation is Musk's, the government rejects it, and there is no verdict",
-   "why_for_people": "the row bears on when people in India can buy Starlink's satellite internet, which still waits on security clearance and spectrum; the claim that oligarchs block it is Musk's alone and the government rejects it",
-   "script": "In India. SpaceX boss Elon Musk claims oligarchs block his Starlink satellite internet, a claim the government denies while Indians wait for it.",
-   "screen": "a short realistic video of a white satellite internet dish on the flat roof of an apartment block in an Indian city at dusk, pointed at the sky, with a busy street and auto rickshaws below, no words or logos"
   },
   {
    "item": "C07-04",
@@ -28,13 +19,13 @@
    "screen": "a short realistic video of a busy container port at dawn, tall cranes lifting plain unmarked containers onto a giant cargo ship while trucks queue on the quay"
   },
   {
-   "item": "C12-02",
+   "item": "C03-01",
    "category_word": "security",
-   "who": "OpenAI, the A I company behind ChatGPT, reporting its own investigation; a Russia-linked network OpenAI calls Dark Clark and an Iran-linked operation OpenAI does not tie to a named actor",
-   "what": "OpenAI said on Thursday it shut down the two operations: the Russian one used ChatGPT to create a fake A I persona who supposedly led a Latin American think tank, the Social Research Center, to push propaganda mainly against Ukraine's reputation; the Iranian one used at least seven fake journalist personas to place almost a hundred articles, mostly about the US-Iran war, in about a dozen small online outlets; OpenAI rated them five and four on its one-to-six impact scale, meaning they reached mainstream audiences; the findings are OpenAI's own and no government agency is named",
-   "why_for_people": "groups faked journalists with A I and got propaganda into real news that people read; newsrooms cannot easily check who a writer is, and the findings are OpenAI's own",
-   "script": "In security. A I firm OpenAI says it shut down Russian and Iranian groups that faked journalists with A I to put propaganda in real news.",
-   "screen": "a short realistic video of a dim newsroom at night, a laptop on a desk showing a blank grey profile silhouette beside blurred unreadable text, printed pages stacked next to it, no readable words or logos"
+   "who": "Anthropic, the A I lab behind the Claude chatbot",
+   "what": "launched OSS Scanner, a free opt-in service in which its strongest A I models run regular security scans on open-source projects, software whose code is publicly shared and sits behind many apps; Anthropic says the reports are written by the A I alone, without human review, so some may be wrong",
+   "why_for_people": "the shared code behind many apps gets free A I scans for flaws, so bugs may be caught sooner and the apps people use may get safer, though the reports are unchecked and some may be wrong; some projects already struggle with floods of A I bug reports",
+   "script": "In security. A I lab an-thropic offers free but unchecked A I scans for flaws in the shared code behind many apps, so bugs may be caught sooner.",
+   "screen": "a short realistic video of a dark server room, a soft blue scanning light sweeping along rows of computer racks until one small red lamp lights up on a rack"
   },
   {
    "item": "C11-23",
@@ -55,13 +46,22 @@
    "screen": "a short realistic video of a dark computer security room, big wall screens showing a glowing world map with moving points of light and a blue shield shape, no words or numbers"
   },
   {
-   "item": "C14-07",
-   "category_word": "society",
-   "who": "Gaza Children Village, a US charity that runs schools in Gaza, and its founder and chief executive Dr David Hasan; its pupils and teachers",
-   "what": "the charity plans to record classroom conversations and have an A I system flag speech it judges 'hateful' or 'inciting', with warnings sent to Hasan and recordings kept for seventy two hours, as he described in a webinar last month; it is unclear when monitoring starts, what language is flagged, or whether teachers, pupils and families have been told; a board member, a partner aid group and Palestinian groups raised privacy and ethics concerns, and a Palestinian government spokesperson said classroom surveillance would cross an important line",
-   "why_for_people": "teachers and children in Gaza could be recorded in class without knowing, raising fears for pupils' privacy; the charity says the aim is to keep to its curriculum",
-   "script": "In education. U S charity Gaza Children Village plans to record its classrooms and let A I flag hateful speech, raising fears for pupils' privacy.",
-   "screen": "a short realistic video of a plain classroom in Gaza, children at wooden desks seen from behind facing a chalkboard, a small microphone on the teacher's desk and a camera in the top corner of the room, no faces close up, no readable words"
+   "item": "C13-01",
+   "category_word": "law",
+   "who": "USA Today Co., the publisher of the newspaper USA Today and several local papers, and OpenAI, the company behind ChatGPT",
+   "what": "sued OpenAI on Thursday, claiming it copied hundreds of thousands of their articles to train its A I models without permission, and asks for more than two hundred and fifty million dollars; these are the publisher's claims, OpenAI had not responded, and the suit joins The New York Times and other publishers already suing",
+   "why_for_people": "courts may decide if A I firms pay for news, which matters to journalists and local papers whose work feeds A I",
+   "script": "In law. News publisher U S A Today sues Chat G P T maker OpenAI for copying its stories. Courts may decide if A I firms pay for news.",
+   "screen": "a short realistic video of a wooden gavel coming down on a judge's bench beside a tall stack of folded newspapers with blurred unreadable print"
+  },
+  {
+   "item": "C10-01",
+   "category_word": "health",
+   "who": "researchers at Beth Israel Deaconess Medical Center, a Boston hospital, working with Google, and AMIE, Google's medical chatbot",
+   "what": "report in The Lancet that the chatbot questioned patients by text at home before urgent primary-care appointments and wrote a summary for the doctor; a physician watched every chat, and none of the ninety eight completed chats needed a safety stop, though one hallucination was logged; the study tested only whether this is workable, not whether it improves health, and Google's parent Alphabet paid for it",
+   "why_for_people": "a sign A I could safely start a doctor's visit by asking the first questions while a doctor watches, though the small trial was Google-funded, ran at one hospital and shows no health gain",
+   "script": "In health. A Google chatbot questioned patients before urgent visits in a small doctor-watched trial, a sign A I could safely start a doctor's visit.",
+   "screen": "a short realistic video of a calm clinic room, a tablet on the desk glowing with a plain chat bubble shape beside a stethoscope, the doctor's chair empty"
   }
  ],
  "fun": {

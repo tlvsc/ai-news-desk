@@ -1,0 +1,40 @@
+[
+ {
+  "clip": "C05-02",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY / stranger check",
+    "why": "The line never says why it matters to an ordinary listener: it reports Trump's word and Takaichi's word but not the effect on people (the entry: the post changes no policy and the president cannot compel private use, and Japan keeps A I for now)."
+   },
+   {
+    "rule": "1B WHAT / stranger check",
+    "why": "A stranger hears that Trump calls people who say A I 'the enemy' but the line never ties that to his push for 'super intelligence'; only the intro hints at it. The fix keeps the intro and ends on what it means for the listener. 'Sanae' is dropped to keep the length; she is still named with her position."
+   }
+  ],
+  "fix": "First, super intelligence. President Trump calls those who say A I the enemy, but Japan's prime minister Takaichi keeps A I for now, and so can you."
+ },
+ {
+  "clip": "C13-21",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1A nothing stronger than the entry / stranger check (unclear 'which')",
+    "why": "'his Starlink satellite internet, which the government rejects' attaches 'which' to Starlink, so a first-time listener hears that India rejects Starlink; the entry says India rejects Musk's claim of unfair treatment and Starlink still awaits clearance and spectrum."
+   }
+  ],
+  "fix": "In India. SpaceX boss Elon Musk claims oligarchs block his Starlink satellite internet, a claim the government denies, while Indians wait for it."
+ },
+ {
+  "clip": "C12-02",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C14-07",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ }
+]
