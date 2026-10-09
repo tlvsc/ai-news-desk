@@ -12,7 +12,7 @@ Rafi, 7 Oct 2026: the repo wins for now. When the scan is fully operational this
 9. No update cards: an update of an earlier story is a card only if a major story changed meaningfully and Rafi names it; no story that was a card or Headlines clip in the last 7 days comes back (7 Oct 2026).
 10. Full Report size: aim at 100 to 120 stories, cutoff 5 or 6, filled from the next lower score if short (7 Oct 2026); Full Report rule 5.5 markets cap does not apply to the Bigger Picture (2 Oct 2026).
 11. Bulletin: cutoff chosen to land near 30 to 50 stories; Health and Society and education use cutoff 6 so they are never empty (7 Oct 2026).
-12. Model policy: Fable chooses the stories of cards and Headlines and writes their wording; Opus does the checks and the editors and the Bigger Picture; Sonnet does bulk jobs; never Haiku (6 and 7 Oct 2026).
+12. Model policy: Fable chooses the stories of cards and Headlines and writes their wording; Opus does the checks and the editors (the Bigger Picture model is set only in CLAUDE.md, BIGGER PICTURE MODEL); Sonnet does bulk jobs; never Haiku (6 and 7 Oct 2026).
 13. Repeats: checked against the pools of the last 4 days, the Full Reports of the last 14 days (step 9b) and, for cards and Headlines, 7 days of decks.
 14. Drive delivery: the connection cannot upload from a path; large files go to Rafi in chat (lesson 85).
 15. Credit rules, reply story rules, write-only-what-can-print: see CLAUDE.md rule 16 (3 to 4 Oct 2026).

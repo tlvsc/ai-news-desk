@@ -1,4 +1,4 @@
-The Bigger Picture: written by ONE agent on model "fable" at effort "max" (Rafi, 9 Oct 2026; CLAUDE.md MODEL POLICY; the main session never writes it), after the editors finish and after the
+The Bigger Picture: written by one agent (model and effort: ONLY the BIGGER PICTURE MODEL line of CLAUDE.md; the main session never writes it), after the editors finish and after the
 build that applies their holds (the item numbers must be final). One story at three lengths (CLAUDE.md rule 17):
 the Full Report carries the full analysis, the Bulletin a deeper look than the card, the card and the Headlines
 clip (Part B) the short hook. All three tell the same story: a summation of the big things happening, focused on

@@ -49,6 +49,9 @@ Every script takes `--workdir $W`. collect.py writes `$W/run.json` (edition and 
 
 ## Steps
 
+### -1. Fresh clone check (Rafi, 9 Oct 2026; closes lesson 83 of 6 Oct, which repeated on 9 Oct)
+Before anything else: `git pull --rebase origin claude/eager-archimedes-ajnex3`; if CLAUDE.md or this skill changed, read them again before any agent is launched.
+
 ### 0. Setup (one background agent, Drive read only)
 Fetch into `$W/rules/`: Full_Report_V1_Rules_Structure.txt, Bulletin_V1_Rules_Structure.txt and
 Article_phrasing_instructions_AIND_V1.txt (find each by name; check its modified time). Fetch into `$W/`:
@@ -165,7 +168,7 @@ decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update c
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
-Write `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json` with ONE Fable agent (Agent tool model "fable", effort "max"; Rafi, 9 Oct 2026, replacing "effort high" of 8 Oct 2026; the main session never writes it), following `$A/briefs/bigger_picture.md`. Agent prompt: `Read $A/briefs/bigger_picture.md and follow it exactly; WORKDIR is $W; cutoffs: <report-min> and <bulletin-min>.`
+One agent writes `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json`, following `$A/briefs/bigger_picture.md`; its model and effort are set ONLY by the BIGGER PICTURE MODEL line of CLAUDE.md, and the main session never writes it. Agent prompt: `Read $A/briefs/bigger_picture.md and follow it exactly; WORKDIR is $W; cutoffs: <report-min> and <bulletin-min>.`
 
 ### 11. Final build and PDFs
 ```
