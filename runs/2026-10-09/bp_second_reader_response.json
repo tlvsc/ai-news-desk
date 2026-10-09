@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-09",
+ "reader_file": "bp_second_reader.json",
+ "problems": 22,
+ "fixed": 22,
+ "disputed": 0,
+ "build": "build_products.py --report-min 6 --report-fill-to 106 --bulletin-min 7 --bulletin-min-cat HEA=6,SOC=6: Bigger Picture included, no warning, 0 raw marks",
+ "citations": {
+  "total": 117,
+  "distinct": 60,
+  "not_in_report": [],
+  "held": []
+ },
+ "bulletin_words": 389,
+ "markets_share_percent_of_sections_1_to_5": 19.4,
+ "replaced_drafts_renamed": [
+  "bigger_picture_bulletin_old.json",
+  "bigger_picture_bulletin_old2.json",
+  "bigger_picture_bulletin_old3.json",
+  "bigger_picture_bulletin_old4.json",
+  "bigger_picture_bulletin_old5.json",
+  "bigger_picture_bulletin_old6.json",
+  "bigger_picture_bulletin_old7.json",
+  "bigger_picture_bulletin_old8.json",
+  "bigger_picture_bulletin_old9.json",
+  "bigger_picture_old.json",
+  "bigger_picture_old2.json",
+  "bigger_picture_old3.json",
+  "bigger_picture_old4.json",
+  "bigger_picture_old5.json"
+ ],
+ "responses": [
+  {
+   "n": 1,
+   "status": "fixed: 'the launch price is $2 ...' (C01-01 calls it a launch price)"
+  },
+  {
+   "n": 2,
+   "status": "fixed: closed-group claim now limited to Google's Fairwind defenders; Anthropic's opt-in scans no longer called closed"
+  },
+  {
+   "n": 3,
+   "status": "fixed: 'if the reported Ultrafast tier is confirmed, the labs have begun to charge for time' (C01-02 rests on one report with no OpenAI statement)"
+  },
+  {
+   "n": 4,
+   "status": "fixed: 'the UMG deal shows one route' ('first' removed)"
+  },
+  {
+   "n": 5,
+   "status": "fixed: 'the one bill in today's news concerns the Pentagon's suppliers'"
+  },
+  {
+   "n": 6,
+   "status": "fixed: inference now rests on the PCI guidance only; Seoul's 12-point self-assessment called a security self-assessment, not an AI rule"
+  },
+  {
+   "n": 7,
+   "status": "fixed: C13-11 now credits China Daily for the draft and Free Malaysia Today for the contracts and human-review duty, as the entry does"
+  },
+  {
+   "n": 8,
+   "status": "fixed: 'by lawsuit' (no cited US letter), 'draft duties' ('first' removed), the unprobabilised Scenario folded into the Inference"
+  },
+  {
+   "n": 9,
+   "status": "fixed: 'independent testing of whether the machines can really be built large' ('the step the AI build skipped' removed)"
+  },
+  {
+   "n": 10,
+   "status": "fixed: 'the correction was followed by a 5% fall ..., with bond stress and oil also weighing' (C07-05 hedge kept)"
+  },
+  {
+   "n": 11,
+   "status": "fixed: 'look smaller on the day; for OpenAI the difference was about $20 billion'"
+  },
+  {
+   "n": 12,
+   "status": "fixed: the markets share line is no longer printed in the reader text; the figure (19 percent of sections 1 to 5) is kept in WORKDIR/bp_markets_share.json and the chat report"
+  },
+  {
+   "n": 13,
+   "status": "fixed: scenario (a) is now the base case covering rounds on or below target with no freeze, and states that an OpenAI round near $1.4 trillion falls under it; (c) is 'rounds close above target, valuations rise'; the three now cover every outcome and forecast 1 (50 percent) is consistent with (a)+(c)"
+  },
+  {
+   "n": 14,
+   "status": "fixed: 'by early January', Horizon 1 to 3 months"
+  },
+  {
+   "n": 15,
+   "status": "fixed: 'Huawei is reported to have raised prices by 20% to 50% and Cambricon by 20% to 30%, with the rises linked to a worldwide memory shortage'"
+  },
+  {
+   "n": 16,
+   "status": "fixed: 'an organised call by a group of leading mathematicians to stop working with a lab' ('first ... scientific field' removed); A item 7 'first rules' also changed to 'new rules'"
+  },
+  {
+   "n": 17,
+   "status": "fixed: 'the fund manager quoted by Reuters calls it a reality check, not the end of the AI boom'"
+  },
+  {
+   "n": 18,
+   "status": "fixed: 'the relays are recorded in our source notes'"
+  },
+  {
+   "n": 19,
+   "status": "fixed (bulletin): 'was followed by a 5% fall in a major backer's shares'"
+  },
+  {
+   "n": 20,
+   "status": "fixed (bulletin): 'a builder with heavy debt and a short record shelved its share sale'"
+  },
+  {
+   "n": 21,
+   "status": "fixed (bulletin): 'Memory is getting dearer and optical parts are sold out, so building costs more as borrowing does'"
+  },
+  {
+   "n": 22,
+   "status": "fixed (bulletin): 'Chinese chip prices reported up 20% to 50% and Lumentum's chief executive saying it is sold out to 2029'"
+  }
+ ],
+ "second_pass": {
+  "reader_file": "bp_second_reader_2.json",
+  "problems": 9,
+  "fixed": 8,
+  "disputed": 0,
+  "responses": [
+   {
+    "n": 1,
+    "status": "fixed: (a) is now 'everything not in (b) or (c)'; (b) 'two or more large AI listings or rounds, Firmus included, are pulled or cut; a delay at OpenAI or Anthropic counts as one'; (c) 'no further pull, and most large rounds that close do so above their targets at higher values'; probabilities unchanged 55/30/15"
+   },
+   {
+    "n": 2,
+    "status": "fixed: (a) Weakens: 'a second shelved listing, or a run of rounds closing above their targets'"
+   },
+   {
+    "n": 3,
+    "status": "fixed: A6 'a mathematicians' group chaired by Fields Medalist Terence Tao' (no 'leading')"
+   },
+   {
+    "n": 4,
+    "status": "fixed (bulletin): 'Memory is getting dearer and a major optical supplier says it is sold out'; five words trimmed elsewhere in the bulletin to stay in the band"
+   },
+   {
+    "n": 5,
+    "status": "fixed: S3 inference 'the card industry's advice for AI agents is that a person must approve any action they take on readable card details' (no 'rule', no 'may look')"
+   },
+   {
+    "n": 6,
+    "status": "fixed: 'the first verdict on Google's model will come from a closed group ...'"
+   },
+   {
+    "n": 7,
+    "status": "fixed: D last line ends at 'pages could not be opened' with its four citations"
+   },
+   {
+    "n": 8,
+    "status": "fixed: forecast 4 'At least one maker of AI chips or components publicly announces a price rise ...' (Huawei and Cambricon rises rest on unnamed sources)"
+   },
+   {
+    "n": 9,
+    "status": "not applied, per the main session: the added hedges and credits stay; the conflict between Section 1A / rule 5.5 attribution and the 'never longer' fix rule is noted for Rafi"
+   }
+  ],
+  "bulletin_words": 389,
+  "build": "build_products.py --report-min 6 --report-fill-to 106 --bulletin-min 7 --bulletin-min-cat HEA=6,SOC=6: Bigger Picture included, no warning, 0 raw marks"
+ }
+}

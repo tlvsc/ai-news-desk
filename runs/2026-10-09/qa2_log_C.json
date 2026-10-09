@@ -1,0 +1,156 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-07",
+   "field": "headline",
+   "before": "Peter Thiel told Nashville audiences that Barack Obama and Pope Leo XIV are using public fear of AI to boost their own popularity.",
+   "after": "Peter Thiel told audiences in Nashville that Barack Obama and Pope Leo XIV are using AI's unpopularity to boost their own popularity, according to recordings obtained by Politico.",
+   "reason": "Meaning: source says AI is 'politically unpopular', not 'public fear'; attribution to Politico's recordings added."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "importance_line",
+   "before": "It shows how a leading tech investor with ties to Donald Trump and JD Vance argues against AI regulation in religious terms, which could matter in US politics, but these are his claims from private lectures and his side did not comment.",
+   "after": "It shows how a leading tech investor with ties to Donald Trump and JD Vance argues against AI regulation in religious terms, which could matter in US politics, but these are his claims from ticketed lectures and his side did not comment.",
+   "reason": "Meaning: the lectures were a ticketed series, not private."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "source",
+   "before": "Reuters, as relayed by Interaksyon",
+   "after": "Reuters",
+   "reason": "Credit: Reuters did the interview; Interaksyon only carries Reuters' text."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "headline",
+   "before": "Bill Gates says no government is prepared enough for the changes AI will bring, even as his foundation commits at least $1 billion to widening access to it.",
+   "after": "Bill Gates says no government is ready enough for the changes AI will bring, as his foundation plans to spend at least $1 billion widening access to it.",
+   "reason": "Meaning: the foundation 'plans to spend', so 'commits' was stronger than the source."
+  },
+  {
+   "item_id": "C05-11",
+   "field": "headline",
+   "before": "Former CIA director David Petraeus predicts that AI \"staff officers\" will make battlefield decisions with little human input by around 2030.",
+   "after": "Former CIA director David Petraeus predicts that AI \"staff officers\" could make battlefield decisions with little human input by around 2030.",
+   "reason": "Meaning: source says AI staff officers 'could' make decisions by 2030; 'will' was stronger."
+  },
+  {
+   "item_id": "C13-06",
+   "field": "importance_line",
+   "before": "The meeting shows the task force starting work, which matters to the public and AI companies waiting to see whether it favours voluntary or mandatory rules, but no decisions are reported and the details come from a secondary outlet.",
+   "after": "The meeting shows the task force starting work, which matters to the public and AI companies waiting to see whether it favours voluntary or mandatory rules, but no decisions are reported.",
+   "reason": "Internal process note removed (reading path)."
+  },
+  {
+   "item_id": "C13-12",
+   "field": "summary",
+   "before": "The Financial Times reports that cheap AI \"deepfakes\" are giving US political attack ads a new twist, and Fox News Digital reports that the ad-tracking firm AdImpact had counted 29 federal and governor race ads that disclosed AI content as of two weeks ago, while the Wesleyan Media Project counted at least 164 AI-influenced ads this election cycle, including ads that did not disclose it. Consultants quoted by Fox say AI lets campaigns make in hours what once took days and teams, but it is not yet clear whether it wins elections.",
+   "after": "The Financial Times reports that cheap AI \"deepfakes\" are giving US political attack ads a new twist, and Fox News Digital reports that the ad-tracking firm AdImpact had counted 29 federal and governor race ads that disclosed AI content by about 21 September, while the Wesleyan Media Project counted at least 164 AI-influenced ads this election cycle, including ads that did not disclose it. Consultants quoted by Fox say AI lets campaigns make in hours what once took days and teams, but it is not yet clear whether it wins elections.",
+   "reason": "Meaning: 'two weeks ago' was relative to Fox's 5 Oct article, not to today."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "headline",
+   "before": "Cisco's Talos security team found criminals hiding written instructions in malware to talk AI analysis tools into calling it harmless, though it calls the trend interesting but not alarming.",
+   "after": "Cisco's Talos security team found criminals hiding written instructions in malware to talk AI analysis tools into calling it harmless, though Talos says the trend is not alarming.",
+   "reason": "Unquoted lift of Talos's phrase replaced; shorter."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "summary",
+   "before": "Cisco Talos, the threat research arm of Cisco, reports in a blog published on 8 Oct 2026 that across 84 malware samples from four families collected between January 2025 and July 2026, authors embedded plain-language text, such as instructions to ignore or refuse to analyse the file, to steer the AI tools that analysts use to triage suspicious files (a trick known as prompt injection). In Talos's own tests on five local AI models, simply telling the model to ignore the file worked almost universally, while more elaborate versions had little effect or made the models more suspicious; Talos says conventional detection is unaffected and calls the trend 'interesting, but not alarming', though it shows attackers expect AI inside defenders' tools.",
+   "after": "Cisco Talos, the threat research arm of Cisco, reports in a blog published on 8 Oct 2026 that across 84 malware samples from four families collected between January 2025 and July 2026, authors embedded plain-language text, such as instructions to ignore or refuse to analyse the file, to steer the AI tools that analysts use to triage suspicious files (a trick known as prompt injection). In Talos's own tests on five local AI models, the plainest trick, an instruction to ignore the file, nearly always worked, while more elaborate versions did little or raised the models' suspicion; Talos says ordinary detection is unaffected and calls the trend 'interesting, but not alarming', though it shows attackers expect AI inside defenders' tools.",
+   "reason": "Copying: second sentence closely followed quote_evidence; reworded."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "importance_line",
+   "before": "Whether drivers across Europe get the driver-assistance system depends on this vote, and speeding is the main objection; the rename is reported secondhand, and Sweden, France and road-safety groups still have concerns.",
+   "after": "Drivers across Europe can use the system only if a delayed EU vote approves it; the rename is reported secondhand, Tesla has not confirmed Germany's reported speed cap, and Sweden, France and road-safety groups have raised speeding concerns.",
+   "reason": "Meaning: 'this vote' had no referent and 'speeding is the main objection' was stronger than the source."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "summary",
+   "before": "Not a Tesla App reports, citing a post by Sawyer Merritt on X, that Tesla's European websites now use the new name, a change that follows talks with Germany and that Merritt says should help win EU-wide approval. Germany also wants the system limited to no more than 10 percent over the posted speed limit, which Tesla has not confirmed, and the EU vote has been pushed from 6 Oct to December at the earliest.",
+   "after": "Not a Tesla App reports, citing a post by Sawyer Merritt on X, that Tesla's European websites now use the new name, a change that follows talks with Germany and that Merritt says should help win EU-wide approval. Germany reportedly also wants Tesla to keep the system from driving more than 10 percent above the speed limit, which Tesla has not confirmed, and the EU-wide vote has slipped from 6 Oct to December at the earliest.",
+   "reason": "Copying and hedge: sentence closely followed quote_evidence; Germany's demand is reported ('reportedly' restored)."
+  },
+  {
+   "item_id": "C11-13",
+   "field": "importance_line",
+   "before": "Robotic inspection could shorten the wait for checks on parts for US Navy submarines; the shipyard still needs permits and construction, and its first operations are not planned until 2030.",
+   "after": "Robotic inspection is being built into a US plan to make submarine parts faster, as industry misses the Navy's goal of two Virginia-class submarines a year; the shipyard is not yet permitted or built, and its first operations are not planned until 2030.",
+   "reason": "Meaning: 'could shorten the wait for checks' was not in the source; replaced by the supported purpose."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "importance_line",
+   "before": "Users of Meta's products and employees at AI labs are the audience, but her view of Meta is opinion, Meta did not respond, and legally required audits remain a proposal, not law.",
+   "after": "The public and Meta's users would be affected if outside audits of AI labs became law, but her view of Meta is opinion, Meta did not reply, and required audits remain a proposal, not law.",
+   "reason": "Meaning: 'employees at AI labs are the audience' was not supported."
+  },
+  {
+   "item_id": "C13-11",
+   "field": "headline",
+   "before": "China has published draft rules requiring platforms to give gig workers employment contracts and barring decisions made by algorithm alone.",
+   "after": "China has published draft rules requiring platforms to give gig workers employment contracts and to stop algorithms alone from cutting off a worker's orders or account.",
+   "reason": "Meaning: the human-review rule covers stopping orders and banning accounts, not all decisions."
+  },
+  {
+   "item_id": "C13-11",
+   "field": "importance_line",
+   "before": "Millions of delivery riders and drivers could gain contracts, minimum pay and a human check on algorithm decisions, and platforms such as Meituan and DiDi would face new duties, but this is a draft open to comment until 8 Nov 2026 and the final text may differ.",
+   "after": "Millions of delivery riders and drivers could gain contracts, on-time pay, rest breaks and a human check on algorithm decisions, and platforms would face new duties, but this is a draft open to comment until 8 Nov 2026 and the final text may differ.",
+   "reason": "Meaning: 'minimum pay' and the named platforms Meituan and DiDi are not in the source."
+  },
+  {
+   "item_id": "C10-06",
+   "field": "importance_line",
+   "before": "Patients in India should meet fewer fabricated reviews and AI-made 'success stories' from clinics, but enforcement is untested and we have not seen the commission's own text.",
+   "after": "Patients in India should meet fewer fabricated reviews and AI-made 'success stories' from clinics, but enforcement is untested.",
+   "reason": "Internal process note removed ('we have not seen the commission's own text')."
+  },
+  {
+   "item_id": "C10-09",
+   "field": "summary",
+   "before": "Medical Device Network reports that Argus Cognitive's Neurora analyses more than 100 vocal, facial and gaze measures from a recorded behavioural assessment to show how closely a child's behaviour matches that of children with and without an autism diagnosis. It is meant to be read alongside the clinician's other findings, not as a standalone diagnosis, and the company's clinical lead says \"the clinician still makes the call\".",
+   "after": "Medical Device Network reports that the US Food and Drug Administration has cleared Argus Cognitive's Neurora, software that analyses more than 100 vocal, facial and gaze measures from a recorded behavioural assessment to show how closely a child's behaviour matches that of children with and without an autism diagnosis. It is meant to be read alongside the clinician's other findings, not as a standalone diagnosis, and the company's clinical lead says \"the clinician still makes the call\".",
+   "reason": "Summary format: first sentence now states the event (FDA clearance) with attribution."
+  },
+  {
+   "item_id": "C10-10",
+   "field": "importance_line",
+   "before": "Medicare patients and doctors may soon deal with AI doing tasks once left to physicians, but its accuracy is unproven for this new kind of tool and the FDA is still taking comment on how to judge it.",
+   "after": "Medicare patients and doctors may soon deal with AI doing tasks once left to physicians, but the FDA says this new kind of tool is harder to judge and is still taking comment on how to do it.",
+   "reason": "Meaning: 'accuracy is unproven' went beyond the source; replaced with the FDA's stated doubt."
+  },
+  {
+   "item_id": "C10-13",
+   "field": "summary",
+   "before": "Outsource Accelerator reports, citing the 2026 Healthcare AI ROI Scorecard from Bessemer Venture Partners and Bain & Company, a survey of 226 executives at health systems, insurers and drug companies, that half of the organisations have cut staff because of AI or plan to within six months, with cuts averaging 8% to 13% of the affected functions. Among providers cutting jobs, 73% named billing and revenue-cycle work, although the report itself says healthcare has no surplus of administrative workers, noting a roughly 30% shortage of medical coders.",
+   "after": "Outsource Accelerator reports, citing the 2026 Healthcare AI ROI Scorecard from Bessemer Venture Partners and Bain & Company, a survey of 226 executives at health systems, insurers and drug companies, that half of the organisations have cut staff because of AI or plan to within six months, with cuts averaging 8% to 13% of the affected functions. Among providers cutting jobs, 73% named billing and revenue-cycle work, although the report warns that \"healthcare has no surplus of administrative workers to shed\", noting a roughly 30% shortage of medical coders.",
+   "reason": "Copying: phrase from quote_evidence now in quote marks with the speaker (the report)."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "headline",
+   "before": "Jeff Bezos predicts that AI-driven productivity will let many families live on one income or work three days a week.",
+   "after": "Jeff Bezos predicts that AI-driven productivity will mean households no longer need two earners, and some people could work three days a week.",
+   "reason": "Meaning: 'many families' was not in the source; Bezos said 'some people' may choose a three-day week."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C13-13",
+   "issue": "re-dated",
+   "detail": "Cantwell's framework was released Wed 7 Oct 2026, before the window (8 Oct 06:18Z); the same framework was already in the 8 Oct pool as X01 (Roll Call). IANS ran it 9 Oct with nothing new. Not edited."
+  },
+  {
+   "item_id": "C11-11",
+   "issue": "duplicate",
+   "detail": "Same Odyssey-3 launch as C01-04 (The Next Web, score 6), which is also in the report but not in list C. Keep one."
+  }
+ ]
+}
