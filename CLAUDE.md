@@ -94,7 +94,7 @@ not about which project it is.
     build_products.py --bulletin-min-cat HEA=6,SOC=6).
     BULLETIN SECTIONS NEVER EMPTY (Rafi, 9 Oct 2026, after a Bulletin with no Politics story, "7 billion people, 350 countries and no political AI story"): every category of the Bulletin takes its top stories, 7 and up.
     If a category has none, the search is expanded first, to Asia, Europe and the Middle East (the big outlets and regional searches), and the new stories go through the same reading, writing and checks.
-    If still none fit, the category gets at least 2 stories from the Full Report, at score 6, then 5. This holds for every category; the HEA and SOC line above stays as it is until Rafi says otherwise.
+    If still none fit, the category gets exactly 2 stories from the Full Report, at score 6 and up (5 only if there is no 6): Rafi, 9 Oct 2026, "I asked only 2 items in case we do not have 7 and up" (the first version said "at least 2" and the Bulletin got 10 Politics stories). This holds for every category; the HEA and SOC line above stays as it is until Rafi says otherwise.
     An empty category is fixed BEFORE the PDFs are built, never reported after delivery.
 15. ANSWER IN ONE SENTENCE unless Rafi asks for more. No long answers.
 16. DAILY RUN SETTINGS (Rafi, 30 Sep 2026). The scan covers the last 24 hours; 30 hours
