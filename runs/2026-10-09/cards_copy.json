@@ -12,8 +12,8 @@
    "item": "C05-02",
    "cat": "Politics and government / Trump's enemy",
    "head": "Trump called anyone saying artificial intelligence, not superintelligence, the enemy.",
-   "body": "The US president posted it a week after ordering federal agencies to use his term. He cannot make private people use it, and superintelligence already means AI beyond human ability.",
-   "src": "The Independent",
+   "body": "The US president posted it a week after ordering federal agencies to use his term. Asked in parliament, Japan's Prime Minister Sanae Takaichi said Japan keeps saying AI for now.",
+   "src": "The Independent; Kyodo News",
    "pill": "CONFIRMED",
    "coverage": {
     "robotics": false,
@@ -22,20 +22,6 @@
   },
   {
    "id": "s2",
-   "kind": "story",
-   "item": "C13-15",
-   "cat": "Politics and government / Japan says AI",
-   "head": "Japan's prime minister says Japan keeps saying AI, not superintelligence, for now.",
-   "body": "Sanae Takaichi was asked in parliament about US President Trump's UN call last month. She said AI is used across official papers, and she will watch other governments.",
-   "src": "Kyodo News",
-   "pill": "REPORTED",
-   "coverage": {
-    "robotics": false,
-    "outside_business": true
-   }
-  },
-  {
-   "id": "s3",
    "kind": "story",
    "item": "C13-21",
    "cat": "Politics and government / Musk vs India",
@@ -49,7 +35,7 @@
    }
   },
   {
-   "id": "s4",
+   "id": "s3",
    "kind": "story",
    "item": "C06-04",
    "cat": "Market, industry and finance / OpenAI sales",
@@ -63,7 +49,7 @@
    }
   },
   {
-   "id": "s5",
+   "id": "s4",
    "kind": "story",
    "item": "C07-04",
    "cat": "Market, industry and finance / WTO trade",
@@ -77,7 +63,7 @@
    }
   },
   {
-   "id": "s6",
+   "id": "s5",
    "kind": "story",
    "item": "C03-01",
    "cat": "Security and cyber / Free scanner",
@@ -91,7 +77,7 @@
    }
   },
   {
-   "id": "s7",
+   "id": "s6",
    "kind": "story",
    "item": "C12-02",
    "cat": "Security and cyber / Fake reporters",
@@ -105,7 +91,7 @@
    }
   },
   {
-   "id": "s8",
+   "id": "s7",
    "kind": "story",
    "item": "C09-03",
    "cat": "Energy and infrastructure / Gas by truck",
@@ -119,7 +105,7 @@
    }
   },
   {
-   "id": "s9",
+   "id": "s8",
    "kind": "story",
    "item": "C11-23",
    "cat": "Robotics / Traffic robots",
@@ -133,7 +119,7 @@
    }
   },
   {
-   "id": "s10",
+   "id": "s9",
    "kind": "story",
    "item": "C11-06",
    "cat": "Robotics / Walmart robots",
@@ -147,7 +133,7 @@
    }
   },
   {
-   "id": "s11",
+   "id": "s10",
    "kind": "story",
    "item": "C01-01",
    "cat": "Models and tools / Gemini 4 Argon",
@@ -161,7 +147,7 @@
    }
   },
   {
-   "id": "s12",
+   "id": "s11",
    "kind": "story",
    "item": "C04-04",
    "cat": "Research and science / Gene-edit doubt",
@@ -175,7 +161,7 @@
    }
   },
   {
-   "id": "s13",
+   "id": "s12",
    "kind": "story",
    "item": "C13-01",
    "cat": "Ethics and law / USA Today sues",
@@ -189,7 +175,7 @@
    }
   },
   {
-   "id": "s14",
+   "id": "s13",
    "kind": "story",
    "item": "C10-01",
    "cat": "Health / AI pre-visit",
@@ -203,7 +189,7 @@
    }
   },
   {
-   "id": "s15",
+   "id": "s14",
    "kind": "story",
    "item": "C14-07",
    "cat": "Society and education / Gaza classrooms",
@@ -217,7 +203,7 @@
    }
   },
   {
-   "id": "s16",
+   "id": "s15",
    "kind": "story",
    "item": "C16-01",
    "cat": "The Fun Side / Robot hits host",

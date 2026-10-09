@@ -19,8 +19,8 @@
    "kind": "story",
    "cat": "Politics and government / Trump's enemy",
    "head": "Trump called anyone saying artificial intelligence, not superintelligence, the enemy.",
-   "body": "The US president posted it a week after ordering federal agencies to use his term. He cannot make private people use it, and superintelligence already means AI beyond human ability.",
-   "src": "The Independent",
+   "body": "The US president posted it a week after ordering federal agencies to use his term. Asked in parliament, Japan's Prime Minister Sanae Takaichi said Japan keeps saying AI for now.",
+   "src": "The Independent; Kyodo News",
    "pill": "CONFIRMED",
    "coverage": {
     "robotics": false,
@@ -35,25 +35,6 @@
   },
   {
    "id": "s2",
-   "kind": "story",
-   "cat": "Politics and government / Japan says AI",
-   "head": "Japan's prime minister says Japan keeps saying AI, not superintelligence, for now.",
-   "body": "Sanae Takaichi was asked in parliament about US President Trump's UN call last month. She said AI is used across official papers, and she will watch other governments.",
-   "src": "Kyodo News",
-   "pill": "REPORTED",
-   "coverage": {
-    "robotics": false,
-    "outside_business": true
-   },
-   "report_refs": [
-    {
-     "item": 3,
-     "excerpt": "Japan's Prime Minister Sanae Takaichi has declined, for now, to follow US President Donald Trump's call to rename artificial intelligence \"superintelligence\"."
-    }
-   ]
-  },
-  {
-   "id": "s3",
    "kind": "story",
    "cat": "Politics and government / Musk vs India",
    "head": "Elon Musk accused Indian tycoons of blocking Starlink; India's government denies it.",
@@ -72,7 +53,7 @@
    ]
   },
   {
-   "id": "s4",
+   "id": "s3",
    "kind": "story",
    "cat": "Market, industry and finance / OpenAI sales",
    "head": "OpenAI told investors its yearly sales pace is $20 billion below what it said before.",
@@ -91,7 +72,7 @@
    ]
   },
   {
-   "id": "s5",
+   "id": "s4",
    "kind": "story",
    "cat": "Market, industry and finance / WTO trade",
    "head": "The World Trade Organization doubled its 2026 trade growth forecast on AI demand.",
@@ -110,7 +91,7 @@
    ]
   },
   {
-   "id": "s6",
+   "id": "s5",
    "kind": "story",
    "cat": "Security and cyber / Free scanner",
    "head": "AI firm Anthropic now scans open-source code, readable by all, for flaws for free.",
@@ -129,7 +110,7 @@
    ]
   },
   {
-   "id": "s7",
+   "id": "s6",
    "kind": "story",
    "cat": "Security and cyber / Fake reporters",
    "head": "OpenAI says it shut down Russian and Iranian groups using ChatGPT for fake writers.",
@@ -148,7 +129,7 @@
    ]
   },
   {
-   "id": "s8",
+   "id": "s7",
    "kind": "story",
    "cat": "Energy and infrastructure / Gas by truck",
    "head": "Oracle is trucking natural gas to its AI data centres while it waits for pipelines.",
@@ -167,7 +148,7 @@
    ]
   },
   {
-   "id": "s9",
+   "id": "s8",
    "kind": "story",
    "cat": "Robotics / Traffic robots",
    "head": "Humanoid robots directed traffic and guided tourists in a trial in Hangzhou, China.",
@@ -186,7 +167,7 @@
    ]
   },
   {
-   "id": "s10",
+   "id": "s9",
    "kind": "story",
    "cat": "Robotics / Walmart robots",
    "head": "Walmart's warehouse robots break down too often and cannot handle its big boxes.",
@@ -205,7 +186,7 @@
    ]
   },
   {
-   "id": "s11",
+   "id": "s10",
    "kind": "story",
    "cat": "Models and tools / Gemini 4 Argon",
    "head": "Google unveiled its new top AI model, Gemini 4 Argon, first for security experts.",
@@ -224,7 +205,7 @@
    ]
   },
   {
-   "id": "s12",
+   "id": "s11",
    "kind": "story",
    "cat": "Research and science / Gene-edit doubt",
    "head": "Scientists say AI firm Anthropic overstated its find of a possible gene-editing tool.",
@@ -243,7 +224,7 @@
    ]
   },
   {
-   "id": "s13",
+   "id": "s12",
    "kind": "story",
    "cat": "Ethics and law / USA Today sues",
    "head": "USA Today's publisher sued OpenAI, saying it copied hundreds of thousands of stories.",
@@ -262,7 +243,7 @@
    ]
   },
   {
-   "id": "s14",
+   "id": "s13",
    "kind": "story",
    "cat": "Health / AI pre-visit",
    "head": "A Google chatbot questioned patients before urgent visits and needed no safety stop.",
@@ -281,7 +262,7 @@
    ]
   },
   {
-   "id": "s15",
+   "id": "s14",
    "kind": "story",
    "cat": "Society and education / Gaza classrooms",
    "head": "A US charity plans to record Gaza classrooms and have AI flag 'hateful' speech.",
@@ -300,7 +281,7 @@
    ]
   },
   {
-   "id": "s16",
+   "id": "s15",
    "kind": "story",
    "cat": "The Fun Side / Robot hits host",
    "head": "A Colombian streamer's own robot whacked him on the head during a livestream.",
@@ -419,7 +400,7 @@
  "derivatives": [],
  "editorial_exceptions": {
   "card_count": {
-   "reason": "20 cards with 16 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
+   "reason": "19 cards with 15 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
    "notification_reference": "Rafael chat 30 Sep 2026"
   }
  }
