@@ -19,7 +19,7 @@ CLAUDE.md (rule 0):
 - Headlines_prompt_for_comfy_json.txt (Headlines Master Permanent Assets)
 - AIMD_LV1_Adverts_Automation_Skill_V1.md (Prompt Library / prompts, Drive 124MVq-0ZTmlouD693MBb1j5diBTAn9pp)
 - Article_phrasing_instructions_AIND_V1 (already in W/rules from part A): the ONLY place for reader levels and the writing shape (Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026); every writer re-reads it before each item.
-- CLAUDE.md rules 16 and 17 (counts, seconds rounded up, 12 s maximum, company caps, the Bigger Picture corner).
+- CLAUDE.md rules 16 and 17 (counts, clip seconds, company caps, the Bigger Picture corner).
 
 ## Paths
 ```
@@ -62,7 +62,8 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
    sees anything. Zero mistakes are accepted: nothing is shown or delivered with an open FAIL.
 5. Follow every step of this skill in order. Do not skip a step, a gate or an agent model named in it.
 
-### 1. Choose on paper (main session)
+### 1. Choose the stories (Rafi's ruling of 9 Oct 2026: CLAUDE.md STORY CHOICE, CARDS FROM THE BULLETIN, NO UPDATE CARDS and CLIP SECONDS win over any older line of this skill)
+The stories are chosen by one Fable agent (brief briefs/pick_stories.md): `python3 $S/pick_gate.py pack --workdir $W`, the agent writes `$W/cards_work/selection_fable.json`, `python3 $S/pick_gate.py gate --workdir $W` must PASS, and Rafi approves the list BEFORE any wording is written. The card_candidates.py output below is the paper input (LEFT OUT list, repeats), not the choice.
 ```
 python3 $S/card_candidates.py --workdir $W
 ```
@@ -82,7 +83,7 @@ entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with ever
 ```
 python3 $S/make_wording_prompts.py --workdir $W
 ```
-Launch both in ONE message with the Agent tool, model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word), run in background:
+Launch both in ONE message with the Agent tool, model "fable" (CLAUDE.md MODEL POLICY and STORY CHOICE: Fable writes, Opus checks), run in background:
 `Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and
 follow it exactly.` They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_fable.json`.
 While they work, do step 5's cover (it needs no wording).
@@ -93,7 +94,7 @@ cp $W/headlines_work/scripts_fable.json $W/headlines_work/scripts_final.json
 python3 $S/check_wording.py --workdir $W --cards $W/cards_work/cards_copy_fable.json --headlines $W/headlines_work/scripts_final.json
 ```
 Fix every FAIL and shorten every clip marked long (story about 8 to 9 s, the news part about 90 s), keeping the old
-file as `_old`. Then two fresh hard task agents (model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word), in parallel, a few minutes each), which see only the
+file as `_old`. Then two fresh hard task agents (model "opus" (CLAUDE.md MODEL POLICY), in parallel, a few minutes each), which see only the
 words: `Read $W/cards_work/prompt_stranger_cards.txt and follow it exactly.` and the same for
 `$W/headlines_work/prompt_stranger_headlines.txt`. Read `stranger_result.json` in both folders; apply or improve
 every fix (check facts and hedges against the entry; never add a fact), run check_wording.py again until it says
@@ -113,9 +114,9 @@ agent passed on the CURRENT lines, so no edit can skip the checks.
 python3 $S/check_headlines_rules.py --workdir $W
 ```
 It tests the Drive Headlines Master rules a script can test: deck order (A3), teaser only from the teaser card (A5),
-approved ending and the opening slot (A2), timing aim and 12 s maximum (B1), spoken introductions (B2a), INTRODUCTIONS
+approved ending and the opening slot (A2), timing aim and clip maximum (B1, seconds as in CLAUDE.md CLIP SECONDS), spoken introductions (B2a), INTRODUCTIONS
 ROTATE, never the previous day's wording (G2), numbers as words (B3), no outlet spoken (G1.4), pronunciation cues and
-Google DeepMind (15 Sep), one company at most 2 story clips. Then one Fable agent (model "opus" (CLAUDE.md MODEL POLICY; Fable only on Rafi's word)):
+Google DeepMind (15 Sep), one company at most 2 story clips. Then one Opus agent (model "opus" (CLAUDE.md MODEL POLICY)):
 `Read $W/headlines_work/prompt_rules_headlines.txt and follow it exactly.` It checks every clip against every rule of the
 Headlines Master A, B, G and 15 Sep sections, the phrasing law 1, 1A, 1B and Cards Master Section 3 (company tags under
 100 billion dollars, WHO, WHAT, WHY, deed first, the robotics clip shows what the machine does) and writes
@@ -174,7 +175,7 @@ python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
 3. `python3 <part A>/scripts/save_state.py --workdir $W` once more (final wording and pack in the repo copy).
 4. Report in short numbered points: cards (story cards plus extras), Headlines clips and seconds (news part, longest
    clip), the gate results, what is on Drive, anything open. Write what was learned into docs/V1_TASKS.md and the handoff.
-5. Nothing passes the gate with a FAIL: a headline over 15 words, a body of three sentences or a clip over 12 s is
+5. Nothing passes the gate with a FAIL: a headline over 15 words, a body of three sentences or a clip over the CLIP SECONDS maximum is
    fixed before step 7, never sent for Rafi to judge (the rule is in the law; only wording choices are his).
 
 ## Gotchas (2 and 3 Oct 2026)
