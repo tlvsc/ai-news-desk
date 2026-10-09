@@ -3,17 +3,17 @@
 Edition date: 2026-10-09 (Asia/Jerusalem)  
 Reporting window: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-09 10:24 UTC  
+Last updated: 2026-10-09 10:59 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
 
 - Raw dated candidates collected inside the window: 4451
-- Curated pool: 264 (per category: Models & Core AI 15, Agents, Products & Applications 16, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 17, Industry Voices & Quotes 16, Companies, Startups, Funding & Deals 18, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 17, Data Centers, Energy & Infrastructure 19, Healthcare & Biotech 16, Robotics, Autonomy & Physical AI 20, Cybersecurity, Safety, Reliability & Data Governance 17, Policy, Law, Geopolitics, Defense & Sovereign AI 20, Society, Work, Media, Education & Culture 18, Quantum & Advanced Computing 15, The Fun Side 10)
+- Curated pool: 265 (per category: Models & Core AI 15, Agents, Products & Applications 16, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 17, Industry Voices & Quotes 16, Companies, Startups, Funding & Deals 18, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 17, Data Centers, Energy & Infrastructure 19, Healthcare & Biotech 16, Robotics, Autonomy & Physical AI 20, Cybersecurity, Safety, Reliability & Data Governance 17, Policy, Law, Geopolitics, Defense & Sovereign AI 21, Society, Work, Media, Education & Culture 18, Quantum & Advanced Computing 15, The Fun Side 10)
 - Removed at pool build: 1 by the editor, 20 same stories in two categories
 - Held back after reading: 74 (50 older news re-dated into the window, 24 duplicate, 0 published before the window)
-- Articles read: 231 of 250; headline only: 19
-- Full Report: 108 (pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side); Bulletin: 44 (pool score 7 to 10, plus 3 Fun Side)
+- Articles read: 232 of 251; headline only: 19
+- Full Report: 108 (pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side); Bulletin: 45 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -28,9 +28,10 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-16 · POL · 6 · CNA · 2026-10-08T10:36:00Z · Landmark ASEAN digital pact will guide region on AI, digital economy: Marcos · https://www.channelnewsasia.com/asia/philippine-president-ferdinand-marcos-jr-forbes-asean-6442061 · Full Report + Bulletin
 - C13-17 · POL · 6 · DD News · 2026-10-08T19:41:00Z · India, UAE ink major pacts on energy, defence, AI; Abu Dhabi commits $5 billion investment · https://ddnews.gov.in/en/india-uae-ink-major-pacts-on-energy-defence-ai-abu-dhabi-commits-5-billion-investment/ · Full Report + Bulletin
 - C13-18 · POL · 6 · The Times of Israel · 2026-10-08T13:54:00Z · Finance Ministry eyes new taxes as AI threatens jobs and state revenues · https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/ · Full Report + Bulletin
+- C13-21 · POL · 6 · BBC, with ANI · 2026-10-09T06:42:37Z · Starlink: Why Elon Musk is taking on Mukesh Ambani and Jio over satellite internet · https://www.bbc.co.uk/news/articles/cvglw9ryjrylo · Full Report + Bulletin
 - C05-07 · POL · 5 · Politico · 2026-10-08T17:48Z · Peter Thiel slams Obama, Pope Leo in new ‘Antichrist’ lectures · https://www.politico.com/news/2026/10/08/peter-thiel-ai-obama-pope-leo-01112122 · Full Report
 - C05-10 · POL · 5 · Reuters · 2026-10-09T02:00Z · Governments worldwide are way behind on AI, says Bill Gates · https://interaksyon.philstar.com/trends-spotlights/2026/10/09/319246/governments-worldwide-behind-ai-bill-gates/ · Full Report
-- C05-11 · POL · 5 · The Independent · 2026-10-08T13:54Z · AI military officers could be making battlefield decisions by 2030, says former CIA chief · https://www.independent.co.uk/news/world/ai-military-war-cia-petraeus-ukraine-b3063036.html · Full Report
+- C05-11 · POL · 5 · The Independent · 2026-10-08T13:54Z · AI military officers could be making battlefield decisions by 2030, says former CIA chief · https://www.independent.co.uk/news/world/ai-military-war-cia-petraeus-ukraine-b3063036.html · pool only (pool score below 6)
 - C05-12 · POL · 5 · Fortune · 2026-10-08T10:45Z · OpenAI's Human Rights Chief Warns 'Everyone Is Very Worried' About AI In Armed Conflicts: 'This Keeps Me Up at Night' · https://fortune.com/2026/10/06/openai-human-rights-lead-sarah-yager-military-ai-use-concerns/ · held: older news re-dated into the window (FOLLOW-UP of 6 Oct 2026)
 - C13-06 · POL · 5 · Reuters · 2026-10-08T18:52:00Z · EXCLUSIVE: Trump AI task force leaders to meet on Thursday, vice chair says · https://www.reuters.com/world/trump-ai-task-force-leaders-meet-thursday-vice-chair-says-2026-10-08/ · pool only (pool score below 6)
 - C13-12 · POL · 5 · AI News Desk · 2026-10-09T04:00:00Z · AI ‘deepfakes’ give US political attack ads a new twist · https://www.foxnews.com/politics/ai-supercharging-political-ad-wars-viral-doesnt-mean-victorious · pool only (pool score below 6)

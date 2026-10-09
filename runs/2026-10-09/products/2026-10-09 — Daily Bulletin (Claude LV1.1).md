@@ -2,9 +2,9 @@
 
 9 October 2026. Coverage: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours).  
 Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, POL from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
-**44 stories.**
+**45 stories.**
 
-## POLITICS AND GOVERNMENT — 6
+## POLITICS AND GOVERNMENT — 7
 **6 MEDIUM — President Trump has declared on Truth Social that anyone who says "artificial intelligence" instead of "super intelligence" is an enemy of the White House.** (report item 1)  
 The Independent reports that Trump wrote on Truth Social on Thursday that the White House "considers anyone that uses the term" artificial intelligence, rather than "Super Intelligence", to be "THE ENEMY". It follows an executive order of about a week earlier telling federal agencies to use the new term; our 4 and 5 Oct 2026 editions carried the White House Super Intelligence Force and Elon Musk's plan to rename SpaceXAI as SpaceXSI. *The Independent, CONFIRMED*
 
@@ -22,6 +22,9 @@ DD News, India's state broadcaster, reports, citing India's Ministry of External
 
 **6 MEDIUM — Israel's Finance Ministry is reported to be considering new taxes because AI could reduce jobs and government revenue.** (report item 6)  
 The Times of Israel reports that Israel's Finance Ministry is weighing new taxes, and links the move to the risk that AI could cut jobs and state revenue. *The Times of Israel, REPORTED* *(headline only)*
+
+**6 MEDIUM — Elon Musk, who heads SpaceX and the satellite internet service Starlink, accused unnamed "oligarchs" of blocking Starlink in India and asked whether Mukesh Ambani, chairman of Reliance Industries, is "the real boss of India", while India's government calls the claim of unfair treatment baseless.** (report item 7)  
+The BBC reports that Elon Musk, who heads SpaceX and Starlink, wrote on X on 7 Oct that "certain oligarchs" were blocking Starlink in India to keep a "monopolistic chokehold" on consumers, and on 8 Oct asked "Is Ambani the real boss of India?", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; Reliance had not responded. India's Communications Ministry said Starlink, Jio's satellite arm and rival Eutelsat OneWeb are at broadly the same stage, all awaiting security clearance and spectrum, and called the suggestion of unfair treatment "baseless and misconceived", while Communications Minister Jyotiraditya Scindia said on 9 Oct that "India does not allow a monopoly in any sector". *BBC, with ANI, DISPUTED*
 
 ## MARKET, INDUSTRY AND FINANCE — 6
 **8 HIGH — Firmus, an Australian data-centre company backed by Nvidia, has cancelled its planned $5 billion share sale after investors held back.** (report item 10)  
@@ -149,6 +152,6 @@ Politico reports, as relayed by Gizmodo, that billionaire Peter Thiel told Nashv
 
 ## CHECKS
 
-- Stories: 44; all come from the Full Report with facts, scores and sources unchanged.
+- Stories: 45; all come from the Full Report with facts, scores and sources unchanged.
 - Fact check suggested a lower score for 9 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
 - Headline-only stories included: 2.

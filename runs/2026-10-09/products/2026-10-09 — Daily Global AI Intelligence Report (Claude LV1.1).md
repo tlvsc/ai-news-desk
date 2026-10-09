@@ -2,8 +2,8 @@
 
 Daily report date: Friday, 9 October 2026  
 Coverage period: 8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours)  
-Final unique stories: 108 (pool 264; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side; 72 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
-Score spread: CRITICAL 0, HIGH 7, MEDIUM 75, WATCHLIST 26  
+Final unique stories: 108 (pool 265; report rule: pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side; 72 pool stories held back as older news re-dated into the window, duplicates or published before the window)  
+Score spread: CRITICAL 0, HIGH 7, MEDIUM 76, WATCHLIST 25  
 Stories with full article text read: 102; headline only: 6; follow-ups of earlier news: 15  
 Source coverage certificate: SOURCE SCAN INCOMPLETE. Stories were collected through Google News; articles were read from the 101-source list where the sites allowed it. Test run approved by Rafi.  
 Coverage QA: ATTENTION REQUIRED — some publisher sites block automated reading, so some stories rest on headlines only.
@@ -64,8 +64,17 @@ Summary: The Times of Israel reports that Israel's Finance Ministry is weighing 
 Full article: https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/
 ---
 
-7. Peter Thiel told audiences in Nashville that Barack Obama and Pope Leo XIV are using AI's unpopularity to boost their own popularity, according to recordings obtained by Politico.
+7. Elon Musk, who heads SpaceX and the satellite internet service Starlink, accused unnamed "oligarchs" of blocking Starlink in India and asked whether Mukesh Ambani, chairman of Reliance Industries, is "the real boss of India", while India's government calls the claim of unfair treatment baseless.
 CATEGORY: Politics and government — rank 7 of 9 in this category
+SCORE: 6 — A loud public row over a licence in a huge market, but it is one man's allegation, denied by the government, with no new regulatory decision yet.
+Importance: MEDIUM — The row decides nothing yet but bears on when people in India can buy Starlink's satellite internet, which still waits on security clearance and spectrum; the allegation that business interests are blocking it is Musk's alone, and the government rejects it.
+Source: BBC, with ANI. Status: DISPUTED.
+Summary: The BBC reports that Elon Musk, who heads SpaceX and Starlink, wrote on X on 7 Oct that "certain oligarchs" were blocking Starlink in India to keep a "monopolistic chokehold" on consumers, and on 8 Oct asked "Is Ambani the real boss of India?", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; Reliance had not responded. India's Communications Ministry said Starlink, Jio's satellite arm and rival Eutelsat OneWeb are at broadly the same stage, all awaiting security clearance and spectrum, and called the suggestion of unfair treatment "baseless and misconceived", while Communications Minister Jyotiraditya Scindia said on 9 Oct that "India does not allow a monopoly in any sector".
+Full article: https://www.bbc.co.uk/news/articles/cvglw9ryjrylo
+---
+
+8. Peter Thiel told audiences in Nashville that Barack Obama and Pope Leo XIV are using AI's unpopularity to boost their own popularity, according to recordings obtained by Politico.
+CATEGORY: Politics and government — rank 8 of 9 in this category
 SCORE: 5 — Kept at the pool score; the quotes are consistently reported, but they come second-hand from recordings.
 Importance: WATCHLIST — It shows how a leading tech investor with ties to Donald Trump and JD Vance argues against AI regulation in religious terms, which could matter in US politics, but these are his claims from ticketed lectures and his side did not comment.
 Source: Politico. Status: REPORTED.
@@ -73,22 +82,13 @@ Summary: Politico reports, from recordings of lectures Peter Thiel gave in Nashv
 Full article: https://www.politico.com/news/2026/10/08/peter-thiel-ai-obama-pope-leo-01112122
 ---
 
-8. Bill Gates says no government is ready enough for the changes AI will bring, as his foundation plans to spend at least $1 billion widening access to it.
-CATEGORY: Politics and government — rank 8 of 9 in this category
+9. Bill Gates says no government is ready enough for the changes AI will bring, as his foundation plans to spend at least $1 billion widening access to it.
+CATEGORY: Politics and government — rank 9 of 9 in this category
 SCORE: 5 — Kept at the pool score; interview confirmed in the text, views are Gates's own.
 Importance: WATCHLIST — Governments and people in poorer countries are affected, since he says poor handling would widen gaps while good handling could help health and education, but these are Gates's views and the $1 billion is a plan, not yet spent.
 Source: Reuters. Status: REPORTED.
 Summary: Reuters reports, as relayed by Interaksyon, that Bill Gates, who was until recently more optimistic about AI, said in an interview that "I don't think any government is nearly as deep on this as they have to be" and compared AI to an "alien intelligence" that needs countries to cooperate. His foundation said on Tuesday it plans to spend at least $1 billion over two years on AI access in education, health and agriculture.
 Full article: https://interaksyon.philstar.com/trends-spotlights/2026/10/09/319246/governments-worldwide-behind-ai-bill-gates/
----
-
-9. Former CIA director David Petraeus predicts that AI "staff officers" could make battlefield decisions with little human input by around 2030.
-CATEGORY: Politics and government — rank 9 of 9 in this category
-SCORE: 5 — Kept at the pool score; the quotes are confirmed but it is one man's forecast.
-Importance: WATCHLIST — Soldiers, civilians in war zones and defence planners are affected if decisions move to machines, but this is one former general's forecast and the head of US Central Command still says humans make the final decision to shoot.
-Source: The Independent. Status: REPORTED.
-Summary: The Independent reports that retired General David Petraeus, a former head of the CIA, told the Forecast2050 podcast that within about four years armies will use AI agents acting as staff officers, and that self-governing drones could appear in Ukraine by the end of 2026. The report adds that a 2025 Alan Turing Institute study found AI could speed up commanders' decisions but not replace human judgment, and that US Central Command says humans will make the final decision to shoot.
-Full article: https://www.independent.co.uk/news/world/ai-military-war-cia-petraeus-ukraine-b3063036.html
 ---
 
 ## MARKET, INDUSTRY AND FINANCE — 14
@@ -1022,7 +1022,7 @@ Fact: the Associated Press reports that its AP-NORC poll found 64% of Americans 
 
 Fact: The Guardian reports that the average one-bedroom in San Francisco costs about $4,400 a month, up more than 25% in a year, that city figures show eviction notices up 44%, and that the mayor declared a "rent emergency" in September citing the AI boom; the link to AI rests on the mayor's and advocates' accounts, not a measured share (item 97). Fact: Billboard reports that Universal Music Group signed a multi-year deal with ElevenLabs for a licensed fan remix platform in which artists opt in and, ElevenLabs' chief executive says, are "fairly compensated", a day after rival Suno, which UMG is still suing, launched models trained with music from UMG's competitors; no launch date, price or payment terms are given (item 18). Inference: the money from AI lands in a few postcodes and the costs on the people who serve them; the UMG deal shows one route by which creators get paid, sign with one AI company while suing another.
 
-Fact: The Independent reports that President Trump wrote on Truth Social that the White House considers anyone who says artificial intelligence rather than "Super Intelligence" to be "THE ENEMY", about a week after an executive order telling federal agencies to use the new term; the president cannot compel private use (item 1). Fact: Reuters reports, as relayed by Interaksyon, that Bill Gates said no government is "nearly as deep on this as they have to be", as his foundation plans at least $1 billion over two years for AI access in education, health and agriculture; these are his views, and the money is a plan, not yet spent (item 8). Fact: Fortune reports that Frances Haugen, who leaked Facebook's internal documents in 2021, opposes a pause in AI development but wants independent safety audits of AI labs written into law, building on a proposal by Anthropic's chief executive that OpenAI's Sam Altman said his company would follow; required audits remain a proposal (item 82). Fact: DefenseScoop reports that a Republican and a Democratic senator proposed a bill making AI companies with Pentagon deals of $100 million or more report incidents such as stolen model weights within 72 hours; it has not been voted on (item 2). Inference: Washington argues about the word; the people asking for a rule, Gates and Haugen, ask for depth and audits rather than a pause, and the one bill in today's news concerns the Pentagon's suppliers, not the public that the poll says wants control.
+Fact: The Independent reports that President Trump wrote on Truth Social that the White House considers anyone who says artificial intelligence rather than "Super Intelligence" to be "THE ENEMY", about a week after an executive order telling federal agencies to use the new term; the president cannot compel private use (item 1). Fact: Reuters reports, as relayed by Interaksyon, that Bill Gates said no government is "nearly as deep on this as they have to be", as his foundation plans at least $1 billion over two years for AI access in education, health and agriculture; these are his views, and the money is a plan, not yet spent (item 9). Fact: Fortune reports that Frances Haugen, who leaked Facebook's internal documents in 2021, opposes a pause in AI development but wants independent safety audits of AI labs written into law, building on a proposal by Anthropic's chief executive that OpenAI's Sam Altman said his company would follow; required audits remain a proposal (item 82). Fact: DefenseScoop reports that a Republican and a Democratic senator proposed a bill making AI companies with Pentagon deals of $100 million or more report incidents such as stolen model weights within 72 hours; it has not been voted on (item 2). Inference: Washington argues about the word; the people asking for a rule, Gates and Haugen, ask for depth and audits rather than a pause, and the one bill in today's news concerns the Pentagon's suppliers, not the public that the poll says wants control.
 
 ### 3. Safety, security and law
 

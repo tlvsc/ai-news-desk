@@ -2,7 +2,7 @@
  "title": "Daily Bulletin",
  "date": "9 October 2026",
  "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, POL from 6), plus the top 3 from The Fun Side.",
- "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 44 stories",
+ "coverage": "8 Oct 2026 06:18 UTC to 9 Oct 2026 06:18 UTC (24 hours) · 45 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -91,6 +91,20 @@
      ],
      "source": "The Times of Israel",
      "url": "https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/"
+    },
+    {
+     "headline": "Elon Musk, who heads SpaceX and the satellite internet service Starlink, accused unnamed \"oligarchs\" of blocking Starlink in India and asked whether Mukesh Ambani, chairman of Reliance Industries, is \"the real boss of India\", while India's government calls the claim of unfair treatment baseless.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 7,
+     "rank_of": 9,
+     "status": "DISPUTED",
+     "paragraphs": [
+      "The BBC reports that Elon Musk, who heads SpaceX and Starlink, wrote on X on 7 Oct that \"certain oligarchs\" were blocking Starlink in India to keep a \"monopolistic chokehold\" on consumers, and on 8 Oct asked \"Is Ambani the real boss of India?\", naming Mukesh Ambani, chairman of Reliance Industries, which owns Jio, India's biggest mobile network; Reliance had not responded. India's Communications Ministry said Starlink, Jio's satellite arm and rival Eutelsat OneWeb are at broadly the same stage, all awaiting security clearance and spectrum, and called the suggestion of unfair treatment \"baseless and misconceived\", while Communications Minister Jyotiraditya Scindia said on 9 Oct that \"India does not allow a monopoly in any sector\".",
+      "Why it matters: The row decides nothing yet but bears on when people in India can buy Starlink's satellite internet, which still waits on security clearance and spectrum; the allegation that business interests are blocking it is Musk's alone, and the government rejects it."
+     ],
+     "source": "BBC, with ANI",
+     "url": "https://www.bbc.co.uk/news/articles/cvglw9ryjrylo"
     }
    ]
   },
