@@ -45,3 +45,4 @@ THEN RUN THE GATE and fix until it passes (you may edit only selection_fable.jso
   python3 /home/user/ai-news-desk/.claude/skills/fill-category-scan-part-b/scripts/pick_gate.py gate --workdir {W}
 A FAIL line names the rule. Never argue with the gate by editing the pack or the scripts. If a repeat flag is a false alarm, put the id in disputed_repeats with the proof, and Rafi will see it.
 FINAL REPLY (short): the 14 cards in order as "category | headline | why in one line", the 7 Headlines ids, the fun, the teaser, the gate result, and the 5 best stories left out.
+ONE TOPIC, ONE CARD: apply the ONE TOPIC, ONE CARD rule of CLAUDE.md rule 16 (read it there; this brief does not restate it). A reply or reaction is never its own card.
