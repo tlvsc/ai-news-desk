@@ -175,6 +175,7 @@ One agent writes `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json`,
 python3 $K/build_products.py --workdir $W [same cutoffs]
 cd $W && python3 build_pdf.py --input products/report_pdf.json --kind report --out products/Full_Report_D-M-YY.pdf
 cd $W && python3 build_pdf.py --input products/bulletin_pdf.json --kind bulletin --out products/Daily_Bulletin_D-M-YY.pdf
+python3 $K/make_pool_pdf.py --workdir $W        # the pool PDF, every story by category (CLAUDE.md POOL PDF EVERY DAY)
 ```
 D-M-YY is the file-name date, e.g. 3-10-26.
 
@@ -186,7 +187,7 @@ D-M-YY is the file-name date, e.g. 3-10-26.
 Fix, rebuild, and keep the replaced files as `_old`.
 
 ### 13. Deliver, save, then start part B
-1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF,
+1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF, the pool PDF,
    the pool CSV. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
    bulletin's category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
 2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products, the one exception to rule 0):
