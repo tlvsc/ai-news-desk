@@ -92,6 +92,13 @@ Launch 16 background agents in ONE message (model "sonnet", CLAUDE.md MODEL POLI
 `Read $W/prompts/curate_NN.txt and follow it exactly.` Each writes `$W/pool/cat_NN.json`. The brief carries the
 day rules (candidates_55.json, the four day repeat list, 15 to 20, never pad); nothing is appended by hand.
 
+### 2b. Robot pass (Rafi, 10 Oct 2026, every day; new script merge_robot_pass.py and brief briefs/robot_pass.md, flagged to Rafi as new files)
+On 10 Oct the robotics curator found only stories already in the last four days and a robot search the same afternoon found 12 more, among them a humanoid robot launch and Ukraine's ground robots rescuing 45 soldiers, which Rafi ordered into the pool, Full Report, Bulletin and cards. So every day, in the same message as the 16 curators, launch one more background agent (model "sonnet") with the robot pass brief:
+```
+python3 -c "import json,sys; r=json.load(open('$W/run.json')); t=open('$A/briefs/robot_pass.md').read().replace('{WORKDIR}','$W').replace('{EDITION}',r['edition']).replace('{START}',r['start']).replace('{END}',r['end']); open('$W/prompts/robot_pass.txt','w').write(t)"
+```
+Agent prompt: `Read $W/prompts/robot_pass.txt and follow it exactly.` It writes `$W/robot_pass.json` and touches nothing else. When it and the 16 curators have finished, `python3 $K/merge_robot_pass.py --workdir $W` adds its stories to category 11 before step 3. The robotics rule of CLAUDE.md (ROBOTICS) is the reason: one humanoid story and two robotics cards when any exist.
+
 ### 3. Build the pool
 ```
 python3 $K/build_pool.py --workdir $W
