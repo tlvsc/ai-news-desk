@@ -1,0 +1,19 @@
+# Run 2026-10-10 handoff
+W=/tmp/claude-0/-home-user-ai-news-desk/df59d67d-a5b7-5aa2-97f7-5f66358ede71/scratchpad/run_2026-10-10
+Start line: "run skill part A for 10/10/26" (no extra items).
+Step -1 done ~06:00 UTC: local clone was stale (origin force-updated, no common history); backed up as local branch stale_clone_old, reset --hard to origin db16d43 (runs through 9 Oct). CLAUDE.md and Part A skill re-read.
+Models today: Sonnet for bulk (NEVER Haiku; the 8 Oct Haiku line in the skill is expired), Opus xhigh editors, Bigger Picture = ONE Fable agent at effort max (main session never writes it).
+Step 0: Drive setup agent a8ae6fc5abee6ef75 (rules, build_pdf.py, archive14 for 26 Sep-2 Oct). Pools 06-09 Oct and report texts 3-9 Oct copied from the repo runs/. combine_pools done (1044 titles).
+Step 1 collect done: window 2026-10-09T06:00Z to 2026-10-10T06:00Z, 3591 raw. Step 1b source_scan done: 247 stories (big outlets included).
+Next: when the Drive agent lands, check rules_diff, then step 2 (make_prompts curate, 16 Sonnet curators).
+Step 0 DONE: rules identical to 9 Oct (6 files), build_pdf.py md5 OK. archive14: 27 Sep-9 Oct (13 of 14); GAPs 26 Sep and 2 Oct (no report text on Drive).
+Step 2: 16 Sonnet curators launched ~06:20 UTC (prompts curate_01..16). Next: wait all 16 (pool/cat_NN.json), then step 3 build_pool.
+Step 3 done: pool 238 (all cats >=15, Fun 10; dropped C12 free scanner as repeat of 1009:C03-01). Next: step 4 decode (bg), 5 chunks+prefetch, 6 writers.
+Step 4/5 done: decoded 238/238, chunks 191 to write / 47 pool only, prefetch done. Step 6: write prompts made; launching 16 Sonnet writers (no pool rebuild now).
+Step 6 done (all 16 writers in). Step 7 qa_check next.
+Step 7 qa_check done: held 25 stale re-dated (held.json). C02-06 summary fixed (names 6 Oct Muse coverage). Step 8 first build: --report-min 6 --report-fill-to 110 --bulletin-min 7 --bulletin-min-cat HEA=6,SOC=6 -> report 110 (74 at 6+ plus 36 at 5), bulletin 33 (POL 2, ROB 1). TODO at final build: post-filter Robotics in bulletin to 4 stories C11-01 C11-04 C11-10 C11-13 (CLAUDE.md ROBOTICS 3-5) using a copy of runs/2026-10-09/bulletin_keep.py, run AFTER every final build_products. Step 9: 2 Opus editors (xhigh) launching.
+Step 9 done: editors A+B. Holds added (dup: C03-03 C04-05 C07-02 C04-10 C16-09; redated C02-07 C11-02 C03-01 C04-08 C08-15). Step 9b check_dup14 done (12 of 14, GAP 2 Oct 26 Sep): real repeats C11-04, C13-08 held; rest false/followup. Next: rebuild, editor C on any fill stories not edited, then Bigger Picture (Fable max).
+Editor C done (11 stories). LIST LOCKED: report 108 (held 39), flags: --report-min 6 --report-fill-to 108 --bulletin-min 7 --bulletin-min-cat HEA=6,SOC=6,ROB=5 then ALWAYS run python3 $W/bulletin_keep.py $W (Robotics to C11-01 C11-05 C11-10 C11-13 -> Bulletin 35, POL 2, ROB 4). Step 10: Fable max Bigger Picture agent launching.
+Step 10 done: Fable max BP (report 7,964 words, bulletin 474 words; 72 ids cited). Step 11 done ~07:09: Full_Report_10-10-26.pdf 44pp (108 stories), Daily_Bulletin_10-10-26.pdf 19pp (35 stories, POL 2, ROB 4), AIND_Pool_10-10-26.pdf 7pp (238). Step 12: visual check front+story OK, no C-marks/google/utm. Opus BP second reader launched (bp_second_reader.json). Next: apply fixes via Fable BP author (resume a6c606aa6d343db8b), rebuild (flags + bulletin_keep.py), deliver step 13, save_state, lessons, start Part B.
+Step 12 done: BP second reader found 31 problems, all fixed by Fable author, verified quotes gone; PDFs rebuilt (old kept _old). Step 13: sending to Rafi.
+07:40 UTC Part A DELIVERED to Rafi in chat (Full Report 108/44pp, Bulletin 35/19pp, pool PDF 238/7pp, csv, md, json). Drive: Bulletin md 25,510 bytes OK in daily_data_generated/2026-10-10/reports; 8 others in chat. Lessons 163-170 committed. Next: save_state, start Part B.
