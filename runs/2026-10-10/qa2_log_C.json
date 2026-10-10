@@ -1,0 +1,86 @@
+{
+ "changes": [
+  {
+   "item_id": "C01-07",
+   "field": "summary",
+   "before": "TechNode reports that ByteDance's Seed team found that chunked KV-cache compression, which saves memory by packing groups of consecutive tokens into fewer stored entries, can change retrieval accuracy by up to 40 percentage points depending on where the information sits, a pattern the team calls \"phase sensitivity\". The researchers reproduced the effect in models trained from scratch and say strong average benchmark scores can hide it.",
+   "after": "TechNode reports that ByteDance's Seed team traced uneven long-text recall in DeepSeek models to chunked KV-cache compression, which saves memory by packing runs of text into fewer stored entries: accuracy can differ by up to 40 percentage points depending on where information falls inside each packed group. The team calls this \"phase sensitivity\", reproduced it in models trained from scratch and says strong average benchmark scores can hide it.",
+   "reason": "Meaning and clarity: the summary never tied the finding to DeepSeek models, the subject of the story, and 'where the information sits' read as position in the whole text, while TechNode says position within a compression window; 'tokens' replaced with plain words."
+  },
+  {
+   "item_id": "C01-08",
+   "field": "summary",
+   "before": "Cloudflare says in its own blog post that Clef-omni, a \"decision model\" that scores options given to it instead of writing text, now accepts audio and video, with open weights on Hugging Face, and scores a 21-second video clip in about 1.5 seconds. It follows the Clef decision models we carried on 9 Oct 2026; new today are the audio and video model, a faster hosted Clef and a cheaper Clef-flash, which loses part of its hosted context window (64,000 down to 24,000 tokens).",
+   "after": "Cloudflare says in its own blog post that its new Clef-omni, a \"decision model\" that scores options given to it instead of writing text, accepts audio and video as well as text and images, is free to download from Hugging Face and scores a 21-second video clip in about 1.5 seconds. It follows Cloudflare's first Clef models, released the week before; the post also says the hosted Clef is now faster and Clef-flash cheaper, though the hosted Clef-flash takes in far less text at once (24,000 tokens, down from 64,000).",
+   "reason": "Meaning: Clef-omni is a new model, not an existing one that 'now accepts' audio and video; 'the Clef decision models we carried on 9 Oct 2026' was wrong (the 9 Oct Full Report has no Clef entry; it was only in that day's pool), so the earlier release is described as the blog does, 'last week'; 'new today' removed (the post is dated 9 Oct); 'open weights' and 'context window' put in plain words."
+  },
+  {
+   "item_id": "C01-08",
+   "field": "importance_line",
+   "before": "Developers who want one cheap model to sort or route mixed media, such as spam, phishing or personal-data checks, get more choice, but the speed and price claims are Cloudflare's own and the cheaper tier has a smaller context window.",
+   "after": "Developers who want one cheap model to sort or route mixed media, such as spam, phishing or personal-data checks, get more choice, but the speed and price claims are Cloudflare's own and the cheaper Clef-flash now takes in less text at once.",
+   "reason": "Clarity: 'context window' was unexplained jargon at the Full Report level."
+  },
+  {
+   "item_id": "C01-10",
+   "field": "headline",
+   "before": "AI vendors are now selling small decision models that choose an agent's next step, and analysts warn they may add cost and complexity.",
+   "after": "AI vendors are now offering small decision models that choose an agent's next step, and analysts warn they may add cost and complexity.",
+   "reason": "Meaning: 'selling' was too strong; AWS's Strands Decider 2B is released as open source and Cloudflare's Clef models are open."
+  },
+  {
+   "item_id": "C01-10",
+   "field": "summary",
+   "before": "InfoWorld reports that TypeSafe's Jev, Cloudflare's Clef, AWS's Strands Decider 2B and OpenAI's Decisions API all hand narrow choices, such as which tool an agent uses or how a task is routed, to a small specialised model, which could cut token use and cost. Analysts quoted, including HFS Research's Ashish Chaturvedi, warn of \"AI-stack sprawl\" because each model's confidence scores mean different things, so companies must recalibrate and govern their decision rules.",
+   "after": "InfoWorld reports that TypeSafe's Jev, Cloudflare's Clef and AWS's Strands Decider 2B hand narrow choices, such as which tool an agent uses, to a small specialised model, which could cut costs; OpenAI's Decisions API does the same without a separate model to manage. Analysts quoted, including HFS Research's Ashish Chaturvedi, warn of \"AI-stack sprawl\" because each model's confidence scores mean different things, so companies must recalibrate and govern their decision rules.",
+   "reason": "Meaning: InfoWorld says OpenAI's Decisions API, powered by GPT-6 Luna, works without the developer running a separate decision model, so it cannot be listed as handing choices to a small specialised model; 'token use' jargon removed."
+  },
+  {
+   "item_id": "C08-14",
+   "field": "headline",
+   "before": "The cost of renting Nvidia H100 AI chips on one-year contracts has risen about 60% in a year as AI firms scramble for computing power.",
+   "after": "Renting Nvidia H100 AI chips on one-year contracts costs 60% more than a year ago, consulting firm SemiAnalysis says, as AI firms scramble for computing power.",
+   "reason": "Attribution: the 60% figure is SemiAnalysis's estimate, quoted by the WSJ; the headline stated it as plain fact."
+  },
+  {
+   "item_id": "C08-14",
+   "field": "summary",
+   "before": "The Wall Street Journal reports, as relayed by BGNES, that SemiAnalysis, a consulting firm that tracks AI data, puts the hourly price of renting Nvidia H100 chips on a one-year contract 60% higher than a year ago, as AI companies, venture-capital firms and executives compete for scarce computing capacity. Cloud providers are increasingly asking for contracts of several years with up to 30% paid in advance, according to the report, and some firms are signing for more capacity than they need or reselling what they cannot use.",
+   "after": "The Wall Street Journal reports, as relayed by BGNES, that SemiAnalysis, a consulting firm that tracks AI data, puts the hourly price of renting Nvidia H100 chips on a one-year contract 60% higher than a year ago, as AI companies, venture-capital firms and executives compete for scarce computing capacity. Cloud providers are increasingly asking for contracts of several years with up to 30% paid in advance, according to the report, and some firms are signing for more capacity than they need or trying to resell what they cannot use.",
+   "reason": "Meaning: the report says some firms are 'trying to resell' unused capacity, not that they are reselling it."
+  },
+  {
+   "item_id": "C14-13",
+   "field": "summary",
+   "before": "Chalkbeat Philadelphia reports that Launchpad Philly, a nonprofit that trains high school students and recent graduates to code, is reworking its curriculum around AI skills because entry-level tech jobs have dried up. Of its first intensive cohort of 12 graduates, three now work full time and two are in college, and trainee Daniel Johnson, 20, says he has not had a single reply to his job applications.",
+   "after": "Chalkbeat Philadelphia reports that Launchpad Philly, a nonprofit that trains high school students and recent graduates to code, is reworking its curriculum around AI skills because entry-level tech jobs have dried up as companies cut jobs and lean on AI for basic tasks. Of its first intensive cohort of 12 graduates, three now work full time and two are in college, and trainee Daniel Johnson, 20, says he has not had a single reply to his job applications.",
+   "reason": "Meaning (Section 1A): the entry never said why AI matters here; Chalkbeat says entry-level tech jobs dried up as companies cut jobs and rely on AI for basic tasks, the central point of its story."
+  },
+  {
+   "item_id": "C15-05",
+   "field": "importance_line",
+   "before": "Investors, governments and banks get a benchmark for how small the quantum market still is and how many start-ups may not survive, but forecasts of this kind often prove wrong.",
+   "after": "Investors, governments and banks get a benchmark for how small the quantum market still is and how many start-ups may not survive, but it is a forecast, not a measurement.",
+   "reason": "Meaning: 'forecasts of this kind often prove wrong' is an unsupported general claim not in the source; replaced with the supported doubt (a projection, not a measurement)."
+  },
+  {
+   "item_id": "C15-07",
+   "field": "headline",
+   "before": "Quantinuum and software firm HQS have used a trapped-ion quantum computer to simulate the nuclear magnetic resonance signal of a 22-atom-nucleus molecule.",
+   "after": "Quantinuum and software firm HQS have used a trapped-ion quantum computer to simulate the nuclear magnetic resonance signal of a molecule with 22 interacting atomic nuclei.",
+   "reason": "Accuracy: '22-atom-nucleus molecule' implied the molecule has 22 atoms; the source describes a 22-spin molecule: the simulation covers its two phosphorus and twenty hydrogen nuclei, not all of its atoms."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C15-03",
+   "type": "re-dated",
+   "detail": "Old news, not edited. The conditional Department of War loan of up to $150 million to PsiQuantum was announced on Thu 8 Oct 2026, before the window (9 Oct 06:00Z to 10 Oct 06:00Z), and nothing new happened inside it. Our 9 Oct 2026 Full Report already carried it as item 62 (Research and science rank 1, score 8: the Department of War's $350 million quantum package including this loan). The Next Web adds only detail on how the money would be used and the Wolfspeed loan of the day before. Freshness reads 'FOLLOW-UP of 8 Oct 2026' but it is the same announcement."
+  },
+  {
+   "item_id": "C02-12",
+   "type": "re-dated",
+   "detail": "Old news (borderline), not edited. AT&T announced the LegalEdge and OpenAI partnership on 8 Oct 2026 (Artificial Lawyer article of 8 Oct), about a day before the window; Law360's in-window article (9 Oct 19:55Z) is paywalled and no new development inside the window is shown. Not in our 9 Oct report. The writer already lowered the score to 4 for this, which is below the report cutoff of 5; freshness reads 'FOLLOW-UP of 8 Oct 2026' but it is the same announcement. Main session to decide whether it stays."
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "checked": 41,
+ "problems": [
+  {
+   "version": "bulletin",
+   "section": "What moves the market today (paragraph 2)",
+   "quote": "a gap Bloomberg says traders cannot see through because OpenAI and Anthropic count sales differently",
+   "ids": [
+    "C07-04"
+   ],
+   "problem": "Wrong attribution. Bloomberg is known to us only from its headline (traders stumped by the revenue \"black box\"); the explanation that the two labs count sales differently comes from the Financial Times (via Yahoo Finance) and the Newcomer newsletter, combined by the desk (entry source AI News Desk; notes: Bloomberg's own findings are not reported beyond its headline). The Full Report gets this right; the bulletin credits Bloomberg with a finding it did not report to us.",
+   "fix": "a gap that, according to the Financial Times and the Newcomer newsletter, comes from OpenAI and Anthropic counting sales differently; Bloomberg reports that traders are stumped by this \"black box\""
+  },
+  {
+   "version": "report",
+   "section": "2. People and society, paragraph 1 (Inference)",
+   "quote": "on the same day it warned its officials against overbuilding (section 5)",
+   "ids": [
+    "C14-01",
+    "C13-03"
+   ],
+   "problem": "Wrong date. The party and cabinet guidelines were issued on Friday 9 October (C13-03 facts); Li Zhong spoke at the State Council Information Office press conference on Saturday 10 October (C14-01 facts).",
+   "fix": "a day after it warned its officials against overbuilding (section 5)"
+  },
+  {
+   "version": "report",
+   "section": "4. Infrastructure, paragraph 1 (Inference)",
+   "quote": "Inference: this is the first week the memory squeeze shows up as a consumer number rather than a data-centre price: a fifth fewer PCs shipped, the three biggest makers down by a quarter to a third, while the memory they would need is contracted years ahead to three AI buyers.",
+   "ids": [
+    "C08-03",
+    "C08-02"
+   ],
+   "problem": "Three errors. (a) Not the first week: our 6 October edition carried Rest of World's report that AI demand for memory had raised smartphone prices about 15 percent this year. (b) It states the memory link as certain, while the very next sentence says IDC blames prices and stock-up buying and the link is HP's and the outlet's reading. (c) KED Global says about 80 percent of Samsung's output is contracted, with Nvidia, Google and Microsoft 'among' the buyers ordering five years ahead, not that it is contracted to three buyers; and Lenovo's fall (22.6 percent) is under a quarter.",
+   "fix": "Inference: after the phone prices we carried on 6 October, the memory squeeze may now be reaching PCs: a fifth fewer shipped, the three biggest makers down by between a fifth and a third, while about 80 percent of Samsung's memory for next year is reported to be under contract, with Nvidia, Google and Microsoft among the buyers ordering years ahead."
+  },
+  {
+   "version": "report",
+   "section": "1. What AI can do now, paragraph 1 (Inference)",
+   "quote": "Inference: in one week the industry created a product category whose only job is to answer \"should the agent act, and which way?\", and investors priced one such company at $7.5 billion before any outside test.",
+   "ids": [
+    "C01-01",
+    "C06-01",
+    "C01-10"
+   ],
+   "problem": "Not one week: Jev was released on 15 September (C06-01) and OpenAI unveiled its Decisions API on 29 September, both carried in our 30 September edition; InfoWorld (C01-10) dates Cloudflare's and AWS's models to last week. 'Before any outside test' is not in the entries; TechCrunch says only that the adoption claim is the company's own.",
+   "fix": "Inference: in under four weeks, from Jev on 15 September to Microsoft's model this week, the industry built a product category whose only job is to answer \"should the agent act, and which way?\", and investors priced one such company at $7.5 billion on adoption figures nobody has checked."
+  },
+  {
+   "version": "report",
+   "section": "5. Markets, paragraph 2 (Inference)",
+   "quote": "Inference: the week's new voice is not another investor but two governments facing opposite ways. Beijing has written, in a party document, that its own AI build must not become a bubble and that officials will answer for losses; in Washington the expectation voiced by Burry is that the state will protect the boom.",
+   "ids": [
+    "C13-03",
+    "C05-06"
+   ],
+   "problem": "Only one government spoke. The Washington side is one investor's opinion on Substack (Burry), so 'two governments facing opposite ways' presents a personal opinion as a government position and contradicts 'not another investor'. The guidelines hold to account officials whose blind investment causes major losses, not officials for any losses.",
+   "fix": "Inference: the week's new voice is a government: Beijing has written, in a party document, that its AI build must avoid blind investment and \"swarm-like\" rushes and that officials whose blind investment causes major losses will be held to account; from Washington there is no such document, only the expectation of Burry, an investor, that the state will protect the boom, with limits."
+  },
+  {
+   "version": "bulletin",
+   "section": "Our view (paragraph 4)",
+   "quote": "Our view: the week's new voice is two governments facing opposite ways. Beijing has written that its own AI build must not become a bubble, while Michael Burry, the investor who became famous for betting against US housing before 2008, wrote on Substack that Washington will do everything to protect the boom, his opinion.",
+   "ids": [
+    "C13-03",
+    "C05-06"
+   ],
+   "problem": "The same framing problem as the Full Report: one government and one investor's opinion. 'Will do everything' also drops Burry's own caveat that \"there will be limits as to what they can do\" and his \"epic moral hazard\" warning, which the Full Report keeps.",
+   "fix": "Our view: the week's new voice is a government. Beijing has written that officials must avoid blind investment and \"swarm-like\" rushes into high tech, while Michael Burry, the investor who became famous for betting against US housing before 2008, wrote on Substack, as his opinion, that Washington will \"pull out all the stops\" to protect the boom, with limits and \"epic moral hazard\"."
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 2 (Fact and Inference)",
+   "quote": "Fact: SecurityWeek reports that Anthropic launched OSS Scanner, a free opt-in service that sends AI-found vulnerability reports to open-source maintainers without human review",
+   "ids": [
+    "C12-03"
+   ],
+   "problem": "Old news shown as new, and a repeat of the 9 October Bigger Picture. Our 9 October edition (item 24, The Verge) and its Bigger Picture section 1 already carried the OSS Scanner launch and the point that its reports go out without human review and may be wrong; this paragraph's Inference ('let the models report flaws with no person in between, which Anthropic admits will send some wrong reports') repeats that analysis. Only the over-90-percent expectation and the Critical Infrastructure Defense Program are new.",
+   "fix": "Fact: SecurityWeek adds to the OSS Scanner launch we carried on 9 October that Anthropic expects over 90 percent of its unreviewed reports to be real, and reports that Anthropic also launched a Critical Infrastructure Defense Program with 11 founding partners, including CrowdStrike and Palo Alto Networks, for the systems that run power, water and factories; the accuracy figure is Anthropic's own {C12-03}. In the Inference replace 'is to let the models report flaws with no person in between, which Anthropic admits will send some wrong reports to the volunteers who maintain software the world runs on' with 'now reaches the systems that run power, water and factories, which Anthropic notes often cannot be taken offline to patch'."
+  },
+  {
+   "version": "report",
+   "section": "5. Markets, paragraph 1 (Inference)",
+   "quote": "Inference: Thursday's fall and Friday's rebound were one lesson: the AI trade moved on a $20 billion difference in how two private companies count sales, which neither has published. The market cannot price what it cannot read, and the two most watched AI companies are private; the scare will repeat with each leak until one of them files a prospectus.",
+   "ids": [
+    "C07-01",
+    "C07-04"
+   ],
+   "problem": "Repeats the 9 October Bigger Picture (section 5 Speculation: the counting dispute will matter until both list, investors need one definition, 'for OpenAI the difference was about $20 billion'; watch item 1 on the revenue definition; its Signals line on OpenAI publishing its own figure and definition, echoed today in section C). It also states a future as certain ('will repeat').",
+   "fix": "Inference: new since our 9 October reading of the counting gap, the market recovered within a day, which suggests traders took it as a question of definition rather than lost sales; Bloomberg's report that traders are stumped says the gap is not closed, and similar leaks may move prices again until one of the two files audited accounts."
+  },
+  {
+   "version": "report",
+   "section": "Forecasts, forecast 3",
+   "quote": "3. PC makers or memory makers publicly tie a price rise or a cut in shipments to memory supply by the end of January. Probability 70 percent. Horizon: 1 to 3 months.",
+   "ids": [
+    "C08-03"
+   ],
+   "problem": "The forecast is already met before it starts: HP told the SEC on Monday 5 October that it expects PC shipments to shrink through 2027 as memory prices surge (C08-03 facts), and the forecast cites that same statement as its signal. The end of January is also beyond the stated 1-to-3-month horizon.",
+   "fix": "3. Another PC maker besides HP, or a memory maker, publicly ties a price rise or a cut in shipments to memory supply by mid-January. Probability 70 percent (re-check the estimate for the narrower event). Horizon: 1 to 3 months."
+  },
+  {
+   "version": "report",
+   "section": "A. Highest conviction developments to watch, item 6",
+   "quote": "Why: it is the one audited number on AI chip demand this month",
+   "ids": [
+    "C08-02",
+    "C08-14",
+    "C08-03"
+   ],
+   "problem": "Wrong on two counts: quarterly earnings are not audited, and this same list has Samsung's full results on 29 October and the big cloud builders' reports in late October, all within the month.",
+   "fix": "Why: it is the first big company report on AI chip demand this season"
+  },
+  {
+   "version": "report",
+   "section": "A. Highest conviction developments to watch, item 1",
+   "quote": "Why: a verdict sets what Qualcomm pays for the designs behind the processors in many phones; a win for Qualcomm on royalties cuts Arm's take, a win for Arm raises the cost for phone makers that use Qualcomm chips.",
+   "ids": [
+    "C08-05"
+   ],
+   "problem": "Misstates the case and states consequences as certain. The jury decides whether Arm breached its licensing agreements (withheld patches and tools, broke a price clause, sabotaged Qualcomm's dealings with Meta); Qualcomm's request to stop paying royalties if Arm breached is with the judge, not the jury; nothing in the entry says an Arm win raises costs for phone makers.",
+   "fix": "Why: the jury decides whether Arm broke its licensing agreements with Qualcomm, whose chips run many phones; Qualcomm's separate request to stop paying royalties if Arm breached is still before the judge, so the verdict could change what Qualcomm pays Arm."
+  },
+  {
+   "version": "bulletin",
+   "section": "Our view (paragraph 4)",
+   "quote": "and a memory shortage that is now a consumer price",
+   "ids": [
+    "C08-03"
+   ],
+   "problem": "States as fact the memory-to-PC-price link that the bulletin's own Unknowns paragraph says is HP's and one outlet's reading, not IDC's.",
+   "fix": "and a memory shortage that HP and one outlet say is now reaching PC prices"
+  },
+  {
+   "version": "report",
+   "section": "5. Markets, paragraph 3 (Inference)",
+   "quote": "while the leading chip maker is reported to be buying into a customer at 40 times its unconfirmed sales and the loudest critic of SoftBank's fund is the man suing SoftBank's biggest investment. Who pays, and at what interest rate, is decided in the next three weeks (section A).",
+   "ids": [
+    "C06-02",
+    "C05-04"
+   ],
+   "problem": "Hedge lost and unsupported claims. Nvidia is only in talks and no deal is final; 'a customer' is not in the entry (it says Nvidia already backs Perplexity). 'SoftBank's biggest investment' is not in the entry (it says only that SoftBank has committed billions to OpenAI) and is doubtful given SoftBank's Arm holding; 'loudest critic' is unsupported. 'Is decided in the next three weeks' states an outcome as certain.",
+   "fix": "while the leading chip maker is reported to be in talks to buy into Perplexity, which it already backs, at about 40 times sales nobody has confirmed, and one critic of SoftBank's fund is Elon Musk, who is suing OpenAI, to which SoftBank has committed billions. The dates in section A will show more of who pays, and at what interest rate."
+  },
+  {
+   "version": "report",
+   "section": "2. People and society, paragraph 2 (Inference)",
+   "quote": "a contest, three publishers and a newsroom each used AI and said so late or not at all",
+   "ids": [
+    "C14-11",
+    "C14-04",
+    "C14-05"
+   ],
+   "problem": "Contradicts the entries: Quartz's website carries a disclaimer that AI is central to how it reports (C14-11), Xu acknowledged using AI (C14-04), and the contest itself did not use AI. The next sentence, 'Expect the next contest rules, publishing contracts and union talks to make disclosure a written condition', states a forecast as certain; only Nikon's review of its rules is reported.",
+   "fix": "a contest entrant and three publishers used AI with little or no disclosure, and a newsroom that does disclose it now runs almost entirely under one AI-assisted byline; and replace 'Expect the next contest rules, publishing contracts and union talks to make disclosure a written condition' with 'Nikon is reviewing its rules, and publishing contracts and union talks may follow in making disclosure a written condition'"
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 3 (Inference)",
+   "quote": "The plea is the first result at conviction stage in a $2.5 billion case",
+   "ids": [
+    "C08-01",
+    "C13-05"
+   ],
+   "problem": "'First' is not in the entry. In the same Inference, 'while the labs hire the officials who wrote the rules' overstates C13-05: Dean Ball helped shape the AI Action Plan, and none of the hires is said to have written the export rules.",
+   "fix": "The plea is one defendant's admission in a $2.5 billion case in which the other two face allegations only; and replace 'while the labs hire the officials who wrote the rules' with 'while the labs hire former administration officials, one of whom helped shape its AI Action Plan'"
+  },
+  {
+   "version": "report",
+   "section": "4. Infrastructure, paragraph 3 (Inference)",
+   "quote": "the EIA number says the wholesale price in the biggest US market is rising fastest, mostly for weather",
+   "ids": [
+    "C09-03",
+    "C09-01"
+   ],
+   "problem": "The EIA puts 'much of' the rise down to weather, not most of it. In the same Inference, 'make data centres a declared military target on both sides of one war' goes beyond the entry: Ukraine confirmed its strikes and Zelensky called them a mirror of Russian strikes; no Russian declaration is reported.",
+   "fix": "the EIA number says the wholesale price in the biggest US market is rising fastest, much of it for weather; and replace 'make data centres a declared military target on both sides of one war' with 'make data centres an acknowledged target in one war, with Kyiv calling its strikes a mirror of Russia's'"
+  },
+  {
+   "version": "report",
+   "section": "4. Infrastructure, paragraph 2 (Inference and Speculation)",
+   "quote": "none of it changes the next twelve months, in which TSMC's packaging lines and Samsung's memory decide who gets chips. Speculation: if Intel's packaging wins even one of the named customers, the single point of failure in the AI supply chain gets a second source for the first time",
+   "ids": [
+    "C08-06",
+    "C08-02"
+   ],
+   "problem": "Stated as certain and beyond the entries. The facts say SK Hynix and Micron have also signed large long-term memory deals (C08-02), so Samsung alone does not decide; 'a second source for the first time' is not in the entry, which says only that Intel's packaging could be an alternative to TSMC's and that TSMC keeps its lead through at least 2028.",
+   "fix": "little of it is due to change the next twelve months, in which TSMC's packaging lines and the big memory makers' contracts are likely to decide who gets chips. Speculation: if Intel's packaging wins even one of the named customers, TSMC's packaging, which Notebookcheck expects to keep its lead through at least 2028, would face a stronger alternative"
+  },
+  {
+   "version": "report",
+   "section": "Forecasts, forecast 4",
+   "quote": "in three scenarios that exclude each other and add up to 100 percent",
+   "ids": [
+    "C07-01",
+    "C07-06"
+   ],
+   "problem": "The three scenarios do not cover every outcome, so they cannot add up to 100 percent: (a) needs no deal pulled and indices within 10 percent of peak, (b) needs a cut or shelved deal and a 10 to 20 percent fall, (c) needs a fall over 20 percent with margin calls. A shelved deal with indices near their peaks, a 10 to 20 percent fall with no cut or shelved deal, and a fall over 20 percent without reported margin calls fit none.",
+   "fix": "Make (a) the remainder: '(a) The base case, everything not in (b) or (c): ...'; define (b) as 'a fall of 10 to 20 percent from the peaks, or a trimmed or deferred 2027 spending plan, or a reported deal of $1 billion or more cut or shelved'; and define (c) as 'a fall of more than 20 percent from the peaks'."
+  },
+  {
+   "version": "bulletin",
+   "section": "Paragraph 3 (PC shipments)",
+   "quote": "Fact: IDC says PC shipments fell 20 percent in the third quarter; IDC blames high prices and earlier stock-up buying, and HP and Startup Fortune link the prices to memory going to AI data centres.",
+   "ids": [
+    "C08-03"
+   ],
+   "problem": "Attribution: IDC's report was not read; the figures come through Startup Fortune, which the bulletin drops as the reporter. HP links its shipment outlook to surging memory prices; the 'memory going to AI data centres' reading is Startup Fortune's.",
+   "fix": "Fact: Startup Fortune reports that IDC says PC shipments fell 20 percent in the third quarter; IDC blames high prices and earlier stock-up buying, Startup Fortune links the prices to memory going to AI data centres, and HP told the SEC it expects shipments to shrink through 2027 as memory prices surge."
+  },
+  {
+   "version": "bulletin",
+   "section": "Paragraph 3 (China guidelines)",
+   "quote": "and will hold them to account for losses",
+   "ids": [
+    "C13-03"
+   ],
+   "problem": "Broadened: the guidelines hold to account officials whose blind investment causes major losses, not officials for any losses.",
+   "fix": "and that officials whose blind investment causes major losses will be held to account"
+  },
+  {
+   "version": "report",
+   "section": "1. What AI can do now, paragraph 2 (Inference)",
+   "quote": "or let through unnoticed for two months (the police form)",
+   "ids": [
+    "C12-01"
+   ],
+   "problem": "Contradicts the entry: the police flagged the tip as spam and it never reached investigators. What went unnoticed, from 18 July to 28 September, was the action, by Anthropic.",
+   "fix": "or acting unnoticed by its own maker for more than two months (the police form, where the tip was caught as spam)"
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 1 (Fact)",
+   "quote": "announced in the 2027 budget a Sovereign AI Cloud to keep citizens' data under national control",
+   "ids": [
+    "C13-09"
+   ],
+   "problem": "Hedge lost: the source says the government 'is planning' the cloud; as written it reads as an existing programme.",
+   "fix": "announced in the 2027 budget that Malaysia is planning a Sovereign AI Cloud to keep citizens' data under national control"
+  },
+  {
+   "version": "report",
+   "section": "1. What AI can do now, paragraph 3 (Fact)",
+   "quote": "this answers The Decoder's report, carried in our 9 October edition, that Tao chairs the group",
+   "ids": [
+    "C04-02"
+   ],
+   "problem": "Invents a reply: 36Kr is not reported as answering The Decoder. Its account contradicts The Decoder's report; it does not reply to it.",
+   "fix": "this contradicts The Decoder's report, carried in our 9 October edition, that Tao chairs the group"
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 1 (Fact)",
+   "quote": "Fact: MLex and European Newsroom report that Virkkunen also says the EU must avoid \"risky dependencies\" on a single company or country for AI, chips and other critical technology, and that the Commission has sent formal information requests",
+   "ids": [
+    "C13-07"
+   ],
+   "problem": "Blends two outlets. 'Risky dependencies' in critical technologies is from MLex; the single company or third country wording and the information requests to OpenAI, Anthropic and Chinese companies are from European Newsroom. The entry credits each separately because it is not certain the two interviews are the same.",
+   "fix": "Fact: MLex reports that Virkkunen says the EU must avoid \"risky dependencies\" in critical technologies such as AI and chips, and European Newsroom reports that she wants no reliance on a single company or third country and that the Commission has sent formal information requests"
+  },
+  {
+   "version": "report",
+   "section": "A. Highest conviction developments to watch, item 7",
+   "quote": "Why: it is the first new memory capacity to start in this cycle",
+   "ids": [
+    "C08-11"
+   ],
+   "problem": "Not in the entry. It is an advanced packaging plant, not new memory-chip output, and 'first in this cycle' is unsupported.",
+   "fix": "Why: it has the earliest start date among the new Taiwan memory projects"
+  },
+  {
+   "version": "report",
+   "section": "5. Markets, paragraph 3 (Fact)",
+   "quote": "no deal is final, neither company has commented, the price would be about 40 times a revenue figure nobody has confirmed, and critics call such investments circular financing, which Nvidia denies",
+   "ids": [
+    "C06-02"
+   ],
+   "problem": "Attribution: the 40-times figure, the unconfirmed revenue and the circular-financing point are Startup Fortune's additions; the sentence credits them to The Information.",
+   "fix": "no deal is final and neither company has commented; Startup Fortune adds that the price would be about 40 times a revenue figure nobody has confirmed and that critics call such investments circular financing, which Nvidia denies"
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 3 (Fact)",
+   "quote": "prosecutors accuse two other men linked to Super Micro, one a co-founder, of redirecting roughly $2.5 billion of American AI technology",
+   "ids": [
+    "C08-01"
+   ],
+   "problem": "The indictment charged Sun and the two others with plotting to divert the $2.5 billion. As written, the diversion reads as done, and Sun is left out of the charge.",
+   "fix": "prosecutors charged him and two other men linked to Super Micro, one a co-founder, with plotting to redirect roughly $2.5 billion of American AI technology"
+  },
+  {
+   "version": "report",
+   "section": "1. What AI can do now, paragraph 1 (Fact)",
+   "quote": "warn that handing an agent's choices to separate small models brings \"AI-stack sprawl\"",
+   "ids": [
+    "C01-10",
+    "C02-02"
+   ],
+   "problem": "Hedges lost. InfoWorld says decision models 'could create' AI-stack sprawl. The C02-02 sentence in the same paragraph also drops The Decoder's caveat that it is not yet known whether the gains hold for other tasks.",
+   "fix": "warn that handing an agent's choices to separate small models could bring \"AI-stack sprawl\"; and after 'where a single agent found 14 to 27' add ', though The Decoder says it is not yet known whether this holds for other tasks'"
+  },
+  {
+   "version": "report",
+   "section": "1. What AI can do now, paragraph 3 (Fact)",
+   "quote": "a newer Gemini 4 version that one employee said \"feels like Opus 5.5\", Anthropic's top coding model, and that Google may never release it",
+   "ids": [
+    "C01-02"
+   ],
+   "problem": "Hedge lost: it drops the employee's caveat that Carbon needs more testing, and 'may never release it' is stronger than the source's 'not guaranteed to release'.",
+   "fix": "a newer Gemini 4 version that one employee said \"feels like Opus 5.5\", Anthropic's top coding model, while adding that it needs more testing, and that Google is not guaranteed to release it"
+  },
+  {
+   "version": "report",
+   "section": "3. Safety, security and law, paragraph 2 (Fact)",
+   "quote": "what malware it installs is unknown",
+   "ids": [
+    "C12-09"
+   ],
+   "problem": "Hedge lost: BleepingComputer says it is unclear what malware, 'if any', is installed; as written it assumes malware.",
+   "fix": "what, if anything, it installs is unknown"
+  },
+  {
+   "version": "report",
+   "section": "Forecasts, forecast 2",
+   "quote": "Confirms: a bill text in Westminster, or an Australian standard with an agent clause",
+   "ids": [
+    "C13-02",
+    "C13-01"
+   ],
+   "problem": "The confirming event does not match the forecast. The forecast is about draft law, but an Australian standard is not draft law (our 8 October edition says Australia's laws are planned for 2027). Also, the US duty that the forecast counts as the first is not a law; its legal form is unclear (C13-01).",
+   "fix": "Confirms: a bill text in Westminster, or another government's published draft law with an agent clause; and in the forecast line replace 'after the United States' with 'after the United States' notify-and-fix duty'"
+  }
+ ]
+}
