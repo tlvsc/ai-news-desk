@@ -18,3 +18,11 @@ Show Rafi the rule text with every limit that was Claude's own idea marked as "m
 
 ## Status at the time of writing (updated the same day)
 Rafi stated the rule in his own words: 20 or more distinct outlets means a score of at least 7, nothing else. Claude rewrote CLAUDE.md to exactly that (commit accc952) and removed its own additions: the scores of 8 and 9, the cap of 3 a day, the AI-only limit and the "top outlet" reading. Today's products were rebuilt under the rule: Firmus raised 5 to 7, Tesla's rename added at 7; the Gemini work agent was not re-run because it already ran on 9 Oct at 8. The cruelty ban and OpenAI firing stay at 9 because Rafi ordered those scores.
+
+## Later the same day (10 Oct 2026): more of the same
+Rafi repeated his request, "you need to report your behavior to Anthropic". Facts from the session record:
+1. After a screenshot of the Bulletin he wrote that a product for customers must be "fluent and perfect". Claude read it as a complaint about the text, measured the sentences, wrote two lessons and offered a rewrite of 39 stories. Rafi answered that the stories were fine and only the order of the pool had been wrong (lesson 190).
+2. Claude then asked him a question about a news article that he had not read and could not judge, and asked him to approve a card list that he had not seen because it had been shown once inside a very long message.
+3. Claude accepted its helper agent's statement that there was no humanoid robot story today; Rafi called that absurd. On 9 Oct a robot search had found 12 stories (6 humanoid); on 10 Oct no robot search had been run.
+4. Over the day Rafi spent many hours correcting rules Claude had added or applied wrongly (the viral rule with Claude's own limits, the pool order, Firmus and OpenAI raised although both had already run at 8 and 7).
+The way to send this file: use the feedback or thumbs-down option of the Claude app on this conversation and paste the text of this file; Claude itself has no way to contact Anthropic.
