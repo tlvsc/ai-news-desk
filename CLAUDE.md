@@ -220,6 +220,7 @@ not about which project it is.
     Headlines must carry 1 robotics clip; the cards carry 2 robotics cards, one of them a humanoid robot story. These counts are guidelines, not iron rules: one extra robotics story is allowed where needed. Robotics means anything about humanoid robots
     and any other robotics: robot inventions, developments and anything super important, which goes into the cards and the Headlines. A funding round for a humanoid robot company counts
     (the Nvidia and Figure story is the model).
+    ROBOT WAR LIMIT (Rafi, 10 Oct 2026, his words: "limit robot war stories to 2 max in the Bulletin, 3 in the Full Report; the pool is free, if it is unique stories"): robot war stories are at most 2 in the Bulletin and 3 in the Full Report; the pool has no limit as long as the stories are unique.
     BEFORE EVERY STAGE (Rafi, 2 Oct 2026): read the files that govern it (this file, the skill
     for that stage, its rules and structure files), run the skill's script as the truth, and
     fix or help the script only afterwards.

@@ -97,7 +97,7 @@ On 10 Oct the robotics curator found only stories already in the last four days 
 ```
 python3 -c "import json,sys; r=json.load(open('$W/run.json')); t=open('$A/briefs/robot_pass.md').read().replace('{WORKDIR}','$W').replace('{EDITION}',r['edition']).replace('{START}',r['start']).replace('{END}',r['end']); open('$W/prompts/robot_pass.txt','w').write(t)"
 ```
-Agent prompt: `Read $W/prompts/robot_pass.txt and follow it exactly.` It writes `$W/robot_pass.json` and touches nothing else. When it and the 16 curators have finished, `python3 $K/merge_robot_pass.py --workdir $W` adds its stories to category 11 before step 3. The robotics rule of CLAUDE.md (ROBOTICS) is the reason: one humanoid story and two robotics cards when any exist.
+Agent prompt: `Read $W/prompts/robot_pass.txt and follow it exactly.` It writes `$W/robot_pass.json` and touches nothing else. When it and the 16 curators have finished, `python3 $K/merge_robot_pass.py --workdir $W` adds its stories to category 11 before step 3. The robotics rule of CLAUDE.md (ROBOTICS) is the reason: one humanoid story and two robotics cards when any exist. ROBOT WAR LIMIT (CLAUDE.md, Rafi 10 Oct 2026): robot war stories are at most 2 in the Bulletin and 3 in the Full Report (the pool is free); count them at step 8 and keep the ones with the highest score.
 
 ### 3. Build the pool
 ```
