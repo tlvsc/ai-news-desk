@@ -5,7 +5,7 @@
 
 One floor only (Rafi's words): 20 or more distinct outlets -> score at least 7 (so the story goes into the Bulletin). The category stays
 the one the curators give. No other tier, no cap, no extra limit. The candidate lists are already filtered to AI stories; if a cluster
-is plainly not about AI (a false match), the main session lists it in W/viral_exclude.json {"clusters": [N], "why": "..."} and says so to Rafi.
+is plainly not about AI (a false match), or the story already ran on an earlier day at 7 or more (no re-run), the main session lists it in W/viral_exclude.json {"clusters": [N], "why": "..."} and says so to Rafi.
 
 The sweep also prints the LOW SCORE, HIGH REACH list (pool score 4 or lower, 8 or more outlets) for Rafi to read with the delivery.
 Reads W/candidates/cand_*.json and W/candidates_55.json (title, source, link, published) and W/out/AIND_Pool_<edition>.json when it exists.
@@ -22,6 +22,7 @@ STOP = set('the a an of to in on for and with by at from as is are be its it tha
 
 def toks(t):
     t = re.sub(r' - [^-]{2,40}$', '', t.lower())
+    t = re.sub(r"['\u2018\u2019\"\u201c\u201d]", ' ', t)
     return frozenset(w for w in re.findall(r"[a-z0-9']{3,}", t) if w not in STOP)
 
 
