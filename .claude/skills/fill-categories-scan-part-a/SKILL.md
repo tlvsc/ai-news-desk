@@ -78,6 +78,14 @@ The 24 hours ending now (Rafi, 30 Sep 2026); `--hours 30` only when Rafi asks, f
 python3 $K/source_scan.py --workdir $W        # about 1 minute; 3 Oct 2026: 174 stories
 ```
 
+### 1c. Viral sweep (Rafi, 10 Oct 2026; CLAUDE.md VIRAL RULE; new script viral_sweep.py, flagged to Rafi as a new file)
+```
+python3 $K/viral_sweep.py sweep --workdir $W        # counts distinct outlets per story, prints floors and the LOW SCORE, HIGH REACH list
+```
+Pick at most 3 stories about AI from its list and write `$W/viral_picks.json` {"picks": [{"cluster": N, "note": "why it is about AI"}]}.
+Put each pick into `$W/prompt_extra.json` under "curate" for the category it belongs to (key "1" to "16"): "MUST INCLUDE, score at least <floor> (VIRAL RULE): <title> carried by <n> outlets, led by <top outlets>; take the best readable outlet; the score is not lowered for tone". A pick that ran on an earlier day at a lower score may run once more at its floor (the rule overrides NO OLD NEWS, NO UPDATE CARDS and NO REPEATS IN 7 DAYS for that one run); say so in the same line.
+Floors: 10 or more outlets 7, 20 or more 8, 30 or more (or 20 or more with 3 top outlets) 9. "Top outlet leading" is the script's reading (3 or more top outlets at 20 or more); Rafi to confirm.
+
 ### 2. Curate (16 agents in parallel, 5 to 10 minutes)
 ```
 python3 $K/make_prompts.py --workdir $W --stage curate        # 15 to 20 main picks, 3 backups; Fun 10
@@ -99,6 +107,7 @@ python3 $K/make_prompts.py --workdir $W --stage fill --cat NN --need K     # age
 python3 $K/merge_filler.py --workdir $W --cat NN && python3 $K/build_pool.py --workdir $W
 ```
 Never rebuild the pool after the writers have started: the item numbers shift. State the pool size.
+Viral check (CLAUDE.md VIRAL RULE): `python3 $K/viral_sweep.py check --workdir $W` must say "all floors met" before step 4: every pick is in the pool at or above its floor (if a pick is missing, append it by hand as on 10 Oct 2026: backup `out/` first, add the row to the pool JSON and CSV, add its chunk, run prefetch.py, and have one writer write that one item).
 
 ### 4. Decode links (background, 2 to 15 minutes)
 ```
@@ -127,6 +136,7 @@ Launch 16 background agents (model "sonnet", fillers too; CLAUDE.md MODEL POLICY
 `$W/report_entries/<id>.json` at the Full Report level of Article_phrasing_instructions_AIND_V1 (read before each entry).
 
 ### 7. First check (structure and data)
+Run `python3 $K/viral_sweep.py check --workdir $W` again after the writers: no entry of a viral pick may be below its floor (the writers cannot lower it; a writer's fact or date doubt goes to Rafi, not into a lower score).
 REPLY STORIES (Rafi, 4 Oct 2026): "reply_without_earlier_story" lists entries that answer an earlier story
 without naming it; add who answers whom and what the earlier story said, from the facts or the follow_up_of item.
 ```
@@ -188,7 +198,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
 
 ### 13. Deliver, save, then start part B
 1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF, the pool PDF,
-   the pool CSV. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
+   the pool CSV. Also send the LOW SCORE, HIGH REACH list that viral_sweep.py prints (CLAUDE.md VIRAL RULE: a 3 or 4 is not final for a story with wide reach) and the viral picks with their floors. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
    bulletin's category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
 2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products, the one exception to rule 0):
 ```
