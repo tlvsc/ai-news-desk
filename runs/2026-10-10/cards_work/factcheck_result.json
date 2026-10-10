@@ -1,0 +1,206 @@
+[
+ {
+  "where": "s1 body (C13-03)",
+  "pass": false,
+  "problem": "Stronger claim: the entry and facts call the document 'guidelines' that 'set direction and do not yet show how accountability will be enforced'; the card calls them 'New rules' and 'the rules say'.",
+  "fix": "New guidelines from the ruling party and cabinet warn against swarm-like rushes into high-tech investment. Officials whose blind investment causes big losses will be held to account, the guidelines say."
+ },
+ {
+  "where": "s2 (C06-01)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "$7.5 billion, $870 million and Andreessen Horowitz lead match; 'a third of big US firms' = the company's Fortune 500 claim, doubt kept."
+ },
+ {
+  "where": "s3 (C12-01)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "July test (18 July), spam, over two months (found 28 Sep) all match."
+ },
+ {
+  "where": "s4 (C12-02)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "'reportedly' and 'insiders say' kept; 'within a year' = entry's six to 12 months."
+ },
+ {
+  "where": "s5 (C08-02)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "'most' = about 80%; 'reportedly' and unnamed industry officials kept."
+ },
+ {
+  "where": "s6 (C11-17)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Under $30,000, light loads, ten hours, body-only sale all attributed to the company, as in the entry and facts."
+ },
+ {
+  "where": "s7 (C11-18)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "45 soldiers, unit's own figures; 'most dangerous runs' is in the importance line and facts (soldiers to Kyiv Post)."
+ },
+ {
+  "where": "s8 head (C01-16)",
+  "pass": false,
+  "problem": "Named person without position in the same sentence ('Elon Musk of rocket and AI firm SpaceXAI' gives the company but not his post, chief executive); and 'ban on cruelty to Claude' drops the qualifier: the entry's ban covers only 'sustained and needless' cruelty in extreme cases.",
+  "fix": "SpaceXAI chief executive Elon Musk backs Anthropic's ban on needless cruelty to AI."
+ },
+ {
+  "where": "s8 body (C01-16)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Earlier story checked: 'As we reported yesterday' = our 9 Oct edition; ban on needless cruelty from November = entry (sustained and needless, effective 12 Nov). Reply checked: quote 'I think this is the right move' is exact and credited to Gizmodo. The card does not say Musk was answering a post by Box chief executive Aaron Levie; an omission, not an error."
+ },
+ {
+  "where": "s9 body (C01-03)",
+  "pass": false,
+  "problem": "Two overstatements: 'it needs a whole data centre' (entry: 'data-centre-scale systems'; facts: Nvidia says data-centre-scale multinode systems); and 'only one outlet has reported this so far' is not in the entry, which says only that our facts come from one secondary outlet.",
+  "fix": "Researchers can now inspect a huge Chinese model, though it needs data-centre-scale computers. Big commercial users face licence conditions, and we found only one outlet reporting it."
+ },
+ {
+  "where": "s10 (C04-07)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Pavel Rabtsevich has a position (product manager); the entry and facts name no organisation. TESS watches 31 Oct to 26 Nov, so 'in November' holds."
+ },
+ {
+  "where": "s11 (C08-01)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Thursday = 8 Oct (correct); about $2.5 billion credited to prosecutors, matching the entry's 'allegedly sent'."
+ },
+ {
+  "where": "s12 (C10-01)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Joseph Daval, former FDA lawyer, is not in the entry summary but is in facts/C10-01.json; 'may require ... public' matches the entry's 'must work in public'."
+ },
+ {
+  "where": "s13 (C14-04)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Facts: Xu acknowledged using AI and believed he acted within the rules, so 'believed AI was allowed' holds."
+ },
+ {
+  "where": "s14 (C14-05)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Agents' contract clauses are not in the entry summary but are in facts/C14-05.json key_facts; anonymous sourcing kept."
+ },
+ {
+  "where": "fun (C16-01)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "The first refusal ('I only answer questions about US government services') is in facts/C16-01.json quote_evidence; quiz trick matches the entry."
+ },
+ {
+  "where": "t1 (C02-01)",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t2 (C01-01)",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t3 (C10-02)",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t4 (C09-05)",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "'big batteries' = four-hour batteries, 'Study:' = Wood Mackenzie; slight generalisation of 'many data centre developers', not an error."
+ },
+ {
+  "where": "bp card",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Friday = 9 Oct (shares rose); 13 October = JPMorgan results and IMF reports, as in bigger_picture_bulletin.json; 'leaked' OpenAI figures match 'leaks, not accounts'."
+ },
+ {
+  "where": "C13-03 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C06-01 line",
+  "pass": false,
+  "problem": "Rounded-up number: 'nearly nine hundred million dollars' for the entry's $870 million.",
+  "fix": "In finance. Start-up TypeSafe raised eight hundred and seventy million dollars for an A I that gives odds instead of words, so firms may let machines choose."
+ },
+ {
+  "where": "C12-02 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "'reportedly' kept; insiders' expectation within a year matches six to 12 months."
+ },
+ {
+  "where": "C11-17 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C01-16 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "Earlier story (Anthropic's ban on needless cruelty to Claude, reported yesterday = 9 Oct) and Musk's reply ('the right move', from 'I think this is the right move') match the entry; position and organisation given. Like the card, it does not say he was answering Aaron Levie's post."
+ },
+ {
+  "where": "C08-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C14-04 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "note": "'after experts said the cells looked fake' matches facts (Nikon disqualified after scientists said it looked fake)."
+ },
+ {
+  "where": "fun line (C04-07)",
+  "pass": false,
+  "problem": "Stronger claim: 'no astronomy training'; the entry and facts say 'no formal astronomy training'. (To stay within 40 syllables the fix drops 'in Spain', which is a cut, not an error.)",
+  "fix": "On a lighter note. A product manager with no formal astronomy training used A I to spot a possible planet, which NASA checks next month."
+ },
+ {
+  "where": "teaser line (C02-01, C09-05)",
+  "pass": false,
+  "problem": "Consequence not in the entry: 'hurting small firms'. The entry says only that Amazon asked Meta to remove its store, which affects small-business owners who wanted Muse to buy for them; it does not say Meta complied or that firms were harmed (the why_for_people 'now cannot' overstates the same way).",
+  "fix": "Also in the full report. Amazon wants Meta's helper for small firms off its store, and a study finds batteries cheaper than gas plants for data centres."
+ },
+ {
+  "where": "bp line",
+  "pass": false,
+  "problem": "Wrong attribution: 'China and a U N body warn of an A I bubble that debt could turn into a sell-off' gives both the debt-to-sell-off warning. Only the UN trade body (UNCTAD, C07-06) warned that borrowed money could spread a fall into a sell-off; China's guidelines (C13-03) warn against bubbles and blind investment and say nothing on debt. Tuesday = 13 Oct is correct.",
+  "fix": "And for the bigger picture: China warns of an A I bubble and a U N body says debt could spread a fall, so watch what JPMorgan says Tuesday on loans for shares."
+ }
+]

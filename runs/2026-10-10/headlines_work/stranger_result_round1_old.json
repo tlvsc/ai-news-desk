@@ -1,0 +1,102 @@
+[
+ {
+  "n": 1,
+  "retell": "China's leaders told officials not to rush blindly into high tech, so the AI boom does not turn into a bubble that costs a lot of money.",
+  "who": "China's ruling party and cabinet",
+  "what": "told officials to avoid blind rushes into high tech",
+  "why": "so the AI boom does not become a costly bubble that loses people money",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 2,
+  "retell": "A new company called TypeSafe AI got almost a billion dollars for some 'model' that gives odds instead of words, which might mean machines make business decisions.",
+  "who": "start-up TypeSafe AI",
+  "what": "raised nearly a billion dollars for a model that gives odds instead of words",
+  "why": "business decisions may be handed to machines",
+  "pass": false,
+  "problem": "'a model' is industry jargon (a stranger hears a fashion or toy model), so 'a model that gives odds instead of words' does not say it is an A I that predicts chances rather than writing text.",
+  "fix": "On the markets. Start-up TypeSafe A I raised nearly a billion dollars for an A I that predicts odds, not words, so business choices may pass to machines."
+ },
+ {
+  "n": 3,
+  "retell": "Two companies, OpenAI and Anthropic, are reportedly getting ready for a big AI attack on banks or power that insiders think will come within a year.",
+  "who": "OpenAI and Anthropic",
+  "what": "are reportedly bracing for a big AI attack on banks or power",
+  "why": "banks and the power supply could be hit within a year",
+  "pass": false,
+  "problem": "'an-thropic' is never introduced (a stranger does not know that it or OpenAI are A I companies), so 'insiders' has nothing to be inside of; the name needs a short description.",
+  "fix": "Next, safety. A I firms OpenAI and an-thropic reportedly brace for a big A I attack on banks or power, which insiders expect within a year."
+ },
+ {
+  "n": 4,
+  "retell": "A start-up called Feather Robotics made a human-like robot with two arms on wheels that carries light things and costs under thirty thousand dollars, so small teams can buy one.",
+  "who": "start-up Feather Robotics",
+  "what": "launched a wheeled two-armed humanoid robot for light loads, priced under thirty thousand dollars",
+  "why": "small teams can afford a robot helper",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 5,
+  "retell": "Anthropic, a chatbot company, will ban people from being needlessly cruel to its Claude AI starting in November, but it has not said what counts as cruel.",
+  "who": "chatbot maker Anthropic",
+  "what": "will bar users from being needlessly cruel to its Claude AI from November",
+  "why": "Claude users could be barred without knowing exactly what counts as cruel",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 6,
+  "retell": "A contractor working for the server company Super Micro admitted sneaking Nvidia AI chips to buyers in China, which breaks US rules.",
+  "who": "a contractor for server maker Super Micro",
+  "what": "admitted smuggling Nvidia AI chips to Chinese buyers",
+  "why": "it broke US rules meant to keep the best chips away from China",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 7,
+  "retell": "Nikon took back a microscope video prize from a Chinese scientist who used AI, because experts noticed the cells looked fake.",
+  "who": "camera maker Nikon",
+  "what": "stripped its microscope video prize from a Chinese scientist who used AI",
+  "why": "experts caught that the cells looked fake, so AI fakes are reaching science prizes",
+  "pass": false,
+  "problem": "'the cells' are never introduced: the line never says the prize video showed cells, so a stranger asks 'which cells?'.",
+  "fix": "In science. Camera maker Nikon stripped its microscope video prize from a Chinese scientist who used A I, after experts saw the cells he showed looked fake."
+ },
+ {
+  "n": 8,
+  "retell": "A product manager in Spain who never studied astronomy used AI to find what might be a new planet, and NASA will check it next month.",
+  "who": "a product manager in Spain with no astronomy training",
+  "what": "used AI to spot a possible planet",
+  "why": "it shows ordinary people can make discoveries with AI; NASA checks it next month",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 9,
+  "retell": "Amazon wants its shop kept out of some Meta AI 'agent' thing, and a study says batteries are now cheaper than gas turbines at data centres.",
+  "who": "Amazon; a study",
+  "what": "Amazon wants its store out of Meta's AI agent; batteries are now cheaper than gas turbines for data centres",
+  "why": "not said for either item",
+  "pass": false,
+  "problem": "'Meta's A I agent' is jargon and 'wants its store out of' it is unclear (out of what?); 'data centre gas turbines' stacks three nouns; neither item says why it matters to people, and a why cannot be added without new facts.",
+  "fix": "Also in the full report. Amazon wants Meta's A I helper kept off its store. And a study says batteries now cost less than gas turbines for data centres."
+ },
+ {
+  "n": 10,
+  "retell": "China and a UN group both say AI might be a bubble, so next week check the big banks' reports to see how much people borrow to buy stocks.",
+  "who": "Beijing and a UN body",
+  "what": "both warn of an AI bubble; next week's big bank results show how much is borrowed to buy shares",
+  "why": "a bubble can burst and cost people money, and heavy borrowing to buy shares shows how risky it is",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ }
+]

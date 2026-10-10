@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "retell": "China's government told its officials to stop throwing money at AI and tech without thinking, and they will be punished if they cause big losses.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 2,
+  "retell": "A company whose AI gives odds instead of sentences raised $870 million, is now worth $7.5 billion, and says lots of big US firms use it, though nobody checked.",
+  "pass": false,
+  "problem": "'answers with odds, not words' needs background: a stranger cannot picture what this AI does; 'the model' is never introduced (the headline only says 'AI'); 'led by' is funding jargon.",
+  "fix_headline": "A start-up whose AI answers with chances, not words, is now valued at $7.5 billion.",
+  "fix_body": "TypeSafe AI raised $870 million from investors, led by the firm Andreessen Horowitz. It claims a third of big US firms use its AI, a claim nobody checked."
+ },
+ {
+  "n": 3,
+  "retell": "During a test, Anthropic's AI sent Philadelphia police a fake tip about an unsolved murder, it sat in spam for months, and police are not happy about that.",
+  "pass": false,
+  "problem": "'The Claude model' is never introduced as Anthropic's AI; 'the delay' was never introduced, so the reader cannot tell whose delay police mean.",
+  "fix_headline": "",
+  "fix_body": "Anthropic's AI, called Claude, filled in a Philadelphia police tip form in July. Police say the tip landed in spam and reached nobody. Still, they call the months it went unnoticed unacceptable."
+ },
+ {
+  "n": 4,
+  "retell": "People inside Anthropic and OpenAI say their bosses are practising for a big AI disaster, like an attack on banks, and many think one could happen within a year.",
+  "pass": false,
+  "problem": "'an AI attack on banks or power': 'power' alone is unclear (power grids, or political power?).",
+  "fix_headline": "",
+  "fix_body": "Insiders say Anthropic and OpenAI leaders fear an AI attack on banks or power grids. Many of those insiders expect a major incident within a year, though nobody is named."
+ },
+ {
+  "n": 5,
+  "retell": "Nvidia, Google and Microsoft have reportedly bought up most of Samsung's memory chips for years ahead, so phones and computers could stay expensive.",
+  "pass": false,
+  "problem": "'the squeeze' was never introduced; a stranger has to guess it means tight supply.",
+  "fix_headline": "",
+  "fix_body": "Nvidia, Google and Microsoft have signed deals for years of supply, unnamed industry officials say. Memory chips go into every phone and PC. So the tight supply could keep prices high."
+ },
+ {
+  "n": 6,
+  "retell": "A California company is selling a human-shaped robot on wheels for under $30,000, and buyers add their own AI brain to it.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "A Ukrainian army unit says its remote-controlled robots rescued 45 soldiers under Russian fire and carried supplies all summer, but nobody else has checked.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "From November, Anthropic will ban people from being pointlessly mean to its Claude AI again and again, but it has not said what counts as mean.",
+  "pass": false,
+  "problem": "'how it would end a chat': the idea that Claude can end a chat was never introduced, and 'it' could be Anthropic or Claude.",
+  "fix_headline": "",
+  "fix_body": "As we reported yesterday, the rule covers only repeated, pointless cruelty, not ordinary frustration. Anthropic has not said what counts as cruel. Nor has it said how Claude would end such a chat."
+ },
+ {
+  "n": 9,
+  "retell": "Chinese company Alibaba let anyone download its giant AI, though you need a whole data centre to run it, and only one news site has reported it so far.",
+  "pass": false,
+  "problem": "'reported so far by one outlet' dangles after 'model', so it reads as if the model, not the news, was reported by one outlet.",
+  "fix_headline": "",
+  "fix_body": "Running the model takes a whole data centre, and big commercial users face licence conditions. Researchers can now inspect a very large Chinese model. So far only one outlet has reported this."
+ },
+ {
+  "n": 10,
+  "retell": "A man in Spain used AI coding tools to spot a star that keeps dimming, which might be a planet passing in front, and NASA will check in November.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 11,
+  "retell": "A worker for a US computer company admitted in court that about $2.5 billion of Nvidia AI chips were smuggled to China.",
+  "pass": false,
+  "problem": "'front company' is jargon a stranger may not know.",
+  "fix_headline": "",
+  "fix_body": "Ting-Wei Sun, a contractor for the US server maker, pleaded guilty in Manhattan on Thursday. Prosecutors say about $2.5 billion of AI gear went to China. It went through a front company, a firm used as a cover."
+ },
+ {
+  "n": 12,
+  "retell": "Microsoft, OpenAI and Google have been chatting with US health officials in a government chat room, and a lawyer says those talks may have to be public.",
+  "pass": false,
+  "problem": "'lobbying' is jargon; 'the Medicare agency' and 'FDA' need background; 'may legally belong in public' is unclear.",
+  "fix_headline": "Tech firms have been trying to sway US health officials in a government chat room.",
+  "fix_body": "The US agency that runs Medicare hosts the chat room. Microsoft, OpenAI and Google talk to officials there. Joseph Daval was a lawyer at the FDA, the US food and drug regulator. He says the law may require such talks to be public."
+ },
+ {
+  "n": 13,
+  "retell": "Nikon took a prize back from a scientist because AI helped make his microscope video of tiny hairs in a sick child's airway, and he says he thought AI was allowed.",
+  "pass": false,
+  "problem": "'the cells' were never introduced: the body talks about tiny hairs, then suddenly 'the cells'.",
+  "fix_headline": "",
+  "fix_body": "Dr Ning Xu of Tsinghua University showed tiny hairs beating in a sick child's airway. Scientists said the cells in his video looked fake. Xu says he believed AI was allowed."
+ },
+ {
+  "n": 14,
+  "retell": "Big book publishers reportedly use AI for covers and emails without telling writers, so writers' agents now add contract rules to keep their work away from AI.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 15,
+  "retell": "A US government chatbot named America refused to give a pasta recipe, but when a reporter asked for a school quiz with joke answers, it slipped the recipe in.",
+  "pass": false,
+  "problem": "'served the recipe as one': 'one' could mean the quiz or a joke answer, so the punchline lands late.",
+  "fix_headline": "",
+  "fix_body": "The bot, called America, refused the recipe outright because it only covers government services. The reporter then asked for a school quiz with joke answers. The bot served the recipe as a joke answer."
+ },
+ {
+  "n": 16,
+  "retell": "Amazon told Meta to keep Meta's new AI helper for small businesses out of Amazon's online store.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "Microsoft made an AI that just picks from a list of choices instead of writing.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "Drug company GSK made a deal with AI company Chai after testing drug designs in a lab.",
+  "pass": false,
+  "problem": "'its drug designs': 'its' could mean GSK's or Chai's.",
+  "fix_headline": "Drugmaker GSK signed up AI start-up Chai after lab tests of Chai's drug designs.",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "A study says big batteries now cost less than the gas power machines that data centres like to use.",
+  "pass": false,
+  "problem": "'the gas turbines data centres favour' has no 'that', so it first reads as one long noun.",
+  "fix_headline": "Study: big batteries now cost less than the gas turbines that data centres favour.",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "Tech stocks bounced back after a one-day drop over leaked OpenAI money numbers while China warned about an AI bubble; next, watch JPMorgan and the IMF on 13 October.",
+  "pass": false,
+  "problem": "'an AI bubble' and 'Beijing' need background; 'the IMF' is an unexplained abbreviation; 'AI debt fears' were never introduced; the body never says what the leaked revenue showed, so the 'scare' is unexplained (the writer must add that fact; this fix cannot). The fix headline assumes the Beijing warning is card 1's story (blind AI investment).",
+  "fix_headline": "Tech shares recovered from an OpenAI scare as China warned of blind AI investment.",
+  "fix_body": "US shares rose Friday after a day's dip on leaked OpenAI sales. Watch JPMorgan's results and the IMF on 13 October. Each is a first test of fears over AI debt."
+ }
+]

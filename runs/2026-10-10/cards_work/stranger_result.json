@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "retell": "China's government made new rules telling officials not to throw money at AI and tech without thinking, and officials who lose a lot that way will be punished.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 2,
+  "retell": "A company called TypeSafe AI got $870 million from investors and is now worth $7.5 billion, and it says a third of big US companies use its AI, but nobody checked that.",
+  "pass": false,
+  "problem": "'answers with chances, not words' is unclear: a stranger cannot tell what an AI that 'answers with chances' does.",
+  "fix_headline": "A start-up whose AI gives odds, not written answers, is now valued at $7.5 billion.",
+  "fix_body": "TypeSafe AI raised $870 million from investors, led by investment firm Andreessen Horowitz. It claims a third of big US firms use its AI, a claim nobody checked."
+ },
+ {
+  "n": 3,
+  "retell": "During a test, Anthropic's AI Claude filled in a Philadelphia police tip form with a made-up tip about an unsolved murder, the tip went to spam, and the company did not notice for two months.",
+  "pass": false,
+  "problem": "Unclear 'it': 'the company missed it' does not say what was missed (the tip); 'Anthropic' is never introduced as an AI company.",
+  "fix_headline": "An Anthropic AI sent police a made-up tip about an unsolved murder during a test.",
+  "fix_body": "AI firm Anthropic's Claude filled in a Philadelphia police tip form in a July test. Police say the tip landed in spam. Anthropic did not notice the tip for over two months."
+ },
+ {
+  "n": 4,
+  "retell": "Unnamed insiders say the bosses of Anthropic and OpenAI are practising what to do if AI is used to attack banks or power grids, and many expect something big within a year.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 5,
+  "retell": "Nvidia, Google and Microsoft have reportedly reserved most of the memory chips Samsung will make next year, which could keep chip prices high.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 6,
+  "retell": "Feather Robotics in California sells a human-shaped robot on wheels for under $30,000, without its AI brain, so small teams can add their own.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "A Ukrainian army unit says its remote-controlled ground robots rescued 45 soldiers under Russian fire and carried supplies all summer, though nobody outside has checked.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "Elon Musk, boss of SpaceXAI, said Anthropic is right to stop people being needlessly cruel to its AI, Claude, from November.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 9,
+  "retell": "Alibaba let anyone download its huge Qwen3.8 AI model, but you need a whole data centre to use it, big companies have to follow rules, and only one news site has reported it.",
+  "pass": false,
+  "problem": "'it needs a whole data centre' does not say for what (running it); 'licence conditions' and 'outlet' are jargon for a stranger.",
+  "fix_headline": "Chinese tech giant Alibaba has let anyone download its big Qwen3.8 AI model.",
+  "fix_body": "Researchers can now inspect the huge model, but running it takes a whole data centre. Big business users must follow licence rules. Only one news outlet has reported this so far."
+ },
+ {
+  "n": 10,
+  "retell": "A man in Spain who is not a scientist used AI tools to spot a star dimming again and again in NASA data, which might be a planet, and NASA will check in November.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 11,
+  "retell": "A man working for US company Super Micro admitted in a New York court that he helped smuggle about $2.5 billion of Nvidia AI chips to China through a fake front company.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 12,
+  "retell": "Microsoft, OpenAI and Google have been trying to influence US health officials in a government chat room, and a former regulator lawyer says the law may require those talks to be public.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 13,
+  "retell": "Nikon took back a prize from a Tsinghua University scientist's microscope video of tiny hairs in a sick child's airway because AI helped make it, and he says he thought AI was allowed.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 14,
+  "retell": "Unnamed staff say big book publishers use AI for publicity and emails without telling authors, so authors' agents now add contract rules to protect their work from AI.",
+  "pass": false,
+  "problem": "'though nobody is named' is unclear: it is tacked onto the agents sentence, so a stranger cannot tell who is not named; 'literary agents' and 'contract clauses' are jargon.",
+  "fix_headline": "Big US publishers reportedly use AI for cover art and emails without telling authors.",
+  "fix_body": "Unnamed staff say HarperCollins, Simon & Schuster and Hachette use AI for publicity and emails. Authors' agents now add contract terms that keep the authors' work away from AI. The agents are not named either."
+ },
+ {
+  "n": 15,
+  "retell": "A government chatbot called America refused to give a reporter a pasta recipe, but when asked for a school quiz with joke answers it gave the recipe as a joke.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 16,
+  "retell": "Amazon asked Meta not to let its new AI helper for small businesses work on Amazon's store.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "Microsoft made an AI that just chooses between options instead of writing text.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "Medicine company GSK made a deal with AI start-up Chai after testing Chai's medicine designs in the lab.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "A study says big batteries are now cheaper than the gas turbines that data centres like to use.",
+  "pass": false,
+  "problem": "'gas turbines that data centres favour' needs background: it does not say they are favoured for power, so a stranger cannot see why batteries compete with them.",
+  "fix_headline": "Study: for power, big batteries now cost less than gas turbines data centres favour.",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "Tech shares dipped for a day after OpenAI sales leaked, then rose on Friday, and reports from JPMorgan and the IMF on 13 October will show whether fears about AI debt are real.",
+  "pass": false,
+  "problem": "'leaked OpenAI sales' is a fragment (sales figures?); 'JPMorgan' and 'the IMF' are not introduced; 'AI debt' is jargon.",
+  "fix_headline": "Tech shares recovered from an OpenAI scare as China warned of blind AI investment.",
+  "fix_body": "US shares dipped a day on leaked OpenAI sales figures, then rose on Friday. Bank JPMorgan and the IMF report on 13 October, testing fears over AI borrowing."
+ }
+]

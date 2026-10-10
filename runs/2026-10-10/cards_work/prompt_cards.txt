@@ -1,0 +1,13 @@
+# Task: wording for the cards deck (Cards, the reader level and the writing shape in its product section of WORKDIR/rules/Article_phrasing_instructions_AIND_V1.txt (the only place they are set))
+First read WORKDIR/cards_work/wording_common.txt and WORKDIR/cards_work/selection.json (cards_in_deck_order, teaser_items, bp_refs). WORKDIR = /tmp/claude-0/-home-user-ai-news-desk/df59d67d-a5b7-5aa2-97f7-5f66358ede71/scratchpad/run_2026-10-10. Style example from an earlier deck: none (aim simpler and shorter than any dense body there).
+Write WORKDIR/cards_work/cards_copy_fable.json:
+{"stories":[{"card":"s1","item":"...","head":"...","body":"..."}, ... one per card in cards_in_deck_order including "fun"],
+ "teaser":[{"id":"t1","item":"...","head":"..."}, ... one per teaser item],
+ "bp":{"head":"...","body":"..."}}
+Limits (the renderer refuses text that does not fit):
+- Story card head: one sentence, at most 85 characters (three lines). Prefer 70 to 85.
+- Story card body: exactly TWO sentences, at most 230 characters: what actually happened in real-world terms, then why it matters or the honest doubt (who says it, what is unconfirmed). Each sentence at most 15 words.
+- Teaser line: one short sentence, at most 90 characters, the deed first.
+- Bigger Picture card ("And for the bigger picture" card, label AIND): head one sentence of at most 85 characters that sums up the big thing happening that moves the market today; body at most 160 characters in two short sentences: what happened, then what to watch AND why. Source: WORKDIR/bigger_picture_bulletin.json and the entries named in bp_refs only (CLAUDE.md rule 17).
+- The Fun card: light tone, still precise, same limits as a story card.
+Validate with python json.load. Final message: one line only ("cards wording written").

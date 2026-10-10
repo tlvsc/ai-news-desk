@@ -1,0 +1,18 @@
+{
+ "round": 2,
+ "locked": [
+  "C13-03",
+  "C08-01"
+ ],
+ "note": "ROUND 2 (Rafi: let Fable fix, finish). The reasons are in three files, read them all: headlines_work/rules_result.json (fails: C01-16, teaser, bp), headlines_work/stranger_result.json (fails n=2 C06-01, n=5 C01-16, n=10 bp), cards_work/factcheck_result.json (fails: s1, s8, s9, C06-01 line, fun line, teaser line, bp line), cards_work/stranger_result.json (card fails 2, 3, 9, 14, 19 (teaser t4), 20 (bp card)). The checkers' 'fix' texts are suggestions only; write your own, simple, short, facts only from the entry.",
+ "fail": {
+  "C06-01": "fact: entry says 870 million, say 'eight hundred and seventy million dollars' not 'nearly nine hundred'; stranger: say what the A I does in plain words (it gives odds, e.g. the chance something happens) and what firms may let it decide.",
+  "C01-16": "rules: 'SpaceXAI' must be spelled 'Space X A I' in the spoken line; line shape: do not bury 'we reported yesterday' inside a long subject; 44 real syllables is the limit and the script counts SpaceXAI, cruelty, replied too short, so aim 38 to 40 by script. Must still say it follows yesterday's story on the ban (who is banned: users of Claude), name Musk with position (chief executive of SpaceXAI) and his reply. Stranger: say who is banned from cruelty. A why for people if the entry has one.",
+  "fun": "fact only: 'no astronomy training' must read 'no formal astronomy training'. Change nothing else.",
+  "teaser": "rules: must say it is an A I agent (use 'A I'); do NOT say 'hurting small firms' or that Meta complied: the entry says Amazon asked Meta to take its store out of Meta's A I agent that buys for small businesses. Keep the battery item; plain words.",
+  "bp": "attribution: only the U N trade body warned that borrowed money could spread a fall into a wider sell-off; China's guidelines warned against blind investment and bubbles and say nothing on debt. Spell 'J P Morgan'. Plain words not 'loans for shares'. Real syllables at most 44 (JPMorgan counts four, J P Morgan six, count by hand), the script count must also pass. Add why the watch item matters. Keep 'And for the bigger picture' opening."
+ },
+ "cards": {
+  "note": "cards_work/cards_copy_fable.json: body exactly two sentences, at most 230 chars, each sentence at most 15 words, at most one number per sentence (Bigger Picture body at most 160 chars); head at most 85 chars. Fix ONLY: s1 (say 'guidelines', not 'rules'), s2 (stranger: plain words for what the A I does), s3 (Anthropic introduced as an A I firm; say 'it' is the tip), s8 (Musk with position 'chief executive of SpaceXAI' in the head or body sentence, keep 'sustained, needless' hedge), s9 (data-centre-scale computers, 'we found only one outlet', not 'only one outlet has reported'; plain 'licence conditions'), s14 (who is not named: the staff; plain contract words), t4 teaser head (say batteries vs gas turbines for POWER), bp card (bank JPMorgan and the IMF introduced; AI borrowing in plain words). Squeeze into two sentences, never three; if a clarification does not fit, cut a lesser detail."
+ }
+}

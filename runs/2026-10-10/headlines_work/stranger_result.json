@@ -1,0 +1,102 @@
+[
+ {
+  "n": 1,
+  "retell": "China's government told its officials not to rush blindly into high tech, because it does not want the AI boom to turn into a bubble that loses lots of money.",
+  "who": "China's ruling party and cabinet",
+  "what": "told officials to avoid blind rushes into high tech",
+  "why": "so the AI boom does not become a costly bubble that wastes money",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 2,
+  "retell": "An AI company called TypeSafe got almost 900 million dollars for an AI that gives you odds instead of words, so companies might let machines choose things.",
+  "who": "AI start-up TypeSafe",
+  "what": "raised nearly 900 million dollars for an AI that gives odds instead of words",
+  "why": "firms may let machines choose, but choose what is not said",
+  "pass": false,
+  "problem": "\"an A I that gives odds instead of words\" needs background (odds of what? instead of which words?), and \"let machines choose\" has no object, so the why for ordinary people stays vague.",
+  "fix": "In finance. A I start-up TypeSafe raised nearly nine hundred million dollars for an A I that gives odds, not text, so firms may let it make decisions."
+ },
+ {
+  "n": 3,
+  "retell": "OpenAI and Anthropic are reportedly getting ready for the public anger that would follow an AI disaster, which people inside the industry expect within a year.",
+  "who": "AI firms OpenAI and Anthropic",
+  "what": "reportedly plan for the backlash to an AI disaster",
+  "why": "insiders expect an AI disaster within a year, which could affect everyone",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 4,
+  "retell": "A US company called Feather Robotics made a human-like robot on wheels that carries light things and costs under 30,000 dollars, so small teams could buy one.",
+  "who": "US start-up Feather Robotics",
+  "what": "launched a wheeled humanoid robot that carries light loads for under 30,000 dollars",
+  "why": "small teams could afford one",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 5,
+  "retell": "Elon Musk said Anthropic was right to ban needless cruelty to its Claude AI, something the show talked about yesterday, but I am not sure who is banned from being cruel.",
+  "who": "Elon Musk, chief executive of SpaceXAI",
+  "what": "said Anthropic's ban on needless cruelty to its Claude AI is the right move",
+  "why": "cannot tell from the line",
+  "pass": false,
+  "problem": "\"ban on needless cruelty to its Claude A I\" is a strange idea with no hint of who is banned or what it means; \"we reported yesterday\" sits after \"Claude A I\" so it is unclear what was reported; no why for ordinary people; about 44 syllables, the longest story line.",
+  "fix": "On chatbots. SpaceXAI chief Elon Musk backed an-thropic's ban on needless cruelty to its Claude A I, which we reported yesterday."
+ },
+ {
+  "n": 6,
+  "retell": "Someone working for the server company Super Micro admitted sneaking Nvidia AI chips to buyers in China, which breaks US rules meant to keep the best chips out of China.",
+  "who": "a contractor for server maker Super Micro",
+  "what": "admitted smuggling Nvidia AI chips to Chinese buyers",
+  "why": "it broke US rules that keep top chips from China",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 7,
+  "retell": "Nikon took back its microscope prize from a Chinese scientist because he used AI, after experts said the cells in his video looked fake.",
+  "who": "camera maker Nikon",
+  "what": "stripped a Chinese scientist of its microscope prize for using AI",
+  "why": "AI can make science images look real when they are fake",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 8,
+  "retell": "A product manager in Spain who never studied space used AI to find what might be a new planet, and NASA will check it next month.",
+  "who": "a product manager in Spain with no astronomy training",
+  "what": "used AI to spot a possible planet",
+  "why": "ordinary people can now make discoveries with AI; NASA checks it next month",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 9,
+  "retell": "The full report has more: Amazon wants Meta's shopping helper off its store, which hurts small businesses, and a study says batteries are cheaper than gas plants for powering data centres.",
+  "who": "Amazon; a study",
+  "what": "Amazon wants Meta's shopping helper off its store; the study finds batteries cheaper than gas plants for data centres",
+  "why": "small firms get hurt; cheaper power for data centres",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "n": 10,
+  "retell": "China and a UN group warn that AI might be a bubble and that debt could make people sell in a panic, and we should watch what JPMorgan says on Tuesday about loans for shares.",
+  "who": "China and a UN body; bank JPMorgan",
+  "what": "warn of an AI bubble that debt could turn into a sell-off; JPMorgan speaks Tuesday on loans for shares",
+  "why": "not clear why JPMorgan's words on Tuesday matter to me",
+  "pass": false,
+  "problem": "\"an A I bubble that debt could turn into a sell-off\" folds two finance ideas into one clause; \"loans for shares\" is jargon; the \"watch\" item does not say why it matters to ordinary people (the link between debt and loans to buy shares is left for the viewer to work out).",
+  "fix": "And for the bigger picture: China and a U N body warn debt could turn an A I bubble into a sell-off, so watch what bank JPMorgan says Tuesday about loans to buy shares."
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {"clip": "C13-03", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C06-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C12-02", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-17", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C01-16", "pass": false,
+  "broken": [
+   {"rule": "G1.1", "why": "'SpaceXAI' is an acronym written without spaces in a spoken line, so the voice may read it as one word. The spoken form is 'Space X A I' (the same rule failed 'ChatGPT' on 9 Oct)."},
+   {"rule": "Headlines shape (phrasing file) and Section 1 item 6, first hearing", "why": "Too many descriptions are stacked on 'ban': 'an-thropic's ban on needless cruelty to its Claude A I we reported yesterday is the right move' hides 'we reported yesterday' inside a long subject, so a first-time listener loses the thread. The line also runs 44 real syllables (10.0 s, the maximum). The script counts 41 because it counts 'SpaceXAI', 'cruelty' and 'replied' too short. The fix names the earlier story first, in the REPLY STORIES pattern ('yesterday we carried ...'), and has 41 syllables."}
+  ],
+  "fix": "On chatbots. Yesterday we reported an-thropic's ban on needless cruelty to its Claude A I, and Space X A I chief Elon Musk replied it is the right move."},
+ {"clip": "C08-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-04", "pass": true, "broken": [], "fix": ""},
+ {"clip": "fun", "pass": true, "broken": [], "fix": ""},
+ {"clip": "teaser", "pass": false,
+  "broken": [
+   {"rule": "1B WHAT", "why": "'Meta's shopping helper' never says it is an A I agent. The item loses its news angle (Amazon refusing an A I agent that buys for small firms), and the clip says 'A I' nowhere, so a stranger cannot tell it is A I news."},
+   {"rule": "1A", "why": "'hurting small firms' is stronger than the entry. Amazon only asked Meta last week to remove its store, and the entry does not say Meta did. The entry says only that the refusal 'affects' owners who wanted Muse to buy for them."}
+  ],
+  "fix": "Also in the full report. Amazon wants Meta's A I helper for small firms off its store. And a study finds batteries cheaper than gas plants for data centres."},
+ {"clip": "bp", "pass": false,
+  "broken": [
+   {"rule": "CLAUDE.md 16 CLIP SECONDS", "why": "46 real syllables is 10.5 s, over the 10 s maximum (44 syllables). The script counts 44 because it reads 'JPMorgan' as two syllables, but it is spoken J-P-Mor-gan, four."},
+   {"rule": "G1.1", "why": "'JPMorgan' is an acronym written without spaces. The spoken form is 'J P Morgan'."},
+   {"rule": "1A and 1B (attribution)", "why": "'China and a U N body warn of an A I bubble that debt could turn into a sell-off' gives the debt warning to China as well. In the entry only the U N trade body warns that borrowed money could spread a fall into a wider sell-off; China's guidelines do not mention debt."},
+   {"rule": "B2 and G1.3", "why": "'loans for shares' is not plain English: the entry says loans to buy shares. One 35-word sentence also carries two ideas, the warning and the thing to watch."}
+  ],
+  "fix": "And for the bigger picture: China and a U N body warn of an A I bubble. Watch what bank J P Morgan says Tuesday on loans to buy shares, which could deepen a fall."}
+]

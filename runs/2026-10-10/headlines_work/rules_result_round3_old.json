@@ -1,0 +1,20 @@
+[
+ {"clip": "C13-03", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C06-01", "pass": false,
+  "broken": [
+   {"rule": "G1.2", "why": "TypeSafe is worth seven and a half billion dollars, under one hundred billion, so it needs a two to three word tag; 'Start-up TypeSafe' gives it only one word (the earlier version said 'A I start-up TypeSafe'). The fix restores the tag and swaps 'an A I' for 'software' so the line stays at 41 syllables by hand (9.3 s), the same as now."}
+  ],
+  "fix": "In finance. A I start-up TypeSafe raised eight hundred and seventy million dollars for software that gives the odds of things happening, so firms may let it make choices."},
+ {"clip": "C12-02", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C11-17", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C01-16", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C08-01", "pass": true, "broken": [], "fix": ""},
+ {"clip": "C14-04", "pass": true, "broken": [], "fix": ""},
+ {"clip": "fun", "pass": true, "broken": [], "fix": ""},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": ""},
+ {"clip": "bp", "pass": false,
+  "broken": [
+   {"rule": "G1.3 and the Headlines shape (two full natural sentences)", "why": "One sentence carries two ideas, the U N warning and the thing to watch, joined by 'so watch'; round 2 failed the same construction. 'warns loans to buy shares' also reads as 'warns the loans' on first hearing. The fix splits the two ideas and adds 'that', keeping the same 41 syllables by hand (9.3 s)."}
+  ],
+  "fix": "And for the bigger picture: a U N body warns that loans to buy shares could spread an A I fall across markets. Watch what bank J P Morgan says Tuesday on those loans."}
+]

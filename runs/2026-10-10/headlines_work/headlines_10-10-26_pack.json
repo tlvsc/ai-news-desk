@@ -1,0 +1,151 @@
+{
+ "edition": "2026-10-10",
+ "date_title": "SAT 10 OCT 2026",
+ "lane": "VL1",
+ "prompt_file": "Headlines_prompt_for_comfy_json.txt (exact wording supplied by Rafael, 26 Sep 2026), plus the hologram border line asked for by Rafael on 30 Sep 2026",
+ "cues": {
+  "N-vidia": "Nvidia",
+  "Kawa saki": "Kawasaki",
+  "an-thropic": "Anthropic"
+ },
+ "rate_syllables_per_second": 4.4,
+ "floor_seconds": 0,
+ "hold_seconds": 0,
+ "ending": "stored approved ending, appended in post; not rendered in this file",
+ "bigger_picture": {
+  "state": "generated_in_C11",
+  "category": "The Bigger Picture",
+  "source": "AI News Desk",
+  "position": "slot 11, after teaser, before the ending"
+ },
+ "format": "13-slot template: C01 opening (Rafi's words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi's wording, 2 Oct 2026). Each clip aims at 8 seconds and may not pass 10 (Drive Headlines Master Section B item 1, 5 Oct 2026). Box times round up to the next half second.",
+ "review_status": "Spoken lines follow the Drive phrasing file Headlines section (who, what and why in one flowing sentence, syllables the measure), checked by check_wording.py, check_headlines_rules.py, a stranger check and a rules agent; approved by Rafael.",
+ "source_check": "Story lines were written from the Full Report entries of 2026-10-10. Outlets are shown on screen, never spoken.",
+ "generation_authorized": false,
+ "slots": [
+  {
+   "slot": 1,
+   "kind": "opening",
+   "state": "bypass",
+   "category": "New opening option",
+   "item": "opening",
+   "script": "Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!",
+   "symbol": "timeline: logo 0 to 0.5 s, empty screen 0.5 to 3 s, earth with electric logo 3 to 7 s, logo back 7.5 to 11.5 s",
+   "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place. Hologram screen timeline, clip length 11.5 seconds, speech starts at 0 seconds. 0.0 to 0.5 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 0.5 to 3.0 seconds: the logo fades out slowly; the screen stays empty, plain blue glass with its thin glowing blue border, no picture, no text. 3.0 to 7.0 seconds: a glowing earth appears in the centre of the screen, and the electric logo line runs around the globe in one steady circle; no letters, no numbers, no flags. 7.0 to 7.5 seconds: the earth fades out and the original logo fades back in at the exact same size, position and brightness as the start frame. 7.5 to 11.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, positive: \"Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!\" at the last second of the speech, when  it is the end of the sentence he puts his hands on the table and go back to the same position he started <reference image 01>.\nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk.\nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin.\nAudio: the anchor's voice only, with quiet professional studio ambience. No music.\nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
+   "source": "AI NEWS DESK",
+   "note": "Rafi, 2 Oct 2026: his wording and screen timing (New Desk read as News Desk). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_opening_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
+   "stored_clip": "AIND_opening_option4_2026-10-03_VL1_1088.mp4",
+   "stored_clip_where": "Headlines Master Permanent Assets / openings / 2026-10-03, Drive 1rDhcSPq910bxg14kbSAbKP9Lg-QM4ylJ, 2,734,509 bytes"
+  },
+  {
+   "slot": 2,
+   "kind": "story",
+   "category": "Politics",
+   "item": "C13-03",
+   "symbol": "photorealistic news footage: a slow aerial shot over a brand-new high-tech industrial park on the edge of a Chinese city, rows of identical glass office towers and half-finished server halls with cranes still on them, wide empty boulevards between them, grey smog light, no people, no signs, no readable text",
+   "script": "From Beijing. China's ruling party and cabinet told officials to avoid blind rushes into high tech, so the A I boom does not become a costly bubble.",
+   "source": "Reuters"
+  },
+  {
+   "slot": 3,
+   "kind": "story",
+   "category": "Business",
+   "item": "C06-01",
+   "symbol": "photorealistic news footage: the glass front of a Silicon Valley start-up office at dusk, then inside a bright trading-style floor where staff seen from behind watch a large wall display of green and red probability bars rising and falling, no readable words, numbers or logos",
+   "script": "In finance. A I start-up TypeSafe raised eight hundred and seventy million dollars for software that gives the odds of things happening, so firms may let it make choices.",
+   "source": "TechCrunch"
+  },
+  {
+   "slot": 4,
+   "kind": "story",
+   "category": "Security",
+   "item": "C12-02",
+   "symbol": "photorealistic news footage: a bank branch's row of cash machines at night with every screen gone black and a queue of people seen from behind, then a city skyline where whole blocks of windows go dark one after another, no readable words or logos",
+   "script": "Next, safety. A I firms OpenAI and an-thropic reportedly plan for the backlash to an A I disaster that insiders expect within a year.",
+   "source": "Axios"
+  },
+  {
+   "slot": 5,
+   "kind": "story",
+   "category": "Robotics",
+   "item": "C11-17",
+   "symbol": "photorealistic news footage: a white humanoid robot with two arms on a round wheeled base glides through a standard office doorway in a small start-up workshop, picks a cardboard box off a bench with both hands and sets it on a shelf, a touch screen on its chest showing only a plain blue glow, no readable words or logos",
+   "script": "In robotics. U S start-up Feather Robotics launched a wheeled humanoid that carries light loads for under thirty thousand dollars, so small teams could afford one.",
+   "source": "Assembly Magazine"
+  },
+  {
+   "slot": 6,
+   "kind": "story",
+   "category": "Models",
+   "item": "C01-16",
+   "symbol": "photorealistic news footage: over the shoulder of a person at a kitchen table at night, hands hammering a laptop keyboard, the chatbot window on the screen with blurred unreadable lines, then the conversation panel closing to a blank pale screen and the hands stopping, no readable words or logos, no face",
+   "script": "On chatbots. Yesterday we reported an-thropic's ban on users' needless cruelty to Claude. Space X A I chief executive Elon Musk replied it's the right move.",
+   "source": "CBS News"
+  },
+  {
+   "slot": 7,
+   "kind": "story",
+   "category": "Law",
+   "item": "C08-01",
+   "symbol": "photorealistic news footage: the stone steps and columns of the Manhattan federal courthouse on a grey morning with a few figures in dark coats seen from behind, then a dim warehouse where gloved hands lift a black rack-mounted A I server into a wooden shipping crate marked only with plain tape, no logos or readable words",
+   "script": "In court. A contractor for server maker Super Micro admitted smuggling N-vidia A I chips to Chinese buyers, breaking U S rules that keep top chips from China.",
+   "source": "Reuters"
+  },
+  {
+   "slot": 8,
+   "kind": "story",
+   "category": "Society",
+   "item": "C14-04",
+   "symbol": "photorealistic news footage: a research microscope in a university lab with a scientist's gloved hands at the focus wheel, and on the monitor beside it a magnified blue-tinted field of cells with tiny hair-like strands beating in a wave, then the image freezing and a hand lifting a small framed award off a shelf, no readable words or logos, no face",
+   "script": "In science. Camera maker Nikon stripped a Chinese scientist of its microscope prize for using A I, after experts said the cells in his video looked fake.",
+   "source": "BBC News"
+  },
+  {
+   "slot": 9,
+   "kind": "fun",
+   "category": "Fun",
+   "item": "C04-07",
+   "symbol": "photorealistic news footage: a young man seen from behind at a kitchen table in a Spanish apartment at night, a laptop showing a jagged light curve with regular dips and a star field, a coffee cup beside it, then a cut to a telescope dome opening under a clear starry sky and a small planet silhouette crossing a bright star, no readable words or numbers, no face",
+   "script": "On a lighter note. A product manager in Spain with no formal astronomy training used A I to spot a possible planet, which NASA checks next month.",
+   "source": "Gizmodo"
+  },
+  {
+   "slot": 10,
+   "kind": "teaser",
+   "category": "Teaser",
+   "item": "C02-01; C09-05",
+   "symbol": "photorealistic news footage: a cardboard parcel riding a conveyor belt through a huge fulfilment warehouse with workers in plain vests seen from behind, then a cut to rows of white shipping-container battery units in a fenced yard beside a long windowless data centre at sunset, no logos or readable words",
+   "script": "Also in the full report. Amazon wants Meta's A I agent that buys for small firms off its store. And a study finds batteries cheaper than gas plants for data centres.",
+   "source": "DAILY GLOBAL AI INTELLIGENCE REPORT"
+  },
+  {
+   "slot": 11,
+   "kind": "story",
+   "category": "The Bigger Picture",
+   "item": "desk analysis",
+   "symbol": "a glowing warning triangle sign that flashes the words \"This is not financial advice\" inside the blue border",
+   "script": "And for the bigger picture: a U N body warns that loans to buy shares could spread an A I fall across markets. Watch what bank J P Morgan says Tuesday on those loans.",
+   "source": "AI News Desk"
+  },
+  {
+   "slot": 12,
+   "kind": "unused",
+   "state": "bypass",
+   "title": "unused (seven stories from 2026-10-10)"
+  },
+  {
+   "slot": 13,
+   "kind": "ending",
+   "state": "bypass",
+   "category": "New ending option",
+   "item": "ending",
+   "script": "Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.",
+   "symbol": "timeline: logo 0 to 1 s, like follow share symbols 1.5 to 6 s, logo back 6.5 to 8.5 s",
+   "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place, with its thin glowing blue border always visible. Hologram screen timeline, clip length 8.5 seconds, speech starts at 0 seconds. 0.0 to 1.0 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 1.0 to 1.5 seconds: the logo fades out slowly. 1.5 to 6.0 seconds: three simple glowing text-free symbols side by side on the screen, for like, follow and share: a thumbs up, a person outline with a plus sign, and a share arrow; no letters, no numbers, no words. 6.0 to 6.5 seconds: the symbols fade out and the original logo fades back in at the exact same size, position and brightness as the start frame. 6.5 to 8.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, and with hands, body and head movements that fits the context: \"Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.\" at the end of the sentence he puts his hands on the table and move back to the same position he started <reference image 01>. \nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk. \nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin. \nAudio: the anchor's voice only, with quiet professional studio ambience. No music. \nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
+   "source": "AI NEWS DESK",
+   "note": "Rafi, 2 Oct 2026: his screen timing; approved wording kept; symbols text-free (15 Sep rule). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_ending_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
+   "stored_clip": "AIND_ending_option4_2026-10-03_VL1_1088.mp4",
+   "stored_clip_where": "Headlines Master Permanent Assets / endings / 2026-10-03, Drive 1OE4n8P0L4nt1PX6g0Vq8Me4V-YBoXdn-, 1,997,601 bytes"
+  }
+ ]
+}

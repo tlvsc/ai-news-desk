@@ -1,0 +1,112 @@
+[
+ {
+  "clip": "C13-03",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C06-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.2",
+    "why": "TypeSafe (valued at seven and a half billion dollars) gets only the one-word tag \"Start-up\"; it needs a two to three word tag such as \"A I start-up\"."
+   },
+   {
+    "rule": "1A",
+    "why": "\"nearly a billion dollars\" rounds eight hundred and seventy million up by a hundred and thirty million, stronger than the entry; \"nearly nine hundred million\" is accurate."
+   },
+   {
+    "rule": "B2a",
+    "why": "\"On the markets\" announces stock trading, but this is a private funding round; \"In finance\" (an intro Rafi lists) suits the subject."
+   }
+  ],
+  "fix": "In finance. A I start-up TypeSafe raised nearly nine hundred million dollars for a model that gives odds instead of words, so firms may let machines choose."
+ },
+ {
+  "clip": "C12-02",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1A",
+    "why": "Two facts made into one: the entry says an attack on banking, internet, power or water is the scenario they fear MOST, and separately that many insiders expect \"a major incident\" within six to twelve months; the line says insiders expect the bank or power attack within a year, which the entry does not say."
+   },
+   {
+    "rule": "1B WHAT",
+    "why": "The news is that they are rehearsing how to handle the public and political backlash after such a disaster; \"bracing for an attack\" loses that angle."
+   }
+  ],
+  "fix": "Next, safety. OpenAI and an-thropic reportedly plan for the backlash to a major A I disaster many insiders expect within a year."
+ },
+ {
+  "clip": "C11-17",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G1.2",
+    "why": "Feather Robotics (a small start-up) gets only the one-word tag \"Start-up\"; it needs two to three words, such as \"U S start-up\"."
+   },
+   {
+    "rule": "1A",
+    "why": "\"so small teams can afford one\" is stronger than the entry, which says the price could let small teams afford a robot body and that every figure is the company's own."
+   }
+  ],
+  "fix": "In robotics. U S start-up Feather Robotics launched a wheeled humanoid built to carry light loads for under thirty thousand dollars, so small teams could afford one."
+ },
+ {
+  "clip": "C01-16",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "CLAUDE.md 16 REPLY STORIES",
+    "why": "The entry is a follow-up (of 8 Oct) and says we carried this policy as a short item in our 9 Oct edition; the line does not name that earlier story. check_wording.py also fails it."
+   }
+  ],
+  "fix": "Back to yesterday's story. Chatbot maker an-thropic will bar users from needless cruelty to its Claude A I from November, but has not said what counts as cruel."
+ },
+ {
+  "clip": "C08-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C14-04",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY",
+    "why": "\"Amazon wants its store out of Meta's A I agent\" says what, not why it matters: a stranger cannot say who is affected. The entry: Amazon refuses to let Meta's agent act on its store, which hits the small firms that wanted it to buy for them."
+   }
+  ],
+  "fix": "Also in the full report. Amazon won't let Meta's A I agent shop its store for small firms. And a study finds batteries cheaper than data centre gas plants."
+ },
+ {
+  "clip": "bp",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY",
+    "why": "A thing to watch with no reason given: the line says to watch borrowing to buy shares but not why it matters; the U N warning in the entry is that borrowed money could turn a fall in A I shares into a wider sell-off."
+   },
+   {
+    "rule": "B2",
+    "why": "\"Beijing\" stands in for China's leaders; \"China\" is plainer. It also trips check_wording.py, which reads \"Beijing\" as an -ing side clause and fails the line."
+   }
+  ],
+  "fix": "And for the bigger picture: China and a U N body warn of an A I bubble. Watch what big banks say next week about loans to buy shares, which could deepen a fall."
+ }
+]

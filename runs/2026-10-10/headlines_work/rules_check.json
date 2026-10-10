@@ -1,0 +1,200 @@
+{
+ "fails": 0,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [0, 1, 3, 5, 7, 10, 12]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C02-01', 'C09-05'] from the teaser card ['C01-01', 'C02-01', 'C09-05', 'C10-02']"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C13-03 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-03 opens with a spoken introduction: \"from beijing\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-03 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C06-01 10.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C06-01 opens with a spoken introduction: \"in finance\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C06-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C12-02 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C12-02 opens with a spoken introduction: \"next, safety\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C12-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C11-17 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-17 opens with a spoken introduction: \"in robotics\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-17 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C01-16 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C01-16 opens with a spoken introduction: \"on chatbots\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C01-16 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C08-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C08-01 opens with a spoken introduction: \"in court\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C08-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C14-04 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C14-04 opens with a spoken introduction: \"in science\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C14-04 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "fun 10.0 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"on a lighter note\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "teaser 10.0 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report.\" (full stop, no colon)"
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "bp 9.5 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (2026-10-09)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'OpenAI': 1, 'Anthropic': 2}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Camera', 'China', 'Chinese', 'Claude', 'Elon Musk', 'Feather Robotics', 'From Beijing', 'Morgan', 'NASA', 'Next', 'Nikon', 'On', 'Space', 'Spain', 'Super Micro', 'Tuesday', 'TypeSafe', 'Yesterday']"
+  }
+ ],
+ "names_to_tag": [
+  "Camera",
+  "China",
+  "Chinese",
+  "Claude",
+  "Elon Musk",
+  "Feather Robotics",
+  "From Beijing",
+  "Morgan",
+  "NASA",
+  "Next",
+  "Nikon",
+  "On",
+  "Space",
+  "Spain",
+  "Super Micro",
+  "Tuesday",
+  "TypeSafe",
+  "Yesterday"
+ ]
+}
