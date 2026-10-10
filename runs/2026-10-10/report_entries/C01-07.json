@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "headline": "ByteDance researchers say memory compression in DeepSeek models makes them find information unevenly depending on where it sits in a long text.",
+ "score": 5,
+ "score_reason": "Kept at 5: a specific technical finding from a rival lab, with no outside review.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It may help explain why long-context AI tools sometimes miss facts, which matters to developers and users of long-document tools, but it is one team's paper with no outside review or DeepSeek response reported.",
+ "source": "TechNode",
+ "status": "PRELIMINARY",
+ "summary": "TechNode reports that ByteDance's Seed team traced uneven long-text recall in DeepSeek models to chunked KV-cache compression, which saves memory by packing runs of text into fewer stored entries: accuracy can differ by up to 40 percentage points depending on where information falls inside each packed group. The team calls this \"phase sensitivity\", reproduced it in models trained from scratch and says strong average benchmark scores can hide it.",
+ "url": "https://technode.com/2026/10/09/bytedance-researchers-identify-cause-of-inconsistent-long-context-retrieval-in-deepseek-models/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": ""
+}

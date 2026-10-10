@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "The developer of the Chinese AI security tool Artex says it will stop public updates and make the tool closed-source after South Korea linked it to bank hacks.",
+ "score": 6,
+ "score_reason": "Pool score kept: a follow-up with a concrete new step, but the link between tool and hacks is still described as highly likely, not proven, and copies stay available.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Bank customers in South Korea and possibly Japan are the people hit, and open-source AI security tools can be repurposed for attacks, but closing the code does not recall copies already downloaded and the link between the cases is still being established.",
+ "source": "TRT World",
+ "status": "REPORTED",
+ "summary": "TRT World reports that the developer of Artex, who goes by Autumn-27, said on GitHub on 8 October 2026 that the tool would no longer be updated and would be closed-source because of misuse, after South Korea's government said it was \"highly likely\" the tool was used in breaches at more than seven financial institutions affecting over 68,000 people. This follows the CrowdStrike report carried in our 8 Oct edition, through Reuters, that the attacker behind the South Korean bank hacks may be a 26-year-old in China who used AI tools; experts quoted say closing the code makes the tool harder for new users to get but cannot recall copies already downloaded.",
+ "url": "https://www.trtworld.com/article/e6d554d35d4a",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read at TRT World because the original item (Tech Xplore) and Reuters were blocked. Replies to South Korea's warning and CrowdStrike findings carried in the 9 Oct edition."
+}

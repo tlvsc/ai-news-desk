@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-04",
+ "title": "Mistral’s new Large 4 trails some Chinese open models in independent tests",
+ "source_used": "Tom's Hardware (citing Artificial Analysis)",
+ "article_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+ "fetched": true,
+ "key_facts": [
+  "Mistral launched Large 4 (ML4), a trillion-parameter mixture-of-experts model with 49B active parameters, in research public preview; weights are promised by the end of October.",
+  "Artificial Analysis (AA) scored it 38 on its Intelligence Index, the best from outside the US and China.",
+  "At least five Chinese open models scored higher: DeepSeek V4.1 Flash 39, GLM-5.3-Flash 42, Kimi K3 44, GLM-5.3 45, MiMo-V2.6-Pro 46.",
+  "Cost per AA task is $1.13 at list price ($0.57 with a two-week 50% launch discount), against $0.25 for GLM-5.3-Flash and $0.13 for MiMo-V2.6-Pro.",
+  "Its strongest result is 81.7% on CyberGym-E2E-AA, but only 16% on DeepsecBench-AA and 51% on CWE-Bench-AA, the other two Cyber Index tests.",
+  "Mistral says it was trained on 3,800 Nvidia Grace Blackwell GPUs in its own European data centres.",
+  "AA lists the preview as proprietary until weights arrive and the model may be re-scored then."
+ ],
+ "quote_evidence": [
+  "ML4 scored 38 on the Artificial Analysis Intelligence Index v4.3.2, which AA says makes it the \"most intelligent model from outside the US and China.\"",
+  "At least five Chinese open models scored higher on the index: DeepSeek V4.1 Flash (max) at 39, GLM-5.3-Flash at 42, Kimi K3 (max) at 44, GLM-5.3 (max) at 45, and MiMo-V2.6-Pro at 46.",
+  "Once it does, the model may be re-scored, and Mistral's claims will be held to task."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "First independent ranking of Mistral's flagship puts Europe's best model behind several cheaper Chinese open models.",
+ "event_date": "Launch about 6 Oct 2026; AA results and Tom's Hardware piece 9 Oct 2026",
+ "notes": "Follow-up of the 7 Oct 2026 pool item (Reuters: Mistral launches AI model it says outperforms some Chinese rivals). Tom's Hardware quotes Reuters for CEO Arthur Mensch's remarks. Benchmark numbers are AA's; some performance claims are Mistral's."
+}

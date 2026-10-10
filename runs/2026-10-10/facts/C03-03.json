@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-03",
+ "title": "Anthropic’s Cyber Mission starts with 6,157 findings reported to maintainers and 516 patched",
+ "source_used": "Anthropic announcement (anthropic.com/news/anthropic-cyber-mission), CyberSecurityNews and Unite.AI; VentureBeat article blocked (HTTP 429)",
+ "article_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic announced the Cyber Mission on 8 Oct 2026, starting with critical infrastructure (power grids, water systems, transport) and open-source software.",
+  "The Critical Infrastructure Defense Program brings Claude models, on-site engineers and threat research to trusted providers; its 11 founding partners are Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC and Rockwell Automation.",
+  "OSS Scanner is an opt-in service that gives enrolled open-source projects periodic scans from Anthropic's strongest models, free of charge, with a proof of concept, an explanation and a suggested fix where available.",
+  "Anthropic says OSS Scanner reports are model-generated and sent without human review, so some will contain inaccuracies such as a wrong severity rating; it expects a true-positive rate above 90%.",
+  "Anthropic says that in Project Glasswing months often passed between a vulnerability being found and fixed, and that fixing operational technology can in rare cases take decades.",
+  "Per coverage of Anthropic's research post, over six months its models flagged more than 29,000 candidate vulnerabilities, about 6,000 were manually reviewed and nearly 5,000 unverified reports went directly to maintainers who asked for everything.",
+  "VentureBeat's headline reports 6,157 findings reported to maintainers and 516 patched; those counts were not found in the text we could read."
+ ],
+ "quote_evidence": [
+  "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
+  "The reports are model-generated and sent without human review.",
+  "It’s easier than ever to find vulnerabilities, but verifying, prioritizing, and fixing these findings remains challenging."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open-source maintainers get free AI-found bug reports sooner, but unreviewed reports can be wrong and fixing remains the slow step.",
+ "event_date": "8 Oct 2026 (launch); VentureBeat counts published 9 Oct 2026",
+ "notes": "VentureBeat blocked (429); no other outlet carries the 6,157 and 516 counts. Text taken from Anthropic's own post and CyberSecurityNews/Unite.AI. Counts attributed to VentureBeat's headline only. Follow-up of yesterday's C03-01 (The Verge: Anthropic launches free AI security scans for open-source projects, 8 Oct)."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-07",
+ "title": "Quantinuum and HQS Simulate 21-Spin NMR Spectrum on 42 Qubits With 1,400+ Two-Qubit Gate Circuits",
+ "source_used": "Quantum Computing Report",
+ "article_url": "https://quantumcomputingreport.com/quantinuum-and-hqs-simulate-21-spin-nmr-spectrum-on-42-qubits-with-1400-two-qubit-gate-circuits/amp/",
+ "fetched": true,
+ "key_facts": [
+  "Quantinuum and German software firm HQS Quantum Simulations ran a digital simulation of nuclear magnetic resonance (NMR) spectroscopy on Quantinuum's H2-1 trapped-ion quantum computer.",
+  "The target was the proton NMR spectrum of 1,2-di-tert-butyl-diphosphane, a 22-spin molecule (two phosphorus and twenty hydrogen nuclei).",
+  "A projection cut the problem from 22 physical spins to a 21-spin effective model and reduced two-qubit gates per step from 69 to 20.",
+  "The run reproduced a double-peak structure at 3.9-4.3 ppm that earlier 22-qubit hardware experiments struggled to resolve, with resolution of about 0.07 ppm.",
+  "The authors note classical solvers such as Spinach are still more efficient for routine liquid-state NMR today.",
+  "Results are in an arXiv pre-print."
+ ],
+ "quote_evidence": [
+  "The benchmark modeled the liquid-state proton NMR spectrum of 1,2-di-tert-butyl-diphosphane, a classically challenging 22-spin heteronuclear molecule.",
+  "By maintaining high gate fidelity... the H2-1 hardware run successfully reproduced the double-peak structure with a spectral resolution of approximately 0.07 ppm.",
+  "While the authors note that classical solvers like Spinach remain more computationally efficient for routine high-field liquid-state spectroscopy today..."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A chemistry-style benchmark on real quantum hardware, but ordinary computers still do this task better.",
+ "event_date": "not stated (reported 9 Oct 2026)",
+ "notes": "The article body never mentions '42 qubits' or '1,400+ circuits' from the headline, so those figures are not used. Pre-print, no outside review."
+}

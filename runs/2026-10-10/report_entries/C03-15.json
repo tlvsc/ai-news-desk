@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-15",
+ "v1_category": "MKT",
+ "headline": "Database company Supabase raised $150 million and agreed to buy Turso, a maker of small databases for AI agents, in a deal announced on 2 Oct 2026.",
+ "score": 3,
+ "score_reason": "Pool score 5 lowered by 2 because the announcement is a week old (2 Oct 2026) and the outlet read is a late secondary report.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: developers who use Supabase or Turso are told nothing changes for now, with a promised future route from agent-made databases into Postgres applications; the purchase price is undisclosed, part of the money is for employee share sales, and no combined service or migration path exists yet.",
+ "source": "SiliconANGLE, relayed by Quasa.io",
+ "status": "REPORTED",
+ "summary": "Quasa.io, a week after the 2 Oct 2026 announcement, relays SiliconANGLE's report that the round was led by GIC, with CapitalG, IronArc and SquarePeg taking part, and that the price paid for Turso was not disclosed. Supabase, which is built on the Postgres database, plans to use Turso's SQLite-based databases for the many small databases that AI agents create, with the Turso team joining it, but no migration path between the two has been released.",
+ "url": "https://quasa.io/stories/supabase-raises-150m-and-buys-turso-agent-databases-get-two-engines",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext; Quasa.io is a late relay of SiliconANGLE (2 Oct 2026) and Supabase's own acquisition post. Category MKT (default was MOD) as the news is funding and an acquisition."
+}

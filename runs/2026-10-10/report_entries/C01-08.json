@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-08",
+ "v1_category": "MOD",
+ "headline": "Cloudflare added Clef-omni, a decision model that can take audio and video as well as text and images, and cut the price of its small Clef-flash model.",
+ "score": 5,
+ "score_reason": "Kept at 5: an incremental update to a story we already carried, with company-reported figures only.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who want one cheap model to sort or route mixed media, such as spam, phishing or personal-data checks, get more choice, but the speed and price claims are Cloudflare's own and the cheaper Clef-flash now takes in less text at once.",
+ "source": "Cloudflare Blog",
+ "status": "CONFIRMED",
+ "summary": "Cloudflare says in its own blog post that its new Clef-omni, a \"decision model\" that scores options given to it instead of writing text, accepts audio and video as well as text and images, is free to download from Hugging Face and scores a 21-second video clip in about 1.5 seconds. It follows Cloudflare's first Clef models, released the week before; the post also says the hosted Clef is now faster and Clef-flash cheaper, though the hosted Clef-flash takes in far less text at once (24,000 tokens, down from 64,000).",
+ "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+ "freshness": "FOLLOW-UP of 9 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Company announcement; speed and price figures are Cloudflare's own. Clef itself launched the week before."
+}

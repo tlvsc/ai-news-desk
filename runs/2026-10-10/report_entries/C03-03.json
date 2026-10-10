@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "SEC",
+ "headline": "Anthropic has launched a Cyber Mission that offers free AI security scans to open-source projects and brings its models to firms that protect power, water and transport systems.",
+ "score": 6,
+ "score_reason": "Kept at pool score 6 as a follow-up: the launch is official and well covered, but the new counts come from a headline we could not check.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed: open-source maintainers get free AI-found bug reports sooner and operators of power and water systems get Anthropic's models through 11 partner firms; the reports are unreviewed, the counts come from VentureBeat alone, and Anthropic itself says finding bugs is easier than fixing them.",
+ "source": "VentureBeat, citing Anthropic",
+ "status": "REPORTED",
+ "summary": "VentureBeat reports, citing Anthropic, that the Cyber Mission Anthropic launched on 8 Oct 2026 starts with 6,157 vulnerability findings sent to open-source maintainers, of which 516 have been patched. Our 9 Oct 2026 edition carried The Verge's report on the free open-source scans; Anthropic says the scanner's model-written reports are sent without human review, so some will be wrong, though it expects more than 90 percent to be real flaws.",
+ "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "VentureBeat page blocked (429). url is Anthropic's own announcement, where the programme text was read; the 6,157 and 516 counts come from VentureBeat's headline only and appear in none of the pages read. Category set to SEC (default was MOD) because the main subject is security."
+}

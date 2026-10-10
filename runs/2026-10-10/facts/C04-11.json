@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-11",
+ "title": "Secret Dates in System Prompts Undermine Language Model Evaluation",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/secret-dates-in-system-prompts-undermine-language-model-evaluation/",
+ "fetched": true,
+ "key_facts": [
+  "A new paper from researchers in Germany, Mexico and the USA, 'Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation', says the current date is automatically inserted into system prompts of frontier and many open-weight models.",
+  "Across 9 models, 6 datasets and four tasks, changing the date alters performance and reshuffles leaderboard rankings, more than batch size or numerical precision.",
+  "Performance varied by up to 6% on multiple-choice questions, 14% on mathematical reasoning and 7% on code generation.",
+  "GPT-5.1 accuracy fluctuated by up to 4% across three multiple-choice benchmarks over a week in December 2025, even with an empty system prompt and zero randomness.",
+  "Step-by-step reasoning made date sensitivity worse; five example answers cut average variation only from 2.52% to 2.27%.",
+  "Six different prompt wordings affected accuracy about as much as changing the date (0.78%).",
+  "The authors recommend removing the date or fixing and documenting it in tests."
+ ],
+ "quote_evidence": [
+  "‘Across 9 models, 6 datasets, and four tasks, this dynamic metadata alters model performance and reshuffles leaderboard rankings, surpassing the variance introduced by other system-level factors such as batch size or numerical precision.’",
+  "The researchers recommend removing the date from system prompts where possible, or fixing and documenting it, to ensure fair comparisons.",
+  "The effect was also identified in proprietary models, with GPT-5.1 showing accuracy fluctuations of up to 4% across three multiple-choice benchmarks during a week of testing in December 2025."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Benchmark scores used to rank AI models may shift with the day they were run.",
+ "event_date": "Paper date not stated; GPT-5.1 testing was in December 2025; article published 9 Oct 2026",
+ "notes": "New paper reported by Unite.AI; no outside review reported. Nine models tested are mostly small open models (Llama, Gemma, Qwen, Phi, GPT-OSS) plus a separate GPT-5.1 check. Publication date of the paper not stated."
+}

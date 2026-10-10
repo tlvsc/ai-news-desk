@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-07",
+ "v1_category": "SEC",
+ "headline": "Researchers say Meta's Muse assistant is told to keep a page on every person in a user's life, including family, friends and colleagues.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: this repeats the WIRED report in our 4 Oct edition, and the prompts are still unverified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed is that Mashable repeats the claim that Muse profiles the people around its users, which affects friends and relatives who never installed it first, then privacy regulators and Meta, and the doubt is that the system prompts come from researchers and Mashable could not verify them.",
+ "source": "Mashable",
+ "status": "REPORTED",
+ "summary": "Mashable reports, citing a Wired report and researcher Karan Joshi, that Meta's Muse AI assistant has been told to keep “a page for every person in the user's life”, and that an hourly background “Relationships” loop updates each page, according to researchers at FutureSociety. Mashable could not verify the system prompts (the hidden instructions that steer a chatbot), though other researchers have posted them, and Meta told Wired that Muse relies on “public information and from what you've chosen to share”; WIRED's finding was first carried in our 4 Oct edition, and what is new is that Muse has passed 5 million downloads in three weeks and that Mashable links Apple's plan to tighten Mac file access to agents like it.",
+ "url": "https://mashable.com/tech/meta-muse-report-ai-assistant-keeps-track-of-family-friends",
+ "freshness": "FOLLOW-UP of 4 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up of the WIRED report in our 4 Oct 2026 edition (item 31) and of Fast Company's 8 Oct 2026 report that privacy concerns are growing with Muse (pool only). Prompts unverified by Mashable."
+}

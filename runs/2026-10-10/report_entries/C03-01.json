@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "A new kind of small AI model that answers decisions with a probability is converging on one shared request format, with OpenAI the main holdout.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1 because the headline's word 'agree' overstates what the article describes, which is copying of one format and not a formal agreement.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: developers can now call several vendors' decision models in the same way and switch by changing a web address, which helps programmers first and then the companies that buy their software; the format is under a month old, vendors differ in answer quality, and one researcher showed such models can be steered into wrong answers in an adversarial test.",
+ "source": "The New Stack",
+ "status": "REPORTED",
+ "summary": "The New Stack reports that AWS's Strands Decider 2B, an open-weight (downloadable) model released on 1 Oct 2026, answers at the same endpoint that startup TypeSafe AI introduced for its Jev model, as do Upstage and Ollama; a decision model returns a probability for each answer to set questions, such as yes/no or choose-one, instead of writing text. OpenAI has a Decisions API in limited preview but, according to the report, has published no schema or pricing, so it is not yet clear whether the category settles on one format or two.",
+ "url": "https://thenewstack.io/decision-models-system-one/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext. Analysis piece of 9 Oct 2026 about releases from 1 to 6 Oct 2026."
+}

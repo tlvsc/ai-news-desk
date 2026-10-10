@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-02",
+ "title": "Terence Tao Reposts Boycott Statement: Mathematics Community Fully Cuts Ties With OpenAI",
+ "source_used": "36Kr (eu.36kr.com)",
+ "article_url": "https://eu.36kr.com/en/p/4019222192508801",
+ "fetched": true,
+ "key_facts": [
+  "The Human Mathematics Association issued a statement urging mathematicians to stop cooperating with OpenAI after OpenAI's release of more than 700 math manuscripts at once.",
+  "The association says mathematicians 'did not ask for this work to be done' and calls the release a display of power; members commit not to work for commercial AI companies or publish AI-generated maths texts.",
+  "36Kr says Terence Tao, a Fields Medal winner, reposted the statement on his personal blog, but he does not appear in the association's member list.",
+  "The association was founded in August 2026 and has 809 members, most of them graduate students, per netizens cited by 36Kr; a separate declaration was signed by 28 Fields Medal winners.",
+  "Critics say only 162 of the 722 papers had main results checked by computer; OpenAI withdrew 3 manuscripts the next day, revised 14 and updated citations in 13.",
+  "OpenAI's GitHub README says some unformalized results may have problems and it will fix them.",
+  "Supporters of OpenAI cite early independent Lean re-checks of some results that passed."
+ ],
+ "quote_evidence": [
+  "This is a special statement released by the Human Mathematics Association in response to OpenAI's massive release of mathematical research results.",
+  "Terence Tao, a Chinese mathematician and Fields Medal winner, reposted this statement on his personal blog.",
+  "The next day after the release, OpenAI also removed 3 manuscripts: a symbol error invalidated a core argument, which in turn affected two papers that relied on it; another 14 papers were revised, and 13 papers had their citation relationships updated."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small group is turning the dispute over AI-produced proofs into a call for a boycott, while the proofs' reliability is still being checked.",
+ "event_date": "Statement reported 9 Oct 2026; OpenAI's release was in early October 2026",
+ "notes": "36Kr piece mixes reporting with opinion; only attributed facts used. The headline 'Mathematics Community Fully Cuts Ties' overstates: the group has about 800 members. Our 9 Oct 2026 edition carried The Decoder's report of the boycott call (pool 1009:C04-01); the OpenAI release was covered 6 Oct (The Verge, NYT)."
+}

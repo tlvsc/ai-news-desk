@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "MOD",
+ "headline": "Anthropic's Claude Managed Agents can now fetch a web page only if its address has already appeared in the conversation.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1 because Anthropic's release notes date the change 7 Oct 2026, before the scan window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: developers building agents on Anthropic's cloud platform must now put any page address they want fetched in a user message, which Anthropic says reduces the risk of data exfiltration; the change is small, narrow to one product and dated 7 Oct 2026.",
+ "source": "Anthropic release notes, relayed by MIXED Reality News",
+ "status": "CONFIRMED",
+ "summary": "Anthropic's release notes, relayed by MIXED Reality News, say the web_fetch tool in Claude Managed Agents, its cloud environment for running agents, now retrieves only addresses that already appeared in the session, such as in a user message, a web search result or an earlier fetched page, to reduce the risk of data exfiltration (unauthorised copying of data out). An address that appears only in the agent's own output, its system prompt, an attached document or another tool's output no longer counts and returns an error, so developers must send needed addresses in a user message.",
+ "url": "https://platform.claude.com/docs/en/release-notes/overview",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "MIXED Reality News page blocked (403); text read at Anthropic's release notes, listed under 7 Oct 2026. Freshness label used because the change predates 9 Oct; it is not a follow-up of a story we ran."
+}

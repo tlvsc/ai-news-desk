@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-10",
+ "v1_category": "SEC",
+ "headline": "Security researchers found about 2,100 AI servers exposing GPU monitoring data to the open internet, and a flaw in Nvidia's monitoring tool could let attackers crash it.",
+ "score": 5,
+ "score_reason": "Pool score kept: solid research with a patched flaw, but exposure only, no attack or victim reported, and the research is from 8 Oct.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that run AI servers, and customers of GPU cloud providers such as Lambda and DigitalOcean, should limit access to monitoring tools and update, but the researchers found exposure, not an actual attack, and no victims are reported.",
+ "source": "The Register, citing Lava",
+ "status": "CONFIRMED",
+ "summary": "The Register reports, citing researchers at security startup Lava, that about 2,100 servers holding more than 12,000 AI chips, worth around $100 million and spread across roughly 300 organisations, exposed Nvidia GPU monitoring data without any password during scans from March to May 2026. A high-severity flaw (CVE-2026-47483) in Nvidia's DCGM Exporter monitoring tool could let an unauthenticated attacker crash it and disrupt AI workloads on hundreds of the exposed servers, and Nvidia has released a fix in version 4.8.2.",
+ "url": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original SC Media brief blocked; read The Register and Help Net Security. Patch date differs between them (July vs September), so no patch date is given."
+}

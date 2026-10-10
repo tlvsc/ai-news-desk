@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-04",
+ "title": "A scientist shared unpublished research with Claude. Now he’s questioning an AI discovery",
+ "source_used": "Yahoo Tech (syndicated from Cult of Mac, per its affiliate-link line)",
+ "article_url": "https://tech.yahoo.com/ai/claude/articles/scientist-shared-unpublished-research-claude-210038087.html",
+ "fetched": true,
+ "key_facts": [
+  "Mario Rodriguez Mestre, a computational biology PhD candidate at the University of Copenhagen, says he shared unpublished research with Claude before Anthropic announced its findings.",
+  "He questions whether his material could have influenced the discovery; the article says there is no evidence establishing this.",
+  "Anthropic announced on 23 Sep 2026 a system it calls array-associated reverse transcriptases (ARTs), found in bacteriophages, viruses that infect bacteria.",
+  "About 950 Claude-powered agents searched DNA sequence data for 21 hours; Claude identified a larger arrangement of repeated DNA and an additional protein of unknown role that resembles features of CRISPR.",
+  "According to The Scientist, Mestre and colleagues had worked on the proteins for years and identified the enzyme before the announcement.",
+  "Anthropic says Claude was not trained on user transcripts and its molecular biology team had no access to Mestre's conversations; its researchers used previously published data.",
+  "Nature reported on 8 Oct 2026 that some scientists fear AI companies could announce findings before researchers on the same problem publish."
+ ],
+ "quote_evidence": [
+  "Without evidence connecting Mestre's conversations to the discovery, it remains unclear whether his unpublished work played a role.",
+  "Anthropic has said Claude was not trained on user transcripts and that its molecular biology team did not have access to Mestre's conversations.",
+  "For now, the system's functions remain unclear, and there is no verified evidence that Mestre's conversations contributed to Claude's discovery."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Researchers who paste unpublished work into chatbots now face questions about data handling and credit.",
+ "event_date": "Anthropic announcement 23 Sep 2026; Mestre's questioning reported 9 Oct 2026",
+ "notes": "Yahoo Tech carries a Cult of Mac article (affiliate line); original Cult of Mac link not found, so url is the Yahoo page where text was read. Article relies on The Scientist. Follow-up of the CNN explainer carried 9 Oct 2026 (pool 1009:C04-04)."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C05-13",
+ "title": "Linux founder Linus Torvalds says AI is a “gateway drug” into programming — but cautions about using AI for “serious” work",
+ "source_used": "TechRadar",
+ "article_url": "https://www.techradar.com/pro/linux-founder-linus-torvalds-says-ai-is-a-gateway-drug-into-programming-but-cautions-about-using-ai-for-serious-work",
+ "fetched": true,
+ "key_facts": [
+  "Linus Torvalds, founder and key maintainer of the Linux kernel, spoke at the Linux Foundation's Open Source Summit in Prague.",
+  "He called AI 'an interesting tool, very useful' and 'a gateway drug' into programming, partly in jest.",
+  "He said AI can lower the bar for beginners who feel ashamed of 'pitiful, small efforts' next to polished professional work.",
+  "He cautioned that anyone using AI for 'something real and important' must know what they want and what the outcome must be.",
+  "He repeated that AI-generated vulnerability reports and patches flood maintainers; in mid-May 2026 he called the Linux mailing list 'almost entirely unmanageable'.",
+  "He said three quarters of the maintainer summit discussions were about making AI tools less stressful and more useful.",
+  "He said that on the whole AI is improving the code base, and maintainers are fighting 'the AI deluge of patches with our own AI deluge of patch reviews'."
+ ],
+ "quote_evidence": [
+  "People love to hate AI. I think it's an interesting tool, very useful. It's a gateway drug and a way to do really good code.",
+  "I think that you need to be very careful using AI when you're doing something real and important.",
+  "But on the whole, I think it is improving our code base."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The creator of Linux gives a balanced view: useful for beginners, risky for serious work, and a burden for maintainers.",
+ "event_date": "not stated; \"recent\" Open Source Summit in Prague",
+ "notes": "Exact date of the talk not stated in the article."
+}

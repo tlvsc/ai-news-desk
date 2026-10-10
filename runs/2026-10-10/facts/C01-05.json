@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-05",
+ "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+ "source_used": "Kingy AI (original MarkTechPost page blocked, 403)",
+ "article_url": "https://kingy.ai/blog/qwen-image-2-1-turbo-eight-steps-license/",
+ "fetched": true,
+ "key_facts": [
+  "Qwen released Qwen Image 2.1 Turbo, an official eight-step checkpoint for image generation and editing, dated 9 Oct 2026.",
+  "The official examples use eight steps against 40 for the original Qwen Image 2.1, which Kingy calculates as 80% fewer denoising steps; total runtime is not shown to fall by the same amount.",
+  "The 7B label describes the visual generator; the pipeline also has a text encoder and a VAE, about 32.44 GB of weight files.",
+  "The supplied licence permits noncommercial research and evaluation only; commercial use needs a separate licence.",
+  "Qwen's repository announces Pro and Turbo APIs live on 9 Oct, and Alibaba Cloud lists a Turbo price.",
+  "Kingy has not run the checkpoint or made a paid API call and says the showcase examples are selected vendor examples."
+ ],
+ "quote_evidence": [
+  "Commercial creators need to settle licensing before using those weights: the supplied license permits noncommercial research and evaluation only, and commercial use requires a separate license.",
+  "The release therefore supports an eight-step claim; it does not establish a fivefold improvement in total runtime on your machine.",
+  "Qwen dated the Turbo release October 9, 2026."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A faster open image model for researchers, with a licence that blocks commercial use of the download.",
+ "event_date": "9 Oct 2026",
+ "notes": "MarkTechPost original blocked (403); Kingy AI reviewed Qwen's primary sources and is credited. No independent speed or quality test reported."
+}

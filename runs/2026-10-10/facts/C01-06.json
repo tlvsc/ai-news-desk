@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-06",
+ "title": "Kandinsky 6.0 Video — a new lineup of open-source models that generate video with synchronized sound",
+ "source_used": "Gearbrain",
+ "article_url": "https://www.gearbrain.com/kandinsky-video-ai-synchronized-sound-2678021478.html",
+ "fetched": true,
+ "key_facts": [
+  "Kandinsky 6.0 Video is a lineup of two models that generate video with synchronized sound: Pro (29 billion parameters) and Lite (3 billion).",
+  "Code and weights are released under the MIT licence, so anyone may use them free and build products on them.",
+  "Both make clips of up to five seconds with dialogue, music and ambient sound, with lip movements matched to speech, from text or a first frame.",
+  "Lite is adapted to consumer Nvidia cards from the RTX 5060 Ti to the RTX 5090.",
+  "The developers say Pro beats the open-source LTX 2.5 in visual and speech quality, trails only MiniMax H3 among open models, and beats Veo 3.1 Fast on image animation.",
+  "Reinforcement-learning post-training cut the word error rate in generated speech by 47% for Pro.",
+  "Weights are on Hugging Face and code on GitHub."
+ ],
+ "quote_evidence": [
+  "Kandinsky 6.0 Video is a new lineup of models that generate video with synchronized sound, with the code and model weights released under the MIT license: anyone can use the models free of charge and build their own products on top of them.",
+  "The maximum duration of a clip with sound is five seconds, and the developers plan to increase it over time.",
+  "In side-by-side human comparisons, the Pro model clearly outperforms its predecessor, Kandinsky 5.0 Video Pro, across all evaluation criteria."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A free, self-hostable video-with-sound generator, though quality claims are the developers' own.",
+ "event_date": "Around 9 Oct 2026 (technical report dated October 2026)",
+ "notes": "Reads as a developer announcement; comparisons are the developers' own. The article does not name the organisation behind Kandinsky."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-06",
+ "title": "Epoch AI finds AI acknowledgments in math papers jumped to 25% in four months",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/epoch-ai-math-papers-ai-acknowledgment/",
+ "fetched": true,
+ "key_facts": [
+  "Epoch AI published an analysis of arXiv math preprints on 18 Sep 2026.",
+  "The share of papers acknowledging AI use rose from 4% in April 2026 to 25% in August 2026.",
+  "More than half of papers in three math subfields acknowledge AI; differential geometry rose from about 8% to 57%.",
+  "6% of August preprints credited AI with a substantive contribution, which Epoch compares to a co-author's role.",
+  "Epoch filtered papers by AI-related keywords, then used GPT-5.6 Sol to categorise contributions, with Claude Fable 5 validating; human reviewers agreed with the classifications 93% of the time.",
+  "Established authors who published regularly before 2023 disclose AI help at similar rates.",
+  "Epoch released its data publicly under a Creative Commons BY licence; the figures track disclosure, not total AI use."
+ ],
+ "quote_evidence": [
+  "It found that the share of papers acknowledging AI use rose from 4% in April 2026 to 25% by August 2026.",
+  "According to Epoch, 6% of the August preprints credited AI with a substantive contribution to the research.",
+  "The acknowledgment data alone tracks disclosure, and disclosure is what researchers choose to put in writing."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Disclosure norms are moving faster than the rules for crediting AI contributions.",
+ "event_date": "Epoch AI analysis published 18 Sep 2026 (data April to August 2026)",
+ "notes": "Older analysis re-reported by Crypto Briefing on 9 Oct 2026; scored down as stale. Epoch's own page not read."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-04",
+ "title": "Codex on Windows Gets an MXC Sandbox With No Admin Setup: Check If Your PC Supports It",
+ "source_used": "Nerd's Chalk (fulltext)",
+ "article_url": "https://nerdschalk.com/codex-windows-mxc-sandbox-pc-support/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI announced a new Codex sandbox mode on 9 Oct 2026, built on Microsoft Execution Containers (MXC), for compatible Windows 11 PCs.",
+  "It needs no administrator-approved setup and adds neither separate Windows accounts nor local firewall rules.",
+  "OpenAI cites faster setup, stronger network enforcement and finer control over file access.",
+  "The sandbox applies the active file and network permissions to a command and its child processes.",
+  "Microsoft introduced Process Isolation for MXC on 27 Aug 2026 and said MXC was generally available on 7 Oct 2026.",
+  "Codex CLI 0.162.0 or later can test MXC support; a success prints MXC_OK. The ChatGPT desktop app prefers MXC when the device supports it; an organisation can block it with allow_mxc = false.",
+  "A bug report opened 4 Oct 2026 describes MXC stopping before a command starts because an unrelated BitLocker drive is locked; other users added matching failures and it was open on 9 Oct.",
+  "Codex can run on recent, fully updated Windows 10 on a best-effort basis, but that does not establish MXC availability."
+ ],
+ "quote_evidence": [
+  "Codex on Windows has a new sandbox mode built on Microsoft Execution Containers (MXC) for compatible Windows 11 PCs.",
+  "It needs no administrator-approved setup and adds neither separate Windows accounts nor local firewall rules.",
+  "MXC changes how Windows enforces those boundaries; it does not give a command unrestricted access to your PC."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers on compatible Windows 11 PCs can limit what an AI coding agent may touch without administrator setup.",
+ "event_date": "9 Oct 2026",
+ "notes": "Outlet relays OpenAI's announcement (quoted post) and OpenAI's documentation; BitLocker bug is a user report, not confirmed by OpenAI."
+}

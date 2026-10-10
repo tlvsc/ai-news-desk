@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-10",
+ "title": "GSK drinks in Chai Discovery’s AI models after wet-lab validation",
+ "source_used": "Contract Pharma (relaying Chai Discovery's announcement)",
+ "article_url": "https://www.contractpharma.com/breaking-news/chai-discovery-gsk-announce-collaboration-following-wet-lab-evaluation/",
+ "fetched": true,
+ "key_facts": [
+  "Chai Discovery, an AI company building a computer-aided design suite for molecules, announced a collaboration with GSK.",
+  "It follows a technology evaluation in which GSK ran internal wet-lab tests of Chai's designs.",
+  "Chai generated the designs for GSK targets zero-shot, without target-specific training.",
+  "GSK found binders to all tested targets, which led to the broader collaboration.",
+  "GSK now gets access to Chai's platform, including protein folding and design models.",
+  "Chai's latest model is Chai-3; Chai says it achieves high target success rates and binding affinities.",
+  "GSK's Christopher Austin says the technology complements GSK's own internal models."
+ ],
+ "quote_evidence": [
+  "The agreement follows a successful technology evaluation in which GSK conducted internal wet-lab testing of Chai’s designs.",
+  "GSK found binders to all tested targets—resulting in the expansion of its work with Chai into a broader collaboration.",
+  "We evaluated their models across a panel of diverse targets and saw designs with strong binding affinities."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A big drugmaker is expanding use of AI-designed molecules after its own lab tests.",
+ "event_date": "Announced 9 Oct 2026",
+ "notes": "Fierce Biotech (pool item) blocked (HTTP 403) and Business Wire blocked; text read from Contract Pharma, which relays Chai's announcement. Results are company statements; no financial terms in the article read. Endpoints News also headlined it as Chai's sixth pharma partner in nine months (headline only)."
+}

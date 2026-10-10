@@ -1,0 +1,17 @@
+{
+ "item_id": "C06-10",
+ "v1_category": "MKT",
+ "headline": "Cloudflare is buying Deno, the start-up co-founded by Node.js creator Ryan Dahl, and will end development of Deno's own runtime and hosting service.",
+ "score": 5,
+ "score_reason": "Confirmed acquisition of a known developer-tools company, but small and no price disclosed.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Affects developers who use Deno, who have six months to move hosted apps, and gives Cloudflare an experienced team for running AI agents; the article gives no price, and the open-source promises so far rest on statements by Dahl and Cloudflare.",
+ "source": "The New Stack",
+ "status": "CONFIRMED",
+ "summary": "The New Stack reports that Cloudflare announced on Friday that the whole team behind Deno, a JavaScript and TypeScript runtime (software that runs that code), is joining it; Deno's standalone runtime and Deno Deploy hosting service will be wound down, with the runtime getting maintenance and security updates for a year and Deno Deploy closing in six months. The team will merge Deno's open-source Celld project, which recreated Cloudflare's Workers serverless model, with Cloudflare's own open-source runtime Workerd, which Cloudflare engineer Kenton Varda said had not been made practical to run outside Cloudflare's network.",
+ "url": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full via The New Stack."
+}

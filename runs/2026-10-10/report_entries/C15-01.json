@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-01",
+ "v1_category": "RES",
+ "headline": "Researchers used an IBM quantum processor to repeatedly measure and reset up to 100 qubits mid-calculation, a technique needed to keep future quantum computers reliable.",
+ "score": 6,
+ "score_reason": "Solid peer-reviewed physics result and a real step toward error correction, but the article says it is not a fault-tolerant machine.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Researchers and quantum hardware makers gain evidence that today's chips can handle the repeated checking that error correction needs, though the demonstration is a physics experiment, not a working error-corrected computer.",
+ "source": "Interesting Engineering",
+ "status": "REPORTED",
+ "summary": "Interesting Engineering reports that a team from Rutgers University, IBM and other institutions, publishing in Nature Physics, ran nearly 5,000 two-qubit operations and almost 5,000 measure-and-reset cycles on a chain of up to 100 qubits of IBM's 156-qubit Heron processor. They found a sharp switch between chaotic and orderly behaviour, much like water freezing into ice, depending on how often qubits were measured and reset; the article stresses this does not yet make a fully fault-tolerant machine, meaning one that corrects its own errors reliably.",
+ "url": "https://interestingengineering.com/innovation/ibm-quantum-chip-5000-operations-100-qubits",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Qubits are the basic units of a quantum computer. The Nature Physics paper itself was not read; facts come from the Interesting Engineering article."
+}

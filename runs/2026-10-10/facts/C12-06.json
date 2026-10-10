@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-06",
+ "title": "2026 Digital Defense Report | Security Insider",
+ "source_used": "Microsoft Security Insider",
+ "article_url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/2026-digital-defense-report",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft published its 2026 Digital Defense Report page saying AI is compressing attack timelines and making advanced capabilities more accessible.",
+  "Nearly 40,000 CVEs (publicly reported software flaws) were published in the first half of 2026, putting the year on track to roughly double.",
+  "The median time from a flaw being found in the wild to being weaponised has fallen to well below 24 hours, while enterprises can take 30 to 60 days to fix critical external flaws.",
+  "Microsoft Threat Intelligence sees AI used in vulnerability discovery, reconnaissance, phishing, malware and exploit development; one evaluation strung together 32 stages of an attack in a controlled environment.",
+  "Most complex real-world intrusions still involve meaningful human direction.",
+  "Between February and early May 2026 Microsoft Defender saw ClickFix-style attacker-supplied commands run on over 1.1 million unique devices, roughly an eightfold increase.",
+  "Microsoft flags model misalignment as an emerging risk as AI is given more agency."
+ ],
+ "quote_evidence": [
+  "Nearly 40,000 CVEs were published in the first half of 2026, putting the year on track to roughly double.",
+  "The data shows that the median time from vulnerability discovery in the wild to weaponization has fallen to well below 24 hours.",
+  "Most complex real-world intrusions still involve meaningful human direction, but work that once consumed scarce expertise and operator time can increasingly be accelerated, repeated, or delegated to AI."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Microsoft's own data say the gap between a flaw appearing and being exploited is shrinking faster than defenders patch.",
+ "event_date": "Report page seen 9 Oct 2026",
+ "notes": "Company's own report and framing; page text only, the full report was not read. Release date of the report not stated on the page."
+}

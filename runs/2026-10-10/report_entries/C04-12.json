@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-12",
+ "v1_category": "RES",
+ "headline": "Ten leading AI models that read images did no better than guessing on questions about engineering simulation results, a new test found.",
+ "score": 4,
+ "score_reason": "Lowered from 5: the study was published on 23 Sep 2026, so it is not new today.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It warns engineers not to trust general AI image models to read simulation plots for safety checks, though the article does not name the models and the finding applies to this one test.",
+ "source": "Bioengineer.org, citing Scienmag",
+ "status": "REPORTED",
+ "summary": "Bioengineer.org, citing a Scienmag report on a Carnegie Mellon University study in the journal Communications Engineering (published 23 Sep 2026), says ten leading vision-language models, AI systems that read images and text, scored only 29 to 47 percent on questions about engineering simulation plots, which the report describes as at or near random chance. The authors built a benchmark called OpenSeeSimE, with more than 200,000 question-answer pairs from 10,000 simulations, and conclude that engineering use will need models trained specifically for simulation output.",
+ "url": "https://bioengineer.org/ai-models-flunk-engineering-simulation-test-in-massive-new-benchmark/",
+ "freshness": "FOLLOW-UP of 23 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Peer-reviewed study (per report); read via Bioengineer.org, which credits Scienmag. Underlying paper dated 23 Sep 2026."
+}

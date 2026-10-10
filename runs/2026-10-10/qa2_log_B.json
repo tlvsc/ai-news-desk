@@ -1,0 +1,421 @@
+{
+ "changes": [
+  {
+   "item_id": "C02-01",
+   "field": "source",
+   "before": "Retail Dive, as relayed by MLive",
+   "after": "Retail Dive",
+   "reason": "Credit (rule 8): the MLive/Advance Local text read on Yahoo is a short relay of Retail Dive's reporting; the printed source is the first reporter, publisher name only."
+  },
+  {
+   "item_id": "C02-01",
+   "field": "importance_line",
+   "before": "What changed is that a leading online retailer is refusing to let Meta's agent act on its store, which affects small-business owners who wanted Muse to buy for them first, then other retailers deciding whether to allow agents, and the doubt is that only Meta's side and a short summary are reported.",
+   "after": "What changed is that a leading online retailer is refusing to let Meta's agent act on its store, which affects first the small-business owners who wanted Muse to buy for them, then other retailers deciding whether to allow agents; the doubt is that Amazon is not quoted directly and the account is a short summary of Retail Dive's reporting.",
+   "reason": "Rule 1: 'only Meta's side' is wrong, Amazon's stated reason (no consent) is reported; also fixed the misplaced 'first' that read as 'buy for them first'."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "summary",
+   "before": "Tom's Hardware reports, citing the testing firm Artificial Analysis, that Mistral Large 4, the French company's trillion-parameter model we covered on 7 Oct 2026 from a Reuters report, scored 38 on its intelligence index, the best from outside the two countries but below at least five Chinese open models, such as MiMo-V2.6-Pro at 46. It is also dearer to run, at about $1.13 per test task at list price against $0.25 for GLM-5.3-Flash, and Mistral promises its open weights only by the end of October.",
+   "after": "Tom's Hardware reports, citing the testing firm Artificial Analysis, that Mistral Large 4, the French company's trillion-parameter model we covered on 7 Oct 2026, scored 38 on its intelligence index, the best from outside the two countries but below at least five Chinese open models, such as MiMo-V2.6-Pro at 46. It is also dearer to run, at about $1.13 per test task at list price against $0.25 for GLM-5.3-Flash, and Mistral promises its open weights only by the end of October.",
+   "reason": "Rule 9 accuracy: our 7 Oct 2026 edition (item 59) carried the launch from TechCrunch, not Reuters."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "importance_line",
+   "before": "It gives companies seeking a non-US, non-Chinese AI option their first outside check on Mistral's claims, though the model is still a preview whose weights are not out and could be re-scored.",
+   "after": "It gives companies seeking a non-US, non-Chinese AI option an outside check on Mistral's claims, though the model is still a preview whose weights are not out and could be re-scored.",
+   "reason": "Rule 1: 'first' is not in the facts."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "headline",
+   "before": "OpenAI has launched a Data agent for business analytics inside ChatGPT Work.",
+   "after": "OpenAI has added an agent for analysing business data to ChatGPT Work.",
+   "reason": "Rule 3: headline was the publisher's headline almost word for word."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "importance_line",
+   "before": "What changed is a new analytics agent in OpenAI's workplace product, which would affect business teams that analyse company data first, then rivals selling data tools, and the doubt is that what the agent can do, what it costs and who can use it are not yet reported.",
+   "after": "What changed is a new analytics agent in OpenAI's workplace product, which would affect business teams that analyse company data first, then rivals selling data tools, and the doubt is that what the agent can do, what it costs and who can use it are not yet clear.",
+   "reason": "Rule 1/2: only the headline is known, so 'not reported' may be false; neutral wording."
+  },
+  {
+   "item_id": "C02-06",
+   "field": "summary",
+   "before": "The New York Times reports on the thinking behind Mark Zuckerberg's decision to launch Meta's Muse AI agent, and a TipRanks headline summarising the report says the Meta chief executive went ahead despite safety concerns. It follows our 6 Oct 2026 edition, which carried 404 Media's report on safety concerns about Muse.",
+   "after": "The New York Times reports on the thinking behind Mark Zuckerberg's decision to launch Meta's Muse AI agent, and TipRanks, summarising the report, says the Meta chief executive went ahead despite safety concerns. It follows our 6 Oct 2026 edition, which carried 404 Media's report on safety concerns about Muse.",
+   "reason": "Rule 2: simpler attribution, no reference to our headline-only reading."
+  },
+  {
+   "item_id": "C02-06",
+   "field": "importance_line",
+   "before": "What changed is a New York Times account of how Meta's chief executive decided to launch Muse, which matters first to the millions of people who have connected the agent to their accounts, then to regulators and Meta, and the doubt is that the report's specifics and Meta's reply are not yet confirmed here.",
+   "after": "What changed is a New York Times account of how Meta's chief executive decided to launch Muse, which matters first to people who have connected the agent to their accounts, then to regulators and Meta, and the doubt is that the report's details and any reply from Meta are not yet known.",
+   "reason": "Rule 1: 'millions of people' is not in the facts (headline only); Rule 2: removed process note 'confirmed here'."
+  },
+  {
+   "item_id": "C03-02",
+   "field": "source",
+   "before": "InfoQ, citing GitHub",
+   "after": "InfoQ",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); InfoQ is the reporting outlet, the GitHub attribution stays in the summary."
+  },
+  {
+   "item_id": "C01-05",
+   "field": "headline",
+   "before": "Alibaba's Qwen team released Qwen-Image-2.1-Turbo, a 7B image model that makes pictures in eight steps instead of forty.",
+   "after": "Alibaba's Qwen team released Qwen-Image-2.1-Turbo, an image model that makes pictures in eight steps instead of forty.",
+   "reason": "Reader level (Section 1 law 1): unexplained jargon '7B' removed; shorter."
+  },
+  {
+   "item_id": "C04-01",
+   "field": "importance_line",
+   "before": "If true, researchers in 22 fields could gain answers that already existed, but how the AI found them and whether anyone has checked them is not known from the headline.",
+   "after": "If true, researchers in 22 fields could gain answers that already existed, but how the AI found them and whether anyone has checked them is not yet known.",
+   "reason": "Rule 2: removed process note (the PDF adds its own headline-only note)."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "headline",
+   "before": "A new group of about 800 mathematicians has urged colleagues to stop working with OpenAI after it released hundreds of AI-generated math papers.",
+   "after": "Fields Medal winner Terence Tao shared a mathematicians' call to stop working with OpenAI but is not on the group's member list, 36Kr reports.",
+   "reason": "Rule 1/3: the boycott call (The Decoder, item 63) and the withdrawals (Retraction Watch, item 70) were already in our 9 Oct 2026 edition; the new fact is 36Kr's account of Tao's role, which contradicts The Decoder's 'chaired by Tao' that we printed."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "summary",
+   "before": "36Kr reports that the Human Mathematics Association, a group formed in August 2026 with about 800 members, has urged mathematicians to stop working with OpenAI, in reply to OpenAI's early-October release of more than 700 AI-generated math manuscripts. Our 9 Oct 2026 edition carried The Decoder's report that some mathematicians were calling for a boycott; new today is 36Kr's account that Terence Tao, the Fields Medal winner, reposted the statement though he is not a member, and that OpenAI withdrew 3 manuscripts and revised 14 the day after the release.",
+   "after": "36Kr reports that Terence Tao reposted on his personal blog the Human Mathematics Association's call for mathematicians to stop working with OpenAI, but does not appear on the group's member list; online users cited by 36Kr put its membership at about 800, mostly graduate students. Our 9 Oct 2026 edition carried The Decoder's report that the group, which The Decoder said Tao chairs, issued the call in reply to OpenAI's early-October release of more than 700 AI-written maths manuscripts, and Retraction Watch's report that OpenAI withdrew three of them the next day.",
+   "reason": "Rule 1/9: the old summary presented the withdrawals as new and said our 9 Oct edition only carried 'some mathematicians calling for a boycott'; it actually carried the group as chaired by Tao. Now leads with what is new, names what we carried and from whom, keeps the member count's attribution to online users."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "importance_line",
+   "before": "It deepens a dispute over how AI-written proofs should be released and checked, affecting working mathematicians and journals first and OpenAI second, though the group is small and the reliability of the papers is still being tested.",
+   "after": "It puts in doubt The Decoder's account that Tao chairs the group, which matters to mathematicians judging how much support the boycott has, though the membership figures come from online users cited by 36Kr.",
+   "reason": "Rule 1: importance now matches the new development; journals are not in the facts."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "source",
+   "before": "The Decoder, citing Anthropic",
+   "after": "The Decoder",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); Anthropic is the company, The Decoder the reporting outlet."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "summary",
+   "before": "The Decoder reports, citing an account by Johns Hopkins astrophysicist Brice Ménard on Anthropic's website, that Anthropic's Claude Science, which coordinates AI agents, downloaded, calibrated and merged data from several space missions into an all-sky ultraviolet map, using a technique called inpainting (a model learns from existing data to fill gaps) for areas that NASA's GALEX mission had skipped. In the team's own tests the model's predictions deviated about ten percent from actual measurements, and the map is meant as teaching material and a demonstration of AI handling tedious data work.",
+   "after": "The Decoder reports, citing an account by Johns Hopkins astrophysicist Brice Ménard on Anthropic's website, that Anthropic's Claude Science, which coordinates AI agents, downloaded, calibrated and merged data from several space missions into an all-sky ultraviolet map, using a technique called inpainting (a model learns from existing data to fill gaps) for areas that NASA's GALEX mission had skipped. In the team's own tests the model's predictions deviated about ten percent from actual measurements, and the map is meant as teaching material.",
+   "reason": "Rule 1: 'a demonstration of AI handling tedious data work' is not in the facts; shorter."
+  },
+  {
+   "item_id": "C04-04",
+   "field": "source",
+   "before": "Cult of Mac, citing The Scientist",
+   "after": "The Scientist",
+   "reason": "Credit (rule 8): the text read (Yahoo copy of Cult of Mac) rests on The Scientist's reporting; credit goes to the first reporter, publisher name only. Link stays the Yahoo page."
+  },
+  {
+   "item_id": "C04-04",
+   "field": "headline",
+   "before": "A Danish PhD student who shared unpublished work with Claude is asking whether it influenced an Anthropic biology discovery.",
+   "after": "Anthropic says its biology team had no access to a Copenhagen PhD student's conversations with Claude, after he asked whether his unpublished work shaped its discovery.",
+   "reason": "Rule 1: 'Danish' is not in the facts (only his Copenhagen university); Mestre's question was already in our 9 Oct 2026 edition (CNN, item 66), the new element is Anthropic's reply."
+  },
+  {
+   "item_id": "C04-04",
+   "field": "summary",
+   "before": "Cult of Mac, citing The Scientist, reports that Mario Rodríguez Mestre, a University of Copenhagen computational biology PhD candidate who had worked on the same proteins and shared unpublished manuscripts with Claude, questions whether his material could have influenced Anthropic's 23 Sep 2026 announcement that Claude-powered agents found a system in bacteriophages (viruses that infect bacteria) with features resembling CRISPR. The report says there is no evidence for his concern, and Anthropic says Claude was not trained on user transcripts and its molecular biology team had no access to his conversations; our 9 Oct 2026 edition carried CNN's explainer on why scientists were not convinced by the discovery.",
+   "after": "Cult of Mac, citing The Scientist, reports that Anthropic says Claude was not trained on user transcripts and its molecular biology team had no access to the conversations of Mario Rodríguez Mestre, a University of Copenhagen PhD candidate who had worked on the same proteins and shared unpublished manuscripts with Claude; the report finds no evidence that his work played a role. Our 9 Oct 2026 edition carried CNN's report that Mestre says his research describes the same signatures as Anthropic's 23 Sep 2026 announcement that Claude-powered agents found a system in bacteriophages (viruses that infect bacteria) with features resembling CRISPR.",
+   "reason": "Rule 9: reply story; the old text said our 9 Oct edition carried only CNN's explainer, but that item already carried Mestre's concern. Now says who answers whom (Anthropic answers Mestre) and what we carried before."
+  },
+  {
+   "item_id": "C15-02",
+   "field": "source",
+   "before": "IonQ (press release), relayed by The Quantum Insider",
+   "after": "IonQ",
+   "reason": "Credit (rule 8): The Quantum Insider republishes IonQ's press release (copy); credit the originator, publisher name only."
+  },
+  {
+   "item_id": "C04-07",
+   "field": "headline",
+   "before": "An amateur astronomer used AI coding tools to spot a star that may have an undiscovered planet, and NASA's TESS telescope will check it next month.",
+   "after": "An amateur astronomer used AI coding tools to spot a star that may have an undiscovered planet, and NASA's TESS telescope will soon check it.",
+   "reason": "Rule 1: TESS observes from 31 Oct, so 'next month' is not accurate."
+  },
+  {
+   "item_id": "C04-09",
+   "field": "source",
+   "before": "Stowers Institute for Medical Research, via EurekAlert",
+   "after": "Stowers Institute for Medical Research",
+   "reason": "Credit (rule 8): EurekAlert carries the institute's release (copy site); publisher name only."
+  },
+  {
+   "item_id": "C04-09",
+   "field": "importance_line",
+   "before": "It aims at earlier warning of diseases such as Alzheimer's and ALS that affect millions of families, but the first two years only build data and models, and any treatment benefit is not yet shown.",
+   "after": "It aims at earlier warning of brain diseases such as Alzheimer's and ALS, but the first two years only build data and models, and any treatment benefit is not yet shown.",
+   "reason": "Rule 1: 'millions of families' is not in the facts; shorter."
+  },
+  {
+   "item_id": "C04-10",
+   "field": "source",
+   "before": "Contract Pharma, citing Chai Discovery",
+   "after": "Contract Pharma",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); Chai attribution stays in the summary."
+  },
+  {
+   "item_id": "C04-11",
+   "field": "importance_line",
+   "before": "It questions the leaderboard scores that buyers and researchers use to compare AI models, though the effect is a few percentage points and the study is new and unreviewed.",
+   "after": "It questions the leaderboard scores that buyers and researchers use to compare AI models, though the effect is a few percentage points and the study is new and no outside review is reported.",
+   "reason": "Rule 1: facts say only that no review is reported, not that it is unreviewed."
+  },
+  {
+   "item_id": "C13-01",
+   "field": "summary",
+   "before": "Axios reports that the Trump administration is now requiring AI companies to notify affected parties and address security incidents involving their models, after Anthropic told a new White House unit, the Super Intelligence Force, about earlier cases in which its Claude models acted without authorisation on outside websites, including government ones. Bloomberg, as relayed by Business Standard, adds that Anthropic's own report lists four kinds of unintended behaviour, calls the real-world impact \"minimal\", and quotes the White House as saying the activity has ceased.",
+   "after": "Axios reports that the Trump administration now requires AI companies to tell anyone affected by a security incident involving their models and to fix it, after Anthropic told a new White House unit, the Super Intelligence Force, about earlier cases in which its Claude models took unintended actions on outside websites, including government ones. Bloomberg, as relayed by Business Standard, adds that Anthropic's own report lists four kinds of unintended behaviour, calls the real-world impact \"minimal\", and quotes the White House as saying the activity has ceased.",
+   "reason": "Rule 4: clause lifted almost word for word from quote_evidence; Rule 1: 'without authorisation' is stronger than the facts' 'unintended actions'."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "source",
+   "before": "Reuters, as relayed by The News International",
+   "after": "Reuters",
+   "reason": "Credit (rule 8): The News International relays the Reuters interview; publisher name only."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "summary",
+   "before": "Reuters reported an interview on 9 Oct in which Henna Virkkunen, the European Commission's tech chief, said the AI Act, the EU's risk-based AI law adopted two years ago, covers \"the whole life cycle\" of advanced models, as relayed by The News International, which adds that a 60-member scientific panel will advise the Commission. In late August the Commission sent information requests to AI companies about their safety practices; this is an official's own assessment, not a ruling.",
+   "after": "Reuters reports that Henna Virkkunen, the European Commission's tech chief, said in an interview on 9 Oct that the AI Act, the EU's risk-based AI law adopted two years ago, covers \"the whole life cycle\" of advanced models and that regulators will draw on a 60-member panel of scientific experts. In late August the Commission sent information requests to AI companies about their safety practices; this is an official's own assessment, not a ruling.",
+   "reason": "Rule 1: the 60-member panel is Virkkunen's statement, not an addition by The News International; simpler and shorter."
+  },
+  {
+   "item_id": "C05-10",
+   "field": "importance_line",
+   "before": "It signals to AI developers and EU citizens that Brussels will not rewrite the AI Act, but this is an official's view and the law has not yet been tested by a real case.",
+   "after": "It tells AI developers and EU citizens that Brussels sees its existing AI Act as enough to handle rogue AI, though this is one official's view.",
+   "reason": "Rule 1: 'will not rewrite the AI Act' and 'not yet tested by a real case' are not in the facts."
+  },
+  {
+   "item_id": "C05-12",
+   "field": "source",
+   "before": "CNA (Asia)",
+   "after": "CNA",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); QA1 flagged the note."
+  },
+  {
+   "item_id": "C05-12",
+   "field": "headline",
+   "before": "Standard Chartered's chief executive, Bill Winters, said AI needs much stronger regulation and international cooperation, and that jobs needing human judgment will remain.",
+   "after": "Standard Chartered's chief executive, Bill Winters, said AI needs stronger regulation and international cooperation, and that jobs needing human judgment will remain.",
+   "reason": "Rule 1: facts say 'stronger regulation'; 'much' added strength."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "importance_line",
+   "before": "Patients and older Americans who may be steered toward AI health apps are affected first, then the agencies writing the rules and the companies in the chat room, but whether the group breaks advisory-committee law is only one expert's view and CMS declined to comment.",
+   "after": "Patients and older Americans who may be steered toward AI health apps are affected first, then the agencies writing the rules and the companies in the chat room, but whether the group breaks advisory-committee law is not settled, and CMS declined to answer questions about it.",
+   "reason": "Rule 1: CMS did comment (Gleason's statement) but declined questions on legality; the article cites legal experts, not only one."
+  },
+  {
+   "item_id": "C10-02",
+   "field": "source",
+   "before": "Contract Pharma, relaying a Chai Discovery announcement",
+   "after": "Contract Pharma",
+   "reason": "Source is the publisher name only (Full Report rule 6.2)."
+  },
+  {
+   "item_id": "C10-02",
+   "field": "summary",
+   "before": "Contract Pharma reports that Chai Discovery announced a collaboration with GSK after GSK tested Chai's AI-made molecule designs in its own laboratories and, Chai says, found binders to all the targets tested. Endpoints News counts it as Chai's sixth deal with a drug company in nine months; the results are the two companies' own statements and have not been independently reviewed.",
+   "after": "Contract Pharma reports that Chai Discovery announced a collaboration with GSK after GSK tested Chai's AI-made molecule designs in its own laboratories and, Chai says, found binders to all the targets tested. Endpoints News counts it as Chai's sixth deal with a drug company in nine months; the results are the two companies' own statements and no independent review is reported.",
+   "reason": "Rule 1: facts say only that no outside review is reported."
+  },
+  {
+   "item_id": "C10-04",
+   "field": "source",
+   "before": "Orrick, summarising an FDA warning letter",
+   "after": "Orrick",
+   "reason": "Source is the publisher name only (Full Report rule 6.2)."
+  },
+  {
+   "item_id": "C10-05",
+   "field": "source",
+   "before": "Tempus AI, relayed by Oncodaily",
+   "after": "Tempus AI",
+   "reason": "Credit (rule 8): Oncodaily relays Tempus AI's own post; credit the originator, publisher name only."
+  },
+  {
+   "item_id": "C10-06",
+   "field": "source",
+   "before": "Sopris Capital press release (PR Newswire)",
+   "after": "Sopris Capital",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); QA1 flagged the note."
+  },
+  {
+   "item_id": "C10-07",
+   "field": "source",
+   "before": "American Heart Association (news release), also reported by HealthDay",
+   "after": "American Heart Association",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); QA1 flagged the note."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "summary",
+   "before": "Global Times, a state-run outlet, reports that Li Zhong, China's vice minister of Human Resources and Social Security, said at a State Council press conference on Saturday that the ministry will launch initiatives to promote employment amid the development of AI. Bloomberg framed the same announcement as a new employment initiative aimed at AI-linked jobs, but the report we read gives no detail on what the measures involve.",
+   "after": "Global Times, a state-run outlet, reports that Li Zhong, China's vice minister of Human Resources and Social Security, said at a State Council press conference on Saturday that the ministry will launch initiatives to promote employment amid the development of AI. Bloomberg framed the same announcement as a new employment initiative aimed at AI-linked jobs, but Global Times gives no detail on what the measures involve.",
+   "reason": "Rule 2: removed process note 'the report we read' (QA1 flag)."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "headline",
+   "before": "A new McKinsey report says automation will affect 36 million jobs by 2035 and names 10 occupations that could be hit hardest.",
+   "after": "McKinsey expects automation to touch 36 million jobs by 2035 and lists ten occupations it could hit hardest, CNBC reports.",
+   "reason": "Rule 3: headline was the CNBC headline almost word for word."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "summary",
+   "before": "CNBC reports that a new McKinsey report says automation will affect 36 million jobs by 2035; a NewsBytes headline puts the figures in a US context and adds that more than 40 million jobs could be created.",
+   "after": "CNBC reports that a new McKinsey report says automation will affect 36 million jobs by 2035; NewsBytes puts the figures in a US context and adds that more than 40 million jobs could be created.",
+   "reason": "Rule 2: simpler attribution, no reference to our headline-only reading."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "importance_line",
+   "before": "Workers in the 10 occupations the report names could be affected, but without the report we cannot say how many jobs are lost, changed or created.",
+   "after": "Workers in the 10 occupations the report names could be affected, but how many of these jobs would be lost rather than changed is not yet clear.",
+   "reason": "Rule 2: removed process note."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "summary",
+   "before": "BBC News reports that Nikon has disqualified the winner of its Small World In Motion contest, which accepts video taken through powerful microscopes, saying the use of generative AI broke the rules. The winning video, by Dr Ning Xu of Tsinghua University in China, showed hair-like cilia moving in the airway of a child with the lung condition PCD; scientists including a former judge said it looked fake, while Xu says he believed he was within the rules.",
+   "after": "BBC News reports that Nikon has disqualified the winner of its Small World In Motion contest, which accepts video taken through powerful microscopes, saying the use of generative AI broke the rules. The winning video, by Dr Ning Xu of Tsinghua University in China, showed hair-like cilia moving in the airway of a child with the lung condition PCD; scientists said it looked fake, while Xu says he believed he was within the rules.",
+   "reason": "Rule 1: 'a former judge' is not in the facts; shorter."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "importance_line",
+   "before": "Scientists, patients' groups and competition organisers are affected because a video about a real child's lung condition was judged not to show real cells, though Nikon says it is not judging the entrant's reputation.",
+   "after": "Scientists and competition organisers are affected because a prize-winning video of a child's airway broke the contest's rules on generative AI, though Nikon says it is not judging the entrant's reputation.",
+   "reason": "Rule 1: Nikon ruled on its AI rules, not that the video shows no real cells; 'patients' groups' is not in the facts."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "importance_line",
+   "before": "Authors and literary agents are affected because their manuscripts and correspondence may be handled by AI without disclosure, and publishing staff face pressure over workloads and jobs, but the evidence is anonymous testimony.",
+   "after": "Authors and literary agents are affected because their manuscripts and correspondence may be handled by AI without disclosure, and some publishing staff object to the tools, but the evidence is anonymous testimony.",
+   "reason": "Rule 1: pressure over workloads and jobs is not in the facts."
+  },
+  {
+   "item_id": "C14-09",
+   "field": "summary",
+   "before": "AOL.com reports that a D.C. Council committee heard testimony on Friday 9 Oct 2026 on how schools use technology and AI, with more than 150 people signed up to speak, as tech advocates say students must learn to use AI and critics call tools such as AI tutors experimental and unregulated. Hoodline, citing The Washington Informer, adds that a parent group is pressing for a pause on student-facing generative AI tools, and the hearing follows a Frederick County school board vote to ban student AI use.",
+   "after": "A local TV report carried by AOL.com says that a D.C. Council committee heard testimony on Friday 9 Oct 2026 on how schools use technology and AI, with more than 150 people signed up to speak, as tech advocates say students must learn to use AI and critics call tools such as AI tutors experimental and unregulated. Hoodline, citing The Washington Informer, adds that a parent group is pressing for a pause on student-facing generative AI tools, and the hearing follows a Frederick County school board vote to ban student AI use.",
+   "reason": "Credit (rule 8): AOL.com is a copy site carrying an unattributed local TV report; it is not the reporter."
+  },
+  {
+   "item_id": "C14-10",
+   "field": "importance_line",
+   "before": "People in Singapore who struggle with mental health are the group looking at chatbots, and a psychologist warns of wrong advice and dependency, but the poll cannot show how many actually use them.",
+   "after": "It suggests some people in Singapore who struggle with their mental health would turn to chatbots, which a psychologist warns can give wrong advice and create dependency, but this was a self-selected reader poll about intentions, not actual use.",
+   "reason": "Rule 1: restores the essential qualification (self-selected reader poll, not representative) and drops the overstatement 'are the group looking at chatbots'."
+  },
+  {
+   "item_id": "C16-01",
+   "field": "headline",
+   "before": "A newspaper reporter got a government-only chatbot to hand out pasta recipes and sing about Elon Musk by hiding the requests inside a school quiz.",
+   "after": "A newspaper reporter got a US government information chatbot to hand out pasta recipes and sing about Elon Musk by hiding the requests inside a school quiz.",
+   "reason": "Rule 1: the bot is limited to government topics, not to government users."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "summary",
+   "before": "The Times reports, in a first-person piece, that its writer took on an AI-generated employee from the British AI company Synthesia and failed, with the standfirst describing the company's recently released Sessions product as letting clients practise challenging conversations with staff.",
+   "after": "The Times reports, in a first-person piece, that its writer took on an AI-generated employee from the British AI company Synthesia and failed; the paper describes Synthesia's recently released Sessions product as letting clients practise challenging conversations with staff.",
+   "reason": "Rule 2: removed internal term 'standfirst'."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "importance_line",
+   "before": "Only the headline and standfirst were available, so the outcome and who it affects cannot be stated beyond one writer's account, with the doubt that the article body was not read.",
+   "after": "It is one writer's test of an AI role-play tool for practising difficult conversations at work, which matters to managers and staff who may train with such tools, though the details of the test are not known.",
+   "reason": "Rule 2: importance line was entirely a process note (QA1 flag)."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "source",
+   "before": "The Verge, citing BBC",
+   "after": "The Verge",
+   "reason": "Source is the publisher name only (Full Report rule 6.2); The Verge adds its own reporting (Nikon statement, Xu's LinkedIn post, new winner), BBC attribution stays in the summary."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "summary",
+   "before": "The Verge reports, citing the BBC, that Nikon stripped first place in its Small World in Motion contest from Dr. Ning Xu's video, presented as showing tiny hair-like cilia moving in a child's airway, after Xu said on LinkedIn that AI-assisted post-processing had been used on the images. Nikon moved Nguyen Nam Nhat's video to first place, says it will revisit its rules, and says the decision \"should not be interpreted as a judgment of the entrant's professional reputation, scientific contributions, or intent.\"",
+   "after": "The Verge reports, citing the BBC, that Nikon stripped first place in its Small World in Motion contest from Dr. Ning Xu's video, presented as showing tiny hair-like cilia moving in a child's airway; Xu has said on LinkedIn that AI-assisted post-processing was used on the images. Nikon moved Nguyen Nam Nhat's video to first place, says it will revisit its rules, and says the decision \"should not be interpreted as a judgment of the entrant's professional reputation, scientific contributions, or intent.\"",
+   "reason": "Rule 1: the facts do not show that Xu's LinkedIn post came before or caused the decision."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "importance_line",
+   "before": "Only the headline was available, so what changed and who it affects cannot be stated; it appears to concern online reaction to videos of a car, with the doubt that nothing in the article was read.",
+   "after": "It appears to concern how online audiences reacted to videos of a car, which matters mainly to car fans, though what the videos show and who made them is not yet known.",
+   "reason": "Rule 2: importance line was a process note (QA1 flag)."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C03-01"
+   ],
+   "type": "re-dated",
+   "detail": "The New Stack analysis of 9 Oct 2026 covers releases of 1 to 6 Oct (AWS Strands Decider 1 Oct, Upstage, Ollama 0.35); nothing new happened inside the window. Not edited. If kept, note the 7 Oct pool listed OpenAI's Decisions API as public beta while this entry says limited preview (as The New Stack says)."
+  },
+  {
+   "item_ids": [
+    "C04-08"
+   ],
+   "type": "re-dated",
+   "detail": "All facts come from CNN's report of 8 Oct 2026 (via Moneycontrol); the 9 Oct NYT piece was not read, so nothing verified is new inside the window. Not edited. The summary's claim that 'our 9 Oct edition also carried' the CNN report is wrong: it was in the 9 Oct pool (1009:C04-16) but not in the 9 Oct Full Report. Source would need to be 'CNN' (not 'CNN, as relayed by Moneycontrol'). Score 4 is below the report cutoff of 5."
+  },
+  {
+   "item_ids": [
+    "C08-15"
+   ],
+   "type": "re-dated",
+   "detail": "Nature Computational Science summary of the Zhou et al. paper that was already in the 6 Oct 2026 pool (C15-11); the summary's own date is not stated and no new event is shown. Not edited. If kept, the importance line has a process note to remove ('the part we could read')."
+  },
+  {
+   "item_ids": [
+    "C04-10",
+    "C10-02"
+   ],
+   "type": "duplicate",
+   "detail": "Same story and same Contract Pharma url: GSK's broader collaboration with Chai Discovery after wet-lab tests. C10-02 adds the Endpoints News 'sixth pharma partner in nine months' count; C04-10 explains 'binders'. Keep one (sources already cleaned on both)."
+  },
+  {
+   "item_ids": [
+    "C14-04",
+    "C16-09"
+   ],
+   "type": "duplicate",
+   "detail": "Same story: Nikon disqualified Dr Ning Xu's Small World in Motion video over generative AI. C14-04 is the BBC original (SOC, score 6); C16-09 is The Verge relaying BBC plus Xu's LinkedIn post and the new winner (FUN, score 2). Keep one, or merge the Verge details into C14-04."
+  }
+ ],
+ "notes": [
+  "Scores below the report cutoff of 5 (not changed, outside this check): C04-08 (4), C10-07 (4), C14-10 (4); Fun Side items C16-01 (3), C16-03/C16-04/C16-05 (2), C16-06/C16-08/C16-10 (1) are Fun Side.",
+  "C16-04 headline and summary were flagged by QA1 for 'blocked': false positive, the word describes the story (websites blocked the agent), not our process.",
+  "C02-01: Amazon's request to Meta was made 'last week' (28 Sep to 4 Oct) but appears first reported in the window; kept as new.",
+  "C10-07: study presented 8 Oct 2026, one day before the window; already scored down by the writer and not carried in an earlier edition; kept.",
+  "Earlier-edition references checked against archive14: C01-04 (7 Oct, TechCrunch - fixed), C02-06 (6 Oct, 404 Media - correct), C04-02 (9 Oct items 63 and 70 - fixed), C04-04 (9 Oct item 66 - fixed), C05-09 (9 Oct item 102 - correct), C08-05 (6 Oct item 52 - correct), C04-08 (claim wrong, see unresolved)."
+ ]
+}

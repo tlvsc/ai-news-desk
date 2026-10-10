@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-04",
+ "v1_category": "MOD",
+ "headline": "Independent tests rank Mistral's new Large 4 model first outside the US and China, but behind several cheaper Chinese open models.",
+ "score": 6,
+ "score_reason": "Kept at 6: independent data on a major European model, but a preview with unreleased weights and mid-table results.",
+ "importance_label": "MEDIUM",
+ "importance_line": "It gives companies seeking a non-US, non-Chinese AI option an outside check on Mistral's claims, though the model is still a preview whose weights are not out and could be re-scored.",
+ "source": "Tom's Hardware",
+ "status": "REPORTED",
+ "summary": "Tom's Hardware reports, citing the testing firm Artificial Analysis, that Mistral Large 4, the French company's trillion-parameter model we covered on 7 Oct 2026, scored 38 on its intelligence index, the best from outside the two countries but below at least five Chinese open models, such as MiMo-V2.6-Pro at 46. It is also dearer to run, at about $1.13 per test task at list price against $0.25 for GLM-5.3-Flash, and Mistral promises its open weights only by the end of October.",
+ "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Launch about 6 Oct 2026; new today are the independent test results."
+}

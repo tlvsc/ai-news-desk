@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-04",
+ "v1_category": "SEC",
+ "headline": "A study found that leading Chinese AI developers published safety test results for a specific model in only about 3.6% of their releases over five years.",
+ "score": 6,
+ "score_reason": "Pool score kept: useful transparency finding, but it measures what is published, not what is tested, and was read through a second outlet.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Users, researchers and regulators outside China can rarely check how Chinese models were tested before release, but the study shows missing publication, not missing testing.",
+ "source": "Reuters, citing SemiAnalysis",
+ "status": "REPORTED",
+ "summary": "Reuters reports, as relayed by The420.in, that research firm SemiAnalysis found published safety results tied to a specific model for only 31 of 857 releases from nine leading Chinese AI companies, including Alibaba, ByteDance, Tencent, Baidu and DeepSeek, between 2021 and 15 September 2026, and only nine were available at or before launch. The study measures openness, not safety work, because the companies may have tested their models without publishing the results.",
+ "url": "https://www.reuters.com/legal/litigation/china-ai-developers-publish-safety-tests-just-36-model-releases-report-finds-2026-10-09/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters page blocked; text read at The420.in (https://the420.in/china-ai-model-safety-tests-3-6-percent-semianalysis/), which relays the SemiAnalysis study and Reuters report. Link is the Reuters original."
+}

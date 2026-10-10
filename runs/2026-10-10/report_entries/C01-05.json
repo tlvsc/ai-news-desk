@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "MOD",
+ "headline": "Alibaba's Qwen team released Qwen-Image-2.1-Turbo, an image model that makes pictures in eight steps instead of forty.",
+ "score": 5,
+ "score_reason": "Kept at 5: a useful but incremental open release with a restrictive licence and no independent test.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Creators and researchers get a faster image tool to try, but commercial use of the downloaded files needs a separate licence and no independent speed or quality test has been reported.",
+ "source": "Kingy AI",
+ "status": "REPORTED",
+ "summary": "Kingy AI reports, after checking Qwen's model card and licence, that the downloadable checkpoint generates and edits images in eight steps, down from 40 in the earlier Qwen Image 2.1 examples, and that Alibaba Cloud already sells it through a paid API. The downloaded files are licensed for noncommercial research only, and the lower step count alone does not prove a fivefold cut in total generation time.",
+ "url": "https://kingy.ai/blog/qwen-image-2-1-turbo-eight-steps-license/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "MarkTechPost original (chunk url) blocked with 403; Kingy AI, which checked Qwen's primary sources, was read instead and is credited."
+}

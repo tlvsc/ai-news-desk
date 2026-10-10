@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-10",
+ "v1_category": "MOD",
+ "headline": "AI vendors are now offering small decision models that choose an agent's next step, and analysts warn they may add cost and complexity.",
+ "score": 5,
+ "score_reason": "Kept at 5: a useful trend piece, but analysis and opinion rather than a new event.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It affects companies building AI agents and the engineers who must maintain them: costs may fall, but there are more models to test and govern, and the savings are unproven.",
+ "source": "InfoWorld",
+ "status": "REPORTED",
+ "summary": "InfoWorld reports that TypeSafe's Jev, Cloudflare's Clef and AWS's Strands Decider 2B hand narrow choices, such as which tool an agent uses, to a small specialised model, which could cut costs; OpenAI's Decisions API does the same without a separate model to manage. Analysts quoted, including HFS Research's Ashish Chaturvedi, warn of \"AI-stack sprawl\" because each model's confidence scores mean different things, so companies must recalibrate and govern their decision rules.",
+ "url": "https://www.infoworld.com/article/4233075/as-ai-agents-grow-vendors-carve-out-decision-making-as-a-separate-model-layer.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": ""
+}

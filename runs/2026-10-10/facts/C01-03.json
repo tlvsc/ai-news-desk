@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-03",
+ "title": "Alibaba Releases Qwen3.8, the Largest Open-Source AI Model",
+ "source_used": "TechJuice",
+ "article_url": "https://www.techjuice.pk/alibaba-qwen38-open-weights-2-4-trillion-moe/",
+ "fetched": true,
+ "key_facts": [
+  "Alibaba released Qwen3.8-2.4T-A95B, the text-only open-weight checkpoint behind its managed Qwen3.8-Max service, on Hugging Face.",
+  "It is described as the first open release of a Max-class model in the Qwen family.",
+  "It has 2.4 trillion parameters in total and activates about 95 billion per operation through a sparse mixture-of-experts design.",
+  "The download is text-only and always uses thinking mode; the managed service adds vision input, non-thinking mode and built-in tools.",
+  "The model card lists a native context length of 262,144 tokens, extendable to 1,010,000.",
+  "TechJuice says it ranks second on Vision Arena and fifth on Text Arena, behind only Anthropic's Claude Fable 5 in overall performance.",
+  "It uses the Qwen3.8-Max License rather than Apache 2.0: name display above 100 million monthly users or $20 million monthly revenue, and a separate licence above $50 million revenue over 12 months.",
+  "NVIDIA says data-centre-scale multinode systems are required to run it."
+ ],
+ "quote_evidence": [
+  "Alibaba released Qwen3.8-2.4T-A95B, the text-only open-weight checkpoint behind its managed Qwen3.8-Max service.",
+  "The model has 2.4 trillion total parameters but activates only 95 billion parameters for each operation.",
+  "The checkpoint uses the Qwen3.8-Max License rather than Apache 2.0."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Independent testers can now run and inspect a very large Chinese model, though the licence limits big commercial use.",
+ "event_date": "Reported 9 Oct 2026; exact upload date not stated",
+ "notes": "One secondary outlet. The headline's 'largest open-source model' is not compared against other models in the text. The ranking sentence is internally odd (second on one board, fifth on another, behind only one model) and is hedged in the summary by omission."
+}

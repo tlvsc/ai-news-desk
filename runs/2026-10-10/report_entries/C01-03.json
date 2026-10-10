@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "Alibaba has put the downloadable files of its 2.4-trillion-parameter Qwen3.8 model on Hugging Face for anyone to use under a custom licence.",
+ "score": 6,
+ "score_reason": "Lowered from 7: the 'largest open-source model' claim in the headline is not backed by a comparison, and the facts come from one secondary outlet.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Researchers and companies can test a very large Chinese model on their own hardware, but big commercial users face licence conditions and the model still needs data-centre-scale systems, and the ranking claims come from a single outlet.",
+ "source": "TechJuice",
+ "status": "REPORTED",
+ "summary": "TechJuice reports that Alibaba released the text-only open-weight version of its Qwen3.8-Max model, meaning its trained files can be downloaded; it has 2.4 trillion parameters (the adjustable numbers inside a model) but uses only about 95 billion for each request, which is meant to keep computing costs down. It comes under a custom licence that sets conditions for large commercial users, and TechJuice calls it the largest open-source model without comparing it against others.",
+ "url": "https://www.techjuice.pk/alibaba-qwen38-open-weights-2-4-trillion-moe/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Exact upload date not given; reported 9 Oct 2026."
+}

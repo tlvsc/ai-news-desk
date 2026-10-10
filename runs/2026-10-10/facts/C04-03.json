@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-03",
+ "title": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic's Claude Science mapped the whole sky in ultraviolet light, described as a first.",
+  "Johns Hopkins astrophysicist Brice Menard describes the process on Anthropic's website.",
+  "UV can only be measured from space because the ozone layer blocks it; NASA's GALEX covered about two-thirds of the sky and skipped bright star-forming regions.",
+  "Claude Science coordinated AI agents that downloaded data from several space missions, calibrated and merged it.",
+  "Missing areas were filled by inpainting, where a model learns from existing data to reconstruct gaps.",
+  "In tests, predictions averaged about ten percent deviation from actual measurements.",
+  "The map is meant as teaching material; Menard suspects many scientists have put off similar projects AI could now make possible."
+ ],
+ "quote_evidence": [
+  "Anthropic's Claude Science just mapped the entire sky in ultraviolet light for the first time.",
+  "NASA's GALEX mission covered about two-thirds of the sky but skipped bright star-forming regions.",
+  "In tests, predictions averaged about ten percent deviation from actual measurements."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Anthropic presents it as a demonstration of AI doing tedious data work researchers would otherwise never get to.",
+ "event_date": "Reported 9 Oct 2026",
+ "notes": "Short Decoder article; the underlying account is on Anthropic's own website (not read). Claim of 'first complete' map is the company's and the researcher's, with no outside review reported."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-04",
+ "title": "Apple will update Macs to protect users from AI agents with full disk access",
+ "source_used": "Mashable",
+ "article_url": "https://mashable.com/tech/apple-will-update-full-disk-access-due-to-updates-ai-agents",
+ "fetched": true,
+ "key_facts": [
+  "Apple says it will soon add controls to Full Disk Access, the Mac permission that gives an app access to the whole system, so users must take very explicit action to grant it.",
+  "Mashable says Apple is doing this because of the rise of AI agents such as Meta's Muse, which it says recently passed 5 million downloads; Apple's quoted statement does not name Muse.",
+  "Inc. columnist Jason Aten recently found that Muse had synced his entire local Messages database after he says he denied permission; Meta says that is impossible if he declined.",
+  "Apple's statement: some developers use Full Disk Access in ways that expose files, mail, messages and browsing history, and for communication apps it can compromise the privacy of the people users talk to.",
+  "No release date is given (\"will soon release\")."
+ ],
+ "quote_evidence": [
+  "Going forward, we will introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.",
+  "Aten claims he denied giving Muse permission to access Messages. Meta claims it's impossible for Muse to do so if Aten did decline providing Muse with these permissions.",
+  "As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Mac users will have to approve whole-computer access to apps and AI agents much more explicitly.",
+ "event_date": "Apple announced the plan on 2 Oct 2026 (our 3 Oct edition, TechCrunch); Mashable writes about it on 9 Oct 2026",
+ "notes": "Older news re-dated: the same Apple plan is item 30 of our 3 Oct 2026 edition (TechCrunch, 2 Oct). Mashable adds the Muse download count and the Aten dispute, which TechCrunch also mentioned."
+}

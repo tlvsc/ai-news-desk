@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-08",
+ "v1_category": "ENE",
+ "headline": "Kioxia has announced a long, thin data-centre SSD series that it says can scale to 122.88TB, though drives of that size have no release date.",
+ "score": 4,
+ "score_reason": "Lowered from 5: the headline's 122.88TB drive has no release date, only 15.36TB and 30.72TB versions are being sampled, and Kioxia gave no speed or endurance figures.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to data-centre operators storing large AI datasets, because more storage fits in each server, but the biggest drive is not dated and without performance or endurance numbers buyers cannot judge it yet.",
+ "source": "Tom's Hardware",
+ "status": "REPORTED",
+ "summary": "Tom's Hardware reports that Kioxia introduced its LD4-series SSDs (solid-state drives) in an extra-long E1.L shape built to fit many flash chips into thin servers, using its BiCS8 QLC flash (memory that stores four bits per cell) and aimed at read-heavy jobs such as AI data stores. Kioxia is sampling 15.36TB and 30.72TB versions to select customers and says it has validated a design for 122.88TB, but has not said when that size or mass production will arrive, nor given speed, endurance or power figures.",
+ "url": "https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Announcement made Friday 9 Oct per Tom's Hardware; the drives will be shown at the OCP Global Summit in mid-October. The article notes the drives list PCIe 5.0 compliance but run at PCIe 4.0 x4 speeds."
+}

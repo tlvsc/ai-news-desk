@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-06",
+ "title": "Claude's Managed Agents now fetch only a URL that already appeared in the session",
+ "source_used": "Anthropic API release notes (platform.claude.com/docs/en/release-notes/overview), as MIXED Reality News returned a Cloudflare block (HTTP 403)",
+ "article_url": "https://platform.claude.com/docs/en/release-notes/overview",
+ "fetched": true,
+ "key_facts": [
+  "In Claude Managed Agents, the web_fetch tool now fetches only URLs that have already appeared in the session, for example in a user message, a web_search result or a page web_fetch returned earlier.",
+  "Anthropic says this reduces the risk of data exfiltration.",
+  "A URL that appears only in Claude's own output, the agent's system prompt, an attached document or the output of a tool such as bash, read or an MCP tool does not count.",
+  "A web_fetch call for such a URL returns a url_not_in_prior_context error result to the agent.",
+  "To let the agent fetch a URL, send it in the text of a user.message event.",
+  "The release note sits under 7 Oct 2026 in Anthropic's notes, alongside a change that applies allowed_hosts to web_search and web_fetch in limited-networking environments."
+ ],
+ "quote_evidence": [
+  "In Claude Managed Agents, the web_fetch tool now fetches only URLs that have already appeared in the session, for example in the text of a user message, in a web_search result, or in a page that web_fetch returned earlier.",
+  "This reduces the risk of data exfiltration.",
+  "To let the agent fetch a URL, send it in the text of a user.message event."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers building agents must now supply page addresses in a user message; Anthropic says it lowers data-exfiltration risk.",
+ "event_date": "7 Oct 2026 (Anthropic release note)",
+ "notes": "MIXED Reality News blocked (403); text read from Anthropic's own release notes, the first source. Change dated 7 Oct 2026 in the notes, before the 9 Oct window, so score lowered by 1."
+}

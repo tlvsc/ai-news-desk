@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "GitHub has rewritten the core engine of its Copilot command-line tool, app and developer kit in the Rust language, with AI agents writing most of the code.",
+ "score": 6,
+ "score_reason": "Kept at pool score 6: a large, specific case of AI-written code replacing a production system, on a tool many developers use; the figures are GitHub's own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed: the engine behind a widely used coding assistant can now be built into other programs without Node.js, which matters first to developers who build on it; the speed and memory figures are GitHub's own measurements of one scenario, and commenters note that behaviour at the edges, such as cancellation and retries, needs checking beyond compilation.",
+ "source": "InfoQ",
+ "status": "REPORTED",
+ "summary": "InfoQ reports, citing GitHub's own account, that the rewrite replaced more than 800,000 lines of production code that ran on TypeScript and Node.js, took about 14.5 weeks and 128 pull requests (proposed code changes), and was done while releases continued. GitHub says one measured start-up and first-reply scenario fell from 5.25 seconds to 292 milliseconds when the new engine is built directly into an application, and that the old design added about 100 MB of memory per client.",
+ "url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext. GitHub blog post is the first source; its link is not given in the InfoQ text."
+}

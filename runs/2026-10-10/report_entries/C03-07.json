@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "MOD",
+ "headline": "Monitoring company New Relic has launched AI Evaluation, a tool that scores the quality of an AI application's answers alongside its normal performance data.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: a product launch by an established monitoring vendor, described only in the company's own terms.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: engineering teams running AI applications get answer-quality scores and security checks in the same tool as their uptime monitoring; this is the company's own description, with no independent testing reported.",
+ "source": "Express Computer, citing New Relic",
+ "status": "REPORTED",
+ "summary": "Express Computer reports, citing New Relic, that AI Evaluation sits inside its AI Observability platform and uses a second AI model to score sampled answers and attach those scores to the application's traces (records of a request's path), so teams can tell whether a fault comes from the model, the retrieval system that feeds it documents, or other code. It also includes guardrails against prompt injection, jailbreaks and personal-data leaks, and links answer quality to compute and token costs.",
+ "url": "https://www.expresscomputer.in/amp/news/new-relic-ai-evaluation-ai-observability/139739/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext. Press-release style text; company claims not independently checked."
+}

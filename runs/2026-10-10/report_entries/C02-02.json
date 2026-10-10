@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-02",
+ "v1_category": "MOD",
+ "headline": "Anthropic has added a Claude feature in which one lead agent plans a job and hands parts of it to as many as 1,000 helper agents working at the same time.",
+ "score": 7,
+ "score_reason": "Pool 7 kept: a major AI lab's new product feature with a concrete test, but the figures are Anthropic's own and a single outlet reports it.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed is that Claude can now split one large task across up to 1,000 agents running in parallel, which affects developers and companies building on Claude first, and the doubt is that the accuracy gain comes from Anthropic's own bug-finding test and the cost in usage could be high.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Anthropic has added dynamic workflows to Claude Managed Agents, its hosted service for running AI agents, in which a lead agent writes a plan, gives tasks to sub-agents and merges their results, with up to 1,000 agents running in parallel. In Anthropic's own test, which hid 70 bugs in a 116,000-line codebase, a single agent found 14 to 27 per run while the workflow consistently found 66, but The Decoder says it is not yet known whether this holds for other tasks, notes that a senior OpenAI engineer recently called agent swarms a big waste of tokens (the units AI services charge by), and quotes Anthropic's advice to start small.",
+ "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": ""
+}

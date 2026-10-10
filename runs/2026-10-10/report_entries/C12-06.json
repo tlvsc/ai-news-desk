@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "Microsoft says in its 2026 Digital Defense Report that AI is speeding up cyberattacks, with the typical time from the discovery of a flaw to its use in attacks now under a day.",
+ "score": 6,
+ "score_reason": "Pool score kept: large vendor dataset on AI and attack speed, but it is the company's own report and the full document was not read.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Companies and public bodies that run software have less time to patch and ordinary users face more scams that trick them into running harmful commands, but these are Microsoft's own data and framing, not an independent study.",
+ "source": "Microsoft",
+ "status": "REPORTED",
+ "summary": "Microsoft says in its annual Digital Defense Report that AI is now used across attacks, from finding flaws to writing malware, and that close to 40,000 publicly listed software flaws (CVEs) were reported in the first half of 2026, so the year's count is on course to roughly double. It says the typical gap between a flaw being spotted in the wild and attackers using it is now well under a day, while large organisations can take 30 to 60 days to fix critical ones, though most complex intrusions still involve real human direction.",
+ "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/2026-digital-defense-report",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the report landing page text only. Figures are Microsoft's own."
+}

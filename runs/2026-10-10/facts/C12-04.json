@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-04",
+ "title": "China AI developers publish safety tests for just 3.6% of model releases, report finds",
+ "source_used": "The420.in (relaying Reuters and SemiAnalysis)",
+ "article_url": "https://the420.in/china-ai-model-safety-tests-3-6-percent-semianalysis/",
+ "fetched": true,
+ "key_facts": [
+  "SemiAnalysis, a California research firm, examined 857 model releases between 2021 and 15 Sep 2026 from nine major Chinese AI companies.",
+  "The nine were Alibaba, ByteDance, Tencent, Baidu, DeepSeek, Moonshot AI, Z.AI, MiniMax and StepFun.",
+  "Model-specific public safety results existed for only 31 releases (3.6%); only nine were available at or before launch.",
+  "A disclosure counted only if specific safety results could be tied to an identifiable model.",
+  "The study measures transparency, not whether safety work was done; firms may have tested internally without publishing.",
+  "Per The420, Reuters reported that China has no broad mandatory rule for frontier developers to publish model-level dangerous-capability tests before release."
+ ],
+ "quote_evidence": [
+  "Researchers found published safety results for only 31 releases.",
+  "Only nine of the 857 models reviewed had public safety results available at or before the model was released.",
+  "Companies may have conducted internal evaluations without publishing the results."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Outsiders can rarely check Chinese models' safety testing before release, though absence of publication is not absence of testing.",
+ "event_date": "Report published 9 Oct 2026 (data to 15 Sep 2026)",
+ "notes": "Reuters original blocked (401); TradingView copy is a stub. Facts read in The420.in's account of the SemiAnalysis study and Reuters report; the study itself not read."
+}

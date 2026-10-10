@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-15",
+ "title": "Supabase Raises $150M, Agrees to Buy Turso",
+ "source_used": "Quasa.io (fulltext), relaying SiliconANGLE of 2 Oct 2026",
+ "article_url": "https://quasa.io/stories/supabase-raises-150m-and-buys-turso-agent-databases-get-two-engines",
+ "fetched": true,
+ "key_facts": [
+  "On 2 Oct 2026 SiliconANGLE reported Supabase raised $150 million in a round led by GIC, with CapitalG, IronArc and SquarePeg, and agreed to buy Turso for an undisclosed sum.",
+  "The round size is not the purchase price.",
+  "CEO Paul Copplestone wrote 'For existing users, nothing changes' and put Supabase's pace at more than one million database launches per week.",
+  "Turso keeps working on SQLite, Supabase on Postgres; Turso's SQLite rewrite targets server workloads, including concurrent writes.",
+  "The new capital is intended partly for employee liquidity and partly for features aimed at AI agents.",
+  "No migration workflow or compatibility guarantee from Turso to Supabase Postgres has been released; deeper integration is expected in the coming months.",
+  "Turso founder Glauber Costa becomes Head of Agentic Services; cofounder Pekka Enberg and colleagues join Supabase."
+ ],
+ "quote_evidence": [
+  "The financing and acquisition were disclosed together, but the amount raised is not the purchase price.",
+  "The undisclosed purchase price makes it impossible to calculate a transaction multiple or infer how much of the financing will support the deal.",
+  "A path into the Supabase ecosystem is part of the plan, but no migration workflow or compatibility guarantee has been released."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Postgres platform is buying a maker of small SQLite databases to serve the many databases AI agents create.",
+ "event_date": "2 Oct 2026",
+ "notes": "Event is a week old (2 Oct 2026); Quasa.io is a secondary outlet relaying SiliconANGLE and Supabase's own post; score lowered by 2 as stale."
+}

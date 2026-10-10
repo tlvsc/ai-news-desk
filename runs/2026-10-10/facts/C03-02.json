@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-02",
+ "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+ "source_used": "InfoQ (fulltext), citing GitHub Blog Post",
+ "article_url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub migrated the runtime behind Copilot CLI, the Copilot app and the Copilot SDK from TypeScript and Node.js to Rust, replacing more than 800,000 lines of production code through an AI-assisted rewrite.",
+  "The migration took about 14.5 weeks, was delivered through 128 pull requests and GitHub kept releasing the runtime, shipping 135 releases (35 stable, 100 prerelease).",
+  "GitHub reports one measured client start-up, session creation and single-turn scenario fell from 5.25 seconds to 292 milliseconds when the Rust runtime is embedded in process.",
+  "The old design needed Node.js and V8 and talked to host applications across a process boundary, which GitHub says added about 100 MB of working set per client.",
+  "The Rust runtime can be embedded through a C ABI; an out-of-process mode remains. The SDK supports TypeScript, Python, Go, .NET, Java and Rust.",
+  "GitHub replaced components incrementally, with a temporary N-API compatibility layer of 2,019 exports and 3,356 TypeScript call sites that was later removed.",
+  "By 21 Aug the runtime held 832,378 lines of production Rust and 468,689 lines of unit tests; AI agents generated most of the implementation with compilation, tests and human review catching regressions.",
+  "Community commenters said the hard part is keeping behaviour stable at boundaries such as cancellation, retries and backpressure."
+ ],
+ "quote_evidence": [
+  "GitHub has migrated the runtime behind GitHub Copilot CLI, the Copilot app, and Copilot SDK from TypeScript and Node.js to Rust, replacing more than 800,000 lines of production code through an AI-assisted rewrite.",
+  "GitHub used an incremental replacement strategy rather than a parallel rewrite followed by a single cutover.",
+  "AI agents generated most of the implementation, while compilation, testing, and human review helped identify regressions involving behavior, state and lifetime handling, library semantics, and lost optimizations."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A widely used coding assistant's engine becomes embeddable without Node.js, with large claimed start-up and memory savings, as a large case study of AI-written code in production.",
+ "event_date": "Not stated (GitHub blog post; runtime figures to 21 Aug 2026); InfoQ published 9 Oct 2026",
+ "notes": "Figures are GitHub's own, relayed by InfoQ; original GitHub blog link not named in the text."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-01",
+ "v1_category": "MOD",
+ "headline": "Microsoft released Microsoft-Decision-1, a compact model built to pick between set options quickly instead of writing text.",
+ "score": 7,
+ "score_reason": "Lowered from 8: a real launch in a new model class, but the speed and accuracy figures are Microsoft's own and nothing independent is reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Software that must choose quickly, such as routing a request or deciding whether an AI agent should act, could get cheaper and faster, which mostly affects developers and companies running agents, but the figures are Microsoft's own tests and no outside review is reported.",
+ "source": "Microsoft",
+ "status": "CONFIRMED",
+ "summary": "Microsoft says in its announcement, as relayed by TestingCatalog and The Verge, that Microsoft-Decision-1 is now available in Microsoft Foundry and scores a fixed list of options, such as yes or no, with a probability for each rather than writing free text. Microsoft claims it was the most accurate in its own 36-benchmark test and 35 times faster than OpenAI's GPT-6 Sol, and The Verge notes it arrives days after OpenAI's Decisions API.",
+ "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Microsoft's own post is blocked here (403), so the text was read via TestingCatalog (https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/) and a short Verge item. Source credited to Microsoft as first reporter; the performance numbers are company claims."
+}

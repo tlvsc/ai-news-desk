@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-07",
+ "title": "New Relic launches AI Evaluation to link AI quality with production performance",
+ "source_used": "Express Computer (fulltext)",
+ "article_url": "https://www.expresscomputer.in/amp/news/new-relic-ai-evaluation-ai-observability/139739/",
+ "fetched": true,
+ "key_facts": [
+  "New Relic introduced AI Evaluation, a capability within its AI Observability platform, to monitor AI response quality, identify security risks and assess business impact.",
+  "It links AI response quality to the underlying application transaction, giving developers, SREs and platform teams one view of AI behaviour, infrastructure performance and resource use.",
+  "An asynchronous LLM-as-a-judge service evaluates sampled inputs and outputs and attaches quality scores to distributed traces.",
+  "Configurable guardrails aim to detect prompt injection, jailbreaks, personal-data exposure, toxicity and bias.",
+  "For retrieval-augmented generation applications it assesses faithfulness and answer relevance to separate model problems from retrieval problems.",
+  "It ties response assessments to compute and token costs so teams can compare models on quality and cost.",
+  "A Prompt Playground and reusable datasets support pre-deployment testing and A/B tests.",
+  "New Relic's Chief Product Officer Brian Emerson and IDC's Stephen Elliot are quoted."
+ ],
+ "quote_evidence": [
+  "New Relic has introduced AI Evaluation, a capability within its AI Observability platform designed to help enterprises monitor AI response quality, identify security risks, and assess the business impact of AI workloads across the application lifecycle.",
+  "The platform uses an asynchronous LLM-as-a-judge service to evaluate sampled inputs and outputs, assigning quality scores to distributed traces to help engineering teams identify the source of failures."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Teams running AI applications get quality and safety scores in the same tool as their performance monitoring.",
+ "event_date": "Not stated; published 9 Oct 2026",
+ "notes": "Company launch description; no independent testing reported. Text reads like a press release."
+}

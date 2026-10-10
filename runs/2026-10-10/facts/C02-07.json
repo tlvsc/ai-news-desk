@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-07",
+ "title": "Meta’s Muse reportedly keeps files on everyone you love",
+ "source_used": "Mashable",
+ "article_url": "https://mashable.com/tech/meta-muse-report-ai-assistant-keeps-track-of-family-friends",
+ "fetched": true,
+ "key_facts": [
+  "Muse, Meta's AI assistant, has more than 5 million downloads in 3 weeks.",
+  "A report from Wired and AI safety researcher Karan Joshi says Muse has been instructed to create \"a page for every person in the user's life\".",
+  "A \"Relationships\" loop runs hourly in the background on a user's computer to update each page, per researchers at FutureSociety.",
+  "Joshi told Wired he got Muse to reveal its system prompts; Mashable cannot verify them, but other researchers have shared the alleged prompts online.",
+  "Pages cover family, friends, partners, colleagues and followed accounts, built from messages, photos and past interactions, including what the user owes or has promised.",
+  "Meta spokesperson Daniel Roberts told Wired Muse compiles context \"based on public information and from what you've chosen to share\" under the permissions the user grants.",
+  "Mashable notes Apple's recent statement on changing Full Disk Access because of agents like Muse."
+ ],
+ "quote_evidence": [
+  "Namely, the report claimed that Muse has been instructed to create \"a page for every person in the user’s life.\"",
+  "Mashable cannot independently verify these system instructions, but Joshi isn't the only researcher to share the alleged prompts online in recent days.",
+  "“Muse gathers that based on public information and from what you’ve chosen to share,”"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People who never used Muse could still be profiled by it, if the leaked prompts are genuine.",
+ "event_date": "Wired report first carried in our 4 Oct 2026 edition; Mashable article 9 Oct 2026",
+ "notes": "Repeat of the WIRED story in our 4 Oct 2026 edition (item 31); Mashable adds the 5 million downloads and the Apple link. System prompts are unverified."
+}

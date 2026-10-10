@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-04",
+ "title": "Alibaba Cloud's Full-Stack AI Compute Self-Development Emerges: Zhenwu V900 Chip Set for Mass Production Next Year, Supernode Power Draw Reaches 650kW",
+ "source_used": "BigGo Finance",
+ "article_url": "https://finance.biggo.com/news/12a94410-0654-469f-9107-1e2bd7de7afa",
+ "fetched": true,
+ "key_facts": [
+  "Alibaba Cloud showed its full-stack in-house AI hardware at the recent Apsara Conference, from chips to rack-level clusters.",
+  "The Zhenwu V900 has 216GB of memory, 1200GB/s chip-to-chip bandwidth and FP8/FP4 support, and delivers three times the performance of the previous M890; mass production is slated for Q1 2027.",
+  "Chips come from T-Head Semiconductor, Alibaba Group's wholly owned chip design company set up in 2018.",
+  "Alibaba builds hardware for its own cloud and rents it out, unlike Huawei which sells Ascend and Kunpeng products externally.",
+  "The flagship Panjiu AL144 supernode (up to 144 GPUs per rack) draws 650kW per rack and is fully liquid-cooled.",
+  "China's intelligent computing services market was about 68.4 billion yuan in 2025 and is projected to exceed 277.5 billion yuan by 2030 (CIC data)."
+ ],
+ "quote_evidence": [
+  "Among data center compute chips, the Zhenwu series is the undisputed workhorse.",
+  "According to the roadmap, the Zhenwu V900 is slated for mass production in Q1 2027.",
+  "To support such immense compute density, the AL144 draws a staggering 650kW per rack, supports up to 3,500W per GPU, and employs an 800V vertical power architecture with vertical jet impingement microchannel cold plates — a fully liquid-cooled native design."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Alibaba is building a complete Chinese alternative stack of AI chips, servers and networks for its own cloud.",
+ "event_date": "Apsara Conference (date not stated)",
+ "notes": "Event date not stated."
+}

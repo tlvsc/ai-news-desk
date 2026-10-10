@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-07",
+ "title": "ByteDance researchers identify cause of inconsistent long-context retrieval in DeepSeek models",
+ "source_used": "TechNode",
+ "article_url": "https://technode.com/2026/10/09/bytedance-researchers-identify-cause-of-inconsistent-long-context-retrieval-in-deepseek-models/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from ByteDance's Seed team identified a mechanism behind inconsistent long-context retrieval in DeepSeek models.",
+  "Chunked KV-cache compression makes retrieval accuracy depend on where information falls in a compression window.",
+  "Differences reach up to 40 percentage points across positions.",
+  "The technique compresses groups of consecutive tokens into fewer cache entries to cut memory and attention costs.",
+  "The team calls the pattern 'phase sensitivity' and reproduced it in models trained from scratch.",
+  "Different attention components specialise in retrieving from different positions.",
+  "The findings explain how strong average benchmark results can hide recurring retrieval weaknesses."
+ ],
+ "quote_evidence": [
+  "Their study found that chunked KV-cache compression makes retrieval accuracy sensitive to where information falls within a compression window, producing differences of up to 40 percentage points across positions.",
+  "The findings explain how strong average benchmark results can conceal recurring retrieval weaknesses."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "May explain why long-context AI sometimes misses facts that sit in the wrong position.",
+ "event_date": "9 Oct 2026 (paper)",
+ "notes": "Short item based on a ByteDance Seed paper; no outside review or response from DeepSeek reported."
+}

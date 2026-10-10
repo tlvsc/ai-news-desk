@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-01",
+ "title": "AWS, Upstage and Ollama agree on a decision-model API. OpenAI hasn’t signed on.",
+ "source_used": "The New Stack (fulltext)",
+ "article_url": "https://thenewstack.io/decision-models-system-one/",
+ "fetched": true,
+ "key_facts": [
+  "AWS released Strands Decider 2B on 1 Oct 2026, an open-weight model built on Alibaba's Qwen3.5 that answers at /v1/systemone, the endpoint startup TypeSafe AI introduced with its Jev model just over two weeks earlier.",
+  "A decision model takes application state plus typed questions (choice, score, yes/no) and returns structured answers with a probability for each option; it never writes prose or code.",
+  "Upstage serves Solar Decide through the System One schema and Ollama added a /v1/systemone endpoint in version 0.35; OpenRouter, Venice and Perplexity offer their own paths with the same question types.",
+  "OpenAI answered with a Decisions API built on a specialised version of GPT-6 Luna; it is in limited preview with no published schema or pricing.",
+  "AWS reports answers at 0.9 confidence or higher were right about 95% of the time on short classification tasks the model had not seen.",
+  "A University of Southern California researcher found an optimiser could redirect 61.4% of 508 initially correct Jev decisions by adding short natural-looking context; the article calls this an adversarial targeted-flip rate, not an ordinary failure rate.",
+  "On OpenRouter Jev costs $0.042 per million input tokens with no charge for output; Perplexity prices its hosted v1.1 model at $0.02 per million input tokens.",
+  "The article says System One is less than a month old and servers still differ in option limits, confidence calculation and answer quality."
+ ],
+ "quote_evidence": [
+  "Within three weeks, decision models went from one startup’s experiment to a category.",
+  "OpenAI remains the outlier among the large vendors.",
+  "In short, TypeSafe is winning the schema war while the endpoint war remains open."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A shared request format lets developers swap decision-model providers by changing a URL, though quality and robustness still need testing.",
+ "event_date": "Strands Decider released 1 Oct 2026; analysis published 9 Oct 2026",
+ "notes": "Headline says the companies 'agree'; the article describes convergence on one schema, not a formal agreement, so score lowered by 1. Article text contains odd spellings (e.g. 'noul' for yes/no, 'Ollaya'); not used. Product names (Jev, Kev, GPT-6 Luna) are as printed by the outlet and not independently checked."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-02",
+ "title": "IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect",
+ "source_used": "The Quantum Insider (carrying IonQ press release)",
+ "article_url": "https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect/",
+ "fetched": true,
+ "key_facts": [
+  "IonQ announced entanglement rates above 1,000 per second (1 kHz) between a trapped-ion qubit and a solid-state memory, linked by photons.",
+  "It says the rate is more than four times faster than the previous trapped-ion record, held by the group of IonQ co-founder Chris Monroe at Duke University.",
+  "The test linked a trapped-ion system with a silicon vacancy (SiV) qubit.",
+  "IonQ describes the work as supporting its DARPA HARQ programme for quantum interconnects.",
+  "Results are in a technical paper (arXiv preprint) with Duke University as collaborator.",
+  "IonQ sold its first memory and interconnect system to the University of Maryland in April and a second to SDT in South Korea in September."
+ ],
+ "quote_evidence": [
+  "IonQ has crossed a pivotal milestone for memory enhanced quantum interconnects, achieving more than 1,000 entanglement events per second, said Niccolo de Masi, Chairman and CEO of IonQ.",
+  "IonQ's demonstration achieves rates more than four times faster than the previous record for trapped ions.",
+  "This work shows that a photonic quantum interconnect need not be a bottleneck for distributed quantum computing, said Mihir Bhaskar."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Faster links between quantum machines are needed to join many small quantum computers into a bigger one.",
+ "event_date": "9 Oct 2026 (announced)",
+ "notes": "Text is IonQ's own press release, republished by The Quantum Insider, so the claims are the company's and the paper is an arXiv preprint. 'Fastest of any platform' is IonQ's wording and is not independently checked."
+}

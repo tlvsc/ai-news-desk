@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-09",
+ "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
+ "source_used": "The Robot Report",
+ "article_url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+ "fetched": true,
+ "key_facts": [
+  "Boston Dynamics showed a new four-fingered hand for its Atlas humanoid robot last week; it has 13 degrees of freedom and is directly actuated.",
+  "The company dropped the pinky finger and reduced the size of the gripper; it says the hand is designed for mass manufacturing and still handles over 100 lb.",
+  "Alberto Rodriguez, director of robot behavior for Atlas, says the hand is built from 13 identical, fully encapsulated actuators with no fragile cables crossing joints.",
+  "The hand was designed so it can be simulated accurately, to allow reinforcement learning (trial-and-error training) in simulation to carry over to the real hand.",
+  "Rodriguez said a two-thumb design was rejected because it added actuation complexity, extra degrees of freedom, cost and volume.",
+  "Test tasks include handheld power tools, handling cables and fishing for screws; the team has also tried juggling and speed hand games.",
+  "Rodriguez said the hands have been used extensively at headquarters but not yet deployed across the whole robot fleet."
+ ],
+ "quote_evidence": [
+  "The four-fingered hand has 13 degrees of freedom, or DoF, and is directly actuated.",
+  "Notably, Boston Dynamics has dropped the pinky finger and reduced the size of the gripper.",
+  "We have used the new hands extensively in our headquarters but have not deployed them yet to the whole robot fleet."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The company that makes Atlas chose a simpler, more reliable four-fingered hand it can mass-produce and train in simulation.",
+ "event_date": "Hand shown about 1 Oct 2026 (Robot Report 'last week'); interview published 9 Oct 2026",
+ "notes": "Interview with a Boston Dynamics director, so all design claims are the company's own. Reveal date taken from search listings (The Robot Report and IEEE Spectrum, 1 Oct 2026)."
+}

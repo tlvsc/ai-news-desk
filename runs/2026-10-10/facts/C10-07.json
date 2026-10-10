@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-07",
+ "title": "Don't Trust AI For Blood Pressure Monitor Recommendations, Study Warns",
+ "source_used": "American Heart Association news release (HealthDay reported the same study; its page returned no text)",
+ "article_url": "https://newsroom.heart.org/news/top-ai-tools-accurately-identified-validated-home-bp-monitors-only-about-23-of-the-time",
+ "fetched": true,
+ "key_facts": [
+  "Researchers presented the study at the American Heart Association's Hypertension Scientific Sessions 2026 (Arlington, Virginia, 7-11 Oct); it is an abstract, not peer-reviewed.",
+  "They tested 324 home blood pressure monitors (145 validated, 179 not validated) with four AI search tools: Google Gemini, Microsoft Copilot, ChatGPT and Perplexity.",
+  "ChatGPT, Copilot and Perplexity were right only about 63% to 83% of the time; Gemini was best at 86% to 91%.",
+  "All four tools were less accurate at recognising validated monitors than unvalidated ones.",
+  "When researchers repeated questions on a different day or computer, the tools often gave a different answer.",
+  "The authors could not determine why the tools struggled; a limitation is that results will likely change as AI improves.",
+  "Presenting author Anna Soriano, a resident at the University of Montreal, said most tools did only slightly better than a coin flip."
+ ],
+ "quote_evidence": [
+  "Three of four leading AI-powered search tools accurately identified home blood pressure monitors that met validated clinical standards only 63%-83% of the time.",
+  "The findings are considered preliminary until published as a full manuscript in a peer-reviewed scientific journal.",
+  "People may unknowingly think a device is validated based on the AI tool’s inaccurate responses."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "People asking chatbots which home blood pressure monitor is accurate may get wrong answers.",
+ "event_date": "Presented 8 Oct 2026; HealthDay report 9 Oct 2026",
+ "notes": "HealthDay page (pool link) returned no readable text; the AHA release is the study's original source. Event date 8 Oct 2026, before the 9 Oct window, so score lowered by 1."
+}

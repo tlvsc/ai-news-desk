@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-11",
+ "v1_category": "RES",
+ "headline": "Researchers say the date that AI services quietly add to their background instructions can change benchmark scores enough to reshuffle model rankings.",
+ "score": 5,
+ "score_reason": "Kept at 5: a useful methods finding, but it is a new paper without outside review and the paper's date is not stated.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It questions the leaderboard scores that buyers and researchers use to compare AI models, though the effect is a few percentage points and the study is new and no outside review is reported.",
+ "source": "Unite.AI",
+ "status": "PRELIMINARY",
+ "summary": "Unite.AI reports on a new paper from researchers in Germany, Mexico and the USA finding that the current date, which providers silently insert into an AI model's system prompt (its hidden background instructions), changes scores on standard tests enough to reshuffle leaderboard rankings. Across nine models the authors saw accuracy shift by up to 6% on multiple-choice questions, 14% on maths reasoning and 7% on code, and by up to 4% for OpenAI's GPT-5.1 over one week in December 2025, and they advise removing the date, or fixing and documenting it, when models are compared.",
+ "url": "https://www.unite.ai/secret-dates-in-system-prompts-undermine-language-model-evaluation/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Paper's own date not stated in the article; no independent review reported."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-09",
+ "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+ "fetched": true,
+ "key_facts": [
+  "Push Security researchers found a malicious Google ad for the search \"claude mac\" that used a legitimate bing.com address.",
+  "The ad passed through Google's ad redirect, then a Bing click-tracking link, then a compromised WordPress site of a South American retailer, then the fake page claude-desk-code[.]com.",
+  "Cloaking meant visitors arriving directly were sent to a 404 page, hiding the payload from scanners.",
+  "The fake page shows Anthropic's genuine install command, but the copy button puts a different command on the clipboard.",
+  "That command decodes a hidden address, downloads a file from lake-90[.]com and runs it in the Mac terminal.",
+  "The final payload is unknown.",
+  "Push calls the technique \"Adception\" and tracks the ClickFix toolkit as AcSig."
+ ],
+ "quote_evidence": [
+  "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks.",
+  "However, while the page displays Anthropic's legitimate installation command, curl -fsSL https://claude.ai/install.sh | bash, clicking the copy button places a malicious command in the clipboard.",
+  "The final payload delivered by the attack remains unknown, so it unclear what malware, if any, is being installed."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Mac users searching for an AI tool can be tricked by a paid ad that looks safe.",
+ "event_date": "Reported 9 Oct 2026",
+ "notes": "BleepingComputer relays a Push Security report; the Push report itself not read. Campaign start date not stated."
+}

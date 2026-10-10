@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-04",
+ "title": "FDA Warning Letter Tells Software Device Makers That Retraining AI Algorithms and Moving to the Cloud Can Require a New 510(k)",
+ "source_used": "Orrick (law firm client alert)",
+ "article_url": "https://www.orrick.com/en/Insights/2026/10/FDA-Warning-Letter-Tells-Software-Device-Makers-That-Retraining-AI-Algorithms",
+ "fetched": true,
+ "key_facts": [
+  "The FDA's Center for Devices and Radiological Health (CDRH) released a warning letter to O.N. Diagnostics.",
+  "FDA found the company's latest vertebral fracture assessment software, VirtuOst VFA version 3.0.0, adulterated and misbranded because it introduced a new algorithm and moved the product to the web without a new premarket notification (510(k)).",
+  "VirtuOst VFA analyses spine CT images to identify and grade vertebral fractures and help physicians manage osteoporosis; the earlier version was cleared under 510(k) K171435.",
+  "The finding followed an FDA inspection in March 2026.",
+  "FDA asked the company to stop distributing version 3.0.0 and cited three changes that each required a new 510(k) (the list is not in the text we could read).",
+  "FDA also cited violations of quality management and medical device reporting requirements.",
+  "Orrick expects continued FDA scrutiny of whether marketed software matches what the agency reviewed as AI devices and cloud delivery spread."
+ ],
+ "quote_evidence": [
+  "For software as a medical device (SaMD), a routine version release can be a regulatory event.",
+  "FDA concluded that version 3.0.0 went beyond the clearance.",
+  "We expect FDA to continue scrutinizing whether marketed software still matches what the Agency actually reviewed."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A routine update to an AI medical tool can require new FDA clearance.",
+ "event_date": "Letter date not stated; inspection March 2026; Orrick alert published Oct 2026",
+ "notes": "Read through a law firm's summary of the FDA letter, not the letter itself. The bulleted list of the three changes was missing from the fetched text, so only the new algorithm and the move to the web are stated."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "Attackers are using Google search ads that pass through Bing's trusted web address to send Mac users to a fake Claude download that tricks them into running a hidden command.",
+ "score": 5,
+ "score_reason": "Pool score kept: a clever ad-abuse scam using an AI brand, but one campaign, payload unknown and no victim numbers reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Mac users who search for AI tools can be sent to a convincing fake by a paid ad that looks legitimate, but the final malware is unknown and no victim numbers are reported.",
+ "source": "BleepingComputer, citing Push Security",
+ "status": "REPORTED",
+ "summary": "BleepingComputer reports, citing security firm Push Security, that attackers placed Google search ads for \"claude mac\" that route through bing.com and a hacked website to a fake Claude download page, where the copy button for the install command secretly swaps in a different command that fetches and runs a remote script. Push Security calls the technique \"Adception\" and says it delivers a ClickFix attack, which tricks users into running a harmful command themselves; what malware, if any, the script installs is not known.",
+ "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Push Security report not read; relayed by BleepingComputer."
+}

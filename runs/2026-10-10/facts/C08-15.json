@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-15",
+ "title": "Photonic circuits become trainable AI hardware",
+ "source_used": "Nature (Nature Computational Science research summary)",
+ "article_url": "https://www.nature.com/articles/s43588-026-01071-0",
+ "fetched": true,
+ "key_facts": [
+  "A physics-based in situ learning method directly measures optical gradients with photonic integrated circuits.",
+  "It allows diverse circuit topologies to be trained after fabrication.",
+  "The hardware achieved matrix design, multiwavelength computation and rapid meta-learning.",
+  "It does so without requiring a full digital model of the circuit.",
+  "The summary relates to Zhou, T. et al., Nat. Comput. Sci. (2026), 'Photonic neuromorphic learning via generalized in situ physical gradient descent'.",
+  "Only the summary was readable; the page is behind a subscription."
+ ],
+ "quote_evidence": [
+  "A physics-based in situ learning method is demonstrated that directly measures optical gradients with photonic integrated circuits, allowing diverse circuit topologies to be trained after fabrication.",
+  "This hardware achieves matrix design, multiwavelength computation and rapid meta-learning without requiring a full digital model of the circuit."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A light-based chip can be trained after it is built without simulating it digitally first.",
+ "event_date": "Not stated",
+ "notes": "Paywall; summary only."
+}

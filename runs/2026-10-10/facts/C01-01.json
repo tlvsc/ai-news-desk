@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-01",
+ "title": "Microsoft launches its new AI model for making decisions quickly.",
+ "source_used": "TestingCatalog (relaying Microsoft's announcement) and The Verge",
+ "article_url": "https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft announced Microsoft-Decision-1, a model built for fast decision scoring, available now in Microsoft Foundry and due on OpenRouter soon.",
+  "Instead of writing text, it takes a fixed set of options (yes/no, multiple choice, ratings) and returns a calibrated probability for each in one API call.",
+  "Microsoft post-trained the open Qwen3.5-9B model for this task.",
+  "Microsoft says it had the highest accuracy in a 36-benchmark test of nearly 150,000 held-out questions, 4.5 times faster than runner-up Quyet-1.0-Large and 35 times faster than GPT-6 Sol at median latency.",
+  "Microsoft says its decision changed 1.3% of the time across eight rewordings of the same request.",
+  "Pricing starts at $0.042 per million input tokens, with output tokens free.",
+  "The Verge notes the launch came days after OpenAI highlighted its new Decisions API."
+ ],
+ "quote_evidence": [
+  "Microsoft has launched Microsoft-Decision-1, a purpose-built model for fast decision scoring that produces structured choices software can act on immediately.",
+  "Microsoft says the model achieved the highest accuracy in a 36-benchmark evaluation covering nearly 150,000 questions withheld from training.",
+  "Apparently, after large language models and agents, we're now in the age of \"decision models,\" as Microsoft has announced Microsoft-Decision-1 just days after OpenAI highlighted its new Decisions API."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A low-cost control layer that tells software whether to act, retry or escalate could make AI agents cheaper to run.",
+ "event_date": "9 Oct 2026",
+ "notes": "Microsoft's own post (commandline.microsoft.com) returned 403; the Verge page held only three sentences. Facts come from TestingCatalog, which relays Microsoft's announcement. All performance figures are Microsoft's own tests."
+}

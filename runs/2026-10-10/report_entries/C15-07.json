@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-07",
+ "v1_category": "RES",
+ "headline": "Quantinuum and software firm HQS have used a trapped-ion quantum computer to simulate the nuclear magnetic resonance signal of a molecule with 22 interacting atomic nuclei.",
+ "score": 5,
+ "score_reason": "Credible technical benchmark, but a pre-print, and the authors say classical computers still do it better.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Chemists and materials scientists get a sign that quantum hardware can reproduce a hard measurement, but the authors concede conventional software is still more efficient, so there is no practical advantage yet.",
+ "source": "Quantum Computing Report",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Computing Report reports that Quantinuum, which builds trapped-ion quantum computers, and German firm HQS Quantum Simulations ran a simulation of a nuclear magnetic resonance (NMR) spectrum, the signal chemists use to work out molecular structure, on Quantinuum's H2-1 machine. They reproduced a fine double-peak feature that earlier quantum hardware tests struggled to resolve, but the authors note that classical software remains more efficient for routine work today, and the result is in a pre-print.",
+ "url": "https://quantumcomputingreport.com/quantinuum-and-hqs-simulate-21-spin-nmr-spectrum-on-42-qubits-with-1400-two-qubit-gate-circuits/amp/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Headline figures of 42 qubits and 1,400+ circuits are not in the article text and were left out. The molecule has 22 spins, simulated as a 21-spin effective model."
+}

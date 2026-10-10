@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-03",
+ "v1_category": "RES",
+ "headline": "Anthropic says its Claude Science system has produced the first complete ultraviolet map of the whole sky.",
+ "score": 6,
+ "score_reason": "Kept at 6: a new, concrete result, though it is the company's own account.",
+ "importance_label": "MEDIUM",
+ "importance_line": "It shows AI agents taking on large data-merging jobs that scientists have put off, which matters to astronomers first and to AI labs selling science tools, but the claim comes from Anthropic and a collaborating researcher with no outside review reported.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports, citing an account by Johns Hopkins astrophysicist Brice Ménard on Anthropic's website, that Anthropic's Claude Science, which coordinates AI agents, downloaded, calibrated and merged data from several space missions into an all-sky ultraviolet map, using a technique called inpainting (a model learns from existing data to fill gaps) for areas that NASA's GALEX mission had skipped. In the team's own tests the model's predictions deviated about ten percent from actual measurements, and the map is meant as teaching material.",
+ "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Decoder (short piece); the primary account on Anthropic's site was not opened. Filled areas are model predictions, not measurements."
+}

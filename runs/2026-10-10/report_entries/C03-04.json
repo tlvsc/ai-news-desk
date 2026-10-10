@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "MOD",
+ "headline": "OpenAI has added a Windows 11 sandbox to Codex, its coding agent, that isolates the commands the agent runs without needing administrator setup.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: a useful tool change for developers on Windows 11, narrow in reach and with an open bug.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: developers on compatible Windows 11 PCs can limit what an AI coding agent may read, write or reach on the network without an administrator setting it up; it does not run on every PC, and users have already reported a start-up failure linked to BitLocker.",
+ "source": "Nerd's Chalk, citing OpenAI",
+ "status": "CONFIRMED",
+ "summary": "Nerd's Chalk reports, citing OpenAI's announcement of 9 Oct 2026, that the new Codex mode uses Microsoft Execution Containers (MXC), a Windows feature that applies file and network limits to a command and the processes it starts, with no administrator approval, extra Windows accounts or firewall rules. It works only on compatible Windows 11 PCs, Codex includes a test command to check support, and a bug report opened on 4 Oct 2026 describes MXC failing to start when an unrelated drive is locked by BitLocker, Windows disk encryption.",
+ "url": "https://nerdschalk.com/codex-windows-mxc-sandbox-pc-support/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext. OpenAI's announcement is quoted in the article; the original post link was not given."
+}

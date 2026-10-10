@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-12",
+ "title": "AI Models Flunk Engineering Simulation Test in Massive New Benchmark",
+ "source_used": "Bioengineer.org (credits Scienmag, Denise Maddox, 9 Oct 2026)",
+ "article_url": "https://bioengineer.org/ai-models-flunk-engineering-simulation-test-in-massive-new-benchmark/",
+ "fetched": true,
+ "key_facts": [
+  "Carnegie Mellon University researchers (Jessica Ezemba, Jason Pohl, Conrad Tucker, Christopher McComb) built the OpenSeeSimE benchmark, published in Communications Engineering on 23 Sep 2026.",
+  "It has more than 200,000 question-answer pairs from 10,000 parametrically varied simulations, an 850-fold scale increase over previous work.",
+  "Ten state-of-the-art vision-language models scored 29 to 47 percent on engineering simulation questions, at or near random chance.",
+  "Effect sizes between models were negligible.",
+  "The authors conclude that deploying such models for simulation interpretation will need domain-specific training.",
+  "The benchmark is large enough to measure small progress with statistical confidence.",
+  "Simulation pipeline built with PyAnsys, with support from the Ansys team."
+ ],
+ "quote_evidence": [
+  "Published open access in Communications Engineering on 23 September 2026, the paper arrives at a moment when the gap between AI hype and AI capability in specialized domains is under intense scrutiny.",
+  "Models that demonstrate strong performance on general visual reasoning benchmarks, the very tasks that have fueled excitement about multimodal AI, scored between 29 and 47 percent on the engineering simulation questions.",
+  "The practical implication, according to the authors, is that deploying vision-language models for simulation interpretation will require domain-specific training rather than reliance on general-purpose models."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "General-purpose AI image models are not yet reliable at reading engineering simulation results.",
+ "event_date": "Paper published 23 Sep 2026; coverage 9 Oct 2026",
+ "notes": "Bioengineer.org text is an article credited to Scienmag (News Source line); the study is in Communications Engineering. Models are not named in the article read. Scored down as stale (paper dated 23 Sep 2026)."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-03",
+ "title": "AI Chatbots Often Fail To Help Users In Mental-Health Crisis",
+ "source_used": "Time (Naomi Nix)",
+ "article_url": "https://time.com/article/2026/10/09/chatbots-suicide-research/",
+ "fetched": true,
+ "key_facts": [
+  "Scale AI research, shared exclusively with Time, found chatbots are good at spotting that a user is in crisis but often fail to give adequate help.",
+  "In about 35% of test conversations, chatbots recognised distress but did not refer the user to resources such as a suicide hotline.",
+  "19 licensed clinicians and crisis counsellors wrote 718 realistic chats; 25 frontier models, including from OpenAI, Anthropic and Google, were tested.",
+  "Models did worse in long, multi-turn conversations, matching earlier studies, according to Scale AI's Patrick Oathout.",
+  "Scale AI built a benchmark called DistressBench from the work.",
+  "An OpenAI spokesperson said the company did not have sufficient evidence to fully evaluate the study; Google declined to comment; Anthropic did not respond.",
+  "OpenAI and Google have been sued over claims their chatbots fostered emotional dependence or failed to respond to distress; the cases are ongoing."
+ ],
+ "quote_evidence": [
+  "In about 35% of test conversations in the study, different AI chatbots recognized the user was distressed but didn’t refer them to helpful resources, such as a suicide hotline, according to the research.",
+  "An OpenAI spokesperson said in a statement the company did not have sufficient evidence to fully evaluate the Scale AI study.",
+  "The models performed worse at responding to users’ distress when they were engaging in long, multi-turn conversations."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Millions turn to chatbots in distress and the study finds help often is not offered.",
+ "event_date": "Reported 9 Oct 2026",
+ "notes": "Research is by Scale AI itself, shared exclusively with Time; no outside review reported. Time page was readable on a second attempt (first fetch returned 406)."
+}

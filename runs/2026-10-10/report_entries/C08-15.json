@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-15",
+ "v1_category": "RES",
+ "headline": "Researchers have shown that a photonic chip, which computes with light, can be trained for AI tasks directly on the hardware after it has been built.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: a peer-reviewed laboratory demonstration, but only the journal's short summary was readable and it gives no speed or energy results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to AI hardware researchers because it avoids training light-based circuits through a full digital copy, but this is a laboratory result and the part we could read gives no speed, energy or cost figures.",
+ "source": "Nature",
+ "status": "PRELIMINARY",
+ "summary": "Nature Computational Science published a summary of a study by Zhou and colleagues describing a physics-based learning method in which photonic integrated circuits (chips that carry out calculations with light) measure optical gradients, the signals showing how to adjust a network, directly, so that different circuit designs can be trained after they are fabricated. According to the summary, the hardware managed matrix design, multiwavelength computation (using several colours of light at once) and rapid meta-learning (learning new tasks quickly) without first building a complete digital model of the circuit.",
+ "url": "https://www.nature.com/articles/s43588-026-01071-0",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Nature page is behind a paywall; only the short summary was readable. The underlying paper (Zhou et al., Nat Comput Sci, doi 10.1038/s43588-026-01057-y) was in the 6 Oct pool but not in an edition. Publication date of the summary not stated; pool shows 9 Oct."
+}

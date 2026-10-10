@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "Anthropic launched a free service that sends AI-found security flaws straight to open-source maintainers, and a program with 11 firms to protect industrial systems.",
+ "score": 7,
+ "score_reason": "Pool score kept: concrete new defensive programs from a major AI lab, but results so far are the company's own claims.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Open-source maintainers may get faster but unchecked bug reports, and the firms that secure power, water and factory equipment get AI help with old, hard-to-patch flaws, but the 90% accuracy figure and the benefits are Anthropic's own claims.",
+ "source": "SecurityWeek",
+ "status": "REPORTED",
+ "summary": "SecurityWeek reports that Anthropic announced two cybersecurity programs on Thursday: OSS Scanner, a free opt-in service that uses its AI models to scan open-source projects and send maintainers vulnerability reports without human review, and a Critical Infrastructure Defense Program with 11 founding partners, including Accenture, CrowdStrike and Palo Alto Networks, to help protect operational technology, the systems that run power, water and factories. Anthropic admits some automated reports will be wrong, for example with wrong severity ratings, though it expects over 90% to be real flaws, and says flaws found earlier through its Project Glasswing often took months to fix.",
+ "url": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Announced Thursday 8 Oct 2026, reported 9 Oct."
+}

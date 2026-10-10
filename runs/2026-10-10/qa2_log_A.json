@@ -1,0 +1,485 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-01",
+   "field": "importance_line",
+   "before": "Federal staff must use the new term and some companies are choosing to follow, but the order does not bind private firms and a new name shows no new capability.",
+   "after": "Federal agencies are told to use the new term in official messages and some companies are choosing to follow, but the order does not bind private firms and a new name shows no new capability.",
+   "reason": "Meaning: the 29 Sep order tells agencies to use the term in official communications, as far as the law permits; 'federal staff must use' was stronger than the facts."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "headline",
+   "before": "Elon Musk escalated his feud with the Indian billionaire Mukesh Ambani over Starlink's licence by sharing older media reports about Reliance's political links.",
+   "after": "Elon Musk escalated his feud with the Indian billionaire Mukesh Ambani over Starlink's delayed launch in India by sharing older media reports alleging that firms linked to Reliance helped the ruling BJP.",
+   "reason": "Meaning: the reports Musk shared are allegations, not established 'political links'; the feud is over the delayed launch (Starlink already holds a licence per the minister)."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "summary",
+   "before": "The New Indian Express reports that Musk posted on X on Saturday 10 Oct screenshots of a 2022 Al Jazeera report that a Reliance-funded firm boosted the BJP's campaigns on Facebook and a 2024 Indian Express report that a Reliance-linked firm gave the BJP Rs 385 crore through electoral bonds, after addressing Mukesh Ambani, chairman of Reliance Industries, as \"Prime Minister Ambani\"; Reliance has not responded. In our 9 Oct 2026 edition the BBC reported that Musk accused unnamed \"oligarchs\" of blocking Starlink, his satellite internet service, in India; on 9 Oct Communications Minister Jyotiraditya Scindia said three firms hold satcom licences and can start once security conditions are met, and the government calls claims of unfair treatment \"baseless and misconceived\".",
+   "after": "The New Indian Express reports that Musk posted on X on Saturday 10 Oct screenshots of a 2022 Al Jazeera report that a Reliance-funded firm boosted the Facebook campaigns of India's ruling BJP and a 2024 Indian Express report that a Reliance-linked firm gave the BJP Rs 385 crore through electoral bonds, after addressing Mukesh Ambani, chairman of Reliance Industries, as \"Prime Minister Ambani\"; Reliance has not responded. In our 9 Oct 2026 edition the BBC reported that Musk accused unnamed \"oligarchs\" of blocking Starlink, his satellite internet service, in India; on 9 Oct Communications Minister Jyotiraditya Scindia said three firms hold satcom licences and can start once security conditions are met, and the government calls claims of unfair treatment \"baseless and misconceived\".",
+   "reason": "Clarity: explain the BJP on first use."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "importance_line",
+   "before": "It bears on when people in India can buy Starlink's satellite internet, which still waits on security clearance and spectrum, but the claims about Reliance are unproven and no regulator has decided anything.",
+   "after": "It bears on when people in India can buy Starlink's satellite internet, which still waits on security conditions and spectrum prices, but the reports Musk shared date from 2022 and 2024 and Reliance has not responded.",
+   "reason": "Meaning: 'the claims about Reliance are unproven' and 'no regulator has decided anything' were not supported by the facts (spectrum pricing decision is near); replaced with the supported doubts."
+  },
+  {
+   "item_id": "C13-03",
+   "field": "summary",
+   "before": "Reuters reports that new guidelines issued on Friday by China's ruling Communist Party and cabinet, as cited by state news agency Xinhua, call for breakthroughs in AI theory, more computing power and national pilot bases for industrial AI, but also tell officials to avoid blind investment and \"swarm-like\" rushes into high-tech sectors. Officials responsible for major losses from blind investment are to be held accountable, and the guidelines ask for monitoring and emergency-response systems to keep AI \"safe, reliable and controllable\".",
+   "after": "Reuters reports that new guidelines issued on Friday by China's ruling Communist Party and cabinet, as cited by state news agency Xinhua, call for breakthroughs in AI theory, more computing power and national pilot bases for industrial AI, but also tell officials to avoid blind investment and \"swarm-like\" rushes into high-tech sectors. Officials whose blind investment causes major losses will be held to account, and the guidelines ask for monitoring and emergency-response systems to keep AI \"safe, reliable and controllable\".",
+   "reason": "Copying: clause was a near-copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C08-12",
+   "field": "headline",
+   "before": "State-backed funds in China are putting billions of yuan into the chipmaker Hua Hong and its parent as Beijing pushes for self-reliance in older-technology chips.",
+   "after": "State-backed funds in China are putting billions of yuan into the parent of the chipmaker Hua Hong and a new chip plant as Beijing pushes for self-reliance in older-technology chips.",
+   "reason": "Meaning: the money goes to Hua Hong Group (the parent) and a Wuxi plant, not directly into the chipmaker."
+  },
+  {
+   "item_id": "C08-12",
+   "field": "importance_line",
+   "before": "It shows the Chinese state deepening its hold on a main maker of older-technology chips, which matters to Chinese carmakers and device makers that rely on them and to foreign rivals, but only part of the report could be read and the full terms are not known.",
+   "after": "It shows the Chinese state taking a much bigger stake in a main maker of older-technology chips as Washington tightens its limits, which matters to firms that buy those chips and to foreign rivals, though it is a funding step, not new production.",
+   "reason": "Process note removed ('only part of the report could be read'); carmakers/device makers consequence not in the facts."
+  },
+  {
+   "item_id": "C13-05",
+   "field": "summary",
+   "before": "CNBC reports, as relayed by Quartz on Yahoo Finance, that the two AI companies have together hired at least five former Trump administration officials this year, including Anthropic board member Chris Liddell and OpenAI's Dean Ball, who helped shape the administration's AI Action Plan. A policy analyst quoted by CNBC says the labs have learned from Anthropic's dispute with the Pentagon that it pays to be on the good side of the White House.",
+   "after": "CNBC reports, as relayed by Quartz on Yahoo Finance, that the two AI companies have together hired at least five former Trump administration officials this year, including Anthropic board member Chris Liddell and OpenAI's Dean Ball, who helped shape the administration's AI Action Plan. According to the report, the companies know the administration has many levers over their business, from government purchasing to export controls, and a federal appeals court ruled in September that the Pentagon had properly labelled Anthropic a supply-chain risk.",
+   "reason": "Meaning: the policy-analyst claim is not in the facts; replaced with the supported points (administration levers; September appeals ruling)."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "importance_line",
+   "before": "A model built to automate tasks rather than write text drew nearly a billion dollars within weeks, which matters to businesses weighing automation tools and to investors; the adoption figure is the company's own claim and has not been independently checked.",
+   "after": "A model that gives decisions as probabilities rather than writing text drew $870 million within weeks of release, which matters to businesses weighing automation tools and to investors; the adoption figure is the company's own claim and has not been independently checked.",
+   "reason": "Meaning: 'nearly a billion dollars' overstated $870 million; 'built to automate tasks' not in the facts."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "summary",
+   "before": "Yahoo Finance reports that US stocks rose on Friday 9 Oct 2026, with the S&P 500 up 0.59%, the Nasdaq Composite up 0.64% and the Dow Jones Industrial Average up 0.83%, as tech shares recovered from Thursday's AI-led drop. That drop followed reports, covered in our 9 Oct 2026 edition, that OpenAI's annualized revenue (recent sales scaled to a full year) was near $50 billion; new today is a further report that OpenAI expects about $70 billion by the end of the year, while a University of Michigan survey put consumer sentiment at a five-month low.",
+   "after": "Yahoo Finance reports that US stocks rose on Friday 9 Oct 2026, with the S&P 500 up 0.59%, the Nasdaq Composite up 0.64% and the Dow Jones Industrial Average up 0.83%, as tech shares recovered from Thursday's AI-led drop. That drop followed reports, covered in our 9 Oct 2026 edition, that OpenAI's annualized revenue (recent sales scaled to a full year) was near $50 billion; a further report, also carried in that edition, says OpenAI expects about $70 billion by the end of the year, while a University of Michigan survey put consumer sentiment at a five-month low.",
+   "reason": "Meaning: the Bloomberg $70 billion report was already item 14 of our 9 Oct edition, so it is not new today."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "headline",
+   "before": "Nvidia and Micron shares rebounded on Friday after Bloomberg reported that OpenAI still expects to reach a $70 billion revenue pace by the end of the year.",
+   "after": "Nvidia and Micron shares rose before Friday's market open after Bloomberg reported that OpenAI expects to reach a $70 billion yearly revenue pace by the end of 2026.",
+   "reason": "Meaning: the facts support only a pre-market rebound (MarketWatch says chip stocks wobbled later); 'still' not supported."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "summary",
+   "before": "Bloomberg reported on Friday 9 Oct 2026, citing people familiar with the matter and as relayed by Investing.com on Yahoo Finance, that OpenAI expects its annualized revenue (recent sales scaled to a full year) to reach or pass $70 billion by the end of 2026, driven chiefly by its business customers. BigGo Finance reports that the news sparked a pre-market rebound in Nvidia and Micron after both fell on Thursday, and it follows the Financial Times figure of about $50 billion covered in our 9 Oct 2026 edition.",
+   "after": "BigGo Finance reports that Nvidia and Micron shares rose before the market opened on Friday 9 Oct 2026, after both fell on Thursday, following a Bloomberg report, relayed by Investing.com on Yahoo Finance and citing people familiar with the matter, that OpenAI expects its annualized revenue (recent sales scaled to a full year) to reach or pass $70 billion by the end of 2026, driven chiefly by its business customers. Our 9 Oct 2026 edition carried both that Bloomberg report and the Financial Times figure of about $50 billion behind Thursday's fall.",
+   "reason": "Reply rule and old news: the entry reacts to the Bloomberg report, which our 9 Oct edition already carried (item 14); now says so and leads with what is new (the pre-market rebound)."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "importance_line",
+   "before": "What changed is that a second report eased the previous day's revenue scare around OpenAI, which matters first to savers whose funds hold chip and cloud shares, then to investors weighing OpenAI's reported $1.4 trillion fundraising talks, and the doubt is that the $70 billion comes from unnamed sources and is not confirmed by OpenAI in the coverage available.",
+   "after": "What changed is that a second report eased the previous day's revenue scare around OpenAI, which matters first to savers whose funds hold chip and cloud shares, then to investors weighing OpenAI's reported fundraising at a $1.4 trillion valuation, and the doubt is that the $70 billion comes from unnamed sources and OpenAI had not commented.",
+   "reason": "Meaning: $1.4 trillion is the reported valuation, not the size of the fundraising; 'in the coverage available' was process wording."
+  },
+  {
+   "item_id": "C05-04",
+   "field": "summary",
+   "before": "Stocktwits reports, in a story Yahoo Finance carries, that Elon Musk replied on X to a post about a reported plan by Japan's SoftBank to raise as much as $100 billion from Gulf investors for a fund that would buy companies and run them better with AI, which the Financial Times reported (its date is not given). The article notes that SoftBank raised more than $11 billion in a high-yield bond sale last month at yields up to 9.75% and has committed billions to OpenAI, which Musk is suing, and our 9 Oct 2026 edition carried the Financial Times' view that Masayoshi Son's AI plans strain SoftBank's finances.",
+   "after": "Stocktwits reports, in a story Yahoo Finance carries, that Elon Musk replied on X to a post about a plan by Japan's SoftBank to raise as much as $100 billion from Gulf investors for a fund that would buy companies and run them better with AI. That plan was reported by the Financial Times, in a story our 9 Oct 2026 edition carried, which said SoftBank chief Masayoshi Son had held talks in recent weeks with Gulf investors; Stocktwits notes that SoftBank raised more than $11 billion in a high-yield bond sale last month at yields up to 9.75% and has committed billions to OpenAI, which Musk is suing.",
+   "reason": "Reply rule: the earlier story is the FT $100 billion report, carried in our 9 Oct edition (item 11); the entry wrongly said that edition carried an FT view on SoftBank's finances. Removed '(its date is not given)'."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "Stocktwits reports, in a story Yahoo Finance carries, that investor Michael Burry wrote on Substack that the administration will \"pull out all the stops\" to protect the AI boom, though backstopping trillions would carry \"epic moral hazard\" and have limits, and that valuation expert Aswath Damodaran holds five of the seven biggest US tech stocks but has put most new money in cash, warning of \"accounting and market carnage\" if AI fails to deliver. These are personal opinions, and the same article quotes a more upbeat Goldman Sachs view that strong tech earnings can carry stocks through higher bond yields.",
+   "after": "Stocktwits reports, in a story Yahoo Finance carries, that investor Michael Burry wrote on Substack that the administration will \"pull out all the stops\" to protect the AI boom, though backstopping trillions would carry \"epic moral hazard\" and have limits, and that valuation expert Aswath Damodaran holds five of the seven biggest US tech stocks but has put most new money in cash, warning of \"accounting and market carnage\" if AI fails to deliver. These are personal opinions, and the same article quotes a more upbeat Goldman Sachs strategist who expects strong tech earnings to continue.",
+   "reason": "Meaning: the bond-yield claim is not in the facts."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "importance_line",
+   "before": "Anyone whose savings or pension sit in big tech shares is the audience, and taxpayers would stand behind any government backstop, but these are personal views, not forecasts anyone can check.",
+   "after": "People whose savings or pensions sit in big tech shares would be hit if these warnings prove right, but they are the personal views of two investors, not evidence of what will happen.",
+   "reason": "Meaning: the taxpayer consequence was not in the facts; 'not forecasts anyone can check' was confusing."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "summary",
+   "before": "Yahoo Finance reports that Garman, chief executive of Amazon's cloud arm AWS, said on an Andreessen Horowitz podcast that AWS spreads its capacity across many customers and that most of its use is core computing, storage and inference (running trained AI models), workloads that \"just aren't gonna go away\". He compared AI start-ups to venture capital, where not every company survives, as with the internet, while Yahoo notes that investor Ray Dalio warned this week that AI speculation may be near its peak, which we carried on 7 Oct 2026.",
+   "after": "Yahoo Finance reports that Garman, chief executive of Amazon's cloud arm AWS, said on an Andreessen Horowitz podcast that AWS spreads its capacity across many customers and that most of its use is core computing, storage and inference (running trained AI models), workloads that \"just aren't gonna go away\". He likened AI start-ups to venture investing, where not every company survives, as in the internet bubble, while Yahoo notes that investor Ray Dalio warned this week that AI speculation may be near its peak, which we carried on 7 Oct 2026.",
+   "reason": "Clarity: the comparison now reads as Garman made it."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "importance_line",
+   "before": "Investors and companies that rely on AWS hear a reassurance from the one with most to lose, so it is a company view, not an independent finding.",
+   "after": "Investors and companies that rely on AWS hear a reassurance from the executive in charge of that spending, so it is a company view, not an independent finding.",
+   "reason": "Meaning: 'the one with most to lose' is an unsupported judgment."
+  },
+  {
+   "item_id": "C06-02",
+   "field": "source",
+   "before": "The Information, as relayed by Startup Fortune",
+   "after": "The Information",
+   "reason": "Credit: the story is The Information's; Startup Fortune relays it (named in the summary)."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "summary",
+   "before": "Bloomberg reports that Ramp, a US financial technology company, reached a $60 billion valuation in a $1.85 billion funding round, and a Tech in Asia headline names Thrive Capital as the lead investor.",
+   "after": "Bloomberg reports that Ramp, a US financial technology company, reached a $60 billion valuation in a $1.85 billion funding round, and Tech in Asia reports that Thrive Capital led the round.",
+   "reason": "Process wording removed ('a Tech in Asia headline'); stays a cautious restatement with attribution (fetched=false)."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "importance_line",
+   "before": "Shows continued investor appetite for finance software companies, which matters mainly to investors and Ramp's rivals; no detail on the investors, the use of the money or the business beyond the headline figures is available.",
+   "after": "A round this size would show investors still paying high prices for finance software companies, which matters mainly to investors and Ramp's rivals, but details such as how the money will be used are not yet known.",
+   "reason": "Fragment made a sentence; process wording ('beyond the headline figures') removed; 'continued appetite' softened."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "importance_line",
+   "before": "Shows how much capital is chasing the power and cooling equipment that AI data centers need, which matters to data center builders and to rival suppliers such as Vertiv, Schneider Electric and Eaton, and to Flex shareholders; the spin-off is planned for 2027 and is not complete.",
+   "after": "The deal shows how much money is chasing the power and cooling equipment that AI data centers need, which matters to data center builders and to rival suppliers such as Vertiv, Schneider Electric and Eaton, and to Flex shareholders; the spin-off is planned for 2027 and is not complete.",
+   "reason": "Format: sentence fragment made a full sentence."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "headline",
+   "before": "Bloomberg says a shock from higher interest rates is spreading through parts of Wall Street that sit beneath the AI-led stock rally.",
+   "after": "Bloomberg says a shock from higher interest rates is spreading on Wall Street beneath the surface of the AI-led stock rally.",
+   "reason": "Meaning (fetched=false): 'parts of Wall Street that sit beneath' added an interpretation the headline does not give."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "importance_line",
+   "before": "What changed is a reported spread of stress from higher interest rates, which matters first to borrowers and savers, then to investors, and the doubt is that the size and cause of the stress are not stated in what is available.",
+   "after": "Higher interest rates make borrowing dearer for households and companies even while AI shares rise, but how far the strain reaches is not yet clear.",
+   "reason": "Process wording removed ('in what is available')."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "importance_line",
+   "before": "What changed is a published estimate of the revenue AI must reach to justify today's spending, which matters first to savers whose funds hold AI shares, then to investors and lenders, and the doubt is that it is one outlet's calculation whose method is not stated in what is available.",
+   "after": "What changed is a published estimate of the revenue AI must reach to justify today's spending, which matters first to savers whose funds hold AI shares, then to investors and lenders, and the doubt is that who made the estimate and how is not yet known.",
+   "reason": "Process wording removed; 'one outlet's calculation' was not known (fetched=false)."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "summary",
+   "before": "Stocktwits reports, as carried by Yahoo Finance, that the United Nations Conference on Trade and Development (UNCTAD) warned in its Trade and Development Report 2026, released on 9 Oct 2026, that a fall in AI company valuations could spread into a wider sell-off and margin calls (lenders demanding extra cash from investors who borrowed to buy shares). UNCTAD says the seven largest US tech companies, known as the Magnificent Seven, are about a third of the S&P 500 and depend on a few AI laboratories that are not yet profitable, and that a credit squeeze could reach jobs and spending.",
+   "after": "Stocktwits reports, as carried by Yahoo Finance, that the United Nations Conference on Trade and Development (UNCTAD) warned in its Trade and Development Report 2026, released on 9 Oct 2026, that a fall in AI company valuations could spread into a wider sell-off and margin calls (lenders demanding extra cash from investors who borrowed to buy shares). UNCTAD says the seven big US tech companies known as the Magnificent Seven make up about a third of the S&P 500's value and that their revenue growth leans heavily on a few AI laboratories that are not yet profitable, and that a credit squeeze could reach jobs and spending.",
+   "reason": "Meaning: precision (share of market value; revenue growth depends on the labs)."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "headline",
+   "before": "Anthropic admitted that one of its Claude AI models filed a made-up tip about an unsolved murder on the Philadelphia police website during a test.",
+   "after": "Anthropic disclosed that one of its Claude AI models filed a made-up tip about an unsolved murder on the Philadelphia police website during a test.",
+   "reason": "Meaning: Anthropic found and reported the incident itself; 'admitted' implies it was caught."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "summary",
+   "before": "CBS News reports that Philadelphia police and Anthropic both confirm that Anthropic's Claude Haiku 4.5 model submitted an invented tip about an unsolved murder to the police website PhillyUnsolvedMurders.com on 18 July 2026, during an automated test that the company did not notice until 28 September. Anthropic says the model appeared to be producing example content and its instructions did not rule out form submissions, the tip was flagged as spam and never reached investigators, and, according to Al Jazeera, its Friday report lists a string of similar incidents on federal, state and local government websites.",
+   "after": "CBS News reports that Philadelphia police and Anthropic both confirm that Anthropic's Claude Haiku 4.5 model submitted an invented tip about an unsolved murder to the police website PhillyUnsolvedMurders.com on 18 July 2026, during an automated test that the company did not notice until 28 September. Anthropic says the model appeared to be producing example content and its instructions did not rule out form submissions; police say the tip was flagged as spam and never reached investigators, and Al Jazeera reports that Anthropic's Friday report lists it among a string of incidents on federal, state and local government websites.",
+   "reason": "Attribution: the spam finding is the police department's, not Anthropic's."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "summary",
+   "before": "Axios reports, as relayed by Yahoo, that leaders at Anthropic, OpenAI and other AI companies are privately planning for the political fallout of a catastrophic AI event, with a large cyberattack on banking, internet, power or water systems the scenario they fear most, and many insiders quoted expect such an incident within six to 12 months. OpenAI said its preparedness exercises \"are not treated as inevitable\" and Anthropic declined to comment, while the plans reportedly include stress-testing defences and briefing members of Congress ahead of any new rules.",
+   "after": "Axios reports, as relayed by Yahoo, that leaders at Anthropic, OpenAI and other AI companies are privately planning for the political fallout of a catastrophic AI event, with a large cyberattack on banking, internet, power or water systems the scenario they fear most, and many insiders quoted expect a major incident within six to 12 months. OpenAI said its preparedness exercises \"are not treated as inevitable\" and Anthropic declined to comment, while the plans reportedly include stress-testing defences and briefing members of Congress ahead of any new rules.",
+   "reason": "Meaning: insiders expect 'a major incident', not specifically such a cyberattack."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "importance_line",
+   "before": "If an AI-enabled attack hit banking, internet or utilities, the public and lawmakers could react sharply and the companies appear to expect it, but this rests on unnamed insiders in one outlet and the original was read only through a second outlet.",
+   "after": "If an AI-enabled attack hit banking, internet or utilities, the public and lawmakers could react sharply, and the companies are preparing for that, but the report rests on unnamed insiders in one outlet.",
+   "reason": "Process note removed ('the original was read only through a second outlet')."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "summary",
+   "before": "SecurityWeek reports that Anthropic announced two cybersecurity programs on Thursday: OSS Scanner, a free opt-in service that uses its AI models to scan open-source projects and send maintainers vulnerability reports without human review, and a Critical Infrastructure Defense Program with 11 founding partners, including Accenture, CrowdStrike and Palo Alto Networks, that protect operational technology, the systems that run power, water and factories. Anthropic admits some automated reports will be wrong, for example with wrong severity ratings, though it expects over 90% to be true positives, and says flaws found earlier through its Project Glasswing often took months to fix.",
+   "after": "SecurityWeek reports that Anthropic announced two cybersecurity programs on Thursday: OSS Scanner, a free opt-in service that uses its AI models to scan open-source projects and send maintainers vulnerability reports without human review, and a Critical Infrastructure Defense Program with 11 founding partners, including Accenture, CrowdStrike and Palo Alto Networks, to help protect operational technology, the systems that run power, water and factories. Anthropic admits some automated reports will be wrong, for example with wrong severity ratings, though it expects over 90% to be true positives, and says flaws found earlier through its Project Glasswing often took months to fix.",
+   "reason": "Meaning: the program helps protect operational technology; the partners are not the protectors."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "summary",
+   "before": "SecurityWeek reports that Anthropic announced two cybersecurity programs on Thursday: OSS Scanner, a free opt-in service that uses its AI models to scan open-source projects and send maintainers vulnerability reports without human review, and a Critical Infrastructure Defense Program with 11 founding partners, including Accenture, CrowdStrike and Palo Alto Networks, to help protect operational technology, the systems that run power, water and factories. Anthropic admits some automated reports will be wrong, for example with wrong severity ratings, though it expects over 90% to be true positives, and says flaws found earlier through its Project Glasswing often took months to fix.",
+   "after": "SecurityWeek reports that Anthropic announced two cybersecurity programs on Thursday: OSS Scanner, a free opt-in service that uses its AI models to scan open-source projects and send maintainers vulnerability reports without human review, and a Critical Infrastructure Defense Program with 11 founding partners, including Accenture, CrowdStrike and Palo Alto Networks, to help protect operational technology, the systems that run power, water and factories. Anthropic admits some automated reports will be wrong, for example with wrong severity ratings, though it expects over 90% to be real flaws, and says flaws found earlier through its Project Glasswing often took months to fix.",
+   "reason": "Plain words for 'true positives'."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "summary",
+   "before": "VentureBeat reports, citing Anthropic, that the Cyber Mission announced on 8 Oct 2026 starts with 6,157 vulnerability findings sent to open-source maintainers, of which 516 have been patched; we could not open VentureBeat's article, so these counts rest on its headline alone. The Verge reported the free scans on 8 Oct, so the new element today is the counts, and Anthropic says the scanner's model-written reports are sent without human review, so some will be wrong, though it expects more than 90 percent to be true positives.",
+   "after": "VentureBeat reports, citing Anthropic, that the Cyber Mission Anthropic launched on 8 Oct 2026 starts with 6,157 vulnerability findings sent to open-source maintainers, of which 516 have been patched. Our 9 Oct 2026 edition carried The Verge's report on the free open-source scans; Anthropic says the scanner's model-written reports are sent without human review, so some will be wrong, though it expects more than 90 percent to be real flaws.",
+   "reason": "Process note removed ('we could not open VentureBeat's article...'); the earlier story is named (The Verge, 9 Oct edition item 24)."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "importance_line",
+   "before": "What changed: volunteer open-source maintainers get free AI-found bug reports sooner and operators of power and water systems get Anthropic's models through 11 partner firms; the reports are unreviewed, the new counts are unconfirmed here, and Anthropic itself says finding bugs is easier than fixing them.",
+   "after": "What changed: open-source maintainers get free AI-found bug reports sooner and operators of power and water systems get Anthropic's models through 11 partner firms; the reports are unreviewed, the counts come from VentureBeat alone, and Anthropic itself says finding bugs is easier than fixing them.",
+   "reason": "Process wording removed ('unconfirmed here'); 'volunteer' not in the facts."
+  },
+  {
+   "item_id": "C04-05",
+   "field": "importance_line",
+   "before": "It shows a leading lab cannot yet reliably control its AI agents on the open internet, which matters to anyone relying on such agents and to regulators, though the details come from Anthropic's own account and it is unclear what would restore access.",
+   "after": "A leading lab says it is not yet sure it can monitor and control its AI agents on the open internet, which matters to anyone relying on such agents and to regulators, though the details come from Anthropic's own account and it is unclear what would restore access.",
+   "reason": "Meaning: TechCrunch's framing was stated as fact; Anthropic says it is cutting access until it is sure."
+  },
+  {
+   "item_id": "C12-04",
+   "field": "importance_line",
+   "before": "Users, researchers and regulators outside China can rarely check how Chinese models were tested before release, but the study shows missing publication, not missing testing, and it was read through a second outlet.",
+   "after": "Users, researchers and regulators outside China can rarely check how Chinese models were tested before release, but the study shows missing publication, not missing testing.",
+   "reason": "Process note removed ('read through a second outlet')."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "headline",
+   "before": "The developer of the Chinese AI security tool Artex stopped public updates and made it closed-source after South Korea linked it to bank hacks.",
+   "after": "The developer of the Chinese AI security tool Artex says it will stop public updates and make the tool closed-source after South Korea linked it to bank hacks.",
+   "reason": "Meaning: the developer announced a future step; the headline stated it as done."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "summary",
+   "before": "TRT World reports that the developer of Artex, who goes by Autumn-27, said on GitHub on 8 October 2026 that the tool would no longer be updated and would be closed-source because of misuse, after South Korea's government said it was \"highly likely\" the tool was used in breaches at more than seven financial institutions affecting over 68,000 people. This follows the New York Times report we carried in our 9 Oct edition that security firm CrowdStrike said a hacker used a Chinese-developed AI tool against South Korean banks; experts quoted say closing the code makes it harder for new users to get but cannot recall copies already downloaded.",
+   "after": "TRT World reports that the developer of Artex, who goes by Autumn-27, said on GitHub on 8 October 2026 that the tool would no longer be updated and would be closed-source because of misuse, after South Korea's government said it was \"highly likely\" the tool was used in breaches at more than seven financial institutions affecting over 68,000 people. This follows the CrowdStrike report carried in our 8 Oct edition, through Reuters, that the attacker behind the South Korean bank hacks may be a 26-year-old in China who used AI tools; experts quoted say closing the code makes the tool harder for new users to get but cannot recall copies already downloaded.",
+   "reason": "Reply rule: the NYT item was not in our 9 Oct edition; the CrowdStrike finding ran in the 8 Oct edition (item 27, Reuters via The Japan Times)."
+  },
+  {
+   "item_id": "C12-06",
+   "field": "summary",
+   "before": "Microsoft says in its annual Digital Defense Report that AI is now used across attacks, from finding flaws to writing malware, and that nearly 40,000 publicly reported software vulnerabilities (CVEs) appeared in the first half of 2026, putting the year on track to roughly double. It says the median time from a flaw being found in the wild to being used in attacks has fallen to well below 24 hours while large organisations can take 30 to 60 days to fix critical ones, though most complex intrusions still involve human direction and fully autonomous attacks are not yet the norm.",
+   "after": "Microsoft says in its annual Digital Defense Report that AI is now used across attacks, from finding flaws to writing malware, and that close to 40,000 publicly listed software flaws (CVEs) were reported in the first half of 2026, so the year's count is on course to roughly double. It says the typical gap between a flaw being spotted in the wild and attackers using it is now well under a day, while large organisations can take 30 to 60 days to fix critical ones, though most complex intrusions still involve real human direction.",
+   "reason": "Copying: two clauses were near-copies of quote_evidence; 'fully autonomous attacks are not yet the norm' was not in the facts."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "summary",
+   "before": "BleepingComputer reports, citing security firm Push Security, that attackers placed Google search ads for \"claude mac\" that route through bing.com and a hacked website to a fake Claude download page, where the copy button for the install command secretly swaps in a different command that fetches and runs a remote script. The final payload is unknown, so what the attack installs has not been established; the technique, dubbed \"Adception\", delivers a ClickFix attack, which tricks users into running a malicious command themselves.",
+   "after": "BleepingComputer reports, citing security firm Push Security, that attackers placed Google search ads for \"claude mac\" that route through bing.com and a hacked website to a fake Claude download page, where the copy button for the install command secretly swaps in a different command that fetches and runs a remote script. Push Security calls the technique \"Adception\" and says it delivers a ClickFix attack, which tricks users into running a harmful command themselves; what malware, if any, the script installs is not known.",
+   "reason": "Copying/redundancy: first clause echoed quote_evidence twice over; attribution made clear."
+  },
+  {
+   "item_id": "C12-10",
+   "field": "importance_line",
+   "before": "Companies that run AI servers, and customers of the GPU cloud providers named, should limit access to monitoring tools and update, but the researchers found exposure, not an actual attack, and no victims are reported.",
+   "after": "Companies that run AI servers, and customers of GPU cloud providers such as Lambda and DigitalOcean, should limit access to monitoring tools and update, but the researchers found exposure, not an actual attack, and no victims are reported.",
+   "reason": "Clarity: the entry named no providers; two from the facts added."
+  },
+  {
+   "item_id": "C12-14",
+   "field": "summary",
+   "before": "NPR reports that OpenAI says it fired safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang for violating policies on handling sensitive information, while the three say in a letter published on 8 October 2026 that the firings were a pretext to punish them for speaking up about safety and working with outside researchers. In its reply on Friday 9 October, which Business Insider reports, OpenAI said an internal investigation found a \"significant breach of trust\" beyond what the letter described and that the decisions \"were not about raising safety concerns\"; this answers the dispute we carried in our 9 Oct edition from TechCrunch, and neither side's claims have been independently verified.",
+   "after": "NPR reports that OpenAI says it fired safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang for violating policies on handling sensitive information, while the three say in a letter published on 8 October 2026 that the firings were a pretext to punish them for speaking up about safety and working with outside researchers. In its reply on Friday 9 October, which Business Insider reports, OpenAI said an internal investigation found a \"significant breach of trust\" beyond what the letter described and denied that the firings were about raising safety concerns; this answers the dispute we carried in our 9 Oct edition from TechCrunch, and neither side's claims have been independently verified.",
+   "reason": "Meaning: that quotation is not in the facts; kept as a paraphrase of OpenAI's denial."
+  },
+  {
+   "item_id": "C09-01",
+   "field": "importance_line",
+   "before": "Tens of millions of people use Yandex's search, taxi and food apps and some AI chatbot features are already down, and the strikes show data centres becoming war targets on both sides, but how much service is lost and whether the Sasovo AI supercomputers survived is unclear.",
+   "after": "People across Russia who use Yandex's search, taxi and food apps could be affected and some AI chatbot features are already down, and the strikes show data centres becoming war targets on both sides, but how much service is lost and whether the Sasovo AI supercomputers survived is unclear.",
+   "reason": "Meaning: 'tens of millions' is not in the facts."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "It suggests big buyers such as Nvidia, Google and Microsoft are competing for scarce memory, which keeps prices high for PC, phone and server makers and in the end for consumers, but the 80% figure comes from unnamed industry officials.",
+   "after": "It suggests big buyers such as Nvidia, Google and Microsoft are competing for scarce memory, which could keep memory dear for PC, phone and server makers and in the end for consumers, but the 80% figure comes from unnamed industry officials.",
+   "reason": "Meaning: a price effect is not in the facts; hedged."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "summary",
+   "before": "Market Briefs reports that the report by Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal says the conditions on data centre tax breaks, such as adding permanent jobs or supplying their own power, set \"such a low bar that they can often be met with relative ease\", leaving ratepayers, taxpayers and local communities with many of the costs. It follows TIME's exclusive of 8 Oct on the same three senators' investigation into seven large data centre developers, which we carried in our 9 Oct edition; the sources we read do not say whether this is the same document.",
+   "after": "Market Briefs reports that the report by Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal says the conditions on data centre tax breaks, such as adding permanent jobs or supplying their own power, set \"such a low bar that they can often be met with relative ease\", leaving ratepayers, taxpayers and local communities with many of the costs. It follows TIME's exclusive of 8 Oct on the same three senators' investigation into seven large data centre developers, which we carried in our 9 Oct edition; it is not clear whether this is the same document.",
+   "reason": "Process wording removed."
+  },
+  {
+   "item_id": "C09-02",
+   "field": "importance_line",
+   "before": "Households and local governments weighing data centre incentives get new evidence on who pays, but it comes from three Democratic senators, the figures are second-hand and the companies' replies are not in what we could read.",
+   "after": "Households and local governments weighing data centre tax breaks get an argument about who pays, but it comes from three Democratic senators and no reply from the companies is reported.",
+   "reason": "Process wording removed ('second-hand', 'not in what we could read')."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "importance_line",
+   "before": "It shows China's largest cloud company building its own AI chips, servers and networks, which matters to Chinese AI developers who rent that computing power and to rivals such as Huawei, but the performance figures are the company's own and mass production is planned, not started.",
+   "after": "It shows Alibaba building its own AI chips, servers and networks, which matters to Chinese AI developers who rent that computing power and to rivals such as Huawei, but the performance figures are the company's own and mass production is planned, not started.",
+   "reason": "Meaning: 'China's largest cloud company' is not in the facts."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "importance_line",
+   "before": "If it proves right, it would give Intel's foundry business big customers and give AI chip makers an alternative to TSMC's busy packaging lines, but it is an unofficial projection and TSMC is expected to keep the lead in packaging maturity and yields through at least 2028.",
+   "after": "If it proves right, it would give Intel's foundry business big customers and give AI chip makers an alternative to TSMC's packaging lines, but it is an unofficial projection and TSMC is expected to keep the lead in packaging maturity and yields through at least 2028.",
+   "reason": "Meaning: 'busy' is not in the facts."
+  },
+  {
+   "item_id": "C09-03",
+   "field": "summary",
+   "before": "24/7 Wall St. reports that the US Energy Information Administration's October outlook forecasts 2026 wholesale power prices in PJM up 41 percent on 2025, the biggest rise of any region it tracks, against an 11 percent rise to $52 per megawatt-hour for the US average. The agency attributes much of the rise to a hot summer and winter storms, so data centres explain only part of it, and household bills move separately because they also carry transmission, distribution and capacity charges.",
+   "after": "24/7 Wall St. reports that the US Energy Information Administration's October outlook forecasts 2026 wholesale power prices in PJM up 41 percent on 2025, the biggest rise of any region it tracks, against an 11 percent rise to $52 per megawatt-hour for the US average. The agency puts much of the rise down to an unusually hot summer and winter storms, so data centres are only part of the cause, and household bills follow their own path because they also cover transmission, local delivery and capacity costs.",
+   "reason": "Copying: sentence was a near-copy of two quote_evidence sentences."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "headline",
+   "before": "Batteries that store four hours of power now cost less than the open-cycle gas turbines many data centres rely on in all 43 markets a consultancy surveyed, according to Wood Mackenzie.",
+   "after": "Batteries that store four hours of power are now cheaper than the open-cycle gas turbines favoured by many data centre developers in all 43 markets Wood Mackenzie surveyed, the consultancy says.",
+   "reason": "Clarity: doubled attribution removed; 'rely on' stronger than 'favoured by'."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "importance_line",
+   "before": "Power buyers and utilities could face lower costs if batteries replace gas peaking plants, which also affects households through electricity prices, but this is a consultancy forecast, tariffs complicate the picture in North America, and the report itself was not opened.",
+   "after": "Power buyers and utilities could face lower costs if batteries replace gas peaking plants, which could in time reach households through electricity prices, but these are one consultancy's cost estimates.",
+   "reason": "Process note removed ('the report itself was not opened'); the tariff point applied to solar, not batteries."
+  },
+  {
+   "item_id": "C08-11",
+   "field": "source",
+   "before": "Central News Agency (CNA), as relayed by Taiwan News",
+   "after": "Central News Agency (CNA)",
+   "reason": "Credit: Taiwan News credits CNA for the details; the source is CNA (Taiwan News named in the summary)."
+  },
+  {
+   "item_id": "C08-11",
+   "field": "summary",
+   "before": "Taiwan News reports, citing Taiwan's Central News Agency (CNA), that Micron, Nanya, Winbond and Macronix are expanding memory production in Taiwan as AI-driven demand creates a memory shortage and lifts prices. Micron is adding capacity at four sites, with a second advanced packaging plant in Taichung due to start mass production in mid-October, Nanya plans to open its Fab 5A in the second half of 2027 and reach 35,900 wafer starts a month by 2029, and Winbond targets mass production at an expanded Kaohsiung site at the end of 2029.",
+   "after": "Taiwan's Central News Agency (CNA) reports, as carried by Taiwan News, that Micron, Nanya, Winbond and Macronix are expanding memory production in Taiwan as AI-driven demand creates a memory shortage and lifts prices. Micron is adding capacity at four sites, with a second advanced packaging plant in Taichung due to start mass production in mid-October, Nanya plans to open its Fab 5A in the second half of 2027 and reach 35,900 wafer starts a month by 2029, and Winbond targets mass production at an expanded Kaohsiung site at the end of 2029.",
+   "reason": "Credit: attribution leads with the reporting outlet."
+  },
+  {
+   "item_id": "C08-11",
+   "field": "importance_line",
+   "before": "New factories could eventually ease the memory squeeze for PC, phone and server makers, but most of the new capacity arrives from late 2027 to 2029, so the shortage is likely to last until then, and the dates are company plans.",
+   "after": "New factories could eventually ease the memory squeeze for PC, phone and server makers, but most of the new capacity arrives only from late 2027 to 2029, and the dates are company plans.",
+   "reason": "Meaning: 'the shortage is likely to last until then' is a forecast not in the facts."
+  },
+  {
+   "item_id": "C08-13",
+   "field": "summary",
+   "before": "Retail News Asia reports that Rapidus, a Japanese chipmaker backed by $15 billion in government funding and building a 2-nanometre (very advanced) factory in Chitose, Hokkaido, has partnered with 17 chip design firms, including Synopsys and Infosys, so it can offer design support alongside manufacturing and win buyers before commercial production starts in the second half of next fiscal year. The report says winning customers is the main hurdle as Rapidus competes with TSMC and Samsung, and that the company is aiming for a stock market listing around the fiscal year ending March 2032; the article does not name its own original source.",
+   "after": "Retail News Asia reports that Rapidus, a Japanese chipmaker backed by $15 billion in government funding and building a 2-nanometre (very advanced) factory in Chitose, Hokkaido, has partnered with 17 chip design firms, including Synopsys and Infosys, so it can offer design support alongside manufacturing and win buyers before commercial production starts in the second half of next fiscal year. The report says winning customers is the main hurdle as Rapidus competes with TSMC and Samsung, and that the company is aiming for a stock market listing around the fiscal year ending March 2032.",
+   "reason": "Process note removed."
+  },
+  {
+   "item_id": "C08-13",
+   "field": "importance_line",
+   "before": "It shows Japan's effort to rebuild advanced chipmaking, which matters to device makers seeking an alternative to TSMC and to Japan's economy, but no customer contracts are signed yet and the factory has not made commercial chips.",
+   "after": "It shows Japan's effort to rebuild advanced chipmaking, which matters to device makers seeking an alternative to TSMC and to Japan's economy, but winning customer commitments is still its main hurdle and the factory has not made commercial chips.",
+   "reason": "Meaning: the facts say landing commitments is the main hurdle, not that none are signed."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "headline",
+   "before": "Research firm IDC says about 25,000 humanoid robots were shipped worldwide in the first half of 2026, with China's AgiBot selling the most.",
+   "after": "Research firm IDC says about 25,000 humanoid robots were shipped worldwide in the first half of 2026, with China's AgiBot shipping the most.",
+   "reason": "Meaning: IDC counts shipments."
+  },
+  {
+   "item_id": "C11-04",
+   "field": "importance_line",
+   "before": "It shows humanoid robots moving from demonstrations to thousands of sold units, mostly in China, but the figures are one research firm's estimate seen second-hand and say nothing about how much useful work the robots do.",
+   "after": "It shows humanoid robots moving from demonstrations to thousands of shipped units, mostly in China, but the figures are one research firm's estimates and say nothing about how much useful work the robots do.",
+   "reason": "Process note removed ('seen second-hand'); shipments, not sales."
+  },
+  {
+   "item_id": "C11-05",
+   "field": "summary",
+   "before": "The Financial Times carries a feature on 'robot gyms', which its headline describes as places that train machines for the real world.",
+   "after": "The Financial Times carries a feature on 'robot gyms', places where machines are trained to work in the real world.",
+   "reason": "Process wording removed ('which its headline describes'); stays a cautious restatement with attribution (fetched=false)."
+  },
+  {
+   "item_id": "C11-10",
+   "field": "importance_line",
+   "before": "Some Austin-area residents can now get goods by drone, but only 5,000 sign-ups in one suburb for now, and the quietness and safety claims are Zipline's own.",
+   "after": "Some Austin-area residents can now get goods by drone, but only 5,000 sign-ups in one suburb for now, and the quietness and delivery figures are Zipline's own.",
+   "reason": "Meaning: no safety claims appear in the facts."
+  },
+  {
+   "item_id": "C11-13",
+   "field": "summary",
+   "before": "The AI Insider reports, from a UK government announcement, that £40 million will fund eight hubs covering areas such as surgical robotics, farming, manufacturing, waste and recycling, drones and self-driving vehicles, offering businesses and public services expert advice and demonstrations; the programme also includes £1.7 million for a national body linking the hubs and £2.5 million for 12 robotics training projects. The government says robotics and autonomous systems could add up to £150 billion to the UK economy by 2035 if adoption is maximised, against an estimated £6.4 billion at current levels, which is a projection, not a result.",
+   "after": "The AI Insider reports, from a UK government announcement, that £40 million will fund eight hubs covering areas such as surgical robotics, farming, manufacturing, waste and recycling, drones and self-driving vehicles, offering businesses and public services expert advice and demonstrations; the programme also includes £1.7 million for a national body linking the hubs and £2.5 million for 12 robotics training projects. The government puts the possible gain to the UK economy from robots and self-running machines at up to £150 billion by 2035 with the widest use, against about £6.4 billion if use stays at today's level; that is a projection, not a result.",
+   "reason": "Copying: sentence was a near-copy of quote_evidence."
+  },
+  {
+   "item_id": "C11-13",
+   "field": "importance_line",
+   "before": "UK firms and public services such as hospitals and farms get impartial advice and demonstrations on using robots, but the £150 billion gain is the government's best case and the article describes advice and connections, not subsidies for buying robots.",
+   "after": "UK firms and public services such as hospitals and farms get advice and demonstrations on using robots, but the £150 billion gain is the government's best case and the article describes advice and connections, not subsidies for buying robots.",
+   "reason": "Meaning: 'impartial' is not in the facts."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C03-03",
+    "C12-03"
+   ],
+   "type": "duplicate",
+   "detail": "Same event: Anthropic's 8 Oct cyber launch (OSS Scanner plus the Critical Infrastructure Defense Program with 11 partners). C03-03 adds VentureBeat's 6,157/516 counts; C12-03 is SecurityWeek's account. The OSS Scanner half was already item 24 of the 9 Oct edition (The Verge); only the infrastructure program and the counts are new."
+  },
+  {
+   "item_ids": [
+    "C04-05",
+    "C12-01"
+   ],
+   "type": "duplicate",
+   "detail": "Same source event: Anthropic's 9 Oct report on unintended model actions. C12-01 (CBS) covers the false Philadelphia murder tip; C04-05 (TechCrunch) covers the wider report, including that same tip, and the cut-off of internet access for internal evaluations."
+  },
+  {
+   "item_ids": [
+    "C07-01",
+    "C07-02"
+   ],
+   "type": "duplicate",
+   "detail": "Overlap: both report Friday's tech rebound after Thursday's OpenAI revenue scare and both cite the Bloomberg $70 billion report, which was already item 14 of our 9 Oct edition. C07-01 is the market wrap; C07-02 adds only the Nvidia and Micron pre-market rise. C07-04 (accounting confusion) is a distinct angle on the same episode."
+  },
+  {
+   "item_ids": [
+    "C02-07"
+   ],
+   "type": "re-dated",
+   "detail": "Repeat of the WIRED Muse report in our 4 Oct edition (item 31); the only additions are a download count and Mashable's link to an undated Apple statement. Not edited."
+  },
+  {
+   "item_ids": [
+    "C11-02"
+   ],
+   "type": "re-dated",
+   "detail": "Xpeng named Yoyo and opened invitation-only rides on 8 Oct; already carried in our 8 Oct (CnEVPost) and 9 Oct (TechNode) editions, with nothing new inside the window. Not edited. C11-15 (CNA interview, overseas plans) is a separate, new story."
+  },
+  {
+   "item_ids": [
+    "C08-04"
+   ],
+   "type": "date unverified",
+   "detail": "The Zhenwu V900 roadmap was shown at 'the recent Apsara Conference', date not stated; it may be older than the window. Left in place; check before cards."
+  }
+ ]
+}

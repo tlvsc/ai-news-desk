@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-08",
+ "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+ "source_used": "Cloudflare Blog",
+ "article_url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare released Clef-omni, a decision model taking audio, video, image and text input, with weights open on Hugging Face.",
+  "It follows last week's release of Clef and Clef-flash, Cloudflare's open-weight decision models.",
+  "Clef-omni is built on Qwen3-Omni-30B-A3B-Instruct and scores options without generating text.",
+  "Cloudflare says text decisions return in about 130 ms at the median, images about 150 ms, and a 21-second video clip with sound in about 1.5 seconds.",
+  "Clef-flash is now cheaper than TypeSafe's Jev, but its hosted context window drops from 64k to 24k tokens; weights still support 256k for self-hosting.",
+  "Cloudflare says only 0.24% of requests exceeded 24k input tokens.",
+  "The hosted Clef is faster after moving to SGLang; no new weights were released for that.",
+  "Cloudflare teams use Clef to close spam issues, moderate plugins for phishing, scan for personal data and detect malicious domains."
+ ],
+ "quote_evidence": [
+  "Today, we're releasing Clef-omni, which takes in audio and video input alongside text and image.",
+  "We also cut the price of Clef-flash so it is now cheaper than Jev, and we made Clef faster.",
+  "The hosted version of Clef-flash now has a context window of 24k, instead of 64k as previously advertised."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "One cheap model can now make choices over mixed media, replacing chains of separate models.",
+ "event_date": "9 Oct 2026; Clef first released the week before",
+ "notes": "Company blog post; all speed and price claims are Cloudflare's own. Follow-up of the 9 Oct 2026 pool item (InfoQ: Cloudflare open sources decision models)."
+}

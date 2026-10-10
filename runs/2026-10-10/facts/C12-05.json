@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-05",
+ "title": "Chinese AI tool pulled to prevent 'misuse' after South Korea hacks",
+ "source_used": "TRT World",
+ "article_url": "https://www.trtworld.com/article/e6d554d35d4a",
+ "fetched": true,
+ "key_facts": [
+  "The developer of the Chinese AI cybersecurity tool Artex, known as \"Autumn-27\", said on Thursday 8 Oct 2026 on GitHub that the project would no longer be updated and would become closed-source.",
+  "South Korea's government said that week it was \"highly likely\" Artex was used in breaches at more than seven financial institutions.",
+  "South Korea's Financial Services Commission said more than 68,000 people were affected; Shinhan Bank said loan-application data of about 25,000 customers leaked (names, phone numbers, annual income).",
+  "CrowdStrike said its investigation suggested the attacker used Artex and was potentially a 26-year-old based in China, likely a Chinese speaker and financially motivated.",
+  "In Japan about 20 companies reported possible data compromises in similar attacks; police said it was unclear whether the cases were connected.",
+  "Experts said closing the code may make it harder for new users to obtain but does not remove copies already downloaded."
+ ],
+ "quote_evidence": [
+  "Experts said making Artex closed-source could make it harder for new users to obtain and adapt, but would not remove copies already downloaded.",
+  "Police chief Yoshinobu Kusunoki said it remained unclear whether the cases were connected.",
+  "South Korea's Financial Services Commission said more than 68,000 people had been affected by the hacks."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A defensive tool turned into an attack tool is being locked down after bank breaches, but copies remain in circulation.",
+ "event_date": "Thursday 8 Oct 2026",
+ "notes": "Tech Xplore page blocked (403) and Reuters original blocked (401); read TRT World. TRT does not name the wire it draws on; photo credit Reuters. Follow-up of the NYT/CrowdStrike item in the 9 Oct edition."
+}

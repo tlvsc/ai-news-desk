@@ -1,0 +1,25 @@
+{
+ "item_id": "C06-10",
+ "title": "Cloudflare acquires Node.js creator’s startup that copied its serverless playbook",
+ "source_used": "The New Stack",
+ "article_url": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare announced on Friday (9 Oct) that the entire Deno team is joining it; Deno was co-founded by Node.js creator Ryan Dahl.",
+  "Deno's standalone runtime and cloud hosting service will be wound down; the team will work on Cloudflare Workers.",
+  "The Deno runtime gets monthly maintenance and security updates for another year; Deno Deploy shuts in six months with migration help; the JSR registry continues under Cloudflare.",
+  "Deno raised around $26 million across two rounds.",
+  "In August Deno released Celld, an open-source recreation of Cloudflare's Workers and Durable Objects model; Cloudflare plans to merge it with its open-source runtime Workerd, led by Dahl and Bert Belder.",
+  "Cloudflare's Kenton Varda wrote that Cloudflare had not done a great job making its open-source runtime work outside its own network.",
+  "Dahl says the combined project should stay open source, likely under Apache 2.0, and highlights AI agents as an important use.",
+  "The article gives no purchase price."
+ ],
+ "quote_evidence": [
+  "Cloudflare is buying the startup co-founded by Node.js creator Ryan Dahl, a longtime competitor that recently built its own open-source version of Cloudflare’s serverless computing platform.",
+  "The Deno runtime will receive monthly maintenance and security updates for another year, while Deno Deploy will shut down in six months, with migration assistance for paying customers."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A rival that copied Cloudflare's model joins it; Deno's own runtime and hosting are being retired.",
+ "event_date": "9 Oct 2026",
+ "notes": "Announced jointly by Cloudflare and Deno in blog posts. No price given. Open-source promises are statements of intent."
+}

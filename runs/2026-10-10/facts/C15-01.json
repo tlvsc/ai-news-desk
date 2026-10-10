@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-01",
+ "title": "IBM’s 100-qubit chip advances self-correcting quantum computers with 5,000 operations",
+ "source_used": "Interesting Engineering",
+ "article_url": "https://interestingengineering.com/innovation/ibm-quantum-chip-5000-operations-100-qubits",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from Rutgers University, IBM and other institutions ran the experiment on an IBM Quantum Heron processor with 156 qubits, using a connected chain of up to 100.",
+  "They alternated between scrambling information across neighbouring qubits and repeatedly measuring and resetting individual qubits.",
+  "The run used nearly 5,000 two-qubit operations and almost 5,000 measurement-and-reset cycles.",
+  "Frequent scrambling kept the system chaotic; frequent measurement and reset pushed it into an orderly, controllable state, with a sharp phase transition near a 50-50 balance.",
+  "The findings were published in Nature Physics and matched theoretical predictions; the transition sharpened in larger systems.",
+  "The article says the demonstration does not establish a fully fault-tolerant quantum computer."
+ ],
+ "quote_evidence": [
+  "The demonstration does not establish a fully fault-tolerant quantum computer.",
+  "The experiment involved nearly 5,000 two-qubit operations alongside almost 5,000 measurement-and-reset cycles.",
+  "The researchers also found that the transition persisted in a quantum system, where its survival had remained uncertain."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows that today's hardware can measure and reset qubits mid-calculation, a building block for error correction, though not error correction itself.",
+ "event_date": "not stated (Nature Physics paper reported 9 Oct 2026)",
+ "notes": "Headline's 'self-correcting' is looser than the article, which says the result is a step toward error correction, not a fault-tolerant machine. The 156-qubit Heron chip was used, with up to 100 qubits in the experiment."
+}

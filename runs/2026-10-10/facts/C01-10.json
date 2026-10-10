@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-10",
+ "title": "As AI agents grow, vendors carve out decision-making as a separate model layer",
+ "source_used": "InfoWorld",
+ "article_url": "https://www.infoworld.com/article/4233075/as-ai-agents-grow-vendors-carve-out-decision-making-as-a-separate-model-layer.html",
+ "fetched": true,
+ "key_facts": [
+  "TypeSafe's Jev, released last month, introduced a specialised model for the bounded decisions between an agent's reasoning and its actions.",
+  "Last week Cloudflare released Clef and AWS released Strands Decider 2B, a 2-billion-parameter open-source model for tool choice, routing and next steps.",
+  "OpenAI released a Decisions API in public beta, powered by GPT-6 Luna, which returns a structured result without a separate model.",
+  "Cloudflare says running lightweight decision models near applications can cut latency and inference costs.",
+  "Analyst Ashish Chaturvedi of HFS Research warns of 'AI-stack sprawl', since confidence scores differ across models and thresholds do not transfer.",
+  "Aditya Ranjan of H-E-B says savings may be smaller if extra engineering is needed, and errors can cost more than inference.",
+  "He advises CIOs to judge them on end-to-end latency, cost per successful decision, accuracy, operational overhead and failure recovery."
+ ],
+ "quote_evidence": [
+  "Last week, Cloudflare and AWS each introduced their own takes on the idea, in the form of Clef and Strands Decider 2B, respectively, suggesting that decision-making could become another specialized layer in the enterprise AI stack.",
+  "This rapid emergence of decision models, however, could create a new form of AI-stack sprawl, with enterprises trading lower inference costs for greater architectural complexity, analysts and experts say."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Explains a new category of small models and the governance cost analysts see.",
+ "event_date": "9 Oct 2026 (analysis); vendor releases over the previous weeks",
+ "notes": "News analysis with analyst opinion; the cost savings are not measured in the article."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-10",
+ "title": "Thousands of GPU servers exposed online, risking AI workloads",
+ "source_used": "The Register (also Help Net Security)",
+ "article_url": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at datacenter-security startup Lava found about 2,100 GPU servers exposing Nvidia DCGM Exporter monitoring data to the open internet, with no authentication.",
+  "Four scans between March and May 2026 found more than 12,000 GPUs, worth about $100 million, at nearly 300 organisations; 44% were in the US.",
+  "A flaw tracked as CVE-2026-47483, rated 8.2 (high), could let an unauthenticated attacker crash the monitoring service and disrupt AI workloads.",
+  "Hundreds of the exposed exporters were potentially vulnerable.",
+  "Nvidia fixed it in version 4.8.2; operators should upgrade and keep monitoring tools off the public internet.",
+  "Exposed hosts belonged to customers of GPU cloud providers including Voltage Park, Lambda, Northern Data and DigitalOcean; Lava told the providers.",
+  "Lava also found 12,096 public Node Exporter hosts leaking server and network details."
+ ],
+ "quote_evidence": [
+  "Over the course of four scans between March and May, the threat hunters found about 2,100 GPU servers exposing DCGM Exporter metrics to the open internet.",
+  "These GPUs represented about $100 million in hardware, and included Nvidia Blackwell Ultra B300 GPUs, H200s, and H100s - used to run large-scale AI workloads - plus consumer RTX 5090 and 4090 systems.",
+  "Nvidia fixed the issue in version 4.8.2, and operators should upgrade to that version or later."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Misconfigured monitoring tools on costly AI servers reveal how they are built and can be crashed.",
+ "event_date": "Lava blog Thursday 8 Oct 2026; scans March to May 2026",
+ "notes": "SC Media page blocked (403). Read The Register and Help Net Security, which agree on the findings. Patch timing differs: Register says Nvidia fixed it in September, Help Net says the bulletin was 28 July 2026; the entry gives no date. Research is from 8 Oct, flaw itself older."
+}

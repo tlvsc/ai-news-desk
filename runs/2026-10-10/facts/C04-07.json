@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-07",
+ "title": "Did Claude Help an Amateur Astronomer Discover a New Planet?",
+ "source_used": "Gizmodo",
+ "article_url": "https://gizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393",
+ "fetched": true,
+ "key_facts": [
+  "Pavel Rabtsevich, a 28-year-old product manager in Spain with no formal astronomy training, searched public TESS space-telescope data using Anthropic's Claude Code and OpenAI's Codex.",
+  "By his account the data covered over 126,000 stars from November of last year to early January.",
+  "He found TIC 4206066, a star a little smaller than the Sun about 116 light-years away, whose brightness dips every 3.18 days; the dips also appear in 2018 and 2020 data.",
+  "He estimates a planet about 1.4 times Earth's size with a surface near 1,000 degrees Fahrenheit; a second dip every 11.13 days is weaker evidence.",
+  "He ran 74 tests with Claude Code trying to disprove his hypothesis.",
+  "His request for TESS to observe the star was approved; TESS will measure it every two minutes from 31 Oct to 26 Nov, and he has posted the predicted dimming times.",
+  "NASA Exoplanet Science Institute's Kevin Hardegree-Ullman says the main challenge is ruling out false positives such as binary stars, and AI will not necessarily help confirm planets."
+ ],
+ "quote_evidence": [
+  "“If the star dims on time in November, this gets a lot more serious,” he wrote in an X post outlining his findings.",
+  "“The biggest challenge with confirming planets is that we have to rule out false-positive scenarios,” says Kevin Hardegree-Ullman, a research scientist at the NASA Exoplanet Science Institute (NExScI).",
+  "Rabtsevich is careful to emphasize that correlation does not necessarily equal causation: the pattern he detected in his AI-assisted investigation may turn out to be rooted in something other than an exoplanet."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A candidate planet found by an amateur with AI tools will be tested by TESS observations from 31 Oct 2026.",
+ "event_date": "Rabtsevich's search was last month; he posted the findings this week (early Oct 2026)",
+ "notes": "Candidate only; no outside review. Star count is Rabtsevich's own figure."
+}

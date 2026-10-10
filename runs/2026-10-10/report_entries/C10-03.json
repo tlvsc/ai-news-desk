@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-03",
+ "v1_category": "HEA",
+ "headline": "AI chatbots recognised when users were in mental-health crisis but often did not point them to help, according to new research from Scale AI shared with Time.",
+ "score": 6,
+ "score_reason": "Large test across 25 models on a high-stakes topic, but a single company's study, shared exclusively and not independently reviewed.",
+ "importance_label": "MEDIUM",
+ "importance_line": "People who confide in chatbots during a crisis, and the clinicians and crisis lines that hope to receive them, are affected, though this is one company's test and OpenAI says it cannot fully evaluate it.",
+ "source": "Time",
+ "status": "REPORTED",
+ "summary": "Time reports that Scale AI, an AI data and testing company, tested 25 chatbots from companies including OpenAI, Anthropic and Google with 718 conversations written by 19 clinicians and crisis counsellors, and found that in about 35% of them the chatbot noticed distress but offered no resource such as a suicide hotline. The models did worse in long conversations; OpenAI said it did not have enough evidence to fully evaluate the study and Google declined to comment.",
+ "url": "https://time.com/article/2026/10/09/chatbots-suicide-research/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full Time text read. Findings are from Scale AI's own research, shared exclusively with Time. Scale AI described by us as an AI data and testing company; Time names it as the author of DistressBench and its red-team lead."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-03",
+ "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
+ "source_used": "SecurityWeek",
+ "article_url": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic announced two cybersecurity initiatives on Thursday 8 Oct 2026.",
+  "OSS Scanner is a free, opt-in service using Anthropic's most capable models to scan open-source projects periodically and send maintainers reports with a proof of concept and, where available, a suggested fix.",
+  "Reports are model-generated and sent without human review, so some will contain errors such as wrong severity ratings; Anthropic expects a true-positive rate above 90%.",
+  "The Critical Infrastructure Defense Program gives operational-technology providers Claude models, on-site engineers and threat research.",
+  "Eleven founding partners include Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC and Rockwell Automation.",
+  "Anthropic says flaws found through Project Glasswing often took months to fix and that it has not yet cut cyber risk enough.",
+  "Operational technology often cannot be taken offline to patch, so known flaws can stay unfixed for years."
+ ],
+ "quote_evidence": [
+  "Maintainers have to opt in to have their projects scanned.",
+  "It expects a true-positive rate above 90% and aims to improve it over time.",
+  "Anthropic noted that OT systems often cannot be taken offline for patching, so known vulnerabilities can remain unresolved for years."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Faster AI-found bug reports for open-source maintainers and AI help for industrial-security providers, with accuracy claims coming from Anthropic.",
+ "event_date": "Thursday 8 Oct 2026",
+ "notes": "Company announcement relayed by one outlet; accuracy figures are Anthropic's own."
+}
