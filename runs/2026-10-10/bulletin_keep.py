@@ -2,7 +2,7 @@
 Keeps only the named items in the named Bulletin sections of products/bulletin_pdf.json and the Bulletin markdown."""
 import json, re, sys, glob
 W = sys.argv[1]
-KEEP = {'Robotics': ['C11-01', 'C11-05', 'C11-10', 'C11-13']}
+KEEP = {'Robotics': ['C11-01', 'C11-10', 'C11-16', 'C11-17', 'C11-18']}
 head = lambda k: json.load(open(f'{W}/report_entries/{k}.json'))['headline']
 p = f'{W}/products/bulletin_pdf.json'; d = json.load(open(p, encoding='utf-8'))
 dropped = []
@@ -19,7 +19,7 @@ for c in d['categories']:
             c['items'] = keep
 n = sum(len(c['items']) for c in d['categories'])
 d['coverage'] = re.sub(r'\d+ stories', f'{n} stories', d['coverage'])
-d['purpose'] = re.sub(r'\(HEA from 6[^)]*\)', '(Health and Society from 6; Robotics, the 4 best of those from 5)', d['purpose'])
+d['purpose'] = re.sub(r'\(HEA from 6[^)]*\)', '(Health and Society from 6; Robotics, the 5 best of those from 5)', d['purpose'])
 json.dump(d, open(p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
 md = glob.glob(f'{W}/products/* — Daily Bulletin (Claude LV1.1).md')[0]
 L = open(md, encoding='utf-8').read().split('\n'); out = []; i = 0

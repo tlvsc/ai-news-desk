@@ -1,0 +1,40 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-17",
+   "field": "summary",
+   "before": "Assembly Magazine reports that Feather Robotics, a startup in East Palo Alto, California, has launched a robot with two arms on a wheeled base that can lift up to 4 pounds per arm continuously and 15 pounds at peak, and runs for 10 hours on swappable batteries. Feather sells only the robot body, not its AI software, so customers can run models from companies such as Nvidia, Skild or Physical Intelligence on it; Hoa Mai, chief executive and co-founder of Feather Robotics, says he hopes it becomes \"the Android of robotics\", meaning a common platform that many developers build on. Rivals such as Figure, Tesla, Unitree, Agibot and 1X build the body and the AI model together, and the specifications come from the company.",
+   "after": "Assembly Magazine reports that Feather Robotics, a startup in East Palo Alto, California, has launched a two-armed robot on a wheeled base for less than $30,000 and sells only the body, so customers can run robot AI from developers such as Nvidia, Skild or Physical Intelligence, unlike rivals such as Figure, Tesla and Unitree that build the body and its AI together. By the company's figures each arm is rated to carry 4 pounds, with a peak of 15 pounds, and swappable batteries last 10 hours; Hoa Mai, chief executive and co-founder of Feather Robotics, hopes it becomes the Android of robotics, a common base for many developers.",
+   "reason": "Three sentences cut to two (Full Report rule 5.3); 'continuously' replaced by the article's 'rated' payload; 'the Android of robotics' is the article's paraphrase of Mai's hope, not his quoted words, so quote marks and 'says' removed; Skild and Physical Intelligence identified as robot AI developers; company-figures hedge kept."
+  },
+  {
+   "item_id": "C11-17",
+   "field": "importance_line",
+   "before": "A lower price could let small robotics teams and researchers afford a real robot body, but the specifications and the claim that it can be deployed in weeks come from the company and have not been independently tested.",
+   "after": "A price under $30,000 could let small robotics teams and researchers afford a real robot body, but the specifications and the claim that it can be deployed in weeks come from the company and have not been independently tested.",
+   "reason": "'A lower price' implied a price comparison with rivals that the article does not make; replaced by the stated price."
+  },
+  {
+   "item_id": "C11-18",
+   "field": "headline",
+   "before": "Ukraine's military intelligence says its ground robots pulled 45 soldiers out of Russian fire over the summer.",
+   "after": "A Ukrainian military intelligence unit says its ground robots pulled 45 soldiers out from under Russian fire over the summer.",
+   "reason": "The figures come from one unit (Artan) of the Military Intelligence Directorate, not from the directorate as a whole; attribution narrowed."
+  },
+  {
+   "item_id": "C11-18",
+   "field": "summary",
+   "before": "Kyiv Post reports, citing RBC-Ukraine, that the Artan special unit of Ukraine's Military Intelligence Directorate (HUR) says its unmanned ground vehicles, small remote-controlled machines on wheels or tracks, evacuated 45 soldiers from under Russian fire, delivered more than 41 tons of supplies and drove a combined 4,258 kilometers (2,646 miles) during the summer campaign. Col. Viktor Torkotiuk, commander of the Artan unit, says the robots free up people for active operations, while the unit did not say how many vehicles, trips or models were involved. Kyiv Post adds that President Volodymyr Zelensky set a 2026 target of at least 50,000 ground robotic systems for the military.",
+   "after": "Kyiv Post reports, citing RBC-Ukraine, that the Artan special unit of Ukraine's Military Intelligence Directorate (HUR) says its remote-controlled ground robots evacuated 45 soldiers from under Russian fire, delivered more than 41 tons of supplies and drove a combined 4,258 kilometers (2,646 miles) during the summer campaign. Col. Viktor Torkotiuk, commander of the Artan unit, says the robots free up forces for active operations, and Kyiv Post adds that Ukrainian President Volodymyr Zelensky has set a target of at least 50,000 ground robotic systems for the military in 2026.",
+   "reason": "Three sentences cut to two (Full Report rule 5.3); 'small' removed (the article says the robots vary in size); the missing vehicle and trip counts stay in the importance line, so not repeated here; Zelensky given his country."
+  },
+  {
+   "item_id": "C11-18",
+   "field": "importance_line",
+   "before": "Robots are taking over the most dangerous supply and evacuation runs for Ukrainian soldiers, but the numbers come only from the unit itself and it did not say how many vehicles or trips were involved.",
+   "after": "Robots are increasingly doing the most dangerous supply and evacuation runs for Ukrainian soldiers, but the numbers come only from the unit itself and it did not say how many vehicles or trips were involved.",
+   "reason": "'Taking over' was stronger than the article, which says robots are increasingly performing these runs and are not replacing troops."
+  }
+ ],
+ "unresolved": []
+}

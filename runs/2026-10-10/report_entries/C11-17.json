@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-17",
+ "v1_category": "ROB",
+ "headline": "A California startup called Feather Robotics has launched a two-armed wheeled humanoid robot priced under $30,000.",
+ "score": 7,
+ "score_reason": "Raised from 5 to 7 by Rafi's order of 10 Oct 2026",
+ "importance_label": "MEDIUM",
+ "importance_line": "A price under $30,000 could let small robotics teams and researchers afford a real robot body, but the specifications and the claim that it can be deployed in weeks come from the company and have not been independently tested.",
+ "source": "Assembly Magazine",
+ "status": "REPORTED",
+ "summary": "Assembly Magazine reports that Feather Robotics, a startup in East Palo Alto, California, has launched a two-armed robot on a wheeled base for less than $30,000 and sells only the body, so customers can run robot AI from developers such as Nvidia, Skild or Physical Intelligence, unlike rivals such as Figure, Tesla and Unitree that build the body and its AI together. By the company's figures each arm is rated to carry 4 pounds, with a peak of 15 pounds, and swappable batteries last 10 hours; Hoa Mai, chief executive and co-founder of Feather Robotics, hopes it becomes the Android of robotics, a common base for many developers.",
+ "url": "https://www.assemblymag.com/articles/100488-startup-launches-humanoid-robot-for-under-30-000",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Product launch: the article describes what the robot can do but shows no deployment, so machine_action is false. Article gives price only as 'less than $30,000'. Score 7 by Rafi's order of 10 Oct 2026; Rafi asked to treat machine_action true if the article shows the machine doing something; it describes capabilities only."
+}

@@ -1,8 +1,8 @@
 {
  "title": "Daily Bulletin",
  "date": "10 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (Health and Society from 6; Robotics, the 5 best of those from 5), plus the top 3 from The Fun Side.",
- "coverage": "9 Oct 2026 06:00 UTC to 10 Oct 2026 06:00 UTC (24 hours) · 39 stories",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, ROB from 5), plus the top 3 from The Fun Side.",
+ "coverage": "9 Oct 2026 06:00 UTC to 10 Oct 2026 06:00 UTC (24 hours) · 44 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -45,7 +45,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "TechCrunch reports that TypeSafe AI, the developer of the Jev model, has raised $870 million at a $7.5 billion valuation in a round led by Andreessen Horowitz, with Sequoia and DCVC also taking part. Jev, released on 15 September 2026, does not write text but produces probabilities that the company calls \"calibrated decisions\", and the company claims that a third of Fortune 500 firms already use it.",
@@ -59,7 +59,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "CONFIRMED",
      "paragraphs": [
       "Yahoo Finance reports that US stocks rose on Friday 9 Oct 2026, with the S&P 500 up 0.59%, the Nasdaq Composite up 0.64% and the Dow Jones Industrial Average up 0.83%, as tech shares recovered from Thursday's AI-led drop. That drop followed reports, covered in our 9 Oct 2026 edition, that OpenAI's annualized revenue (recent sales scaled to a full year) was near $50 billion; a further report, also carried in that edition, says OpenAI expects about $70 billion by the end of the year, while a University of Michigan survey put consumer sentiment at a five-month low.",
@@ -73,7 +73,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "CONFIRMED",
      "paragraphs": [
       "Bloomberg reports, as carried by the Taipei Times, that Firmus, an Australian data-centre builder backed by Nvidia, dropped its share sale on 9 Oct 2026 after investors balked at the US$30 billion valuation it sought, up from US$10.5 billion less than three months earlier, on revenue of US$51 million in the 2026 financial year. New since our 9 Oct 2026 edition, which reported the cancelled sale (Reuters), are the revenue behind the price and investor documents, seen by Bloomberg, showing only 46 of its planned 912 megawatts of data-centre capacity is built.",
@@ -87,7 +87,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 4,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "Startup Fortune reports that IDC, a market-research firm, said on 8 Oct 2026 that PC makers shipped 62.7 million units worldwide in the third quarter, 20.1% fewer than a year earlier and 9.1% fewer than in the previous quarter, with HP down 30.9%, Dell 25% and Lenovo 22.6%. IDC points to PC prices high enough to suppress buying and to earlier purchases made to beat price rises; Startup Fortune links the price rises to AI data centres absorbing memory chips and notes that HP told the SEC it expects shipments to shrink through 2027, while Gartner projects PC prices up to 17% higher.",
@@ -167,7 +167,7 @@
      "score": 8,
      "importance": "HIGH",
      "rank": 1,
-     "rank_of": 14,
+     "rank_of": 16,
      "status": "CONFIRMED",
      "paragraphs": [
       "The BBC reports that Yandex says two of its five data centres were hit by Ukrainian drones in two days, leaving the Sasovo site completely suspended and part of the Kaluga site out of service, with some of its AI chatbot features unavailable and no restart date given. New since our 8 Oct edition, which carried Reuters on the first strike without saying who launched the drones, Ukraine's defence ministry has confirmed the attacks and President Volodymyr Zelensky calls them a response, in a \"mirror-like fashion\", to weeks of Russian strikes on Ukrainian data centres.",
@@ -181,7 +181,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 14,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "KED Global reports, citing industry officials, that about 80% of Samsung Electronics' memory chip production for next year, including high-bandwidth memory (fast memory stacked beside AI processors), already has designated buyers under long-term supply agreements, with Nvidia, Google and Microsoft among the companies ordering more than five years of supply. Buyers without a contract are competing for the remaining 20% or so, and the same long-term deals are spreading to other AI parts such as capacitors, cooling equipment and power gear.",
@@ -195,7 +195,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 14,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "Market Briefs reports that the report by Senators Elizabeth Warren, Chris Van Hollen and Richard Blumenthal says the conditions on data centre tax breaks, such as adding permanent jobs or supplying their own power, set \"such a low bar that they can often be met with relative ease\", leaving ratepayers, taxpayers and local communities with many of the costs. It follows TIME's exclusive of 8 Oct on the same three senators' investigation into seven large data centre developers, which we carried in our 9 Oct edition; it is not clear whether this is the same document.",
@@ -214,7 +214,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 5,
+     "rank_of": 10,
      "status": "CONFIRMED",
      "paragraphs": [
       "Reuters reports that Stellantis chief executive Antonio Filosa said at an event in Turin on 9 Oct 2026 that the carmaker's partnership with Wayve, a British start-up that makes AI driving software, should shorten development, which now takes Stellantis about 24 months, and lower the cost of 'level 2++' driver assistance (hands-off driving while the driver keeps watching the road). The first car using Wayve's software is targeted for North America in 2028, and the two companies showed hands-free demonstrations in a Fiat 500e and a Maserati Grecale development vehicle.",
@@ -228,7 +228,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 5,
+     "rank_of": 10,
      "status": "CONFIRMED",
      "paragraphs": [
       "TechCrunch reports that Tesla has renamed its \"Full Self-Driving (Supervised)\" software \"Tesla Assisted Driving\" in Europe after Steffen Bilger, Germany's transport minister, said the old name was somewhat misleading because the software does not do the whole job of driving; a ministry release says Tesla itself proposed the change after talks last month. Bilger, whose call for EU-wide approval we reported on 7 Oct 2026, says he will now argue for the renamed system before an EU-wide vote that could come later this year; that day we also carried a Reuters report that Tesla had pressed hard for European approval.",
@@ -242,7 +242,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 5,
+     "rank_of": 10,
      "status": "REPORTED",
      "paragraphs": [
       "Assembly Magazine reports that Feather Robotics, a startup in East Palo Alto, California, has launched a two-armed robot on a wheeled base for less than $30,000 and sells only the body, so customers can run robot AI from developers such as Nvidia, Skild or Physical Intelligence, unlike rivals such as Figure, Tesla and Unitree that build the body and its AI together. By the company's figures each arm is rated to carry 4 pounds, with a peak of 15 pounds, and swappable batteries last 10 hours; Hoa Mai, chief executive and co-founder of Feather Robotics, hopes it becomes the Android of robotics, a common base for many developers.",
@@ -256,7 +256,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 4,
-     "rank_of": 5,
+     "rank_of": 10,
      "status": "REPORTED",
      "paragraphs": [
       "Kyiv Post reports, citing RBC-Ukraine, that the Artan special unit of Ukraine's Military Intelligence Directorate (HUR) says its remote-controlled ground robots evacuated 45 soldiers from under Russian fire, delivered more than 41 tons of supplies and drove a combined 4,258 kilometers (2,646 miles) during the summer campaign. Col. Viktor Torkotiuk, commander of the Artan unit, says the robots free up forces for active operations, and Kyiv Post adds that Ukrainian President Volodymyr Zelensky has set a target of at least 50,000 ground robotic systems for the military in 2026.",
@@ -266,11 +266,40 @@
      "url": "https://www.kyivpost.com/post/86608"
     },
     {
+     "headline": "The Financial Times has run a feature on 'robot gyms', places where machines are trained to work in the real world.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 5,
+     "rank_of": 10,
+     "status": "REPORTED",
+     "paragraphs": [
+      "The Financial Times carries a feature on 'robot gyms', places where machines are trained to work in the real world.",
+      "Why it matters: It points to robots being taught real-world tasks in dedicated training spaces, but who runs these gyms and what they teach is not known.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
+     ],
+     "source": "Financial Times",
+     "url": "https://www.ft.com/content/e5fd2655-f95f-4183-9dd9-b3c1ebe67a6b"
+    },
+    {
+     "headline": "A rider in a Tesla robotaxi in Texas says the driverless car circled a car park for seven minutes until Tesla support stopped it and needed another seven minutes to restart it.",
+     "score": 5,
+     "importance": "WATCHLIST",
+     "rank": 6,
+     "rank_of": 10,
+     "status": "REPORTED",
+     "paragraphs": [
+      "BroBible reports, citing a post on X by rider David Moss, that a driverless Tesla Cybercab circled a pickup car park for seven minutes after it failed to reroute around road work, and that Tesla support then stopped the car and took another seven minutes to restart its Full Self-Driving software before the ride could finish. Moss's account is the only source given, and the article reports no response from Tesla.",
+      "Why it matters: Riders in driverless taxis can lose minutes when a car cannot reroute around road work and depends on remote staff, but this is one rider's account of one trip and the article gives no Tesla response."
+     ],
+     "source": "BroBible, citing rider David Moss",
+     "url": "https://brobible.com/culture/article/tesla-cybercab-texas-stuck-loop-passenger-trapped/"
+    },
+    {
      "headline": "Zipline has started letting the first 5,000 people who sign up in the Austin area order from its delivery drones, beginning in Round Rock.",
      "score": 5,
      "importance": "WATCHLIST",
-     "rank": 5,
-     "rank_of": 5,
+     "rank": 7,
+     "rank_of": 10,
      "status": "REPORTED",
      "paragraphs": [
       "Unite.AI reports, from a Zipline announcement, that the drone-delivery company launched its First Flight early-access program on 9 Oct 2026 for the first 5,000 residents who register, starting in Round Rock near Austin, with $10 off each of the first three orders and no delivery fees. Zipline says its drone lowers a pod on a tether from above 300 feet, that its system is six times quieter than others in the industry (a claim not independently tested), and that it has completed more than 3 million deliveries.",
@@ -278,6 +307,48 @@
      ],
      "source": "Zipline, relayed by Unite.AI",
      "url": "https://www.unite.ai/zipline-launches-first-flight-drone-delivery-program-in-austin/"
+    },
+    {
+     "headline": "L3Harris says its Wolf Pack autonomous air vehicles, built for strike and electronic-warfare missions, have completed 60 test flights launched from aircraft, helicopters and the ground.",
+     "score": 5,
+     "importance": "WATCHLIST",
+     "rank": 8,
+     "rank_of": 10,
+     "status": "REPORTED",
+     "paragraphs": [
+      "Defence Industry Europe reports, from an L3Harris statement, that the company's Wolf Pack 'launched effects', autonomous air vehicles released from aircraft or the ground, completed their 60th flight test earlier this year, with 13 launches from fixed-wing aircraft, three from helicopters and 44 from the ground. L3Harris says the strike version, Red Wolf, and the electronic-warfare version (equipment for disrupting enemy radio and radar), Green Wolf, share one air vehicle and can swarm using autonomy software, which are the company's own claims.",
+      "Why it matters: Soldiers and defence buyers could gain swarming strike and electronic-warfare craft that launch from many platforms, but the evidence is L3Harris's own test tally and says nothing about operational use or cost."
+     ],
+     "source": "L3Harris, relayed by Defence Industry Europe",
+     "url": "https://defence-industry.eu/l3harris-completes-60-wolf-pack-flight-tests-spanning-strike-and-electronic-warfare-capabilities/"
+    },
+    {
+     "headline": "The UK government is giving £40 million to set up eight Robotics Adoption Hubs to help businesses and public services start using robots.",
+     "score": 5,
+     "importance": "WATCHLIST",
+     "rank": 9,
+     "rank_of": 10,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "The AI Insider reports, from a UK government announcement, that £40 million will fund eight hubs covering areas such as surgical robotics, farming, manufacturing, waste and recycling, drones and self-driving vehicles, offering businesses and public services expert advice and demonstrations; the programme also includes £1.7 million for a national body linking the hubs and £2.5 million for 12 robotics training projects. The government puts the possible gain to the UK economy from robots and self-running machines at up to £150 billion by 2035 with the widest use, against about £6.4 billion if use stays at today's level; that is a projection, not a result.",
+      "Why it matters: UK firms and public services such as hospitals and farms get advice and demonstrations on using robots, but the £150 billion gain is the government's best case and the article describes advice and connections, not subsidies for buying robots."
+     ],
+     "source": "UK Government, relayed by The AI Insider",
+     "url": "https://theaiinsider.tech/2026/10/09/uk-backs-robotics-adoption-hubs-with-40m-in-funding/"
+    },
+    {
+     "headline": "Xpeng says it hopes to start testing its Yoyo driverless taxis in selected cities outside China next year, with wider rollout possible in two to three years.",
+     "score": 5,
+     "importance": "WATCHLIST",
+     "rank": 10,
+     "rank_of": 10,
+     "status": "REPORTED",
+     "paragraphs": [
+      "CNA reports, from an interview with Xpeng vice-chairman and president Brian Gu in Singapore, that the Chinese car maker hopes to begin pilot testing of its Yoyo robotaxis in selected cities outside China next year, without naming them, and that larger-scale commercial use around the world could follow two to three years later. This continues our 9 Oct 2026 entry on Yoyo's invitation-only trials: the new details are that close to 100 vehicles are in the Guangzhou pilot and that Xpeng's Iron humanoid robot will work in its own stores before being offered to outside customers in the second half of 2027.",
+      "Why it matters: Riders and rival robotaxi firms outside China may see Xpeng's driverless taxis within a few years, but the cities, partners and rules are unnamed and the timetable is an executive's hope, not a commitment."
+     ],
+     "source": "CNA",
+     "url": "https://www.channelnewsasia.com/business/xpeng-robotaxis-yoyo-humanoid-robots-iron-brian-gu-interview-6445751"
     }
    ]
   },
@@ -289,7 +360,7 @@
      "score": 9,
      "importance": "HIGH",
      "rank": 1,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "CONFIRMED",
      "paragraphs": [
       "CBS News reports that Anthropic, the company behind the Claude chatbot, has added to its usage policy a ban on \"sustained and needless abusive or cruel behavior\" toward its AI models, which Anthropic announced on 8 Oct 2026 and says applies only in \"extreme cases where users repeatedly act cruelly toward our models, with no discernible purpose\", not to \"common versions of user frustration, pushback, dark creative themes, or model testing and research\". Anthropic says the updated policy, which lists the clause beside bans on bullying and non-consensual intimate imagery, takes effect on 12 Nov 2026, and that Claude's existing ability to end rare conversations with persistently abusive users, on Claude.ai and in its coding tool Claude Code, stays the main way to enforce it, while CBS says the company did not immediately say what counts as abusive or how a conversation would be ended. The change, first reported by The Verge and part of a yearly update that also adds rules on deceptive campaigns, narrows the election rules and clarifies the weapons rules, was carried by about 30 news outlets and drew praise and criticism amid a wider debate about AI consciousness: the BBC reports criticism from Dr Barry Scannell, technology partner at the Irish law firm William Fry, and CBS recalls that Mustafa Suleyman, chief executive of Microsoft AI, argued last month that Anthropic is effectively \"training Claude that it may be conscious\". Gizmodo reports that Elon Musk, chief executive of the rocket and AI company SpaceXAI, replied \"I think this is the right move\" to a post by Aaron Levie, chief executive of the software company Box, who had called the rule an \"easy Pascal's wager\"; we carried the policy as a short item in our 9 Oct 2026 edition.",
@@ -303,7 +374,7 @@
      "score": 8,
      "importance": "HIGH",
      "rank": 2,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "CONFIRMED",
      "paragraphs": [
       "Microsoft says in its announcement, as relayed by TestingCatalog and The Verge, that Microsoft-Decision-1 is now available in Microsoft Foundry and scores a fixed list of options, such as yes or no, with a probability for each rather than writing free text. Microsoft claims it was the most accurate in its own 36-benchmark test and 35 times faster than OpenAI's GPT-6 Sol, and The Verge notes it arrives days after OpenAI's Decisions API.",
@@ -317,7 +388,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "Business Insider reports, citing internal documents, screenshots and employee messages, that Carbon is a newer version of Gemini 4 being tried on Google's internal coding platform, and that one employee said it \"feels like Opus 5.5\" (Anthropic's top coding model) while adding that it needs more testing. It is not known whether Carbon will ship as an update to Argon or as a separate model, and Google is not guaranteed to release it.",
@@ -331,7 +402,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 4,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "TechJuice reports that Alibaba released the text-only open-weight version of its Qwen3.8-Max model, meaning its trained files can be downloaded; it has 2.4 trillion parameters (the adjustable numbers inside a model) but uses only about 95 billion for each request, which is meant to keep computing costs down. It comes under a custom licence that sets conditions for large commercial users, and TechJuice calls it the largest open-source model without comparing it against others.",
@@ -345,7 +416,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 5,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "Retail Dive reports, as relayed by MLive, that Meta has launched Muse for Small Business, an AI agent (software that acts for its user) that automates business tasks, and that Amazon asked Meta last week to remove its store from Muse because it had not agreed to be included. Meta says owners can require human approval before Muse buys or publishes anything and that it uses virtual card numbers and collects no passwords, while the request follows Amazon's legal dispute with Perplexity, whose AI agent bought on Amazon without authorization, and an appeals court's reversal in August of a temporary restraining order against Perplexity.",
@@ -359,7 +430,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 6,
-     "rank_of": 15,
+     "rank_of": 16,
      "status": "REPORTED",
      "paragraphs": [
       "The Decoder reports that Anthropic has added dynamic workflows to Claude Managed Agents, its hosted service for running AI agents, in which a lead agent writes a plan, gives tasks to sub-agents and merges their results, with up to 1,000 agents running in parallel. In Anthropic's own test, which hid 70 bugs in a 116,000-line codebase, a single agent found 14 to 27 per run while the workflow consistently found 66, but The Decoder says it is not yet known whether this holds for other tasks, notes that a senior OpenAI engineer recently called agent swarms a big waste of tokens (the units AI services charge by), and quotes Anthropic's advice to start small.",
@@ -493,7 +564,7 @@
      "score": 7,
      "importance": "MEDIUM",
      "rank": 1,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "Global Times, a state-run outlet, reports that Li Zhong, China's vice minister of Human Resources and Social Security, said at a State Council press conference on Saturday that the ministry will launch initiatives to promote employment amid the development of AI. Bloomberg framed the same announcement as a new employment initiative aimed at AI-linked jobs, but Global Times gives no detail on what the measures involve.",
@@ -507,7 +578,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 2,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "Mashable reports that Pope Leo XIV used X to urge support for human artists, writing that there is a difference in kind, not only in looks, between art and what a machine produces by statistical calculation from millions of images made by others, and that the Church wants to renew an alliance with artists and cultural institutions. It comes as AI and religion are in the news, and his 42,300-word encyclical Magnifica Humanitas already criticised the AI industry.",
@@ -521,7 +592,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 3,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "CNBC reports that a new McKinsey report says automation will affect 36 million jobs by 2035; NewsBytes puts the figures in a US context and adds that more than 40 million jobs could be created.",
@@ -536,7 +607,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 4,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "CONFIRMED",
      "paragraphs": [
       "BBC News reports that Nikon has disqualified the winner of its Small World In Motion contest, which accepts video taken through powerful microscopes, saying the use of generative AI broke the rules. The winning video, by Dr Ning Xu of Tsinghua University in China, showed hair-like cilia moving in the airway of a child with the lung condition PCD; scientists said it looked fake, while Xu says he believed he was within the rules.",
@@ -550,7 +621,7 @@
      "score": 6,
      "importance": "MEDIUM",
      "rank": 5,
-     "rank_of": 14,
+     "rank_of": 15,
      "status": "REPORTED",
      "paragraphs": [
       "WIRED reports, from interviews with more than two dozen anonymous staff, that at least three of the Big Five US book publishers (HarperCollins, Simon & Schuster and Hachette) have been using tools such as Claude and ChatGPT for tasks like publicity copy, emails to literary agents and cover art without telling authors. Simon & Schuster employees have begun an open letter against a trial of a workflow-monitoring tool called Skan AI, its CEO says no decision has been made, and Hachette says it backs AI for operational uses but not creative ones.",
@@ -626,7 +697,7 @@
    "title": "About this edition",
    "paragraphs": [
     "This is a test edition. Stories were collected through Google News for the 24 hours ending 06:00 UTC on 10 October 2026, and articles were read from our 101-source list where the sites allowed it.",
-    "We read the full article for 105 of 116 stories. The rest are marked as headline only because their websites could not be opened from our system.",
+    "We read the full article for 110 of 121 stories. The rest are marked as headline only because their websites could not be opened from our system.",
     "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, 5 and below watchlist. Nothing here is investment advice."
    ]
   }

@@ -1,0 +1,26 @@
+{
+ "item_id": "C11-17",
+ "title": "Startup Launches Humanoid Robot for Under $30,000",
+ "source_used": "Assembly Magazine",
+ "article_url": "https://www.assemblymag.com/articles/100488-startup-launches-humanoid-robot-for-under-30-000",
+ "fetched": true,
+ "key_facts": [
+  "Feather Robotics Inc., a startup in East Palo Alto, California, has introduced a two-armed wheeled humanoid robot priced under $30,000.",
+  "Each arm moves in seven degrees of freedom; each arm is rated to carry 4 pounds, with a peak of 15 pounds.",
+  "Arms take human-like hands or parallel-jaw grippers, swappable in the field.",
+  "The wheeled base moves in any direction without turning, tops out at 1.3 meters per second, fits through standard doors and weighs 105 kilograms fully configured.",
+  "Two hot-swappable 25 amp-hour batteries give 10 hours of operating time.",
+  "It has a 10-inch touch screen and a four-microphone array with speaker for conversations.",
+  "It is sold as an open platform with an open SDK: customers can run AI models from Nvidia, Skild or Physical Intelligence on it, unlike Figure, Tesla, Unitree, Agibot and 1X, which build body and AI model together.",
+  "CEO and co-founder Hoa Mai hopes it becomes the Android of robotics; the article says engineers can go from a trained model to physical deployment in weeks."
+ ],
+ "quote_evidence": [
+  "Tech startup Feather Robotics Inc. has introduced a humanoid robot for less than $30,000.",
+  "Mai hopes his machine becomes the Android of robotics.",
+  "Customers are then free to run models from Nvidia, Skild or Physical Intelligence on it."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A low-priced robot body without its own AI could let small teams test physical AI without building hardware.",
+ "event_date": "9 Oct 2026 (launch reported)",
+ "notes": "Single trade-magazine report based on company claims; no independent test. Exact price ($29,990) is from the chunk curator note, the article says only 'less than $30,000', so the entry uses the article wording. Pool score 7 set by Rafi's order of 10 Oct 2026 (curator score 5)."
+}
