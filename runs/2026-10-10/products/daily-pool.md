@@ -3,7 +3,7 @@
 Edition date: 2026-10-10 (Asia/Jerusalem)  
 Reporting window: 9 Oct 2026 06:00 UTC to 10 Oct 2026 06:00 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-10 10:17 UTC  
+Last updated: 2026-10-10 10:40 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
@@ -13,7 +13,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - Removed at pool build: 1 by the editor, 14 same stories in two categories
 - Held back after reading: 40 (32 older news re-dated into the window, 8 duplicate, 0 published before the window)
 - Articles read: 162 of 192; headline only: 30
-- Full Report: 112 (pool score 6 to 10, plus the best stories of score 5 to reach about 112, plus The Fun Side); Bulletin: 39 (pool score 7 to 10, plus 3 Fun Side)
+- Full Report: 112 (pool score 6 to 10, plus the best stories of score 5 to reach about 112, plus The Fun Side); Bulletin: 40 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -64,6 +64,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C07-12 · MKT · 5 · Investor's Business Daily · 2026-10-09T11:00Z · AI Chips And Big Bank Earnings Preview: TSM, ASML, JPMorgan, BofA And More · https://investors.com/videos/ai-chips-and-big-bank-earnings-preview-tsm-asml-jpmorgan-bofa-and-more/ · pool only (pool score below 6)
 - C07-13 · MKT · 5 · Wall Street Journal · 2026-10-09T12:10Z · Navigating the Fog of ARR in the AI Era · https://www.wsj.com/pro/venture-capital/navigating-the-fog-of-arr-in-the-ai-era-d5d38958 · pool only (pool score below 6)
 - C08-10 · MKT · 5 · Yicai Global · 2026-10-09T12:14:00Z · Tansun Surges on News of Deal to Purchase 20,000 Nvidia GPUs · https://www.yicaiglobal.com/news/tansun-surges-following-the-announcement-of-its-purchase-of-20000-nvidia-gpus · pool only (pool score below 6)
+- C12-14 · SEC · 9 · NPR · 2026-10-09T06:30Z · OpenAI says it has fired three researchers for violating sensitive information policy · https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings · Full Report + Bulletin
 - C12-01 · SEC · 8 · CBS News · 2026-10-09T19:21Z · Anthropic discloses fake tip to police among new rogue AI incidents · https://www.cbsnews.com/news/philadelphia-police-anthropic-ai-false-homicide-tip/ · Full Report + Bulletin
 - C12-02 · SEC · 7 · Axios · 2026-10-09T10:58Z · Scoop: AI companies plot "day after" scenarios for public revolt · https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack · Full Report + Bulletin
 - C12-03 · SEC · 7 · SecurityWeek · 2026-10-09T08:19Z · Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security · https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/ · Full Report + Bulletin
@@ -73,7 +74,6 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C12-04 · SEC · 6 · Reuters, citing SemiAnalysis · 2026-10-09T12:39Z · China AI developers publish safety tests for just 3.6% of model releases, report finds · https://www.reuters.com/legal/litigation/china-ai-developers-publish-safety-tests-just-36-model-releases-report-finds-2026-10-09/ · Full Report
 - C12-05 · SEC · 6 · TRT World · 2026-10-09T08:40Z · Chinese AI tool pulled to prevent 'misuse' after South Korea hacks · https://www.trtworld.com/article/e6d554d35d4a · Full Report
 - C12-06 · SEC · 6 · Microsoft · 2026-10-09T11:56Z · 2026 Digital Defense Report | Security Insider · https://www.microsoft.com/en-us/security/security-insider/threat-landscape/2026-digital-defense-report · Full Report
-- C12-14 · SEC · 6 · NPR · 2026-10-09T06:30Z · OpenAI says it has fired three researchers for violating sensitive information policy · https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings · Full Report
 - C02-07 · SEC · 5 · Mashable · 2026-10-09T22:32Z · Meta’s Muse reportedly keeps files on everyone you love · https://mashable.com/tech/meta-muse-report-ai-assistant-keeps-track-of-family-friends · held: older news re-dated into the window (FOLLOW-UP of 4 Oct 2026)
 - C12-07 · SEC · 5 · WSJ · 2026-10-09T11:39Z · Autonomous AI Defenders Aren’t Ready for Prime Time, Cyber Chiefs Say · https://www.wsj.com/pro/cybersecurity/autonomous-ai-defenders-arent-ready-for-prime-time-cyber-chiefs-say-df29c897 · pool only (pool score below 6)
 - C12-08 · SEC · 5 · Road to VR · 2026-10-10T01:38Z · Privacy concerns put smart glasses under scrutiny as Norway seeks temporary ban · https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/ · held: older news re-dated into the window (FOLLOW-UP of 7 Oct 2026)
