@@ -14,7 +14,7 @@ G1.3 one idea per sentence, G1.4 hedges kept and no outlet spoken, B2 plain word
 what the robot or vehicle does, B3 numbers as words, 1B WHO is clear for a first time viewer, WHAT keeps the news angle,
 WHY IT MATTERS is said in the line so plainly that a stranger can repeat it (a fact about the deal, the company or the regulator is not a why; "many factories use that software" is not a why), and supported by the entry, THE HEADLINES SHAPE of the phrasing file (two full natural sentences after the introduction, never chopped fragments, never childish; short plain sentences of about 20 words at most, seconds are the limit, who did what first, no side clause at the start, a fix is never longer than the line), 1A nothing stronger than the entry, CLAUDE.md rule 16 REPLY STORIES (a reply or a
 follow up names the earlier story), and the timing aim (story about 8 to 9 s, fun and teaser about 8 s, Bigger Picture
-about 10 s; syllables / 4.4, never over 12 s).
+about 10 s; syllables / 4.4, never over 10 s (CLAUDE.md CLIP SECONDS)).
 Write WORKDIR/headlines_work/rules_result.json:
 [{"clip":"C13-01","pass":true,"broken":[],"fix":""},
  {"clip":"fun","pass":false,"broken":[{"rule":"G2","why":"..."}],"fix":"<one full replacement line that keeps every fact and hedge>"}]
