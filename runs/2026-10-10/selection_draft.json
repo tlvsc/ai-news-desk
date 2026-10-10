@@ -1,138 +1,118 @@
 {
- "edition": "2026-10-10",
- "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
  "cards_in_deck_order": [
   {
    "card": "s1",
-   "item": "C13-03",
-   "category": "Politics and government",
-   "label": "China bubble",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
-   "card": "s2",
    "item": "C06-01",
    "category": "Market, industry and finance",
-   "label": "TypeSafe $7.5bn",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 7
   },
   {
-   "card": "s3",
+   "card": "s2",
    "item": "C12-01",
    "category": "Security and cyber",
-   "label": "Fake police tip",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 8
   },
   {
-   "card": "s4",
+   "card": "s3",
    "item": "C12-02",
    "category": "Security and cyber",
-   "label": "Disaster drill",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s4",
+   "item": "C08-02",
+   "category": "Energy and infrastructure",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 7
   },
   {
    "card": "s5",
-   "item": "C08-02",
+   "item": "C09-02",
    "category": "Energy and infrastructure",
-   "label": "Memory sold out",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 7
   },
   {
    "card": "s6",
-   "item": "C11-17",
+   "item": "C11-10",
    "category": "Robotics",
-   "label": "Humanoid robot",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 7
-  },
-  {
-   "card": "s7",
-   "item": "C11-18",
-   "category": "Robotics",
-   "label": "Rescue robots",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 7
-  },
-  {
-   "card": "s8",
-   "item": "C01-16",
-   "category": "Models and tools",
-   "label": "Claude cruelty",
-   "type": "NEW",
-   "fresh": "FOLLOW-UP of 8 Oct 2026",
-   "score": 9
-  },
-  {
-   "card": "s9",
-   "item": "C01-01",
-   "category": "Models and tools",
-   "label": "Decision model",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 7
-  },
-  {
-   "card": "s10",
-   "item": "C04-07",
-   "category": "Research and science",
-   "label": "Amateur planet",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 5
   },
   {
-   "card": "s11",
+   "card": "s7",
+   "item": "C01-16",
+   "category": "Models and tools",
+   "label": "SHORT LABEL",
+   "type": "UPDATE",
+   "fresh": "FOLLOW-UP of 8 Oct 2026",
+   "score": 9
+  },
+  {
+   "card": "s8",
+   "item": "C01-01",
+   "category": "Models and tools",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s9",
+   "item": "C13-01",
+   "category": "Ethics and law",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s10",
    "item": "C08-01",
    "category": "Ethics and law",
-   "label": "Chip smuggling",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s11",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 7
   },
   {
    "card": "s12",
-   "item": "C10-01",
-   "category": "Health",
-   "label": "Health Slack",
+   "item": "C14-01",
+   "category": "Society and education",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 7
   },
   {
-   "card": "s13",
-   "item": "C14-04",
-   "category": "Society and education",
-   "label": "Nikon AI video",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
-   "card": "s14",
-   "item": "C14-05",
-   "category": "Society and education",
-   "label": "Publishers' AI",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
    "card": "fun",
    "item": "C16-01",
    "category": "The Fun Side",
-   "label": "Pasta chatbot",
+   "label": "SHORT LABEL",
    "type": "NEW",
    "fresh": "NEW",
    "score": 3
@@ -141,40 +121,38 @@
  "teaser_items": [
   {
    "id": "t1",
-   "item": "C02-01",
-   "category": "Models and tools"
+   "item": "C12-14",
+   "category": "Security and cyber"
   },
   {
    "id": "t2",
-   "item": "C13-09",
-   "category": "Politics and government"
+   "item": "C09-01",
+   "category": "Energy and infrastructure"
   },
   {
    "id": "t3",
-   "item": "C10-02",
-   "category": "Health"
+   "item": "C05-01",
+   "category": "Politics and government"
   },
   {
    "id": "t4",
-   "item": "C09-05",
-   "category": "Energy and infrastructure"
+   "item": "C07-01",
+   "category": "Market, industry and finance"
   }
  ],
  "headlines_story_clips_in_order": [
-  "C13-03",
+  "C06-01",
   "C12-01",
-  "C12-02",
-  "C11-17",
+  "C08-02",
+  "C11-10",
   "C01-16",
-  "C04-07",
-  "C14-04"
+  "C01-01",
+  "C13-01"
  ],
  "headlines_fun": "C16-01",
  "bp_refs": [
-  "C07-01",
-  "C13-03",
-  "C07-07",
+  "C09-01",
   "C06-01",
-  "C08-02"
+  "C07-01"
  ]
 }
