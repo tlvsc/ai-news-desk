@@ -9,7 +9,7 @@ Writes W/products/AIND_Pool_<D-M-YY>.pdf. Fonts: W/fonts (Instrument Sans) when 
 import argparse, html, json
 from pathlib import Path
 import pymupdf
-from common import load_run, pool_path, categories, short_date, long_date, window_text, edition
+from common import load_run, pool_path, categories, short_date, long_date, window_text, edition, POOL_ORDER
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('--workdir', required=True)
@@ -24,7 +24,7 @@ ed = edition(run)
 def cat_name(cid):
     v = cats.get(str(cid)) or cats.get(cid)
     t = v[0] if isinstance(v, list) else str(v)
-    return t.split(' (')[0].rstrip('.')
+    return t.split(' (')[0].split('. ')[0].rstrip('.')
 
 
 def source_of(x):
@@ -42,8 +42,9 @@ for x in pool:
     by.setdefault(int(x['category_id']), []).append(x)
 e = html.escape
 parts = [f"<h1>AI News Desk: the daily pool</h1><p class='sub'>{e(long_date(ed))} &middot; {e(window_text(run))} &middot; "
-         f"{len(pool)} stories in {len(by)} categories, highest score first</p>"]
-for cid in sorted(by):
+         f"{len(pool)} stories in {len(by)} categories, in the approved category order, highest score first</p>"]
+assert set(by) <= set(POOL_ORDER), sorted(set(by) - set(POOL_ORDER))
+for cid in [c for c in POOL_ORDER if c in by]:
     items = sorted(by[cid], key=lambda x: (-int(x.get('importance') or 0), int(x.get('pool_rank') or 99)))
     parts.append(f"<h2>{e(cat_name(cid))} ({len(items)})</h2><ol>")
     for x in items:

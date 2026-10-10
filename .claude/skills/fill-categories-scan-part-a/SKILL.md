@@ -192,6 +192,7 @@ D-M-YY is the file-name date, e.g. 3-10-26.
 - Every Bigger Picture fact against its entry: same attribution, same hedge. No {Cnn-nn} left in either PDF input.
 - No news.google.com link, no tracking code, no process note in the two PDF input files.
 - Page counts, "Page x of y" and the embedded-font line printed by build_pdf.py.
+- ORDER (Rafi, 10 Oct 2026, "the order never change again for any products"): `python3 $K/check_order.py --workdir $W` must say "all pass" for the Full Report, the Bulletin, the pool PDF, CSV and JSON and daily-pool.md before anything is sent. The one source of the order is common.ORDER (and common.POOL_ORDER for the 16 pool categories); no script may order categories any other way.
 Fix, rebuild, and keep the replaced files as `_old`.
 
 ### 13. Deliver, save, then start part B

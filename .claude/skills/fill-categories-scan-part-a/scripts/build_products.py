@@ -21,7 +21,7 @@ import argparse, glob, json, re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from common import (FUN, NAMES, ORDER, WEEKDAYS, band, edition, load_run, long_date, parse_utc,
+from common import (CAT_SECTION, FUN, NAMES, ORDER, WEEKDAYS, band, edition, load_run, long_date, parse_utc,
                     pool_path, window_text)
 
 
@@ -247,7 +247,7 @@ def main():
          f"- Full Report: {len(report)} ({rule_r}); Bulletin: {len(bulletin)} (pool score {bmin} to 10, plus {len(fun)} Fun Side)", "",
          "## Removed at pool build", ""] + [f"- cat {c}: {t} — {w}" for c, t, w in log.get('manual_drops', [])] + [
          "", "## Curated pool (item, V1 category, pool score, outlet, published, title, link, outcome)", ""]
-    for k in sorted(pool, key=lambda k: (ORDER.index(E[k]['v1_category']) if k in E else 99, -int(float(pool[k]['importance'])), k)):
+    for k in sorted(pool, key=lambda k: (ORDER.index(E[k]['v1_category']) if k in E else ORDER.index(CAT_SECTION[int(pool[k]['category_id'])]), -int(float(pool[k]['importance'])), k)):
         p = pool[k]; e = E.get(k, {})
         P.append(f"- {k} · {e.get('v1_category', '?')} · {int(float(p['importance']))} · {e.get('source') or p['source']} · "
                  f"{p['published']} · {p['title']} · {e.get('url') or p['url']} · {outcome(k)}")

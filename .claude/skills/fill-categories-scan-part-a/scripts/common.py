@@ -21,6 +21,12 @@ NAMES = {'POL': 'Politics and government', 'MKT': 'Market, industry and finance'
 DEFAULT_V1 = {1: 'MOD', 2: 'MOD', 3: 'MOD', 4: 'RES', 5: 'choose', 6: 'MKT', 7: 'MKT', 8: 'ENE', 9: 'ENE',
               10: 'HEA', 11: 'ROB', 12: 'SEC', 13: 'POL or LAW', 14: 'SOC', 15: 'RES', 16: 'FUN'}
 FUN = 16
+# THE ORDER NEVER CHANGES (Rafi, 10 Oct 2026, "the order never change again for any products"): the approved order of categories of
+# 23 Sep 2026 is ORDER above (Politics first, Fun last). Every product that lists categories uses it. The 16 curator categories of the pool
+# sit under their V1 section like this (13 Policy, Law and 5 Industry Voices under Politics; Law has no curator category of its own):
+CAT_SECTION = {13: 'POL', 5: 'POL', 6: 'MKT', 7: 'MKT', 12: 'SEC', 8: 'ENE', 9: 'ENE', 11: 'ROB', 1: 'MOD', 2: 'MOD', 3: 'MOD',
+               4: 'RES', 15: 'RES', 10: 'HEA', 14: 'SOC', 16: 'FUN'}
+POOL_ORDER = sorted(CAT_SECTION, key=lambda c: (ORDER.index(CAT_SECTION[c]), list(CAT_SECTION).index(c)))
 
 
 def categories():

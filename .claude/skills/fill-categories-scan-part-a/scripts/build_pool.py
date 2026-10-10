@@ -22,7 +22,7 @@ Read build_log.json: near_dupes and similar_to_yesterday need an editor's decisi
 import argparse, csv, json, re, sys
 from pathlib import Path
 
-from common import FUN, load_pool_file, load_run, norm_url, parse_utc, pool_path, short_names, similar
+from common import POOL_ORDER, FUN, load_pool_file, load_run, norm_url, parse_utc, pool_path, short_names, similar
 
 
 def in_window(pub, start, end):
@@ -172,6 +172,7 @@ def main():
             if s >= 0.4:
                 log["similar_to_yesterday"].append((x["item_id"], y["item_id"], round(s, 2), x["title"], y["title"]))
 
+    pool.sort(key=lambda it: (POOL_ORDER.index(int(it['category_id'])), -int(float(it.get('importance') or 0)), int(it.get('pool_rank') or 99)))  # approved order, never the curator number
     pool_path(W, run).write_text(json.dumps(pool, indent=2, ensure_ascii=False), encoding='utf-8')
     cols = ["item_id", "category_id", "category", "pool_rank", "title", "summary", "source", "url",
             "published", "time_verified", "subcategory", "importance", "also_fits", "label", "from_backup"]
