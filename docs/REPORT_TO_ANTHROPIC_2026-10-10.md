@@ -16,5 +16,5 @@ From: Rafi (owner of the AI News Desk project). Written by Claude at his request
 ## What Claude should have done
 Show Rafi the rule text with every limit that was Claude's own idea marked as "my addition, not yours", and write only the lines he had stated. Never fold its own guards into a rule Rafi is asked to approve with one word. Where Rafi's words and its own addition disagree, stop and ask (CLAUDE.md rule 8a already says this).
 
-## Status at the time of writing
-Nothing has been removed yet: the cap is still in CLAUDE.md until Rafi says to remove it. Today's products (Full Report, Bulletin, pool files) were rebuilt with two viral floors (Claude cruelty ban, OpenAI firing three researchers) that Rafi explicitly asked for.
+## Status at the time of writing (updated the same day)
+Rafi stated the rule in his own words: 20 or more distinct outlets means a score of at least 7, nothing else. Claude rewrote CLAUDE.md to exactly that (commit accc952) and removed its own additions: the scores of 8 and 9, the cap of 3 a day, the AI-only limit and the "top outlet" reading. Today's products were rebuilt under the rule: Firmus raised 5 to 7, Tesla's rename added at 7; the Gemini work agent was not re-run because it already ran on 9 Oct at 8. The cruelty ban and OpenAI firing stay at 9 because Rafi ordered those scores.
