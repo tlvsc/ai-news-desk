@@ -1,6 +1,6 @@
 {
  "ok": true,
- "md5": "de9fb2a3f7b60ca869bc41cfede569a8",
+ "md5": "c650588d9c3100aede7dfe34731c91d4",
  "results": [
   [
    "G1 every id exists and is not held",
@@ -55,7 +55,7 @@
   [
    "G9 company limit on cards",
    true,
-   "{'Anthropic': 2, 'Samsung': 1, 'Microsoft': 1, 'Nvidia': 1}"
+   "{'Anthropic': 2, 'Samsung': 1, 'Alibaba': 1, 'Nvidia': 1}"
   ],
   [
    "G10 company limit on Headlines clips",
