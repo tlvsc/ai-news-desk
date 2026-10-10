@@ -3,17 +3,17 @@
 Edition date: 2026-10-10 (Asia/Jerusalem)  
 Reporting window: 9 Oct 2026 06:00 UTC to 10 Oct 2026 06:00 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-10 07:25 UTC  
+Last updated: 2026-10-10 10:17 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
 
 - Raw dated candidates collected inside the window: 3591
-- Curated pool: 238 (per category: Models & Core AI 15, Agents, Products & Applications 15, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 15, Industry Voices & Quotes 15, Companies, Startups, Funding & Deals 15, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 16, Data Centers, Energy & Infrastructure 15, Healthcare & Biotech 15, Robotics, Autonomy & Physical AI 15, Cybersecurity, Safety, Reliability & Data Governance 15, Policy, Law, Geopolitics, Defense & Sovereign AI 15, Society, Work, Media, Education & Culture 17, Quantum & Advanced Computing 15, The Fun Side 10)
+- Curated pool: 239 (per category: Models & Core AI 16, Agents, Products & Applications 15, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 15, Industry Voices & Quotes 15, Companies, Startups, Funding & Deals 15, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 16, Data Centers, Energy & Infrastructure 15, Healthcare & Biotech 15, Robotics, Autonomy & Physical AI 15, Cybersecurity, Safety, Reliability & Data Governance 15, Policy, Law, Geopolitics, Defense & Sovereign AI 15, Society, Work, Media, Education & Culture 17, Quantum & Advanced Computing 15, The Fun Side 10)
 - Removed at pool build: 1 by the editor, 14 same stories in two categories
-- Held back after reading: 39 (32 older news re-dated into the window, 7 duplicate, 0 published before the window)
-- Articles read: 161 of 191; headline only: 30
-- Full Report: 108 (pool score 6 to 10, plus the best stories of score 5 to reach about 108, plus The Fun Side); Bulletin: 38 (pool score 7 to 10, plus 3 Fun Side)
+- Held back after reading: 40 (32 older news re-dated into the window, 8 duplicate, 0 published before the window)
+- Articles read: 162 of 192; headline only: 30
+- Full Report: 112 (pool score 6 to 10, plus the best stories of score 5 to reach about 112, plus The Fun Side); Bulletin: 39 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -48,7 +48,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C07-06 · MKT · 6 · Stocktwits · 2026-10-09T13:13Z · AI Valuation Correction Could Trigger Wider Market Sell-Off, Margin Calls, Warns UN Report · https://finance.yahoo.com/markets/stocks/articles/ai-valuation-correction-could-trigger-131347768.html · Full Report
 - C02-12 · MKT · 5 · Artificial Lawyer, citing AT&T · 2026-10-09T19:55Z · AT&T Partners With OpenAI For Legal Dept. Revamp · https://www.artificiallawyer.com/2026/10/08/att-openai-partner-for-legal-ai-workflows/ · held: older news re-dated into the window (FOLLOW-UP of 8 Oct 2026)
 - C03-15 · MKT · 5 · SiliconANGLE, relayed by Quasa.io · 2026-10-09T07:00:00Z · Supabase Raises $150M, Agrees to Buy Turso · https://quasa.io/stories/supabase-raises-150m-and-buys-turso-agent-databases-get-two-engines · held: older news re-dated into the window (FOLLOW-UP of 2 Oct 2026)
-- C05-08 · MKT · 5 · The Times of India · 2026-10-09T12:38:00Z · Microsoft CEO Satya Nadella tells industry: Software is not going anywhere but ... · https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ceo-satya-nadella-tells-industry-software-is-not-going-anywhere-but-/articleshow/134834046.cms · pool only (pool score below 6)
+- C05-08 · MKT · 5 · The Times of India · 2026-10-09T12:38:00Z · Microsoft CEO Satya Nadella tells industry: Software is not going anywhere but ... · https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ceo-satya-nadella-tells-industry-software-is-not-going-anywhere-but-/articleshow/134834046.cms · Full Report
 - C06-06 · MKT · 5 · Reuters · 2026-10-09T22:43:00Z · EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds at about a $2.5 billion valuation, sources say · https://www.reuters.com/legal/transactional/sequoia-backed-chip-startup-nuvacore-raising-funds-about-25-billion-valuation-2026-10-09/ · pool only (pool score below 6)
 - C06-07 · MKT · 5 · MacRumors, citing a European Commission filing · 2026-10-09T08:44:00Z · Apple Signs Hiring and Licensing Deal With AI Podcast Startup Huxe · https://www.macrumors.com/2026/10/09/apple-signs-hiring-deal-ai-podcast-startup-huxe/ · pool only (pool score below 6)
 - C06-08 · MKT · 5 · Reuters · 2026-10-09T21:38:00Z · Amazon shuffles Alexa leadership following high-end tablet release · https://www.reuters.com/business/media-telecom/amazon-shuffles-alexa-leadership-following-high-end-tablet-release-2026-10-09/ · pool only (pool score below 6)
@@ -96,8 +96,8 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C08-13 · ENE · 5 · Retail News Asia · 2026-10-09T07:33:00Z · Rapidus Partners with 17 Design Firms to Secure 2Nm Chip Buyers · https://retailnews.asia/rapidus-partners-with-17-design-firms-to-secure-2nm-chip-buyers · Full Report
 - C08-14 · ENE · 5 · The Wall Street Journal · 2026-10-10T02:05:00Z · Cost of renting Nvidia H100 computing power rises 60% in a year · https://www.bgnes.com/economy/cost-of-renting-nvidia-h100-computing-power-rises-60-in-a-year · Full Report
 - C09-08 · ENE · 5 · CNBC · 2026-10-09T13:45:00Z · Wall Street is pitching data centers as a major real estate bet. The risks are piling up · https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html · pool only (pool score below 6)
-- C09-09 · ENE · 5 · Bisnow Studio B (sponsored by Maddox Industrial Transformer) · 2026-10-09T15:00:00Z · Transformers: Yet Another Data Center Power Infrastructure Supply Chain Bottleneck · https://www.bisnow.com/studio-b/national/data-center-power/maddox-industrial-transformer-data-center-supply-chain-bottleneck · pool only (pool score below 6)
-- C09-10 · ENE · 5 · Light Reading · 2026-10-09T13:20:00Z · Asia's data center boom hits speed bumps · https://www.lightreading.com/data-centers/asia-s-data-center-boom-hits-speed-bumps · pool only (pool score below 6)
+- C09-09 · ENE · 5 · Bisnow Studio B (sponsored by Maddox Industrial Transformer) · 2026-10-09T15:00:00Z · Transformers: Yet Another Data Center Power Infrastructure Supply Chain Bottleneck · https://www.bisnow.com/studio-b/national/data-center-power/maddox-industrial-transformer-data-center-supply-chain-bottleneck · held: sponsored content (Bisnow Studio B, made with the advertiser), not news; held by the main session, no editor ruling
+- C09-10 · ENE · 5 · Light Reading · 2026-10-09T13:20:00Z · Asia's data center boom hits speed bumps · https://www.lightreading.com/data-centers/asia-s-data-center-boom-hits-speed-bumps · Full Report
 - C09-11 · ENE · 5 · Memphis Flyer · 2026-10-09T21:28:00Z · Memphis Mayor Paul Young issues executive order for data center action · https://www.memphisflyer.com/mayor-paul-young-signs-order-for-90-day-data-center-study/ · pool only (pool score below 6)
 - C09-12 · ENE · 5 · W.Media, citing The Times of India · 2026-10-09T11:58:00Z · Adani's Vizag hyperscale campus proceeds at developer's risk · https://w.media/andhra-pradesh-high-court-lets-vizag-hyperscale-campus-proceed-at-developers-own-risk/ · pool only (pool score below 6)
 - C09-13 · ENE · 5 · The Hindu · 2026-10-09T09:36:00Z · India's AI data centre boom sparks protests over water, power and environmental concerns · https://www.thehindu.com/videos/indias-ai-data-centre-boom-sparks-protests-over-water-power-and-environmental-concerns/article71563454.ece · pool only (pool score below 6)
@@ -118,6 +118,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C11-13 · ROB · 5 · UK Government, relayed by The AI Insider · 2026-10-09T13:31:00Z · UK Backs Robotics Adoption Hubs With £40M in Funding · https://theaiinsider.tech/2026/10/09/uk-backs-robotics-adoption-hubs-with-40m-in-funding/ · Full Report + Bulletin
 - C11-14 · ROB · 5 · Nikkei Asia · 2026-10-09T14:14:00Z · Tokyo police to set up autonomous driving unit to handle permits, accidents · https://asia.nikkei.com/business/automobiles/tokyo-police-to-set-up-autonomous-driving-unit-to-handle-permits-accidents · pool only (pool score below 6)
 - C11-15 · ROB · 5 · CNA · 2026-10-09T10:17:00Z · China’s Xpeng targets overseas robotaxi trials next year, wider rollout in 2 to 3 years · https://www.channelnewsasia.com/business/xpeng-robotaxis-yoyo-humanoid-robots-iron-brian-gu-interview-6445751 · Full Report + Bulletin
+- C01-16 · MOD · 9 · CBS News · 2026-10-09T14:59:00Z · Anthropic bars "abusive or cruel" behavior toward its Claude AI model · https://www.cbsnews.com/news/anthropic-bans-abusive-behavior-claude/ · Full Report + Bulletin
 - C01-01 · MOD · 8 · Microsoft · 2026-10-09T22:21:00Z · Microsoft launches its new AI model for making decisions quickly. · https://commandline.microsoft.com/microsoft-decision-1-model-foundry/ · Full Report + Bulletin
 - C01-02 · MOD · 7 · Business Insider · 2026-10-09T19:37:00Z · Google is about to roll out a new AI model. Employees say they're testing another that's way better. · https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10 · Full Report + Bulletin
 - C01-03 · MOD · 7 · TechJuice · 2026-10-09T10:22:00Z · Alibaba Releases Qwen3.8, the Largest Open-Source AI Model · https://www.techjuice.pk/alibaba-qwen38-open-weights-2-4-trillion-moe/ · Full Report + Bulletin
@@ -199,7 +200,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C14-12 · SOC · 5 · Tech Xplore · 2026-10-09T16:10:00Z · AI evaluations of job candidates look unbiased without being fair · https://techxplore.com/news/2026-10-ai-job-candidates-unbiased-fair.html · pool only (pool score below 6)
 - C14-13 · SOC · 5 · Chalkbeat · 2026-10-09T17:04:00Z · Teaching kids to code used to be a path to good jobs. AI has changed that. · https://www.chalkbeat.org/philadelphia/2026/10/08/ai-forces-learn-to-code-programs-to-adapt/ · Full Report
 - C14-14 · SOC · 5 · The Economic Times · 2026-10-09T13:34:00Z · Will AI Really Wipe Out 40% of Jobs? Michael Spence Pushes Back · https://m.economictimes.com/news/short-videos/will-ai-really-wipe-out-40-of-jobs-michael-spence-pushes-back/videoshow/134782250.cms · pool only (pool score below 6)
-- C14-15 · SOC · 5 · DW News · 2026-10-09T15:09:00Z · Author or artificial intelligence? Literature in crisis · https://www.dw.com/en/author-or-artificial-intelligence-literature-in-crisis/a-79618610 · pool only (pool score below 6)
+- C14-15 · SOC · 5 · DW News · 2026-10-09T15:09:00Z · Author or artificial intelligence? Literature in crisis · https://www.dw.com/en/author-or-artificial-intelligence-literature-in-crisis/a-79618610 · Full Report
 - C14-16 · SOC · 5 · CNA · 2026-10-09T09:38:00Z · Doing more with fewer people: How AI is changing Chinese companies · https://www.channelnewsasia.com/east-asia/artificial-intelligence-one-person-companies-china-6435841 · pool only (pool score below 6)
 - C14-17 · SOC · 5 · BBC News · 2026-10-09T11:26:00Z · UK Plans to Curb Non-Compete Rules That Angered AI Startups · https://www.bbc.com/news/articles/c63r5wx8z8wzo · pool only (pool score below 6)
 - C16-01 · FUN · 3 · Daily Star · 2026-10-09T13:47:00Z · Trump's AI bot starts telling jokes 'humans can't understand' and singing about Elon Musk · https://www.dailystar.co.uk/news/latest-news/trumps-ai-bot-starts-telling-37754033 · Full Report + Bulletin
@@ -262,4 +263,4 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 
 ## Known gaps
 
-- 11 of 108 Full Report stories rest on headlines only; their sites could not be opened from this session.
+- 11 of 112 Full Report stories rest on headlines only; their sites could not be opened from this session.
