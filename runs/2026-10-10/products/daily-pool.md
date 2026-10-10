@@ -3,17 +3,17 @@
 Edition date: 2026-10-10 (Asia/Jerusalem)  
 Reporting window: 9 Oct 2026 06:00 UTC to 10 Oct 2026 06:00 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-10 10:40 UTC  
+Last updated: 2026-10-10 11:00 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
 
 - Raw dated candidates collected inside the window: 3591
-- Curated pool: 239 (per category: Models & Core AI 16, Agents, Products & Applications 15, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 15, Industry Voices & Quotes 15, Companies, Startups, Funding & Deals 15, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 16, Data Centers, Energy & Infrastructure 15, Healthcare & Biotech 15, Robotics, Autonomy & Physical AI 15, Cybersecurity, Safety, Reliability & Data Governance 15, Policy, Law, Geopolitics, Defense & Sovereign AI 15, Society, Work, Media, Education & Culture 17, Quantum & Advanced Computing 15, The Fun Side 10)
+- Curated pool: 240 (per category: Models & Core AI 16, Agents, Products & Applications 15, Developer Tools, Open Source & Data 15, Research, Benchmarks & AI for Science 15, Industry Voices & Quotes 15, Companies, Startups, Funding & Deals 15, Markets, Stocks & AI Economics 15, Chips, Hardware & Compute 16, Data Centers, Energy & Infrastructure 15, Healthcare & Biotech 15, Robotics, Autonomy & Physical AI 16, Cybersecurity, Safety, Reliability & Data Governance 15, Policy, Law, Geopolitics, Defense & Sovereign AI 15, Society, Work, Media, Education & Culture 17, Quantum & Advanced Computing 15, The Fun Side 10)
 - Removed at pool build: 1 by the editor, 14 same stories in two categories
 - Held back after reading: 40 (32 older news re-dated into the window, 8 duplicate, 0 published before the window)
-- Articles read: 162 of 192; headline only: 30
-- Full Report: 112 (pool score 6 to 10, plus the best stories of score 5 to reach about 112, plus The Fun Side); Bulletin: 40 (pool score 7 to 10, plus 3 Fun Side)
+- Articles read: 163 of 193; headline only: 30
+- Full Report: 114 (pool score 6 to 10, plus the best stories of score 5 to reach about 114, plus The Fun Side); Bulletin: 42 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -33,6 +33,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C06-01 · MKT · 7 · TechCrunch · 2026-10-09T21:41:00Z · The maker of non-text AI model Jev valued at $7.5B just weeks after launch · https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/ · Full Report + Bulletin
 - C07-01 · MKT · 7 · Yahoo Finance · 2026-10-09T20:05Z · Stocks Recovered From an AI-Fueled Drop To End The Week Despite Higher Oil Prices And Bond Yields · https://finance.yahoo.com/markets/stocks/articles/stocks-recovered-ai-fueled-drop-200510933.html · Full Report + Bulletin
 - C07-02 · MKT · 7 · AI News Desk · 2026-10-09T21:27Z · AI chip stocks wobble even as investors get clarity on a key OpenAI issue · https://finance.yahoo.com/technology/ai/articles/openai-expects-reach-70-bln-053202604.html · held: overlaps C07-01 (Friday rebound after OpenAI revenue scare); kept C07-01
+- C07-07 · MKT · 7 · Bloomberg · 2026-10-09T18:20Z · Nvidia-Backed Firmus Sought $30B Valuation on $51M Revenue · https://www.taipeitimes.com/News/biz/archives/2026/10/10/2003865700 · Full Report + Bulletin
 - C08-03 · MKT · 7 · Startup Fortune, citing IDC · 2026-10-09T17:43:00Z · PC shipments sank 20% in Q3 as the AI memory shortage hit laptops · https://startupfortune.com/pc-shipments-sank-20-in-q3-as-the-ai-memory-shortage-hit-laptops/ · Full Report + Bulletin
 - C05-04 · MKT · 6 · Stocktwits, citing the Financial Times · 2026-10-09T08:33:00Z · Elon Musk Mocks SoftBank's Reported $100B AI Fundraising Plan: 'Only A Fool Would Give Them Money' · https://finance.yahoo.com/technology/ai/articles/elon-musk-mocks-softbanks-reported-083354608.html · Full Report
 - C05-05 · MKT · 6 · TokenPost · 2026-10-09T09:33:00Z · Jefferies’ Chris Wood Sees ‘Massive Capital Destruction’ in AI · https://www.bloomberg.com/news/articles/2026-10-09/jefferies-chris-wood-sees-massive-capital-destruction-in-ai · held: older news re-dated into the window (FOLLOW-UP of 17 Sep 2026)
@@ -56,7 +57,6 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C06-10 · MKT · 5 · The New Stack · 2026-10-09T18:53:00Z · Cloudflare acquires Node.js creator’s startup that copied its serverless playbook · https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/ · pool only (pool score below 6)
 - C06-11 · MKT · 5 · SiliconANGLE · 2026-10-10T00:31:00Z · Oxide raises $445M on profitability and AI demand · https://siliconangle.com/2026/10/09/oxide-computer-raises-445m-to-step-up-data-center-rack-production/ · pool only (pool score below 6)
 - C06-12 · MKT · 5 · Fortune · 2026-10-09T10:33:00Z · Ultra raises $62 million for fast-growing ‘robots as a service’ business, announces tie-up with AI research firm Physical Intelligence · https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/ · pool only (pool score below 6)
-- C07-07 · MKT · 5 · Bloomberg · 2026-10-09T18:20Z · Nvidia-Backed Firmus Sought $30B Valuation on $51M Revenue · https://www.taipeitimes.com/News/biz/archives/2026/10/10/2003865700 · pool only (pool score below 6)
 - C07-08 · MKT · 5 · AI News Desk · 2026-10-09T09:30Z · Nvidia’s Subtle Change to How It Counts Cash Flow Has Big Implications for Buybacks · https://www.kucoin.com/news/flash/nvidia-adjusts-free-cash-flow-metric-amid-235-billion-share-buyback-plan · pool only (pool score below 6)
 - C07-09 · MKT · 5 · Yahoo Finance · 2026-10-09T14:01Z · SpaceX in the S&P 500 would push AI stocks to 51% of the index, strategist says · https://finance.yahoo.com/markets/stocks/article/spacex-in-the-sp-500-would-push-ai-stocks-to-51-of-the-index-strategist-says-140114370.html · pool only (pool score below 6)
 - C07-10 · MKT · 5 · Reuters · 2026-10-09T10:02Z · AI-centered US stock bull market nears four-year anniversary · https://www.reuters.com/legal/transactional/ai-centered-us-stock-bull-market-nears-four-year-anniversary-2026-10-09/ · pool only (pool score below 6)
@@ -104,6 +104,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C09-14 · ENE · 5 · CBC News · 2026-10-09T19:29:00Z · Canada’s Pembina Advances Gas-Fired Data Center Project · https://www.cbc.ca/news/canada/calgary/greenlight-pembina-pipeline-corp-9.7256488 · held: older news re-dated into the window (FOLLOW-UP of 2 Jul 2026)
 - C09-15 · ENE · 5 · Cleveland.com · 2026-10-09T10:00:00Z · Are data centers a good deal for Ohio? 5 numbers from a new study raise questions · https://www.cleveland.com/news/2026/10/are-data-centers-a-good-deal-for-ohio-5-numbers-from-a-new-study-raise-questions.html · pool only (pool score below 6)
 - C11-01 · ROB · 7 · Reuters · 2026-10-09T12:02:00Z · Stellantis CEO says Wayve tie-up can cut self-driving costs, development time · https://www.reuters.com/business/autos-transportation/stellantis-ceo-says-wayve-tie-up-can-cut-self-driving-costs-development-time-2026-10-09/ · Full Report + Bulletin
+- C11-16 · ROB · 7 · TechCrunch · 2026-10-09T16:07:00Z · Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe · https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/ · Full Report + Bulletin
 - C11-02 · ROB · 6 · CarNewsChina · 2026-10-10T03:44:00Z · XPENG Launches "YOYO" Robotaxi · https://carnewschina.com/2026/10/08/xpeng-release-invite-only-yoyo-robotaxi-pilot-in-china/ · held: older news re-dated into the window (FOLLOW-UP of 9 Oct 2026)
 - C11-03 · ROB · 6 · Forbes · 2026-10-09T22:53:00Z · Hexagon Is Putting 1,000 Humanoid Robots In Schaeffler Factories. This Is Not A Copy-Paste Process · https://www.forbes.com/sites/johnkoetsier/2026/10/09/hexagon-is-putting-1000-humanoid-robots-in-schaeffler-factories-this-is-not-a-copy-paste-process/ · held: older news re-dated into the window (FOLLOW-UP of 24 Apr 2026)
 - C11-04 · ROB · 6 · Gasgoo, citing IDC · 2026-10-09T21:30:00Z · IDC: AgiBot Leads Global Humanoid Robot Shipments With Over 8,600 Units in H1 · https://autonews.gasgoo.com/articles/other/idc-agibot-leads-global-humanoid-robot-shipments-with-over-8600-units-in-h1-2108532019490680833 · held: repeat of 29 Sep 2026 (IDC humanoid shipments H1, 25,000 units, 77.9% China, already carried)
@@ -263,4 +264,4 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 
 ## Known gaps
 
-- 11 of 112 Full Report stories rest on headlines only; their sites could not be opened from this session.
+- 11 of 114 Full Report stories rest on headlines only; their sites could not be opened from this session.
