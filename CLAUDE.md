@@ -180,7 +180,7 @@ not about which project it is.
     symbol; the Drive Headlines Master (15 Sep, item 3, and G3) keeps text-free symbols until Rafi says the test worked.
     REAL TV SCREENS (Rafi, 8 Oct 2026; replaces the TEST line above and the text-free symbol for every story, fun and teaser clip): each holographic screen shows a short
     realistic TV-news style scene of that story's subject, like a real TV (for example a humanoid robot factory for a robotics story); no readable words, numbers, logos or
-    real named faces; the Bigger Picture clip keeps its warning sign. FUN CLIP (Rafi, 8 Oct 2026): the fun clip explains the joke so it lands at once, set-up then punchline, facts only from the source.
+    real named faces; the Bigger Picture clip keeps its warning sign. PHOTOREALISTIC (Rafi, 10 Oct 2026, his words): "the holographic screen should be real photo realistic; give thought to how to portray the article well: what would a big news channel put as image or video for this item". FUN CLIP (Rafi, 8 Oct 2026): the fun clip explains the joke so it lands at once, set-up then punchline, facts only from the source.
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
     Headlines take only what survives it. A meaningful update of an earlier story can be a card (CARD FILTER below).
