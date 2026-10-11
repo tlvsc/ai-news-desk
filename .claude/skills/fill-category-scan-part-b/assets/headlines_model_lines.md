@@ -32,6 +32,17 @@ From 26 Sep to 1 Oct 2026, the days Rafi calls the good ones (as spoken then; on
 11. In security. Google says monthly software flaw reports doubled since January, and A I may be helping attackers exploit them. (the cause, said carefully)
 12. In law. The F T C chair says A I agents are not independent actors, so the company behind the agent answers for what it does. (effect)
 
+## Too long, against right (the 11 Oct blind test: a writer with the new rules wrote the shape right but 1.5 seconds too long; Rafi: "both are great, but mine is a bit better and shorter")
+Too long (10.5 s): Microsoft chief Satya Nadella called for an off switch that lets a person stop any A I model mid-task, saying firms should assume a model is compromised.
+Right (8 s): Microsoft chief Satya Nadella wants an emergency brake on A I, so a person can always stop it mid-task.
+Too long (10 s): N-vidia is reportedly in talks to buy A I firm Reflection, which could strengthen its position in open weight models, the kind anyone can download.
+Right (8 s): N-vidia is reportedly in talks of buying A I firm Reflection, which could strengthen its position in open-weight models.
+Too long (10.5 s): Tesla says its humanoid robot Optimus learns chores like taking out the trash mostly by watching videos of people, which could bring robots into homes sooner.
+Right (8.5 s): Tesla says its humanoid robot Optimus learns chores by watching videos of people, which could bring home robots sooner.
+Too long (10.5 s): A hospital and a testing firm in China released an A I that reads lung tumour slides to predict gene changes, which they expect to make cancer gene tests much cheaper.
+Right (8.5 s): A Chinese hospital says its new A I checks lung tumours for gene changes in as little as a minute, which could make these tests far cheaper.
+The difference every time: one actor, one verb, one why. Examples, second details and quotes are cut.
+
 ## Never like this (lines Rafi rejected, and why)
 - "...but Japan's prime minister Takaichi keeps A I for now and so can you." (9 Oct: a made-up "you" ending)
 - "...so watch if they still fund the A I you use." (9 Oct: a made-up "you" ending)
