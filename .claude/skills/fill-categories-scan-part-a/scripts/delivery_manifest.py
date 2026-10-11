@@ -22,10 +22,12 @@ FOLDERS = ['pool of items', 'Full Report', 'Bulletin', 'cards', 'Headlines']
 # WHO MADE IT (Rafi, 11 Oct 2026: two or three scans save into the same folders, "each file name says exactly who or which scan it is"):
 # every Drive title carries the creator and version of this scan; "all products should, no need to do historical items, start from today on",
 # so the cards too, over the Drive card name rule of 13 Sep (docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21). Files already on Drive keep their names.
-RUN_LABEL = 'Claude-LV1.1'
+RUN_LABEL = 'Claude-V1'
 
 
 def titled(folder, name):
+    if 'Claude LV1.1' in name:   # older runs named the reports LV1.1 by mistake (lesson 215)
+        return name.replace('Claude LV1.1', 'Claude-V1')
     if 'Claude' in name:
         return name
     stem, dot, ext = name.rpartition('.')

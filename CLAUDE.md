@@ -18,7 +18,7 @@ not about which project it is.
    files is kept in this repo under runs/<date> (no media) as the restart point when the cloud machine
    is wiped. A morning Routine that starts the chain by itself comes only after two clean manual days.
    WHO MADE IT (Rafi, 11 Oct 2026, his words: two or three scans save into the same folders, so "each file name says exactly who or which scan it is";
-   "all products should, no need to do historical items, start from today on"): every file this scan saves to Drive ends with _Claude-LV1.1, cards included
+   "all products should, no need to do historical items, start from today on"): every file this scan saves to Drive ends with _Claude-V1, cards included
    (the label lives in delivery_manifest.py; the wording of this line is Claude's). Files already on Drive are not renamed.
 1. ROUTE THE JOB BEFORE DOING IT. Before starting ANY task, scan who or what can
    actually do it — this cloud session, Claude Code local on Rafi's PC, another AI

@@ -122,7 +122,7 @@ def main():
         rule_b += " (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")"
 
     # ---------- Full Report markdown (the card renderer reads it as report_file)
-    L = ["# Daily Global AI Intelligence Report (Claude LV1.1) — TEST RUN", "",
+    L = ["# Daily Global AI Intelligence Report (Claude-V1) — TEST RUN", "",
          f"Daily report date: {WEEKDAYS[ed.weekday()]}, {DATE}  ",
          f"Coverage period: {WINDOW}  ",
          f"Final unique stories: {len(report)} (pool {len(pool)}; report rule: {rule_r}; {len(held)} pool stories held back as older news re-dated into the window, duplicates or published before the window)  ",
@@ -149,11 +149,11 @@ def main():
         L += [f"## {bp['title'].upper()}", "", f"*{bp['description']}*", ""]
         for s in bp['sections']:
             L += [f"### {s['title']}", ""] + [refs(p) + "\n" for p in s['paragraphs']]
-    REPORT_MD = OUT / f"{ed.isoformat()} — Daily Global AI Intelligence Report (Claude LV1.1).md"
+    REPORT_MD = OUT / f"{ed.isoformat()} — Daily Global AI Intelligence Report (Claude-V1).md"
     REPORT_MD.write_text("\n".join(L), encoding="utf-8")
 
     # ---------- Bulletin markdown
-    BL = ["# Daily Bulletin (Claude LV1.1) — TEST RUN", "", f"{DATE}. Coverage: {WINDOW}.  ",
+    BL = ["# Daily Bulletin (Claude-V1) — TEST RUN", "", f"{DATE}. Coverage: {WINDOW}.  ",
           f"Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: {rule_b} (cutoff set to the day's pool, CLAUDE.md rule 14).  ",
           f"**{len(bulletin)} stories.**", ""]
     for k in ORDER:
@@ -170,7 +170,7 @@ def main():
     BL += ["## CHECKS", "", f"- Stories: {len(bulletin)}; all come from the Full Report with facts, scores and sources unchanged.",
            f"- Fact check suggested a lower score for {sum(1 for e in bulletin if e['fc_score'] < e['score'])} of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.",
            f"- Headline-only stories included: {sum(1 for e in bulletin if not e.get('verified_text'))}."]
-    (OUT / f"{ed.isoformat()} — Daily Bulletin (Claude LV1.1).md").write_text("\n".join(BL), encoding="utf-8")
+    (OUT / f"{ed.isoformat()} — Daily Bulletin (Claude-V1).md").write_text("\n".join(BL), encoding="utf-8")
 
     # ---------- PDF inputs (Full_Report_V1_Rules_Structure section 8)
     def pdf_item(e):

@@ -711,3 +711,11 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
 214. (11 Oct, Rafi: "all products should, no need to do historical items, start from today on") Cards carry the scan label too:
      cards_D-M-YY_I01_VL1_Claude-LV1.1.png and the contact sheet, from 11 Oct; nothing already on Drive is renamed. Written into CLAUDE.md rule 0 (WHO MADE IT)
      and docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21 (it differs from the Drive card name rule of 13 Sep).
+215. (11 Oct, mistake record, Rafi: "why would you push to v1.1 which is different than v1?") THE SCAN LABEL WAS WRONG. I chose "_Claude-LV1.1" for
+     every Drive file name by copying "Claude LV1.1" from the old report markdown names, without checking which version this scan is; it follows the
+     V1 rules files, and V1.1 is a different version. Fixed at Rafi's word ("yes fix it"): the label is _Claude-V1 in delivery_manifest.py, CLAUDE.md
+     rule 0 (WHO MADE IT), docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21 and the Drive delivery brief; build_products.py now names the report and Bulletin
+     markdown "(Claude-V1)"; delivery_manifest.py turns an old "(Claude LV1.1)" name into "(Claude-V1)". Lessons 213 and 214 keep the old label as the
+     record of what was done. Tested on the 10 Oct files: every title ends with _Claude-V1 or carries (Claude-V1). Astra was given the wrong label in a
+     message the same day and needs a one-line correction. Prevention: a version or label is never taken from an old file name; ask Rafi or read the
+     governing file.
