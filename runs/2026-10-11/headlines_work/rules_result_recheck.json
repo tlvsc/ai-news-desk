@@ -1,0 +1,44 @@
+[
+ {
+  "clip": "C06-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fix met: G2, 'In business' replaces 'In finance' (used 10 Oct). Also met: the stranger's fix ('fund', 'whose' points to Reflection, N-vidia named again). Reflection tagged 'A I firm' (G1.2), 'reportedly' kept, N-vidia cue used, one flowing sentence, 36 syllables, 8.5 s box."
+ },
+ {
+  "clip": "C12-02",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fix met: 1B WHY is now spoken ('so anyone using A I should check its work', backed by the entry's 'matters to anyone who must trust AI agents with real tasks'). 'damaged' replaces 'wrecked' (fact check), 'OpenAI says' kept, one sentence. 40 syllables, 9.09 s, 9.5 s box: over the 8 to 9 s aim, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
+ },
+ {
+  "clip": "C11-10",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fixes met: G2, 'On robots' replaces 'In robotics' (used 10 Oct; the wording also differs from 10 Oct's 'On chatbots'); 1B WHAT, 'instead of remote control' restores the comparison. The robot's deed is said (vacuum), 'Tesla says' and 'could' kept. 40 syllables, 9.5 s box, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
+ },
+ {
+  "clip": "C10-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fix met: 1B WHO, 'the testing firm KingMed' separates the two developers (KingMed tagged, G1.2). The fact-check hedge 'in as little as a minute' is kept, the stranger's 'slide' is gone, 'could cost less' keeps the expected cost cut as a possibility. 40 syllables by the checker, 9.5 s box, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
+ },
+ {
+  "clip": "C14-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fix met word for word (the why 'a stand actors will watch' is spoken). 'says' and 'probably' kept, 'Actor' gives the position, Amazon over 100 billion dollars needs no tag. 39 syllables, 9.0 s box."
+ },
+ {
+  "clip": "bp",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "Earlier fixes met: the B2a opener 'And for the bigger picture' is there; the thing to watch now says what (T S M C's results, Thursday = 15 Oct 2026, a confirmed date from its own results page) and why (they test chip demand, the bulletin's 'first big report on AI chip demand'). 'Reports say' keeps the hedge with no outlet spoken, acronyms spaced, the not-financial-advice line kept. 42 syllables with the opening (cap 44), 10.0 s box. The warning-sign screen follows CLAUDE.md BIGGER PICTURE WEIGHT, which differs from the Drive text-free screen rule (15 Sep item 3); not failed."
+ }
+]

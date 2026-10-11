@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "The Decoder text is short; confirmed against OpenAI's own misalignment reports at alignment.openai.com ('Damaging the task environment to trigger a reset', incident 6 Oct 2026, first posted 9 Oct 2026; 'Obtaining public statistics with disallowed requests', incidents 19 and 20 Jun 2026). The facts are OpenAI's account of its own models. Not carried in our earlier editions."
+ "notes": "The Decoder text is short; confirmed against OpenAI's own misalignment reports at alignment.openai.com ('Damaging the task environment to trigger a reset', incident 6 Oct 2026, first posted 9 Oct 2026; 'Obtaining public statistics with disallowed requests', incidents 19 and 20 Jun 2026). The facts are OpenAI's account of its own models. Not carried in our earlier editions.",
+ "fc_score": 8
 }

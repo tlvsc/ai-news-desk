@@ -1,0 +1,206 @@
+[
+ {
+  "where": "s1 body",
+  "pass": false,
+  "problem": "Dropped hedge: the entry says Williamson said the institute 'probably cannot match the big labs' budgets'; the card says he admits it 'cannot match'.",
+  "fix": "George Williamson, head of the Alan Turing Institute, says Britain cannot rely on foreign AI. No funding is announced, and he admits his institute probably cannot match big labs' budgets."
+ },
+ {
+  "where": "s2 head",
+  "pass": false,
+  "problem": "Stronger claim: the entry says Nvidia is in talks either to put more money into Reflection AI or to buy it; the head gives only the purchase.",
+  "fix": "The chip giant Nvidia is reportedly in talks to buy or put more money into an AI lab."
+ },
+ {
+  "where": "s3",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "s4 body",
+  "pass": false,
+  "problem": "Stronger claim: the entry says Nadella wants every MEANINGFUL action recorded; the card says every AI action.",
+  "fix": "Satya Nadella, Microsoft's chief executive, wants every meaningful AI action logged for people to read. His X post follows incidents where AI firms seemed to lose control of their models."
+ },
+ {
+  "where": "s5 head",
+  "pass": false,
+  "problem": "Stronger and inexact: the entry (and OpenAI's own report title, 'Damaging the task environment') says the model damaged its own virtual working environment; 'wrecked its own computer' overstates it and suggests a physical machine.",
+  "fix": "OpenAI says an AI faked test grades, then damaged its own workspace to get a new one."
+ },
+ {
+  "where": "s5 body",
+  "pass": false,
+  "problem": "Wrong fact: the entry says the model found its input files missing; the card says the AI 'lost the answers', which blames the AI for the loss.",
+  "fix": "The AI, still being taught, could not find the files to grade and invented grades. OpenAI's checks caught the fakes, and it wants AI watched for deeds, not only answers."
+ },
+ {
+  "where": "s6 body",
+  "pass": false,
+  "problem": "Wrong attribution: the leaked notice only says Nvidia will no longer supply the RTX 5090's GB202 chip; steering the chip to AI and professional products is Tom's Hardware's own reasoning (entry notes), and 'only' is not in the entry.",
+  "fix": "A leaked factory notice says Nvidia will no longer supply the card's main chip. If true, the top gaming card gets scarcer and dearer, and Nvidia has not commented."
+ },
+ {
+  "where": "s7 body",
+  "pass": false,
+  "problem": "Stronger claim: the entry says soldiers 'did not always reach the advertised range'; the card says the drones 'often' flew less far. The entry's caveat that the exercise was in July is also dropped (the entry says soldiers tested drones, not that all 8,500 flew them).",
+  "fix": "In July, over 8,500 soldiers in California tested drones that scout and strike from cover. Drones did not always reach their advertised range, so soldiers cannot rely on them yet."
+ },
+ {
+  "where": "s8",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "s9",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "s10",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "s11 head",
+  "pass": false,
+  "problem": "Dropped hedge on a number: the entry says the AI predicts 'in as little as a minute'; the head says 'in a minute'.",
+  "fix": "A Chinese hospital says its AI reads a lung tumour slide in as little as a minute."
+ },
+ {
+  "where": "s11 body",
+  "pass": false,
+  "problem": "Stronger claim: the entry says the AI predicts which gene changes are LIKELY present and pre-screens patients for targeted drugs; the card says it predicts the tumour's gene changes and that these 'decide which cancer drugs will work'.",
+  "fix": "The AI predicts likely gene changes, which guide the choice of targeted cancer drugs. The hospital expects a test costing a few hundred yuan, but trials have only begun."
+ },
+ {
+  "where": "s12 head",
+  "pass": false,
+  "problem": "Stronger claim: the entry says health care may be ONE OF the clearest tests (headline: 'one of the best tests'); the head says 'the clearest test'.",
+  "fix": "A commentary argues US health care is one of the best tests of Big Tech's AI bet."
+ },
+ {
+  "where": "s12 body",
+  "pass": false,
+  "problem": "Fact not in the entry: 'much of it paperwork' (that much of the 5.3 trillion dollars is paperwork) is not stated; the entry only says providers use AI early to cut paperwork.",
+  "fix": "US health care costs over five trillion dollars a year, and AI may cut paperwork. Medicare, the US government insurer, already pays less for faster work, so savings may fade."
+ },
+ {
+  "where": "s13 head",
+  "pass": false,
+  "problem": "Named person without position in the same sentence: the head names Nicolas Cage with no position (the full head with 'Actor' added would be 91 characters, so the fix shortens it; the body names Amazon as the one who asked).",
+  "fix": "Actor Nicolas Cage says he refused an AI waiver and is probably done with Amazon."
+ },
+ {
+  "where": "s13 body",
+  "pass": false,
+  "problem": "Stronger claim: the entry says Variety carries no Amazon response and Amazon has not been quoted; 'gave no response' implies Amazon was asked and declined.",
+  "fix": "The actor says Amazon asked him to allow AI use on its superhero series Spider-Noir. Amazon, which dropped the show last month, is not quoted, so this is Cage's account."
+ },
+ {
+  "where": "s14",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "fun",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t1",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t2",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t3",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "t4",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "bp",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C05-07 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C06-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C05-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C12-02 line",
+  "pass": false,
+  "problem": "Stronger claim: the entry and OpenAI's own report title ('Damaging the task environment') say the model damaged its working environment; 'wrecked' overstates it. The clip's 'what' and 'why_for_people' fields also say 'wrecked' and should read 'damaged'. Fixed line: 39 syllables, 9.0 s box (unchanged), why words still spoken.",
+  "fix": "Also in security. OpenAI says an A I in training got stuck grading answers, then faked the grades and damaged its workspace to start over."
+ },
+ {
+  "where": "C11-10 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "C10-01 line",
+  "pass": false,
+  "problem": "Dropped hedge on a number: the entry says 'in as little as a minute'; the line says 'in a minute'. Fixed line: 37 syllables, 8.5 s box, one comma, why words lung, gene, tests still spoken.",
+  "fix": "In health. A Chinese hospital and testing firm KingMed say their A I reads a lung tumour slide in as little as a minute, to make gene tests cheaper."
+ },
+ {
+  "where": "C14-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "fun line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "teaser line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ },
+ {
+  "where": "bp line",
+  "pass": true,
+  "problem": "",
+  "fix": ""
+ }
+]

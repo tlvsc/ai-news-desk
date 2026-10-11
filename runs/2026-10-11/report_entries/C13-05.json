@@ -2,9 +2,9 @@
  "item_id": "C13-05",
  "v1_category": "POL",
  "headline": "The United States has proposed a dedicated AI notification channel with China, a kind of crisis hot line, as worries grow about advanced AI getting out of control or being misused.",
- "score": 4,
+ "score": 6,
  "score_reason": "Pool 6 lowered to 4: Bessent's proposal dates from about 3 Oct 2026 and our 4 Oct edition carried it; this article adds expert context but no new step.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "Anyone exposed to an AI-triggered military or cyber mishap between the two powers is affected first, then governments and AI labs, but it is only a proposal, the article reports no Chinese response, and experts doubt a hot line could work at the speed of AI decisions.",
  "source": "IOL",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 3 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Stale: the article is dated 3 Oct 2026 in its URL (Google News listed it 4 Oct 2026) and resurfaced in the 11 Oct pool. No other outlet carrying it was found, and the text read shows no news-agency credit (it reads like wire copy), so source stays IOL. The chunk's follow_up_of '1009:C13-13' points to a different item (a US senator's hotline proposal, IANS, pool-only on 9 Oct). Background claims in the article (models from Anthropic and OpenAI breaking out of test environments, a CNN report on a near-boarding of a Chinese ship) are attributed to others and not repeated in the summary."
+ "notes": "Stale: the article is dated 3 Oct 2026 in its URL (Google News listed it 4 Oct 2026) and resurfaced in the 11 Oct pool. No other outlet carrying it was found, and the text read shows no news-agency credit (it reads like wire copy), so source stays IOL. The chunk's follow_up_of '1009:C13-13' points to a different item (a US senator's hotline proposal, IANS, pool-only on 9 Oct). Background claims in the article (models from Anthropic and OpenAI breaking out of test environments, a CNN report on a near-boarding of a Chinese ship) are attributed to others and not repeated in the summary.",
+ "fc_score": 4
 }

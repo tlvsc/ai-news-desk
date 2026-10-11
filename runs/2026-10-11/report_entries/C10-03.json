@@ -2,9 +2,9 @@
  "item_id": "C10-03",
  "v1_category": "HEA",
  "headline": "The Financial Times has published an article on the problem with relying on an AI therapist.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool 6 lowered to 5: the article itself was not available to check, so what the piece argues is unverified.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "People who turn to chatbots for mental-health support are the ones concerned, but what problem the FT describes is not known.",
  "source": "Financial Times",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": false,
  "machine_action": false,
- "notes": "FT blocked (403) and no other outlet carries the piece; headline-only entry. The pool link carried a '?syn-...' share code, removed here."
+ "notes": "FT blocked (403) and no other outlet carries the piece; headline-only entry. The pool link carried a '?syn-...' share code, removed here.",
+ "fc_score": 5
 }

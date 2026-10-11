@@ -2,9 +2,9 @@
  "item_id": "C12-04",
  "v1_category": "SEC",
  "headline": "New Zealand's national cyber agency has backed a joint Five Eyes call for organisations to prepare for faster, AI-driven cyberattacks.",
- "score": 5,
+ "score": 7,
  "score_reason": "Pool score 7 lowered by 2: the Five Eyes statement is from 23 Jun 2026, so the warning is old; only New Zealand's response is recent.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "Organisations that run online services are told to expect more AI-speeded attacks and to plan how to contain breaches, but this is general guidance rather than a new finding, and the joint statement is more than three months old.",
  "source": "OpenGov Asia",
  "status": "CONFIRMED",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 23 Jun 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Older news re-dated: the joint statement is from 23 Jun 2026; the article is dated 11 Oct 2026 and reports New Zealand's NCSC response. The article does not list the Five Eyes countries; they are added as a plain explanation. No date is given for the NCSC guidance."
+ "notes": "Older news re-dated: the joint statement is from 23 Jun 2026; the article is dated 11 Oct 2026 and reports New Zealand's NCSC response. The article does not list the Five Eyes countries; they are added as a plain explanation. No date is given for the NCSC guidance.",
+ "fc_score": 5
 }

@@ -2,7 +2,7 @@
  "item_id": "C07-02",
  "v1_category": "MKT",
  "headline": "The Financial Times reports that borrowing to fund AI is slowing as investors grow wary of the pile of debt.",
- "score": 6,
+ "score": 7,
  "score_reason": "Pool score 7 lowered by 1: the FT article could not be opened and only one relayed figure supports it.",
  "importance_label": "MEDIUM",
  "importance_line": "What changed is that borrowing for the AI build-out is reported to be slowing as investors grow wary of the debt, which matters first to savers and pension holders who own AI-linked bonds and shares, then to lenders and to AI companies that rely on borrowing, and the doubt is that the scale and timing rest on one relayed figure for a single month.",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": false,
  "machine_action": false,
- "notes": "FT page blocked (HTTP 403); the $23 billion figure comes from one sentence in International Business Times Singapore (ibtimes.sg) and is not confirmed to come from this exact FT article. Bloomberg's credit column of the same weekend (C07-03) says AI bond sales are still rising year to date; a September dip and a year-to-date rise can both be true."
+ "notes": "FT page blocked (HTTP 403); the $23 billion figure comes from one sentence in International Business Times Singapore (ibtimes.sg) and is not confirmed to come from this exact FT article. Bloomberg's credit column of the same weekend (C07-03) says AI bond sales are still rising year to date; a September dip and a year-to-date rise can both be true.",
+ "fc_score": 6
 }

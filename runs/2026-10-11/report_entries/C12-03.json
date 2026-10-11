@@ -2,7 +2,7 @@
  "item_id": "C12-03",
  "v1_category": "SEC",
  "headline": "Britain's spy chiefs have warned the cabinet that AI could become one of the country's biggest national security threats.",
- "score": 6,
+ "score": 7,
  "score_reason": "Pool score 7 lowered by 1: the original is behind a subscription wall, the briefing date is unclear, and nothing here is a new decision or event.",
  "importance_label": "MEDIUM",
  "importance_line": "Ministers are being told that AI-enabled attacks are a leading national risk, which bears on everyone who relies on government and online services, but the briefing was a regular one and no specific threat is named.",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "The Times page returned HTTP 200 but no article text (subscription wall), so the text was read on International Business Times Singapore (https://www.ibtimes.sg/uk-spy-chiefs-warn-ai-could-become-one-britains-biggest-national-security-threats-94952), which credits The Sunday Times. The relay gives the briefing date as 8 Sep, which looks doubtful, so no date is printed. Source set to The Sunday Times; the pool lists it as The Times."
+ "notes": "The Times page returned HTTP 200 but no article text (subscription wall), so the text was read on International Business Times Singapore (https://www.ibtimes.sg/uk-spy-chiefs-warn-ai-could-become-one-britains-biggest-national-security-threats-94952), which credits The Sunday Times. The relay gives the briefing date as 8 Sep, which looks doubtful, so no date is printed. Source set to The Sunday Times; the pool lists it as The Times.",
+ "fc_score": 6
 }

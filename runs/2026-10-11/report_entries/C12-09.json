@@ -2,7 +2,7 @@
  "item_id": "C12-09",
  "v1_category": "SEC",
  "headline": "GitLab fixed a critical flaw in the AI Gateway behind its Duo Agent Platform that could let a logged-in user run commands on self-hosted servers.",
- "score": 3,
+ "score": 5,
  "score_reason": "Pool score 5 lowered by 2: the flaw was disclosed on 2 Oct 2026 and carried in our 3 Oct edition, so this 10 Oct re-report is old news.",
  "importance_label": "WATCHLIST",
  "importance_line": "Companies that run their own GitLab AI Gateway must update to stop a logged-in user from running commands on it, customers on GitLab-hosted gateways need do nothing, and the advisory does not say whether the flaw has been exploited.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 2 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Older news re-dated: the pool item is a SecNews.gr page dated 10 Oct 2026, which showed only a security check page, so its text was not read. Read The Hacker News (2 Oct 2026) on the same flaw and credited it. Our 3 Oct 2026 edition carried BleepingComputer's report of the same advisory."
+ "notes": "Older news re-dated: the pool item is a SecNews.gr page dated 10 Oct 2026, which showed only a security check page, so its text was not read. Read The Hacker News (2 Oct 2026) on the same flaw and credited it. Our 3 Oct 2026 edition carried BleepingComputer's report of the same advisory.",
+ "fc_score": 3
 }

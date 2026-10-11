@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read from the pre-fetched full text of the Yahoo Finance page, which republishes the Motley Fool article, so The Motley Fool is the source and the link is the Yahoo page where it was read. The text's stock-valuation and stock-pick passages are left out (no buy or sell advice)."
+ "notes": "Read from the pre-fetched full text of the Yahoo Finance page, which republishes the Motley Fool article, so The Motley Fool is the source and the link is the Yahoo page where it was read. The text's stock-valuation and stock-pick passages are left out (no buy or sell advice).",
+ "fc_score": 5
 }

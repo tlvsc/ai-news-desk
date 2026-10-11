@@ -1,0 +1,180 @@
+{
+ "edition": "2026-10-11",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C05-07",
+   "category": "Politics and government",
+   "label": "UK own AI",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "Nvidia talks",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s3",
+   "item": "C07-01",
+   "category": "Market, industry and finance",
+   "label": "Korea selloff",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s4",
+   "item": "C05-01",
+   "category": "Security and cyber",
+   "label": "Nadella brake",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s5",
+   "item": "C12-02",
+   "category": "Security and cyber",
+   "label": "Model sabotage",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s6",
+   "item": "C08-01",
+   "category": "Energy and infrastructure",
+   "label": "RTX 5090 axed",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s7",
+   "item": "C11-03",
+   "category": "Robotics",
+   "label": "Army drones",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s8",
+   "item": "C11-10",
+   "category": "Robotics",
+   "label": "Optimus learns",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s9",
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "OpenAI biology",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s10",
+   "item": "C13-01",
+   "category": "Ethics and law",
+   "label": "AI liability",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s11",
+   "item": "C10-01",
+   "category": "Health",
+   "label": "Lung cancer AI",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s12",
+   "item": "C10-02",
+   "category": "Health",
+   "label": "Health AI test",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s13",
+   "item": "C14-01",
+   "category": "Society and education",
+   "label": "Cage refuses",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s14",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "Tech bio films",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Game loan",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 2
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C12-03",
+   "category": "Security and cyber"
+  },
+  {
+   "id": "t2",
+   "item": "C01-06",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
+   "item": "C14-07",
+   "category": "Society and education"
+  },
+  {
+   "id": "t4",
+   "item": "C09-03",
+   "category": "Energy and infrastructure"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C05-07",
+  "C06-01",
+  "C05-01",
+  "C12-02",
+  "C11-10",
+  "C10-01",
+  "C14-01"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C07-01",
+  "C06-01",
+  "C07-03",
+  "C07-15",
+  "C05-02"
+ ]
+}

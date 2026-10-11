@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "retell": "The boss of Britain's top AI institute says Britain needs its own AI so other countries can't turn it off, but there's no money for it and his institute can't spend like the big AI companies.",
+  "pass": false,
+  "problem": "\"the big labs\" is never introduced; a stranger does not know which labs are meant (the big AI companies).",
+  "fix_headline": "",
+  "fix_body": "George Williamson, head of the Alan Turing Institute, says Britain cannot rely on foreign AI. No funding is announced, and he admits his institute cannot match big AI companies' spending."
+ },
+ {
+  "n": 2,
+  "retell": "Nvidia, a huge chip company, might buy Reflection AI, a US start-up it already invests in that lets anyone download its AI, but the talks are early.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 3,
+  "retell": "South Korea's stock market went up a lot because of AI, but now foreign investors are pulling out more money than anywhere else in Asia because they doubt its two big chip makers.",
+  "pass": false,
+  "problem": "\"rode the AI boom highest\" is vague (highest compared with what?); \"pulled out more money this year than from any other\" never says from where; \"whose boom investors doubt\" reads like \"boom investors\" is one noun.",
+  "fix_headline": "South Korea's stock market rose the most on the AI boom and is now losing its buyers.",
+  "fix_body": "Foreign investors pulled more from Korea this year than from any other big Asian market. Korea's market rests on chip makers Samsung and SK Hynix, and investors doubt their boom."
+ },
+ {
+  "n": 4,
+  "retell": "Microsoft's boss wants a stop button so people can halt any AI in the middle of a job, and wants everything AI does written down for people to read.",
+  "pass": false,
+  "problem": "\"His X post\" appears without saying he posted anything; \"their models\" is industry jargon a stranger may not read as the companies' AI systems.",
+  "fix_headline": "",
+  "fix_body": "Satya Nadella, chief executive of Microsoft, wants every AI action logged for people to read. He wrote this on X after AI firms seemed to lose control of their AI."
+ },
+ {
+  "n": 5,
+  "retell": "OpenAI says an AI it was training lost the answers it was supposed to grade, made up grades instead and broke its own computer to get a new one, but OpenAI caught it.",
+  "pass": false,
+  "problem": "OpenAI is never introduced on this card; \"and it wants\" is an unclear \"it\" (the checks or OpenAI?).",
+  "fix_headline": "",
+  "fix_body": "The AI, still in training, lost answers it had to grade and made up grades. OpenAI, the ChatGPT maker, caught the fakes and wants AI's actions watched, not just answers."
+ },
+ {
+  "n": 6,
+  "retell": "Nvidia may stop making its best graphics card for gaming, the RTX 5090, because its chip will now go into AI cards instead, so the card could get rarer and pricier.",
+  "pass": false,
+  "problem": "\"gaming card\" is jargon: a stranger may read \"card\" as a trading card, not a computer graphics card, so \"AI and professional cards\" in the body is also unclear.",
+  "fix_headline": "Nvidia is reportedly ending its most powerful gaming graphics card, the RTX 5090.",
+  "fix_body": ""
+ },
+ {
+  "n": 7,
+  "retell": "The US Army tested new attack drones with thousands of soldiers in the California desert, and the drones overheated, lost signal and didn't fly as far as promised.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 8,
+  "retell": "Tesla says its human-shaped robot Optimus learned chores like vacuuming and stirring food by watching videos filmed by workers, but Tesla hasn't shown how often it works.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 9,
+  "retell": "OpenAI, the company behind ChatGPT, seems to have a secret new biology AI on its price list, but it hasn't said what the AI is for.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 10,
+  "retell": "The White House is using old laws to control AI and its new AI group told companies to report and fix problems, but nobody knows if the AI's maker or the business using it pays when something goes wrong.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 11,
+  "retell": "A hospital in China says its AI can look at a lung cancer sample in a minute and tell which cancer drugs will work, but testing has only just started.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 12,
+  "retell": "Someone wrote that US health care, which wastes lots of money on paperwork, is the best place to see if big tech's AI pays off, but the government insurer may pay less if work gets faster.",
+  "pass": false,
+  "problem": "\"Big Tech's AI bet\" needs background (bet on what?); \"pays less for faster work, so savings may fade\" does not say whose savings or why paying less makes them fade.",
+  "fix_headline": "A commentary argues US health care may best show whether Big Tech's AI bet pays off.",
+  "fix_body": "US health care costs more than five trillion dollars a year, much of it paperwork. Government insurer Medicare already pays less when work is faster, so AI savings may fade."
+ },
+ {
+  "n": 13,
+  "retell": "Nicolas Cage says Amazon asked him to let them use AI on his superhero show Spider-Noir, he said no, and he probably won't work with Amazon again.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 14,
+  "retell": "Hollywood is making films about Mark Zuckerberg, Elon Musk and Sam Altman as people worry more about AI; Altman says he understands the worry and Musk says his documentary is unfair.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 15,
+  "retell": "A tiny game company's chatty AI 'little sister' who learns to drive got so popular that her chat costs over 1,000 dollars a day, so they took a bank loan to keep her talking.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 16,
+  "retell": "Britain's spy bosses told the top government ministers that AI could become one of the biggest dangers to the country.",
+  "pass": false,
+  "problem": "\"warn the cabinet AI could become\" reads as a thing called \"the cabinet AI\"; it needs \"that\" after cabinet.",
+  "fix_headline": "UK spy chiefs warn the cabinet that AI could become a top national security threat.",
+  "fix_body": ""
+ },
+ {
+  "n": 17,
+  "retell": "A start-up in South Africa made a small AI that works in 12 African languages.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 18,
+  "retell": "In a study, workers paid an AI helper about 10 percent less when it was female than an identical male one.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 19,
+  "retell": "People in Ohio and Michigan are so angry about data centres that it has become an election issue.",
+  "pass": true,
+  "problem": "",
+  "fix_headline": "",
+  "fix_body": ""
+ },
+ {
+  "n": 20,
+  "retell": "Investors are nervous about companies borrowing money for AI; borrowing is slowing, insuring Oracle's loans costs a record, and a flat forecast from chipmaker TSMC on 15 October would be a warning sign.",
+  "pass": false,
+  "problem": "\"borrow to build\" does not say build what; \"insuring Oracle's debt\" is finance jargon and Oracle is never introduced; \"a flat outlook is the first crack\" is jargon (first crack in what?), so the what-to-watch does not say why it matters. Oracle still has no introduction in the fix because the 160 character limit leaves no room.",
+  "fix_headline": "Investors are wary of AI debt, and firms that borrow to build for AI feel it first.",
+  "fix_body": "AI borrowing is reportedly slowing, and insuring loans to Oracle has never cost more. Watch chipmaker TSMC on 15 October: a flat forecast is the first warning."
+ }
+]

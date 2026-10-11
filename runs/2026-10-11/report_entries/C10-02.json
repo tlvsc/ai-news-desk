@@ -2,9 +2,9 @@
  "item_id": "C10-02",
  "v1_category": "HEA",
  "headline": "A Fortune commentary argues that healthcare is one of the best tests of whether Big Tech's huge spending on AI will pay off.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool 6 lowered to 5: it is an opinion column, and its headline says healthcare 'will decide' what the text only says healthcare 'may be' one of the clearest places to find out.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "Hospitals, clinics and in time patients and staff would feel any change in how care is paid for and how much paperwork clinicians do, but this is an argument, not a measurement, and the piece offers no data yet showing AI is lowering the cost of care.",
  "source": "Fortune",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read Fortune in full. Opinion column; the author is not named in the text read. Facts and figures are the column's own and not independently checked."
+ "notes": "Read Fortune in full. Opinion column; the author is not named in the text read. Facts and figures are the column's own and not independently checked.",
+ "fc_score": 5
 }

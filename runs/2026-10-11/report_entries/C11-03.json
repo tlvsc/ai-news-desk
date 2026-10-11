@@ -2,9 +2,9 @@
  "item_id": "C11-03",
  "v1_category": "ROB",
  "headline": "A large US Army exercise in the California desert showed that soldiers still struggle to use combat drones in the field, according to the Wall Street Journal.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool score 6 lowered one point: the exercise took place in July and we have the Journal's findings only through a second-hand relay.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "It shows the US Army still has to fix range, heat, weight and jamming problems before ordinary soldiers can rely on combat drones, which matters to troops and defence planners, though the exercise was in July and the details come second-hand.",
  "source": "Wall Street Journal",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": true,
- "notes": "URL is the WSJ original (behind a bot wall). The text was read on Fakti.bg's English relay (https://fakti.bg/en/technozone/1088630-wsj-exercises-reveal-us-problems-with-combat-drones, 10 Oct 2026). Underlying exercise was in July 2026 (no day given), so a dated FOLLOW-UP label is not possible; the WSJ assessment itself is new on 10 Oct 2026, hence NEW. Names and figures were not checked against the Journal original."
+ "notes": "URL is the WSJ original (behind a bot wall). The text was read on Fakti.bg's English relay (https://fakti.bg/en/technozone/1088630-wsj-exercises-reveal-us-problems-with-combat-drones, 10 Oct 2026). Underlying exercise was in July 2026 (no day given), so a dated FOLLOW-UP label is not possible; the WSJ assessment itself is new on 10 Oct 2026, hence NEW. Names and figures were not checked against the Journal original.",
+ "fc_score": 5
 }

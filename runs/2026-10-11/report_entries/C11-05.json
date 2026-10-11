@@ -2,7 +2,7 @@
  "item_id": "C11-05",
  "v1_category": "ROB",
  "headline": "KAIST, a South Korean science and technology university, will present its plan for physical AI at an event on 13 October, where its president is due to demonstrate a wearable robot.",
- "score": 4,
+ "score": 5,
  "score_reason": "Pool score 5 lowered one point: the source headline speaks as if the vision were already declared, but the event is only scheduled for 13 October and nothing has been shown.",
  "importance_label": "WATCHLIST",
  "importance_line": "It signals that KAIST, a South Korean science university, wants physical AI, meaning AI that senses and moves in the real world, to reach health care, defence and logistics as well as factories, but this is an announcement of a planned event, so nothing has been shown and the vision is the university's own.",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read from the pre-fetched full text. The expansion of KAIST in the summary is our identification from general knowledge, not from the article. Event is in the future (13 Oct 2026): machine_action is false because no robot has yet been shown doing anything. Pool score 5 lowered to 4 (see score_reason)."
+ "notes": "Read from the pre-fetched full text. The expansion of KAIST in the summary is our identification from general knowledge, not from the article. Event is in the future (13 Oct 2026): machine_action is false because no robot has yet been shown doing anything. Pool score 5 lowered to 4 (see score_reason).",
+ "fc_score": 4
 }

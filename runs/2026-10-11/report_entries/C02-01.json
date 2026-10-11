@@ -2,9 +2,9 @@
  "item_id": "C02-01",
  "v1_category": "MOD",
  "headline": "AI could change the prices shoppers pay for groceries and fast food such as a Big Mac, CNBC reports.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool score lowered one point: only the headline could be checked, so the claim stays unverified and is worded as a possibility.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "Shoppers and fast-food customers may see AI play a larger part in setting prices, but CNBC presents this only as a possibility, and which companies, how and when are not known.",
  "source": "CNBC",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": false,
  "machine_action": false,
- "notes": "Headline only: CNBC page blocked (HTTP 403) and no other outlet carries this article. Pool score 6 lowered to 5 as unverified. Wording kept to the headline's own hedge ('may')."
+ "notes": "Headline only: CNBC page blocked (HTTP 403) and no other outlet carries this article. Pool score 6 lowered to 5 as unverified. Wording kept to the headline's own hedge ('may').",
+ "fc_score": 5
 }

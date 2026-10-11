@@ -1,0 +1,140 @@
+[
+ {
+  "where": "s1",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fix met ('probably cannot match'); the stranger's problem is gone ('AI giants'' replaces the unintroduced 'big labs'); Williamson has position and organisation. Head 83 chars, body 188, 15+15 words."
+ },
+ {
+  "where": "s2",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fix met: head now says 'buy or put more money into', as the entry does; 'reportedly' kept. Head 85 chars."
+ },
+ {
+  "where": "s3",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Matches the entry: a star of the AI trade, the most foreign money withdrawn in Asia, Samsung and SK Hynix over half the index, doubt over how long the chip boom lasts. The stranger's problems are gone (vague 'highest', 'from where', 'boom investors'). Head 82, body 184, 15+15 words."
+ },
+ {
+  "where": "s4 head",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Unchanged meaning, 79 chars."
+ },
+ {
+  "where": "s4 body",
+  "pass": false,
+  "problem": "Stronger claim than the entry: 'after AI firms seemed to lose control of their AI' drops 'incidents'. The entry says the post follows AI companies' acknowledgement of more INCIDENTS in which they seemed to lose control of their models; the card now reads as a general loss of control. The other fixes are met ('meaningful', 'He wrote this on X', position and organisation).",
+  "fix": "Microsoft chief executive Satya Nadella wants every meaningful AI action logged for people to read. He posted on X after AI firms admitted incidents where they seemed to lose control."
+ },
+ {
+  "where": "s5",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fixes met: 'damaged its own workspace' (not 'wrecked its own computer'), 'found its grading files missing' (not 'lost the answers'). Stranger fixes met: OpenAI is introduced as the ChatGPT maker, and no unclear 'it'. Head 85, body 173."
+ },
+ {
+  "where": "s6",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Attribution fixed: the notice says only that Nvidia will no longer supply the card's main chip (Tom's Hardware's AI-chip reasoning removed). 'graphics card' tells a stranger which kind of card. 'If true' and 'has not commented' kept. Head 81, body 157."
+ },
+ {
+  "where": "s7",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fixes met: 'In July' is back, 'sometimes fell short' = 'did not always reach', 'tested' not 'flew'. 'They' points to the drones ('their advertised range'). Body 180, 15+15 words, one number."
+ },
+ {
+  "where": "s11",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fixes met: 'in as little as a minute', 'predicts likely gene changes', 'guide the choice' (not 'decide'). The stranger's 'slide' is now 'sample'. The cost is the hospital's expectation and 'trials have only begun' is kept. Head 83, body 169."
+ },
+ {
+  "where": "s12",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fixes met: 'may show whether' (no 'the clearest'); 'much of it paperwork' removed, and 'AI could cut paperwork' matches the entry. Stranger fixes met: 'AI spending' replaces 'AI bet', and it now says whose savings (hospitals'). Head 84, body 176."
+ },
+ {
+  "where": "s13",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fixes met: 'Actor' added in the head; 'is not quoted' replaces 'gave no response'; it stays Cage's account. Head 81, body 169."
+ },
+ {
+  "where": "t1",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Stranger fix met ('that' after cabinet); matches the entry's 'one of the country's biggest national security threats'. 90 chars (limit 90)."
+ },
+ {
+  "where": "bp head",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "'borrow to build for AI' now says what is built; 83 chars."
+ },
+ {
+  "where": "bp body",
+  "pass": false,
+  "problem": "Three problems for a stranger. (1) The comma is gone, so the first reading trips: 'AI borrowing is reportedly slowing and insuring AI builder Oracle's debt...' reads as borrowing that is slowing and insuring. (2) 'insuring ... debt sets a record' no longer says that the COST of insuring is at a record (bulletin: 'its debt-insurance cost is at a record'), so the reader cannot tell what the record is. (3) 'a flat outlook is a first warning' still does not say a warning of what: the stranger's earlier 'first crack in what?' is only half fixed. The facts themselves match the bulletin.",
+  "fix": "AI borrowing is reportedly slowing, and insuring AI builder Oracle's debt has never cost more. Watch chipmaker TSMC on 15 October for a test of AI chip demand."
+ },
+ {
+  "where": "C06-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "'reportedly' kept; 'buy or fund' = the entry's 'invest further or buy'; 'could end up' is a possibility. The stranger's problems are gone: 'whose' points to Reflection, N-vidia is named again instead of 'the giant', 'fund' replaces 'back'. Retell: Nvidia may buy or fund Reflection, so Reflection's free AI could belong to Nvidia."
+ },
+ {
+  "where": "C12-02 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "'damaged' replaces 'wrecked' in the line, 'what' and 'why_for_people'. 'faked grades' says plainly that the AI cheated, and the why is spoken, backed by the entry and by OpenAI's call to watch what a model does. Retell: OpenAI says an AI it was training faked grades and broke its workspace when stuck, so people should check AI's work."
+ },
+ {
+  "where": "C11-10 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "'Tesla says' kept; 'instead of remote control' matches the entry's 'without a person steering each move'; 'could come sooner' is hedged as in the entry ('if it holds')."
+ },
+ {
+  "where": "C10-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "Fact-check fix met ('in as little as a minute'). Stranger fix met ('slide' gone, 'the gene tests' no longer used before being introduced). 'say' and 'could cost less' keep the developers' claim and the expected cost cut as a claim."
+ },
+ {
+  "where": "C14-01 line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "'says' and 'probably' kept; 'Actor Nicolas Cage' gives his position; the why matches the entry's 'matters to performers first'."
+ },
+ {
+  "where": "bp line",
+  "pass": true,
+  "problem": "",
+  "fix": "",
+  "checked": "42 syllables with 'And for the bigger picture:' (cap 44). 'Reports say' keeps the FT hedge. Thursday = 15 Oct 2026 (the edition is Sunday 11 Oct): TSMC's third-quarter results, confirmed on its own results page; 'test chip demand' = the bulletin's 'first big report on AI chip demand'. The stranger's problems are gone ('is reported slowing', 'pay more first', what happens on Thursday)."
+ }
+]

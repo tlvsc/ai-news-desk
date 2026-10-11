@@ -2,9 +2,9 @@
  "item_id": "C12-08",
  "v1_category": "SEC",
  "headline": "The Wall Street Journal reports that OpenAI has made progress in stopping ChatGPT from fuelling delusions in its users.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool score 6 lowered by 1: the article could not be read and no other outlet carries it, so its content is unverified.",
- "importance_label": "WATCHLIST",
+ "importance_label": "MEDIUM",
  "importance_line": "ChatGPT users prone to delusional thinking could be better protected if the progress holds, but how much progress was made, and how it was measured, is not yet clear.",
  "source": "Wall Street Journal",
  "status": "REPORTED",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": false,
  "machine_action": false,
- "notes": "WSJ page returned HTTP 401 (subscription wall); two Google News searches found no other outlet carrying the story. Entry restates the title with attribution only."
+ "notes": "WSJ page returned HTTP 401 (subscription wall); two Google News searches found no other outlet carrying the story. Entry restates the title with attribution only.",
+ "fc_score": 5
 }

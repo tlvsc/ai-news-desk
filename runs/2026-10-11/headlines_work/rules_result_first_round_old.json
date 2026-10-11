@@ -1,0 +1,100 @@
+[
+ {
+  "clip": "C05-07",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C06-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G2",
+    "why": "Already reported by check_headlines_rules.py: 'In finance' was used on 10 Oct. The main session is replacing it in the rewrite. No other rule problem found."
+   }
+  ],
+  "fix": "In business. Chip giant N-vidia is reportedly in talks to buy or back A I firm Reflection, and the A I it gives out free could land in the giant's hands."
+ },
+ {
+  "clip": "C05-01",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "C12-02",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY",
+    "why": "The line says what happened but never why it matters to people. The why_for_people ('a caution for anyone trusting A I with real work') is not spoken, so a stranger cannot repeat a why. The entry supports one: it 'matters to anyone who must trust AI agents with real tasks', and OpenAI says monitoring must cover what a model does."
+   }
+  ],
+  "fix": "Also in security. OpenAI says an A I in training faked its grades and wrecked its workspace when stuck, a warning to check A I's work."
+ },
+ {
+  "clip": "C11-10",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "G2",
+    "why": "Already reported by check_headlines_rules.py: 'In robotics' was used on 10 Oct. The main session is replacing it in the rewrite."
+   },
+   {
+    "rule": "1B WHAT",
+    "why": "The line drops the comparison that makes this news: the entry headline says Optimus learns from video 'instead of being remotely steered'. The why ('sooner') depends on that comparison."
+   }
+  ],
+  "fix": "Now to robots. Tesla says its Optimus robot learns chores like vacuuming from videos of people, not remote control, which could bring home robots sooner."
+ },
+ {
+  "clip": "C10-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHO",
+    "why": "Heard once, 'A Chinese hospital and testing firm KingMed' can sound like one company, a 'hospital and testing firm' called KingMed. The entry has two developers. Adding 'the' separates them."
+   }
+  ],
+  "fix": "In health. A Chinese hospital and the testing firm KingMed say their A I reads lung tumour slides for gene changes in a minute, to make gene tests cheaper."
+ },
+ {
+  "clip": "C14-01",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "1B WHY",
+    "why": "The only consequence spoken is about Cage and Amazon ('probably won't work with them again'), a fact about the two parties, not an effect on people. The entry's why (it matters to performers asked to consent to A I use; why_for_people: 'a public no that other performers ... will watch') is not said. The show name Spider-Noir drops out of the fix to make room."
+   }
+  ],
+  "fix": "In entertainment. Actor Nicolas Cage says he refused A I on his Amazon show and probably won't work with them again, a stand actors will watch."
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": ""
+ },
+ {
+  "clip": "bp",
+  "pass": false,
+  "broken": [
+   {
+    "rule": "B2a",
+    "why": "Already reported by check_headlines_rules.py: the 'And for the bigger picture' opener is missing. The main session is fixing it in the rewrite."
+   },
+   {
+    "rule": "CLAUDE.md rule 17 and BIGGER PICTURE WEIGHT; 1B WHY",
+    "why": "'Watch chipmaker T S M C on Thursday' says neither what happens on Thursday nor why it matters, so it is not a meaningful thing to watch. Both reasons were dropped: the card's 'a flat outlook is the first crack' and the bulletin's 'the first big report on AI chip demand this season' (15 Oct, a Thursday). Under CLAUDE.md BIGGER PICTURE MODEL, the Bigger Picture author writes this line, so the fix is only a proposal for that author. 'Borrowers' replaces 'the firms that borrow to build ... first' so that the line stays within 44 syllables."
+   }
+  ],
+  "fix": "And for the bigger picture. A I borrowing is reported slowing, and borrowers pay more. Watch T S M C on Thursday for chip demand. This is not financial advice."
+ }
+]

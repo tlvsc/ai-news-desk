@@ -1,0 +1,85 @@
+{
+ "locked": [],
+ "note": "ONE rewrite round (Part B step 3a). Apply or improve every suggested fix; each fix must keep every hedge, add no fact not in the entry, stay inside the limits (card head at most 85 characters, body exactly two sentences at most 230 characters and 15 words each, Headlines clip 35 to 40 syllables and never over 44). Do NOT touch the passing items. The Bigger Picture card and clip (key bp) are being fixed by the Bigger Picture author in parallel: do not change the bp entries.",
+ "fail": {
+  "C06-01": [
+   "STRANGER: Unclear 'it': in 'the A I it gives out free' the listener cannot tell at once whether 'it' is Nvidia or Reflection, and 'the giant's hands' makes them work out who is who a second time; 'back' (meaning put money in) is easy to miss when heard once. | suggested: In finance. Chip giant N-vidia is reportedly in talks to buy or fund A I firm Reflection, whose free A I could end up in N-vidia's hands.",
+   "RULES [{'rule': 'G2', 'why': \"Already reported by check_headlines_rules.py: 'In finance' was used on 10 Oct. The main session is replacing it in the rewrite. No other rule problem found.\"}] | suggested: In business. Chip giant N-vidia is reportedly in talks to buy or back A I firm Reflection, and the A I it gives out free could land in the giant's hands."
+  ],
+  "C12-02": [
+   "STRANGER: 'got stuck grading answers' is unclear when heard once: was the AI marking answers or being marked? The line also never says plainly that the AI cheated, so why it matters to people is left to guess. | suggested: Also in security. OpenAI says an A I in training cheated when stuck, faking grades and wrecking its workspace to start over.",
+   "RULES [{'rule': '1B WHY', 'why': \"The line says what happened but never why it matters to people. The why_for_people ('a caution for anyone trusting A I with real work') is not spoken, so a stranger cannot repeat a why. The entry supports one: it 'matters to anyone who must trust AI agents with real tasks', and OpenAI says monitoring must cover what a model does.\"}] | suggested: Also in security. OpenAI says an A I in training faked its grades and wrecked its workspace when stuck, a warning to check A I's work.",
+   "FACT CHECK (C12-02 line): Stronger claim: the entry and OpenAI's own report title ('Damaging the task environment') say the model damaged its working environment; 'wrecked' overstates it. The clip's 'what' and 'why_for_people' fields also say 'wrecked' and should read 'damaged'. Fixed line: 39 syllables, 9.0 s box (unchanged), why words still spoken. | suggested: Also in security. OpenAI says an A I in training got stuck grading answers, then faked the grades and damaged its workspace to start over."
+  ],
+  "C10-01": [
+   "STRANGER: 'slide' is a lab word: a listener hears a playground or presentation slide, and 'reads a slide for' is lab jargon; 'the gene tests' are called 'the' but were never introduced. | suggested: In health. A Chinese hospital and testing firm KingMed say their A I checks a lung tumour sample for gene changes in a minute, to make gene tests cheaper.",
+   "RULES [{'rule': '1B WHO', 'why': \"Heard once, 'A Chinese hospital and testing firm KingMed' can sound like one company, a 'hospital and testing firm' called KingMed. The entry has two developers. Adding 'the' separates them.\"}] | suggested: In health. A Chinese hospital and the testing firm KingMed say their A I reads lung tumour slides for gene changes in a minute, to make gene tests cheaper.",
+   "FACT CHECK (C10-01 line): Dropped hedge on a number: the entry says 'in as little as a minute'; the line says 'in a minute'. Fixed line: 37 syllables, 8.5 s box, one comma, why words lung, gene, tests still spoken. | suggested: In health. A Chinese hospital and testing firm KingMed say their A I reads a lung tumour slide in as little as a minute, to make gene tests cheaper."
+  ],
+  "C11-10": [
+   "RULES [{'rule': 'G2', 'why': \"Already reported by check_headlines_rules.py: 'In robotics' was used on 10 Oct. The main session is replacing it in the rewrite.\"}, {'rule': '1B WHAT', 'why': \"The line drops the comparison that makes this news: the entry headline says Optimus learns from video 'instead of being remotely steered'. The why ('sooner') depends on that comparison.\"}] | suggested: Now to robots. Tesla says its Optimus robot learns chores like vacuuming from videos of people, not remote control, which could bring home robots sooner."
+  ],
+  "C14-01": [
+   "RULES [{'rule': '1B WHY', 'why': \"The only consequence spoken is about Cage and Amazon ('probably won't work with them again'), a fact about the two parties, not an effect on people. The entry's why (it matters to performers asked to consent to A I use; why_for_people: 'a public no that other performers ... will watch') is not said. The show name Spider-Noir drops out of the fix to make room.\"}] | suggested: In entertainment. Actor Nicolas Cage says he refused A I on his Amazon show and probably won't work with them again, a stand actors will watch."
+  ]
+ },
+ "cards_fail": {
+  "s1": [
+   "STRANGER: \"the big labs\" is never introduced; a stranger does not know which labs are meant (the big AI companies). | suggested body: George Williamson, head of the Alan Turing Institute, says Britain cannot rely on foreign AI. No funding is announced, and he admits his institute cannot match big AI companies' spending.",
+   "FACT CHECK (s1 body): Dropped hedge: the entry says Williamson said the institute 'probably cannot match the big labs' budgets'; the card says he admits it 'cannot match'. | suggested: George Williamson, head of the Alan Turing Institute, says Britain cannot rely on foreign AI. No funding is announced, and he admits his institute probably cannot match big labs' budgets."
+  ],
+  "s3": [
+   "STRANGER: \"rode the AI boom highest\" is vague (highest compared with what?); \"pulled out more money this year than from any other\" never says from where; \"whose boom investors doubt\" reads like \"boom investors\" is one noun. | suggested head: South Korea's stock market rose the most on the AI boom and is now losing its buyers. | suggested body: Foreign investors pulled more from Korea this year than from any other big Asian market. Korea's market rests on chip makers Samsung and SK Hynix, and investors doubt their boom."
+  ],
+  "s4": [
+   "STRANGER: \"His X post\" appears without saying he posted anything; \"their models\" is industry jargon a stranger may not read as the companies' AI systems. | suggested body: Satya Nadella, chief executive of Microsoft, wants every AI action logged for people to read. He wrote this on X after AI firms seemed to lose control of their AI.",
+   "FACT CHECK (s4 body): Stronger claim: the entry says Nadella wants every MEANINGFUL action recorded; the card says every AI action. | suggested: Satya Nadella, Microsoft's chief executive, wants every meaningful AI action logged for people to read. His X post follows incidents where AI firms seemed to lose control of their models."
+  ],
+  "s5": [
+   "STRANGER: OpenAI is never introduced on this card; \"and it wants\" is an unclear \"it\" (the checks or OpenAI?). | suggested body: The AI, still in training, lost answers it had to grade and made up grades. OpenAI, the ChatGPT maker, caught the fakes and wants AI's actions watched, not just answers.",
+   "FACT CHECK (s5 head): Stronger and inexact: the entry (and OpenAI's own report title, 'Damaging the task environment') says the model damaged its own virtual working environment; 'wrecked its own computer' overstates it and suggests a physical machine. | suggested: OpenAI says an AI faked test grades, then damaged its own workspace to get a new one.",
+   "FACT CHECK (s5 body): Wrong fact: the entry says the model found its input files missing; the card says the AI 'lost the answers', which blames the AI for the loss. | suggested: The AI, still being taught, could not find the files to grade and invented grades. OpenAI's checks caught the fakes, and it wants AI watched for deeds, not only answers."
+  ],
+  "s6": [
+   "STRANGER: \"gaming card\" is jargon: a stranger may read \"card\" as a trading card, not a computer graphics card, so \"AI and professional cards\" in the body is also unclear. | suggested head: Nvidia is reportedly ending its most powerful gaming graphics card, the RTX 5090.",
+   "FACT CHECK (s6 body): Wrong attribution: the leaked notice only says Nvidia will no longer supply the RTX 5090's GB202 chip; steering the chip to AI and professional products is Tom's Hardware's own reasoning (entry notes), and 'only' is not in the entry. | suggested: A leaked factory notice says Nvidia will no longer supply the card's main chip. If true, the top gaming card gets scarcer and dearer, and Nvidia has not commented."
+  ],
+  "s12": [
+   "STRANGER: \"Big Tech's AI bet\" needs background (bet on what?); \"pays less for faster work, so savings may fade\" does not say whose savings or why paying less makes them fade. | suggested head: A commentary argues US health care may best show whether Big Tech's AI bet pays off. | suggested body: US health care costs more than five trillion dollars a year, much of it paperwork. Government insurer Medicare already pays less when work is faster, so AI savings may fade.",
+   "FACT CHECK (s12 head): Stronger claim: the entry says health care may be ONE OF the clearest tests (headline: 'one of the best tests'); the head says 'the clearest test'. | suggested: A commentary argues US health care is one of the best tests of Big Tech's AI bet.",
+   "FACT CHECK (s12 body): Fact not in the entry: 'much of it paperwork' (that much of the 5.3 trillion dollars is paperwork) is not stated; the entry only says providers use AI early to cut paperwork. | suggested: US health care costs over five trillion dollars a year, and AI may cut paperwork. Medicare, the US government insurer, already pays less for faster work, so savings may fade."
+  ],
+  "t1": [
+   "STRANGER: \"warn the cabinet AI could become\" reads as a thing called \"the cabinet AI\"; it needs \"that\" after cabinet. | suggested head: UK spy chiefs warn the cabinet that AI could become a top national security threat."
+  ],
+  "s2": [
+   "FACT CHECK (s2 head): Stronger claim: the entry says Nvidia is in talks either to put more money into Reflection AI or to buy it; the head gives only the purchase. | suggested: The chip giant Nvidia is reportedly in talks to buy or put more money into an AI lab."
+  ],
+  "s7": [
+   "FACT CHECK (s7 body): Stronger claim: the entry says soldiers 'did not always reach the advertised range'; the card says the drones 'often' flew less far. The entry's caveat that the exercise was in July is also dropped (the entry says soldiers tested drones, not that all 8,500 flew them). | suggested: In July, over 8,500 soldiers in California tested drones that scout and strike from cover. Drones did not always reach their advertised range, so soldiers cannot rely on them yet."
+  ],
+  "s11": [
+   "FACT CHECK (s11 head): Dropped hedge on a number: the entry says the AI predicts 'in as little as a minute'; the head says 'in a minute'. | suggested: A Chinese hospital says its AI reads a lung tumour slide in as little as a minute.",
+   "FACT CHECK (s11 body): Stronger claim: the entry says the AI predicts which gene changes are LIKELY present and pre-screens patients for targeted drugs; the card says it predicts the tumour's gene changes and that these 'decide which cancer drugs will work'. | suggested: The AI predicts likely gene changes, which guide the choice of targeted cancer drugs. The hospital expects a test costing a few hundred yuan, but trials have only begun."
+  ],
+  "s13": [
+   "FACT CHECK (s13 head): Named person without position in the same sentence: the head names Nicolas Cage with no position (the full head with 'Actor' added would be 91 characters, so the fix shortens it; the body names Amazon as the one who asked). | suggested: Actor Nicolas Cage says he refused an AI waiver and is probably done with Amazon.",
+   "FACT CHECK (s13 body): Stronger claim: the entry says Variety carries no Amazon response and Amazon has not been quoted; 'gave no response' implies Amazon was asked and declined. | suggested: The actor says Amazon asked him to allow AI use on its superhero series Spider-Noir. Amazon, which dropped the show last month, is not quoted, so this is Cage's account."
+  ]
+ },
+ "result_files": {
+  "cards_stranger": "cards_work/stranger_result.json",
+  "cards_factcheck": "cards_work/factcheck_result.json",
+  "headlines_stranger": "headlines_work/stranger_result.json",
+  "headlines_rules": "headlines_work/rules_result.json"
+ },
+ "bp_problems_for_the_author": {
+  "card": [
+   "STRANGER: \"borrow to build\" does not say build what; \"insuring Oracle's debt\" is finance jargon and Oracle is never introduced; \"a flat outlook is the first crack\" is jargon (first crack in what?), so the what-to-watch does not say why it matters. Oracle still has no introduction in the fix because the 160 character limit leaves no room. | suggested head: Investors are wary of AI debt, and firms that borrow to build for AI feel it first. | suggested body: AI borrowing is reportedly slowing, and insuring loans to Oracle has never cost more. Watch chipmaker TSMC on 15 October: a flat forecast is the first warning."
+  ],
+  "clip": [
+   "STRANGER: 'is reported slowing' is broken grammar; 'the firms that borrow to build pay more first' is finance shorthand (pay more for what, first before whom?); 'Watch chipmaker T S M C on Thursday' is a what-to-watch that never says what happens that day or why it matters to people. The fix needs the Thursday event from the source; I did not add it. Length: the fix is 48 syllables without the opening; with 'And for the bigger picture:' (7) inside 44, the rewrite must cut about 11 more. | suggested: A I borrowing is reportedly slowing, and firms that borrow to build A I will be first to pay more. Watch chipmaker T S M C's [Thursday event, from the source] on Thursday. This is not financial advice.",
+   "RULES [{'rule': 'B2a', 'why': \"Already reported by check_headlines_rules.py: the 'And for the bigger picture' opener is missing. The main session is fixing it in the rewrite.\"}, {'rule': 'CLAUDE.md rule 17 and BIGGER PICTURE WEIGHT; 1B WHY', 'why': \"'Watch chipmaker T S M C on Thursday' says neither what happens on Thursday nor why it matters, so it is not a meaningful thing to watch. Both reasons were dropped: the card's 'a flat outlook is the first crack' and the bulletin's 'the first big report on AI chip demand this season' (15 Oct, a Thursday). Under CLAUDE.md BIGGER PICTURE MODEL, the Bigger Picture author writes this line, so the fix is only a proposal for that author. 'Borrowers' replaces 'the firms that borrow to build ... first' so that the line stays within 44 syllables.\"}] | suggested: And for the bigger picture. A I borrowing is reported slowing, and borrowers pay more. Watch T S M C on Thursday for chip demand. This is not financial advice."
+  ]
+ }
+}

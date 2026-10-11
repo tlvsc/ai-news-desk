@@ -2,7 +2,7 @@
  "item_id": "C10-01",
  "v1_category": "HEA",
  "headline": "A Chinese hospital and a testing company have released an AI model that reads lung tumour slides to predict gene mutations, aiming to make cancer genetic testing cheaper.",
- "score": 6,
+ "score": 7,
  "score_reason": "Pool 7 lowered to 6: the headline says the cost is cut, but the article only says it is expected to fall, and the accuracy and cost figures come from the developers.",
  "importance_label": "MEDIUM",
  "importance_line": "Lung cancer patients in China could get the gene test that guides targeted drugs for a few hundred yuan if the cost claim holds, but the accuracy and cost figures come from the developers and the validation at 50 medical institutions has only just started.",
@@ -13,5 +13,6 @@
  "freshness": "NEW",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read China Daily in full. Cost cut is a stated expectation; accuracy figure is 'up to 90 percent' per KingMed's AI lead. Planned rollout to over 500 institutions is in the article but left out of the summary."
+ "notes": "Read China Daily in full. Cost cut is a stated expectation; accuracy figure is 'up to 90 percent' per KingMed's AI lead. Planned rollout to over 500 institutions is in the article but left out of the summary.",
+ "fc_score": 6
 }
