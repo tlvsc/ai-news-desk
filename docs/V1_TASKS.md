@@ -697,3 +697,8 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
      Headlines, each with its own supportive files, and says it supersedes all older routing. ChatGPT's V1 run of 11 Oct follows it exactly. Our skill
      (delivery_manifest.py, CLAUDE.md rule 0 "reports, cards, Headlines") still uses the older layout with one "reports" folder. Clash put to Rafi (rule 8a).
      Prevention: before saying which of two layouts or rules is right, read the governing Drive file (rule 0: Drive holds the structure files).
+212. (11 Oct, Rafi: "fix this as needed") DELIVERY NOW FOLLOWS THE DRIVE STORAGE STANDARD: delivery_manifest.py and the Drive delivery brief route to the
+     five product folders (pool of items, Full Report, Bulletin, cards, Headlines, each with supportive files); no "reports" folder from 11 Oct. Part A step 0
+     and step 9b read the old "reports" folder only for days up to 10 Oct. The md glob no longer picks up _old copies. Tested on the 10 Oct folder: 36 files
+     routed (manifest only, no upload). Still open: CLAUDE.md rule 0's folder words (how to point to the Drive file, Rafi to choose) and the scan label in
+     file names (Rafi 11 Oct: both runs in the same folders, each file name says which scan made it).

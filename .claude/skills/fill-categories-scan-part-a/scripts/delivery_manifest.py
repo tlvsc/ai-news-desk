@@ -3,10 +3,11 @@
     python delivery_manifest.py --workdir W [--part A|B|all]         # prints the list and writes W/products/delivery_manifest.json
     python delivery_manifest.py --workdir W --check W/products/drive_delivery.json   # compares the agent's result with the list
 
-Destinations (AI News Desk — STORAGE & FILE ROUTING STANDARD): daily_data_generated/<edition>/reports (the two PDFs and the two
-markdown files), reports/supportive files (pool CSV and JSON, daily-pool.md, the two PDF input JSON files), cards (the PNGs and
-the contact sheet), cards/supportive files (cards_copy, edition and lock JSON), Headlines/supportive files (the ComfyUI JSON,
-the pack, the scripts).
+Destinations (Drive "AI News Desk — STORAGE & FILE ROUTING STANDARD", DAILY STORAGE, changed 9 Oct 2026; Rafi 11 Oct 2026: the Drive
+layout is the right one): daily_data_generated/<edition>/ with five product folders, each with its own supportive files:
+pool of items (pool PDF, pool CSV, daily-pool.md; pool JSON in supportive files), Full Report (PDF and markdown; report_pdf.json in
+supportive files), Bulletin (PDF and markdown; bulletin_pdf.json in supportive files), cards (the PNGs and the contact sheet;
+cards_copy, edition and lock JSON in supportive files), Headlines (the ComfyUI JSON, the pack and the scripts in supportive files).
 """
 import argparse, glob, json
 from pathlib import Path
@@ -30,11 +31,15 @@ def add(folder, path):
 
 
 if a.part in ('A', 'all'):
-    add('reports', P / f'Full_Report_{short}.pdf'); add('reports', P / f'Daily_Bulletin_{short}.pdf'); add('reports', P / f'AIND_Pool_{short}.pdf')
+    add('Full Report', P / f'Full_Report_{short}.pdf'); add('Bulletin', P / f'Daily_Bulletin_{short}.pdf')
     for f in sorted(P.glob(f'{ed} — *.md')):
-        add('reports', f)
-    for f in (P / f'AIND_Pool_{ed}.csv', W / 'out' / f'AIND_Pool_{ed}.json', P / 'daily-pool.md', P / 'report_pdf.json', P / 'bulletin_pdf.json'):
-        add('reports/supportive files', f)
+        if f.name.endswith('_old.md') or '_old' in f.stem:
+            continue
+        add('Bulletin' if 'Bulletin' in f.name else 'Full Report', f)
+    add('Full Report/supportive files', P / 'report_pdf.json'); add('Bulletin/supportive files', P / 'bulletin_pdf.json')
+    for f in (P / f'AIND_Pool_{short}.pdf', P / f'AIND_Pool_{ed}.csv', P / 'daily-pool.md'):
+        add('pool of items', f)
+    add('pool of items/supportive files', W / 'out' / f'AIND_Pool_{ed}.json')
 if a.part in ('B', 'all'):
     for f in sorted(glob.glob(str(P / f'cards_{short}' / f'cards_{short}_I*_VL1.png'))) + [P / f'cards_{short}' / f'cards_{short}_contact_sheet.jpg']:
         add('cards', f)

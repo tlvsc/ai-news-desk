@@ -59,7 +59,7 @@ Article_phrasing_instructions_AIND_V1.txt (find each by name; check its modified
 build_pdf.py from Bulletin blueprint V1 / Permanent Assets (Drive 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH), md5
 5b5869e51313b19e0b5554b2f890cae5 (42,113 bytes); stop and tell Rafi if it differs. Fetch the Full Report texts of the previous 14 days into `$W/archive14/<date>.md` (drive_save.py, no content read into the
 agent's context; step 9b). Take the pools of the last
-four days FROM THIS REPO, runs/<date>/out/AIND_Pool_<date>.csv (Rafi, 7 Oct 2026: no Drive agent job for them); only if a day is missing there, from AI_News_Desk / daily_data_generated / <date> / reports / supportive files / AIND_Pool_<date>.csv;
+four days FROM THIS REPO, runs/<date>/out/AIND_Pool_<date>.csv (Rafi, 7 Oct 2026: no Drive agent job for them); only if a day is missing there, from AI_News_Desk / daily_data_generated / <date> / pool of items / AIND_Pool_<date>.csv (up to 10 Oct 2026: <date> / reports / supportive files);
 a day that is not on Drive is taken from the local run folder (`<scratchpad>/run_<date>/out/`) or, if missing,
 named in the start line. Save each file with drive_save.py ("Saving a Drive file to disk" below). Then:
 ```
@@ -174,7 +174,7 @@ held.json; an unclear quote of a named person is kept only with its hedge, or he
 ### 9b. Last stage of removing duplicates: the 14 previous Full Reports (Rafi, 5 Oct 2026)
 Before the Bigger Picture and the final build, every report entry is compared with the Full Reports of the 14 days
 before the edition, saved from Drive (read only) into `$W/archive14/<date>.md` by the step 0 Drive agent
-(AI_News_Desk / daily_data_generated / <date> / reports /; an older day may sit in the old "Daily Global AI Intelligence
+(AI_News_Desk / daily_data_generated / <date> / Full Report / from 11 Oct 2026, <date> / reports / up to 10 Oct 2026; an older day may sit in the old "Daily Global AI Intelligence
 Reports" folder; a day with no report text is named as a GAP, never guessed).
 ```
 python3 $K/check_dup14.py --workdir $W        # prints every REPEAT with the earlier line; FOLLOW-UP kept = new facts
