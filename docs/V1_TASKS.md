@@ -681,3 +681,14 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
 208. (11 Oct, mistake record, repeat of lesson 173) The merge commit 5e4a3d9 carries a "Co-Authored-By" line with a model name, because I followed the
      session's attribution reminder over lesson 173 (commits carry only the session link). Not rewritten (no history change without Rafi's yes). Prevention:
      lesson 173 wins over the reminder; the next commits carry only the Claude-Session line.
+209. (11 Oct, Rafi: "lets fix it") STALE HEADLINES LINES FIXED toward CLAUDE.md (between runs, at Rafi's word): wording_common.md rule 1 now caps
+     card sentences at 15 words and gives the Headlines no word count (the phrasing file's Headlines section and CLIP SECONDS decide); wording_headlines.md
+     and rewrite_headlines.md no longer restate a two or three sentence shape (the phrasing file: one flowing sentence, a second short one only when the why
+     cannot ride inside the first); fill_headlines.py screen prompt now asks for a short photorealistic TV news scene (REAL TV SCREENS and PHOTOREALISTIC),
+     no readable words, numbers, logos or real named faces except the Bigger Picture warning words, and its clip maximum is 10 s, not 12 (CLIP SECONDS).
+     Tested on the 10 Oct pack: verify_headlines.py PASS, the new screen line in all 10 slots, the old "No people, no faces" line gone.
+210. (11 Oct) A SECOND DAILY RUN ON DRIVE: daily_data_generated/2026-10-11 (subfolders pool of items, Full Report, Bulletin, cards, Headlines) was made
+     at 06:01 UTC by ChatGPT's V1 script, started by a Windows scheduled task on Rafi's PC: "\AI News Desk\Daily Global AI Intelligence automation",
+     daily at 09:00 Asia/Jerusalem, running aind_v1.py --scheduled (installed by aind_v1_schedule.ps1 in AI_News_Desk / V1 / scripts on Drive). No Claude
+     Routine exists (list_triggers empty) and no Claude session started that morning. Rafi (11 Oct): two runs make two sources of truth; stop it for now,
+     and later today fix the folder order of the 11 Oct folder to the skill's layout.
