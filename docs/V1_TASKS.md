@@ -676,3 +676,8 @@ D50. From the 7 Oct run: add 4 stories that were not in the report to the pool, 
      (PR Newswire, 30 Sep), Albania (The Next Web, 7 Oct), Nigeria (Sahara Reporters, 6 Oct). The 7 Oct Full Report existed only in E:\Downloads (now on
      Drive as Full_Report_7-10-26.pdf in the AI_News_Desk folder); the Bulletin is on Drive (1baX-nnxrVSH5_frkuLjZFKR2wwKuA3rS). Ask Codex to fix the
      daily Drive uploads, the code backup and the auto-cleanup; the stitcher's Decision Log check is Rafi's decision.
+D51. (11 Oct) Done the same day: the three Drive files above were renamed "_superseded" and moved to AI_News_Desk / 99 — ARCHIVE (sizes unchanged:
+     7,411, 8,374 and 2,552 bytes). Nothing was deleted.
+208. (11 Oct, mistake record, repeat of lesson 173) The merge commit 5e4a3d9 carries a "Co-Authored-By" line with a model name, because I followed the
+     session's attribution reminder over lesson 173 (commits carry only the session link). Not rewritten (no history change without Rafi's yes). Prevention:
+     lesson 173 wins over the reminder; the next commits carry only the Claude-Session line.
