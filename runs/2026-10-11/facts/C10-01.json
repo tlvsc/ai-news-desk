@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-01",
+ "title": "Next-gen multimodal large model cuts cost of lung cancer genetic testing",
+ "source_used": "China Daily",
+ "article_url": "https://www.chinadaily.com.cn/a/202610/10/WS6aca08c6e4b06d4aa05621c7.html",
+ "fetched": true,
+ "key_facts": [
+  "DeepGEM 2.0, a multimodal large AI model for lung cancer pathological genomics, was released in Guangzhou on Saturday (10 Oct 2026).",
+  "It was developed jointly by the First Affiliated Hospital of Guangzhou Medical University and the testing company Guangzhou KingMed Diagnostics Group.",
+  "It does image-based gene recognition in as little as one minute and, according to the company, can pre-screen for gene targets that match lung cancer targeted therapies already approved in China.",
+  "A multicentre research project at 50 medical institutions has been launched, which marks the model's entry into large-scale clinical validation; the model is planned for use in over 500 institutions.",
+  "Liang Wenhua, vice-president of the hospital, says AI pre-screening plus specific gene-targeted verification is expected to cut the cost of lung cancer genetic testing to a few hundred yuan.",
+  "Liu Si, head of the AI special project at KingMed Diagnostics, says the new version's prediction accuracy can reach up to 90 percent.",
+  "The first generation (2025) takes pathology slides as input and predicts the probability of lung cancer-related gene mutations and where they sit in the tissue."
+ ],
+ "quote_evidence": [
+  "The DeepGEM 2.0, jointly developed by the First Affiliated Hospital of Guangzhou Medical University and Guangzhou KingMed Diagnostics Group, a testing company, achieves image-based gene recognition in as little as one minute.",
+  "By relying on AI pre-screening and specific gene-targeted verification, the technology is expected to reduce the cost of lung cancer genetic testing to a few hundred yuan, Liang Wenhua, vice-president of the First Affiliated Hospital of Guangzhou Medical University, said.",
+  "The prediction accuracy of the model's new version can reach up to 90 percent, Liu Si, head of the AI special project at KingMed Diagnostics, said."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "If the cost claim holds, targeted-therapy gene testing could reach more lung cancer patients at local hospitals, but the figures are the developers' own and validation has just started.",
+ "event_date": "Released on Saturday 10 Oct 2026 (China Daily article dated 10 Oct 2026)",
+ "notes": "Read China Daily in full. Cost reduction is stated as expected, not achieved; accuracy and cost figures come from the hospital and KingMed, with no outside review reported."
+}

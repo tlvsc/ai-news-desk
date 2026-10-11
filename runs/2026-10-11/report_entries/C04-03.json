@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-03",
+ "v1_category": "RES",
+ "headline": "Coinbase found that newer versions of three major AI model families each caught less payment fraud than their predecessors in a test of its screening.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: Coinbase's report dates from 7 Oct 2026, three days before the window, and the test rests on private data.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Banks, payment firms and their customers get a warning that switching to a newer AI model can quietly let more fraud through, but this is one company's replay on private data that outsiders cannot repeat, with no customer losses shown and no cause found.",
+ "source": "CryptoSlate, citing Coinbase",
+ "status": "PRELIMINARY",
+ "summary": "CryptoSlate reports that Coinbase, the crypto exchange, replayed 16,140 past payments through its Onramp fraud screening and found that newer versions of Anthropic's Opus and Sonnet and OpenAI's GPT models each had lower recall, meaning they caught a smaller share of the fraud, than the versions they replaced, with the same decision policy in place. Sonnet's recall fell 22.2 points and GPT's 20.7 points, while Opus's fell 0.8 points; Coinbase says the replay does not show customer losses and that it could not establish why the newer versions did worse.",
+ "url": "https://cryptoslate.com/coinbase-benchmark-finds-newer-ai-models-missed-more-payment-fraud/",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Coinbase's 7 Oct 2026 report is the underlying event, so the freshness check will mark it as older news; no earlier edition of ours carried it. Coinbase's own posts were not opened. The article attributes the 'data cannot be released' limit to the SR-Fraud researchers of a related study, so the summary leaves it out and the importance line words it as a caution."
+}

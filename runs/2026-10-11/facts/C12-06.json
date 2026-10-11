@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-06",
+ "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+ "fetched": true,
+ "key_facts": [
+  "A Chinese-speaking hacker attacked South Korean banks, including Shinhan Bank, KB Kookmin Bank and Hana Bank, using the ARTEX AI penetration-testing suite and Claude agents, exposing personal and credit-card data and causing some outages.",
+  "Security firm CrowdStrike confirmed use of ARTEX, until recently an open-source agentic penetration-testing suite developed in China.",
+  "The attacker's open server directories held Claude Code session histories, ARTEX configuration files and Claude memory files.",
+  "CrowdStrike says the ARTEX instance used DeepSeek v4.1-flash as its main language-model backend, supplemented by GLM-5.3 from Zhipu AI and Grok 4.6 for extra Claude Code sessions.",
+  "The records give high-confidence links to targets named in earlier financial-sector breach reports.",
+  "A résumé the attacker made with the same tools suggests a 26-year-old who studied at South China University of Technology and lives in Maoming, Guangdong, but the details are not reliable enough to confirm identity, and the attacker had no specific plan to monetise the data.",
+  "After confirming real-world use, ARTEX's developer made the project closed-source and ended updates, though English- and Korean-language derivatives exist."
+ ],
+ "quote_evidence": [
+  "Security firm CrowdStrike confirmed the use of ARTEX AI, up until recently an open-source agentic penetration testing suite developed in China.",
+  "\"The ARTEX instance used DeepSeek v4.1-flash as the primary LLM backend, and the threat actor supplemented this LLM with GLM-5.3 (Zhipu AI) and Grok 4.6 for additional Claude Code sessions,\" CrowdStrike explained.",
+  "Although the personal details may belong to the individual behind the ARTEX-related activity, they are not reliable enough to confirm the threat actor's identity."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A tool built for security testing, plus commercial AI agents, was reportedly enough for one person to hit several large banks.",
+ "event_date": "Attacks early Oct 2026; CrowdStrike report 7 Oct 2026; BleepingComputer 10 Oct 2026",
+ "notes": "BleepingComputer's own write-up of CrowdStrike's findings. Our 8 Oct 2026 edition already carried the CrowdStrike report (via Reuters) and our 10 Oct 2026 edition the ARTEX developer's decision; the new detail is the list of AI models and the Claude Code session records found on the attacker's server."
+}

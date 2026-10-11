@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-02",
+ "title": "Roku Rolls Out Custom AI System Allowing Developers to Build Streaming Apps Entirely Through AI Prompts",
+ "source_used": "Cord Cutters News (read from the pre-fetched full text)",
+ "article_url": "https://cordcuttersnews.com/roku-rolls-out-custom-ai-system-allowing-developers-to-build-streaming-apps-entirely-through-ai-prompts/",
+ "fetched": true,
+ "key_facts": [
+  "Roku has begun deploying AI skills paired with a Model Context Protocol (MCP) server that connects to AI development environments such as Cursor, GitHub Copilot and Gemini.",
+  "It was announced at the 2026 Roku Developers Summit.",
+  "A developer describes the app in plain text and the AI produces the project structure, BrightScript code, SceneGraph XML components and assets.",
+  "Through the MCP server the AI can package the app, sideload it onto a developer-mode Roku (real hardware or emulated), launch it, capture screenshots, read the SceneGraph node tree and the debug console, then revise its code.",
+  "Developers can inspect every generated file, pause the process or give corrections; the implementation reportedly limits the AI's device permissions to development and testing.",
+  "Initial availability is a controlled rollout to registered developers, with broader access after evaluation of stability and safety controls; documentation and sample prompt templates are expected.",
+  "The article says the outcome depends on how reliably the AI handles remote navigation, advertising frameworks and memory limits; no results or developer numbers are given."
+ ],
+ "quote_evidence": [
+  "This was announced at the 2026 Roku Developers Summit.",
+  "Initial availability is described as a controlled rollout to registered developers, with broader access following evaluation of stability and safety controls.",
+  "Roku’s implementation reportedly includes safeguards that limit the AI’s device permissions to development and testing operations, preventing unintended changes to production channels or system settings."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "It aims to shorten the path from idea to a testable Roku app by letting an AI assistant write, install, test and fix the app itself.",
+ "event_date": "Not stated. The article was published 10 Oct 2026 and says only that the announcement was made at the 2026 Roku Developers Summit.",
+ "notes": "Single outlet; the article cites no other source and no Roku page. A Google News search for the story returned no second outlet or Roku release, so the status is REPORTED. The summit date is not given, so the entry cannot confirm the announcement itself was made on or after 10 Oct 2026. Hedges in the article ('reportedly', 'early descriptions', 'expected') are kept."
+}

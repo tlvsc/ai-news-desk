@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-17",
+ "title": "Cohere launches North 2 agent platform with token usage controls",
+ "source_used": "SiliconANGLE (original report of 5 Oct 2026, read directly); Quasa.io (8 Oct 2026, citing Cohere's announcement, The Register and VentureBeat) used as a check",
+ "article_url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
+ "fetched": true,
+ "key_facts": [
+  "Cohere Inc. unveiled North 2 on 5 Oct 2026, an overhaul of its platform for running AI agents inside large organisations; North has been generally available since August 2025.",
+  "The new orchestration system works through multistep tasks on its own and brings in a human for steps that need sign-off; agents built from a simple prompt can be shared across a company, and each agent keeps memory between sessions.",
+  "Cohere added skills (packaged logic agents call repeatedly) and shared libraries of documents and assets.",
+  "North Admin, the management console, tracks token use down to the individual user and agent; administrators can set consumption tiers for users and groups by request and token rates and cap usage across the company, with alerts before a limit is reached.",
+  "Guardrails per agent screen for personally identifiable information and prompt injection, and autonomy policies keep each agent to authorised actions; North can run on-premises or in a customer's own cloud, including fully air-gapped.",
+  "Connectors cover Slack, GitHub and Microsoft SharePoint and OneDrive; connectors to PitchBook, S&P Global and FactSet are planned.",
+  "Users named: Bell Canada's Bell Cyber unit, South Korea's LG CNS, and investor Radical Ventures; Nvidia's Kari Briski says Cohere's models on Nvidia hardware help North 2 'deliver more tokens for less'.",
+  "North 2 arrived less than three weeks after Cohere signed a merger agreement with Germany's Aleph Alpha."
+ ],
+ "quote_evidence": [
+  "Artificial intelligence company Cohere Inc. today unveiled North 2, an overhaul of its platform for running AI agents inside large organizations.",
+  "It now tracks token use down to the individual user and agent.",
+  "Administrators can define consumption tiers for users and groups based on request and token rates and cap usage across the company."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Organisations get ways to cap what agents cost and limit what they may do, but the claims are Cohere's own and no prices or independent tests are given.",
+ "event_date": "5 Oct 2026 (launch).",
+ "notes": "REPEAT: we carried this story in our 6 Oct 2026 edition (item 89, SiliconANGLE, same URL). The pool item is a Chinese-language write-up on Zhiding (10 Oct 2026) whose text was garbled in the pre-fetch (about 1,600 replacement characters); the readable fragments (Slack, GitHub, SharePoint, Nvidia, Bell Cyber, LG CNS, Radical Ventures, Aleph Alpha) match the SiliconANGLE report, so the original was read instead. Nothing new is reported today. Technology Magazine (8 Oct) was blocked (HTTP 403). Score lowered two points (older than 10 Oct and already carried); recommend dropping it as an old-news repeat."
+}

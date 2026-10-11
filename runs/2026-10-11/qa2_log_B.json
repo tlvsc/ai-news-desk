@@ -1,0 +1,414 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-11",
+   "field": "importance_line",
+   "before": "Visitors across China met robots serving in shops and guiding at tourist sites, which may change retail jobs and costs if it spreads, but the revenue figures come from the companies and the article itself says it is unproven that the robots stay worthwhile once the novelty fades.",
+   "after": "Visitors across China met robots selling goods and guiding tours, a large public test of whether such robots can pay their way, but the revenue figures come from the companies and the article itself says the real test is whether they still look worthwhile once the novelty fades.",
+   "reason": "Meaning: removed an unsupported consequence (change to retail jobs and costs); kept the article's own doubt."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "headline",
+   "before": "OpenAI's pricing page now lists an unannounced life-sciences model called gpt-rosalind-discovery, priced the same as its existing research version.",
+   "after": "OpenAI's pricing page appears to list an unannounced life-sciences model, gpt-rosalind-discovery, at the same price as its research version, TestingCatalog reports.",
+   "reason": "Meaning: restored the source's hedge ('appears') and the attribution; we did not check the page ourselves."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "summary",
+   "before": "ProPakistani reports in its headline that DeepSeek's V4.1 model is currently about 1,500 times cheaper than usual.",
+   "after": "ProPakistani reports that DeepSeek, the Chinese AI company, is currently pricing its V4.1 model about 1,500 times below its usual rate.",
+   "reason": "Process note removed ('in its headline'); company identified; stays a cautious restatement with attribution."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "importance_line",
+   "before": "If correct, developers and companies using DeepSeek's model could run it at a tiny fraction of the usual cost, but the headline does not say what price, which version or for how long, so the claim is unchecked.",
+   "after": "If correct, developers and companies using DeepSeek's model could run it at a tiny fraction of the usual cost, but the price, the exact version and how long the offer lasts are not known, and no other outlet has confirmed the figure.",
+   "reason": "Process note removed ('the headline does not say'); honest doubt kept."
+  },
+  {
+   "item_id": "C01-05",
+   "field": "headline",
+   "before": "Odyssey has opened a free public preview of its Odyssey-3 world model, but its claimed record physics score comes from a single run that chose among eight tries per task.",
+   "after": "AI company Odyssey has opened a free public preview of its Odyssey-3 world model, but its claimed record physics score comes from a single run that chose among eight tries per task.",
+   "reason": "Headline led with an unexplained company name; short identification added."
+  },
+  {
+   "item_id": "C01-06",
+   "field": "summary",
+   "before": "iAfrica reports that Vambo AI, a South African startup, has released MORENA, an open-weight model (its trained settings are public) with 1.5 billion parameters (a measure of model size), trained from scratch for 12 African languages plus English and French, and that co-founder Isheanesu Misi says it beats a Google model eight times its size on African text modelling. iAfrica notes that no benchmark is named and no results are published, and that the licence and download details are missing.",
+   "after": "iAfrica reports that Vambo AI, a South African startup, has released MORENA, an open-weight model (its trained settings are public) with 1.5 billion parameters (a measure of model size), trained from scratch for 12 African languages plus English and French, and that co-founder Isheanesu Misi says it handles African-language text better than a Google model eight times larger. iAfrica points out that the claim names no test, no Google model and no results, and that licence and download details are missing.",
+   "reason": "Two clauses were near copies of quote_evidence; reworded in our own words, meaning unchanged."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "headline",
+   "before": "StepFun's new flagship AI model has reached the top of one trending chart and second place worldwide on a daily chart, according to Sina Finance.",
+   "after": "Chinese AI company StepFun's new flagship model has topped a trending chart and come second worldwide on a daily chart, Sina Finance reports.",
+   "reason": "Headline led with an unexplained company name; company identified, attribution kept."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "summary",
+   "before": "Sina Finance reports in its headline that the new flagship model from the Chinese AI company StepFun topped a \"Trending\" chart and ranked second worldwide on a daily chart, and asks why developers are drawn to it.",
+   "after": "Sina Finance reports that the new flagship model from the Chinese AI company StepFun topped a \"Trending\" chart and ranked second worldwide on a daily chart, and asks why developers are drawn to it.",
+   "reason": "Process note removed ('in its headline')."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "importance_line",
+   "before": "If correct, a Chinese model is drawing developers away from rivals, which would matter to developers choosing a model and to competing AI companies, but the headline does not name the charts or the model, so the claim is unchecked.",
+   "after": "If correct, it shows strong developer interest in a Chinese model, which matters to developers choosing a model and to rival AI companies, but the charts and the model are not named and no other outlet has confirmed the result.",
+   "reason": "Meaning: 'drawing developers away from rivals' was stronger than the headline supports; process note ('the headline does not name') removed."
+  },
+  {
+   "item_id": "C02-01",
+   "field": "importance_line",
+   "before": "Shoppers and fast-food customers may see AI play a larger part in setting prices, but CNBC's headline says only that this 'may' happen and does not say which companies, how or when.",
+   "after": "Shoppers and fast-food customers may see AI play a larger part in setting prices, but CNBC presents this only as a possibility, and which companies, how and when are not known.",
+   "reason": "Process note removed ('CNBC's headline says only'); hedge kept."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "summary",
+   "before": "Moneycontrol reports that Elon Musk wrote on X that users can take a picture of their credit card, drop it in a chat and let Grok, the chatbot from his company xAI, search the internet for the best deal and place the order, and that he said he had asked Grok to research and order Lego Star Wars kits for young children. A note added by X readers, quoted by Moneycontrol, says xAI warns users not to put personal information in prompts and that the bot's terms say credentials may be stored in its cloud and financial transactions need human review, while several users called the idea unsafe.",
+   "after": "Moneycontrol reports that Elon Musk wrote on X that users can photograph their credit card, upload it to Grok, the chatbot from his company xAI, and let it find the best offer online and place the order, and that he said he had asked Grok to research and order Lego Star Wars kits for young children. A note added by X readers, quoted by Moneycontrol, says xAI warns users not to put personal information in prompts and that the bot's terms say credentials may be stored in its cloud and financial transactions need human review, while several users called the idea unsafe.",
+   "reason": "Near copy of Musk's quoted post without quote marks; paraphrased in our own words."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "headline",
+   "before": "Ant Group has quietly begun a limited beta of a new LingGuang assistant that remembers its users and pushes tasks forward on its own, according to a Sina Tech report.",
+   "after": "Ant Group, the company behind Alipay, is quietly testing a new version of its LingGuang assistant that remembers users and moves tasks forward on its own, Sina Tech reports.",
+   "reason": "Headline was a near copy of the first quote_evidence sentence; reworded, attribution kept."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "headline",
+   "before": "Canadian online brokerage Questrade lets AI assistants execute trades, Money.ca reports.",
+   "after": "Canadian online broker Questrade allows AI assistants to place trades, Money.ca reports.",
+   "reason": "Headline copied the publisher's headline word for word; reworded."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "summary",
+   "before": "Money.ca reports that Questrade, a Toronto-based online brokerage, lets AI assistants execute trades.",
+   "after": "Money.ca reports that Questrade, a Toronto-based online brokerage, allows AI assistants to carry out trades.",
+   "reason": "Summary repeated the publisher's headline word for word; reworded."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "importance_line",
+   "before": "Questrade clients could have AI assistants place trades in their accounts, putting real money under AI control, but the headline does not say which safeguards, trade limits or start date apply.",
+   "after": "Questrade clients could have AI assistants place trades in their accounts, putting real money under AI control, but the safeguards, trade limits and start date are not known.",
+   "reason": "Process note removed ('the headline does not say')."
+  },
+  {
+   "item_id": "C04-01",
+   "field": "summary",
+   "before": "OfficeChai reports that Fields Medalist Terence Tao has published \"Math 2.0\", an October 2026 slide deck arguing that AI has ended the era in which proofs were scarce, so mathematics must now decide what it is for rather than treat solving open problems as the goal. It follows the call to stop working with OpenAI that Tao shared from a mathematicians' group, which our 9 Oct 2026 edition carried from The Decoder after OpenAI released hundreds of AI-written maths manuscripts at once; the deck itself warns that checking an AI's answer is not enough unless a human also understands why it works.",
+   "after": "OfficeChai reports that Fields Medalist Terence Tao has published \"Math 2.0\", an October 2026 slide deck arguing that AI has made proofs plentiful, so mathematics must now decide what it is for rather than treat solving open problems as the goal. It follows the call to stop working with OpenAI that Tao shared from a mathematicians' group, which our 9 Oct 2026 edition carried from The Decoder after OpenAI released hundreds of AI-written maths manuscripts at once; the deck itself warns that checking an AI's answer is not enough unless a human also understands why it works.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "source",
+   "before": "Anadolu Agency, citing CBC News",
+   "after": "CBC News",
+   "reason": "Credit: Anadolu Agency relays CBC News's report, so the printed source is CBC News (the link stays on Anadolu, where the text was read)."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "summary",
+   "before": "Anadolu Agency reports, citing CBC News of Friday 9 Oct 2026, that the UK nonprofit Tech Against Terrorism tested more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might send, and three in five failed; models modified through \"abliteration\", a process that removes built-in safeguards, failed every test, and Meta's Llama 3.1 8B fell from 97 out of 100 on the group's safety benchmark to about 3. The study found no evidence that extremist groups are using the tested models, apart from one extremist chatbot, and counted more than 29,000 repositories on the model-sharing site Hugging Face advertising uncensored or unprotected models; Hugging Face says it moderates violating content but warned that some of the report's recommendations could undermine open research.",
+   "after": "CBC News reported on Friday 9 Oct 2026, as relayed by Anadolu Agency, that the UK nonprofit Tech Against Terrorism tested more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might send, and three in five failed; models modified through \"abliteration\", a process that removes built-in safeguards, failed every test, and Meta's Llama 3.1 8B fell from 97 out of 100 on the group's safety benchmark to about 3. The study found no evidence that extremist groups are using the tested models, apart from one extremist chatbot, and counted more than 29,000 repositories on the model-sharing site Hugging Face advertising uncensored or unprotected models; Hugging Face says it moderates violating content but warned that some of the report's recommendations could undermine open research.",
+   "reason": "Credit: attribution now leads with the outlet that reported the story."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "summary",
+   "before": "CBC News reported on Friday 9 Oct 2026, as relayed by Anadolu Agency, that the UK nonprofit Tech Against Terrorism tested more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might send, and three in five failed; models modified through \"abliteration\", a process that removes built-in safeguards, failed every test, and Meta's Llama 3.1 8B fell from 97 out of 100 on the group's safety benchmark to about 3. The study found no evidence that extremist groups are using the tested models, apart from one extremist chatbot, and counted more than 29,000 repositories on the model-sharing site Hugging Face advertising uncensored or unprotected models; Hugging Face says it moderates violating content but warned that some of the report's recommendations could undermine open research.",
+   "after": "CBC News reported on Friday 9 Oct 2026, as relayed by Anadolu Agency, that the UK nonprofit Tech Against Terrorism tested more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might send, and three in five failed; models modified through \"abliteration\", a process that removes built-in safeguards, failed every test, and Meta's Llama 3.1 8B fell from 97 out of 100 on the group's safety benchmark to about 3. The study found no sign of extremist groups using the tested models, except one extremist chatbot, and counted more than 29,000 repositories on the model-sharing site Hugging Face advertising uncensored or unprotected models; Hugging Face says it moderates violating content but warned that some of the report's recommendations could undermine open research.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C04-04",
+   "field": "headline",
+   "before": "Sakana AI's peer review system, built on large language models, reportedly catches 73 percent of core-claim errors in research papers.",
+   "after": "MarkTechPost reports that a peer review system from AI research company Sakana AI catches 73 percent of core-claim errors in research papers.",
+   "reason": "Headline was close to the publisher's headline word for word and had no attribution; reworded with attribution and company identified."
+  },
+  {
+   "item_id": "C15-06",
+   "field": "summary",
+   "before": "Kashmir News Service reports that Jitendra Singh, India's Minister of State for Science and Technology, told a PHD Chamber of Commerce and Industry meeting in New Delhi on 10 Oct 2026 that India has reached a 1,000-kilometre quantum-secure communication milestone in three years, against an eight-year target of 2,000 kilometres, and credited the National Quantum Mission. The report does not say which technology or links the figure covers, and he used the speech mainly to urge industry to join research earlier.",
+   "after": "Kashmir News Service reports that Jitendra Singh, India's Minister of State for Science and Technology, told a PHD Chamber of Commerce and Industry meeting in New Delhi on 10 Oct 2026 that India has covered 1,000 kilometres with quantum-secure communication in three years, half of the 2,000 kilometres it set out to reach in eight, and credited the National Quantum Mission. The report does not say which technology or links the figure covers, and he used the speech mainly to urge industry to join research earlier.",
+   "reason": "Clause was a near copy of the quote_evidence opening sentence; reworded."
+  },
+  {
+   "item_id": "C13-01",
+   "field": "importance_line",
+   "before": "People harmed by a rogue AI system and the businesses that use AI agents are affected first, then regulators and developers such as OpenAI and Anthropic, as the White House relies on lawsuits and existing law, but no court has yet decided who would pay.",
+   "after": "People harmed by a rogue AI system and the businesses that use AI agents are affected first, then regulators and developers such as OpenAI and Anthropic, as the White House relies on lawsuits and existing law, but who would pay remains legally unsettled.",
+   "reason": "Meaning: 'no court has decided' is not in the facts; the facts say the question is unsettled."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "headline",
+   "before": "Investors and AI founders at San Francisco's Tech Week say they welcome the White House's hands-off approach to regulating AI.",
+   "after": "Investors and AI founders at San Francisco's Tech Week are pleased with the White House's hands-off approach to regulating AI, the AP reports.",
+   "reason": "Meaning: 'say they welcome' implied direct statements not in the text read; AP's description kept with attribution."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "The Associated Press reports from Tech Week in San Francisco that venture capitalists and AI founders are pleased with the White House's stance on AI regulation, after President Trump signed a voluntary safety pact with tech leaders that, AP says, encourages AI labs to monitor themselves but lacks detailed safety measures; our 30 Sep 2026 edition carried The Guardian's report of the signing at the White House on 29 Sep. AP adds that companies have disclosed their AI models' role in many troubling cyberattacks this year, yet the sector keeps driving economic growth, and that the US is further from governing AI systems than it was a few years ago.",
+   "after": "The Associated Press reports from Tech Week in San Francisco that venture capitalists and AI founders are pleased with the White House's stance on AI regulation, after President Trump signed a voluntary safety pact with tech leaders that, AP says, leaves AI labs to police themselves without detailed safety rules; our 30 Sep 2026 edition carried The Guardian's report of the signing at the White House on 29 Sep. AP adds that companies have disclosed their AI models' role in many troubling cyberattacks this year, yet the sector keeps driving economic growth, and that the US is further from governing AI systems than it was a few years ago.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "The Associated Press reports from Tech Week in San Francisco that venture capitalists and AI founders are pleased with the White House's stance on AI regulation, after President Trump signed a voluntary safety pact with tech leaders that, AP says, leaves AI labs to police themselves without detailed safety rules; our 30 Sep 2026 edition carried The Guardian's report of the signing at the White House on 29 Sep. AP adds that companies have disclosed their AI models' role in many troubling cyberattacks this year, yet the sector keeps driving economic growth, and that the US is further from governing AI systems than it was a few years ago.",
+   "after": "The Associated Press reports from Tech Week in San Francisco that venture capitalists and AI founders are pleased with the White House's stance on AI regulation, after President Trump signed a voluntary safety pact with tech leaders that, AP says, leaves AI labs to police themselves without detailed safety rules; our 30 Sep 2026 edition carried The Guardian's report of the signing at the White House on 29 Sep. AP adds that companies have disclosed their AI models' role in many troubling cyberattacks this year, yet the sector keeps driving economic growth, and that the US has lost ground on governing AI compared with a few years ago.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "importance_line",
+   "before": "Founders and investors back voluntary safety rules, which leaves the public relying on companies to monitor themselves rather than on law and gives regulators less pressure to act; it is a report from one event, not a measure of how the pact works.",
+   "after": "Founders and investors back voluntary safety rules, which leave the public relying on companies to police themselves rather than on law, but this is a report from one event, not a measure of how the pact works.",
+   "reason": "Meaning: removed an unsupported consequence (less pressure on regulators to act)."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "summary",
+   "before": "China Daily reports that the First Affiliated Hospital of Guangzhou Medical University and the testing company KingMed Diagnostics released DeepGEM 2.0 in Guangzhou on 10 Oct 2026, an AI model that reads images of lung tumour tissue to predict, in as little as a minute, which gene mutations (DNA changes that some cancer drugs target) are likely present, so patients can be pre-screened for approved targeted treatments. The hospital's vice-president expects this, followed by a targeted gene check, to cut the cost of lung cancer genetic testing to a few hundred yuan, and KingMed's AI lead says accuracy can reach up to 90 percent, but a study across 50 hospitals has only just begun to test it in practice.",
+   "after": "China Daily reports that the First Affiliated Hospital of Guangzhou Medical University and the testing company KingMed Diagnostics released DeepGEM 2.0 in Guangzhou on 10 Oct 2026, an AI model that reads images of lung tumour tissue to predict, in as little as a minute, which gene mutations (DNA changes that some cancer drugs target) are likely present, which the company says can pre-screen patients for targeted drugs already approved in China. The hospital's vice-president expects this, followed by a targeted gene check, to cut the cost of lung cancer genetic testing to a few hundred yuan, and KingMed's AI lead says accuracy can reach up to 90 percent, but a study across 50 hospitals has only just begun to test it in practice.",
+   "reason": "Meaning: restored the company attribution for the pre-screening claim."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "summary",
+   "before": "China Daily reports that the First Affiliated Hospital of Guangzhou Medical University and the testing company KingMed Diagnostics released DeepGEM 2.0 in Guangzhou on 10 Oct 2026, an AI model that reads images of lung tumour tissue to predict, in as little as a minute, which gene mutations (DNA changes that some cancer drugs target) are likely present, which the company says can pre-screen patients for targeted drugs already approved in China. The hospital's vice-president expects this, followed by a targeted gene check, to cut the cost of lung cancer genetic testing to a few hundred yuan, and KingMed's AI lead says accuracy can reach up to 90 percent, but a study across 50 hospitals has only just begun to test it in practice.",
+   "after": "China Daily reports that the First Affiliated Hospital of Guangzhou Medical University and the testing company KingMed Diagnostics released DeepGEM 2.0 in Guangzhou on 10 Oct 2026, an AI model that reads images of lung tumour tissue to predict, in as little as a minute, which gene mutations (DNA changes that some cancer drugs target) are likely present, which the company says can pre-screen patients for targeted drugs already approved in China. The hospital's vice-president expects this, followed by a targeted gene check, to cut the cost of lung cancer genetic testing to a few hundred yuan, and KingMed's AI lead says accuracy can reach up to 90 percent, but a study at 50 medical institutions has only just begun to test it in practice.",
+   "reason": "Accuracy: the facts say 50 medical institutions, not hospitals."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "importance_line",
+   "before": "Lung cancer patients in China could get the gene test that guides targeted drugs for a few hundred yuan if the cost claim holds, which would help local hospitals most, but the accuracy and cost figures come from the developers and the 50-hospital validation has only just started.",
+   "after": "Lung cancer patients in China could get the gene test that guides targeted drugs for a few hundred yuan if the cost claim holds, but the accuracy and cost figures come from the developers and the validation at 50 medical institutions has only just started.",
+   "reason": "Meaning: removed an unsupported consequence ('would help local hospitals most'); 50 medical institutions, as in the facts."
+  },
+  {
+   "item_id": "C10-03",
+   "field": "importance_line",
+   "before": "People who turn to chatbots for mental-health support are the ones concerned, but the headline does not say what the problem is, so the substance is unknown.",
+   "after": "People who turn to chatbots for mental-health support are the ones concerned, but what problem the FT describes is not known.",
+   "reason": "Process note removed ('the headline does not say')."
+  },
+  {
+   "item_id": "C10-05",
+   "field": "headline",
+   "before": "Nova Scotia doctors say more patients check their symptoms with AI chatbots before appointments, which can help some prepare but also spreads misinformation and puts health data at risk.",
+   "after": "Nova Scotia doctors say more patients check their symptoms with AI chatbots before appointments, which helps some prepare but can also mislead and put health data at risk.",
+   "reason": "Meaning: 'spreads misinformation' was stronger than what the doctors said."
+  },
+  {
+   "item_id": "C10-11",
+   "field": "summary",
+   "before": "Scienmag reports on a study in BMC Medical Imaging by a team at Changzheng Hospital in Shanghai that tested commercial AI software on routine lumbar CT scans of 518 patients who also had the standard DXA bone-density scan. When the software flagged osteoporosis it was right about 83 percent of the time and caught about 73.5 percent of true cases, so it could prompt confirmatory DXA tests, but the study was retrospective and from one centre and needs wider validation.",
+   "after": "Scienmag reports on a study in BMC Medical Imaging by a team at Changzheng Hospital in Shanghai that tested commercial AI software on routine lumbar CT scans of 518 patients who also had the standard DXA bone-density scan. About 83 percent of the patients the software flagged did have osteoporosis on DXA, and it found about 73.5 percent of all true cases, but the study looked back at past scans from one centre and needs wider validation.",
+   "reason": "Near copy of quote_evidence reworded; unsupported 'could prompt confirmatory DXA tests' removed."
+  },
+  {
+   "item_id": "C10-12",
+   "field": "importance_line",
+   "before": "Women facing a possible breast cancer diagnosis could see more accurate readings, and perhaps fewer unnecessary biopsies, where senior specialists are scarce, but experienced readers gained little and use in screening is unproven.",
+   "after": "Women facing a possible breast cancer diagnosis could get more accurate readings where senior specialists are scarce, but experienced readers gained little and use in screening is unproven.",
+   "reason": "Meaning: removed an unsupported consequence (fewer unnecessary biopsies)."
+  },
+  {
+   "item_id": "C10-13",
+   "field": "headline",
+   "before": "Researchers found that an AI score calculated from an ordinary ECG can flag patients most likely to have dangerously narrowed heart arteries before an invasive heart procedure.",
+   "after": "Researchers found that an AI score calculated from an ordinary ECG can flag patients most likely to have significantly narrowed heart arteries before an invasive heart procedure.",
+   "reason": "Meaning: 'dangerously' added drama; the study measures significant narrowing."
+  },
+  {
+   "item_id": "C10-13",
+   "field": "importance_line",
+   "before": "Chest-pain patients who might avoid an unnecessary catheter procedure are affected, but the study was at one centre among people already booked for angiography, results may differ elsewhere, and the score is meant to add to, not replace, clinical judgment.",
+   "after": "Patients with heart symptoms who face an invasive artery test are affected, but the study was at one centre among people already booked for angiography, results may differ elsewhere, and the score is meant to add to, not replace, clinical judgment.",
+   "reason": "Meaning: removed an unsupported consequence (avoiding an unnecessary catheter procedure)."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "summary",
+   "before": "Variety reports that Nicolas Cage told a New York Comic Con panel on Saturday that he did not sign a waiver allowing AI use on “Spider-Noir”, saying “I’m probably not going to be working with that studio again, but that’s okay.” Amazon canceled the Prime Video superhero series after one season last month, days before the Emmys, where it had 11 nominations. Variety’s report carries no Amazon response, so the waiver claim rests on Cage’s own account.",
+   "after": "Variety reports that Nicolas Cage told a New York Comic Con panel on Saturday that he refused to sign a waiver allowing AI use on “Spider-Noir”, which Amazon allegedly asked of him, saying “I’m probably not going to be working with that studio again, but that’s okay.” Amazon dropped the Prime Video superhero series last month after one season, shortly before the Emmys, where it was up for 11 awards, and Variety carries no Amazon response, so the waiver claim rests on Cage’s account.",
+   "reason": "Summary had three sentences (rule: one or two); the Emmys sentence was a near copy of quote_evidence; Variety's 'allegedly' restored."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "importance_line",
+   "before": "What changed: a leading actor publicly says he turned down an AI waiver and may stop working with a major studio, which matters to performers first, then studios that ask actors to consent to AI use, and the doubt is that it is Cage’s own account and Amazon has not been quoted.",
+   "after": "A leading actor publicly says he turned down an AI waiver and may stop working with a major studio, which matters to performers first, then studios that ask actors to consent to AI use, but it is Cage’s own account and Amazon has not been quoted.",
+   "reason": "Internal label 'What changed:' removed (the PDF adds 'Why it matters:'); wording simplified."
+  },
+  {
+   "item_id": "C14-02",
+   "field": "importance_line",
+   "before": "What changed: films about three AI-era tech leaders are reaching audiences while public worry about AI and data centers grows, which matters to how viewers see the industry first, then the three executives and their companies, and the doubt is that the effect on opinion is only a comparison with earlier films, not shown.",
+   "after": "Hollywood's turn on the leaders of the AI era may shape how viewers see the industry first, then the three executives and their companies, but that effect is only suggested by a comparison with earlier films, not shown.",
+   "reason": "Internal label 'What changed:' removed; sentence no longer repeats the headline; doubt kept."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "headline",
+   "before": "A new study co-written by MIT economist David Autor found that AI raised the quality of patent lawyers' drafts but built lasting skill only in experienced lawyers.",
+   "after": "A new study co-written by MIT economist David Autor found that AI raised the quality of patent lawyers' drafts but improved their skill without AI only among experienced lawyers.",
+   "reason": "Meaning: 'lasting' overstated a single test after 90 days."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "summary",
+   "before": "The Hollywood Reporter reports that Sung Q Lee, Netflix’s senior director of production for Asia-Pacific, told a Busan International Film Festival panel that AI has been used in some way on about 300 Netflix titles, from previsualization (planning scenes in advance) and set design to editing and visual effects, adding that “the human touch is critical.” On the same panel, Korean director Kang Yun-sung estimated that AI tools could cut the cost of his film “The Gulf of Aden” by about 40 percent, and the report notes that the Hollywood creative community is far more wary of AI than Asia’s content sector, which sees mostly opportunity.",
+   "after": "The Hollywood Reporter reports that Sung Q Lee, Netflix’s senior director of production for Asia-Pacific, told a Busan International Film Festival panel that AI has been used in some way on about 300 Netflix titles, from previsualization (planning scenes in advance) and set design to editing and visual effects, adding that “the human touch is critical.” On the same panel, Korean director Kang Yun-sung estimated that AI tools could make his film “The Gulf of Aden” about 40 percent cheaper to produce, and the report contrasts Hollywood’s deep unease about AI with Asian producers, who mostly see opportunity.",
+   "reason": "Two clauses were near copies of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "importance_line",
+   "before": "What changed: Netflix has put a number on its AI use, which matters to film crews and artists whose tasks overlap, then to studios working with smaller budgets, and the doubt is that it is one executive’s statement with no breakdown of how much AI was used.",
+   "after": "Netflix has put a number on its AI use, which matters to film crews and artists whose tasks overlap, then to studios working with smaller budgets, but it is one executive’s statement with no breakdown of how much AI was used.",
+   "reason": "Internal label 'What changed:' removed; wording simplified."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "importance_line",
+   "before": "What changed: a reported plan to replace thousands of support jobs with AI has been shelved while an AI assistant already answers calls first, which affects support advisers and callers first, then Apple, and the doubt is that the plan rests on one reporter’s account that Apple has not confirmed.",
+   "after": "A reported plan to replace thousands of support jobs with AI has been shelved while an AI assistant already answers calls first, which affects support advisers and callers first, then Apple, but the plan rests on one reporter’s account that Apple has not confirmed.",
+   "reason": "Internal label 'What changed:' removed; wording simplified."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "summary",
+   "before": "EL PAÍS English cites official United States statistics showing AI created about one million jobs and destroyed about 200,000 in the past year, and a Stanford University study of job postings in 41 countries that found employment up 3.3% at the companies using AI most. The experts it quotes, including Nobel laureates Simon Johnson and Daron Acemoglu, say the nearer risks are fewer entry-level jobs for graduates, rising inequality and the need for safety nets and retraining.",
+   "after": "EL PAÍS English cites official US figures putting jobs created by AI in the past year at about one million and jobs lost at about 200,000, and a Stanford University study of job postings in 41 countries that found employment up 3.3% at the companies using AI most. The experts it quotes, including Nobel laureates Simon Johnson and Daron Acemoglu, say the nearer risks are fewer entry-level jobs for graduates, rising inequality and the need for safety nets and retraining.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "summary",
+   "before": "EL PAÍS English cites official US figures putting jobs created by AI in the past year at about one million and jobs lost at about 200,000, and a Stanford University study of job postings in 41 countries that found employment up 3.3% at the companies using AI most. The experts it quotes, including Nobel laureates Simon Johnson and Daron Acemoglu, say the nearer risks are fewer entry-level jobs for graduates, rising inequality and the need for safety nets and retraining.",
+   "after": "EL PAÍS English cites official US figures putting jobs created by AI in the past year at about one million and jobs lost at about 200,000, and a Stanford University study of job postings in 41 countries that found employment up 3.3% at the companies using AI most. The experts it quotes, including Nobel laureates Simon Johnson and Daron Acemoglu, say the nearer risks are fewer entry-level jobs for graduates and rising inequality, and agree that safety nets are needed.",
+   "reason": "Meaning: 'retraining' is not in the facts; safety nets are a remedy the experts agree on, not a risk."
+  },
+  {
+   "item_id": "C14-05",
+   "field": "importance_line",
+   "before": "What changed: nothing new in the data, but a long analysis argues that mass AI job losses have not yet shown up in official figures, which matters to workers first, especially recent graduates, then governments weighing safety nets, and the doubt is that the figures are cited second-hand and the piece is analysis, not a new study.",
+   "after": "A long analysis argues that mass AI job losses have not yet shown up in official figures, which matters to workers first, especially recent graduates, then governments weighing safety nets, but the figures are cited second-hand and the piece is analysis, not a new study.",
+   "reason": "Internal label 'What changed:' and the note 'nothing new in the data' removed; doubt kept."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "importance_line",
+   "before": "What changed: Deezer’s figures on AI-made music feed the argument that audiences still want human-made art, which matters to artists, writers and musicians first, then platforms and publishers deciding whether to label AI work, and the doubt is that the premium rests on opinion and one survey, and the author is unsure it will last.",
+   "after": "Deezer’s figures on AI-made music feed the argument that audiences still want human-made art, which matters to artists, writers and musicians first, then platforms and publishers deciding whether to label AI work, but the premium rests on opinion and one survey, and the author is unsure it will last.",
+   "reason": "Internal label 'What changed:' removed; wording simplified."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "summary",
+   "before": "Gizmodo reports on a recently published University of Limerick study in which 189 knowledge workers, working with AI agents in a virtual-reality office, set pay for each agent: the male-presenting “Johan” was paid about 10% more on average than the identical female-presenting “Johanna” and was seen as more human-like. Only three of the 34 people interviewed afterwards said their behavior could reflect gender bias, although 30 said they would treat the agents the same.",
+   "after": "Gizmodo reports on a recently published University of Limerick study in which 189 knowledge workers, working with AI agents in a virtual-reality office, set pay for each agent: they gave the male-presenting “Johan” about 10% more on average than “Johanna”, his identical female-presenting twin, and saw him as more human-like. Only three of the 34 people interviewed afterwards said their behavior could reflect gender bias, although 30 said they would treat the agents the same.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "importance_line",
+   "before": "What changed: a study suggests workplace gender bias carries over to how people value AI helpers, which matters to women at work first, then firms and designers choosing how AI assistants look and sound, and the doubt is that it is a single simulated test and Gizmodo does not name the journal or say whether it was peer reviewed.",
+   "after": "A study suggests workplace gender bias carries over to how people value AI helpers, which matters to women at work first, then firms and designers choosing how AI assistants look and sound, but it is a single simulated test and Gizmodo does not name the journal or say whether it was peer reviewed.",
+   "reason": "Internal label 'What changed:' removed; wording simplified."
+  },
+  {
+   "item_id": "C14-13",
+   "field": "summary",
+   "before": "Khaleej Times reports that the World Bank’s October update on the Middle East, North Africa, Afghanistan and Pakistan puts the share of jobs at risk of replacement by AI highest in the UAE and Jordan and lowest in Afghanistan and Pakistan, because wealthier economies hold more of the knowledge jobs that generative AI can do. Across the region, replacement risk covers no more than about 10% of jobs and 13 to 20% could gain productivity, which the bank calls “far from guaranteed”; this follows the bank’s Africa update, reported earlier this week by BusinessDay NG, which put possible new digital jobs there at 35 to 40 million.",
+   "after": "Khaleej Times reports that the World Bank’s October update on the Middle East, North Africa, Afghanistan and Pakistan puts the share of jobs at risk of replacement by AI highest in the UAE and Jordan and lowest in Afghanistan and Pakistan, because wealthier economies hold more of the knowledge jobs that generative AI can do. Region-wide, the bank puts no more than about 10% of jobs at risk of being replaced and sees a chance of higher productivity in 13 to 20%, a gain it calls “far from guaranteed”; this follows the bank’s Africa update, reported earlier this week by BusinessDay NG, which put possible new digital jobs there at 35 to 40 million.",
+   "reason": "Clause was a near copy of quote_evidence; reworded."
+  },
+  {
+   "item_id": "C14-13",
+   "field": "importance_line",
+   "before": "What changed: the World Bank has put numbers on AI’s reach into Middle East jobs, which matters to workers in knowledge jobs first, especially in the Gulf, then governments planning for AI, and the doubt is that the estimate rests on one million Claude conversations whose users may be more educated than most workers, which the bank says could overstate the gains.",
+   "after": "The World Bank has put numbers on AI’s reach into Middle East jobs, which matters to workers in knowledge jobs first, especially in the Gulf, then governments planning for AI, but the estimate rests on one million Claude conversations whose users may be more educated than most workers, which the bank says could overstate the gains.",
+   "reason": "Internal label 'What changed:' removed; wording simplified."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "source",
+   "before": "Futurism, citing New York Magazine",
+   "after": "New York Magazine",
+   "reason": "Credit: Futurism relays a New York Magazine interview, so the printed source is New York Magazine (the link stays on Futurism, where the text was read)."
+  },
+  {
+   "item_id": "C16-05",
+   "field": "importance_line",
+   "before": "It is a cartoonist's joke about AI and work for Guardian readers, opinion and humor rather than news, and what the cartoon actually says is unknown.",
+   "after": "It is a cartoonist's joke about AI and work for Guardian readers, opinion and humor rather than news.",
+   "reason": "Process note removed ('what the cartoon actually says is unknown'; the PDF adds its own note)."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "importance_line",
+   "before": "It shows how a sketch meant as a stand against AI still angered viewers because it used AI, which touches mostly fans of the show, and it rests on one outlet's account and two unnamed social-media comments.",
+   "after": "It shows how a sketch meant as a stand against AI still drew criticism from some viewers because it used AI, which touches mostly fans of the show, and it rests on one outlet's account and two unnamed social-media comments.",
+   "reason": "Meaning: 'angered viewers' was stronger than two quoted social-media comments support."
+  },
+  {
+   "item_id": "C16-10",
+   "field": "importance_line",
+   "before": "It is a set of cartoonists' views on AI rules for readers of a news magazine, opinion and humor rather than news, and what the cartoons actually say is unknown.",
+   "after": "It is a set of cartoonists' views on AI rules for readers of a news magazine, opinion and humor rather than news.",
+   "reason": "Process note removed ('what the cartoons actually say is unknown'; the PDF adds its own note)."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C01-12",
+   "issue": "re-dated",
+   "detail": "Repeat of the Business Insider report of 9 Oct 2026 on Google's Gemini 4 Carbon, carried in our 10 Oct 2026 edition (item 58); the only addition (via BW People) is that a second employee praised the model. Score 3. Not edited."
+  },
+  {
+   "item_id": "C13-02",
+   "issue": "re-dated",
+   "detail": "Same Reuters interview with Henna Virkkunen (9 Oct 2026) carried in our 10 Oct 2026 edition (item 87); the extra details (30-plus companies, 7% fines, Chinese startups) come from that same interview. Not edited."
+  },
+  {
+   "item_id": "C13-06",
+   "issue": "re-dated",
+   "detail": "The unredacted Kentucky complaint against Character.AI was filed on 7 Oct 2026 and carried in our 9 Oct 2026 edition (item 80, Reuters); WLKY's examples come from that same filing, with nothing new inside the window. Not edited."
+  },
+  {
+   "item_id": "C10-09",
+   "issue": "re-dated",
+   "detail": "China Daily feature dated 9 Oct 2026; only an unread syndicated copy (Borneo Bulletin, 11 Oct) falls inside the window, and no new event is reported. Not edited."
+  },
+  {
+   "item_id": "C02-04",
+   "issue": "note: possibly re-dated (unverified)",
+   "detail": "Questrade linked client accounts to AI assistants around 30 Jul 2026 (Wealth Professional, per the facts file); whether the 10 Oct Money.ca piece reports a new step is unknown. Wording fixed only."
+  },
+  {
+   "item_id": "C04-02",
+   "issue": "note: freshness label",
+   "detail": "Freshness says FOLLOW-UP of 9 Oct 2026, but the writer's notes say no earlier story of ours is followed (the study was reported one day before the window). Freshness is a locked field, so it was not changed."
+  }
+ ]
+}

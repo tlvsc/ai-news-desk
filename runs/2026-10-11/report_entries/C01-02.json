@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-02",
+ "v1_category": "MOD",
+ "headline": "OpenAI's pricing page appears to list an unannounced life-sciences model, gpt-rosalind-discovery, at the same price as its research version, TestingCatalog reports.",
+ "score": 5,
+ "score_reason": "Kept at pool 5: a real price-list entry, but OpenAI has announced nothing and the model's purpose is a guess.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Researchers and drug-discovery teams that use GPT-Rosalind might get a second model for early-stage work, but OpenAI has said nothing, so the model's purpose, release date and access rules are unknown.",
+ "source": "TestingCatalog AI News",
+ "status": "REPORTED",
+ "summary": "TestingCatalog reports that OpenAI's API pricing page now lists gpt-rosalind-discovery, a variant of GPT-Rosalind (OpenAI's AI model for biology and drug research, open only to eligible organisations), beside gpt-rosalind-research at the same prices: $5 per million input tokens and $25 per million output tokens (tokens are small pieces of text). OpenAI has published no blog post or system card, so what the model does is unknown; TestingCatalog guesses from the name that it is aimed at drug discovery, but says that is only a guess.",
+ "url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read TestingCatalog in full. TestingCatalog credits the AI Tracker Bot on X for the first sighting. We did not check OpenAI's pricing page."
+}

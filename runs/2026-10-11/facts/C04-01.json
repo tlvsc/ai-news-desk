@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-01",
+ "title": "Terence Tao Says ‘Math 2.0’ Must Move Past Problem-Solving in the Age of AI",
+ "source_used": "OfficeChai",
+ "article_url": "https://officechai.com/ai/terence-tao-math-2-0/",
+ "fetched": true,
+ "key_facts": [
+  "Terence Tao, a Fields Medalist, shared a slide deck titled \"Math 2.0\", dated October 2026, arguing that AI has ended the era in which proofs were scarce and that the field must decide what it is for.",
+  "He says mathematics is unusually easy for machine learning to attack because proofs are objectively verifiable (even mechanically, in proof assistants such as Lean), digital, and much of the literature is online; he calls the result \"proof abundance\".",
+  "He describes AI's abilities as jagged: with enough compute, frontier models solve many open problems, but they stay weak on subjective, real-world or data-poor tasks; failed attempts mostly go unreported, so headlines show a skewed sample.",
+  "He argues problem-solving was only ever a proxy: open problems act as \"lighthouses\" that guide exploration, and indiscriminate AI problem-solving breaks the cycle that builds human understanding.",
+  "He writes that further blind optimisation of problem-solving alone is now actively harmful to the long-term health of mathematics.",
+  "Verification is necessary but not sufficient, he suggests, because someone still has to understand what has been verified (his example: an AI-found cancer cocktail that passes a stage 3 trial though no one knows how it works).",
+  "His prescription: expand the research frontier while decentering problem-solving, with large-scale experimental maths (the Equational Theories Project settled over 22 million statements), 'open exposition problems', living networks of results, formal libraries such as Mathlib, and open, interpretable maths models, some to be released soon.",
+  "He shared the deck after sharing a statement from the Association of Human Mathematicians saying mathematicians had not asked for the 300+ proofs OpenAI released earlier this week and that it would harm the field."
+ ],
+ "quote_evidence": [
+  "In a slide deck titled “Math 2.0,” dated October 2026, the Fields Medalist argued that AI has ended the era in which proofs were scarce, and that the field now has to decide what it is actually for.",
+  "Further blind optimisation of problem-solving alone, Tao writes, is now actively harmful to the long-term health of mathematics.",
+  "Verification, he suggests, is necessary but not sufficient, because someone still has to understand what has been verified."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A leading mathematician argues that AI-solved problems should change what mathematics rewards, teaches and verifies.",
+ "event_date": "Deck dated October 2026; reported 10 Oct 2026; the statement it follows was shared earlier in the week of 5-10 Oct 2026",
+ "notes": "Read in full on OfficeChai (single outlet; the deck itself was not opened). OfficeChai says '300+ proofs' and names the group 'Association of Human Mathematicians'; our 9 Oct 2026 edition (The Decoder) said 722 manuscripts and 'Association for Human Mathematics', and our 10 Oct 2026 edition (36Kr) said 'Human Mathematics Association' and that Tao is not on its member list, so the entry says 'a mathematicians' group' and 'hundreds' and does not say Tao chairs it. Follow-up of the 10 Oct 2026 entry on Tao reposting the call (first carried 9 Oct 2026)."
+}

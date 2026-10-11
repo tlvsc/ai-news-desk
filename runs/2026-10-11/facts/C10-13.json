@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-13",
+ "title": "AI Turns a Routine ECG Into a Powerful Predictor of Hidden Heart Artery Disease",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/ai-turns-a-routine-ecg-into-a-powerful-predictor-of-hidden-heart-artery-disease/",
+ "fetched": true,
+ "key_facts": [
+  "A prospective study in PLOS Digital Health, led by Salah Al-Zaiti, tested the ECG-SMART AI score on symptomatic outpatients scheduled for elective coronary angiography at one tertiary medical centre.",
+  "The model was originally trained to spot acute coronary occlusion (a completely blocked heart artery during a heart attack).",
+  "The study enrolled 363 patients (average age about 59); each had a standard 12-lead ECG analysed offline by the model.",
+  "36.1 percent had angiographically significant disease (at least 70 percent narrowing in a major vessel or 50 percent in the left main artery).",
+  "The score put 44 percent of patients at intermediate-to-high risk and 56 percent at low risk; the higher-risk group had an odds ratio of 3.12 after adjusting for clinical characteristics.",
+  "AUROC was 0.79 (95 percent CI 0.74 to 0.84), with 60 percent precision at 80 percent recall.",
+  "It was a single-centre study in a population already selected for angiography, so results will shift in lower-prevalence settings; the authors say the score complements, not replaces, clinical judgment."
+ ],
+ "quote_evidence": [
+  "The study enrolled 363 patients, with an average age of about 59 years and a slight male majority.",
+  "Overall, 36.1 percent of the patients had angiographically significant disease.",
+  "The study was conducted at a single tertiary center in a population already selected for elective angiography, so the prevalence of significant disease, 36 percent, is far higher than in the general population of symptomatic outpatients."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A cheap ECG plus AI might help decide who needs an invasive heart procedure, but it is one-centre evidence in a pre-selected group.",
+ "event_date": "Scienmag article dated 10 Oct 2026; study publication date not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

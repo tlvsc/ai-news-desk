@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-07",
+ "title": "AI-powered attacks on Korean financial sectors linked to Chinese DDoS group: report",
+ "source_used": "The Korea Herald",
+ "article_url": "https://www.koreaherald.com/article/10898597",
+ "fetched": true,
+ "key_facts": [
+  "Seoul-based security firm Logpresso said in a report released Sunday that the Telegram account 'YY520CN', linked to the bank hackings, was listed in September 2024 as a moderator of the online community GodNet.",
+  "GodNet was created by Vitas, a Chinese group that carries out distributed denial-of-service (DDoS) attacks, which flood a service with traffic, for paying clients.",
+  "Logpresso's findings come from analysing a report released earlier this month by US firm CrowdStrike, which compared Telegram and GitHub records with data stolen by infostealer malware.",
+  "Logpresso traced a second GodNet staff account, linked to GitHub code and an email address whose logins were stolen by infostealer malware in 2023, including Microsoft and Oracle cloud logins.",
+  "Logpresso says the account links alone do not establish who carried out the hacks and it could not conclude only one person was behind the breaches.",
+  "The YY520CN account was deleted on 8 Oct; a new account with the same name later posted a denial of involvement, and the owner of the linked phone number also denied involvement, saying their number was used without permission.",
+  "South Korean authorities suspect the attacker combined AI models, including DeepSeek, with ARTEX to hit seven South Korean financial institutions in succession; ARTEX's developer has halted updates and public distribution."
+ ],
+ "quote_evidence": [
+  "The company said the Telegram account \"YY520CN,\" linked to the bank hackings, was listed as a moderator of an online community called GodNet in September 2024.",
+  "But the company said the account links alone do not establish who carried out the hacks, and it could not conclude that only one person was behind the breaches.",
+  "The account was deleted on Oct. 8, after the report was released."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A possible lead to the people behind the attacks on South Korean banks, though Logpresso itself says it proves nothing about who did it.",
+ "event_date": "Logpresso report released Sunday 11 Oct 2026; CrowdStrike report 7 Oct 2026",
+ "notes": "Korea Herald text says Logpresso's report was released Sunday; the article is dated 11 Oct 2026. It cites Reuters for the ARTEX developer's decision."
+}

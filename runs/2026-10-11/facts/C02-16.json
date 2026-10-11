@@ -1,0 +1,27 @@
+{
+ "item_id": "C02-16",
+ "title": "Zhejiang University releases nanoMuse, a personal AI comparable to Meta's Muse that operates phone and PC screens",
+ "source_used": "Business+IT (Japanese), read on its copy at Yahoo! Japan News from the pre-fetched full text; translated by us",
+ "article_url": "https://news.yahoo.co.jp/articles/b5b270504db682995f7866004c6c98d8ff26a3d1",
+ "fetched": true,
+ "key_facts": [
+  "A research team at China's Zhejiang University released nanoMuse, a personal AI agent that can operate smartphone and PC screens, as open source and posted a technical report on arXiv; authors are Guangyi Liu, Yong Liu and Jiangning Zhang.",
+  "The report was submitted at 2:13 a.m. Japan time on 7 Oct.",
+  "nanoMuse is described as an open implementation of the equivalent of Meta's personal agent 'Muse', announced on 8 Sep; per the report, Muse itself, its service and its models remain non-public, and only an SDK for building compatible devices was published on 2 Oct.",
+  "nanoMuse is released under the GPL-3.0 licence and consists of an Android app, an iPhone app (TestFlight), desktop apps for macOS, Windows and Linux, a web app, and a relay server called nanoMuse Cloud; the first release was on 25 Sep.",
+  "The report covers version 0.1.40, but GitHub shows version 1.0.0 was published on 9 Oct.",
+  "One agent exists on all devices a person owns and phone and PC share one conversation; each device runs an agent that can call other devices as tools. The relay server can be run by anyone.",
+  "Every agent action goes through a permission checker called 'Sentinel'; memory is stored as user-readable Markdown files and the user picks the model. With one device only an API key is needed, and nothing leaves the device except traffic to the model, the report says.",
+  "Screen control ('Hands') is off by default and works on the Android phone screen and on desktop PCs; iPhone is not supported because iOS does not let one app operate another.",
+  "The Android app is 38 MB and the idle relay server uses about 85 MB of memory; the report is design-focused and contains no benchmark performance evaluation."
+ ],
+ "quote_evidence": [
+  "浙江大学（中国）の研究チームは、スマートフォンとPCの画面を操作できる個人用AIエージェント「nanoMuse」をオープンソースで公開し、設計と実装をまとめた技術報告をarXivに投稿した。",
+  "報告によると、Muse本体とサービス、モデルは非公開のままで、10月2日に公開されたのは対応機器を自作するためのSDKにとどまる。",
+  "ベンチマークによる性能評価は含まない、設計中心の報告だ。"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "An open, self-hostable alternative to a big-company personal agent, with user-readable memory and permission checks, but described only in the team's own design report with no performance tests.",
+ "event_date": "Technical report submitted 7 Oct 2026 (Japan time); first release 25 Sep 2026; version 1.0.0 on 9 Oct 2026; Business+IT item published 10 Oct 2026.",
+ "notes": "Japanese text translated by us; the Yahoo! Japan page carries Business+IT's text, and the Business+IT original link is not given there. The article's claims come from the team's own arXiv report; no outside review or benchmark. The underlying events (25 Sep release, 7 Oct report, 9 Oct v1.0.0) predate 10 Oct 2026. Meta's Muse is described the same way in the Pandaily item C02-03."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-11",
+ "v1_category": "HEA",
+ "headline": "Researchers in Shanghai found that AI software can flag osteoporosis on routine CT scans, catching about three in four cases.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a peer-reviewed study with clear numbers, but retrospective, from one hospital and with moderate agreement with the standard test.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Older adults who never get a bone-density test could be flagged during scans taken for other reasons, with no extra radiation or visit, but the software was tested looking back on one hospital's patients and missed roughly one case in four.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on a study in BMC Medical Imaging by a team at Changzheng Hospital in Shanghai that tested commercial AI software on routine lumbar CT scans of 518 patients who also had the standard DXA bone-density scan. About 83 percent of the patients the software flagged did have osteoporosis on DXA, and it found about 73.5 percent of all true cases, but the study looked back at past scans from one centre and needs wider validation.",
+ "url": "https://scienmag.com/ai-finds-hidden-osteoporosis-in-everyday-ct-scans-study-shows/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

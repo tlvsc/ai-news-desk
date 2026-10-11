@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "Security firm CrowdStrike says a Chinese-speaking hacker attacked South Korean banks using a Chinese-built AI network-testing tool and Anthropic's Claude agents.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the main findings repeat CrowdStrike's report already carried on 8 Oct; the added detail on the AI models used is useful but secondary.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Customers of the South Korean banks whose personal and card data was exposed are the people hit, and attackers can borrow ready-made AI tools, but the attacker is not identified and the tool's developer has only stopped new public releases, not recalled existing copies.",
+ "source": "BleepingComputer",
+ "status": "REPORTED",
+ "summary": "BleepingComputer reports, citing security firm CrowdStrike, that a Chinese-speaking hacker attacked South Korean banks including Shinhan, KB Kookmin and Hana using ARTEX, a Chinese-built AI tool for probing networks for weaknesses, together with Claude agents, AI assistants from Anthropic, exposing customers' personal and credit-card data and causing some system outages. CrowdStrike found that the attacker's open server folders held Claude Code session histories and ARTEX settings, that DeepSeek, GLM and Grok AI models were also used, and cautions that résumé details pointing to a 26-year-old in Guangdong are not reliable enough to name the attacker; this adds detail to the CrowdStrike findings in our 8 Oct 2026 edition and to the 10 Oct 2026 report that ARTEX's developer is ending public releases.",
+ "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+ "freshness": "FOLLOW-UP of 10 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "BleepingComputer's own write-up of CrowdStrike's findings. New against earlier editions: the list of AI models behind ARTEX and the Claude Code session records found on the attacker's server. Our 8 Oct 2026 edition carried CrowdStrike's report (via Reuters); our 10 Oct 2026 edition carried the ARTEX developer's decision (TRT World)."
+}

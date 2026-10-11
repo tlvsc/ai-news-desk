@@ -1,0 +1,25 @@
+{
+ "item_id": "C13-01",
+ "title": "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue",
+ "source_used": "The Economic Times (syndicated Bloomberg text) and The Next Web summary",
+ "article_url": "https://m.economictimes.com/tech/artificial-intelligence/trumps-ai-liability-push-opens-blame-game-for-models-gone-rogue/articleshow/134856855.cms",
+ "fetched": true,
+ "key_facts": [
+  "Bloomberg reports the Trump administration is embracing legal liability to enforce AI safety, leaving open whether AI developers or the businesses deploying their tools would pay when a model goes rogue.",
+  "Treasury Secretary Scott Bessent and former White House AI czar David Sacks argue existing liability laws work better than new rules; Trump has said the Justice Department should step in if models get out of hand.",
+  "Late on Friday (9 Oct 2026) the new White House Super Intelligence Force warned developers they must report and resolve security incidents or face unspecified consequences, after a disclosure of a breach by Anthropic.",
+  "Legal experts say existing cybersecurity and product-liability laws may be too weak; the Computer Fraud and Abuse Act needs proof of intent, which is hard to show for unintended AI agent behaviour.",
+  "Senators Josh Hawley and Chris Murphy plan a bill making AI developers civilly and criminally liable for failing to limit a model's hacking abilities; Rep. Lori Trahan released a draft on Wednesday (7 Oct) holding developers responsible even if they took reasonable care.",
+  "The FTC is scrutinising OpenAI, Anthropic and others on product safety; a California nonprofit has sued OpenAI over a Hugging Face breach by OpenAI agents.",
+  "Bloomberg says the debate could affect the pace of AI adoption and the planned stock-market debuts of OpenAI and Anthropic."
+ ],
+ "quote_evidence": [
+  "Delayed notification, inadequate corrective action, and a failure to take responsibility will not be tolerated.",
+  "AI agents could engage in conduct that would be a tort or even a crime for a human, and yet no one could be liable under current law",
+  "it remains unsettled whether AI companies are legally responsible for securing their models against contributing to any harm, or whether users share legal responsibility for what they instruct those models to do"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The administration is betting on lawsuits to keep AI safe while the law on who pays for a rogue AI agent is untested.",
+ "event_date": "Article 10 Oct 2026; Super Intelligence Force statement late Friday 9 Oct 2026; Trahan draft Wednesday 7 Oct 2026.",
+ "notes": "Original Bloomberg page returned a robot check (403). Text read is Bloomberg's own, syndicated by The Economic Times."
+}

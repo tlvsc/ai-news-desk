@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-04",
+ "title": "D-Wave’s Dual-rail Qubits Detect 90% Of Errors, FirstQFM Confirms",
+ "source_used": "FirstQFM company release (read), Quantum Zeitgeist rewrite (read)",
+ "article_url": "https://firstqfm.com/news/firstqfm-d-wave-dual-rail-beta-program",
+ "fetched": true,
+ "key_facts": [
+  "FirstQFM, a Stockholm company that builds AI foundation models for quantum computing, says it is one of four organisations in D-Wave's gate-model beta program.",
+  "The others are BBVA, Florida Atlantic University and the Jülich Supercomputing Centre.",
+  "The program gives early access to a simulator of D-Wave's dual-rail qubit design ahead of its planned gate-model quantum systems.",
+  "D-Wave says the dual-rail design is built to detect about 90% of errors, which reduces the physical qubits and decoding work needed for fault tolerance (D-Wave's own claim).",
+  "A Nature publication recently showed a fast, high-fidelity two-qubit gate that keeps the error-detection property.",
+  "FirstQFM plans to use the simulator to test how detected errors and real-time control can improve quantum calculations.",
+  "D-Wave CEO Alan Baratz called error correction 'a defining challenge in the race to commercially useful gate-model quantum computing'."
+ ],
+ "quote_evidence": [
+  "D-Wave’s dual-rail qubit architecture is designed to identify approximately 90% of errors by encoding quantum information across two modes, allowing for the localization of errors as erasures rather than complete data loss.",
+  "FirstQFM, BBVA, Florida Atlantic University, and the Jülich Supercomputing Centre will gain early access to a simulator of this technology as part of D-Wave’s new gate-model beta program.",
+  "The program aims to prepare participants for future dual-rail gate-model hardware and explore error-aware programming approaches."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Early users can practise error-aware quantum programming before D-Wave's hardware exists; the 90% figure is D-Wave's own claim.",
+ "event_date": "D-Wave launched the beta program on 1 Oct 2026 (press-release copies listed on Google News dated 1 Oct); our 7 Oct 2026 edition carried it; FirstQFM's own statement is dated by Quantum Zeitgeist 7 and 10 Oct 2026",
+ "notes": "Repeat of a story already in our 7 Oct 2026 edition (D-Wave beta program, entry C15-11 of that day, which named FirstQFM and the other three participants); the only addition is FirstQFM's own statement of how it will use the simulator. Quantum Zeitgeist's piece is a rewrite of FirstQFM's release, so the release (firstqfm.com) was read too and is the source. All claims are company claims; the Nature paper was not opened."
+}

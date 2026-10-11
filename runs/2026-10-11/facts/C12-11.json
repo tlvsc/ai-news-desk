@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-11",
+ "title": "GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials",
+ "source_used": "GBHackers News (cross-checked with The Hacker News, 9 Oct 2026)",
+ "article_url": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
+ "fetched": true,
+ "key_facts": [
+  "A GhostAction campaign has expanded to more than 500 compromised GitHub accounts and has put malicious workflows into tens of thousands of repositories since 7 Oct 2026, according to Socket's 9 Oct update.",
+  "An 8 Oct burst hit 346 repositories through the compromised maintainer accounts henrywoo and kitao, including uber/athenadriver and kitao/pyxel; Socket did not find how the first logins were obtained.",
+  "The attackers committed a 'security-audit.yml' workflow that harvests credentials, runs on any push and can be started manually.",
+  "The new variant also scans the full git history for 13 credential patterns, including AWS keys, Anthropic, OpenAI and OpenRouter API keys, and GitHub, GitLab, Google, Slack and SendGrid credentials.",
+  "Stolen data and repository identifiers are sent by plain HTTP POST to an address the report gives as 193.32.204[.]199.",
+  "Socket confirmed successful workflow runs, with Pyxel the clearest case of publishing credentials being targeted, but saw no malicious PyPI or crates.io releases from this activity.",
+  "Defenders are advised to remove the injected workflows, review logs, revoke compromised access and rotate exposed credentials, including old ones kept in commit history."
+ ],
+ "quote_evidence": [
+  "A new GhostAction campaign has expanded to more than 500 compromised GitHub accounts and has injected malicious workflows into tens of thousands of repositories since October 7, 2026.",
+  "Socket confirmed successful workflow runs in affected repositories, with Pyxel providing the clearest publishing-credential targeting example.",
+  "However, researchers had observed no malicious PyPI or crates.io releases attributable to this activity."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers' cloud and AI service keys are being harvested at scale from open-source repositories through hijacked accounts.",
+ "event_date": "Campaign since 7 Oct 2026; Socket update 9 Oct 2026; GBHackers 10 Oct 2026",
+ "notes": "GBHackers relays a Socket update; The Hacker News (9 Oct 2026) carries the same campaign citing StepSecurity, Socket and GitGuardian. Not in our earlier editions."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-08",
+ "v1_category": "HEA",
+ "headline": "A PLOS Digital Health opinion article argues that medical AI tools are approved on test scores that do not show they help real patients.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a well-sourced argument on how AI diagnostic tools are approved, but it is one author's opinion citing earlier studies.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients and clinicians who rely on AI diagnostic tools, and the regulators who approve them, are the ones concerned, but this is one author's argument drawing on earlier studies, not a new trial.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on an opinion article in PLOS Digital Health in which Alex Mirugwe of Makerere University's School of Public Health argues that the accuracy scores used to approve AI diagnostic tools do not show they benefit patients, citing the widely used Epic Sepsis Model, whose reported 87 percent detection rate of sepsis (a life-threatening condition caused by infection) fell to 63 percent when only data from before doctors suspected it was used. Mirugwe proposes testing tools in diverse real-world populations before approval, publishing results by patient group and involving clinicians in design, pointing to a Johns Hopkins sepsis alert built that way that showed patient benefit in a multisite trial, although the two systems differ in other ways.",
+ "url": "https://scienmag.com/high-test-scores-poor-bedside-performance-the-hidden-flaw-in-medical-ai/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated. Opinion piece, so the summary says 'argues'."
+}

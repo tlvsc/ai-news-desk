@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-07",
+ "v1_category": "SEC",
+ "headline": "A South Korean security firm says a Telegram account tied to the AI-assisted bank hacks once moderated an online community run by a Chinese group that stages denial-of-service attacks for hire.",
+ "score": 6,
+ "score_reason": "Pool score kept: new Logpresso findings released on 11 Oct, but they are links between accounts, not proof of who attacked.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Investigators and bank customers now have a possible lead on who attacked seven South Korean financial institutions, but Logpresso itself says the links do not prove who did it and the account's operator is still unidentified.",
+ "source": "The Korea Herald",
+ "status": "REPORTED",
+ "summary": "The Korea Herald reports that Seoul-based security firm Logpresso said on Sunday that the Telegram account \"YY520CN\", which US firm CrowdStrike linked to the bank hacks, was listed in September 2024 as a moderator of GodNet, a community created by Vitas, a Chinese group that stages distributed denial-of-service (DDoS) attacks, which flood a service with traffic to knock it offline, for paying clients. Logpresso stresses that the links do not establish who carried out the hacks, and the operator is unclear because the account was deleted on 8 Oct and a new one with the same name denies involvement; this continues the CrowdStrike findings carried in our 8 Oct 2026 edition.",
+ "url": "https://www.koreaherald.com/article/10898597",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Korea Herald article dated 11 Oct 2026. Logpresso's analysis builds on CrowdStrike's report of 7 Oct 2026 (our 8 Oct 2026 edition, via Reuters). The article also notes ARTEX's developer halted updates and public distribution, citing Reuters."
+}

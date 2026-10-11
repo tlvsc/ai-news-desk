@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-06",
+ "title": "NVDA Reportedly Weighs Lower-Memory Rubin Ultra GPU Designs To Ease HBM Bottleneck — Why Retail Is Watching Micron",
+ "source_used": "Stocktwits, relaying The Information",
+ "article_url": "https://stocktwits.com/news-articles/markets/equity/nvidia-reportedly-weighs-lower-memory-rubin-ultra-gpu-designs-to-ease-hbm-bottleneck-why-retail-is-watching-micron/cZoBEGYRJJl",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia is reportedly testing at least three versions of its next-generation Rubin Ultra GPU, some with less high-bandwidth memory (HBM) than originally planned, as reported by The Information citing people with knowledge of the trial.",
+  "The testing has gone on over the past few weeks.",
+  "Nvidia is considering the lower-memory designs partly because it may not be able to secure enough advanced memory chips for the original configuration.",
+  "Lower memory could affect performance, and AI companies running large models on the reduced versions may need to deploy more GPUs, per the report.",
+  "Jensen Huang unveiled Rubin Ultra at Nvidia's 2025 developer conference, with 1TB of HBM4E across 16 stacks per GPU.",
+  "The HBM shortage has pushed up prices and raised costs across the technology industry, according to The Information.",
+  "Stocktwits adds retail-trader commentary that Micron, an HBM supplier to Nvidia, could benefit; this is opinion, not reporting."
+ ],
+ "quote_evidence": [
+  "Over the past few weeks, Nvidia has been testing at least three versions of the Rubin Ultra GPU, some of which feature less memory than the company initially announced, reported The Information, citing people with knowledge of the trial.",
+  "The company is considering the lower-memory designs in part because it may not be able to secure enough advanced memory chips to support its original configuration.",
+  "While lower memory could affect performance, AI companies running large models on the reduced-memory versions may need to deploy more GPUs than they otherwise would, according to the report."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Even the leading AI chipmaker may have to cut memory in its next chip because memory is scarce, which could mean AI customers need more chips and pay more.",
+ "event_date": "Not stated. The Stocktwits text refers to 'Thursday afternoon trading', which points to Thursday 8 Oct 2026; the original The Information report is earlier or the same day.",
+ "notes": "The original (The Information, usually behind a paywall) was not read; the text read is Stocktwits' relay of it, so the source credit goes to The Information. The report's own date was not found, so the 8 Oct 2026 date is inferred from 'Thursday' and could be earlier. No comment from Nvidia in the article."
+}

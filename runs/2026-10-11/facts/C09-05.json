@@ -1,0 +1,22 @@
+{
+ "item_id": "C09-05",
+ "title": "Entergy warns AWS of potential data center disconnections in Mississippi",
+ "source_used": "Crypto Briefing (short relay) plus the public lede of The Information's report of 8 Oct 2026",
+ "article_url": "https://cryptobriefing.com/entergy-warns-aws-of-potential-data-center-disconnections-in-mississippi/",
+ "fetched": true,
+ "key_facts": [
+  "Entergy Mississippi has reportedly warned Amazon Web Services (AWS) that its data centers in the Jackson area could be disconnected during periods of peak electricity demand.",
+  "The warning reflects grid capacity constraints as Amazon expands its data center footprint in the region.",
+  "The notice prompted AWS to modify its power systems so they can switch automatically to backup generation.",
+  "The original report is The Information's 'How Amazon Rewired Its Data Centers After Mississippi Power Warning' (8 Oct 2026); its public lede says that earlier this year Entergy told Amazon it would have to start kicking its Mississippi data centers off the grid at peak times to ensure it could support other customers, according to two people (the line is cut off)."
+ ],
+ "quote_evidence": [
+  "Entergy Mississippi has reportedly warned Amazon Web Services (AWS) about potential disconnections of its data centers in the Jackson area during periods of peak electricity demand.",
+  "The utility’s notice has prompted AWS to modify its power systems to allow automatic switching to backup generation.",
+  "Earlier this year, officials at Mississippi electric utility Entergy had some worrisome news for Amazon: It was going to have to start kicking the company’s Mississippi-based data centers off the grid during peak times to ensure it could support other customers"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A big cloud company may have to run its data centers on backup power at peak times so other customers keep theirs.",
+ "event_date": "Warning given 'earlier this year' (2026); reported 8 Oct 2026",
+ "notes": "Crypto Briefing text is a thin, hedged relay ('reportedly'); its closing paragraph about Texas and Louisiana is speculation and was not used. The Information article is paywalled; only its meta description was read. GuruFocus (a stock site) gave an 'Oct 9' date and a name 'Project Falcon' for AWS's backup-power change; that conflicts with The Information's 'earlier this year', so neither was used."
+}

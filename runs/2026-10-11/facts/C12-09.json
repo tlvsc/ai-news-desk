@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-09",
+ "title": "Critical vulnerability in GitLab AI Gateway affects Duo Agent Platform users",
+ "source_used": "The Hacker News (2 Oct 2026); the pool item SecNews.gr showed only a security check page",
+ "article_url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+ "fetched": true,
+ "key_facts": [
+  "GitLab disclosed on 2 Oct 2026 a critical flaw in its AI Gateway, tracked as CVE-2026-90970 and rated 9.9 out of 10, that could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions.",
+  "The gateway connects a GitLab instance to AI models; only organisations that host their own gateway need to act, because GitLab already fixed the gateways it runs.",
+  "The flaw is fixed in gateway versions 19.2.4, 19.3.2 and 19.4.1; no workaround is listed.",
+  "The flaw is in the prompt template of a custom flow; a logged-in user could 'escape the prompt template sandbox via a specially crafted flow configuration'.",
+  "The advisory does not say whether the flaw has been used in attacks; CISA's assessment on the CVE record lists exploitation as 'none'.",
+  "GitLab credited the HackerOne user invisiblemeerkat; a similar 9.9-rated gateway flaw (CVE-2026-1868) was fixed in February."
+ ],
+ "quote_evidence": [
+  "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory.",
+  "The advisory does not say whether the flaw has been used in attacks.",
+  "GitLab disclosed it on October 2 and rated it critical, with a CVSS score of 9.9 out of 10."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Organisations that host their own GitLab AI Gateway must update to stop a logged-in user from running commands on it.",
+ "event_date": "2 Oct 2026",
+ "notes": "OLDER NEWS RE-DATED: the pool item is a SecNews.gr page dated 10 Oct 2026 (it showed only a security check page, so its text was not read). The same flaw was reported by The Hacker News, SQ Magazine and others on 2 to 3 Oct 2026 and was in our 3 Oct 2026 edition (BleepingComputer). Credit moved to The Hacker News, which reported it first among the outlets read."
+}

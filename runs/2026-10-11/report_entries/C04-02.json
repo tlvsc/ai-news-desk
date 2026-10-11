@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-02",
+ "v1_category": "RES",
+ "headline": "A UK nonprofit found that three in five of more than 130 AI models failed its terrorism safety tests, and models stripped of their safeguards failed every one.",
+ "score": 5,
+ "score_reason": "Pool 6 lowered by 1: CBC News reported the study on Fri 9 Oct 2026, before the window; read in full and not overstated, but the scores come from the nonprofit's own benchmark.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows that open AI models can have their safety rules stripped out and then answer questions on attacks and terrorist financing, which matters to security agencies and the public first, then to model hosts and makers such as Hugging Face and Meta, though the study found almost no evidence of real-world misuse.",
+ "source": "CBC News",
+ "status": "REPORTED",
+ "summary": "CBC News reported on Friday 9 Oct 2026, as relayed by Anadolu Agency, that the UK nonprofit Tech Against Terrorism tested more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might send, and three in five failed; models modified through \"abliteration\", a process that removes built-in safeguards, failed every test, and Meta's Llama 3.1 8B fell from 97 out of 100 on the group's safety benchmark to about 3. The study found no sign of extremist groups using the tested models, except one extremist chatbot, and counted more than 29,000 repositories on the model-sharing site Hugging Face advertising uncensored or unprotected models; Hugging Face says it moderates violating content but warned that some of the report's recommendations could undermine open research.",
+ "url": "https://aa.com.tr/en/science-technology/3-in-5-ai-models-fail-terrorism-safety-tests-study/4084319",
+ "freshness": "FOLLOW-UP of 9 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read on Anadolu Agency's page, which relays CBC News; the CBC original was not found, so the link is Anadolu's. Not a follow-up of any story we carried: the label only records that the study was reported on 9 Oct 2026, one day before the window."
+}

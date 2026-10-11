@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-10",
+ "title": "AI Spots the Earliest Whisper of Alzheimer's Disease in Routine Brain Scans",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/ai-spots-the-earliest-whisper-of-alzheimers-disease-in-routine-brain-scans/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at the Information Center of Shanghai Chest Hospital (Shanghai Jiao Tong University School of Medicine) published the study in BMC Medical Imaging.",
+  "The study targets subjective cognitive decline (SCD), where people report worse memory or thinking while standard neuropsychological tests remain normal; it is regarded as a preclinical stage of Alzheimer's.",
+  "They used 234 normal controls and 229 people with SCD from the Alzheimer's Disease Neuroimaging Initiative, all with standard T1-weighted MRI.",
+  "A hybrid model (HVRA) combining radiomics features and vision-transformer deep features reached 88.98 percent accuracy (standard deviation 3.42) and an AUC of 0.941 in repeated cross-validation.",
+  "It beat deep-feature-only, radiomics-only, direct-concatenation and learnable-fusion approaches.",
+  "Four consensus features correlated significantly with participants' cognitive test performance.",
+  "The model was validated internally within one cohort; external validation on independent datasets is needed before clinical use."
+ ],
+ "quote_evidence": [
+  "A new study published in BMC Medical Imaging suggests that a carefully engineered hybrid of deep learning and radiomics can pull this faint signal out of ordinary T1-weighted MRI scans, achieving an accuracy of nearly 89 percent in distinguishing people with SCD from healthy controls.",
+  "The team assembled 234 normal controls and 229 individuals with subjective cognitive decline, all of whom had undergone structural T1-weighted magnetic resonance imaging.",
+  "The model was validated internally within the ADNI cohort using repeated cross-validation, a rigorous approach for estimating performance, but external validation on independent datasets from different scanners, populations, and geographic regions will be essential before the method can move toward clinical use."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A routine MRI might help flag people with early memory complaints, but the model was checked only inside one dataset and separates two groups, not future Alzheimer's cases.",
+ "event_date": "Scienmag article dated 11 Oct 2026; study publication date not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated. The publisher headline says the AI spots 'Alzheimer's'; the study separates SCD from healthy controls."
+}

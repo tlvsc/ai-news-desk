@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-03",
+ "title": "Anthropic might be developing its own voice models",
+ "source_used": "TestingCatalog AI News",
+ "article_url": "https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/",
+ "fetched": true,
+ "key_facts": [
+  "TestingCatalog spotted a separate hidden 'Voice' item in Claude's web navigation labeled 'Preview', which refers to Anthropic's internal preview environment, not a public release.",
+  "No details have surfaced on what the interface would offer or how it differs from Claude's existing voice mode.",
+  "Anthropic recently added an optional, off-by-default setting letting users share voice recordings and conversation data for model training, separate from the consent for text conversations.",
+  "TestingCatalog says collecting this data could indicate Anthropic is preparing its own speech models, but it could also support existing voice features.",
+  "Claude already supports voice conversations on mobile, desktop and web, using its language models to process speech and generate spoken replies.",
+  "Anthropic previously held talks with ElevenLabs about voice partnerships; the underlying voice provider has not been officially confirmed, and Anthropic has not released its own text-to-speech models through its API."
+ ],
+ "quote_evidence": [
+  "No details have surfaced about what the interface would offer or how it might differ from Claude’s existing voice mode.",
+  "However, it remains unclear whether Anthropic is developing a real-time voice model, redesigning the interface, or testing something entirely different.",
+  "There is also no indication of when this experiment could become publicly available."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A hidden menu item and a new data-sharing setting hint at Anthropic work on voice, but nothing is confirmed.",
+ "event_date": "Spotted around 10 Oct 2026",
+ "notes": "Read TestingCatalog in full. Single-outlet sighting of an unreleased feature; the voice-data setting is circumstantial and TestingCatalog itself says it could support existing voice features."
+}

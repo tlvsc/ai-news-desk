@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-11",
+ "title": "AI Finds Hidden Osteoporosis in Everyday CT Scans, Study Shows",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/ai-finds-hidden-osteoporosis-in-everyday-ct-scans-study-shows/",
+ "fetched": true,
+ "key_facts": [
+  "A team at Changzheng Hospital of Naval Medical University in Shanghai published the study in BMC Medical Imaging.",
+  "It was a retrospective study of 518 patients who had both DXA (the standard bone-density scan) and a lumbar non-contrast CT.",
+  "Commercial AI software segmented the vertebrae and measured volumetric bone mineral density from T12 to L2; four ways of combining the vertebrae were compared.",
+  "The four AI methods agreed closely with each other (ICC 0.909), and agreed with DXA less closely (ICCs 0.649 to 0.689).",
+  "For flagging osteoporosis the AI had precision 0.834 and recall 0.735, so about 83 percent of its flags were right and it caught roughly three-quarters of true cases.",
+  "Averaging density over T12, L1 and L2 performed best.",
+  "The study was single-centre and retrospective, used one commercial product, and needs validation across populations and scanner types."
+ ],
+ "quote_evidence": [
+  "Their retrospective study enrolled 518 patients who had undergone both DXA and lumbar non-contrast CT, allowing direct comparison of the two modalities in the same individuals.",
+  "Here the AI achieved a precision of 0.834—meaning that when it flags a patient as osteoporotic, it is right about 83 percent of the time—and a recall of 0.735, meaning it catches roughly three-quarters of true osteoporosis cases.",
+  "Cautions remain, as they must with any retrospective, single-center study."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Scans taken for other reasons could double as a bone-density check at no extra radiation or visit, but about one in four cases was missed in this single-centre study.",
+ "event_date": "Scienmag article dated 10 Oct 2026; study publication date not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

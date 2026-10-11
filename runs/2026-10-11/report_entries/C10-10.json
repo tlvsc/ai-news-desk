@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-10",
+ "v1_category": "HEA",
+ "headline": "Researchers in Shanghai built an AI model that tells people with subjective memory complaints from healthy people on routine brain MRI scans with about 89 percent accuracy.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered to 4: the publisher headline implies AI spots Alzheimer's, but the study only separates people with memory complaints from healthy controls in one dataset, with internal checks only.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People worried about early memory changes could one day get an earlier answer from a scan already used in many clinics, but the model was tested only inside one research dataset and separates two groups; the report does not say it predicts who will develop Alzheimer's.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on a study in BMC Medical Imaging by researchers at Shanghai Chest Hospital in which an AI model combining deep learning with radiomics (numerical measurements of image texture and shape) told 229 people with subjective cognitive decline, a stage where people feel their memory has worsened though standard tests are normal, from 234 healthy controls on standard MRI scans with 88.98 percent accuracy. The result comes from a single research cohort, the Alzheimer's Disease Neuroimaging Initiative, and was checked only internally, so the authors say independent validation is needed before any clinical use.",
+ "url": "https://scienmag.com/ai-spots-the-earliest-whisper-of-alzheimers-disease-in-routine-brain-scans/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

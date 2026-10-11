@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-13",
+ "v1_category": "HEA",
+ "headline": "Researchers found that an AI score calculated from an ordinary ECG can flag patients most likely to have significantly narrowed heart arteries before an invasive heart procedure.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a prospective study with a useful result (AUROC 0.79), but from one centre in patients already booked for angiography.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients with heart symptoms who face an invasive artery test are affected, but the study was at one centre among people already booked for angiography, results may differ elsewhere, and the score is meant to add to, not replace, clinical judgment.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on a prospective study in PLOS Digital Health, led by Salah Al-Zaiti, of 363 patients booked for elective coronary angiography (an invasive scan of the heart's arteries) at one tertiary medical centre, in which an AI score computed from a standard 12-lead ECG put 44 percent in an intermediate-to-high risk group. That group had roughly three times the odds of a significantly narrowed artery (odds ratio 3.12) and the score reached an AUROC of 0.79 (where 0.5 is chance), but the authors say it needs validation in other, more diverse groups.",
+ "url": "https://scienmag.com/ai-turns-a-routine-ecg-into-a-powerful-predictor-of-hidden-heart-artery-disease/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

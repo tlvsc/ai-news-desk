@@ -1,0 +1,24 @@
+{
+ "item_id": "C11-12",
+ "title": "Humanoid robots to lift DRAM demand more than 20-fold by 2030, Counterpoint says",
+ "source_used": "Chosunbiz English (read in full from the pre-fetched text); it reports a Counterpoint Research forecast",
+ "article_url": "https://biz.chosun.com/en/en-it/2026/10/11/CQDL25KUSRH2XHUTP3XPQ3B3ZE/?outputType=amp",
+ "fetched": true,
+ "key_facts": [
+  "Counterpoint Research projects DRAM demand from humanoid robots to rise more than 20-fold, from about 8,300 terabits this year to about 172,000 terabits in 2030.",
+  "The causes are more robots in use and more memory in each: average DRAM per humanoid is expected to more than double from 19 GB this year to 39 GB in 2030.",
+  "Battery-powered humanoids must process sensor data in real time while saving power, so demand for low-power DRAM (LPDDR) and high-capacity NAND flash is also expected to rise.",
+  "Chosunbiz says this opens a new market for memory makers such as Samsung Electronics and SK hynix, after high-bandwidth memory (HBM) for AI data centers.",
+  "Micron CEO Sanjay Mehrotra said at its earnings release on 30 Sep 2026 that Level 4 and higher autonomous vehicles carry more than 200 GB of memory and that humanoids will need a similar level over the long term.",
+  "Counterpoint also expects demand to grow for compute chips, including Nvidia GPUs, as robot AI models advance."
+ ],
+ "quote_evidence": [
+  "According to market research firm Counterpoint Research on the 11th, DRAM demand in the global Humanoid Robot industry is projected to rise more than 20-fold, from about 8,300 terabits (Tbit) this year to about 172,000 terabits in 2030.",
+  "The average DRAM capacity per Humanoid Robot is expected to more than double, from 19 gigabytes (GB) this year to 39 GB in 2030.",
+  "For memory companies such as Samsung Electronics and SK hynix, this effectively opens a new market."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Humanoid robots could become a new, large customer for memory chips, but this is a forecast out to 2030.",
+ "event_date": "11 Oct 2026 (forecast reported); earnings remark 30 Sep 2026",
+ "notes": "A forecast from a research firm, relayed by Chosunbiz; the Counterpoint note itself was not read. It depends on how many humanoids are actually built and sold. The category stays ROB (default); ENE (chips) would also fit."
+}

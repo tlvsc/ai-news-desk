@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-03",
+ "title": "Newer AI models missed more payment fraud in Coinbase’s benchmark",
+ "source_used": "CryptoSlate",
+ "article_url": "https://cryptoslate.com/coinbase-benchmark-finds-newer-ai-models-missed-more-payment-fraud/",
+ "fetched": true,
+ "key_facts": [
+  "Coinbase reported on 7 Oct 2026 that newer versions of three major AI model families caught fewer fraudulent payments, and a smaller share of fraud value, in a historical test of payment screening for its Onramp service, with an unchanged decision policy.",
+  "The replay covered 16,140 transactions across 7,293 users, including 813 confirmed fraudulent transactions, from the nine weeks before its risk agent rolled out.",
+  "Coinbase compared Opus 4.5 with Opus 5, Sonnet 4.6 with Sonnet 5, and GPT-5.4 with GPT-5.6; every newer version had lower recall, lower F1 and lower dollar-weighted recall.",
+  "Sonnet's recall fell 22.2 percentage points and its dollar-weighted recall 22.9 points; Opus's recall fell 0.8 points; both newer models also had lower precision.",
+  "GPT's precision rose 11.5 points but its recall fell 20.7 points and dollar-weighted recall 21.8 points.",
+  "The replay does not establish customer losses from deploying those versions, and Coinbase said it could identify the regressions without establishing their cause.",
+  "In a separate 8 Oct 2026 disclosure, Coinbase said a post-trained Qwen3.5-9B model beat Opus 4.5 on four fraud-detection metrics and cut median LLM-request latency by 55%.",
+  "The SR-Fraud researchers say in their limitations that the proprietary dataset cannot be released, restricting independent replication."
+ ],
+ "quote_evidence": [
+  "Every newer version had lower recall, a lower combined precision-and-recall score called F1, and lower dollar-weighted recall.",
+  "The replay does not establish customer losses from deploying those versions.",
+  "Coinbase also said it could identify the regressions without establishing their cause."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Upgrading an AI model does not automatically improve a payment-fraud screener, so firms need to test their own setup first.",
+ "event_date": "Coinbase report 7 Oct 2026 (further disclosure 8 Oct 2026); CryptoSlate article 10 Oct 2026",
+ "notes": "Read in full on CryptoSlate; Coinbase's own posts were not opened. Company's own test on proprietary data with no outside review reported. Event is three days before the window start (older news re-dated into the window); the desk has not carried it before, so the editor decides whether to hold it. Model names are as written in the article."
+}

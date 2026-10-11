@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-16",
+ "v1_category": "MOD",
+ "headline": "Researchers at China's Zhejiang University have released nanoMuse, a free open-source personal AI agent that can operate phone and computer screens, as what they present as an open counterpart to Meta's Muse.",
+ "score": 4,
+ "score_reason": "Pool score lowered one point: the release (25 Sep 2026) and technical report (7 Oct 2026) predate 10 Oct, and the report gives no performance tests.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who want a personal AI agent they control could use or inspect free software whose memory is readable files and, the report says, that sends nothing off the device except traffic to the chosen model, but this is a research team's own design report with no benchmark results.",
+ "source": "Business+IT, citing the nanoMuse technical report on arXiv",
+ "status": "PRELIMINARY",
+ "summary": "Business+IT reports, citing the team's technical report on the arXiv preprint site (posted 7 Oct 2026, Japan time), that Zhejiang University researchers released nanoMuse under the GPL-3.0 open-source licence: an agent that keeps one conversation across a user's phones and computers, runs a permission check called Sentinel on every action, and can operate Android phone and desktop screens, though that screen control is off by default and not available on iPhone. The report says Meta's Muse, announced on 8 Sep 2026, remains non-public apart from a developer kit published on 2 Oct, and it contains no benchmark results; nanoMuse was first released on 25 Sep 2026 and version 1.0.0 followed on 9 Oct 2026, according to GitHub.",
+ "url": "https://news.yahoo.co.jp/articles/b5b270504db682995f7866004c6c98d8ff26a3d1",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in Japanese on Yahoo! Japan News, which carries Business+IT's text (the Business+IT original link is not given there); the entry credits Business+IT, and the url is the page where the text was read. Translated by us. Freshness uses the technical report's date; we have not carried nanoMuse before."
+}

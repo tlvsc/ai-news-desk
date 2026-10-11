@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-14",
+ "title": "New AI Model Forecasts Hidden Side Effects of Drug Combinations",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/new-ai-model-forecasts-hidden-side-effects-of-drug-combinations/",
+ "fetched": true,
+ "key_facts": [
+  "Ruben Jimenez and Alberto Paccanaro published the study in PLOS Computational Biology.",
+  "DCSE (Drug Combinations Side Effects) is a machine learning method that predicts which side effects are likely when specific drugs are combined, by learning compact numerical 'latent signatures' for drugs, drug pairs and side effects.",
+  "The authors argue standard benchmarks in the field use balanced test sets and sampled negative examples, which make the task much easier than the real, highly imbalanced situation.",
+  "They instead trained on data from before a cutoff and asked the model to predict side effects first reported between 2009 and 2014, in 'warm-start' (some effects known for the pair) and 'cold-start' (no information on the pair) cases.",
+  "In both settings DCSE consistently outperformed state-of-the-art methods, according to the authors; the article gives no performance figures.",
+  "The authors frame DCSE as decision support, not a replacement for clinical judgment or pharmacovigilance.",
+  "Possible uses named: ranked warnings for prescribers, prioritising drug-safety reports, and choosing combinations for formal testing."
+ ],
+ "quote_evidence": [
+  "A new machine learning method called DCSE, short for Drug Combinations Side Effects, promises to close part of that gap by predicting which side effects are likely to emerge when specific drugs are combined.",
+  "They trained the model exclusively on data available before a fixed cutoff and then asked it to predict side effects that were only reported between 2009 and 2014, years after the training data ends.",
+  "Across both warm-start and cold-start settings, DCSE consistently outperformed state-of-the-art methods, demonstrating robustness and efficacy under conditions that more closely resemble real-world deployment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People taking several medicines face untested combinations; a model that holds up on tougher, forward-looking tests could help flag risks, but it is research on historical data.",
+ "event_date": "Scienmag article dated 10 Oct 2026; study publication date not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

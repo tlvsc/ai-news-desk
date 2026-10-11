@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-07",
+ "title": "AI labs are now spending more compute teaching models to think than to learn",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/ai-labs-are-now-spending-more-compute-teaching-models-to-think-than-to-learn/",
+ "fetched": true,
+ "key_facts": [
+  "The article argues that frontier AI labs are putting more compute into post-training (teaching a model to reason) and inference-time reasoning, not only into ever-larger pretraining runs.",
+  "Its standfirst says Epoch AI data shows post-training compute overtook pretraining in early 2026, but the body does not present that data.",
+  "The body cites an Epoch AI analysis estimating that GPT-5 (August 2025) used less training compute than GPT-4.5, and says public evidence does not reveal the full training budgets of either model.",
+  "It traces the shift to reinforcement-learning-on-reasoning techniques published from September 2024, and to DeepSeek's R1 in January 2025, after which most major labs shipped reasoning variants.",
+  "It says industry estimates put reasoning models at 10 to 100 times more tokens per query than non-reasoning models, so inference compute is used every time a user asks something.",
+  "It ties this to Micron's record fiscal fourth-quarter revenue of $54.23 billion (announced 30 Sep) and TrendForce's estimate that the nine biggest cloud providers will spend over $886.7 billion in 2026.",
+  "The author presents these links as interpretation ('Frankly, this reframes...') and adds that pretraining does not disappear."
+ ],
+ "quote_evidence": [
+  "Public evidence still does not reveal the full training budgets for either model, but the direction is clear: the new performance gains are coming from a mix of pretraining, post-training and inference-time reasoning rather than a simple bigger-pretraining-run story.",
+  "None of this means pretraining disappears. Someone still has to build the base model those reasoning techniques get bolted onto.",
+  "Frankly, this reframes the entire AI capex argument that bond investors and chip analysts keep having."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If true, AI chip and memory demand would depend more on running reasoning models than on training bigger ones, but the article's own evidence is partial.",
+ "event_date": "Article dated 11 Oct 2026; the trend it describes dates from Sep 2024 to 2025",
+ "notes": "Read Startup Fortune in full. An analysis and opinion piece, not new reporting. Headline and standfirst state a crossover as fact that the body does not support with data. Sections about Micron's venture fund and a looped transformer paper are unrelated inserts and were not used."
+}

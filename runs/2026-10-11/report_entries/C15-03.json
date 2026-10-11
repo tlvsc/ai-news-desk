@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-03",
+ "v1_category": "RES",
+ "headline": "UK start-up Aegiq and the University of Sheffield published a design for a light-based quantum computer that they calculate can tolerate far more lost light than earlier designs.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: the paper appeared on 8 Oct and was covered on 9 Oct, and the '4x' headline compares against a single earlier figure for a calculated, not built, design.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "A design that survives more lost light would make light-based quantum computers easier to build, which matters to researchers and later to fields like drug and materials design, but it is a calculation from one start-up with no machine shown and it relies on photon sources that cannot yet be made in the quantity needed.",
+ "source": "Tech Times",
+ "status": "REPORTED",
+ "summary": "Tech Times reports that Aegiq, a Sheffield quantum start-up, and the University of Sheffield published a peer-reviewed paper on 8 Oct 2026 in Quantum Science and Technology describing QGATE, a design for a quantum computer that uses photons (particles of light) as its qubits, the basic units of quantum information. The authors calculate that errors can still be corrected when 10.4% or 26% of photons are lost, depending on the set-up, against a best earlier published figure of 6.4% (Quandela, 2024), but these are theoretical results that assume a source of single photons on demand that has not yet been shown in the quantity needed.",
+ "url": "https://www.techtimes.com/articles/328869/20261011/photonic-quantum-computing-chip-tolerates-4x-more-light-loss-any-rival.htm",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the full Tech Times text. Headline's '4x ... any rival' not repeated; it compares the higher 25.98% figure with one earlier figure (6.4%). Thresholds are calculated, not measured on hardware. Tech Times wrote its own long report from the paper (DOI 10.1088/2058-9565/aea970 as given by the article); the paper itself was not opened."
+}

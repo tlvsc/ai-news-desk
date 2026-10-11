@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-10",
+ "title": "Tesla Says Optimus Learned to Do Chores Just by Watching Humans on Video",
+ "source_used": "Startup Fortune (read in full from the pre-fetched text); it cites Drive Tesla Canada and eWeek, which could not be found in a Google News search",
+ "article_url": "https://startupfortune.com/tesla-says-optimus-learned-to-do-chores-just-by-watching-humans-on-video/",
+ "fetched": true,
+ "key_facts": [
+  "Tesla's Optimus AI team says it has gotten the Optimus humanoid robot to pick up complex two-handed chores largely by watching video of people doing them.",
+  "One network trained on first-person footage of humans now lets Optimus vacuum a room, stir food in a pot, take out the trash and sort auto parts without a person steering each motion.",
+  "Workers wear helmets and backpacks fitted with five in-house cameras and do mundane tasks; the approach replaced motion-capture suits and teleoperation rigs, per driveteslacanada.ca and eWeek.",
+  "Murtaza Dalal of Tesla's Optimus AI team said teleoperation does not scale and video training does.",
+  "In factory settings Optimus can identify a Model X fore link, pull it from a labeled box and set it on a dolly ramp; the same network takes spoken or typed commands.",
+  "Tesla is reportedly pushing toward training on generic third-person internet video, which today's system does not yet use.",
+  "Tesla has not published failure rates, task success percentages or how the system handles tasks it has never seen."
+ ],
+ "quote_evidence": [
+  "Tesla's Optimus AI team says it has gotten the humanoid robot to pick up complex, two-handed chores largely by watching video of people doing them.",
+  "According to reporting from driveteslacanada.ca and eWeek, that footage then trains Optimus to mimic the same motions.",
+  "Tesla hasn't published failure rates, task success percentages, or how the system handles video of tasks it's never seen demonstrated at all."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "If Tesla's claim holds, robots could learn from huge amounts of ordinary video instead of slow remote control, but there are no published results.",
+ "event_date": "Not stated (article dated 10 Oct 2026)",
+ "notes": "Second-hand: Startup Fortune relays driveteslacanada.ca and eWeek, which in turn relay Tesla's team; the original Tesla post was not found. Searches of Google News found only the Startup Fortune article. The article also contains an opinion section comparing the idea to large language models; that analysis is the outlet's and was left out of the summary."
+}

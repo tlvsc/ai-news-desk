@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-06",
+ "title": "Vambo AI Releases MORENA, a 1.5B Open-Weight Model Trained From Scratch for 12 African Languages",
+ "source_used": "iAfrica.com",
+ "article_url": "https://iafrica.com/vambo-ai-releases-morena-a-1-5b-open-weight-model-trained-from-scratch-for-12-african-languages/",
+ "fetched": true,
+ "key_facts": [
+  "South African startup Vambo AI has released MORENA, an open-weight 1.5-billion-parameter language model trained from scratch for 12 African languages plus English and French.",
+  "The 12 languages are ChiShona, Kiswahili, Hausa, Yoruba, Igbo, isiZulu, isiXhosa, Kinyarwanda, Setswana, Afrikaans, isiNdebele and Nigerian Pidgin.",
+  "Co-founder Isheanesu Misi calls it the largest open African AI model trained from scratch and says it outperforms a Google model eight times its size on African text modelling.",
+  "iAfrica notes that no benchmark is named, the Google model is not identified and no results have been published, so this is Misi's claim, not a demonstrated finding.",
+  "Misi says the model breaks African-language text into units (tokens) more efficiently, making it cheaper to run and to adapt.",
+  "Vambo recommends fine-tuning rather than direct deployment; the model is positioned as a base for others to build on.",
+  "No licence terms, download location, training data provenance, compute budget or funding details are given.",
+  "Vambo AI was founded in April 2023 by Chido Dzinotyiwei and Isheanesu Misi."
+ ],
+ "quote_evidence": [
+  "Misi says MORENA outperforms a Google model eight times its size on African text modelling.",
+  "No benchmark is named, the Google model is not identified, and no results have been published.",
+  "No licence terms, download location, training data provenance, compute budget or funding detail."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small open model built for African languages could lower costs for local developers, but its performance claim is unproven and its licence is unknown.",
+ "event_date": "Release date not stated; article dated 10 Oct 2026",
+ "notes": "Read iAfrica in full. It reads as its own reporting and commentary; it quotes Misi directly. Performance and cost claims are the founder's own."
+}

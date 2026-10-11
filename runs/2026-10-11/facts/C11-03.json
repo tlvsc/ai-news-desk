@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-03",
+ "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+ "source_used": "Fakti.bg (English page of 10 Oct 2026, 18:48, relaying the Wall Street Journal report); the WSJ page itself is blocked (HTTP 401, bot wall)",
+ "article_url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+ "fetched": true,
+ "key_facts": [
+  "Fakti.bg relays a Wall Street Journal report that exercises in the desert showed the US Army still struggles to use combat drones in ground units.",
+  "The exercise was Project Convergence Capstone 6 at Fort Irwin, California: more than 8,500 soldiers of the 4th Infantry Division took part in a ten-day exercise in July.",
+  "They tested new command-and-control systems and unmanned aircraft including the Archer, Bolt-M and Rogue 1.",
+  "Drones let reconnaissance teams see further and strike targets without leaving shelter; in some units one operator controlled several drones with swarm software.",
+  "Advertised range was often not reached because of airspace limits, terrain, wind and radio interference; some systems overheated in the sun and video links dropped behind hills or under electronic jamming.",
+  "Weight was a problem: the Rogue 1 kit weighs about 13.6 kg and the Bolt-M up to 7.6 kg, without the ground station; soldiers left some batteries and cases behind.",
+  "The report contrasts US units, which must carry all equipment, with Ukrainian troops, who often fly from fortified positions."
+ ],
+ "quote_evidence": [
+  "We are talking about Project Convergence Capstone 6, held at Fort Irwin, California.",
+  "However, practical tests have shown that the advertised range of the devices is not always achievable in the field.",
+  "Some of the systems have overheated in the strong sun, and the video link has been interrupted behind hills or when electronic jamming equipment is used."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The US Army's own drone test shows range, heat, weight and jamming problems that must be solved before soldiers can rely on combat drones.",
+ "event_date": "July 2026 (exercise); WSJ report 10 Oct 2026",
+ "notes": "The WSJ original could not be read (HTTP 401, bot wall). Read through Fakti.bg's English relay (a Bulgarian news site) after a Google News search; the relay's names and numbers were not checked against the original, and a lieutenant's name in the relay looks garbled, so no soldiers are named. The exercise was in July 2026 but the Journal's assessment is new reporting of 10 Oct, so freshness is NEW; pool score 6 lowered to 5 because the exercise is three months old and the text is a second-hand relay."
+}

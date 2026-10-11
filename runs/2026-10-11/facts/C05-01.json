@@ -1,0 +1,25 @@
+{
+ "item_id": "C05-01",
+ "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft CEO Satya Nadella posted on X on Saturday morning (10 Oct 2026) about the 'trust architecture' of AI.",
+  "He said AI should not be treated as a set of nested black boxes whose recommendations and actions people simply accept or reject.",
+  "He proposed separating the model from the harness that orchestrates its work and putting controls and safeguards outside the model.",
+  "He called for every meaningful model action to be documented with tamper-proof, human-readable evidence.",
+  "He called for systems in which an authorized person can always pause or shut down a model mid-task.",
+  "He said to assume a model is compromised and contain it from the start, 'like an emergency brake'.",
+  "TechCrunch ties the post to growing acknowledgements by AI companies of incidents in which they seemed to lose control of their models, and to Anthropic CEO Dario Amodei publishing a plan for more cautious AI development."
+ ],
+ "quote_evidence": [
+  "“We must assume a model is compromised and contain it from the start,” he said.",
+  "He also called for “every meaningful model action” to be documented with “tamper-proof human readable evidence,” and for systems where “an authorized person” always has the ability “to pause or shut down a model mid-task.”",
+  "Nadella’s comments come as leading AI companies acknowledge more and more incidents where they seemed to lose control of their models, and after Anthropic CEO Dario Amodei published a plan for more cautious AI development."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The head of a major AI company sets out concrete off-switch and record-keeping rules while AI agent incidents pile up.",
+ "event_date": "Saturday 10 Oct 2026 (X post)",
+ "notes": "Whole TechCrunch article read (short). A proposal in a post, no Microsoft product or date. Stocktwits and MyBroadband headlines (seen only as headlines) report the same post."
+}

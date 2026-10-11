@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-03",
+ "title": "Photonic Quantum Computing Chip Tolerates 4x More Light Loss Than Any Rival",
+ "source_used": "Tech Times",
+ "article_url": "https://www.techtimes.com/articles/328869/20261011/photonic-quantum-computing-chip-tolerates-4x-more-light-loss-any-rival.htm",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Aegiq Ltd (a Sheffield, UK start-up) and the University of Sheffield published a photonic quantum computing architecture called QGATE; the paper was peer-reviewed and published 8 Oct 2026 in Quantum Science and Technology.",
+  "It reports photon-loss error thresholds of 10.36% and 25.98% (the share of photons that can be lost before errors can no longer be corrected), depending on how the logical qubits are built.",
+  "The article gives 6.4% (Quandela, 2024) as the best previously published photonic threshold without large-scale multiplexing.",
+  "The authors also report that algorithm compile time scales linearly rather than exponentially with circuit complexity, which the article says has not been shown in hardware at meaningful scale.",
+  "The numbers assume photon sources that emit one indistinguishable photon on demand; the article says this is the central open constraint and that the paper does not fully resolve whether such sources can be manufactured at the needed scale.",
+  "QGATE is described as the first major photonic architecture designed around deterministic emitters; PsiQuantum's fusion-based approach makes the opposite bet.",
+  "Authors are Samuel J. Sheldon, Pieter Kok and Callum W. Duncan; Kok is also Aegiq's chief quantum scientist."
+ ],
+ "quote_evidence": [
+  "The paper reports error thresholds of 10.36 ± 0.02% and 25.98 ± 0.28% on photon loss — the proportion of photons that can be lost before a computation becomes uncorrectable — depending on how the logical qubits are constructed.",
+  "For context, a 2024 study from Quandela reported the best previously published photonic threshold without large-scale multiplexing at 6.4%, using a Floquet-code architecture.",
+  "The practical consequence is that QGATE's benchmark numbers are valid only if deterministic emitter technology can be produced at the scale, uniformity, and integration density a fault-tolerant machine requires."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A higher tolerance for lost light would make light-based quantum computers easier to build, but the result is a calculation for a design, not a working machine.",
+ "event_date": "8 Oct 2026 (paper published); Quantum Zeitgeist covered it on 9 Oct 2026",
+ "notes": "Headline overstated: '4x ... than any rival' compares 25.98% (the harder inter-layer set-up) with one earlier published figure, 6.4%; the article itself calls the 10.36% figure only 'competitive' with other platforms. Results are calculated thresholds, not hardware results. Article has promotional touches (calls the paper 'not a press release', 'Q1-ranked'); not repeated. Paper published 8 Oct 2026, so freshness is a follow-up; Quantum Zeitgeist ran it on 9 Oct (seen as a headline only)."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-01",
+ "title": "Reflection Previews Beam AI Coding Model, Optimized for Efficiency",
+ "source_used": "WinBuzzer",
+ "article_url": "https://winbuzzer.com/2026/10/10/reflection-previews-beam-promising-more-efficient-ai-coding-xcxwbn/",
+ "fetched": true,
+ "key_facts": [
+  "Reflection AI unveiled Beam, its first model for writing code and using software tools, on 5 Oct 2026; selected users get an early version and others can join a waitlist.",
+  "Reflection's scorecard gives Beam 80.1 on Terminal Bench v2.1 against 63.8 for Inkling from Thinking Machines Lab (a US rival), and 65.5 against 54.3 on SWE Bench Pro v1.",
+  "Against Z.ai's GLM-5.2, Beam is ahead on SWE Bench Pro v1 (65.5 to 62.1) and slightly behind on Terminal Bench v2.1 (80.1 to 81.0).",
+  "Reflection's own table lists Moonshot AI's Kimi K3 at 88.3 on Terminal Bench v2.1, ahead of Beam; Z.ai's GLM-5.3-Flash reports 84.3 with fewer active parameters, but under different test settings, so the figures are separate vendor results, not a controlled comparison.",
+  "Beam has 501 billion parameters in total, 23 billion active per token (mixture-of-experts design).",
+  "Reflection says Beam reaches advanced-reasoning scores comparable to GLM-5.2 using three to four times less inference compute.",
+  "Reflection promises Beam's weights under Apache 2.0 later in October, plus a technical report and safety evaluations; Beam is still in final adversarial safety testing.",
+  "Chief executive Misha Laskin told Semafor that Reflection sees demand from organizations unwilling or unable to use Chinese models."
+ ],
+ "quote_evidence": [
+  "Reflection’s chief executive Misha Laskin told Semafor that Reflection sees demand from organizations unwilling or unable to use Chinese models.",
+  "Reflection promises Beam’s weights under Apache 2.0 later in October, alongside documentation and tools for running, evaluating and fine-tuning the model.",
+  "Reflection also acknowledges that Moonshot AI’s Kimi K3 remains ahead on raw capability."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Reflection pitches Beam as a US-built model organizations can run themselves, but the scores are its own and the weights are still unpublished.",
+ "event_date": "Beam unveiled 5 Oct 2026; WinBuzzer article dated 10 Oct 2026",
+ "notes": "Read WinBuzzer in full. Older news re-dated: unveiling already carried in our 6 Oct 2026 edition (TechCrunch). New in this article: head-to-head scores against Inkling, GLM-5.2, GLM-5.3-Flash and Kimi K3, and the training details. WinBuzzer draws on Reflection's scorecard, a Semafor interview and an Alex Heath interview; it is itself the outlet read."
+}

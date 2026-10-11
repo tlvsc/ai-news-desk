@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-08",
+ "title": "High Test Scores, Poor Bedside Performance: The Hidden Flaw in Medical AI",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/high-test-scores-poor-bedside-performance-the-hidden-flaw-in-medical-ai/",
+ "fetched": true,
+ "key_facts": [
+  "Alex Mirugwe of Makerere University's School of Public Health argues, in an opinion piece in PLOS Digital Health, that benchmark accuracy, the number used to authorise most AI diagnostic tools, has never been adequately shown to translate into benefit for patients.",
+  "A 2025 meta-analysis in npj Digital Medicine of 83 studies of generative AI diagnostic models found pooled accuracy of 52.1 percent, 15.8 points below expert physicians; its authors say the studies were heterogeneous and mostly high risk of bias.",
+  "The Epic Sepsis Model was reported to identify high-risk patients in 87 percent of cases, falling to 63 percent using only data from before clinicians suspected sepsis; staff at one major health system acknowledged only 13 percent of its alerts in 2023.",
+  "TREWS, a sepsis alert developed at Johns Hopkins with input from nurses and intensivists, showed reduced sepsis mortality and faster antibiotics in a prospective multisite trial; Mirugwe notes the two systems differ in several ways.",
+  "Fewer than 30 percent of authorised devices in a decade-long review disclosed the demographics of their training data; a diabetic retinopathy tool validated at 87 percent sensitivity delivered 60 to 80 percent in screening in northern India.",
+  "In the US, 96.4 percent of AI medical devices were cleared through the 510(k) pathway without clinical trial evidence; of 950 AI-enabled devices authorised through November 2024, 60 were subject to recall.",
+  "Mirugwe proposes prospective external validation in diverse populations, results broken down by patient subgroup with universal demographic disclosure, and clinicians as partners in development."
+ ],
+ "quote_evidence": [
+  "The Epic Sepsis Model, deployed across health systems worldwide, was reported to identify high-risk patients in 87 percent of cases.",
+  "Mirugwe proposes three achievable reforms.",
+  "Mirugwe is careful to note that the two systems differ on several dimensions, including training data, the definition of the prediction target, deployment context, and institutional support, so the contrast cannot be reduced to a single cause."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Approval of AI diagnostic tools rests on test scores, and the author says that is not enough to show they help patients.",
+ "event_date": "Scienmag article dated 10 Oct 2026; publication date of the PLOS Digital Health piece not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated. Opinion piece: the figures are the author's citations of earlier studies, not new data."
+}

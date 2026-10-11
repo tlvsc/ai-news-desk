@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "The Verge argues that OpenAI and Meta are racing to promise privacy for their AI agents, but Meta's Muse has already fallen short of its own promises.",
+ "score": 5,
+ "score_reason": "Pool score kept: useful analysis of privacy promises, but it is commentary with few new facts.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People deciding whether to hand an AI agent their messages, accounts and payment details get a sceptical look at privacy promises, but the piece is analysis and neither company's claims are independently tested.",
+ "source": "The Verge",
+ "status": "REPORTED",
+ "summary": "The Verge reports that Meta launched its Muse agent as a safer, privacy-focused alternative to OpenClaw, an earlier AI agent, yet Meta can still access users' data, Muse by default lets Meta train its models on what users put into it (users can opt out), and a researcher found a since-patched flaw that could have let someone take control of it. OpenAI executives took veiled shots at Muse when they unveiled their own agent, Dots, in late September, and The Verge notes Dots has had few privacy scandals so far but is only on ChatGPT plans costing $100 and up, so probably fewer people use it; it argues that agents' need for personal data leaves both companies' promises unproven, and our 6 Oct 2026 edition carried 404 Media's report of Muse's last-minute security fixes.",
+ "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Analysis piece published 10 Oct 2026; the sceptical conclusions are The Verge's own. Muse security flaws also appear in our 6 Oct 2026 entry (404 Media)."
+}

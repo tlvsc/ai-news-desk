@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-07",
+ "title": "Women receive less active medical treatment than men, raising concerns for healthcare AI",
+ "source_used": "Digital Journal",
+ "article_url": "https://www.digitaljournal.com/article/women-receive-less-active-medical-treatment-than-men-raising-concerns-for-healthcare-ai/",
+ "fetched": true,
+ "key_facts": [
+  "University of St Andrews researchers reviewed 1,112 published studies, then those that directly compared care given to male and female patients; the research was published in PLOS ONE.",
+  "Among 38 studies that analysed patient records, 33 reported a significant difference in the treatment received; women with the same condition appeared less likely to be offered active management such as surgery, a stent or stronger pain relief.",
+  "The pattern appeared in cardiology, surgery, transplantation and emergency medicine, and in most studies it remained after statistical adjustment.",
+  "The review does not show every difference was discriminatory or clinically inappropriate; almost none of the studies referred to a guideline recommending different treatment by sex.",
+  "Of studies in the period examined, 551 looked at inequality affecting doctors and other health professionals while only 41 looked at what happened to patients.",
+  "The researchers warn AI trained on records and literature with unexplained disparities could reproduce them, and intend to test whether generative AI produces similar treatment differences.",
+  "Digital Journal adds Canadian context (research funding, digital-health policy); this is its own commentary beyond the study."
+ ],
+ "quote_evidence": [
+  "Among 38 studies that analysed patient records, 33 reported a significant difference in the treatment received.",
+  "The review does not demonstrate that every difference in treatment was discriminatory or clinically inappropriate.",
+  "The St Andrews researchers now intend to test whether generative AI systems produce similar treatment differences."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If medical records carry unexplained gaps in how women are treated, AI trained on them could repeat the gaps; the researchers have not yet tested that.",
+ "event_date": "Study publication date not stated; Digital Journal article dated 10 Oct 2026",
+ "notes": "Read Digital Journal in full. It relays material sent by the researchers (the University of St Andrews study in PLOS ONE); the paper itself was not read. The AI risk is the researchers' concern, not a tested result."
+}

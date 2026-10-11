@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-11",
+ "v1_category": "SEC",
+ "headline": "Security firm Socket says hackers have taken over more than 500 GitHub accounts and planted a credential-stealing workflow in tens of thousands of repositories, aiming at cloud and AI service keys.",
+ "score": 5,
+ "score_reason": "Pool score kept: an ongoing campaign with fresh figures, though no harmful package releases have been seen yet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers whose GitHub accounts are taken over risk having cloud and AI service keys stolen, which also exposes the companies that rely on their code, but Socket has seen no malicious package releases so far and does not know how the first logins were stolen.",
+ "source": "GBHackers News",
+ "status": "REPORTED",
+ "summary": "GBHackers News reports, citing security firm Socket's update of 9 Oct 2026, that a campaign called GhostAction has hit more than 500 GitHub accounts since 7 Oct and added a fake 'security audit' workflow, an automated job that runs on GitHub, to tens of thousands of repositories, which searches code and its history for 13 kinds of credentials, including AWS cloud keys and Anthropic, OpenAI and OpenRouter AI keys, and sends them to the attackers' server. Socket confirmed successful runs, for example at the game-engine project Pyxel, but saw no malicious software releases made with the stolen credentials and did not establish how the first maintainer logins were taken.",
+ "url": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "GBHackers relays Socket's 9 Oct 2026 update; The Hacker News (9 Oct 2026) carries the same campaign citing StepSecurity, Socket and GitGuardian, and says an earlier GhostAction wave came to light in September 2025. Not in our earlier editions."
+}

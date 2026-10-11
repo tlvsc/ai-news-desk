@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-05",
+ "title": "Odyssey-3 is a new generative world model that you can try for free",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+ "fetched": true,
+ "key_facts": [
+  "California-based Odyssey has launched a public research preview of its world model Odyssey-3; users generate interactive environments from text prompts and explore them in real time, and developers can apply for API access.",
+  "The free online demo runs on Odyssey-3 Flash; the base model has 14 billion parameters and generates 832 x 480 video, while Odyssey-3 Pro supports 1280 x 720.",
+  "Odyssey says Odyssey-3 Pro scores 66.1 on the Physics-IQ Verified video-to-video benchmark, but that score comes from a single run in which a selection method picked one of eight generated videos per task.",
+  "The benchmark rules require four runs with standard deviation reported for any record claim; without the selection method, Odyssey-3 Pro averaged 63.37 across four runs. Both results are on the official leaderboard but were submitted by Odyssey itself.",
+  "On the WorldMark benchmark, by Odyssey's own evaluation, Odyssey-3 ranks first in three of four categories and third in First-Person Real (80.6).",
+  "Odyssey says controllers built on Odyssey-3 operated robot arms, a drone in a virtual indoor space and a GTA V game character, and it works with Swiss robotics company Flexion on humanoids; all of these are company-reported.",
+  "The public preview offers interactive environment generation for now; robotics and autonomous systems will need further work.",
+  "Founders Oliver Cameron and Jeff Hawke first unveiled the model on 15 Sep; Odyssey raised $310 million in June 2026 from investors including Amazon and AMD Ventures."
+ ],
+ "quote_evidence": [
+  "That top score of 66.1 points comes with a big caveat, though.",
+  "The benchmark rules require four test runs with standard deviation reported for any record claim.",
+  "Without the selection method, Odyssey-3 Pro averaged 63.37 points across four runs."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A free demo of a world model aimed at robots, driving and games, but its record physics score does not meet the benchmark's own rules for a record.",
+ "event_date": "Research preview launched 8 Oct 2026 (per our 9 Oct entry); model first unveiled 15 Sep 2026 per The Decoder; article dated 11 Oct 2026",
+ "notes": "Read The Decoder in full. Older news re-dated: we carried the launch and the 66.1 score on 9 Oct 2026 (The Next Web) without the best-of-eight caveat. New today: the caveat on the score, the average of 63.37, the free demo details and the benchmark figures. Robot, drone and game demos are company claims."
+}

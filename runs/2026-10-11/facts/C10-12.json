@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-12",
+ "title": "AI That Watches the Whole Scan: Deep Learning Reads Breast Ultrasound Videos Better Than Doctors",
+ "source_used": "Scienmag (text read on the Bioengineer.org copy)",
+ "article_url": "https://scienmag.com/ai-that-watches-the-whole-scan-deep-learning-reads-breast-ultrasound-videos-better-than-doctors/",
+ "fetched": true,
+ "key_facts": [
+  "A prospective multicentre study across four Chinese hospitals, published in Holistic Integrative Oncology, tested TGMIL, a deep learning system that analyses whole ultrasound video clips rather than single frames.",
+  "It covered 532 breast lesions rated BI-RADS 4 or 5 (suspicious enough to warrant biopsy), enrolled between November 2019 and January 2023, with 198 held out as a test set; all diagnoses were confirmed by pathology.",
+  "On the external test set TGMIL scored an AUC of 0.824, ahead of other video and image models.",
+  "Nine ultrasonographers read the 198 cases without and then with TGMIL's estimates: junior accuracy rose from 66.7 to 89.2 percent and attending accuracy from 80.8 to 90.0 percent; pooled accuracy rose from 77.5 to 95.0 percent.",
+  "Senior ultrasonographers (AUC 0.903 unaided) showed no significant improvement with AI; the model alone scored below them.",
+  "Failure analysis found some benign lesions with cancer-like features fooled the model, and some cancers with weak vascular signals were missed.",
+  "Limitations: hospital-based, pathology-confirmed BI-RADS 4-5 lesions only, no asymptomatic screening population; the authors urge prospective validation in screening cohorts."
+ ],
+ "quote_evidence": [
+  "With TGMIL’s help, junior accuracy jumped from 66.7 to 89.2 percent and sensitivity surged from 67.4 to 94.2 percent, while attending accuracy rose from 80.8 to 90.0 percent.",
+  "Senior ultrasonographers, who already achieved an AUC of 0.903 unaided, showed no statistically significant improvement on any metric with AI assistance, and their AUC dipped slightly from 0.898 to 0.885.",
+  "The authors themselves urge prospective validation in screening cohorts before broader deployment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI help lifted less experienced readers close to expert accuracy on suspicious breast lesions, but experts gained little and screening use is untested.",
+ "event_date": "Scienmag article dated 11 Oct 2026; study publication date not stated",
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated. The publisher headline 'Better Than Doctors' overstates: the AI beat junior and attending readers but not the senior ones."
+}

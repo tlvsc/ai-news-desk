@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "Roku, the maker of streaming devices, has begun offering developers AI tools that can write, install and test apps for its platform from plain-text instructions.",
+ "score": 5,
+ "score_reason": "Early, limited rollout of developer tooling reported by one outlet, with no results or user numbers yet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "App developers on Roku's platform could build and test channels faster with AI assistants that run the app on a real or emulated device, but this is an early, controlled rollout described by a single outlet, and the article gives no results or developer numbers.",
+ "source": "Cord Cutters News",
+ "status": "REPORTED",
+ "summary": "Cord Cutters News reports that Roku announced at its 2026 Developers Summit a set of AI skills and a Model Context Protocol (MCP) server, a connector that lets AI coding assistants such as Cursor, GitHub Copilot and Gemini use outside tools, so an assistant can write a Roku channel (app) from a text description, install it on a developer-mode device or emulator, read screenshots and error output, and revise its own code. Access starts as a controlled rollout to registered developers, with the AI's permissions reportedly limited to development and testing, and the outlet adds that the results will depend on how well the AI handles remote-control navigation, advertising and the limited memory of streaming devices.",
+ "url": "https://cordcuttersnews.com/roku-rolls-out-custom-ai-system-allowing-developers-to-build-streaming-apps-entirely-through-ai-prompts/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Single outlet; no Roku page or second outlet found. The article does not give the date of the Developers Summit, so freshness is taken from the 10 Oct 2026 publication date."
+}

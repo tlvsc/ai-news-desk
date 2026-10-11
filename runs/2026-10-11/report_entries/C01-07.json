@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "headline": "Startup Fortune argues that AI labs now put more computing power into teaching models to reason than into the first stage of training, though its own article admits the full budgets are not public.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: an opinion piece whose headline claim is not backed by data in its body, and the trend dates from 2024 and 2025.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "If the argument holds, demand for AI chips and memory would depend more on running reasoning models than on training ever bigger ones, which matters to cloud and chip companies and their investors, but the article's own evidence is partial and its links to Micron and cloud spending are the author's reading.",
+ "source": "Startup Fortune",
+ "status": "REPORTED",
+ "summary": "Startup Fortune argues, citing the research group Epoch AI, that leading AI labs now put more computing power into post-training (teaching a model to reason step by step) and into letting it think longer when answering than into ever-larger pretraining runs (the first training stage, built on huge amounts of text), pointing to an Epoch estimate that GPT-5 used less training compute than GPT-4.5. The article itself says public evidence does not reveal either model's full training budget, and it presents its links to Micron's record memory sales and to cloud spending as interpretation.",
+ "url": "https://startupfortune.com/ai-labs-are-now-spending-more-compute-teaching-models-to-think-than-to-learn/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Startup Fortune in full. Analysis piece; the standfirst claim that post-training compute overtook pretraining in early 2026 is not supported by data in the text. The underlying trend (reasoning models since late 2024) is not new."
+}

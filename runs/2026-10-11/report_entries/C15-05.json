@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-05",
+ "v1_category": "MOD",
+ "headline": "IBM introduced a new way of running programs on its quantum computers that lets researchers see and adjust how errors are handled.",
+ "score": 3,
+ "score_reason": "Pool score 5 lowered by 2: IBM's post is dated 5 Oct and the item was already in our 6 Oct pool; it is a developer tool described by IBM itself.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Researchers who study quantum error handling get more visibility and control on IBM's machines, but it is a tool for specialists, the benefits are IBM's own account, and the news is five days old.",
+ "source": "IBM Quantum",
+ "status": "REPORTED",
+ "summary": "IBM says in a blog post dated 5 Oct 2026, summarised by Quantum Computing Report on 10 Oct, that its new directed execution model moves the error-reduction steps that used to run hidden on IBM's servers onto the researcher's own side, where they can be inspected and changed. It rests on a new tool called Executor, and IBM says users of its standard Sampler and Estimator tools can keep their existing code.",
+ "url": "https://www.ibm.com/quantum/blog/directed-execution",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read IBM's own blog post (original) and Quantum Computing Report's summary; the link is IBM's post. Pool item C15-09 of 6 Oct covered the IBM post as pool only. Category MOD (tool) from default RES."
+}

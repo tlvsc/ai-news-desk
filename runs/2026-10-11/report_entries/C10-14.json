@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-14",
+ "v1_category": "HEA",
+ "headline": "Two researchers built an AI model that predicts side effects of taking medicines together and say it beat earlier methods in tests designed to mimic real use.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a peer-reviewed method with a stricter test design, but tested on historical data and the article gives no performance figures.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who take several medicines, especially older people and those with long-term conditions, and the doctors and drug-safety teams who check combinations could eventually benefit, but this is a research tool tested on historical data, the article gives no performance figures, and it is not a substitute for clinical judgment.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on a study in PLOS Computational Biology by Ruben Jimenez and Alberto Paccanaro describing DCSE, a machine-learning model that predicts which side effects may appear when specific medicines are taken together, and arguing that the usual tests of such models, which use balanced, sampled data, are too forgiving. When trained only on data from before a cutoff and asked to predict side effects first reported between 2009 and 2014, including for drug pairs with no known side-effect data, DCSE beat leading existing methods, according to the authors.",
+ "url": "https://scienmag.com/new-ai-model-forecasts-hidden-side-effects-of-drug-combinations/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read on the Bioengineer.org copy, which credits Scienmag as the news source; the link points to the Scienmag original (its page title and canonical link were checked, its text was not read separately). The date of the underlying study is not stated."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-02",
+ "title": "3 in 5 AI models fail terrorism safety tests: Study",
+ "source_used": "Anadolu Agency (relaying CBC News)",
+ "article_url": "https://aa.com.tr/en/science-technology/3-in-5-ai-models-fail-terrorism-safety-tests-study/4084319",
+ "fetched": true,
+ "key_facts": [
+  "Research reported by CBC News on Friday (9 Oct 2026) says three in five AI models failed terrorism safety tests.",
+  "The study was run by the UK-based nonprofit Tech Against Terrorism and evaluated more than 130 AI models with hundreds of requests resembling those a terrorist planning an attack might submit.",
+  "Models modified through \"abliteration\", a process that removes safety safeguards, failed every test.",
+  "Meta's Llama 3.1 8B scored 97 out of 100 on the organization's safety benchmark before modification and about 3 afterward; the modified model gave detailed answers on attacks, terrorist financing and radicalization, while the original refused.",
+  "The organization found more than 29,000 repositories advertising uncensored or unprotected AI models on Hugging Face as of late September.",
+  "Hugging Face said it regularly moderates content violating its policies but warned that some recommendations could undermine open research; Meta said its models undergo safety evaluations and its policies prohibit harmful or illegal uses.",
+  "The report found no evidence of terrorist or extremist groups using the tested models, apart from one extremist chatbot identified by researchers.",
+  "Tech Against Terrorism recommended independent safety benchmarks, stronger protections against safeguard removal and restrictions on distributing modified models."
+ ],
+ "quote_evidence": [
+  "Three in five artificial intelligence (AI) models have failed terrorism safety tests, with models stripped of safeguards consistently providing potentially dangerous information, according to research reported by CBC News on Friday.",
+  "Meta's Llama 3.1 8B model scored 97 out of 100 on the organization's safety benchmark before modification, compared with approximately three afterward.",
+  "The report found no evidence of terrorist or extremist groups using the tested models, apart from one extremist chatbot identified by researchers."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open AI models can have their safeguards removed and then answer attack-planning questions, though no real-world misuse by groups was found.",
+ "event_date": "CBC News report on Friday 9 Oct 2026; Anadolu relay 10 Oct 2026",
+ "notes": "Read on Anadolu Agency, which credits CBC News; the CBC original and the Tech Against Terrorism report were not found or opened (Google News search returned only TRT World and Saudi Gazette copies). The benchmark and its scores are the nonprofit's own. Event is one day before the window start, so the score is lowered by 1."
+}

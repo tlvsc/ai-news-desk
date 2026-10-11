@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "New controls and chat improvements in Copilot for JetBrains",
+ "source_used": "The GitHub Blog (GitHub changelog, read from the pre-fetched full text)",
+ "article_url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub announced an update to its GitHub Copilot plugin for JetBrains IDEs, the coding editors made by JetBrains.",
+  "Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations; an explicit model picker choice is still preserved.",
+  "Diagnostic intention menus now include a Fix action that opens inline chat and asks Copilot to repair the issue; it uses agent mode when available and ask mode otherwise.",
+  "A new MCP setting lets users disable automatic server startup for Copilot and Claude.",
+  "The release improves reliability during language server startup, model and provider switching, MCP configuration, customization refreshes, file changes and worktree workflows.",
+  "GitHub Copilot has ended support for JetBrains IDE 2025.1; JetBrains IDE 2025.2 or later is now required to use the plugin.",
+  "The extracted text lists no version number and no usage figures; the bullet list of chat, account and navigation changes is missing from the extracted text."
+ ],
+ "quote_evidence": [
+  "Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations.",
+  "Diagnostic intention menus now include a Fix action that opens inline chat and asks Copilot to repair the issue.",
+  "GitHub Copilot has ended support for JetBrains IDE 2025.1."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Organisations get more control over which AI model and tools start by default, and users on JetBrains IDE 2025.1 must upgrade to keep using the plugin.",
+ "event_date": "10 Oct 2026 (date of the changelog post, from its URL and the pool record)",
+ "notes": "Official GitHub changelog post, so GitHub is both the announcer and the source; no outside review. The bullet list under 'This release makes everyday chat, account, and navigation workflows clearer' did not survive text extraction, so those items are not reported. The text says 'for Copilot and Claude' for the MCP startup setting without explaining the pairing; the entry repeats it only as stated."
+}

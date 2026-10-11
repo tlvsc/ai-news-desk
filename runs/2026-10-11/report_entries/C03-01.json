@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "GitHub has updated its Copilot coding assistant for JetBrains software, letting company administrators set the default AI model and adding a Fix option for flagged code problems.",
+ "score": 5,
+ "score_reason": "Routine product update announced by GitHub itself, useful to its developer users but with no wider effect shown.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers using Copilot in JetBrains editors and the companies that manage them get more say over which AI model and tools start by default, and anyone still on JetBrains IDE 2025.1 must upgrade, but this is GitHub's own description of a routine update with no usage figures or outside review.",
+ "source": "The GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "GitHub says in its changelog that the Copilot plugin for JetBrains' coding editors now lets enterprise administrators choose the default AI agent model for new conversations, and adds a Fix action to the menus on flagged problems that opens a chat asking Copilot to repair the issue. The update also adds a setting to stop MCP servers (connectors that let AI tools use outside software) from starting automatically, and ends support for JetBrains IDE 2025.1, so the plugin now needs version 2025.2 or later.",
+ "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from the pre-fetched full text of the official GitHub changelog; the bullet list of chat, account and navigation changes did not survive extraction and is not reported."
+}

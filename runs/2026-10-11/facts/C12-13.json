@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-13",
+ "title": "Banks race to ramp up AI defenses as deposits fall after cyberattacks",
+ "source_used": "The Korea Times",
+ "article_url": "https://www.koreatimes.co.kr/amp/business/banking-finance/20261011/banks-race-to-ramp-up-ai-defenses-as-deposits-fall-after-cyberattacks",
+ "fetched": true,
+ "key_facts": [
+  "Demand deposits at South Korea's five largest lenders (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) fell from 675.5 trillion won on 30 Sep to 655.4 trillion won on Sunday, a drop of more than 20 trillion won ($15 billion) in 11 days, according to industry officials.",
+  "Fixed-term deposits, which had risen five months in a row, fell by more than 2.7 trillion won to slightly over 1 quadrillion won.",
+  "On 1 Oct Shinhan Bank reported about 25,000 customers affected, with names, phone numbers, annual income and loan limits exposed; KB Kookmin reported 119 and Hana Bank 89 affected customers.",
+  "KB Kookmin plans to raise its information security budget to over 100 billion won next year from 86.1 billion; Woori is considering a rise of more than 20 percent and at least 10 percent more specialist staff; Shinhan promises the industry's highest level.",
+  "Banks use AI tools to test their own defences: Woori uses Theori's Xint, KB Kookmin is testing tools with several security firms, NH NongHyup plans an AI red-teaming system in the second half of next year and Hana is building real-time response systems.",
+  "ARTEX, the Chinese open-source AI security tool reportedly used in the attacks, is no longer being developed for public release, but copies already downloaded remain in circulation."
+ ],
+ "quote_evidence": [
+  "Because security personnel cannot manually keep up with attacks that use AI, we are working to make greater use of AI in our own defenses, an official at a major bank said.",
+  "On Oct. 1, Shinhan Bank first reported that about 25,000 customers were affected, with names, phone numbers, annual income and loan limits exposed.",
+  "This, however, doesn't affect copies that have already been downloaded and in circulation, meaning the move is unlikely to prevent further attacks using ARTEX."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The breaches are costing the banks customer deposits and pushing them to spend more on AI-assisted defence.",
+ "event_date": "Figures as of Sunday 11 Oct 2026",
+ "notes": "The article links the deposit fall to the breaches through 'industry officials' but gives no breakdown of other causes."
+}

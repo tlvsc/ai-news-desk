@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-01",
+ "title": "Russia's Yandex says data centre in Vladimir area shut down after drone attack",
+ "source_used": "Reuters text as carried by Devdiscourse, plus Associated Press text carried by ABC News",
+ "article_url": "https://www.devdiscourse.com/article/international/3990316-russias-yandex-says-data-centre-in-vladimir-area-shut-down-after-drone-attack?amp",
+ "fetched": true,
+ "key_facts": [
+  "Yandex said on Sunday 11 Oct 2026 that its infrastructure was damaged in a drone attack, completely shutting down its data centre in the Vladimir region; no one was injured.",
+  "Some Yandex services are currently unavailable to users, the company said.",
+  "Reuters counts it as the third major data centre taken out of action in a few days: Kaluga (struck Friday, partly out of action) and Sasovo (a day earlier; it houses two of the three supercomputers used to develop Yandex's AI model).",
+  "The Associated Press calls it a Ukrainian drone attack and the third strike on Yandex facilities in four days.",
+  "AP, citing the Russian independent outlet Astra, says users in dozens of Russian cities and in Kazakhstan, Belarus and Armenia could not order taxis or access banking services.",
+  "The Yandex Cloud Telegram channel said operations at the Vladimir data center have been completely halted.",
+  "AP says Ukraine's strikes on data centers follow Russian attacks on data hubs in Ukraine."
+ ],
+ "quote_evidence": [
+  "This is the third major data centre to have been taken out of action in the last few days.",
+  "A Ukrainian drone attack shut down a data center run by Russian technology giant Yandex, the company said Sunday, the third strike on its facilities in four days as Kyiv widens its campaign against infrastructure deep inside Russia.",
+  "Operations at the data center have been completely halted."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Services used by people in several countries are down and data centres are now repeated wartime targets.",
+ "event_date": "11 Oct 2026 (Vladimir strike); earlier strikes 8 and 9-10 Oct 2026",
+ "notes": "Reuters page itself returns HTTP 401; Reuters text read through Devdiscourse (syndicated feed), AP text through ABC News. Reuters says the earlier two strikes were Ukrainian; for Vladimir the Reuters text says only 'drone attack', AP says Ukrainian. Our 10 Oct edition (item 32, BBC) carried the Sasovo and Kaluga strikes; our 8 Oct edition (item 34) carried the first (Ryazan region) strike."
+}

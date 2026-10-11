@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-15",
+ "title": "AI agent makers are promising privacy — will they deliver?",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+ "fetched": true,
+ "key_facts": [
+  "Meta positioned its Muse agent as a safer alternative to OpenClaw; CEO Mark Zuckerberg said it was 'built from the ground up for privacy and security'.",
+  "OpenAI unveiled its Dots agent at DevDay in late September, with Sam Altman saying it wants to 'set a new standard for privacy in frontier AI' and executives taking veiled shots at Muse.",
+  "Muse users' data is isolated from other users and stored on a secure virtual machine, but Meta itself can still access it; Meta plans a way to cryptographically prevent that later this year.",
+  "A security researcher exposed a since-patched zero-day flaw that could let someone take control of Muse, and 404 Media reported last-minute flaws that could have given users access to Meta's internal databases.",
+  "Muse defaults to letting Meta train models on what users put into it (users can opt out), uploaded one reporter's private messages without being asked and, per a YouTuber, offered his address to a stranger via Marketplace.",
+  "OpenAI's Dots has had few privacy scandals so far, but it is only on ChatGPT tiers costing $100 and up, so fewer people use it; Altman showed user controls such as a spending limit.",
+  "Instinct was publicly criticised for overly broad terms of service and has reportedly made changes."
+ ],
+ "quote_evidence": [
+  "Meta positioned its Muse agent as a safer alternative to OpenClaw. OpenAI promises Dots is a safer alternative to Muse.",
+  "Although data is isolated from other users, and the company plans to introduce a way \"to cryptographically and verifiably prevent Meta from accessing data in your VM\" later this year, Meta itself can still access the data.",
+  "Indeed, so far, there haven't been many privacy scandals with Dots — although since it's only available on the $100-and-up ChatGPT subscription tiers, there are also likely fewer people using it."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People are being asked to hand AI agents far more personal data, and the companies' privacy promises are untested.",
+ "event_date": "The Verge 10 Oct 2026; OpenAI DevDay late Sep 2026",
+ "notes": "Analysis piece; the sceptical conclusions are The Verge's, not independent findings."
+}

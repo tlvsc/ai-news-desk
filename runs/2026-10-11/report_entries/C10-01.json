@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-01",
+ "v1_category": "HEA",
+ "headline": "A Chinese hospital and a testing company have released an AI model that reads lung tumour slides to predict gene mutations, aiming to make cancer genetic testing cheaper.",
+ "score": 6,
+ "score_reason": "Pool 7 lowered to 6: the headline says the cost is cut, but the article only says it is expected to fall, and the accuracy and cost figures come from the developers.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Lung cancer patients in China could get the gene test that guides targeted drugs for a few hundred yuan if the cost claim holds, but the accuracy and cost figures come from the developers and the validation at 50 medical institutions has only just started.",
+ "source": "China Daily",
+ "status": "PRELIMINARY",
+ "summary": "China Daily reports that the First Affiliated Hospital of Guangzhou Medical University and the testing company KingMed Diagnostics released DeepGEM 2.0 in Guangzhou on 10 Oct 2026, an AI model that reads images of lung tumour tissue to predict, in as little as a minute, which gene mutations (DNA changes that some cancer drugs target) are likely present, which the company says can pre-screen patients for targeted drugs already approved in China. The hospital's vice-president expects this, followed by a targeted gene check, to cut the cost of lung cancer genetic testing to a few hundred yuan, and KingMed's AI lead says accuracy can reach up to 90 percent, but a study at 50 medical institutions has only just begun to test it in practice.",
+ "url": "https://www.chinadaily.com.cn/a/202610/10/WS6aca08c6e4b06d4aa05621c7.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read China Daily in full. Cost cut is a stated expectation; accuracy figure is 'up to 90 percent' per KingMed's AI lead. Planned rollout to over 500 institutions is in the article but left out of the summary."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "MOD",
+ "headline": "AI company Odyssey has opened a free public preview of its Odyssey-3 world model, but its claimed record physics score comes from a single run that chose among eight tries per task.",
+ "score": 5,
+ "score_reason": "Kept at pool 5: a follow-up, but it adds a material caveat to the 66.1 score we carried on 9 Oct 2026.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Researchers, robotics teams and game makers can try a free demo of a general world model, but the record score does not meet the test's own rule of four runs, every result is Odyssey's own submission, and the public preview does not yet cover robotics or autonomous systems.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Odyssey, a California AI company, has opened a free public preview of Odyssey-3, a \"world model\" (an AI that generates a simulated world frame by frame and predicts how it changes with each action), and that the 66.1 physics score Odyssey presents as a record came from one run in which a selection method chose one of eight generated videos per task, while its average over four runs, as the test's rules require for a record, was 63.37. This follows our 9 Oct 2026 edition, which carried The Next Web's report on the launch and the 66.1 score without that caveat.",
+ "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Decoder in full. Continues our 9 Oct 2026 entry (The Next Web). machine_action false: the public preview only generates environments; the robot-arm, drone and game demos are company claims and not shown as running in this story."
+}

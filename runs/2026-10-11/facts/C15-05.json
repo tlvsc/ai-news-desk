@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-05",
+ "title": "IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows",
+ "source_used": "IBM Quantum Blog 'Directed execution: Scaling a research platform for quantum error correction' (5 Oct 2026, read via Google News decode); Quantum Computing Report summary (read, 10 Oct 2026)",
+ "article_url": "https://www.ibm.com/quantum/blog/directed-execution",
+ "fetched": true,
+ "key_facts": [
+  "IBM Quantum describes a new lower-level 'directed execution model' for running circuits on IBM Quantum Compute Service hardware.",
+  "Error-mitigation steps that used to run as a hidden server-side process now run on the client, where researchers can inspect, customise and extend them.",
+  "A new Executor primitive powers the model; it accepts a QuantumProgram and can handle workloads of 5,000 randomisations or more.",
+  "The standard Sampler and Estimator tools now run on top of Executor in qiskit-ibm-runtime 0.50.0; IBM says existing code keeps working and in most cases only import statements change.",
+  "IBM says the same framework was used for its recent quantum advantage demonstrations with partners.",
+  "IBM cites researchers running distance-5 surface codes on its Nighthawk processors with up to 2.8x lower logical error rate per round.",
+  "The blog post is dated 5 Oct 2026; Quantum Computing Report summarised it on 10 Oct 2026."
+ ],
+ "quote_evidence": [
+  "Directed execution is a new, lower-level execution model that, true to its name, runs your circuits exactly as directed—giving you an explicit, composable way to express how your circuits run and a transparent view into what actually happens on IBM Quantum hardware.",
+  "The difference is that the error mitigation they perform is no longer a black box.",
+  "For most users, that means the only step you will need to take is updating your provider."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Researchers working on quantum error handling get visibility and control on IBM hardware; it is a developer tool and the benefits are IBM's own account.",
+ "event_date": "5 Oct 2026 (IBM blog post); qiskit-ibm-runtime 0.50.0 released the week before per the post",
+ "notes": "Quantum Computing Report's page was only readable with compressed transfer; its article is a summary of IBM's blog, so IBM's blog is the source and the link. The item was in our 6 Oct 2026 pool (C15-09, pool only, not in the 6 Oct report). Company claims; no independent test reported."
+}
