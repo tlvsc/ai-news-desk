@@ -92,7 +92,7 @@ def main():
         if active:
             syl = syllables(slot['script'], pack['cues'])
             box, speech = box_seconds(syl, pack['rate_syllables_per_second'], pack['floor_seconds'], pack['hold_seconds'])
-            assert box <= 10.0, f'Slot {s} runs {box}s: CLAUDE.md CLIP SECONDS allows 10 s at most'
+            assert box <= 12.0, f'Slot {s} runs {box}s: CLAUDE.md rule 22 allows 12 s at most (aim 8 to 10)'
             prompt = slot['prompt'] if slot.get('prompt') else PROMPT.format(symbol=slot['symbol'].rstrip('.'), script=slot['script'])
             old_scripts.append(set_widget(ids[12], 0, prompt)); set_widget(ids[13], 0, box)
             set_widget(ids[21], 0, f'video/headlines_{edition}_C{s:02d}_{lane}_544')

@@ -68,7 +68,7 @@ def problems(text, kind):
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
             if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'headlines shape: starts with a side clause, start with who did what: "{s[:40]}"')
-            if s.count(',') > 1: out.append(f'headlines shape: more than one comma, split or cut: "{s[:40]}"')
+            # the one comma limit was Claude's, removed with CLAUDE.md rule 22 (Rafi, 11 Oct 2026)
     return out
 
 
@@ -81,7 +81,7 @@ REPLIES = reply_items(Path(a.workdir))
 _ph = (Path(a.workdir) / 'rules' / 'Article_phrasing_instructions_AIND_V1.txt').read_text(encoding='utf-8')
 _m = re.search(r'PRODUCT:headlines -->(.*?)<!--', _ph, re.S)
 if not _m: raise SystemExit('STOP: the Headlines section of the phrasing file is missing; fetch the current file (Part A step 0)')
-# Rafi, 5 Oct 2026: syllables are the only measure of a clip (35 to 40, never over 44 = 10 s); no word cap
+# syllables are the only measure of a clip; CLAUDE.md rule 22 (Rafi, 11 Oct 2026): aim 8 to 10 s, never over 12 s; no word cap
 if a.cards:
     d = json.loads(Path(a.cards).read_text()); rows, si = [], []
     items = [(s['card'], s['head'], s['body'], 230) for s in d['stories']] + [(t['id'], t['head'], '', 0) for t in d['teaser']]
@@ -108,11 +108,8 @@ if a.headlines:
         if rec is not None:   # WHO, WHAT, WHY FIRST (Rafi, 5 Oct 2026)
             miss = [f for f in ('who', 'what', 'why_for_people') if not str(rec.get(f, '')).strip()]
             if miss: p.append('missing ' + ', '.join(miss) + ' (fill who, what, why first, then write the line)')
-            else:
-                ww = {x for x in re.findall(r"[a-z]{4,}", rec['why_for_people'].lower())} - {'that','this','with','they','their','will','would','could','more','from','have','about'}
-                if ww and len(ww & set(re.findall(r"[a-z]{4,}", s.lower()))) < max(1, len(ww) // 3):
-                    p.append('the why is not spoken in the line: ' + rec['why_for_people'][:60])
-        if box > 10: p.append(f'{box} s is over the 10 s maximum (Rafi, 5 Oct 2026: aim 8, max 10)')
+            # the "why is not spoken" word test (why for ordinary people only) was Claude's, removed with CLAUDE.md rule 22 (Rafi, 11 Oct 2026)
+        if box > 12: p.append(f'{box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026: aim 8 to 10, max 12)')
         w = f' (long: aim 8 s)' if box > warn else ''
         bad += bool(p); print(f"{'FAIL' if p else 'PASS'} {k:7} {syl:3} syl {box:4} s{w} {'; '.join(p)}")
         si.append({'n': len(si) + 1, 'line': s})
