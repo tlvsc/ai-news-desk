@@ -279,3 +279,5 @@ not about which project it is.
     "Either no need for the end part or if so it must be impactful." "If the item makes an assumption it can say that: presumably..., might help..., can promote... and 1000 more options to say the why." "Why is company why isnt allowed?" "It's open weight model, not open AI model."
     Clip length, his words: "stay under 12 seconds maximum, but we aim for 10 ... we stick to 8 to 10 seconds. We can go up to 12 seconds max."
     (Mine, not yours: the wording around his quotes, and this reading: rule 22 replaces the 10 second maximum of CLIP SECONDS in rule 16.)
+23. FUN CLIP FOR 12 OCT 2026 (Rafi, 11 Oct 2026, his words: "keep it for tomorrow"): the Apate story (AI bots that play the perfect victim and keep phone scammers talking for over two hours; WIRED, in the 11 Oct Full Report as C12-10) is the fun clip of 12 Oct.
+    (Mine, not yours: the wording of this line, and this reading: NO OLD NEWS and the duplicate checks do not block this one story on 12 Oct, because he named it.)
