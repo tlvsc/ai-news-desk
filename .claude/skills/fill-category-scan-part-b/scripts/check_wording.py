@@ -64,7 +64,7 @@ def problems(text, kind):
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
     if kind == 'clip' and re.search(r'\d', text): out.append('digits in a spoken line')
-    if kind == 'clip':   # HEADLINES SHAPE from the phrasing file (Rafi, 5 Oct 2026): short, plain, who did what, then why it matters to people
+    if kind == 'clip':   # HEADLINES SHAPE (CLAUDE.md rule 22, Rafi 11 Oct 2026): one sentence, who did what and why
         for s in sentences(text):
             w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
             if re.match(r"^(\w+ing\b[^,]*,|(With|After|Despite|While|Although|Amid)\b)", s): out.append(f'headlines shape: starts with a side clause, start with who did what: "{s[:40]}"')

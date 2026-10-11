@@ -124,8 +124,7 @@ not about which project it is.
     Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts); this repo never restates them. Every writer re-reads its
     Sections 1, 1A, 1B and its product section BEFORE EACH ITEM, and every item answers who, what and why. The writer and editor briefs follow that file.
     CLIP SECONDS (Rafi, 3 and 5 Oct 2026): count syllables (4.4 a second), round UP to the next half second, over the
-    Drive Headlines Master rule 1a (two decimals); every item aims at 8 seconds and never passes 10 (44 syllables): Rafi, 5 Oct
-    2026, "max 10 sec item, preferably 8"; the Drive Section B item 1 says 12 and is updated to 10 the same day.
+    Drive Headlines Master rule 1a (two decimals). The length limit is rule 22: aim 8 to 10 seconds, never over 12 (Rafi, 11 Oct 2026; the 5 Oct "max 10 sec" is replaced).
     CREDIT (Rafi, 3 Oct 2026): the source printed is always the outlet that reported the story, never
     a copy site that carries its text; if the article we read credits another outlet, the credit goes
     to that outlet. Headline only: take the story from another outlet that has it and credit it, or
@@ -158,12 +157,12 @@ not about which project it is.
     BIGGER PICTURE MODEL (Rafi, 9 Oct 2026, replaces the 8 Oct line "Fable at effort high"): one agent writes all three lengths, on Fable at effort max or Opus at max, whichever is smarter; Fable max is the choice. The main session never writes it.
     HAIKU TODAY ONLY (Rafi, 8 Oct 2026): on 8 Oct 2026 every helper job that says Sonnet runs on Haiku; Opus and Fable jobs do not change. The NEVER Haiku line above stands for every other day.
     SCRIPTS STAY AS THEY ARE DURING A RUN (Rafi, 8 Oct 2026): fixes go into the skill text and its list files; a script changes only between runs, when Rafi says so.
+    Exception (Rafi's yes, 11 Oct 2026; mine, not yours: the wording): when Rafi gives a new rule during a run, the scripts that enforce the old rule are updated the same day, after he says yes to the exact edit list.
     BIG OUTLETS (Rafi, 8 Oct 2026; extends the 55 sources line of 2 Oct): the scan also reads investing.com, MarketWatch, Yahoo Finance, CNA, BBC, Euronews, DW, taz and Sixth Tone. France 24 is not used.
     The temporary scan keeps running daily until V1 is ready (Rafi, 4 Oct 2026).
-    HEADLINES SHAPE (Rafi, 5 Oct 2026): set in the Headlines section of the phrasing file; check_wording.py
-    reads the sentence limit from that file and fails a line that breaks the shape. A fix is shorter and simpler, never longer.
-    WHO WHAT WHY FIRST (Rafi, 5 Oct 2026; the stranger check answers who, what and why from the line alone, and a line fails when it cannot): the Headlines writer fills who, what and why_for_people for every clip before the line
-    and writes the line from them; the script fails a clip without them or whose why is not spoken. The main session never rewrites a
+    HEADLINES SHAPE: rule 22 (one sentence: who did what and why) and the model lines file; where the phrasing file allows a second sentence, rule 22 wins (Rafi, 11 Oct 2026). A fix is shorter and simpler, never longer (Rafi, 5 Oct 2026).
+    WHO WHAT WHY FIRST (Rafi, 5 Oct 2026): the Headlines writer fills who, what and why for every clip before the line and writes the line from them
+    (the why as rule 22 says; the old "why is not spoken" test is removed, Rafi 11 Oct 2026). The main session never rewrites a
     line by hand: failing lines go to a Fable rewrite agent (Part B step 3a); Rafi's own wording is locked. The gate refuses the JSON
     and the review list unless the checks passed on the current lines.
     HEADLINES ORDER (Rafi, 5 Oct 2026, one source of truth): the order and choice of the seven clips are set ONLY by the Drive file
@@ -279,7 +278,7 @@ not about which project it is.
     "Either no need for the end part or if so it must be impactful." "If the item makes an assumption it can say that: presumably..., might help..., can promote... and 1000 more options to say the why." "Why is company why isnt allowed?" "It's open weight model, not open AI model."
     Clip length, his words: "stay under 12 seconds maximum, but we aim for 10 ... we stick to 8 to 10 seconds. We can go up to 12 seconds max."
     (Mine, not yours: the wording around his quotes, and this reading: rule 22 replaces the 10 second maximum of CLIP SECONDS in rule 16.)
-23. FUN CLIP FOR 12 OCT 2026 (Rafi, 11 Oct 2026, his words: "keep it for tomorrow"): the Apate story (AI bots that play the perfect victim and keep phone scammers talking for over two hours; WIRED, in the 11 Oct Full Report as C12-10) is the fun clip of 12 Oct.
-    (Mine, not yours: the wording of this line, and this reading: NO OLD NEWS and the duplicate checks do not block this one story on 12 Oct, because he named it.)
     Every Headlines writer and checker reads .claude/skills/fill-category-scan-part-b/assets/headlines_model_lines.md (12 model lines from 26 Sep to 1 Oct and 11 Oct, and the rejected ones): Rafi's yes, 11 Oct 2026.
     The stranger check follows rule 22: a company reason or a careful guess is a why, and a line with no why passes when it is clear without one; the 5 Oct "why it matters to me or people like me" test is replaced (Rafi's yes to fixing the checker, 11 Oct 2026). (Mine, not yours: the wording of these two lines.)
+23. FUN CLIP FOR 12 OCT 2026 (Rafi, 11 Oct 2026, his words: "keep it for tomorrow"): the Apate story (AI bots that play the perfect victim and keep phone scammers talking for over two hours; WIRED, in the 11 Oct Full Report as C12-10) is the fun clip of 12 Oct.
+    (Mine, not yours: the wording of this line, and this reading: NO OLD NEWS and the duplicate checks do not block this one story on 12 Oct, because he named it.)
