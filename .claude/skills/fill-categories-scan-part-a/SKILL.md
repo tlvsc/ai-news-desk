@@ -50,7 +50,8 @@ Every script takes `--workdir $W`. collect.py writes `$W/run.json` (edition and 
 ## Steps
 
 ### -1. Fresh clone check (Rafi, 9 Oct 2026; closes lesson 83 of 6 Oct, which repeated on 9 Oct)
-Before anything else: `git pull --rebase origin claude/eager-archimedes-ajnex3`; if CLAUDE.md or this skill changed, read them again before any agent is launched.
+Before anything else: `git fetch origin claude/eager-archimedes-ajnex3`, then compare (`git status -sb`, `git log HEAD..origin/claude/eager-archimedes-ajnex3 --oneline | wc -l`). If the histories agree, `git pull --ff-only`. If they differ (a stale clone or a force-updated branch, 10 Oct 2026, lesson 163), NEVER rebase: back up the local state (`git branch stale_clone_old`), then `git reset --hard origin/claude/eager-archimedes-ajnex3`. If CLAUDE.md or this skill changed, read them again before any agent is launched, and again after ANY rule change during the run, before briefing the next agent (lesson 186).
+Also `pip install pymupdf` (a fresh container has none; make_pool_pdf.py fails on import without it, lesson 169).
 
 ### 0. Setup (one background agent, Drive read only)
 Fetch into `$W/rules/`: Full_Report_V1_Rules_Structure.txt, Bulletin_V1_Rules_Structure.txt and
@@ -83,6 +84,8 @@ python3 $K/source_scan.py --workdir $W        # about 1 minute; 3 Oct 2026: 174 
 python3 $K/viral_sweep.py sweep --workdir $W        # counts distinct outlets per story; prints every story carried by 20 or more outlets, the LOW SCORE, HIGH REACH list
 ```
 One floor, Rafi's words: 20 or more distinct outlets means a score of at least 7, so the story goes into the Bulletin; the category stays the one the curators give. No cap and no other limit. Put each story of the list into `$W/prompt_extra.json` under "curate" for the category it belongs to (key "1" to "16"): "MUST INCLUDE, score at least 7 (VIRAL RULE): <title>, carried by <n> outlets; take the best readable outlet; the score is not lowered for tone". A story that already ran on an earlier day below 7 may run once more at its floor (the rule overrides NO OLD NEWS, NO UPDATE CARDS and NO REPEATS IN 7 DAYS for that one run); one that already ran at 7 or more is not run again. A cluster that is plainly not about AI (a false match) goes into `$W/viral_exclude.json` {"clusters": [N], "why": "..."} and is told to Rafi.
+
+EARLIER RUNS (10 Oct 2026, lesson 182): the sweep also prints "RAN BEFORE <date> <id> at score N" under every story that already ran in the last 14 days (pools in this repo, runs/<date>/out). Before any floor is applied to such a story, tell Rafi its earlier scores in one line and let the rule decide: the floor re-run permission is for a story that ran BELOW 7. A story that ran at 7 or more is listed in `$W/viral_exclude.json` with the reason and shown to Rafi. Whether a follow-up of an already printed story may return is Rafi's open question (lesson 195); do not decide it.
 
 ### 2. Curate (16 agents in parallel, 5 to 10 minutes)
 ```
@@ -156,7 +159,7 @@ re-dated into the window, including an undated "FOLLOW-UP of mid-2026". Add same
 ```
 python3 $K/build_products.py --workdir $W [--report-min 5] [--bulletin-min 7] --bulletin-min-cat HEA=6,SOC=6 --report-fill-to 110
 ```
-Report: aim at 100 to 120 stories (Rafi, 7 Oct 2026, CLAUDE.md rule 14): cutoff 5 or 6, whichever lands closest, plus the Fun Side. Bulletin: the cutoff that
+FILL DRIFT (10 Oct 2026, lessons 164, 185): every added or held story changes which score 5 stories the fill picks, and the new ones have not been read by an editor. After the editors' holds, set `--report-fill-to` to the count you already have (never higher), and after any later change sweep the fill levels and keep only the set whose stories were all editor checked and whose ids the Bigger Picture cites. Report: aim at 100 to 120 stories (Rafi, 7 Oct 2026, CLAUDE.md rule 14): cutoff 5 or 6, whichever lands closest, plus the Fun Side. Bulletin: the cutoff that
 lands near 30 to 50 (usually 6, 7 or 8 and up), plus the top 3 Fun (CLAUDE.md rule 14; 3 Oct 2026 Rafi chose 7
 and up). Read the "CHECK bulletin spread" line: a category with no story is stated to Rafi with the count.
 

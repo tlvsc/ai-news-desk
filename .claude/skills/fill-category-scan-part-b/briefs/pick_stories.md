@@ -22,6 +22,7 @@ THE JOB: write {W}/cards_work/selection_fable.json (valid JSON):
 {
  "cards": [ {"item": "C05-02", "label": "Dalio bubble", "reason": "why this story, why people will care", "not_repeat_because": "what you checked in the 7 day decks", "novice_test": "who a novice would not know, the plain introduction, and does it still land"} , ... exactly 14, in DECK ORDER (Drive category order, high score first inside a category) ],
  "fun": {"item": "C16-01", "label": "Fun", "reason": "..."},
+(LABEL: at most 14 characters, no money figure, no symbol; a longer one makes the renderer refuse the card, lesson 202.)
  "teaser": [ {"item": "C09-02"}, ... exactly 4 report stories that get NO card and were not in the last 7 days ],
  "headlines": [ 7 ids from your cards, in deck order, the strongest stories ],
  "headlines_fun": "C16-xx",

@@ -30,7 +30,7 @@ def add(folder, path):
 
 
 if a.part in ('A', 'all'):
-    add('reports', P / f'Full_Report_{short}.pdf'); add('reports', P / f'Daily_Bulletin_{short}.pdf')
+    add('reports', P / f'Full_Report_{short}.pdf'); add('reports', P / f'Daily_Bulletin_{short}.pdf'); add('reports', P / f'AIND_Pool_{short}.pdf')
     for f in sorted(P.glob(f'{ed} — *.md')):
         add('reports', f)
     for f in (P / f'AIND_Pool_{ed}.csv', W / 'out' / f'AIND_Pool_{ed}.json', P / 'daily-pool.md', P / 'report_pdf.json', P / 'bulletin_pdf.json'):
@@ -52,10 +52,14 @@ for r in rows:
 print(len(rows), 'files ->', out, '| agent prompt:', P / 'drive_delivery_prompt.txt')
 if a.check:
     done = {(x['folder'], x['title']): x for x in json.loads(Path(a.check).read_text())}
-    bad = 0
+    bad = 0; inchat = []
     for r in rows:
         x = done.get((r['folder'], r['title']))
         ok = x and x.get('drive_bytes') == r['bytes'] and x.get('status') in ('OK', 'already there')
-        bad += not ok
-        print('OK  ' if ok else 'FAIL', r['folder'], r['title'], '' if ok else (x or {}).get('status', 'not uploaded'))
+        chat = not ok and x and x.get('status') == 'too large'
+        bad += not ok and not chat
+        inchat.append(r['title']) if chat else None
+        print('OK  ' if ok else ('CHAT' if chat else 'FAIL'), r['folder'], r['title'], '' if ok else (x or {}).get('status', 'not uploaded'))
     print('delivery check:', 'all files on Drive with the right size' if not bad else f'{bad} files to fix')
+    if inchat:
+        print(f'{len(inchat)} files the connection refused after a real attempt (status "too large"): they go to Rafi in chat')

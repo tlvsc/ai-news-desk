@@ -83,8 +83,38 @@ def pool_of(W):
     return json.load(open(pool_path, encoding='utf-8')) if pool_path else []
 
 
+def earlier_runs(W, days=14):
+    """Pools of the previous days from this repo (runs/<date>/out/AIND_Pool_<date>.json): lesson 182, a floor must never be applied
+    without looking at what the story scored when it ran before."""
+    try:
+        ed = json.load(open(W / 'run.json', encoding='utf-8'))['edition']
+    except Exception:
+        return []
+    runs = Path(__file__).resolve().parents[4] / 'runs'
+    out = []
+    for f in sorted(glob.glob(str(runs / '*' / 'out' / 'AIND_Pool_*.json')))[::-1]:
+        day = Path(f).parent.parent.name
+        if day >= ed:
+            continue
+        out.append((day, json.load(open(f, encoding='utf-8'))))
+        if len(out) >= days:
+            break
+    return out
+
+
+def earlier_hits(tk, runs):
+    hits = []
+    for day, pool in runs:
+        ptoks = [toks(p['title']) for p in pool]
+        m = pool_match(tk, pool, ptoks)
+        if m:
+            hits.append({'day': day, 'item_id': m['item_id'], 'score': m.get('importance'), 'title': m['title'][:80]})
+    return hits
+
+
 def sweep(W):
     rows = load_rows(W)
+    runs = earlier_runs(W)
     cl, T = clusters(rows)
     pool = pool_of(W)
     ptoks = [toks(p['title']) for p in pool]
@@ -100,6 +130,7 @@ def sweep(W):
                 pm = m
         out.append({'title': rows[ids[0]]['title'], 'outlets': len(outlets), 'floor': FLOOR if len(outlets) >= THRESHOLD else 0,
                     'in_pool': pm['item_id'] if pm else None, 'pool_score': pm.get('importance') if pm else None,
+                    'earlier': earlier_hits(T[ids[0]], runs) if len(outlets) >= THRESHOLD else [],
                     'example_links': [rows[i].get('link') for i in ids[:3]], 'outlet_names': outlets[:40]})
     out.sort(key=lambda x: -x['outlets'])
     for k, c in enumerate(out, 1):
@@ -111,6 +142,8 @@ def sweep(W):
             need = 'NEEDS ENTRY' if not c['in_pool'] else ('RAISE' if (c['pool_score'] or 0) < FLOOR else 'ok')
             print(f"  #{c['cluster']:>2} {c['outlets']:>3} outlets  {need:11} pool: {c['in_pool'] or 'NOT IN POOL'}"
                   f"{' at ' + str(c['pool_score']) if c['pool_score'] is not None else ''} | {c['title'][:85]}")
+            for e in c['earlier']:
+                print(f"        RAN BEFORE {e['day']} {e['item_id']} at score {e['score']} | {e['title']}  (tell Rafi before applying the floor, lesson 182)")
     near = [c for c in out if not c['floor']]
     print(f"{len(near)} more stories carried by 8 to {THRESHOLD - 1} outlets (no floor)")
     low = [c for c in out if c['in_pool'] and c['pool_score'] is not None and c['pool_score'] <= 4]

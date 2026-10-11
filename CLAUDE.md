@@ -259,3 +259,10 @@ not about which project it is.
 19. THE START LINE (Rafi, 5 Oct 2026). A daily run starts with one fixed line, "Run Part A for <date>", in a cloud session
     on branch claude/eager-archimedes-ajnex3 (docs/START_LINE.md). Never add extra items, fixes or lessons to a start
     message; they live in this file, the skills and the repo.
+20. HOW TO ASK AND SHOW, AND WHAT A RULE IS (Rafi, 10 Oct 2026, his words, recorded because rule 8 asks for every instruction; docs/V1_TASKS.md lessons 175, 190, 194):
+    ASK ONE AT A TIME: "ask them one by one", "ask it simply, one sentence, simple and easy to understand". Never ask what a rule of this file already decides: decide it and say which rule.
+    SEND THE THING ITSELF: when he asks for the card list, send the list, short, in deck order, with nothing else; when he asks for a file, send that file on its own.
+    RULES ONLY IN HIS WORDS: "who approved you to add rules without my consent?" Claude writes into this file only what he said, in his words; any line that is Claude's own idea is marked "mine, not yours" and waits for his yes.
+    HIS COMPLAINT FIRST: when he complains about a product, Claude finds the exact fault in what he sent and says it back in one line before proposing any work ("the stories are fine, it was just the order that was bad").
+    ORDER NEVER CHANGES: the approved category order is read from common.py (POOL_ORDER, ORDER) by every product, and check_order.py (Part A step 12) fails a product that breaks it.
+    (The words around his quotes in rule 20 are Claude's wording; Rafi can strike any line.)

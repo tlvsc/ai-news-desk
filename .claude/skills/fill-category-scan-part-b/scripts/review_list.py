@@ -17,8 +17,9 @@ W = Path(ap.parse_args().workdir)
 short = edition_dates(W)[1]
 rules_gate(W)   # GATE (Rafi, 4 Oct 2026): step 3b must be clean
 pack = json.loads((W / 'headlines_work' / f'headlines_{short}_pack.json').read_text(encoding='utf-8'))
-L = ['**Headlines: spoken words and the blue holographic screen.** In every story clip the logo changes slowly to one '
-     'simple picture inside the blue border, no text and no people, then returns to the logo.', '']
+L = ['**Headlines: spoken words and the blue holographic screen.** In every story clip the logo changes slowly to a short '
+     'photorealistic news scene of the story, what a big news channel would show (Rafi, 10 Oct 2026), then returns to the logo. '
+     'The Bigger Picture clip shows the warning sign.', '']
 n = 0
 for s in pack['slots']:
     if s.get('state') == 'bypass':

@@ -102,6 +102,8 @@ every fix (check facts and hedges against the entry; never add a fact), run chec
 REPLY STORIES (Rafi, 4 Oct 2026): the script fails a card or clip of a reply story (pool follow_up plus reply words in its entry) unless it says it
 is a reply AND names the earlier story ("Yesterday we carried a New York Times report: ...").
 
+ONE CHECK ROUND, FOUR AGENTS AT ONCE (10 Oct 2026, lesson 201; the check chain took over an hour when the checks ran one after another): after check_wording.py passes, launch in ONE message the four Opus agents together: the cards stranger, the Headlines stranger, the Headlines rules agent (step 3b) and the fact check (step 4: `$B/briefs/factcheck.md`, written to `$W/cards_work/prompt_factcheck.txt` with {WORKDIR} replaced). Collect ALL their fixes into ONE `rewrite_request.json` (the cards block too) and run ONE Fable rewrite agent (3a). Rename the earlier result files `_old` before the agents write new ones. After the rewrite, run check_wording.py and check_headlines_rules.py, then the rules agent ONCE more on the lines that changed only (diff scripts_final.json against the copy made before the rewrite; copy the unchanged entries of rules_result.json). The gate (build_pack.py) refuses unless the rules agent saw the CURRENT lines.
+
 ### 3a. Fixing a failing line (Rafi, 5 Oct 2026)
 The main session never writes or rewrites a Headlines line itself (on 5 Oct its own fixes were the most complicated lines).
 Failing lines go into `$W/headlines_work/rewrite_request.json` {"locked": [items in Rafi's own wording], "fail": {item: [reasons]}},
@@ -125,8 +127,8 @@ Headlines Master A, B, G and 15 Sep sections, the phrasing law 1, 1A, 1B and Car
 previous day (rule G2), and Kawasaki had no tag (G1.2). The brief now points to the rules file and lists the previous
 day's introductions.
 
-### 4. Every factual claim against its entry
-Read each final card and line next to its report entry: same attribution, same hedge, same number. A stronger
+### 4. Every factual claim against its entry (run inside the one check round of step 3, with the other three agents)
+`sed "s#{WORKDIR}#$W#g" $B/briefs/factcheck.md > $W/cards_work/prompt_factcheck.txt`, then the Opus agent: `Read $W/cards_work/prompt_factcheck.txt and follow it exactly.` It writes factcheck_result.json. Read each final card and line next to its report entry: same attribution, same hedge, same number. A stronger
 claim than the entry ("starts trading Monday" for "plans to, subject to approval") is rewritten.
 
 ### 5. Cards build
