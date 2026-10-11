@@ -281,3 +281,5 @@ not about which project it is.
     (Mine, not yours: the wording around his quotes, and this reading: rule 22 replaces the 10 second maximum of CLIP SECONDS in rule 16.)
 23. FUN CLIP FOR 12 OCT 2026 (Rafi, 11 Oct 2026, his words: "keep it for tomorrow"): the Apate story (AI bots that play the perfect victim and keep phone scammers talking for over two hours; WIRED, in the 11 Oct Full Report as C12-10) is the fun clip of 12 Oct.
     (Mine, not yours: the wording of this line, and this reading: NO OLD NEWS and the duplicate checks do not block this one story on 12 Oct, because he named it.)
+    Every Headlines writer and checker reads .claude/skills/fill-category-scan-part-b/assets/headlines_model_lines.md (12 model lines from 26 Sep to 1 Oct and 11 Oct, and the rejected ones): Rafi's yes, 11 Oct 2026.
+    The stranger check follows rule 22: a company reason or a careful guess is a why, and a line with no why passes when it is clear without one; the 5 Oct "why it matters to me or people like me" test is replaced (Rafi's yes to fixing the checker, 11 Oct 2026). (Mine, not yours: the wording of these two lines.)
