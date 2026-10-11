@@ -708,3 +708,6 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
      copy stops). Every Drive title of this scan now ends with _Claude-LV1.1 (the name this scan's reports already carried), for example
      Full_Report_10-10-26_Claude-LV1.1.pdf; local file names are unchanged. Cards keep cards_D-M-YY_I01_VL1.png until Rafi answers, because the Drive
      filename rule of 13 Sep allows no extra ending on cards (rule 8a). ChatGPT's V1 files need their own label (message for Astra).
+214. (11 Oct, Rafi: "all products should, no need to do historical items, start from today on") Cards carry the scan label too:
+     cards_D-M-YY_I01_VL1_Claude-LV1.1.png and the contact sheet, from 11 Oct; nothing already on Drive is renamed. Written into CLAUDE.md rule 0 (WHO MADE IT)
+     and docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21 (it differs from the Drive card name rule of 13 Sep).

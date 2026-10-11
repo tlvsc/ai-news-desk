@@ -20,13 +20,13 @@ from pathlib import Path
 
 FOLDERS = ['pool of items', 'Full Report', 'Bulletin', 'cards', 'Headlines']
 # WHO MADE IT (Rafi, 11 Oct 2026: two or three scans save into the same folders, "each file name says exactly who or which scan it is"):
-# every Drive title carries the creator and version of this scan. Cards keep their Drive name rule until Rafi answers (CARDS_LABEL).
+# every Drive title carries the creator and version of this scan; "all products should, no need to do historical items, start from today on",
+# so the cards too, over the Drive card name rule of 13 Sep (docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21). Files already on Drive keep their names.
 RUN_LABEL = 'Claude-LV1.1'
-CARDS_LABEL = False
 
 
 def titled(folder, name):
-    if 'Claude' in name or (folder.startswith('cards') and folder == 'cards' and not CARDS_LABEL):
+    if 'Claude' in name:
         return name
     stem, dot, ext = name.rpartition('.')
     return f'{stem}_{RUN_LABEL}.{ext}' if dot else f'{name}_{RUN_LABEL}'
