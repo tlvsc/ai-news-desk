@@ -697,3 +697,25 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
      Headlines, each with its own supportive files, and says it supersedes all older routing. ChatGPT's V1 run of 11 Oct follows it exactly. Our skill
      (delivery_manifest.py, CLAUDE.md rule 0 "reports, cards, Headlines") still uses the older layout with one "reports" folder. Clash put to Rafi (rule 8a).
      Prevention: before saying which of two layouts or rules is right, read the governing Drive file (rule 0: Drive holds the structure files).
+212. (11 Oct, Rafi: "fix this as needed") DELIVERY NOW FOLLOWS THE DRIVE STORAGE STANDARD: delivery_manifest.py and the Drive delivery brief route to the
+     five product folders (pool of items, Full Report, Bulletin, cards, Headlines, each with supportive files); no "reports" folder from 11 Oct. Part A step 0
+     and step 9b read the old "reports" folder only for days up to 10 Oct. The md glob no longer picks up _old copies. Tested on the 10 Oct folder: 36 files
+     routed (manifest only, no upload). Still open: CLAUDE.md rule 0's folder words (how to point to the Drive file, Rafi to choose) and the scan label in
+     file names (Rafi 11 Oct: both runs in the same folders, each file name says which scan made it).
+213. (11 Oct, Rafi: option c, and "make sure we can say the difference between each product made by version and creator") CLAUDE.md rule 0 now points to
+     the Drive storage standard instead of naming folders; the folder names live only in delivery_manifest.py, which reads the saved standard
+     ($W/rules/STORAGE_STANDARD.txt, Part A step 0) and stops when its "product folders" sentence differs (tested both ways: the real file passes, a changed
+     copy stops). Every Drive title of this scan now ends with _Claude-LV1.1 (the name this scan's reports already carried), for example
+     Full_Report_10-10-26_Claude-LV1.1.pdf; local file names are unchanged. Cards keep cards_D-M-YY_I01_VL1.png until Rafi answers, because the Drive
+     filename rule of 13 Sep allows no extra ending on cards (rule 8a). ChatGPT's V1 files need their own label (message for Astra).
+214. (11 Oct, Rafi: "all products should, no need to do historical items, start from today on") Cards carry the scan label too:
+     cards_D-M-YY_I01_VL1_Claude-LV1.1.png and the contact sheet, from 11 Oct; nothing already on Drive is renamed. Written into CLAUDE.md rule 0 (WHO MADE IT)
+     and docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21 (it differs from the Drive card name rule of 13 Sep).
+215. (11 Oct, mistake record, Rafi: "why would you push to v1.1 which is different than v1?") THE SCAN LABEL WAS WRONG. I chose "_Claude-LV1.1" for
+     every Drive file name by copying "Claude LV1.1" from the old report markdown names, without checking which version this scan is; it follows the
+     V1 rules files, and V1.1 is a different version. Fixed at Rafi's word ("yes fix it"): the label is _Claude-V1 in delivery_manifest.py, CLAUDE.md
+     rule 0 (WHO MADE IT), docs/DRIVE_DIFFS_FOR_CHATGPT.md item 21 and the Drive delivery brief; build_products.py now names the report and Bulletin
+     markdown "(Claude-V1)"; delivery_manifest.py turns an old "(Claude LV1.1)" name into "(Claude-V1)". Lessons 213 and 214 keep the old label as the
+     record of what was done. Tested on the 10 Oct files: every title ends with _Claude-V1 or carries (Claude-V1). Astra was given the wrong label in a
+     message the same day and needs a one-line correction. Prevention: a version or label is never taken from an old file name; ask Rafi or read the
+     governing file.
