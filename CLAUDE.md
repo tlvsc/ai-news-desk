@@ -274,3 +274,8 @@ not about which project it is.
     The things we learned file is docs/V1_TASKS.md in this repo. Lessons found anywhere else (a Drive lessons file, a handoff, another chat) are merged into it, and the other file is then superseded to the archive (rule 3). (Mine, not yours: the wording of this line.)
     A handoff is saved only to continue the work. A new session takes its rules from this file and its lessons from docs/V1_TASKS.md, never from a handoff; a lesson written in a handoff is first written into docs/V1_TASKS.md. (Mine, not yours: the wording of this line.)
     "AI News Desk — EXPERIMENTS & TECHNICAL LEARNINGS" (Drive, 00 — PROJECT OS) is a different file, about ComfyUI work and experiments: Claude never touches it (Rafi, 11 Oct 2026).
+22. HEADLINES STRUCTURE, KEEP IT (Rafi, 11 Oct 2026, his words, after seeing the rewritten 11 Oct Headlines: "Finally everything is perfect! You must retain the structure from now on!").
+    The structure, his words: "who made what? And why it matters, all in one sentence." His model line: "NVIDIA is reportedly in talks of buying AI firm Reflection, which could strengthen its position in open weights models. That's it."
+    "Either no need for the end part or if so it must be impactful." "If the item makes an assumption it can say that: presumably..., might help..., can promote... and 1000 more options to say the why." "Why is company why isnt allowed?" "It's open weight model, not open AI model."
+    Clip length, his words: "stay under 12 seconds maximum, but we aim for 10 ... we stick to 8 to 10 seconds. We can go up to 12 seconds max."
+    (Mine, not yours: the wording around his quotes, and this reading: rule 22 replaces the 10 second maximum of CLIP SECONDS in rule 16.)
