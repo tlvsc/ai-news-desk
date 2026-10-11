@@ -692,3 +692,8 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
      daily at 09:00 Asia/Jerusalem, running aind_v1.py --scheduled (installed by aind_v1_schedule.ps1 in AI_News_Desk / V1 / scripts on Drive). No Claude
      Routine exists (list_triggers empty) and no Claude session started that morning. Rafi (11 Oct): two runs make two sources of truth; stop it for now,
      and later today fix the folder order of the 11 Oct folder to the skill's layout.
+211. (11 Oct, mistake record) I TOLD RAFI OUR FOLDER LAYOUT WAS THE RIGHT ONE WITHOUT READING THE DRIVE STANDARD. The official "AI News Desk — STORAGE & FILE
+     ROUTING STANDARD" (00 — PROJECT OS, changed 9 Oct 2026) sets the date folder as five product folders, pool of items, Full Report, Bulletin, cards and
+     Headlines, each with its own supportive files, and says it supersedes all older routing. ChatGPT's V1 run of 11 Oct follows it exactly. Our skill
+     (delivery_manifest.py, CLAUDE.md rule 0 "reports, cards, Headlines") still uses the older layout with one "reports" folder. Clash put to Rafi (rule 8a).
+     Prevention: before saying which of two layouts or rules is right, read the governing Drive file (rule 0: Drive holds the structure files).
