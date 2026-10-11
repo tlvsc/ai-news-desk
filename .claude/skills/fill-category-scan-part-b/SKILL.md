@@ -176,7 +176,7 @@ python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
    Rafi what is on Drive and what the connection refused.
 3. `python3 <part A>/scripts/save_state.py --workdir $W` once more (final wording and pack in the repo copy).
 4. Report in short numbered points: cards (story cards plus extras), Headlines clips and seconds (news part, longest
-   clip), the gate results, what is on Drive, anything open. Write what was learned into docs/V1_TASKS.md and the handoff.
+   clip), the gate results, what is on Drive, anything open. Write what was learned into docs/V1_TASKS.md, the one lessons file; the handoff only points to it and is never a source of truth (CLAUDE.md rule 21).
 5. Nothing passes the gate with a FAIL: a headline over 15 words, a body of three sentences or a clip over the CLIP SECONDS maximum is
    fixed before step 7, never sent for Rafi to judge (the rule is in the law; only wording choices are his).
 

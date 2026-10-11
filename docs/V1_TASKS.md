@@ -552,3 +552,127 @@ D9. Open: upload the layout picture to Headlines Master Permanent Assets and upd
    G. THE SAME CAUSE UNDER MOST OF IT: stale wording in briefs and scripts after a rule changed (92, 181, 198, 200). Rule of work: when a rule changes, grep the repo for its old wording and fix the briefs the same day.
 206. (10 Oct, DONE for the next run, 11 Oct, evidence by file) Changed between runs at Rafi's word ("make sure we implemented it for next run"): scripts delivery_manifest.py (pool PDF listed, CHAT status, tested on the 10 Oct manifest), viral_sweep.py (earlier runs lookup, tested: found OpenAI, Firmus, Gemini and the cruelty ban in earlier pools), review_list.py (intro line); skill texts Part A steps -1, 0, 1c, 8 and Part B step 3 and 4; briefs curator.md, drive_delivery.md, stranger_cards.md, pick_stories.md, new factcheck.md; CLAUDE.md rule 20.
 207. (10 Oct, STILL OPEN FOR RAFI, nothing below was changed; rule 8a) (1) Firmus raised to 7 and OpenAI researchers raised to 9: both ran on 9 Oct at 8 and 7; undo or keep? (my advice: undo Firmus, keep OpenAI). (2) May a follow-up of a story already printed return in the Bulletin, and under what test (Yandex second strike, lessons 182, 195)? (3) Write his 8 Oct customer text rules (lesson 118) into CLAUDE.md? (4) The six clashes of lesson 180 and the 8b item 7 fix text of lesson 201. (5) Stale lines left because a Drive or CLAUDE.md rule must be chosen: the 15 word cap in wording_common.md that reaches the Headlines writer, the "two full sentences" lines, fill_headlines.py "No people, no faces" against PHOTOREALISTIC screens (199), check_wording.py not counting card words in the fun item. (6) The fun item must be funny at once, but the fun search is thin (188): a dedicated funny search, or fewer fun stories? (7) Bigger Picture Bulletin length 529 words against about 350 (168). (8) Retry the Drive upload of the 21 files of 10 Oct? (9) Send the report to Anthropic (docs/REPORT_TO_ANTHROPIC_2026-10-10.md) through the app feedback.
+
+## Part 7: the three Drive lessons files merged into this file (11 Oct 2026, Rafi: "all these files should be submerged to the things we learned into the repo"; CLAUDE.md rule 21)
+Sources, each superseded to the Drive archive after this merge:
+(1) "AIND lessons list 2026-09-30 (for Rafi to review, NOT rules)", Google Doc in claude_files_only / session_handoffs, written 1 Oct 2026.
+    It was already copied into Part 1 on 4 Oct (its items 1 to 22 are P1-1 to P1-17, its mistakes A and B are P1-22, its proposals P1 to P4 are P1-23,
+    its open items are P1-24 and P1-35). Only two items were missing; they are D10 and D11 below.
+(2) "AIND_lessons_7-10-26.md", AI_News_Desk folder, written 8 Oct 2026 on Rafi's desktop (Headlines video, the 7 Oct run), put on Drive 10 Oct.
+(3) "AIND_lessons_11-10-26.md", AI_News_Desk folder, written 11 Oct 2026 on Rafi's desktop (Headlines video, 7 to 10 Oct). It says: where (2) and (3)
+    differ, (3) wins. Below, a line of (2) that (3) replaced is kept and marked REPLACED.
+These continue the desktop lessons D1 to D9 of Part 3. Recorded as written; nothing below was applied in the skills unless it says so.
+
+From the 30 Sep list (1):
+D10. (30 Sep, item 23) The skill points to the new storage document and the new Drive rules files. Applied then in the skill (step 0 fetches the rule files).
+D11. (30 Sep, open item) The Drive folders for the 30 Sep cards and Headlines were never created.
+
+Working with Rafi (2 section 1, 3 section 1):
+D12. Answer in one short, simple sentence; more only when he asks (same as CLAUDE.md rules 2 and 15).
+D13. Do only what he asks, nothing extra: no phone copies, no copies to Downloads, no redesigns he did not ask for (10 Oct: an unasked phone copy,
+     Downloads copy and hologram change made him furious).
+D14. If it cannot be done perfectly, say so in one sentence and stop; do not spend an hour trying (10 Oct: an hour on a fix he did himself in 10 minutes).
+D15. When he has to do something by hand, give one step per message and wait for "done".
+D16. Never say "no mistakes" about audio you have not heard: speech recognition is not listening; say what was checked and ask him to listen. His ear decides.
+D17. Do not call a clip broken from a transcript: "Clawed" is how "Claude" sounds; on 10 Oct C06 and C07 were fine.
+D18. Do not ask what the files, the script or yesterday's work already answer; look first (same as CLAUDE.md rule 20). DO ask when only a human ear can
+     decide, for example which take sounds right: send a short clip and ask "1, 2 or 3?" (worked well on 7 Oct).
+D19. Do not change any decisions or rules. When the script blocks, follow what it says by hand; do not change the script or override its checks (7 Oct).
+D20. His Downloads folder is E:\Downloads, not C:. Never delete anything. Ask before any outward facing action. Final files are stored on Drive.
+
+Inputs (2 section 2, 3 section 2):
+D21. Google Drive is the only source of truth for the video inputs; never use PC or OneDrive copies without his explicit OK (7 Oct, and 8 and 9 Oct:
+     the wrong boundary picture came from the PC, twice). CLASH NOTE for Rafi (rule 8a): this line is about input files (Drive versus PC copies);
+     CLAUDE.md rule 16 says the repo is the source of truth for rules and lessons for now. Rafi decides if both stand.
+D22. The only layout reference for subtitles, strips and boundaries is instagram_pixels_boundary_stirps_subtitles (Drive 12TOitkoI9-rErxIjoWDZ7P84iJ_FkSZY,
+     sha256 starting 8fd8477d).
+D23. Opening AIND_opening_option4_2026-10-03_VL1_1088.mp4 (Drive 1rDhcSPq910bxg14kbSAbKP9Lg-QM4ylJ); ending AIND_ending_option4_2026-10-03_VL1_1088.mp4
+     (Drive 1OE4n8P0L4nt1PX6g0Vq8Me4V-YBoXdn-). Use the current ones from Drive, not old copies in a support folder (7 Oct mistake: the 25-9 opening and
+     the 15-9 ending were used first). Same as CLAUDE.md APPROVED OPENING AND ENDING.
+D24. Stitcher: aind_v1_headline_script.py on Drive (folder "Headlines scripts"); use the Drive copy, not the OneDrive one. Subtitle font InstrumentSans-Bold.ttf,
+     sha256 starting ab17a938. Check every downloaded asset by its sha256. Downloaded Drive assets are cached in C:\Users\erans\.claude\aind_assets\
+     (manifest.json). REPLACED (2): the stitcher path C:\Users\erans\OneDrive\Documents\ChatGPT\Codex\scripts\aind_v1_headline_script.py.
+D25. Headlines may only use stories from that day's cards; every clip must match a card.
+
+Before starting (2 section 3):
+D26. Read aind_v1_headline_script.py end to end; look at yesterday's finished video and support folder (date strip, hologram card, source strips,
+     subtitles); only then render or stitch.
+
+Generating the clips in ComfyUI (3 section 3):
+D27. NEVER change the seed (1060749754396562) or the character, in any render, short donor clips included (10 Oct: a changed seed on donors and on a C05 re-render).
+D28. When asked to fix spelling in the JSON, fix only the spelling.
+D29. One clip per API job: cut the graph to the slot's two SaveVideo nodes and what they need (544 save node <slot>21, 1088 save node <slot>35; C02 uses
+     221 and 235); check each file's size, retry a failed clip, skip clips already valid; a libx264 crash then costs one clip, not the run (8 Oct:
+     whole graph runs crashed again and again when the canvas was moved). Script run_clips_10oct.py in 2026-10-10 / Headlines / supportive files.
+D30. Make the API prompt in the browser pane: load the workflow, run app.graphToPrompt(), save it to user/default/claude/headlines_<d-m-yy>_api.json.
+     Do not touch Comfy while it is running.
+
+Fixing a mispronounced word (3 section 4; it REPLACES the 7 Oct method of (2) section 6, kept below as D33):
+D31. Render one short low res donor of the phrase (for example "and Anthropic") with the same seed, changing only the text (about 15 s). Silence the
+     original words and lay the donor in at the same start; match loudness to the neighbouring words; leave the picture untouched. Use splice10.py
+     (same folder): atempo fit, gain 0.7 to 1.3, 5 ms edges, picture copied. Edits look like ['word', start, end, donor, d0, d1, [ref span]] or
+     ['mute', start, end]. Start the donor after the previous word's real end: transcript times can be early (10 Oct: "OpenAI" ran to 2.96 s, the
+     transcript said 2.72 s). Then Rafi listens.
+D32. 10 Oct reference: the donor was Rafi's own clip headlines_26-9-26_C02_VL1_544_00015_.mp4, span 0.74 to 1.52 s, laid into C04 at 2.98 to 3.76 s,
+     with 3.76 to 4.12 s muted.
+D33. REPLACED by D31, kept for its findings (7 Oct "Anthropic" method): donor from the day's workflow with only slot 2 active, 2 s, 272x480, black
+     background, same presenter and voice, about 21 s per render; spell the word phonetically ("Anne-thropp-ick, Anthropic." plus "the stressed middle
+     syllable sounds like 'drop' with a T-H: throp, rhyming with top"); Rafi chose the FIRST of three takes in anthropic_phon3_2s_480_00001_.mp4,
+     0.09 to 0.84 s; speech recognition gave p=.84 on a take Rafi heard as wrong, so Rafi picks by ear; find word edges with a 20 ms loudness envelope
+     (%TEMP%\erescue\env.py), Whisper timings are too rough; splice like the script's apply_word_repair (%TEMP%\erescue\repair_word.py): stereo, 48 kHz,
+     float, atempo to fill the slot, gain clamped 0.7 to 1.3 against the RMS of the replaced span, 5 ms edges, picture copied; choose the slot from the
+     pauses (C07: 2.00 to 2.79 s, tempo 0.99; C04: 3.88 to 4.53 s, keep the original "s" for "Anthropic's", tempo 1.11). Mistakes of 7 Oct: a mono
+     downmix; a fixed length donor with no stretch; part of the old word left in (a doubled "-ic" in C04); a donor with falling, sentence-final
+     intonation used mid-sentence. Check: Whisper reads the right words, loudness peaks about -13 to -16 dB like the neighbours, then Rafi listens.
+
+Stitching (2 sections 4 and 5, 3 section 5):
+D34. Template final_encode_10oct_v5.py (same folder), following the Drive stitcher by hand: native 1088 to 1080 crop; 24 to 30 fps cadence; 1.2 s
+     screen-mask join blends; 9 frame fades; audio highpass 60 Hz, 0.3 s delay, loudnorm I=-14, TP=-1.5, LRA=11; captions and credits from caption_files.
+     (7 Oct: the same steps in %TEMP%\erescue\final_encode_7oct.py, importing the script's pure functions join_args, caption_files, screen_reflection_mask,
+     smooth_fraction, native_rgb, output_frame_count and constants ASSETS, FONTS, PADDING_FRAMES=9, PADDING_SECONDS=0.3, DATE_POLYGON, SOURCE_POLYGON,
+     CAPTION_BOUNDS, without changing them.)
+D35. On 7 Oct the stitcher refused to run because the Decision Log changed that day; do not bypass or override that check. It pins the rules file's ID
+     and modified time, so the two must change together.
+D36. The video must have: subtitles on the WHOLE video, opening and ending included (8 Oct mistake); the date strip on every frame, at the top (Rafi's
+     rule over the script's default, 7 Oct); a source strip for each story; the Bigger Picture and the teaser credited "AI News Desk", never "DAILY GLOBAL
+     AI INTELLIGENCE REPORT" (10 Oct); one smooth video with no jumps (the masked join blends and the 30 fps cadence; a plain concat jumps).
+D37. Every day from 11 Oct (approved 10 Oct): the spoken word turns cyan &HF6E13E& and the other words stay white; the source strip rolls out to the left
+     and the next rolls in (0.35 s, -760 px). Apply karaoke_cyan and then roll_source_strip from aind_caption_effects.py (Headlines blueprint folder)
+     right after caption_files. Reference video 2026-10-10 / Headlines / Headlines_10-10-26_v5_cyan_roll.mp4. Before delivery check one cyan word and one
+     source change in the final video.
+D38. The hologram date card in the opening: make it with make_holo_cards.py WEEKDAY DAY MONTH YEAR WEEKDAY_LONG (for example SUN 12 OCT 2026 SUNDAY),
+     which needs opening_3.2.png (a frame of the opening at 3.2 s); option A, the classic card; drawn at 4x and warped to the TV corners (556,628)
+     (1056,607) (1056,1029) (556,1015), laid over the whole frame at (0,0); fade in 1.8 to 2.5 s, out 3.8 to 4.6 s. Never inpaint over the old card
+     (9 Oct: the numbers came out smeared). REPLACED (2): redrawing yesterday's card with make_card_7oct.py at (560,612).
+D39. Stale files: the encoder will not overwrite FINAL and it reuses an existing _master_audio.wav; rename both to _OLD before a rebuild, or the old audio comes back.
+
+Delivery (2 section 7, 3 section 6):
+D40. Upload the final to Drive daily_data_generated / <date> / Headlines (Headlines_<d-m-yy>.mp4 with its .srt) and give Rafi the Drive link.
+D41. Make a phone copy only when he asks. REPLACED (2): a daily phone copy, supportive files / Headlines_<d-m-yy>_FINAL_phone.mp4, crf 25, preset fast,
+     -threads 4, AAC 160k, under 30 MB (about 17 to 20 MB), sent with SendUserFile.
+D42. Reports for Anthropic must be PDF or TXT, never .md: customer service does not accept .md. (Open: docs/REPORT_TO_ANTHROPIC_2026-10-10.md is .md.)
+
+Tools on Rafi's PC (2 section 8, 3 section 7):
+D43. ffmpeg C:\Projects\hebrew-lipsync-test\MuseTalk\ffmpeg-bin\ffmpeg.exe (it sometimes crashes 0xC0000005: retry with -threads 4 or 2); ffprobe
+     ...\realtime-voice-chat-4\work\video-production\node_modules\ffprobe-static\bin\win32\x64\ffprobe.exe; Python for ASR and encoding
+     C:\Users\erans\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe; Whisper (faster-whisper base.en) runtime in
+     C:\Users\erans\Documents\Codex\2026-09-11\check-if-complete-finishes-it-generation (add video_runtime and asr_runtime to sys.path,
+     download_root=...\speech_model, local_files_only=True; the AIND_LV2 asr_runtime fails on ACL); ComfyUI Desktop on port 8188 (RTX 3090), workflows in
+     ...\ComfyUI-refael\ComfyUI\user\default\workflows, outputs in E:\ComfyUI\output\video.
+D44. ComfyUI in the browser pane: screenshots lag one action behind, so check the active tab title before pressing Run; Media Assets can open with items
+     pre-selected and a delete button showing: never click delete.
+D45. Large Drive downloads land in tool-results files: read them with the \\?\ prefix and [IO.File]::ReadAllText, then base64-decode.
+D46. PowerShell traps: variable names are case-insensitive ($D is $d); write "${i}:v", not "$i:v"; pass JSON through job files, not on the command line;
+     use single-quoted here-strings.
+
+Still open, Rafi decides (2 section 9, 3 section 8):
+D47. The official stitcher (aind_v1_headline_script.py 1.2.3) does not yet add the cyan word and the rolling strip; Headlines_Master_Rules_Structure.txt
+     G7 item 3 still names "DAILY GLOBAL AI INTELLIGENCE REPORT" as the teaser credit. Changing either needs Rafi's OK (on 10 Oct auto mode blocked it);
+     they change together (D35).
+D48. Whole-screen hologram: it needs a person matte (for example MODNet); waiting for his OK to download it.
+D49. The desktop chat never found the Part B skill: it lives only in this repo on branch claude/eager-archimedes-ajnex3 (CLAUDE.md rule 9), which the
+     desktop chat cannot see. So a desktop chat cannot read this file either; Rafi tells it where lessons go (CLAUDE.md rule 21).
+D50. From the 7 Oct run: add 4 stories that were not in the report to the pool, Bulletin, Full Report and Headlines: UAE (CNBC Africa, 6 Oct), Agilink
+     (PR Newswire, 30 Sep), Albania (The Next Web, 7 Oct), Nigeria (Sahara Reporters, 6 Oct). The 7 Oct Full Report existed only in E:\Downloads (now on
+     Drive as Full_Report_7-10-26.pdf in the AI_News_Desk folder); the Bulletin is on Drive (1baX-nnxrVSH5_frkuLjZFKR2wwKuA3rS). Ask Codex to fix the
+     daily Drive uploads, the code backup and the auto-cleanup; the stitcher's Decision Log check is Rafi's decision.

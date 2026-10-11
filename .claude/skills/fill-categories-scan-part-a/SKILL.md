@@ -222,7 +222,7 @@ python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent 
 python3 $K/save_state.py --workdir $W        # copies the working files into <repo>/runs/<edition> and pushes
 ```
 4. Then start part B at once with the Skill tool: `fill-category-scan-part-b`. Do not wait to be asked.
-5. Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing.
+5. Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing. The handoff is only a file to continue the work, never a source of truth (CLAUDE.md rule 21): every lesson goes into docs/V1_TASKS.md first, and the handoff points to it.
 6. Write every lesson of the run into `docs/V1_TASKS.md` (the one list of lessons to move to V1; Rafi, 4 Oct 2026).
 
 ## Gotchas (27 Sep to 3 Oct 2026)
