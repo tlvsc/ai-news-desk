@@ -1,0 +1,16 @@
+{
+ "item_id": "FUN-JUMPER",
+ "title": "Jumper: The crab robot from KingKong Technology is now open source",
+ "source_used": "Digitec (also Galaxus), 7 Oct 2026; maker page kingkong.tech/en/jumper; Interesting Engineering on X, 7 Oct 2026",
+ "article_url": "https://www.digitec.ch/en/page/jumper-the-crab-robot-from-kingkong-technology-is-now-open-source-44021",
+ "key_facts": [
+  "KingKong Technology (KingKong Robotics), a Beijing company, has released its crab robot Jumper as an open-source project: blueprints and software, including a simulation and training environment, are on GitHub (Apache 2.0).",
+  "Its AI toolkit lets users create new movements, shells and scenes from natural-language (typed) instructions; training runs in MuJoCo simulation with PPO reinforcement learning.",
+  "Jumper has 22 joints, can run, turn, jump (at least 40 cm) and grab (up to 1 kg), and shows emotions on two round screens; it weighs 1.8 kg.",
+  "The maker says it is for fun today and could help with cleaning and moving objects at home later ('Tomorrow it becomes the little helper that takes chores off your hands').",
+  "KingKong is giving away 100 Jumpers in an open-source challenge running since 30 Sep 2026; no price or sale date announced.",
+  "Interesting Engineering: the red crab robot drew crowds at China's big AI and robot expos this summer."
+ ],
+ "status": "REPORTED",
+ "note": "Rafi, 11 Oct 2026: chosen by Rafi as today's fun clip (outside the 24 h window, not in the pool; his choice). The clip's screen stays clear; real KingKong footage is added by hand."
+}

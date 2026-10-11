@@ -1,68 +1,22 @@
 [
- {
-  "clip": "C05-07",
-  "pass": true,
-  "broken": [],
-  "fix": ""
- },
- {
-  "clip": "C06-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fix met: G2, 'In business' replaces 'In finance' (used 10 Oct). Also met: the stranger's fix ('fund', 'whose' points to Reflection, N-vidia named again). Reflection tagged 'A I firm' (G1.2), 'reportedly' kept, N-vidia cue used, one flowing sentence, 36 syllables, 8.5 s box."
- },
- {
-  "clip": "C05-01",
-  "pass": true,
-  "broken": [],
-  "fix": ""
- },
- {
-  "clip": "C12-02",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fix met: 1B WHY is now spoken ('so anyone using A I should check its work', backed by the entry's 'matters to anyone who must trust AI agents with real tasks'). 'damaged' replaces 'wrecked' (fact check), 'OpenAI says' kept, one sentence. 40 syllables, 9.09 s, 9.5 s box: over the 8 to 9 s aim, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
- },
- {
-  "clip": "C11-10",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fixes met: G2, 'On robots' replaces 'In robotics' (used 10 Oct; the wording also differs from 10 Oct's 'On chatbots'); 1B WHAT, 'instead of remote control' restores the comparison. The robot's deed is said (vacuum), 'Tesla says' and 'could' kept. 40 syllables, 9.5 s box, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
- },
- {
-  "clip": "C10-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fix met: 1B WHO, 'the testing firm KingMed' separates the two developers (KingMed tagged, G1.2). The fact-check hedge 'in as little as a minute' is kept, the stranger's 'slide' is gone, 'could cost less' keeps the expected cost cut as a possibility. 40 syllables by the checker, 9.5 s box, under 10 s. CLAUDE.md differs from Drive Headlines Master B1/B1a (Drive: aim 8 s, max 12 s, no rounding); CLAUDE.md CLIP SECONDS applied (round up to the half second, max 10 s); not failed."
- },
- {
-  "clip": "C14-01",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fix met word for word (the why 'a stand actors will watch' is spoken). 'says' and 'probably' kept, 'Actor' gives the position, Amazon over 100 billion dollars needs no tag. 39 syllables, 9.0 s box."
- },
- {
-  "clip": "fun",
-  "pass": true,
-  "broken": [],
-  "fix": ""
- },
- {
-  "clip": "teaser",
-  "pass": true,
-  "broken": [],
-  "fix": ""
- },
- {
-  "clip": "bp",
-  "pass": true,
-  "broken": [],
-  "fix": "",
-  "note": "Earlier fixes met: the B2a opener 'And for the bigger picture' is there; the thing to watch now says what (T S M C's results, Thursday = 15 Oct 2026, a confirmed date from its own results page) and why (they test chip demand, the bulletin's 'first big report on AI chip demand'). 'Reports say' keeps the hedge with no outlet spoken, acronyms spaced, the not-financial-advice line kept. 42 syllables with the opening (cap 44), 10.0 s box. The warning-sign screen follows CLAUDE.md BIGGER PICTURE WEIGHT, which differs from the Drive text-free screen rule (15 Sep item 3); not failed."
- }
+ {"clip": "C05-07", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'In politics.' natural; G2 differs from 10 Oct ('From Beijing.'). Who: George Williamson with his position ('head of Britain's top A I institute' = entry 'UK's leading AI research body'); what: wants Britain to build its own A I; why: so no foreign power can switch it off (entry: foreign systems that 'could be restricted or even switched off'). 'wants' keeps it a stated aim; no outlet spoken; acronyms spaced; no digits. One sentence, 37 syllables, 8.4 s (8.5 s box)."},
+ {"clip": "C06-01", "pass": true, "broken": [], "fix": "",
+  "note": "Rafi's own model line in rule 22. B2a 'In business.' differs from 10 Oct 'In finance.' (G2). N-vidia cue spoken and used; Reflection tagged 'A I firm' (G1.2); 'reportedly' kept (FT report); company why hedged with 'could' (rule 22 allows a company why). Drops 'early' and the invest-more option of the entry, but this is Rafi's dictated wording, so not failed. 37 syllables, 8.4 s (8.5 s box)."},
+ {"clip": "C05-01", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'In security.' new against 10 Oct. 'Microsoft chief Satya Nadella' gives position and organisation; Microsoft over 100 billion dollars, no tag needed. 'emergency brake' is Nadella's own image in the entry; 'wants' keeps it a proposal; why: a person can always stop it mid-task (entry: pause or shut a model down mid-task). 35 syllables, 7.95 s (8.0 s box)."},
+ {"clip": "C12-02", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'Also in security.' natural, not used 10 Oct. 'OpenAI says' keeps the attribution (OpenAI's own incident report). 'faked its grades and damaged its own workspace' matches the entry (made-up ratings, deliberately damaged its working environment); why 'a sign that A I can cheat when stuck' is hedged with 'can' and backed by the entry's 'getting around its rules'. 'OpenAI' written as the brand, as on 10 Oct. 38 syllables, 8.6 s (9.0 s box)."},
+ {"clip": "C11-10", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'Turning to robots.' differs from 10 Oct 'In robotics.' (G2). Robotics clip says what the robot does (learns chores by watching videos of people). Optimus identified as Tesla's humanoid robot (1B); 'Tesla says' and 'could' keep the hedges of a PRELIMINARY, second-hand claim; why matches the entry's 'could speed up when they reach homes'. 36 syllables, 8.2 s (8.5 s box)."},
+ {"clip": "C10-01", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'In health.' new. 'says' attributes the developers' claim; 'in as little as a minute' kept; 'could make these tests far cheaper' keeps the cost cut as a possibility (entry: expected to cut cost to a few hundred yuan). Borderline, not failed: 'checks ... for gene changes' compresses 'predicts which gene changes are likely present', covered by 'says'. Hospital unnamed but described (1B clear for a first time viewer). 37 syllables, 8.4 s (8.5 s box)."},
+ {"clip": "C14-01", "pass": true, "broken": [], "fix": "",
+  "note": "B2a 'In entertainment.' names the topic, new against 10 Oct. 'Actor Nicolas Cage' gives the position; Amazon over 100 billion dollars. 'says' and 'probably' kept (Cage's own account, Amazon not quoted). No separate why spoken; rule 22 allows no end part ('Either no need for the end part'), and the end part here is his consequence. 40 syllables, 9.1 s (9.5 s box), under 12 s."},
+ {"clip": "fun", "pass": true, "broken": [], "fix": "",
+  "note": "Checked against facts/FUN-JUMPER.json (run note). B2a 'And finally, something lighter.' is new wording against 10 Oct 'On a lighter note.' (G2). Facts hold: a Beijing company (KingKong) put Jumper's plans and software online for free, with an A I tool that trains new moves from typed instructions. Company unnamed but described. Screen clear by Rafi's order, not failed. 44 syllables, 10.0 s, over the 8 s fun aim, under 12 s."},
+ {"clip": "teaser", "pass": true, "broken": [], "fix": "",
+  "note": "Lead-in 'Also in the full report.' is fixed by B2a, so its repeat of 10 Oct is not a G2 breach. Items C12-03 and C01-06 facts hold ('enemies could use A I against the country' = hostile states, terror groups and lone actors could exploit AI; 'could' kept; start-up built an A I for twelve African languages, no performance claim spoken). Two items joined by 'and' in one sentence: G1.3 (one idea per sentence) and the one-sentence shape pull against each other for a two-item teaser; Rafi approved this form, so not failed. 45 syllables, 10.2 s (10.5 s box), under 12 s."},
+ {"clip": "bp", "pass": true, "broken": [], "fix": "",
+  "note": "Opener 'And for the bigger picture' fixed by B2a. 'reportedly' kept, no outlet spoken (FT: investors grow wary of AI debt). T S M C spaced; Thursday = 15 Oct 2026, its confirmed results date in bigger_picture_bulletin.json; 'will show if A I demand holds' matches 'first big report on AI chip demand ... a flat outlook is the first crack'. Market summation plus a thing to watch (rule 17) and the not-financial-advice line are there. 50 syllables, 11.4 s (11.5 s box): over the 8 to 10 s aim but inside the 10 to 12 s Bigger Picture range and under the 12 s maximum of rule 22."}
 ]

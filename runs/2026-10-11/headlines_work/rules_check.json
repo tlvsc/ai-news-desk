@@ -12,6 +12,21 @@
    "detail": "teaser items ['C01-06', 'C12-03'] from the teaser card ['C01-06', 'C09-03', 'C12-03', 'C14-07']"
   },
   {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "ending is the approved text"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "opening slot 1 bypass: the stored option 4 opening of 3 Oct is used"
+  },
+  {
+   "rule": "B3",
+   "status": "WARN",
+   "detail": "digits in the opening line: Welcome to A I News Desk. I am Raphael, and Every day, I bri"
+  },
+  {
    "rule": "B1",
    "status": "PASS",
    "detail": "C05-07 8.5 s (aim 9.0 s or less)"
@@ -29,7 +44,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C06-01 8.5 s (aim 9.0 s or less)"
+   "detail": "C06-01 8.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -43,8 +58,8 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C05-01 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C05-01 8.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -58,8 +73,8 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C12-02 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C12-02 9.0 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -73,13 +88,13 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C11-10 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C11-10 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C11-10 opens with a spoken introduction: \"on robots\""
+   "detail": "C11-10 opens with a spoken introduction: \"turning to robots\""
   },
   {
    "rule": "B3",
@@ -88,8 +103,8 @@
   },
   {
    "rule": "B1",
-   "status": "WARN",
-   "detail": "C10-01 9.5 s (aim 9.0 s or less)"
+   "status": "PASS",
+   "detail": "C10-01 8.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -119,7 +134,7 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "fun 9.5 s (aim 8.5 s or less)"
+   "detail": "fun 10.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -134,7 +149,7 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "teaser 9.5 s (aim 8.5 s or less)"
+   "detail": "teaser 10.5 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -148,8 +163,8 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "bp 10.0 s (aim 10.5 s or less)"
+   "status": "WARN",
+   "detail": "bp 11.5 s (aim 10.5 s or less)"
   },
   {
    "rule": "B2a",
@@ -174,7 +189,7 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Actor Nicolas Cage', 'African', 'Britain', 'Chinese', 'Chip', 'George Williamson', 'KingMed', 'On', 'Optimus', 'Reflection', 'Reports', 'Satya Nadella', 'South African', 'Spy', 'This', 'Thursday']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['Actor Nicolas Cage', 'African', 'Britain', 'Chinese', 'George Williamson', 'Investors', 'Optimus', 'Reflection', 'Satya Nadella', 'South African', 'This', 'Thursday', 'Turning']"
   }
  ],
  "names_to_tag": [
@@ -182,17 +197,14 @@
   "African",
   "Britain",
   "Chinese",
-  "Chip",
   "George Williamson",
-  "KingMed",
-  "On",
+  "Investors",
   "Optimus",
   "Reflection",
-  "Reports",
   "Satya Nadella",
   "South African",
-  "Spy",
   "This",
-  "Thursday"
+  "Thursday",
+  "Turning"
  ]
 }
