@@ -67,6 +67,9 @@ python3 $K/rules_diff.py --new $W/rules --old <last run>/rules      # read every
 python3 $K/combine_pools.py --workdir $W --pool <day 1 csv> --pool <day 2 csv> --pool <day 3> --pool <day 4>
 ```
 A rule change that clashes with CLAUDE.md goes to Rafi in one line; the run continues with CLAUDE.md.
+STORAGE CHECK (Rafi, 11 Oct 2026, CLAUDE.md rule 0): save the Drive Google Doc "AI News Desk — STORAGE & FILE ROUTING STANDARD"
+(1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms, download_file_content, text) to `$W/rules/STORAGE_STANDARD.txt` with drive_save.py, then
+`python3 $K/delivery_manifest.py --workdir $W --standard-only`. A STOP means the Drive folders changed: tell Rafi before the run goes on.
 
 ### 1. Collect (about 1 minute)
 ```

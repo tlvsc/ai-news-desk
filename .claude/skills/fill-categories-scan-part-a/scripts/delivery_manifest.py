@@ -8,15 +8,53 @@ layout is the right one): daily_data_generated/<edition>/ with five product fold
 pool of items (pool PDF, pool CSV, daily-pool.md; pool JSON in supportive files), Full Report (PDF and markdown; report_pdf.json in
 supportive files), Bulletin (PDF and markdown; bulletin_pdf.json in supportive files), cards (the PNGs and the contact sheet;
 cards_copy, edition and lock JSON in supportive files), Headlines (the ComfyUI JSON, the pack and the scripts in supportive files).
+
+STANDARD CHECK (Rafi, 11 Oct 2026, option c: CLAUDE.md rule 0 points to the Drive file, the folder names live only here, and every run
+checks them): W/rules/STORAGE_STANDARD.txt is the Drive Google Doc "AI News Desk — STORAGE & FILE ROUTING STANDARD"
+(1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms), saved in Part A step 0. The script stops when the file is missing or when its
+"product folders" sentence names other folders than FOLDERS below.
+    python delivery_manifest.py --workdir W --standard-only        # step 0: the check alone
 """
-import argparse, glob, json
+import argparse, glob, json, re, sys
 from pathlib import Path
+
+FOLDERS = ['pool of items', 'Full Report', 'Bulletin', 'cards', 'Headlines']
+# WHO MADE IT (Rafi, 11 Oct 2026: two or three scans save into the same folders, "each file name says exactly who or which scan it is"):
+# every Drive title carries the creator and version of this scan. Cards keep their Drive name rule until Rafi answers (CARDS_LABEL).
+RUN_LABEL = 'Claude-LV1.1'
+CARDS_LABEL = False
+
+
+def titled(folder, name):
+    if 'Claude' in name or (folder.startswith('cards') and folder == 'cards' and not CARDS_LABEL):
+        return name
+    stem, dot, ext = name.rpartition('.')
+    return f'{stem}_{RUN_LABEL}.{ext}' if dot else f'{name}_{RUN_LABEL}'
+STANDARD_ID = '1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms'
+
+
+def check_standard(W):
+    f = W / 'rules' / 'STORAGE_STANDARD.txt'
+    if not f.exists():
+        sys.exit(f'STOP: {f} is missing. Save the Drive storage standard ({STANDARD_ID}) there first (Part A step 0).')
+    text = re.sub(r'[\\*#_]', '', f.read_text(encoding='utf-8', errors='replace'))
+    m = re.search(r'with product folders\s+(.+?)\.\s+Each product', text, re.S)
+    if not m:
+        sys.exit('STOP: the storage standard no longer has its "with product folders ... Each product" sentence; read it and tell Rafi.')
+    named = [x.strip() for x in re.split(r',\s*|\s+and\s+', ' '.join(m.group(1).split())) if x.strip()]
+    if named != FOLDERS:
+        sys.exit(f'STOP: the Drive storage standard names {named}, this script uses {FOLDERS}. Tell Rafi (CLAUDE.md rule 8a); change nothing on Drive.')
+    print('storage standard check: the Drive file and this script name the same five product folders:', ', '.join(FOLDERS))
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('--workdir', required=True); ap.add_argument('--part', default='all', choices=['A', 'B', 'all'])
-ap.add_argument('--check')
+ap.add_argument('--check'); ap.add_argument('--standard-only', action='store_true')
 a = ap.parse_args()
-W = Path(a.workdir).resolve(); ed = json.loads((W / 'run.json').read_text())['edition']
+W = Path(a.workdir).resolve()
+check_standard(W)
+if a.standard_only:
+    sys.exit(0)
+ed = json.loads((W / 'run.json').read_text())['edition']
 y, m, d = ed.split('-'); short = f'{int(d)}-{int(m)}-{y[2:]}'
 P = W / 'products'
 rows = []
@@ -25,9 +63,9 @@ rows = []
 def add(folder, path):
     p = Path(path)
     if p.exists():
-        rows.append({'folder': folder, 'title': p.name, 'path': str(p), 'bytes': p.stat().st_size})
+        rows.append({'folder': folder, 'title': titled(folder, p.name), 'path': str(p), 'bytes': p.stat().st_size})
     else:
-        rows.append({'folder': folder, 'title': p.name, 'path': str(p), 'bytes': None, 'status': 'MISSING LOCALLY'})
+        rows.append({'folder': folder, 'title': titled(folder, p.name), 'path': str(p), 'bytes': None, 'status': 'MISSING LOCALLY'})
 
 
 if a.part in ('A', 'all'):

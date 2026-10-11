@@ -702,3 +702,9 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
      and step 9b read the old "reports" folder only for days up to 10 Oct. The md glob no longer picks up _old copies. Tested on the 10 Oct folder: 36 files
      routed (manifest only, no upload). Still open: CLAUDE.md rule 0's folder words (how to point to the Drive file, Rafi to choose) and the scan label in
      file names (Rafi 11 Oct: both runs in the same folders, each file name says which scan made it).
+213. (11 Oct, Rafi: option c, and "make sure we can say the difference between each product made by version and creator") CLAUDE.md rule 0 now points to
+     the Drive storage standard instead of naming folders; the folder names live only in delivery_manifest.py, which reads the saved standard
+     ($W/rules/STORAGE_STANDARD.txt, Part A step 0) and stops when its "product folders" sentence differs (tested both ways: the real file passes, a changed
+     copy stops). Every Drive title of this scan now ends with _Claude-LV1.1 (the name this scan's reports already carried), for example
+     Full_Report_10-10-26_Claude-LV1.1.pdf; local file names are unchanged. Cards keep cards_D-M-YY_I01_VL1.png until Rafi answers, because the Drive
+     filename rule of 13 Sep allows no extra ending on cards (rule 8a). ChatGPT's V1 files need their own label (message for Astra).

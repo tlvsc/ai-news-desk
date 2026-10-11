@@ -11,8 +11,9 @@ not about which project it is.
    the repo rules. This rule wins over every rule below, including any that says to save to
    Drive.
    DAILY DELIVERY, the one standing yes (Rafi, 3 Oct 2026): the two daily skills save the day's
-   products into AI_News_Desk / daily_data_generated / <date> (reports, cards, Headlines and their
-   supportive files), creating missing subfolders, verifying every upload by size, never overwriting
+   products into AI_News_Desk / daily_data_generated / <date>, into the product folders set ONLY by the Drive file
+   "AI News Desk — STORAGE & FILE ROUTING STANDARD" (00 — PROJECT OS); the folder names live only in delivery_manifest.py, which reads that
+   Drive file every run and stops when the two differ (Rafi, 11 Oct 2026, option c; the wording is Claude's), creating missing subfolders, verifying every upload by size, never overwriting
    or deleting; what the connection cannot take goes to Rafi in chat. A text copy of each day's working
    files is kept in this repo under runs/<date> (no media) as the restart point when the cloud machine
    is wiped. A morning Routine that starts the chain by itself comes only after two clean manual days.
