@@ -2,7 +2,7 @@
  "item_id": "C12-13",
  "v1_category": "SEC",
  "headline": "Security firm Zenity says one chat message to a public AI agent on Amazon's AgentCore service could have let an attacker steal cloud credentials and take over every agent in the same account, which Amazon disputes.",
- "score": 4,
+ "score": 6,
  "score_reason": "Pool 6 lowered by 2: a repeat of the Zenity research we carried on 9 Oct 2026, with no new fact found today.",
  "importance_label": "WATCHLIST",
  "importance_line": "Companies running AI agents on AgentCore could have had conversations, agent code and stored secrets exposed through over-broad permissions, but the issue has since been addressed, Amazon disputes that it is a vulnerability, and nothing new has been reported today.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 8 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Pool item was an SC Media brief of 12 Oct 2026 (HTTP 403, Cloudflare block, not read). Text read on The Register (9 Oct 2026), which reported the Zenity research itself. Repeat of our 9 Oct 2026 entry C12-17 (The Next Web); the duplicate check should treat it as old news."
+ "notes": "Pool item was an SC Media brief of 12 Oct 2026 (HTTP 403, Cloudflare block, not read). Text read on The Register (9 Oct 2026), which reported the Zenity research itself. Repeat of our 9 Oct 2026 entry C12-17 (The Next Web); the duplicate check should treat it as old news.",
+ "fc_score": 4
 }

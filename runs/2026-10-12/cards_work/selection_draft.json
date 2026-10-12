@@ -1,0 +1,149 @@
+{
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-16",
+   "category": "Politics and government",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s2",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s3",
+   "item": "C12-01",
+   "category": "Security and cyber",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s4",
+   "item": "C08-02",
+   "category": "Energy and infrastructure",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s5",
+   "item": "C11-03",
+   "category": "Robotics",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s6",
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s7",
+   "item": "C04-01",
+   "category": "Research and science",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s8",
+   "item": "C05-02",
+   "category": "Ethics and law",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s9",
+   "item": "C10-16",
+   "category": "Health",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s10",
+   "item": "C05-01",
+   "category": "Society and education",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s11",
+   "item": "C14-01",
+   "category": "Society and education",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "SHORT LABEL",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 3
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C07-02",
+   "category": "Market, industry and finance"
+  },
+  {
+   "id": "t2",
+   "item": "C02-01",
+   "category": "Models and tools"
+  },
+  {
+   "id": "t3",
+   "item": "C13-17",
+   "category": "Politics and government"
+  },
+  {
+   "id": "t4",
+   "item": "C09-08",
+   "category": "Energy and infrastructure"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C06-01",
+  "C12-01",
+  "C11-03",
+  "C01-02",
+  "C04-01",
+  "C05-02",
+  "C14-01"
+ ],
+ "headlines_fun": "C16-01",
+ "bp_refs": [
+  "C06-01",
+  "C07-01",
+  "C07-02"
+ ]
+}

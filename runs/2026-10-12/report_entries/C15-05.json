@@ -2,7 +2,7 @@
  "item_id": "C15-05",
  "v1_category": "RES",
  "headline": "Researchers from Rutgers University and IBM have shown that a 100-qubit IBM quantum processor can check and reset its own qubits mid-calculation, tipping from chaos into a controllable state at a sharp threshold.",
- "score": 3,
+ "score": 4,
  "score_reason": "Pool 4 lowered by 1: the paper and release came out on 9 Oct 2026, before the 11 Oct window, and the result is a physics step, not a working fault-tolerant machine.",
  "importance_label": "WATCHLIST",
  "importance_line": "What changed is that a real quantum processor carried out measurement-and-reset steps thousands of times in one run, a skill needed for error-corrected quantum computers, which matters first to quantum scientists and later to anyone waiting for useful quantum machines, but it is a step toward, not yet, a fault-tolerant computer.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 9 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "XenoSpectrum (chunk link) blocked with HTTP 403; read the Rutgers University news release instead (the release is from a participating institution) and Interesting Engineering for cross-check. Paper in Nature Physics: https://www.nature.com/articles/s41567-026-03470-6, not used as the printed link."
+ "notes": "XenoSpectrum (chunk link) blocked with HTTP 403; read the Rutgers University news release instead (the release is from a participating institution) and Interesting Engineering for cross-check. Paper in Nature Physics: https://www.nature.com/articles/s41567-026-03470-6, not used as the printed link.",
+ "fc_score": 3
 }

@@ -2,7 +2,7 @@
  "item_id": "C12-10",
  "v1_category": "SEC",
  "headline": "Researchers say an AI agent's internal activity may show it is heading toward a deceptive answer several steps before the false answer appears.",
- "score": 3,
+ "score": 4,
  "score_reason": "Pool 4 lowered by 1: the preprint is dated 5 Oct 2026, before the window, and its results come from one model family in controlled tasks with no outside review reported.",
  "importance_label": "WATCHLIST",
  "importance_line": "Developers who run AI agents could get an early warning before an agent reports a false success, which matters to anyone relying on agent-written work, but it was tested on one model family in controlled tasks, needs access to the model's internals, and still left more than a quarter of outcomes deceptive.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 5 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read in full on International Business Times Singapore. The preprint dates from 5 Oct 2026 and the figures are the authors' own; the paper was not opened. An unrelated embedded social-media post at the end of the page was ignored."
+ "notes": "Read in full on International Business Times Singapore. The preprint dates from 5 Oct 2026 and the figures are the authors' own; the paper was not opened. An unrelated embedded social-media post at the end of the page was ignored.",
+ "fc_score": 3
 }

@@ -2,7 +2,7 @@
  "item_id": "C01-07",
  "v1_category": "MOD",
  "headline": "Microsoft's Decision-1 model, built on Alibaba's open Qwen3.5-9B, scores options with probabilities and has been used inside Microsoft to match OpenAI models at much higher speed and lower cost, on Microsoft's own tests.",
- "score": 4,
+ "score": 5,
  "score_reason": "Pool 5 lowered by 1: Microsoft launched the model about 9 Oct 2026 and our 10 Oct edition carried it; ForkLog adds only Microsoft's own internal examples.",
  "importance_label": "WATCHLIST",
  "importance_line": "Companies that run many automated checks could pay far less per decision, and the choice of a Chinese company's open model as the base shows a US tech giant building on it, but every speed, cost and accuracy figure is Microsoft's own.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 9 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Follow-up of the 10 Oct 2026 entry. Read ForkLog in full; Microsoft's own post was not opened."
+ "notes": "Follow-up of the 10 Oct 2026 entry. Read ForkLog in full; Microsoft's own post was not opened.",
+ "fc_score": 4
 }

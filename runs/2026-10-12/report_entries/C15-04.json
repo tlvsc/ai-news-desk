@@ -2,7 +2,7 @@
  "item_id": "C15-04",
  "v1_category": "RES",
  "headline": "Austin start-up Neurophos, which raised $110 million in January to build AI chips that compute with light, claims its design does 25 times the work of a same-size GPU at the same power.",
- "score": 2,
+ "score": 4,
  "score_reason": "Pool 4 lowered by 2: the funding round is old news (22 Jan 2026) and the speed claim is the company's own, with no independent test.",
  "importance_line": "What changed is only that a new write-up repeats a January funding round and the company's claim of 25 times a GPU's output at equal power, which matters first to data-centre operators and AI developers hoping for lower energy use, but the figures are untested outside the company and no product is on sale yet.",
  "importance_label": "WATCHLIST",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 22 Jan 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Full text read on TechFlow, whose article does not name its original author. Funding date and investors confirmed on SiliconANGLE (https://siliconangle.com/2026/01/22/chip-startup-neurophos-gets-110m-replace-electrons-photons-accelerate-ai-compute/), not used as the printed link. Speed figures differ between sources (25x, 50x and 35x, up to 100x); all are company claims."
+ "notes": "Full text read on TechFlow, whose article does not name its original author. Funding date and investors confirmed on SiliconANGLE (https://siliconangle.com/2026/01/22/chip-startup-neurophos-gets-110m-replace-electrons-photons-accelerate-ai-compute/), not used as the printed link. Speed figures differ between sources (25x, 50x and 35x, up to 100x); all are company claims.",
+ "fc_score": 2
 }

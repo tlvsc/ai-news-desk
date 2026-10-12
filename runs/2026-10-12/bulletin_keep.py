@@ -29,8 +29,8 @@ for c in d['categories']:
             c['items'] = keep
 n = sum(len(c['items']) for c in d['categories'])
 d['coverage'] = re.sub(r'\d+ stories', f'{n} stories', d['coverage'])
-PURPOSE = ("A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more, "
-           "plus the best stories of the sections that have none that high, and the top 3 from The Fun Side.")
+PURPOSE = ("A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 6 or more "
+           "(robotics also takes its best stories scored 5), plus the top 3 from The Fun Side.")
 d['purpose'] = PURPOSE
 json.dump(d, open(p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
 
@@ -40,7 +40,7 @@ for f in glob.glob(f'{W}/report_entries/C*.json'):
 kept = [by_head[it['headline']] for c in d['categories'] for it in c['items'] if it['headline'] in by_head]
 import csv
 pool = {r['item_id']: int(float(r['importance'])) for r in csv.DictReader(open(glob.glob(f'{W}/out/AIND_Pool_*.csv')[0]))}
-low = sum(1 for e in kept if int(e['score']) < pool[e['item_id']])
+low = sum(1 for e in kept if int(e.get('fc_score', e['score'])) < pool[e['item_id']])
 
 md = glob.glob(f'{W}/products/* — Daily Bulletin (Claude*).md')[0]
 L = open(md, encoding='utf-8').read().split('\n'); out = []; i = 0
@@ -54,8 +54,8 @@ for c in d['categories']:
     t = re.sub(r'^## ' + re.escape(c['name'].upper()) + r' — \d+', f"## {c['name'].upper()} — {len(c['items'])}", t, flags=re.M)
 t = re.sub(r'\*\*\d+ stories\.\*\*', f'**{n} stories.**', t, count=1)
 t = re.sub(r'- Stories: \d+;', f'- Stories: {n};', t)
-t = re.sub(r'Rule: every story scored 7 to 10, plus the top 3 Fun Side stories \([^)]*\) \(cutoff set to the day\'s pool, CLAUDE.md rule 14\)\.',
-           'Rule: every story scored 7 to 10, plus the best stories of the sections that have none that high, and the top 3 Fun Side stories.', t)
+t = re.sub(r'Rule: every story scored \d+ to 10, plus the top 3 Fun Side stories \([^)]*\) \(cutoff set to the day\'s pool, CLAUDE.md rule 14\)\.',
+           'Rule: every story scored 6 to 10 (robotics also takes its best stories scored 5), plus the top 3 Fun Side stories.', t)
 hl = len(re.findall(r'\*\(headline only\)\*', t))
 t = re.sub(r'- Headline-only stories included: \d+\.', f'- Headline-only stories included: {hl}.', t)
 t = re.sub(r'- Fact check suggested a lower score for \d+ of these stories', f'- Fact check suggested a lower score for {low} of these stories', t)

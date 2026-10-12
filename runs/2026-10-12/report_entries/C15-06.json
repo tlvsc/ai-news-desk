@@ -2,7 +2,7 @@
  "item_id": "C15-06",
  "v1_category": "RES",
  "headline": "Quantum computing company Infleqtion says it entangled 30 error-protected qubits built from 80 physical qubits on its Sqale machine, a result it announced on 24 Sep 2026.",
- "score": 2,
+ "score": 4,
  "score_reason": "Pool 4 lowered by 2: the announcement is 18 days old (24 Sep 2026) and the result is the company's own claim, relayed by a stock-chat site with no outside review.",
  "importance_label": "WATCHLIST",
  "importance_line": "What changed is that a company says it can now turn 80 fragile physical qubits into 30 reliable logical ones, the central hurdle for useful quantum computers, which matters first to quantum researchers and later to industries waiting for the technology, but the result is the company's own claim and no outside review is reported.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 24 Sep 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Full text read on Stocktwits. The article says 'Thursday' without a date; 24 Sep 2026 comes from search listings of Infleqtion's own announcement page and HPCwire (both dated 24 Sep 2026), whose pages were not opened (Infleqtion's was blocked). Share-price and retail-sentiment content left out on purpose. 'Neutral atoms' is the company's qubit type; the entry gives only a short identifier."
+ "notes": "Full text read on Stocktwits. The article says 'Thursday' without a date; 24 Sep 2026 comes from search listings of Infleqtion's own announcement page and HPCwire (both dated 24 Sep 2026), whose pages were not opened (Infleqtion's was blocked). Share-price and retail-sentiment content left out on purpose. 'Neutral atoms' is the company's qubit type; the entry gives only a short identifier.",
+ "fc_score": 2
 }

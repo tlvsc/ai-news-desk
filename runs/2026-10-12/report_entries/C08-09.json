@@ -2,7 +2,7 @@
  "item_id": "C08-09",
  "v1_category": "ENE",
  "headline": "Memory chip prices are forecast to keep rising through the last three months of 2026, with TrendForce projecting standard DRAM contract prices up 10 to 15 percent and NAND flash up 15 to 20 percent.",
- "score": 4,
+ "score": 5,
  "score_reason": "Lowered from 5: the main figures are TrendForce's 30 Sep 2026 forecast and several other strands (Samsung's profit estimate, Micron's union, supply deals) were carried on 8 to 10 Oct; the article is an aggregator roundup.",
  "importance_label": "WATCHLIST",
  "importance_line": "Phones, PCs and AI servers could keep getting costlier because memory is pricier and scarcer, but the figures are forecasts and BigGo says analysts disagree on whether new capacity, including from China's CXMT, will bring prices down later.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 30 Sep 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read in full from the fulltext copy. BigGo Finance is an aggregator rewriting TrendForce, DRAMeXchange, Gartner and Korean press without naming the Korean outlets; the url is the BigGo page. Pool follow_up flag was false; freshness is dated by the 30 Sep 2026 TrendForce forecast, so the QA re-dated check may hold it."
+ "notes": "Read in full from the fulltext copy. BigGo Finance is an aggregator rewriting TrendForce, DRAMeXchange, Gartner and Korean press without naming the Korean outlets; the url is the BigGo page. Pool follow_up flag was false; freshness is dated by the 30 Sep 2026 TrendForce forecast, so the QA re-dated check may hold it.",
+ "fc_score": 4
 }

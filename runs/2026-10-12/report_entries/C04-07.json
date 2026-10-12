@@ -2,7 +2,7 @@
  "item_id": "C04-07",
  "v1_category": "RES",
  "headline": "Illumina, the DNA-sequencing company, has released SpliceAI2, an AI model that predicts from a DNA sequence alone how genetic changes may disrupt splicing, the cell's cutting and joining of a gene's RNA copy.",
- "score": 4,
+ "score": 5,
  "score_reason": "Lowered from 5: Illumina announced the model on 8 Oct 2026 (per PR Newswire headlines), and the benchmark results are the company's own.",
  "importance_label": "WATCHLIST",
  "importance_line": "Researchers who look for the genetic cause of rare diseases could get a tool that finds more splicing-related variants, including ones deep in non-coding DNA, but the results are Illumina's own and the model was weaker at predicting how a variant's effect changes between tissues.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 8 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read in full from the main session's fulltext copy. The source is the developer's own blog post. The 8 Oct 2026 launch date comes from Google News listings of the PR Newswire, Investing.com and Unite.AI items (headlines seen, not read); the blog text itself is undated. Not carried in the 14 earlier editions, so it is older news not yet printed, not a repeat."
+ "notes": "Read in full from the main session's fulltext copy. The source is the developer's own blog post. The 8 Oct 2026 launch date comes from Google News listings of the PR Newswire, Investing.com and Unite.AI items (headlines seen, not read); the blog text itself is undated. Not carried in the 14 earlier editions, so it is older news not yet printed, not a repeat.",
+ "fc_score": 4
 }

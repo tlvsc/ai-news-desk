@@ -1,0 +1,68 @@
+EXACT EDITS FOR THE REPO SCRIPTS (to apply only with Rafi's yes; 12 Oct 2026). The run-folder copies already contain them and are used today.
+
+== build_pack.py (copy: build_pack_8.py; the first two lines of the copy are only an import path)
+@@ -21,30 +21,29 @@
+ base.pop('note', None)
+ pack = copy.deepcopy(base)
+ pack.update(edition=ed, date_title=title,
+-            format=('13-slot template: C01 opening (Rafi\'s words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; '
+-                    'C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi\'s wording, 2 Oct 2026). Each clip aims at '
++            format=('13-slot template: C01 opening (Rafi\'s words and screen timeline, 2 Oct 2026); C02-C09 eight stories (Rafi, 12 Oct 2026: the spare slot is used for an eighth story); C10 fun; '
++                    'C11 teaser; C12 The Bigger Picture; C13 ending (Rafi\'s wording, 2 Oct 2026). Each clip aims at '
+                     '8 seconds, 10 is acceptable for a long item, 12 is the hard limit (CLAUDE.md rule 22, Rafi 12 Oct 2026). Box times round up to the next half second.'),
+             review_status=('Spoken lines follow the Drive phrasing file Headlines section (who, what and why in one flowing sentence, syllables the '
+                            'measure), checked by check_wording.py, check_headlines_rules.py, a stranger check and a rules agent; approved by Rafael.'),
+             source_check=f'Story lines were written from the Full Report entries of {ed}. Outlets are shown on screen, never spoken.',
+-            bigger_picture={'state': 'generated_in_C11', 'category': 'The Bigger Picture', 'source': 'AI News Desk',
+-                            'position': 'slot 11, after teaser, before the ending'})
++            bigger_picture={'state': 'generated_in_C12', 'category': 'The Bigger Picture', 'source': 'AI News Desk',
++                            'position': 'slot 12, after teaser, before the ending'})
+ slots = [fixed[1]]
+ for k, st in enumerate(fin['stories']):
+     slots.append({'slot': 2 + k, 'kind': 'story', 'category': st['category_word'].title(), 'item': st['item'],
+                   'symbol': st['screen'], 'script': st['script'], 'source': entry(W, st['item'])['source']})
+ f = fin['fun']
+-slots.append({'slot': 9, 'kind': 'fun', 'category': 'Fun', 'item': f['item'], 'symbol': f['screen'], 'script': f['script'],
++slots.append({'slot': 10, 'kind': 'fun', 'category': 'Fun', 'item': f['item'], 'symbol': f['screen'], 'script': f['script'],
+               'source': entry(W, f['item'])['source']})
+ t = fin['teaser']
+-slots.append({'slot': 10, 'kind': 'teaser', 'category': 'Teaser', 'item': '; '.join(t['items']), 'symbol': t['screen'],
++slots.append({'slot': 11, 'kind': 'teaser', 'category': 'Teaser', 'item': '; '.join(t['items']), 'symbol': t['screen'],
+               'script': t['script'], 'source': 'AI News Desk'})   # Rafi, 11 Oct 2026 (lesson 241): the teaser and our own analysis are credited AI News Desk
+ b = fin['bp']
+-slots.append({'slot': 11, 'kind': 'story', 'category': 'The Bigger Picture', 'item': 'desk analysis', 'symbol': b['screen'],
++slots.append({'slot': 12, 'kind': 'story', 'category': 'The Bigger Picture', 'item': 'desk analysis', 'symbol': b['screen'],
+               'script': b['script'], 'source': 'AI News Desk'})
+-slots.append({'slot': 12, 'kind': 'unused', 'state': 'bypass', 'title': f'unused (seven stories from {ed})'})
+ slots.append(fixed[13])
+-assert len(fin['stories']) == 7, f"7 story clips expected, got {len(fin['stories'])}"
++assert len(fin['stories']) == 8, f"8 story clips expected, got {len(fin['stories'])}"
+ pack['slots'] = slots
+ out = W / 'headlines_work' / f'headlines_{short}_pack.json'
+ out.write_text(json.dumps(pack, indent=1, ensure_ascii=False), encoding='utf-8')
+
+== verify_headlines.py (copy: verify_headlines_8.py)
+@@ -20,10 +20,10 @@
+     if n12['mode'] == 0:
+         act.append((s, n13['widgets_values'][0])); t = n12['widgets_values'][0]; tone += TONE in t
+         spoken = re.search(r'says exactly.*?"(.*?)" at', t, re.S).group(1)
+-        if s == 11:   # NOT FINANCIAL ADVICE (Rafi, 7 Oct 2026): spoken AND on the screen, checked in the finished JSON
++        if s == 12:   # NOT FINANCIAL ADVICE (Rafi, 7 Oct 2026): spoken AND on the screen, checked in the finished JSON
+             nfa = ('not financial advice' in spoken.lower(), 'not financial advice' in t.split('says exactly')[0].lower())
+             print('Bigger Picture clip: "not financial advice" spoken', nfa[0], '| on the screen', nfa[1])
+-            if not all(nfa): dig.append('C11 not financial advice missing')
++            if not all(nfa): dig.append('C12 not financial advice missing')
+         if s != 1 and re.search(r'\d', spoken): dig.append(s)
+ ok = all(x[1] <= 12 for x in act) and tone == len(act) and not dig and nodes[11]['widgets_values'][1] == 8
+ print('active', [x[0] for x in act], '| seconds', [x[1] for x in act], '| longest', max(x[1] for x in act),
+
+== pick_gate.py (copy: pick_gate_13.py): G2 count
+@@ -106,7 +106,7 @@
+     fun = sel['fun']['item']; tz = [t['item'] for t in sel['teaser']]; hl = sel['headlines']; hfun = sel.get('headlines_fun', fun); bpr = sel['bp_refs']
+     allids = ids + [fun] + tz + hl + [hfun] + bpr
+     chk('G1 every id exists and is not held', all(i in ents and i not in hid for i in allids), str([i for i in allids if i not in ents or i in hid]))
+-    chk('G2 count: 14 story cards (15 allowed, one extra, Rafi 8 Oct 2026), 4 teaser items, 7 Headlines clips', len(cards) in (F['target'], F['target'] + 1) and len(tz) == 4 and len(hl) == 7, f'{len(cards)} cards, {len(tz)} teaser, {len(hl)} clips')
++    chk('G2 count: 13 to 15 story cards (run-folder copy of 12 Oct 2026, 13 allowed by CLAUDE.md rule 14, pending the yes of Rafi), 4 teaser items, 7 Headlines clips', len(cards) in (F['target'] - 1, F['target'], F['target'] + 1) and len(tz) == 4 and len(hl) in (7, 8), f'{len(cards)} cards, {len(tz)} teaser, {len(hl)} clips')
+     chk('G3 no duplicate ids among cards', len(set(ids)) == len(ids), str([i for i in ids if ids.count(i) > 1]))
+     # Rafi, 12 Oct 2026 (CLAUDE.md rule 24): every Headlines item must be in the pool, the Bulletin and the Full Report (not necessarily on a card); a fun clip Rafi named (CP-...) is the one exception
+     _hl = [i for i in hl + [hfun] if not i.startswith('CP-')]

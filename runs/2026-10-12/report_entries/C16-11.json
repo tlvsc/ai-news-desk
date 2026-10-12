@@ -1,0 +1,18 @@
+{
+ "item_id": "C16-11",
+ "v1_category": "FUN",
+ "headline": "AI bots built to waste scammers' time, and AI-driven decoy systems that keep hackers busy, are becoming practical tools against cybercrime, WIRED reports.",
+ "score": 5,
+ "score_reason": "Pool score kept: a feature on new anti-scam tools, based on a company's own figures and one demo.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Scam victims could be spared if bots soak up scammers' time, but the figures are Apate's own, WIRED tested only a demo, and scamming overall keeps growing.",
+ "source": "WIRED",
+ "status": "REPORTED",
+ "summary": "WIRED's Kernel Panic newsletter reports that the Australian company Apate, whose system is used by banks and supported by telecom companies, runs about 350,000 AI bots that pose as scam victims and keep fraudsters talking, sometimes for more than two hours, and says it has gathered more than 250,000 pieces of information on scammers, according to its founder Dali Kaafar. WIRED adds that open-source honeypots (decoy systems that lure attackers) are starting to use AI language models, and ETH Zurich researcher Mark Vero says such decoys kept AI attackers busy \"significantly longer\", but scamming overall keeps growing and law enforcement has not stopped it.",
+ "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Weekly newsletter feature, published 10 Oct 2026. Apate figures are its founder's claims; the honeypot finding is from ETH Zurich research described by one researcher. | Named by Rafi (CLAUDE.md rule 23, 11 Oct 2026) as the fun story of 12 Oct 2026; WIRED published it on 10 Oct and it ran in the 11 Oct report; added to the 12 Oct pool and reports on his word (rule 23 exception to NO OLD NEWS).",
+ "fc_score": 5
+}

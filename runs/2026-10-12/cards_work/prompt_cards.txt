@@ -1,0 +1,19 @@
+# Task: wording for the cards deck (Cards, the reader level and the writing shape in its product section of WORKDIR/rules/Article_phrasing_instructions_AIND_V1.txt (the only place they are set))
+First read WORKDIR/cards_work/wording_common.txt and WORKDIR/cards_work/selection.json (cards_in_deck_order, teaser_items, bp_refs). WORKDIR = /tmp/claude-0/-home-user-ai-news-desk/f3d477a5-1092-5355-b599-a13a62d03539/scratchpad/run_2026-10-12. Style example from an earlier deck: /home/user/ai-news-desk/runs/2026-10-11/cards_copy.json (aim simpler and shorter than any dense body there).
+Write WORKDIR/cards_work/cards_copy_fable.json:
+{"stories":[{"card":"s1","item":"...","head":"...","body":"..."}, ... one per card in cards_in_deck_order including "fun"],
+ "teaser":[{"id":"t1","item":"...","head":"..."}, ... one per teaser item],
+ "bp":{"head":"...","body":"..."}}
+Limits (the renderer refuses text that does not fit):
+- Story card head: one sentence, at most 85 characters (three lines). Prefer 70 to 85.
+- Story card body: exactly TWO sentences, at most 230 characters: what actually happened in real-world terms, then why it matters or the honest doubt (who says it, what is unconfirmed). Each sentence at most 15 words.
+- Teaser line: one short sentence, at most 90 characters, the deed first.
+- Bigger Picture card ("And for the bigger picture" card, label AIND): head one sentence of at most 85 characters that sums up the big thing happening that moves the market today; body at most 160 characters in two short sentences: what happened, then what to watch AND why. Source: WORKDIR/bigger_picture_bulletin.json and the entries named in bp_refs only (CLAUDE.md rule 17).
+- The Fun card: light tone, still precise, same limits as a story card.
+Validate with python json.load. BEFORE YOU HAND BACK (Rafi, 12 Oct 2026): run python3 /home/user/ai-news-desk/.claude/skills/fill-category-scan-part-b/scripts/check_wording.py --workdir WORKDIR --cards WORKDIR/cards_work/cards_copy_fable.json and fix every FAIL yourself, at most two rounds; never hand back a FAIL without saying so. Later you may get a message listing only the cards the checker flagged: fix only those, run the script again and rewrite the file. Final message: one line only ("cards wording written").
+
+
+ONE-OFF INSTRUCTIONS FROM RAFI, 12 Oct 2026 (his words in quotes; they are part of the task):
+1. Card s4 (C12-01, Bill Gates): "make sure you add the bill gates other quotes to the same card if possible maybe something like: 2 key point from bill gates interview". Read the entries and facts of C12-01 and C14-01 (one CNN interview of 11 Oct). Keep the two sentence body: sentence one the cyber warning, sentence two his other key point (how society must decide to tax AI and robots and which jobs stay human). The head may name the interview. Short quotes only, his name and position in the same sentence.
+2. "fun part need to be made easy to understand": the Fun card (C16-01) and every card must be understood by a stranger at once.
+3. More cards may be added later by a message to you; do not wait for them.

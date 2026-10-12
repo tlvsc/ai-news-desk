@@ -2,7 +2,7 @@
  "item_id": "C01-05",
  "v1_category": "MOD",
  "headline": "Nvidia's open voice AI model PersonaPlex-7B, released in January 2026, can listen and speak at the same time and reacts to an interruption in as little as 240 milliseconds, Startup Fortune reports.",
- "score": 4,
+ "score": 6,
  "score_reason": "Pool 6 lowered by 2: the only readable article dates the release to 15 Jan 2026 and the 12 Oct piece could not be opened, so nothing new today is verified; the figures are Nvidia's own.",
  "importance_label": "WATCHLIST",
  "importance_line": "Developers building voice assistants get a free model that can run on a single graphics chip and handle interruptions more naturally than the usual speech-to-text-to-speech chain, but the figures are Nvidia's own and the model itself dates from January 2026, so the news value today is limited.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 15 Jan 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Pool URL returns 404; entry written from the same outlet's earlier piece on the same model (url above). Release date 15 Jan 2026 is as stated by Startup Fortune."
+ "notes": "Pool URL returns 404; entry written from the same outlet's earlier piece on the same model (url above). Release date 15 Jan 2026 is as stated by Startup Fortune.",
+ "fc_score": 4
 }

@@ -2,7 +2,7 @@
  "item_id": "C01-06",
  "v1_category": "MOD",
  "headline": "OpenAI cut the API prices of two of its GPT-5.6 models, Luna by 80% and Terra by 20%, from 30 Jul 2026 and added a faster mode for its top Sol model.",
- "score": 3,
+ "score": 5,
  "score_reason": "Pool 5 lowered by 2: the announcement dates from 30 Jul 2026, more than ten weeks ago, and was re-dated into this window.",
  "importance_label": "WATCHLIST",
  "importance_line": "Developers and companies that build on OpenAI's models have paid less per use since 30 Jul 2026, but this is a more than ten-week-old announcement about the GPT-5.6 line, which OpenAI has since followed with GPT-6 models, and the efficiency claims are OpenAI's own.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 30 Jul 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Older news re-dated from 30 Jul 2026. Read Stocktwits in full; the price cut is an OpenAI announcement carried by many outlets that day, the kernel-rewrite and efficiency claims are OpenAI's own."
+ "notes": "Older news re-dated from 30 Jul 2026. Read Stocktwits in full; the price cut is an OpenAI announcement carried by many outlets that day, the kernel-rewrite and efficiency claims are OpenAI's own.",
+ "fc_score": 3
 }

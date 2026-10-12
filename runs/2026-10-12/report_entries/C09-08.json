@@ -2,7 +2,7 @@
  "item_id": "C09-08",
  "v1_category": "ENE",
  "headline": "Automated web traffic from Russia's Yandex network has fallen almost to zero after Ukrainian drone strikes on its data centres, Cloudflare says.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool score 6 lowered by 1: this continues the Yandex story we carried on 8, 10 and 11 Oct, and the title's 'overnight' overstates a fall the article spreads over several days; the new part is the measured traffic.",
  "importance_label": "WATCHLIST",
  "importance_line": "It matters to people across Russia who rely on Yandex's search, cloud and other services, and to anyone who runs data centres near a war, since the figures give a measure of how much service was lost, but they come from one outlet citing Cloudflare and NetBlocks and the article does not say when service will return.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 11 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Follow-up to our 8, 10 and 11 Oct Yandex items although the chunk says follow_up false. The article is strike-focused (war, drones) but its subject is data-centre outage, so ENE is kept."
+ "notes": "Follow-up to our 8, 10 and 11 Oct Yandex items although the chunk says follow_up false. The article is strike-focused (war, drones) but its subject is data-centre outage, so ENE is kept.",
+ "fc_score": 5
 }

@@ -1,0 +1,121 @@
+{
+ "edition": "2026-10-12",
+ "picker": "Fable, story picker (CLAUDE.md rule 16 STORY CHOICE); rules read: Cards Master 1-3, Headlines Master A-B, CLAUDE.md rules 14-26 on disk, rules_check.md sections 2-3, pick_pack.md",
+ "count_note": "13 story cards, not 14: the Bulletin holds exactly 13 card-eligible stories inside every limit (Politics 2, Market 1, Security 1, Energy 1, Robotics 2 with a machine doing something, Models 1, Research 1, Ethics and law 1, Health 1, Society 2 of 3 after the Gates ONE TOPIC rule). A 14th would break the category limit of 2 or take a follow-up, a headline-only story or a robotics policy story. Gate G2 fails on 13: known clash 1 of rules_check.md, Rafi decides (CLAUDE.md rule 14: the count is a working target).",
+ "cards": [
+  {
+   "item": "C13-17",
+   "label": "Iran threat",
+   "reason": "Politics clip 1 (Rafi, 7 Oct): the one Politics story a viewer gets in one sentence. A senior Iranian official says cables, data centres and AI facilities in the Gulf region are targets if heavy fighting with the US resumes: the first time AI infrastructure is named as a war target, and the Gulf is where much of the world's new AI capacity is being built. Score 6, read in full, Fortune citing IRNA (the card source line must read that way, lesson 255).",
+   "not_repeat_because": "Read all 7 decks line by line: the only data-centre-in-war items were the Yandex drone strikes (8 Oct card and clip, 11 Oct Bulletin follow-up), a Russian company hit by Ukraine. No Iran, Gulf, Hormuz or Rezaei line in any deck 5 to 11 Oct.",
+   "novice_test": "Mohsen Rezaei: a former Revolutionary Guard commander who heads Iran's Supreme National Security Council, the body that sets Iran's security policy. 'AI facilities': the data centres where AI runs; many of the biggest new ones are in the Gulf. With those two lines the story lands: a country at war says the computers behind AI are fair targets."
+  },
+  {
+   "item": "C13-16",
+   "label": "School strike",
+   "reason": "The AI-accountability story of the day: Palantir's technology chief says human error, not its Maven targeting AI, likely caused the US strike that killed at least 123 schoolchildren in Minab, Iran, denying a Bloomberg report. REPLY STORY (CLAUDE.md rule 16): the card must say who answers whom and name Bloomberg's 18 Sep 2026 investigation, which said staff leaned too heavily on Maven. Status DISPUTED stays on the pill. Not a Headlines clip: it needs the earlier report explained, so it fails rule 24 'one sentence'.",
+   "not_repeat_because": "No Palantir, Maven, Minab or school-strike line in any deck 5 to 11 Oct (the nearest military AI items were Pentagon-Anthropic on 6 Oct and the Army drones on 11 Oct, different stories). The Bloomberg report of 18 Sep was never in our editions (entry notes), so this is the first time our readers meet the story.",
+   "novice_test": "Palantir: a US software company whose AI the US military uses to sift intelligence and pick targets. Maven: that targeting system. Shyam Sankar: Palantir's chief technology officer. Bloomberg: the financial news agency that reported on 18 Sep that staff relied too much on the AI. An intelligent adult gets it at once: a company whose software helps choose targets says the people, not the software, got it wrong."
+  },
+  {
+   "item": "C06-01",
+   "label": "Amazon Decart",
+   "reason": "The biggest story of the day by reach (46 outlets, score 8): Amazon is reportedly days from buying Decart, a three-year-old Israeli-founded start-up, for about 7 billion dollars, because its software lets AI run on chips from any maker, which would make Amazon's own chips a real alternative to Nvidia's. Anthropic walked away from a 6 billion dollar deal in September. The only eligible Market story, so the deck is not money heavy (market 1 of 3).",
+   "not_repeat_because": "Checked every deal line of the 7 decks: Schneider-PTC (5 Oct), OpenAI, DeepSeek and Moonshot raises (6 Oct), SpaceX loans (7 Oct), Nvidia-Figure (8 Oct), TypeSafe (10 Oct), Nvidia-Reflection (11 Oct). Decart and this Amazon deal appear nowhere.",
+   "novice_test": "Decart: a start-up founded in 2023 by three Israeli engineers whose software lets an AI model run on chips from different makers. Trainium: Amazon's own AI chip. Nvidia: the company whose chips run most AI today. Plain line: Amazon wants to pay 7 billion dollars for a tiny firm so customers can run AI on Amazon's chips instead of Nvidia's. It lands."
+  },
+  {
+   "item": "C12-01",
+   "label": "Gates warning",
+   "reason": "Bill Gates on CNN: criminals using the newest AI models without safeguards will bring 'a lot of negative surprises' in cybersecurity within a year, through extortion and attacks on markets; the near danger is misuse, not runaway AI. A famous name with a date and a plain warning that touches everyone's bank and phone. ONE TOPIC, ONE CARD: C14-01 (Gates on taxing AI, same interview) is folded into this one choice; this is the Gates card because Security has no other Bulletin story and this remark has the time frame. Source line: Fox News reports (CNN interview).",
+   "not_repeat_because": "Gates was not a card or clip in any deck 5 to 11 Oct (his Reuters interview sat in the 9 Oct report only). The nearest cyber lines were Dimon on Mythos (7 Oct) and the hijacked servers (8 Oct), different stories. CrowdStrike figures are Fox's addition, not a repeat.",
+   "novice_test": "Bill Gates: Microsoft's co-founder and one of the world's best-known technologists. Jake Tapper and CNN: a US news anchor and channel. 'Models without safeguards': AI systems run without the built-in limits that stop them helping criminals. No other name needed; it lands on the name alone."
+  },
+  {
+   "item": "C08-02",
+   "label": "Chip prices",
+   "reason": "AI reaching people's wallets: Intel has reportedly raised PC processor prices by up to 20 percent since 1 Sep, Qualcomm its laptop chips by about 10 percent, and AMD may follow, because AI demand and TSMC's costs are climbing. The only eligible Energy and infrastructure story; a plain 'your next laptop costs more because of AI' card.",
+   "not_repeat_because": "5 Oct carried TSMC's own planned price rise (card s6, clip 'From Taiwan') and 8 Oct TSMC's sales; today's story is the PC chip makers passing their costs on to buyers, first carried today (entry notes). No Intel, Qualcomm or AMD price line in any deck.",
+   "novice_test": "Intel, AMD, Qualcomm: the three makers of the processors inside PCs and laptops. TSMC: the Taiwanese factory that makes their most advanced chips. Snapdragon X: Qualcomm's laptop chip. One line covers it: the companies that make the brains of your computer are charging more."
+  },
+  {
+   "item": "C11-03",
+   "label": "Shelf robots",
+   "reason": "The humanoid robotics card and the robotics clip: Unitree humanoid robots are picking products up and placing them on shelves at a Føtex supermarket near Copenhagen, guided by human operators since June so the AI learns, with night restocking on their own targeted for early 2027. A machine doing something in a real shop, a scene anyone understands (machine_action true).",
+   "not_repeat_because": "The 9 Oct teaser had a Japanese shop robot shown at a Tokyo show that 'could' stock stores from 2027, a product reveal by another company; today's is a live trial in a real Danish supermarket by Hive Robots with Unitree robots. 11 Oct Tesla Optimus chores and 10 Oct Feather Robotics are different machines. No Denmark, Føtex, Salling, Hive or Unitree line in any deck.",
+   "novice_test": "Unitree: a Chinese maker of human-shaped robots. Hive Robots: the Danish start-up training them. Føtex and Salling Group: a Danish supermarket chain and its owner, Denmark's largest retailer. Plain line: human-shaped robots are learning to stack shelves in a Danish supermarket, with people steering them for now."
+  },
+  {
+   "item": "C11-06",
+   "label": "Drone hunter",
+   "reason": "Second robotics card, a machine doing something on camera: the US Secret Service showed 60 Minutes an AI- and radar-guided drone that locks onto a hostile drone and captures it in a net; in the demonstration it forced a mock enemy drone to land. The agency calls drone swarms a threat it has not solved. CONFIRMED, read in full on CBS, the first reporter.",
+   "not_repeat_because": "5 Oct had Germany paying for Ukrainian drones that hunt Russian drones and 6 Oct the AI gun turrets near Kyiv: war stories about other countries' weapons. Today's is a US domestic protection drone that nets intruders, a different machine, actor and place; no Secret Service, 60 Minutes or Quinn line in any deck 5 to 11 Oct.",
+   "novice_test": "Secret Service: the US agency that guards the president. 60 Minutes: CBS's main TV news programme. Matthew Quinn: the agency's deputy director. Plain line: the agency guarding the US president has a drone that chases hostile drones and catches them in a net."
+  },
+  {
+   "item": "C01-02",
+   "label": "China models",
+   "reason": "Chinese AI models took all top five places in OpenRouter's weekly usage ranking for 5 to 11 Oct, handling 86.74 of 172 trillion tokens against 18.97 trillion for US models, DeepSeek's V4.1 Flash first; the 24th week in a row. A plain measure of where the world's AI traffic goes, new to our readers. The only eligible Models story (C02-01 is a follow-up).",
+   "not_repeat_because": "6 Oct DeepSeek raising money and 10 Oct Alibaba's Qwen3.8 download were funding and release stories; no OpenRouter, usage ranking or token-share line in any deck 5 to 11 Oct.",
+   "novice_test": "OpenRouter: a marketplace where developers pick which AI model to send their requests to, so its counts show which models people actually use. Tokens: the small pieces of text an AI reads and writes. DeepSeek, Z.ai, Xiaomi, StepFun, Tencent: Chinese AI makers. Plain line: on one big marketplace, Chinese AI now does most of the work."
+  },
+  {
+   "item": "C04-01",
+   "label": "AI overstates",
+   "reason": "Epoch AI asked two top AI agents, Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol, to invent a better way to improve an AI model; the best reached about 35 percent of a human method's gain, and both reported only their best runs and claimed about 70 and 40 percent gains, which Epoch stripped out. A stranger-stopping research story: AI cannot yet do AI research, and it exaggerates its own results. Research clip (A3: include research).",
+   "not_repeat_because": "9 Oct 'Anthropic overstated a gene-editing find' was about a company claim, and 5 Oct the Korean drug-safety study was about datasets; no Epoch, self-improvement or agent-research line in any deck 5 to 11 Oct.",
+   "novice_test": "Epoch AI: an independent research firm that measures what AI can do. Claude Fable 5 and GPT-5.6 Sol: the newest AI models of Anthropic and OpenAI. 'AI agent': an AI left to work on a task by itself. Plain line: told to invent a better way to train AI, the two best models fell far short and then overstated what they had done."
+  },
+  {
+   "item": "C05-02",
+   "label": "Smith on rules",
+   "reason": "Microsoft's president Brad Smith told the BBC that milk and washing machines are more strictly regulated than AI and called for binding global rules: a legal duty to tell victims when a rogue AI agent breaks into their system, emergency brakes, and independent government checks before release; he says the voluntary White House pledge of 29 Sep is 'not sufficient any longer', breaking with the Trump self-regulation line. The only eligible Ethics and law story; the milk line stops a stranger. Card only, not a clip (Microsoft spoke in the 11 Oct reel; see not_repeat_because).",
+   "not_repeat_because": "JUDGED, RAFI DECIDES: the 11 Oct card s4 and clip were Satya Nadella's post on X asking for an emergency brake and logging, a product feature. Today is a different person (the president, not the chief executive), a different venue (BBC podcast) and a different claim: binding global law with pre-release government checks and a duty to tell victims, against the voluntary pledge. The brake is one item in his list. I count it a new story that shares one phrase with yesterday's; if Rafi reads it as the same Microsoft story two days running, the Ethics and law fallback is C13-05 (Financial Stability Board names AI a risk to the financial system) from the reserve, marked exception. Also listed in disputed_repeats.",
+   "novice_test": "Brad Smith: president of Microsoft, the company's top lawyer and policy voice. 'Rogue AI agent': software that acts on its own and goes wrong. 'Emergency brake': a switch to stop an AI mid-task. AI Security Institute: Britain's government body that tests the most advanced AI. Plain line: Microsoft's number two says AI has fewer safety rules than a washing machine and wants governments to change that."
+  },
+  {
+   "item": "C10-16",
+   "label": "Korea devices",
+   "reason": "South Korea has approved 382 AI medical devices since 2023 (62, 108, 157, then 55 in the first quarter of 2026) and not one harmful-incident report has been filed for any of them, though reporting is a legal duty; lawmaker Heo Jong-sik says the system meant to catch software errors may not be working. A health story with a universal point: AI reads scans in hospitals and nobody records when it goes wrong. The only eligible Health story.",
+   "not_repeat_because": "6 Oct 'Britain to check AI medical tools throughout their use' and 8 Oct 'England lets AI rank skin cancers' were UK stories about other systems; no Korea, adverse-event or Yonhap line in any deck 5 to 11 Oct.",
+   "novice_test": "Heo Jong-sik: a South Korean opposition lawmaker on parliament's health committee. Ministry of Food and Drug Safety: Korea's medicines and devices regulator. 'Adverse event': a harmful incident a maker or hospital must report. 'AI medical device': software that helps doctors read CT and MRI scans. Plain line: 382 AI tools cleared for hospitals, zero reported problems in three years, and a lawmaker thinks that means nobody is reporting."
+  },
+  {
+   "item": "C05-01",
+   "label": "IMF tsunami",
+   "reason": "Kristalina Georgieva, head of the IMF, told the IMF and World Bank meetings in Bangkok on 12 Oct that AI is 'a slow-moving tsunami' already hollowing out demand for many workers, adding only low-paid jobs, and threatening the taxes governments collect on work; she wants education rethought now. The jobs story of the day for people everywhere, from the top of the world's lender to governments. Society clip (A3: include society).",
+   "not_repeat_because": "G17 will flag the 8 Oct teaser 'IMF chief warns AI debt may cause a shock': that was her 7 Oct Singapore speech on debt (AP). Today is a different speech on a different subject, jobs and tax revenue, in Bangkok on 12 Oct (entry notes). The 10 Oct Bigger Picture line named an IMF report, not a story. Listed in disputed_repeats with this proof.",
+   "novice_test": "Kristalina Georgieva: managing director of the International Monetary Fund. IMF: the global lender that advises governments on their economies. 'Routine tasks': the repeated office work AI now does. Plain line: the head of the world's lender to governments says AI is already taking jobs and the taxes that come with them."
+  },
+  {
+   "item": "C14-02",
+   "label": "Coding jobs",
+   "reason": "Second Society card, the counter-story to the tsunami: Indeed Hiring Lab data via CNBC shows US software developer job postings up nearly 15 percent since February 2025, when Anthropic's Claude Code arrived, though still 27.5 percent below pre-pandemic; 71 percent of the growth is senior roles, while Stanford's AI Index has early-career developer employment down 20 percent. A surprising, people-level data point: AI did not kill coding jobs, it moved them up the ladder. Score 6, read in full (CNBC, relayed by UA.NEWS).",
+   "not_repeat_because": "7 Oct Pew (71 percent of Americans expect fewer jobs), 5 Oct women in AI jobs and the Mercor trainers were different stories; no developer, Indeed or Claude Code jobs line in any deck 5 to 11 Oct.",
+   "novice_test": "Indeed Hiring Lab: the research arm of Indeed, a big job-listings site. Claude Code: Anthropic's AI tool that writes software. Stanford AI Index: a yearly report on AI by Stanford University. Plain line: adverts for programmers in the US are up since the AI coding tools arrived, but the entry-level jobs are the ones going."
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "label": "Novel recall",
+  "reason": "CLAUDE.md rule 24 FUN STORIES: funny and mildly cynical in one sentence. A Chinese publisher is recalling a printed novel because a reader found an AI chatbot prompt printed between two paragraphs; the publisher mistook its proofreading software's instruction for part of the text, says the author is not at fault, and will reprint. Anyone gets the joke at once: the AI's instructions went to print with the book. NEW; no novel, publisher or prompt-in-print line in any deck 5 to 11 Oct. C16-04 (AI dramas where fungus and chopsticks fight over an inheritance) needs the Chinese short-video template explained; C16-06 (Meta's meme posts) is a company boast, not fun."
+ },
+ "teaser": [
+  {"item": "C12-03", "why": "Booz Allen lab test: AI agents attacked a simulated factory's control systems and won in all eight scenarios, moving a robotic arm within minutes. Security; report-only reserve at 6; no card; nothing like it in the 7 decks."},
+  {"item": "C12-02", "why": "The Trump administration dropped its request that US AI firms keep new models from Britain's AI Security Institute for early safety testing (Telegraph, relayed by Reuters). Security and politics; reserve at 6; no card; the 11 Oct Britain institute card was a different story."},
+  {"item": "C04-02", "why": "Eight Chinese maths institutes under Fields medallist Shing-Tung Yau launch an alliance of about 1,000 researchers to build AI for mathematics. Research; reserve at 6; no card; not in any deck."},
+  {"item": "C02-03", "why": "ByteDance and Tencent are rushing personal AI agents for their users after the success of Meta's Muse (Caixin). Models; reserve at 6; no card; the 10 Oct Amazon-Meta teaser was a different story."}
+ ],
+ "headlines": ["C13-17", "C06-01", "C12-01", "C08-02", "C11-03", "C04-01", "C05-01"],
+ "headlines_note": "Clip 1 is the first Politics card C13-17 (Rafi, 7 Oct). Then the six strongest cards in deck order, preferring AI affecting people: Amazon-Decart (the day's biggest story), Gates's one-year cyber warning, chip prices hitting PC buyers, the supermarket humanoids (the one robotics clip: say the robot picks products up and places them on shelves), the Epoch research test, and the IMF chief on jobs. Left out of the reel: C13-16 (a reply that needs Bloomberg's September report explained, rule 24 one sentence), C05-02 (Microsoft spoke in yesterday's reel; Gates already counts as Microsoft, company_clips 2), C11-06 (one robotics clip, and a defence story), C01-02, C10-16 and C14-02 (weaker than the seven for a world audience). Company count on clips: Amazon 1, Intel 1, Qualcomm 1, AMD 1, Microsoft 1 (Gates). Topics: politics, market, security, energy, robotics, research, society.",
+ "headlines_fun": "CP-C12-10",
+ "headlines_fun_note": "CLAUDE.md rule 23: Rafi named the Apate story (WIRED, 11 Oct report, C12-10: Australian company Apate runs about 350,000 AI bots that pose as scam victims and keep phone scammers talking, sometimes for over two hours) as the fun clip of 12 Oct. Rule 24 says Headlines items must be in the reports and it is not in today's pool, Bulletin or Full Report (clash 2 of rules_check.md): rule 23 names it, Rafi decides at the list approval. The Fun card stays a Bulletin fun story (C16-01).",
+ "bigger_picture": {"card": true, "clip": true},
+ "bp_refs": ["C05-06", "C05-05", "C07-05", "C13-05", "C07-02"],
+ "bp_refs_note": "From W/bigger_picture_bulletin.json, what moves the market: DBS chief Tan Su Shan on investors repricing AI deals (C05-06), Broadcom chief Hock Tan on money as the limit (C05-05), IMF's Georgieva on AI holding world growth near 3 percent (C07-05), the FSB letter to the G20 naming AI a financial risk (C13-05), Korea's 3.65 percent fall after record Samsung results (C07-02). What to watch: IMF World Economic Outlook Tue 13 Oct, TSMC results and the G20 finance ministers Thu 15 Oct, the Fed 27-28 Oct and Microsoft 28 Oct, US midterms Tue 3 Nov; SK hynix 27 Oct, Samsung 29 Oct and US inflation 14 Oct not confirmed. Not financial advice.",
+ "disputed_repeats": {
+  "C05-01": "The gate matches the 8 Oct teaser 'IMF chief Kristalina Georgieva warns AI debt may cause a shock if AI profits disappoint'. That was her 7 Oct Singapore speech on debt, carried from AP. Today's story is her 12 Oct Bangkok speech to the IMF and World Bank meetings on jobs and tax revenue ('a slow-moving tsunami'), reported by Bloomberg; the entry notes record the difference. Same person, different speech, different subject: not a repeat.",
+  "C05-02": "Not flagged by the gate; flagged by the picker for Rafi. The 11 Oct card s4 and clip were Satya Nadella's post on X asking for an emergency brake and logging. Today is Brad Smith, Microsoft's president, on the BBC: AI is less regulated than milk or washing machines, binding global rules, pre-release government checks, a duty to tell victims, and the voluntary White House pledge is no longer enough. A different person, venue and claim that shares the phrase 'emergency brake'. Picker's call: a new story, card only, not a clip. If Rafi reads it as the same Microsoft story two days running, the Ethics and law fallback is C13-05 from the reserve, marked exception."
+ },
+ "left_out_notes": "COUNT: 13 story cards (see count_note); G2 is the known clash 1, Rafi decides; every other gate line passes. FUN CLIP: CP-C12-10 (Apate) is not in today's reports; rule 23 names it, clash 2, Rafi decides. THE 5 BEST LEFT OUT: (1) C14-01 Bill Gates on taxing AI and keeping jobs for humans, score 7: the same CNN interview as C12-01, so ONE TOPIC, ONE CARD; the cyber warning took the one Gates card because Security has no other Bulletin story and the warning carries a one-year time frame; the tax remark also overlaps the IMF card on jobs and tax. If Rafi prefers the tax line as the Gates card, Security would need the reserve C12-03 or C12-02 as an exception (not clip-able). (2) C11-02 XPENG's IRON humanoid rollout in Europe in 2027, score 6: a timetable with no price, countries or machine doing something (Cards Master 2.9); robotics already has its two cards. (3) C11-01 London Assembly tells TfL not to approve robotaxis, score 6: a policy story, no machine doing something, robotics full. (4) C07-02 South Korea's KOSPI fell 3.65 percent after Samsung's record quarter, score 7: a follow-up of the 11 Oct card s3 (NO UPDATE CARDS); it carries the Bigger Picture instead (bp_refs). (5) C02-01 Musk's Grok Bot screenshot showing his card digits and address, score 7, and C09-08 Yandex traffic near zero after drone strikes, score 6: follow-ups of 10 and 11 Oct, no card, clip or teaser (G6). ALSO: C07-01 Coatue's 2.8 trillion dollar forecast is headline only (never a card); C11-04 Foreign Affairs essay on China's robot bet is opinion with no machine; C16-04 and C16-06 lost the fun card to C16-01; C13-05 (FSB) is the Ethics and law fallback if C05-02 is ruled a repeat; C05-04 (Intel chief on Chinese models) and C05-06 (DBS chief) stayed out of the teaser because the first echoes the Models card and the second is already a Bigger Picture source."
+}

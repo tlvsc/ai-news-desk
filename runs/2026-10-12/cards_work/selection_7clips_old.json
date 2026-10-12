@@ -1,0 +1,171 @@
+{
+ "edition": "2026-10-12",
+ "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
+ "cards_in_deck_order": [
+  {
+   "card": "s1",
+   "item": "C13-17",
+   "category": "Politics and government",
+   "label": "Iran threat",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s2",
+   "item": "C13-16",
+   "category": "Politics and government",
+   "label": "School strike",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s3",
+   "item": "C06-01",
+   "category": "Market, industry and finance",
+   "label": "Amazon Decart",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 8
+  },
+  {
+   "card": "s4",
+   "item": "C12-01",
+   "category": "Security and cyber",
+   "label": "Gates warning",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s5",
+   "item": "C08-02",
+   "category": "Energy and infrastructure",
+   "label": "Chip prices",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s6",
+   "item": "C11-03",
+   "category": "Robotics",
+   "label": "Shelf robots",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s7",
+   "item": "C11-06",
+   "category": "Robotics",
+   "label": "Drone hunter",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 5
+  },
+  {
+   "card": "s8",
+   "item": "C01-02",
+   "category": "Models and tools",
+   "label": "China models",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s9",
+   "item": "C04-01",
+   "category": "Research and science",
+   "label": "AI overstates",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s10",
+   "item": "C05-02",
+   "category": "Ethics and law",
+   "label": "Smith on rules",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s11",
+   "item": "C10-16",
+   "category": "Health",
+   "label": "Korea devices",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "s12",
+   "item": "C05-01",
+   "category": "Society and education",
+   "label": "IMF tsunami",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
+  },
+  {
+   "card": "s13",
+   "item": "C14-02",
+   "category": "Society and education",
+   "label": "Coding jobs",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 6
+  },
+  {
+   "card": "fun",
+   "item": "C16-01",
+   "category": "The Fun Side",
+   "label": "Novel recall",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 3
+  }
+ ],
+ "teaser_items": [
+  {
+   "id": "t1",
+   "item": "C12-03",
+   "category": "Security and cyber"
+  },
+  {
+   "id": "t2",
+   "item": "C12-02",
+   "category": "Security and cyber"
+  },
+  {
+   "id": "t3",
+   "item": "C04-02",
+   "category": "Research and science"
+  },
+  {
+   "id": "t4",
+   "item": "C02-03",
+   "category": "Models and tools"
+  }
+ ],
+ "headlines_story_clips_in_order": [
+  "C13-17",
+  "C06-01",
+  "C12-01",
+  "C08-02",
+  "C11-03",
+  "C04-01",
+  "C05-01"
+ ],
+ "headlines_fun": "CP-C12-10",
+ "bp_refs": [
+  "C05-06",
+  "C05-05",
+  "C07-05",
+  "C13-05",
+  "C07-02"
+ ]
+}

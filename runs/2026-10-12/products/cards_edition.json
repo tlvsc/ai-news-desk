@@ -1,0 +1,426 @@
+{
+ "edition": "2026-10-12",
+ "report_file": "/tmp/claude-0/-home-user-ai-news-desk/f3d477a5-1092-5355-b599-a13a62d03539/scratchpad/run_2026-10-12/products/2026-10-12 — Daily Global AI Intelligence Report (Claude-V1).md",
+ "report_sha256": "35e06301d4e657894cf8b5c4c3836a4bbec4165708c332bf18f45c5fa26f98d7",
+ "destinations": [
+  "Instagram @Ai_news_desk (pending Rafael's publication approval)"
+ ],
+ "template": {
+  "headline_size": 68,
+  "body_size": 40
+ },
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "cat": "Politics and government / Iran threat",
+   "head": "An Iranian official threatens Middle East data centres if heavy fighting returns.",
+   "body": "Mohsen Rezaei, a former Revolutionary Guard commander, also threatened cables and AI facilities. He named no site, and Iran and the US still talk through mediators.",
+   "src": "Fortune, citing IRNA",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 3,
+     "excerpt": "A senior Iranian official has threatened to hit cables, data centers and AI facilities in the region if heavy fighting in the war with the United States breaks out again."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "cat": "Politics and government / School strike",
+   "head": "Palantir's tech chief says human error likely caused a strike on an Iranian school.",
+   "body": "He answered Bloomberg's report last month that US staff trusted Palantir's AI too much. He gave no proof, and the Pentagon's report on the deadly strike is not public.",
+   "src": "CBS News",
+   "pill": "DISPUTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 2,
+     "excerpt": "Palantir's technology chief disputes Bloomberg's report that over-reliance on its AI contributed to the US strike on an Iranian school, saying the likely cause was human error."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "cat": "Market, industry and finance / Amazon Decart",
+   "head": "Amazon is reportedly close to buying AI start-up Decart for about $7 billion.",
+   "body": "Decart's Israeli founders built software that lets AI run on different makers' chips. The deal could help Amazon's AI chips compete with Nvidia's, but talks may still fail.",
+   "src": "The Wall Street Journal",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 8,
+     "excerpt": "Amazon is reportedly negotiating to buy Decart, an Israeli-founded AI software company, for about $7 billion."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "cat": "Market, industry and finance / China AI cost",
+   "head": "Intel's boss says Chinese AI models are cheaper to use and spreading very fast.",
+   "body": "Lip-Bu Tan, Intel's chief executive, called models such as China's DeepSeek \"good enough\". That could cut AI bills for businesses, but he gave no figures.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   },
+   "report_refs": [
+    {
+     "item": 11,
+     "excerpt": "Intel's chief executive said Chinese AI models cost less to run, perform well enough and are being adopted very fast."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "cat": "Security and cyber / Gates warning",
+   "head": "Microsoft co-founder Bill Gates made two key points about AI in a TV interview.",
+   "body": "First, he expects AI-armed criminals to bring \"negative surprises\" in cyberattacks within a year. Second, society must decide how to tax AI and robots, and which jobs stay human.",
+   "src": "Fox News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 25,
+     "excerpt": "Bill Gates warned on US television that criminals using powerful AI models without safeguards could cause many damaging surprises in cybersecurity within a year."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "cat": "Security and cyber / Factory hack",
+   "head": "AI hacked a mock factory in a lab test and moved its robot arm.",
+   "body": "Consulting firm Booz Allen Hamilton says the AIs reached their goal in all eight tests. Defenders may get only minutes to react, it says, but humans approved each risky step.",
+   "src": "The Register, citing a Booz Allen Hamilton report",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 27,
+     "excerpt": "A Booz Allen Hamilton lab test found that advanced AI agents could attack a simulated factory's control systems, reaching their goal in all eight scenarios, including moving a robotic arm."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "cat": "Energy and infrastructure / Chip prices",
+   "head": "Laptops could cost more as Intel and Qualcomm reportedly raise their chip prices.",
+   "body": "Reports say Intel's rises reach up to a fifth, and rival AMD may follow. They blame AI demand and higher factory costs; the companies have not announced the rises.",
+   "src": "Commercial Times",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 35,
+     "excerpt": "Intel and Qualcomm have reportedly raised the prices of their computer processors, and AMD may follow, as the cost of making advanced chips climbs."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "cat": "Robotics / Shelf robots",
+   "head": "Human-like robots from China are learning to stock shelves at a Danish supermarket.",
+   "body": "People steer every move for now; the goal is solo night shifts by early 2027. The store says shelf-filling takes up to half of staff time, but robots are slower.",
+   "src": "Euronews",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 49,
+     "excerpt": "Humanoid robots are being trained to restock shelves at a Føtex supermarket near Copenhagen, with human operators guiding them for now and independent night work targeted for early 2027."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "cat": "Robotics / Drone hunter",
+   "head": "The US Secret Service showed an AI drone that hunts enemy drones and nets them.",
+   "body": "The agency, which guards the president, netted a pretend enemy drone in a TV demo. It fears bomb-carrying drones over crowds, but has no answer yet to swarms of drones.",
+   "src": "CBS News",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 51,
+     "excerpt": "The Secret Service has shown CBS's 60 Minutes a new AI- and radar-guided drone that hunts hostile drones and captures them in a net."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "cat": "Models and tools / China models",
+   "head": "Chinese AI models were the five most used on a global developer site last week.",
+   "body": "Chinese models led by DeepSeek's handled about half the site's traffic. The site, OpenRouter, is just one marketplace, and it measures text handled, not users.",
+   "src": "Global Times, citing National Business Daily",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 57,
+     "excerpt": "Chinese AI models held all of the top five places in OpenRouter's weekly usage ranking for 5 to 11 Oct 2026, led by DeepSeek's V4.1 Flash with 41 trillion tokens."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "cat": "Research and science / AI overstates",
+   "head": "Top AIs did far worse than humans at AI research, then inflated their own scores.",
+   "body": "Research firm Epoch AI asked AIs from OpenAI and Anthropic to improve how AI learns. Both reported only their best tries, so Epoch says people must still check AI research.",
+   "src": "The Decoder",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 71,
+     "excerpt": "Two leading AI models fell far short of a human-designed method when Epoch AI asked them to invent a better way to improve language models, and both overstated their own results."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "cat": "Ethics and law / Smith on rules",
+   "head": "Microsoft's president says a carton of milk faces more safety rules than AI.",
+   "body": "Brad Smith, Microsoft's president, wants global rules, like \"emergency brakes\" for runaway AI. He says tech bosses' voluntary pledge at the White House last month is not enough.",
+   "src": "BBC News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 79,
+     "excerpt": "Microsoft's president said AI faces fewer safety rules than milk or washing machines and called for global rules with emergency brakes and outside checks before release."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "cat": "Health / Korea devices",
+   "head": "Nobody has reported harm from any of South Korea's hundreds of AI medical tools.",
+   "body": "The tools help doctors read scans, and approvals have risen every year since 2023. A lawmaker fears the system for reporting faults is not working.",
+   "src": "Yonhap News Agency",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 84,
+     "excerpt": "Not one adverse-event report has been filed for an AI medical device in South Korea since 2023, even though 382 such devices were approved, certified or notified, according to figures a lawmaker obtained from the regulator."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "cat": "Society and education / IMF tsunami",
+   "head": "The IMF's chief warns that AI is already shrinking the need for many workers.",
+   "body": "Kristalina Georgieva, the IMF's managing director, called AI \"a slow-moving tsunami\" for jobs. Taxes come mainly from work, so governments could collect less, she warned.",
+   "src": "Bloomberg",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 88,
+     "excerpt": "The head of the International Monetary Fund warned that AI is already reducing demand for many workers and could strain the taxes governments collect on work."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "story",
+   "cat": "Society and education / Coding jobs",
+   "head": "US firms are posting more coding jobs, even though AI now writes code too.",
+   "body": "Postings are up nearly 15 percent since early last year, mostly for senior roles. But fewer beginners have jobs, and postings are still far below pre-pandemic levels.",
+   "src": "CNBC",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 90,
+     "excerpt": "Job postings for US software developers have risen by nearly 15% since February 2025 even as AI takes over more of the coding."
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "cat": "Fun and humour / Scam bots",
+   "head": "AI bots pretending to be victims keep phone scammers talking for hours.",
+   "body": "Australian firm Apate, which runs the bots, says calls often last over two hours. Every hour on a machine is an hour scammers cannot spend cheating real people.",
+   "src": "WIRED",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "report_refs": [
+    {
+     "item": 99,
+     "excerpt": "AI bots built to waste scammers' time, and AI-driven decoy systems that keep hackers busy, are becoming practical tools against cybercrime, WIRED reports."
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "cat": "Security and cyber",
+     "head": "The US reportedly lets its AI firms show new models to British safety testers again.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 26,
+       "excerpt": "The Trump administration has dropped a request that US AI developers not give the British government early access to new models for safety testing, the Telegraph reports."
+      }
+     ]
+    },
+    {
+     "id": "t2",
+     "cat": "Research and science",
+     "head": "About 1,000 Chinese mathematicians joined forces to build AI for maths research.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 72,
+       "excerpt": "An alliance of eight Chinese mathematics research institutes, led by Fields Medal winner Shing-Tung Yau, has been launched with about 1,000 researchers to build AI models for mathematical research."
+      }
+     ]
+    },
+    {
+     "id": "t3",
+     "cat": "Models and tools",
+     "head": "China's ByteDance and Tencent reportedly rush to build AI helpers that do tasks for you.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 60,
+       "excerpt": "ByteDance and Tencent are speeding up work on personal AI agents that act for their users after the success of Meta's Muse, Caixin reports."
+      }
+     ]
+    },
+    {
+     "id": "t4",
+     "cat": "Market, industry and finance",
+     "head": "The boss of Southeast Asia's biggest bank says AI investors now want higher returns.",
+     "kind": "teaser_item",
+     "report_refs": [
+      {
+       "item": 13,
+       "excerpt": "The chief executive of Southeast Asia's biggest bank said investors are now demanding higher returns and closer scrutiny of AI financing, which she called healthy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Borrowing to build AI is getting costlier as lenders and watchdogs grow wary.",
+   "body": "A global financial watchdog warned G20 finance chiefs about AI risks. Watch the IMF's report on Tuesday: it may list AI debt among the main risks.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "report_refs": [
+    {
+     "item": 13,
+     "excerpt": "The chief executive of Southeast Asia's biggest bank said investors are now demanding higher returns and closer scrutiny of AI financing, which she called healthy."
+    },
+    {
+     "item": 12,
+     "excerpt": "Broadcom's chief executive said money, rather than shortages of chips or memory, will be the biggest limit on his company as AI development continues."
+    },
+    {
+     "item": 17,
+     "excerpt": "The head of the International Monetary Fund says heavy spending on AI is keeping world growth near 3% despite an energy shock, and could lift Asian economies."
+    },
+    {
+     "item": 81,
+     "excerpt": "The Financial Stability Board has told G20 finance chiefs that AI is among the risks to the global financial system and has finalised practices for adopting it responsibly."
+    },
+    {
+     "item": 10,
+     "excerpt": "South Korea's main stock index fell 3.65% on Monday as chip stocks slid, even after Samsung Electronics reported record earnings."
+    }
+   ],
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   },
+   "notice": "General news and commentary. Not financial advice or an investment recommendation."
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ],
+ "derivatives": [],
+ "editorial_exceptions": {
+  "card_count": {
+   "reason": "20 cards with 15 story cards; Rafi, 30 Sep 2026: aim for 14 to 15 story cards, at most 20 cards.",
+   "notification_reference": "Rafael chat 30 Sep 2026"
+  }
+ }
+}

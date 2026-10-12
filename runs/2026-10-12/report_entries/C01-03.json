@@ -2,7 +2,7 @@
  "item_id": "C01-03",
  "v1_category": "MOD",
  "headline": "Nvidia released its 30-billion-parameter Nemotron 3.5 Lightning model on 11 Aug 2026, and The Information reported then that a Nemotron 4 above one trillion parameters is in development.",
- "score": 4,
+ "score": 6,
  "score_reason": "Pool 6 lowered by 2: both the Nemotron 3.5 Lightning release and The Information's Nemotron 4 report date from 11 Aug 2026, so this is older news re-dated; Nemotron 4 is an unconfirmed report.",
  "importance_label": "WATCHLIST",
  "importance_line": "Companies and developers who want an open AI model that runs well on Nvidia chips may get a much larger option one day, but Nemotron 4 is an unconfirmed report with no release date and this story is two months old.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 11 Aug 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Older news re-dated: the 11 Aug 2026 story resurfaced in feeds on 11 Oct 2026. Read Stocktwits in full; The Information's own article is paywalled and was not opened."
+ "notes": "Older news re-dated: the 11 Aug 2026 story resurfaced in feeds on 11 Oct 2026. Read Stocktwits in full; The Information's own article is paywalled and was not opened.",
+ "fc_score": 4
 }

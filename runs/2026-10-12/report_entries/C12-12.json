@@ -2,7 +2,7 @@
  "item_id": "C12-12",
  "v1_category": "SEC",
  "headline": "An AI security system found a decade-old flaw in the XRP Ledger that could have let an attacker create trillions of new XRP coins, and an emergency patch closed it.",
- "score": 5,
+ "score": 6,
  "score_reason": "Pool 6 lowered by 1: the flaw was patched on 25 Sep and disclosed on 9 Oct 2026, before the window, and the scale figures are Veria's own.",
  "importance_label": "WATCHLIST",
  "importance_line": "Holders and users of XRP faced a risk of coins being created from nothing that is now closed, but the 18 trillion figure comes from Veria Labs, and the case shows AI tools finding flaws that audits missed in old code.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 9 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read in full on CryptoSlate; Veria and RippleX documents not opened. Underlying events date from 22 to 25 Sep and 9 Oct 2026, so the score is lowered for age."
+ "notes": "Read in full on CryptoSlate; Veria and RippleX documents not opened. Underlying events date from 22 to 25 Sep and 9 Oct 2026, so the score is lowered for age.",
+ "fc_score": 5
 }

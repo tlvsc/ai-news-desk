@@ -2,7 +2,7 @@
  "item_id": "C12-14",
  "v1_category": "SEC",
  "headline": "Google has suspended its paid open-source bug bounty program because automated, mostly invalid AI-generated reports swamped it, and has promised an update in early 2027.",
- "score": 3,
+ "score": 5,
  "score_reason": "Pool 5 lowered by 2: a commentary repeat of the pause we carried on 5 Oct 2026, with no new fact.",
  "importance_label": "WATCHLIST",
  "importance_line": "Researchers lose a paid route for reporting flaws in Google's open-source software while its other reward programs stay open, but this is a repeat of a story we carried on 5 Oct 2026, and Google has said only that it will update in the first quarter of 2027.",
@@ -13,5 +13,6 @@
  "freshness": "FOLLOW-UP of 1 Oct 2026",
  "verified_text": true,
  "machine_action": false,
- "notes": "Read in full on BGR (commentary). Repeat of our 5 Oct 2026 entry (TechCrunch); BGR's claims about Curl, Intel, HackerOne and Linux are not used as fact."
+ "notes": "Read in full on BGR (commentary). Repeat of our 5 Oct 2026 entry (TechCrunch); BGR's claims about Curl, Intel, HackerOne and Linux are not used as fact.",
+ "fc_score": 3
 }

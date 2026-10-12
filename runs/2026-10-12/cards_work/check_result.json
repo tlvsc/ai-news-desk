@@ -1,0 +1,177 @@
+[
+ {
+  "card": "s1",
+  "pass": false,
+  "broken": [
+   "1 STRANGER: the head says 'if heavy fighting returns' but never says between whom; the war with the US is the essential context (entry headline: 'the war with the United States') and the body only hints at it with 'talk through mediators'",
+   "2 RULES, PEOPLE WITH THEIR POSITION: Rezaei is given only a past post ('a former Revolutionary Guard commander'); the article we used calls him head of Iran's Supreme National Security Council, the post that gives the threat its weight"
+  ],
+  "fix_head": "An Iranian official threatens Middle East data centres if war with America resumes.",
+  "fix_body": "Mohsen Rezaei, head of Iran's Supreme National Security Council, also threatened cables and AI facilities. He named no site, and Iran and the US still talk through mediators.",
+  "note": "Fix head 83 chars, body 174 chars, sentences 15 and 12 words. Facts kept: official, conditional threat, cables and AI facilities, no site named, contact through mediation (facts C13-17 key_facts 1, 2, 4). 'head of' is Fortune's description (WANA says Secretary; the article we used says head). Source line 'Fortune, citing IRNA' is right."
+ },
+ {
+  "card": "s2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Reply story named plainly (answers Bloomberg's report last month that US staff relied too much on Palantir's AI). 'likely cause is human error', no evidence given, Pentagon report not public, 'deadly' (at least 123 children per the host): all in facts C13-16. No person named, so no position needed. Source CBS News is the transcript we read."
+ },
+ {
+  "card": "s3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "'Reportedly', 'close' (deal could close within days), about $7 billion, Israeli founders, software runs AI on different makers' chips, could help Amazon's chips against Nvidia's, talks may fail: facts C06-01. Market card, so the money in the head is allowed. Source WSJ is the first reporter (SiliconANGLE and CTech both credit it)."
+ },
+ {
+  "card": "s4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Lip-Bu Tan named with position and company; 'cheaper to use' (lower token costs), 'very fast' adoption, 'good enough' quote, no figures: facts C05-04. 'Could cut AI bills for businesses' is the hedged plain meaning of cheaper models, not a new claim. Source Reuters (its text read on The Economic Times, credited)."
+ },
+ {
+  "card": "s5",
+  "pass": false,
+  "broken": [
+   "3 CREDIT: the card merges C12-01 (source 'Fox News') and C14-01 (source 'CNN, as relayed by ETHRWorld'); the interview is CNN's, Fox News and ETHRWorld only report it, so by CREDIT ('follow the chain to the first reporter' / 'X reports, citing Y') the source strip should read 'CNN, as reported by Fox News and ETHRWorld' (or 'Fox News, citing CNN'), not 'Fox News' alone"
+  ],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Head and body stand: 'negative surprises' in cyber over the next year (facts C12-01 key_facts 2), tax AI or robot usage and where to preserve human jobs (facts C14-01 key_facts 1); Gates named with Microsoft co-founder; the two points follow Rafi's own framing. Only the source line needs the fix above."
+ },
+ {
+  "card": "s6",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Simulated factory, robot arm moved, goal met in all eight scenarios, defenders may have minutes, human approval before any risky step: facts C12-03 key_facts 1, 2, 4, 6. Booz Allen introduced as consulting firm. Source The Register, citing Booz Allen's report."
+ },
+ {
+  "card": "s7",
+  "pass": false,
+  "broken": [
+   "1 STRANGER / 3 FACTS: 'They blame AI demand and higher factory costs' has no clear noun; the nearest are Intel and Qualcomm (head), who have announced nothing, so a stranger reads the companies as giving reasons; the entry attributes the reasons to the reports"
+  ],
+  "fix_head": "",
+  "fix_body": "Reports say Intel's rises reach up to a fifth, and rival AMD may follow. The reports blame AI demand and higher chip-making costs; the companies have not confirmed.",
+  "note": "Fix body 164 chars, sentences 13 and 14 words; the semicolon sentence is unchanged in shape. Facts kept: Intel up to 20 percent ('a fifth'), AMD may follow, reports link rises to AI demand and TSMC's costlier production, no company announcement (facts C08-02 key_facts 1, 2 and notes). Source Commercial Times, the first reporter, relayed by TrendForce."
+ },
+ {
+  "card": "s8",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Unitree-built humanoids, human operators guide every move, independent night restocking by early 2027, Føtex says 40 to 50 percent of staff time ('up to half'), slower than people: facts C11-03. A machine doing something, as a robotics card must. Source Euronews."
+ },
+ {
+  "card": "s9",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "AI- and radar-guided drone hunter nets enemy drones, mock drone netted in the broadcast demo (Mediaite's account of the CBS segment), fear of explosive drones at crowds, swarms unsolved (Quinn): facts C11-06. Agency explained ('guards the president'). Source CBS News, the first reporter."
+ },
+ {
+  "card": "s10",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Top five on OpenRouter for 5 to 11 Oct ('last week'), Chinese models 86.74 of 172 trillion tokens ('about half'), DeepSeek first, one marketplace, tokens measure text not users: facts C01-02. Source Global Times, citing National Business Daily."
+ },
+ {
+  "card": "s11",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Epoch AI test of Claude Fable 5 and GPT-5.6 Sol, neither near the human method, both reported only best runs with inflated gains, Epoch: humans must fully review AI research: facts C04-01. 'Inflated' does not say deliberate, matching Epoch's open question. Source The Decoder."
+ },
+ {
+  "card": "s12",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Milk quote, Brad Smith with position, global rules and 'emergency brakes', the 29 Sep White House pledge 'not sufficient any longer' ('last month'): facts C05-02. The reaction is stated plainly and the earlier event (tech bosses' voluntary pledge at the White House last month) is named in the body, as REPLY STORIES asks. Source BBC News, its own interview."
+ },
+ {
+  "card": "s13",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Zero adverse-event reports 2023 to June 2026, 382 devices ('hundreds'), scan reading, approvals 62, 108, 157 by year, lawmaker fears the reporting system is not working: facts C10-16. Lawmaker unnamed, so no position needed. Source Yonhap."
+ },
+ {
+  "card": "s14",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Georgieva with position and organisation, 'slow-moving tsunami', already hollowing out demand for workers, labour is the main tax source so revenue may fall: facts C05-01. 'IMF' is never spelled out; if Rafi wants it plainer: 'Kristalina Georgieva, who heads the International Monetary Fund, called AI \"a slow-moving tsunami\" for jobs.' (15 words, body 171 chars). Source Bloomberg (text read on The Japan Times, credited)."
+ },
+ {
+  "card": "s15",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Up nearly 15 percent since February 2025 ('early last year'), 71 percent of growth senior roles, early-career developer employment down 20 percent ('fewer beginners have jobs'), 27.5 percent below pre-pandemic: facts C14-02. Source CNBC, the first reporter (read via UA.NEWS, credited)."
+ },
+ {
+  "card": "fun",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Apate's bots pose as victims, calls regularly run over two hours ('often'), attributed to the firm ('says'): facts CP-C12-10 key_facts 1, 3. Second sentence is the stated purpose of the system, not a new claim. Clear to a stranger at once. Source WIRED."
+ },
+ {
+  "card": "t1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "'Reportedly' kept; US developers may again give Britain's AI Security Institute early access: facts C12-02. 84 chars. Source The Telegraph, as relayed by Reuters."
+ },
+ {
+  "card": "t2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Alliance of eight institutes with about 1,000 researchers to build AI for maths research: facts C04-02. 80 chars. Source Shanghai Daily."
+ },
+ {
+  "card": "t3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Caixin, citing a company source: ByteDance and Tencent fast-track personal AI agents that do tasks for users; 'reportedly' kept. 88 chars. Source Caixin Global."
+ },
+ {
+  "card": "t4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "DBS chief: people now ask for higher returns on AI financing: facts C05-06. 84 chars. Source Bloomberg (The Edge Malaysia carrying its report)."
+ },
+ {
+  "card": "bp",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Head is the market summation (investors want higher returns, rates and yields up, lenders and the FSB wary: C05-06, C13-05); body: FSB chair's letter to G20 finance chiefs naming AI among risks (C13-05), and the watch item is the IMF's Tuesday reports with the why hedged ('may list AI debt among the main risks', bigger_picture_bulletin.json). 77 and 146 chars, two sentences. The 'not financial advice' notice is added by make_cards.py on the analysis card. Source AI News Desk, label AIND."
+ }
+]
