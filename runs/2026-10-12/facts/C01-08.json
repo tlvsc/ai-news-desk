@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-08",
+ "title": "Churning out nearly 500 tokens per second, the Zhipu GLM-5.3 High-Speed Edition has made a quiet debut.",
+ "source_used": "36Kr (republishing ZheDongXi, WeChat account)",
+ "article_url": "https://eu.36kr.com/en/p/4022354401104000",
+ "fetched": true,
+ "key_facts": [
+  "Zhipu has quietly begun testing its high-speed flagship model GLM-5.3 HighSpeed in its AI programming tool ZCode, ZheDongXi reports on 12 Oct 2026.",
+  "AI programming content creator 'Leo' on X says he was granted grayscale (limited test) access and that output speed can exceed 490 tokens per second.",
+  "Latest data from the AI Ping evaluation platform: DeepSeek V4.1 Flash official API output speed 121.34 tokens/s; Zhipu's official GLM-5.3 API 70.84 tokens/s.",
+  "GLM-5.3 HighSpeed is randomly open to ZCode subscription users only, with no clear sign-up for the internal test; the speed seen can serve only as a reference until an official launch.",
+  "It appeared on the website of the open-source programming agent Pi harness a month ago; input and output pricing is not disclosed.",
+  "Context window of 1 million tokens and up to 131,072 tokens of output at a time, consistent with GLM-5.3.",
+  "In May Zhipu launched a GLM-5.1-highspeed API for some enterprise users at about 400 tokens/s, built with the TileRT team through inference-engine, scheduling and infrastructure optimisation.",
+  "The article says raising inference speed, including for flagship models, is becoming a focus of competition."
+ ],
+ "quote_evidence": [
+  "Recently, Zhipu has quietly launched the test of its high-speed flagship model GLM-5.3 HighSpeed in its AI programming tool ZCode.",
+  "GLM-5.3 HighSpeed is currently only randomly open to ZCode subscription users, and there is no clear entry for internal test application.",
+  "The extremely fast speed demonstrated during the internal test can only be used as a reference, and the final performance should be measured by its actual speed when it is officially launched and provides large-scale external services."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Faster output makes AI coding agents, which make many model calls in a row, noticeably quicker if the speed holds at launch.",
+ "event_date": "Reported 12 Oct 2026; test access date not stated.",
+ "notes": "Read 36Kr in full; it republishes ZheDongXi with authorization, so ZheDongXi is credited as the first reporter. The 490 tokens/s figure comes from one creator's limited-test access, not an official launch."
+}

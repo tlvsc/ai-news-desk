@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-02",
+ "title": "Mayo Clinic AI detects pancreatic cancer years before diagnosis",
+ "source_used": "Medical Economics (pool page); cross-checked with ScienceAlert",
+ "article_url": "https://www.medicaleconomics.com/view/oxycontin-maker-purdue-pharma-set-to-dissolve-after-5b-sentence-mayo-clinic-ai-detects-pancreatic-cancer-years-before-diagnosis-results-of-fda-s-largest-ever-infant-formula-test-morning-medical-update",
+ "fetched": true,
+ "key_facts": [
+  "Mayo Clinic developed an AI model called REDMOD (radiomics-based early detection model); the study is published in the journal Gut.",
+  "On routine abdominal CT scans it identified 73% of prediagnostic pancreatic cancers at a median of about 16 months before diagnosis; these were scans from patients later diagnosed whose scans had originally been read as normal.",
+  "Medical Economics says this is nearly double the detection rate of specialists reviewing the same images alone; ScienceAlert gives 38.9% for two radiologists reading without the AI's help (46 of 63 prediagnostic scans flagged by REDMOD).",
+  "In scans taken more than two years before diagnosis the AI found nearly three times as many early cancers that would otherwise have gone undetected (Medical Economics).",
+  "The model reads subtle changes in tissue texture and structure invisible to the naked eye and runs on existing CT scans without extra preparation (Medical Economics).",
+  "ScienceAlert: of 430 healthy control scans, 81 were wrongly flagged as suspicious, so some people could be called back for extra tests; the model was trained on 969 CT scans (Medical Economics says nearly 2,000 scans were analysed in all).",
+  "Next steps named by the authors: prospective validation in high-risk groups (such as people with new-onset diabetes) and larger, more diverse testing."
+ ],
+ "quote_evidence": [
+  "A Mayo Clinic-developed artificial intelligence (AI) model can detect signs of pancreatic cancer on routine abdominal CT scans up to three years before a clinical diagnosis.",
+  "Of the 430 healthy controls, 81 were incorrectly identified as suspicious by REDMOD – so if the AI had been deployed in a real scenario, these people may have been called in for extra tests before being given the all clear.",
+  "Next, the researchers want to test the AI across larger, more diverse groups of people and see how easily doctors can incorporate it into their existing processes."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Pancreatic cancer is usually found late; an AI that spots faint signs on scans already taken could allow earlier treatment if it holds up in prospective testing.",
+ "event_date": "Study announced 29 Apr 2026 (Mayo Clinic news release per Google News listing; Inside Precision Medicine 28 Apr 2026)",
+ "notes": "OLD NEWS RE-DATED. The Medical Economics page is a morning medical update whose text speaks of Purdue ceasing operations 'May 1' and an HHS roundtable 'in May' in the future tense, so it dates from about late April 2026, not 12 Oct 2026. Google News shows the Mayo study covered 28 Apr to 8 May 2026 (Mayo Clinic, NBC News, ScienceAlert, News-Medical and others). Mayo Clinic's own release (newsnetwork.mayoclinic.org) returned 403, so ScienceAlert was used to cross-check numbers. The two outlets differ on scan counts (nearly 2,000 vs 969 training scans plus 63 + 430 test scans), so no total is quoted. Score lowered by 2 for staleness."
+}

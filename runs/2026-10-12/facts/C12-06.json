@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-06",
+ "title": "AI's quiet safety gatekeepers are stepping into the spotlight",
+ "source_used": "Business Upturn (relaying CNBC's 11 Oct 2026 report); CNBC page returned HTTP 403",
+ "article_url": "https://businessupturn.com/technology/independent-ai-safety-evaluators-step-into-the-spotlight-as-anthropic-and-openai-face-scrutiny/",
+ "fetched": true,
+ "key_facts": [
+  "Business Upturn, citing CNBC's report of 11 Oct 2026, says independent AI safety evaluators are moving closer to the centre of the AI industry.",
+  "It names Model Evaluation and Threat Research (METR), Apollo Research and Transluce as organisations being asked to examine risks that internal testing may miss.",
+  "Anthropic and OpenAI are exploring arrangements giving external evaluators a more direct role in assessing their models.",
+  "Questions remain over who will fund these organisations, how freely they can report negative findings and whether they get enough access.",
+  "OpenAI said it was finalising contracts with third-party safety assessors and intended to announce details in the coming weeks, according to CNBC's reporting.",
+  "Business Upturn adds its own view that closer access does not guarantee independence; this is commentary, not CNBC reporting."
+ ],
+ "quote_evidence": [
+  "CNBC reported on 11 October that the emerging evaluation ecosystem is gaining prominence as the industry grapples with these unresolved issues.",
+  "OpenAI said it was finalising contracts with third-party safety assessors and intended to announce further details in the coming weeks, according to CNBC's reporting."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Outside testers are gaining a bigger role in judging AI safety, but funding, access and freedom to publish bad news are unresolved; it is a trend piece with no new test result.",
+ "event_date": "CNBC report 11 Oct 2026",
+ "notes": "CNBC original blocked (HTTP 403). Business Upturn's relay was read; it cites CNBC for the prominence trend and OpenAI's contract plans, and adds its own commentary (not used as fact). A Tech Buzz item on the same story is an AI-written rewrite and was not used."
+}

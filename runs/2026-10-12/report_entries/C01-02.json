@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-02",
+ "v1_category": "MOD",
+ "headline": "Chinese AI models held all of the top five places in OpenRouter's weekly usage ranking for 5 to 11 Oct 2026, led by DeepSeek's V4.1 Flash with 41 trillion tokens.",
+ "score": 7,
+ "score_reason": "Kept at 7: new weekly data for 5 to 11 Oct 2026, article read in full; the ranking covers one developer marketplace only.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers and companies choosing a model on price get more evidence that cheap, openly available Chinese models are winning real usage, but OpenRouter is one marketplace for developers rather than all AI use, a token count measures volume of text rather than users or revenue, and the figures come from Chinese media's reading of OpenRouter data.",
+ "source": "Global Times, citing National Business Daily",
+ "status": "REPORTED",
+ "summary": "Global Times, citing National Business Daily's reading of OpenRouter data, reports that Chinese models handled 86.74 trillion of the 172 trillion tokens (the small units of text AI models read and write) counted in the week of 5 to 11 Oct 2026, against 18.97 trillion for US models, with DeepSeek's V4.1 Flash first at 41 trillion followed by models from Z.ai, Xiaomi, StepFun and Tencent. It calls this the 24th week in a row that Chinese models led US models on the measure, while Anthropic's Claude Opus 5.5 ranked eighth at 5.02 trillion tokens.",
+ "url": "https://www.globaltimes.cn/page/202610/1372071.shtml",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Prefetched text was a stub; fetched and read the full Global Times article. Figures are OpenRouter's as relayed by National Business Daily and Global Times."
+}

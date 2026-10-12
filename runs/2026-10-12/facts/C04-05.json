@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-05",
+ "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+ "source_used": "The Decoder (fulltext fetched by main session)",
+ "article_url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+ "fetched": true,
+ "key_facts": [
+  "The evaluation company Vals AI tested GPT-6 Sol and Claude Opus 5.5 on its Vibe Code Bench, each alone and as a team, at medium and maximum reasoning effort.",
+  "The teams cost between 1.8x and 5.1x more than single agents.",
+  "Of four team-versus-solo comparisons, only one was statistically significant: GPT-6 Sol at medium reasoning, where the team scored 7.3 points higher.",
+  "At maximum reasoning the team setup gave neither Sol nor Opus 5.5 any real advantage; the results suggest the extra cost is not worth it in most cases.",
+  "Anthropic saw quality gains shrink as it added more agents in two of its own tests with Opus 5.5; going from ten to 100 agents only nudged scores up slightly after 24 hours.",
+  "OpenAI researcher Noam Brown said on the Dwarkesh Podcast that multi-agent systems mainly buy speed, not better quality: four agents solved tasks twice as fast at twice the cost.",
+  "Brown said the effect depends on the task: web research and math parallelize well, writing a novel does not.",
+  "OpenAI developer Eric Provencher warned that agent swarms are most likely wasted money because coordination between agents breaks down."
+ ],
+ "quote_evidence": [
+  "The teams cost between 1.8x and 5.1x more than single agents.",
+  "At maximum reasoning, the team setup gave neither Sol nor Opus 5.5 any real advantage.",
+  "OpenAI researcher Noam Brown confirmed in the Dwarkesh Podcast that multi-agent systems mainly buy speed, not better quality."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Teams of AI agents cost several times more but usually add little quality, so the extra spend may be wasted.",
+ "event_date": "Not stated; The Decoder published on 11 Oct 2026.",
+ "notes": "Read in full from the main session's fulltext copy. One outlet reports Vals AI's benchmark. The article's text has a stray bracket where an image caption runs into the next paragraph; facts taken from the clean sentences. The date of the Vals AI test and of the podcast is not stated. The Decoder writes 'GPT-6 Sol' here and 'GPT-5.6 Sol' in the Epoch AI story (C04-01)."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C06-01",
+ "title": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+ "source_used": "SiliconANGLE and CTech (Calcalist), both relaying The Wall Street Journal; Reuters page blocked (HTTP 401)",
+ "article_url": "https://siliconangle.com/2026/10/11/report-amazon-in-talks-with-ai-startup-decart-over-possible-7b-acquisition/",
+ "fetched": true,
+ "key_facts": [
+  "The Wall Street Journal reported on Sunday 11 Oct 2026, citing people familiar with the talks, that Amazon is in talks to acquire Decart for about $7 billion.",
+  "A deal could be wrapped up in the coming days, but the talks could still break down or another bidder could emerge.",
+  "Decart was founded in 2023 by Israeli engineers Dean and Orian Leitersdorf and Moshe Shalev; its software (DOS) helps AI models run on different processors and cuts chip-specific optimisation from months to a couple of weeks.",
+  "Decart raised $300 million at a $4 billion valuation in May, over $400 million in total; investors include Radical Ventures, Nvidia Ventures, Adobe Ventures, Sequoia Capital and Benchmark.",
+  "Bloomberg reported last month that Anthropic was in talks to buy Decart for about $6 billion but pulled out after due diligence; the reason is not clear. Nvidia had also pursued a purchase earlier (CTech).",
+  "Decart reportedly got early access to Amazon's Trainium3 AI chip in 2025 after AWS engineers were impressed by the founders; AWS is already a customer (CTech).",
+  "Decart also builds the Lucy and Oasis world models that generate simulated 3D environments and video in real time.",
+  "CTech notes Decart's commercial business is far smaller than the valuation being discussed."
+ ],
+ "quote_evidence": [
+  "Amazon.com Inc. is reportedly engaged in discussion over the potential acquisition of artificial intelligence developer Decart.ai Inc. in a deal that could be worth up to $7 billion.",
+  "A report in the Wall Street Journal today cites people familiar with the talks as saying that a deal could be wrapped up in the coming days, assuming the discussions don’t break down or another suitor doesn’t emerge.",
+  "Amazon is in talks to acquire Israeli-founded artificial intelligence startup Decart for approximately $7 billion, The Wall Street Journal reported Sunday, citing people familiar with the matter."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Software that moves AI work between chip makers could make Amazon's own Trainium chips easier to use as an alternative to Nvidia.",
+ "event_date": "WSJ report published 11 Oct 2026; talks ongoing",
+ "notes": "Reuters original (HTTP 401) and WSJ not opened; text read on SiliconANGLE and CTech, which both credit the WSJ. Amazon has not confirmed. Anthropic walk-away in September is background (reported by Bloomberg, relayed)."
+}

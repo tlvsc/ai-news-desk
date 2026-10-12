@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-12",
+ "title": "AI discovers XRP Ledger flaw that could mint 18 trillion tokens and put $94 billion market at risk",
+ "source_used": "CryptoSlate",
+ "article_url": "https://cryptoslate.com/ai-discovers-xrp-ledger-flaw-that-could-mint-18-trillion-tokens-and-put-94-billion-market-at-risk/",
+ "fetched": true,
+ "key_facts": [
+  "Security firm Veria Labs says its AI-powered system found two combined weaknesses in rippled, the software behind the XRP Ledger, that could have let an attacker generate about 18 trillion XRP with one payment, roughly 180 times the original 100 billion supply.",
+  "The flaw was reported on 22 Sep 2026 and patched three days later; the public disclosure came on 9 Oct 2026.",
+  "RippleX confirmed that no unauthorized XRP was created, no funds were lost and there was no evidence of exploitation on public networks.",
+  "The payment-engine code dates from 2015 and the affected supply safeguard from 2017; Veria says the code had passed more than a dozen audits and contests since 2024.",
+  "Developers bypassed the usual amendment vote (80% of trusted validators for two weeks) and shipped an emergency fix as binaries in version 3.4.1; more than 80% of validators had upgraded by 25 Sep.",
+  "Veria received a $250,000 bounty, the programme's maximum, which founder Cayden Liao called the largest known reward for a flaw found entirely by an AI agent.",
+  "RippleX plans more AI-assisted vulnerability discovery and formal verification of older code."
+ ],
+ "quote_evidence": [
+  "RippleX later confirmed that no unauthorized XRP was created, no funds were lost, and investigators found no evidence of exploitation on public networks.",
+  "The vulnerability was reported on Sept. 22 and patched three days later.",
+  "Veria received a $250,000 bounty, the program's maximum."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI system found a decade-old flaw that audits had missed in a major cryptocurrency network, and the network was patched before any known misuse.",
+ "event_date": "Reported 22 Sep 2026; patched 25 Sep 2026; disclosed 9 Oct 2026",
+ "notes": "Single trade outlet (CryptoSlate) relaying Veria Labs and RippleX statements; the official vulnerability report was not opened. The 18 trillion XRP and $94 billion figures are Veria's."
+}

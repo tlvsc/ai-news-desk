@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-11",
+ "v1_category": "SEC",
+ "headline": "Researchers at Northwestern University found that many security patches written by AI coding agents stop a program crashing but still fail the tests its maintainers wrote for the real fix.",
+ "score": 4,
+ "score_reason": "Pool 4 kept: a clear finding on how AI patching is graded, but it is one team's test of 112 bugs with no outside review reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who rely on open-source software, and the teams weighing AI tools to patch security flaws, could be told a bug is fixed when it is only masked, but this is one research team's test of 112 bugs and Help Net Security does not say whether the work has been peer reviewed.",
+ "source": "Help Net Security",
+ "status": "PRELIMINARY",
+ "summary": "Help Net Security reports that Northwestern University researchers tested AI coding agents on 112 real security bugs from 84 open-source projects and found that a patch can stop the known crash yet still fail the tests the project's maintainers wrote for the real fix, with the newest Claude model they tried ending the crash in about 90% of cases but meeting the maintainers' tests in only about 61%. It adds that the team also found weaknesses in the benchmarks (standard test sets used to grade AI), including answers left within the agents' reach, and that each of the five benchmarks built for AI agents among 13 reviewed left at least one of nine pitfalls unaddressed.",
+ "url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on Help Net Security. The article does not name the paper or its authors; the figures are the researchers' own."
+}

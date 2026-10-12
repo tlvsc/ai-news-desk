@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-09",
+ "title": "Visa and Mastercard Help Stripe Build Payment Rails for AI Agents",
+ "source_used": "Startup Fortune (fulltext fetched by main session)",
+ "article_url": "https://startupfortune.com/visa-and-mastercard-help-stripe-build-payment-rails-for-ai-agents/",
+ "fetched": true,
+ "key_facts": [
+  "On March 18 (2026 by the article's context) Stripe's payments-focused Tempo blockchain, incubated with Paradigm, launched its mainnet and the Machine Payments Protocol (MPP), an open standard that lets AI agents request, authorise and settle payments on their own.",
+  "Visa and Mastercard joined as launch partners; other backers named include Anthropic, OpenAI, DoorDash, Shopify, Revolut, Nubank, Ramp and Standard Chartered.",
+  "MPP lets an agent approve a spending limit upfront and then stream small payments; at launch Tempo's MPP directory listed more than 100 services.",
+  "Mastercard agreed to buy stablecoin firm BVNK for up to $1.8 billion, described as the largest stablecoin acquisition on record.",
+  "Visa Crypto Labs has a closed-beta command-line tool, Visa CLI, that lets AI agents make card payments from a terminal.",
+  "Startup Fortune argues the card networks joined because staying out could let agents default to payment rails where they have no seat, and that a Citrini Research note warned agents could route around card fees of 2-3 percent.",
+  "Klarna became the first bank to issue a stablecoin on Tempo (KlarnaUSD, during testnet)."
+ ],
+ "quote_evidence": [
+  "Stripe's blockchain venture Tempo went live with a payment standard that lets AI agents buy things without a human clicking anything.",
+  "On March 18, Tempo launched its mainnet and unveiled the Machine Payments Protocol.",
+  "Whether agents end up transacting mostly in stablecoins, over card rails adapted for machines, or over something built specifically for machine-to-machine payments is still an open question."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The card networks joined a rival payment standard for AI agents, but the article is a recap of March events plus opinion.",
+ "event_date": "18 Mar 2026 (launch); the article gives no year, which is inferred from its references to 2025 and to 'earlier this year'",
+ "notes": "Older news re-dated: the launch described is from 18 Mar 2026 and the article recaps events through the summer. Much of the piece is Startup Fortune's opinion ('That last part is the real story'). The article says both that Mastercard 'agreed to buy' BVNK and that it 'completed' the acquisition; the entry uses the lede's 'agreed to buy'."
+}

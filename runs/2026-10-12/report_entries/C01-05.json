@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "MOD",
+ "headline": "Nvidia's open voice AI model PersonaPlex-7B, released in January 2026, can listen and speak at the same time and reacts to an interruption in as little as 240 milliseconds, Startup Fortune reports.",
+ "score": 4,
+ "score_reason": "Pool 6 lowered by 2: the only readable article dates the release to 15 Jan 2026 and the 12 Oct piece could not be opened, so nothing new today is verified; the figures are Nvidia's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building voice assistants get a free model that can run on a single graphics chip and handle interruptions more naturally than the usual speech-to-text-to-speech chain, but the figures are Nvidia's own and the model itself dates from January 2026, so the news value today is limited.",
+ "source": "Startup Fortune",
+ "status": "REPORTED",
+ "summary": "Startup Fortune reports that Nvidia's PersonaPlex-7B-v1, released on 15 Jan 2026 with open weights on Hugging Face and code on GitHub, is a 7-billion-parameter voice model that listens and speaks at once rather than in turns, built on the open Moshi design from the French lab Kyutai. The figures it gives come from Nvidia, namely a 90.8% turn-taking rate, an interruption response in as little as 240 milliseconds and about 170 milliseconds to first output, and no independent test is cited.",
+ "url": "https://startupfortune.com/nvidia-open-sources-a-voice-ai-that-talks-and-listens-at-once/",
+ "freshness": "FOLLOW-UP of 15 Jan 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool URL returns 404; entry written from the same outlet's earlier piece on the same model (url above). Release date 15 Jan 2026 is as stated by Startup Fortune."
+}

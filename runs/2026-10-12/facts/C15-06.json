@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-06",
+ "title": "INFQ Stock Surges After Infleqtion Solves Key Technical Hurdle In Large-Scale Quantum Computing",
+ "source_used": "Stocktwits (full text); announcement date checked on search listings of Infleqtion's own page and HPCwire",
+ "article_url": "https://stocktwits.com/news-articles/markets/equity/infq-stock-surges-after-infleqtion-solves-key-technical-hurdle-in-large-scale-quantum-computing/cZMarKvRBaE",
+ "fetched": true,
+ "key_facts": [
+  "Infleqtion, a quantum computing company, announced it entangled 30 logical qubits using 80 physical qubits on its Sqale platform.",
+  "It unveiled the result at the Quantum World Congress 2026 and says it is the first neutral-atom quantum computing company to reach 30 logical qubits on a commercial system.",
+  "A logical qubit combines several physical qubits with software error correction to hold quantum information more reliably than a single physical qubit.",
+  "Infleqtion says the 30 logical qubits were entangled into one coherent state, with the signal about 1,000 times stronger than the underlying noise.",
+  "An AI-assisted discovery helped the company cut the number of physical gates needed for a key logical operation by half.",
+  "The company says the result validates the architecture of its Sqale platform and its Superstaq software.",
+  "Infleqtion went public through a SPAC merger in February, raising more than $550 million in gross proceeds, and reported Q2 revenue of $12.6 million in August.",
+  "The article also reports a share-price rise of 3.4% and retail-investor sentiment, which are not repeated in the entry."
+ ],
+ "quote_evidence": [
+  "The company unveiled the achievement at the Quantum World Congress 2026, saying it is the first neutral-atom quantum computing company to reach 30 logical qubits on a commercial system.",
+  "Infleqtion said its 30 logical qubits were entangled into a single coherent quantum state, with the signal measuring approximately 1,000 times stronger than the underlying noise.",
+  "An AI-assisted discovery also helped Infleqtion cut the number of physical gates required for a key logical operation by half."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Turning physical qubits into reliable logical ones is the central hurdle to commercially useful quantum computers; this is the company's own announced result, not independently reviewed.",
+ "event_date": "24 Sep 2026 (announcement; the Stocktwits article says 'Thursday')",
+ "notes": "OLDER NEWS RE-DATED: the Stocktwits article refers to 'Thursday'; search listings date Infleqtion's own page 'Demonstration of 30 Logical Qubits on Sqale', HPCwire and a Yahoo Finance copy of this same Stocktwits headline all to 24 Sep 2026 (a Thursday), so the announcement is 18 days before the 12 Oct run date. Infleqtion's own page was blocked here (Cloudflare), so the facts rest on the Stocktwits text. Company claims, no outside review reported."
+}

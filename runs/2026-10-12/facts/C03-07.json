@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-07",
+ "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+ "fetched": true,
+ "key_facts": [
+  "A Verge writer starts a first-person, ongoing diary of running AI models locally, motivated by privacy, while testing an M5 Ultra Mac Studio with 256GB of unified memory and other Mac and Windows machines.",
+  "The writer installed Hermes Agent, an open-source, self-hosted AI agent desktop app for macOS, Windows and Linux that is free to use with local models, and chose the Qwen 3.8 Flash Next model (125 billion parameters, about 105GB); it can also be controlled from a phone through a Telegram bot.",
+  "A daily morning briefing built as a cron job (a scheduled task) scans email and calendar and gives a weather report; it kept failing at first until the writer realised the Mac could not be asleep at 7:30am.",
+  "After the writer registered a Steam web API key (revoked afterwards), Hermes sorted a Steam library of more than 400 games into genre categories in a few minutes, leaving the writer's own special categories.",
+  "The writer also used it to crunch financial records and build a laptop spec-comparison spreadsheet, tasks the writer says they will not trust to a cloud service because the data is sensitive or under embargo.",
+  "A script to automate a dozen or so laptop benchmark tests, each run three times, is still a work in progress.",
+  "The writer concludes that even powerful local models do not make a magical assistant: the daily briefing 'already broke, multiple times'; the writer treats Hermes as a tool, not a digital friend.",
+  "The article mentions Apple's pitch for its new Mac desktops as good for local AI and a line of RTX Spark Windows machines with up to 128GB of RAM arriving soon."
+ ],
+ "quote_evidence": [
+  "I started by installing the open-source Hermes Agent on the Mac Studio.",
+  "Keeping them on my computer was the difference in me using this tool or not.",
+  "Things still don’t always work as intended — my daily briefing already broke, multiple times."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Running AI on your own computer keeps private data off cloud services, and one writer finds it useful for small chores but fiddly and expensive in hardware.",
+ "event_date": "Article dated 11 Oct 2026; a running diary with no single event date.",
+ "notes": "Read The Verge in full. First-person account; the byline is not shown in the fetched text, so the writer is not named. The writer calls the setup a '$12,000 computer' in passing; no hardware price is stated outright."
+}

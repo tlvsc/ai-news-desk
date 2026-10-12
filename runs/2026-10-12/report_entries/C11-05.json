@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-05",
+ "v1_category": "ROB",
+ "headline": "Researchers from the RAI Institute and Boston Dynamics have shown a method that trains robots in simulation to do cartwheels, crawls and backflips and then moves the skills onto real machines without further tuning.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: the study came out on 12 Aug 2026, two months before the window, so this is old news re-dated; the headline's claim matches the coverage.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows one way to teach very different robots athletic skills with less hand-tuning, which could speed up how fast robot makers add abilities, but it is a lab study run by researchers tied to the robot maker Boston Dynamics, limited to flat ground, and no outside replication is reported.",
+ "source": "Science Robotics",
+ "status": "REPORTED",
+ "summary": "Interesting Engineering reports, from a study in the journal Science Robotics, that the system, called ZEST, learns whole-body movements from motion-capture data, ordinary single-camera video or animation, is trained in simulation, and was shown on Boston Dynamics' Atlas humanoid and Spot four-legged robot and Unitree's G1 humanoid doing moves such as crawling, cartwheels, breakdancing and a continuous backflip. The researchers say it cuts the tuning normally needed for each new skill, but so far it works only on flat, non-slippery ground and has not yet handled movements it was not trained on.",
+ "url": "https://www.science.org/doi/abs/10.1126/scirobotics.aec7695",
+ "freshness": "FOLLOW-UP of 12 Aug 2026",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "The Science page was blocked (HTTP 403); the text read is Interesting Engineering's report of 12 Aug 2026, linked from the Google News listing. Source credited to Science Robotics (the paper) with the url of the paper. Old news re-dated: published 12 Aug 2026."
+}

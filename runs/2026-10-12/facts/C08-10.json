@@ -1,0 +1,26 @@
+{
+ "item_id": "C08-10",
+ "title": "800 Volts to 6 Volts: Microchip and Navitas Develop Compact GaN Power Supply for Future AI Servers",
+ "source_used": "igor'sLAB (full text from the main session's fulltext copy); it rests on the Microchip and Navitas press release of 5 Oct 2026",
+ "article_url": "https://www.igorslab.de/en/800-volts-to-6-volts-microchip-navitas-compact-gan-power-supply-ai-servers/",
+ "fetched": true,
+ "key_facts": [
+  "On 5 Oct 2026 Microchip Technology and Navitas Semiconductor jointly unveiled a reference design that converts 800 volts of direct current directly to 6 volts, combining digital power control, gallium nitride (GaN) power transistors and a security chip.",
+  "The design will be presented at the OCP Global Summit in San Jose, 12 to 15 Oct 2026.",
+  "The makers target up to 96% peak efficiency, a 1 MHz switching frequency and 2,100 watts per cubic inch; igor'sLAB says these are target specifications or manufacturer claims and independent measurements are not yet available.",
+  "It uses 16 Navitas NV6034 GaN transistors, a Microchip dsPIC33AK digital controller and a TA100 CryptoAuthentication security component for secure boot and firmware checks.",
+  "The makers call it direct 800-volt-to-6-volt conversion, but igor'sLAB says this does not necessarily mean a single conversion step: it combines an 800-to-50-volt stage and a 50-to-6-volt stage in one unit.",
+  "6 volts is not the final voltage for processor cores, so further voltage regulators are still needed.",
+  "A higher distribution voltage cuts current and line losses: for 100 kW, 125 amperes at 800 volts against about 2,083 amperes at 48 volts (igor'sLAB's idealised comparison).",
+  "igor'sLAB's own view: promising, but the key question is whether the figures hold under realistic, sustained loads, and a reference design is not a proven production product."
+ ],
+ "quote_evidence": [
+  "On October 5, 2026, Microchip Technology and Navitas Semiconductor therefore jointly unveiled a new reference design intended to convert a DC voltage of 800 volts directly to 6 volts.",
+  "However, these figures initially describe the target specifications or manufacturer claims for the reference design.",
+  "Independent measurements documenting all operating conditions and power losses are not yet available."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Power delivery to AI servers is becoming as hard a problem as the chips; a compact 800-volt design could cut losses, but the efficiency figures are the makers' own targets.",
+ "event_date": "5 Oct 2026 (Microchip and Navitas announcement); OCP summit 12 to 15 Oct 2026",
+ "notes": "Follow-up: we carried the 5 Oct announcement in the 6 Oct 2026 edition (Semiconductor Today, item 59), which wrote 'in one step'; igor'sLAB adds that 'direct' conversion does not necessarily mean a single step and that the figures are targets. The article is a review by igor'sLAB's Karsten Rabeneck-Ketme, partly his own opinion; the press release itself was not read."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-15",
+ "title": "Special glove helps people with paralyzed hands grasp objects: Study",
+ "source_used": "Medical Dialogues (reporting a Technical University of Munich study in Nature Machine Intelligence)",
+ "article_url": "https://medicaldialogues.in/neurology-neurosurgery/news/special-glove-helps-people-with-paralyzed-hands-grasp-objects-study-180669",
+ "fetched": true,
+ "key_facts": [
+  "The Technical University of Munich (TUM) developed a soft, pneumatic glove (a 'soft-hand exoskeleton') that helps people with paralyzed hands grasp objects; the study is in Nature Machine Intelligence (2026).",
+  "A fabric glove carries air cushions inflated through 13 tubes; they bend and straighten each finger individually and rotate the wrist, to hold a plate, glass, fork or spoon.",
+  "Sensors on the forearm pick up the muscle's electrical signals, and machine learning predicts the intention to grasp; motion sensors keep the grip closed while the object is carried.",
+  "Researcher John Nassour says intentions are inferred from the signals with 97% reliability; the glove was sewn by hand from cheap fabric.",
+  "It was developed in close collaboration with a patient with amyotrophic lateral sclerosis (ALS) who had little control of his hands but could still move the first thumb joint; the system recognized his intention in 9 of 10 cases.",
+  "He was able to reach for objects, hold a fork for the first time in four years, and pick up small cubes and drop them into a container; five minutes of video-game practice greatly improved his grasp.",
+  "The team is adapting the concept for other patients, such as stroke survivors; a neurologist says it could in principle help people with flaccid paralysis, such as after peripheral nerve damage or polyneuropathy."
+ ],
+ "quote_evidence": [
+  "Despite very weak signals, the system recognized the patient’s intention in 9 out of 10 cases.",
+  "We’ve found a solution that anyone can afford but still works very well,",
+  "We are now adapting the concept for other patients, such as stroke survivors,"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A cheap, soft assistive glove restored grasping in one man with severe ALS, but the evidence so far comes from one patient.",
+ "event_date": "Study published in Nature Machine Intelligence, about 23 Jun 2026; press coverage from 6 Jul 2026 (Google News listing)",
+ "notes": "Read in full via Medical Dialogues (fulltext); it reads as a rewrite of the university's account and cites the Nature Machine Intelligence paper. Older news re-dated: Google News listings show the study in Nature on 23 Jun 2026 and coverage by Medical Xpress, Science X, Neuroscience News, Interesting Engineering and others on 6-8 Jul 2026, so this 12 Oct item is about 3.5 months old; score lowered by 2."
+}

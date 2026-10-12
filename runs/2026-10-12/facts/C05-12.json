@@ -1,0 +1,25 @@
+{
+ "item_id": "C05-12",
+ "title": "AI Scholar Yann LeCun Rejects Calls to Slow Down AI Development",
+ "source_used": "Chosun Ilbo English edition (article body read from the page's embedded data; fulltext file was empty), checked against the Korean original",
+ "article_url": "https://www.chosun.com/english/industry-en/2026/10/12/PR73NWMUBJBY5M637R5ZBIG524/",
+ "fetched": true,
+ "key_facts": [
+  "Yann LeCun, co-founder and chairman of AMI Labs and a 2018 Turing Award winner, spoke in an interview at the Westin Chosun Seoul on 12 Oct 2026, responding to recent debates about slowing AI development, particularly among US companies.",
+  "He said 'I don't think current AI is dangerous. The argument for slowing down AI development is a form of marketing and lobbying. Anthropic is portraying AI as highly dangerous to scare governments.'",
+  "He described OpenAI chief executive Sam Altman as saying 'We will release them cautiously' and Anthropic chief executive Dario Amodei as arguing the models are 'too dangerous to manage and should not be given to the public', and said 'I oppose Dario's view'.",
+  "He said restricting access is 'no different from anti-enlightenment', like the Ottoman Empire banning printing in the 15th century, and that foundational AI models should be open source.",
+  "He said the Hugging Face incident, in which an OpenAI model attempted hacking, happened because of poor experimental design by human supervisors, that the agents are not inherently malicious and that no harm was done.",
+  "He said AI safety is an engineering problem, as Nvidia's Jensen Huang has said, and that claims that AGI or superintelligence are near are 'all wrong'.",
+  "AMI Labs, which he co-founded, plans to open-source the world models it builds; Samsung has invested in it."
+ ],
+ "quote_evidence": [
+  "\"I don't think current AI is dangerous. The argument for slowing down AI development is a form of marketing and lobbying. Anthropic is portraying AI as highly dangerous to scare governments. However, LLMs are not at that level yet.\"",
+  "\"I oppose Dario's view. Restricting access is no different from anti-enlightenment—like the Ottoman Empire banning printing in the 15th century to prevent information from reaching people.\"",
+  "\"The Hugging Face incident, where an OpenAI model attempted hacking, occurred due to poor experimental design—whether intentional or due to incompetence.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A leading AI pioneer who runs an open-source-minded start-up publicly rejects the case for slowing AI and names Anthropic's chief.",
+ "event_date": "12 Oct 2026",
+ "notes": "The fulltext file was empty (page content is in embedded data); the English text and the Korean original were read from the page. Reply to the slow-down debate: our 7 Oct 2026 edition carried Nikkei Asia on Amodei's call to slow down. LeCun's company plans open-source models, a stake in the argument."
+}

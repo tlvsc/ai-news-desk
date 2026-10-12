@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-01",
+ "title": "Google's AMIE Chatbot Interviewed 98 Boston Primary Care Patients Under Doctor Supervision Without a Single Safety Stop",
+ "source_used": "Medical Daily",
+ "article_url": "https://www.medicaldaily.com/google-amie-ai-chatbot-lancet-study-safety-479837",
+ "fetched": true,
+ "key_facts": [
+  "Google's research chatbot AMIE interviewed 98 patients by text before urgent primary-care visits at Beth Israel Deaconess Medical Center (BIDMC) in Boston; the study was published on 8 Oct 2026 in The Lancet.",
+  "Seven board-certified internal medicine physicians watched each conversation live by video; the team set four rules in advance for stopping a chat, and none of the 98 conversations met any of them.",
+  "The researchers reported one hallucination (a made-up statement) and one interaction a physician rated somewhat harmful, because the patient may have become anxious after AMIE raised lymphoma as a possible diagnosis.",
+  "AMIE's list of possible diagnoses included the doctor's final diagnosis 90% of the time (Google's summary); in blinded comparisons it performed similarly to primary care physicians on diagnosis and management plans, while doctors scored better on practical, cost-conscious care.",
+  "Patients' views of AI improved and most would use AMIE again, but fewer than half felt it would keep their information confidential or seemed honest and trustworthy.",
+  "Of 1,452 urgent visits scheduled, 140 eligible patients consented and 98 completed both the chat and the visit; emergency, pregnant and mental-health patients were excluded; no comparison group; single clinic.",
+  "Funded by Alphabet, Google's parent company; one BIDMC author was a visiting researcher at Google during part of the work. AMIE is a research system, not available to the public or approved for clinical use."
+ ],
+ "quote_evidence": [
+  "None of the 98 analyzed conversations met any of those criteria.",
+  "The study was designed to test feasibility and safety, not to prove that AI improves health.",
+  "AMIE is a research system and is not available to the public or approved for clinical use."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "One of the first real-world tests of a patient-facing diagnostic AI inside a working clinic, but it tested feasibility and safety only, not whether care improves.",
+ "event_date": "8 Oct 2026 (Lancet publication)",
+ "notes": "Read in full via Medical Daily's own article (it cites BIDMC, Google's summary and Becker's Hospital Review for single details; Medical Daily wrote its own piece, so it is the source). Google News listing shows earlier coverage on 8-9 Oct 2026 (Google blog, New York Times, R&D World, Unite.AI), so this 11 Oct item is late coverage of 3-day-old news; score lowered by 1."
+}

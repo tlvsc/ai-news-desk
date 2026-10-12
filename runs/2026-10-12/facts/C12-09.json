@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-09",
+ "title": "Japan institute's system assesses generative AI safety",
+ "source_used": "NHK WORLD-JAPAN",
+ "article_url": "https://www3.nhk.or.jp/nhkworld/news/20261012de58055/",
+ "fetched": true,
+ "key_facts": [
+  "A Japanese research institute, the National Institute of Information and Communications Technology (NICT), developed a system to assess how well generative AIs resist misuse and the leaking of information harmful to people and society.",
+  "Generative AIs are normally restricted from giving out such information, but \"jailbreaking\", a method of using clever wording to make an AI evade its restrictions, has been identified as a risk.",
+  "The system, called WISDOM-AR, automatically creates instructions meant to deceive AIs and draw answers out of them, in more than 30 themes including \"weapons\" and \"fraud\", and then evaluates the responses.",
+  "In an NICT demonstration the system asked a generative AI how to make a bomb; the AI listed materials and production methods and the system rated the answer \"harmful\".",
+  "NICT plans to introduce WISDOM-AR on a trial basis to companies that use AI as early as this fiscal year, to verify issues for practical application.",
+  "NICT fellow Torisawa Kentaro says the institute plans to help raise the safety of society as a whole by having the system evaluate the level of risk of AIs."
+ ],
+ "quote_evidence": [
+  "WISDOM-AR automatically creates instructions to deceive AIs and elicit answers from them in more than 30 themes, including \"weapons\" and \"fraud.\"",
+  "NICT plans to introduce WISDOM-AR on a trial basis to companies that use AI as early as this fiscal year to verify issues for practical application."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Companies that use AI could get a standard automatic way to test whether their systems can be talked into giving harmful answers.",
+ "event_date": "Reported by NHK on 12 Oct 2026 (Japan time); the date of the institute's announcement is not stated.",
+ "notes": "Short NHK piece (about 1,260 characters) read in full. It does not name the AI tested in the demonstration, say how responses are scored, or say when the fiscal year ends."
+}

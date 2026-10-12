@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-12",
+ "title": "BeingBeyond's Being-M0.7 Uses 10,000 Hours of Human Video to Teach Humanoids to Walk and Grasp",
+ "source_used": "Pandaily (own report, citing BeingBeyond's paper)",
+ "article_url": "https://pandaily.com/beingbeyond-being-m0-7-latent-world-action-model-humanoid-loco-manipulation-simple-71-1",
+ "fetched": true,
+ "key_facts": [
+  "BeingBeyond, an embodied AI startup founded by Peking University tenured associate professor Lu Zongqing, released Being-M0.7, a latent world-action model that lets a humanoid robot walk and manipulate objects at the same time.",
+  "The model is pretrained on more than 10,000 hours of raw human egocentric (first-person) video and motion data before it sees robot trajectories; sources include Ego4D, Nymeria, HumanML3D, other public sets, earlier BeingBeyond data and purchased data.",
+  "The premise: real robot demonstrations for whole-body loco-manipulation are scarce and costly, while human first-person video and motion capture are plentiful but messy.",
+  "Three stages: pretraining jointly predicts future visual states and body motion; mid-training adapts the prior to the robot's camera view and body; post-training adds an action expert that outputs whole-body commands.",
+  "On the SIMPLE simulation benchmark (six humanoid tasks, three difficulty levels) it succeeded in 128 of 180 trials, or 71.1%, the best among baselines tested (64.4% for Psi0, 52.8% for pi0.5, 33.9% for GR00T-N1.6), though Psi0 did better on one task and pi0.5 on two; without human-data pretraining it scored 48.9%.",
+  "On a Unitree G1 humanoid with dexterous hands it succeeded in 13 of 15 real trials across three walk-and-grasp tasks (86.7%), the same as the strongest baseline GR00T-N1.6, ahead of pi0.5 (7 of 15) and Psi0 (3 of 15).",
+  "The team notes limits: tests covered only short-horizon tasks, and the tracking accuracy of the controller used to collect demonstrations caps the precision of the real-robot data."
+ ],
+ "quote_evidence": [
+  "The model is pretrained on more than 10,000 hours of raw human egocentric video and motion data before it ever sees robot trajectories.",
+  "In other words, the real-robot result is a tie, not a lead.",
+  "Tests covered only short-horizon tasks, and the tracking accuracy of the whole-body controller used to collect demonstrations caps how precise the real-robot data can be."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Learning whole-body skills from plentiful human video could cut the cost of teaching humanoids, but the real-robot result only tied the best rival and the results are the team's own.",
+ "event_date": "Released and reported 12 Oct 2026 (paper date not stated)",
+ "notes": "The fulltext fetch returned no text; the article body was recovered from the Pandaily page's embedded data (HTTP 200). Pandaily analyses the BeingBeyond paper and states the team's own results; no outside review reported."
+}

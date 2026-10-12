@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-04",
+ "title": "OpenAI raises GPT-6.1 Sol default context length to 500,000 tokens",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/openai-gpt-6-1-sol-500k-context/",
+ "fetched": true,
+ "key_facts": [
+  "GPT-6.1 Sol now starts with a 500,000-token context length in Codex and ChatGPT Work, up from 272,000 tokens; the change landed on 11 Oct 2026.",
+  "That is an extra 228,000 tokens of room by default; the default is only a starting point and users can override it.",
+  "GPT-6.1 Sol supports a maximum context window of 1,050,000 tokens: up to 922,000 for input and up to 128,000 for output.",
+  "OpenAI eliminated long-context surcharges for subscription users of GPT-6.1 Sol.",
+  "The published API rates are $2 per million input tokens and $10 per million output tokens, in line with the predecessor's.",
+  "OpenAI framed the change as a response to user feedback, to make the model better at long contexts and multi-step tasks.",
+  "GPT-6.1 Sol launched on 29 Sep 2026 at OpenAI's DevDay; it is pitched at complex coding, heavy computer use and professional work, with performance described as closely aligned with the flagship GPT-6 Astra at a much lower running cost.",
+  "It is available in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise and Edu users, and through the API."
+ ],
+ "quote_evidence": [
+  "The model now starts with a 500,000-token context length in Codex and ChatGPT Work, up from 272,000 tokens.",
+  "OpenAI eliminated long-context surcharges for subscription users of GPT-6.1 Sol.",
+  "OpenAI framed the adjustment as a response to user feedback."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Subscribers who give Sol long coding or research jobs get more room by default and no extra long-input charge.",
+ "event_date": "11 Oct 2026.",
+ "notes": "Read Crypto Briefing in full (it repeats its text once). It names no OpenAI document for the change; another outlet's headline (ababnews) says OpenAI's Codex head announced it, which was not opened. Other outlets carry the same change (FourWeekMBA, Pluang)."
+}

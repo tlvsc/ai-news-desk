@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-03",
+ "v1_category": "SEC",
+ "headline": "A Booz Allen Hamilton lab test found that advanced AI agents could attack a simulated factory's control systems, reaching their goal in all eight scenarios, including moving a robotic arm.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: read in full and not overstated, but it is one company's lab test on a simulated plant with unnamed models and human sign-off for risky steps.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Operators of water, power and factory systems, and the people who depend on them, may face attackers who need less specialist skill and give defenders only minutes, but this was a simulated plant tested by the consulting firm itself, with unnamed models and humans approving each risky step.",
+ "source": "The Register, citing a Booz Allen Hamilton report",
+ "status": "REPORTED",
+ "summary": "The Register reports on a lab test by Booz Allen Hamilton, a US consulting firm, in which two unnamed advanced AI models were set to attack a simulated factory's operational technology (the computers that run machinery and plant equipment) and met their goal in all eight scenarios, in one case moving a robotic arm within minutes and in another getting from a perimeter break-in to actions inside the industrial control network in a little over 16 minutes. Booz Allen says defenders may have only minutes to react and that specialist knowledge of industrial equipment is no longer a real barrier to attackers, but its testers required human approval before any step that could cause physical effects.",
+ "url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Read in full on The Register. machine_action true only in the sense that an AI agent moved a robotic arm in a lab test; the story is not a robotics story and stays SEC. Booz Allen's own report was not opened."
+}

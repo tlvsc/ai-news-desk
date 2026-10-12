@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-13",
+ "v1_category": "MOD",
+ "headline": "Abu Dhabi's Technology Innovation Institute has released Falcon-ASR, a compact speech-to-text model that it says transcribes Arabic, especially Emirati speech, more accurately than larger rivals.",
+ "score": 3,
+ "score_reason": "Pool 4 lowered by 1: TII announced Falcon-ASR on 6 Oct 2026, so the 11 Oct write-up repeats an older launch with benchmark detail; the scores are TII's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Arabic speakers and developers of voice tools for the Gulf could get better subtitles and meeting transcripts in Emirati dialect, but the scores are TII's own, its Emirati test set is private, and for now only a hosted demo exists with no weights, license or API.",
+ "source": "MarkTechPost, citing TII",
+ "status": "REPORTED",
+ "summary": "MarkTechPost reports that the Technology Innovation Institute (TII), the Abu Dhabi research body behind the Falcon family of AI models, has released Falcon-ASR, a 1.6-billion-parameter model that turns speech into text, focused on Emirati Arabic and also covering English, French, Spanish and Portuguese. In TII's own run it gets 20.92% of words wrong on average across six Arabic test sets (its word error rate), 2.25 points better than the best entry in TII's leaderboard snapshot, but the figures are not independently checked and the model is only a hosted demo for now; TII first announced it on 6 Oct 2026 alongside its Falcon-Emirati language model.",
+ "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Article page blocked (HTTP 403); text read from MarkTechPost's own RSS feed. Launch date (6 Oct 2026) taken from TII's press release on Zawya, which was read; the pool item was new in the feeds on 12 Oct 2026. Scores are TII's own evaluation. Not a reply story."
+}

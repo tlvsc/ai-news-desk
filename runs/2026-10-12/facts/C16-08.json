@@ -1,0 +1,24 @@
+{
+ "item_id": "C16-08",
+ "title": "I Made Terrible Games With Google's AI Playground",
+ "source_used": "WIRED",
+ "article_url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+ "fetched": true,
+ "key_facts": [
+  "Playground, part of Google Labs (Google's page for AI experiments), launched \"this week\" and lets people describe a game in plain language and builds a working in-browser version.",
+  "The writer built three playable games in one day: a pig-themed Tetris-style game, a flash-style dinner party game called Dinner Darling, and a top-down shooter called Neon Don.",
+  "Visuals and designs are AI-generated unless the user uploads reference photos, videos or models.",
+  "Google throttles usage; the writer's allowance refreshes on 14 Oct, leaving known issues unfixed.",
+  "The writer found the tool fun and intuitive but says an \"unmistakable sameness\" runs through the games, with near-identical menus and music across genres.",
+  "The writer calls the result \"AI slop all the way down\" and says Playground works much like Meta's Horizon Create, announced in September."
+ ],
+ "quote_evidence": [
+  "Playground is essentially vibe coding for video games, letting people describe in plain language what kind of game they want to make in a chatbot-like interface.",
+  "By simply throwing out some ideas, I built three playable, stable, and not even remotely good games in one day.",
+  "Also, when you scroll through the Playground games, an unmistakable sameness permeates everything."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Describing a game in words now yields a playable one, though the writer finds the results limited and similar.",
+ "event_date": "Playground launched 7 Oct 2026 per our 8 Oct edition (WIRED says \"this week\"); hands-on date not stated",
+ "notes": "New hands-on review of a tool launched 7 Oct 2026 (our 8 Oct 2026 edition carried TechCrunch's launch report); not a re-dated old story, so the editor may keep it despite the FOLLOW-UP label."
+}

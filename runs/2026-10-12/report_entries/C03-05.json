@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "MOD",
+ "headline": "Gremlin has made Foresight AI generally available, a set of AI agents that look for weak points in online services, suggest fixes and rerun the test to check that each fix works.",
+ "score": 3,
+ "score_reason": "Pool 4 lowered by 1: Gremlin announced general availability on 7 Oct 2026 and InfoQ's 11 Oct write-up adds analysis but no new announcement; the results come from the vendor's own beta.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Engineering teams that run online services could get AI help finding and fixing weak spots before an outage reaches customers, but the evidence so far comes from Gremlin and its own beta, no accuracy or false-alarm figures are published, and a person must approve every test and change.",
+ "source": "InfoQ, citing Gremlin",
+ "status": "REPORTED",
+ "summary": "InfoQ reports that Gremlin, a company that tests whether online services survive failures, has made Foresight AI generally available (announced on 7 Oct 2026) as an add-on to its platform: four AI agent roles analyse a service for possible failures, recommend changes and rerun the original test to confirm a fix works, and Gremlin says nothing runs or changes without a person's approval. InfoQ adds that the evidence so far comes from Gremlin and its beta, with no published accuracy data, false-positive rates or detailed beta results.",
+ "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read InfoQ in full. Gremlin's general-availability announcement is dated 7 Oct 2026 (Help Net Security, read), so this 11 Oct InfoQ piece re-reports an older launch with analysis; QA may hold it back. Not a reply story."
+}

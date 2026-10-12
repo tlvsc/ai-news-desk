@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-01",
+ "v1_category": "RES",
+ "headline": "Researchers in Vienna say they have built a thorium clock that keeps its own laser on target.",
+ "score": 5,
+ "score_reason": "Pool 6 lowered by 1: the Nature paper behind the story went online on 7 Oct 2026, before the 11 Oct window, and Hackaday itself says the clock is not necessarily more accurate than existing ones.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed: a laboratory clock built on a change inside the thorium nucleus, rather than in an atom's electrons, now corrects its own laser, so it no longer needs a second nuclear clock to supply that laser. It matters first to scientists who measure time and test physics, and no everyday use is described, so the claim is the team's own and untested outside the lab.",
+ "source": "Hackaday",
+ "status": "CONFIRMED",
+ "summary": "Hackaday reports that researchers at Vienna University claim a thorium-based clock that regulates itself: when its laser drifts, the thorium crystal absorbs less light, and that change pulls the laser back to the right frequency. The work appeared in Nature on 7 Oct 2026, and Hackaday notes it is not necessarily more accurate than other atomic clocks, but earlier thorium experiments needed another nuclear clock to supply a laser precise enough.",
+ "url": "https://hackaday.com/2026/10/11/thorium-clocks-start-ticking-with-lasers/",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Hackaday in full. Date and 'nuclear clock' wording confirmed on the Nature paper page (https://www.nature.com/articles/s41586-026-11084-4), not used as the printed link. Hackaday ran the story 11 Oct about a paper published 7 Oct 2026."
+}

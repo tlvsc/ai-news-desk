@@ -1,0 +1,178 @@
+GENERAL ORDER OF CATEGORIES — RAFAEL-APPROVED V1 UPDATE, 23 SEPTEMBER 2026
+Critical stories lead regardless of category. Remaining stories follow: Politics and government of AI; Market, industry and finance; Security and cyber; Energy and infrastructure; Robotics; Models and tools; Research and science; Ethics and law; Health; Society and education; Fun and humour.
+Governing decision: AI News Desk — DECISION LOG, “General order of categories”, 23 September 2026: https://docs.google.com/document/d/1LJqFghkIc_dBaqWK2-XiAfUjEZLXxLwmSwwXc6O0S0Q/edit
+This is presentation order only. Preserve taxonomy, scores, selection rules, category slots, covers, teasers, The Bigger Picture and closing. V2 is excluded.
+The build script must apply this order to the prepared stories. If saved orders differ, notify Rafael and continue; use the Decision Log order when available, otherwise this product's saved order. Do not stop the run for an order mismatch. No extra mismatch log is required.
+
+PROVISIONAL PRESENTER APPROVAL - RAFAEL, 13 SEPTEMBER 2026
+Rafael approved the original-face preview "for now" for future card runs. This approves the presenter-face treatment; it does not replace the entire established cover layout or authorize publication.
+Use the original Studio_Cover.png presenter image as the facial source, preserved in Card Master Permanent Assets: 1PpIs2czZxHdDNSTXlaMtgGR6tdI64W_Y. Source SHA256: 22127b7e7fd41699e7040bdd32bfea2fc81c2895a364bcec5e5a4d972c489361.
+Approved visual example: cards_13-9-26_I01_VL1_presenter_preview.png, Drive 1sizbDjBLJB_7K-3uRzZ4S_xI2zpCjdIs, SHA256 61f13d586e2aa1cc7a62041a41213a1a0176d850595439ab1a3dd1df6769fa0d. Pixel verification record: 16QEoQnY7okJhE-Fjldc2wCw4hS0PrJrM.
+Reuse the original facial pixels directly. Do not generatively edit, redraw, beautify or reshape the face. Preserve natural aspect ratio; if resizing is necessary, use the same scale for width and height. At unchanged scale compare the head pixels exactly; when proportionally resampling, compare against the same resampled source, not a newly generated likeness. Keep the face out of any generated date/text/layout edit.
+The approved preview copied the source head rectangle (476,770)-(603,934) to (476,700)-(603,864) at 1:1 scale; all pixels in that head rectangle match exactly. Only a small surrounding patch edge was blended. These coordinates document this example, not a forced placement for other layouts.
+The AI-edited face preview exec-8fab3a66-51d8-46d4-b0bb-0c0aacdf7a9d.png is not the approved source. Earlier notes calling the presenter treatment unapproved are superseded by this provisional approval. Today's active 15 cards and combined image have not been replaced under this future-run instruction.
+
+CURRENT FILENAME RULE - RAFAEL, 13 SEPTEMBER 2026
+For numbered production media, use this order: product_short-date_media-number_workflow-lane.ext.
+For every current and future individual card: cards_D-M-YY_I01_VL1.png through the edition's final image number; use VL2 instead of VL1 only when Lane 2 actually created it. Exact September 13 Lane 1 example: cards_13-9-26_I01_VL1.png.
+Use uppercase I for images and C for numbered video clips, with two-digit sequence numbers. Keep the approved product name first, the short date second, media number third, and VL1 or VL2 fourth. Lane means the producing workflow, not the revision of the copy. Record producing_lane in the product manifest and verify it from run provenance.
+Do not prefix daily media filenames with AIND. Do not append version_2, another revision suffix, or repeat the word version. Revision history remains in the manifest and archive; it is not another deliverable filename suffix.
+Apply this rule to current card filenames and future numbered-media saves. Preserve the images, printed numbers, sequence, existing Drive IDs, folders and original provenance. Do not enlarge printed numbers or create a ZIP for this request. Drive Name ascending displays individual cards in sequence; do not claim control of phone download completion or Instagram ordering.
+The current 15 September 13 cards were produced in Lane 1, including the copy revision formerly called version 2, so all carry VL1. An existing current card name may be changed to this exact authorized format despite older generic filename-preservation clauses. Preserve unrelated original/archive/permanent-asset names; do not invent image or clip numbers for unnumbered support files or the combined image.
+
+CURRENT APPROVED ROUTING — RAFAEL'S LATEST CORRECTION
+Read AI News Desk — STORAGE & FILE ROUTING STANDARD, Drive ID 1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms, before saving.
+Follow AI News Desk — STORAGE & FILE ROUTING STANDARD for daily destinations; card count is governed by Section 2 item 6 of this file.
+The date-root storage manifest identifies the ordered current card IDs, combined-image ID, format and approval status. Publication still requires the existing QA and explicit approval. Intermediate videos stay local; archive polling stays PAUSED.
+This replaces older flat-folder and retired destination instructions. Historical decisions remain evidence, not active routing.
+
+CARDS_MASTER_RULES_STRUCTURE
+AI News Desk. Production renderer: ChatGPT. Written 9 September 2026; rewritten 11 September 2026 (sixth and current write of that day; this one only to match Rafael's late evening storage ruling, Section 7). Rules and structure are fused on purpose (Rafael, 8 Sep: never split them). Supersedes AIND card and reel prompt V2, card prompt deltas A, C and D, the card rulings of the AIND plain language law v1, the 7 Sep cover geometry, the 9 Sep session rulings, and every earlier version of this file.
+PERMISSION RULE ABOVE EVERYTHING (Rafael, 11 Sep): "YOU DO NOT CREATE THINGS/MANAGE/CHANGE/DO/FIX without my permission. If you have an Idea, tell me, explain in details and ask me to approve it. Mention it was an idea you had." Follow explicit requests only. Read-only inspection is not permission to edit. Permission for an outcome is not permission to change its method, structure, terminology, filenames or scope. Never delete. Never claim completion without direct verification.
+STORAGE AUTHORITY: "AI News Desk — STORAGE & FILE ROUTING STANDARD", Drive ID 1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms. Rafael revises it in place, so READ IT AT THE START OF EVERY SESSION before saving anything. It wins over Section 7 below on any difference.
+REFERENCE DECK: retain the approved story-card visual model. Use the registered ChatGPT implementation package (Drive ID 13Ic8tAb_IgWFUTWgrzmC0eLp4OxCzk3V); Claude's older renderer is historical reference. The approved cover in Section 6 controls the cover.
+Reel and video rules: Daily_brief_prompt_blueprint_V9.2 plus V9.1. Wording law: Article_phrasing_instructions_AIND_V1.
+
+==================================================================
+SECTION 1. PRODUCT AND NAMES
+==================================================================
+1. Deliver 1080x1920 PNG cards in one current version and one format, plus one combined image. A different format or additional export requires Rafael’s explicit request. Preserve the existing Instagram-safe content area.
+2. Names: "cards" ("deck" only as the Instagram nickname). "Headlines" for the reel product; "brief" is out. The daily destination is daily_data_generated (see Section 7); daily_briefs and daily Adverts are retired for new output.
+3. The Bigger Picture: analysis card, opening words "And for the bigger picture", pill DESK VIEW, source AI NEWS DESK.
+4. More in the full report: teaser card, using that exact title. The reel teaser draws only from this card, never stories already given a story card.
+5. Internal version references carry the full name of their thing. Internal lane names remain AIND_V1 and AIND_V2. Daily numbered-media filenames use Rafael's newer VL1/VL2 lane labels and no separate revision suffix, as specified in the current filename rule above.
+
+==================================================================
+SECTION 2. STRUCTURE (Rafael, 11 Sep 2026)
+==================================================================
+1. Card 1: cover.
+2. ALL critical stories (score 10), in score order, whatever their category.
+3. A CRITICAL STORY SPENDS ITS CATEGORY'S SLOT ("critical reports take off the bank of each category"). Subtract each critical from its category before filling the order. Example 11 Sep: Anthropic spent security, Oracle spent one of three market slots, Microsoft spent energy; so no security or energy card followed and market had two slots left.
+4. Then the remaining slots in Rafael's CATEGORY ORDER, updated by him 23 Sep 2026:
+   1 Politics and government of AI (1 slot); 2 Market, industry and finance (3); 3 Security and cyber (1); 4 Energy and infrastructure (1); 5 Robotics (1); 6 Models and tools (1); 7 Research and science (1); 8 Ethics and law (1); 9 Health (1); 10 Society and education (1); 11 Fun and humour (1, always the last story card).
+   Inside a category the highest scored story fills the slot.
+5. Then More in the full report (normally three to four categorized one-line headlines from the full report that did not receive story cards), then The Bigger Picture, then closing. This is one teaser, not two separate segments.
+6. Aim for 15; usually 13–17, but fewer or more if needed. Structure, counts, category slots and timing are flexible defaults when editorial needs justify adjustment. Record the reason and notify Rafael of departures. Robotics and fun are normally required; exceptionally weak coverage may be skipped, with explicit notification to Rafael. Do not block a run solely for an explained weak-category omission. Factual verification and report-only sourcing remain required.
+7. AIND is an AI news channel, not a business channel. A money heavy deck is a failure. Count before rendering: market slots plus any money critical may not exceed three story cards unless Rafael rules otherwise that day.
+8. FULL REPORT ONLY: cards and Headlines use the full report as their content source. Web searches compare coverage and identify omissions; they do not add stories directly to cards or Headlines. Handle a missing story in the full report first, then derive the card from that updated report.
+9. The robotics slot means a robot or autonomous machine doing something, not a policy about robots and not a funding round.
+10. Big release rule (Rafael, 10 Sep, Drive write pending his "go"): a major release from a big company takes the first slot after the criticals, all features in one card, override noted in the handoff.
+11. No sales language. The asks are like, follow and share. No link on cards or captions until the site or channel is live.
+12. CLOSING CARD — Rafael-approved current wording (12 September 2026):
+Like, follow and share.
+
+That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.
+
+If this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow.
+Headlines uses its separately approved ending in Blueprint V9.2.
+13. Rafael's own article, if any: last story card before fun, pill DESK VIEW.
+14. Reel order follows deck order.
+
+==================================================================
+SECTION 3. WORDS
+==================================================================
+1. Article_phrasing_instructions_AIND_V1 governs every word.
+2. Plain, simple, interesting for readers and listeners.
+3. LEAD WITH THE DEED, NOT THE MONEY (Rafael, 11 Sep: "it starts with money, not what was discovered"). A robotics, science, health, research, society or models card says what the machine or discovery does. Funding, revenue and valuation stay out of the headline and first sentence of every non market card. Model: 11 Sep card 8, "Robots that learn a new job from one video are already building Nvidia chips."
+4. Unfamiliar companies get a short title: "robot brain startup Skild", "Chinese AI chipmaker Enflame", "AI voice company ElevenLabs".
+5. Outlet always named; status pill mirrors QA: CONFIRMED, REPORTED, DISPUTED, PRELIMINARY; DESK VIEW for desk originals.
+6. Approved text is never altered to solve a layout problem; the layout bends. Desk copy may be tightened; drafts may be shortened before approval to keep the headline size large.
+7. Text approval: Rafael approves texts before render when he asks; otherwise the finished preview is the approval object.
+8. The approved opening caption with its five hashtags lives in AIND_approved_opening.txt in Headlines Master Permanent Assets (file ID 1i8Vdm3qZhlmeL17x1mcVKzDUArLOX-cf). Return its exact text when asked; the hashtags are caption text, never spoken narration.
+
+==================================================================
+SECTION 4. LOOK
+==================================================================
+1. Colours: navy (9,19,42), electric blue (63,169,245), white headlines, light grey body (196,206,224), dim grey labels (150,165,195), amber (255,196,90) for REPORTED, DISPUTED, PRELIMINARY and DESK VIEW, off segment (60,78,110), edge (4,9,22).
+2. Fonts: Big Shoulders Bold headlines and cover title; Instrument Sans Regular body, Bold teaser lines; Red Hat Mono wordmark, date, tags, category line, pills, sources. Validate font files; no silent fallback.
+3. Story card background: newsdesk_start_frame_v1.png, Gaussian blur 9, blended with navy at 0.78, soft vignette.
+4. Cover background: sharp frame, navy scrim ramp y 1080 to 1451, solid below, same vignette.
+
+==================================================================
+SECTION 5. THE INSTAGRAM WINDOW (locked)
+==================================================================
+Instagram crops square. Essential content between y 465 and 1457; the renderer asserts y 420 to 1500 and refuses to save a card that crosses. Verify on the contact sheet, not the rule file.
+
+==================================================================
+SECTION 6. LAYOUT, PIXEL RULES
+==================================================================
+Header: AI NEWS DESK, Red Hat Mono Bold 30 white at x 84 y 470; blue rule x 84 to 342, y 524 to 527; short date right aligned, Red Hat Mono Bold 32 at y 468, format FRI 11 SEP 2026.
+Cover: use the approved final visual reference, file ID 1Jaz1oyGJbH-vBo5ipGBBxSegQZ_IXml0, in Card Master Permanent Assets. Retain TODAY IN AI at its approved size; stack 'in' above 'cards' on its right, enlarged approximately 20% and bold. Title and date use equal font sizes, reduced equally from the earlier example. Tighten the title-to-date gap. Lower the presenter/studio layer slightly so the holographic screen remains fully inside the frame. Keep the tagline. The approved reference uses 12 September 2026; future covers use their edition date. The approved image supersedes earlier cover coordinates.
+Story cards, one fixed layout: STORY NN / TT in Red Hat Mono 30 blue at x 104 y 609 with the status pill; CATEGORY: X / Y at y 660, first level matching the Section 2 category name; headline from y 756, Big Shoulders Bold, one size for the set (largest that fits the longest headline in three lines at 892 px); body Instrument Sans 40, step 56, maximum six lines, starting at the same y on every card and ending above y 1384; blue bar x 84 to 90; SOURCE line at y 1392; progress at y 1450, one segment per card.
+More in the full report: label at y 600, normally three to four categorized Instrument Sans Bold headlines with blue bars, closing line "Want the whole picture every morning?". Adapt layout for an explained editorial exception without sacrificing readability.
+Closing: "Like, follow" / "and share." Big Shoulders Bold 140 at y 640 and 780; rule at y 940; closing text Instrument Sans 46 from y 990, shrink to 36 if needed.
+Contact sheet: five per row, as many rows as the deck needs.
+
+==================================================================
+SECTION 7. STORAGE, WORKFLOW AND DELIVERY
+==================================================================
+STORAGE (Rafael's ruling of 11 Sep 2026, late evening; the storage authority document named at the top is the master copy and is re-read every session).
+1. Account tlvsc.claude.agent@gmail.com. Verify the connected account before any Drive operation.
+2. DAILY ROOT for all future output: AI_News_Desk / daily_data_generated, ID 1nzOWXclWAExDQ6WqQ2C9DmSkM3rrqLYx. One folder per edition date, YYYY-MM-DD in Asia/Jerusalem, directly under it; no month or year grouping. This replaces daily Adverts (ID 1BiWikyTPINsIeQgA3ftUzTkpagzWvbzS), Daily Global AI Intelligence Reports, claude_files_only and the main root as save destinations. Historical files are NOT moved or renamed. Do not rename AI_News_Desk or create a second main folder.
+3. Follow AI News Desk — STORAGE & FILE ROUTING STANDARD for product and supportive-file destinations; card count is governed by Section 2 item 6 of this file.
+4. Save each final file the moment it is ready during an authorized production run and verify it on Drive; do not wait for the whole package. This is a step inside the run, never a timed automation or polling check. The AIND daily Drive archive job stays PAUSED.
+5. A combined card image is never a substitute for the individual PNGs. Missing cards are never regenerated or reconstructed without Rafael's explicit authorization; the 11 Sep missing cards are deferred by his decision.
+6. Only the final stitched movie is uploaded as video. Small and intermediate Comfy clips stay on the computer, including those inside an edit kit ZIP.
+7. Preserve exact filenames, formats, versions, run identities and provenance. Never delete. Check existing file IDs, filenames and sizes before uploading and upload only what is missing. If two distinct outputs collide on a filename, ASK before renaming or replacing either.
+8. After uploading, verify the parent folder, the file count, the byte sizes and that text and JSON read back. Report the exact folder, filenames and links. Never call the archive complete while a required original is missing; name what is missing. Never generate clips or publish to social platforms as part of archiving.
+9. daily-pool.md preserves the WHOLE scan: edition date, reporting window, timezone, run identity, last updated time, and Complete, Partial or Failed status. Keep every collected candidate with its source links, title, dates, factual description and outcome, including items not chosen, duplicates, rejected, held, out of window and insufficient support, with the recorded reasons, the source check ledger, access failures, verification notes and corrections. Deduplication may group events but never erases a record. Keep the raw structured scan files in the same dated folder. Never replace a valid complete pool with an unlabelled partial one, and never invent a field, source, check or reason.
+10. CURRENT PRODUCT LOCATIONS
+   Cards: AI_News_Desk / Card Master Permanent Assets
+   Folder ID: 15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW
+   Combined card blueprint/rules/structure: 1mA6HnSS3McV7rVxSEyW5tjVUGzsqGQyT. The rules and all card permanent material are together in this folder.
+   Headlines: follow Headlines_Master_Rules_Structure.txt, in AI_News_Desk / Blueprint_Library / Headlines blueprint; use AI News Desk — ASSET REGISTRY (Drive ID 1VweiZrbGG5BTQVsv1a3BN0ld68MVhZEUFPkyZbFgQI4) for its permanent-asset locations.
+   Shared/report/agent prompts: AI_News_Desk / Prompt Library / prompts, folder ID 1uzjcUMuZ7_1B_CEM3CIkWh_O0Sk45PBn. Product blueprints have moved out to their product folder. Shared resources are referenced by their original IDs, without duplicate uploads.
+   Former Reference Assets (1OfzLXpJxuoeXyUsfu5igl6q11YTgxZ9X) and Cards_Master (1jtVignnfKrESrT5VXu0QTZjUaV-Ub0eR) were verified empty and moved into the existing archive (1zG753uYzi8qPzDlGSKlXayUjQILDSsfP). Do not use them for builds.
+Daily outputs use the current product/support folder structure defined in AI News Desk — STORAGE & FILE ROUTING STANDARD. Preserve historical versions, existing IDs, filenames and local Comfy inputs.
+   
+11. Both Claude and Codex use these folder IDs. Rule storage is not proof of a scheduler: any enabled scheduler is recorded separately and verified by a real archive run before anyone claims automatic daily delivery works.
+WORKFLOW
+12. Session start: read the storage authority document, then Master Project Memory, the Decision Log and the newest Claude handoff; then list today's report files. Newest Rafael ruling wins.
+13. Read the Full Report, then Bulletin; Bulletin follows Bulletin_V1_Rules_Structure.txt and is separate from Headlines. State TV Editorial QA status. Coverage comparison follows Section 2 item 8; flag omissions and resolve them in the report before using them in derivative products.
+14. Build the story list on paper first: criticals, subtract their slots, fill the category order, count money cards, check every non market card leads with the deed. Only then render.
+15. Render, check the contact sheet, present the contact sheet first, then every card as its own PNG. Never a zip. Script last. The reel JSON is built from the same list in deck order.
+16. Files over the connector limit (the JSON, PNGs) go to Rafael as file cards; the connector cannot delete and damages binary uploads.
+17. Rule changes go into this file the same session. Losing rules are deleted when Rafael rules.
+18. Strict publishing QA (ChatGPT lane) gates publication.
+19. Check a tool can do something before offering it to Rafael.
+
+==================================================================
+SECTION 8. MISTAKE RECORDS
+==================================================================
+26 Aug: header cut by Instagram; moved to y 470.
+4 Sep: deck copied the TV package, all finance; sample the full report by category.
+5 Sep: 4:5 window, Instagram crops square; hard assertion.
+7 Sep: cover built with a hologram date that live never had.
+8 Sep: newest Drive file used without checking the newest ruling.
+9 Sep: approved rule lived only in a handoff; adaptive sizing; headlines cut to fit; cards zipped.
+10 Sep: first draft too complex; Apple launch under weighted.
+11 Sep: money heavy deck built straight from the report; robotics slot filled with a policy story; no web sweep; robotics card led with revenue; stories ordered by desk score instead of Rafael's category order; criticals did not spend their category slot, giving five money cards; deletion offered that the connector cannot do; a zipped JSON corrupted in upload; reel teaser named stories that already had cards; a bulk Drive restructure done without Rafael picking that option, then undone. All fixed in Sections 2, 3 and 7.
+
+==================================================================
+SECTION 9. OPEN
+==================================================================
+1. Cover resolved on 12 September 2026: approved final image and Section 6 control; tagline retained.
+2. Approved cover reference is in Card Master Permanent Assets; hologram 4K source also exists on Drive, ID 11QsVUtDr0uCmcjlJI7B-vsGcWcB2L-oA.
+3. Big release rule awaits Rafael's "go".
+4. Scoring: Astra scores dollar size as critical. The report fix pack and the LV1.1 prompt propose the new scoring; Rafael to approve.
+
+CHANGE LOG
+11 Sep 2026 (sixth write): Section 7 storage replaced with the daily_data_generated ruling, flat dated folder, save on readiness, daily-pool.md preservation, permission rule added at the top.
+11 Sep 2026 (fifth write): one library storage from the earlier version of the storage document (daily Adverts), now superseded.
+11 Sep 2026 (fourth write): critical spends its category slot; money cap; mandatory web sweep; lead with the deed; teaser from More inside; reel keeps its stored ending; paper first build list.
+11 Sep 2026 (first to third writes): category mix, ranked category order, 15 to 20 cards, new closing text, unfamiliar company titles.
+9 Sep 2026: file created.
+END
+
+CURRENT CARD PERMANENT-ASSET LOCATION — RAFAEL-APPROVED CORRECTION
+Card Master Permanent Assets is the card product's permanent-assets folder, including everything related to the cards. Existing folder ID preserved: 15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW.
+Path: AI_News_Desk / Card Master Permanent Assets.
+Folder: https://drive.google.com/drive/folders/15pESFnyFwQHUbJg6MAYG3f9zlTLZJQUW
+The latest approved cover reference is saved here under its unchanged filename exec-77e747fb-bd8f-4f57-bf6a-234f19e7bb5c.png, file ID 1Jaz1oyGJbH-vBo5ipGBBxSegQZ_IXml0. Image: https://drive.google.com/file/d/1Jaz1oyGJbH-vBo5ipGBBxSegQZ_IXml0/view
+Cards_Master_Rules_Structure.txt is inside Card Master Permanent Assets, file ID 1mA6HnSS3McV7rVxSEyW5tjVUGzsqGQyT. Daily generated outputs continue to use the existing daily_data_generated instruction.
+
+
+
+CURRENT APPROVED IMPLEMENTATION — Rafael reaffirmed flexibility: editorial counts, slots and timing are defaults, adaptable when needed with the reason reported. This does not authorize changing approved wording, factual certainty or report-only sourcing. This update synchronizes blueprint text; renderer verification is a separate pending implementation task.
+
+

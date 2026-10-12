@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-07",
+ "title": "Introducing SpliceAI2: The Next Generation of Splicing and Transcript Isoform Prediction",
+ "source_used": "Illumina blog post (fulltext fetched by main session)",
+ "article_url": "https://www.illumina.com/science/genomics-research/articles/introducing-spliceai2--the-next-generation-of-splicing-and-trans.html",
+ "fetched": true,
+ "key_facts": [
+  "Illumina's BioInsight AI Lab launched SpliceAI2, a pre-trained AI model to help researchers study alternative splicing, the process by which one gene produces several RNA and protein versions.",
+  "It succeeds the original SpliceAI of 2019, cited in more than 3,400 publications; SpliceAI2 predicts splice sites, how they connect and the complete RNA transcripts, from a DNA sequence alone.",
+  "Its training data is more than 100 times larger: 314,745 RNA sequencing samples across ten species and more than 46 million splice junctions, plus 330 long-read samples from the public ENCODE project for transcript prediction.",
+  "Illumina compared it with the original SpliceAI, Pangolin and Google DeepMind's AlphaGenome on three independent benchmark datasets, with the AlphaGenome comparisons run by academic collaborators at the University of Oxford, and says SpliceAI2 delivered the highest accuracy on all.",
+  "In data on 7,504 people from the Genomics England 100,000 Genomes Project, at matched confidence thresholds it found 17 percent more disease-associated variants than any other tested splicing model, and 33 and 66 percent more than the original SpliceAI at two confidence levels.",
+  "About 50 percent of the hidden (cryptic) splice variants it found lay deep inside introns, thousands of bases from protein-coding sequence.",
+  "The model was less successful at predicting how a variant's effect changes between tissues.",
+  "Source code, trained models and precomputed predictions are on GitHub and the model is available on Illumina's BioInsight Platform."
+ ],
+ "quote_evidence": [
+  "Today, the BioInsight AI Lab launched SpliceAI2 (detailed in our paper), a new, pre-trained AI model designed to help researchers investigate alternative splicing.",
+  "SpliceAI2 delivered the highest accuracy and strongest performance across all tested benchmarks.",
+  "Importantly, the model was less successful at predicting how the impact of a given variant changes between tissues."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A widely used genomics tool gets a successor that finds more splicing-related disease variants, by the developer's own tests.",
+ "event_date": "8 Oct 2026 per Google News listings of Illumina's PR Newswire release (headlines seen, not read); the blog post carries no date in the text.",
+ "notes": "Read in full from the main session's fulltext copy. The source is the developer's own blog, so all benchmark results are Illumina's; the blog points to a paper but does not say it is peer reviewed. Google News lists PR Newswire, Investing.com and Unite.AI items on 8 Oct 2026 (headlines seen, not read), so the launch is older than the 11 Oct window start. Not carried in our 14 earlier editions."
+}

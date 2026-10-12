@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-04",
+ "v1_category": "RES",
+ "headline": "OpenAI's API pricing page has added an unannounced life-sciences model, gpt-rosalind-discovery, priced the same as its research version.",
+ "score": 3,
+ "score_reason": "Lowered from 5 by 2: the listing dates from 10 Oct 2026 and we carried it on 11 Oct; today's BigGo piece adds analysis but no new fact about the model.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Drug-discovery researchers at approved organisations might get a second OpenAI model for early-stage work, but OpenAI has said nothing about what it does, who can use it or when.",
+ "source": "TestingCatalog",
+ "status": "REPORTED",
+ "summary": "TestingCatalog reports, as repeated with added analysis by BigGo Finance, that OpenAI's pricing page lists gpt-rosalind-discovery beside gpt-rosalind-research (models in OpenAI's GPT-Rosalind line for biology and drug research, open only to approved organisations) at the same prices, $5 per million input tokens and $25 per million output tokens. OpenAI has published no blog post, help page or system card, so the idea that the new model targets drug discovery is a guess from its name; we first carried this listing on 11 Oct 2026.",
+ "url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/",
+ "freshness": "FOLLOW-UP of 10 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The curator's item was BigGo Finance (a rewrite); the original TestingCatalog article (published 10 Oct 2026) was fetched and read, and the url is that original, the same link as our 11 Oct 2026 edition item 57. Repeat of an item already printed; the duplicate check against the 14 earlier reports should hold it back."
+}

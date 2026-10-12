@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-06",
+ "title": "OpenAI Slashes API Prices for GPT-5.6 Lineup As Efficiency Gains Pay Off",
+ "source_used": "Stocktwits (citing OpenAI)",
+ "article_url": "https://stocktwits.com/news-articles/markets/equity/open-ai-slashes-api-prices-for-gpt-5-6-lineup-as-efficiency-gains-pay-off/cZN5OhrRJ25",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI announced cost reductions and performance upgrades across its GPT-5.6 model family 'on Thursday'; the rate cuts start July 30 (30 Jul 2026 was a Thursday).",
+  "API rates for GPT-5.6 Luna were cut by 80% and for GPT-5.6 Terra by 20%.",
+  "New rates: Luna $0.20 per million input tokens and $1.20 per million output tokens; Terra $2 and $12.",
+  "OpenAI also debuted a 'Fast mode' for the flagship GPT-5.6 Sol, designed to process high-priority enterprise workloads up to 2.5 times faster than standard speeds.",
+  "The cuts extend to paid corporate accounts including ChatGPT Work and Codex, where Luna and Terra use fewer quota credits without changing subscription tiers.",
+  "OpenAI attributes the savings to optimisation across its software stack: improved hardware routing, production inference software and smarter context caching.",
+  "OpenAI says that in human-supervised testing GPT-5.6 Sol rewrote critical production software kernels, cutting end-to-end serving overhead by 20 percent, and improved token-generation efficiency by more than 15 percent in automated experiments."
+ ],
+ "quote_evidence": [
+  "Starting July 30, the artificial intelligence research laboratory reduced API rates for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20%.",
+  "Pricing for GPT-5.6 Terra has been set to $2 per million input tokens and $12 per million output tokens.",
+  "The company said it is passing the reduced operational costs directly to developers, enterprise subscribers, and cloud platform partners like Amazon Web Services (AWS)."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers and companies using OpenAI's smaller models paid much less per use from 30 Jul 2026.",
+ "event_date": "30 Jul 2026 (OpenAI's own post and Yahoo Finance's copy of this Stocktwits piece are dated Thu 30 Jul 2026 in Google News).",
+ "notes": "OLDER NEWS RE-DATED. The article says 'on Thursday' and 'starting July 30'; Google News lists the identical article via Yahoo Finance, OpenAI's own post ('Advancing the price-performance frontier with GPT-5.6'), VentureBeat and many others on 30 and 31 Jul 2026, more than ten weeks before this edition. Read Stocktwits in full; efficiency claims are OpenAI's own. Suggest the editor holds it as stale_redated."
+}

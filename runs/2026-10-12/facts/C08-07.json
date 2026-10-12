@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-07",
+ "title": "[News] AI Interposers Grow Larger, Raising HBM4E Cooling Challenges: How Samsung, SK hynix Are Responding",
+ "source_used": "TrendForce News (fulltext from main session), relaying Chosun Biz and ETNews",
+ "article_url": "https://www.trendforce.com/news/2026/10/12/news-ai-interposers-grow-larger-raising-hbm4e-cooling-challenges-how-samsung-sk-hynix-are-responding/",
+ "fetched": true,
+ "key_facts": [
+  "Chosun Biz: interposers, which connect compute chips and HBM, are expected to grow dramatically; Samsung is preparing technologies to handle heat in HBM4E, which it plans to start mass-producing next year.",
+  "Current AI interposers are already about 5.5 times the 858 mm² maximum area an EUV lithography system can expose in one shot; an equipment-industry official expects nine, 12 and eventually up to 40 times that area.",
+  "Cause: limits of process scaling and growing use of chiplet-based 2.5D packaging, combining several compute chiplets and HBM stacks on one interposer.",
+  "Samsung is exploring lower-power designs plus hybrid copper bonding (HCB), which replaces micro bumps between stacked DRAM dies with direct copper connections, and heat path block (HPB), which adds a thermal path around the D2D PHY in the HBM base die.",
+  "Samsung showed HCB at Nvidia's GTC 2026 in March and is validating HPB with HBM4E, planning to introduce it with HBM5.",
+  "ETNews: SK hynix's iHBM places a highly thermally conductive but electrically insulating material around the D2D PHY and expects to cut thermal resistance by about 30%."
+ ],
+ "quote_evidence": [
+  "The report notes that current AI interposers are already around 5.5 times the 858 mm² maximum area that an EUV lithography system can expose in a single shot.",
+  "Samsung is currently validating the technology with HBM4E and plans to introduce it with HBM5.",
+  "The company expects the design to reduce thermal resistance by around 30%."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Heat limits how much memory and processing can be packed into AI chips, so cooling fixes shape how powerful future AI hardware can be; the 30% figure is SK hynix's own expectation.",
+ "event_date": "12 Oct 2026 (TrendForce relaying Chosun Biz and ETNews)",
+ "notes": "Read in full. Chain: Chosun Biz (Samsung and interposer sizes) and ETNews (SK hynix) are the first reporters; TrendForce relays them."
+}

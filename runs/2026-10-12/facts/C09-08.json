@@ -1,0 +1,24 @@
+{
+ "item_id": "C09-08",
+ "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+ "source_used": "Tom's Hardware (Jowi Morales), citing Cloudflare and NetBlocks",
+ "article_url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+ "fetched": true,
+ "key_facts": [
+  "Cloudflare reports that bot traffic from the Yandex network has dropped to 0.4 percent of the maximum number of HTTP requests recorded in the past two weeks.",
+  "It first fell to about 57 percent on 8 Oct, when a Yandex data centre housing two supercomputers in Sasovo, Russia, was hit; a bigger campus in Kaluga was knocked offline the day before the article; a third attack came the previous night.",
+  "The attacks are apparently Ukraine's response to Moscow's strikes on Ukrainian data centres, some of which took down popular piracy websites.",
+  "Yandex Cloud's status page shows at least 84 services offline.",
+  "NetBlocks says Yandex network traffic has dropped to 30 percent for Yandex Cloud and 63 percent for Yandex LLC, most likely meaning slower internet services or complete disruption for the average Russian.",
+  "Starlink does not work in Russia, and the competing Rassvet satellite constellation has had a good number of its satellites fall back to Earth after launch.",
+  "The article notes civilian data centres have also been hit elsewhere, such as AWS sites in Bahrain and the UAE since the US bombing campaign against Iran began."
+ ],
+ "quote_evidence": [
+  "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+  "These attacks are apparently Ukraine’s response to Moscow’s strikes on its own data centers, some of which resulted in the outage of some of the most popular piracy websites."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The traffic figures give a measure of how much of Yandex's network went dark after repeated drone strikes on its data centres.",
+ "event_date": "8 to 11 Oct 2026 (three strikes); figures published 11 Oct 2026",
+ "notes": "Continues our 8 Oct (Reuters/NBC, first strike), 10 Oct (BBC, Sasovo and Kaluga) and 11 Oct (Reuters, Vladimir) items; the chunk marks follow_up false but it is a follow-up. The title says 'overnight' and the URL says 'disinformation bot traffic'; the text says the drop came over a few days and speaks only of bot traffic. Attribution of the strikes to Ukraine is Tom's Hardware's wording ('apparently'); our 10 Oct edition carried Ukraine's defence ministry confirming the attacks."
+}

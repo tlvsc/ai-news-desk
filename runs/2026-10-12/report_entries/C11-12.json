@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-12",
+ "v1_category": "ROB",
+ "headline": "Chinese start-up BeingBeyond has released an AI model, Being-M0.7, that learned from more than 10,000 hours of human first-person video and motion data to help a humanoid robot walk and grasp objects at the same time.",
+ "score": 4,
+ "score_reason": "Pool 4 kept: reported on 12 Oct 2026 and the article matches the headline; the real-robot test only tied the strongest rival.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It points to a cheaper way to teach humanoid robots whole-body skills, using plentiful human video instead of costly robot demonstrations, which could matter to robot makers and eventually to the people who work alongside such robots, but the real-robot result only tied the best rival, the tests covered short tasks, and the results are the team's own with no outside review reported.",
+ "source": "Pandaily, citing BeingBeyond's paper",
+ "status": "PRELIMINARY",
+ "summary": "Pandaily, a news site covering Chinese technology, reports, citing the paper, that BeingBeyond, a start-up founded by Peking University associate professor Lu Zongqing, has released Being-M0.7, a model that first learns to predict what happens next and how a body moves from more than 10,000 hours of human first-person video and motion data and is then adapted to a humanoid robot, because real robot demonstrations are scarce and costly to collect. The team reports that it succeeded in 71.1 percent of trials (128 of 180) on a simulated benchmark, the best of the models compared, but on a real Unitree G1 humanoid it succeeded in 13 of 15 walk-and-grasp trials, a tie with the strongest rival, and the tests covered only short tasks.",
+ "url": "https://pandaily.com/beingbeyond-being-m0-7-latent-world-action-model-humanoid-loco-manipulation-simple-71-1",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Read in full: the fulltext fetch was empty, so the text was taken from the Pandaily page itself (HTTP 200). machine_action is true because the model was tested on a real Unitree G1 humanoid walking and grasping (13 of 15 trials, reported by the team, not independently verified)."
+}

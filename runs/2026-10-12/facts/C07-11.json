@@ -1,0 +1,24 @@
+{
+ "item_id": "C07-11",
+ "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
+ "source_used": "The Decoder (full text from the main session's fulltext copy; a short article)",
+ "article_url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+ "fetched": true,
+ "key_facts": [
+  "Data from Ornn, Silicon Data and Bloomberg (as of August 2026) shows what the venture firm a16z calls a textbook Jevons paradox in the AI market.",
+  "Token prices keep dropping, but rental prices for H100 GPUs (Nvidia AI chips) hold steady or climb.",
+  "Cheaper tokens unlock AI agents, automation and new applications, so volume grows faster than per-unit costs fall.",
+  "It is not clear how much demand comes from humans and how much from AI systems themselves, since agentic AI uses tokens at a very high rate.",
+  "The whole picture rests on AI usage growing fast enough to offset falling token prices; if demand flattens, chip makers, memory suppliers, energy providers and cloud companies take a hit.",
+  "The Decoder says markets are already sensitive: US stocks dropped on reports that OpenAI's annualized revenue might be lower than previously reported."
+ ],
+ "quote_evidence": [
+  "Token prices keep dropping, but H100 GPU rental prices hold steady or climb.",
+  "The whole system rests on one assumption: AI usage has to grow fast enough to offset falling token prices.",
+  "How much demand comes from humans versus the systems themselves isn't clear, since agentic AI burns through tokens at a staggering rate."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Cheaper AI is raising demand for AI computing rather than lowering it, which keeps chips scarce and expensive as long as use keeps growing.",
+ "event_date": "Data as of August 2026; The Decoder published 11 Oct 2026; the date of a16z's analysis is not stated",
+ "notes": "Short article (about 1,300 characters), read in full. a16z's own analysis was not read; the Decoder is the only outlet. Background not in the article: a16z is Andreessen Horowitz, H100 is Nvidia's AI chip, and Jensen Huang is Nvidia's chief executive. The OpenAI revenue reports mentioned are covered in today's edition (see C07-01)."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-09",
+ "title": "Tesla cuts AI5 chip memory to 96GB to secure Optimus production supply",
+ "source_used": "Not a Tesla App",
+ "article_url": "https://www.notateslaapp.com/news/4763/tesla-cuts-ram-on-ai5-and-ai6-chips-to-boost-production",
+ "fetched": true,
+ "key_facts": [
+  "Elon Musk said on X that Tesla cut the memory on its next-generation chips: AI5 in half to 72GB of LPDDR5 and AI6 by a third to 144GB of LPDDR6.",
+  "Musk called it 'the only way to get enough volume for Optimus production' and said it also greatly reduces cost.",
+  "He expects 'a negligible effect on Optimus performance' because memory bandwidth, which is unchanged, limits these systems more than total capacity.",
+  "He later raised AI5 to 96GB because 'Tesla would otherwise be the only company using the min RAM version of LP5'; AI5 ends up a third below its original plan, like AI6.",
+  "Micron has estimated each humanoid robot could need about 200GB of RAM; memory supply is tight across the industry.",
+  "Samsung recently began trial production of AI5 at its Taylor, Texas fab, with mass production aimed at 2027; AI5 is not coming to cars first.",
+  "Not a Tesla App is dated 3 Oct 2026 and says Musk posted 'earlier this week'; a Wccftech headline dated 1 Oct 2026 carries the 72GB cut."
+ ],
+ "quote_evidence": [
+  "He called it “the only way to get enough volume for Optimus production,” and said the move also greatly reduces cost.",
+  "As for performance, Musk said Tesla expects “a negligible effect on Optimus performance.”",
+  "Samsung recently began trial production of AI5 at its Taylor, Texas fab, with mass production aimed at 2027."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Memory shortages are limiting how many humanoid robots Tesla can build, and the 'no performance loss' claim is Musk's own.",
+ "event_date": "Musk's X posts about 1-2 Oct 2026 (Wccftech headlines dated 1 and 2 Oct; Not a Tesla App 3 Oct)",
+ "notes": "The pool link (Global Sources, a relay) returned HTTP 429. Read Not a Tesla App's own article of 3 Oct 2026, which cites Musk's posts on X; it is the source. Wccftech (1 and 2 Oct) was blocked and only its headlines were seen. Older news re-dated: about 10 days old; score lowered by 1."
+}

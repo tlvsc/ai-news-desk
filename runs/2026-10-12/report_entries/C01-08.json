@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-08",
+ "v1_category": "MOD",
+ "headline": "Chinese AI company Zhipu has begun quietly testing a faster GLM-5.3 model that one early tester says writes more than 490 tokens a second, several times the speed of its standard version.",
+ "score": 5,
+ "score_reason": "Kept at 5: new on 12 Oct 2026 and read in full; it is an early limited test seen by one tester, and the headline says so.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who use AI coding tools could get answers several times faster if the speed holds, but the figure comes from one tester in a limited trial, pricing is not disclosed and the article itself says only an official launch will show the real speed.",
+ "source": "ZheDongXi, republished by 36Kr",
+ "status": "PRELIMINARY",
+ "summary": "ZheDongXi, in a report republished by 36Kr, says Zhipu, the Chinese AI company behind the GLM models, is testing GLM-5.3 HighSpeed with a random group of subscribers to its ZCode programming tool, where an early tester on X says output can exceed 490 tokens (word-sized pieces of text) a second, against about 71 for Zhipu's standard GLM-5.3 API and 121 for DeepSeek V4.1 Flash on the AI Ping evaluation site's latest data. Pricing is not disclosed and the article cautions that the speed seen in testing is only a reference until the model officially launches.",
+ "url": "https://eu.36kr.com/en/p/4022354401104000",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read 36Kr in full. Company model not yet officially announced; figures from one tester and AI Ping."
+}

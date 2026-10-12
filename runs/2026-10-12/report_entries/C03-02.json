@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "GitHub is separating the job of writing code from the job of running a project's automated testing, DevOps.com reports.",
+ "score": 4,
+ "score_reason": "Lowered from 5: only the headline could be read, so the size and detail of the change are unverified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams that use GitHub to test and build their code may be affected, but what the change involves and whom it applies to are not yet known.",
+ "source": "DevOps.com",
+ "status": "REPORTED",
+ "summary": "DevOps.com reports that GitHub is separating who writes code from who runs a project's continuous integration (CI), the automated checks that test and build each code change.",
+ "url": "https://devops.com/github-separates-who-writes-code-from-who-runs-your-ci",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only: DevOps.com is behind a Cloudflare challenge (403); no other outlet or GitHub changelog post found (changelog checked to 10 Oct 2026). Score lowered 5 to 4 as unverified, which puts it below the report cutoff of 5. Wording kept close to the headline because 'who' is not explained."
+}

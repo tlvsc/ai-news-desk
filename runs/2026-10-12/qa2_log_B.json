@@ -1,0 +1,273 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-14",
+   "field": "summary",
+   "before": "SBS News reports, citing an announcement by the National Fire Research Institute of Korea's National Fire Agency on 11 Oct 2026, that the institute used an ultralight vine robot made with a team at KAIST (the Korea Advanced Institute of Science and Technology) to check the inside of a finished-goods warehouse at a primary battery plant in South Chungcheong Province after a fire in August 2026, where about 210,000 military battery packs were left unburned but hot and at risk of thermal runaway, in which an overheated battery sets off a chain reaction. Officials say tracked machines and four-legged robots were ruled out because their weight could press on the batteries, while the vine robot, which grows outward like a plant vine as compressed air is pumped in, could pass through narrow spaces without disturbing them; the account is the institute's own.",
+   "after": "SBS News reports, citing an announcement by the National Fire Research Institute of Korea's National Fire Agency on 11 Oct 2026, that the institute used an ultralight vine robot made with a team at KAIST (the Korea Advanced Institute of Science and Technology) to check the inside of a finished-goods warehouse at a primary battery plant in South Chungcheong Province after a fire in August 2026, where many of about 210,000 military battery packs were left unburned but hot and at risk of thermal runaway, in which an overheated battery sets off a chain reaction. Officials say tracked machines and four-legged robots were ruled out because their weight could press on the batteries, while the vine robot, which grows outward like a plant vine as compressed air is pumped in, could pass through narrow spaces without disturbing them; the account is the institute's own.",
+   "reason": "Meaning: the source says a significant portion of the 210,000 packs stayed unburned, not all of them."
+  },
+  {
+   "item_id": "C02-01",
+   "field": "headline",
+   "before": "Elon Musk accidentally revealed his Lego order number, two Texas addresses and the last four digits of his payment card when he posted a screenshot of his Grok Bot AI assistant buying toys for him.",
+   "after": "Elon Musk posted a screenshot of his Grok Bot AI assistant ordering Lego for him that showed the order number, shipping and billing addresses and the last four digits of his payment card.",
+   "reason": "Meaning: 'two Texas addresses' is unsupported (only the shipping address is given as Austin) and 'accidentally' is the outlets' framing, which Musk disputes; shorter."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "headline",
+   "before": "OpenAI will hide a statistical signature in the words that ChatGPT and its Codex coding agent write, a step the European Union requires, so that detection software can later recognise the text as AI-made.",
+   "after": "OpenAI will hide a statistical signature in text that ChatGPT and its Codex coding agent write in the European Union, as EU law requires, so detection software can recognise it as AI-made.",
+   "reason": "Meaning: the watermark is mandatory only in the EU (opt-in for API customers elsewhere); the old headline implied all ChatGPT text."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "headline",
+   "before": "ByteDance and Tencent are speeding up work on personal AI agents that act for their users, because Meta's Muse became a hit.",
+   "after": "ByteDance and Tencent are speeding up work on personal AI agents that act for their users after the success of Meta's Muse, Caixin reports.",
+   "reason": "Meaning: attribution added; the claim rests on Caixin and one company source."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "importance_line",
+   "before": "What changed is that two of China's biggest internet companies are racing to build assistants that do tasks for people rather than only chat, which could reach hundreds of millions of Doubao and WeChat users first and then pressure Alibaba and other rivals, and the doubt is that Caixin cites one company source and no launch date, features or price are known.",
+   "after": "What changed is that two of China's biggest internet companies are racing to build assistants that carry out tasks for people rather than only chat, which could reach users of apps such as ByteDance's Doubao, but Caixin cites one company source and no launch date, features or price are known.",
+   "reason": "Meaning: 'hundreds of millions of Doubao and WeChat users' and 'pressure Alibaba' are not in the sources (the WeChat link was left out of the entry); shorter."
+  },
+  {
+   "item_id": "C01-08",
+   "field": "summary",
+   "before": "ZheDongXi, in a report republished by 36Kr, says Zhipu, the Chinese AI company behind the GLM models, is testing GLM-5.3 HighSpeed with a random group of subscribers to its ZCode programming tool, where an early tester on X measured an output speed above 490 tokens (word-sized pieces of text) a second, against about 71 for Zhipu's standard GLM-5.3 API and 121 for DeepSeek V4.1 Flash on the AI Ping evaluation site's latest data. Pricing is not disclosed and the article cautions that the speed seen in testing is only a reference until the model officially launches.",
+   "after": "ZheDongXi, in a report republished by 36Kr, says Zhipu, the Chinese AI company behind the GLM models, is testing GLM-5.3 HighSpeed with a random group of subscribers to its ZCode programming tool, where an early tester on X says output can exceed 490 tokens (word-sized pieces of text) a second, against about 71 for Zhipu's standard GLM-5.3 API and 121 for DeepSeek V4.1 Flash on the AI Ping evaluation site's latest data. Pricing is not disclosed and the article cautions that the speed seen in testing is only a reference until the model officially launches.",
+   "reason": "Meaning: hedge kept; the tester says speed 'can exceed' 490, not a measurement."
+  },
+  {
+   "item_id": "C01-10",
+   "field": "importance_line",
+   "before": "AI agents working on long tasks could in future keep their own notes and drop clutter, which may cut computing costs, but the results come from the authors' chosen tests, the model may delete information it later needs, an editable memory opens a new route for prompt-injection attacks (hidden instructions planted in text a model reads), and outside commenters call it not yet ready for real use.",
+   "after": "AI agents working on long tasks could in future keep their own notes and drop clutter, which may cut computing costs, but the results come from the authors' chosen tests, the model may delete information it later needs, an editable memory opens a new route for prompt-injection attacks (hidden instructions planted in text a model reads), and one online commenter calls it not yet ready for real use.",
+   "reason": "Meaning: only one Reddit commenter says it is not production-ready."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "source",
+   "before": "Digital Trends, citing The Wall Street Journal",
+   "after": "The Wall Street Journal, as relayed by Digital Trends",
+   "reason": "Credit: the entry rests on the Wall Street Journal report of 10 Oct 2026; Digital Trends relays it, so the first reporter is credited."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "headline",
+   "before": "OpenAI says ChatGPT is getting better at not simply agreeing with users who hold false or harmful beliefs, after a newspaper report tied its older GPT-4o model to reported cases of serious harm.",
+   "after": "OpenAI says its newer ChatGPT models are less likely to simply agree with users who hold false or harmful beliefs, the Wall Street Journal reports.",
+   "reason": "Credit and meaning: attribution to the first reporter; the old headline implied OpenAI acted after the newspaper report, a sequence the source does not support; shorter."
+  },
+  {
+   "item_id": "C01-11",
+   "field": "summary",
+   "before": "Digital Trends, citing a Wall Street Journal report of 10 Oct 2026, says OpenAI reports progress in cutting sycophancy, ChatGPT's habit of agreeing with users even when their beliefs may be false or harmful, after the Journal linked lengthy conversations with the older GPT-4o model to reported cases of serious harm, including suicides, links that do not by themselves show cause. OpenAI says a new test shaped by more than 80 licensed mental-health experts shows its newer models followed safety policies in about 99% of responses in long simulated self-harm conversations, against 86% for an earlier model, results the company reported itself.",
+   "after": "The Wall Street Journal reported on 10 Oct 2026, in a story relayed by Digital Trends, that OpenAI says it is making progress in cutting sycophancy, ChatGPT's habit of agreeing with users even when their beliefs may be false or harmful; the Journal linked lengthy conversations with OpenAI's older, now retired GPT-4o model to reported cases of serious harm, including suicides, links that do not by themselves show cause. OpenAI says its newer models followed safety policies in about 99% of responses in long simulated self-harm conversations, against 86% for an earlier model, results the company reported itself.",
+   "reason": "Credit: attribution moved to the Wall Street Journal as first reporter. Meaning: the source does not tie the 99% figure to the 80-expert test, so that link is dropped."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "headline",
+   "before": "Microsoft has announced major upgrades to Copilot Notebooks that Neowin describes as a direct challenge to Google's NotebookLM.",
+   "after": "Microsoft has made major upgrades to Copilot Notebooks to compete with Google's NotebookLM, Neowin reports.",
+   "reason": "Meaning (headline-only item): 'has announced' and 'direct challenge' went beyond the source headline; whole claim now attributed; shorter."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "importance_line",
+   "before": "People who use AI to study or organise their documents are affected first, then Microsoft and Google as rivals in this space, and the doubt is that the content, availability and date of the upgrades are not confirmed beyond Neowin's headline.",
+   "after": "People who use AI to study or organise their documents are affected first, then Microsoft and Google as rivals in this space, but what the upgrades include, who gets them and when are not yet known.",
+   "reason": "Internal process note removed ('beyond Neowin's headline'); the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C02-08",
+   "field": "headline",
+   "before": "Linux creator Linus Torvalds is using Anthropic's Claude Code AI coding tool to help build what Phoronix calls a hefty improvement to the Linux kernel.",
+   "after": "Linux creator Linus Torvalds is working on a hefty improvement to the Linux kernel with Anthropic's Claude Code AI coding tool, Phoronix reports.",
+   "reason": "Meaning (headline-only item): the whole claim, not only 'hefty', is Phoronix's, so it is attributed."
+  },
+  {
+   "item_id": "C02-08",
+   "field": "importance_line",
+   "before": "Linux developers and maintainers are affected first, then the many organisations that run Linux, and the story follows Torvalds telling Open Source Summit Europe that he 'really likes using AI' while saying AI-made patches strain maintainers (ZDNET, 9 Oct 2026), but what the improvement is and how much Claude Code wrote is not known.",
+   "after": "Linux developers and maintainers are affected first, then the many organisations that run Linux; it comes days after Torvalds told Open Source Summit Europe, as ZDNET reported on 9 Oct 2026, \"I actually really like using AI\" while saying it is also stressing maintainers out, but what the improvement is and how much Claude Code wrote are not known.",
+   "reason": "Quote fixed to Torvalds's exact words ('really likes using AI' was not his wording) and 'AI-made patches strain maintainers' replaced by what he said."
+  },
+  {
+   "item_id": "C03-02",
+   "field": "importance_line",
+   "before": "Software teams that use GitHub for automated testing may see a change in who is allowed to write code and who runs the checks, but the details and who is affected are not yet known.",
+   "after": "Software teams that use GitHub to test and build their code may be affected, but what the change involves and whom it applies to are not yet known.",
+   "reason": "Meaning (headline-only item): 'who is allowed to write code' went beyond the headline; shorter."
+  },
+  {
+   "item_id": "C03-04",
+   "field": "summary",
+   "before": "OfficeChai reports that Hugging Face, the platform where developers share AI models and datasets, has released 369 of OpenAI's formal math problems as open-source training environments, where software checks a model's proof attempt and returns a pass or fail score that serves as its reward (a method called reinforcement learning). Hugging Face chief executive Clem Delangue, announcing it on X, called the release \"early and rough\" and said the checker accepts only the exact original form of a proof, so a correct proof written differently can still score zero.",
+   "after": "OfficeChai reports that Hugging Face, the platform where developers share AI models and datasets, has released 369 of OpenAI's formal math problems as open-source training environments, where software checks a model's proof attempt and returns a pass or fail score that serves as its reward (a method called reinforcement learning). Hugging Face chief executive Clem Delangue, announcing it on X, called the release \"early and rough\" and warned that the checker accepts a proof only in its exact original form, so a correct proof written another way can fail.",
+   "reason": "Too close to a source sentence (quote_evidence); reworded in our own words."
+  },
+  {
+   "item_id": "C03-04",
+   "field": "importance_line",
+   "before": "Developers outside the big AI labs can now train models on research-level maths with automatic grading, but the strict checker can mark a correct proof wrong, and the article calls it only a test case for whether open research can become reusable training tools.",
+   "after": "Developers outside the big AI labs can now train models on OpenAI's formal maths problems with automatic grading, but the strict checker can mark a correct proof wrong, and the article calls it only a test case for whether open research can become reusable training tools.",
+   "reason": "Meaning: 'research-level' is not in the source."
+  },
+  {
+   "item_id": "C04-05",
+   "field": "importance_line",
+   "before": "Companies and developers paying for teams of AI agents may be spending several times more for little extra quality, but this is one benchmark and the article says the result depends on the task, with web research and maths splitting up well.",
+   "after": "Companies and developers paying for teams of AI agents may be spending several times more for little extra quality, but this is one benchmark and OpenAI's Noam Brown says the result depends on the task, with web research and maths splitting up well.",
+   "reason": "Attribution: the task-dependence remark is Noam Brown's, not the article's."
+  },
+  {
+   "item_id": "C15-02",
+   "field": "summary",
+   "before": "The Wall Street Journal's CIO Journal section ran a piece on 12 Oct 2026 whose title says quantum research is racing ahead.",
+   "after": "The Wall Street Journal's CIO Journal section reported on 12 Oct 2026 that quantum research is advancing quickly.",
+   "reason": "Internal process wording removed ('whose title says'); kept a cautious restatement with attribution."
+  },
+  {
+   "item_id": "C15-02",
+   "field": "importance_line",
+   "before": "A broad statement that quantum research is accelerating; it names no result, company or date, so its weight is modest.",
+   "after": "It bears on companies and researchers planning around quantum computing, but which results, companies or timelines the piece describes is not known.",
+   "reason": "Meaning: the old line said the piece 'names no result, company or date', which cannot be known because the article was not read."
+  },
+  {
+   "item_id": "C15-03",
+   "field": "summary",
+   "before": "Reuters reports, as relayed by The Economic Times, that Intel chief executive Lip-Bu Tan said at a panel organised by the lender DBS on 12 Oct 2026 that quantum computing, a type of computing built on the physics of very small particles, could become mainstream in the next three to five years. He also said software will help use the infrastructure that will be needed efficiently, but the report gives no detail on what \"mainstream\" means or on any Intel quantum plans, so this is an executive's forecast, not a product or investment announcement.",
+   "after": "Reuters reports, as relayed by The Economic Times, that Intel chief executive Lip-Bu Tan said at a panel organised by the lender DBS on 12 Oct 2026 that quantum computing, a type of computing built on the physics of very small particles, could become mainstream in the next three to five years. He added that software will help make efficient use of the infrastructure that will be needed; the report does not define \"mainstream\" or describe any Intel quantum plans, so this is a forecast, not a product or investment announcement.",
+   "reason": "Garbled word order made the software remark unclear; reworded, shorter."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "summary",
+   "before": "ARY News reports that a team from Baylor College of Medicine, Rice University, UC Berkeley and Texas Children's Hospital published a study in Nature Neuroscience, based on brain activity recorded from 10 people listening to stories through thin wire electrodes placed temporarily during routine epilepsy monitoring, finding that word meanings are held in complex patterns across many neurons in the hippocampus. The patterns also track how a word's meaning shifts with context and matched most closely the representations of AI language models (the technology behind ChatGPT and Gemini) such as GPT-2, and the researchers say the approach could help scientists use AI to explore how the brain works.",
+   "after": "ARY News reports that a team from Baylor College of Medicine, Rice University, UC Berkeley and Texas Children's Hospital published a study in Nature Neuroscience, based on brain activity recorded from 10 people listening to stories through thin wire electrodes placed temporarily during routine epilepsy monitoring, finding that a word's meaning is stored as a pattern spread across many neurons in the hippocampus. The patterns also track how a word's meaning shifts with context and matched most closely the representations of AI language models (the technology behind ChatGPT and Gemini) such as GPT-2, and the researchers say the approach could help scientists use AI to explore how the brain works.",
+   "reason": "Too close to a source sentence (quote_evidence); reworded."
+  },
+  {
+   "item_id": "C04-08",
+   "field": "summary",
+   "before": "ARY News reports that a team from Baylor College of Medicine, Rice University, UC Berkeley and Texas Children's Hospital published a study in Nature Neuroscience, based on brain activity recorded from 10 people listening to stories through thin wire electrodes placed temporarily during routine epilepsy monitoring, finding that a word's meaning is stored as a pattern spread across many neurons in the hippocampus. The patterns also track how a word's meaning shifts with context and matched most closely the representations of AI language models (the technology behind ChatGPT and Gemini) such as GPT-2, and the researchers say the approach could help scientists use AI to explore how the brain works.",
+   "after": "ARY News reports that a team from Baylor College of Medicine, Rice University, UC Berkeley and Texas Children's Hospital published a study in Nature Neuroscience, based on brain activity recorded from 10 people listening to stories through thin wire electrodes placed temporarily during routine epilepsy monitoring, finding that a word's meaning is stored as a pattern spread across many neurons in the hippocampus. The patterns also track how a word's meaning shifts with context and matched most closely the representations of AI language models (the technology behind ChatGPT and Gemini) such as GPT-2, and ARY says the approach could help scientists use AI to explore how the brain works.",
+   "reason": "Attribution: the outlook is the article's, not the researchers' as quoted."
+  },
+  {
+   "item_id": "C04-10",
+   "field": "importance_line",
+   "before": "Mathematicians could gain a machine-checked, open-source library of differential geometry (the mathematics of curved spaces), and the work shows AI-assisted proof checking reaching deep geometry, but it rests on one outlet relaying the team's own post, no independent review is reported and the AI's role was not fully disclosed.",
+   "after": "Mathematicians could gain a machine-checked, open-source library of differential geometry (the mathematics of curved spaces), but it rests on one outlet relaying the team's own post, no independent review is reported and the AI's role was not fully disclosed.",
+   "reason": "Meaning: 'shows AI-assisted proof checking reaching deep geometry' asserted an AI role the source says is undisclosed and only inferred; shorter."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "summary",
+   "before": "The BBC reports from its Big Boss Interview podcast that Brad Smith, president of Microsoft, said milk and washing machines are more strictly regulated than AI, and called for global safety rules, among them a legal duty to tell any \"victim\" when a rogue AI agent (software that acts on its own) breaches their system, \"emergency brakes\", also called kill switches, to pause AI that gets out of control, and independent government checks before new AI is released. The BBC says this puts him at odds with President Trump, who wants the industry to regulate itself so US firms do not lose ground to Chinese rivals; Smith welcomed the voluntary AI safety pledge that Trump and tech leaders signed at the White House on 29 Sep 2026, which our 30 Sep 2026 edition carried from The Guardian, but said \"I don't think it's sufficient any longer\", and named the UK, with its AI Security Institute, as best placed to lead the new rules.",
+   "after": "The BBC reports from its Big Boss Interview podcast that Brad Smith, president of Microsoft, said milk and washing machines are more strictly regulated than AI, and called for global safety rules, among them a legal duty to tell any \"victim\" when a rogue AI agent (software that acts on its own) breaches their system, \"emergency brakes\", also called kill switches, to pause AI that gets out of control, and independent government checks before new AI is released. The BBC says this puts him at odds with President Trump, who wants the industry to regulate itself so US firms do not lose ground to Chinese rivals; Smith welcomed the voluntary AI safety pledge that tech leaders signed at the White House on 29 Sep 2026, which our 30 Sep 2026 edition carried from The Guardian, but said \"I don't think it's sufficient any longer\", and named the UK, with its AI Security Institute, as best placed to lead the new rules.",
+   "reason": "Meaning: the BBC says Trump hosted the leaders, who signed; it does not say Trump signed."
+  },
+  {
+   "item_id": "C05-02",
+   "field": "importance_line",
+   "before": "The head of one of the largest AI companies asking for binding rules bears first on anyone harmed by a rogue AI system, then on regulators and governments, then on rival developers; it is a proposal made on a podcast, and the White House has so far backed voluntary pledges.",
+   "after": "The president of one of the largest AI companies asking for binding rules bears first on anyone harmed by a rogue AI system, then on regulators and governments, then on rival developers; it is a proposal made on a podcast, and the White House has so far backed voluntary pledges.",
+   "reason": "Accuracy: Brad Smith is Microsoft's president, not its head."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "summary",
+   "before": "The Financial Times reports that UK ministers are exploring compulsory AI safety reporting, a step that follows The Times report of 9 Oct 2026, carried in our 10 Oct edition, that the UK plans an AI safety law to stop humans losing control of autonomous AI agents.",
+   "after": "The Financial Times reports that UK ministers are exploring compulsory AI safety reporting; on 9 Oct 2026 The Times reported, in a story our 10 Oct edition carried, that the UK plans an AI safety law to stop humans losing control of autonomous AI agents.",
+   "reason": "Meaning (headline-only item): 'a step that follows' asserted a link to the Times story that cannot be checked; now states only the earlier report and its date."
+  },
+  {
+   "item_id": "C13-13",
+   "field": "importance_line",
+   "before": "Anyone whose case is heard in court, and the lawyers and court staff around them, will meet AI tools that judges are now allowed to use, with the judge fully accountable for the result, but Legal Futures gives the statement's date only as last week and the statement itself was not read.",
+   "after": "Anyone whose case is heard in court, and the lawyers and court staff around them, will meet AI tools that judges are now allowed to use, with the judge fully accountable for the result, but Legal Futures dates the statement only to last week.",
+   "reason": "Internal process note removed ('the statement itself was not read')."
+  },
+  {
+   "item_id": "C14-08",
+   "field": "importance_line",
+   "before": "The question is whether a major literary prize went to machine-written work, which touches writers and prize judges first, then publishers and prize bodies, but the claim is the Atlantic's own reading, stated as 'seems', and could not be checked here.",
+   "after": "The question is whether a major literary prize went to machine-written work, which touches writers and prize judges first, then publishers and prize bodies, but The Atlantic says only that the story 'seems' to be AI-made, so the claim is unproven.",
+   "reason": "Internal process note removed ('could not be checked here'); 'the Atlantic's own reading' was unverifiable."
+  },
+  {
+   "item_id": "C14-10",
+   "field": "headline",
+   "before": "Some Silicon Valley tech workers are turning to unions and worker groups over AI job fears and company politics, though experts doubt AI alone will start a wave.",
+   "after": "Some Silicon Valley tech workers are turning to unions and worker groups over AI job fears and company politics, though a veteran local activist doubts AI alone will start a wave.",
+   "reason": "Meaning: only one person (Lenny Siegel) is quoted doubting it."
+  },
+  {
+   "item_id": "C14-10",
+   "field": "summary",
+   "before": "KQED reports that tech employees, mainly at Google, are joining groups such as the Tech Workers Coalition, the Communications Workers of America and the Alphabet Workers Union, citing fears of AI-driven job loss, tracking of how much they use AI and their employers' government contracts. Only 3.7% of US computer and math workers are unionized against 10% across other industries, and one local activist and former Mountain View mayor quoted does not expect AI alone to push engineers to unionize unless the AI bubble pops.",
+   "after": "KQED reports that, according to organizers, more Silicon Valley tech employees are turning to groups such as the Tech Workers Coalition, the Communications Workers of America and the Alphabet Workers Union, citing fears of AI-driven job loss, tracking of how much they use AI and their employers' government contracts. Only 3.7% of US computer and math workers are unionized against 10% across other industries, and one local activist and former Mountain View mayor quoted does not expect AI alone to push engineers to unionize unless the AI bubble pops.",
+   "reason": "Hedge kept: the trend is organizers' account; 'mainly at Google' overgeneralised from the people profiled."
+  },
+  {
+   "item_id": "C16-01",
+   "field": "importance_line",
+   "before": "What changed: a printed novel shipped with an apparent AI prompt left in its text, so buyers are being offered refunds and the wider question is how AI tools slip into publishing, though the account rests on the publisher's own explanation.",
+   "after": "What changed: a printed novel shipped with an apparent AI prompt left in its text, so buyers are reportedly being offered refunds and the wider question is how AI tools slip into publishing, though the account rests on the publisher's own explanation.",
+   "reason": "Hedge kept: the refunds are 'reportedly' offered."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "headline",
+   "before": "A viral picture of a Texas Tech football fan, seen millions of times, was most likely made with AI and not taken at the game.",
+   "after": "A viral picture of a Texas Tech football fan, seen millions of times, was most likely made with AI and not taken at the game, The Spun reports.",
+   "reason": "Attribution added: the 'most likely AI' finding is The Spun's."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "summary",
+   "before": "MARCA reports, citing The Spun, that an image of a supposed Texas Tech fan watching the Red Raiders play Houston reportedly drew about 10 million views before being identified as most likely AI-generated rather than taken at the game. MARCA adds that fact-checkers found similar AI-made images of spectators during the 2026 FIFA World Cup, a sign that viral fan photos are getting harder to trust.",
+   "after": "MARCA reports, citing The Spun, that an image of a supposed Texas Tech fan watching the Red Raiders play Houston reportedly drew about 10 million views before being identified as most likely AI-generated rather than taken at the game. MARCA adds that fact-checkers found similar AI-made images of spectators during the 2026 FIFA World Cup.",
+   "reason": "Unsupported inference removed; shorter."
+  },
+  {
+   "item_id": "C16-04",
+   "field": "importance_line",
+   "before": "What changed: AI has made scripts and clips so cheap that near-identical absurd dramas arrive by the hundreds each day, which affects viewers and creators on Chinese video apps; the view that the trend will fade is the author's opinion, not a finding.",
+   "after": "What changed: AI has made scripts and clips so cheap that near-identical absurd dramas now crowd Chinese video apps, which affects their viewers and creators; the view that the trend will fade is the author's opinion, not a finding.",
+   "reason": "Meaning: 'arrive by the hundreds each day' is not in the source."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "importance_line",
+   "before": "Developers and companies choosing a model on price get more evidence that cheap, openly available Chinese models are winning real usage, but OpenRouter is one marketplace for developers rather than all AI use, a token count measures volume of text rather than users or revenue, and the figures are relayed by Chinese media rather than read from OpenRouter itself.",
+   "after": "Developers and companies choosing a model on price get more evidence that cheap, openly available Chinese models are winning real usage, but OpenRouter is one marketplace for developers rather than all AI use, a token count measures volume of text rather than users or revenue, and the figures come from Chinese media's reading of OpenRouter data.",
+   "reason": "Internal process note removed (what we did or did not read); shorter."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C01-01",
+   "issue": "re-dated",
+   "detail": "GPT-6 rollout began 8 Oct 2026 and our 8 Oct edition carried it (Engadget); TechnoSports (11 Oct) recaps the same OpenAI announcement, so the speed and safety claims it calls new are from the 8 Oct announcement, not new events in the window. Also a credit concern: TechnoSports says it is a look at another, unnamed article. Not edited."
+  },
+  {
+   "item_id": "C01-07",
+   "issue": "re-dated",
+   "detail": "Microsoft-Decision-1 launched about 9 Oct 2026 and our 10 Oct edition carried it; ForkLog (11 Oct) relays Microsoft's launch material, so the internal examples are not new events inside the window. Not edited."
+  },
+  {
+   "item_id": "C04-04",
+   "issue": "re-dated",
+   "detail": "gpt-rosalind-discovery listing was spotted and reported 10 Oct 2026 (TestingCatalog, same link) and printed in our 11 Oct edition (item 57); BigGo's 11 Oct rewrite adds analysis but no new fact. Not edited."
+  }
+ ]
+}

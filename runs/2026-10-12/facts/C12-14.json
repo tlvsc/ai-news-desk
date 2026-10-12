@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-14",
+ "title": "Google's Open-Source Bug Bounty Program Has A Big AI Problem",
+ "source_used": "BGR",
+ "article_url": "https://www.bgr.com/2280043/google-open-source-bug-bounty-freeze-explained/",
+ "fetched": true,
+ "key_facts": [
+  "BGR says many bug bounty programmes have been overwhelmed by low-quality, LLM-generated reports that often describe fictitious or hallucinated vulnerabilities.",
+  "Google suspended its paid Open Source Software Vulnerability Reporting Program (OSS VRP), which previously paid up to $31,337 for the most serious flaws.",
+  "BGR says Curl, Intel and HackerOne have also suspended paid programmes (BGR's claim; Intel's top reward was up to $150,000).",
+  "Google says the vast majority of automated submissions are not valid and has committed to reformatting the programme and giving an update in the first quarter of 2027.",
+  "Google's other vulnerability reward programme and Patch Rewards programme remain active.",
+  "BGR adds opinion about AI-generated content and says AI recently identified over 1,000 vulnerabilities in Linux (unattributed)."
+ ],
+ "quote_evidence": [
+  "Google says that while the vast majority of automated submissions aren't valid, it has committed to reformatting the program and providing an update in the first quarter of 2027.",
+  "In the meantime, bounty hunters are encouraged to continue submitting reports to Google's other VRP or Patch Rewards programs, which remain active."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Google's pause on paid open-source bug reports shows AI-generated spam straining security reporting; it is a commentary repeat of a story we carried on 5 Oct 2026.",
+ "event_date": "Pause began 1 Oct 2026",
+ "notes": "BGR is a commentary piece repeating the pause we carried on 5 Oct 2026 (C12-04 of that day, from TechCrunch, which quotes Google); no new fact. BGR names the programme 'Open Source Software Vulnerability Reporting Program'; TechCrunch's name was 'Rewards Program'."
+}

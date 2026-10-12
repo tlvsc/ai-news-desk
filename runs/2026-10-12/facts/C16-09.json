@@ -1,0 +1,24 @@
+{
+ "item_id": "C16-09",
+ "title": "DLSS 5 turns 1991's Sonic the Hedgehog into a weird neural network experiment.",
+ "source_used": "GameGPU",
+ "article_url": "https://en.gamegpu.com/news/igry/dlss-5-prevratila-sonic-the-hedgehog-1991-goda-v-strannyj-nejrosetevoj-eksperiment",
+ "fetched": true,
+ "key_facts": [
+  "Enthusiasts ran the original 1991 Sega Mega Drive Sonic the Hedgehog through Nvidia's DLSS 5 neural rendering, using RenoDX and ReShade tools in the frame output, with Multipass x4 processing.",
+  "DLSS 5, introduced by Nvidia in 2026, uses AI to generate pixels, lighting and materials in real time.",
+  "Four profiles were tried on the Green Hill Zone level: Natural, Default, Cinematic and Denoise.",
+  "The Default profile gave the pixelated hedgehog pronounced cheekbones and a pseudo-realistic skull shape; Cinematic added dramatic lighting.",
+  "The aggressive Denoise profile erased the golden rings, palm foliage and nearly all ground detail.",
+  "The site says Sonic's speed stops the AI from producing a consistent image of the character, while jump and acceleration physics stay unchanged."
+ ],
+ "quote_evidence": [
+  "The original Sonic the Hedgehog platformer, released in 1991 for the Sega Mega Drive, was benchmarked using DLSS 5.0 neural network rendering technology.",
+  "The Default profile attempts to reconstruct the protagonist's facial anatomy, giving the pixelated hedgehog pronounced cheekbones and a pseudo-realistic skull shape.",
+  "The testing demonstrates both the capabilities of the neural network pipeline and its obvious technical limitations when directly processing classic pixel graphics without specialized model training."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A playful stress test shows where AI graphics rendering breaks down on fast 2D pixel art.",
+ "event_date": "Not stated",
+ "notes": "The enthusiasts are not named; a single site reports it, in somewhat machine-translated English."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-13",
+ "title": "Amazon Bedrock agent vulnerability allowed credential theft and code access",
+ "source_used": "The Register, 9 Oct 2026 (SC Media page returned HTTP 403, Cloudflare block)",
+ "article_url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+ "fetched": true,
+ "key_facts": [
+  "Zenity Labs researchers say an external attacker with chat access to one exposed Amazon Bedrock AgentCore agent could send a single prompt, extract its instance metadata credentials and take over all AgentCore agents in the same AWS account and region.",
+  "The stolen credentials let the researchers list other agents, pull their container images and run the code, and read users' agent sessions (conversations).",
+  "The default AgentCore role was overpermissioned: scoped to all AgentCore resources in the region rather than one agent.",
+  "Zenity disclosed to AWS in December 2025 and followed up in January 2026; AWS closed the report on 12 Apr 2026, noting AgentCore had used the stricter IMDSv2 exclusively since 14 Feb 2026.",
+  "Excessive permissions were still in place on 22 Jun 2026; Zenity's final check on 29 Sep 2026 found AWS had addressed the problems.",
+  "Amazon told The Register that Zenity's research misrepresents documented behavior as a vulnerability and suggested developer error would be required; The Register says it asked for clarification because that is not Zenity's scenario."
+ ],
+ "quote_evidence": [
+  "Researchers at Zenity Labs disclosed their findings to AWS in December 2025.",
+  "Following publication, Amazon wrote in to say that Zenity's research misrepresents documented behavior as a vulnerability, suggesting that developer error would be required to enable the attack.",
+  "A final review by Zenity occurred on September 29, 2026, at which point the biz observed that AWS had addressed the extant problems, clearing the way for Bob's hypothetical adventure to finally be told."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "Security researchers say one prompt could have exposed every AI agent in an Amazon cloud account; Amazon disputes the framing and the issue has since been addressed.",
+ "event_date": "Zenity research published 8 Oct 2026 (The Register 9 Oct 2026)",
+ "notes": "Pool item is an SC Media brief of 12 Oct (blocked, HTTP 403). The same research was read on The Register (9 Oct 2026), which is credited. We carried this research on 9 Oct 2026 (C12-17 of that day, from The Next Web); nothing new found today, but the SC Media brief was not readable and may add something."
+}

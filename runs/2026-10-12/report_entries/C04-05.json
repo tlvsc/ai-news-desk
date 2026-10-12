@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "A test by the AI-evaluation company Vals AI found that teams of AI agents cost 1.8x to 5.1x as much as a single agent but beat it significantly in only one of four comparisons.",
+ "score": 5,
+ "score_reason": "Kept at 5: a specific test with numbers on a question many companies face, but it is one benchmark with four comparisons, reported by one outlet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies and developers paying for teams of AI agents may be spending several times more for little extra quality, but this is one benchmark and OpenAI's Noam Brown says the result depends on the task, with web research and maths splitting up well.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Vals AI ran GPT-6 Sol and Claude Opus 5.5 on its Vibe Code Bench (a test where AI builds apps), alone and as teams, and that only one of four comparisons, GPT-6 Sol at medium reasoning effort, showed a statistically significant gain, 7.3 points, while at maximum reasoning teams gained nothing real. It adds that Anthropic saw gains shrink as it added agents in two of its own tests, and that OpenAI researcher Noam Brown said on the Dwarkesh Podcast that multi-agent systems mainly buy speed, not better quality.",
+ "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the main session's fulltext copy. Date of the Vals AI test and of the podcast is not stated; The Decoder published on 11 Oct 2026. The Decoder writes 'GPT-6 Sol' here and 'GPT-5.6 Sol' in the Epoch AI story (C04-01); kept as printed in each."
+}

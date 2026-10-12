@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-09",
+ "v1_category": "MOD",
+ "headline": "Researchers at Huawei's Noah's Ark Lab, University College London and other teams say their Memento 3 agent completed all 25 public ARC-AGI-3 games, running on Anthropic's Claude Opus 5 with no changes to the model itself.",
+ "score": 5,
+ "score_reason": "Kept at 5: new on 12 Oct 2026 and read in full; it is the authors' own claim on public games only.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Researchers building AI agents get another sign that the software wrapped around an existing model, here a self-written rulebook and game simulator, can lift scores sharply, but the result covers public games only, comes from the authors via QbitAI and does not show how the agent would do on hidden test games.",
+ "source": "Pandaily, citing QbitAI",
+ "status": "PRELIMINARY",
+ "summary": "Pandaily, citing QbitAI, reports that Memento 3 cleared all 25 games and 183 levels in the public set of ARC-AGI-3, a test where an AI must work out unfamiliar puzzle games without being told the rules, in 7,518 actions against 17,135 for humans, earning the top score of 100. The system runs on Claude Opus 5 with no changes to the model, which averages about 40.7 in the official setup, so the gain comes from the agent's design, and our 5 Oct 2026 edition carried a similar claim from He Kaiming's team.",
+ "url": "https://pandaily.com/huawei-noahs-ark-lab-memento-3-arc-agi-3-public-set-code-world-model-frozen-claude",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Article text read from the page's embedded data (prefetch was empty). Pandaily's claim that the earlier best was 99 sits beside our 5 Oct 2026 entry on a reported 100 from the VISTA team; both are unreviewed claims."
+}

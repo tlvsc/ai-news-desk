@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-07",
+ "v1_category": "ENE",
+ "headline": "The silicon layers that join AI processors to their memory are growing so large that cooling the memory is getting harder, and Samsung and SK hynix are working on fixes.",
+ "score": 5,
+ "score_reason": "Kept at 5: read in full and new today, but it is a technical roadmap relayed from Korean press with no results or dates beyond plans.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Heat limits how much memory and processing power can be packed into AI chips, so cooling affects how powerful future AI hardware can become, but these are plans and tests, and SK hynix's 30 percent figure is its own expectation.",
+ "source": "Chosun Biz",
+ "status": "REPORTED",
+ "summary": "Chosun Biz reports, as relayed by TrendForce, that the interposers, the silicon layers connecting AI processors to high-bandwidth memory (HBM), are already about 5.5 times the largest area a chip-printing machine can expose in one shot, and an equipment-industry official expects them to grow as much as 40 times. To cope with the extra heat, Samsung, which plans to start mass-producing HBM4E (the next memory generation) next year, is weighing copper-to-copper bonding between memory layers and a dedicated heat path, and ETNews reports SK hynix is pursuing a similar local-cooling design that it expects to cut thermal resistance by about 30 percent.",
+ "url": "https://www.trendforce.com/news/2026/10/12/news-ai-interposers-grow-larger-raising-hbm4e-cooling-challenges-how-samsung-sk-hynix-are-responding/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on TrendForce, which relays Chosun Biz and ETNews; the originals were not opened, so the url is the TrendForce page. Not carried in earlier editions (the 8 Oct 2026 edition item 36 was about HBM4E quality checks, a different story)."
+}
