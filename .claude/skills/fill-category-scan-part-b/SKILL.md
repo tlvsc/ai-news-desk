@@ -85,10 +85,11 @@ Headlines Master, strongest card stories by score in deck order; the script prin
 entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection. Robotics (CLAUDE.md rule 16 ROBOTICS, Rafi 8 Oct 2026): 2 robotics cards, one a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and the Headlines 1 robotics clip. These counts are guidelines: one extra is allowed where needed.
 
 ### 2. Wording: one writer and one checker per product (Rafi, 12 Oct 2026: "split it! Opus at max writes, fable at high checks"; "we will try this option than change if we didnt like it"; CLAUDE.md rule 25)
+RULE 27 (Rafi, 12 Oct 2026, after 22 and 23 minute writers): the writers are Opus on normal effort and read one pre-loaded story pack once; the checkers stay Fable at high.
 ```
 python3 $S/make_wording_prompts.py --workdir $W
 ```
-Launch the two WRITERS in ONE message with the Agent tool, model "opus", effort "max", run in background:
+Launch the two WRITERS in ONE message with the Agent tool, model "opus", NO effort setting (normal effort; CLAUDE.md rule 27, Rafi 12 Oct 2026, replaces "at max"), run in background. make_wording_prompts.py also writes `cards_work/story_pack.md` and `headlines_work/story_pack.md` (the phrasing rules once, then the entry and facts of every item): the writer reads its pack ONCE and writes everything in one pass, the target is minutes, not 20 minutes. If selection.json changes after the pack is made, run make_wording_prompts.py again before the writers start:
 `Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and follow it exactly.`
 They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_final.json`, and each runs its own checking scripts
 (check_wording.py; for Headlines also check_headlines_rules.py) and fixes its own FAILs before handing back. Keep each writer's agent id:
