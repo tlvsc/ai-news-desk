@@ -1,0 +1,26 @@
+{
+  "clip": "clip_04",
+  "story": "Intel and Qualcomm have reportedly raised prices on their computer processors, which could make new laptops cost more.",
+  "status": "found",
+  "downloaded": false,
+  "file": null,
+  "source_url": "https://commons.wikimedia.org/wiki/File:How-to_expose_flip_chip_CPU_dies.webm",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/How-to_expose_flip_chip_CPU_dies.webm",
+  "licence": "CC0 1.0 (Creative Commons Zero, Public Domain Dedication)",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "credit_label": "Video: Wikimedia Commons, Fritzchens Fritz (CC0)",
+  "author": "Fritzchens Fritz",
+  "size_bytes": 67221037,
+  "duration_s": null,
+  "resolution": "1920x1080",
+  "has_faces": "unknown (file not downloaded, not viewed)",
+  "has_text_logos": "unknown (file not downloaded, not viewed); a CPU die/package may show chip markings",
+  "md5": null,
+  "notes": "Licence and size read from the Commons file page metadata (API). NOT downloaded: upload.wikimedia.org answers 429 (retry-after 600) for video files from this machine. Description: 'Instructional video on exposing a flip chip CPU die' - a processor being handled, which fits the story as generic footage (not Intel/Qualcomm specific). File is over 20 MB: when downloaded, cut a 10 s piece with ffmpeg and name it ..._cut. Alternatives on Commons, CC BY 3.0 (YouTube-origin, uploader-stated): 'Unboxing-Video einer AMD-CPU (MoreThanTech)' https://commons.wikimedia.org/wiki/File:Unboxing-Video_einer_AMD-CPU_(MoreThanTech).webm and 'Threadripper CPU Installation Guide! How Socket TR4 Works.webm' (482 MB, Paul's Hardware).",
+  "sources_tried": [
+    "Wikimedia Commons API search (filetype:video queries) - reachable, metadata read",
+    "upload.wikimedia.org video download - blocked: HTTP 429, retry-after 600, kept 429 for over 30 minutes",
+    "archive.org advancedsearch (CC filter) - only NC/ND/unrelated items for these topics",
+    "GitHub raw README/LICENSE of unitreerobotics repos - media sits on oss-global-cdn.unitree.com, not clearly covered by the repo licence"
+  ]
+}

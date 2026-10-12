@@ -1,0 +1,28 @@
+{
+  "clip": "clip_06",
+  "story": "Chinese AI models were the five most used models on OpenRouter last week, beating every American one.",
+  "status": "found",
+  "fit": "weak: generic AI-coding-assistant screen recording (Western tool Aider), NOT Chinese-model footage; shows a developer typing a coding request to an AI in a browser chat window",
+  "file": "clip_06/aider-browser-social_cut.mp4",
+  "original_file": "clip_06/aider-browser-social.mp4 (35.75 s, 1060x1080, 12945046 bytes)",
+  "source_url": "https://github.com/Aider-AI/aider/tree/main/aider/website/assets",
+  "download_url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/assets/aider-browser-social.mp4",
+  "licence": "Apache-2.0",
+  "licence_url": "https://github.com/Aider-AI/aider/blob/main/LICENSE.txt",
+  "credit_label": "Video: Aider-AI/aider project (Apache-2.0)",
+  "author": "Aider-AI project and contributors (screen recording published in the project's own repo)",
+  "size_bytes": 435842,
+  "duration_s": 10.0,
+  "resolution": "1060x1080",
+  "has_faces": "no (screen recording; no person on screen in the frames checked)",
+  "has_text_logos": "yes: readable interface text and the typed request; the sister Aider videos show the model name gpt-4o on screen, this cut was not frame-checked for a model name (contact sheet saved: aider-browser-social_cut_contact.jpg)",
+  "md5": "990a639dd2d01772bcc0fc74adda0c04",
+  "notes": "Cut is seconds 10 to 20 of the original, audio removed. Same file also sits in QwenLM/Qwen3-Coder under qwencoder-eval/instruct/aider (identical md5) but that copy has no licence file, so the upstream Aider-AI repo licence is used. No usable Chinese-model footage found: Qwen3-Coder README demo mp4s are hosted on Alibaba OSS outside the repo (host reset the connection), the Qwen3-Coder repo has no LICENSE at its root, so the media licence is not stated (not usable). Qwen3-VL and Qwen2.5-VL repo demo videos are third-party test clips of unknown licence (not usable). CogVideo resources videos are AI-generated video-model demos, off-topic. DeepSeek-V3 and Kimi-K2 repos hold no video. Alternative not downloaded: Wikimedia Commons 'Hallo Welt in Linux mit gcc, emacs und make files..ogv' (CC BY-SA 3.0, share-alike, author Renepick, 20 min 42 s, 800x592, code editor and terminal, German tutorial).",
+  "sources_tried": [
+    "GitHub raw README: QwenLM/Qwen3-Coder, Qwen3-VL, Qwen-Agent, Qwen3-Omni, qwen-code, DeepSeek-V3, Kimi-K2, GLM-4.5, Qwen-Image",
+    "git file lists (blobless clone): Qwen3-Coder, Qwen3-VL, Qwen2.5-VL, Qwen3-Omni, qwen-code, Qwen-Agent, GLM-4.5, GLM-V, DeepSeek-V3, Kimi-Dev, Kimi-VL, CogVideo, Qwen-Image, Qwen2.5-Omni",
+    "Aider-AI/aider repo (LICENSE.txt, website assets)",
+    "Wikimedia Commons search (coding screencasts)",
+    "api.github.com (blocked for this session)"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "clip": "clip_02",
+  "story": "Amazon is reportedly in talks to buy the Israeli A I start-up Decart (about 7 billion dollars), whose software could help Amazon's own A I chips compete with Nvidia's.",
+  "status": "found",
+  "download_status": "NOT DOWNLOADED: upload.wikimedia.org answered HTTP 429 (retry-after 600) to every request from this machine from 12:30 to 12:52 UTC on 12 Oct 2026; licence and file details below were read from the Commons file page and the ZDF source page, not from the file",
+  "file": null,
+  "source_url": "https://commons.wikimedia.org/wiki/File:So_werden_Mikrochips_hergestellt.webm",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/So_werden_Mikrochips_hergestellt.webm",
+  "licence": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "credit_label": "Video: ZDF/TerraXpress/GO!Film/Florian Fiedler/Nathan Niedermeier/Jochen Schmidt (CC BY 4.0), shortened",
+  "author": "ZDF/TerraXpress/GO!Film/Florian Fiedler/Nathan Niedermeier/Jochen Schmidt",
+  "size_bytes": null,
+  "duration_s": 79,
+  "resolution": "1920x1080",
+  "has_faces": "unknown, frames not viewed (file not downloaded)",
+  "has_text_logos": "unknown, frames not viewed (file not downloaded); the narration is German and Commons lists German captions as a separate track, so burned-in text is not expected but not checked",
+  "md5": null,
+  "notes": "ZDF Terra X explainer 'How microchips are made' (chip circuits projected onto wafers, up to 100 chips per board), about 78 MB, 1 min 19 s. Licence confirmed on ZDF's own page https://schule.zdf.de/video/herstellung-mikrochips-creative-commons-clip-100 (text: CC BY 4.0; may be used, changed and distributed; must name the creators, mark changes, link the licence, not distort the work, not suggest ZDF endorses the user). The cut must therefore be marked as shortened and the sound should be removed (German narration). Commons page does not say whether the licence was reviewed by a Commons reviewer, but ZDF's own page states it. Fits 'chip hardware' only: it does not show Amazon, Decart or Nvidia. After download cut a clean 10 second piece with ffmpeg (name + _cut). Rejected: 'Nvidia DGX Station ... Supercomputer at the office.webm' (CC BY 3.0 on Commons but marked unreviewed, 2.8 GB, 4K, a trade-show product video that would put Nvidia's own product on screen). The CyrusOne server B-roll in clip_01/footage.json could also serve as server-hall footage for this story (CC BY-SA 3.0, share-alike).",
+  "sources_tried": [
+    "Wikimedia Commons web search for semiconductor / chip / cleanroom / computer-hardware videos",
+    "Wikimedia Commons file pages read: So werden Mikrochips hergestellt (CC BY 4.0), Nvidia DGX Station (CC BY 3.0, unreviewed, rejected)",
+    "ZDF source page schule.zdf.de (via redirects from zdf.de and terraxplaincommons.zdf.de) read for the licence text",
+    "archive.org advanced search for chip / semiconductor / GPU items with CC or public-domain tags: only CC BY-NC, CC BY-ND or unrelated items, nothing safe",
+    "download from upload.wikimedia.org: blocked by HTTP 429 rate limit from this machine",
+    "not found at all: any open-licence footage of a tech start-up office, or of Amazon, Decart or AWS chips"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "clip": "clip_10",
+  "story": "Teaser, two stories: (a) the U.S. reportedly lets Britain test AI models early again (UK AI Security Institute); (b) Chinese mathematicians teamed up to build AI for maths. This file covers (a) as a generic scene only; (b) has no clip.",
+  "status": "found",
+  "file": "clip_10/NASA_Ames_Modular_Supercomputer_large_cut.mp4",
+  "source_url": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "download_url": "https://images-assets.nasa.gov/video/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb~large.mp4",
+  "licence": "NASA media: 'generally not subject to copyright in the United States' (US federal government work, public domain)",
+  "licence_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "credit_label": "Video: NASA Ames Research Center",
+  "author": "NASA Ames Research Center",
+  "size_bytes": 4166403,
+  "duration_s": 10.01,
+  "resolution": "1280x720 (29.97 fps, audio removed)",
+  "has_faces": "yes, one worker in a hard hat, small and not identifiable, no named person",
+  "has_text_logos": "no clear text or logo in the cut at contact-sheet scale; a green digit '2' room sign is visible",
+  "md5": "683aefd374f64661597b7b1a93da319a",
+  "notes": "Cut = 10 s from t=71 s of the 244 s NASA B-roll 'Ames Research Center Unveils New Modular Supercomputing Facility' (Aitken supercomputer). Slow pan across rows of cabled server racks in a supercomputer room: a generic 'AI models on big computers, testing' scene, not the UK AI Security Institute or any UK government site. Original large file (168,368,761 bytes, md5 43c7d08de4b9807b69b49079f5707175) kept in the folder. NASA page exceptions: third-party content, commercial use of identifiable people, and NASA logos may need clearance; none is prominent in this cut. Contact sheets: contact_full.jpg (whole file, one frame per 6 s) and cut_contact.jpg. Story (b), maths AI: NO clip found. Candidates seen on Wikimedia Commons (Walter Lewin chalk.ogv, Solving-quadratic-equations.ogv, Nonlinear Systems lecture) were never licence-checked because every Wikimedia call returned HTTP 429 from 12:33 to 12:55 UTC (shared IP rate limit). archive.org maths items carry uploader-set licence flags only (not usable: not sure). UK AI Security Institute / gov.uk Open Government Licence video: a web search found none.",
+  "sources_tried": [
+    "Wikimedia Commons API search (data centre, lecture, blackboard, maths; later blocked by HTTP 429)",
+    "archive.org advanced search (maths, data centre; licence flags set by uploaders, not relied on)",
+    "NASA Image and Video Library API (supercomputer search gave the chosen clip; chalkboard maths search gave nothing)",
+    "web search for UK AI Security Institute video under the Open Government Licence (nothing found)"
+  ]
+}

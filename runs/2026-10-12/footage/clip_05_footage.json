@@ -1,0 +1,27 @@
+{
+  "clip": "clip_05",
+  "story": "Humanoid robots (built by Unitree, trained by Hive Robots) are learning to stock shelves at a Danish supermarket (Fotex, Salling Group) with human operators guiding them.",
+  "status": "found",
+  "downloaded": false,
+  "file": null,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Was_braucht_man_für_einen_Humanoiden_Roboter_-_720px.ogv",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Was_braucht_man_f%C3%BCr_einen_Humanoiden_Roboter_-_720px.ogv",
+  "licence": "CC BY 3.0 (Creative Commons Attribution 3.0)",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "credit_label": "Video: Wikimedia Commons, InsideScience / Karlsruhe Institute of Technology (CC BY 3.0)",
+  "author": "InsideScience - Öffentliche Wissenschaft in Sonderforschungsbereichen",
+  "size_bytes": 247045364,
+  "duration_s": null,
+  "resolution": "1280x720",
+  "has_faces": "unknown (file not downloaded, not viewed); a research video, likely shows researchers",
+  "has_text_logos": "unknown (file not downloaded, not viewed)",
+  "md5": null,
+  "notes": "Weak match, nothing verified by eye. A KIT humanoid-robot introduction (German voice-over; use video only). NOT downloaded: upload.wikimedia.org answers 429 (retry-after 600). Over 20 MB and likely over 30 s: cut a 10 s piece with ffmpeg after finding a grasping/placing moment. Second candidate, also CC BY 3.0: 'Robot package handling.webm' (2,669,490 bytes, 1600x970, credited to 'newscreators on YouTube', YouTube-origin, licence stated on Commons) https://commons.wikimedia.org/wiki/File:Robot_package_handling.webm , download https://upload.wikimedia.org/wikipedia/commons/2/22/Robot_package_handling.webm - not known whether the robot is humanoid. Third: 'Entwicklung und Konstruktion humanoider Roboter.ogv' (378 MB, 1080p, same author, CC BY 3.0). Unitree GitHub repos (unitree_IL_lerobot Apache-2.0, xr_teleoperate, unitree_rl_gym BSD-3-Clause) show G1 humanoid demos, but the media is hosted on oss-global-cdn.unitree.com and the repo licence does not clearly cover it, so NOT usable. No clip of a supermarket or Unitree/Hive Robots found.",
+  "sources_tried": [
+    "Wikimedia Commons API search (filetype:video queries) - reachable, metadata read",
+    "upload.wikimedia.org video download - blocked: HTTP 429, retry-after 600, kept 429 for over 30 minutes",
+    "archive.org advancedsearch (CC filter) - only NC/ND/unrelated items for these topics",
+    "GitHub raw README/LICENSE of unitreerobotics repos - media sits on oss-global-cdn.unitree.com, not clearly covered by the repo licence",
+    "Commons searches: humanoid robot, robot grasp pick place, Unitree, robot supermarket store shelf (last three returned nothing)"
+  ]
+}

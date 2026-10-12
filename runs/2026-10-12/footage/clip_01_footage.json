@@ -1,0 +1,26 @@
+{
+  "clip": "clip_01",
+  "story": "A top Iranian official threatened to hit data centres and A I sites in the Gulf region if the war with the U S heats up again.",
+  "status": "found",
+  "download_status": "NOT DOWNLOADED: upload.wikimedia.org answered HTTP 429 (retry-after 600) to every request from this machine from 12:30 to 12:52 UTC on 12 Oct 2026; licence and file details below were read from the Commons file page, not from the file",
+  "file": null,
+  "source_url": "https://commons.wikimedia.org/wiki/File:B-roll_of_Wikimedia_Foundation_servers_at_CyrusOne_in_Carrollton,_Texas_-_photographed_in_2015.webm",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/B-roll_of_Wikimedia_Foundation_servers_at_CyrusOne_in_Carrollton%2C_Texas_-_photographed_in_2015.webm",
+  "licence": "CC BY-SA 3.0 (Creative Commons Attribution-Share Alike 3.0 Unported), share-alike",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "credit_label": "Video: Wikimedia Foundation, servers at CyrusOne, Carrollton, Texas (CC BY-SA 3.0)",
+  "author": "Wikimedia Foundation (Vimeo account wmfoundation); uploaded to Commons by VGrigas (WMF)",
+  "size_bytes": 483920784,
+  "duration_s": 1439.49,
+  "resolution": "1920x1080",
+  "has_faces": "unknown, frames not viewed (file not downloaded)",
+  "has_text_logos": "unknown, frames not viewed (file not downloaded); it is Wikimedia's own servers, so a Wikimedia label may show",
+  "md5": null,
+  "notes": "Real B-roll of server racks in a commercial data centre (24 min, 1080p, VP8 webm; the Commons page also lists VP9 1080p/720p/480p transcodes). SHARE-ALIKE: the licence requires the credit and that any adapted video is shared under the same licence; Rafi to decide if that is acceptable. Original is 484 MB, so after download cut a clean 10 second piece with ffmpeg (name + _cut); a ranged download of the first ~8 MB is enough for the first 20 seconds (server supports Range). Alternates, not downloaded: (a) 'Airship flying over the Utah Data Center.webm', CC BY 4.0, Electronic Frontier Foundation, 30 s, 720p, 1.5 MB, https://commons.wikimedia.org/wiki/File:Airship_flying_over_the_Utah_Data_Center.webm - a real big data-centre exterior but it is the NSA site seen from a protest airship (probably banner text), so a weak match; (b) 'What's Inside This Decommissioned Data Center-.webm', CC BY 3.0, Lawrence Systems, 4K, 1.1 GB, a Michigan tour with a presenter. Nothing here shows Gulf or Iranian sites; it is generic data-centre footage.",
+  "sources_tried": [
+    "Wikimedia Commons search (API, then web search) for data center / server room / supercomputer video - Category:Videos of server rooms has 4 files; found the CyrusOne B-roll, EFF Utah airship, Lawrence Systems tour",
+    "Wikimedia Commons file pages read for licence (CyrusOne, Utah airship, decommissioned data centre tour)",
+    "archive.org advanced search for data centre / server room items with CC or public-domain licence tags: only uploader-tagged 'Public Domain Mark' re-uploads of unclear origin ('365 Data Center Aurora Colorado', 'Unregulated Data Centers'), judged NOT safe because the real rights holder is unknown",
+    "download from upload.wikimedia.org: blocked by HTTP 429 rate limit from this machine"
+  ]
+}
