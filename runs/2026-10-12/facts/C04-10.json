@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-10",
+ "title": "Shing-Tung Yau's Student Achieves World's First Successful Formal Verification of the Generalized Poincaré Conjecture Proof: A Groundbreaking Milestone in Mathematical Research",
+ "source_used": "36Kr (eu.36kr.com), republishing a piece by the WeChat account Xinzhiyuan (author David Aeneas); fulltext fetched by the main session",
+ "article_url": "https://eu.36kr.com/en/p/4022237394309254",
+ "fetched": true,
+ "key_facts": [
+  "A team led by Ayush Khaitan, a mathematics and AI scholar at Princeton University, working with the NVIDIA 'Humanfia' team (Jui-Hui Chung and Ligeng Zhu), has completed a full formalization in Lean of the Thurston Geometrization Conjecture; Lean is an interactive theorem prover, software that checks every step of a proof against basic logical rules.",
+  "The conjecture says any three-dimensional space can be cut into pieces that each have one of 8 standard geometric structures; Grigori Perelman's proof of it in 2002 to 2003, which also settled the Poincaré Conjecture, spans hundreds of pages.",
+  "The team includes Bennett Chow, a professor at the University of California San Diego and a student of Shing-Tung Yau, and Ziyang Qin and Yuan Liao, named as leaders of the formalization work.",
+  "The project has about 4.7 million lines of code in total: about 2 million written earlier by Chow, Liao and Qin, and about 2.7 million added in roughly two weeks.",
+  "The code is open source on GitHub in a repository named differential-geometry; the article says it fills many gaps in Lean's Mathlib library.",
+  "The result was announced in a post by Khaitan on X, and Stanford assistant professor Jared Duker Lichtman is quoted as saying the Poincaré proof has been extended to the full Geometrization Conjecture in Lean.",
+  "The article says a September AI-assisted formal verification of the Poincaré Conjecture came first.",
+  "The article says the official side has not disclosed how AI was used; its description of NVIDIA's team generating proof code with large language models is the author's inference from the code volume."
+ ],
+ "quote_evidence": [
+  "Just now, a top academic team led by Ayush Khaitan, in collaboration with the NVIDIA Humanfia Team, has successfully completed the full Lean formalization of the Thurston Geometrization Conjecture!",
+  "Ayush revealed that this proof has approximately 4.7 million lines of code.",
+  "Although the official has not yet disclosed all the details of AI generation, the \"industrialized\" proof assembly line can be inferred from the code volume that increased sharply in a short period of time."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A machine-checked, open-source version of a landmark proof in geometry could be reused by mathematicians and shows AI-assisted proof checking reaching deep geometry, though the AI's share of the work is not disclosed.",
+ "event_date": "Not dated; the article, published 12 Oct 2026 07:24 UTC, opens with 'Just now', and the date of Khaitan's post on X is not stated.",
+ "notes": "Read in full from the main session's fulltext copy. The text is hyperbolic ('world's first', 'monument', 'miracle'); the 36Kr headline credits Chow alone as Yau's student, while the body names a team led by Khaitan with NVIDIA's group. Only one outlet (Xinzhiyuan via 36Kr) was found and no independent review of the Lean project is reported. The 'Humanfia' team name is as printed. The September Poincaré verification is mentioned only in passing, and our 14 earlier editions did not carry it or this project."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-12",
+ "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+ "source_used": "MarkTechPost (text read from the publisher's own RSS feed; the article page returned HTTP 403)",
+ "article_url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+ "fetched": true,
+ "key_facts": [
+  "The vLLM Semantic Router team has released Decision 3.0, a family of five open multimodal decision models under the Apache-2.0 license: d3-lite (0.85B), d3-nano (2.21B), d3-mini (4.54B), d3-flash (8.39B) and d3 (26.09B parameters).",
+  "The models read text, JSON and images and answer named questions (a choice, a yes/no or a score on a scale), returning a probability for every answer instead of generated text; all questions are answered in one call.",
+  "Each model is a fine-tune of a Qwen base: the 27B d3 is built on Qwen3.8-27B and the four smaller ones on Qwen3.5 checkpoints.",
+  "On the team's own evaluation (Jev Decision Index 0.3.1) d3 scores 64.1 on text, ahead of Perplexity Decider v1.1 (62.8) and Jev (60.1), and 71.6 on the vision board against 70.6 for Perplexity Decider v1.1.",
+  "The article's caveat: Torchcast Decision 27B posts a higher public-suite score than d3 (65.1 against 64.9).",
+  "The 9B d3-flash scores 59.0, above Decision 2.0's 27B model (55.9); the 0.8B and 2B models do not lead every board.",
+  "Median text latency runs from 21.7 ms to 84 ms for one request at a time on one AMD Instinct MI325X GPU, the hardware the models were trained on; context length is not disclosed and no quantized variants are listed.",
+  "d3 scores 97.3 on InfographicVQA and 89.9 on Mind2Web (both approximate rebuilds) but only 46.2 on MMMU-Pro vision and 44.6 on Hateful Memes moderation."
+ ],
+ "quote_evidence": [
+  "The vLLM Semantic Router team has released Decision 3.0, a family of multimodal decision models.",
+  "There are 5 sizes, from 0.8B to 27B, all under Apache-2.0.",
+  "One caveat: Torchcast Decision 27B posts a higher public-suite score (65.1 vs 64.9)."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers building routers or guardrails get small open models that return a probability per answer, so requests can be sorted or screened without parsing generated text.",
+ "event_date": "Article dated 11 Oct 2026; the article does not give a separate release date.",
+ "notes": "MarkTechPost's article page returned HTTP 403 (Cloudflare challenge); the full text was read from MarkTechPost's own public RSS feed (content:encoded), and no other outlet carrying the story was found. All scores are the team's internal evaluation, as the article says."
+}

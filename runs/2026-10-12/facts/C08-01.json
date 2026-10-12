@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-01",
+ "title": "China’s CXMT makes progress in chip design pursued by Samsung, SK Hynix",
+ "source_used": "TrendForce News (relaying Yicai Global, MyDrivers, Economy Tribune, Money Today); the South China Morning Post original returned 403",
+ "article_url": "https://www.trendforce.com/news/2026/10/12/news-cxmt-accelerates-4f%C2%B2-dram-push-eyes-year-end-server-ddr5-rdimm-launch/",
+ "fetched": true,
+ "key_facts": [
+  "CXMT President Cao Kanyu introduced the company's 4F² DRAM architecture at the 10 Oct Integrated Circuits and Chiplet Conference (per Yicai Global) and said next-generation DDR5 RDIMM server modules based on it are planned by year-end.",
+  "Today's industry designs use 6F² cells; 4F² shrinks the cell footprint and could raise memory density by 30% to 50% in the same area (per MyDrivers).",
+  "CXMT says it holds more than 300 published patent families on 4F² architecture.",
+  "TrendForce data: CXMT ranked fourth in global DRAM revenue in 2Q26 with 9.5% share (7.6% in 1Q26), behind Samsung 39.4%, SK hynix 24.9% and Micron 23.3%.",
+  "Samsung showed a 16Gb 4F² plus hybrid-bonding prototype at ISSCC 2026 but is reportedly prioritising hybrid bonding; its technology is not expected on the market before 2028 and it has no firm 4F² timeline (per Economy Tribune).",
+  "TrendForce cautions a year-end launch does not signal readiness for high-volume production; Money Today says CXMT's products may only partially adopt 4F².",
+  "CXMT has mainly served consumer electronics; server DRAM demands higher reliability, and Samsung and SK hynix are well established in server DDR5."
+ ],
+ "quote_evidence": [
+  "According to Yicai Global, CXMT President Cao Kanyu introduced the company’s 4F² DRAM architecture at the October 10 Integrated Circuits and Chiplet Conference, with plans to launch next-generation DDR5 RDIMMs based on the technology by year-end.",
+  "Still, an ambitious launch timeline for CXMT does not necessarily translate into a technological lead.",
+  "According to Money Today, the Chinese DRAM maker’s upcoming products may only partially adopt 4F² technology, while achieving high-volume production remains a separate hurdle."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If CXMT ships server memory on the denser design, it adds a challenger to the three firms that dominate DRAM, but the date is the company's own target and the first products may use the design only in part.",
+ "event_date": "10 Oct 2026 (conference speech)",
+ "notes": "SCMP original (403) not opened; story read on TrendForce, which names Yicai Global as the first reporter of the speech. Same CXMT announcement was carried in our 11 Oct 2026 edition (item 34, Wccftech, score 6); today's pieces add patents, market share, Samsung's slower timeline and the partial-adoption doubt."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-12",
+ "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+ "fetched": true,
+ "key_facts": [
+  "TechCrunch's Ivan Mehta reports remarks made at the HumanX conference 'last month' by PolyAI chief technology officer Shawn Wen and Otter marketing chief Alex Gay; PolyAI sells an enterprise voice AI platform and Otter makes a meeting notetaker.",
+  "Wen says that despite full-duplex models, which can speak while listening, voice AI does not yet have its 'ChatGPT moment'; the next challenge is making reasoning fast so models fetch answers quickly and the conversation feels natural.",
+  "Wen says customer-service agents should not sound robotic and should give callers confidence that problems can be solved; trust builds over the first two or three turns.",
+  "Both say speech recognition (ASR) is a weak point: Wen says ASR models often miss important keywords, and Gay says wrong transcripts make every follow-up action flawed and cost trust; Gay adds that language coverage needs to improve.",
+  "Gay says Otter is working on digital twins that might represent people in meetings, and the output voice must carry human-like emotive expression to be more than a 'q and a chatbot'.",
+  "Both say tools should tell people they are being recorded or are talking to an AI; Otter wants to notify everyone in a meeting chat that it is being recorded.",
+  "The article opens by noting that investors are putting billions of dollars into voice AI startups; it reports no new product, test or data."
+ ],
+ "quote_evidence": [
+  "We have reached the milestone of developing full-duplex models.",
+  "The next challenge is to make reasoning very fast, so that the models can fetch answers quickly and the conversation feels natural,” he told me on stage at the HumanX conference last month.",
+  "Tools should declare to customers that they are being recorded or talking to AI."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Two industry executives say voice assistants still respond too slowly and mishear key words, which affects how far customers and meeting participants can trust them.",
+ "event_date": "Remarks made on stage at the HumanX conference 'last month' (Sep 2026, exact date not given); TechCrunch article dated 11 Oct 2026.",
+ "notes": "Read TechCrunch in full (page also carries unrelated event adverts and related-article links, ignored). Opinion from executives of companies that sell voice AI; no new product or data. First reported by TechCrunch on 11 Oct 2026, from remarks made in September."
+}

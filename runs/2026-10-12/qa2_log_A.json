@@ -1,0 +1,265 @@
+{
+ "changes": [
+  {
+   "item_id": "C13-02",
+   "field": "importance_line",
+   "before": "What changed: the Post reports an unexpected US reliance on China in AI, which could matter to governments, AI companies and the people who use their products, but the headline does not say what the reliance is or how large it is.",
+   "after": "The Post reports an unexpected US reliance on China in AI, which could matter to people who use AI products, then to governments and AI companies, but what the reliance is and how large it is are not known.",
+   "reason": "Internal label 'What changed:' removed (the PDF adds 'Why it matters:'); process reference to the headline removed; people named first."
+  },
+  {
+   "item_id": "C13-07",
+   "field": "importance_line",
+   "before": "What changed: one UK police unit has ended its Palantir trial, which matters first to people whose data police analyse and to privacy campaigners, then to police forces and the company, but the unit cites assessment and funding rather than ethics and will not say how the software was used or what it cost.",
+   "after": "One UK police unit has ended its Palantir trial, which matters first to people whose data police analyse and to privacy campaigners, then to police forces and the company, but the unit cites assessment and funding rather than ethics and will not say how the software was used or what it cost.",
+   "reason": "Internal label 'What changed:' removed (the PDF adds 'Why it matters:')."
+  },
+  {
+   "item_id": "C13-15",
+   "field": "headline",
+   "before": "New Zealand's Green Party has promised that, if elected, it will regulate artificial intelligence so that its benefits are shared with the public and not just the technology companies.",
+   "after": "New Zealand's Green Party has promised to regulate AI if elected, so that the public, not just tech companies, gains from it.",
+   "reason": "Headline was close to the RNZ opening sentence; rewritten in our own words, shorter."
+  },
+  {
+   "item_id": "C13-15",
+   "field": "summary",
+   "before": "RNZ reports that New Zealand's Green Party says that, if elected, it will regulate AI so its benefits are shared with New Zealanders and not only the technology companies that run it, with co-leader Chlöe Swarbrick saying: \"We don't work for AI.\" Its policy document would not allow fully automated decisions on anything that could make a substantive difference to people's lives in public services, and calls for environmental impact assessments for hyperscale (very large) AI data centres, explicit consent standards for AI training data and a say for workers in how AI is adopted at work.",
+   "after": "RNZ reports that New Zealand's Green Party has pledged to regulate AI if elected so that the gains reach New Zealanders and not only the tech companies that run it, with co-leader Chlöe Swarbrick saying: \"We don't work for AI.\" Its policy document would not allow fully automated decisions on anything that could make a substantive difference to people's lives in public services, and calls for environmental impact assessments for hyperscale (very large) AI data centres, explicit consent standards for AI training data and a say for workers in how AI is adopted at work.",
+   "reason": "Opening clause near-copied RNZ's first sentence; reworded."
+  },
+  {
+   "item_id": "C05-13",
+   "field": "summary",
+   "before": "The Verge argues, in a commentary, that tech leaders are \"falling in line\" with President Trump's wish to call AI \"super intelligence\", counting Elon Musk, who plans to rename SpaceXAI as SpaceXSI, Marc Benioff of Salesforce, who renamed its AIForce platform SIForce, Nvidia's Jensen Huang, whose company's $1 billion science pledge includes \"super intelligence research\", and now Microsoft's Satya Nadella, who used the term repeatedly in a post calling for an AI \"emergency brake\", and it reads this as the industry again trying to please the administration. It follows Trump's 8 Oct post calling anyone who says \"Artificial Intelligence\" rather than \"Super Intelligence\" \"THE ENEMY\", which our 9 Oct 2026 edition carried from The Independent, Benioff's rename, carried on 10 Oct from Business Insider, and Nadella's 10 Oct post, carried on 11 Oct from TechCrunch.",
+   "after": "The Verge argues, in a commentary, that tech leaders are \"falling in line\" with President Trump's wish to call AI \"super intelligence\", counting Elon Musk, who plans to rename SpaceXAI as SpaceXSI, Marc Benioff, who said Salesforce would rename its AIForce platform SIForce, Nvidia's Jensen Huang, whose company's $1 billion science pledge includes \"super intelligence research\", and now Microsoft's Satya Nadella, who used the term repeatedly in a post calling for an AI \"emergency brake\", and it reads this as the industry again trying to please the administration. It follows Trump's 8 Oct post calling anyone who says \"Artificial Intelligence\" rather than \"Super Intelligence\" \"THE ENEMY\", which our 9 Oct 2026 edition carried from The Independent, Benioff's rename, carried on 10 Oct from Business Insider, and Nadella's 10 Oct post, carried on 11 Oct from TechCrunch.",
+   "reason": "Certainty kept: the source says Benioff announced Salesforce 'would rename' AIForce, not that it was renamed."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "summary",
+   "before": "The Wall Street Journal reports, citing people familiar with the talks (as relayed by SiliconANGLE and CTech), that Amazon is negotiating to buy Decart, a startup founded in 2023 by three Israeli engineers whose software lets AI models run on chips from different makers, and that a deal could come within days unless the talks collapse or another bidder appears. Decart's software could make Amazon's own Trainium AI chips easier for cloud customers to use as an alternative to Nvidia's, and Anthropic reportedly dropped an earlier deal of about $6 billion in September after due diligence (a detailed check of a company's finances and technology).",
+   "after": "The Wall Street Journal reports, citing people familiar with the talks (as relayed by SiliconANGLE and CTech), that Amazon is negotiating to buy Decart, a startup founded in 2023 by three Israeli engineers whose software lets AI models run on chips from different makers, and that a deal could come within days unless the talks collapse or another bidder appears. Decart's software could make Amazon's own Trainium AI chips easier for cloud customers to use as an alternative to Nvidia's, and Anthropic reportedly walked away from talks to buy it for about $6 billion in September after due diligence (a detailed check of a company's finances and technology).",
+   "reason": "Anthropic was in talks (per Bloomberg), not in a deal; 'dropped an earlier deal' overstated it."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "importance_line",
+   "before": "What changed is a forecast that AI spending could reach $2.8 trillion by 2028 and need its own Fannie Mae and Freddie Mac, which would matter first to savers and pension holders whose money is tied to AI-linked shares and bonds, then to lenders and AI builders, and the doubt is that it is one firm's projection reported second-hand, with no assumptions shown.",
+   "after": "What changed is a forecast that AI spending could reach $2.8 trillion by 2028 and need its own Fannie Mae and Freddie Mac, which would matter first to savers and pension holders whose money is tied to AI-linked shares and bonds, then to lenders and AI builders, and the doubt is that it is one firm's projection reported second-hand, and its assumptions are not known.",
+   "reason": "'No assumptions shown' was unsupported: the Dealroom page was not read, so whether it shows assumptions is unknown."
+  },
+  {
+   "item_id": "C05-04",
+   "field": "summary",
+   "before": "Reuters reports, as carried by The Economic Times, that Intel chief executive Lip-Bu Tan said at a panel organised by the bank DBS on Monday 12 Oct that Chinese frontier AI models (the most capable ones) have been cheaper per token, the small unit of text a model reads and writes and customers pay for, and that their adoption has been \"very fast\", calling the performance of models such as DeepSeek, Kimi and GLM \"good enough\". Tan, who said he is \"a strong believer of open source\" as \"the best way to drive efficiency\" and that markets will decide which models suit which uses, also expected quantum computing to become mainstream within three to five years; Reuters gives no figures for the cost gap or the adoption.",
+   "after": "Reuters reports, as carried by The Economic Times, that Intel chief executive Lip-Bu Tan said at a panel organised by the bank DBS on Monday 12 Oct that Chinese frontier AI models (the most capable ones) have been cheaper per token, the small unit of text a model reads and writes and customers pay for, and that their adoption has been \"very fast\", calling the performance of models such as DeepSeek, Kimi and GLM \"good enough\". Tan, who said he is \"a strong believer of open source\" as \"the best way to drive efficiency\" and that markets will decide which models suit which uses, also said quantum computing could become mainstream within three to five years; Reuters gives no figures for the cost gap or the adoption.",
+   "reason": "Hedge kept: the source says quantum computing 'could become' mainstream."
+  },
+  {
+   "item_id": "C05-05",
+   "field": "summary",
+   "before": "Reuters reports that Hock Tan, chief executive of the US chip maker Broadcom, told a panel in Singapore on Monday 12 Oct that Broadcom is overcoming shortages of wafers (the silicon discs chips are made from) and of memory chips, but that capital will be its biggest constraint as AI development continues. He added that the frontier AI labs Anthropic and OpenAI have shown they can earn significant revenue from their latest models used in AI personal assistants; the report gives no figures.",
+   "after": "Reuters reports that Hock Tan, chief executive of the US chip maker Broadcom, told a panel in Singapore on Monday 12 Oct that Broadcom is overcoming shortages of wafers (the silicon discs chips are made from) and of memory chips, but that capital will be its biggest constraint as AI development continues. He also said the leading AI labs Anthropic and OpenAI have proved their newest models, used in AI personal assistants, can bring in significant revenue; the report gives no figures.",
+   "reason": "Sentence near-copied the Reuters text (quote_evidence); reworded."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "Bloomberg reports, as carried by The Edge Malaysia, that Tan Su Shan, chief executive of DBS Group, Southeast Asia's biggest lender, said in a Bloomberg Television interview on Monday 12 Oct that the market is repricing the risks of AI-related investment, with people now \"asking for higher returns\" and \"looking at structures\", and that the credit ratings of weaker companies may be cut, a shift she called \"healthy\" because it checks that big commitments can be repaid. She said DBS has arranged about S$25 billion (Singapore dollars) of AI deals this year, mostly loans for hardware such as chips and data centres, keeping only a fraction on its own books, while Bloomberg notes that rising interest rates and bond yields at their highest in decades make the build-out dearer to fund.",
+   "after": "Bloomberg reports, as carried by The Edge Malaysia, that Tan Su Shan, chief executive of DBS Group, Southeast Asia's biggest lender, said in a Bloomberg Television interview on Monday 12 Oct that the market is repricing the risks of AI-related investment, with people now \"asking for higher returns\" and \"looking at structures\", and that the credit ratings of weaker companies may be cut, a shift she called \"healthy\" because it checks that big commitments can be repaid. She said DBS has arranged about S$25 billion (Singapore dollars) of AI deals this year, mostly loans for hardware such as chips and data centres, keeping only a fraction on its own books, while Bloomberg notes that interest rates are rising and global bond yields are at their highest in decades.",
+   "reason": "Invented consequence removed: the facts give the rate and yield context but not that it makes the build-out dearer to fund."
+  },
+  {
+   "item_id": "C07-03",
+   "field": "importance_line",
+   "before": "What changed is a new Financial Times piece on how much the largest AI cloud companies owe, which would matter first to savers and pension holders who own their shares and bonds, then to lenders and to the companies themselves, and the doubt is that the figures, the evidence and whether the piece is reporting or opinion are not shown here.",
+   "after": "What changed is a new Financial Times piece on how much the largest AI cloud companies owe, which would matter first to savers and pension holders who own their shares and bonds, then to lenders and to the companies themselves, and the doubt is that its figures and evidence, and whether it is reporting or opinion, are not known.",
+   "reason": "Process reference ('not shown here') removed."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "headline",
+   "before": "The head of the International Monetary Fund says heavy spending on AI is keeping world growth near 3% despite an energy shock, and is lifting Asian economies.",
+   "after": "The head of the International Monetary Fund says heavy spending on AI is keeping world growth near 3% despite an energy shock, and could lift Asian economies.",
+   "reason": "Hedge kept: Georgieva said AI investment 'could add' to Asian growth."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "headline",
+   "before": "Germany's federal government has put on hold its planned AI framework agreement with the French company Mistral and the software maker SAP.",
+   "after": "Germany has shelved, for now, a planned government AI deal with France's Mistral and the German software maker SAP.",
+   "reason": "Headline followed the source's opening sentence closely; rewritten in our own words, shorter."
+  },
+  {
+   "item_id": "C06-06",
+   "field": "importance_line",
+   "before": "More money for data centres and the power supply they need affects the cities and grids that host them and the companies that rent the computing, but the valuation and plans are SWI's own statements and the firm is little known.",
+   "after": "More money for data centres and the power supply they need affects the cities and grids that host them and the companies that rent the computing, but the valuation and plans are SWI's own statements.",
+   "reason": "Unsupported claim removed: nothing in the facts says the firm is little known."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "summary",
+   "before": "Moneycontrol reports, citing a post by The Kobeissi Letter, a financial-markets commentary platform, that 42 AI stocks have generated 67% of the S&P 500's price return since the start of 2024, adding 22 of the index's 33 percentage points of gain while the other 458 stocks added 11. The Letter adds that the same 42 stocks account for 58% of the index's earnings growth and 81% of its growth in capital spending and research, and that only 29% of stocks have beaten the index over three years, close to the roughly 25% low of the 2000 dot-com bubble.",
+   "after": "Moneycontrol reports, citing a post by The Kobeissi Letter, a financial-markets commentary platform, that 42 AI stocks account for 67% of the S&P 500's price gains since the start of 2024, or 22 of its 33 percentage points, against 11 from the other 458 stocks. The Letter adds that the same 42 stocks account for 58% of the index's earnings growth and 81% of its growth in capital spending and research, and that only 29% of stocks have beaten the index over three years, close to the roughly 25% low of the 2000 dot-com bubble.",
+   "reason": "Opening clause near-copied the Moneycontrol sentence (quote_evidence); reworded, shorter."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "summary",
+   "before": "The Telegraph reported on Sunday 11 Oct 2026, as relayed by Reuters, that the Trump administration has withdrawn an earlier request to AI developers, including OpenAI and Anthropic, to keep new models away from Britain's AI Security Institute (the government body that tests the most advanced models) until they are released. Reuters calls this a softer US stance on international AI safety work and notes that Trump's new AI task force said on Friday that developers must report security incidents with their AI models.",
+   "after": "The Telegraph reported on Sunday 11 Oct 2026, as relayed by Reuters, that the Trump administration has withdrawn an earlier request to AI developers, including OpenAI and Anthropic, to keep new models away from Britain's AI Security Institute (the government body that tests the most advanced models) until they are released. Reuters calls this a softer US stance on international AI safety work and notes that Trump's new AI task force on Friday told developers to report security incidents involving their models.",
+   "reason": "Clause near-copied the Reuters sentence (quote_evidence); reworded."
+  },
+  {
+   "item_id": "C12-06",
+   "field": "summary",
+   "before": "CNBC reported on 11 Oct 2026, as relayed by Business Upturn, that independent AI safety testing groups are gaining prominence as Anthropic and OpenAI explore giving outside evaluators a bigger role, with open questions over who funds them, how freely they can publish bad news and how much access they get; Business Upturn names METR (Model Evaluation and Threat Research), Apollo Research and Transluce among them. OpenAI said it is finalising contracts with third-party safety assessors and plans to give details in the coming weeks.",
+   "after": "CNBC reported on 11 Oct 2026, as relayed by Business Upturn, that independent AI safety testing groups are gaining prominence as Anthropic and OpenAI explore giving outside evaluators a bigger role, with open questions over who funds them, how freely they can publish bad news and how much access they get; Business Upturn names METR (Model Evaluation and Threat Research), Apollo Research and Transluce among them. OpenAI said it is close to signing contracts with outside safety assessors and plans to share details within weeks.",
+   "reason": "Sentence near-copied the relayed CNBC text (quote_evidence); reworded."
+  },
+  {
+   "item_id": "C12-06",
+   "field": "importance_line",
+   "before": "Anyone relying on AI companies' own safety claims gains a possible outside check, but the testing groups are small, questions remain over who funds them and how freely they can publish bad news, and this is a trend report, not a new finding.",
+   "after": "Anyone relying on AI companies' own safety claims gains a possible outside check, but questions remain over who funds the testing groups and how freely they can publish bad news, and this is a trend report, not a new finding.",
+   "reason": "Unsupported claim removed: nothing in the facts says the testing groups are small."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "Punchbowl News reports that OpenAI wants to curb misleading election deepfakes.",
+   "after": "Punchbowl News reports that OpenAI aims to limit deepfakes (AI-made fake images, audio or video) that mislead voters.",
+   "reason": "Summary repeated the publisher's headline word for word; reworded with attribution kept and the term explained."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "summary",
+   "before": "NHK reports that Japan's National Institute of Information and Communications Technology (NICT) has built WISDOM-AR, a system that automatically writes the kind of tricks used in \"jailbreaking\" (wording crafted to make an AI ignore its restrictions) across more than 30 themes, including weapons and fraud, and then rates how the AI answers. In an institute demonstration an AI that was asked how to make a bomb listed materials and methods and was rated \"harmful\" by the system, and NICT plans to offer WISDOM-AR to companies that use AI on a trial basis as early as this fiscal year.",
+   "after": "NHK reports that Japan's National Institute of Information and Communications Technology (NICT) has built WISDOM-AR, a system that automatically writes the kind of tricks used in \"jailbreaking\" (wording crafted to make an AI ignore its restrictions) across more than 30 themes, including weapons and fraud, and then rates how the AI answers. In an institute demonstration an AI that was asked how to make a bomb listed materials and methods and was rated \"harmful\" by the system, and NICT plans to start trials with companies that use AI as soon as this fiscal year.",
+   "reason": "Clause near-copied NHK's sentence (quote_evidence); reworded, shorter."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "headline",
+   "before": "Anthropic is pressing its data-centre partners to finish sites sooner, because an earlier start could earn it far more, The Information reports.",
+   "after": "Anthropic is racing to bring its leased data centres online sooner, because an earlier start could earn it far more, The Information reports.",
+   "reason": "The facts say Anthropic is rushing to secure and activate data centres, not that it is pressing partners; wording matched to the source."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "summary",
+   "before": "The Information reports, as relayed by Chosunbiz, that Anthropic has signed a new multi-year cloud contract with IREN, a company that rents out AI computing power, on top of leases for more than 15 gigawatts of data-centre capacity across over 10 cloud providers worth about $530 billion, and is pushing partners to open sites early because, by investor and analyst estimates, starting a 245-megawatt Louisiana site one month sooner could add about $1.3 billion in sales if it is used fully to answer users' requests. The Information also says Anthropic made a small profit in the second quarter, but that its margin could shrink as leasing grows and competition with OpenAI intensifies.",
+   "after": "The Information reports, as relayed by Chosunbiz, that Anthropic has signed a new multi-year cloud contract with IREN, a company that rents out AI computing power, on top of leases for more than 15 gigawatts of data-centre capacity across over 10 cloud providers worth about $530 billion, and is rushing to bring sites online because, by investor and analyst estimates, starting a 245-megawatt Louisiana site one month sooner could add about $1.3 billion in sales if it is used fully to answer users' requests. The Information also says Anthropic made a small profit in the second quarter, but that its margin could shrink as leasing grows and competition with OpenAI intensifies.",
+   "reason": "The facts say Anthropic is rushing to activate data centres, not pushing partners; wording matched to the source."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "headline",
+   "before": "Residents across the political divide in a Pennsylvania township are fighting a $165 million data-centre project that local emails linked to Amazon.",
+   "after": "Residents across the political divide in a Pennsylvania township are fighting a $165 million data-centre project that emails linked to Amazon.",
+   "reason": "'Local' was unsupported: Fortune cites emails without saying whose."
+  },
+  {
+   "item_id": "C09-10",
+   "field": "summary",
+   "before": "WIRED reports in its weekly Power Play column that opposition to data centres crosses party lines and has become a weapon in the 3 Nov midterm elections, with Democrat Sherrod Brown attacking Ohio Senator Jon Husted over data centres and energy bills, at least 20 candidates in the 36 governor races promising some kind of moratorium, according to research by Multistate, and voters in eight states facing more than 30 local ballot measures, over half of them in Ohio. The columnist judges the issue strong enough to swing tight races and notes that Texas Governor Greg Abbott has gone from welcoming data centres to a de facto freeze on permits in under a year.",
+   "after": "WIRED reports in its weekly Power Play column that opposition to data centres crosses party lines and has become a weapon in the 3 Nov midterm elections, with Democrat Sherrod Brown attacking Ohio Senator Jon Husted over data centres and energy bills, at least 20 candidates in the 36 governor races promising some kind of moratorium, according to research by Multistate, and voters in eight states facing more than 30 local ballot measures, over half of them in Ohio. The columnist judges the issue strong enough that it could swing tight races and notes that Texas Governor Greg Abbott has gone from welcoming data centres to a de facto freeze on permits in under a year.",
+   "reason": "Hedge kept: WIRED says data centres 'could swing' tight races."
+  },
+  {
+   "item_id": "C11-01",
+   "field": "headline",
+   "before": "A London Assembly committee has urged Transport for London to withhold approval for a full rollout of driverless taxis until stronger safety measures are in place, saying the city is not ready.",
+   "after": "A London Assembly committee has told Transport for London not to approve a full launch of driverless taxis until safety is tightened, saying the city is not ready.",
+   "reason": "Headline near-copied the Standard's opening sentence (quote_evidence); reworded, shorter."
+  },
+  {
+   "item_id": "C11-02",
+   "field": "importance_line",
+   "before": "A large carmaker is putting dates on selling a humanoid robot to European customers, who would first meet it in showrooms for tours and shopping help, but these are company targets with no named countries, price or sales model and no dates for home or factory use.",
+   "after": "A large carmaker is putting dates on bringing a humanoid robot to Europe, with commercial uses such as showroom tours first, but these are company targets with no named countries, price or sales model and no dates for home or factory use.",
+   "reason": "The showroom uses come from XPENG's September plan in general; the source does not say European customers would meet it first in showrooms."
+  },
+  {
+   "item_id": "C11-07",
+   "field": "source",
+   "before": "digitimes",
+   "after": "Digitimes",
+   "reason": "Publisher name capitalised as in the summary."
+  },
+  {
+   "item_id": "C11-07",
+   "field": "summary",
+   "before": "Digitimes reports that Kawasaki Heavy Industries is betting 550 billion yen on physical AI, meaning AI that lets machines work in the real world, and robotics as part of a large growth plan to modernize its factories, ease labor shortages and expand robotics across shipbuilding, aerospace and healthcare.",
+   "after": "Digitimes reports that Kawasaki Heavy Industries is betting 550 billion yen on physical AI, meaning AI that lets machines work in the real world, and robotics as part of a large growth plan to modernize factories, ease labor shortages and expand robotics across shipbuilding, aerospace and healthcare.",
+   "reason": "'Its' was unsupported: the readable text says the plan is to modernize factories, not whose."
+  },
+  {
+   "item_id": "C11-11",
+   "field": "importance_line",
+   "before": "A leading robot-company founder says AI-driven robots may become practical sooner than expected, which, if right, would reach factory and service workers and the companies planning to buy robots, but it is one executive's forecast, from a company that sells robots, with no new figures behind it.",
+   "after": "A leading robot-company founder says AI-driven robots may become practical within one to two years, which, if right, would reach factory and service workers and the companies planning to buy robots, but it is one executive's forecast, from a company that sells robots, with no new figures behind it.",
+   "reason": "'Sooner than expected' was unsupported (his earlier timelines are unverified); replaced with his stated time frame."
+  },
+  {
+   "item_id": "C05-12",
+   "field": "headline",
+   "before": "AI pioneer Yann LeCun said that calls to slow down AI development are a form of marketing and lobbying and that the most powerful models should be open source.",
+   "after": "AI pioneer Yann LeCun said that calls to slow down AI development are a form of marketing and lobbying and that foundational AI models should be open source.",
+   "reason": "LeCun spoke of foundational models, not 'the most powerful' ones."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "headline",
+   "before": "Britain's AI minister will tell companies building the most advanced AI to do more on safety and say the government cannot leave them to police themselves, as he announces stronger cyber defences.",
+   "after": "Britain's AI minister will tell companies building the most advanced AI to do more on safety and say the country cannot rely entirely on them to police themselves, as he announces stronger cyber defences.",
+   "reason": "Qualifier kept: the minister will say Britain cannot rely 'entirely' on the firms."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "summary",
+   "before": "The Guardian reports that Kanishka Narayan, the UK's AI minister, will say in a speech in west London that companies building the most advanced AI must increase their safety efforts, that Britain cannot rely entirely on technology firms to police their own models and that the UK needs more AI infrastructure of its own, as he announces a strengthening of the country's cyber defences. The paper adds that Geoffrey Irving, who used to be chief scientist at the UK's AI Security Institute (the government body that tests the most powerful AI models), told it: \"The AI companies do not have security that would prevent an adversarial country from stealing the models\"; OpenAI says it has protections including encryption and continuous monitoring.",
+   "after": "The Guardian reports that Kanishka Narayan, the UK's AI minister, will say in a speech in west London that companies building the most advanced AI should do more on safety, that Britain cannot rely entirely on technology firms to police their own models and that the UK needs more AI infrastructure of its own, as he announces a strengthening of the country's cyber defences. The paper adds that Geoffrey Irving, who used to be chief scientist at the UK's AI Security Institute (the government body that tests the most powerful AI models), told it: \"The AI companies do not have security that would prevent an adversarial country from stealing the models\"; OpenAI says it has protections including encryption and continuous monitoring.",
+   "reason": "Certainty matched: the minister will 'call on' companies to do more, not say they must."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C12-04",
+   "type": "re-dated",
+   "detail": "Euronews' 11 Oct write-up of Anthropic's Friday 9 Oct report. Our 10 Oct 2026 edition already carried the false Philadelphia tip (C12-01, CBS News; its facts include the police calling the delay 'unacceptable') and the pause on live internet access for internal evaluations plus the other incidents (C04-05, TechCrunch). Nothing new happened inside the 11-12 Oct window, and the summary's 'New today' claim is not true. Not edited."
+  },
+  {
+   "item_id": "C13-11",
+   "type": "re-dated",
+   "detail": "Borderline: MLex's 12 Oct paywalled piece on the labour ministry's jobs plan announced Saturday 10 Oct, which our 10 Oct 2026 edition carried as item 96 (Global Times); MLex adds only the training detail from its standfirst, no new event inside the window. Not edited."
+  },
+  {
+   "item_id": "C08-01",
+   "type": "re-dated",
+   "detail": "Borderline: CXMT president Cao Kanyu's 10 Oct conference speech on 4F2 server memory was carried in our 11 Oct 2026 edition as item 34 (Wccftech); today's TrendForce relay adds only context (Samsung's timeline, partial-adoption doubt), no new event inside the window. Not edited."
+  },
+  {
+   "item_id": "C05-11",
+   "type": "re-dated",
+   "detail": "Borderline: Business Insider's 10 Oct story on Matt Garman's earlier A16z Show podcast interview, the same interview our 10 Oct 2026 edition carried (Garman not worried about an AI bubble); the data-centre remarks are a new angle from that old interview, nothing new happened inside the window. Not edited."
+  },
+  {
+   "item_id": "C05-14",
+   "type": "re-dated",
+   "detail": "Borderline: Sacks's All-In remarks were out by 10 Oct 04:08 UTC (BigGo Finance), more than a day before the window opened (11 Oct 08:12 UTC); OfficeChai's 11 Oct article is a later write-up, not a new event. Not carried in earlier editions; score 3. Not edited."
+  },
+  {
+   "item_id": "C06-02",
+   "type": "duplicate",
+   "detail": "Same story as C09-06: both rest on The Information's report of Anthropic's multiyear cloud deal with IREN (C06-02 via Crypto Briefing; C09-06 via Chosunbiz, which leads with the IREN deal before the data-centre economics). Keep one, or cut the IREN deal from C09-06. C06-02 says neither company has confirmed the deal; C09-06 does not."
+  },
+  {
+   "item_id": "C09-06",
+   "type": "duplicate",
+   "detail": "Same story as C06-02 (The Information on Anthropic's IREN cloud deal); see C06-02."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-14",
+ "title": "Report: Reshape Automation finds that leading AI models score at most 52% on industrial parts questions",
+ "source_used": "Robotics 24/7 (page tagged Press Release; text read from the fulltext copy)",
+ "article_url": "https://www.robotics247.com/article/report-reshape-automation-finds-that-leading-ai-models-score-at-most-52-on-industrial-parts-questions",
+ "fetched": true,
+ "key_facts": [
+  "Reshape Automation, builder of the ReshapeX sales-acceleration platform for automation OEMs, system integrators and distributors, released the Industrial AI Accuracy Index 2026.",
+  "It tested three AI models (GPT-6 Astra, Claude and Gemini) on 100 questions drawn from what customers ask distributors and OEMs, covering parts from 14 industrial manufacturers.",
+  "From memory alone the models got 12% to 14% right; with web search the best scored 52%, and about 1 in 3 wrong answers gave a specific part number or figure with no caveat.",
+  "Reshape's engineers wrote the questions and no third party reviewed them; the answer key comes from ReshapeX's own answers, verified against manufacturer documentation.",
+  "Reshape says its ReshapeX platform is not scored on equal terms with the models it tested.",
+  "Each model ran through its provider's API with a pinned model ID in 1,500 calls on 24 Sep 2026; Gemini ran without web search because its provider's terms require written permission to benchmark with grounding.",
+  "A model drafted each grade and Reshape's engineers made the final call; the report lists 13 limitations and prints all 100 questions plus a SHA-256 fingerprint of the answer key, which is withheld but available on request.",
+  "CEO Juan Aparicio said parts answers depend on relationships between facts held in different places, so a model rebuilding them each time is sometimes right and sometimes wrong while sounding equally sure."
+ ],
+ "quote_evidence": [
+  "From memory alone, the models got 12% to 14% right.",
+  "No third party reviewed them.",
+  "The company said that its ReshapeX platform is not scored on equal terms with the models it tested."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "One vendor's own test suggests general chatbots often give confident but wrong industrial part answers, which matters to distributors who must check every answer.",
+ "event_date": "Tests run on 24 Sep 2026; the article (dated 11 Oct 2026) does not give the release date.",
+ "notes": "The page is a company press release (tagged Press Release on Robotics 24/7); the report itself was not opened. The company that ran the test sells a product it says is not scored on equal terms."
+}

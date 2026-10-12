@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-13",
+ "v1_category": "SEC",
+ "headline": "Security firm Zenity says one chat message to a public AI agent on Amazon's AgentCore service could have let an attacker steal cloud credentials and take over every agent in the same account, which Amazon disputes.",
+ "score": 4,
+ "score_reason": "Pool 6 lowered by 2: a repeat of the Zenity research we carried on 9 Oct 2026, with no new fact found today.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies running AI agents on AgentCore could have had conversations, agent code and stored secrets exposed through over-broad permissions, but the issue has since been addressed, Amazon disputes that it is a vulnerability, and nothing new has been reported today.",
+ "source": "The Register, citing Zenity Labs",
+ "status": "DISPUTED",
+ "summary": "The Register reports, citing research by Zenity Labs, that a single prompt to a public-facing agent on Amazon Bedrock AgentCore (AWS's service for running AI agents) made it reveal temporary cloud credentials that Zenity says let attackers take over every agent in the same AWS account and region, read conversations and copy agent code; Zenity found the overly broad default permissions fixed on 29 Sep 2026. Amazon told The Register that Zenity presents documented behaviour as a vulnerability and that developer error would be needed for the attack, a point The Register says it has asked Amazon to explain, and this repeats the research we carried on 9 Oct 2026 from The Next Web.",
+ "url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item was an SC Media brief of 12 Oct 2026 (HTTP 403, Cloudflare block, not read). Text read on The Register (9 Oct 2026), which reported the Zenity research itself. Repeat of our 9 Oct 2026 entry C12-17 (The Next Web); the duplicate check should treat it as old news."
+}

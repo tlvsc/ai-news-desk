@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-14",
+ "v1_category": "MOD",
+ "headline": "Reshape Automation, which sells AI software to industrial distributors, says its own test found that three leading AI models answered at most 52% of 100 industrial parts questions correctly.",
+ "score": 4,
+ "score_reason": "Kept at 4: new on 11 Oct 2026 and read in full; it is a vendor's own test with no outside review, so it is not raised.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Staff at distributors and equipment makers who ask general chatbots which part fits another could be given a confident but wrong part number, but the test was written and graded by a company that sells a rival product, no outsider reviewed it and it covers only three models.",
+ "source": "Reshape Automation press release",
+ "status": "PRELIMINARY",
+ "summary": "In a press release carried by Robotics 24/7, Reshape Automation, maker of the ReshapeX AI sales platform for industrial equipment makers and distributors, says GPT-6 Astra, Claude and Gemini got only 12% to 14% of 100 customer-style parts questions right from memory and, with web search, the best reached 52%, with about one in three wrong answers giving a specific part number or figure with no caveat. Reshape wrote the questions and the answer key itself, says no third party reviewed them and that its own product is not scored on equal terms with the models, so this is a company's test, not an independent finding.",
+ "url": "https://www.robotics247.com/article/report-reshape-automation-finds-that-leading-ai-models-score-at-most-52-on-industrial-parts-questions",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source is Reshape Automation's own press release; read on Robotics 24/7, which carries it tagged Press Release (no link to the original release in the text), so the url is the Robotics 24/7 page. Tests were run on 24 Sep 2026; the release date is not stated. Not a robotics story (AI model accuracy)."
+}

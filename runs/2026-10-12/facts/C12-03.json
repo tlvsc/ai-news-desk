@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-03",
+ "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+ "fetched": true,
+ "key_facts": [
+  "Booz Allen Hamilton's operational technology (OT) lab tested eight scenarios of an autonomous, AI-enabled attack on OT and industrial equipment; the models achieved the objectives across all eight.",
+  "In one case an agent found and moved a robotic arm within minutes; in another, the models went from a perimeter compromise to actions inside an industrial control network in just over 16 minutes.",
+  "Booz Allen declined to name the two 'latest frontier models' it tested; the models were given no source code, engineering documents or advanced OT or IT guidance.",
+  "Guardrails: agents had to wait for human approval before exploiting a security issue or taking any action that could cause a physical impact.",
+  "The lab mimicked a general manufacturing facility with mixed vendors, controllers (PLCs), a SCADA platform, a variable-frequency drive, a robotic arm and sensors.",
+  "Kyle Miller of Booz Allen says defenders may have only minutes to detect and block such an attack and that specialised OT knowledge is no longer a real barrier.",
+  "Booz Allen wants more industry testing and more deployment of defences across OT and critical infrastructure networks.",
+  "The Register links the research to reports of suspected Chinese operators using AI agents against South Korean financial institutions and suspected Iranian attackers using AI-generated scripts against US water, manufacturing and energy controllers."
+ ],
+ "quote_evidence": [
+  "The consulting firm's operational technology (OT) lab tested eight scenarios to examine advanced models' capabilities within an autonomous, AI-enabled OT attack chain.",
+  "Agents had to wait for human approval before exploiting a security issue or taking any action that could cause a physical impact.",
+  "In another test, the models progressed from a perimeter compromise to actions inside an industrial control network in just over 16 minutes."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A consulting firm's lab test suggests AI agents can reach industrial control systems quickly, but it was a simulated plant with unnamed models and human sign-off.",
+ "event_date": "Reported 11 Oct 2026",
+ "notes": "Single outlet (The Register) reporting a company's own lab test; models unnamed, no outside review reported. Booz Allen's report itself was not opened."
+}

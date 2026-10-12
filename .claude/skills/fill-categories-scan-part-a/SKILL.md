@@ -212,7 +212,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
 1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF, the pool PDF,
    the pool CSV. Also send the LOW SCORE, HIGH REACH list that viral_sweep.py prints (CLAUDE.md VIRAL RULE: a 3 or 4 is not final for a story with wide reach) and the stories raised by the viral rule. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
    bulletin's category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
-2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products, the one exception to rule 0):
+2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `delivery_manifest.py --workdir $W --part A` only for the file names, copy the final products and the pool files (Full Report PDF, Bulletin PDF, pool PDF, pool CSV, pool markdown, pool JSON) under the manifest's `_Claude-V1` names into `$W/for_rafi/`, and send them in chat one by one. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026, the one exception to rule 0):
 ```
 python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent prompt products/drive_delivery_prompt.txt
 ```

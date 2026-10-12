@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-10",
+ "title": "Meta's Muse draws 4 of 6 shopping picks from 2 websites, Profound finds",
+ "source_used": "PPC Land",
+ "article_url": "https://ppc.land/metas-muse-draws-4-of-6-shopping-picks-from-2-websites-profound-finds/",
+ "fetched": true,
+ "key_facts": [
+  "Profound, a company that tracks how AI tools talk about brands, published a research post by Allison Huang on 2 Oct 2026 about Meta's Muse shopping agent and the startup agent Instinct; PPC Land reported on it on 11 Oct 2026.",
+  "In a test of 50 prompts from one consumer retail category on a single Muse instance (run on 30 Sep 2026, median figures), a typical set of six recommendations had four products from two merchant websites that Muse browsed live and two from Meta's product catalog.",
+  "The catalog supplied roughly 15 times as many candidates (about 94% of the candidate pool) yet only about a third of the final slots; Profound calls the test 'a small, exploratory sample' and does not name the category.",
+  "By default Muse and Instinct do not name the sources they visit, and they do not identify themselves when browsing, routing traffic through residential internet connections, which makes them hard to tell from human visitors.",
+  "Profound estimated Muse traffic from 'unverified' requests by a crawler named meta-webindexer: up 1,313% at US and Canadian sites against 827% elsewhere, across 280 retail sites it tracks; Profound calls this a conservative proxy, not proof.",
+  "Meta put Muse in WhatsApp and a standalone app on 8 Sep 2026 (US and Canada only); Amazon said on 20 Sep 2026 it had cut Muse off from buying on Amazon.com, citing among other reasons that the agent does not identify itself.",
+  "PPC Land notes that Profound sells services that track AI agents on websites, that neither the test nor the traffic estimate has been independently replicated, and that Meta has published no comparable data.",
+  "Meta has not published how Muse weighs browsed pages against its catalog, and Profound does not explain why the browser results rank higher."
+ ],
+ "quote_evidence": [
+  "Profound is not a neutral observer.",
+  "The 50-prompt test covered one category on one Muse instance on one day.",
+  "The figures are best read as an early, vendor-supplied look at agent behaviour rather than as a market measurement."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Shops that want Meta's shopping agent to recommend their products need pages an AI can read, and they cannot easily tell when the agent has visited.",
+ "event_date": "Profound's research post: 2 Oct 2026; shopping test run 30 Sep 2026; traffic study 19 Aug to 27 Sep 2026; PPC Land article dated 11 Oct 2026.",
+ "notes": "Read PPC Land in full. Profound's own post was not opened. Findings are the vendor's, from a small exploratory sample; PPC Land itself calls them an early, vendor-supplied look. Older research re-reported nine days later."
+}

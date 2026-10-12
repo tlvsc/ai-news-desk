@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-06",
+ "title": "Microsoft brings full Word, Excel, and PowerPoint experience to the new Copilot app",
+ "source_used": "IT Brief Australia, 'Microsoft revamps Copilot with Home, Code & Autopilot' (9 Oct 2026), reporting the same Copilot overhaul; the Neowin article itself is blocked",
+ "article_url": "https://itbrief.com.au/story/microsoft-revamps-copilot-with-home-code-autopilot",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft has introduced a redesigned Copilot with new Home, Code and Autopilot features; the update also brings Word, Excel and PowerPoint functions directly into Copilot.",
+  "Office in Copilot adds direct access to Word, Excel and PowerPoint, and documents, spreadsheets and presentations created or updated in Copilot stay synchronised with the Office apps so teams can keep working on the same files.",
+  "Home (chat and Cowork in one place) and Code roll out through Microsoft's Frontier programme in the coming weeks; Autopilot, formerly Scout, a persistent agent that works without a prompt, expands to private preview by the end of the month.",
+  "Code lets people build simple tools such as dashboards and automations in natural language, uses the same technology as GitHub Copilot and runs in a sandbox.",
+  "Everyday Copilot use in chat and Office apps stays under a user subscription licence; advanced agent work (Cowork, Code, Autopilot) will use usage-based billing, with new spending-control tools for organisations.",
+  "Fabric IQ, which brings Power BI semantic models into Copilot, is generally available now for Chat and Cowork."
+ ],
+ "quote_evidence": [
+  "Microsoft has introduced a redesigned Copilot with new Home, Code and Autopilot features. The update also brings Word, Excel and PowerPoint functions directly into Copilot.",
+  "Documents, spreadsheets and presentations created or updated in Copilot will stay synchronised with the Office apps, allowing teams to continue working on the same files.",
+  "Everyday use of Copilot in chat and Office applications will continue under a user subscription licence, while more advanced agent-based work such as Cowork, Code and Autopilot will use usage-based billing."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Office work can now start inside Copilot and stay in step with Word, Excel and PowerPoint, with heavier agent work billed by use.",
+ "event_date": "Early Oct 2026; IT Brief Australia reported it on 9 Oct 2026 (an exact announcement date is not stated)",
+ "notes": "Neowin (HTTP 403), TechEngage (403, 10 Oct 'Frontier first') and Windows Report (403, 12 Oct) cover the same Office-in-Copilot news but could not be read; Neowin's 11 Oct piece may report a newer rollout step that we cannot see. Facts come from the earlier IT Brief Australia report of Microsoft's announcement."
+}

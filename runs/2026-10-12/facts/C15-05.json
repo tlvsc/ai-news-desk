@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-05",
+ "title": "IBM Observes Quantum Chaos-to-Order Phase Transition on 100 Qubits",
+ "source_used": "Rutgers University news release (9 Oct 2026) and Interesting Engineering; XenoSpectrum original blocked (HTTP 403)",
+ "article_url": "https://www.rutgers.edu/news/scientists-move-step-toward-quantum-computers-can-correct-their-own-mistakes",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from Rutgers, IBM and collaborating institutions, in a study published in Nature Physics, showed a quantum computer can repeatedly check and reset parts of itself while running.",
+  "The experiment used an IBM Quantum Heron processor with 156 qubits, selecting a connected chain of up to 100 qubits.",
+  "The machine alternated between a scrambling step that spread chaos among neighbouring qubits and a control step that measured and reset individual qubits.",
+  "The run used nearly 5,000 two-qubit operations and nearly 5,000 checks and resets, which the researchers call the largest successful demonstration of this approach to date.",
+  "When scrambling took place more than half the time the system stayed chaotic; when checking and resetting dominated, the qubits could be steered to an orderly state; near an even split a small change flipped the whole system, a phase transition.",
+  "The transition became sharper in larger systems and matched theory; the team tested systems of up to 100 qubits against roughly two dozen that conventional computers can simulate.",
+  "Jedediah Pixley of Rutgers calls the experiment a landmark on the road to a fault-tolerant quantum computer; IBM's Maika Takita says present-day hardware can coordinate operations, measurements and resets thousands of times across a large system.",
+  "Interesting Engineering adds that the demonstration does not establish a fully fault-tolerant quantum computer."
+ ],
+ "quote_evidence": [
+  "Researchers from Rutgers, IBM and collaborating institutions have shown that a quantum computer can check what is happening inside it and respond while it is running, repeatedly resetting parts of the system to bring chaotic behavior under control.",
+  "The researchers conducted the experiment on a 156-qubit IBM Quantum Heron processor, one of the most powerful quantum processors in the world, selecting a connected chain of as many as 100 qubits.",
+  "Overall, the team performed nearly 5,000 operations that linked pairs of qubits, along with nearly 5,000 checks and resets."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Running measurement and reset steps thousands of times on a 100-qubit chip is the kind of real-time feedback that error-corrected quantum computers will need, though it is still a step and not a fault-tolerant machine.",
+ "event_date": "9 Oct 2026 (Rutgers release and Nature Physics paper)",
+ "notes": "XenoSpectrum (the chunk's link) was blocked (HTTP 403), so the story was read on the Rutgers news release, which links the Nature Physics paper (https://www.nature.com/articles/s41567-026-03470-6), and on Interesting Engineering (9 Oct 2026). The release is from a participating institution, so the results are the researchers' own, backed by peer review in Nature Physics. Event before the 11 Oct window, so re-dated."
+}

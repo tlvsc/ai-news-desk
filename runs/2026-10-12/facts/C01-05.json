@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-05",
+ "title": "Nvidia releases an open voice AI that talks while it listens, with a catch",
+ "source_used": "Startup Fortune, earlier piece on the same model: 'Nvidia Open Sources a Voice AI That Talks and Listens at Once' (11 Oct 2026)",
+ "article_url": "https://startupfortune.com/nvidia-open-sources-a-voice-ai-that-talks-and-listens-at-once/",
+ "fetched": true,
+ "key_facts": [
+  "Startup Fortune (11 Oct 2026) says Nvidia released PersonaPlex-7B, a free, open-source voice model that listens and speaks at the same time instead of taking turns.",
+  "It says PersonaPlex-7B-v1 was released on 15 Jan 2026, with the weights on Hugging Face and the code on GitHub the same day.",
+  "It is a 7-billion-parameter model; the code is under an MIT license, the weights under the NVIDIA Open Model License, and it runs on a single GPU.",
+  "Full-duplex design: one stream processes the user's incoming audio while another generates the agent's speech and text, sharing one model state, instead of the usual chain of speech recognition, language model and text-to-speech.",
+  "It is based on the dual-stream Transformer architecture of Moshi, the open conversational model from the French lab Kyutai, which Nvidia fine-tuned and extended.",
+  "Nvidia reports a 90.8% turn-taking rate, interruption response latency as low as 240 milliseconds and a time-to-first-token of roughly 170 milliseconds.",
+  "Before a conversation it takes a voice prompt (audio tokens setting vocal style) and a text prompt (the persona, its role and scenario)."
+ ],
+ "quote_evidence": [
+  "Nvidia released PersonaPlex-7B-v1 on January 15, 2026, publishing the weights on Hugging Face and the code on GitHub the same day.",
+  "The company reports a 90.8% turn-taking rate, interruption response latency as low as 240 milliseconds, and a time-to-first-token of roughly 170 milliseconds.",
+  "PersonaPlex throws that pipeline out."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers get a free voice model that handles interruptions in conversation more naturally, but the figures are Nvidia's own.",
+ "event_date": "PersonaPlex-7B-v1 released 15 Jan 2026 per Startup Fortune; article dated 11 Oct 2026.",
+ "notes": "OLDER NEWS RE-DATED (likely). The pool article (Startup Fortune, 'with a catch', 12 Oct 2026) now returns a 404 page, and Google News shows no other outlet carrying the story, so the same outlet's piece of 11 Oct 2026 on the same model was read instead; it dates the release to 15 Jan 2026. The 'catch' of the pool headline is not stated in that text. If the 12 Oct piece reports a new version, the editor can restore the score; otherwise suggest holding it as stale_redated."
+}

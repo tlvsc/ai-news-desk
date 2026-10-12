@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-02",
+ "title": "Led by DeepSeek, Chinese AI models take top five positions in global weekly token usage ranking",
+ "source_used": "Global Times (citing National Business Daily and OpenRouter data)",
+ "article_url": "https://www.globaltimes.cn/page/202610/1372071.shtml",
+ "fetched": true,
+ "key_facts": [
+  "Chinese AI models took the top five spots in weekly token usage on OpenRouter, a global large language model aggregation platform, for 5 to 11 Oct 2026.",
+  "Models worldwide processed 172 trillion tokens that week, up 3.61 percent; Chinese models accounted for 86.74 trillion tokens against 18.97 trillion for US models; Chinese usage grew 50.96 percent, US usage 17.1 percent (National Business Daily reported the figures on Monday).",
+  "It was the 24th consecutive week that Chinese models led US models in token usage.",
+  "DeepSeek's V4.1 Flash led with 41 trillion tokens (up 60 percent); Z.ai's GLM 5.3 Flash second with 12.2 trillion; Xiaomi's MiMo-V2.6-Flash third with 11.5 trillion; StepFun's Step 5 Preview fourth with 8.84 trillion; Tencent's Hy4 preview fifth with 8.28 trillion.",
+  "Anthropic's Claude Opus 5.5 ranked eighth with 5.02 trillion tokens, up 104 percent week over week.",
+  "The five leading Chinese models accounted for 47.9 percent of tokens processed; it was not the first time Chinese models had taken all five top spots.",
+  "Tian Feng of the Fast Think Institute told Global Times the ranking endorses Chinese models' capabilities, stability and cost-effectiveness, noting DeepSeek raised API prices significantly in mid-August.",
+  "Chinese models accounted for just 6-13 percent of uses on OpenRouter in February, according to CNBC as cited by Global Times."
+ ],
+ "quote_evidence": [
+  "Chinese AI models have taken the top five spots in weekly token usage, according to the latest data from OpenRouter, a global large language model (LLM) aggregation platform.",
+  "This marked the 24th consecutive week that Chinese models led their US counterparts in token usage.",
+  "A token is the basic unit of text processed by an AI model and it has become a key measure of AI usage and computing consumption."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Cheap, openly available Chinese models are winning large developer usage on one major marketplace, which bears on which models developers build on.",
+ "event_date": "Week of 5 to 11 Oct 2026; Global Times article 12 Oct 2026.",
+ "notes": "The prefetched file held only a 515-character stub (byline and teasers), so the page was fetched again with curl and read in full. Global Times (state-owned) relays National Business Daily's reading of OpenRouter data and adds its own analyst interview; OpenRouter is one developer marketplace, not all AI use."
+}

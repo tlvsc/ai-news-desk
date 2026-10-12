@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-07",
+ "title": "Microsoft Unveils AI Model Based on Qwen",
+ "source_used": "ForkLog (relaying Microsoft)",
+ "article_url": "https://forklog.com/en/microsoft-unveils-ai-model-based-on-qwen/",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft launched Microsoft-Decision-1, a model for routing, classification, prioritization, data verification and workflow management, based on Alibaba's open Qwen3.5-9B model.",
+  "Unlike text-generating language models it gives structured answers: it assigns calibrated probabilities to a fixed set of options (yes/no, multiple choice, ratings) and can score AI responses and agent actions against set criteria.",
+  "Microsoft says it achieved the highest accuracy across 36 benchmarks covering nearly 150,000 questions not used in training, and was the fastest tested: 2.5 times faster than H2O-Lightning-4B v1.1 and 35 times faster than GPT-6 Sol.",
+  "Microsoft says the same query reworded eight ways changed the decision in 1.3% of cases on average; in security tests with 5,250 queries from 11 benchmarks it rejected malicious actions while keeping utility.",
+  "Microsoft's Xbox Research used it to annotate more than 10,000 reviews from surveys, Steam and X, at quality comparable to GPT-6 Sol, more than 14 times faster and at 200 times lower cost.",
+  "The Copilot team used it to assess chatbot and agent responses, matching GPT-5.6 Luna at a hundredfold speed.",
+  "In Microsoft Discovery it evaluated experiments for adaptive replanning, with 46 times more stability than LLMs at three times the speed.",
+  "Usage costs $0.042 per million input tokens and output tokens are free; Microsoft plans to adapt the approach to other foundation models, including its own MAI and OpenAI's."
+ ],
+ "quote_evidence": [
+  "Microsoft has launched Microsoft-Decision-1, a model designed for routing, classification, prioritization, data verification, and workflow management.",
+  "It is based on Alibaba’s open Qwen3.5-9B model.",
+  "Usage costs $0.042 per million input tokens."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small, cheap model that scores options could let companies automate many routine AI checks at far lower cost, on Microsoft's own numbers.",
+ "event_date": "Launched about 9 Oct 2026 (our 10 Oct 2026 edition); ForkLog article listed 11 Oct 2026.",
+ "notes": "Follow-up of our 10 Oct 2026 entry (Microsoft, score 7, read via TestingCatalog). Read ForkLog in full. New today: Microsoft's internal examples (Xbox Research, Copilot, Microsoft Discovery) and plans for other base models; the Qwen3.5-9B base was already in the 10 Oct facts. All performance and cost figures are Microsoft's own."
+}

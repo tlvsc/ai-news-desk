@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-13",
+ "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+ "source_used": "MarkTechPost (text read from the publisher's own RSS feed; the article page returned HTTP 403); launch date checked on TII's press release as carried by Zawya",
+ "article_url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+ "fetched": true,
+ "key_facts": [
+  "The Technology Innovation Institute (TII) in Abu Dhabi has released Falcon-ASR, a 1.6B-parameter speech recognition model focused on Emirati Arabic that also transcribes English, French, Spanish and Portuguese with one set of weights.",
+  "In TII's evaluation it posts a 20.92% average word error rate across six Arabic test sets, 2.25 points better than the best published entry in TII's leaderboard snapshot (Audar-ASR-V1-Turbo, 23.17%); the figure is TII's own run, not a leaderboard entry.",
+  "On an internal, private Emirati and Gulf test set it scores 22.73% WER against 26.80% for the 30B Qwen3-Omni (a 4.07-point lead); because the set is private it cannot be reproduced.",
+  "On seven English test sets TII reports a 5.74% mean WER, against 5.76% listed for Qwen3-ASR-1.7B; TII published no scores for French, Spanish or Portuguese.",
+  "It returns word-level timestamps, useful for subtitling, searchable recordings and meeting notes.",
+  "Access is limited: no weights, license or quantized variants are published; it runs only as a hosted Hugging Face demo (clips up to 60 seconds and 20 MB), with an API and native apps planned.",
+  "MarkTechPost could not find a published architecture or training data size; the model builds on TII's Falcon3-Audio work.",
+  "TII's press release (Zawya, 6 Oct 2026) announced Falcon-ASR on that date together with the Falcon-Emirati language model and Falcon-OCR-Arabic."
+ ],
+ "quote_evidence": [
+  "In TII’s evaluation, Falcon-ASR posts a 20.92% average word error rate (WER) across 6 Arabic test sets.",
+  "For developers building Arabic voice products, the catch is access: today it runs only as a hosted demo.",
+  "Note that Falcon-ASR’s figure is TII’s own run, not a leaderboard entry."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small model that transcribes Emirati dialect more accurately than larger rivals in TII's own tests could improve Arabic subtitles and meeting transcripts, but outsiders cannot yet run or verify it.",
+ "event_date": "Launch announced by TII on 6 Oct 2026 (Zawya press release); MarkTechPost's benchmark write-up is dated 11 Oct 2026.",
+ "notes": "MarkTechPost page blocked (HTTP 403); full text read from MarkTechPost's own RSS feed. The 6 Oct 2026 launch date comes from TII's press release on Zawya (page published 2026-10-06), also read. Scores are TII's own evaluation. Not carried in our earlier editions."
+}

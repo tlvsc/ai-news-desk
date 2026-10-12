@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-12",
+ "v1_category": "MOD",
+ "headline": "The vLLM Semantic Router team has released Decision 3.0, five open models that answer set questions about text, data and images with a probability for each possible answer.",
+ "score": 4,
+ "score_reason": "Kept at 4: new on 11 Oct 2026 and read in full, but the benchmark scores are the team's own and one rival tops it on a public test.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who build request routers or safety filters for AI products get a set of small openly licensed models for fast sorting and scoring, but the results are the team's own, the context length is not disclosed and a rival model scores slightly higher on one public test.",
+ "source": "MarkTechPost, citing the vLLM Semantic Router team",
+ "status": "REPORTED",
+ "summary": "MarkTechPost reports that the team behind the open-source vLLM Semantic Router project released Decision 3.0 under the Apache-2.0 open-source license: five models from 0.8 billion to 27 billion parameters (the adjustable settings inside an AI model) that read text, structured data and images and return a probability for each possible answer, so developers can sort, route or screen requests without parsing written output. On the team's own tests the largest model scores 64.1 on text against 62.8 for Perplexity Decider v1.1, but MarkTechPost notes that a rival, Torchcast Decision 27B, scores slightly higher on a public test suite (65.1 against 64.9) and that the smaller models do not lead every comparison.",
+ "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Article page blocked (HTTP 403); full text read from MarkTechPost's own RSS feed. No other outlet found. Scores are the team's internal evaluation. Not a reply story."
+}

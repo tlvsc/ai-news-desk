@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-01",
+ "title": "Elon Musk asks Grok to buy Lego, accidentally exposes addresses and credit card details",
+ "source_used": "Raw Story (full text) and Fashion Times UK (full text); the Ynetnews page itself carried only a short standfirst",
+ "article_url": "https://www.rawstory.com/elon-musk-2678071107/",
+ "fetched": true,
+ "key_facts": [
+  "On Sunday 11 Oct 2026 Elon Musk posted on X that he had asked Grok Bot to research the most fun Lego Star Wars kits for young kids and order them, 'as easy as that' (Raw Story, Fashion Times UK).",
+  "The screenshots showed a $241.34 order of five Lego sets charged to his American Express card, with the order number and the shipping destination visible (Raw Story).",
+  "Fashion Times UK adds that the image showed an Austin shipping address, a separate billing address, an email address and only the last four digits of the card, not the full number.",
+  "Musk replied: 'I don't live there. That's where my security team receives mail.' and 'That address has already been doxxed multiple times.'",
+  "YouTuber Enderman posted screenshots of a chat with Lego's automated assistant claiming he had cancelled the order; Fashion Times UK says the screenshots show only that a cancellation request was forwarded for review, and Musk shared a Grok reply saying all five items were still in the order, 'In Warehouse'.",
+  "It followed Musk's post of Saturday 10 Oct telling users to photograph their credit cards, upload the image to Grok Bot and let it find the best deal; X's Community Notes added that xAI 'explicitly warns users not to include personal information in prompts' (Raw Story).",
+  "Fashion Times UK says the exposure came from the screenshot Musk himself posted, not from a demonstrated breach of Grok or Lego systems."
+ ],
+ "quote_evidence": [
+  "\"I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that,\" Musk wrote on X.",
+  "Musk pushed back on the claims that he doxxed himself with his details. \"That address has already been doxxed multiple times,\" he wrote. \"I don't live there. That's where my security team receives mail.\"",
+  "In Musk's Lego demonstration, the verified exposure resulted from the screenshot he posted publicly, rather than a demonstrated breach of Grok or Lego's systems."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "It came a day after Musk urged users to photograph their credit cards for Grok to shop with, so the slip tests how much card data people should hand an AI shopping agent.",
+ "event_date": "11 Oct 2026 (the follow-up to his 10 Oct 2026 post)",
+ "notes": "Ynetnews page (pool item) gave only a headline, standfirst and one embedded post, so the details come from Raw Story and Fashion Times UK, which report the same episode independently from Musk's X posts. Ynetnews headline says 'credit card details' but only the last four digits showed. Follow-up of yesterday's item 1011:C02-02 (Moneycontrol, Musk suggests uploading credit card photos)."
+}

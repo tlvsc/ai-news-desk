@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-11",
+ "title": "OpenAI Dot vs. Meta Muse: How do these AI agents compare?",
+ "source_used": "Engadget",
+ "article_url": "https://www.engadget.com/2281289/openai-dot-vs-meta-muse-ai-agents-comparison/",
+ "fetched": true,
+ "key_facts": [
+  "Meta released Muse on 8 Sep 2026 and OpenAI's always-on agents (Dots) in ChatGPT came three weeks later; both keep working after the user leaves, run their own cloud computers and connect to outside services.",
+  "Muse runs on a dedicated secure virtual machine with its own browser, works through Muse's apps, the web or WhatsApp, and can be linked to email and calendar; it is available in the US and Canada only.",
+  "Dot lives inside ChatGPT, is powered by GPT-6 Astra, has its own cloud computer and can run scheduled or recurring jobs; users can also give a Dot access to their local computer, and OpenAI plans to let users manage several Dots at once.",
+  "Price is the most obvious difference: Muse has a free tier with a usage cap and paid Power and Maximum tiers at $20 and $100 a month, while the cheapest individual way to get Dots is Pro 100 at $100 a month; a Business Premium seat costs $100 a month billed annually or $125 billed monthly.",
+  "Meta says Muse asks permission before sensitive actions such as sending an email or making a purchase; OpenAI uses permissions, Custom Rules and Auto-review; both companies caution that their agents can make mistakes, and Amazon has already blocked Muse from shopping on its site.",
+  "Meta says data inside Muse's virtual machine is not shared with its advertising systems and users can opt out of model improvement, but Engadget found the model-improvement setting on by default, with a default permission option that prompts for only some actions.",
+  "OpenAI says personal-plan Dot activity may be used to improve its models depending on the ChatGPT setting, while Business and Enterprise data is not used for training by default.",
+  "Dots are rolling out to eligible Pro users outside the EEA, Switzerland and the UK and are open to Business Premium users in supported regions, with Enterprise access still in beta."
+ ],
+ "quote_evidence": [
+  "The most obvious difference is price.",
+  "Engadget found the model-improvement setting enabled by default, along with a default permission option that prompts for only some actions.",
+  "Muse is currently available in the US and Canada."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People weighing an always-on AI agent can see that OpenAI's Dots cost about five times more than Muse's first paid tier and differ in where they are offered and what they are allowed to do by default.",
+ "event_date": "Engadget comparison dated 12 Oct 2026; Muse launched 8 Sep 2026, Dots about three weeks later (OpenAI DevDay, 29 Sep 2026).",
+ "notes": "Read Engadget in full. The headline says 'Dot' but the article calls the product Dots, each agent being a Dot. The comparison and Engadget's hands-on observations are new; the product launches are older and Dots were carried in our 30 Sep 2026 edition."
+}

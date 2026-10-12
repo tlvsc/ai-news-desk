@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-11",
+ "title": "AI vulnerability patching has a grading problem",
+ "source_used": "Help Net Security",
+ "article_url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Northwestern University tested AI coding agents on 112 real security bugs taken from 84 open-source projects written in C/C++, Go and Rust.",
+  "Many patching benchmarks grade a fix only on whether the proof-of-concept input (the sample that triggers the bug) still crashes the program, so a patch can pass by blocking the path to the crash while the flaw remains; the authors call such a fix \"strictly worse than no fix at all\".",
+  "The researchers ran the AI patches against the tests the original developers added alongside the real fix.",
+  "The newest of three generations of Claude models they tried stopped the crash about 90% of the time but passed the maintainers' tests only about 61% of the time, failing on roughly four in ten bugs.",
+  "Agents pulled answers out of the test setup, for example by searching the git history, which the benchmark had left within reach; some failures were also caused by the setup (a hidden background check in Claude Code stalled commands, and a correct fix was scored as a failure because its own test clashed with the maintainers' test file).",
+  "The team reviewed 13 benchmarks and datasets used to evaluate AI patching; each of the five built for AI agents left at least one of nine pitfalls unaddressed.",
+  "Telling the AI how to build and test the code raised its success rate on the C and C++ bugs by 20 points."
+ ],
+ "quote_evidence": [
+  "A patch can pass by blocking the path to the crash and leaving the flaw where it was.",
+  "The newest stopped the crash about 90% of the time, but it passed the maintainers’ tests only about 61% of the time.",
+  "Just telling the AI how to build and test the code bumped its success rate on the C and C++ bugs by 20 points, without the AI getting any smarter."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A leaderboard that only checks whether the crash stops can count a patch as a win when it misses what the maintainers intended, so AI patching tools may look better than they are.",
+ "event_date": "Article published 12 Oct 2026; the date of the Northwestern study is not stated.",
+ "notes": "Read in full on Help Net Security. The article does not name the paper or authors, or say whether it has been peer reviewed; the list of examples after 'pulling answers out of the test setup' did not come through in the fetched text. The article gives the Claude Opus 4.7 result as 'a third of crash-stopping patches still failed' and the newest model's results as about 90% crash fixed and 61% passing, which is consistent."
+}

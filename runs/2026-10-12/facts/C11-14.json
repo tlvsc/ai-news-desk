@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-14",
+ "title": "Vine-Like 'Vine Robot' Successfully Conducts Reconnaissance Amid Battery Thermal Runaway Risks",
+ "source_used": "SBS News (SBS World News, English edition, AI-translated from Korean)",
+ "article_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008792295",
+ "fetched": true,
+ "key_facts": [
+  "South Korea's National Fire Research Institute (National Fire Agency) announced on 11 Oct 2026 that, with the Korea Advanced Institute of Science and Technology (KAIST), it deployed a vine robot in August 2026 to a finished-product warehouse fire at a primary battery plant in South Chungcheong Province, completing reconnaissance such as checking internal safety conditions.",
+  "The fire was put out early, but a significant portion of about 210,000 military primary battery packs stored inside stayed unburned but exposed to high heat, so the risk of secondary thermal runaway and serial explosions was high; fire authorities barred internal access for two weeks and monitored from outside.",
+  "Authorities considered tracked equipment or four-legged walking robots but concluded their own weight could press on batteries on the floor and cause secondary thermal runaway.",
+  "Instead they used an ultralight, pneumatic (air-driven) vine robot from a KAIST team led by Professor Yoo Ji-hwan; it grows like a plant vine when compressed air is injected, minimizing load on the ground and passing through narrow spaces without disturbing the batteries.",
+  "Operators controlled the robot remotely from outside the building behind a protective barrier, wearing protective gear in a safe zone.",
+  "Institute head Kim Yeon-sang said it will lead in advancing field-centric robot technologies that protect personnel and support mission completion.",
+  "The SBS article is an AI translation of a Korean report with a photo from the institute via Yonhap News."
+ ],
+ "quote_evidence": [
+  "The authorities considered deploying tracked equipment or quadrupedal walking robots for internal reconnaissance, but concluded that their own weight could apply pressure to the batteries on the floor and potentially cause secondary thermal runaway.",
+  "The vine robot deploys by growing flexibly like a plant vine when compressed air is injected, minimizing ground load and allowing it to safely pass through narrow spaces without physically stimulating the batteries.",
+  "Please note: This article was translated by AI and may contain errors."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A soft robot was used at a real fire site where heavier machines could set off more battery fires, but the account is the fire institute's own and the robot's findings were not described.",
+ "event_date": "Deployment in August 2026 (day not stated); announced 11 Oct 2026",
+ "notes": "The fulltext fetch held only the headline; the article body was recovered from the page's embedded article data (HTTP 200). SBS cites the National Fire Research Institute's announcement. Korea Times also covered it on 12 Oct 2026 (headline only seen in Google News). The deployment was in August but this is the first public announcement found, so freshness is NEW; the article says it was translated by AI."
+}

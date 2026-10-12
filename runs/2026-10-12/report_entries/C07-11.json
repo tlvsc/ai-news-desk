@@ -1,0 +1,17 @@
+{
+ "item_id": "C07-11",
+ "v1_category": "MKT",
+ "headline": "Falling AI prices are lifting demand so fast that rental prices for Nvidia's H100 chips are holding steady or rising, according to data the venture firm a16z points to.",
+ "score": 4,
+ "score_reason": "Pool 4 kept: the short article was read in full; the data is as of August and the link to demand is a16z's reading, so it stays on the watchlist.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "What changed is a reading of price data, not a new event: cheaper AI appears to raise demand for chips instead of lowering it, which matters first to businesses and people who pay for AI computing, then to chip, memory, energy and cloud companies, and the doubt is that it holds only while AI use keeps growing and part of the demand may come from automated systems rather than people.",
+ "source": "The Decoder, citing a16z",
+ "status": "REPORTED",
+ "summary": "The Decoder reports, citing the venture firm a16z (Andreessen Horowitz) and data from Ornn, Silicon Data and Bloomberg as of August 2026, that the price of AI tokens, the units AI models charge by, keeps falling while rental prices for Nvidia's H100 chips hold steady or rise, which a16z calls a textbook Jevons paradox: when something gets cheaper, people use so much more of it that total demand grows. The Decoder adds that this works only while AI use grows fast enough to offset the falling prices, that it is unclear how much of the demand comes from people rather than from AI agents running tasks on their own, and that a flattening of demand would hit chip, memory, energy and cloud companies.",
+ "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full (fulltext; a short article). Data is as of August 2026; a16z's own analysis was not read, so the Decoder's account is the only one. Related to today's OpenAI revenue reports (C07-01), which the Decoder mentions."
+}

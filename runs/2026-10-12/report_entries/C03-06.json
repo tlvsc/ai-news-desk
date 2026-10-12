@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "MOD",
+ "headline": "VentureBeat says AI agents can carry out every software request correctly and still break a company's rules.",
+ "score": 3,
+ "score_reason": "Pool 4 lowered by 1: only the headline could be checked, from a single outlet, so the evidence and any fix the article offers are unverified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that deploy AI agents, and the people who answer for what the agents do, are warned that a technically correct action can still break a company rule; what evidence the article offers, and what fix it proposes, is not known.",
+ "source": "VentureBeat",
+ "status": "REPORTED",
+ "summary": "VentureBeat says in an article published on 11 Oct 2026 that AI agents can carry out every tool call, meaning every request they send to another program or service, correctly and still break the rules a company sets for them.",
+ "url": "https://venturebeat.com/orchestration/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only: VentureBeat page unreachable (HTTP 000, later a Vercel security checkpoint, 429) and no other outlet found carrying it. Author and article type unknown; the headline's 'every enterprise rule' may be rhetorical. Not a reply story."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-06",
+ "v1_category": "RES",
+ "headline": "Researchers at ByteDance's Seed team report that a memory-saving compression trick in DeepSeek's AI models makes them find information unevenly depending on where it sits in a long text.",
+ "score": 3,
+ "score_reason": "Lowered from 5 by 2: the study was reported on 9 Oct 2026 and we carried it on 10 Oct; the 12 Oct SCMP version could not be read, so nothing new today is known.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and users of long-document AI tools may get different answers from DeepSeek models depending on where a fact sits in the text, but this is one lab's paper with no outside review or DeepSeek response reported.",
+ "source": "TechNode",
+ "status": "PRELIMINARY",
+ "summary": "TechNode reports, in a story we carried on 10 Oct 2026, that ByteDance's Seed team traced uneven long-text recall in DeepSeek models to KV-cache compression, a memory-saving method that packs runs of text into fewer stored entries, so that accuracy can differ by up to 40 percentage points depending on where information falls inside each packed group. The team calls the effect 'phase sensitivity', reproduced it in models trained from scratch and says strong average benchmark scores can hide it.",
+ "url": "https://technode.com/2026/10/09/bytedance-researchers-identify-cause-of-inconsistent-long-context-retrieval-in-deepseek-models/",
+ "freshness": "FOLLOW-UP of 9 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The curator's item was SCMP (12 Oct 2026), which returned HTTP 403, so its own text was not read. The same study was read at TechNode and 36Kr (both 9 Oct 2026); the match with the SCMP headline is inferred from topic and timing. The url is the TechNode page, the same link as our 10 Oct 2026 edition item 68. Repeat of an item already printed; the duplicate check against the 14 earlier reports should hold it back."
+}

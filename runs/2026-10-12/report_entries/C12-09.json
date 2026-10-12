@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "A Japanese research institute has built a system that tests whether generative AI can be tricked into giving harmful answers.",
+ "score": 4,
+ "score_reason": "Pool 4 kept: a useful safety-testing tool from a national research institute, but NHK reports one demonstration and a company trial that is only planned.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that deploy chatbots, and the people who use them, could get a standard automatic way to test whether an AI can be talked into harmful answers, but NHK reports only one demonstration and the company trial is still planned, not started.",
+ "source": "NHK WORLD-JAPAN",
+ "status": "REPORTED",
+ "summary": "NHK reports that Japan's National Institute of Information and Communications Technology (NICT) has built WISDOM-AR, a system that automatically writes the kind of tricks used in \"jailbreaking\" (wording crafted to make an AI ignore its restrictions) across more than 30 themes, including weapons and fraud, and then rates how the AI answers. In an institute demonstration an AI that was asked how to make a bomb listed materials and methods and was rated \"harmful\" by the system, and NICT plans to start trials with companies that use AI as soon as this fiscal year.",
+ "url": "https://www3.nhk.or.jp/nhkworld/news/20261012de58055/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on NHK WORLD-JAPAN. NHK relays the institute's own demonstration; no outside test of the system is reported."
+}

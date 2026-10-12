@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-04",
+ "title": "OpenAI Quietly Lists a New Life Sciences Model, Targeting the Drug-Tool Supplier Track",
+ "source_used": "TestingCatalog original (fetched by this agent; published 10 Oct 2026 14:57 UTC) and BigGo Finance's rewrite with analysis (fulltext fetched by main session)",
+ "article_url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI's API pricing page lists a new, officially unannounced model, gpt-rosalind-discovery, under 'Life sciences models' beside gpt-rosalind-research; the listing was first shared by the AI Tracker Bot on X and TestingCatalog reported it on 10 Oct 2026.",
+  "Both models are priced the same: $5 per million input tokens, $0.50 per million cached input tokens and $25 per million output tokens.",
+  "There is no blog post, help article or system card for the new model; BigGo says third-party checks found the Rosalind documentation pages return 404 errors.",
+  "The pricing page says billing for gpt-rosalind-research began on 5 Oct 2026, with access restricted to approved internal research through OpenAI's trusted-access program.",
+  "TestingCatalog says the name suggests a drug-discovery model but that this is a guess.",
+  "GPT-Rosalind launched in April 2026 for biology, drug discovery and translational medicine, with Amgen, Moderna, the Allen Institute and Thermo Fisher Scientific among early partners.",
+  "BigGo adds its own analysis: OpenAI acts as a tool supplier to drug companies rather than doing drug research itself, and the field still lacks large-scale clinical validation."
+ ],
+ "quote_evidence": [
+  "OpenAI's API pricing page seems to have been updated to include a new model the company hasn't officially announced yet.",
+  "There's still no blog post, help article, or system card for it yet.",
+  "For now, though, that's a guess."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "OpenAI appears to be building a family of life-sciences models, but nothing is known about what the new one does.",
+ "event_date": "10 Oct 2026 (listing spotted and reported).",
+ "notes": "Same TestingCatalog story our 11 Oct 2026 edition carried as item 57 (same link). The curator's item was BigGo Finance's rewrite, published 11 Oct 2026 23:35 UTC, which adds analysis (rival comparison, PitchBook figure) but no new fact about the model. BigGo link: https://finance.biggo.com/news/d837a572-fbea-477a-880e-8d08cfecc37e"
+}

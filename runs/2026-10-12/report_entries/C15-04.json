@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "Austin start-up Neurophos, which raised $110 million in January to build AI chips that compute with light, claims its design does 25 times the work of a same-size GPU at the same power.",
+ "score": 2,
+ "score_reason": "Pool 4 lowered by 2: the funding round is old news (22 Jan 2026) and the speed claim is the company's own, with no independent test.",
+ "importance_line": "What changed is only that a new write-up repeats a January funding round and the company's claim of 25 times a GPU's output at equal power, which matters first to data-centre operators and AI developers hoping for lower energy use, but the figures are untested outside the company and no product is on sale yet.",
+ "importance_label": "WATCHLIST",
+ "source": "TechFlow, citing Neurophos and Yole Group",
+ "status": "REPORTED",
+ "summary": "TechFlow reports on Neurophos, an Austin, Texas start-up that builds chips doing AI calculations with light instead of electricity, saying its $110 million Series A round, led by Gates Frontier with Microsoft's venture arm M12 among the investors, backs a design that does about 25 times the operations per second of a graphics processor (GPU) of the same size and power draw. That is Neurophos's own claim; the round was first announced in January 2026 (SiliconANGLE reported it on 22 Jan 2026), and the market research firm Yole Group expects the first such chips to be deployed in 2028.",
+ "url": "https://www.techflowpost.com/en-US/article/34490",
+ "freshness": "FOLLOW-UP of 22 Jan 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read on TechFlow, whose article does not name its original author. Funding date and investors confirmed on SiliconANGLE (https://siliconangle.com/2026/01/22/chip-startup-neurophos-gets-110m-replace-electrons-photons-accelerate-ai-compute/), not used as the printed link. Speed figures differ between sources (25x, 50x and 35x, up to 100x); all are company claims."
+}

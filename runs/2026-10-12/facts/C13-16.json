@@ -1,0 +1,26 @@
+{
+ "item_id": "C13-16",
+ "title": "Palantir's Shyam Sankar suggests \"human error,\" not AI, is cause of Iran school bombing",
+ "source_used": "CBS News, full transcript of the interview (Face the Nation with Margaret Brennan, 11 Oct 2026); fulltext fetched by the main session. Gizmodo (20 Sep 2026) was read only to confirm the date and content of the Bloomberg report that Sankar answers.",
+ "article_url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
+ "fetched": true,
+ "key_facts": [
+  "CBS News published the full transcript of its interview with Shyam Sankar, chief technology officer of Palantir, a portion of which aired on 'Face the Nation with Margaret Brennan' on 11 Oct 2026.",
+  "Host Margaret Brennan referred to the strike in Minab, Iran, that she said killed at least 123 schoolchildren, and said Bloomberg reported that some personnel relied too much on the AI in the Maven system made by Palantir.",
+  "Asked what happened, Sankar said 'we should wait for the final report' but that the reporting 'is inaccurate' and that 'the likely cause is human error'; he did not say which part of the report he disputes.",
+  "Sankar said Palantir quickly built additional AI agents that double-check more of the work so that such a failure could not happen again.",
+  "Sankar said he would defer to the Pentagon on when its report is made public, said he would 'love the truth to get out there', said Palantir has briefed Congress and that questions on what went wrong are for the Department, not for Palantir.",
+  "Brennan noted that 120 House Democrats wrote to Secretary Hegseth about the case and the use of AI, including Maven, in the strike.",
+  "Sankar described AI targeting as a process: a thousand strikes that once took two weeks of planning by 50 people can be prepared by one person in four hours, and he said AI is not 'picking the targets'.",
+  "Outside Bloomberg's report, per Gizmodo (20 Sep 2026): Bloomberg's investigation of Friday 18 Sep 2026, citing officials who described an unreleased internal Pentagon review, named overreliance on the AI in Maven as one of three failures, the others being bad intelligence and outdated satellite imagery; a Palantir spokesperson told Bloomberg there was no evidence its software was at fault."
+ ],
+ "quote_evidence": [
+  "Yeah, it's inaccurate, and actually, the likely cause is human error.",
+  "Well, we should wait for the final report. But what I can say is that reporting is inaccurate.",
+  "Bloomberg reported some personnel relied too much on the AI in the Maven system made by Palantir using AI-enabled software."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "The maker of a military AI platform contests a press account that over-reliance on its software contributed to a strike that killed at least 123 schoolchildren, while the Pentagon's own report is still unpublished.",
+ "event_date": "Interview aired 11 Oct 2026; the strike on the school was earlier (February 2026, per Gizmodo); the Bloomberg report it answers is dated 18 Sep 2026.",
+ "notes": "Read the whole transcript. This is a reply story: Sankar answers Bloomberg's 18 Sep 2026 investigation (date and content from Gizmodo and the Google News listing; Bloomberg itself was not opened). The transcript never says which country carried out the strike; the US is confirmed by Gizmodo and implied by the Pentagon and Hegseth references, so the entry says 'US strike'. The 123 figure and the Bloomberg description are Brennan's words. Status DISPUTED because Palantir contradicts Bloomberg's account of the cause and the Pentagon report is not public; the fact that Sankar said it is confirmed by the transcript. Pool score 6 kept, event inside the window."
+}

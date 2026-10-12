@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-12",
+ "title": "AMD-Backed MangoBoost Takes Aim at Nvidia's Inference Market with 'AI Factory'",
+ "source_used": "BigGo Finance (full text from the main session's fulltext copy); no original outlet is named, and the page says it was compiled from the company's roadmap",
+ "article_url": "https://finance.biggo.com/news/eef2bd8b-c1d1-40ad-8642-27e91cdc5173",
+ "fetched": true,
+ "key_facts": [
+  "MangoBoost, a South Korean AI-infrastructure startup founded in 2022 by Seoul National University researchers and partnered with AMD, is building its own data centre in Seoul's Gangnam district and has launched 'Mango Inference'.",
+  "Mango Inference is a serverless inference service: companies run AI models through a single API key without building their own GPU infrastructure.",
+  "The first facility is a 1 MW 'AI factory' near Dosan Park; partial services have started, full construction is due by the first quarter of next year, with 5 MW planned within next year and 500 MW then gigawatt-class capacity in the US, Japan and Southeast Asia as long-term goals.",
+  "CTO Kwon Dong-up says software tuning of AMD Instinct GPUs gives performance comparable to or exceeding Nvidia's latest models and that the service is priced at least 20% below major rivals; CEO Kim Jang-woo says AMD has promised priority memory supply.",
+  "BigGo says MangoBoost made the first partner submission using multi-node AMD Instinct GPUs in the MLPerf Inference 5.0 benchmark and showed multi-region inference across South Korea and the US in InferenceX 6.0.",
+  "Kim says over 10 billion won (about $7.5 million) of revenue this year is attainable, and the company aims at trillions of won in revenue, with results from next year.",
+  "BigGo cites OpenRouter research: weekly token use reached 126 trillion in September, 250 times the January 2025 average, as AI agents use up to 1,000 times more tokens than a single chat."
+ ],
+ "quote_evidence": [
+  "Our goal is to become a global company generating trillions of won in revenue.",
+  "We have priced our service at least 20% lower than major high-performance inference service providers.",
+  "MangoBoost achieves performance comparable to or exceeding Nvidia's latest models through software optimization alone."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small startup is trying to sell cheaper AI-model hosting on AMD chips to challenge Nvidia, but the performance and price claims are the company's own.",
+ "event_date": "12 Oct 2026 (BigGo publication 06:55 UTC); the launch date is not stated",
+ "notes": "BigGo's page is credited to its editorial team and says it was compiled from the company's expansion roadmap; most facts are company executives' statements, none checked independently. The quote_evidence lines are statements by the CEO and CTO as quoted by BigGo. 'Inference' means running a trained AI model to answer requests."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-05",
+ "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+ "source_used": "InfoQ; announcement date checked on Help Net Security (7 Oct 2026)",
+ "article_url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/",
+ "fetched": true,
+ "key_facts": [
+  "Gremlin, a reliability-management company, announced general availability of Foresight AI, an agentic add-on to the Gremlin platform that analyses services for potential failures, recommends changes and reruns tests to check that a fix works; Help Net Security carried the announcement on 7 Oct 2026, InfoQ on 11 Oct 2026.",
+  "The product splits work between four agent roles: an Analyst that gathers service data and recommends tests, a Tester that schedules and runs them, an Operator that interprets failed tests and proposes fixes, and a Technical Program Manager that tracks coverage and risks and can send weekly reports through Slack.",
+  "Recommendations rest on Gremlin's Failure Atlas, a proprietary record the company says is built from millions of fault-injection experiments over more than ten years across tens of thousands of distributed systems.",
+  "Gremlin says system data is not used to train a large language model; the agents use platform data and the Failure Atlas, with an LLM used for searching, summarising and explaining results.",
+  "Gremlin says Foresight AI will neither run a test nor apply a fix without approval, so an engineer stays responsible for changes.",
+  "It also builds reports and dashboards from natural-language requests, meant to show changes in reliability scores and the risks teams have addressed.",
+  "Intellyx analyst Jason English, writing for Gremlin, calls observability and AI SRE products largely reactive and cautions that a reliability programme cannot simply be installed; Intellyx discloses that Gremlin is its customer.",
+  "InfoQ notes the evidence so far comes from Gremlin and its beta programme, and the company has not published comparative accuracy data, false-positive rates or detailed beta results."
+ ],
+ "quote_evidence": [
+  "Gremlin says Foresight AI will neither run a test nor apply a remediation without approval.",
+  "The company has not published comparative accuracy data, false-positive rates or detailed beta results.",
+  "Intellyx discloses that Gremlin is its customer."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Engineering teams get AI help finding and fixing weak spots before an outage, with a person approving each test and change, but the vendor has published no accuracy figures.",
+ "event_date": "General availability announced by 7 Oct 2026 (Help Net Security, same date); InfoQ article dated 11 Oct 2026.",
+ "notes": "Read InfoQ in full. The 7 Oct 2026 date comes from Help Net Security's article (read), which carries Gremlin's announcement; The Register (8 Oct) and VMblog (7 Oct) also covered it. InfoQ adds analysis and a caveat about missing accuracy data but no new announcement."
+}

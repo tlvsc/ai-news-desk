@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-02",
+ "v1_category": "MOD",
+ "headline": "OpenAI will hide a statistical signature in text that ChatGPT and its Codex coding agent write in the European Union, as EU law requires, so detection software can recognise it as AI-made.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: an official announcement tied to EU law that touches the biggest chatbot, but OpenAI's own tests show the mark is easy to weaken.",
+ "importance_label": "MEDIUM",
+ "importance_line": "What changed is that text from ChatGPT and Codex in the EU will carry a hidden mark, which affects people there who use them first, then anyone trying to check where a text came from, then OpenAI, which faces fines of up to three percent of its worldwide annual turnover if it misses the 2 Dec 2026 deadline, and the doubt is that OpenAI's own tests show editing erases the mark and the detector is open only to approved researchers.",
+ "source": "Mashable",
+ "status": "CONFIRMED",
+ "summary": "Mashable reports that OpenAI is adding an invisible watermark called textGrain to text from ChatGPT and Codex (its programming agent), mandatory in the European Union, where it rolls out over the next few weeks, and optional, and off by default, for API customers elsewhere. OpenAI says its detector caught the mark in only 80 percent of 200-word passages and in just 17 percent after a quarter of the words were replaced, and that a watermark cannot prove who wrote or prompted a text.",
+ "url": "https://mashable.com/tech/openai-chatgpt-text-watermark-invisible-eu",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the main session's fulltext copy. Mashable says 'Monday' (its writer is in Australia); the exact announcement day is therefore 11 or 12 Oct 2026. The 80, 66 and 17 percent figures are OpenAI's own test results as reported by Mashable."
+}

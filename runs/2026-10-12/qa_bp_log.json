@@ -1,0 +1,514 @@
+{
+ "check": "second reader of the Bigger Picture, edition 2026-10-12",
+ "facts_checked": {
+  "Fact_labels_full_report": 79,
+  "Fact_labels_bulletin": 2,
+  "cited_entries_opened_with_facts": 87,
+  "earlier_edition_references_checked_against_archive14": 26,
+  "note": "every Fact sentence and every number, name, position, date, quote and attribution in the Inference, Scenario, Unknown, forecast and watch-list sentences was compared with report_entries/<id>.json and facts/<id>.json; references to our earlier editions were checked against archive14/*.md"
+ },
+ "citations": {
+  "distinct_ids": 87,
+  "not_in_report_ids": [],
+  "in_held": []
+ },
+ "counts_by_kind": {
+  "attribution or hedge": 14,
+  "number": 6,
+  "date": 7,
+  "stronger word, unsourced 'first' or unstated cause": 22,
+  "earlier-edition reference wrong": 8,
+  "misreading or contradiction with the entry": 9,
+  "person without position": 6,
+  "inference did not follow from the facts": 2,
+  "reply story without the earlier reporter": 1,
+  "headline-only entry used for a figure": 1,
+  "structure or process note": 2,
+  "grammar after a fix": 1
+ },
+ "changes": [
+  {
+   "item": "1. What AI can do now, para 1, Inference (C04-01)",
+   "before": "claimed two to three times what they had earned",
+   "after": "claimed at least twice what Epoch credited them with",
+   "reason": "number: Sol claimed about 70 percent against 35 (generous) or 15 (strict); Fable 5 claimed about 40 against no measurable gain; 'two to three times' is not in the entry"
+  },
+  {
+   "item": "1. What AI can do now, para 1, Inference (C04-05)",
+   "before": "Vals found that a team buys speed at up to five times the cost",
+   "after": "Vals found that a team costs up to five times as much and clearly beat a single agent in one comparison of four",
+   "reason": "attribution: 'buys speed' is Noam Brown's remark on a podcast, not Vals AI's finding"
+  },
+  {
+   "item": "1. What AI can do now, para 1, Inference (10 Oct edition)",
+   "before": "and the extra agents mostly save time, which is what a senior OpenAI engineer said of agent swarms in our 10 October edition.",
+   "after": "and the extra agents mostly save time; in our 10 October edition a senior OpenAI engineer called agent swarms a big waste of tokens.",
+   "reason": "earlier edition misquoted: on 10 Oct the engineer called agent swarms a big waste of tokens, not a time saver"
+  },
+  {
+   "item": "1. What AI can do now, para 2, Fact (C01-02)",
+   "before": "with DeepSeek's V4.1 Flash first at 41 trillion, the 24th week in a row on that measure, and Anthropic's Claude Opus 5.5 eighth;",
+   "after": "with DeepSeek's V4.1 Flash first at 41 trillion and Anthropic's Claude Opus 5.5 eighth, in the 24th week in a row that Chinese models led US models;",
+   "reason": "misreading: the 24-week streak is Chinese models ahead of US models in total tokens, not DeepSeek in first place"
+  },
+  {
+   "item": "1. What AI can do now, para 2, Fact (C01-08)",
+   "before": "one early tester says writes more than 490 tokens a second against about 71 for the standard version",
+   "after": "one early tester says writes more than 490 tokens a second, against about 71 for the standard version on the AI Ping test site",
+   "reason": "attribution: the 71 figure is the AI Ping evaluation site's, not the tester's"
+  },
+  {
+   "item": "1. What AI can do now, para 2, Fact (C02-03)",
+   "before": "after Meta's Muse passed 2.5 million downloads in two weeks",
+   "after": "after the success of Meta's Muse, which the South China Morning Post says passed 2.5 million downloads in two weeks",
+   "reason": "attribution: the download figure is the South China Morning Post's, not Caixin's"
+  },
+  {
+   "item": "1. What AI can do now, para 2, Inference (C01-02)",
+   "before": "the price war the OpenRouter counts have shown for 24 weeks",
+   "after": "the Chinese lead the OpenRouter counts have shown for 24 weeks",
+   "reason": "stronger word: the counts measure usage, not prices; no price war is in the entry"
+  },
+  {
+   "item": "1. What AI can do now, para 2, Inference (C01-04)",
+   "before": "OpenAI's doubled default context with no surcharge",
+   "after": "OpenAI's nearly doubled default context with no surcharge",
+   "reason": "number: 272,000 to 500,000 tokens is 1.84 times, not double"
+  },
+  {
+   "item": "1. What AI can do now, para 3, Fact (C02-01)",
+   "before": "posted a screenshot on Saturday of his Grok Bot",
+   "after": "posted a screenshot on Sunday of his Grok Bot",
+   "reason": "date: the entry dates the Lego post Sunday 11 Oct; Saturday 10 Oct was the credit-card post"
+  },
+  {
+   "item": "1. What AI can do now, para 3, Inference",
+   "before": "is as wide as it has been in our editions",
+   "after": "is wide today",
+   "reason": "unsupported comparison with earlier editions; no measure behind it"
+  },
+  {
+   "item": "1. What AI can do now, para 3, Inference (C03-01)",
+   "before": "a free office suite its own reviewer calls far from the real thing",
+   "after": "a free office suite that the outlet reporting it calls far from the real thing",
+   "reason": "stronger word: Tom's Hardware reported the release; no review or testing of the apps is in the entry"
+  },
+  {
+   "item": "1. What AI can do now, para 4, Fact (C11-14)",
+   "before": "without pressing on about 210,000 hot battery packs that heavier machines could have set off",
+   "after": "without pressing on the stored battery packs, many of about 210,000 left hot, that heavier machines could have set off",
+   "reason": "number: the entry says many of about 210,000 packs were left hot, not all of them"
+  },
+  {
+   "item": "1. What AI can do now, para 4, Fact (C11-04)",
+   "before": "since China makes about 80 percent of the world's LiDAR sensors",
+   "after": "noting that Chinese companies make about 80 percent of the world's LiDAR sensors, the laser sensors robots use to map their surroundings",
+   "reason": "cause not stated: the essay notes the LiDAR share, it does not rest the argument on it; LiDAR explained for the reader"
+  },
+  {
+   "item": "1. What AI can do now, para 4, Inference (C11-14)",
+   "before": "The robot that did real work today was the humblest, a vine that grew into a burnt warehouse because",
+   "after": "The robot shown doing real work in today's entries was the humblest, a vine that grew into a burnt warehouse in August because",
+   "reason": "date: the vine robot was deployed in August 2026 and announced on 11 Oct, not used today"
+  },
+  {
+   "item": "1. What AI can do now, para 5, Fact (C03-04)",
+   "before": "calls \"early and rough\" because the checker can mark a correct proof wrong",
+   "after": "calls \"early and rough\", warning that the checker can mark a correct proof wrong",
+   "reason": "cause not stated: Delangue called it early and rough and separately flagged the checker's limit"
+  },
+  {
+   "item": "2. People and society, para 1, Fact (C05-01)",
+   "before": "by taking over routine tasks, \"not a story to celebrate\", and that it risks",
+   "after": "by taking over routine tasks while adding low-paying jobs in sectors such as construction, \"not a story to celebrate\", and that it risks",
+   "reason": "quote misplaced: 'not a story to celebrate' was said of the low-paying construction jobs AI adds"
+  },
+  {
+   "item": "2. People and society, para 1, Inference (8 and 11 Oct editions)",
+   "before": "that our 9 and 11 October editions found in one bank's count and one law firm's study was said today, in the same hall, by the head of the IMF and the president of Singapore, and for the first time with a tax base attached",
+   "after": "that our 8 and 11 October editions found in one bank's count and one study of patent lawyers was said today, at the same meetings, by the head of the IMF and the president of Singapore, and now with a tax base attached",
+   "reason": "earlier editions: the bank count (Citigroup, India) ran on 8 Oct, not 9 Oct, and the 11 Oct item was a working paper on 133 patent lawyers at 11 firms, not one law firm's study; 'same hall' is not in the entries (same meetings is); 'for the first time' has no source"
+  },
+  {
+   "item": "2. People and society, para 1, Inference (11 Oct edition)",
+   "before": "the shape the law-firm result of 11 October had",
+   "after": "the shape the patent-lawyer study of 11 October had",
+   "reason": "earlier edition: the 11 Oct item was a study of patent lawyers at 11 firms"
+  },
+  {
+   "item": "2. People and society, para 2, Fact (C14-07)",
+   "before": "quotes Joseph Hutchinson, a Baptist pastor in South Carolina,",
+   "after": "quotes Joseph Hutchinson, pastor of Gospel Light Baptist Church in Orangeburg, South Carolina,",
+   "reason": "people with their position: organisation added from the facts"
+  },
+  {
+   "item": "2. People and society, para 2, Fact (C05-08)",
+   "before": "he named no specific threat, and the approvals are still pending {C05-08}",
+   "after": "he named no specific threat, and Reuters reported in our 11 October edition that the approvals are still pending {C05-08}",
+   "reason": "hedge: 'approvals still pending' comes from the earlier Reuters report, not from The Hindu"
+  },
+  {
+   "item": "2. People and society, para 2, Inference (C05-08)",
+   "before": "pulpits, unions and a party manifesto, and in India a parliamentary committee answering a billionaire on X. None",
+   "after": "pulpits, unions and a party manifesto. None",
+   "reason": "inference does not follow: the Starlink row is a security and telecoms dispute, not worry about AI; 'on X' is not in the entry, and 'a billionaire' is a vague label"
+  },
+  {
+   "item": "2. People and society, para 2, Inference (C10-03, C16-01)",
+   "before": "in Britain the first measurable cost of generative AI to a public service is a 20-page complaint written in seconds and answered by hand, and in China a prompt went to print because nobody read the proof.",
+   "after": "in Britain a cost of generative AI to a public service shows in complaints of up to 20 pages that take little effort to write and staff time to answer, and in China a prompt from proofreading software went to print, which the publisher says it mistook for the text.",
+   "reason": "'first' and 'measurable' unsupported (the entry says the scale is not measured); 'written in seconds' and 'answered by hand' are not in the entry; 'because nobody read the proof' is a cause the story does not state"
+  },
+  {
+   "item": "2. People and society, para 3, Inference (C10-04, C10-05)",
+   "before": "both items move AI one step earlier in the drug pipeline, before any patient, and both are paid for by someone other than a patient, a state fund and a laboratory contractor, which is where",
+   "after": "both items move AI into drug development rather than the doctor's office, and neither is paid for by patients: one by a state fund paying half a programme, the other in a deal between companies with no terms disclosed, which is where",
+   "reason": "unsupported: the Lunit deal discloses no financial terms, so who pays is not known; Lunit's software works in clinical-trial testing, not before any patient"
+  },
+  {
+   "item": "3. Safety, security and law, para 1, Fact (C12-09)",
+   "before": "with company trials planned this fiscal year",
+   "after": "with company trials planned as early as this fiscal year",
+   "reason": "hedge: NHK says as early as this fiscal year"
+  },
+  {
+   "item": "3. Safety, security and law, para 1, Inference (11 Oct edition)",
+   "before": "the brake that Satya Nadella proposed on Saturday",
+   "after": "the brake that Satya Nadella, chief executive of Microsoft, proposed on Saturday",
+   "reason": "people with their position"
+  },
+  {
+   "item": "3. Safety, security and law, para 1, Unknown (C12-03)",
+   "before": "Unknown: whether the Booz Allen models were frontier models with their safeguards on or stripped ones,",
+   "after": "Unknown: whether the two frontier models Booz Allen used ran with their safeguards on or stripped,",
+   "reason": "contradiction with the entry: The Register says Booz Allen tested two 'latest frontier models'; their names and safeguards are what is unknown"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Fact (C12-05)",
+   "before": "from stealing the models\", which OpenAI disputes;",
+   "after": "from stealing the models\", while OpenAI says it has protections such as encryption;",
+   "reason": "stronger word: OpenAI says it has protections including encryption and monitoring; 'disputes' goes further than the entry"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Fact (C05-12)",
+   "before": "answering the call to slow down by Dario Amodei, chief executive of Anthropic, that we carried on 7 October",
+   "after": "answering the call to slow down by Dario Amodei, chief executive of Anthropic, that Nikkei Asia reported and we carried on 7 October",
+   "reason": "reply story: name who reported the earlier story (Nikkei Asia, 7 Oct edition)"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Inference",
+   "before": "Inference: in one weekend the question of who checks the models got three answers from three sides.",
+   "after": "Inference: since Friday the question of who checks the models got three answers from three sides.",
+   "reason": "date: the US task force spoke on Friday and the FT headline and the minister's speech preview are Monday's, not one weekend"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Inference (C05-02)",
+   "before": "asked for by its president a day after its chief executive published the design of the brake",
+   "after": "asked for by its president in an interview the BBC published a day after its chief executive published the design of the brake",
+   "reason": "date: the BBC does not give the interview date; it published on 11 Oct"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Inference (C12-06)",
+   "before": "The practical piece is the smallest: outside testers under contract within weeks, the first form of outside check that needs no law.",
+   "after": "The practical piece is the smallest: outside testers that OpenAI says it is close to signing, with details within weeks, a form of outside check that needs no law.",
+   "reason": "hedge: OpenAI says it is finalising contracts, not that testers are under contract; 'first' is unsupported (the UK institute's testing also needs no law)"
+  },
+  {
+   "item": "3. Safety, security and law, para 3, Inference (C13-05, C13-09)",
+   "before": "puts AI on the same page as the bond-market strain Bloomberg described in our 11 October edition, and India's market regulator is writing kill switches into trading rules before any parliament has written them into AI law;",
+   "after": "puts AI on the same page as the rising bond yields Bloomberg described in our 11 October edition, and India's market regulator is writing kill switches into its rules for AI in capital markets;",
+   "reason": "earlier edition: on 11 Oct Bloomberg described rising yields and record tech borrowing, not strain; 'before any parliament' is a claim with no source"
+  },
+  {
+   "item": "3. Safety, security and law, para 3, Inference (C06-04)",
+   "before": "a government stepping back from a national champion with no stated reason",
+   "after": "a government stepping back from France's Mistral with no stated reason",
+   "reason": "unsupported label: 'national champion' is not in the entry and reads as Germany's"
+  },
+  {
+   "item": "4. Infrastructure, para 1, Fact (C08-07)",
+   "before": "can expose at once and may grow 40 times, so Samsung, which plans to mass-produce the HBM4E memory generation next year, and SK hynix are working",
+   "after": "can expose at once, which an equipment-industry official expects to reach up to 40 times, so Samsung, which plans to mass-produce the HBM4E memory generation next year, and, by ETNews' account, SK hynix are working",
+   "reason": "attribution: the 40-times figure is one equipment-industry official's expectation; the SK hynix work comes from ETNews, not Chosun Biz"
+  },
+  {
+   "item": "4. Infrastructure, para 1, Inference (C08-02, C05-05)",
+   "before": "now has a processor price list, and the chip makers have stopped describing the limit as parts: Broadcom's chief says the limit is money.",
+   "after": "now has reported processor price rises, and one chip maker has stopped describing the limit as parts: Broadcom's chief says his company's biggest limit is capital.",
+   "reason": "stronger word: the rises are press reports, not company price lists; one chief spoke, about his own company"
+  },
+  {
+   "item": "4. Infrastructure, para 1, Inference (C06-01, C06-05)",
+   "before": "Two deals in one day, Amazon's reported 7 billion dollars for Decart",
+   "after": "Two moves in two days, Amazon's reported talks at 7 billion dollars for Decart",
+   "reason": "date and hedge: the Journal reported on 11 Oct and Infinigence announced on 12 Oct; Decart is talks, not a deal"
+  },
+  {
+   "item": "4. Infrastructure, para 2, Inference (C07-08)",
+   "before": "Thailand suspending 49 projects with a 6 billion dollar loan stalling beside them",
+   "after": "Thailand suspending 49 projects with a loan of up to 6 billion dollars stalling beside them",
+   "reason": "number: the entry says a loan of up to 6 billion dollars"
+  },
+  {
+   "item": "4. Infrastructure, para 2, Inference (C06-02)",
+   "before": "and a former bitcoin miner's halls for Anthropic.",
+   "after": "and, reportedly, a former bitcoin miner's halls for Anthropic.",
+   "reason": "hedge: neither Anthropic nor IREN has confirmed the deal"
+  },
+  {
+   "item": "4. Infrastructure, para 2, Inference (C09-10)",
+   "before": "and WIRED's count of 30 ballot measures is the first time the build has been on ballot papers in numbers, after",
+   "after": "and WIRED's count of more than 30 ballot measures puts the build on ballot papers in numbers, after",
+   "reason": "'first time' has no source; WIRED says more than 30"
+  },
+  {
+   "item": "5. Markets, para 1, Fact (C05-05)",
+   "before": "Fact: Reuters reports that Hock Tan of Broadcom said at the same event",
+   "after": "Fact: Reuters reports that Hock Tan, chief executive of Broadcom, said at the same event",
+   "reason": "people with their position"
+  },
+  {
+   "item": "5. Markets, para 1, Fact (C07-09)",
+   "before": "will go mostly to AI spending, most of it chips, after it raised",
+   "after": "will go mainly to general purposes such as AI spending, most of it on chips, after it raised",
+   "reason": "hedge: Bloomberg says the money is mainly for general corporate purposes such as AI spending"
+  },
+  {
+   "item": "5. Markets, para 1, Inference (C05-06, C05-05)",
+   "before": "while calling them good news: a bank that has arranged 25 billion Singapore dollars of AI loans says investors now want more return and tighter structures, and the chip maker whose customers borrow to buy from it says money is the constraint.",
+   "after": "while calling the repricing healthy: a bank that has arranged 25 billion Singapore dollars of AI deals says investors now want more return and a closer look at structures, and Broadcom's chief says capital is now his company's biggest constraint.",
+   "reason": "stronger words: she called the repricing 'healthy', not good news; 'looking at structures', not tighter ones; DBS arranged AI deals, mostly loans; Broadcom's customers borrowing is not in the entry"
+  },
+  {
+   "item": "5. Markets, para 1, Inference (C07-01, 10 Oct edition)",
+   "before": "Coatue's line, known only from a headline, is the first we have seen to name a public backstop for the build by analogy, and the analogy is the mortgage market, the institution Michael Burry, the investor who became famous for betting against the US housing market before 2008, said in our 10 October edition the state would protect at the price of \"epic moral hazard\".",
+   "after": "Coatue's line, known only from a headline, compares the build's financing needs to the government-backed mortgage financiers, though what it means is not known; Michael Burry, the investor who became famous for betting against the US housing market before 2008, wrote in our 10 October edition that the state would protect the AI boom but that backstopping trillions would carry \"epic moral hazard\".",
+   "reason": "earlier edition misread: Burry said the state would protect the AI boom, not the mortgage market; 'first we have seen' has no source; the entry says what Coatue means by the comparison is not known"
+  },
+  {
+   "item": "5. Markets, para 2, Fact (C07-05)",
+   "before": "Fact: Reuters reports that Georgieva credited AI investment",
+   "after": "Fact: Reuters reports that Georgieva, the IMF's managing director, credited AI investment",
+   "reason": "people with their position"
+  },
+  {
+   "item": "5. Markets, para 2, Inference (C07-06)",
+   "before": "has gained the second this year, which is Europe's figure.",
+   "after": "has gained the second this year, close to Europe's 5.6.",
+   "reason": "number: Europe's STOXX 600 gained 5.6 percent, not 5.5"
+  },
+  {
+   "item": "5. Markets, para 2, Inference (11 Oct edition)",
+   "before": "a doubt about how long memory prices last",
+   "after": "a doubt about how long the memory-chip boom lasts",
+   "reason": "earlier edition: Bloomberg wrote that investors doubt how long the memory-chip boom will last"
+  },
+  {
+   "item": "5. Markets, para 2, Inference (C07-07, C07-06)",
+   "before": "means the index they own is 42 companies and a tail, and the tail has returned about what Europe has.",
+   "after": "means the index they own is 42 companies and a tail; Yahoo Finance's separate measure puts the US market without AI names this year at about Europe's gain.",
+   "reason": "two measures conflated: Kobeissi's tail is since 2024 (11 points of 33); the near-Europe figure is Yahoo's index without AI names for this year"
+  },
+  {
+   "item": "5. Markets, para 2, process note",
+   "before": " The one-quarter cap of the Full Report rule 5.5 does not apply to this corner (CLAUDE.md rule 17).",
+   "after": "",
+   "reason": "process note in a reader-facing report (Part A step 12: no process note in the PDF inputs); the printed share is under a quarter in any case"
+  },
+  {
+   "item": "Forecasts, 1(a)",
+   "before": "Signal: Tencent borrowing 5 billion dollars mostly for chips {C07-09}, Bridge's doubled loan {C07-08},",
+   "after": "Signal: Tencent's planned 5 billion dollar bond sale for AI spending, mostly chips {C07-09}, Bridge's talks to more than double its loan {C07-08},",
+   "reason": "hedge: the Tencent sale has not priced and the Bridge loan is in talks"
+  },
+  {
+   "item": "Forecasts, 1(b)",
+   "before": "the DBS chief's repricing and tighter structures {C05-06}",
+   "after": "the DBS chief's repricing and closer look at structures {C05-06}",
+   "reason": "stronger word: she said investors are 'looking at structures'"
+  },
+  {
+   "item": "Forecasts, 3",
+   "before": "Signal: Georgieva's own warning of 8 October, carried in our 8 October edition,",
+   "after": "Signal: the IMF managing director's own warning of 7 October in Singapore, carried in our 8 October edition,",
+   "reason": "date: the 8 Oct edition carried her speech of Wednesday 7 Oct; position added"
+  },
+  {
+   "item": "Forecasts, 4",
+   "before": "and Anthropic walked away after due diligence a month ago {C06-01}; the same day, Infinigence raised",
+   "after": "and Anthropic reportedly walked away after due diligence in September {C06-01}; a day later, Infinigence raised",
+   "reason": "hedge and date: the Anthropic walk-away is a Bloomberg report; the Journal reported on 11 Oct and Infinigence on 12 Oct"
+  },
+  {
+   "item": "Forecasts, 6",
+   "before": "Probability 50 percent, up from 40 on 10 October.",
+   "after": "Probability 50 percent; our 10 October edition gave 40 percent to a related forecast, a second jurisdiction putting a reporting duty for AI agents into draft law.",
+   "reason": "not the same forecast: 10 Oct forecast 2 was about any second jurisdiction's draft law, so 'up from 40' misstates it"
+  },
+  {
+   "item": "Forecasts, 7",
+   "before": "Signal: 24 weeks in a row and a lead of more than four to one in tokens {C01-02}",
+   "after": "Signal: 24 weeks in a row ahead of US models in total tokens, and a lead of more than four to one this week {C01-02}",
+   "reason": "misreading: the 24-week streak is Chinese models ahead of US models in total tokens, not first place in the ranking"
+  },
+  {
+   "item": "A. item 2",
+   "before": "is the condition under which Tencent, Bridge and SWI are borrowing {C07-09} {C07-08} {C06-06}",
+   "after": "is the condition under which Tencent and Bridge are borrowing and SWI is raising capital {C07-09} {C07-08} {C06-06}",
+   "reason": "SWI raised 800 million euros of equity, not debt"
+  },
+  {
+   "item": "A. item 3",
+   "before": "Why: it is the first time AI appears as a risk to the financial system on the G20 finance table with a document attached;",
+   "after": "Why: AI appears as a risk to the financial system on the G20 finance table with a document attached;",
+   "reason": "'first time' has no source"
+  },
+  {
+   "item": "A. item 4",
+   "before": "the assessor contracts are the first outside check that needs no law;",
+   "after": "the assessor contracts are an outside check that needs no law;",
+   "reason": "'first' has no source"
+  },
+  {
+   "item": "A. item 5",
+   "before": "the first recorded council vote after the Pennsylvania fight",
+   "after": "a recorded council vote after the Pennsylvania fight",
+   "reason": "'first' cannot be checked"
+  },
+  {
+   "item": "A. item 5",
+   "before": "answers analysts on counts and dates in the week XPENG {C11-02} and Unitree {C11-11} gave theirs",
+   "after": "answers analysts on counts and dates after XPENG {C11-02} and Unitree {C11-11} gave theirs",
+   "reason": "date: 21 Oct is not the week of XPENG's and Unitree's remarks (11 and 12 Oct)"
+  },
+  {
+   "item": "A. item 6",
+   "before": "and the 80 percent of next year's memory reported sold in our 10 October edition",
+   "after": "and the 80 percent of Samsung's memory output for next year reported already under contract in our 10 October edition",
+   "reason": "earlier edition: the 10 Oct report was about Samsung's output under long-term contracts"
+  },
+  {
+   "item": "A. item 7",
+   "before": "and the base of Coatue's 2.8 trillion dollars {C07-01}",
+   "after": "and of Coatue's headline {C07-01}",
+   "reason": "headline-only entry used for a figure and an unsupported claim ('the base'), which also contradicted section D (Coatue's assumptions unknown)"
+  },
+  {
+   "item": "A. item 8",
+   "before": "it is the first national vote in which the AI build is a household cost on the ballot",
+   "after": "it is a national vote in which the AI build is on the ballot as a household cost",
+   "reason": "'first' has no source"
+  },
+  {
+   "item": "A. further out",
+   "before": "and Sir Colin Birss becoming Master of the Rolls next month {C13-13}",
+   "after": "and Sir Colin Birss, the judiciary's lead judge for AI, becoming Master of the Rolls next month {C13-13}",
+   "reason": "people with their position"
+  },
+  {
+   "item": "A. further out",
+   "before": "and whether a second European retailer or carmaker puts a date on a humanoid {C11-03} {C11-02}",
+   "after": "and whether another retailer or carmaker puts a European date on a humanoid {C11-03} {C11-02}",
+   "reason": "XPENG is a Chinese carmaker, not a European one"
+  },
+  {
+   "item": "C. Signals",
+   "before": "Georgieva's growth estimate appearing in the World Economic Outlook",
+   "after": "the IMF managing director's growth estimate appearing in the World Economic Outlook",
+   "reason": "people with their position"
+  },
+  {
+   "item": "D. Unknowns (C06-03)",
+   "before": "what the Moonshot claim letter says, which Reuters could not verify {C06-03}",
+   "after": "whether the allegations in the Moonshot claim letter are true, which Reuters could not verify {C06-03}",
+   "reason": "contradiction with the entry: Reuters saw the letter; it could not verify its contents"
+  },
+  {
+   "item": "Bulletin, para 2 (C05-06)",
+   "before": "now ask for higher returns and tighter structures, a repricing she calls healthy",
+   "after": "now ask for higher returns and look harder at deal structures, a repricing she calls healthy",
+   "reason": "stronger word: she said investors are 'looking at structures'"
+  },
+  {
+   "item": "Bulletin, para 3 (C07-09)",
+   "before": "and Bloomberg reports that Tencent's 5 billion dollar bond sale, which could price on Tuesday, will go mostly to AI chips.",
+   "after": "and Bloomberg reports that Tencent's planned 5 billion dollar bond sale, which could price as early as Tuesday, will help pay for AI spending, mostly on chips.",
+   "reason": "hedge: 'as early as' Tuesday; the money is mainly for general purposes such as AI spending, most of it on chips"
+  },
+  {
+   "item": "Bulletin, para 4, Our view (C05-06)",
+   "before": "who agree with the warnings of the last fortnight and call them good news.",
+   "after": "who agree with the warnings of the last fortnight and call the repricing healthy.",
+   "reason": "stronger word: she called the repricing 'healthy'; matches the Full Report fix"
+  },
+  {
+   "item": "Bulletin, para 5, item 1",
+   "before": "1. Tuesday 13 October: the IMF's World Economic Outlook and stability report, by Georgieva's own words to Reuters;",
+   "after": "1. Tuesday 13 October: the IMF's World Economic Outlook, by Georgieva's own words to Reuters, and its stability report, by the Fund's own pages as checked on 10 October;",
+   "reason": "source of a date: Georgieva named only the outlook; the stability report's date comes from the Fund's pages checked on 10 Oct, as the Full Report says"
+  },
+  {
+   "item": "Bulletin, para 5, items 3 and 4",
+   "before": "are not confirmed by the companies. 4. 3 November: the US midterms, with data centres on more than 30 local ballots by WIRED's count.",
+   "after": "are not confirmed by the companies; the Fed sets the cost of the borrowing behind the build, and the results show whether the spending plans hold. 4. 3 November: the US midterms, with data centres on more than 30 local ballots by WIRED's count, a test of how far local opposition can limit where the build goes.",
+   "reason": "structure: each watch item needs its reason to watch (brief, Bulletin item 5); items 3 and 4 had none"
+  },
+  {
+   "item": "2. People and society, para 3, Inference (C10-04, C10-05)",
+   "before": "with no terms disclosed, which is where the money in medical AI is going",
+   "after": "with no terms disclosed; drug development is where the money in medical AI is going",
+   "reason": "grammar after the previous fix: 'which' would point at the Lunit deal"
+  },
+  {
+   "item": "A. item 3",
+   "before": "Why: it is the first big company report on AI chip demand this season,",
+   "after": "Why: it is one of the first big company reports on AI chip demand this season,",
+   "reason": "'first' cannot be checked (ASML also reports this week, by the Korea Times entry); softened"
+  },
+  {
+   "item": "Bulletin, para 5, item 2",
+   "before": "from its own investor site, the first big report on AI chip demand this season,",
+   "after": "from its own investor site, one of the first big reports on AI chip demand this season,",
+   "reason": "'first' cannot be checked; matches the Full Report fix"
+  },
+  {
+   "item": "1. What AI can do now, para 1, Inference",
+   "before": "Inference: three measurements in one day say the same thing about agents: the gain is in the scaffolding around the model, not in the model, and the scaffolding is also where the inflation happens.",
+   "after": "Inference: three measurements in today's entries say the same thing about agents: what is built around the model decides the result, and it is also where the cost and the inflation come in.",
+   "reason": "inference did not follow: Vals found teams add little quality, which contradicts 'the gain is in the scaffolding'; the three items ran on 11 and 12 Oct, not one day"
+  },
+  {
+   "item": "1. What AI can do now, para 4, Inference",
+   "before": "the humanoid timetables now have quarters attached,",
+   "after": "the humanoid timetables now have dates attached,",
+   "reason": "the timetables are halves of years and Unitree's one to two years, not quarters"
+  },
+  {
+   "item": "3. Safety, security and law, para 2, Scenario (C12-02)",
+   "before": "while the US duty stays a warning,",
+   "after": "while the US duty stays without a written legal form,",
+   "reason": "the US task force said developers must report incidents; what is missing is a written legal form (our 11 Oct forecast 4), not a warning"
+  },
+  {
+   "item": "4. Infrastructure, para 2, Inference (C07-08)",
+   "before": "The money follows the openings, a doubled loan in Malaysia,",
+   "after": "The money follows the openings, a loan in Malaysia that may more than double,",
+   "reason": "hedge: Bridge is in talks to more than double the loan"
+  },
+  {
+   "item": "4. Infrastructure, para 2, Inference (C09-10)",
+   "before": "and 20 candidates for governor promising a pause.",
+   "after": "and at least 20 candidates for governor promising a pause.",
+   "reason": "number: WIRED says at least 20"
+  }
+ ],
+ "unresolved": [
+  "Dates the author says were checked on the web today cannot be rechecked here without browsing: TSMC on 15 Oct at 2 p.m. Taiwan time with revenue guidance of 44.6 to 45.8 billion dollars, the BLS schedule page (September CPI date), the Fed's 27 to 28 Oct calendar, the SK hynix date from a Herald Corp outlet against a UK broker's 28 Oct, Samsung's 8 Oct disclosure, and no Nvidia notice for 18 Nov. Left as written; each is labelled checked-today or not confirmed. Note: The Korea Times entry C07-02 itself gives SK hynix on 27 Oct and Samsung's call on 29 Oct and could be cited.",
+  "The Bulletin version is about 490 words against the brief's 'about 350'; not trimmed, since a cut is an editorial choice beyond a fact check.",
+  "Section 1, paragraph 4, Inference: 'cars that already drive themselves elsewhere' is not in entry C11-01 (it names Waymo, Wayve and Baidu as operators but not where they run); left as general knowledge.",
+  "Section 3, paragraph 3, Inference: 'which is where the practical regulation of this technology is being written first' is a broad judgement with no measure; left because it is labelled Inference.",
+  "A. item 8: 'Nvidia's results are where the buyers' borrowed money becomes the supplier's revenue' cites C05-05, which is Broadcom's chief, not Nvidia; left as a loosely cited inference.",
+  "Repeat mentions of people already identified in the same paragraph or section (Gates, LeCun, Smith, Altman, Chew, Musk, Burry, Georgieva in the Bulletin's watch list) carry no position again; every first mention and every Fact sentence now carries position and organisation.",
+  "Markets share line: recomputed section 5 at 9.4 percent of the words (printed 'about 10') and about 24 percent with the market material of forecasts 1 to 5 and watch items 1, 2, 3, 6 and 7 (printed 'about 24'); left as printed."
+ ]
+}

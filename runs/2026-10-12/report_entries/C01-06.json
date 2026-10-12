@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-06",
+ "v1_category": "MOD",
+ "headline": "OpenAI cut the API prices of two of its GPT-5.6 models, Luna by 80% and Terra by 20%, from 30 Jul 2026 and added a faster mode for its top Sol model.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: the announcement dates from 30 Jul 2026, more than ten weeks ago, and was re-dated into this window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and companies that build on OpenAI's models have paid less per use since 30 Jul 2026, but this is a more than ten-week-old announcement about the GPT-5.6 line, which OpenAI has since followed with GPT-6 models, and the efficiency claims are OpenAI's own.",
+ "source": "Stocktwits, citing OpenAI",
+ "status": "CONFIRMED",
+ "summary": "Stocktwits reports, citing OpenAI's announcement of 30 Jul 2026, that OpenAI lowered API rates (what developers pay per use) for GPT-5.6 Luna by 80%, to $0.20 per million input tokens and $1.20 per million output tokens, and for GPT-5.6 Terra by 20%, to $2 and $12, and added a 'Fast mode' that runs the top GPT-5.6 Sol model up to 2.5 times faster for priority business work. OpenAI credits better hardware routing, inference software and context caching for the savings, and says Sol itself rewrote production software code under human supervision, cutting serving overhead by 20 percent.",
+ "url": "https://stocktwits.com/news-articles/markets/equity/open-ai-slashes-api-prices-for-gpt-5-6-lineup-as-efficiency-gains-pay-off/cZN5OhrRJ25",
+ "freshness": "FOLLOW-UP of 30 Jul 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Older news re-dated from 30 Jul 2026. Read Stocktwits in full; the price cut is an OpenAI announcement carried by many outlets that day, the kernel-rewrite and efficiency claims are OpenAI's own."
+}

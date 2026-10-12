@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-10",
+ "v1_category": "RES",
+ "headline": "A team led by Princeton University's Ayush Khaitan says it has turned the proof of the Thurston Geometrization Conjecture, a landmark result about three-dimensional shapes, into code that a computer can check step by step.",
+ "score": 3,
+ "score_reason": "Lowered from 4: the 36Kr headline credits one student and a 'world's first', but the text names a team, and the result and the AI's share of the work come from one outlet's relay of the team's own post.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Mathematicians could gain a machine-checked, open-source library of differential geometry (the mathematics of curved spaces), but it rests on one outlet relaying the team's own post, no independent review is reported and the AI's role was not fully disclosed.",
+ "source": "Xinzhiyuan, republished by 36Kr, citing Ayush Khaitan",
+ "status": "PRELIMINARY",
+ "summary": "Xinzhiyuan, a WeChat account, reports in a piece republished by 36Kr, citing a post on X by Princeton's Ayush Khaitan, that his team has finished writing the proof into Lean, software that checks every step against basic logic, in about 4.7 million lines of code, roughly 2.7 million of them in about two weeks, and has published it openly on GitHub. The team includes Bennett Chow of the University of California San Diego and researchers from the chip company NVIDIA; the article calls the work a milestone for AI-assisted mathematics but says the AI's role was not fully disclosed, so its account of NVIDIA's part is the author's inference.",
+ "url": "https://eu.36kr.com/en/p/4022237394309254",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read 36Kr in full (fulltext copy); it republishes a WeChat piece by Xinzhiyuan (author David Aeneas), which relays Khaitan's post on X, so the source names that chain. No second outlet found and the GitHub project was not opened. The article is undated beyond 'Just now' (36Kr listing 12 Oct 2026), so the item is marked NEW."
+}

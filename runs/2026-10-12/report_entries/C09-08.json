@@ -1,0 +1,17 @@
+{
+ "item_id": "C09-08",
+ "v1_category": "ENE",
+ "headline": "Automated web traffic from Russia's Yandex network has fallen almost to zero after Ukrainian drone strikes on its data centres, Cloudflare says.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: this continues the Yandex story we carried on 8, 10 and 11 Oct, and the title's 'overnight' overstates a fall the article spreads over several days; the new part is the measured traffic.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to people across Russia who rely on Yandex's search, cloud and other services, and to anyone who runs data centres near a war, since the figures give a measure of how much service was lost, but they come from one outlet citing Cloudflare and NetBlocks and the article does not say when service will return.",
+ "source": "Tom's Hardware, citing Cloudflare and NetBlocks",
+ "status": "REPORTED",
+ "summary": "Tom's Hardware reports, citing Cloudflare, that automated web traffic from the network of Yandex, the Russian search and cloud company often called Russia's Google, has fallen to 0.4 percent of its two-week peak after three attacks since 8 Oct, which the outlet describes as Ukraine's apparent response to Russian strikes on Ukrainian data centres, and that Yandex Cloud's status page lists at least 84 services offline. New since our 11 Oct edition, which carried Reuters on the third strike, NetBlocks, an internet-monitoring group, says traffic has dropped to 30 percent for Yandex Cloud and 63 percent for Yandex LLC, most likely meaning slower or interrupted services for ordinary Russians.",
+ "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+ "freshness": "FOLLOW-UP of 11 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up to our 8, 10 and 11 Oct Yandex items although the chunk says follow_up false. The article is strike-focused (war, drones) but its subject is data-centre outage, so ENE is kept."
+}

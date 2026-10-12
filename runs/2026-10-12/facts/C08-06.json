@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-06",
+ "title": "Samsung is developing Z-NAND-O, Z-NAND-T, and Z-NAND-I for AI infra",
+ "source_used": "BigGo Finance (Sammy Fans original returned a Cloudflare block); TokenPost for the zNAND-O description",
+ "article_url": "https://finance.biggo.com/news/b7623a43-8055-468b-accd-5ca31aa645c8",
+ "fetched": true,
+ "key_facts": [
+  "Industry sources said on 12 Oct 2026 that Samsung is in early-stage development of three zNAND products: zNAND-O for on-device AI, zNAND-T for AI data centres and zNAND-I for AI inference.",
+  "Samsung has made no official announcement; the product-line expansion is reportedly settled internally.",
+  "zNAND-O was first unveiled at FMS 2026 in August and was shown as a mock-up; it stacks NAND vertically in 4 or 8 layers with through-silicon vias to shorten data paths.",
+  "zNAND-T aims at maximum bandwidth (the approach industry observers call High Bandwidth Flash); zNAND-I aims at maximum IOPS, useful for key-value caches in AI inference.",
+  "SK Hynix has a parallel AIN (AI-NAND) family of AIN P (performance), AIN D (density) and AIN B (bandwidth); zNAND-T corresponds to AIN B and zNAND-I to AIN P.",
+  "Mass-production timelines and detailed specifications have not been disclosed."
+ ],
+ "quote_evidence": [
+  "While the company has not made an official announcement, the direction of product line expansion has reportedly been solidified internally.",
+  "Samsung Electronics already showcased zNAND-O in mockup form at FMS 2026 to gauge market response.",
+  "While mass production timelines and detailed specifications have not been disclosed"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI makers are asking for storage tuned to different AI jobs; the products are early and unconfirmed by Samsung.",
+ "event_date": "12 Oct 2026 (report); zNAND-O shown Aug 2026",
+ "notes": "Sammy Fans (pool item) is behind a Cloudflare block. BigGo Finance rewrites the story from unnamed 'industry sources' and does not name the Korean outlet it draws on, so the chain is unclear. Sammy Fans spells the product Z-NAND; BigGo and TokenPost write zNAND."
+}

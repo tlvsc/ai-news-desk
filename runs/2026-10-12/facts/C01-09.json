@@ -1,0 +1,26 @@
+{
+ "item_id": "C01-09",
+ "title": "Huawei Noah's Ark Lab's Memento 3 Agent Clears All 25 ARC-AGI-3 Public Games With a Frozen Model",
+ "source_used": "Pandaily (citing QbitAI)",
+ "article_url": "https://pandaily.com/huawei-noahs-ark-lab-memento-3-arc-agi-3-public-set-code-world-model-frozen-claude",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from Huawei Noah's Ark Lab, University College London and other teams released Memento 3, an agent system that cleared all 25 games and 183 levels in the public set of ARC-AGI-3, the interactive benchmark from the ARC Prize, according to QbitAI.",
+  "ARC-AGI-3 drops an agent into unfamiliar pixel-style games without telling it the rules, the goal or what its actions do.",
+  "Memento 3 finished the public set in 7,518 actions against 17,135 for humans (about 44%), earning the maximum score of 100 on Relative Human Action Efficiency (RHAE).",
+  "The previous best on the public set, independent developer Sergey Rodionov's baseline1, also cleared every game but scored 99 using 8,347 actions.",
+  "The underlying model is not Huawei's: Memento 3 runs on Claude Opus 5 at its highest reasoning setting, with no weight updates or game-specific fine-tuning; the same model averages about 40.7 RHAE in the official ARC Prize harness.",
+  "These are public games; a perfect public score does not show how the system would do on hidden evaluation games.",
+  "Its 'Code as Model' design keeps a natural-language rulebook, compiles it into Python code that simulates the game, plans inside that simulator and rewrites both when reality disagrees; changes are tracked in Git.",
+  "On Atari Pong the code policy won three games 21 to 0 after learning from about 9,500 frames; the authors note exploration is token-heavy and messier real-world settings are untested."
+ ],
+ "quote_evidence": [
+  "The underlying model is not a Huawei model: Memento 3 runs on Claude Opus 5 at its highest reasoning setting, with no weight updates and no game-specific fine-tuning.",
+  "A perfect public-set score does not show how the system would fare on hidden evaluation games, where generalization is actually tested.",
+  "The same base model averages about 40.7 RHAE in the official ARC Prize harness, so the gain comes from the agent design around it."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Shows how much a well-built agent around an existing model can lift an AI reasoning score, but only on public games and on the authors' own report.",
+ "event_date": "Not stated; Pandaily article listed 12 Oct 2026.",
+ "notes": "The prefetched file was empty (the Pandaily page is built in the browser); the article text was read from the page's embedded data. Pandaily says the previous best public-set score was 99 (baseline1), while our 5 Oct 2026 edition carried 36Kr's report that He Kaiming's VISTA team scored 100 on all 25 public games with Claude Opus 5; neither outlet reconciles the two claims. The result is the authors' own, via QbitAI, with no outside review reported."
+}

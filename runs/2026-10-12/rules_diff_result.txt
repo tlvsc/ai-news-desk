@@ -1,0 +1,19 @@
+same      Article_phrasing_instructions_AIND_V1.txt
+same      Bulletin_V1_Rules_Structure.txt
+same      Cards_Master_Rules_Structure.txt
+same      Full_Report_V1_Rules_Structure.txt
+same      Headlines_Master_Rules_Structure.txt
+same      Headlines_prompt_for_comfy_json.txt
+CHANGED   STORAGE_STANDARD.txt: 6 lines out, 6 lines in
+    -FINAL PRODUCT SCAN LABELS — EFFECTIVE 11 OCTOBER 2026
+    -Rafael approved scan/version labels for final products only. New final products made by the ChatGPT V1 automation use _ChatGPT-V1 immediately before the file extension, or at the end when there is no extension. The exis
+    -This applies to the final daily pool, Full Report, Bulletin, numbered cards and the combined card image, and final Headlines video and subtitles. Examples: final_pool_date_ChatGPT-V1; Full_Report_11-10-26_ChatGPT-V1.pdf
+    -Keep daily_data_generated/YYYY-MM-DD and the existing pool of items, Full Report, Bulletin, cards and Headlines folders. Do not rename or move files already on Drive. The current Claude scan's _Claude-LV1.1 label is unc
+    -Supporting and internal filenames stay as they are, including Raw_pool_of_items, deduped_pool, mixed_pool_before_dedupe, basic_Pool_list_collected_ by_model, status files, logs, SQLite databases, locks, QA, source manif
+    +SCAN LABELS — EFFECTIVE 11 OCTOBER 2026
+    +From 11 October 2026 onward, Claude's scan adds _Claude-V1 to every file it saves, including cards. ChatGPT V1 adds _ChatGPT-V1 to its final products. Do not rename older files. New final products made by the ChatGPT V1
+    +The ChatGPT V1 final-product rule applies to the final daily pool, Full Report, Bulletin, numbered cards and the combined card image, and final Headlines video and subtitles. Examples: final_pool_date_ChatGPT-V1; Full_R
+    +Keep daily_data_generated/YYYY-MM-DD and the existing pool of items, Full Report, Bulletin, cards and Headlines folders. Do not rename or move files already on Drive. Claude's scan uses _Claude-V1 for every saved file, 
+    +ChatGPT V1 supporting and internal filenames stay as they are, including Raw_pool_of_items, deduped_pool, mixed_pool_before_dedupe, basic_Pool_list_collected_ by_model, status files, logs, SQLite databases, locks, QA, s
+    -This rule supersedes older filename examples only for the final-product producer suffix. It does not alter source lists, model settings, folder layout, the 09:00 schedule, production gates or publication permissions. Wo
+    +These rules supersede older filename examples only for the producer suffix within each scan's stated scope, for newly saved files from 11 October 2026 onward. It does not alter source lists, model settings, folder layou

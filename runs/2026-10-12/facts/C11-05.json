@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-05",
+ "title": "ZEST: Zero-shot embodied skill transfer for athletic robot control",
+ "source_used": "Interesting Engineering",
+ "article_url": "https://interestingengineering.com/ai-robotics/humanoid-robot-master-complex-movements",
+ "fetched": true,
+ "key_facts": [
+  "ZEST (Zero-shot Embodied Skill Transfer) is a reinforcement-learning framework from researchers at the RAI Institute and Boston Dynamics.",
+  "It learns whole-body movements from motion-capture data, ordinary single-camera video or keyframe animation, in one training stage before deployment.",
+  "The policy is trained entirely in simulation and transferred to real hardware without additional fine-tuning; each policy took about 10 hours (about 7,000 iterations) on one NVIDIA L4 GPU.",
+  "Tested on Boston Dynamics' Atlas, Unitree's G1 and Boston Dynamics' Spot: crawling, forward rolls, cartwheels, army crawling, breakdancing, dancing, soccer kicks, box climbing, and a continuous backflip and barrel roll on Spot.",
+  "The system is meant to reduce the controller tuning normally needed for each new skill.",
+  "Limits stated: only flat, nonslippery environments, and no demonstrated generalization to completely unseen movements.",
+  "Interesting Engineering's report ran on 12 Aug 2026; Science's listing of the paper is dated 13 Aug 2026."
+ ],
+ "quote_evidence": [
+  "Called zero-shot embodied skill transfer (ZEST), the system uses reinforcement learning to teach robots whole-body movements from human motion capture, video and animation data.",
+  "Tests on Boston Dynamics’ Atlas, Unitree’s G1 and Boston Dynamics’ Spot showed the robots could perform crawling, cartwheels, handstands, soccer kicks and other complex movements across different robotic body types.",
+  "The researchers say ZEST can simplify the path from human movement data to robotic control, but it remains limited to flat, nonslippery environments and has not yet demonstrated generalization to completely unseen movements."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A single training method taught very different robots acrobatic skills with less hand-tuning, but only on flat ground and only from the developers' own tests.",
+ "event_date": "12 Aug 2026 (Interesting Engineering report; Science listing 13 Aug 2026)",
+ "notes": "The Science page (science.org DOI scirobotics.aec7695) returned HTTP 403 and Tech Xplore showed a bot check, so the text read is Interesting Engineering's own report (12 Aug 2026). Journal name Science Robotics is taken from the DOI path and the Science listing. Older news re-dated: the study is two months old; score lowered by 2."
+}

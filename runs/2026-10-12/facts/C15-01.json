@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-01",
+ "title": "Thorium Clocks Start Ticking With Lasers",
+ "source_used": "Hackaday (article read in full); Nature paper page read for the date and abstract only",
+ "article_url": "https://hackaday.com/2026/10/11/thorium-clocks-start-ticking-with-lasers/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Vienna University claim a thorium-based clock that is self-regulating.",
+  "Hackaday says it is not necessarily more accurate than other atomic clocks.",
+  "Earlier thorium experiments needed another nuclear clock to supply a laser with precise enough properties.",
+  "Here a laser excites a thorium crystal and the crystal's output is used to adjust the laser.",
+  "If the laser drifts, the thorium nuclei absorb less light, which corrects the output frequency.",
+  "The source paper is in Nature; Hackaday says the research has promise for even more accurate results in the future."
+ ],
+ "quote_evidence": [
+  "Researchers at Vienna University claim to have a superior thorium-based atomic clock.",
+  "It isn’t necessarily more accurate than other atomic clocks, but it is self-regulating.",
+  "If the laser drifts, the thorium nuclei absorb less light, and that adjusts the output frequency to compensate."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A clock that corrects its own laser needs no second reference clock, a step toward more stable time standards (Hackaday: promise for more accurate results in the future).",
+ "event_date": "7 Oct 2026 (Nature online publication, per the Nature page; Hackaday does not give a date)",
+ "notes": "Hackaday article body is short and calls the device an atomic clock; the Nature page (doi 10.1038/s41586-026-11084-4, online 2026/10/07, 'A thorium-229 optical nuclear clock with feedback loop') calls it a nuclear clock and says it was compared with a Yb+ single-ion clock, with instability approaching 1e-15 over 1 day and several orders of magnitude improvement projected. Reader comments printed under the Hackaday article (nuclear vs atomic clock, 2-3 orders of magnitude) are not article text and were not used as facts. Event is 4 days before the 11 Oct window, so scored as stale."
+}

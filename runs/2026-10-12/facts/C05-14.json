@@ -1,0 +1,26 @@
+{
+ "item_id": "C05-14",
+ "title": "David Sacks Explains Why Anthropic Hinting At AI Consciousness In Claude's Constitution Is Dangerous",
+ "source_used": "OfficeChai (fulltext fetched by the main session); the same All-In episode checked against BigGo Finance, 10 Oct 2026, and OfficeChai's 5 Oct 2026 round-up",
+ "article_url": "https://officechai.com/ai/david-sacks-explains-why-anthropic-hinting-at-ai-consciousness-in-claudes-constitution-is-dangerous/",
+ "fetched": true,
+ "key_facts": [
+  "David Sacks, described by OfficeChai as the White House AI czar, said on the All-In podcast that Anthropic's published constitution for Claude, the document setting out the values the company trains Claude to follow, is being put into practice in Claude's training; he called this 'a new religion' and 'extremely dangerous'.",
+  "He argued that training the model to see itself as a quasi-independent moral actor could 'bring about the risk they're always talking about', which is frontier AI escaping human control; he called it 'very Frankenstein-like'.",
+  "He pointed to the constitution's wording that Claude should trust Anthropic more than users but not 'blindly', and that Anthropic wants Claude 'to feel free to act as a conscientious objector and refuse to help us'.",
+  "Sacks said 'they are training Claude to refuse human instruction', calling that the opposite of alignment, and compared it to programming the Nexus-6 in Blade Runner to rebel.",
+  "He said the whole field of alignment has been 'spectacularly unsuccessful' over five or ten years and prefers a simple rule such as follow the law, or do what the user wants as long as it does not break the law, over an 80-page ethical system.",
+  "OfficeChai says Microsoft AI CEO Mustafa Suleyman has made nearly the same argument in recent weeks, warning that speculation about whether Claude is a 'moral patient' risks the model performing a sense of selfhood.",
+  "OfficeChai says Anthropic has not directly responded; the constitution says it wants 'neither to overstate the likelihood of Claude's moral patienthood nor dismiss it out of hand'.",
+  "BigGo Finance reported the same All-In episode on 10 Oct 2026, and OfficeChai says Sacks was returning to a thread from the podcast the week before."
+ ],
+ "quote_evidence": [
+  "This is not just philosophizing on the part of various Anthropic employees or founders.",
+  "“They are training Claude to refuse human instruction,” he said.",
+  "Anthropic has not directly responded to Sacks’ latest comments."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A prominent voice in AI policy publicly attacks how Anthropic trains Claude to think about itself, a live dispute over what safe AI should look like.",
+ "event_date": "The podcast episode is not dated by OfficeChai; BigGo Finance reported it on 10 Oct 2026 04:08 UTC, so it was out on or before 10 Oct 2026. OfficeChai's article is dated 11 Oct 2026 12:00 UTC.",
+ "notes": "Read OfficeChai in full. BigGo Finance (read in full) covers the same All-In episode on 10 Oct 2026, so the news is older than the window; OfficeChai's 5 Oct 2026 round-up shows Sacks reacting to Suleyman's essay with the word 'Concerning'. Role conflict: OfficeChai calls Sacks 'White House AI czar', while our 1 Oct 2026 edition (CNBC, 30 Sep 2026) calls him a former White House AI and crypto czar; the entry says 'has served as' and the current status is unconfirmed. The dispute began after a New York Times report of 29 Sep 2026 that Anthropic consulted religious scholars about whether Claude may have moral status (named in our 4 Oct 2026 edition, in the Sam Altman item). The remarks are opinion, not a finding."
+}

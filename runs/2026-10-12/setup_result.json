@@ -1,0 +1,34 @@
+{
+ "rules": {
+  "Full_Report_V1_Rules_Structure.txt": "ok",
+  "Bulletin_V1_Rules_Structure.txt": "ok",
+  "Article_phrasing_instructions_AIND_V1.txt": "ok",
+  "Cards_Master_Rules_Structure.txt": "ok",
+  "Headlines_Master_Rules_Structure.txt": "ok",
+  "Headlines_prompt_for_comfy_json.txt": "ok",
+  "AIMD_LV1_Adverts_Automation_Skill_V1.md": "ok",
+  "STORAGE_STANDARD.txt": "ok"
+ },
+ "rules_diff": "same except STORAGE_STANDARD.txt (changed: the 11 Oct 2026 final-product scan label section is reworded; Claude scan now adds _Claude-V1 to every file it saves, including cards; older files not renamed)",
+ "build_pdf": {
+  "ok": true,
+  "md5": "5b5869e51313b19e0b5554b2f890cae5",
+  "bytes": 42113
+ },
+ "archive14": {
+  "2026-09-28": "84492 bytes",
+  "2026-09-29": "142342 bytes",
+  "2026-09-30": "180175 bytes",
+  "2026-10-01": "192015 bytes",
+  "2026-10-02": "105595 bytes"
+ },
+ "notes": [
+  "AIMD_LV1_Adverts_Automation_Skill_V1.md found by name: id 124MVq-0ZTmlouD693MBb1j5diBTAn9pp (29140 bytes, modified 2026-10-02); older _old and _old_2 copies on Drive ignored.",
+  "build_pdf.py: the id 1elDaskuqhSG1CVvdapSe8NNwhGMX6ImH is the file itself (parent folder is 1iRaijMw70GHdDEWJ4P4CL_onCPMrBcRX), md5 and size match.",
+  "2026-10-02 had no .md on Drive: text extracted with PyMuPDF from Full_Report_2-10-26.pdf (id 1aQaKODcIX7zI-46DeWVoKR3DkTsilbNS, 249756 bytes, 31 pages, 88 Source lines) into archive14/2026-10-02.md, PDF kept in archive14_pdf/.",
+  "2026-09-29 had two builds: used the newest (id 1biWVYyhyXcNSvv-nJZLkxg3eZyMsx3ST, 142342 bytes); the older 1SCkkBqtQ1uU5wUPXEG0TzHrbhyxR0m0M (80463 bytes) is marked _superseded on Drive, not used.",
+  "28 Sep, 30 Sep, 1 Oct: one .md build each (ids 1DY9PqEFwcVkR5aecQGRQmk-LtdAik-bR, 1wOf5baRhZby0_SJqXDsnHYds6UxHgdBm, 14xsQ2rWAd8k8npbEuQMasjbfovscmj3n). No GAP in 28 Sep to 2 Oct.",
+  "Drive was only read; nothing created, edited or moved.",
+  "STORAGE_STANDARD (modified 11 Oct 18:30 UTC) is the only changed rule file: it now says Claude scan files get _Claude-V1 from 11 Oct; repo delivery_manifest.py already uses RUN_LABEL Claude-V1, so no disagreement."
+ ]
+}
