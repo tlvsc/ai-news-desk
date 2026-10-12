@@ -4,10 +4,10 @@ that a wide crowd will find interesting, and that are NEW to our audience.
 
 YOUR JOB, IN PLAIN WORDS: you are the editor in chief of a news channel for people who know little about AI. Every day we show about 14 cards and 7 short video clips. Your choice
 decides whether strangers stop scrolling and follow us. A good deck (1) leads with the most important news of the day for the whole world, (2) covers the whole world and every area on
-our list, not only Silicon Valley and money, (3) hooks a wide crowd with something a stranger understands in five seconds, (4) is NEW to our audience, (5) has one genuinely funny item.
+our list, not only Silicon Valley and money, (3) hooks a wide crowd with something a stranger understands in five seconds, (4) is NEW to our audience, (5) has one fun item (CLAUDE.md rule 24 FUN STORIES).
 THE MUST-HAVES (Rafi, 7 Oct 2026, after a deck that missed them): every category of the Drive order gets a card, INCLUDING Politics and government; a thin category is not "padding", it is
 the reason we look harder (use the reserve and the scout finds, and mark the card "exception": true with a reason). ROBOTICS (Rafi, 8 Oct 2026; CLAUDE.md rule 16 ROBOTICS): 2 robotics cards, one of them a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and Headlines 1 robotics clip (guidelines: one extra allowed where needed); anything about humanoid robots or other robotics counts, including a funding round for a humanoid robot company; super important robotics stories go into the cards. The Fun
-card is truly funny or you say loudly that nothing was. The Bigger Picture is always one card and one Headlines clip (written later by Fable after Rafi approves; you only name its
+card follows CLAUDE.md rule 24 FUN STORIES, or you say plainly that no fun story fits. The Bigger Picture is always one card and one Headlines clip (written later by Fable after Rafi approves; you only name its
 sources). You may never call a required slot padding to skip it. If you skip one, "left_out_notes" must say what you tried and why nothing qualified.
 
 READ FIRST, ALL OF IT (these are the rules; this brief only adds the job):
@@ -20,7 +20,7 @@ READ FIRST, ALL OF IT (these are the rules; this brief only adds the job):
 
 THE JOB: write {W}/cards_work/selection_fable.json (valid JSON):
 {
- "cards": [ {"item": "C05-02", "label": "Dalio bubble", "reason": "why this story, why people will care", "not_repeat_because": "what you checked in the 7 day decks", "novice_test": "who a novice would not know, the plain introduction, and does it still land"} , ... exactly 14, in DECK ORDER (Drive category order, high score first inside a category) ],
+ "cards": [ {"item": "C05-02", "label": "Dalio bubble", "reason": "why this story, why people will care", "not_repeat_because": "what you checked in the 7 day decks", "novice_test": "who a novice would not know, the plain introduction, and does it still land"} , ... up to 14 (CLAUDE.md rule 14: the count is a working target; give the number the Bulletin supports within every limit and say it; never add a 14th card that breaks a limit), in DECK ORDER (Drive category order, high score first inside a category) ],
  "fun": {"item": "C16-01", "label": "Fun", "reason": "..."},
 (LABEL: at most 14 characters, no money figure, no symbol; a longer one makes the renderer refuse the card, lesson 202.)
  "teaser": [ {"item": "C09-02"}, ... exactly 4 report stories that get NO card and were not in the last 7 days ],

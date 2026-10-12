@@ -148,7 +148,7 @@ steps 3 (script check), 5 and 6 again (rename replaced outputs `_old`), and show
 
 ### 8. Deliver (after approval)
 1. Send in groups of 10 files per message, never a zip (Rafi, 12 Oct 2026, CLAUDE.md rule 24: "groups of 10 is easier for me to download"): every card in order (I01 cover to the closing), the contact sheet with the last group, then the Headlines JSON on its own. One line: the 4 second voice sample must be in ComfyUI/input.
-2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products):
+2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `delivery_manifest.py --part B` only for the `_Claude-V1` file names and send the files in chat as step 1 says. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026):
 ```
 python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
 ```
