@@ -70,6 +70,7 @@ not about which project it is.
    starts part B by itself. Both live ONLY in this repo on branch claude/eager-archimedes-ajnex3:
    never on Drive and never merged to main, so ChatGPT and other tools never see them (a second
    source of truth), and they run only in a Claude session connected to this repo.
+   Exception (Rafi, 12 Oct 2026, his words: "backup stays in repo for now"; "not in drive . repo and download folder"; "drive causes confusions"): backups of Claude's local video scripts are kept in this repo under backup/<name>_<date>/ (first: backup/claude_part_b_2026-10-11, the scripts of the approved 11 Oct video) and in Rafi's PC Downloads folder for the local chat, never on Drive; a backup is not a rulebook, the lessons stay in docs/V1_TASKS.md. (Mine, not yours: the wording around his quotes.)
 10. BRANDING IS ADDED IN POST, NEVER GENERATED. MiniMax cannot reproduce a specific
     logo — it produces a different lookalike every render. Generate the set generic
     and overlay the real asset with ffmpeg. Set dressing and backgrounds are fine to
