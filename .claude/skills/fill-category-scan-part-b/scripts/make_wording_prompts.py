@@ -4,7 +4,7 @@
 
 Writes W/cards_work/{wording_common.txt, prompt_cards.txt, prompt_stranger_cards.txt} and
 W/headlines_work/{wording_common.txt, prompt_headlines.txt, prompt_stranger_headlines.txt, prompt_rules_headlines.txt}. Launch each agent with
-"Read <that prompt file> and follow it exactly." The wording agents run on the Fable model (Agent tool, model "fable").
+"Read <that prompt file> and follow it exactly." The writers run on Opus at max, the checkers on Fable at high (CLAUDE.md rule 25, Rafi 12 Oct 2026).
 """
 import argparse, glob, re
 from pathlib import Path
@@ -31,11 +31,11 @@ v = {'WORKDIR': W, 'EDITION': edition_dates(W)[0], 'PREV_CARDS': prev_cards, 'PR
      'PREV_SCRIPTS': ps or 'none found', 'PREV_LEADINS': ', '.join(f'"{x}"' for x in leadins) or 'none found'}
 fill = lambda name: re.sub(r'\{([A-Z_]+)\}', lambda m: str(v.get(m.group(1), m.group(0))), (B / 'briefs' / name).read_text(encoding='utf-8'))
 for sub, files in (('cards_work', (('wording_common.txt', 'wording_common.md'), ('prompt_cards.txt', 'wording_cards.md'),
-                                   ('prompt_stranger_cards.txt', 'stranger_cards.md'))),
+                                   ('prompt_stranger_cards.txt', 'stranger_cards.md'), ('prompt_check_cards.txt', 'check_cards.md'))),
                    ('headlines_work', (('wording_common.txt', 'wording_common.md'), ('prompt_headlines.txt', 'wording_headlines.md'),
                                        ('prompt_stranger_headlines.txt', 'stranger_headlines.md'),
                                        ('prompt_rules_headlines.txt', 'rules_check_headlines.md'),
-                                       ('prompt_rewrite_headlines.txt', 'rewrite_headlines.md')))):
+                                       ('prompt_rewrite_headlines.txt', 'rewrite_headlines.md'), ('prompt_check_headlines.txt', 'check_headlines.md')))):
     (W / sub).mkdir(exist_ok=True)
     for out, brief in files:
         (W / sub / out).write_text(fill(brief), encoding='utf-8')

@@ -1,6 +1,6 @@
 ---
 name: fill-category-scan-part-b
-description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from a Fable agent and the checks from Opus agents (CLAUDE.md MODEL POLICY), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
+description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from one writer per product (Opus at max) and one checker per product (Fable at high) (CLAUDE.md rule 25), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
 ---
 
 # Fill_category_scan_Part_B
@@ -84,57 +84,35 @@ cards_in_deck_order, teaser_items (3 to 4 stories without a card), headlines_sto
 Headlines Master, strongest card stories by score in deck order; the script prints it), headlines_fun, bp_refs (the
 entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection. Robotics (CLAUDE.md rule 16 ROBOTICS, Rafi 8 Oct 2026): 2 robotics cards, one a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and the Headlines 1 robotics clip. These counts are guidelines: one extra is allowed where needed.
 
-### 2. Wording (2 hard task agents in parallel, 25 to 40 minutes: start at once)
+### 2. Wording: one writer and one checker per product (Rafi, 12 Oct 2026: "split it! Opus at max writes, fable at high checks"; "we will try this option than change if we didnt like it"; CLAUDE.md rule 25)
 ```
 python3 $S/make_wording_prompts.py --workdir $W
 ```
-Launch both in ONE message with the Agent tool, model "fable" (CLAUDE.md MODEL POLICY and STORY CHOICE: Fable writes, Opus checks), run in background:
-`Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and
-follow it exactly.` They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_fable.json`.
-While they work, do step 5's cover (it needs no wording).
+Launch the two WRITERS in ONE message with the Agent tool, model "opus", effort "max", run in background:
+`Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and follow it exactly.`
+They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_final.json`, and each runs its own checking scripts
+(check_wording.py; for Headlines also check_headlines_rules.py) and fixes its own FAILs before handing back. Keep each writer's agent id:
+the same writer does the fix in step 3. While they work, do step 5's cover (it needs no wording).
 
-### 3. The plain English gate (script check, then stranger check)
-```
-cp $W/headlines_work/scripts_fable.json $W/headlines_work/scripts_final.json
-python3 $S/check_wording.py --workdir $W --cards $W/cards_work/cards_copy_fable.json --headlines $W/headlines_work/scripts_final.json
-```
-Fix every FAIL and shorten every clip marked long (story about 8 to 9 s, the news part about 90 s), keeping the old
-file as `_old`. Then two fresh hard task agents (model "opus" (CLAUDE.md MODEL POLICY), in parallel, a few minutes each), which see only the
-words: `Read $W/cards_work/prompt_stranger_cards.txt and follow it exactly.` and the same for
-`$W/headlines_work/prompt_stranger_headlines.txt`. Read `stranger_result.json` in both folders; apply or improve
-every fix (check facts and hedges against the entry; never add a fact), run check_wording.py again until it says
-"all pass". 3 Oct 2026: 6 of 10 lines and 6 of 20 cards failed the first stranger check.
-REPLY STORIES (Rafi, 4 Oct 2026): the script fails a card or clip of a reply story (pool follow_up plus reply words in its entry) unless it says it
-is a reply AND names the earlier story ("Yesterday we carried a New York Times report: ...").
+### 3. The one check per product, then one fix (CLAUDE.md 8b item 7: one check round, one fix round)
+As soon as a writer hands back, launch its CHECKER (Agent tool, model "fable", effort "high", run in background):
+`Read $W/cards_work/prompt_check_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_check_headlines.txt and follow it exactly.`
+The cards checker does the stranger test, the card rules and the facts in one reading (`cards_work/check_result.json`). The Headlines
+checker does the stranger test, the read-aloud test, the Headlines rules and the facts in one reading, and also compares each line with
+its card when the card file exists (`headlines_work/rules_result.json`, which the build gate needs).
+If a checker flags anything, send its list (with its exact fixes) to the SAME writer (SendMessage to the writer's agent id): it fixes only
+those items, runs its scripts again and rewrites its file. Then the SAME checker confirms only the changed items (SendMessage). Whatever
+is still open after that goes to Rafi in step 7, marked, never hidden. The main session never writes or rewrites a line itself; Rafi's own
+wording is locked (list it in `$W/headlines_work/rewrite_request.json` under "locked").
+The build gate (build_pack.py, review_list.py) refuses to run unless check_wording.py, check_headlines_rules.py and the checker's
+rules_result.json are newer than the current scripts_final.json, so no edit can skip the checks.
+REPLY STORIES (Rafi, 4 Oct 2026): check_wording.py fails a card or clip of a reply story unless it says it is a reply AND names the earlier story.
+check_headlines_rules.py tests what a script can: deck order (A3), teaser from the teaser card (A5), ending and opening slot (A2), timing
+(B1), spoken introductions (B2a), introductions never the previous day's (G2), numbers as words (B3), no outlet spoken (G1.4),
+pronunciation cues, one company at most 2 story clips. check_wording.py also fails a Bigger Picture clip without "This is not financial
+advice" in the voice and on the screen.
 
-ONE CHECK ROUND, FOUR AGENTS AT ONCE (10 Oct 2026, lesson 201; the check chain took over an hour when the checks ran one after another): after check_wording.py passes, launch in ONE message the four Opus agents together: the cards stranger, the Headlines stranger, the Headlines rules agent (step 3b) and the fact check (step 4: `$B/briefs/factcheck.md`, written to `$W/cards_work/prompt_factcheck.txt` with {WORKDIR} replaced). Collect ALL their fixes into ONE `rewrite_request.json` (the cards block too) and run ONE Fable rewrite agent (3a). Rename the earlier result files `_old` before the agents write new ones. After the rewrite, run check_wording.py and check_headlines_rules.py, then the rules agent ONCE more on the lines that changed only (diff scripts_final.json against the copy made before the rewrite; copy the unchanged entries of rules_result.json). The gate (build_pack.py) refuses unless the rules agent saw the CURRENT lines.
-
-### 3a. Fixing a failing line (Rafi, 5 Oct 2026)
-The main session never writes or rewrites a Headlines line itself (on 5 Oct its own fixes were the most complicated lines).
-Failing lines go into `$W/headlines_work/rewrite_request.json` {"locked": [items in Rafi's own wording], "fail": {item: [reasons]}},
-then one hard task agent: `Read $W/headlines_work/prompt_rewrite_headlines.txt and follow it exactly.` Rafi's own wording is taken as
-given ("locked"). Then step 3 and 3b again. build_pack.py and review_list.py refuse to run unless check_wording.py and the rules
-agent passed on the CURRENT lines, so no edit can skip the checks.
-
-### 3b. Headlines rules recheck (Rafi, 4 Oct 2026; nothing goes to step 7 with a rules FAIL)
-```
-python3 $S/check_headlines_rules.py --workdir $W
-```
-It tests the Drive Headlines Master rules a script can test: deck order (A3), teaser only from the teaser card (A5),
-approved ending and the opening slot (A2), timing aim and clip maximum (B1, seconds as in CLAUDE.md CLIP SECONDS), spoken introductions (B2a), INTRODUCTIONS
-ROTATE, never the previous day's wording (G2), numbers as words (B3), no outlet spoken (G1.4), pronunciation cues and
-Google DeepMind (15 Sep), one company at most 2 story clips. Then one Opus agent (model "opus" (CLAUDE.md MODEL POLICY)):
-`Read $W/headlines_work/prompt_rules_headlines.txt and follow it exactly.` It checks every clip against every rule of the
-Headlines Master A, B, G and 15 Sep sections, the phrasing law 1, 1A, 1B and Cards Master Section 3 (company tags under
-100 billion dollars, WHO, WHAT, WHY, deed first, the robotics clip shows what the machine does) and writes
-`$W/headlines_work/rules_result.json`. Apply or improve every fix, then run step 3 and 3b again until both pass.
-4 Oct 2026: the brief itself fixed "In <category>" and "And a lighter story" as lead-ins, so six of eight repeated the
-previous day (rule G2), and Kawasaki had no tag (G1.2). The brief now points to the rules file and lists the previous
-day's introductions.
-
-### 4. Every factual claim against its entry (run inside the one check round of step 3, with the other three agents)
-`sed "s#{WORKDIR}#$W#g" $B/briefs/factcheck.md > $W/cards_work/prompt_factcheck.txt`, then the Opus agent: `Read $W/cards_work/prompt_factcheck.txt and follow it exactly.` It writes factcheck_result.json. Read each final card and line next to its report entry: same attribution, same hedge, same number. A stronger
-claim than the entry ("starts trading Monday" for "plans to, subject to approval") is rewritten.
+### 4. (Merged into step 3 on 12 Oct 2026: the facts are checked by each product's checker.)
 
 ### 5. Cards build
 ```
@@ -185,7 +163,7 @@ python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
    fixed before step 7, never sent for Rafi to judge (the rule is in the law; only wording choices are his).
 
 ## Gotchas (2 and 3 Oct 2026)
-- Fable writes well but slowly (25 to 40 minutes); a stalled agent gets one nudge with SendMessage, then a second
+- A writer or checker can be slow; a stalled agent gets one nudge with SendMessage, then a second
   agent. The stranger check is fast (about 5 minutes).
 - Clip length sets the speaking pace, not the prompt words: cut words, never ask for faster speech.
 - Never ask Rafi for what the record answers (the voice sample is on his PC; the JSON only names it).

@@ -163,7 +163,7 @@ not about which project it is.
     HEADLINES SHAPE: rule 22 (one sentence: who did what and why) and the model lines file; where the phrasing file allows a second sentence, rule 22 wins (Rafi, 11 Oct 2026). A fix is shorter and simpler, never longer (Rafi, 5 Oct 2026).
     WHO WHAT WHY FIRST (Rafi, 5 Oct 2026): the Headlines writer fills who, what and why for every clip before the line and writes the line from them
     (the why as rule 22 says; the old "why is not spoken" test is removed, Rafi 11 Oct 2026). The main session never rewrites a
-    line by hand: failing lines go to a Fable rewrite agent (Part B step 3a); Rafi's own wording is locked. The gate refuses the JSON
+    line by hand: failing lines go back to the same writer (Part B step 3; rule 25 replaces the Fable rewrite agent, Rafi 12 Oct 2026); Rafi's own wording is locked. The gate refuses the JSON
     and the review list unless the checks passed on the current lines.
     HEADLINES ORDER (Rafi, 5 Oct 2026, one source of truth): the order and choice of the seven clips are set ONLY by the Drive file
     Headlines_Master_Rules_Structure.txt (General order of categories, criticals lead, and Section A item 3). This repo never restates or
@@ -292,3 +292,5 @@ not about which project it is.
     NO TIME PRESSURE ON THE TEST: "we try it like this and decide today" (12 Oct 2026): the Headlines length wording of rule 22 and the model lines file stays as it is until he decides.
     "too complicated to explain in one sentence" (Rafi, 11 Oct 2026, about a fun story): a story that needs more than one sentence to explain does not become a clip.
     "not funny but definitely fun" (Rafi, 11 Oct 2026, the crab robot): fun counts, see FUN STORIES.
+25. CARDS AND HEADLINES WORDING: ONE WRITER AND ONE CHECKER PER PRODUCT (Rafi, 12 Oct 2026, his words: "split it! Opus at max writes, fable at high checks"; "for now use opus at max to write"; "we will try this option than change if we didnt like it"; his reason: "cards are level 6 out of 10 ... and headlines are level 5 out of 10, so maybe each product get a different writer and checker").
+    For the wording of the cards and the Headlines this replaces "Fable ... writes their wording" (STORY CHOICE) and, for that wording, "Opus does the checks" and the rewrite agent of MODEL POLICY; the choice of the stories stays as it is. Each writer runs its own checking scripts before handing back; each checker reads once (stranger, rules, facts; for Headlines also the read-aloud test and the match with the card); the same writer fixes once; then Rafi sees everything (Part B steps 2 and 3). (Mine, not yours: the wording around his quotes.)
