@@ -124,7 +124,7 @@ not about which project it is.
     Article_phrasing_instructions_AIND_V1 (Prompt Library / prompts); this repo never restates them. Every writer re-reads its
     Sections 1, 1A, 1B and its product section BEFORE EACH ITEM, and every item answers who, what and why. The writer and editor briefs follow that file.
     CLIP SECONDS (Rafi, 3 and 5 Oct 2026): count syllables (4.4 a second), round UP to the next half second, over the
-    Drive Headlines Master rule 1a (two decimals). The length limit is rule 22: aim 8 to 10 seconds, never over 12 (Rafi, 11 Oct 2026; the 5 Oct "max 10 sec" is replaced).
+    Drive Headlines Master rule 1a (two decimals). The length is rule 22: aim 8 seconds for every item, 10 acceptable when an item is long and cannot fit, 12 the hard limit (Rafi, 12 Oct 2026; the 5 Oct "max 10 sec" is replaced).
     CREDIT (Rafi, 3 Oct 2026): the source printed is always the outlet that reported the story, never
     a copy site that carries its text; if the article we read credits another outlet, the credit goes
     to that outlet. Headline only: take the story from another outlet that has it and credit it, or
@@ -183,7 +183,7 @@ not about which project it is.
     symbol; the Drive Headlines Master (15 Sep, item 3, and G3) keeps text-free symbols until Rafi says the test worked.
     REAL TV SCREENS (Rafi, 8 Oct 2026; replaces the TEST line above and the text-free symbol for every story, fun and teaser clip): each holographic screen shows a short
     realistic TV-news style scene of that story's subject, like a real TV (for example a humanoid robot factory for a robotics story); no readable words, numbers, logos or
-    real named faces; the Bigger Picture clip keeps its warning sign. PHOTOREALISTIC (Rafi, 10 Oct 2026, his words): "the holographic screen should be real photo realistic; give thought to how to portray the article well: what would a big news channel put as image or video for this item". FUN CLIP (Rafi, 8 Oct 2026): the fun clip explains the joke so it lands at once, set-up then punchline, facts only from the source.
+    real named faces; the Bigger Picture clip keeps its warning sign. PHOTOREALISTIC (Rafi, 10 Oct 2026, his words): "the holographic screen should be real photo realistic; give thought to how to portray the article well: what would a big news channel put as image or video for this item". FUN CLIP (Rafi, 8 Oct 2026): facts only from the source (the "explains the joke so it lands at once, set-up then punchline" part is removed for now, Rafi 12 Oct 2026; see rule 24 FUN STORIES).
     NO OLD NEWS (Rafi, 5 Oct 2026): the last stage of removing duplicates, before the Bigger Picture and the final Full Report, compares
     every report entry with the Full Reports of the 14 previous days in Drive (read only; Part A step 9b, check_dup14.py). Cards and
     Headlines take only what survives it. A meaningful update of an earlier story can be a card (CARD FILTER below).
@@ -277,6 +277,7 @@ not about which project it is.
     The structure, his words: "who made what? And why it matters, all in one sentence." His model line: "NVIDIA is reportedly in talks of buying AI firm Reflection, which could strengthen its position in open weights models. That's it."
     "Either no need for the end part or if so it must be impactful." "If the item makes an assumption it can say that: presumably..., might help..., can promote... and 1000 more options to say the why." "Why is company why isnt allowed?" "It's open weight model, not open AI model."
     Clip length, his words: "stay under 12 seconds maximum, but we aim for 10 ... we stick to 8 to 10 seconds. We can go up to 12 seconds max."
+    Clip length, his newer words (12 Oct 2026, these win): "shouldnt and cant are not the same limits! we aim for 8 seconed, 10 acceptable in case item is long and cant be fit in, 12 is hard limit ... so we are flexible with limits. but always aim for 8 second item."
     (Mine, not yours: the wording around his quotes, and this reading: rule 22 replaces the 10 second maximum of CLIP SECONDS in rule 16.)
     Every Headlines writer and checker reads .claude/skills/fill-category-scan-part-b/assets/headlines_model_lines.md (12 model lines from 26 Sep to 1 Oct and 11 Oct, and the rejected ones): Rafi's yes, 11 Oct 2026.
     The stranger check follows rule 22: a company reason or a careful guess is a why, and a line with no why passes when it is clear without one; the 5 Oct "why it matters to me or people like me" test is replaced (Rafi's yes to fixing the checker, 11 Oct 2026). (Mine, not yours: the wording of these two lines.)

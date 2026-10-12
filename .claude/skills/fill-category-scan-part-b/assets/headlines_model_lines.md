@@ -5,7 +5,7 @@ Rafi, 11 Oct 2026 (CLAUDE.md rule 22, his words): "who made what? And why it mat
 After seeing the 11 Oct lines: "Finally everything is perfect! You must retain the structure from now on!"
 
 ## The shape (Claude's summary of the lines below, mine, not Rafi's words)
-Introduction. WHO (name plus the few words a stranger needs) DID WHAT (one plain verb), WHY, in ONE sentence, 8 to 10 seconds, never over 12.
+Introduction. WHO (name plus the few words a stranger needs) DID WHAT (one plain verb), WHY, in ONE sentence; aim 8 seconds, 10 acceptable when the item is long, 12 the hard limit (Rafi, 12 Oct 2026).
 The why comes from the article and is one of four:
 1. their purpose: "to ...", "so ..."
 2. the cause: "as ...", "because ...", "after ..."
@@ -17,7 +17,7 @@ Spoken spelling stays: A I spaced, N-vidia and an-thropic cues, numbers as words
 
 ## The level (Rafi, 12 Oct 2026: "yesterday headlines level were perfect ... we will keep those settings as our constant")
 Measured on the ten approved 11 Oct lines (mine, not Rafi's words; the lines are the truth, these numbers only describe them):
-- About 22 words per line after the introduction (18 to 26), 8 to 10 seconds. One sentence.
+- About 22 words per line after the introduction (18 to 26), 8 to 9 seconds. One sentence.
 - Everyday short words: about 1.5 syllables a word, one or two long words per line at most. Reading ease about 61, which is plain English for adults.
 - One actor, one plain verb (says, wants, built, refused, is in talks), one why. One or two commas, no brackets, no lists, no numbers (numbers as words).
 - Hedges stay as an adjective or a verb ("reportedly", "says", "could"). People and companies come with a few words that say who they are.

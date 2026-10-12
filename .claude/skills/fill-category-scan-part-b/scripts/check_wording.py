@@ -81,7 +81,7 @@ REPLIES = reply_items(Path(a.workdir))
 _ph = (Path(a.workdir) / 'rules' / 'Article_phrasing_instructions_AIND_V1.txt').read_text(encoding='utf-8')
 _m = re.search(r'PRODUCT:headlines -->(.*?)<!--', _ph, re.S)
 if not _m: raise SystemExit('STOP: the Headlines section of the phrasing file is missing; fetch the current file (Part A step 0)')
-# syllables are the only measure of a clip; CLAUDE.md rule 22 (Rafi, 11 Oct 2026): aim 8 to 10 s, never over 12 s; no word cap
+# syllables are the only measure of a clip; CLAUDE.md rule 22 (Rafi, 11 Oct 2026): aim 8 s, 10 for a long item, never over 12 s; no word cap
 if a.cards:
     d = json.loads(Path(a.cards).read_text()); rows, si = [], []
     items = [(s['card'], s['head'], s['body'], 230) for s in d['stories']] + [(t['id'], t['head'], '', 0) for t in d['teaser']]
@@ -109,7 +109,7 @@ if a.headlines:
             miss = [f for f in ('who', 'what', 'why_for_people') if not str(rec.get(f, '')).strip()]
             if miss: p.append('missing ' + ', '.join(miss) + ' (fill who, what, why first, then write the line)')
             # the "why is not spoken" word test (why for ordinary people only) was Claude's, removed with CLAUDE.md rule 22 (Rafi, 11 Oct 2026)
-        if box > 12: p.append(f'{box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026: aim 8 to 10, max 12)')
+        if box > 12: p.append(f'{box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026: aim 8, 10 for a long item, max 12)')
         w = f' (long: aim 8 s)' if box > warn else ''
         bad += bool(p); print(f"{'FAIL' if p else 'PASS'} {k:7} {syl:3} syl {box:4} s{w} {'; '.join(p)}")
         si.append({'n': len(si) + 1, 'line': s})
