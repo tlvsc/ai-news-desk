@@ -38,7 +38,7 @@ slots.append({'slot': 9, 'kind': 'fun', 'category': 'Fun', 'item': f['item'], 's
               'source': entry(W, f['item'])['source']})
 t = fin['teaser']
 slots.append({'slot': 10, 'kind': 'teaser', 'category': 'Teaser', 'item': '; '.join(t['items']), 'symbol': t['screen'],
-              'script': t['script'], 'source': 'DAILY GLOBAL AI INTELLIGENCE REPORT'})
+              'script': t['script'], 'source': 'AI News Desk'})   # Rafi, 11 Oct 2026 (lesson 241): the teaser and our own analysis are credited AI News Desk
 b = fin['bp']
 slots.append({'slot': 11, 'kind': 'story', 'category': 'The Bigger Picture', 'item': 'desk analysis', 'symbol': b['screen'],
               'script': b['script'], 'source': 'AI News Desk'})
