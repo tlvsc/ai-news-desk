@@ -142,6 +142,10 @@ The fill refuses to overwrite: rename an earlier JSON `_old` first. C01 and C13 
 python3 $S/review_list.py --workdir $W
 python3 <part A>/scripts/save_state.py --workdir $W        # restart point before the wait
 ```
+DAILY LISTEN (Rafi, 12 Oct 2026, CLAUDE.md rule 28): FIRST, before the review list, write the spoken lines of every Headlines clip in clip order as plain
+text in the chat, in one message, for him to play by text to speech: "Clip one. <the spoken words>" and so on to the last clip, the fun, teaser and Bigger Picture
+named; no file, no bold, no ids, no dashes or other symbols, the words as the clip says them (A I, U S). He listens for about 90 seconds; that listen is a check.
+The Fable check of step 3 stays as well (Rafi: "For now, we keep both").
 Send Rafi the contact sheet (SendUserFile, display render) and, in the chat, the review list: every Headlines clip
 with the spoken words in bold and the holographic screen beside it, then the card wording. Ask for his approval or
 edits in one line. Do not send the cards or the JSON before his approval. Edits: change the wording files, then
