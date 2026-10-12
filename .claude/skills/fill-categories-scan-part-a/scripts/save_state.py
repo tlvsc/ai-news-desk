@@ -15,7 +15,7 @@ REPO = Path(__file__).resolve().parents[4]
 TEXT = ('*.json', '*.csv', '*.md', '*.txt')
 PARTS = ['run.json', 'held.json', 'qa1_problems.json', 'qa2_log_A.json', 'qa2_log_B.json', 'drops.json', 'dedupe_overrides.json',
          'url_fixes.json', 'bigger_picture.json', 'bigger_picture_bulletin.json', 'cards_copy.json', 'prompt_extra.json',
-         'report_ids.json', 'yesterday_pool.csv']
+         'report_ids.json', 'yesterday_pool.csv', 'rules_check.md', 'bigger_picture_card.json']
 DIRS = ['out', 'report_entries', 'facts', 'products', 'cards_work', 'headlines_work', 'rules', 'pool']
 
 

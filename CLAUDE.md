@@ -177,7 +177,7 @@ not about which project it is.
     that changes: the bodies and every other clip stay word for word, and the cards stay as they are (he overrode rule A3 on 6 Oct 2026).
     Headlines stories are chosen and worded for what matters to people all over the world: prefer a story that shows AI development
     affecting people over one that is mainly war or politics (6 Oct 2026: LG and Nvidia's AI car platform replaced the Ukraine gun
-    turrets). The fun clip must be funny at once for anyone (6 Oct 2026: Alexa stuck saying "la la la" replaced a comedian's sketch).
+    turrets). The fun clip follows rule 24 (FUN STORIES; Rafi, 12 Oct 2026, removed "funny at once").
     Every clip of the JSON is generated: bypass only the stored opening, the stored ending and the spare slot, never a clip Rafi did not
     ask to leave out. TEST (6 Oct 2026): clips 1, 5 and 8 show a short realistic video on the holographic screen instead of the glowing
     symbol; the Drive Headlines Master (15 Sep, item 3, and G3) keeps text-free symbols until Rafi says the test worked.
@@ -282,3 +282,12 @@ not about which project it is.
     The stranger check follows rule 22: a company reason or a careful guess is a why, and a line with no why passes when it is clear without one; the 5 Oct "why it matters to me or people like me" test is replaced (Rafi's yes to fixing the checker, 11 Oct 2026). (Mine, not yours: the wording of these two lines.)
 23. FUN CLIP FOR 12 OCT 2026 (Rafi, 11 Oct 2026, his words: "keep it for tomorrow"): the Apate story (AI bots that play the perfect victim and keep phone scammers talking for over two hours; WIRED, in the 11 Oct Full Report as C12-10) is the fun clip of 12 Oct.
     (Mine, not yours: the wording of this line, and this reading: NO OLD NEWS and the duplicate checks do not block this one story on 12 Oct, because he named it.)
+24. RAFI'S INSTRUCTIONS OF 11 AND 12 OCT 2026, HIS WORDS (rule 8; the wording around his quotes is Claude's):
+    CARDS IN GROUPS OF 10: "groups of 10 is easier for me to download" (12 Oct 2026). Cards are sent in groups of 10 files per message, in deck order (Part B step 8).
+    HEADLINES ITEMS MUST BE IN THE REPORTS: "items in headlines must appear in the pool, and bulletin and report (not necessarily in the cards)" (12 Oct 2026). pick_gate.py G4b checks it; the one exception is a fun clip Rafi names himself (rule 23).
+    FUN STORIES: "they can be either funny stories, or just fun to hear/see/experience for humans, or be mild sarcastic/cynical that are funny to think about (not sad sarcastic/cynical)" (12 Oct 2026). The old "funny at once" is removed. The crab robot story (11 Oct, not in the pool) was Rafi's own choice before this rule.
+    HOW CLAUDE EXPLAINS TO HIM: "explain to me like I am six years old", "simple English so I understand" (12 Oct 2026). Applies to every explanation given to Rafi.
+    HEADLINES LEVEL IS A CONSTANT: "yesterday headlines level were perfect ... so we will keep those settings as our constant" (12 Oct 2026). The level is the 11 Oct lines; its description is in assets/headlines_model_lines.md under "The level" (mine, not yours: the description).
+    NO TIME PRESSURE ON THE TEST: "we try it like this and decide today" (12 Oct 2026): the Headlines length wording of rule 22 and the model lines file stays as it is until he decides.
+    "too complicated to explain in one sentence" (Rafi, 11 Oct 2026, about a fun story): a story that needs more than one sentence to explain does not become a clip.
+    "not funny but definitely fun" (Rafi, 11 Oct 2026, the crab robot): fun counts, see FUN STORIES.

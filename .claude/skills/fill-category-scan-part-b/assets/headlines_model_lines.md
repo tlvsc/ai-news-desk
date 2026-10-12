@@ -15,6 +15,14 @@ The why is about whoever the story is about: a company story gets the company's 
 If nothing adds weight, end after the action, or add the one fact that is the punch ("and ...").
 Spoken spelling stays: A I spaced, N-vidia and an-thropic cues, numbers as words.
 
+## The level (Rafi, 12 Oct 2026: "yesterday headlines level were perfect ... we will keep those settings as our constant")
+Measured on the ten approved 11 Oct lines (mine, not Rafi's words; the lines are the truth, these numbers only describe them):
+- About 22 words per line after the introduction (18 to 26), 8 to 10 seconds. One sentence.
+- Everyday short words: about 1.5 syllables a word, one or two long words per line at most. Reading ease about 61, which is plain English for adults.
+- One actor, one plain verb (says, wants, built, refused, is in talks), one why. One or two commas, no brackets, no lists, no numbers (numbers as words).
+- Hedges stay as an adjective or a verb ("reportedly", "says", "could"). People and companies come with a few words that say who they are.
+- It sounds like an adult telling a friend the news, not like a headline and not like a child's story.
+
 ## The model lines
 From 11 Oct 2026 (approved word for word by Rafi):
 1. In politics. George Williamson, head of Britain's top A I institute, wants Britain to build its own A I, so no foreign power can switch it off. (purpose)

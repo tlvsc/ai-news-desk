@@ -1,6 +1,6 @@
 ---
 name: fill-category-scan-part-b
-description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from Opus agents (CLAUDE.md MODEL POLICY), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
+description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from a Fable agent and the checks from Opus agents (CLAUDE.md MODEL POLICY), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
 ---
 
 # Fill_category_scan_Part_B
@@ -47,6 +47,11 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
 4. The Headlines template is in the skill: `$B/assets/Aind_headlines_comfy_template_13slots.json` (13 slots, the
    29 Sep reference pair, Spectrum on; md5 bbbed6ed8496ee80f04288468f597aa5). The voice sample is NOT needed here:
    the JSON only names AIND_anchor_voice_sample_4s.wav, which Rafi keeps in ComfyUI/input on his PC.
+
+### 0b. A fun clip Rafi named from an earlier day (CLAUDE.md rule 23)
+If CLAUDE.md names a story from an earlier edition as the fun clip of THIS edition, bring it in before the picker runs, or the gate (pick_gate.py G1, "every id exists") refuses it:
+copy `runs/<that day>/report_entries/<id>.json` to `$W/report_entries/CP-<id>.json` and `runs/<that day>/facts/<id>.json` to `$W/facts/CP-<id>.json`, and set `"item_id": "CP-<id>"` inside both.
+The picker then sets ONLY `headlines_fun` to `CP-<id>` (the Fun card of the deck stays a pool story). Rafi named it, so NO OLD NEWS and the duplicate checks do not block it (rule 23).
 
 ### 0c. Lessons and rules check before anything is chosen (Rafi, 8 Oct 2026; mandatory)
 1. Read in full, before step 1: docs/V1_TASKS.md (every lesson, numbered, currently 1 to 130), CLAUDE.md (every rule),
@@ -164,8 +169,7 @@ edits in one line. Do not send the cards or the JSON before his approval. Edits:
 steps 3 (script check), 5 and 6 again (rename replaced outputs `_old`), and show the changed items only.
 
 ### 8. Deliver (after approval)
-1. Send, one file at a time, never a zip: the contact sheet, then every card in order (I01 cover to the closing),
-   then the Headlines JSON. One line: the 4 second voice sample must be in ComfyUI/input.
+1. Send in groups of 10 files per message, never a zip (Rafi, 12 Oct 2026, CLAUDE.md rule 24: "groups of 10 is easier for me to download"): every card in order (I01 cover to the closing), the contact sheet with the last group, then the Headlines JSON on its own. One line: the 4 second voice sample must be in ComfyUI/input.
 2. Drive (Rafi's standing yes of 3 Oct 2026 for the day's products):
 ```
 python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B

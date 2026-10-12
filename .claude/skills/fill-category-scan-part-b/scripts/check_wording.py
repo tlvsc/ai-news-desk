@@ -115,6 +115,10 @@ if a.headlines:
         si.append({'n': len(si) + 1, 'line': s})
     print(f'news part (7 stories, fun, teaser, Bigger Picture): {total} s; about 90 s is the target')
     (Path(a.headlines).parent / 'stranger_input.json').write_text(json.dumps(si, indent=1, ensure_ascii=False))
+if a.headlines:   # NOT FINANCIAL ADVICE (Rafi, 7 Oct 2026; script check asked by Rafi, 12 Oct 2026): the Bigger Picture clip says it aloud AND shows it on the screen
+    _bp = d['bp']; _no = [w for w, t in (('spoken line', _bp.get('script', '')), ('screen', _bp.get('screen', ''))) if 'not financial advice' not in t.lower()]
+    if _no: bad += 1; print('FAIL bp     "This is not financial advice" is missing from the ' + ' and the '.join(_no))
+    else: print('PASS bp     "This is not financial advice" is in the spoken line and on the screen')
 if a.headlines:   # stamp for the gate in common_b.rules_gate
     (Path(a.headlines).parent / 'wording_check.json').write_text(json.dumps({'fails': bad, 'file': str(a.headlines)}))
 print('RESULT', 'all pass' if not bad else f'{bad} to fix')

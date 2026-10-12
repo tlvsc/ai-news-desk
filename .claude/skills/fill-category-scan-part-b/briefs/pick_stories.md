@@ -14,7 +14,7 @@ READ FIRST, ALL OF IT (these are the rules; this brief only adds the job):
 1. {W}/rules/Cards_Master_Rules_Structure.txt, Sections 1, 2 and 3 (structure, category order, "a money heavy deck is a failure", robotics means a machine doing something, lead with the deed).
 2. {W}/rules/Headlines_Master_Rules_Structure.txt, Sections A and B (the 7 story clips come from the deck in deck order; fun; teaser; Bigger Picture).
 3. /home/user/ai-news-desk/CLAUDE.md, rule 16: CARD FILTER, CARDS FROM THE BULLETIN, NO UPDATE CARDS, NO REPEATS IN 7 DAYS, HEADLINES ORDER, HEADLINES INTROS AND FLOW (stories chosen for what matters to people
-   worldwide; prefer AI affecting people over mainly war or politics; the fun clip must be funny at once for anyone), and rule 17 (the Bigger Picture).
+   worldwide; prefer AI affecting people over mainly war or politics; the fun story follows CLAUDE.md rule 24, FUN STORIES), and rule 17 (the Bigger Picture).
    Where CLAUDE.md and a Drive file differ, CLAUDE.md wins (14 story cards from the Bulletin, not 15 from the report).
 4. {W}/cards_work/pick_pack.md: today's Bulletin candidates (cards come from here), the reserve list, and the cards and Headlines of the last 7 days. Also pick_pack.json (same data).
 
@@ -37,7 +37,7 @@ Rules of the choice:
 - Stories read in full only. Labels at most 15 characters, the second level of the category line.
 - Variety: not a money heavy deck (markets at most 2 or 3), no company on more than 3 cards, at most 2 per category; a robotics card shows a machine doing something.
 - Headlines clips: the Politics card is ALWAYS clip 1 when the deck has one (Rafi, 7 Oct 2026); then six more of the strongest cards, in deck order; prefer stories that show AI changing people's lives over mainly war or politics.
-- Fun: funny at once for anyone, NEW, never a repeat. If no Bulletin fun story is truly funny, say so in left_out_notes and take the best.
+- Fun (CLAUDE.md rule 24, Rafi, 12 Oct 2026): a funny story, or one that is just fun to hear, see or experience, or one that is mildly sarcastic or cynical and funny to think about (never sad sarcasm); NEW, never a repeat. If CLAUDE.md names a fun clip for this edition (rule 23), use it as headlines_fun (SKILL step 0b).
 - OUR READER IS A NOVICE IN AI, NOT A STUPID PERSON (Rafi, 7 Oct 2026): "the head of the biggest US bank says..." is enough for anyone to feel how important a story is. Judge importance for an intelligent adult; never drop a story because its names are unfamiliar.
 - NOVICE TEST (Rafi, 7 Oct 2026): our reader is a novice in AI, so every card says who, what and why. For every card write "novice_test": each person, company or product a novice would not know and the one plain line that introduces it (for example "Ray Dalio, a billionaire investor who runs the world's biggest hedge fund"). A famous or powerful name is a reason to KEEP a story, never a reason to drop it: introduce the name, do not avoid it.
 - You never write the card or Headlines wording; that comes after Rafi approves the list.

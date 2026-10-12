@@ -108,6 +108,9 @@ def gate(W):
     chk('G1 every id exists and is not held', all(i in ents and i not in hid for i in allids), str([i for i in allids if i not in ents or i in hid]))
     chk('G2 count: 14 story cards (15 allowed, one extra, Rafi 8 Oct 2026), 4 teaser items, 7 Headlines clips', len(cards) in (F['target'], F['target'] + 1) and len(tz) == 4 and len(hl) == 7, f'{len(cards)} cards, {len(tz)} teaser, {len(hl)} clips')
     chk('G3 no duplicate ids among cards', len(set(ids)) == len(ids), str([i for i in ids if ids.count(i) > 1]))
+    # Rafi, 12 Oct 2026 (CLAUDE.md rule 24): every Headlines item must be in the pool, the Bulletin and the Full Report (not necessarily on a card); a fun clip Rafi named (CP-...) is the one exception
+    _hl = [i for i in hl + [hfun] if not i.startswith('CP-')]
+    chk('G4b every Headlines item is in the Bulletin and the Full Report (so also in the pool)', all(i in bset and i in rset for i in _hl), str([i for i in _hl if i not in bset or i not in rset]))
     bad = [c['item'] for c in cards if c['item'] not in bset and not c.get('exception')]
     chk('G4 cards come from the Bulletin (an exception must be declared with a reason)', not bad, str(bad))
     for c in cards:

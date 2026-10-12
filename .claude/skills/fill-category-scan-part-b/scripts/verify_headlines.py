@@ -20,6 +20,10 @@ for s in range(1, 14):
     if n12['mode'] == 0:
         act.append((s, n13['widgets_values'][0])); t = n12['widgets_values'][0]; tone += TONE in t
         spoken = re.search(r'says exactly.*?"(.*?)" at', t, re.S).group(1)
+        if s == 11:   # NOT FINANCIAL ADVICE (Rafi, 7 Oct 2026): spoken AND on the screen, checked in the finished JSON
+            nfa = ('not financial advice' in spoken.lower(), 'not financial advice' in t.split('says exactly')[0].lower())
+            print('Bigger Picture clip: "not financial advice" spoken', nfa[0], '| on the screen', nfa[1])
+            if not all(nfa): dig.append('C11 not financial advice missing')
         if s != 1 and re.search(r'\d', spoken): dig.append(s)
 ok = all(x[1] <= 12 for x in act) and tone == len(act) and not dig and nodes[11]['widgets_values'][1] == 8
 print('active', [x[0] for x in act], '| seconds', [x[1] for x in act], '| longest', max(x[1] for x in act),
