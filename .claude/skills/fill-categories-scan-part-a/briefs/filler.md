@@ -7,3 +7,4 @@ Look in WORKDIR/candidates/cand_{NN}.json, the other WORKDIR/candidates/cand_*.j
 NOTES FOR TODAY (from Rafi through the main session; empty on most days; Rafi, 13 Oct 2026, lesson 217):
 {EXTRA}
 OUTPUT: a JSON array to WORKDIR/pool/cat_{NN}_extra.json, each element {"category_id":{CAT_ID},"rank":0,"backup":false,"title","summary" (one plain sentence restating only the headline),"source","url","published":"ISO UTC from pubDate","time_verified":true,"subcategory","importance":1-10 global consequence,"also_fits":[],"follow_up":false,"follow_up_of":null}. Validate with python json.load. Final message: one line, e.g. "cat {NN} filler: 1 written".
+Work only inside WORKDIR: never run git and never write files in the repo folder (chain fix, 13 Oct 2026).

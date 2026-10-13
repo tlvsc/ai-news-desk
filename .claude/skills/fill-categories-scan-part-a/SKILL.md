@@ -27,7 +27,7 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 
 ## Working with Rafi during the run
 
-- 8 Oct 2026 (Rafi): for today only, every helper job that says Sonnet runs on Haiku; Opus and Fable jobs do not change. Scripts are not changed during a run; fixes go in this text and in the list files.
+- Scripts are not changed during a run; fixes go in this text and in the list files (CLAUDE.md, Rafi 8 Oct 2026).
 
 - Replies: simple English, short numbered points, TTS friendly. No walls of text.
 - Before starting, say in one line: the edition date, the window, and anything structural that limits the run.
@@ -37,6 +37,16 @@ This skill holds the ORDER OF WORK and the tools. The RULES live in Drive and ar
 - Check twice, from different angles (steps 7 and 12), before calling anything done; report real numbers.
 - Nothing is published without Rafi's explicit approval. Nothing is written to Drive unless he clearly asks.
 - Nothing is deleted: superseded local files get `_old`.
+- CHAIN FIX (Rafi's yes of 13 Oct 2026; that day's run took 5 hours, lesson 277):
+  - No questions the rules answer: the clone (step -1), counts and cutoffs (CLAUDE.md rule 14) and starting Part B (step 13.4) are never
+    questions. Open items go into the delivery report as a short list; they never hold the run.
+  - Never look stopped: while helpers run, a turn ends only with one line of what is running and when it is due. A decision for Rafi
+    waits for the next real stop (Part B steps 1 and 7) unless a rule demands a stop now.
+  - Lean main chat (13 Oct: the main chat grew to 771 thousand tokens and every turn got slower): never read whole into the main chat
+    docs/V1_TASKS.md, a rules check, a pick pack, a story pack, a Drive rule file or a full report. Give them to the helper that needs
+    them, or grep the lines you need.
+  - Helpers work only inside W: every brief says so; a helper never runs git and never writes in the repo folder (13 Oct: 9 helper
+    files left in the repo and 5 git calls, which set off the unpushed commits warning after every turn).
 
 ## Paths
 
@@ -50,8 +60,11 @@ Every script takes `--workdir $W`. collect.py writes `$W/run.json` (edition and 
 ## Steps
 
 ### -1. Fresh clone check (Rafi, 9 Oct 2026; closes lesson 83 of 6 Oct, which repeated on 9 Oct)
-Before anything else: `git fetch origin claude/eager-archimedes-ajnex3`, then compare (`git status -sb`, `git log HEAD..origin/claude/eager-archimedes-ajnex3 --oneline | wc -l`). If the histories agree, `git pull --ff-only`. If they differ (a stale clone or a force-updated branch, 10 Oct 2026, lesson 163), NEVER rebase: back up the local state (`git branch stale_clone_old`), then `git reset --hard origin/claude/eager-archimedes-ajnex3`. If CLAUDE.md or this skill changed, read them again before any agent is launched, and again after ANY rule change during the run, before briefing the next agent (lesson 186).
-Also `pip install pymupdf` (a fresh container has none; make_pool_pdf.py fails on import without it, lesson 169).
+Before anything else, one command (chain fix, Rafi's yes of 13 Oct 2026; lesson 246): `bash /home/user/ai-news-desk/.claude/hooks/sync_repo.sh`.
+It fetches the whole branch and moves the copy forward only (never a reset, rebase or push), and installs PyMuPDF, Pillow and fontTools in the background. The SessionStart hook runs the same script by itself, so it usually says "up to date". Its one line decides:
+- "up to date" or "moved forward N commits": go on (after "moved forward", read CLAUDE.md and this skill again before any agent is launched). Do not ask Rafi anything about the clone.
+- "STOP": the copy has its own commits; tell Rafi in one line and wait. Never reset or force-push on your own.
+Every cloud chat since about 6 Oct started on an old shallow copy (6 Oct, c72b14e); "50 local commits against 56 on origin" is that old copy, not real work (13 Oct: 30 minutes lost, writers read old rules). Read CLAUDE.md and this skill again after ANY rule change during the run, before briefing the next agent (lesson 186).
 
 ### 0. Setup (one background agent, Drive read only)
 Fetch into `$W/rules/`: Full_Report_V1_Rules_Structure.txt, Bulletin_V1_Rules_Structure.txt and
@@ -170,7 +183,7 @@ and up). Read the "CHECK bulletin spread" line: a category with no story is stat
 ```
 python3 $K/make_prompts.py --workdir $W --stage edit
 ```
-Launch 2 background agents (model "opus", CLAUDE.md MODEL POLICY; `Read $W/prompts/edit_A.txt and follow it exactly.`, the same for edit_B). Read
+Launch 2 background agents (model "opus", effort "xhigh": CLAUDE.md MODEL POLICY, Opus 5.5 at extra high effort; `Read $W/prompts/edit_A.txt and follow it exactly.`, the same for edit_B). The same command writes edit_A_pack.md and edit_B_pack.md, so each editor reads its entries and facts in one file (chain fix, 13 Oct 2026). Read
 `$W/qa2_log_A.json` and `qa2_log_B.json`; act on every "unresolved" item (hold re-dated or duplicate stories in
 held.json; an unclear quote of a named person is kept only with its hedge, or held), then build again.
 
@@ -189,7 +202,7 @@ decided in Part B by the CARD FILTER of CLAUDE.md rule 16 (a meaningful update c
 (the AMD and World Labs deal had run on 29 Sep). The Bigger Picture is written after this stage, never before it.
 
 ### 10. The Bigger Picture
-One agent writes `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json`, following `$A/briefs/bigger_picture.md`; its model and effort are set ONLY by the BIGGER PICTURE MODEL line of CLAUDE.md, and the main session never writes it. Agent prompt: `Read $A/briefs/bigger_picture.md and follow it exactly; WORKDIR is $W; cutoffs: <report-min> and <bulletin-min>.`
+One agent writes `$W/bigger_picture.json` and `$W/bigger_picture_bulletin.json`, following `$A/briefs/bigger_picture.md`; its model and effort are set ONLY by the BIGGER PICTURE MODEL line of CLAUDE.md (currently: model "fable", effort "max", written into the Agent call), and the main session never writes it. Its second reader (brief item 4) reads `$W/prompts/bp_reader_pack.md` from `python3 $K/make_prompts.py --workdir $W --stage bp_pack`. Agent prompt: `Read $A/briefs/bigger_picture.md and follow it exactly; WORKDIR is $W; cutoffs: <report-min> and <bulletin-min>.`
 
 ### 11. Final build and PDFs
 ```
@@ -212,7 +225,7 @@ Fix, rebuild, and keep the replaced files as `_old`.
 1. Send Rafi in chat, one file at a time (SendUserFile, never a zip): the Full Report PDF, the Daily Bulletin PDF, the pool PDF,
    the pool CSV. Also send the LOW SCORE, HIGH REACH list that viral_sweep.py prints (CLAUDE.md VIRAL RULE: a 3 or 4 is not final for a story with wide reach) and the stories raised by the viral rule. Report in short numbered points: pool size, report and bulletin counts with their cutoffs and the
    bulletin's category spread, held back (re-dated, duplicates), read in full versus headline only, anything open.
-2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `delivery_manifest.py --workdir $W --part A` only for the file names, copy the final products and the pool files (Full Report PDF, Bulletin PDF, pool PDF, pool CSV, pool markdown, pool JSON) under the manifest's `_Claude-V1` names into `$W/for_rafi/`, and send them in chat one by one. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026, the one exception to rule 0):
+2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `python3 $K/delivery_manifest.py --workdir $W --part A --copy-to $W/for_rafi`: it copies only the final products and the pool files, as Rafi asked (Full Report PDF, Bulletin PDF, pool PDF, pool CSV, pool markdown, pool JSON), under their `_Claude-V1` names into `$W/for_rafi/` (chain fix, 13 Oct 2026); send the PDFs and the pool files in chat one by one. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026, the one exception to rule 0):
 ```
 python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent prompt products/drive_delivery_prompt.txt
 ```
@@ -224,7 +237,7 @@ python3 $K/delivery_manifest.py --workdir $W --part A        # list + the agent 
 ```
 python3 $K/save_state.py --workdir $W        # copies the working files into <repo>/runs/<edition> and pushes
 ```
-4. Then start part B at once with the Skill tool: `fill-category-scan-part-b`. Do not wait to be asked.
+4. Then start part B at once with the Skill tool: `fill-category-scan-part-b`, in the same turn as the delivery message. Do not wait to be asked and never ask "say go" (13 Oct 2026: 31 minutes lost).
 5. Write the run state into `<scratchpad>/HANDOFF_<edition>_run.md` at each stage, so a compaction loses nothing. The handoff is only a file to continue the work, never a source of truth (CLAUDE.md rule 21): every lesson goes into docs/V1_TASKS.md first, and the handoff points to it.
 6. Write every lesson of the run into `docs/V1_TASKS.md` (the one list of lessons to move to V1; Rafi, 4 Oct 2026).
 

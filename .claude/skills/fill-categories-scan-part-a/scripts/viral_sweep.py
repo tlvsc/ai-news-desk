@@ -9,7 +9,9 @@ is plainly not about AI (a false match), or the story already ran on an earlier 
 
 The sweep also prints the LOW SCORE, HIGH REACH list (pool score 4 or lower, 8 or more outlets) for Rafi to read with the delivery.
 Reads W/candidates/cand_*.json and W/candidates_55.json (title, source, link, published) and W/out/AIND_Pool_<edition>.json when it exists.
-Matching is by title words (a first version; V1 needs a real story identity).
+Matching is by title words (a first version; V1 needs a real story identity). The check matches a pool story by link first (any outlet of
+the cluster), then by the title of ANY outlet of the cluster, not only the first one (lessons 218b and 248: a false FAIL every day when the
+curator picked another outlet's title; chain fix, 13 Oct 2026).
 """
 import argparse, glob, json, re
 from pathlib import Path
@@ -131,7 +133,9 @@ def sweep(W):
         out.append({'title': rows[ids[0]]['title'], 'outlets': len(outlets), 'floor': FLOOR if len(outlets) >= THRESHOLD else 0,
                     'in_pool': pm['item_id'] if pm else None, 'pool_score': pm.get('importance') if pm else None,
                     'earlier': earlier_hits(T[ids[0]], runs) if len(outlets) >= THRESHOLD else [],
-                    'example_links': [rows[i].get('link') for i in ids[:3]], 'outlet_names': outlets[:40]})
+                    'example_links': [rows[i].get('link') for i in ids[:3]], 'outlet_names': outlets[:40],
+                    'member_links': sorted({rows[i].get('link') for i in ids if rows[i].get('link')}),
+                    'member_titles': sorted({rows[i]['title'] for i in ids})})
     out.sort(key=lambda x: -x['outlets'])
     for k, c in enumerate(out, 1):
         c['cluster'] = k
@@ -162,9 +166,16 @@ def check(W):
         if not c['floor'] or c['cluster'] in excluded:
             continue
         pm = next((p for p in pool if p['item_id'] == c['in_pool']), None) if c.get('in_pool') else None
+        if pm is None and c.get('member_links'):   # by link: the pool item's publisher or Google link is one of the cluster's links
+            links = set(c['member_links'])
+            hits = [p for p in pool if p.get('url') in links or p.get('google_url') in links]
+            pm = max(hits, key=lambda p: p.get('importance', 0)) if hits else None
         if pm is None:
             ptoks = [toks(p['title']) for p in pool]
-            pm = pool_match(toks(c['title']), pool, ptoks)
+            for t in [c['title']] + c.get('member_titles', []):
+                m = pool_match(toks(t), pool, ptoks)
+                if m and (pm is None or m.get('importance', 0) > pm.get('importance', 0)):
+                    pm = m
         pool_ok = pm is not None and pm.get('importance', 0) >= FLOOR
         entry_score = None
         if pm:

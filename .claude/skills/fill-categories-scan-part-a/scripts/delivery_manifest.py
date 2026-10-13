@@ -2,6 +2,7 @@
 
     python delivery_manifest.py --workdir W [--part A|B|all]         # prints the list and writes W/products/delivery_manifest.json
     python delivery_manifest.py --workdir W --check W/products/drive_delivery.json   # compares the agent's result with the list
+    python delivery_manifest.py --workdir W --part A --copy-to W/for_rafi   # copies the files Rafi uploads, under their Drive titles
 
 Destinations (Drive "AI News Desk — STORAGE & FILE ROUTING STANDARD", DAILY STORAGE, changed 9 Oct 2026; Rafi 11 Oct 2026: the Drive
 layout is the right one): daily_data_generated/<edition>/ with five product folders, each with its own supportive files:
@@ -51,6 +52,7 @@ def check_standard(W):
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('--workdir', required=True); ap.add_argument('--part', default='all', choices=['A', 'B', 'all'])
 ap.add_argument('--check'); ap.add_argument('--standard-only', action='store_true')
+ap.add_argument('--copy-to', help='copy the files Rafi uploads by hand (CLAUDE.md rule 26: only the final products and the pool files) under their titles')
 a = ap.parse_args()
 W = Path(a.workdir).resolve()
 check_standard(W)
@@ -77,7 +79,9 @@ if a.part in ('A', 'all'):
             continue
         add('Bulletin' if 'Bulletin' in f.name else 'Full Report', f)
     add('Full Report/supportive files', P / 'report_pdf.json'); add('Bulletin/supportive files', P / 'bulletin_pdf.json')
-    for f in (P / f'AIND_Pool_{short}.pdf', P / f'AIND_Pool_{ed}.csv', P / 'daily-pool.md'):
+    csv_ = P / f'AIND_Pool_{ed}.csv'   # build_pool.py writes the CSV to W/out (lessons 78, 257): use it when products/ has no copy
+    csv_ = csv_ if csv_.exists() else W / 'out' / f'AIND_Pool_{ed}.csv'
+    for f in (P / f'AIND_Pool_{short}.pdf', csv_, P / 'daily-pool.md'):
         add('pool of items', f)
     add('pool of items/supportive files', W / 'out' / f'AIND_Pool_{ed}.json')
 if a.part in ('B', 'all'):
@@ -94,6 +98,24 @@ brief = (Path(__file__).resolve().parent.parent / 'briefs' / 'drive_delivery.md'
                                             .replace('{{', '{').replace('}}', '}'), encoding='utf-8')
 for r in rows:
     print(f"{r['folder']:26} {r['title']:60} {r['bytes'] if r['bytes'] is not None else r['status']}")
+if a.copy_to:   # chain fix, Rafi's yes of 13 Oct 2026: no more copying by hand
+    import shutil
+    D = Path(a.copy_to); D.mkdir(parents=True, exist_ok=True)
+    def for_rafi(r):
+        n = Path(r['path']).name
+        return (r['folder'].startswith('pool of items') or n.endswith('.pdf') or r['folder'] == 'cards'
+                or (n.startswith('headlines_') and n.endswith('_VL1.json')))
+    done = 0
+    for r in rows:
+        if r['bytes'] is None or not for_rafi(r):
+            continue
+        q = D / r['title']
+        if q.exists() and q.stat().st_size != r['bytes']:
+            q.rename(q.with_name(q.stem + '_old' + q.suffix))   # never overwrite (CLAUDE.md rule 3)
+        if not q.exists():
+            shutil.copy2(r['path'], q)
+        done += 1
+    print(done, 'files ready for Rafi in', D)
 print(len(rows), 'files ->', out, '| agent prompt:', P / 'drive_delivery_prompt.txt')
 if a.check:
     done = {(x['folder'], x['title']): x for x in json.loads(Path(a.check).read_text())}

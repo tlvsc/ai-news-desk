@@ -82,13 +82,16 @@ def main():
                 best = (sc, d, ln)
         p = pool.get(k, {})
         if best[0] >= 0.5:
-            repeats.append((k, round(best[0], 2), best[1], bool(p.get('follow_up')), e.get('headline', '')[:80], best[2][:110]))
-    for k, sc, d, fu, h, ln in sorted(repeats):
-        print(f"{'FOLLOW-UP kept' if fu else 'REPEAT'}  {k}  {sc}  {d}  | {h}\n      earlier: {ln}")
+            shared = sorted(q & distinct(best[2]))
+            repeats.append((k, round(best[0], 2), best[1], bool(p.get('follow_up')), e.get('headline', ''), best[2][:400], shared))
+    # chain fix (13 Oct 2026, lesson 254): the full headline, the earlier line and the shared words, so each flag is judged from this
+    # printout alone, without opening files
+    for k, sc, d, fu, h, ln, shared in sorted(repeats):
+        print(f"{'FOLLOW-UP kept' if fu else 'REPEAT'}  {k}  {sc}  {d}\n      today:   {h}\n      earlier: {ln}\n      shared:  {', '.join(shared)}")
     rep = [r for r in repeats if not r[3]]
     print(f'{len(rep)} repeats, {len(repeats) - len(rep)} follow-ups kept')
     if a.hold:
-        for k, sc, d, fu, h, ln in rep:
+        for k, sc, d, fu, h, ln, shared in rep:
             held['duplicate'][k] = f'repeat of the {d} Full Report (14 day check)'
         (W / 'held.json').write_text(json.dumps(held, indent=1))
         print('written to held.json; run build_products.py again')

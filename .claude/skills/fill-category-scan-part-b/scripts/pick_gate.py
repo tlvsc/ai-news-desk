@@ -91,6 +91,11 @@ def pack(W):
     (W / 'cards_work' / 'pick_pack.md').write_text('\n'.join(md), encoding='utf-8')
     gaps = [d for d, v in decks.items() if not v]
     print(f'pack: {len(cand)} Bulletin candidates, {len(reserve)} reserve, decks of {7 - len(gaps)} of 7 days; no deck text for: {gaps or "none"}')
+    # chain fix (13 Oct 2026): the picker prompt is filled here, not by hand (13 Oct: the hand copy named a folder that did not exist)
+    pick_brief = (Path(__file__).resolve().parent.parent / 'briefs' / 'pick_stories.md').read_text(encoding='utf-8')
+    pick_ed = json.loads((W / 'run.json').read_text())['edition']
+    (W / 'cards_work' / 'prompt_picker.txt').write_text(pick_brief.replace('{W}', str(W)).replace('{EDITION}', pick_ed), encoding='utf-8')
+    print('picker prompt:', W / 'cards_work' / 'prompt_picker.txt', '(agent: "Read that file and follow it exactly.")')
 
 
 def gate(W):

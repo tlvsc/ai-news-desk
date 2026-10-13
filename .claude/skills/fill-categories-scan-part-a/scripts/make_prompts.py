@@ -3,8 +3,12 @@
     python make_prompts.py --workdir W --stage curate [--min 15] [--max 20] [--fun 10]
     python make_prompts.py --workdir W --stage fill --cat 13 --need 1
     python make_prompts.py --workdir W --stage write|edit
+    python make_prompts.py --workdir W --stage bp_pack       # step 12: the Bigger Picture second reader's pack
 
-Writes W/prompts/<stage>_NN.txt (edit: edit_A.txt, edit_B.txt; fill: fill_NN.txt). Launch each agent with the
+Writes W/prompts/<stage>_NN.txt (edit: edit_A.txt, edit_B.txt; fill: fill_NN.txt). PACKS (chain fix, Rafi's yes of 13 Oct 2026):
+the edit stage also writes edit_A_pack.md and edit_B_pack.md (every entry and facts file of that editor's ids, in one file, so an
+editor reads once instead of opening about 110 files), and bp_pack writes bp_reader_pack.md (the Bigger Picture files and every
+entry and facts file they cite). Launch each agent with the
 one-line prompt: "Read <that file> and follow it exactly." so the long text never enters
 the main conversation. Optional W/prompt_extra.json {"write": {"12": "extra instruction"}}
 adds a line for one category (for example a story that must be traced to its original outlet).
@@ -19,6 +23,24 @@ OTHER_CATS = ("models=1, products/apps/agents=2, dev tools/open source=3, resear
               "security/safety=12, policy/law=13, society=14, quantum=15, humor=16")
 
 
+def write_pack(W, out, ids, title, extra=()):
+    """One file with every entry and facts file of the given ids, read once by a checker instead of file by file."""
+    L = [f'# {title}: read this file ONCE. It holds the entry (what we publish) and the facts (what the article says) of every item.',
+         '# The files themselves stay in WORKDIR/report_entries and WORKDIR/facts: fix an entry in its own file, never here.', '']
+    for t, path in extra:
+        if Path(path).exists():
+            L += [f'## {t}', '', Path(path).read_text(encoding='utf-8'), '']
+    n = 0
+    for i in ids:
+        e, f = W / 'report_entries' / f'{i}.json', W / 'facts' / f'{i}.json'
+        L.append(f'## {i}')
+        L.append('ENTRY: ' + (json.dumps(json.loads(e.read_text(encoding='utf-8')), ensure_ascii=False) if e.exists() else 'MISSING'))
+        L.append('FACTS: ' + (json.dumps(json.loads(f.read_text(encoding='utf-8')), ensure_ascii=False) if f.exists() else 'MISSING'))
+        L.append(''); n += 1
+    out.write_text('\n'.join(L), encoding='utf-8')
+    return n
+
+
 def fill(template, values):
     return re.sub(r'\{([A-Z_]+)\}', lambda m: str(values.get(m.group(1), m.group(0))), template)
 
@@ -26,7 +48,7 @@ def fill(template, values):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--workdir', required=True)
-    ap.add_argument('--stage', required=True, choices=['curate', 'fill', 'write', 'edit'])
+    ap.add_argument('--stage', required=True, choices=['curate', 'fill', 'write', 'edit', 'bp_pack'])
     ap.add_argument('--min', type=int, default=15, help='curate: main picks that are enough (Rafi, 2 Oct 2026)')
     ap.add_argument('--max', type=int, default=20, help='curate: most main picks, only where there are plenty of good ones')
     ap.add_argument('--per-cat', type=int, help='old option: same as --min N --max N')
@@ -55,9 +77,22 @@ def main():
         written.append(p.name)
     elif a.stage == 'edit':
         t = (SKILL / 'briefs' / 'editor.md').read_text(encoding='utf-8')
+        ids = json.loads((W / 'report_ids.json').read_text(encoding='utf-8')) if (W / 'report_ids.json').exists() else {}
         for part in ('A', 'B'):
             p = W / 'prompts' / f'edit_{part}.txt'
             p.write_text(fill(t, dict(base, PART=part)), encoding='utf-8'); written.append(p.name)
+            n = write_pack(W, W / 'prompts' / f'edit_{part}_pack.md', ids.get(part, []), f'EDITOR {part} PACK')
+            print(f'edit_{part}_pack.md: {n} items')
+    elif a.stage == 'bp_pack':
+        bp = W / 'bigger_picture.json'
+        if not bp.exists():
+            raise SystemExit('no W/bigger_picture.json yet: run the Bigger Picture agent first (step 10)')
+        cited = list(dict.fromkeys(re.findall(r"\{(C\d\d-\d\d)\}", bp.read_text(encoding='utf-8'))))
+        extra = [('THE BIGGER PICTURE, FULL REPORT VERSION (bigger_picture.json)', bp),
+                 ('THE BIGGER PICTURE, BULLETIN VERSION (bigger_picture_bulletin.json)', W / 'bigger_picture_bulletin.json')]
+        n = write_pack(W, W / 'prompts' / 'bp_reader_pack.md', cited, 'BIGGER PICTURE SECOND READER PACK', extra)
+        print(f'bp_reader_pack.md: {n} cited items, {W / "prompts" / "bp_reader_pack.md"}')
+        return
     else:
         t = (SKILL / 'briefs' / ('curator.md' if a.stage == 'curate' else 'writer.md')).read_text(encoding='utf-8')
         for cid, (desc, crit) in cats.items():

@@ -1,6 +1,6 @@
 ---
 name: fill-category-scan-part-b
-description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from one writer per product (Opus at max) and one checker per product (Fable at high) (CLAUDE.md rule 25), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
+description: Fill_category_scan_Part_B. The AI News Desk daily run, part B, in a Claude Code cloud session on this repo - from the finished Full Report it chooses the cards (the story cards by the CARD FILTER of CLAUDE.md rule 16, plus Fun, teaser, Bigger Picture, cover and closing) and the 7 Headlines stories, gets the wording from one writer per product (Opus at normal effort, CLAUDE.md rule 27) and one checker per product (Fable at high) (CLAUDE.md rule 25), runs the plain English gate (script check and stranger check), shows Rafi the cards contact sheet and every Headlines line with its holographic screen, STOPS for his approval, then delivers every card and the Headlines ComfyUI JSON. Started by Fill_categories_scan_part_A when its products are delivered, or by Rafi to redo cards and Headlines.
 ---
 
 # Fill_category_scan_Part_B
@@ -18,7 +18,7 @@ CLAUDE.md (rule 0):
 - Headlines_Master_Rules_Structure.txt (Blueprint_Library / Headlines blueprint; take the file of that name)
 - Headlines_prompt_for_comfy_json.txt (Headlines Master Permanent Assets)
 - AIMD_LV1_Adverts_Automation_Skill_V1.md (Prompt Library / prompts, Drive 124MVq-0ZTmlouD693MBb1j5diBTAn9pp)
-- Article_phrasing_instructions_AIND_V1 (already in W/rules from part A): the ONLY place for reader levels and the writing shape (Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026); every writer re-reads it before each item.
+- Article_phrasing_instructions_AIND_V1 (already in W/rules from part A): the ONLY place for reader levels and the writing shape (Drive 16W6d7GpBFE0lPtNSgkx0MiyoNrv1s4Af since 5 Oct 2026); the Part B writers and checkers read it once, inside their story pack (CLAUDE.md rule 27).
 - CLAUDE.md rules 16 and 17 (counts, clip seconds, company caps, the Bigger Picture corner).
 
 ## Paths
@@ -29,10 +29,14 @@ W=<scratchpad>/run_<YYYY-MM-DD>                      # part A's folder of this e
 PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetched in step 0
 ```
 
+## Working with Rafi
+The CHAIN FIX lines of Part A ("Working with Rafi during the run") hold here too: no questions the rules answer, never look stopped while
+helpers run, a lean main chat (never read the lessons file, a pack or a rules file whole), helpers work only inside W.
+
 ## Steps
 
 ### 0. Setup (Drive read only; skip what is already in place)
-0. RESUME (a new session after the cloud machine was wiped): `git pull`, then
+0. RESUME (a new session after the cloud machine was wiped): `bash /home/user/ai-news-desk/.claude/hooks/sync_repo.sh` (Part A step -1), then
    `python3 <part A>/scripts/save_state.py --workdir <scratchpad>/run_<edition> --restore` rebuilds W from the repo copy
    `runs/<edition>` (report entries, facts, wording, pack, selection). Then continue at the first step whose output
    is missing: the cover and cards (step 5) and the JSON (step 6) are rebuilt in minutes; step 7 shows Rafi the
@@ -41,7 +45,7 @@ PKG=<scratchpad>/cards_pkg/AIND_Cards_2026-09-10       # the card renderer, fetc
    run `python3 <part A>/scripts/rules_diff.py --new $W/rules --old <last run>/rules`. Read every changed line.
 2. If `$PKG/aind_cards.py` is missing: download AIND_Cards_Implementation_2026-09-10.zip (Drive
    13Ic8tAb_IgWFUTWgrzmC0eLp4OxCzk3V, 4,398,696 bytes, md5 598989503fa221cebe87c04bac903854) and unzip it into
-   `<scratchpad>/cards_pkg/`. `pip install Pillow==12.3.0 fonttools==4.61.1` if missing.
+   `<scratchpad>/cards_pkg/`. Pillow 12.3.0 and fontTools 4.61.1 come from sync_repo.sh (Part A step -1); `pip install Pillow==12.3.0 fonttools==4.61.1` only if they are still missing.
 3. If missing: the approved cover base cards_13-9-26_I01_VL1_presenter_preview.png (Drive
    1sizbDjBLJB_7K-3uRzZ4S_xI2zpCjdIs, 1,219,821 bytes) into `<scratchpad>/cards_pkg/drive_refs/`.
 4. The Headlines template is in the skill: `$B/assets/Aind_headlines_comfy_template_13slots.json` (13 slots, the
@@ -53,14 +57,20 @@ If CLAUDE.md names a story from an earlier edition as the fun clip of THIS editi
 copy `runs/<that day>/report_entries/<id>.json` to `$W/report_entries/CP-<id>.json` and `runs/<that day>/facts/<id>.json` to `$W/facts/CP-<id>.json`, and set `"item_id": "CP-<id>"` inside both.
 The picker then sets ONLY `headlines_fun` to `CP-<id>` (the Fun card of the deck stays a pool story). Rafi named it, so NO OLD NEWS and the duplicate checks do not block it (rule 23).
 
-### 0c. Lessons and rules check before anything is chosen (Rafi, 8 Oct 2026; mandatory)
-1. Read in full, before step 1: docs/V1_TASKS.md (every lesson, numbered, currently 1 to 130), CLAUDE.md (every rule),
-   and the Drive rule and structure files in `$W/rules/`: Cards_Master_Rules_Structure.txt, Headlines_Master_Rules_Structure.txt,
-   Headlines_prompt_for_comfy_json.txt, Article_phrasing_instructions_AIND_V1.txt, Full_Report_V1_Rules_Structure.txt and
-   Bulletin_V1_Rules_Structure.txt. Fetch the Drive files again with drive_save.py (read only) if they are not in `$W/rules/`.
-2. Write `$W/rules_check.md`: one line per lesson and per rule that touches this run, saying how this run meets it, with the
-   evidence (file and count). A lesson or rule that does not apply is listed as "not applicable" with the reason.
-3. Where a Drive file and CLAUDE.md disagree, STOP and ask Rafi (CLAUDE.md rule 8a). Do not choose.
+### 0c. Lessons and rules check before anything is chosen (Rafi, 8 Oct 2026; mandatory; made incremental by the chain fix, Rafi's yes of 13 Oct 2026, lessons 262 and 272b)
+1. After the Drive rule files are in `$W/rules/` (step 0.1): `python3 $S/rules_delta.py --workdir $W`. It copies the newest saved check
+   (runs/<day>/rules_check.md) to `$W/rules_check_previous.md`, writes `$W/rules_delta.md` (every change since then in CLAUDE.md, the
+   lessons, the skills and briefs, and the Drive rule files) and the checker prompt `$W/rules_check_prompt.txt`.
+2. Launch ONE background helper (model "sonnet"): `Read $W/rules_check_prompt.txt and follow it exactly.` It writes `$W/rules_check.md`,
+   updated from the previous check: one line per lesson and per rule that touches this run, how this run meets it, with the evidence.
+   Launch it in the SAME message as the picker of step 1: the picker does not wait for it (lesson 262: 23 minutes idle on 12 Oct,
+   38 minutes on 13 Oct). The main session never reads docs/V1_TASKS.md, the rules check or the Drive rule files in full; it reads the
+   helper's one line and the CLASHES section. If the script prints FULL CHECK NEEDED, the helper gets the old full check once instead: `Read docs/V1_TASKS.md, CLAUDE.md, this skill
+   and the rule files in $W/rules in full and write $W/rules_check.md: one line per lesson and per rule that touches this run, how this run
+   meets it, with the evidence (file and count); a lesson or rule that does not apply is listed as not applicable with the reason; clashes
+   under CLASHES, never chosen.`
+3. Where a Drive file and CLAUDE.md disagree, STOP and ask Rafi (CLAUDE.md rule 8a). Do not choose. Bring the clashes with the story list
+   at the stop of step 1 (or, if the helper is later, at the stop of step 7); never end a turn on them while writers are running.
 4. Before step 7 (the sheet for Rafi), re-check every section of the work against rules_check.md: cards, card wording,
    Headlines, the JSON, the Full Report and the Bulletin text (no repeats, paragraph limits, a direct source link on every
    story, no internal wording for customers). Write a PASS or FAIL per section with evidence. A FAIL is fixed before Rafi
@@ -68,7 +78,7 @@ The picker then sets ONLY `headlines_fun` to `CP-<id>` (the Fun card of the deck
 5. Follow every step of this skill in order. Do not skip a step, a gate or an agent model named in it.
 
 ### 1. Choose the stories (Rafi's ruling of 9 Oct 2026: CLAUDE.md STORY CHOICE, CARDS FROM THE BULLETIN, NO UPDATE CARDS and CLIP SECONDS win over any older line of this skill)
-The stories are chosen by one Fable agent (brief briefs/pick_stories.md): `python3 $S/pick_gate.py pack --workdir $W`, the agent writes `$W/cards_work/selection_fable.json`, `python3 $S/pick_gate.py gate --workdir $W` must PASS, and Rafi approves the list BEFORE any wording is written. The card_candidates.py output below is the paper input (LEFT OUT list, repeats), not the choice.
+The stories are chosen by one Fable agent (brief briefs/pick_stories.md): `python3 $S/pick_gate.py pack --workdir $W` (it also fills the agent prompt `$W/cards_work/prompt_picker.txt`; agent: `Read $W/cards_work/prompt_picker.txt and follow it exactly.`), the agent writes `$W/cards_work/selection_fable.json`, `python3 $S/pick_gate.py gate --workdir $W` must PASS, and Rafi approves the list BEFORE any wording is written. The card_candidates.py output below is the paper input (LEFT OUT list, repeats), not the choice.
 ```
 python3 $S/card_candidates.py --workdir $W
 ```
@@ -84,16 +94,16 @@ cards_in_deck_order, teaser_items (3 to 4 stories without a card), headlines_sto
 Headlines Master, strongest card stories by score in deck order; the script prints it), headlines_fun, bp_refs (the
 entries the Bigger Picture card rests on). Show Rafi the LEFT OUT list with every selection. Robotics (CLAUDE.md rule 16 ROBOTICS, Rafi 8 Oct 2026): 2 robotics cards, one a humanoid robot story; the Bulletin holds 3 to 5 robotics stories and the Headlines 1 robotics clip. These counts are guidelines: one extra is allowed where needed.
 
-### 2. Wording: one writer and one checker per product (Rafi, 12 Oct 2026: "split it! Opus at max writes, fable at high checks"; "we will try this option than change if we didnt like it"; CLAUDE.md rule 25)
+### 2. Wording: one writer and one checker per product (CLAUDE.md rules 25 and 27)
 RULE 27 (Rafi, 12 Oct 2026, after 22 and 23 minute writers): the writers are Opus on normal effort and read one pre-loaded story pack once; the checkers stay Fable at high.
 ```
 python3 $S/make_wording_prompts.py --workdir $W
 ```
-Launch the two WRITERS in ONE message with the Agent tool, model "opus", NO effort setting (normal effort; CLAUDE.md rule 27, Rafi 12 Oct 2026, replaces "at max"), run in background. make_wording_prompts.py also writes `cards_work/story_pack.md` and `headlines_work/story_pack.md` (the phrasing rules once, then the entry and facts of every item): the writer reads its pack ONCE and writes everything in one pass, the target is minutes, not 20 minutes. If selection.json changes after the pack is made, run make_wording_prompts.py again before the writers start:
+Launch the two WRITERS in ONE message with the Agent tool, model "opus", effort "medium" (normal effort, CLAUDE.md rule 27, Rafi 12 Oct 2026: medium is the Opus 5.5 default; with no effort setting a helper may take the chat's own setting, which was extra high on 13 Oct), run in background. make_wording_prompts.py also writes `cards_work/story_pack.md` and `headlines_work/story_pack.md` (the phrasing rules once, then the entry and facts of every item): the writer reads its pack ONCE and writes everything in one pass, the target is minutes, not 20 minutes. If selection.json changes after the pack is made, run make_wording_prompts.py again before the writers start:
 `Read $W/cards_work/prompt_cards.txt and follow it exactly.` and `Read $W/headlines_work/prompt_headlines.txt and follow it exactly.`
 They write `$W/cards_work/cards_copy_fable.json` and `$W/headlines_work/scripts_final.json`, and each runs its own checking scripts
 (check_wording.py; for Headlines also check_headlines_rules.py) and fixes its own FAILs before handing back. Keep each writer's agent id:
-the same writer does the fix in step 3. While they work, do step 5's cover (it needs no wording).
+the same writer does the fix in step 3. While they work, do step 5's cover (it needs no wording). Each writer saves a full draft first (its brief says so; on 13 Oct pair 3 did it in 9 and 12 minutes); if a writer's file is still missing after 10 minutes, look at what it is doing and tell Rafi in one line.
 
 ### 3. The one check per product, then one fix (CLAUDE.md 8b item 7: one check round, one fix round)
 As soon as a writer hands back, launch its CHECKER (Agent tool, model "fable", effort "high", run in background):
@@ -153,7 +163,7 @@ steps 3 (script check), 5 and 6 again (rename replaced outputs `_old`), and show
 
 ### 8. Deliver (after approval)
 1. Send in groups of 10 files per message, never a zip (Rafi, 12 Oct 2026, CLAUDE.md rule 24: "groups of 10 is easier for me to download"): every card in order (I01 cover to the closing), the contact sheet with the last group, then the Headlines JSON on its own. One line: the 4 second voice sample must be in ComfyUI/input.
-2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `delivery_manifest.py --part B` only for the `_Claude-V1` file names and send the files in chat as step 1 says. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026):
+2. DRIVE UPLOAD IS RAFI'S FOR NOW (CLAUDE.md rule 26, Rafi 12 Oct 2026, newer than the standing yes of rule 0: "for now I do it, later we find an automated way"; "give me only the final products and the pool files"). Do NOT launch the Drive agent below. Run `python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B --copy-to $W/for_rafi`: it copies every card, the contact sheet and the Headlines JSON under their `_Claude-V1` names into `$W/for_rafi/` (chain fix, 13 Oct 2026); send them in chat as step 1 says. The older Drive text follows and is kept for when the automated upload exists (Rafi's standing yes of 3 Oct 2026):
 ```
 python3 <part A>/scripts/delivery_manifest.py --workdir $W --part B
 ```

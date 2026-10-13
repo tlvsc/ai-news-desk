@@ -36,9 +36,10 @@ endings A to D). Use today's report entries (WORKDIR/report_entries) plus earlie
    The markets cap of rule 5.5 does not apply to this corner (CLAUDE.md rule 17).
 
 3. Run build_products.py again; it says "Bigger Picture: included" and prints raw {C..} marks if any are left.
-4. A second reader checks every Fact against its report entry before the final build (step 12).
+4. A second reader checks every Fact against its report entry before the final build (step 12). Its input is one file: `make_prompts.py --workdir WORKDIR --stage bp_pack` writes WORKDIR/prompts/bp_reader_pack.md (both Bigger Picture files and the entry and facts of every cited item), read once instead of file by file (chain fix, 13 Oct 2026).
 
 5. WHAT COMES NEXT (Rafi, 7 Oct 2026; written by a Fable agent): do real work on the part that looks ahead. Find the scheduled events of the coming days and weeks that bear on the day's story
    (company earnings, votes, court dates, launches, regulator or data releases), using web search sparingly, and give each one its date and its source. Say plainly when a date is not
    confirmed. Explain why each one matters and what result would change the picture. Never invent a date. Every version ends with: "This is analysis of the news, not financial advice or an
    investment recommendation."
+Work only inside WORKDIR: never run git and never write files in the repo folder (chain fix, 13 Oct 2026).
