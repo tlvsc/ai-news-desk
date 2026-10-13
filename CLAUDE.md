@@ -312,4 +312,4 @@ not about which project it is.
     BIGGER PICTURE IN THE BULLETIN: "300-500 words is fine for now" (13 Oct 2026); "stick to whats necessary".
     DRIVE DUPLICATES CLAUDE MADE: "rename and move to archive!" (13 Oct 2026), as rule 3 says, never delete.
     LESSONS FOR THE REPO: "yes must!!! lesson are important to not repeat mistakes" (13 Oct 2026). The local chat ends its answers with a list headed LESSONS FOR THE REPO; Rafi passes it to the cloud chat, which writes each lesson into docs/V1_TASKS.md once.
-    DOWNLOADS: asked "should the local chat ask you before it downloads any file?", Rafi said "yes" (13 Oct 2026). Every Claude chat asks him first and names the file, where it comes from and its size.
+    DOWNLOADS: asked "should the local chat ask you before it downloads any file?", Rafi said "yes" (13 Oct 2026). The local chat asks him first and names the file, where it comes from and its size.
