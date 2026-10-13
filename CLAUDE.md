@@ -311,3 +311,4 @@ not about which project it is.
     ARTICLE: "article mean item, can be a headline or a full item" (13 Oct 2026). When he says article, it can mean a Headlines line, a card or a full report entry; ask which one only when it matters.
     BIGGER PICTURE IN THE BULLETIN: "300-500 words is fine for now" (13 Oct 2026); "stick to whats necessary".
     DRIVE DUPLICATES CLAUDE MADE: "rename and move to archive!" (13 Oct 2026), as rule 3 says, never delete.
+    LESSONS FOR THE REPO: "yes must!!! lesson are important to not repeat mistakes" (13 Oct 2026). The local chat ends its answers with a list headed LESSONS FOR THE REPO; Rafi passes it to the cloud chat, which writes each lesson into docs/V1_TASKS.md once.
