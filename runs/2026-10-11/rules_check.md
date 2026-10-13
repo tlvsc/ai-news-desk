@@ -567,6 +567,12 @@ Records, superseded or open items with no effect on today's Part B:
    Clash: the rules agent may fail a correct flowing line for G1.3 (the 7 Oct pattern of lesson 92).
    Fix A: rules_check_headlines.md: "G1.3 is read as plain words; the shape is the phrasing file's one flowing sentence (CLAUDE.md HEADLINES SHAPE)." Fix B: CLAUDE.md: "G1.3 applies; a clip is two short sentences, the second carrying the why." (wording mine, not yours)
 
+18. One plain recommendation against every option (added 13 Oct, lesson 276).
+   A: docs/V1_TASKS.md lesson 238(4) (from the local Part B session: "give one plain recommendation").
+   B: CLAUDE.md rule 1 (present ALL viable paths, each with what Rafi does, the risk and which one Claude recommends) and Rafi's OPTIONS preference (never withhold an option).
+   Clash: a reply with only one recommendation drops the other options rule 1 asks for.
+   Fix A: lesson 238(4): "give every option in one short line each, then one plain recommendation." Fix B: rule 1: "for small tasks give one plain recommendation; list all options only for big tasks." (wording mine, not yours)
+
 ### 2b. Stale brief and script lines against a newer CLAUDE.md line (scripts change only between runs, CLAUDE.md line 160)
 - SKILL.md line 3: "gets the wording from Opus agents (CLAUDE.md MODEL POLICY)" against STORY CHOICE line 153 (Fable writes) and SKILL step 2 (model "fable").
 - SKILL.md line 52: "every lesson, numbered, currently 1 to 130": the file now runs to 232 plus P1 and D lines.

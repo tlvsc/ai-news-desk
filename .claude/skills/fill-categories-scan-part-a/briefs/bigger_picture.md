@@ -29,7 +29,7 @@ endings A to D). Use today's report entries (WORKDIR/report_entries) plus earlie
   Print the share: 3 Oct 2026 was 15 percent.
 
 2. Bulletin: write WORKDIR/bigger_picture_bulletin.json {"title": "The Bigger Picture — Daily AI Analysis",
-   "paragraphs": [...]}, about 350 words, plain words, NO {Cnn-nn} citations (the Bulletin prints no item numbers):
+   "paragraphs": [...]}, 300 to 500 words, only what is necessary (Rafi, 13 Oct 2026: "300-500 words is fine for now"), plain words, NO {Cnn-nn} citations (the Bulletin prints no item numbers):
    (1) "A deeper look at today's Bigger Picture card: what is moving the market, and what to watch. The Full Report
    carries the full analysis." (2-3) "What moves the market today. Fact: ..." with attribution and hedges;
    (4) "Our view: ..."; (5) "What to watch and follow. 1. ... 2. ..." each with why it matters; (6) "Unknowns. ...".
