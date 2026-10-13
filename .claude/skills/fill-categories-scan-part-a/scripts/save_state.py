@@ -8,7 +8,7 @@ Copied: run.json, held.json, qa logs, out/*.csv and *.json, report_entries/, fac
 (media stays out of git, CLAUDE.md rule 9; the PDFs and cards are rebuilt from the JSON in minutes). Part A runs it after
 the final build and after delivery; Part B after the wording is final and at the approval stop.
 """
-import argparse, json, shutil, subprocess
+import argparse, json, os, shutil, subprocess
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[4]
@@ -51,11 +51,12 @@ for d in DIRS:
         n += copy_tree(W / d, R / d)
 size = sum(p.stat().st_size for p in R.rglob('*') if p.is_file())
 print(f'{n} text files, {size / 1e6:.1f} MB in {R}')
+SID = os.environ.get('CLAUDE_CODE_REMOTE_SESSION_ID', '').replace('cse_', 'session_', 1)  # this session's link, never a hard-coded old one (lessons 228, 257)
 subprocess.run(['git', 'add', str(R)], cwd=REPO, check=True)
 if subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=REPO).returncode == 0:
     print('nothing new to commit'); raise SystemExit
 subprocess.run(['git', 'commit', '-q', '-m', f'Run state {ed}: text copy of the working files (restart point)\n\n'
-                'Co-Authored-By: Claude <noreply@anthropic.com>\n'
-                'Claude-Session: https://claude.ai/code/session_01Dga6YHosNanqQYD3PPNJLa'], cwd=REPO, check=True)
+                'Co-Authored-By: Claude <noreply@anthropic.com>'
+                + (f'\nClaude-Session: https://claude.ai/code/{SID}' if SID else '')], cwd=REPO, check=True)
 r = subprocess.run(['git', 'push', '-q', '-u', 'origin', 'claude/eager-archimedes-ajnex3'], cwd=REPO)
 print('committed and', 'pushed' if r.returncode == 0 else 'PUSH FAILED: retry git push')

@@ -65,14 +65,14 @@
   }
  ],
  "fun": {
-  "item": "C16-01",
+  "item": "FUN-JUMPER",
   "who": "KingKong Technology, a Beijing robot company, maker of the crab robot Jumper (Digitec, 7 Oct 2026)",
   "what": "put Jumper's plans and software online for free (open source on GitHub), with an AI tool that trains new moves from typed instructions",
   "why_for_people": "anyone can build one and use AI to teach it new tricks",
   "script": "And finally, something lighter. A Chinese company has given away the plans for its jumping crab robot, so anyone can build one and use A I to teach it new tricks.",
   "screen": "a clear, empty holographic screen with a soft, even glow and nothing on it: no image, no symbol, no words",
   "source_override": "Digitec",
-  "note": "Rafi, 11 Oct 2026: crab robot story replaces C16-01 for the clip only; screen stays clear, real KingKong footage is added by hand later. build_pack reads the source from C16-01, so patch slot 9 item and source in the pack after build_pack."
+  "note": "Rafi, 11 Oct 2026: crab robot story (FUN-JUMPER, not in the pool; item corrected from C16-01, the game studio story, on 13 Oct) replaces C16-01 for the clip only; screen stays clear, real KingKong footage is added by hand later. build_pack reads the source from C16-01, so patch slot 9 item and source in the pack after build_pack."
  },
  "teaser": {
   "items": [
