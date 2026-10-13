@@ -637,7 +637,7 @@ D36. The video must have: subtitles on the WHOLE video, opening and ending inclu
      rule over the script's default, 7 Oct); a source strip for each story; the Bigger Picture and the teaser credited "AI News Desk", never "DAILY GLOBAL
      AI INTELLIGENCE REPORT" (10 Oct); one smooth video with no jumps (the masked join blends and the 30 fps cadence; a plain concat jumps).
 D37. Every day from 11 Oct (approved 10 Oct; Rafi saw four 3 s previews: yellow word, cyan box behind the word, enlarged word, greyed upcoming words, and picked option 1): the spoken word turns brand cyan #3EE1F6 (ASS &HF6E13E&) and the other words stay white; the source strip rolls out to the left
-     and the next rolls in (0.35 s, -760 px). Apply karaoke_cyan and then roll_source_strip from aind_caption_effects.py (Headlines blueprint folder)
+     and the next rolls in (0.35 s, -760 px). Both are built into final_encode_11oct_v2.py (backup/claude_part_b_2026-10-11; on the PC in the temporary Claude folder of lesson 275); do NOT use the Drive copy aind_caption_effects.py, a duplicate going to archive (rule 29) (corrected 13 Oct from the local chat's CLAUDE.md line)
      right after caption_files. Reference video 2026-10-10 / Headlines / Headlines_10-10-26_v5_cyan_roll.mp4. Before delivery check one cyan word and one
      source change in the final video.
 D38. The hologram date card in the opening: make it with make_holo_cards.py WEEKDAY DAY MONTH YEAR WEEKDAY_LONG (for example SUN 12 OCT 2026 SUNDAY),
