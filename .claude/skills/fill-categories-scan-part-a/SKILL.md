@@ -141,7 +141,7 @@ Fun Side. If step 8 has to lower the report cutoff on a thin day, run
 ```
 python3 $K/make_prompts.py --workdir $W --stage write
 ```
-One-off instructions for a category go in `$W/prompt_extra.json` {"write": {"12": "..."}} before this command.
+One-off instructions for a category go in `$W/prompt_extra.json` {"write": {"12": "..."}} before this command (the curators read the "curate" key and the fillers the "fill" key the same way; Rafi, 13 Oct 2026).
 Launch 16 background agents (model "sonnet", fillers too; CLAUDE.md MODEL POLICY), description "Read and write cat NN", prompt
 `Read $W/prompts/write_NN.txt and follow it exactly.` Each writes `$W/facts/<id>.json` and
 `$W/report_entries/<id>.json` at the Full Report level of Article_phrasing_instructions_AIND_V1 (read before each entry).

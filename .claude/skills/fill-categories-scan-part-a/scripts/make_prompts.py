@@ -50,7 +50,8 @@ def main():
             raise SystemExit('--stage fill needs --cat')
         t = (SKILL / 'briefs' / 'filler.md').read_text(encoding='utf-8')
         p = W / 'prompts' / f'fill_{a.cat:02d}.txt'
-        p.write_text(fill(t, dict(base, CAT_ID=a.cat, NN=f'{a.cat:02d}', CAT_DESC=cats[a.cat][0], NEED=a.need)), encoding='utf-8')
+        p.write_text(fill(t, dict(base, CAT_ID=a.cat, NN=f'{a.cat:02d}', CAT_DESC=cats[a.cat][0], NEED=a.need,
+                                    EXTRA=extra.get('fill', {}).get(str(a.cat), ''))), encoding='utf-8')
         written.append(p.name)
     elif a.stage == 'edit':
         t = (SKILL / 'briefs' / 'editor.md').read_text(encoding='utf-8')
