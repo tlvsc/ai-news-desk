@@ -147,6 +147,13 @@ python3 $S/verify_headlines.py --json $W/products/headlines_D-M-YY_VL1.json
 The fill refuses to overwrite: rename an earlier JSON `_old` first. C01 and C13 carry Rafi's opening and ending of
 2 Oct 2026 (switch them to "bypass" in `$B/assets/pack_base.json` to use the stored clips).
 
+### 6b. FINAL AUDIT before ANYTHING goes to Rafi (Rafi, 14 Oct 2026: "make sure these mistakes, or any lesson we have learned, do not repeat")
+```
+python3 $S/final_audit.py --workdir $W            # before every send of cards, JSON or lines
+python3 $S/final_audit.py --workdir $W --mark-sent    # right after sending
+```
+It runs every wording, rules and JSON check, prints every spoken line and card line, and lists each line that CHANGED since the last send. Send nothing while it prints a FAIL. Change a line Rafi has already seen only when he asked for it. Read the printed lines yourself against his rules (openings are the story's category, exact figures, a position for every person, A I and anthro-pic spellings) before you send. When Rafi asks for the JSON or a file, send it at once, then fix the rest.
+
 ### 7. STOP: Rafi's approval
 ```
 python3 $S/review_list.py --workdir $W
