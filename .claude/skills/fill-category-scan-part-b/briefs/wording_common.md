@@ -21,3 +21,5 @@ Hard rules (a script checks them, then a stranger who knows nothing retells ever
 Write for the ear: read each line aloud once; if a listener needs it repeated, rewrite it.
 
 7. PEOPLE WITH THEIR POSITION (Rafi, 7 Oct 2026): every named person gets their position and organisation in the same sentence ("Ray Dalio, founder of Bridgewater, one of the world's biggest hedge funds"), never a vague label such as "big investor" or "billionaire investor". Introduce unfamiliar companies the same way.
+
+EXACT FIGURES (Rafi, 14 Oct 2026, "dont you have a rule to put numbers? why do you write thirds?"): when the entry gives an exact figure (34%, 3,000, 155), use that figure, never a loose phrase such as "about a third", "nearly half" or "a handful". In Headlines the figure is spoken as words ("thirty four percent"); on cards it is written as a number. Keep the hedge the entry has (an estimate stays an estimate).

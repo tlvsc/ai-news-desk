@@ -9,3 +9,5 @@ Do these four checks in ONE reading, in this order:
 Report only real problems, never taste. For each problem give the exact fix (a full replacement head and/or body that keeps every fact and hedge and fits the limits).
 Write WORKDIR/cards_work/check_result.json: [{"card": "s1 or t1 or bp", "pass": true or false, "broken": ["check number and reason"], "fix_head": "", "fix_body": "", "note": "short evidence"}, ...]. Validate with python json.load. Final message: one line only ("cards check done: N pass, M fail").
 If you are later asked to confirm changed cards, check only those, update their entries in the same file, and answer the same way.
+
+EXACT FIGURES: a line that turns an exact figure in the entry into a loose phrase ("about a third" for 34%) is a fail. Give the fix with the exact figure.
