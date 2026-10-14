@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-17",
+ "v1_category": "ENE",
+ "headline": "Upscale, a US start-up that makes AI networking equipment, has introduced Token Fabric, a package of chips, switches and software meant to link AI processors from different makers.",
+ "score": 3,
+ "score_reason": "Pool 5 lowered by 2: the launch was on 8 Oct, five days before the window, and the claims are the company's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Open networking that works with chips from several makers could give AI operators more choice and less dependence on one supplier, but this is a company announcement with general availability only planned for early 2027 and no customers named.",
+ "source": "Upscale",
+ "status": "CONFIRMED",
+ "summary": "Upscale, a US start-up that sells networking equipment for AI data centres, announced Token Fabric on 8 Oct 2026, a bundle of its own switch chips, switch systems built on Nvidia's Spectrum-X Ethernet chips and management software, designed to link GPUs and other AI processors from different makers over open standards; HPCwire covered the launch on 13 Oct. General availability is planned for early 2027, and the company, which describes the package as the most comprehensive of its kind, gives no customer names in its release.",
+ "url": "https://www.upscaleai.com/blogs/upscale-introduces-token-fabric-the-industrys-most-comprehensive-standards-based-networking-portfolio-for-ai-factories",
+ "freshness": "FOLLOW-UP of 8 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "HPCwire (the pool item) was blocked by Cloudflare; the story was read in Upscale's own press release, which is dated 8 Oct, so it is older news re-reported on 13 Oct and the score is lowered by 2."
+}

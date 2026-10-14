@@ -1,0 +1,26 @@
+{
+ "title": "Claude Fable 5.5 reportedly spotted in Azure configs, but Anthropic has not confirmed it",
+ "source_used": "Crypto Briefing",
+ "article_url": "https://cryptobriefing.com/claude-fable-5-5-azure-sighting/",
+ "fetched": true,
+ "key_facts": [
+  "A model called Claude Fable 5.5 has reportedly turned up in Microsoft Azure configuration files, according to a post circulating on X; the post suggests a release may be near.",
+  "As of 13 Oct 2026 Anthropic has made no announcement of a Fable 5.5 and Microsoft has confirmed nothing.",
+  "The sighting is unverified; no screenshots or documentation from either company confirm the model exists.",
+  "Anthropic's documentation lists Claude Fable 5.1, released on 1 Sep 2026, as the most advanced Fable model.",
+  "Fable 5 launched on 9 Jun 2026 with a 1 million token context window, at $10 per million input tokens and $50 per million output tokens, on Azure, AWS Bedrock and Google Cloud.",
+  "Opus 5.5 launched on 22 Sep 2026 and Sonnet 5.5 followed shortly after; Anthropic's 5.5 release notes stop at those two.",
+  "Crypto Briefing says the Fable 5.5 name appears to come from pattern-matching rather than from any Anthropic statement.",
+  "Signals that would settle it: an update to Anthropic's model documentation, an Anthropic announcement, or a listing from Microsoft, AWS or Google Cloud."
+ ],
+ "quote_evidence": [
+  "A model called Claude Fable 5.5 has reportedly turned up in Microsoft Azure configuration files, according to a post circulating on X.",
+  "The sighting remains unverified.",
+  "The Fable 5.5 name appears to come from pattern-matching rather than any statement from Anthropic."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A possible new top Anthropic model on Microsoft's cloud, but resting on one unverified post and a name that may be guessed.",
+ "event_date": "Post date not stated; reported 13 Oct 2026",
+ "notes": "Full article read (the page repeats its text; boilerplate ignored). The author of the X post is not named. Rumor-level item: score lowered for being unverified.",
+ "item_id": "C01-03"
+}

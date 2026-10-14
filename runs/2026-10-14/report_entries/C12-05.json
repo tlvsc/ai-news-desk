@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "Security researchers say a flaw in Vercel's sandbox for running AI-agent code could let a rogue AI agent leak data out of its supposedly sealed environment.",
+ "score": 6,
+ "score_reason": "Pool score kept: a flaw in a widely used agent sandbox with no patch yet, but it rests on one startup's research and no exploitation has been found.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Companies that let AI agents run code inside sandboxes, and the customers whose data those agents touch, could see information leak even when allowlists are set correctly, but the finding comes from one security startup, Vercel has not yet produced a patch and AIR found no sign of exploitation.",
+ "source": "The Record",
+ "status": "REPORTED",
+ "summary": "The Record reports that AIR, an AI security startup, found that the network filter in Vercel Sandbox, a tool from the web-development company Vercel for running code in isolated environments, can be tricked with a specially crafted digital certificate into passing data to an attacker's server without the sandbox ever contacting it directly. AIR co-founder and chief technology officer Niv Hoffman says Vercel told his team it needs time to find a patch, and that AIR has no evidence of exploitation but cannot rule it out.",
+ "url": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The Record full text read. Research was published on Monday 12 Oct per the article and reported on 13 Oct; treated as new."
+}

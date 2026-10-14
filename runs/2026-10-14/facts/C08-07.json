@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-07",
+ "title": "SK hynix Drives up to 5x Faster Time-to-First-Token with MARS; HBF Expands Capacity by 14x",
+ "source_used": "TrendForce (on-site summary from the OCP Global Summit 2026)",
+ "article_url": "https://www.trendforce.com/news/2026/10/13/ocp-in-focus-sk-hynix-drives-up-to-5x-faster-ttft-with-mars-hbf-expands-capacity-by-14x/",
+ "fetched": true,
+ "key_facts": [
+  "At the OCP Global Summit 2026, Hoshik Kim, senior vice president at SK hynix, introduced MARS (Memory-Centric AI Rack-Scale System), a rack-scale system that pools memory so compute and memory resources are shared.",
+  "Kim said that in a multi-turn AI-agent inference service MARS gave a 3 to 5 times improvement in time to first token over recomputation, with tail latency dramatically reduced.",
+  "MARS stores the exploding KV cache of multi-turn agents in a shared memory system without exhausting GPU memory and storage.",
+  "High Bandwidth Flash (HBF) has about half the bandwidth of HBM but roughly 14 times the capacity, Kim said.",
+  "OCP HBF spec version 0.7 was released in July; version 1.0 is expected early next year; a concept prototype is in development; HBF Cube samples are planned for early 2028.",
+  "The figures are SK hynix's own; no outside test is reported."
+ ],
+ "quote_evidence": [
+  "So if you look at this graph, we have a very good 3 to 5 times improvement in TTFT (Time To First Token) over recomputation, which is quite impressive, especially when you talk about this tail latency, tail latency is dramatically reduced.",
+  "HBF is typically half the bandwidth of HBM, but more like 14 times higher capacity than HBM,",
+  "and we’ll sample HBF Cube available early 2028."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Pooled memory aims to make AI agents respond faster without adding more GPUs.",
+ "event_date": "OCP Global Summit 2026 (exact day of the talk not stated; TrendForce posted 13 Oct 2026)",
+ "notes": "Company claims from a conference talk, summarised by TrendForce; no independent test. Headline says up to 5x, the quoted figure is 3 to 5 times."
+}

@@ -1,0 +1,350 @@
+﻿AI News Desk — STORAGE & FILE ROUTING STANDARD
+
+
+SCAN LABELS — EFFECTIVE 11 OCTOBER 2026
+From 11 October 2026 onward, Claude's scan adds _Claude-V1 to every file it saves, including cards. ChatGPT V1 adds _ChatGPT-V1 to its final products. Do not rename older files. New final products made by the ChatGPT V1 automation use _ChatGPT-V1 immediately before the file extension, or at the end when there is no extension. The existing base filename is preserved and the label is added once. Native Google Docs use the labelled document stem.
+The ChatGPT V1 final-product rule applies to the final daily pool, Full Report, Bulletin, numbered cards and the combined card image, and final Headlines video and subtitles. Examples: final_pool_date_ChatGPT-V1; Full_Report_11-10-26_ChatGPT-V1.pdf; cards_11-10-26_I01_VL1_ChatGPT-V1.png; Headlines_11-10-26_ChatGPT-V1.mp4; Headlines_11-10-26_ChatGPT-V1.srt. These illustrate the suffix; they do not replace existing base-name conventions.
+Keep daily_data_generated/YYYY-MM-DD and the existing pool of items, Full Report, Bulletin, cards and Headlines folders. Do not rename or move files already on Drive. Claude's scan uses _Claude-V1 for every saved file, including cards; for example, Full_Report_11-10-26_Claude-V1.pdf.
+ChatGPT V1 supporting and internal filenames stay as they are, including Raw_pool_of_items, deduped_pool, mixed_pool_before_dedupe, basic_Pool_list_collected_ by_model, status files, logs, SQLite databases, locks, QA, source manifests and storage_manifest.json. A supporting copy of a final document keeps the final document's name.
+V1 history reads prefer final_pool_date_ChatGPT-V1 for a date and retain the existing legacy final_pool_date fallback. If the chosen naming group is ambiguous, preserve the existing warning instead of silently choosing a file. Shared-folder validation checks V1's current receipt IDs and labelled final files without rejecting other scans' products. All filename, parent, size and byte-integrity checks for V1's recorded files remain required.
+These rules supersede older filename examples only for the producer suffix within each scan's stated scope, for newly saved files from 11 October 2026 onward. It does not alter source lists, model settings, folder layout, the 09:00 schedule, production gates or publication permissions. Workflow Monitor continues to use its existing control filenames.
+
+
+This is the single storage rulebook for project routing and daily saving. The daily rules formerly held in AIND_daily_storage_rules.txt are maintained here. The former file is retained for history; it is no longer an independently maintained rulebook.
+Asset names, Drive locations, links and approval status are maintained in AI News Desk — ASSET REGISTRY (Drive ID 1VweiZrbGG5BTQVsv1a3BN0ld68MVhZEUFPkyZbFgQI4).
+This consolidation preserves existing filenames, Drive IDs, product rules and separate V1, V1.1 and V2 workflows. It does not activate an automation, publish a product or authorize physical restructuring.
+
+
+DAILY STORAGE
+
+
+HEADLINES STITCH FILES — 22 SEPTEMBER 2026
+Stitching execution and source-resolution requirements are governed by Headlines_Master_Rules_Structure.txt, Section D2 (Drive ID 16ksAk7ClvmZoqvuYBuZsdn9fJ8NQXpmk). This section records the storage and evidence requirements.
+
+
+Keep the existing daily_data_generated/YYYY-MM-DD/Headlines and Headlines/supportive files structure. The current delivery remains Headlines_D-M-YY.mp4 with Headlines_D-M-YY.srt. Preserve those exact delivery names and existing Drive IDs during an authorized correction; verify a separate existing-route candidate before replacement and retain the previous export.
+
+
+Headlines/supportive files contains the existing Headlines_D-M-YY_source_manifest.json ordered list, Headlines_D-M-YY_QA.json, ASS captions, dated artwork/overlay, audio masters, inspection sheets and local render attempts. The opening manifest row's date_overlay records file, sha256, edition, observed_text and actual reviewer. Other rows continue to name the original high-resolution clips and their provenance and authorized retained frame intervals. The QA records date evidence, the final export profile, original-frame comparisons, real review limits and delivery hashes.
+
+
+Use the established _date_artwork.png, _date_overlay.png or existing fixed/numeric overlay variant, _stitched.mp4, _finished.mp4 and numeric support-attempt naming within that same folder. These are working artifacts, not extra public deliveries. Only the final stitched movie is uploaded as video. Original Comfy clips, preview stitches and intermediate encodes remain local. No new folder, competing manifest, convenience log or duplicate rules document is introduced by this correction. Never delete or move historical files without Rafael's explicit instruction.
+
+
+CURRENT FILENAME RULE - RAFAEL, 13 SEPTEMBER 2026
+For numbered production media, use this order: product_short-date_media-number_workflow-lane.ext.
+For every current and future individual card: cards_D-M-YY_I01_VL1.png through the edition's final image number; use VL2 instead of VL1 only when Lane 2 actually created it. Exact September 13 Lane 1 example: cards_13-9-26_I01_VL1.png.
+Use uppercase I for images and C for numbered video clips, with two-digit sequence numbers. Keep the approved product name first, the short date second, media number third, and VL1 or VL2 fourth. Lane means the producing workflow, not the revision of the copy. Record producing_lane in the product manifest and verify it from run provenance.
+Do not prefix daily media filenames with AIND. Do not append version_2, another revision suffix, or repeat the word version. Revision history remains in the manifest and archive; it is not another deliverable filename suffix.
+Apply this rule to current card filenames and future numbered-media saves. Preserve the images, printed numbers, sequence, existing Drive IDs, folders and original provenance. Do not enlarge printed numbers or create a ZIP for this request. Drive Name ascending displays individual cards in sequence; do not claim control of phone download completion or Instagram ordering.
+The current 15 September 13 cards were produced in Lane 1, including the copy revision formerly called version 2, so all carry VL1. An existing current card name may be changed to this exact authorized format despite older generic filename-preservation clauses. Preserve unrelated original/archive/permanent-asset names; do not invent image or clip numbers for unnumbered support files or the combined image.
+
+
+CURRENT APPROVED STORAGE AND CARD DELIVERY
+Use one edition folder under AI_News_Desk/daily_data_generated, with product folders pool of items, Full Report, Bulletin, cards and Headlines. Each product has its own supportive files folder. Do not put product outputs or working files loose in the date folder.
+cards: deliver one current set of cards, with the count governed by Cards_Master_Rules_Structure.txt, in the Cards Master format, 1080x1920 PNG with the existing Instagram-safe content area, plus one combined image of those same cards. Do not generate/export an additional square set, alternate aspect ratio or duplicate version unless Rafael explicitly requests it. The combined image is a preview, not an extra carousel card.
+cards/supportive files: copy, source references, QA and necessary generation material. Put superseded versions, unrequested formats, obsolete previews and mixed-version downloads in cards/supportive files/archive. Preserve them; only Rafael may permanently delete.
+Headlines: the final stitched movie and its delivery subtitles. Headlines/supportive files: workflow JSON, prompts, scripts, logs, receipts and recovery evidence. Intermediate Comfy clips remain local.
+Full Report: the Full Report deliverable and its own supportive files. Bulletin: the separate Bulletin deliverable and its own supportive files; Bulletin follows Bulletin_V1_Rules_Structure.txt.
+pool of items: keep final_pool_date as the final V1 daily pool. Preserve stage snapshots Raw_pool_of_items, deduped_pool, basic_Pool_list_collected_ by_model and mixed_pool_before_dedupe under supportive files with their original run identity. Historical files retain their existing filenames; do not invent or overwrite a final pool when different runs conflict.
+Keep the existing storage manifest at the date root. Record each product folder ID, exact current file IDs and hashes, ordered current card list, combined-image ID, version, format and actual QA/publication status. A posting agent must use this explicit current list and recorded approval; folder location never grants publication approval.
+Save each authorized ready file directly to its designated product/support destination. Before reporting completion, reconcile all files recursively, verify the current card count/format and combined image, confirm no superseded outputs are in cards, and verify IDs, sizes and readable content. Preserve filenames and existing IDs. The archive automation stays PAUSED.
+This approved product/support structure supersedes all flat-folder and retired daily Adverts/deck/json/prompt/text routing below or in older records. Editorial content, production recipe, permanent asset libraries, live generation and publication permissions are otherwise unchanged.
+
+
+PERMISSION AND AUTOMATION REFERENCES
+Follow AI News Desk — MASTER PROJECT MEMORY (Drive ID 1EhHLlIe-3pTUP6FlwuUVWyAAOhLlPjHwblU20R8y8_w) for permission and archive-only removal rules.
+AIND daily Drive archive remains PAUSED. Its schedule and activation status are maintained in AI News Desk — AUTOMATION REGISTRY (Drive ID 1nhNp1jzjG8CiEzNQ_8dnXga1IylCKFGA0n_0qiDQkw8). Saving an authorized ready file does not authorize a polling schedule.
+
+
+Current storage instruction approved by Rafael in this conversation, including the daily_data_generated destination and exclusion of small Comfy clips. This supersedes older daily output storage instructions. Report content, research selection, product generation and publishing rules are unchanged.
+
+
+DAILY FILES
+Account: tlvsc.claude.agent@gmail.com. Verify the connected account before Drive operations.
+Root: AI_News_Desk / daily_data_generated
+The existing main Drive folder is spelled AI_News_Desk; do not rename it or create a second main folder.
+Drive root ID: 1nzOWXclWAExDQ6WqQ2C9DmSkM3rrqLYx
+Folder: https://drive.google.com/drive/folders/1nzOWXclWAExDQ6WqQ2C9DmSkM3rrqLYx
+Use the edition date in Asia/Jerusalem: YYYY-MM-DD. Keep one folder per date directly under daily_data_generated. Daily production folders remain directly under daily_data_generated. Compare daily pools directly in memory for the previous 14 calendar days; do not create or maintain a separate monthly headline index. Moving older date folders into month archives remains a later decision.
+Save each daily output under its product folder or that product’s supportive files folder, as defined in the current approved structure above. Preserve existing filenames, formats and IDs.
+Only the final stitched movie is a daily video upload. Small/intermediate Comfy clips stay on the computer for now. Do not upload them indirectly through an edit-kit ZIP. Reusable approved opening/closing clips are permanent product assets, governed below.
+Preserve original filenames, run identities, all versions and source provenance. Never delete. Check existing file IDs, filenames, sizes and hashes where available before uploading. If distinct outputs collide on a filename, ask before renaming or replacing either.
+Verify Drive parent, file count, byte sizes and readable text/JSON after upload. Keep the existing manifest and report the exact folder, filenames and direct links. Do not call an archive complete when required originals are missing.
+This changes future save destinations. Historical files are not moved or renamed by this instruction. Recovery of the missing September 11 cards remains deferred.
+
+
+DAILY POOL — SAVE THE WHOLE SCAN
+Save daily-pool.md and the existing named pool snapshots in pool of items inside the matching dated folder, as specified under CURRENT APPROVED STORAGE AND CARD DELIVERY. Put the edition date, reporting window, timezone, run identity, last-updated time and Complete/Partial/Failed status in the file. This is a text preservation file, not a new report or a replacement for the full report.
+Save the collected scan during the authorized run and update the same daily pool as new records, corrections or outcomes become available. Do not wait until report selection is finished. Preserve usable partial work if the run fails; identify missing or inaccessible sources and coverage gaps truthfully.
+Preserve every collected headline record and its source links, headline, publisher/source, available publication dates and times, tags, item ID, counts and current outcome. Keep the reasons and provenance for duplicates, rejected or out-of-window records in supporting evidence. No article bodies or rewritten articles belong in the pool.
+Preserve the scan's source-check ledger, access failures, original-source chains, verification/uncertainty notes, event links, routing decisions and corrections where available. Preserve original structured scan JSON and other generated supporting records in the same dated folder when they exist. Do not invent missing fields, claims, sources, checks or reasons.
+Reconcile saved record counts against the collected scan. Keep corrections traceable and prior saved revisions recoverable. Never replace a valid complete pool with an unlabeled partial result. Verify the saved text is readable and includes the full collected pool, not only the report's selected stories.
+Preservation reference: AIND_LV2 / AIND_LV2_10.9.26 / work / AIND_V2_Daily_Pool_Blueprint_Working_v0_1.md (Save every outcome; failure behavior; preserve every collected article), AIND_V2_Daily_Pool_Data_Dictionary_Working_v0_1.md (run, source check, candidate, source, routing and correction records), and AIND_V2_Daily_Pool_Production_Prompt_Test_Candidate_v0_1.md (retain records and read back saved outputs). Only preservation requirements are adopted here. Do not import V2 taxonomy, scoring, report selection, source expansion or generation changes.
+
+
+PERMANENT PRODUCT ASSETS
+Permanent references, templates, JSON seeds, fonts, images, voice samples and reusable approved opening/closing clips belong with the blueprint of their respective product. They are not disposable daily generated output. Preserve current file IDs, links and local working input copies. Weekly or special-edition arrangements are undecided; do not create those structures without Rafael's approval.
+PERMANENT-ASSET LOCATIONS AND APPROVALS
+Use AI News Desk — ASSET REGISTRY (Drive ID 1VweiZrbGG5BTQVsv1a3BN0ld68MVhZEUFPkyZbFgQI4) for the current product folders, exact asset names, Drive IDs, links, approval status and recovery gaps.
+
+
+DAILY IMPLEMENTATION
+As soon as each final file is ready during an authorized daily production run, save that file directly to its approved dated Drive destination and verify the upload. Do not wait until the entire daily package or production run is finished. Upload available completed deliverables even if a card or supporting file is missing, but leave the archive status incomplete and identify the missing items. Retry only missing or unverified uploads. This is a step in the authorized production run, not a separate timed automation or polling check. AIND daily Drive archive remains PAUSED. Never generate clips or publish to social platforms as part of archiving.
+Rule storage is not proof of an unattended scheduler. Record any enabled scheduler separately and verify its configuration and a real archive run before claiming automatic daily delivery works.
+
+
+Both Claude and Codex must read this document's DAILY STORAGE section and use the daily_data_generated folder ID above for future daily output. Product blueprints and Claude's instruction file point here; the Decision Log records the approval.
+
+
+GENERAL PROJECT ROUTING
+
+
+AI News Desk — STORAGE & FILE ROUTING STANDARD — 1 SEPTEMBER 2026
+
+
+AUTHORITY
+
+
+This standard defines where every new AI News Desk artifact belongs. ChatGPT owns routing. Claude files remain in their current read-only library and are never moved during this migration.
+
+
+ROOT PRINCIPLE
+
+
+Every production artifact has:
+• One canonical destination.
+• One canonical name.
+• One status.
+• One source prompt version.
+• One owner.
+• One audit link.
+
+
+No daily output belongs loose in the AI News Desk root.
+
+
+CANONICAL LOGICAL STRUCTURE
+
+
+AI_News_Desk/
+  00 — PROJECT OS/
+    Master Project Memory
+    Decision Log
+    Living Workflow Map
+    Asset Registry
+    Automation Registry
+    Experiments & Technical Learnings
+    Claude Reconciliation & Migration Ledger
+    Claude Chat-Only Media Recovery Register
+    Session Handoffs/
+  Daily production: see DAILY STORAGE in this document.
+  02 — PRODUCTION ASSETS/
+    brand/
+    studio/
+    presenter/
+    hologram/
+    card_system/
+    video_references/
+  03 — PROMPT VAULT/
+    production_baselines/
+    promoted_source_evidence/
+    test_candidates/
+    superseded/
+    change_logs/
+  04 — WORKFLOWS/
+    production/
+    experiments/
+    superseded/
+  05 — TECHNICAL LAB/
+    comfyui/
+    loras/
+    voice/
+    upscale/
+    evaluations/
+  90 — IMPORTED EVIDENCE/
+    claude_index/
+  99 — ARCHIVE/
+
+
+This is the logical standard. Existing folders are not mass-moved during the knowledge migration. Physical restructuring happens only through a separate verified move plan so active links and automations do not break.
+
+
+DAILY PACKAGE ROUTING
+Follow DAILY STORAGE in this document for daily product folders, supporting files, manifests and delivery verification.
+Full Report and Bulletin are separate deliverables; Bulletin follows Bulletin_V1_Rules_Structure.txt and Headlines follows Headlines_Master_Rules_Structure.txt.
+PRODUCTION ASSET ROUTING
+
+
+brand
+Master logos, color specifications, typography, and approved platform covers.
+
+
+studio
+Approved empty studio plates, locked v9 frame family, masks, geometry, and future multi-angle studio-LoRA dataset.
+
+
+presenter
+Priority-A stills, reference videos, approved appearance guide, future presenter-LoRA dataset and checkpoints.
+
+
+hologram
+Master artwork, keyed assets, panel quadrilateral, masks, date treatment references, and post-production templates.
+
+
+card_system
+Canonical card layout, safe zones, icon bank, category-line rules, and approved covers.
+
+
+video_references
+Approved motion/reference clips, not daily generated output.
+
+
+PROMPT ROUTING
+
+
+Production prompt: protected production baseline.
+Copied Claude prompt: promoted source evidence.
+Unapproved new prompt: test candidate.
+Replaced prompt: superseded.
+Every prompt change: change-log record plus Decision Log entry.
+
+
+WORKFLOW ROUTING
+
+
+Production
+Only the current verified H3 Ref2V workflow and its rollback version.
+
+
+Experiments
+Separate workflow per test. Filename includes date, test, engine, resolution, and version.
+
+
+Superseded
+Older workflow versions preserved after a new production workflow is approved.
+
+
+Workflow JSON rule:
+Never rely on a truncated connector preview. Verify byte size and raw JSON content. A rendered MP4 may serve as a workflow recovery source because ComfyUI embeds the graph.
+
+
+LORA ROUTING
+
+
+presenter
+Dataset manifest, captions, training config, checkpoints, comparisons, and approved production file.
+
+
+studio
+Multi-angle dataset manifest, captions, config, checkpoints, comparisons, and approved production file.
+
+
+speed
+Exactly one active speed/distillation LoRA per workflow. Keep A/B files and results in experiments until approved.
+
+
+A filename containing “lora” does not prove it is a presenter or studio LoRA. Registry metadata must identify its job.
+
+
+VOICE ROUTING
+
+
+Store:
+• Rafael source sample.
+• Test script.
+• XTTS/F5 output.
+• Fish output.
+• ElevenLabs output.
+• Comparison sheet.
+• Rafael decision.
+• Approved production voice configuration.
+
+
+Do not mix daily voice output with source samples or training data.
+
+
+STATUS IN FILENAMES AND REGISTRY
+
+
+Use the registry, not ad hoc suffixes, as the primary status authority.
+
+
+Allowed status labels:
+LOCKED
+ACTIVE
+APPROVED TEST
+PLANNED
+BLOCKED
+OPEN
+SUPERSEDED
+HISTORICAL
+MISSING MEDIA
+REGENERATED
+
+
+Do not use FINAL unless the registry also identifies final for what purpose and date.
+
+
+NAMING RULES
+
+
+• Use H3 consistently; do not alternate between short and long names.
+• Use Bulletin for the product formerly called Major Stories.
+• Use YYYY-MM-DD for daily package folders.
+• Include date and version in workflows and prompt releases.
+• Preserve historical filenames when archiving.
+• Do not rename Claude originals.
+• Do not use Desk Glass as a public brand.
+
+
+CLAUDE EVIDENCE ROUTING
+
+
+The physical Claude library stays unchanged.
+ChatGPT keeps:
+• Reconciliation ledger.
+• Prompt source copies explicitly labeled SOURCE EVIDENCE.
+• Links to Claude originals.
+• Media recovery register.
+• Decision mappings.
+
+
+Do not duplicate all 219 Claude files into ChatGPT. Promote only canonical knowledge and the smallest required frozen source evidence.
+
+
+AUTOMATION REQUIREMENT
+
+
+Every automation writes directly into the canonical dated package. If the date folder or required subfolder is missing, create it before writing. If routing fails, mark the run failed; never fall back to the Drive root.
+
+
+MIGRATION SAFETY
+
+
+1. No bulk move until one ChatGPT-only dry run passes.
+2. No deletion during migration.
+3. Preserve file IDs and links where possible.
+4. Copy before replacing.
+5. Verify exact destination and byte/file count.
+6. Update registries before declaring completion.
+
+
+
+
+DAILY STORAGE AND ASSET REFERENCES
+For daily product folders, naming, scan preservation, saving and readback, use DAILY STORAGE above. For permanent-asset locations and approvals, use AI News Desk — ASSET REGISTRY (Drive ID 1VweiZrbGG5BTQVsv1a3BN0ld68MVhZEUFPkyZbFgQI4).
+
+
+
+
+
+
+
+
+
+
+DAILY POOLS — APPROVED COMPARISON AND STORAGE
+The daily pool is the single source of truth. Keep headline, link, publisher/source, publication date/time, tags, item ID, category, outcomes and appearance counts; do not store article text in the pool. The script loads the previous 14 dated pools directly from Drive and builds its comparison lookup in memory. Do not create or update a second monthly headline list. Missing or unreadable historical days must be reported without pretending they were compared.
+Keep each product separately under daily_data_generated/YYYY-MM-DD: pool of items, Full Report, Bulletin, cards and Headlines. Existing run support records remain recoverable; stage snapshots and audit evidence belong under the pool's supportive files, with their original run identities and filenames. Do not mix V1 and Claude run totals or choose between conflicting final pools silently.
+September and October Monthly Pool Index sheets created during this repair are superseded and retained in 99 — ARCHIVE. No permanent deletion or automatic two-week cleanup is activated; that cleanup decision remains pending.

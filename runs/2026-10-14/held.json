@@ -1,0 +1,46 @@
+{
+ "stale_redated": [
+  "C03-04",
+  "C03-08",
+  "C04-09",
+  "C04-10",
+  "C04-11",
+  "C04-12",
+  "C04-13",
+  "C07-05",
+  "C07-15",
+  "C08-17",
+  "C09-02",
+  "C09-06",
+  "C09-17",
+  "C10-04",
+  "C10-11",
+  "C10-13",
+  "C12-18",
+  "C13-08",
+  "C14-04",
+  "C15-03",
+  "C15-04",
+  "C16-03",
+  "C16-08",
+  "C16-10"
+ ],
+ "duplicate": {
+  "C11-02": "same Cologne police robot story kept as C11-13 (both credit BBC; writer note, 14 Oct 2026)",
+  "C16-04": "same OpenAI hidden recording device case as C13-02 (editor B, 14 Oct 2026)",
+  "C02-07": "same Gemini 4 Argon rollout to paying users as C01-01 (editor B, 14 Oct 2026)",
+  "C11-07": "same Agility listing step as C11-03 (editor B, 14 Oct 2026)",
+  "C05-09": "same MI5 speech as C12-03, kept in Safety and Security (editor A, 14 Oct 2026)",
+  "C07-03": "same ASML results as C08-01, kept in Chips (editor A, 14 Oct 2026)",
+  "C05-08": "same Musk post on Micron as C08-06, kept in Chips; date differs (13 vs 14 Oct), flagged to Rafi (editor A, 14 Oct 2026)",
+  "C03-09": "repeat of 2026-09-30: the same Bloomberg Enterprise MCP launch (licensed data on 100 million securities, each figure labelled) was carried from Bloomberg's press release; today adds only an executive quote (14-day check, judged 14 Oct 2026)",
+  "C10-07": "repeat of 2026-10-08: South Korea's AI mental-health guidelines were issued on 8 Oct and carried that day; today's entry is the headline only, with no new fact (14-day check, judged 14 Oct 2026)",
+  "C11-04": "repeat of 2026-10-03: the same 1 Oct Army memo creating FASCOM and an autonomy buying office with a fiscal 2028 target was carried from Breaking Defense at score 7; Military Times adds no new development (14-day check, judged 14 Oct 2026)",
+  "C11-09": "repeat of 2026-10-02: the Hitachi and Fanuc physical-AI partnership was carried on 2 Oct from AI Insider; today's entry is the headline only, with no new fact (14-day check, judged 14 Oct 2026)"
+ },
+ "stale_reasons_editor_B": {
+  "C16-03": "ongoing Fun Side trend started in Sept, nothing new in window (editor B)",
+  "C16-08": "roundup of old cases (editor B)",
+  "C16-10": "ongoing Fun Side trend started in Sept, nothing new in window (editor B)"
+ }
+}

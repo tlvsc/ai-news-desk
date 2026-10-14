@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-07",
+ "title": "‘Phantom’ Data Centers Are Demanding More From the Power Grid Than They Need",
+ "source_used": "Breitbart News (relaying the Wall Street Journal)",
+ "article_url": "https://www.wsj.com/business/energy-oil/phantom-data-centers-are-demanding-more-from-the-power-grid-than-they-need-77e322bb",
+ "fetched": true,
+ "key_facts": [
+  "The Wall Street Journal reports that AI's electricity appetite has buried utilities in requests for grid connections, many of which will never become real buildings; the industry calls them 'phantom' data centers.",
+  "Utilities are tightening rules for new AI data center customers, requiring binding financial commitments, collateral and steep engineering fees.",
+  "Wood Mackenzie, a research firm, puts only 23 percent of disclosed data-center requests in the 'high confidence' category.",
+  "Exelon, a utility operating across the Mid-Atlantic and Midwest, says typical requests used to be about 50 megawatts and now reach 1,000 megawatts or more; its large-customer requests tripled to 18,000 megawatts.",
+  "After Exelon required binding commitments and collateral, its high-probability list fell from 18,000 to 11,000 megawatts, with the remaining projects posting roughly $1 billion in collateral.",
+  "Average minimum contract lengths for large customers have grown to about 10.8 years since 2024, from about 4.6 years before, per utility filings aggregated by the AI startup Halcyon.",
+  "Texas now requires large customers to pay a $50,000-per-megawatt deposit for engineering studies, so a 500-megawatt data center owes $25 million upfront."
+ ],
+ "quote_evidence": [
+  "Wood Mackenzie, a research firm, puts only 23 percent of disclosed data-center requests in the “high confidence” category.",
+  "That dropped the company’s high-probability project list from 18,000 megawatts to 11,000, with the remaining projects posting roughly $1 billion in collateral.",
+  "Texas has also started requiring large customers to pay a $50,000-per-megawatt deposit to cover engineering studies, which means a 500-megawatt data center owes $25 million upfront before anything gets built."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Utilities want proof that data centers are real before building grid capacity that other customers might end up paying for.",
+ "event_date": "WSJ report 13 Oct 2026",
+ "notes": "WSJ original is behind a login (HTTP 401). Read Breitbart News's detailed summary of the WSJ report and kept only what it attributes to the WSJ; Breitbart's own earlier-reporting paragraphs on delayed projects were left out."
+}

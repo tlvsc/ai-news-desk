@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-01",
+ "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results",
+ "source_used": "Mashable (read in full)",
+ "article_url": "https://mashable.com/tech/meta-launches-muse-wonder-ai-model-family",
+ "fetched": true,
+ "key_facts": [
+  "Meta announced Muse Wonder and a larger Muse Wonder Full, which it calls its \"most capable models to date\", built for personal and professional agentic tasks (Mashable).",
+  "The release comes six weeks after Muse Spark 1.3; the Muse model family debuted in April (Mashable).",
+  "Artificial Analysis, an independent AI benchmarking organization, ranks Muse Wonder Full second only to Claude Opus 5.5 Max and tied with Claude Sonnet 5.5 Max on its Intelligence Index, and ahead of GPT-Astra, Fable 5 and the newly released Gemini 4 (Mashable).",
+  "Artificial Analysis says Muse Wonder Full (max) is in the top three on six of the ten Intelligence Index evaluations and is strong in agentic knowledge work and scientific reasoning.",
+  "Muse Wonder is available now to developers through the Meta Model API and Muse Code; Muse Wonder Full is available now to Muse Code subscribers.",
+  "Meta says the models will soon power its Muse agent app, for paying users only; CNBC reported prices of $20 or $100 a month (via Mashable).",
+  "Meta says a full report on its safety evaluations \"will be available soon\"; it also released its own internal benchmark results.",
+  "The Muse agent app has passed 5 million downloads (Mashable)."
+ ],
+ "quote_evidence": [
+  "On the Artificial Analysis Intelligence Index leaderboard, which uses a weighted composite score to rank AI models, Muse Wonder Full is now second only to Claude Opus 5.5 Max, and tied with Claude Sonnet 5.5 Max.",
+  "Muse Wonder is available now to developers through the Meta Model API and Muse Code.",
+  "In the near future, Meta said that Muse Wonder will power its popular Muse AI agent, though at a cost."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A major lab now has a model near the top of an independent ranking, and paying users of the Muse app will get it.",
+ "event_date": "13 Oct 2026 (launch announced; the article gives no explicit date, publication date used)",
+ "notes": "Full text read from the Mashable page. \"Frontier\" claim is Mashable and Artificial Analysis reading of the benchmark, not Meta alone. No other category chunk carries the Muse Wonder launch (checked all 16 chunks); TechCrunch also ran its own story, \"Meta releases its first frontier model, Muse Wonder\"."
+}

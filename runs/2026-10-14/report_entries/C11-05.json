@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-05",
+ "v1_category": "ROB",
+ "headline": "Google says its Gemini 4 Argon AI model can help control and train robots and beats every other leading model on a test of physical reasoning.",
+ "score": 6,
+ "score_reason": "Pool score 6 kept: a major lab pitches its newest model as a robot brain, but all results are Google's own and untested by others.",
+ "importance_line": "Robot makers and researchers could use a model that reasons about physical scenes and builds its own training simulations, which may speed up robot development, but the benchmark and the 56 to 75 percent result are Google's own claims, with no outside testing reported.",
+ "source": "Google Developers Blog",
+ "status": "PRELIMINARY",
+ "summary": "Google's developer blog says Gemini 4 Argon scores 87 percent on the Embodied Reasoning (ERQA) benchmark, a test of spatial problem-solving in 3D scenes, which Google says is better than any other leading model, and shows it steering a Boston Dynamics Spot robot dog, writing physics simulations and labelling robot videos. In one Google example, 4,500 simulated practice runs that Argon generated lifted a real robot's success rate on a tabletop task from 56 to 75 percent and cut its completion time from 35 to 24 seconds, though these are Google's own demonstrations and no outside testing is reported.",
+ "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Read in full from the pool fulltext (Google's developer post). The general Gemini 4 Argon rollout is a separate entry in category 1 (C01-01) and its viral floor of 7 is applied by the script; this is the robotics-specific post, so the pool score 6 is kept and not raised. machine_action true: Google shows a real Spot robot acting, though parts of the work ran in simulation. All results are Google's claims.",
+ "importance_label": "MEDIUM"
+}

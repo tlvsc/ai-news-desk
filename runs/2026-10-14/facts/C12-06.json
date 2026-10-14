@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-06",
+ "title": "XBOW researchers used AI agents to win a $250,000 Chrome exploit bounty",
+ "source_used": "XBOW's own blog post of 13 Oct 2026 (full text) and Startup Fortune (full text, the pool source)",
+ "article_url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit",
+ "fetched": true,
+ "key_facts": [
+  "XBOW, an autonomous-security start-up, says it built a Chrome \"full-chain\" exploit (three linked bugs that together take over a Windows computer from a web page) and won a $250,000 bounty from Google, the first under Google's 2026 rules.",
+  "Four XBOW researchers worked with OpenAI's GPT-5.6 Sol, a publicly available model, and say the compute for the awarded chain cost $40,000.",
+  "After Google said it already knew one bug in the first chain, the team built a new chain between Sunday 2 Aug and Friday 7 Aug 2026.",
+  "The AI searched Chrome's source code, tested ideas, built proofs of concept and wrote early exploit drafts; humans set strategy, chose where to look and checked the agents' work.",
+  "XBOW says all three bugs are fixed and tells users to keep Chrome current and relaunch it when the Update button appears.",
+  "Startup Fortune reports Google reproduced and confirmed the bugs, shipped fixes, and that none was exploited against real users, all according to XBOW.",
+  "XBOW estimates the chain affected \"a billion users\" and says similar work once took teams months; it believes agents alone could find each of the three bugs within a year."
+ ],
+ "quote_evidence": [
+  "The compute we used over six days for the awarded chain cost $40,000, a fraction of the bounty.",
+  "The AI searched Chrome's source code, tested ideas, built proofs of concept, and wrote the earliest drafts of the exploit.",
+  "Earlier this year, it won our company a $250,000 bounty from Google, the first under its 2026 new rules."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI agents working with human researchers cut the time to find a serious Chrome attack chain from months to days, which helps defenders and attackers alike.",
+ "event_date": "Exploit built 2-7 Aug 2026; bounty 'earlier this year'; details first published 13 Oct 2026",
+ "notes": "All figures (cost, timeline, billion users, Google's payment) are XBOW's own claims; no Google statement was read. The work dates from August but the public disclosure is 13 Oct 2026, so treated as new."
+}

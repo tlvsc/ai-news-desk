@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-07",
+ "title": "Interpretable AI model reveals spatial codes of cell recruitment in tissues",
+ "source_used": "Nature (abstract on nature.com; full paper behind subscription)",
+ "article_url": "https://www.nature.com/articles/s41551-026-01804-6",
+ "fetched": true,
+ "key_facts": [
+  "SPACER is a fully interpretable multi-instance learning framework that decodes gene-level recruitment rules from spatially resolved transcriptomics (SRT) data.",
+  "Existing SRT tools describe where cells reside but cannot explain why.",
+  "Applied to 37 SRT datasets from several human tumour types and mouse heart, it achieved a 4 to 21-fold improvement over existing methods in recovering meaningful recruitment signals.",
+  "Tumour-expressed mucins are associated with physical barriers to T cell engagement, which predicts resistance to immune checkpoint inhibitors and patient prognosis.",
+  "Local antigen presentation is the dominant correlate of T cell engagement across cancer types.",
+  "Cd4+ T cells are the dominant functional effectors in severe immune-checkpoint-inhibitor myocarditis (heart inflammation).",
+  "Code is available on GitHub."
+ ],
+ "quote_evidence": [
+  "Existing computational tools for spatially resolved transcriptomics (SRT) describe where cells reside but cannot explain why.",
+  "SPACER achieved 4-21-fold improvement over existing methods in various tasks of recovering biologically meaningful recruitment signals."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An interpretable model that explains why immune cells gather where they do could help explain immunotherapy resistance, per the authors.",
+ "event_date": "Published on nature.com by 13 Oct 2026 (exact online date not stated on the page)",
+ "notes": "Abstract only; the full paper is behind subscription, so claims are attributed to the authors. The URL prefix (s41551) points to Nature Biomedical Engineering but the page text does not name the journal, so the source is given as Nature."
+}

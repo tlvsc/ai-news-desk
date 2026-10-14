@@ -1,0 +1,25 @@
+{
+ "item_id": "C16-01",
+ "title": "OpenAI's dot assistant burned 300K+ tokens in a day without a single prompt",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/13/openais-dot-assistant-burned-300k-tokens-in-a-day-without-a-single-prompt/5302913",
+ "fetched": true,
+ "key_facts": [
+  "Geordie, an AI agent security and governance company, has tested OpenAI's always-on assistant dot since OpenAI announced it in September.",
+  "In its test dot had read-only permissions and no link to personal apps, email or Slack; one dot agent produced 155 activity sequences (traces) and used more than 300,000 tokens in a day with no further human interaction.",
+  "The 155 traces cost Geordie about 307,000 tokens; at least 50 of them fell within a two-minute period and most within a couple of hours.",
+  "Dot always runs at least two agents, one that talks to the user and one that collects data in the background, and it spun up short-lived sub-agents, for example one that checked all code repositories in a development system.",
+  "The Register says roughly 200,000 tokens on a dot based on OpenAI's Astra model cost between $5 and $10; Geordie's chief AI officer Hanah-Marie Darley compared a day of such spending to the price of a latte.",
+  "Darley says dot is more proactive than Meta's Muse or Grok Bot, but that this does not necessarily mean higher token use.",
+  "Darley's advice: give agents no personal information you would not send in an email, and do not give them real payment cards."
+ ],
+ "quote_evidence": [
+  "one dot agent produced 155 separate activity sequences and consumed more than 300,000 tokens - all without further human interaction, and all in the course of a day.",
+  "The 155 traces cost Geordie about 307,000 tokens.",
+  "“The user would have no idea that there were sub-agents working on their behalf,” she added."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Always-on assistants start their own background work, so a user or employer can pay for activity they never asked for or saw.",
+ "event_date": "Geordie's test; reported 13 Oct 2026 (exact test day not stated)",
+ "notes": "Full text read. One vendor's test of one setup; the figures come from Geordie via interview, not an independent check. No OpenAI comment in the article."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-09",
+ "title": "Bloomberg launches enterprise MCP for AI data access",
+ "source_used": "IT Brief UK (read in full)",
+ "article_url": "https://itbrief.co.uk/story/bloomberg-launches-enterprise-mcp-for-ai-data-access",
+ "fetched": true,
+ "key_facts": [
+  "Bloomberg launched Bloomberg Enterprise Model Context Protocol (MCP) for its licensed-data service, giving clients' AI agents access to licensed Bloomberg data through a standard interface.",
+  "The layer covers more than 100 million securities and more than 50,000 fields.",
+  "Each field comes with metadata saying what it means, how it was calculated and when it applies, such as currency, price type and as-of date.",
+  "Agents can find fields and securities with natural-language search; Bloomberg also adds reusable workflow functions it calls Skills, such as spotting outliers, reviewing trades that breach price-deviation limits and checking sanctions exposure.",
+  "Requests are checked against a client's entitlements before any data is returned; Bloomberg hosts the service and clients keep control of their own agents and models.",
+  "Tony McManus, Bloomberg's global head of enterprise data and indices, says the bottleneck for financial institutions has shifted from model capability to data readiness.",
+  "Offered as an enterprise product to existing data-licence clients."
+ ],
+ "quote_evidence": [
+  "The new access layer covers more than 100 million securities and more than 50,000 fields.",
+  "Requests are checked against a client's entitlements before any data is returned, and tool-level limits restrict the number of securities and fields in a single call.",
+  "Enterprise MCP is being offered as an enterprise product for Data Licence clients, with access governed under existing Bloomberg data rights."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Banks and asset managers using AI agents get a permission-checked, labelled route to Bloomberg data.",
+ "event_date": "Reported 13 Oct 2026 (08:30 UTC); date of Bloomberg's own release not seen",
+ "notes": "IT Brief UK relays Bloomberg's announcement; I could not find the Bloomberg press release (bloomberg.com press page returned 403), so the entry says \"IT Brief UK reports, citing Bloomberg\". A sister site, IT Brief Australia, carries the same headline later on 13 Oct. Launch date may be 12 or 13 Oct."
+}

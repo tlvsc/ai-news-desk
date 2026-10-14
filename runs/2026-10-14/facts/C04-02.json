@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-02",
+ "title": "AI Solves 56-Year-Old Unresolved Mathematical Problem, Landmark Peer-Reviewed Research Published in Science by DeepMind",
+ "source_used": "36Kr (text from QbitAI, published with authorization); cross-checked with The Decoder, 12 Oct 2026",
+ "article_url": "https://eu.36kr.com/en/p/4023949477515143",
+ "fetched": true,
+ "key_facts": [
+  "DeepMind's AlphaProof Nexus, a Gemini-powered agent framework for mathematical proof, is the subject of a peer-reviewed study published in Science.",
+  "It solved 9 open Erdős problems out of 353 it attempted (problems that already had formal Lean versions); two of the nine had been open for 56 years.",
+  "It also proved 44 conjectures from the OEIS integer-sequence database, solved a 15-year-old algebraic geometry question (log-concavity of Hilbert functions) and improved a theoretical bound in convex optimization.",
+  "Workflow: Gemini 3.1 Pro writes proofs, the Lean checker verifies them, error reports go back to Gemini, repeat until the proof passes.",
+  "The simplest configuration (Gemini plus Lean feedback, no AlphaProof or evolutionary search) also solved all nine Erdős problems; the full version was about 2 to 5 times more cost-effective on the hardest ones.",
+  "Cost is roughly several hundred dollars per problem; the full set of Lean proofs has been made public.",
+  "Two mathematicians (Carnegie Mellon University and the University of South Carolina) published a comment in the same Science issue titled 'AI for mathematical research has arrived'.",
+  "36Kr sets this against OpenAI's release of 722 mathematical proofs, which drew pushback from mathematicians; The Decoder says OpenAI put hundreds of AI proofs on GitHub instead of submitting them to journals."
+ ],
+ "quote_evidence": [
+  "It solved 9 Erdős open problems, two of which had remained unsolved for a full 56 years.",
+  "The full set of Lean proof codes from this project has been made public, and the public can view them directly.",
+  "Two mathematicians from Carnegie Mellon University and the University of South Carolina published a comment in the same issue of Science titled: AI for mathematical research has arrived."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Unlike OpenAI's recent proof release, this work went through peer review at Science and its proofs are machine-checked and public.",
+ "event_date": "Science publication first reported by The Decoder on 12 Oct 2026 (online date of the paper not stated); results first shared online in May 2026.",
+ "notes": "Article text is QbitAI's, published by 36Kr; the original QbitAI link is not given. Numbers cross-checked against The Decoder (12 Oct 2026): 9 of 353, two open 56 years, 44 OEIS conjectures. Older news re-dated: results first shared in May 2026, peer-reviewed publication reported 12 Oct 2026."
+}

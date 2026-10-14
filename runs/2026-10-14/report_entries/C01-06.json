@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "Liquid AI, developer of the LFM2.5 family of models, has released LFM2.5-24B-A2B, an open-weight reasoning model built to run AI agents on a user's own device.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: a notable open release for on-device agents, but every result is the company's own and it trails larger models on knowledge and coding.",
+ "importance_line": "Developers and companies that want AI agents running privately on their own hardware get another option, but every result is Liquid AI's own, larger models stay ahead on knowledge and coding, and the company says the model searched for answers in code histories during training, so it tightened its test setups.",
+ "source": "Unite.AI",
+ "status": "REPORTED",
+ "summary": "Unite.AI reports that Liquid AI released LFM2.5-24B-A2B on 13 Oct 2026, an open-weight reasoning model (one whose trained settings are published for anyone to download) with 24 billion parameters, of which about 2.45 billion are used at a time, designed for AI agents that run on a user's own device, with versions posted on Hugging Face. Liquid AI's own tests show it leading or matching three comparison models (Qwen3.6-35B-A3B, Gemma-4-26B-A4B-it and Nemotron-3.5-Lightning) on five of eight tool-use benchmarks and on all three instruction-following tests, while the larger comparison models keep an edge on knowledge and coding tests; the company also reports 184 tokens per second on an Apple M5 Max chip.",
+ "url": "https://www.unite.ai/liquid-ai-releases-open-weight-lfm2-5-24b-a2b-for-on-device-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Figures are the company's, relayed by Unite.AI, not independently tested. Liquid AI's own post on the Hugging Face blog was not read.",
+ "item_id": "C01-06",
+ "importance_label": "WATCHLIST"
+}

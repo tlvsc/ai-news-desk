@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-12",
+ "v1_category": "RES",
+ "headline": "MIT researchers report that an artificial neural network can organise itself from randomly connected units into one that learns to recognise images, as a step toward understanding how brains learn.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: the paper was published on 9 Oct 2026, before this window, and it is a computer model with no brain data.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Neuroscientists and researchers working on brain-computer interfaces, who need the rules by which brain connections change, are affected first, then AI researchers, but the work is a computer model, its authors say it does not necessarily learn the way the brain does, and no link to real brain circuits has been shown.",
+ "source": "MIT News",
+ "status": "REPORTED",
+ "summary": "MIT News reports on a paper published on 9 Oct 2026 in the journal PNAS by researchers at MIT's McGovern Institute for Brain Research, which shows that randomly connected artificial neurons, given simple rules for when connections should strengthen or weaken, can reshape themselves into a network that classifies images about as well as conventional networks trained with back-propagation, the standard method of adjusting connections that neuroscientists think the brain is unlikely to use. The team's main aim is to understand how the brain organises itself, though it says the knowledge could eventually also improve machine learning.",
+ "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+ "freshness": "FOLLOW-UP of 9 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Older news re-dated: PNAS paper dated 9 Oct 2026, MIT write-up 13 Oct 2026. The release gives only surnames and no positions for the researchers, so none are named in the entry."
+}

@@ -1,0 +1,26 @@
+{
+ "title": "Fish Audio Launches Drama 3 to Direct AI Voices and Edit a Single Word",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/fish-audio-drama-3-ai-voice-direction-audio-inpainting/",
+ "fetched": true,
+ "key_facts": [
+  "Fish Audio announced Drama 3, a new text-to-speech model, on 13 Oct 2026.",
+  "Creators can direct delivery in ordinary language, including changes within a sentence (for example calm turning to panicked), using bracketed directions, paired tags on selected words, and an Auto Tag feature that suggests directions.",
+  "Audio inpainting lets a user select part of an existing performance, change the instructions and regenerate just that segment, down to a single word, keeping the surrounding audio; co-founder and chief scientist Shijia Liao says the model uses sound on both sides of the edit.",
+  "It can generate a full multi-speaker scene in one pass, with each character keeping a distinct voice, and offers phoneme-level pronunciation control in languages including English, Chinese, Japanese and Korean.",
+  "Unite.AI says the workflow benefits are potential, not measured, and the release gives no independent evaluation of how reliably single-word repairs preserve the surrounding audio.",
+  "The API lists it as drama-3-preview; the product page and documentation still call it a preview, and Fish Audio says results vary between takes and the model will keep changing.",
+  "Fish Audio says it serves more than 15 million users and has reached $21 million in annual recurring revenue (company-reported).",
+  "Launch offer: API usage discounted by 80% for the first 30 days, and three free months for qualifying enterprises switching voice providers."
+ ],
+ "quote_evidence": [
+  "Fish Audio is targeting those production problems with Drama 3, its new text-to-speech model announced on October 13.",
+  "These are potential workflow benefits, rather than measured productivity gains.",
+  "The public product page and API documentation still describe Drama 3 as a preview."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Synthetic voice becomes easier to revise, since one word can be fixed without regenerating the whole recording.",
+ "event_date": "13 Oct 2026",
+ "notes": "Full article read. Company claims relayed by Unite.AI (AI-generated research-agent byline, reviewed by its editors); no independent testing. Quote from CEO Rissa Cao not used.",
+ "item_id": "C01-07"
+}

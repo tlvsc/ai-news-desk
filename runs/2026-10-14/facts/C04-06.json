@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-06",
+ "title": "Danaher and NVIDIA Partner to Integrate AI Into Scientific Instruments",
+ "source_used": "Unite.AI (article states it is AI-generated and reviewed by its editorial team, based on Danaher's announcement)",
+ "article_url": "https://www.unite.ai/danaher-and-nvidia-partner-to-integrate-ai-into-scientific-instruments/",
+ "fetched": true,
+ "key_facts": [
+  "Danaher Corporation announced on 14 Oct 2026 a collaboration with NVIDIA to advance 'autonomous science'.",
+  "It pairs Danaher's scientific instruments, automation and lab-workflow software with NVIDIA accelerated computing and AI.",
+  "Initial work covers a select group of priority instruments, using NVIDIA DGX Spark at the edge, RAPIDS analytics and BioNeMo open models, with possible expansion over time.",
+  "The companies are also exploring NVIDIA Cosmos world models and Omniverse digital twins for smarter instruments and workflows.",
+  "Goal: shorten the path from an AI prediction to experimental evidence, in a loop where results feed back into models; customers stay free to choose their own models and providers.",
+  "NVIDIA's Kimberly Powell, vice president of healthcare, said the aim is to cut discovery timelines 'from years to months'.",
+  "On 7 Oct 2026 Danaher announced plans for its first AI-powered autonomous lab, at Abcam, for antibodies; it claims up to 8x faster discovery and expects the lab to run at scale in early 2027."
+ ],
+ "quote_evidence": [
+  "Danaher Corporation on October 14, 2026 announced a collaboration with NVIDIA to advance autonomous science and help accelerate the pace of scientific discovery.",
+  "Initial efforts focus on a select group of priority instruments, with the potential to expand across a broader portfolio over time."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Two big companies plan to build AI into lab instruments so experiments and models improve each other, but no results are shown.",
+ "event_date": "14 Oct 2026",
+ "notes": "Company-announced partnership with stated aims only. Danaher's and NVIDIA's own releases were not read; Unite.AI relays Danaher's announcement."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "Anthropic reinvents source control as Claude floods the world with code",
+ "source_used": "The Register (read in full); facts cross-checked against Anthropic engineering blog \"Redesigning source control at Anthropic\"",
+ "article_url": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic published a blog post on Tuesday 13 Oct 2026 about Scion, an in-house version control system that replaced Git for its main code repository (monorepo).",
+  "Code changes merged per day rose from about 2,500 in May 2026 to over 30,000 as of September, according to Anthropic.",
+  "Anthropic's main branch history is about 100 GB, a compressed working copy is more than a quarter of that, and it runs about 25 million code checkouts a day for continuous integration (CI); fetched naively that would be over 600 PB of Git traffic per day.",
+  "Work on Scion started in January and the migration took five months; Claude also helped build Antique (a code review interface), a code search tool and a source control access-control system.",
+  "When Claude Mythos Preview became available internally, Anthropic had it rewrite an early Git-to-Scion ingestion pipeline; the result used 20 times less memory and ran four times as fast.",
+  "Anthropic says its engineers often had to tell Claude \"no\", because agents sometimes break core system constraints.",
+  "Anthropic says Scion is not right for general use and will not be released as open source; it expects other organisations to meet similar code-volume problems within months (The Register's account)."
+ ],
+ "quote_evidence": [
+  "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day",
+  "Anthropic says its bespoke system isn't right for general use. There will be no open source release.",
+  "The much-hyped model produced a version that used 20 times less memory and ran four times as fast."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Managing AI-written code, not writing it, has become the bottleneck at Anthropic, and the company expects others to hit the same limit.",
+ "event_date": "13 Oct 2026 (Anthropic blog post); merge figures cover May to September 2026",
+ "notes": "Numbers are Anthropic's own claims relayed by The Register; I also read Anthropic's original post (anthropic.com/engineering/redesigning-source-control), which matches The Register on the figures, the 20x/4x result and the five-month migration. Source kept as The Register because it wrote its own report with context."
+}

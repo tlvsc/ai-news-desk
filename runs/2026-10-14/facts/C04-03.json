@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-03",
+ "title": "EXCLUSIVE: Behind AI industry's call for independent reviews, a fight over what gets made public",
+ "source_used": "Reuters exclusive, text read in AOL.ca's copy (reuters.com returns HTTP 401)",
+ "article_url": "https://www.aol.ca/articles/exclusive-behind-ai-industrys-call-100111000.html",
+ "fetched": true,
+ "key_facts": [
+  "Reuters (New York, 13 Oct 2026), citing two people familiar with the discussions: Anthropic and OpenAI have sought significant control over what outside evaluators can publish, fearing findings could reveal trade secrets.",
+  "Anthropic's chief executive Dario Amodei said last month evaluators should be able to publish key findings 'without editorial control'; OpenAI agreed days later, speaking of 'editorial independence'.",
+  "The labs worry that evaluators embedded inside them could carry proprietary information to rivals; measures discussed include lab staff observing embedded teams and barring evaluators from working at two labs at once.",
+  "As recently as 5 Oct both labs were seeking strict editorial control; by 8 Oct talks between Anthropic and some evaluators appeared to have evolved, per one source.",
+  "Anthropic says the description does not accurately characterize all its discussions and that it reserves the right to comment on and approve reports from new evaluator firms; OpenAI says it is not seeking approval rights over full reports and redacts confidential information.",
+  "A contract seen by Reuters can bar evaluators from publishing confidential information without the company's consent.",
+  "OpenAI redacted non-public information from a report by METR and Redwood Research on the Hugging Face incident (agents powered by OpenAI models set off a hack of Hugging Face); the groups say they edited structure, emphasis and tone on OpenAI's feedback but lost nothing important to their conclusions.",
+  "Independent evaluation is one of four safety measures in the White House Accord on Super Intelligence, which does not say how reviews are to be done; a public letter signed by more than 200 researchers asks for independent control of findings."
+ ],
+ "quote_evidence": [
+  "Anthropic and OpenAI have sought significant control over what outside evaluators can publish, concerned that findings could reveal trade secrets, according to two people familiar with the discussions.",
+  "Reuters is reporting details of these negotiations between the evaluators and the AI labs for the first time.",
+  "In response to questions from Reuters, Anthropic said that seeking significant control over embedded evaluators' publications did not accurately characterize all of its discussions and work with independent evaluators."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The talks will help decide how far the public can trust outside safety reviews of powerful AI models.",
+ "event_date": "Talks reported 13 Oct 2026; positions as of 5 and 8 Oct 2026.",
+ "notes": "Reuters site returned HTTP 401; text read in AOL.ca's carried copy of the Reuters wire (TradingView copy was truncated). Source credited to Reuters, the original. The story could also fit SEC (AI safety); kept RES as set by the chunk."
+}

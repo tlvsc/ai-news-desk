@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-02",
+ "title": "Coinbase Urges Early Work on Bitcoin’s Post-Quantum Transition",
+ "source_used": "The Quantum Insider (report on a Coinbase blog post, 13 Oct 2026)",
+ "article_url": "https://thequantuminsider.com/2026/10/13/coinbase-urges-early-work-on-bitcoins-post-quantum-transition/",
+ "fetched": true,
+ "key_facts": [
+  "Coinbase, the cryptocurrency exchange and custodian, published a blog post saying Bitcoin should begin preparing for quantum computing threats before a machine able to break its cryptography is announced.",
+  "Coinbase says it holds about 5% of all bitcoin in existence and is preparing its own systems and talking to Bitcoin developers and researchers.",
+  "It calls the migration a complex, multiyear undertaking, because changes to Bitcoin's shared rules and the movement of funds can take years.",
+  "It wants designs that hide public keys until needed, avoid spending routes open to quantum attack, and let different quantum-resistant signature systems be added later; it points to proposals P2MR (Bitcoin Improvement Proposal 360) and P2TRv2.",
+  "It calls for a reproducible, Bitcoin-specific evaluation of candidates including ML-DSA, SLH-DSA and FN-DSA (when standardized) and the compact candidate SHRINCS, and warns that stateful signature systems can allow forgery if a signing state is reused.",
+  "Coinbase says the post is an input to an open discussion, not a final position, and it sets no migration deadline and announces no agreed Bitcoin upgrade.",
+  "On abandoned or inaccessible coins, it says the debate can continue alongside technical work and lists freezes, spending limits and rescue mechanisms only as options to evaluate."
+ ],
+ "quote_evidence": [
+  "Coinbase says Bitcoin should begin preparing for quantum computing threats before a machine capable of breaking its cryptography is announced.",
+  "The company said it holds about 5% of all bitcoin in existence, giving it a substantial stake in how the network approaches the problem.",
+  "Coinbase presented these as options for evaluation, not settled recommendations."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Bitcoin's spending security rests on digital signatures that a future quantum computer could defeat, and one of its largest custodians wants the fix started early.",
+ "event_date": "13 Oct 2026",
+ "notes": "Coinbase's own blog post is the primary source (listed in Google News on 13 Oct 2026); The Block and CoinDesk also covered it. Facts here come from The Quantum Insider's full report. This is a position paper, not a protocol change."
+}

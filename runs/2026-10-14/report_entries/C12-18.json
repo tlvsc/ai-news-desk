@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-18",
+ "v1_category": "SEC",
+ "headline": "Academic researchers report 253 security flaws across 343 tools that AI agents use, found by testing 273 open-source tool servers with a new automated checker.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: the study was posted on 9 Oct, four days before the window, and it is a preprint that counts flaws in tests, not real-world attacks.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and companies that connect AI agents to software tools may be exposing files, logs and data to attacks that filtering the model's output cannot stop, but the study is a preprint with no peer review mentioned, it counts flaws under test conditions rather than confirmed attacks on real systems, and the headline figures use different counting units.",
+ "source": "GBHackers News",
+ "status": "PRELIMINARY",
+ "summary": "GBHackers News reports on a study posted to arXiv, an open research-paper site, on 9 Oct 2026 by researchers at Pennsylvania State University, Université Montpellier and Dartmouth College, who used a new testing framework called ToFu on 273 open-source MCP servers, connectors that let AI agents use software tools, and found 253 verified vulnerabilities affecting 343 tools in 118 servers, including reading files outside allowed folders and leaking data. The study also shows a \"Repeat-After-Me\" attack, where text an attacker gets a model to repeat is mistaken by six agent frameworks, among them LangGraph and CrewAI, for a real tool command, and it concludes that tools must treat model-generated inputs as potentially hostile.",
+ "url": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+ "freshness": "FOLLOW-UP of 9 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "GBHackers full text read. The paper is dated 9 Oct 2026 (older than the window), so it is re-dated and the score lowered one point. Preprint; the article does not mention peer review."
+}

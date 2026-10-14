@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "Anthropic says new defences against the large-scale copying of its Claude models have cut the reasoning data attackers extract by 90 to 99 percent.",
+ "score": 6,
+ "score_reason": "Pool score 6 kept: a major lab names two Chinese firms and gives a figure, but the figure and the allegations are Anthropic's own and not independently confirmed.",
+ "importance_line": "Anthropic says outside companies copy its models' abilities to train their own, and its new limits also catch some ordinary users; the 90 to 99 percent drop and the claims against Zhipu and Moonshot are Anthropic's own and unconfirmed by anyone else, and OpenAI made a similar claim about Moonshot that we carried on 1 Oct 2026.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Anthropic says new defences against distillation (copying a model's abilities to train another) have cut the reasoning steps extracted from its Claude models by 90 to 99 percent, using limits on access to Claude's internal reasoning, a classifier that spots extraction attempts and automatic bans on flagged accounts, with tens of thousands already banned. Anthropic names the Chinese companies Zhipu (maker of the GLM models) and Moonshot (maker of the Kimi models) as participants, alleging that Zhipu copied cyber capabilities for its GLM-5.3 model and that Moonshot secretly routed queries through Claude; the report carries no reply from either, and Anthropic admits that legitimate users are also being caught.",
+ "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Anthropic's own statement relayed by The Decoder; the original Anthropic post was not read. Moonshot = Kimi maker and Zhipu = Z.ai per our 30 Sep 2026 edition. Not a reply story, but related to OpenAI's 1 Oct 2026 Moonshot claim and the 5 Oct 2026 Bessent remark.",
+ "item_id": "C01-04",
+ "importance_label": "MEDIUM"
+}

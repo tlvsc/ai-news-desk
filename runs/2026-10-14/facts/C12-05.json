@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-05",
+ "title": "Sandbox vulnerability gives rogue AI agents a path to escape and leak data, research says",
+ "source_used": "The Record (full text)",
+ "article_url": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
+ "fetched": true,
+ "key_facts": [
+  "AIR, an AI security startup, published research on Monday saying a network-filtering flaw in Vercel Sandbox, a tool for running code in isolated environments, could let rogue agents leak sensitive data.",
+  "Sandboxes normally use network allowlists so agents can reach only approved destinations.",
+  "Researchers showed a specially crafted digital certificate sent to an approved server could trigger a request to an attacker-controlled server, so data leaves without the sandbox contacting the attacker directly.",
+  "Niv Hoffman, AIR co-founder and CTO, called it \"a very hard leak to patch\".",
+  "AIR told Vercel; Vercel said it needs time to find a patch because it is unclear how it will be done.",
+  "AIR has found no evidence of exploitation in the wild but cannot rule it out, and the flaw appears longstanding.",
+  "Vercel did not immediately respond to a request for comment."
+ ],
+ "quote_evidence": [
+  "\"A crafted certificate is all it takes,\" the report said.",
+  "AIR has not found evidence of any exploitation of the vulnerability in the wild, but can't rule out whether or not there has been one, Hoffman said, underscoring that the vulnerability in the Vercel sandbox appeared to be longstanding.",
+  "Vercel did not immediately respond to a request for comment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Even a standard hardened sandbox for AI agents may let a rogue agent move data out, and the vendor has no patch yet.",
+ "event_date": "Research published Monday 12 Oct 2026; article published 13 Oct 2026",
+ "notes": "Single-source vendor research (AIR is a security startup); Vercel has not commented. The article is dated 13 Oct and describes the research as published 'on Monday'; the pool publication time is 13 Oct, so treated as new."
+}

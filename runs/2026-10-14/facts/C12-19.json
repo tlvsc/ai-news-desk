@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-19",
+ "title": "LiteLLM flaws let low-privileged users hijack AI gateway and steal provider keys",
+ "source_used": "Check Point Research's own blog post (full text). IT Security Guru (pool source) returned HTTP 403.",
+ "article_url": "https://blog.checkpoint.com/security/check-point-research-discovers-high-risk-vulnerabilities-in-litellm-one-of-the-most-widely-used-llm-gateways/amp/",
+ "fetched": true,
+ "key_facts": [
+  "Check Point Research found two high-risk vulnerabilities in LiteLLM, the open-source gateway organisations use to connect applications to AI providers such as OpenAI, Google and Anthropic.",
+  "LiteLLM has 97 million downloads a month and over 59,000 GitHub stars.",
+  "CVE-2026-35029 let any user, including read-only ones, reach administrative functions and take over the gateway.",
+  "CVE-2026-59823 (server-side request forgery) let attackers redirect the gateway's requests to their own server and capture AI provider API keys.",
+  "Check Point demonstrated system takeover, file access, credential theft and remote code execution in a controlled test environment.",
+  "Both flaws are fixed in LiteLLM version 1.83.9 and above; earlier versions are exposed.",
+  "Check Point began coordinated disclosure in October 2025 and advises updating, auditing user accounts and rotating stored AI provider keys."
+ ],
+ "quote_evidence": [
+  "Check Point Research has discovered two high risk vulnerabilities in LiteLLM, the open source LLM gateway that organizations use to connect their applications to AI providers such as OpenAI, Google and Anthropic.",
+  "Both vulnerabilities are fixed in LiteLLM version 1.83.9 and above, and organizations running earlier versions should update immediately.",
+  "Check Point Research demonstrated full system takeover, file access, credential theft, and remote code execution in a controlled test environment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Any account on an unpatched LiteLLM gateway could take it over or steal the AI provider keys it stores.",
+ "event_date": "Published 13 Oct 2026; disclosure to LiteLLM began October 2025",
+ "notes": "Findings are Check Point's own; both flaws have CVE numbers and a fix. IT Security Guru's relay was blocked (HTTP 403); the original Check Point blog was read instead. No exploitation in the wild is reported."
+}

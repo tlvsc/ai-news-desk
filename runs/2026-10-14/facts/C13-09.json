@@ -1,0 +1,24 @@
+{
+ "item_id": "C13-09",
+ "title": "Kupor: ‘Super Intelligence’ task force will press companies on AI safety",
+ "source_used": "MeriTalk (reporting Kupor's 12 Oct CNBC interview); POLITICO page returned HTTP 403",
+ "article_url": "https://www.meritalk.com/articles/white-house-ai-task-force-weighs-safety-us-competitiveness/",
+ "fetched": true,
+ "key_facts": [
+  "Scott Kupor, vice chair of the White House Super Intelligence (SI) Force and director of the Office of Personnel Management, spoke in a CNBC interview on 12 Oct 2026 (MeriTalk).",
+  "Trump announced the Super Intelligence Force on 4 Oct 2026 to coordinate the administration's AI strategy.",
+  "Kupor said AI developers must test their products before release and tell the government when problems arise.",
+  "The task force is considering how government can independently verify companies' safety claims: 'We're not just going to sit around and wait for the companies to tell us they've done their work'.",
+  "He floated third-party security audits whose findings go to corporate boards while government officials keep the ability to verify compliance and pursue enforcement, and pointed to existing product-liability and corporate-responsibility laws.",
+  "He cautioned against broadly slowing AI development: 'There is no magical kill switch somewhere where if we decide to slow this down, that doesn't mean other adversaries won't continue to advance the technology'.",
+  "He urged companies to address data centres' electricity and water demands rather than wait for technology to improve, but did not say whether the task force would recommend new federal requirements."
+ ],
+ "quote_evidence": [
+  "Kupor also cautioned against broadly slowing AI development, arguing that such a move would not prevent competing nations from advancing their own capabilities.",
+  "The task force is also considering how the government can independently verify companies’ safety claims rather than relying solely on industry self-reporting."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A senior official says the new White House AI task force wants to check AI companies' safety claims itself, not rely on their word.",
+ "event_date": "CNBC interview 12 Oct 2026; POLITICO published 13 Oct 2026, 09:30 UTC.",
+ "notes": "POLITICO page blocked (HTTP 403); its headline matches the points reported by MeriTalk, which reported the 12 Oct CNBC interview (the CNBC page was also blocked). POLITICO's own event date is not confirmed. Our 11 Oct 2026 edition carried Kupor's Fox News remarks from 10 Oct. Event of 12 Oct is before 13 Oct, so the score is lowered by 1 as instructed; the 12 Oct edition ended 08:12 UTC and the CNBC interview was published 11:32 UTC, so it fell in the gap between editions and the editor may restore 5."
+}

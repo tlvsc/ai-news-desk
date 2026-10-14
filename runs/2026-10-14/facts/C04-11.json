@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-11",
+ "title": "AI is great at math, but does it know how to do research?",
+ "source_used": "Princeton Engineering (engineering.princeton.edu)",
+ "article_url": "https://engineering.princeton.edu/news/2026/10/13/ai-great-math-does-it-know-how-do-research",
+ "fetched": true,
+ "key_facts": [
+  "Researchers co-led by Pravesh Kothari, associate professor of computer science at Princeton, report in an arXiv case study (posted 14 Aug 2026) that AI models did most of the work in narrowing the bounds of the Grothendieck constant, a mathematical quantity first identified in 1953.",
+  "The paper is not yet peer reviewed; the result has implications for algorithms in graph theory and quantum information.",
+  "A reasoning model did the maths and a coding agent verified it; humans posted instructions and stepped in around iteration 18 when the models were looping, then about 30 more iterations succeeded.",
+  "The authors say AI is excellent at finding answers but, as of August 2026, weaker at judging the value, significance, generality or use of a theoretical result.",
+  "Kothari: 'we can take very little credit for the research as human beings'; weeks of AI work replaced what would have taken humans years.",
+  "Context: mathematicians disagree about AI's role; Terence Tao says proofs must be explained so the community can understand them; 25 Fields Medalists signed a letter saying labs have neglected understanding.",
+  "Kothari says the starter projects he used to give first-year graduate students can no longer be used."
+ ],
+ "quote_evidence": [
+  "AI models are good at finding answers to mathematical puzzles but are not as good at research judgment, according to theoretical computer scientists.",
+  "\"The interesting bit is that we can take very little credit for the research as human beings,\" said Kothari."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A first-hand account that AI can do weeks of maths work humans could not, but still needs people to judge what matters.",
+ "event_date": "Preprint posted 14 Aug 2026; Princeton write-up 13 Oct 2026",
+ "notes": "Older news re-dated: the case study went on arXiv on 14 Aug 2026 and Princeton's write-up is dated 13 Oct 2026. The paper is a preprint, not peer reviewed."
+}

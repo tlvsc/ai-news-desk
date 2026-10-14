@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "OpenAI is reportedly struggling with the fallout from a controversial AI design technique as it tries to make its next flagship model safe enough to release.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered 1: single-outlet exclusive whose body could not be read, so the specific safety problems are unverified.",
+ "importance_line": "If the technique does weaken oversight of how a model reasons, a key tool for catching misbehaving AI gets weaker, which matters to anyone relying on these models and to OpenAI's release plans, but OpenAI has not publicly acknowledged the technique.",
+ "source": "The Information",
+ "status": "REPORTED",
+ "summary": "The Information reports that OpenAI is dealing with fallout from its use of loop transformers (also called recurrent depth), a design that can make it harder to monitor how an AI reasons, while it works to bring its next unreleased model to a point its leaders believe is safe to release.",
+ "url": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Paywalled; read only the free opening shown on the page, no other outlet found. The Information also reports that Microsoft briefly confirmed OpenAI's use of the technique in GPT-6.1 Sol in a blog post it later edited; this is kept out of the one-sentence summary and sits in the facts file. Pool category MOD kept (safety angle could also fit SEC).",
+ "item_id": "C01-02",
+ "importance_label": "MEDIUM"
+}

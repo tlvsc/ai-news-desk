@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-13",
+ "title": "15-year-old claims AI helped crack 300-year-old math puzzle",
+ "source_used": "Korea JoongAng Daily",
+ "article_url": "https://www.koreajoongangdaily.com/korea/15yearold-claims-ai-helped-crack-300yearold-math-puzzle/12919724",
+ "fetched": true,
+ "key_facts": [
+  "Jung Gi-hyo, a ninth grader at Gimpohangaram Middle School in Gyeonggi, posted a paper titled 'The rhombicosidodecahedron is not Rupert' on Zenodo and GitHub on 5 Oct 2026.",
+  "He claims to have disproved, with AI help, that this solid (20 triangles, 30 squares, 12 pentagons) can pass through a hole in an identical copy of itself, a counterexample to the Rupert property.",
+  "He used Claude to generate code and then reviewed the results; the calculations took about 38 hours on his laptop.",
+  "His Reddit post topped a Claude coding forum on Saturday; reactions were sharply divided.",
+  "Jung says he cannot independently verify every detail but another paper reached the same conclusion around the same time by a different approach.",
+  "Oum Sang-il (Institute for Basic Science): posting on a repository records the date but does not guarantee validity.",
+  "Seo In-suk (professor of mathematical sciences, Seoul National University): an author must understand every aspect of the work."
+ ],
+ "quote_evidence": [
+  "\"I am not at a level where I can independently verify every detail of the paper,\" Jung said.",
+  "\"Posting a paper on a research repository establishes a public record of when it was released, but it does not guarantee the validity of its contents,\" said Oum Sang-il, chief investigator of the Discrete Mathematics Group at the Institute for Basic Science."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A teenager's AI-assisted claim shows the new reach of AI for amateurs and the unsettled question of how such work is checked.",
+ "event_date": "Paper posted 5 Oct 2026; JoongAng report 13-14 Oct 2026",
+ "notes": "Older news re-dated: the paper was posted on 5 Oct 2026; the JoongAng report is dated 14 Oct 2026. Claim is unreviewed."
+}

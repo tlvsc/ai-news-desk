@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-07",
+ "v1_category": "RES",
+ "headline": "Researchers report that an AI model called SPACER can explain which molecular signals draw immune cells to particular spots in tumours and heart tissue, improving on existing methods by 4 to 21 times.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a published methods paper with large benchmark gains, but the findings are the authors' own and have not been tested in patients.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Cancer researchers and immunotherapy drug developers are affected first, and patients only if the findings hold up in clinical use, but the results come from the authors' own analysis of existing datasets and the abstract reports no clinical trial.",
+ "source": "Nature",
+ "status": "REPORTED",
+ "summary": "A research paper on Nature's website reports that SPACER, an interpretable machine-learning model, reads spatial transcriptomics data (maps of which genes are active where in a tissue sample) to work out which signals recruit particular cells, and beat existing methods by 4 to 21 times across 37 datasets from human tumours and mouse heart. The authors say it linked mucins made by tumours to barriers that keep immune T cells away, which predicted resistance to immune checkpoint inhibitor cancer drugs, and identified CD4 T cells as the main drivers of severe heart inflammation caused by those drugs.",
+ "url": "https://www.nature.com/articles/s41551-026-01804-6",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Abstract only: the full paper is behind subscription, so every claim is attributed to the authors. The page text does not name the journal (the URL prefix s41551 points to Nature Biomedical Engineering), so the source is given as Nature."
+}

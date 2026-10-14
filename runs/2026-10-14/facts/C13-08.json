@@ -1,0 +1,25 @@
+{
+ "item_id": "C13-08",
+ "title": "Palantir CTO says the Pentagon has already replaced Anthropic’s AI",
+ "source_used": "The Next Web",
+ "article_url": "https://thenextweb.com/news/palantir-shyam-sankar-pentagon-replaced-anthropic-face-the-nation",
+ "fetched": true,
+ "key_facts": [
+  "Shyam Sankar, chief technology officer of Palantir, said on CBS's Face the Nation on Sunday (11 Oct 2026) that the Pentagon has already replaced Anthropic's AI models, with no operational impact.",
+  "The Pentagon stopped using Anthropic's products after a dispute over safeguards for military AI and labelled the company a supply chain risk; Claude was part of Palantir's Maven Smart System, which the Pentagon uses.",
+  "The department now uses models from xAI, OpenAI and Google and open-weight models such as Nvidia's Nemotron; users building AI applications pick the models.",
+  "Sankar said the ability to choose and switch models is what has been driving Palantir's commercial growth.",
+  "He blamed effective altruism for much of the fear around AI; he named no researchers and gave no evidence for a claim that many AI researchers have started smoking to signal belief in AI.",
+  "He described military targeting as a process: 1,000 strikes in a day once took two weeks of planning by 50 people, and with AI one person can do it in four hours.",
+  "On the US strike on a school in Minab, Iran, he said Bloomberg's September report was inaccurate, the likely cause was human error, and everyone should wait for the final report; Palantir built extra AI agents to double-check work in a part of the process it does not own.",
+  "He called the Hugging Face incident a defective product for which AI companies would be liable, said existing agencies such as the FDA should regulate how AI is applied, and said Palantir did not sign last month's White House AI accord because it does not make models."
+ ],
+ "quote_evidence": [
+  "The Pentagon has already replaced Anthropic’s AI models, with no operational impact, Palantir’s chief technology officer, Shyam Sankar, said on CBS’s Face the Nation on Sunday.",
+  "The ability to choose and switch models is what has been driving Palantir’s commercial growth, he added."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A supplier to the Pentagon says it swapped out Anthropic's AI without trouble, while benefiting commercially from letting customers switch models.",
+ "event_date": "Interview aired Sunday 11 Oct 2026; The Next Web published 13 Oct 2026.",
+ "notes": "Full text read from the pre-fetched file. Same interview as C05-15 (the smoking remark, category 5) and as the Minab remarks in our 12 Oct 2026 edition (CBS News). The new element here is the claim that the Pentagon has already replaced Anthropic's models."
+}

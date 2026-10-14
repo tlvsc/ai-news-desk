@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-01",
+ "v1_category": "FUN",
+ "headline": "A security company found that OpenAI's always-on dot assistant used more than 300,000 tokens in a day without being asked.",
+ "score": 3,
+ "score_reason": "Kept at the pool score: a vivid detail from one company's single test, not a wide finding.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who try always-on assistants, and employers whose staff bring them to work, may pay for background activity they never see, but this is one security vendor's test of one setup and the article carries no comment from OpenAI.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reports that Geordie, an AI agent security and governance company, found in its own test that one copy of OpenAI's always-on assistant dot ran 155 separate activity sequences and used more than 300,000 tokens (the units of text AI services are billed by) in a day, with no prompts from its user. Geordie's chief AI officer, Hanah-Marie Darley, says dot quietly starts helper agents the user would know nothing about, and she likened a day of such spending to the price of a latte.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/13/openais-dot-assistant-burned-300k-tokens-in-a-day-without-a-single-prompt/5302913",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read from fulltext. Single vendor test; Register interview with Geordie. Article says dot was announced in September 2026."
+}

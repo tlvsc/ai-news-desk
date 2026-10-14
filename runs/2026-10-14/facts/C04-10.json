@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-10",
+ "title": "KRICT Links Human-Guided AI Scientist to Labs to Cut Experiment Time by 75 Percent",
+ "source_used": "Dong-A Science (dongascience.com)",
+ "article_url": "https://www.dongascience.com/en/news/80324",
+ "fetched": true,
+ "key_facts": [
+  "The Korea Research Institute of Chemical Technology (KRICT) announced on 14 Oct 2026 a 'human-in-the-loop optimization' technology developed by a team led by senior researcher Ahn Gwangno.",
+  "A large language model turns knowledge that researchers state in natural language into prior information and constraints for a Bayesian optimization AI, a method that finds the best experimental conditions with few trials.",
+  "A safety mechanism, 'adaptive reliability verification', checks the researcher's guidance if it is wrong.",
+  "In a virtual experimental environment built from real experimental data, an autonomous lab with researchers' prior knowledge matched a system supplied with 40 data points, even when given almost no data.",
+  "Article text says the search time needed to reach target performance was 'reduced by up to one quarter'; its headline says experiment time was cut by 75 percent.",
+  "The team also released an 'AI co-scientist' interface for adjusting research through dialogue during an experiment.",
+  "The results were published on 10 Aug 2026 in the Journal of Chemical Information and Modeling."
+ ],
+ "quote_evidence": [
+  "The search time required to reach the target performance was reduced by up to one quarter.",
+  "The results were published on August 10 in the international journal Journal of Chemical Information and Modeling."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Letting researchers pass what they know to a self-running lab in plain language could save costly experiments, but the tests were virtual.",
+ "event_date": "Paper published 10 Aug 2026; KRICT announcement 14 Oct 2026",
+ "notes": "Older news re-dated: the research was published on 10 Aug 2026 and announced by KRICT on 14 Oct 2026. The size of the time saving is unclear: the headline says 75 percent, the text says 'reduced by up to one quarter' (possibly a translation of 'to one quarter')."
+}

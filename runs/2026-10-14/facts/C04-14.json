@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-14",
+ "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+ "source_used": "ScienceDaily, carrying a release from the Indian Institute of Science (IISc)",
+ "article_url": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+ "fetched": true,
+ "key_facts": [
+  "IISc researchers combined machine learning with quantum-mechanics simulations to identify 9,389 individual reactions on a copper catalyst for turning carbon dioxide into fuels, growing a network of 152 hand-simulated reactions.",
+  "They trained ML models to estimate energy barriers and examined reactions among 105 chemical species on the catalyst surface.",
+  "The 152-reaction network wrongly predicted formic acid, not methanol, as the main product and underestimated CO2 conversion; the 9,389-reaction network correctly identified methanol and carbon monoxide and raised predicted CO2 conversion about 40 times.",
+  "The larger network revealed hydrogen can transfer to intermediates as intact H2, challenging a long-standing assumption.",
+  "Published in Nature Communications; experiments were done at Hindustan Petroleum Corporation Limited's Green R&D Centre and at A*STAR in Singapore.",
+  "The approach could be used for other processes such as nitrogen reduction and water splitting."
+ ],
+ "quote_evidence": [
+  "When we modeled the process using the 152 reactions considered initially, the network wrongly predicted formic acid, not methanol, as the major product, and underestimated how much CO2 gets converted.",
+  "Materials provided by Indian Institute of Science (IISc)."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A bigger, machine-learning-built reaction map matched experiments and pointed to a hydrogen route that could guide catalyst design.",
+ "event_date": "Release dated 13 Oct 2026 (ScienceDaily URL); Nature Communications publication date not stated",
+ "notes": "ScienceDaily carries the IISc release text, so the institute is credited as the source. The paper's publication date is not stated, so freshness is NEW."
+}

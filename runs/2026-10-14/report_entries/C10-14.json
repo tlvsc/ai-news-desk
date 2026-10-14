@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-14",
+ "v1_category": "HEA",
+ "headline": "A University of Pennsylvania team built a prototype that lets epilepsy patients chat with an AI linked to their brain-wave monitor, and in a 13-patient hospital study patient feedback cut false seizure alerts by about 81% in simulation.",
+ "score": 5,
+ "score_reason": "Pool score kept: a peer-reviewed paper in a leading journal on a new kind of epilepsy device interface, but the study is small, at one hospital, and partly a simulation.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People with epilepsy, about 70 million worldwide, could one day get devices that explain their seizure risk and learn from their replies, but this was tested on 13 hospital inpatients and the raw seizure alerts were poor before patient feedback was added.",
+ "source": "Nature Medicine",
+ "status": "CONFIRMED",
+ "summary": "Nature Medicine reports a University of Pennsylvania prototype that links brain-wave (EEG) recordings from epilepsy patients to a secure large language model, the kind of AI behind chatbots, which chats with them through a smartphone app, tells them about seizure events and trends and retrains its seizure detector from their feedback. In 13 patients monitored at the Hospital of the University of Pennsylvania, simulations showed patient feedback cut false alarms by 80.9%, but the raw seizure alerts caught only 8 of 59 confirmed seizures, and the authors note that patients may over-rely on such systems.",
+ "url": "https://www.nature.com/articles/s41591-026-04680-4",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full paper text read; the journal notes peer review. Published online 13 Oct 2026. Results come from 13 inpatients at one centre plus a simulation, not a trial of a home device."
+}

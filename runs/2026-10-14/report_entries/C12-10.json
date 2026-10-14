@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-10",
+ "v1_category": "SEC",
+ "headline": "Software-security firm Chainguard has launched a service that uses frontier AI models to find flaws in a customer's running software, along with tools to make AI coding agents safer.",
+ "score": 5,
+ "score_reason": "Pool score kept: a vendor product launch with real features, but it is a beta and the claims of findings are the company's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams could find and fix hidden flaws faster and get tighter limits on what AI coding agents can reach, but Harness is a vendor's own service run by its staff, the claims of serious findings are Chainguard's, and no independent test is reported.",
+ "source": "SiliconANGLE",
+ "status": "REPORTED",
+ "summary": "SiliconANGLE reports that Chainguard, a software supply-chain security company, unveiled at its Assemble London conference on 14 Oct 2026 a vulnerability-hunting service called Harness that uses frontier AI models such as Anthropic's Claude Mythos 5.1 and reports only flaws it can reproduce, plus two products, Workspaces and Checks, for securing AI coding agents, and wider support for its vetted open-source libraries. Chainguard staff run Harness for customers for now and sign off every report, Workspaces and Checks start in beta today, and chief executive Dan Lorenc says Harness has found serious, exploitable flaws every time it was pointed at code.",
+ "url": "https://siliconangle.com/2026/10/14/chainguard-puts-claude-mythos-on-flaw-hunting-secures-coding-agents-and-widens-libraries/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "SiliconANGLE full text read; cookie and related-article boilerplate skipped."
+}

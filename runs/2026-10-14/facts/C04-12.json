@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-12",
+ "title": "How artificial neural networks build their own learning machinery",
+ "source_used": "MIT News (news.mit.edu)",
+ "article_url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+ "fetched": true,
+ "key_facts": [
+  "A paper published 9 Oct 2026 in PNAS by scientists at MIT's McGovern Institute for Brain Research and the K. Lisa Yang ICoN Center argues that the ability of an artificial neural network to organize itself is a key test of how brain-like its learning is.",
+  "With simple rules about how and when connections change, a group of randomly connected units can reshape itself into an effective information-processing network that learns from data.",
+  "The network learned to recognize patterns and classify images through self-assembling 'motifs' adjusted by an optimization similar to gradient descent.",
+  "Most modern AI uses back-propagation, which neuroscientists think the brain is unlikely to use; the self-organizing network performed at a similar level to networks designed that way.",
+  "Poggio, quoted in the release, says that if the proposed synaptic motifs are what the brain uses to do what back-propagation does for artificial networks, there would be a strong link between machines and brains at the level of fundamental mechanisms.",
+  "Liao says the network does not necessarily learn the way the brain does, but self-organization is a first framework; brain-computer interfaces are cited as a possible application.",
+  "The main goal is understanding the brain, though the knowledge could eventually improve machine learning."
+ ],
+ "quote_evidence": [
+  "With some simple instructions about how and when connections should change, a group of randomly connected units can reshape itself into an effective information-processing network, learning from the data it is trained on.",
+  "Liao says a self-organizing network does not necessarily learn the same way the brain does - but it's a critical starting point for biological plausibility."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A computer model that builds its own learning machinery could help neuroscientists work out the brain's learning rules.",
+ "event_date": "Paper published 9 Oct 2026; MIT write-up 13 Oct 2026",
+ "notes": "Older news re-dated: PNAS paper dated 9 Oct 2026, MIT write-up 13 Oct 2026. The release gives only surnames and no positions for the researchers, so none are named in the entry."
+}

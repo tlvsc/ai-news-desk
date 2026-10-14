@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "MOD",
+ "headline": "Supabase has added tools that let AI coding agents set up and test an app's backend from code, and a template that lets apps run their own MCP server for users' AI agents.",
+ "score": 3,
+ "score_reason": "Lowered two points from 5: the announcement is from 2 Oct 2026, eleven days before the window, and the headline blurs it with the older official Supabase MCP server.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building apps with AI agents get a way to let agents manage the backend and to let their users' agents in under each user's own permissions, but some features are still alpha, the news is nearly two weeks old and all claims are Supabase's own.",
+ "source": "Supabase",
+ "status": "CONFIRMED",
+ "summary": "Supabase, a Postgres development platform for app builders, said at its Select conference on 2 Oct 2026 that it is adding tools so AI coding agents can set up a backend from code, test changes locally without Docker and run long-lived services, plus a template for apps to run their own MCP server (Model Context Protocol, the standard that lets AI agents connect to software), where a user's agent sees only the data that user may see. This is older news that TechGig re-reported on 14 Oct 2026, and Supabase describes the local test setup as alpha and its Compute service as a private alpha with a waitlist.",
+ "url": "https://supabase.com/blog/select-2026-build-anything",
+ "freshness": "FOLLOW-UP of 2 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item TechGig (14 Oct 2026) gave only two sentences; written from Supabase's own blog post of 2 Oct 2026, which is the first reporter. Score lowered 5 to 3 as stale."
+}

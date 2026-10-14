@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-19",
+ "v1_category": "SEC",
+ "headline": "Check Point researchers found two serious flaws in LiteLLM, a widely used gateway between company software and AI providers, that let ordinary users take it over and steal provider keys.",
+ "score": 5,
+ "score_reason": "Pool score kept: serious flaws in a very widely used AI gateway, but they are already patched and the findings are the finder's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies running LiteLLM before version 1.83.9, and the platforms that embed it, could have had AI provider keys stolen and their accounts used at their cost, but the findings are Check Point's own research shown in a controlled test, the fix is available and no real-world exploitation is reported.",
+ "source": "Check Point Research",
+ "status": "REPORTED",
+ "summary": "Check Point Research reports that it found two high-risk flaws in LiteLLM, an open-source gateway through which organisations send requests to AI providers such as OpenAI, Google and Anthropic: one (CVE-2026-35029) lets any user, even a read-only one, reach administrator functions and take over the gateway, and the other (CVE-2026-59823) lets a user redirect the gateway's requests to their own server and capture the AI provider API keys. Check Point says both were fixed in LiteLLM version 1.83.9 and urges organisations on earlier versions to update, noting that LiteLLM has 97 million downloads a month and often runs inside other platforms.",
+ "url": "https://blog.checkpoint.com/security/check-point-research-discovers-high-risk-vulnerabilities-in-litellm-one-of-the-most-widely-used-llm-gateways/amp/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "IT Security Guru (pool source) blocked (HTTP 403); the original Check Point Research blog post was read. Coordinated disclosure began in October 2025; public write-up dated 13 Oct 2026."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-08",
+ "title": "Supabase MCP server enables agents to provision backend infrastructure",
+ "source_used": "Supabase blog 'Build anything: Supabase from code, and an MCP server for your app' (supabase.com/blog/select-2026-build-anything); TechGig gave only two sentences",
+ "article_url": "https://supabase.com/blog/select-2026-build-anything",
+ "fetched": true,
+ "key_facts": [
+  "Supabase announced the tools \"today at Supabase Select\"; its blog lists the post and the Select 2026 recap with date 2 Oct 2026.",
+  "New tools let a coding agent set up a backend from code: schema written as SQL files with the new pg-delta engine generating migrations, and project config kept in config.toml.",
+  "Local Supabase can run as native processes without Docker, one stack per directory; it is in alpha and off by default.",
+  "Supabase Compute runs long-lived services next to the database; it is in private alpha with a waitlist.",
+  "An app can now have its own MCP server, deployed inside its Supabase project, so a user's agent in Claude, ChatGPT or Cursor sees only what that user is allowed to see.",
+  "Supabase says an app's MCP server is separate from the official Supabase MCP server, which helps developers build their app.",
+  "TechGig's 14 Oct 2026 article says Supabase has introduced MCP server support for agents to provision and modify backend infrastructure; it re-reports the 2 Oct announcement."
+ ],
+ "quote_evidence": [
+  "Today at Supabase Select, we announced new tools that let your coding agent set up your backend, test changes locally, and deploy the services behind your app.",
+  "Your app can now have its own MCP server, deployed inside the Supabase project you already have.",
+  "Your app's MCP server is separate from the official Supabase MCP server, which helps you build your app."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers get a route for AI agents to manage a backend from code and for their users' agents to work inside an app under each user's permissions.",
+ "event_date": "2 Oct 2026",
+ "notes": "Stale and partly misframed: TechGig (14 Oct) presents this as new \"MCP server support\", but the announcement is from Supabase Select on 2 Oct 2026 and Supabase already had an official MCP server. The TechGig page gave only two sentences, so I wrote from Supabase's own blog. A lavx.hu rewrite claims Supabase is the \"first major\" backend-as-a-service to do this; I did not use that unverified claim."
+}

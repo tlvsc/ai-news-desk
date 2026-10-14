@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-18",
+ "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
+ "source_used": "GBHackers News (full text)",
+ "article_url": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers.",
+  "The evaluation covered 273 open-source MCP servers containing 3,405 tools, using a new fuzzing framework called ToFu.",
+  "The study, \"ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary\", was published on arXiv on 9 Oct 2026 by researchers from Pennsylvania State University, Universite Montpellier and Dartmouth College.",
+  "Issues include arbitrary path traversal, log injection, data exfiltration and command bypass.",
+  "The \"Repeat-After-Me\" attack makes a model reproduce text that the orchestration layer then runs as a real tool call; it was replicated across six frameworks including LangGraph, Microsoft MAF, Google ADK 2.0, AutoGen, AWS Strands and CrewAI.",
+  "Tool descriptions often do not match actual code; prompt filtering and better model behaviour cannot replace security checks in the software that performs file, network or command operations.",
+  "The study focuses on tool-level contract violations, not on confirming exploitation of every affected deployment; the figures use different measurement units."
+ ],
+ "quote_evidence": [
+  "Researchers have identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers.",
+  "The findings are based on an evaluation of 273 open-source MCP servers containing 3,405 tools, using a new fuzzing framework called ToFu.",
+  "The study focuses on tool-level contract violations rather than confirming the exploitation of every affected deployment."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Many open-source connectors that let AI agents use software tools accept unsafe inputs from the model, so tool code must treat model output as untrusted.",
+ "event_date": "Study posted on arXiv 9 Oct 2026; article published 13 Oct 2026",
+ "notes": "Academic preprint reported four days after posting; no peer review mentioned; older than the window start, so re-dated as a follow-up and scored one point lower."
+}

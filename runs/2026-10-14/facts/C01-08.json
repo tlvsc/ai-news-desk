@@ -1,0 +1,26 @@
+{
+ "title": "ModelBest Open-Sources MiniCPM-V 4.7, Its First MoE Multimodal Model, Running in 3GB on a Phone",
+ "source_used": "Pandaily (article text read from the page's embedded data; the visible page was empty)",
+ "article_url": "https://pandaily.com/modelbest-minicpm-v-4-7-open-source-35b-a3b-moe-3gb-iphone-on-device",
+ "fetched": true,
+ "key_facts": [
+  "ModelBest released MiniCPM-V 4.7, a new generation of its on-device multimodal (image-and-text) model family, in two sizes: 35B-A3B and 1B.",
+  "The 35B-A3B version is the first mixture-of-experts model in the MiniCPM-V series; weights, code and documentation are on the OpenBMB GitHub repository under the Apache-2.0 license.",
+  "ModelBest says the 35B-A3B model, which activates about 3 billion parameters per token, runs on an iPhone 17 Pro Max in about 3GB of memory at more than 13 tokens per second, thanks to a technique it calls lookahead expert scheduling (LES).",
+  "Benchmark scores reported by the team: 91.72 on MMBench, 91.2 on OCRBench and 90.21 on CMMLU; in Instruct mode it reaches a higher overall score than Qwen3.6 35B-A3B with shorter reasoning time.",
+  "The 1B version improves on MiniCPM-V 4.6 and, ModelBest says, leads Qwen3.5 0.8B on overall score and inference efficiency.",
+  "In hands-on tests published by QbitAI, the model handled chart reasoning and turned academic papers into Markdown with the phone offline.",
+  "It supports iOS, Android and HarmonyOS and has been adapted for chips from Intel, AMD, Arm, Rockchip and Houmo AI; ModelBest also open-sourced a fine-tuning recipe called Self-Replay Fine-Tuning (SRFT).",
+  "It follows MiniCPM-V 4.6 in May and the MiniCPM5-2B text model in September."
+ ],
+ "quote_evidence": [
+  "ModelBest has released MiniCPM-V 4.7, a new generation of its on-device multimodal model family, in two sizes: 35B-A3B and 1B.",
+  "The headline claim is efficiency on phones.",
+  "On benchmarks reported by the team, the 35B-A3B model scores 91.72 on MMBench, 91.2 on OCRBench and 90.21 on CMMLU."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A large image-reading model small enough for a phone, if the company's speed and memory claims hold.",
+ "event_date": "Not stated; Pandaily page dated 14 Oct 2026 (01:45 UTC)",
+ "notes": "The fetched page showed no visible text (rendered by script); the article body was read from the data embedded in the page. Single outlet, company claims. Pool listed publication 04:26 UTC on 14 Oct; the page shows 01:45 UTC.",
+ "item_id": "C01-08"
+}

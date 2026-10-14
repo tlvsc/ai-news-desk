@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-02",
+ "title": "Nvidia opens up Israeli-founded Run:ai software two years after $800 million acquisition",
+ "source_used": "CTech (fetched by me, the main fetch returned 0 characters); cross-checked against NVIDIA Technical Blog \"NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform\"",
+ "article_url": "https://www.calcalistech.com/ctechnews/article/jqdtr2997",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia is making the full software platform of Israeli-founded Run:ai available as open source (CTech and Nvidia developer blog, 13 Oct 2026).",
+  "Nvidia acquired Run:ai in late 2024 for an estimated $800 million, after an eight-month regulatory review in the United States and Europe.",
+  "Run:ai software allocates computing capacity across AI workloads and can share GPU resources among workloads that do not need a whole chip.",
+  "The release includes the complete platform and four parts that can be adopted separately: KAI Scheduler, GPU Fractioning Operator, KAI Resource Management and Workload Map.",
+  "When Nvidia bought the company, founders Omri Geller and Dr. Ronen Dar said they planned to open-source the software.",
+  "The community product needs no paid Run:ai subscription or Nvidia support entitlement, but enterprise support is not included; Nvidia will keep selling commercial versions.",
+  "Nvidia's developer blog says eight partners, including Crusoe, Mirantis, Nebius and vCluster, are integrating the open source platform into their offerings."
+ ],
+ "quote_evidence": [
+  "The move opens up technology Nvidia acquired in late 2024 for an estimated $800 million, following an eight-month regulatory review in the United States and Europe.",
+  "The release does not mean that every use of Run:ai is now free of charge or includes enterprise support.",
+  "Nvidia will continue to offer commercial versions through its enterprise AI products and supported cloud offerings."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers and cloud providers get the code of a tool meant to get more work out of costly AI chips.",
+ "event_date": "13 Oct 2026",
+ "notes": "Confirmed by Nvidia's own developer blog and CTech. The $800 million is CTech's estimate."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-02",
+ "title": "Microsoft unveils Maia 300 AI chip",
+ "source_used": "Computerworld",
+ "article_url": "https://www.computerworld.com/article/4234722/microsoft-unveils-new-maia-300-ai-chip.html",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft unveiled the Maia 300, its third-generation AI chip, on Monday (12 Oct 2026).",
+  "Microsoft says the chip is optimized for the latest reasoning AI models and agents and should lower operating costs.",
+  "Scott Guthrie, Microsoft executive vice president for cloud and AI: Microsoft expects 40% more tokens per megawatt than leading GPU-based systems.",
+  "The predecessor Maia 200 launched in January and now supports Microsoft Copilot, with GitHub Copilot and Microsoft Foundry to follow by the end of 2026.",
+  "Microsoft plans to deploy the Maia 300 after the turn of the year.",
+  "Guthrie: Azure Maia will scale to multi-gigawatt deployments from 2027, making Maia the primary inference system for Microsoft products and services.",
+  "The Verge (cited by Computerworld) notes the chip will make Microsoft less dependent on Nvidia and AMD chips."
+ ],
+ "quote_evidence": [
+  "“We expect Maia 300 to deliver 40% more tokens per megawatt compared to leading GPU-based systems,” said Scott Guthrie, Microsoft’s executive vice president for cloud and AI, in a blog post.",
+  "Microsoft plans to deploy the Maia 300 after the turn of the year.",
+  "The Maia 300 will make Microsoft less dependent on AI chips from Nvidia and AMD as Microsoft shifts more workloads to its own AI chips, noted The Verge."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A cloud giant moving AI work onto its own chips changes the demand picture for Nvidia and AMD.",
+ "event_date": "12 Oct 2026 (Monday)",
+ "notes": "Unveiled Monday 12 Oct 2026 (Microsoft Source and Yahoo Finance items are timed 12 Oct 13:00 UTC), before the 13 Oct window; Computerworld ran it 13 Oct. It does not appear in the 13 Oct pool titles, so our readers have not seen it. The 40% figure is Microsoft's own expectation."
+}

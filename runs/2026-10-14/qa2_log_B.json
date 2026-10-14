@@ -1,0 +1,303 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-04",
+   "field": "summary",
+   "before": "Military Times reports that an Army memo dated 1 Oct 2026 and signed by Acting Army Secretary Adam Telle orders the creation of the Army Futures and Autonomous Systems Command (FASCOM) and a single office to buy the Army's priority autonomous systems, following the 30 Sep 2026 announcement by Defense Secretary Pete Hegseth, head of the Pentagon, of a planned four-star Autonomous Warfare Command. The memo sets a fiscal 2028 deadline for buying and fielding autonomous systems such as artillery, combat vehicles, breaching systems and drones or robots working alongside crewed vehicles, but it does not say who will lead FASCOM, where it will be based or when it will start.",
+   "after": "Military Times reports that an Army memo dated 1 Oct 2026 and signed by Acting Army Secretary Adam Telle orders the creation of the Army Futures and Autonomous Systems Command (FASCOM) and a single office to buy the Army's priority autonomous systems, following the 30 Sep 2026 announcement by Defense Secretary Pete Hegseth, head of the Pentagon, of a planned four-star Autonomous Warfare Command. The memo sets a fiscal 2028 deadline for buying and fielding autonomous systems such as artillery, combat vehicles, breaching systems and drones or robots working alongside crewed vehicles, but it leaves FASCOM's leader, base and start date open.",
+   "reason": "Clause nearly copied from a quote_evidence sentence; rewritten in our own words, same meaning."
+  },
+  {
+   "item_id": "C11-05",
+   "field": "importance_line",
+   "before": "Robot makers and researchers could use a model that reasons about physical scenes and builds its own training simulations, which may speed up robot development, but the benchmark and the 56 to 75 percent result are Google's own claims drawn from chosen examples.",
+   "after": "Robot makers and researchers could use a model that reasons about physical scenes and builds its own training simulations, which may speed up robot development, but the benchmark and the 56 to 75 percent result are Google's own claims, with no outside testing reported.",
+   "reason": "'drawn from chosen examples' is not supported by the facts; replaced with the supported point that no outside testing is reported."
+  },
+  {
+   "item_id": "C11-07",
+   "field": "importance_line",
+   "before": "Agility says the money would pay for existing customer orders and more deployments at customers such as Schaeffler, GXO and Toyota Motor Manufacturing Canada, but the order figure is its own claim and depends on milestones, and the deal still needs the 2 Nov 2026 vote.",
+   "after": "Agility says the money would fill existing orders and expand deployments of its Digit robot, which firms such as Schaeffler, GXO and Toyota Motor Manufacturing Canada already use, but the order figure is its own claim and depends on milestones, and the deal still needs the 2 Nov 2026 vote.",
+   "reason": "The article names Schaeffler, GXO and Toyota as current Digit users, not as the targets of the new money; meaning corrected."
+  },
+  {
+   "item_id": "C11-10",
+   "field": "headline",
+   "before": "South Korea has let 20 walking humanoid robots work alongside people in four industries by relaxing safety rules written for fixed industrial robots.",
+   "after": "South Korea has cleared 20 walking humanoid robots to work alongside people in four industries, in a pilot exempt from safety rules written for fixed industrial robots.",
+   "reason": "The robots are to be deployed under a conditional pilot exemption, not yet working and not a general relaxation of the rules; certainty reduced to what the facts support."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "headline",
+   "before": "DeepSeek, the Chinese AI lab, plans to lead a seed funding round for Winverse AI, a robot-brain start-up founded this year by a former Tencent scientist.",
+   "after": "DeepSeek, the Chinese AI lab, plans to lead a seed funding round for Winverse AI, a robot-brain start-up founded this year by a former Tencent scientist, Bloomberg reports.",
+   "reason": "Single-outlet report of a plan; attribution added to the headline."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "source",
+   "before": "Bloomberg, as relayed by 36Kr",
+   "after": "Bloomberg",
+   "reason": "Credit rule (3 Oct 2026): Bloomberg is the first reporter and 36Kr relays its report, so the printed source is Bloomberg."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "summary",
+   "before": "36Kr, relaying a Bloomberg report of 12 Oct 2026, says DeepSeek plans to lead a seed round of tens of millions of dollars for Winverse AI, a start-up founded this year by Hu Han, a former Tencent distinguished scientist who led its vision-language and embodied-intelligence model teams, at a post-investment valuation of about $400 million. It would be DeepSeek's second robotics bet in two months after its roughly 141 million yuan stake in Unitree Robotics in August, and Winverse has not disclosed any product or technical route.",
+   "after": "Bloomberg reported on 12 Oct 2026, as relayed by 36Kr, that DeepSeek plans to lead a seed round of tens of millions of dollars for Winverse AI, a start-up founded this year by Hu Han, a former Tencent distinguished scientist who led its vision-language and embodied-intelligence model teams, at a post-investment valuation of about $400 million. It would be DeepSeek's second robotics bet in two months after its roughly 141 million yuan stake in Unitree Robotics in August, and Winverse has not disclosed any product or technical route.",
+   "reason": "Credit rule: attribution now leads with the first reporter, Bloomberg."
+  },
+  {
+   "item_id": "C11-12",
+   "field": "summary",
+   "before": "Bloomberg reported on 12 Oct 2026, as relayed by 36Kr, that DeepSeek plans to lead a seed round of tens of millions of dollars for Winverse AI, a start-up founded this year by Hu Han, a former Tencent distinguished scientist who led its vision-language and embodied-intelligence model teams, at a post-investment valuation of about $400 million. It would be DeepSeek's second robotics bet in two months after its roughly 141 million yuan stake in Unitree Robotics in August, and Winverse has not disclosed any product or technical route.",
+   "after": "Bloomberg reported on 12 Oct 2026, as relayed by 36Kr, that DeepSeek plans to lead a seed round of tens of millions of dollars for Winverse AI, a start-up founded this year by Hu Han, a former Tencent distinguished scientist who led its vision-language and embodied-intelligence model teams, at a post-investment valuation of about $400 million. It would be DeepSeek's second robotics bet in two months after its roughly 141 million yuan stake in Unitree Robotics in August, and 36Kr says Winverse has not disclosed any product or technical route.",
+   "reason": "This detail comes from 36Kr, not Bloomberg; attributed."
+  },
+  {
+   "item_id": "C11-11",
+   "field": "source",
+   "before": "Bloomberg, as relayed by Deccan Chronicle",
+   "after": "Bloomberg",
+   "reason": "Credit rule (3 Oct 2026): the text is Bloomberg's, carried by Deccan Chronicle, so the printed source is Bloomberg only."
+  },
+  {
+   "item_id": "C11-13",
+   "field": "summary",
+   "before": "BBC News reports that North Rhine-Westphalia police have opened an investigation into the 16-year-old owner of a red and gold robot, about 120 cm (3.9 ft) tall, and his 19-year-old companion, who are accused of controlling it and are believed to have streamed live when it allegedly grabbed a 16-year-old girl's buttocks in Cologne close to midnight on Saturday 10 Oct 2026. The case was first reported on 12 Oct 2026; the new step is the investigation of the two, and police warned in a follow-up Facebook post that some online comments about the case could amount to a criminal offence.",
+   "after": "BBC News reports that North Rhine-Westphalia police have opened an investigation into the 16-year-old owner of a red and gold robot, about 120 cm (3.9 ft) tall, and his 19-year-old companion, who are accused of controlling it and are believed to have streamed live when it allegedly grabbed a 16-year-old girl's buttocks in Cologne close to midnight on Saturday 10 Oct 2026. The case was first reported on 12 Oct 2026, and in a follow-up Facebook post police warned that some online comments about it could amount to a criminal offence.",
+   "reason": "The facts do not say when the investigation began, so 'the new step is the investigation' is unsupported; removed."
+  },
+  {
+   "item_id": "C11-14",
+   "field": "importance_line",
+   "before": "People in retail, tourism and factories could meet these robots sooner as money pours into Chinese humanoid makers, but the valuation, order and capacity figures come from the company and one finance site.",
+   "after": "Shoppers and workers in China could meet these robots sooner as money pours into Chinese humanoid makers, but the valuation, shipping and capacity figures come from the company and one finance site.",
+   "reason": "'tourism' and 'order' figures are not in the source; the article names retail stores and commercial and industrial sites."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "importance_line",
+   "before": "Paying Gemini users can now try Google's newest top model at a lower price than OpenAI and Anthropic charge, which raises pressure on both, but the performance claims are Google's own, free and Plus users have no access date, and cheaper tokens may not mean cheaper tasks.",
+   "after": "Paying Gemini users can now try Google's newest top model at a lower price than OpenAI and Anthropic charge, but the performance claims are Google's own, free and Plus users have no access date, and cheaper tokens may not mean cheaper tasks.",
+   "reason": "'raises pressure on both' is a consequence the facts do not support."
+  },
+  {
+   "item_id": "C01-02",
+   "field": "importance_line",
+   "before": "If the technique does weaken oversight of how a model reasons, a key tool for catching misbehaving AI gets weaker, which matters to anyone relying on these models and to OpenAI's release plans, but OpenAI has not acknowledged the technique and only the opening of the report is public.",
+   "after": "If the technique does weaken oversight of how a model reasons, a key tool for catching misbehaving AI gets weaker, which matters to anyone relying on these models and to OpenAI's release plans, but OpenAI has not publicly acknowledged the technique.",
+   "reason": "Removed a source-access process note (the PDF adds its own note); restored the source's hedge 'publicly'."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "importance_line",
+   "before": "Apple's $299 home screen goes on sale next month, but not in the EU, it needs a recently unlocked iPhone to reach private data, and analysts doubt that the upgraded Siri, upgraded this summer with Google's help, is strong enough to win a crowded market.",
+   "after": "Apple's $299 home screen goes on sale next month, but not in the EU, it needs a recently unlocked iPhone to reach private data, and analysts doubt that Siri, upgraded this summer with Google's help, is strong enough to win a crowded market.",
+   "reason": "Repeated word removed; meaning unchanged."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "importance_line",
+   "before": "Hobbyists and families can run apps they made with AI on their own phones without a public release, which lowers a barrier for non-programmers, but at first it is for US adults only and the apps must still follow Play policies.",
+   "after": "Hobbyists and other non-programmers can run apps they made with AI on their own phones without a public release, but at first it is for US adults only and the apps must still follow Play policies.",
+   "reason": "The apps are shared with no one but their creator for now, so 'families' is not supported; shorter."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "summary",
+   "before": "The Verge reports that Shopify announced on Tuesday that shoppers can link their own AI agent to their account on the Shop app and have it browse and buy from a catalog of more than a billion listings, with one-click checkout through Shop Pay and approval needed for every purchase. It widens a September deal that let Meta's Muse agent shop on Shopify, because any agent can now be used without a partnership.",
+   "after": "The Verge reports that Shopify announced on Tuesday that shoppers will be able to link their own AI agent to their account on the Shop app and have it browse and buy from a catalog of more than a billion listings, with one-click checkout through Shop Pay and approval needed for every purchase. It widens a September deal that let Meta's Muse agent shop on Shopify, because any agent can now be used without a partnership.",
+   "reason": "The article says more agents 'will soon' be able to shop and gives no start date; certainty reduced."
+  },
+  {
+   "item_id": "C02-05",
+   "field": "importance_line",
+   "before": "Online shoppers will be able to hand buying tasks to the AI agent they choose, within budget and shipping rules, which gives merchants a new route to sales, but it sits inside a wider fight, including Amazon against Perplexity and Meta's Muse, over whether agents may shop for customers.",
+   "after": "Online shoppers will be able to hand buying tasks to the AI agent they choose, within budget and shipping rules, but it sits inside a wider fight, including Amazon against Perplexity and Meta's Muse, over whether agents may shop for customers.",
+   "reason": "'a new route to sales' for merchants is not in the source."
+  },
+  {
+   "item_id": "C03-01",
+   "field": "importance_line",
+   "before": "AI-written code is now so plentiful that storing and merging it, not writing it, is the bottleneck, which matters first to software engineers whose tools assume human-speed work and then to companies that may meet the same strain, though every figure is Anthropic's own and none has been independently checked.",
+   "after": "At Anthropic, AI-written code is now so plentiful that storing and merging it, not writing it, has become the bottleneck, which matters first to software engineers whose tools assume human-speed work and then to companies that may meet the same strain, though every figure is Anthropic's own and none has been independently checked.",
+   "reason": "Anthropic's own experience was stated as a general fact; scoped to Anthropic."
+  },
+  {
+   "item_id": "C03-03",
+   "field": "importance_line",
+   "before": "A change to how the Linux kernel, the core of the widely used Linux operating system, labels AI-assisted code would matter to software developers and to companies that depend on the kernel, but the exact rule, the reasons and the decision-makers are not known to us.",
+   "after": "A change to how the Linux kernel, the core of the widely used Linux operating system, labels AI-assisted code would matter to software developers and to companies that depend on the kernel, but the exact rule, the reasons and who decides are not yet known.",
+   "reason": "Internal process wording ('not known to us') removed."
+  },
+  {
+   "item_id": "C04-05",
+   "field": "headline",
+   "before": "Nature reports that China now has far more active AI researchers than the United States and keeps more of its top talent at home, but is still estimated to trail the US frontier by three to seven months.",
+   "after": "Nature reports that China now has far more active AI researchers than the United States and keeps more of its own AI graduates at home than before, but is still estimated to trail the US frontier by three to seven months.",
+   "reason": "Could be read as China keeping more talent than the US, which the facts contradict (69% stay in China against 89% for the US); clarified."
+  },
+  {
+   "item_id": "C04-05",
+   "field": "summary",
+   "before": "Nature News reports, drawing on data from Digital Science and a Carnegie China study, that China has about 51,000 active AI researchers against 14,000 in the United States, and that 69% of China-educated authors at the NeurIPS AI research conference now stay in China, up from 57% in 2022. Experts quoted say China is perhaps three to seven months behind the US frontier because it has far fewer advanced chips and much less investment, and the question of whether Chinese firms catch up by distilling, meaning training on the outputs of, US models remains disputed.",
+   "after": "Nature News reports, drawing on data from Digital Science and a Carnegie China study, that China has about 51,000 active AI researchers against 14,000 in the United States, and that 69% of China-educated authors at the NeurIPS AI research conference now stay in China, up from 57% in 2022. Scott Singer of the Carnegie Endowment for International Peace, a US think tank, says China is probably three to seven months behind the US frontier, a lag Nature links to far fewer advanced chips and much less investment, while the question of whether Chinese firms catch up by distilling, meaning training on the outputs of, US models remains disputed.",
+   "reason": "The gap estimate is one named analyst's (Singer), not 'experts'; named with position, and the reason attributed to Nature."
+  },
+  {
+   "item_id": "C04-06",
+   "field": "summary",
+   "before": "Unite.AI reports, citing Danaher's announcement on 14 Oct 2026, that the two companies will start by building NVIDIA's AI and computing technology into a select group of Danaher's priority lab instruments, aiming to shorten the path from an AI prediction to experimental proof. The report gives no results or dates for the instrument work, which follows Danaher's 7 Oct plan for an AI-run antibody lab that it expects to operate at scale in early 2027.",
+   "after": "Unite.AI reports, citing Danaher's announcement on 14 Oct 2026, that Danaher and NVIDIA will start by building NVIDIA's AI and computing technology into a select group of Danaher's priority lab instruments, aiming to shorten the path from an AI prediction to experimental proof. The report gives no results or dates for the instrument work, which follows Danaher's 7 Oct plan for an AI-run antibody lab that it expects to operate at scale in early 2027.",
+   "reason": "The summary never named the two companies; named."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "headline",
+   "before": "Senator Bernie Sanders has demanded a pause on advanced AI and a permanent ban on superintelligence after the OpenAI chief executive said society may have to accept severe cyber incidents.",
+   "after": "Senator Bernie Sanders has demanded a pause on advanced AI and a permanent ban on superintelligence after OpenAI chief executive Sam Altman said society may have to accept some severe cyber incidents from openly released AI models.",
+   "reason": "Person named with position; remark kept to what he said it was about."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "Newsmax reports that Senator Bernie Sanders, the independent from Vermont, wrote on X on Monday 12 Oct \"We must PAUSE advanced AI and permanently BAN artificial superintelligence before it is too late\", answering Sam Altman, chief executive of OpenAI, who said on Politico's \"Decoded\" podcast last week that society would have to accept \"some fairly severe cyber incidents\" from open AI models (ones whose code anyone can download and run) in exchange for the freedom they bring. Newsmax adds that Sanders and Representative Greg Casar, a Texas Democrat, introduced a Ban Artificial Superintelligence Act on 23 Sep that would create a Cabinet-level Department of Artificial Intelligence and set prison terms of up to 20 years, and International Business Times, Singapore edition, notes the bill has not become law.",
+   "after": "Newsmax reports that Senator Bernie Sanders, the independent from Vermont, wrote on X on Monday 12 Oct \"We must PAUSE advanced AI and permanently BAN artificial superintelligence before it is too late\", answering Sam Altman, chief executive of OpenAI, who said on Politico's \"Decoded\" podcast last week that society would have to accept \"some fairly severe cyber incidents\" from openly released AI models (ones anyone can download and run) in exchange for the freedom they bring. Newsmax adds that Sanders and Representative Greg Casar, a Texas Democrat, introduced a Ban Artificial Superintelligence Act on 23 Sep that would create a Cabinet-level Department of Artificial Intelligence and set prison terms of up to 20 years, and International Business Times, Singapore edition, notes the bill has not become law.",
+   "reason": "'open AI models' reads like OpenAI and the 'code' detail is not in the facts; wording made exact."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "importance_line",
+   "before": "A senator's demand matters first to the public that Altman's remark would expose to attacks, then to Congress, where the bill has not become law, and then to AI developers, but it is a post on X and a bill without a vote, and Altman's words are reported only as Sanders and the outlets quote them.",
+   "after": "The demand matters to the public, to Congress and to AI developers, but it is a post on X backing a bill that has not become law, and Altman's words are known only as Sanders and the outlets quote them.",
+   "reason": "'the public that Altman's remark would expose to attacks' is an invented consequence and 'a bill without a vote' is not in the facts; shorter."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "importance_line",
+   "before": "New Yorkers, whose Council is weighing whether local AI rules are needed, and AI companies face a test of whether a city can make a firm appear and answer, but SpaceX has only agreed to send someone and it is unclear who will speak or what they will say.",
+   "after": "New Yorkers, whose Council is holding hearings on AI safety, and AI companies face a test of whether a city can make a firm appear and answer, but SpaceX has only agreed to send someone and it is unclear who will speak or what they will say.",
+   "reason": "The facts do not say the Council is weighing local AI rules; reduced to what is supported."
+  },
+  {
+   "item_id": "C13-05",
+   "field": "summary",
+   "before": "Reuters reports that the New York Times, Agence France-Presse and The Economist joined the Standards for Publisher Usage Rights (SPUR) coalition on Monday 12 Oct 2026, which launched in February and now has more than 80 members in over 20 countries, including The Atlantic, the Financial Times, the BBC and the Associated Press. SPUR is building standards and technical systems to help publishers track how AI companies use their content and to arrange licensing, and our 3 Oct 2026 edition carried Digiday's report on its tracking standard.",
+   "after": "Reuters reports that the New York Times, Agence France-Presse and The Economist joined the Standards for Publisher Usage Rights (SPUR) coalition on Monday 12 Oct 2026; the coalition, launched in February, now has more than 80 members in over 20 countries, including The Atlantic, the Financial Times, the BBC and the Associated Press. SPUR is building standards and technical systems to help publishers track how AI companies use their content and to arrange licensing, and our 3 Oct 2026 edition carried Digiday's report on its tracking standard.",
+   "reason": "'which' attached to the date instead of the coalition; sentence fixed."
+  },
+  {
+   "item_id": "C13-07",
+   "field": "summary",
+   "before": "AFP reports that the European Data Protection Board, the EU's central data regulator, said on Tuesday 13 Oct 2026 in non-binding guidance that smart glasses raise \"serious privacy concerns\", and its chair Anu Talus said they should make recording obvious, for example with bright LED lights, audio signals or phone notifications. The board warned of greater risks in schools, hospitals, public places such as beaches and for children, and our 3 and 5 Oct 2026 editions carried the pause in Dutch sales of Meta's glasses and Norway's plan for a temporary ban in some public places.",
+   "after": "AFP reports that the European Data Protection Board, the EU's central data regulator, said on Tuesday 13 Oct 2026 in non-binding guidance that smart glasses raise \"serious privacy concerns\" and should make recording obvious, for example with bright LED lights, audio signals or phone notifications; its chair Anu Talus warned that people may be recorded without knowing it. The board warned of greater risks in schools, hospitals, public places such as beaches and for children, and our 3 and 5 Oct 2026 editions carried the pause in Dutch sales of Meta's glasses and Norway's plan for a temporary ban in some public places.",
+   "reason": "The suggested warnings are the board's guidance, not Talus's words; attribution corrected and her actual point kept."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "summary",
+   "before": "The Associated Press reports that Kroger, the largest standalone US supermarket chain, will lay off 3,000 corporate employees over three years as it ramps up its use of artificial intelligence to streamline operations. In a memo to staff on Monday, chief executive Greg Foran, a former head of Walmart's US division, said the company must \"reduce duplicative work\"; Grocery Dive, which received the memo, adds that decisions on which roles go will be communicated starting in the coming months.",
+   "after": "The Associated Press reports that Kroger, the largest standalone US supermarket chain, will cut 3,000 corporate jobs over three years as it leans more on artificial intelligence to run its business more efficiently. In a memo to staff on Monday, chief executive Greg Foran, a former head of Walmart's US division, said the company must \"reduce duplicative work\"; Grocery Dive, which received the memo, adds that decisions on which roles go will be communicated starting in the coming months.",
+   "reason": "Sentence was copied from the AP text in quote_evidence; rewritten in our own words."
+  },
+  {
+   "item_id": "C14-01",
+   "field": "importance_line",
+   "before": "About 3,000 corporate staff at Kroger, a company with 409,000 employees, face job cuts over three years and shareholders will watch the savings, but the memo names no departments or dates and the quoted passages speak of 'technology' rather than AI by name.",
+   "after": "About 3,000 corporate staff at Kroger, a company with 409,000 employees, face job cuts over three years, but the memo names no departments or dates and the quoted passages speak of 'technology' rather than AI by name.",
+   "reason": "'shareholders will watch the savings' is not in the source."
+  },
+  {
+   "item_id": "C14-15",
+   "field": "importance_line",
+   "before": "The app's more than 20 million monthly users and the families who sued over harm to children now face a sale or a shutdown, with Disney and the wider companion-chatbot industry watching, but the Disney payment is the company's own account and no buyer has yet been named.",
+   "after": "The app's more than 20 million monthly users could lose it if no suitable buyer is found, but the Disney payment is the company's own account and no buyer has yet been named.",
+   "reason": "The families who sued do not 'face a sale or a shutdown', and 'the industry watching' is not in the source; shorter."
+  },
+  {
+   "item_id": "C15-01",
+   "field": "importance_line",
+   "before": "Companies and public bodies that buy Elisity's security software would get a quantum-focused owner, but the stated link between this software and quantum threats is IonQ's own argument and the deal still needs regulatory approval and has not closed.",
+   "after": "Hospitals, health care companies and other buyers of Elisity's security software would get a quantum-focused owner, but the stated link between this software and quantum threats is IonQ's own argument and the deal still needs regulatory approval and has not closed.",
+   "reason": "'public bodies' is not in the source; the WSJ names health care companies and hospitals as major customers."
+  },
+  {
+   "item_id": "C16-01",
+   "field": "summary",
+   "before": "The Register reports that Geordie, an AI agent security and governance company, found in its own test that one copy of OpenAI's always-on assistant dot ran 155 separate activity sequences and used more than 300,000 tokens (the units of text AI services are billed by) in a day, with no prompts from its user. Geordie's chief AI officer, Hanah-Marie Darley, says dot quietly starts its own background agents, so the cost of that unseen work is something many users and employers may not have planned for.",
+   "after": "The Register reports that Geordie, an AI agent security and governance company, found in its own test that one copy of OpenAI's always-on assistant dot ran 155 separate activity sequences and used more than 300,000 tokens (the units of text AI services are billed by) in a day, with no prompts from its user. Geordie's chief AI officer, Hanah-Marie Darley, says dot quietly starts helper agents the user would know nothing about, and she likened a day of such spending to the price of a latte.",
+   "reason": "The cost-planning claim is not Darley's in the source; replaced with what she said."
+  },
+  {
+   "item_id": "C16-02",
+   "field": "headline",
+   "before": "A clip of Meta chief executive Mark Zuckerberg wincing over a pint of Guinness on a podcast drew online jokes.",
+   "after": "A clip of Meta chief executive Mark Zuckerberg appearing to wince over a pint of Guinness on a podcast drew online jokes.",
+   "reason": "Source hedge restored: he 'appeared to wince'."
+  },
+  {
+   "item_id": "C16-02",
+   "field": "summary",
+   "before": "Business Insider reports that a clip of Meta chief executive Mark Zuckerberg wincing after a sip of Guinness on the podcast \"Cheeky Pint\", hosted by John Collison, cofounder of the payments company Stripe, drew online jokes, with commentator Ed Zitron joking that he should have spat it out. In the same 134-minute episode Zuckerberg and Meta executive Alexandr Wang discussed Meta's new Muse personal AI agent, and Meta did not immediately comment on what they thought of the drink.",
+   "after": "Business Insider reports that a clip of Meta chief executive Mark Zuckerberg appearing to wince after a sip of Guinness on the podcast \"Cheeky Pint\", hosted by John Collison, cofounder of the payments company Stripe, drew online jokes, with commentator Ed Zitron joking that he should have spat it out. In the same 134-minute episode Zuckerberg and Meta executive Alexandr Wang discussed Meta's new Muse personal AI agent, and Meta did not immediately comment on what they thought of the drink.",
+   "reason": "Source hedge restored."
+  },
+  {
+   "item_id": "C16-07",
+   "field": "summary",
+   "before": "Sportscape Magazine reports that Australian batter Travis Head shared an AI-generated clip on his Instagram story in which Bavuma's smile turns to shock at the scorecard and an AI version of Australian bowler Josh Hazlewood dances in a nightclub, after Australia beat South Africa by 214 runs in the first Test, a five-day cricket match, in Durban. Hazlewood took 6 for 49 as South Africa chased a large target, and the magazine says the clip drew thousands of reactions on X and Instagram.",
+   "after": "Sportscape Magazine reports that Australian batter Travis Head shared an AI-generated clip on his Instagram story mocking South Africa captain Temba Bavuma, whose smile turns to shock at the scorecard before an AI version of Australian bowler Josh Hazlewood dances in a nightclub, after Australia beat South Africa by 214 runs in the first Test, a five-day cricket match, in Durban. Hazlewood took 6 for 49 as South Africa chased a large target, and the magazine says the clip drew thousands of reactions on X and Instagram.",
+   "reason": "Bavuma was not introduced in the summary; named with his position."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C13-02",
+   "issue": "duplicate",
+   "with": "C16-04",
+   "note": "Same case: the OpenAI engineer charged over a hidden recording device in a conference room. C13-02 (Associated Press, LAW) is the main report; C16-04 (Gizmodo, FUN) is the $13.99 device angle. Keep one or merge (ONE TOPIC rule). Not edited."
+  },
+  {
+   "item_id": "C16-04",
+   "issue": "duplicate",
+   "with": "C13-02",
+   "note": "See C13-02. A serious criminal allegation also sits uneasily in the Fun Side. Not edited."
+  },
+  {
+   "item_id": "C01-01",
+   "issue": "duplicate",
+   "with": "C02-07",
+   "note": "Same event: Gemini 4 Argon rolled out on 13 Oct 2026 to paying Pro and Ultra subscribers in the Gemini app (The Verge vs PPC Land). C02-07 adds the tasks mode and app connections. C11-05 (Argon for robotics, Google's developer post) is a separate post, not a duplicate."
+  },
+  {
+   "item_id": "C02-07",
+   "issue": "duplicate",
+   "with": "C01-01",
+   "note": "See C01-01; merge or hold one."
+  },
+  {
+   "item_id": "C11-07",
+   "issue": "duplicate",
+   "with": "C11-03",
+   "note": "Cross-list: C11-07's own notes say it is the same Agility Robotics SPAC listing step as C11-03 (Agility's Business Wire release), which is in list A. Hold one."
+  },
+  {
+   "item_id": "C16-03",
+   "issue": "re-dated",
+   "note": "Black Cat Clapping meme began at the end of September 2026; the latest dated step is an early-October version. Nothing new inside the 13 to 14 Oct window except the explainer guide. Ongoing Fun Side trend, so the chain may choose to keep it. Not edited."
+  },
+  {
+   "item_id": "C16-10",
+   "issue": "re-dated",
+   "note": "Hotel Lobby AI trend began spreading in September 2026 (Quavo repost 23 Sep); no dated event inside the window, only the explainer article. Ongoing Fun Side trend, so the chain may choose to keep it. Not edited."
+  },
+  {
+   "item_id": "C16-08",
+   "issue": "re-dated",
+   "note": "Branded roundup retelling older, mostly undated cases; nothing new inside the window. Not edited; if kept, note that the summary calls Mark Pollard 'an Australian author' while the facts say 'Australian marketing strategist'."
+  }
+ ]
+}

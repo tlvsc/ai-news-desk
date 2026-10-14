@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "ModelBest, developer of the MiniCPM family of models, has open-sourced MiniCPM-V 4.7, an image-and-text AI model it says runs on an iPhone using about 3GB of memory.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: a notable on-device open release, but the speed and test figures are the company's own and come from one outlet.",
+ "importance_line": "People who want an image-reading AI that works privately and offline on a phone or laptop get another open option, and QbitAI's hands-on tests reportedly handled charts and papers offline, but the speed, memory and test figures are ModelBest's own and rest on one outlet's account.",
+ "source": "Pandaily",
+ "status": "REPORTED",
+ "summary": "Pandaily reports that ModelBest has open-sourced MiniCPM-V 4.7 in 35-billion-parameter and 1-billion-parameter sizes, the larger being the first mixture-of-experts model (a design that activates only part of the model for each piece of text) in the MiniCPM-V series, with code and weights released under the Apache-2.0 licence. ModelBest says the larger version, which uses about 3 billion parameters at a time, runs on an iPhone 17 Pro Max in about 3GB of memory at more than 13 tokens (small chunks of text) per second, using a technique it calls lookahead expert scheduling; its speed and test scores, such as 91.72 on MMBench, are the company's own.",
+ "url": "https://pandaily.com/modelbest-minicpm-v-4-7-open-source-35b-a3b-moe-3gb-iphone-on-device",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The visible page was blank in curl; the article text was read from the page's embedded data. Company claims, one outlet.",
+ "item_id": "C01-08",
+ "importance_label": "WATCHLIST"
+}

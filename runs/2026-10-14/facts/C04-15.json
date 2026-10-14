@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-15",
+ "title": "Isaias: Google's DeepMind AI model keeps outperforming rivals",
+ "source_used": "The Weather Channel (weather.com)",
+ "article_url": "https://weather.com/2026/10/13/storms/hurricane/hurricane-isaias-google-deepmind-ai-forecasts",
+ "fetched": true,
+ "key_facts": [
+  "Hurricane Isaias was the first real test this Atlantic season for Google DeepMind's (GDM) AI weather model.",
+  "The model hinted at development in the Bay of Campeche up to 12 days before the system formed, though it lost the signal for several days.",
+  "Days before landfall the models split: GDM often showed a landfall over Florida with many strong to major hurricane members, while the GFS often showed Mississippi or Louisiana.",
+  "The National Hurricane Center favoured GDM and other corrected guidance from early on 7 Oct, two and a half days before landfall.",
+  "GDM even outperformed the NHC at several near-term timesteps for track and did well on intensity; Isaias peaked at 120 mph and made landfall at 105 mph.",
+  "NOAA's HMON and HWRF hurricane models also did very well on track and intensity and did a bit better on the sting jet (a band of very strong winds); GDM is not yet meant to pick out such small-scale features.",
+  "The fall from a Category 3 hurricane to a post-tropical storm in about 12 hours was extraordinarily unusual."
+ ],
+ "quote_evidence": [
+  "The GDM even outperformed the NHC at several near-term timesteps for track forecasts.",
+  "There was one sore spot for the DeepMind suite where the hurricane models did a bit better: The sting jet (or band of very strong winds) that developed on the western side of Isaias near landfall."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A real storm gave AI forecasting its first test this season, and it did well on track but not on every feature.",
+ "event_date": "Isaias landfall around 9-10 Oct 2026; weather.com review 13 Oct 2026",
+ "notes": "Follow-up of the New York Times report 'A.I. Hurricane Models Were Front and Center as Isaias Headed Toward Land' (10 Oct 2026), which was in the 10 Oct pool but not in that day's Full Report, so the entry names it as a New York Times report and does not say we carried it. New today: the after-storm scorecard. The article gives no landfall place; the entry says only what it states. The headline 'keeps outperforming rivals' is partial: hurricane-specific models matched or beat GDM on some features."
+}

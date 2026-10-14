@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-12",
+ "v1_category": "SEC",
+ "headline": "A suspected hacker behind the theft of millions of Danish personal ID numbers says an AI model wrote the program used in the attack.",
+ "score": 5,
+ "score_reason": "Pool score kept: a large national data theft with an AI angle, but the AI claim rests on an anonymous suspect and two experts quoted by one newspaper.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Millions of people in Denmark whose names, addresses and ID numbers were exposed are affected, and the company Pays ApS faces scrutiny, but the AI claim comes from an anonymous suspect and the access reportedly came from a leaked employee password and very weak passwords, not from anything specific to AI.",
+ "source": "Politiken, as relayed by The Copenhagen Post",
+ "status": "REPORTED",
+ "summary": "The Copenhagen Post reports, citing the Danish newspaper Politiken, that the anonymous suspected hacker behind the theft of nearly 8.75 million CPR numbers, Denmark's personal identification numbers, says AI created the attack program, adding that \"any AI model launched within the past year or so would be able to do it\", and that two experts who reviewed the 40,000-character program told Politiken its code was AI-generated. The program reportedly entered the national CPR register through a website run by the Odense company Pays ApS using a former employee's leaked login, and Politiken reports that at least three Pays accounts, the administrator account among them, used the password \"123456\".",
+ "url": "https://cphpost.dk/2026-10-13/general/suspected-hacker-says-ai-created-program-used-in-danish-cpr-breach/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The Copenhagen Post page holds several unrelated Danish stories; only the first item was used. Original reporting is Politiken's. The breach was disclosed by Danish authorities the week before; the suspect interview and expert review are new on 13 Oct."
+}

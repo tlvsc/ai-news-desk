@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-06",
+ "v1_category": "ROB",
+ "headline": "Bloomberg says in a feature article that China is poised to lead a humanoid robot market worth $5 trillion.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: the $5 trillion claim and its time frame could not be checked against the article text.",
+ "importance_line": "A $5 trillion market is a projection, not a measured size, and the time frame and method behind it are not given here.",
+ "source": "Bloomberg",
+ "status": "REPORTED",
+ "summary": "Bloomberg reports in a feature published on 13 Oct 2026 that China is poised to spearhead a humanoid robot market it puts at $5 trillion.",
+ "url": "https://www.bloomberg.com/news/features/2026-10-13/china-s-robotic-hands-key-to-5-trillion-ai-humanoid-development-race",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Bloomberg is bot-checked (HTTP 403) and no other outlet carrying the feature was found, so this is headline only; the URL slug mentions robotic hands as a key part of the race, which the text could not confirm. Headline-only, so the score is lowered by 1.",
+ "importance_label": "WATCHLIST"
+}

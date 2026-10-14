@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "MOD",
+ "headline": "MIT Technology Review has set out why experts disagree on whether freely downloadable AI models do more good than harm.",
+ "score": 5,
+ "score_reason": "Useful context on a live policy debate, but it is an explainer with no new event or evidence, so it stays at the curator's 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "The argument shapes whether governments and AI labs restrict or promote freely downloadable models, which affects researchers, businesses that run models on their own hardware and anyone exposed to AI-assisted hacking, though the piece is an explainer built on expert opinion, not new evidence, and it notes that Nvidia and Anthropic have commercial interests in the outcome.",
+ "source": "MIT Technology Review",
+ "status": "REPORTED",
+ "summary": "In an explainer published on 13 Oct 2026, MIT Technology Review says open models, whose internal settings (weights) anyone can download, tend to be cheaper, easier for researchers to study and a check on the power of a few AI labs, but they carry no prompt filters, cannot have access revoked and can be retrained to drop their safety training. The piece, which follows Anthropic's late-September report calling the Chinese open model GLM-5.3 a major cyberattack risk, adds that closed models are also misused and that ideas such as staged release and tamper-resistant training do not yet withstand all attacks.",
+ "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. Explainer; analysis is MIT Technology Review's and its quoted experts'. Also fits SEC or LAW; kept MOD as the default."
+}

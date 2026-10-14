@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "Anthropic has moved its main code repository off Git onto a system it built itself, called Scion, after Claude helped multiply its daily code changes more than tenfold.",
+ "score": 7,
+ "score_reason": "Company-reported but detailed and from the primary source; shows a real shift in how software is made, so it stays at the curator's 7.",
+ "importance_label": "MEDIUM",
+ "importance_line": "At Anthropic, AI-written code is now so plentiful that storing and merging it, not writing it, has become the bottleneck, which matters first to software engineers whose tools assume human-speed work and then to companies that may meet the same strain, though every figure is Anthropic's own and none has been independently checked.",
+ "source": "The Register",
+ "status": "CONFIRMED",
+ "summary": "The Register reports, from a blog post Anthropic published on 13 Oct 2026, that the AI company has moved its main code repository off Git, the standard tool for tracking changes to software, after the number of code changes merged per day grew from about 2,500 in May to over 30,000 in September. Anthropic says it built Scion with Claude's help and moved its code over in five months, and that the system is not meant for general use and will not be released as open source.",
+ "url": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Register in full; cross-checked with Anthropic's own post. Figures are company claims."
+}

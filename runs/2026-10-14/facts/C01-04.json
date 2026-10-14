@@ -1,0 +1,25 @@
+{
+ "title": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic says its new defenses have cut the volume of extracted reasoning tokens (the model's internal chain-of-thought steps) by 90 to 99 percent.",
+  "In distillation attacks, companies systematically copy an AI model's capabilities to train their own smaller models; attackers use networks of hundreds of thousands of fake accounts.",
+  "Anthropic names the Chinese companies Zhipu and Moonshot as participants.",
+  "Zhipu allegedly siphoned cyber capabilities from leading US models for its GLM-5.3 model; Moonshot secretly routed queries through Claude.",
+  "The report says the copied capabilities could end up in foreign military and surveillance systems.",
+  "Anthropic now restricts access to Claude's internal reasoning steps, runs a classifier that detects extraction attempts and automatically bans flagged accounts; tens of thousands have been banned.",
+  "Anthropic is calling on other AI developers to adopt similar protections and admits legitimate users are being caught up in the process too."
+ ],
+ "quote_evidence": [
+  "Anthropic says its new defenses have cut the volume of extracted reasoning tokens, the model's internal chain-of-thought steps, by 90 to 99 percent.",
+  "Anthropic names Chinese companies Zhipu and Moonshot as participants.",
+  "Anthropic is calling on other AI developers to adopt similar protections, although the company admits that legitimate users are getting caught up in the process too."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Anthropic says it is blocking large-scale copying of Claude's reasoning by named Chinese firms, at the cost of catching some legitimate users.",
+ "event_date": "Not stated; reported 13 Oct 2026",
+ "notes": "Full article read (short, about 1,300 characters). The underlying statement is Anthropic's; The Decoder's account carries no reply from Zhipu or Moonshot. Related earlier items in our editions: OpenAI's Moonshot claim (1 Oct 2026) and Treasury Secretary Scott Bessent's 'industrial distillation' remark (5 Oct 2026).",
+ "item_id": "C01-04"
+}

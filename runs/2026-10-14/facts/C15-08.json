@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-08",
+ "title": "Google Researchers Propose Using Error Records to Improve Quantum Results After Computation",
+ "source_used": "The Quantum Insider (13 Oct 2026) report on a Google Quantum AI arXiv preprint",
+ "article_url": "https://thequantuminsider.com/2026/10/13/google-researchers-propose-using-error-records-to-improve-quantum-results-after-computation/",
+ "fetched": true,
+ "key_facts": [
+  "Google Quantum AI researchers describe, in a preprint on arXiv, a method called virtual error cancellation that uses error records (syndromes) saved during a quantum calculation to improve the final estimate afterwards.",
+  "Part of the work moves to a conventional computer after the quantum calculation ends; it needs no separate noise-measuring experiments and no changes to the quantum circuits.",
+  "It uses two decoders, a fast one running live and a slower one examining the saved records afterwards; where they disagree, results get positive or negative weights so remaining errors cancel on average.",
+  "In simulations of a surface code at distances 3, 5 and 7 (49 data qubits at distance 7), the method cut residual logical error bias by more than 1,000-fold versus ordinary decoding under favourable conditions, and more than 100-fold versus rejecting runs where the decoders disagree.",
+  "The 1,000-fold result occurred at average physical error rates of 2.2% or below and weakened at the highest error rates tested; the strongest results used a large collection of error records, with a baseline of 10 million samples.",
+  "The method needs extra repeated measurements, and its benefit depends on the noise, the code and how well the two decoders perform.",
+  "The tests used a simplified model, placing errors on data qubits and assuming the error checks worked perfectly; the gains have yet to be shown on quantum hardware.",
+  "Authors: Oles Shtanko, Saswata Roy, Shashwat Kumar and Zlatko Minev of Google Quantum AI. The Quantum Insider notes that arXiv is a preprint server and the work is not peer reviewed."
+ ],
+ "quote_evidence": [
+  "Now, Google Quantum AI researchers report on a “measure now, mitigate later” approach in a preprint study on arXiv that uses error records saved during the calculation as a way to reduce that remaining distortion by more than 1,000-fold in simulations.",
+  "It still carries a cost, however. Researchers must repeat measurements to produce a precise answer, and the gains have yet to be demonstrated on quantum hardware.",
+  "The simulations placed errors on the data qubits while assuming the error checks themselves worked perfectly."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "It points to a way of getting more accurate answers from early error-corrected quantum computers without bigger hardware, but only in simulation so far.",
+ "event_date": "13 Oct 2026 (report date; arXiv posting date not stated)",
+ "notes": "Preprint, not peer reviewed; simulation only with a simplified noise model. arXiv posting date not given in the article."
+}

@@ -1,0 +1,17 @@
+{
+ "curate": {
+  "1": "MUST INCLUDE, score at least 7 (VIRAL RULE): Google Launches Gemini 4 Argon AI Model, carried by 77 outlets; take the best readable outlet; the score is not lowered for tone. This is the new launch. The 2 Oct 2026 benchmark item on the same model (score 5) is an earlier fact: do not present it as new.",
+  "2": "MUST INCLUDE, score at least 7 (VIRAL RULE): Meta launches Muse Wonder, catching OpenAI, Anthropic: how to try it, benchmark results, carried by 40 outlets; take the best readable outlet; the score is not lowered for tone. Earlier 9 Oct 2026 item on the Muse app (score 5) was a different product: a new product, not a repeat.",
+  "12": "MUST INCLUDE, score at least 7 (VIRAL RULE): AI Self-Replication on IoT Devices Months Away, Anthropic Red Team Finds, carried by 48 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "13": "MUST INCLUDE, score at least 7 (VIRAL RULE): OpenAI Employee Arrested Over Recording Device, carried by 27 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "9": "MUST INCLUDE, score at least 7 (VIRAL RULE): Milwaukee Common Council Votes Unanimously To Approve Data Center Pause, carried by 27 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "6": "MUST INCLUDE, score at least 7 (VIRAL RULE): AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and legal, carried by 26 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "7": "MUST INCLUDE, score at least 7 (VIRAL RULE): NVIDIA Corp (NVDA) Stock Analysis & Forecast, carried by 21 outlets; take the best readable outlet; the score is not lowered for tone. If the readable articles are only generic stock-price or forecast pages with no news event, do not write the item; say so in your report back instead."
+ },
+ "write": {
+  "1": "Gemini 4 Argon launch (VIRAL floor, score 7, do not lower): the 2 Oct 2026 benchmark item on the same model is an earlier fact; do not present it as new.",
+  "10": "OpenAI medical records item: a stock-reaction headline with one source. Confirm the feature in the article itself; if it cannot be confirmed, say so in notes and keep it at its score only if the article supports it.",
+  "11": "Astribot round: use 1 billion yuan at a 15 billion yuan valuation (BigGo figures), not the 36Kr English version (10 billion, 150 billion). Physical Intelligence Pi API: the page is bylined to an AI agent; check the claim in the article itself. Cologne police robot: first reported 12 Oct 2026; name that date and the new probe of two teens. Apple home devices: the earlier item was a rumour; say Apple has now announced it, with the date.",
+  "15": "Trump two orders item: single source; read it in full and confirm before writing. Oratomic: outlets give different amounts ($775M or $475M); state the amount with its source or say the figures differ."
+ }
+}

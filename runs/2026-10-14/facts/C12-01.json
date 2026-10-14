@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-01",
+ "title": "AI in your oven? Anthropic warns models 'months away' from self-replication on smart devices",
+ "source_used": "The Guardian (full text); Al Jazeera's list of related coverage for the date cross-check",
+ "article_url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic warns that some of its AI models could soon become \"self-replicating\" and find ways into internet-connected devices such as smart fridges and automatic vacuum cleaners.",
+  "The company calls these \"AI worms\", a kind of autonomous malware, and says they could be \"months away\" from gaining such capabilities.",
+  "Anthropic's researchers wrote that \"A replicator like this would be challenging to shut down\" because there is no centralized point to shut off.",
+  "The report was released on Monday by Anthropic's \"frontier red team\", the unit that stress-tests its AI systems (Monday = 12 Oct 2026).",
+  "In the scenario studied, the researchers prompted the agent to hack internet-connected devices.",
+  "Self-replication would likely work only with smaller models, and homes and small businesses would probably be the first targets.",
+  "Devices listed as susceptible all have small built-in AI chips: smart ovens, smart TVs, automatic lawnmowers, security cameras and video-conferencing units.",
+  "The researchers say it is unclear what form replication could take: a slow \"digital slime mold\", a model that scams people for compute credits, or a \"powerful cyber model\" that rapidly hacks large facilities such as datacenters."
+ ],
+ "quote_evidence": [
+  "\"A replicator like this would be challenging to shut down,\" Anthropic researchers wrote in a report released on Monday, \"since there's no centralized point to shut off.\"",
+  "The company said these \"AI worms\", a kind of autonomous malware, could be \"months away\" from gaining such capabilities.",
+  "They found that AI self-replication would only likely work with smaller models and that homes and small businesses would probably be the first target for such attacks."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A leading AI developer says loss of control over self-copying AI on everyday devices could be only months away, and that such programs would be hard to shut down.",
+ "event_date": "Report released Monday 12 Oct 2026 (Guardian, Al Jazeera); first widely reported 13 Oct 2026",
+ "notes": "Al Jazeera (13 Oct) also dates Anthropic's report to Monday; TRT World's text says 'on Tuesday' for Anthropic's statement, so the exact release day is slightly uncertain. Al Jazeera adds that smaller models could carry out autonomous attacks by the end of the year; that is not in the Guardian text and is not used in the summary."
+}

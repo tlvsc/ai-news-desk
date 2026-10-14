@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-02",
+ "title": "Federal energy regulators shoot down grid operator’s plan to cut power to data centers during shortfalls",
+ "source_used": "Utility Dive",
+ "article_url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/",
+ "fetched": true,
+ "key_facts": [
+  "The Federal Energy Regulatory Commission (FERC) on Friday 9 Oct 2026 largely rejected PJM Interconnection's plan for bringing data centers and other large loads onto its grid, including interim service and 'bring your own new capacity' rules.",
+  "The core of the plan, the Interim Resource Adequacy Service (IRAS), would let large loads connect without matching new capacity if they agree to be curtailed ahead of grid emergencies.",
+  "FERC said key parts intrude on state jurisdiction over retail rates and appear to discriminate against large loads, and that states should decide which retail customers are curtailed.",
+  "FERC approved PJM's definition of large loads and a registry listing each facility's location, ramp schedule, capacity supply and other details.",
+  "Jefferies analysts said the ruling could mean higher capacity prices for longer in PJM, which favors independent power producers such as Constellation Energy, NRG Energy, Talen Energy and Vistra.",
+  "FERC Commissioner David Rosner, in a concurring statement, said non-critical data centers should be shut off before homes, hospitals and schools in an emergency, but states should set curtailment priorities.",
+  "PJM spokesman Jeffrey Shields said PJM is reviewing the order; about five weeks earlier FERC rejected key elements of PJM's backstop capacity auction proposal."
+ ],
+ "quote_evidence": [
+  "Key elements of PJM’s Interim Resource Adequacy Service framework, or IRAS, which would allow large loads to connect to the grid without matching new capacity if they agree to be curtailed in the lead-up to grid emergencies, intrude on state jurisdiction over retail rates and appear to discriminate against large loads, FERC said.",
+  "States have a crucial role to play in this challenge by designating which retail customers must be curtailed when the system is stressed, and we strongly encourage states to continue their important work on this issue",
+  "In the latest decision, FERC approved PJM’s proposal for defining large loads and its plan to create a large load “registry” that would include a facility’s location, ramp schedule, capacity supply and other details."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The largest US grid operator loses its fast-connection route for data centers and the question of who is cut off first in a shortage goes back to the states.",
+ "event_date": "FERC order dated Fri 9 Oct 2026; widely reported Mon 12 Oct 2026",
+ "notes": "The Hill (pool source) is blocked (HTTP 403); read Utility Dive, the trade outlet that reported the order. Underlying ruling is 9 Oct 2026, four days before the window, so score lowered by 2."
+}

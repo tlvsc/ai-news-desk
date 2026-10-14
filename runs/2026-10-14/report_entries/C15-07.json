@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-07",
+ "v1_category": "RES",
+ "headline": "Alice & Bob, a quantum computing company based in Paris and Boston, says it has decoded the error-correction codes of its cat-qubit design on Nvidia graphics chips for the first time, using synthetic data.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: new today and accurately described, but a company proof of concept with synthetic data and no real-time result.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Fast decoding is one of the hurdles to error-corrected quantum computers, which matters first to quantum hardware builders and only later to people waiting on useful machines, but this is the company's own claim on synthetic data, with no speed figures for real-time use.",
+ "source": "Alice & Bob",
+ "status": "PRELIMINARY",
+ "summary": "Alice & Bob said in a press release on 13 Oct 2026 that it decoded the error-correction codes of its cat-qubit quantum computers (cat qubits are a type of quantum bit its founders developed), the step that reads error signals and decides the fix, on Nvidia graphics processors linked through Nvidia's NVQLink connection, in a proof of concept built on synthetic data. By the company's own account this is not yet real-time decoding, the speed a working machine would need to keep pace with its own errors, and the claim of a first has not been independently checked.",
+ "url": "https://alice-bob.com/newsroom/alice-bob-decodes/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool source HPCwire blocked; the company's original release is linked. Company claims only."
+}

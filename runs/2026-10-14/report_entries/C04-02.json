@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-02",
+ "v1_category": "RES",
+ "headline": "Google DeepMind's AI system for mathematical proofs has solved nine problems left open by the mathematician Paul Erdős, and the work has now passed peer review in the journal Science.",
+ "score": 6,
+ "score_reason": "Pool 7 lowered by 1: the peer-reviewed publication was already reported on 12 Oct 2026 and the results were first shared in May 2026, so the new fact is the peer review; two outlets agree on the numbers.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Mathematicians and journal editors get a peer-reviewed, machine-checked example of AI solving open problems, which matters to universities and to AI labs competing on maths claims, but only 9 of the 353 problems tried were solved.",
+ "source": "QbitAI, as published by 36Kr",
+ "status": "CONFIRMED",
+ "summary": "QbitAI reports, as published by 36Kr, that Google DeepMind's AlphaProof Nexus, a system in which Google's Gemini model drafts proofs and the Lean proof-checking program verifies them, solved 9 of the 353 open Erdős problems it attempted, two of them open for 56 years, in a study now published in Science. The solutions were first shared online in May 2026, so the new fact is the peer review, which the report contrasts with OpenAI's recent release of hundreds of proofs that drew objections from mathematicians.",
+ "url": "https://eu.36kr.com/en/p/4023949477515143",
+ "freshness": "FOLLOW-UP of 12 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read QbitAI's text on 36Kr (original QbitAI link not given) and cross-checked the numbers with The Decoder (12 Oct 2026). The online date of the Science paper is not stated; 12 Oct 2026 is the earliest report found. Results were first shared in May 2026."
+}

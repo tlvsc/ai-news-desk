@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "MOD",
+ "headline": "Microsoft's Visual Studio Code 1.141 lets developers continue GitHub Copilot and OpenAI Codex agent chats in one editor and adds sandboxing to limit what AI agents can reach.",
+ "score": 4,
+ "score_reason": "Lowered one point from 5: the release came out on 7 Oct 2026, before the window, and it is a routine editor update.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who let AI agents run commands on their own computers get a built-in way to restrict them, which matters because agent mistakes and hidden-instruction attacks are real risks, though Microsoft says sandboxing is an added layer and not a full security boundary, and the release is already about a week old.",
+ "source": "Visual Studio Code release notes",
+ "status": "CONFIRMED",
+ "summary": "Visual Studio Code 1.141 was released on 7 Oct 2026, and Microsoft's release notes say the editor can now continue existing GitHub Copilot and Codex agent chats and can fence AI agents into limited file and network access (sandboxing) on Windows, macOS and Linux. Microsoft says this helps reduce the damage from model mistakes and prompt injection, where hidden text tricks an AI into obeying it, but it is an added layer of protection and not a standalone security boundary.",
+ "url": "https://code.visualstudio.com/updates/v1_141",
+ "freshness": "FOLLOW-UP of 7 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool source Visual Studio Magazine (13 Oct 2026) was blocked (HTTP 403); written from the official release notes, which are the first reporter. Older event, re-reported on 13 Oct."
+}

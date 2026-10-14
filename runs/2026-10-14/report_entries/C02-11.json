@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-11",
+ "v1_category": "MOD",
+ "headline": "Mozilla has launched Firefox Enterprise, a browser for organizations that lets them choose where their data is stored, starting in four European countries.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: the headline mentions AI tools but the article text does not, so the AI link is not shown and this is mainly a browser product launch.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "European public bodies, hospitals and banks get a browser on Mozilla's own engine with control over where data is stored, which could reduce dependence on Google and Apple, but Firefox is small, no price is given and the article does not describe any AI features.",
+ "source": "TechRadar",
+ "status": "CONFIRMED",
+ "summary": "TechRadar reports that Mozilla, the maker of Firefox, has introduced Firefox Enterprise, a browser for organizations that need extra security, governance and compliance controls, with customers choosing where their data is stored and keeping their existing identity and device-management systems. It reaches France, Germany, Austria and Switzerland first, and Mozilla argues that firms relying on browsers built on Google's Chromium or Apple's WebKit engines depend too heavily on a few companies, while TechRadar notes that Firefox holds about 6% of desktop browsing sessions against 65% for Chrome.",
+ "url": "https://www.techradar.com/pro/mozilla-launches-firefox-enterprise-to-give-european-firms-more-choice-new-browser-gives-government-healthcare-and-finance-more-control-over-how-they-use-the-web-handle-sensitive-data-and-access-ai-tools",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on TechRadar. Article body has no AI content despite the headline; score lowered to 4 accordingly."
+}

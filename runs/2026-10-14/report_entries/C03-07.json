@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "MOD",
+ "headline": "GitHub has made Google's new Gemini 4 Argon model generally available in its Copilot coding assistant for users on the Pro+, Max, Business and Enterprise plans.",
+ "score": 5,
+ "score_reason": "Official announcement of a routine model addition; no independent test results, so it stays at the curator's 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers on those plans can now choose a Google model inside Copilot, and teams on the Business and Enterprise plans will have it switched on by default unless their administrators block it, but the performance claims are GitHub's own early tests and no scores were given.",
+ "source": "The GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "GitHub, the code-hosting platform owned by Microsoft, said in a changelog entry dated 13 Oct 2026 that Google's Gemini 4 Argon is now generally available in Copilot, its AI coding assistant, with a gradual rollout. GitHub says that in early testing the model solved more tasks than earlier Gemini models on every coding benchmark it tried, with the biggest gains in Copilot's command-line tool, and that it is billed at Google's list prices.",
+ "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the official changelog in full. Benchmarks are not named in the source."
+}

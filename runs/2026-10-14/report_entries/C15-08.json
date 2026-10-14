@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-08",
+ "v1_category": "RES",
+ "headline": "Researchers at Google Quantum AI have proposed, in a preprint, a way to reuse saved error records to cut the systematic error left in a quantum calculation's final answer by more than 1,000-fold in simulations.",
+ "score": 5,
+ "score_reason": "Kept at the pool score: the headline matches the facts; it is a simulation-only preprint, so no higher.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Better accuracy from early error-corrected quantum computers would help researchers who plan to use them, but this is a simulation with idealised error checks that needs extra repeated measurements and has not been run on hardware or peer reviewed.",
+ "source": "The Quantum Insider",
+ "status": "PRELIMINARY",
+ "summary": "The Quantum Insider reports on a Google Quantum AI preprint describing \"virtual error cancellation\", which re-weights measurement results on a conventional computer after a quantum calculation, using error records already saved during the run, and cut the remaining systematic error by more than 1,000-fold in simulations under favourable conditions. The tests used a simplified noise model, the method needs extra repeated measurements, and the gains have not yet been shown on quantum hardware or peer reviewed.",
+ "url": "https://thequantuminsider.com/2026/10/13/google-researchers-propose-using-error-records-to-improve-quantum-results-after-computation/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full. The article says arXiv is a preprint server and that neither the paper nor the article is peer reviewed."
+}

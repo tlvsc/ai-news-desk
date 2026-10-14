@@ -1,0 +1,26 @@
+{
+ "item_id": "C09-03",
+ "title": "Emergency order by US to 'prevent blackouts' could affect data centres",
+ "source_used": "The National (with TD World for the order dates)",
+ "article_url": "https://www.thenationalnews.com/future/technology/2026/10/13/power-grid-emergency-energy-data-center/",
+ "fetched": true,
+ "key_facts": [
+  "The US Department of Energy issued an emergency order to try to prevent blackouts amid surging electricity demand; it stays in effect until 16 Oct (TD World: 13 to 16 Oct 2026).",
+  "The order prompted PJM Interconnection to direct data centres and other large-load customers to switch to back-up generation if necessary.",
+  "The department cited a high rate of planned generator outages in the autumn maintenance season as a possible blackout trigger.",
+  "The department said the US has 35 GW of unused back-up generation nationwide.",
+  "PJM issued a maximum generation alert for 13 and 14 Oct as above-normal temperatures were forecast, and said the alert does not require any action from customers.",
+  "Energy Secretary Chris Wright said the order will help ensure millions of American families and businesses across the mid-Atlantic have affordable, reliable and secure electricity.",
+  "TD World adds that the order (No. 202-26-50) covers 13 states and Washington, D.C., and lets PJM use back-up generation as a last resort before declaring the top-level Energy Emergency Alert 3.",
+  "Data centres are widely blamed for rising US electricity prices, and the warnings come before the midterm elections."
+ ],
+ "quote_evidence": [
+  "The US Department of Energy has issued an emergency order to try to prevent power cuts amid increasing demand.",
+  "direct data centres and other large-load customers to switch to back-up generation resources, if necessary",
+  "The company said the alert does not “require any action from customers”."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Data centers may be asked to run on their own generators so the grid can avoid blackouts while demand is high.",
+ "event_date": "Order issued Mon 12 Oct 2026 (US); in effect 13 to 16 Oct 2026",
+ "notes": "Dates cross-checked in TD World. Order was issued on the evening of Mon 12 Oct US time, so it is one day before the window; score lowered by 1. The PJM alert for 13 and 14 Oct falls inside the window."
+}

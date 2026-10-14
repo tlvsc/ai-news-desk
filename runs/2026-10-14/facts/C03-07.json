@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-07",
+ "title": "Gemini 4 Argon in GitHub Copilot",
+ "source_used": "The GitHub Blog changelog (read in full)",
+ "article_url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/",
+ "fetched": true,
+ "key_facts": [
+  "Gemini 4 Argon, Google's newest frontier model, is now generally available in GitHub Copilot (changelog dated 13 Oct 2026).",
+  "GitHub says it is designed for complex coding, agentic and reasoning tasks.",
+  "In early testing, GitHub says, it solved more tasks than previous Gemini models on every coding benchmark, with the largest gains in Copilot CLI, and it checks its work by testing edge cases.",
+  "It is billed at provider list pricing under usage-based billing.",
+  "Available to Copilot Pro+, Max, Business and Enterprise users; rollout is gradual.",
+  "Business and Enterprise administrators can manage access through the model policy; new models are enabled by default unless an administrator turned off the global default or disables this model."
+ ],
+ "quote_evidence": [
+  "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot.",
+  "In early testing, Gemini 4 Argon solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI.",
+  "Rollout will be gradual."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Copilot users on higher plans can now pick a Google model for coding and agent tasks.",
+ "event_date": "13 Oct 2026",
+ "notes": "Official GitHub changelog. Performance claims are GitHub's own early testing; no benchmark names or scores were given."
+}

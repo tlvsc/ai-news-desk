@@ -1,0 +1,24 @@
+{
+ "item_id": "C16-04",
+ "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+ "source_used": "Gizmodo",
+ "article_url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI said on Tuesday (13 Oct 2026) that it had referred an employee it says was spying to the FBI.",
+  "Judging from Justice Department press materials, Gizmodo says the device used to bug an OpenAI conference room in San Francisco was a Seeed Studio XIAO ESP32-S3 Sense, a thumbnail-width microphone and camera that sells for $13.99; OpenAI called it a 'sophisticated recording device'.",
+  "Its built-in camera is 2 megapixels, which Gizmodo compares to the first iPhone; it can send data over 2.4GHz Wi-Fi to an unknown second device.",
+  "The accused (named in the article as Abdulrahman Alfozan) is alleged by the FBI to have peeked behind the TV on 5 Oct, so the camera captured his image; OpenAI says it found the device on 30 Sep.",
+  "Court material quoted by Gizmodo says a chatbot account tied to the accused's spouse asked between 24 and 30 Sep about building a continuous audio recorder, Wi-Fi and encrypting the SD card.",
+  "FBI director Kash Patel is quoted saying the device was placed to capture sensitive communications about the company's super intelligence technology.",
+  "OpenAI told Gizmodo it used its own AI models to analyse the device's data, including forensic images, to find the suspect."
+ ],
+ "quote_evidence": [
+  "In a statement earlier on Tuesday, OpenAI called the Seeed Studio XIAO ESP32-S3 Sense a “sophisticated recording device.”",
+  "Earlier today, OpenAI told me in an email that it used its own AI models to analyze data from the device—including forensic images of the data stored on the device—to find their suspect."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows how cheaply a meeting room can be bugged, which matters to AI labs guarding unreleased work; the claims are allegations.",
+ "event_date": "Announced Tuesday 13 Oct 2026; device found 30 Sep 2026",
+ "notes": "Full text read. The device model is Gizmodo's reading of the Justice Department materials. Allegations only: the accused is not named in the entry. The same case is covered as the main news item by the AP entry (C13-02, cat 13); under the ONE TOPIC rule the editor may merge or drop this lighter take. Also, the serious allegation sits uneasily in the Fun Side; flagged for the editor, category left as FUN."
+}

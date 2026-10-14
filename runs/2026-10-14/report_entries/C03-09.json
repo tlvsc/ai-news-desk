@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-09",
+ "v1_category": "MOD",
+ "headline": "Bloomberg has launched a service that lets its clients' AI agents pull licensed financial data through a standard connection called MCP.",
+ "score": 5,
+ "score_reason": "Relayed from Bloomberg's own announcement by one trade outlet; a sensible product step with no independent testing, so it stays at the curator's 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Banks and asset managers that use AI agents get a licensed, permission-checked route to Bloomberg data, and Bloomberg argues that labelled data helps agents avoid basic mistakes, but this is Bloomberg's own description of a product for existing clients and no independent testing was reported.",
+ "source": "IT Brief UK",
+ "status": "REPORTED",
+ "summary": "IT Brief UK reports, citing Bloomberg's announcement, that Bloomberg has launched Enterprise MCP, which lets its clients' AI agents retrieve licensed market data on more than 100 million securities through the Model Context Protocol, an emerging standard for connecting AI systems to data and tools. Bloomberg says each data field is labelled with what it means and when it applies, and each client's access rights are checked before any data is returned; Tony McManus, Bloomberg's global head of enterprise data and indices, says the bottleneck for financial firms has shifted from model capability to \"data readiness\".",
+ "url": "https://itbrief.co.uk/story/bloomberg-launches-enterprise-mcp-for-ai-data-access",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read IT Brief UK in full; Bloomberg's own release was not reachable. Launch date may be 12 or 13 Oct 2026."
+}

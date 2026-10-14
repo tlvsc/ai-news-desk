@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-11",
+ "v1_category": "RES",
+ "headline": "Princeton-led researchers say AI models did most of the work in tightening the known limits of a mathematical quantity first identified in 1953, but were weaker at judging which results matter.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: the study was posted on 14 Aug 2026, two months before this write-up, and it is a preprint.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Mathematicians and graduate students who learn on step-by-step problems are affected first, then journals and AI labs claiming maths results, because one of the authors says the models did in weeks what would have taken humans years while people still had to judge what matters, but this is one case study and has not been peer reviewed.",
+ "source": "Princeton Engineering",
+ "status": "PRELIMINARY",
+ "summary": "Princeton Engineering reports on a study that is not yet peer reviewed, posted to the arXiv preprint site on 14 Aug 2026 and co-led by Pravesh Kothari, an associate professor of computer science at Princeton, in which a reasoning model and a coding agent that checked its work narrowed the bounds of the Grothendieck constant, a mathematical quantity with implications for algorithms in graph theory and quantum information, with humans stepping in only when the models got stuck. The authors conclude that today's AI is excellent at finding answers but weaker at judging a result's significance and use, and Kothari says humans can take \"very little credit\" for the work.",
+ "url": "https://engineering.princeton.edu/news/2026/10/13/ai-great-math-does-it-know-how-do-research",
+ "freshness": "FOLLOW-UP of 14 Aug 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Older news re-dated: the case study went on arXiv on 14 Aug 2026 and Princeton's write-up is dated 13 Oct 2026. An editor may keep it as a feature on AI and maths, but the research is two months old. Preprint, not peer reviewed."
+}

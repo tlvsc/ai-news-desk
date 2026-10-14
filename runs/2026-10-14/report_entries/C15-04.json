@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "The US government's audit agency found that none of 24 major federal agencies had fully prepared to move its systems to encryption that resists quantum computers.",
+ "score": 4,
+ "score_reason": "Pool score 5, lowered by 1: the GAO report came out on 6 Oct 2026, a week before the window, though the findings are accurately stated.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Federal systems that hold sensitive data are exposed to a future quantum attack and agencies face a 22 Oct 2026 planning deadline, but the audit ended in September 2025, so agencies may have made progress since.",
+ "source": "eWeek",
+ "status": "CONFIRMED",
+ "summary": "eWeek reports on a Government Accountability Office (GAO) report, made public on 6 Oct 2026, which found that none of the 24 federal agencies covered by the Chief Financial Officers Act had fully prepared for post-quantum cryptography, meaning encryption built to resist quantum computers. Only one had a complete inventory of vulnerable systems, none had fully accurate cost estimates and none had tested the new algorithms; the audit ended in September 2025, before the June 2026 executive orders.",
+ "url": "https://www.eweek.com/news/gao-post-quantum-cryptography-federal-agencies/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool source Homeland Security Today was blocked; eWeek's full report read instead. The original is GAO's report released 6 Oct 2026. Category kept RES (default); could also sit in SEC or POL."
+}

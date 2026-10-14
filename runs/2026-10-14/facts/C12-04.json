@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-04",
+ "title": "Nvidia pledges $250 million to boost UK AI safety research",
+ "source_used": "Nvidia's own press release on nvidianews.nvidia.com (full text). Reuters (pool source) returned HTTP 401.",
+ "article_url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia announced a five-year compute donation valued at $250 million to strengthen the UK's agentic safety and security research capability (agentic = AI that acts on its own).",
+  "That is $50 million of compute access a year; the majority is for the wider UK AI safety and security research community.",
+  "A proportion goes to BOLD (led by the University of Oxford), SOFAIR (led by UCL) and Imperial College London.",
+  "Compute will be delivered through UK-based NVIDIA Cloud Partners with infrastructure hosted in the UK; \"provider selection, technical architecture and commercial terms are to be agreed\".",
+  "Research is to focus on secure agents, open-model security and real-world threat mitigations, including secure sandboxes and safety benchmarks.",
+  "Jensen Huang, founder and chief executive of Nvidia, said the donation will put accelerated computing in UK researchers' hands to \"develop, test and strengthen safeguards\".",
+  "Kanishka Narayan, the UK AI minister, called it \"a vote of confidence\" in UK frontier AI safety strength; Business Secretary Jonathan Reynolds also commented."
+ ],
+ "quote_evidence": [
+  "NVIDIA today announced a five-year compute donation valued at $250 million to strengthen the United Kingdom's agentic safety and security research capability.",
+  "The commitment will provide $50 million in compute access annually to support agentic safety and security research across the U.K.",
+  "Provider selection, technical architecture and commercial terms are to be agreed."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Nvidia is giving UK researchers computing power worth $250 million over five years to study how to make AI agents safe and secure.",
+ "event_date": "14 Oct 2026",
+ "notes": "Source is Nvidia's own announcement, which also carries UK government quotes. The value is compute access, not cash. Reuters carried the story (headline seen, text unreadable, HTTP 401)."
+}

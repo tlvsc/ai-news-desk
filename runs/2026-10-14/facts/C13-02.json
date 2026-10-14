@@ -1,0 +1,25 @@
+{
+ "item_id": "C13-02",
+ "title": "FBI arrests OpenAI employee accused of placing recording device in company conference room",
+ "source_used": "Associated Press (text read on its copy at KTVN, 2news.com); TechCrunch for cross-checks",
+ "article_url": "https://apnews.com/article/ai-fbi-justice-department-7f512b2552ffcbbf8f1ebbb18f81a9ba",
+ "fetched": true,
+ "key_facts": [
+  "An OpenAI engineer, a 35-year-old Saudi national, was arrested on Friday 9 Oct 2026 and charged with using an electronic device to intercept oral communications; he made a first court appearance on Tuesday 13 Oct and is due back in court on 19 Oct (AP).",
+  "According to the criminal complaint filed in federal court in San Francisco, the recording device was found on 30 Sep 2026, concealed in toilet paper and inserted in a USB port on the back of a television in an executive conference room (AP).",
+  "OpenAI says it used its own AI models to understand the device and identify the employee, referred the matter to the FBI and fired him (AP).",
+  "OpenAI says it has no indications that he accessed or took model weights, source code or customer data, and that it had evidence he planned to place other listening devices around the building (AP).",
+  "The complaint does not say what he wanted to do with captured communications; FBI director Kash Patel said the scheme was to 'capture sensitive communications about the company's super intelligence technology' (TechCrunch).",
+  "Attorney General Todd Blanche called it an alleged attempt by a Saudi national to steal sensitive communications and said theft of intellectual property involving cutting-edge super intelligence technology is a serious threat to national security (AP).",
+  "CCTV footage showed him near the conference room nearly a dozen times in September without authority; a camera added later caught him checking behind the television; days before his arrest an unattended bag with his wallet, ID and a similar device was found (AP).",
+  "He worked on OpenAI's product team since July 2025 and faces up to five years in prison if convicted (TechCrunch)."
+ ],
+ "quote_evidence": [
+  "An engineer at OpenAI has been charged with secretly installing a recording device inside a conference room in what officials said Tuesday was an effort to capture sensitive conversations about the company's technology.",
+  "At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "US officials treat protecting AI technology from theft as a national security priority, and a leading lab says it found and traced a hidden bug in its own offices.",
+ "event_date": "Device found 30 Sep 2026; arrest 9 Oct 2026; charge made public Tuesday 13 Oct 2026.",
+ "notes": "AP page returned HTTP 403. AP text read on its wire copy at KTVN (http://www.ktvn.com/news/national/fbi-arrests-openai-employee-accused-of-placing-recording-device-in-company-conference-room/article_e856a747-165b-5c14-b8a4-cd7a9e18754e.html) and cross-checked with TechCrunch (own reporting). The defendant is not named in the entry because he is charged, not convicted. Also covered by CNBC, Reuters, Fortune, NYT, Washington Post, Politico and CBS (headlines seen)."
+}

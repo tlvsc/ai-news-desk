@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-06",
+ "title": "Physical Intelligence Opens Pi API Beta for Robot Foundation Models",
+ "source_used": "Physical Intelligence announcement 'Frontier Models for Every Robot: Announcing our API beta' (pi.website/blog/api-beta), plus Unite.AI (read in full)",
+ "article_url": "https://www.pi.website/blog/api-beta",
+ "fetched": true,
+ "key_facts": [
+  "Physical Intelligence announced the Pi API beta on 13 Oct 2026, giving outside developers hosted fine-tuning and inference on its latest robot foundation models.",
+  "Workflow: a developer uploads robot data, launches fine-tuning on compute the company manages, and runs the fine-tuned model on a robot through a hosted gateway; evaluation data guides the next round.",
+  "Access to the beta is through a waitlist; applicants describe what they want to build.",
+  "Actor, a Utah company, showed an autonomous wheel loader scooping material into a dump truck with no operator inside, in footage described as a real commercial deployment.",
+  "Almond, based in San Francisco, builds Axol, a dual-arm robot; Axol deburred spacers used in its own assembly while running a model obtained after four days of iterating with the Pi API.",
+  "Most examples ran on cloud-hosted inference in Japan, Switzerland and the United States; the company noted areas for improvement, including network connectivity problems for some.",
+  "The company calls the effort still early and says developer feedback will shape future releases."
+ ],
+ "quote_evidence": [
+  "Physical Intelligence announced the Pi API beta on October 13, 2026, making its latest robotic foundation models available to outside developers for hosted fine-tuning and inference.",
+  "Access to the beta runs through a waitlist, with applicants asked to describe what they want to build.",
+  "The company said these early deployments covered a range of environments and tasks and highlighted areas for improvement, including network connectivity challenges for some."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Robot makers can adapt a ready-made robot AI model without building their own training setup.",
+ "event_date": "13 Oct 2026",
+ "notes": "Pool item was Unite.AI, whose article (AI-generated, per its own byline note) restates the company announcement; I read the original at pi.website and credit Physical Intelligence as the first reporter. Demonstrations are the company's own footage."
+}

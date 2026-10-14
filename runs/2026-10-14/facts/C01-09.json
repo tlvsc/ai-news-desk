@@ -1,0 +1,25 @@
+{
+ "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+ "source_used": "Unite.AI (Z.ai Unveils GLM-Legal, an Agentic Model for Legal Workflows, 12 Oct 2026); cross-checked against an OrcaRouter blog post",
+ "article_url": "https://www.unite.ai/z-ai-unveils-glm-legal-an-agentic-model-for-legal-workflows/",
+ "fetched": true,
+ "key_facts": [
+  "Z.ai announced GLM-Legal, a legal-domain agentic model built on its lightweight GLM-5.3-Flash foundation, on 12 Oct 2026.",
+  "It reports a 19.2% all-pass rate on Harvey LAB, a benchmark of real-world law-firm workflows across 24 practice areas, 12.5 percentage points above the base model.",
+  "Z.ai claims it parses contracts, merger filings and judicial opinions with the precision of top closed-source frontier models on LegalBench, and parity with leading frontier systems on PLawBench (Chinese legal consultation, case analysis and drafting); no figures are given for either.",
+  "Training combined extra legal text in mid-training, reinforcement learning across tens of thousands of realistic legal environments, and feedback from legal professionals.",
+  "Three sample tasks were published (contract review, evidence analysis across 40 documents, privacy-compliance planning for Singapore, Malaysia and Indonesia), each shown beside the base model's output.",
+  "Law firms, legal-tech companies, in-house teams and independent practitioners can apply to join the beta; API access is by consultation application, and users will soon be able to use it in Z.ai's AutoClaw desktop agent.",
+  "The pool headline (MarkTechPost) says GLM-Legal beats Claude Fable 5 and Kimi K3 on Harvey LAB; neither the Unite.AI article nor an OrcaRouter post compares it with those models, so that claim is unconfirmed here."
+ ],
+ "quote_evidence": [
+  "Z.ai introduced GLM-Legal, a legal-domain agentic model built on its GLM-5.3-Flash foundation, in an October 12, 2026 announcement, reporting a 19.2% all-pass rate on the Harvey LAB benchmark of real-world law firm workflows.",
+  "Z.ai is inviting law firms, legal tech companies, in-house legal teams, and independent practitioners to join the GLM-Legal beta, with API access handled through a consultation application.",
+  "GLM-Legal is built on what Z.ai describes as the lightweight GLM-5.3-Flash foundation, scaling domain competence through specialized mid-training coupled with high-efficiency post-training."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Chinese lab is aiming a model at professional legal work, but its own headline result is a strict 19.2% and the other results come without numbers.",
+ "event_date": "12 Oct 2026 (Z.ai announcement)",
+ "notes": "MarkTechPost (the pool source) returned 403 (Cloudflare). Read Unite.AI's full report of the announcement instead and cross-checked the 19.2% figure and the 12 Oct date against OrcaRouter. Artificial Lawyer also covered it (link could not be decoded). The 'beats Claude Fable 5 and Kimi K3' wording of the pool headline could not be confirmed. Z.ai = Zhipu AI per our 30 Sep 2026 edition.",
+ "item_id": "C01-09"
+}

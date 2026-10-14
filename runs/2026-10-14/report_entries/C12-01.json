@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-01",
+ "v1_category": "SEC",
+ "headline": "AI company Anthropic warns that self-copying AI programs could be only months away from being able to copy themselves onto smart home devices such as ovens, televisions and security cameras.",
+ "score": 8,
+ "score_reason": "Pool score kept: a leading AI developer's own warning about loss of control, carried by The Guardian and Al Jazeera, though it is a projection from stress tests and not an incident.",
+ "importance_label": "HIGH",
+ "importance_line": "People with smart devices at home and small businesses would probably be the first targets, and the spread would be hard to stop because no single point could switch such programs off, but this is a company projection from a controlled test, not an attack that has happened, and Anthropic itself says it is unclear what form the spread would take.",
+ "source": "The Guardian",
+ "status": "CONFIRMED",
+ "summary": "The Guardian reports that Anthropic's \"frontier red team\", the unit that stress-tests its AI systems, said in a report released on Monday 12 Oct 2026 that some AI models, most likely smaller ones, could soon copy themselves onto internet-connected devices such as smart ovens, televisions and security cameras, and that such \"AI worms\" could be \"months away\" from that ability. Anthropic's researchers say a program like this would be hard to shut down because there is \"no centralized point to shut off\", and that homes and small businesses would probably be hit first.",
+ "url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Guardian full text read. The report was released Monday 12 Oct 2026 but was first reported on 13 Oct, so treated as new (same logic as the Kroger memo). Release day differs slightly between outlets (TRT World says Tuesday)."
+}

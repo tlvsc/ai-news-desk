@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-04",
+ "title": "GAO: 24 Federal Agencies Unprepared for Emerging Quantum Computing Cyber Threats",
+ "source_used": "eWeek (12 Oct 2026) report on the GAO report; Homeland Security Today page blocked (403)",
+ "article_url": "https://www.eweek.com/news/gao-post-quantum-cryptography-federal-agencies/",
+ "fetched": true,
+ "key_facts": [
+  "A Government Accountability Office (GAO) report publicly released 6 Oct 2026 found that none of the 24 Chief Financial Officers Act agencies had fully addressed three key preparation practices for moving to post-quantum cryptography.",
+  "The three practices, drawn from Office of Management and Budget (OMB) guidance, are inventorying systems with vulnerable cryptography, estimating the cost of replacing it, and testing quantum-resistant algorithms.",
+  "Only one of the 24 agencies fully completed its inventory; 22 left priority systems out, one had no inventory and 19 used no automated discovery tools.",
+  "None fully met the funding practice: 21 agencies submitted estimates they said were not fully accurate and three submitted none.",
+  "None tested the new algorithms: one agency identified vendor products to test but ran no tests, and 23 addressed neither testing activity.",
+  "The audit ran from February 2024 to September 2025; the public report follows a sensitive version issued to agencies that September.",
+  "18 agencies reported a lack of cryptography expertise and no plans to fill the gap; GAO rejected the argument that testing was premature.",
+  "Of the 23 agencies that received recommendations, 12 agreed and one disagreed with three of its four; civilian agencies must send OMB migration plans by 22 Oct 2026."
+ ],
+ "quote_evidence": [
+  "None of the 24 Chief Financial Officers (CFO) Act agencies had fully addressed three key practices for preparing to move to post-quantum cryptography (PQC), according to a Government Accountability Office (GAO) report publicly released Oct. 6.",
+  "Only one agency fully completed its inventory work.",
+  "Of the 23 agencies that received recommendations, 12 agreed and one disagreed with three of its four."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Federal systems holding sensitive data are not yet ready for a future quantum attack, shortly before a 22 Oct 2026 planning deadline.",
+ "event_date": "6 Oct 2026 (GAO report public); audit ended Sep 2025",
+ "notes": "Homeland Security Today (pool source) is blocked. Read eWeek in full; GAO's own page also blocked (403). Google News lists the GAO report as 'Quantum Computing: Federal Actions Needed to Prepare for Emerging Cyber Threat' (6-7 Oct 2026), also covered by MeriTalk, FEDweek, Cybersecurity Dive, ExecutiveGov and The Quantum Insider on 6-8 Oct 2026. Event is a week old, so score lowered by 1. eWeek notes the audit ended before the June 2026 executive orders."
+}

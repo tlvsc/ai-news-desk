@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-15",
+ "v1_category": "RES",
+ "headline": "The Weather Channel says Google DeepMind's AI model handled Hurricane Isaias well, at times beating the US National Hurricane Center's near-term track forecasts, though US hurricane-specific models did better on one wind feature.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a detailed review of one real storm supports the headline on track and intensity, but rival hurricane models did as well or better on some features and it covers one storm only.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People in hurricane-prone areas and the forecasters who warn them are affected first, then emergency planners, because a sometimes more accurate AI model could change which forecasts they trust, but this is one meteorologist's review of a single storm, and rival hurricane models did as well or better on some features.",
+ "source": "The Weather Channel",
+ "status": "REPORTED",
+ "summary": "The Weather Channel's weather.com reports that Google DeepMind's AI weather model, which in the days before landfall often pointed to Florida while the American GFS model pointed to Mississippi or Louisiana, handled Hurricane Isaias's track and strength well and at times beat the National Hurricane Center's own near-term track forecasts. This follows a New York Times report of 10 Oct 2026 that AI hurricane models were front and center as Isaias approached; what is new is the after-the-storm scorecard, which also says the American hurricane-specific models HMON and HWRF did very well and handled the strong band of winds called a sting jet a bit better.",
+ "url": "https://weather.com/2026/10/13/storms/hurricane/hurricane-isaias-google-deepmind-ai-forecasts",
+ "freshness": "FOLLOW-UP of 10 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up of the New York Times item 'A.I. Hurricane Models Were Front and Center as Isaias Headed Toward Land' (10 Oct 2026). That item was in the 10 Oct pool but not in that day's Full Report, so the entry cites it as a New York Times report and does not say we carried it. The headline's 'keeps outperforming rivals' is only partly supported, so the entry states the caveat. The article gives no landfall place."
+}

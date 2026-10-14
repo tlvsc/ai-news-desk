@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-07",
+ "v1_category": "ENE",
+ "headline": "SK hynix says that in its own tests, sharing a pool of memory across a server rack made AI answers start three to five times sooner, and that a new flash-based memory could hold about 14 times more than today's high-bandwidth memory.",
+ "score": 6,
+ "score_reason": "Pool score kept: specific technical claims from a leading memory maker, but they are the company's own and unproven outside.",
+ "importance_label": "MEDIUM",
+ "importance_line": "If the results hold, AI services could answer faster without buying as many extra GPUs (graphics chips), which would help cloud operators first; the figures are SK hynix's own, no outside test is reported, and samples of the flash product are not due until early 2028.",
+ "source": "TrendForce",
+ "status": "REPORTED",
+ "summary": "TrendForce reports from the OCP Global Summit 2026 that Hoshik Kim, senior vice president at SK hynix, described MARS, a rack-sized system that pools memory so servers can share it, and said that in a test with multi-turn AI agents it cut the time to first token (how long a user waits before an answer begins) by 3 to 5 times compared with recomputing the data. Kim also said High Bandwidth Flash (HBF), a stacked flash memory the company is developing, has about half the bandwidth but roughly 14 times the capacity of high-bandwidth memory (HBM), with samples planned for early 2028.",
+ "url": "https://www.trendforce.com/news/2026/10/13/ocp-in-focus-sk-hynix-drives-up-to-5x-faster-ttft-with-mars-hbf-expands-capacity-by-14x/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The title says up to 5x; the quoted result is 3 to 5 times, and the summary uses the quoted range."
+}

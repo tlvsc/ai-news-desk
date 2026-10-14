@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "Nvidia has made the full code of Run:ai, the software it bought for managing AI chips, open source so developers and cloud companies can inspect and build on it.",
+ "score": 7,
+ "score_reason": "Confirmed by Nvidia and CTech; a major chip maker opening a product it paid about $800 million for, so it stays at the curator's 7.",
+ "importance_label": "MEDIUM",
+ "importance_line": "AI teams, developers and cloud providers get open access to code meant to get more work out of costly chips, but enterprise support is not included, Nvidia still sells paid versions, and it is too early to say how widely the code will be adopted.",
+ "source": "CTech",
+ "status": "CONFIRMED",
+ "summary": "CTech reports that Nvidia has released the full Run:ai platform as open source, software that decides which AI jobs get which graphics chips (GPUs) and can split one chip between several jobs, including four parts that can be used on their own. Nvidia, which paid an estimated $800 million for the Israeli-founded company in late 2024, says eight partners are building it into their services, while it keeps selling supported commercial versions.",
+ "url": "https://www.calcalistech.com/ctechnews/article/jqdtr2997",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Main fetch returned 0 characters; I fetched the CTech page myself and read it, and cross-checked with the Nvidia developer blog."
+}

@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-10",
+ "title": "Chainguard puts Claude Mythos on flaw hunting, secures coding agents and widens Libraries",
+ "source_used": "SiliconANGLE (full text)",
+ "article_url": "https://siliconangle.com/2026/10/14/chainguard-puts-claude-mythos-on-flaw-hunting-secures-coding-agents-and-widens-libraries/",
+ "fetched": true,
+ "key_facts": [
+  "Chainguard Inc., a software supply-chain security company, unveiled four things at its Assemble London conference on 14 Oct 2026: a vulnerability-hunting service called Harness, two products for securing AI coding agents (Workspaces and Checks) and wider Chainguard Libraries.",
+  "Harness uses frontier models such as Anthropic's Claude Mythos 5.1 and reports only flaws it can reproduce in a fresh environment; a Chainguard engineer signs off every report.",
+  "For now Chainguard staff run Harness for customers; it is also listed on the Claude Marketplace.",
+  "Workspaces gives agents a remote, credential-free virtual machine; Checks runs continuous-integration tests before a pull request and produces a signed attestation.",
+  "Chainguard Libraries now cover Go and .NET, taking the service to five languages.",
+  "Workspaces and Checks are in beta from 14 Oct; Harness is open via a waitlist.",
+  "Co-founder and chief executive Dan Lorenc says Harness \"has found serious, exploitable vulnerabilities\" every time it has been pointed at code.",
+  "Chainguard has raised about $892 million since 2021."
+ ],
+ "quote_evidence": [
+  "Secure software supply chain solution provider Chainguard Inc. today unveiled a vulnerability-hunting service that uses frontier artificial intelligence models such as Anthropic PBC’s Claude Mythos 5.1, as well as two products for securing AI coding agents and an expansion of Chainguard Libraries.",
+  "Nothing gets reported until it reproduces in a fresh environment on every replay, according to the company.",
+  "Workspaces and Checks are available in beta test starting today."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A security vendor is selling AI-driven flaw hunting and safer environments for AI coding agents, with the main claims coming from the company.",
+ "event_date": "14 Oct 2026",
+ "notes": "Company announcement as reported by SiliconANGLE; the 'serious, exploitable vulnerabilities' claim is Chainguard's."
+}

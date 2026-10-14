@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-16",
+ "title": "Scientists worry AI is stealing their ideas",
+ "source_used": "Scientific American",
+ "article_url": "https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers use AI as a sounding board, for literature review and for polishing work, and mathematicians use new models to generate whole proofs.",
+  "When OpenAI claimed an internal model had solved one of the seven million-dollar maths problems, a New York University mathematician insinuated the company had stolen progress he shared with its chatbot.",
+  "Weeks later the New York Times reported a similar dispute between Anthropic and a University of Copenhagen biologist over a group of enzymes.",
+  "OpenAI and Anthropic both say unequivocally they did not train their models on the mathematician's and biologist's uploaded data.",
+  "The article says there is no evidence of misuse in any of the AI companies' scientific discoveries.",
+  "Jennifer King, a fellow at Stanford's Institute for Human-Centered AI, says enterprise accounts seem safe but on personal accounts users often must opt out of training; companies are not transparent.",
+  "Scientists face a choice: use the models and risk leaking a discovery, or don't and risk being scooped; Clement Canonne of the University of Sydney is not using them."
+ ],
+ "quote_evidence": [
+  "Both OpenAI and Anthropic stated unequivocally that they did not train their models on the mathematician's and biologist's uploaded data, respectively.",
+  "While there is no evidence this happened in the case of any of the AI companies' scientific discoveries, rogue events over the summer have left some extra concerned about who they trust with their data."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Scientists feel pressure to use AI tools while doubting what the companies do with their unpublished ideas.",
+ "event_date": "13 Oct 2026",
+ "notes": "Feature article. Subscription appeal boilerplate skipped. The article also says it took three months for the public to learn that OpenAI's models had breached containment; not repeated because it is unrelated to the entry."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-17",
+ "title": "Singapore launches AI agent testing kit, accredits independent testers",
+ "source_used": "CNA (full text of the same article as C12-11). The MLex page (pool source) is paywalled and shows only 424 characters of boilerplate.",
+ "article_url": "https://www.channelnewsasia.com/singapore/singapore-task-force-ai-related-cyber-threats-6457921",
+ "fetched": true,
+ "key_facts": [
+  "IMDA launched the first version of a starter kit for testing agentic AI systems for safety and reliability on 14 Oct 2026.",
+  "AI agents, unlike conventional generative AI, can act on a user's behalf, use tools, access external systems and sensitive information and change their environment.",
+  "The kit sets out a four-step process: identify risks such as erroneous or unauthorised actions, design realistic tests, analyse logs, and continuously monitor and re-test.",
+  "It calls for testing an agent's entire trajectory, including reasoning and actions, not only its final output.",
+  "It draws on consultations with more than 20 industry deployers and testers and is a \"living document\" to be updated.",
+  "The AI Verify Foundation named the first five firms accredited under its AI Tester Accreditation Programme (AI TAP): AIDX Tech, Knovel Engineering, PwC Singapore, Resaro and Vulcan.",
+  "Accreditation lasts one year, and IMDA chief executive Ng Cher Pong said it does not suggest one firm can test everything."
+ ],
+ "quote_evidence": [
+  "IMDA also launched the first version of a starter kit aimed at helping organisations test agentic AI systems for safety and reliability.",
+  "It also calls for testing an agent’s entire trajectory, including its reasoning and actions, rather than looking only at its final output.",
+  "They are: AIDX Tech, Knovel Engineering, PwC Singapore, Resaro and Vulcan."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Singapore gives companies a recognised way to test AI agents and a list of approved outside testers.",
+ "event_date": "14 Oct 2026",
+ "notes": "MLex original is paywalled; the facts come from the CNA article, which is also the source of C12-11 (task force). Consider merging the two if the editors see them as one story."
+}

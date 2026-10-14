@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-04",
+ "title": "VS Code 1.141 Brings Copilot, Codex Sessions Together, Tightens AI Agent Security",
+ "source_used": "Visual Studio Code 1.141 release notes (code.visualstudio.com/updates/v1_141); Visual Studio Magazine blocked (HTTP 403)",
+ "article_url": "https://code.visualstudio.com/updates/v1_141",
+ "fetched": true,
+ "key_facts": [
+  "Visual Studio Code 1.141 is marked \"Released October 7, 2026\" on the stable channel.",
+  "The release notes list: cleaning up worktree storage of inactive agent sessions, cross-platform terminal sandboxing, arranging sessions in a grid, continuing external Copilot and Codex sessions, block pasting, and multiple GitHub Enterprise instances.",
+  "Terminal sandboxing limits agent access to files and network resources on Windows, macOS and Linux.",
+  "Microsoft says sandboxing helps reduce the impact of model mistakes, prompt injection, untrusted dependencies and locally launched tool servers, but does not replace endpoint security or provide a standalone security boundary.",
+  "A Codex chat started in the ChatGPT app or Codex CLI can be continued in the Agents window with its history intact; only one application can send messages to the chat at a time.",
+  "An update, 1.141.1, \"addresses these security issues\"."
+ ],
+ "quote_evidence": [
+  "This release makes it easier to manage agent sessions, protect agent workflows, edit columnar text, and work across GitHub Enterprise instances.",
+  "Cross-platform sandboxing: Limit agent access to files and network resources on Windows, macOS, and Linux with terminal sandboxing.",
+  "Sandboxing adds a layer of protection, but does not replace endpoint security or provide a standalone security boundary."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers who let AI agents run commands get a built-in way to restrict what the agents can touch.",
+ "event_date": "7 Oct 2026",
+ "notes": "The pool item (Visual Studio Magazine, 13 Oct 2026) was blocked with HTTP 403, so I wrote from Microsoft's official release notes, which show the release came out on 7 Oct 2026, six days before the coverage. Stale, so score lowered and freshness marked FOLLOW-UP."
+}

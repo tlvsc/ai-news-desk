@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "SEC",
+ "headline": "Security start-up XBOW says AI agents helped its researchers build a three-bug Chrome attack chain in six days and earn a $250,000 reward from Google.",
+ "score": 6,
+ "score_reason": "Pool score kept: a concrete case of AI speeding up serious vulnerability work, but the figures are the company's own and the work dates from August.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Chrome users are safe from these three flaws once the browser is updated and restarted, and the six-day timeline suggests attackers could also find serious bugs faster, but the cost, timing and reach figures are XBOW's own claims.",
+ "source": "XBOW",
+ "status": "REPORTED",
+ "summary": "XBOW, a start-up that builds autonomous security testing, says in a blog post published on 13 Oct 2026 that its researchers, working with OpenAI's GPT-5.6 Sol model, chained three flaws in Google's Chrome browser into an attack that could take over a Windows computer, built between 2 and 7 Aug 2026 for about $40,000 of computing, and that it earned a $250,000 reward from Google, the first under Google's 2026 rules. XBOW says people chose the targets and checked the agents' work while the AI searched code and drafted the exploit, and that all three bugs are now fixed; Startup Fortune, citing XBOW, reports that none was used against real users.",
+ "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read XBOW's own blog post and Startup Fortune's relay (https://startupfortune.com/xbow-researchers-used-ai-agents-to-win-a-250000-chrome-exploit-bounty/). Exploit built in August 2026 but first disclosed publicly on 13 Oct 2026, treated as new. All numbers are XBOW's."
+}

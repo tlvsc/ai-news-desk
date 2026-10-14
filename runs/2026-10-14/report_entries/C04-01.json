@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-01",
+ "v1_category": "RES",
+ "headline": "Science magazine reports that AI has moved closer to solving the Riemann hypothesis, one of the hardest unsolved problems in mathematics.",
+ "score": 6,
+ "score_reason": "Pool 7 lowered by 1: only the headline is available, so the nature and size of the progress are unverified.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Mathematicians would be affected first, then universities and the AI labs now competing on maths claims, but how much progress has been made, by whom, and whether it has been independently checked is unknown.",
+ "source": "Science",
+ "status": "REPORTED",
+ "summary": "Science magazine reports that AI is edging closer to solving the Riemann hypothesis, a famous unproven conjecture about the pattern of prime numbers.",
+ "url": "https://www.science.org/content/article/ai-edges-closer-solving-riemann-hypothesis-one-math-s-hardest-problems",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Science site returned a Cloudflare challenge (HTTP 403) and no other outlet carrying the story was found, so the entry rests on the headline. Background only, not confirmed as the same story: 36Kr (14 Oct 2026) says OpenAI's 6 Oct manuscripts included a result on where the zeta function has no zeros and that Anthropic's Claude raised a bound on zeta zeros in August 2026."
+}

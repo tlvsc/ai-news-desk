@@ -1,0 +1,25 @@
+{
+ "item_id": "C13-11",
+ "title": "OpenAI hit with proposed class action over collection of children’s data",
+ "source_used": "Bloomberg Law (own reporting); Daily Journal lead for the plaintiffs' ages; Reuters page returned HTTP 401",
+ "article_url": "https://news.bloomberglaw.com/litigation/openai-accused-of-taking-minors-data-without-parental-consent",
+ "fetched": true,
+ "key_facts": [
+  "A lawsuit filed Tuesday (13 Oct 2026) in the US District Court for the Northern District of California, Doe v. OpenAI Foundation, No. 3:26-cv-11781, seeks certification of a nationwide class of ChatGPT users who were minors.",
+  "It alleges OpenAI designed ChatGPT to manipulate children into trusting the chatbot and sharing highly personal information and sensitive health data, then used it to train models and build detailed profiles of children, and says 'All of this was illegal'.",
+  "It asks that all children whose data trained OpenAI's models receive a proportionate amount of OpenAI equity or a cash equivalent; OpenAI's valuation is up to $1.4 trillion.",
+  "OpenAI's terms bar users under 13 and require parental consent under 18, but the complaint says signing up only requires entering an age above 13.",
+  "One plaintiff, using a pseudonym, was 12 when she signed up earlier this year; she sent selfies and asked the chatbot to rate her looks and discuss her insecurities, diet and body.",
+  "OpenAI said it 'strongly disagree[s] with this misguided lawsuit' and pointed to age-specific protections; it rolled out ChatGPT for Teens this summer with parental controls.",
+  "The complaint says teen accounts lack sufficient safeguards and by default retain and train on user input.",
+  "Daily Journal says the suit is brought by a mother on behalf of her 12-year-old daughter and 16-year-old son."
+ ],
+ "quote_evidence": [
+  "OpenAI‘s ChatGPT unlawfully took sensitive data from millions of child users who signed up for the AI service without getting parental consent, according to a new lawsuit filed Tuesday.",
+  "In a statement, OpenAI refuted the claims, saying: “We strongly disagree with this misguided lawsuit that singles out OpenAI despite the industry-leading age-specific protections we’ve built into our product.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A new class action tests whether OpenAI collected children's data without parental consent and used it to train its models.",
+ "event_date": "Filed Tuesday 13 Oct 2026.",
+ "notes": "Reuters page (pool source) gave HTTP 401. Read Bloomberg Law's own report (case number, quotes, OpenAI statement). Courthouse News blocked; Daily Journal paywalled after its lead. Allegations are untested."
+}

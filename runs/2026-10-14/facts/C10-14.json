@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-14",
+ "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+ "source_used": "Nature Medicine (paper published online 13 Oct 2026)",
+ "article_url": "https://www.nature.com/articles/s41591-026-04680-4",
+ "fetched": true,
+ "key_facts": [
+  "Nature Medicine published a University of Pennsylvania paper describing an inpatient prototype that links scalp and intracranial EEG (brain-wave recordings) to a secure large language model that chats with patients through a smartphone app.",
+  "The AI processes sleep, medication, cognition and seizure-probability markers, tells patients about clinical events and trends, records symptoms and uses their feedback to retrain its seizure detector.",
+  "It was tested in 13 patients in the epilepsy monitoring unit of the Hospital of the University of Pennsylvania (scalp EEG n=11, intracranial n=2).",
+  "In a pseudoprospective simulation, fine-tuning with platform annotations cut false alarms by 80.9% and raised the F1 score (a combined accuracy measure) by 158.4%.",
+  "Raw seizure alerts were poor: sensitivity 0.136 (8 of 59 clinician-confirmed seizures) and precision 0.138; patient-confirmed annotations had precision 0.71 (5 of 7).",
+  "The paper says patients may over-rely on automated systems and that who is responsible for decisions based partly on AI output remains to be settled.",
+  "One-third of the world's 70 million people with epilepsy have seizures that medication does not control."
+ ],
+ "quote_evidence": [
+  "We validated this platform in 13 patients who are undergoing video-EEG monitoring for epilepsy (scalp, n = 11; intracranial, n = 2).",
+  "Raw seizure alerts had low sensitivity of 0.136 (8/59) and precision of 0.138 (8/58).",
+  "Patients may over-rely on automated systems, and how an interface represents model uncertainty and the AI’s limitations will shape whether patients weigh its outputs appropriately."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Implanted and wearable epilepsy devices cannot talk to patients in real time today; this tests a chat layer that learns from patients' own feedback, but only in a small hospital study.",
+ "event_date": "13 Oct 2026",
+ "notes": "Full paper text read (peer reviewed per the journal's own note). Findings come from 13 inpatients at one centre and a simulation; not a trial of a home device."
+}

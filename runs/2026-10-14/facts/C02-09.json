@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-09",
+ "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+ "source_used": "TechCrunch (read in full)",
+ "article_url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+ "fetched": true,
+ "key_facts": [
+  "American Express introduced the \"Intent Intelligence Framework\" to capture and authenticate a customer's purchase intent before an AI agent completes a transaction (TechCrunch).",
+  "It starts with a Create Intent API that records the customer's instructions and limits such as merchant, maximum budget and product preferences; the customer then authenticates and signs off.",
+  "An Intent ID and a Proof of Intent Token are created; the token yields a secure digital payment credential the agent uses at checkout instead of the real card number.",
+  "Amex VP of Agentic Partnerships and Strategy Hannah Bozian gave the example of a customer asking for white Nike sneakers in size 9 while the agent tries to buy Adidas, which Amex could block.",
+  "Amex said it has not yet seen an increase in disputes because of agentic commerce, and hopes the framework becomes an industry standard.",
+  "It follows the April launch of the ACE Developer Toolkit; Amex is in talks with partners across the payments ecosystem about implementing ACE.",
+  "An Amex Trendex survey found 66% of surveyed US consumers likely to use AI agents to research the best price over the next 12 months."
+ ],
+ "quote_evidence": [
+  "To get ahead of this problem, American Express is introducing a new framework designed to capture and authenticate a customer’s purchase intent before an AI agent completes the transaction.",
+  "Amex said it has not yet seen an increase in disputes because of agentic commerce, but it wanted to be proactive in building this technology as this type of commerce scales.",
+  "Dubbed the “Intent Intelligence Framework,” the company hopes it will become an industry standard for AI-powered transactions."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A big card network is proposing a check so an AI agent cannot buy something the customer did not ask for.",
+ "event_date": "13 Oct 2026 (announced)",
+ "notes": "Full text read, based partly on an interview with Amex. It is a proposal that Amex hopes others will adopt; no partner has been named as adopting it."
+}

@@ -1,0 +1,215 @@
+{
+ "checked": 100,
+ "problems": [
+  {
+   "file": "full",
+   "fact": "Google began rolling out Gemini 4 Argon ... to Pro and Ultra subscribers in the Gemini app, in Search's AI mode and on its Antigravity development platform",
+   "entry": "C01-01",
+   "issue": "Entry says Antigravity is for Ultra subscribers only; the sentence gives it to Pro subscribers too.",
+   "fix": "Replace with: \"to Pro and Ultra subscribers in the Gemini app and in Search's AI mode, and to Ultra subscribers on its Antigravity development platform\""
+  },
+  {
+   "file": "full",
+   "fact": "Inference: ... Google chose price as the weapon, a fifth of its rivals' prices for six weeks.",
+   "entry": "C01-01",
+   "issue": "The introductory price runs from 13 October to the end of November, about seven weeks, not six.",
+   "fix": "Replace \"for six weeks\" with \"until the end of November, about seven weeks\""
+  },
+  {
+   "file": "full",
+   "fact": "German police seized a 120 centimetre robot ... investigating its 16-year-old owner and a 19-year-old companion, who are believed to have been controlling it",
+   "entry": "C11-13",
+   "issue": "Hedge too strong: the two are accused of controlling it and police are still trying to establish whether anyone was steering it; the Inference then calls it 'a remote-controlled machine' as fact.",
+   "fix": "Replace \"who are believed to have been controlling it\" with \"who are accused of controlling it; police are still trying to establish whether anyone was steering it\"; in the Inference replace \"a remote-controlled machine in Cologne\" with \"a robot in Cologne that two young men are accused of steering\""
+  },
+  {
+   "file": "full",
+   "fact": "Bloomberg reports that Deloitte's survey of 66 finance chiefs at large UK companies found 52 percent expect to cut headcount",
+   "entry": "C14-02",
+   "issue": "Attribution: the sample of 66 comes from Reuters' report of the survey, not from Bloomberg.",
+   "fix": "Replace with: \"Bloomberg reports that a Deloitte survey of finance chiefs at large UK companies found 52 percent expect to cut headcount because of AI over the next year, an expectation rather than a count; Reuters puts the sample at 66 finance chiefs\""
+  },
+  {
+   "file": "full",
+   "fact": "Section 2: Tom's Hardware, relaying the Financial Times, reports that Chinese companies bought more than a million Nvidia gaming and workstation chips",
+   "entry": "C08-04",
+   "issue": "Minor hedge: the entry says the FT figures rest on unnamed industry insiders; section 2 drops it (section 4 keeps it).",
+   "fix": "Replace \"Tom's Hardware, relaying the Financial Times, reports\" with \"Tom's Hardware, relaying the Financial Times, which cites unnamed industry insiders, reports\""
+  },
+  {
+   "file": "full",
+   "fact": "Inference: ... a 20 percent fall in a market of about a billion devices a year",
+   "entry": "C08-08",
+   "issue": "The 'about a billion devices a year' figure is in no cited entry.",
+   "fix": "Replace \"a 20 percent fall in a market of about a billion devices a year\" with \"a 20 percent fall in global smartphone shipments\""
+  },
+  {
+   "file": "full",
+   "fact": "utilities now demand financial guarantees ..., Texas a $50,000 deposit per megawatt, because Wood Mackenzie, a research firm, rates only 23 percent of disclosed requests as high confidence",
+   "entry": "C09-07",
+   "issue": "The entry gives no causal link: utilities tighten rules because many requests will never be built; Wood Mackenzie's 23 percent is a separate estimate, not the reason.",
+   "fix": "Replace \", because Wood Mackenzie\" with \", and Wood Mackenzie\""
+  },
+  {
+   "file": "full",
+   "fact": "Inference: ... and in two states both candidates for governor now say the same thing",
+   "entry": "C09-10",
+   "issue": "Only Oregon's candidates both favour a moratorium (C09-01); in Nevada Gov. Lombardo does not oppose data centres on public land while Aaron Ford pledges to oppose them (C09-10).",
+   "fix": "Replace \"and in two states both candidates for governor now say the same thing\" with \"in Oregon both candidates for governor favour a moratorium, and in Nevada the Democratic nominee has pledged to oppose data centres on federal land\""
+  },
+  {
+   "file": "full",
+   "fact": "the posts answer Sam Altman ... and Dario Amodei ...; Inference: since Sunday the two labs that asked to be slowed have been answered by the President",
+   "entry": "C05-01",
+   "issue": "The entry says the posts came after the two calls; it does not say Trump named or answered them (rule 16 REPLY STORIES: a reply that names no one is 'widely read as a reply').",
+   "fix": "Replace \"the posts answer Sam Altman, chief executive of OpenAI, who said\" with \"the posts came after Sam Altman, chief executive of OpenAI, said\" and \"and Dario Amodei, chief executive of Anthropic, whose call to pace the frontier our 7 October edition carried\" with \"and after Dario Amodei, chief executive of Anthropic, called for pacing the frontier, a call our 7 October edition carried, and are widely read as a reply\"; in the Inference replace \"have been answered by the President, who calls the danger a hoax\" with \"have heard the President call the danger a hoax, in posts widely read as a reply\""
+  },
+  {
+   "file": "full",
+   "fact": "Newsmax reports that Bernie Sanders ... answering Sam Altman, who had said on a Politico podcast",
+   "entry": "C05-06",
+   "issue": "Rule 16 PEOPLE WITH THEIR POSITION: Sam Altman is named in this sentence without his position.",
+   "fix": "Replace \"answering Sam Altman, who had said\" with \"answering Sam Altman, chief executive of OpenAI, who had said\""
+  },
+  {
+   "file": "full",
+   "fact": "The New York Post reports that SpaceX, which includes Elon Musk's xAI, agreed to send a representative",
+   "entry": "C13-04",
+   "issue": "Rule 16 PEOPLE WITH THEIR POSITION: Elon Musk is named without position and organisation in this sentence.",
+   "fix": "Replace \"SpaceX, which includes Elon Musk's xAI,\" with \"SpaceX, whose chief executive is Elon Musk and which includes his AI company xAI,\""
+  },
+  {
+   "file": "full",
+   "fact": "Anthropic's frontier red team ... with homes and small businesses hit first",
+   "entry": "C12-01",
+   "issue": "Hedge dropped: the entry says homes and small businesses would 'probably' be the first targets.",
+   "fix": "Replace \"with homes and small businesses hit first\" with \"with homes and small businesses probably hit first\""
+  },
+  {
+   "file": "full",
+   "fact": "Section 4 Inference: ... says it cannot supply demand for two more years ... supply is sold out to 2028 and the suppliers' shares fell six days in a row",
+   "entry": "C07-01",
+   "issue": "ASML said it cannot FULLY meet demand (C08-01); Korean chip shares fell for a fifth day and the US chip index was only heading for a sixth fall (C07-01), not six days done.",
+   "fix": "Replace \"says it cannot supply demand for two more years\" with \"says it cannot fully meet demand in 2027 and 2028\"; replace \"and the suppliers' shares fell six days in a row\" with \"and chipmakers' shares fell for a fifth day in Seoul while the main US chip index headed for a sixth straight fall\""
+  },
+  {
+   "file": "full",
+   "fact": "Section 5 Inference: the market sold on Tuesday for a sixth day; Forecast 1(c): the sixth day of selling {C07-01}",
+   "entry": "C07-01",
+   "issue": "Same as above: Korea's fall was the fifth day; the Philadelphia index was 'heading for' a sixth fall, not a confirmed sixth day.",
+   "fix": "Replace \"the market sold on Tuesday for a sixth day\" with \"the market sold on Tuesday, a fifth day in Seoul, with the main US chip index heading for a sixth\"; in forecast 1(c) replace \"the sixth day of selling {C07-01}\" with \"the fifth day of Korean selling {C07-01}\""
+  },
+  {
+   "file": "full",
+   "fact": "Reuters reports that AirTrunk ... postponed a Singapore listing that could raise about $1.5 billion",
+   "entry": "C06-09",
+   "issue": "Hedge dropped: the entry rests on two unnamed people with direct knowledge.",
+   "fix": "Replace \"Reuters reports that AirTrunk\" with \"Reuters reports, citing two people with direct knowledge, that AirTrunk\""
+  },
+  {
+   "file": "full",
+   "fact": "Section 5 Inference: Anthropic's investor meeting lands today, the first time its figures are shown; D: the figures Anthropic shows investors today",
+   "entry": "C06-01",
+   "issue": "Hedge dropped: the meeting is reported by CNBC from two unnamed people and Anthropic declined to comment.",
+   "fix": "Replace \"where Anthropic's investor meeting lands today, the first time its figures are shown\" with \"where Anthropic's investor meeting, reported by CNBC from two people, lands today, the first time its figures would be shown\"; in D replace \"the figures Anthropic shows investors today\" with \"the figures Anthropic is reported to show investors today\""
+  },
+  {
+   "file": "full",
+   "fact": "DeepSeek's second funding round has doubled ... with CATL and Geely among the investors and a Shanghai listing to follow",
+   "entry": "C06-02",
+   "issue": "Hedge: the entry says DeepSeek is 'expected to' prepare a listing after the round; 'to follow' states it as certain.",
+   "fix": "Replace \"and a Shanghai listing to follow\" with \"and a Shanghai listing expected to follow\""
+  },
+  {
+   "file": "full",
+   "fact": "Shuli Ren ... argues ... that CoreWeave expects $7.6 billion of earnings before interest, tax, depreciation and amortisation this year",
+   "entry": "C07-06",
+   "issue": "Attribution: the entry says CoreWeave 'is expected to make' $7.6 billion; it does not say CoreWeave itself expects it.",
+   "fix": "Replace \"CoreWeave expects $7.6 billion of earnings\" with \"CoreWeave is expected to make $7.6 billion of earnings\""
+  },
+  {
+   "file": "full",
+   "fact": "The Information reports that Applied Intuition ... has investment offers at $30 billion or more, double its June valuation, none accepted",
+   "entry": "C06-07",
+   "issue": "Overstated: the entry says nothing shows an offer has been accepted, not that none was.",
+   "fix": "Replace \"none accepted\" with \"with no word that it has accepted one\""
+  },
+  {
+   "file": "full",
+   "fact": "Business Insider reports that Decagon ... hired a bank to weigh a sale after early talks with ServiceNow, which says they have ended",
+   "entry": "C06-11",
+   "issue": "Hedge dropped (people familiar with the matter) and ServiceNow's words are 'not ongoing'.",
+   "fix": "Replace with: \"Business Insider reports, citing people familiar with the matter, that Decagon, which builds customer-support agents, hired a bank to weigh a sale after early talks with ServiceNow, which says they are no longer ongoing\""
+  },
+  {
+   "file": "full",
+   "fact": "The Information reports that OpenAI is in early talks to buy Trail of Bits",
+   "entry": "C06-06",
+   "issue": "Minor hedge: the entry cites people familiar with the matter and says the talks could still fall apart.",
+   "fix": "Replace with: \"The Information reports, citing people familiar with the matter, that OpenAI is in early talks, which could still fall apart, to buy Trail of Bits\""
+  },
+  {
+   "file": "full",
+   "fact": "Barron's reports that Elon Musk ... answered ... to Hock Tan ..., who said in Singapore on Monday that many AI investors \"have no clue\"",
+   "entry": "C05-04",
+   "issue": "Attribution: Tan's words come from Bloomberg's account, relayed by Benzinga; the Barron's text was not read.",
+   "fix": "Replace \"who said in Singapore on Monday that\" with \"who said in Singapore on Monday, by Bloomberg's account, that\""
+  },
+  {
+   "file": "full",
+   "fact": "Watch list A2: G20 meeting (the FSB's own release, carried in our 12 October edition); A4: the FDA's comment deadline (KFF Health News, carried in our 9 October edition)",
+   "entry": "none (earlier editions)",
+   "issue": "Both dates rest on earlier editions and were not rechecked today, but neither says so, and section D's list of earlier-check dates leaves them out.",
+   "fix": "Add \"; not rechecked today\" inside both brackets; in D replace \"the Microsoft, Tesla, Federal Reserve and Memphis dates rest on earlier checks\" with \"the Microsoft, Tesla, Federal Reserve, G20, FDA and Memphis dates rest on earlier checks\""
+  },
+  {
+   "file": "full",
+   "fact": "Further out: Osaka's partial operation by 2028 {C09-05}; AirTrunk's listing by early 2027 {C06-09}",
+   "entry": "C09-05",
+   "issue": "Unconfirmed dates not marked: Osaka rests on unnamed sources (Nikkei), AirTrunk's aim on one unnamed source (Reuters).",
+   "fix": "Replace with \"Osaka's partial operation possibly by 2028, from unnamed sources, not confirmed {C09-05}\" and \"AirTrunk's aim to list by early 2027, from one unnamed source, not confirmed {C06-09}\""
+  },
+  {
+   "file": "full",
+   "fact": "A6 Why: the two companies are most of the Korean index's weight",
+   "entry": "C07-01",
+   "issue": "Not in any cited entry and likely overstated.",
+   "fix": "Replace \"Why: the two companies are most of the Korean index's weight, and five days of selling {C07-01} is a bet on their next quarter\" with \"Why: five days of selling of Korean chipmaker shares {C07-01} is a bet on their next quarter\""
+  },
+  {
+   "file": "full",
+   "fact": "D Missing data: list of reports read through relays, wire copies or excerpts",
+   "entry": "C08-01",
+   "issue": "Incomplete: Reuters on ASML (read on RTE.ie and CTech), on Apple's HomeView (Euronext copy) and on SPUR (CNA copy) were also read through copies but are not listed.",
+   "fix": "Add \"Reuters on ASML, Apple's HomeView and the SPUR coalition {C08-01} {C02-02} {C13-05};\" to the list of reports read through relays"
+  },
+  {
+   "file": "bulletin",
+   "fact": "Our view: AI chips are sold out for two more years and the chip makers' shares have fallen six days in a row",
+   "entry": "C08-01",
+   "issue": "ASML said its chip-making machines, not AI chips, cannot fully meet demand in 2027 and 2028; and Korea fell five days while the US chip index only headed for a sixth fall (C07-01).",
+   "fix": "Replace with: \"Our view: ASML cannot fully meet demand for its chip-making machines in 2027 and 2028, yet chip shares fell for a fifth day in Seoul and the main US chip index headed for a sixth straight fall;\""
+  },
+  {
+   "file": "bulletin",
+   "fact": "Reuters reports that AirTrunk, Blackstone's data-centre operator, postponed a 1.5 billion dollar Singapore listing in the sell-off",
+   "entry": "C06-09",
+   "issue": "Hedge dropped: the report rests on two unnamed people with direct knowledge.",
+   "fix": "Replace \"Reuters reports that AirTrunk\" with \"Reuters reports, citing two people with direct knowledge, that AirTrunk\""
+  },
+  {
+   "file": "bulletin",
+   "fact": "4. 2 November: shareholders vote on the merger that would list Agility Robotics ..., the first humanoid listing with a date",
+   "entry": "C11-03",
+   "issue": "'The first humanoid listing with a date' is not in the entry; Agility's own claim is narrower (only US-listed pure-play humanoid maker with commercial deployments).",
+   "fix": "Replace \"the first humanoid listing with a date\" with \"which Agility says would make it the only US-listed pure-play humanoid robot maker with commercial deployments\""
+  },
+  {
+   "file": "bulletin",
+   "fact": "Unknowns: the figures Anthropic shows institutional investors today",
+   "entry": "C06-01",
+   "issue": "Hedge dropped: the meeting is reported by CNBC from two unnamed people.",
+   "fix": "Replace \"the figures Anthropic shows institutional investors today\" with \"the figures Anthropic is reported to show institutional investors today\""
+  }
+ ]
+}

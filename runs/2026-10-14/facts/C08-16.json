@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-16",
+ "title": "Marvell launches connectivity chips for AI infrastructure",
+ "source_used": "Marvell newsroom press release of 13 Oct 2026 (investing.com page returned HTTP 403); GuruFocus read for context",
+ "article_url": "https://www.marvell.com/company/newsroom/marvell-connectivity-portfolio-3-2t-retimer-second-generation-1-6t-aec-dsp.html",
+ "fetched": true,
+ "key_facts": [
+  "Marvell announced on 13 Oct 2026 two connectivity chips for AI scale-up infrastructure: the Alaska E 3.2T retimer and the second-generation Alaska A 1.6T AEC DSP.",
+  "Alaska E is a protocol-aware Ethernet, UALink and ESUN retimer with 16 lanes of 224G PAM4, giving 3.2 Tbps of bandwidth.",
+  "Alaska A (second generation) moves to the 3nm node for 1.6T active electrical cables and enables copper reaches exceeding six metres, doubling the first generation; Marvell cites 12.8 W power and eight watts saved against 5nm designs.",
+  "Both devices are now sampling to customers; the announcement gives no booked volumes (GuruFocus).",
+  "Vladimir Kozlov, founder and CEO of LightCounting, is quoted saying the AI scale-up networking market will exceed USD 50 billion by 2030.",
+  "Marvell shares traded about 2.3% lower on the day (GuruFocus), which notes customer sampling is an early milestone that does not show revenue."
+ ],
+ "quote_evidence": [
+  "Marvell Technology, Inc. (NASDAQ: MRVL), a leader in data infrastructure semiconductor solutions, today announced two additions to its advanced connectivity portfolio designed to meet the rapidly increasing bandwidth, reach and power-efficiency requirements of AI scale-up infrastructure.",
+  "Availability: Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers.",
+  "The Alaska A 1.6T AEC DSP addresses this need by enabling AI fabric connectivity at 1.6T throughput over longer copper reaches exceeding six meters, doubling the reach of the first-generation product."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Faster, longer-reach links inside AI racks are needed as systems pack in more accelerators.",
+ "event_date": "13 Oct 2026",
+ "notes": "Source is Marvell's own press release (investing.com carried it and was blocked). Performance figures are Marvell's claims. Sampling is an early stage."
+}

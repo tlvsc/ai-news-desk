@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-10",
+ "v1_category": "RES",
+ "headline": "The Korea Research Institute of Chemical Technology says researchers can now tell an AI scientist what they know in plain language, helping a self-running laboratory find the best experimental conditions faster.",
+ "score": 4,
+ "score_reason": "Pool 5 lowered by 1: the research was published on 10 Aug 2026, before this window, and the article's text gives a smaller time saving than its headline.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Chemists who run slow, costly experiments, such as catalyst tests, would be affected first, then research institutes building self-running labs, but the tests were in a virtual lab built from real data and the size of the time saving is unclear.",
+ "source": "Dong-A Science",
+ "status": "PRELIMINARY",
+ "summary": "Dong-A Science reports that the Korea Research Institute of Chemical Technology announced on 14 Oct 2026 a system, described in a paper published on 10 Aug 2026, in which a language model turns researchers' spoken or written knowledge into constraints for a Bayesian optimization program, an AI method that finds the best experimental conditions with few trials. In tests on a virtual lab built from real experiment data, a self-running lab given that knowledge matched one supplied with 40 data points while starting with almost none, and cut the search time by up to one quarter in the article's wording, though its headline says 75 percent.",
+ "url": "https://www.dongascience.com/en/news/80324",
+ "freshness": "FOLLOW-UP of 10 Aug 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Older news re-dated: the paper appeared in the Journal of Chemical Information and Modeling on 10 Aug 2026; the institute announced it on 14 Oct 2026. The time saving is unclear: headline says 75 percent, text says 'reduced by up to one quarter', possibly a translation of 'to one quarter'. An editor may keep it as the institute's first announcement."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-04",
+ "title": "Chinese AI companies buy 1 million Nvidia gaming and workstation GPUs in a single year, report claims",
+ "source_used": "Tom's Hardware, relaying a Financial Times report",
+ "article_url": "https://www.tomshardware.com/pc-components/gpus/chinese-ai-companies-buy-1-million-nvidia-gpus-in-a-single-year-report-claims-export-control-compliant-chips-flood-the-market-to-bridge-gap-in-compute-demand",
+ "fetched": true,
+ "key_facts": [
+  "The Financial Times reports that Chinese tech companies bought more than 1 million Nvidia gaming and workstation GPUs to plug gaps in AI computing power; it cites industry insiders.",
+  "China's domestic AI chip production has doubled this year but cannot keep up: about 3.5 million chips expected domestically against demand that far exceeds 5 million, a shortfall of nearly 1.5 million.",
+  "The chips are mostly Nvidia's RTX Pro 6000D, RTX Pro 5000 and RTX 5090, which comply with US export controls and are repurposed for AI.",
+  "These Blackwell chips cannot match Huawei's Ascend 910C but are useful for simpler AI workloads such as prefilling.",
+  "Demand is also driven by Nvidia's CUDA software, which remains more favoured than Huawei's CANN.",
+  "Tom's Hardware adds that the RTX 5090 (list price USD 1,999) is now found at only about three third-party resellers for at least USD 7,199."
+ ],
+ "quote_evidence": [
+  "Chinese tech companies have bought more than 1 million Nvidia gaming and workstation GPUs to plug gaps in demand for AI computing power, Financial Times reports.",
+  "The report cites a shortfall of nearly 1.5 million chips, with only 3.5 million expected to be manufactured domestically while demand \"far exceeds\" 5 million.",
+  "The report cites industry insiders who claim the buying spree highlights an ongoing and significant reliance on U.S. AI hardware, despite a burgeoning homegrown market."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "China still leans on US-designed chips for AI, and the demand is squeezing the gaming graphics card market.",
+ "event_date": "13 Oct 2026 (Tom's Hardware report; date of the FT report not stated)",
+ "notes": "Tom's Hardware page text read; the Financial Times original was not opened (paywalled). Figures come from unnamed industry insiders in one newspaper report."
+}

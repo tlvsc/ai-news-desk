@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-04",
+ "title": "TDOC, AMWL Stocks Retreat After OpenAI Lets Users Link Medical Records To ChatGPT",
+ "source_used": "Stocktwits",
+ "article_url": "https://stocktwits.com/news-articles/markets/equity/tdoc-amwl-stocks-retreat-after-open-ai-lets-users-link-medical-records-to-chat-gpt/cZZnzI3R7Ul",
+ "fetched": true,
+ "key_facts": [
+  "Stocktwits says shares of telehealth firms Teladoc Health (TDOC) and American Well (AMWL) slipped on a Thursday, the day OpenAI launched an expanded Health experience in ChatGPT for US users.",
+  "At the time of writing TDOC was down 3% and AMWL down 8%.",
+  "The feature lets users optionally link Apple Health, supported medical records from US hospital systems, One Medical or Function Health so ChatGPT can reference medications, lab trends, recent visits, sleep and activity.",
+  "OpenAI says linked data gets extra encryption, is never used to train foundation models or target ads, and can be disconnected at any time.",
+  "OpenAI says more than 300 million people a week already ask ChatGPT health questions.",
+  "Stocktwits argues the feature overlaps with what Teladoc and Amwell offer and may lead some patients to skip paid virtual consults; this is its own reading.",
+  "The page's own metadata gives the publication date as 2026-07-23, a Thursday."
+ ],
+ "quote_evidence": [
+  "The new ChatGPT feature allows users to securely connect personal health data, enabling more personalized, context-aware responses to everyday health questions.",
+  "Connected information receives additional encryption beyond standard ChatGPT protections, is never used to train foundation models or target ads, and can be disconnected at any time, the company said.",
+  "At the time of writing, TDOC shares were down 3%, while AMWL shares had declined 8%."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "People in the US can link their health records to a chatbot; the share drop is a short market reaction reported by one outlet.",
+ "event_date": "23 Jul 2026 (Thursday; from the Stocktwits page metadata)",
+ "notes": "OLDER NEWS RE-DATED: Google News shows the article as 13 Oct 2026, but the Stocktwits page metadata (datePublished and dateModified) says 2026-07-23, and the text says 'Thursday' (13 Oct 2026 is a Tuesday). The share moves and the launch day are therefore 23 Jul 2026. Feature confirmed in the article itself as OpenAI's own announcement; no second outlet read, though a HuffPost headline of 3 Oct 2026 about uploading medical records to ChatGPT Health shows the feature was in public use by October. Score lowered from 6 to 4 because the event is almost three months old."
+}

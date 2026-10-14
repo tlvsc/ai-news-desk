@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "ROB",
+ "headline": "Physical Intelligence has opened a beta of its Pi API, letting outside developers fine-tune its robot AI models on the company's computers and run them on their own robots.",
+ "score": 5,
+ "score_reason": "Confirmed by the company's own announcement; a notable step for robot AI tooling, but a waitlisted beta with company-chosen demos, so it stays at the curator's 5.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Robot makers and small teams could skip building their own AI training setup, which may speed up practical robots in industries such as manufacturing and food preparation, but the results shown are the company's own examples from a few early users and the beta is waitlist-only.",
+ "source": "Physical Intelligence",
+ "status": "CONFIRMED",
+ "summary": "Physical Intelligence, a company building general-purpose AI models for robots, said on 13 Oct 2026 that it has opened a beta of its Pi API, through which developers upload robot data, have a model fine-tuned on the company's computers and run it on their robots through a hosted service, with access by waitlist. The company says early testers made fast progress, for example Almond, a San Francisco robot maker whose dual-arm robot Axol deburred parts for its own assembly using a model refined over four days, but it calls the effort early and says some deployments hit network connectivity problems.",
+ "url": "https://www.pi.website/blog/api-beta",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Pool source Unite.AI restates the company announcement; credited to Physical Intelligence, the first reporter, and read at pi.website/blog/api-beta. Category changed from MOD to ROB because the main subject is robot AI. machine_action is true on the strength of the company's own footage (an autonomous wheel loader loading a truck, Axol deburring parts), not independent confirmation."
+}

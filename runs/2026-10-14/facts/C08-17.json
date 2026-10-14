@@ -1,0 +1,24 @@
+{
+ "item_id": "C08-17",
+ "title": "Upscale AI Launches Token Fabric to Make Rival AI Chips Work Together",
+ "source_used": "Upscale press release of 8 Oct 2026 (HPCwire page returned a Cloudflare block)",
+ "article_url": "https://www.upscaleai.com/blogs/upscale-introduces-token-fabric-the-industrys-most-comprehensive-standards-based-networking-portfolio-for-ai-factories",
+ "fetched": true,
+ "key_facts": [
+  "Upscale, Inc., a Santa Clara AI networking company, introduced Token Fabric on 8 Oct 2026 (press release); HPCwire covered it on 13 Oct.",
+  "Token Fabric unifies scale-up and scale-out networking with common software, to connect accelerators from different makers over open standards.",
+  "Parts: SkyFabriX scale-up switch silicon (115.2 Tbps, multi-petabit roadmap), scale-up switch trays, scale-out systems built on Nvidia Spectrum-X, SkyOS network software and SkyCMD orchestration.",
+  "Nvidia's Gilad Shainer, senior vice president of networking, and TSMC North America's Lucas Tsai are quoted in support.",
+  "General availability is planned for early 2027; early-access and joint-validation programmes are under way.",
+  "The release says the architecture is gaining traction across customer wins but names no customers."
+ ],
+ "quote_evidence": [
+  "Upscale, Inc., the pure-play AI networking infrastructure company, today introduced Upscale Token Fabric for AI factories.",
+  "General availability is planned for early 2027, with early-access and joint-validation programs underway today.",
+  "For scale-out, Upscale-engineered systems are built on NVIDIA Spectrum-X silicon."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "An open networking stack aims to let AI operators mix chips from different makers.",
+ "event_date": "8 Oct 2026",
+ "notes": "Older news: the launch was on 8 Oct 2026 (company press release); HPCwire's 13 Oct story re-reports it. Claims are Upscale's own. Upscale's site also lists a USD 190 million Series A extension on 22 Jun 2026 bringing total funding to half a billion dollars."
+}

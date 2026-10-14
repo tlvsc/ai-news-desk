@@ -1,0 +1,24 @@
+{
+ "item_id": "C11-05",
+ "title": "Gemini 4 Argon for Robotics",
+ "source_used": "Google Developers Blog (Google's own post)",
+ "article_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+ "fetched": true,
+ "key_facts": [
+  "Google says Gemini 4 Argon scores 87% on the Embodied Reasoning (ERQA) benchmark, a test of physical and spatial problem-solving in 3D scenes, 'outperforming every other frontier model'.",
+  "Examples include Argon controlling a Boston Dynamics Spot quadruped to learn to step on a foot-pedal bin, after practising in a simulated digital twin.",
+  "Argon writes physics simulations, builds digital twins from robot teleoperation video and labels robot video, including a 136-second origami-folding episode.",
+  "Starting from one photo of a tabletop, Argon built a simulation and collected 4,500+ simulated episodes, which Google says raised a real robot's success rate from 56% to 75% and cut completion time from 35 s to 24 s.",
+  "Google calls Argon a step toward 'physical AGI' and says developers can build with it today on Google's developer platforms.",
+  "All results are from Google's own post; no independent testing is reported."
+ ],
+ "quote_evidence": [
+  "Using pure reasoning, Argon scores 87%, outperforming every other frontier model.",
+  "Argon controls a Boston Dynamics Spot® quadruped (12-DoF legs + 6-DoF arm) to learn a new skill: stepping on a foot-pedal trash bin to throw away soda cans.",
+  "Starting from a single RGB photo of the real tabletop, Argon autonomously builds a calibrated MuJoCo simulation twin, defines new tasks, and synthesizes a closed-loop motion generator to collect 4,500+ domain-randomized episodes in simulation—boosting real-world physical robot Success Rate from 56% to 75% and reducing completion time from 35s to 24s."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A leading AI model is pitched as a robot's reasoning and training engine, but the numbers are Google's own.",
+ "event_date": "Post published 13 Oct 2026.",
+ "notes": "Google's own developer post; every benchmark and demo result is a company claim."
+}

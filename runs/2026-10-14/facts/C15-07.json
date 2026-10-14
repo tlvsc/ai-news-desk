@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-07",
+ "title": "Alice & Bob Tests GPU Decoding for Cat-Qubit Error Correction with NVIDIA NVQLink",
+ "source_used": "Alice & Bob press release (alice-bob.com, 13 Oct 2026); HPCwire page blocked (403); Scientific Computing World teaser matches",
+ "article_url": "https://alice-bob.com/newsroom/alice-bob-decodes/",
+ "fetched": true,
+ "key_facts": [
+  "Alice & Bob, a quantum computing company based in Paris and Boston, said on 13 Oct 2026 it implemented GPU decoding of its LDPC-cat error-correction codes using Nvidia's NVQLink.",
+  "It was a proof of concept using synthetic data; the company says it is the first time LDPC-cat codes have been decoded on GPUs through NVQLink.",
+  "The company says it is not real-time decoding, but the results show decoding can scale as several error signals (syndromes) are decoded in parallel.",
+  "The test used an NVQLink connection with Quantum Machines' OPX1000 controller and Open Acceleration Stack, which has microsecond-scale round-trip latency, and checked whether measurement data could move from the control electronics to the GPU.",
+  "Next, Alice & Bob will optimise the data pipeline to reach the speed needed for real-time decoding.",
+  "Juliette Peyronnet, US general manager of Alice & Bob, said the next step is making decoding fast enough to keep pace with the quantum computer.",
+  "Sam Stanwyck, director of quantum product at Nvidia, said the work shows NVQLink can accelerate the real-time decoding needed for fault-tolerant machines.",
+  "In March 2026 the companies reported a 1 hour 57 minute runtime for decoding simulated data of Alice & Bob's Elevator Codes with Nvidia's CUDA-Q platform."
+ ],
+ "quote_evidence": [
+  "The proof of concept using synthetic data is the first time LDPC-cat codes have been decoded on GPUs via the low-latency, high throughput NVQLink architecture, and moves the company a step closer to fast, scalable error correction for its cat-qubit quantum computers.",
+  "Though a proof of concept and not constituting real-time decoding, the results show how decoding can scale by becoming more efficient as several syndromes are decoded in parallel.",
+  "Alice & Bob will now optimize the pipeline, the chain of steps that carry the measurement data through NVQLink to the GPU, to enable the performance needed for real-time decoding."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Fast classical decoding is one of the hard parts of error-corrected quantum computing, and this shows a first step on Nvidia GPUs.",
+ "event_date": "13 Oct 2026",
+ "notes": "HPCwire (pool source, an off-the-wire reprint) is blocked; the original press release on alice-bob.com was read. All claims, including 'first', are the company's own; no independent check reported. Category kept RES (default)."
+}
