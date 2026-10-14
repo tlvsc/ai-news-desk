@@ -151,7 +151,8 @@ def gate(W):
     # G18 coverage: every category has a card when an eligible story exists; robotics gets two when two qualify
     def eligible(k):
         return [i for i in rset if i not in hid and ents[i]['v1_category'] == k and (ents[i]['freshness'] == 'NEW' or i in UA) and ents[i]['verified_text'] and ents[i]['score'] >= F['base_min'] and (k != 'ROB' or ents[i].get('machine_action') is not False)]
-    miss = [k for k in ORDER[:-1] if k not in cats and eligible(k)]
+    waived = set(sel.get('no_card_categories', {}))   # a category Rafi skipped by name, with his words as the reason
+    miss = [k for k in ORDER[:-1] if k not in cats and k not in waived and eligible(k)]
     chk('G18 every category has a card when an eligible story exists (Politics and Robotics included)', not miss, f'no card for {miss}; eligible: ' + str({k: sorted(eligible(k))[:6] for k in miss}))
     chk('G19 robotics has two cards when two qualify', cats.count('ROB') >= min(2, len(eligible('ROB'))), f'robotics cards {cats.count("ROB")}, eligible {sorted(eligible("ROB"))}')
     chk('G20 the Bigger Picture is named as a card and a clip', sel.get('bigger_picture', {}).get('card') and sel.get('bigger_picture', {}).get('clip'), 'add "bigger_picture": {"card": true, "clip": true}')
