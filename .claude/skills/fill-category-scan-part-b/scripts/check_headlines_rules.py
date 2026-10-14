@@ -70,6 +70,7 @@ for k, s, kind in clips:
     out('B1', box <= 12, f'{k} {box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026)') if box > 12 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
     if kind in ('story', 'fun'):
         it = intro(s); out('B2a', 0 < len(it.split()) <= 5, f'{k} opens with a spoken introduction: "{it}"')
+        out('B2d', not re.search(r'\bfrom\b', it), f'{k} opening "{it}" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)')
     if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')
     if kind == 'bp': out('B2a', s.startswith('And for the bigger picture'), 'Bigger Picture opens with "And for the bigger picture"')
     out('B3', not re.search(r'\d', s), f'{k} has no digits')

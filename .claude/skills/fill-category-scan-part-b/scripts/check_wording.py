@@ -16,6 +16,7 @@ plus reply words in its report entry) fails unless its card or clip says it is a
 import argparse, importlib.util, json, re
 from pathlib import Path
 
+LOOSE = re.compile(r"\b(about|nearly|almost|roughly|around) (a |one )?(third|half|quarter)\b|\b(hundreds|dozens|thousands) of\b|\bfar (more|fewer)\b", re.I)   # Rafi, 14 Oct 2026: use the exact figure of the entry
 BANNED = re.compile(r'\b(materially|signals|exposure|ecosystem|headwinds|execution-dependent|capacity buildout|monetisation|'
                     r'monetization|at scale|tranche|yields?|futures|valuation|lockup|benchmark|inference|tokens?|GPUs?|HBM\d?|'
                     r'leverage)\b', re.I)
@@ -62,6 +63,7 @@ def problems(text, kind):
         w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
         if len(re.findall(r'\d[\d,.]*', s)) > 1: out.append(f'two numbers: "{s[:60]}"')
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
+    for m in LOOSE.finditer(text): out.append(f'loose phrase "{m.group(0)}": use the exact figure from the entry (Rafi, 14 Oct 2026)')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')
     if kind == 'clip' and re.search(r'\d', text): out.append('digits in a spoken line')
     if kind == 'clip':   # HEADLINES SHAPE (CLAUDE.md rule 22, Rafi 11 Oct 2026): one sentence, who did what and why
