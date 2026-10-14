@@ -62,6 +62,7 @@ def problems(text, kind):
     for s in sentences(text):
         w = len(re.sub(r'\b(?:[A-Z] )+[A-Z]\b', 'X', s).split())   # a spoken acronym is one word
         if len(re.findall(r'\d[\d,.]*', s)) > 1: out.append(f'two numbers: "{s[:60]}"')
+        if kind == 'card' and w > 15: out.append(f'card sentence of {w} words, the limit is 15: "{s[:50]}"')   # audit 14 Oct 2026: the count was never tested
     for m in BANNED.findall(text): out.append(f'banned word "{m}"')
     for m in LOOSE.finditer(text): out.append(f'loose phrase "{m.group(0)}": use the exact figure from the entry (Rafi, 14 Oct 2026)')
     if re.match(r"^[A-Z][\w.' ]+ (reports|says) that", text): out.append('opens with an outlet')

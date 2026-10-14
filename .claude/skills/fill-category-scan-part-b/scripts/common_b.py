@@ -44,6 +44,13 @@ def rules_gate(W):
         why.append(f"check_headlines_rules.py reports {json.loads(rc.read_text())['fails']} rule fails")
     if not rr.exists() or rr.stat().st_mtime < sf.stat().st_mtime:
         why.append('the rules agent (prompt_rules_headlines.txt) has not checked the CURRENT lines (any edit after it needs a new check)')
+    if rr.exists():   # a checker FAIL blocks the build (audit 14 Oct 2026: the gate only checked that the checker had run)
+        try:
+            bad = [x.get('clip') for x in json.loads(rr.read_text()) if x.get('pass') is False]
+        except Exception:
+            bad = []
+        if bad:
+            why.append(f'the rules agent still reports a FAIL for {bad}: fix and re-check')
     wc = H / 'wording_check.json'
     if not wc.exists() or wc.stat().st_mtime < sf.stat().st_mtime or json.loads(wc.read_text()).get('fails'):
         why.append('check_wording.py has not passed on the current lines (the Headlines shape, who, what, why)')
