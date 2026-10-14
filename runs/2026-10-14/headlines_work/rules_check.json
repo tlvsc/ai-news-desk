@@ -1,0 +1,218 @@
+{
+ "fails": 0,
+ "checks": [
+  {
+   "rule": "A3",
+   "status": "PASS",
+   "detail": "story clips in deck order: [0, 1, 2, 4, 6, 10, 12]"
+  },
+  {
+   "rule": "A5",
+   "status": "PASS",
+   "detail": "teaser items ['C12-02', 'C13-03'] from the teaser card ['C02-03', 'C10-05', 'C12-02', 'C13-03']"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "ending is the approved text"
+  },
+  {
+   "rule": "A2",
+   "status": "PASS",
+   "detail": "opening slot 1 bypass: the stored option 4 opening of 3 Oct is used"
+  },
+  {
+   "rule": "B3",
+   "status": "WARN",
+   "detail": "digits in the opening line: Welcome to A I News Desk. I am Raphael, and Every day, I bri"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C12-01 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C12-01 opens with a spoken introduction: \"first, a critical cyber threat\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C12-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C05-07 10.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C05-07 opens with a spoken introduction: \"next, from seoul\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C05-07 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C07-04 9.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C07-04 opens with a spoken introduction: \"on the chip front\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C07-04 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C08-01 8.5 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C08-01 opens with a spoken introduction: \"from the netherlands\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C08-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C11-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C11-01 opens with a spoken introduction: \"in driverless cars\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C11-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "C13-02 10.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C13-02 opens with a spoken introduction: \"in the courts\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C13-02 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "C14-01 9.0 s (aim 9.0 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "C14-01 opens with a spoken introduction: \"at work\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "C14-01 has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "PASS",
+   "detail": "fun 8.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "fun opens with a spoken introduction: \"today's fun fact\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "fun has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "teaser 10.5 s (aim 8.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "teaser opens with \"Also in the full report.\" (full stop, no colon)"
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "teaser has no digits"
+  },
+  {
+   "rule": "B1",
+   "status": "WARN",
+   "detail": "bp 12.0 s (aim 10.5 s or less)"
+  },
+  {
+   "rule": "B2a",
+   "status": "PASS",
+   "detail": "Bigger Picture opens with \"And for the bigger picture\""
+  },
+  {
+   "rule": "B3",
+   "status": "PASS",
+   "detail": "bp has no digits"
+  },
+  {
+   "rule": "G2",
+   "status": "PASS",
+   "detail": "no introduction repeats the previous day (2026-10-12)"
+  },
+  {
+   "rule": "C16",
+   "status": "PASS",
+   "detail": "one company at most 2 story clips: {'Tesla': 1, 'OpenAI': 1}"
+  },
+  {
+   "rule": "G1.2",
+   "status": "PASS",
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['America', 'An', 'An OpenAI', 'At', 'British', 'China', 'Chinese', 'First', 'Former US Vice President Kamala Harris', 'From', 'Huawei', 'Hundreds', 'Kroger', 'Netherlands', 'Next', 'On', 'Seoul', 'This', 'Thursday', 'Today', 'US']"
+  }
+ ],
+ "names_to_tag": [
+  "America",
+  "An",
+  "An OpenAI",
+  "At",
+  "British",
+  "China",
+  "Chinese",
+  "First",
+  "Former US Vice President Kamala Harris",
+  "From",
+  "Huawei",
+  "Hundreds",
+  "Kroger",
+  "Netherlands",
+  "Next",
+  "On",
+  "Seoul",
+  "This",
+  "Thursday",
+  "Today",
+  "US"
+ ]
+}

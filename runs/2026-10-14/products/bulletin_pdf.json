@@ -1,8 +1,8 @@
 {
  "title": "Daily Bulletin",
  "date": "14 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6), plus the top 3 from The Fun Side.",
- "coverage": "13 Oct 2026 06:32 UTC to 14 Oct 2026 06:32 UTC (24 hours) · 48 stories",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, POL from 6), plus the top 3 from The Fun Side.",
+ "coverage": "13 Oct 2026 06:32 UTC to 14 Oct 2026 06:32 UTC (24 hours) · 50 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -20,6 +20,35 @@
      ],
      "source": "ABC News",
      "url": "https://abcnews.com/Politics/openai-ceo-calls-ai-pacing-trump-insists-downplaying/story?id=136416814"
+    },
+    {
+     "headline": "Former US Vice President Kamala Harris has warned in Seoul that the chance to put safety limits on AI is closing and has urged the United States to work with China on AI rules.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 2,
+     "rank_of": 3,
+     "status": "REPORTED",
+     "paragraphs": [
+      "Reuters reports that Kamala Harris, the former US vice president, told an audience at the Asan Institute for Policy Studies in Seoul on Wednesday 14 Oct that \"the window is shutting\" for AI safeguards and that governments and companies must act now against three existential dangers she named: cybersecurity threats, AI-enabled weapons and AI systems that escape human control. She also urged the United States to engage China on international AI rules, saying \"there is room for cooperation where our interests are aligned\", and Reuters notes that she is campaigning for Democrats before the midterm elections and has not decided whether to run for president in 2028.",
+      "Why it matters: A former vice president who may run again urging AI limits and cooperation with China matters to the public mainly as a signal of Democratic positions before the midterm elections, then to lawmakers and AI firms, but she holds no office and proposes no specific rule."
+     ],
+     "source": "Reuters",
+     "url": "https://www.reuters.com/legal/government/kamala-harris-warns-window-closing-ai-safeguards-urges-us-china-cooperation-2026-10-14/"
+    },
+    {
+     "headline": "Europe's leaders have given up the race to build the most advanced frontier AI models, POLITICO Europe reports.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 3,
+     "rank_of": 3,
+     "status": "REPORTED",
+     "paragraphs": [
+      "POLITICO Europe reports, in a story titled \"Europe's leaders abandon the race for frontier AI\", that European leaders are giving up the race to build frontier AI, meaning the most advanced and powerful AI models.",
+      "Why it matters: If the report is right, European businesses, researchers and governments could come to rely on American or Chinese models for the most advanced AI, but which leaders decided what, and when, is not known, so the claim is unconfirmed.",
+      "Note: we could not open the original article; this entry relies on its headline and related coverage."
+     ],
+     "source": "POLITICO Europe",
+     "url": "https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china/"
     }
    ]
   },
@@ -578,7 +607,7 @@
       "Unite.AI reports on a joint announcement of 13 Oct 2026 in which Johns Hopkins Medicine and OpenEvidence, a medical AI company whose tool the two say is more widely adopted than any other medical AI in the US, say they will design a model for training doctors in the AI era and build AI systems that combine the latest evidence with a patient's own history to help clinicians decide on care. The plans are stated aims, with no launch dates, costs or results given, and the deal follows OpenEvidence partnerships with Penn Medicine on 15 Sep, Memorial Sloan Kettering Cancer Center on 16 Sep and AdventHealth on 1 Oct 2026.",
       "Why it matters: Johns Hopkins clinicians and trainees, and eventually their patients, could see AI built into training and care decisions, but the announcement gives no timetable, results or safeguards, and the adoption claim is the partners' own."
      ],
-     "source": "Unite.AI",
+     "source": "Unite.AI, citing joint release",
      "url": "https://www.unite.ai/openevidence-johns-hopkins-medicine-partner-on-ai-education-and-care/"
     },
     {

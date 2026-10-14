@@ -3,7 +3,7 @@
 Edition date: 2026-10-14 (Asia/Jerusalem)  
 Reporting window: 13 Oct 2026 06:32 UTC to 14 Oct 2026 06:32 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-14 08:10 UTC  
+Last updated: 2026-10-14 10:13 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
@@ -13,7 +13,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - Removed at pool build: 0 by the editor, 25 same stories in two categories
 - Held back after reading: 35 (24 older news re-dated into the window, 11 duplicate, 0 published before the window)
 - Articles read: 215 of 240; headline only: 25
-- Full Report: 104 (pool score 6 to 10 plus The Fun Side); Bulletin: 48 (pool score 7 to 10, plus 3 Fun Side)
+- Full Report: 104 (pool score 6 to 10 plus The Fun Side); Bulletin: 50 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -21,8 +21,8 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 ## Curated pool (item, V1 category, pool score, outlet, published, title, link, outcome)
 
 - C05-01 · POL · 9 · ABC News · 2026-10-14T00:33:00Z · 'Don't kill the Golden Goose': Trump calls AI warnings a 'HOAX' as AI leaders raise alarms · https://abcnews.com/Politics/openai-ceo-calls-ai-pacing-trump-insists-downplaying/story?id=136416814 · Full Report + Bulletin
-- C05-07 · POL · 6 · Reuters · 2026-10-14T05:15:00Z · Kamala Harris warns window closing for AI safeguards, urges US-China cooperation · https://www.reuters.com/legal/government/kamala-harris-warns-window-closing-ai-safeguards-urges-us-china-cooperation-2026-10-14/ · Full Report
-- C13-06 · POL · 6 · POLITICO Europe · 2026-10-13T19:47:00Z · Europe’s leaders abandon the race for frontier AI · https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china/ · Full Report
+- C05-07 · POL · 6 · Reuters · 2026-10-14T05:15:00Z · Kamala Harris warns window closing for AI safeguards, urges US-China cooperation · https://www.reuters.com/legal/government/kamala-harris-warns-window-closing-ai-safeguards-urges-us-china-cooperation-2026-10-14/ · Full Report + Bulletin
+- C13-06 · POL · 6 · POLITICO Europe · 2026-10-13T19:47:00Z · Europe’s leaders abandon the race for frontier AI · https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china/ · Full Report + Bulletin
 - C13-08 · POL · 6 · The Next Web · 2026-10-13T12:16:00Z · Palantir CTO says the Pentagon has already replaced Anthropic’s AI · https://thenextweb.com/news/palantir-shyam-sankar-pentagon-replaced-anthropic-face-the-nation · held: older news re-dated into the window (FOLLOW-UP of 11 Oct 2026)
 - C13-09 · POL · 5 · MeriTalk · 2026-10-13T09:30:00Z · Kupor: ‘Super Intelligence’ task force will press companies on AI safety · https://www.meritalk.com/articles/white-house-ai-task-force-weighs-safety-us-competitiveness/ · pool only (pool score below 6)
 - C13-12 · POL · 5 · CTV News · 2026-10-13T17:48:00Z · Federal government expands AI program with $500M boost · https://www.ctvnews.ca/london/article/federal-government-expands-ai-program-with-500m-boost/ · pool only (pool score below 6)
@@ -235,7 +235,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-11 · LAW · 5 · Bloomberg Law · 2026-10-13T20:53:00Z · OpenAI hit with proposed class action over collection of children’s data · https://news.bloomberglaw.com/litigation/openai-accused-of-taking-minors-data-without-parental-consent · pool only (pool score below 6)
 - C13-14 · LAW · 5 · Law360 · 2026-10-13T23:11:00Z · Nvidia Hit With Suit Over AI Training Music Data · https://www.law360.com/articles/2537460/nvidia-hit-with-suit-over-ai-training-music-data · pool only (pool score below 6)
 - C13-17 · LAW · 5 · AFR · 2026-10-13T07:11:00Z · Albanese plunges into AI copyright fight amid claims of ‘stitch-up’ · https://www.afr.com/politics/federal/pocock-slams-ai-inquiry-as-political-stitch-up-20261013-p6150f · pool only (pool score below 6)
-- C10-01 · HEA · 6 · Unite.AI, citing the joint OpenEvidence and Johns Hopkins Medicine announcement · 2026-10-13T12:00:00Z · Johns Hopkins Medicine taps OpenEvidence to bring AI into medical education, clinical care · https://www.unite.ai/openevidence-johns-hopkins-medicine-partner-on-ai-education-and-care/ · Full Report + Bulletin
+- C10-01 · HEA · 6 · Unite.AI, citing joint release · 2026-10-13T12:00:00Z · Johns Hopkins Medicine taps OpenEvidence to bring AI into medical education, clinical care · https://www.unite.ai/openevidence-johns-hopkins-medicine-partner-on-ai-education-and-care/ · Full Report + Bulletin
 - C10-02 · HEA · 6 · HIT Consultant, citing Agilent's announcement · 2026-10-13T17:06:00Z · Agilent to buy pathology software maker Proscia for $240 million · https://hitconsultant.net/2026/10/13/agilent-to-acquire-proscia-270m-digital-pathology-concentriq-ai-scientific-intelligence/ · Full Report + Bulletin
 - C10-03 · HEA · 6 · PYMNTS.com · 2026-10-13T19:48:00Z · UnitedHealth Says Chart Review Time Falls 33% With AI Usage · https://www.pymnts.com/earnings/2026/unitedhealth-says-chart-review-time-falls-33percent-with-ai-usage/ · Full Report + Bulletin
 - C10-04 · HEA · 6 · Stocktwits · 2026-10-13T09:51:00Z · TDOC, AMWL Stocks Retreat After OpenAI Lets Users Link Medical Records To ChatGPT · https://stocktwits.com/news-articles/markets/equity/tdoc-amwl-stocks-retreat-after-open-ai-lets-users-link-medical-records-to-chat-gpt/cZZnzI3R7Ul · held: older news re-dated into the window (FOLLOW-UP of 23 Jul 2026)

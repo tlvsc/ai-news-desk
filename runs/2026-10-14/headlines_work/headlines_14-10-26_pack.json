@@ -1,0 +1,151 @@
+{
+ "edition": "2026-10-14",
+ "date_title": "WED 14 OCT 2026",
+ "lane": "VL1",
+ "prompt_file": "Headlines_prompt_for_comfy_json.txt (exact wording supplied by Rafael, 26 Sep 2026), plus the hologram border line asked for by Rafael on 30 Sep 2026",
+ "cues": {
+  "N-vidia": "Nvidia",
+  "Kawa saki": "Kawasaki",
+  "an-thropic": "Anthropic"
+ },
+ "rate_syllables_per_second": 4.4,
+ "floor_seconds": 0,
+ "hold_seconds": 0,
+ "ending": "stored approved ending, appended in post; not rendered in this file",
+ "bigger_picture": {
+  "state": "generated_in_C11",
+  "category": "The Bigger Picture",
+  "source": "AI News Desk",
+  "position": "slot 11, after teaser, before the ending"
+ },
+ "format": "13-slot template: C01 opening (Rafi's words and screen timeline, 2 Oct 2026); C02-C08 seven stories; C09 fun; C10 teaser; C11 The Bigger Picture; C12 unused; C13 ending (Rafi's wording, 2 Oct 2026). Each clip aims at 8 seconds, 10 is acceptable for a long item, 12 is the hard limit (CLAUDE.md rule 22, Rafi 12 Oct 2026). Box times round up to the next half second.",
+ "review_status": "Spoken lines follow the Drive phrasing file Headlines section (who, what and why in one flowing sentence, syllables the measure), checked by check_wording.py, check_headlines_rules.py, a stranger check and a rules agent; approved by Rafael.",
+ "source_check": "Story lines were written from the Full Report entries of 2026-10-14. Outlets are shown on screen, never spoken.",
+ "generation_authorized": false,
+ "slots": [
+  {
+   "slot": 1,
+   "kind": "opening",
+   "state": "bypass",
+   "category": "New opening option",
+   "item": "opening",
+   "script": "Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!",
+   "symbol": "timeline: logo 0 to 0.5 s, empty screen 0.5 to 3 s, earth with electric logo 3 to 7 s, logo back 7.5 to 11.5 s",
+   "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place. Hologram screen timeline, clip length 11.5 seconds, speech starts at 0 seconds. 0.0 to 0.5 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 0.5 to 3.0 seconds: the logo fades out slowly; the screen stays empty, plain blue glass with its thin glowing blue border, no picture, no text. 3.0 to 7.0 seconds: a glowing earth appears in the centre of the screen, and the electric logo line runs around the globe in one steady circle; no letters, no numbers, no flags. 7.0 to 7.5 seconds: the earth fades out and the original logo fades back in at the exact same size, position and brightness as the start frame. 7.5 to 11.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, positive: \"Welcome to A I News Desk. I am Raphael, and Every day, I bring you the headlines from all fields of A I. The tech, The money, The people, and the tools shaping our world. 90 seconds. starting now!\" at the last second of the speech, when  it is the end of the sentence he puts his hands on the table and go back to the same position he started <reference image 01>.\nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk.\nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin.\nAudio: the anchor's voice only, with quiet professional studio ambience. No music.\nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
+   "source": "AI NEWS DESK",
+   "note": "Rafi, 2 Oct 2026: his wording and screen timing (New Desk read as News Desk). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_opening_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
+   "stored_clip": "AIND_opening_option4_2026-10-03_VL1_1088.mp4",
+   "stored_clip_where": "Headlines Master Permanent Assets / openings / 2026-10-03, Drive 1rDhcSPq910bxg14kbSAbKP9Lg-QM4ylJ, 2,734,509 bytes"
+  },
+  {
+   "slot": 2,
+   "kind": "story",
+   "category": "Security",
+   "item": "C12-01",
+   "symbol": "a dim modern kitchen at night where a smart oven, a wall television and a small security camera blink with the same pulsing blue light, as if something is moving between them",
+   "script": "First, a critical cyber threat. An-thropic warns that self-copying A I programs may soon spread to smart ovens and televisions, where they would be hard to shut down.",
+   "source": "The Guardian"
+  },
+  {
+   "slot": 3,
+   "kind": "story",
+   "category": "Politics",
+   "item": "C05-07",
+   "symbol": "a packed conference hall in Seoul seen from the back rows, a speaker at a distant podium under stage lights, audience silhouettes and press cameras in the foreground",
+   "script": "Next, from Seoul. Former US Vice President Kamala Harris says the window for A I safety rules is shutting, and urges America to work with China on them.",
+   "source": "Reuters"
+  },
+  {
+   "slot": 4,
+   "kind": "story",
+   "category": "Business",
+   "item": "C07-04",
+   "symbol": "close-up footage of a chip factory line in China, robotic arms placing small square processors onto green circuit boards under bright white light",
+   "script": "On the chip front. N-vidia's share of China's A I chip market fell to about a third, research firm I D C estimates, as Chinese rival Huawei gains ground.",
+   "source": "Reuters"
+  },
+  {
+   "slot": 5,
+   "kind": "story",
+   "category": "Infrastructure",
+   "item": "C08-01",
+   "symbol": "inside a gleaming clean room, technicians in white full-body suits walk beside a huge chip-printing machine bathed in yellow safety light",
+   "script": "From the Netherlands. A S M L, which makes the machines that print computer chips, says it can't fully meet A I demand in the next two years.",
+   "source": "Reuters"
+  },
+  {
+   "slot": 6,
+   "kind": "story",
+   "category": "Robotics",
+   "item": "C11-01",
+   "symbol": "a sleek driverless taxi with no one at the wheel gliding past a school crossing with flashing amber lights, children with backpacks waiting on the pavement seen from behind",
+   "script": "In driverless cars. US safety regulators are weighing a complaint that Tesla's robotaxis speed through school zones, where children are most at risk.",
+   "source": "The Verge"
+  },
+  {
+   "slot": 7,
+   "kind": "story",
+   "category": "Law",
+   "item": "C13-02",
+   "symbol": "a tiny hidden recording device plugged into the back of a television in an empty glass-walled boardroom, an evidence bag and gloved hands of an investigator beside it",
+   "script": "In the courts. An OpenAI engineer is charged with hiding a recording device in a boardroom, to capture talks about the company's A I, officials say.",
+   "source": "Associated Press"
+  },
+  {
+   "slot": 8,
+   "kind": "story",
+   "category": "Jobs",
+   "item": "C14-01",
+   "symbol": "a quiet corporate office floor of a supermarket company with rows of empty desks and a single worker carrying a cardboard box past glass meeting rooms",
+   "script": "At work. US supermarket chain Kroger plans to cut three thousand office jobs over the next three years, as it leans more on technology and A I.",
+   "source": "Associated Press"
+  },
+  {
+   "slot": 9,
+   "kind": "fun",
+   "category": "Fun",
+   "item": "C16-01",
+   "symbol": "a phone lying on a cafe table next to a steaming latte, its screen glowing and flickering busily on its own while nobody touches it",
+   "script": "Today's fun fact. A security firm found OpenAI's always-on assistant, called dot, used a latte's worth of A I in a day, unasked.",
+   "source": "The Register"
+  },
+  {
+   "slot": 10,
+   "kind": "teaser",
+   "category": "Teaser",
+   "item": "C12-02; C13-03",
+   "symbol": "a grand parliamentary committee room seen from the public gallery, witnesses at a long table facing a curved row of lawmakers",
+   "script": "Also in the full report. Hundreds of scientists want a global A I safety body. OpenAI and an-thropic told British lawmakers A I rules should be binding.",
+   "source": "AI News Desk"
+  },
+  {
+   "slot": 11,
+   "kind": "story",
+   "category": "The Bigger Picture",
+   "item": "desk analysis",
+   "symbol": "a glowing warning sign that flashes the words \"This is not financial advice\"",
+   "script": "And for the bigger picture: chip shares fell on fears of higher interest rates, though demand still outruns supply. Watch T S M C's results on Thursday to see if demand holds. This is not financial advice.",
+   "source": "AI News Desk"
+  },
+  {
+   "slot": 12,
+   "kind": "unused",
+   "state": "bypass",
+   "title": "unused (seven stories from 2026-10-14)"
+  },
+  {
+   "slot": 13,
+   "kind": "ending",
+   "state": "bypass",
+   "category": "New ending option",
+   "item": "ending",
+   "script": "Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.",
+   "symbol": "timeline: logo 0 to 1 s, like follow share symbols 1.5 to 6 s, logo back 6.5 to 8.5 s",
+   "prompt": "A photorealistic television news anchor speaks directly to camera in a modern broadcast studio. The anchor and studio remain exactly as the reference start frame: same man, bald head, trimmed styled beard, dark navy suit, white shirt, dark tie, seated at the curved desk on the left of the frame, same lighting, same navy-blue-and-cyan newsroom, same rear displays. The glass hologram panel on the right of the frame stays in place, with its thin glowing blue border always visible. Hologram screen timeline, clip length 8.5 seconds, speech starts at 0 seconds. 0.0 to 1.0 seconds: the AI News Desk logo on the blue holographic screen, exactly as in the reference start frame. 1.0 to 1.5 seconds: the logo fades out slowly. 1.5 to 6.0 seconds: three simple glowing text-free symbols side by side on the screen, for like, follow and share: a thumbs up, a person outline with a plus sign, and a share arrow; no letters, no numbers, no words. 6.0 to 6.5 seconds: the symbols fade out and the original logo fades back in at the exact same size, position and brightness as the start frame. 6.5 to 8.5 seconds: the original logo holds, unchanged, until the end of the clip. The screen content stays inside the glowing border and never rises above the top rail; the desk reflection follows the screen; nothing else in the studio changes. At same time The anchor says exactly, in natural English, at a natural, unhurried pace, in an authoritative and informative news presenter tone, clear and easy to understand, never rushed, and with hands, body and head movements that fits the context: \"Those were today's headlines in ninety seconds. For more detailed coverage, read our daily news cards. Thank you for tuning in, and we'll see you tomorrow.\" at the end of the sentence he puts his hands on the table and move back to the same position he started <reference image 01>. \nHe holds steady professional news energy. He stays the same person in one continuous stable broadcast. In the final second he settles and rests his hands together on the desk. \nStatic camera, locked framing, no camera movement. Natural subtle head and hand movement only. Accurate lip synchronization to the spoken words. Natural eyes, natural skin. \nAudio: the anchor's voice only, with quiet professional studio ambience. No music. \nExclusions: no captions, no subtitles, no lower thirds, no ticker, no on-screen text, no date, no logo redesign, no second person, no camera shake, no zoom, no cuts, no scene change, no morphing, no plastic skin, no hollow eyes.",
+   "source": "AI NEWS DESK",
+   "note": "Rafi, 2 Oct 2026: his screen timing; approved wording kept; symbols text-free (15 Sep rule). Rafi, 4 Oct 2026: not rendered daily; the stored option 4 clip of 3 Oct (AIND_ending_option4_2026-10-03_VL1_1088.mp4) is used in the stitch.",
+   "stored_clip": "AIND_ending_option4_2026-10-03_VL1_1088.mp4",
+   "stored_clip_where": "Headlines Master Permanent Assets / endings / 2026-10-03, Drive 1OE4n8P0L4nt1PX6g0Vq8Me4V-YBoXdn-, 1,997,601 bytes"
+  }
+ ]
+}

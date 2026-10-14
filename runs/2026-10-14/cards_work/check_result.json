@@ -1,0 +1,164 @@
+[
+ {
+  "card": "s1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Facts match C05-07 (three dangers, China talks, no office, 2028 undecided); position given; 84/169 chars; reads as speech."
+ },
+ {
+  "card": "s2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the replaced head: pass. 34% share in the first half of 2026 = about a third this year; chip maker tag kept; 72 chars, 14 words; body unchanged."
+ },
+ {
+  "card": "s3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the fixed body: pass. \"the company\" replaces the Claude maker; two-source hedge, listing as possible, growth and profit kept; 157 chars, sentences 14 and 13 words; reads as speech."
+ },
+ {
+  "card": "s4",
+  "pass": false,
+  "broken": [
+   "1 stranger: the new head says \"AI worms\" and the old explanation \"self-copying\" is gone, so nowhere on the card says what an AI worm is; the body still says \"these AI worms\" as if explained"
+  ],
+  "fix_head": "",
+  "fix_body": "Anthropic's testers say these self-copying programs may be months away and hard to switch off. Homes and small firms would likely be hit first; no such attack has happened yet.",
+  "note": "Head kept as Rafi gave it (81 chars, 14 words; smart TVs, Anthropic warning and months-away hedge match the Guardian entry). Fix body 176 chars, 15 and 15 words, same facts, explains the worms as self-copying."
+ },
+ {
+  "card": "s5",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Cannot fully meet demand in 2027 and 2028 = 'to 2028'; 2029 orders from Fouquet with position; 'If ASML is right' hedge kept; 85/166 chars."
+ },
+ {
+  "card": "s6",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "July 2027 = mid-2027; Kotek with position; Amazon jobs warning and 'letter, not a law' from the OPB entry; 79/158 chars."
+ },
+ {
+  "card": "s7",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "NHTSA evaluating a petition from an unnamed petitioner; children at risk 'if true', nothing proven; 79/173 chars."
+ },
+ {
+  "card": "s8",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "SEC step, 2 Nov shareholder vote, 'only listed US pure-play humanoid robot company with deployments' as Agility's own claim ('Agility says'); no money in head or first sentence (Cards Master 3.3); 83/166 chars."
+ },
+ {
+  "card": "s9",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the fixed body: pass. \"second, after AI firm Anthropic's model\" matches the Artificial Analysis ranking (second only to Claude Opus 5.5 Max); \"the larger one\" refers to the models of the head; 181 chars, 14 and 15 words."
+ },
+ {
+  "card": "s10",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the replaced head: pass. 51,000 vs 14,000 researchers and 69% of China-educated authors staying (up from 57%) support the head; 79 chars, 15 words; body unchanged."
+ },
+ {
+  "card": "s11",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the fixed body: pass. First sentence now flows with \"and\"; cutting \"own\" alters no fact (OpenAI used its own AI models, \"its AI\" says the same); second sentence keeps a contrast, not a list; 158 chars, 15 and 15 words."
+ },
+ {
+  "card": "s12",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Joint announcement facts (evidence plus patient history; no dates, costs or results) match C10-01; OpenEvidence tagged; 82/157 chars."
+ },
+ {
+  "card": "s13",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "3,000 corporate jobs over three years, Foran with position, 'reduce duplicative work' = 'work done twice', no teams or dates; 80/149 chars; credit AP (wire copy read at Bozeman) is right."
+ },
+ {
+  "card": "s14",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Chapter 11, court-supervised sale by year end, app keeps running, wound down with no bid, 20 million monthly users: all in the LA Times entry; 81/176 chars."
+ },
+ {
+  "card": "fun",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the new head and body: pass. Head 76 chars, 14 words; the latte line is Darley's comparison, and the body credits her with position and organisation; 155 jobs in a day with no prompts matches the Register entry; Geordie tagged as security firm; body 164 chars, 15 and 13 words; reads as speech."
+ },
+ {
+  "card": "t1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "89 chars; 300 to 400 signers = 'hundreds'; world body and safety rules for cyber-capable AI match C12-02."
+ },
+ {
+  "card": "t2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "83 chars; 'the rules should be binding' from C13-03."
+ },
+ {
+  "card": "t3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "82 chars; US adults, own phone, AI-built apps, from C02-03."
+ },
+ {
+  "card": "t4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "87 chars; 41% vs 15% in simulated cases, 'simulated test' carries the hedge, from C10-05."
+ },
+ {
+  "card": "bp",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Recheck of the fixed body: pass. \"fully\" restored to match the entry; rate fears, TSMC results on 15 October and the not financial advice notice kept; 153 chars (limit 160), 14 and 11 words."
+ }
+]

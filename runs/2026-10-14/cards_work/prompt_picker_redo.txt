@@ -1,0 +1,6 @@
+Read /tmp/claude-0/-home-user-ai-news-desk/752c7fb8-5733-578c-a28a-6c00f253a6a8/scratchpad/run_2026-10-14/cards_work/prompt_picker.txt and follow it exactly, with ONE change from Rafi (14 Oct 2026, "drop the IMF. We said it yesterday"):
+- Drop story C07-02 (the IMF World Economic Outlook) from the cards AND from the Headlines clips.
+- Put in its place the best Market story (category "Market, industry and finance") that is not a repeat and not an update of any card or Headlines clip of the last 7 days (the IMF card of 12 Oct, item C05-01, counts). Keep the same deck position and the same count: 14 story cards and 7 Headlines clips.
+- Keep every other choice exactly as it is in the earlier selection_fable_before_imf_drop_old.json, except where a company or category limit would break; if so, say which in your report.
+Write the same output file as the original brief (cards_work/selection_fable.json) and its gate_result.json. Report back in at most 8 lines: the replacement story id, headline and score, and why it is not a repeat.
+Work only inside the run folder; never run git (not even git status) and never write in /home/user/ai-news-desk.

@@ -1,12 +1,18 @@
 # Daily Bulletin (Claude-V1) — TEST RUN
 
 14 October 2026. Coverage: 13 Oct 2026 06:32 UTC to 14 Oct 2026 06:32 UTC (24 hours).  
-Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
-**48 stories.**
+Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, POL from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
+**50 stories.**
 
-## POLITICS AND GOVERNMENT — 1
+## POLITICS AND GOVERNMENT — 3
 **9 HIGH — President Donald Trump has dismissed the warnings of AI leaders as a hoax and rejected calls to slow AI down.** (report item 1)  
 ABC News reports that US President Donald Trump wrote in social media posts on Monday 12 Oct that talk of AI destroying humanity is a "HOAX", that a "SICK conspiracy" is working against AI and data centres to China's benefit, and that AI needs no guardrails beyond "a STRONG AND SMART" president, while Vice President JD Vance said it feels "a little bit" like "a Trojan horse" that AI companies are asking to be regulated. The posts came after calls for a slower pace from Sam Altman, chief executive of OpenAI, who said late on Sunday 11 Oct that his company would welcome a slower pace and consistent federal safety rules, and from Dario Amodei, chief executive of Anthropic, who wrote last week that "we must pace the frontier" (our 7 Oct 2026 edition carried Nikkei Asia's report that mentioned his call to slow down); House Speaker Mike Johnson said Trump plans to meet AI executives this week. *ABC News, REPORTED*
+
+**6 MEDIUM — Former US Vice President Kamala Harris has warned in Seoul that the chance to put safety limits on AI is closing and has urged the United States to work with China on AI rules.** (report item 2)  
+Reuters reports that Kamala Harris, the former US vice president, told an audience at the Asan Institute for Policy Studies in Seoul on Wednesday 14 Oct that "the window is shutting" for AI safeguards and that governments and companies must act now against three existential dangers she named: cybersecurity threats, AI-enabled weapons and AI systems that escape human control. She also urged the United States to engage China on international AI rules, saying "there is room for cooperation where our interests are aligned", and Reuters notes that she is campaigning for Democrats before the midterm elections and has not decided whether to run for president in 2028. *Reuters, REPORTED*
+
+**6 MEDIUM — Europe's leaders have given up the race to build the most advanced frontier AI models, POLITICO Europe reports.** (report item 3)  
+POLITICO Europe reports, in a story titled "Europe's leaders abandon the race for frontier AI", that European leaders are giving up the race to build frontier AI, meaning the most advanced and powerful AI models. *POLITICO Europe, REPORTED* *(headline only)*
 
 ## MARKET, INDUSTRY AND FINANCE — 11
 **8 HIGH — Meta chief executive Mark Zuckerberg has admitted that Meta committed to AI spending in the hundreds of billions of dollars before knowing whether it would pay off.** (report item 4)  
@@ -125,7 +131,7 @@ WIRED reports that Liam Booth-Smith, Anthropic's head of Europe, told the UK par
 
 ## HEALTH — 4
 **6 MEDIUM — Johns Hopkins Medicine and OpenEvidence, a medical AI company, have announced a partnership to redesign how doctors are trained and to build AI systems for patient care.** (report item 91)  
-Unite.AI reports on a joint announcement of 13 Oct 2026 in which Johns Hopkins Medicine and OpenEvidence, a medical AI company whose tool the two say is more widely adopted than any other medical AI in the US, say they will design a model for training doctors in the AI era and build AI systems that combine the latest evidence with a patient's own history to help clinicians decide on care. The plans are stated aims, with no launch dates, costs or results given, and the deal follows OpenEvidence partnerships with Penn Medicine on 15 Sep, Memorial Sloan Kettering Cancer Center on 16 Sep and AdventHealth on 1 Oct 2026. *Unite.AI, citing the joint OpenEvidence and Johns Hopkins Medicine announcement, CONFIRMED*
+Unite.AI reports on a joint announcement of 13 Oct 2026 in which Johns Hopkins Medicine and OpenEvidence, a medical AI company whose tool the two say is more widely adopted than any other medical AI in the US, say they will design a model for training doctors in the AI era and build AI systems that combine the latest evidence with a patient's own history to help clinicians decide on care. The plans are stated aims, with no launch dates, costs or results given, and the deal follows OpenEvidence partnerships with Penn Medicine on 15 Sep, Memorial Sloan Kettering Cancer Center on 16 Sep and AdventHealth on 1 Oct 2026. *Unite.AI, citing joint release, CONFIRMED*
 
 **6 MEDIUM — Agilent, a laboratory technology company, has agreed to buy Proscia, a maker of digital pathology and AI software, for $240 million in cash plus up to $30 million more if performance goals are met.** (report item 92)  
 HIT Consultant reports, citing Agilent's announcement of 13 Oct 2026, that Agilent has signed a definitive agreement to buy Proscia, whose Concentriq software helps laboratories and hospitals manage digital pathology (tissue samples examined as scanned images on a computer) and AI analysis tools, for $240 million in cash at closing plus up to $30 million tied to future milestones. Agilent chief executive Padraig McDonnell said the purchase expands the company's presence in a fast-growing field, and HIT Consultant adds that Proscia's software is used in over 4,000 laboratories, health systems and clinics and that the two firms have sold together since a September 2022 distribution agreement. *HIT Consultant, citing Agilent's announcement, CONFIRMED*
@@ -161,6 +167,6 @@ Yahoo Sports, in a piece translated into English by AI from a German original, r
 
 ## CHECKS
 
-- Stories: 48; all come from the Full Report with facts, scores and sources unchanged.
-- Fact check suggested a lower score for 13 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
-- Headline-only stories included: 2.
+- Stories: 50; all come from the Full Report with facts, scores and sources unchanged.
+- Fact check suggested a lower score for 14 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
+- Headline-only stories included: 3.

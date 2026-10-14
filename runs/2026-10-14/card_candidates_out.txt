@@ -1,0 +1,57 @@
+CARD FILTER read from CLAUDE.md: {'base_min': 5, 'extra_min': 7, 'target': 14, 'max_per_category': 2, 'market_max': 3, 'company_cards': 3, 'company_clips': 2} 
+category order read from the Drive Cards Master: ['POL', 'MKT', 'SEC', 'ENE', 'ROB', 'MOD', 'RES', 'LAW', 'HEA', 'SOC', 'FUN']
+critical stories: none
+
+CARD FILTER DECK: 14 story cards (target 14) + fun
+ 1 MKT s8 C06-01 NEW REPO companies=Anthropic | Anthropic is reportedly set to show institutional investors its third-quarter financial re
+ 2 MKT s8 C06-02 NEW REPO companies=DeepSeek | DeepSeek has reportedly doubled its second funding round to about 100 billion yuan while k
+ 3 MKT s8 C07-02 NEW CONF | The International Monetary Fund says in its latest world outlook that AI investment is hol
+ 4 SEC s8 C05-02 NEW REPO companies=Nvidia | Geoffrey Hinton has answered Nvidia chief Jensen Huang, who said Hinton's predictions had 
+ 5 SEC s8 C12-01 NEW CONF companies=Anthropic | AI company Anthropic warns that self-copying AI programs could be only months away from be
+ 6 ENE s8 C08-01 NEW CONF | ASML, the Dutch maker of chip-making machines, says AI-driven demand for its machines is s
+ 7 ENE s8 C09-01 NEW CONF | Oregon's governor has ordered state environmental regulators to stop issuing air and water
+ 8 MOD s9 C01-01 NEW CONF companies=Google | Google has started rolling out its new Gemini 4 Argon model to paying subscribers and says
+ 9 MOD s7 C02-03 NEW CONF companies=Google | Google now lets adults in the US run apps they built with AI on their own Android phones t
+10 LAW s8 C13-01 NEW CONF companies=Anthropic | Anthropic has asked a US appeals court in Washington to reconsider its ruling that let the
+11 LAW s7 C13-02 NEW CONF companies=OpenAI | An OpenAI engineer has been charged with secretly planting a recording device in an execut
+12 HEA s6 C10-01 NEW CONF | Johns Hopkins Medicine and OpenEvidence, a medical AI company, have announced a partnershi
+13 SOC s7 C14-01 NEW CONF | Kroger, the biggest standalone US supermarket chain, says it will cut 3,000 corporate jobs
+14 SOC s7 C14-15 NEW REPO | Character.ai, the chatbot app that has faced lawsuits over harm to teenagers, has filed fo
+per category: {'POL': 0, 'MKT': 3, 'SEC': 2, 'ENE': 2, 'ROB': 0, 'MOD': 2, 'RES': 0, 'LAW': 2, 'HEA': 1, 'SOC': 2} | company cards: {'Anthropic': 3, 'Nvidia': 1, 'Google': 2, 'DeepSeek': 1, 'OpenAI': 1}
+fun: C16-01 s3 | A security company found that OpenAI's always-on dot assistant used more than 300,000 toke
+HEADLINES (strongest card stories, deck order): [('C06-01', 'MKT', 8), ('C06-02', 'MKT', 8), ('C07-02', 'MKT', 8), ('C12-01', 'SEC', 8), ('C08-01', 'ENE', 8), ('C01-01', 'MOD', 9), ('C13-02', 'LAW', 7)] | company clips {'Google': 1, 'Anthropic': 2, 'DeepSeek': 1, 'Nvidia': 0, 'OpenAI': 1}
+
+LEFT OUT with score 6 and up (why):
+   s9 C05-01 POL UPDATE | lost to higher scores | President Donald Trump has dismissed the warnings of AI leaders as a hoax and re
+   s8 C05-03 MKT UPDATE | lost to higher scores | Meta chief executive Mark Zuckerberg has admitted that Meta committed to AI spen
+   s8 C05-04 MKT UPDATE | lost to higher scores | Elon Musk has answered the Broadcom chief executive's warning about reckless AI 
+   s8 C07-01 MKT UPDATE | lost to higher scores | AI chip stocks fell sharply again on Tuesday, with South Korea's main index down
+   s8 C08-02 ENE UPDATE | lost to higher scores | Microsoft has unveiled Maia 300, its third-generation in-house AI chip, which it
+   s8 C02-01 MOD NEW | company limit Anthropic/Meta | Meta has launched Muse Wonder, a new family of AI models whose larger version an
+   s7 C05-05 MKT UPDATE | lost to higher scores | Austan Goolsbee, president of the Federal Reserve Bank of Chicago, has said pric
+   s7 C06-03 MKT NEW | category full | The AI chatbot platform Character.AI has filed for Chapter 11 bankruptcy five ye
+   s7 C06-04 MKT NEW | category full | Nvidia has taken minority stakes in four French start-ups, including the medical
+   s7 C06-05 MKT NEW | category full | Microsoft is reported to be weighing cost cuts of at least 20 percent in a large
+   s7 C07-04 MKT NEW | category full | Nvidia's share of China's AI chip market fell to 34% in the first half of 2026 a
+   s7 C12-02 SEC NEW | category full | Hundreds of scientists signed an open letter asking for an international body to
+   s7 C12-03 SEC NEW | category full | The head of MI5 warns that terrorists could use AI to improve attacks with drone
+   s7 C08-03 ENE UPDATE | lost to higher scores | Applied Materials has opened a research centre in California where TSMC, Intel, 
+   s7 C09-03 ENE UPDATE | lost to higher scores | The US Energy Department has issued an emergency order, running to 16 Oct 2026, 
+   s7 C09-04 ENE NEW | category full | Milwaukee's Common Council voted 13-0 on 13 Oct 2026 for a one-year ban on new d
+   s7 C09-05 ENE NEW | category full | NTT Data is reportedly in the final stages of talks to build a data center in Os
+   s7 C11-01 ROB NEW | robotics card needs a machine doing something | US auto safety regulators say they are weighing a petition that claims Tesla's d
+   s7 C11-03 ROB NEW | robotics card needs a machine doing something | Agility Robotics, maker of the Digit humanoid robot, has cleared a key US regula
+   s7 C01-02 MOD NEW | not read in full | OpenAI is reportedly struggling with the fallout from a controversial AI design 
+   s7 C02-02 MOD UPDATE | lost to higher scores | Apple has launched HomeView, a $299 smart display with a 7-inch screen, to push 
+   s7 C03-01 MOD NEW | category full | Anthropic has moved its main code repository off Git onto a system it built itse
+   s7 C03-02 MOD NEW | category full | Nvidia has made the full code of Run:ai, the software it bought for managing AI 
+   s7 C04-01 RES NEW | not read in full | Science magazine reports that AI has moved closer to solving the Riemann hypothe
+   s7 C04-02 RES UPDATE | lost to higher scores | Google DeepMind's AI system for mathematical proofs has solved nine problems lef
+   s7 C13-03 LAW NEW | category full | OpenAI and Anthropic told a committee of British MPs that voluntary safety pledg
+   s6 C10-02 HEA NEW | below extra_min (7) and the category has its card | Agilent, a laboratory technology company, has agreed to buy Proscia, a maker of 
+   s6 C10-03 HEA NEW | below extra_min (7) and the category has its card | UnitedHealth Group says AI tools have cut the time its clinicians spend reviewin
+   s6 C10-05 HEA NEW | below extra_min (7) and the category has its card | A conference study found that four AI chatbots failed to advise emergency care i
+   s6 C14-02 SOC NEW | below extra_min (7) and the category has its card | More than half of finance chiefs at large UK companies expect to cut staff becau
+   s6 C14-03 SOC UPDATE | below extra_min (7) and the category has its card | The Zimbabwean writer who won this year's Caine Prize for African Writing has de
+
+draft: 14 story cards + fun, 7 Headlines stories, teaser ['C05-01', 'C05-03', 'C08-02', 'C02-01'], bp_refs ['C05-03', 'C05-04', 'C06-01'] -> W/cards_work/selection_draft.json (labels, update notes and bp_refs still to write)

@@ -840,7 +840,7 @@ Full article: https://www.afp.com/de/node/3847055
 CATEGORY: Health — rank 1 of 4 in this category
 SCORE: 6 — Pool score kept: a named partnership between a leading US medical system and a widely used medical AI tool, but the plans have no dates, costs or results yet.
 Importance: MEDIUM — Johns Hopkins clinicians and trainees, and eventually their patients, could see AI built into training and care decisions, but the announcement gives no timetable, results or safeguards, and the adoption claim is the partners' own.
-Source: Unite.AI, citing the joint OpenEvidence and Johns Hopkins Medicine announcement. Status: CONFIRMED.
+Source: Unite.AI, citing joint release. Status: CONFIRMED.
 Summary: Unite.AI reports on a joint announcement of 13 Oct 2026 in which Johns Hopkins Medicine and OpenEvidence, a medical AI company whose tool the two say is more widely adopted than any other medical AI in the US, say they will design a model for training doctors in the AI era and build AI systems that combine the latest evidence with a patient's own history to help clinicians decide on care. The plans are stated aims, with no launch dates, costs or results given, and the deal follows OpenEvidence partnerships with Penn Medicine on 15 Sep, Memorial Sloan Kettering Cancer Center on 16 Sep and AdventHealth on 1 Oct 2026.
 Full article: https://www.unite.ai/openevidence-johns-hopkins-medicine-partner-on-ai-education-and-care/
 ---

@@ -1,0 +1,273 @@
+{
+ "edition": "2026-10-14",
+ "note": "Card wording written by Fable from the Full Report entries, checked by check_wording.py and a stranger check.",
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "item": "C12-01",
+   "cat": "Security and cyber / Critical threat",
+   "head": "Critical cyber threat: AI firm Anthropic warns AI worms may soon reach smart TVs.",
+   "body": "Anthropic's testers say these self-copying programs may be months away and hard to switch off. Homes and small firms would likely be hit first; no such attack has happened yet.",
+   "src": "The Guardian",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "item": "C05-07",
+   "cat": "Politics and government / Harris warning",
+   "head": "Ex-US vice president Kamala Harris warned in Seoul that time for AI limits is short.",
+   "body": "Harris named hacking, AI weapons and AI escaping control, and urged US talks with China. She holds no office, and is still deciding whether to run for president in 2028.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "item": "C07-04",
+   "cat": "Market, industry and finance / Nvidia China",
+   "head": "Chip maker Nvidia's China AI chip share fell to about a third this year.",
+   "body": "Research firm IDC estimates Huawei is now close behind Nvidia in China's data centres. Jensen Huang, Nvidia's chief executive, blames US export limits for handing the market to Huawei.",
+   "src": "Reuters",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "item": "C06-01",
+   "cat": "Market, industry and finance / Investor day",
+   "head": "AI firm Anthropic reportedly shows big funds its finances for the first time today.",
+   "body": "Two unnamed sources say the meeting comes ahead of a possible stock market listing. The figures could show how fast the company grows and whether it profits.",
+   "src": "CNBC",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "item": "C08-01",
+   "cat": "Energy and infrastructure / ASML sold out",
+   "head": "ASML, the Dutch maker of chip-printing machines, cannot fully meet AI demand to 2028.",
+   "body": "Customers already discuss orders for 2029, says ASML chief executive Christophe Fouquet. If ASML is right, the machines stay scarce and AI services could stay costly.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "item": "C09-01",
+   "cat": "Energy and infrastructure / Oregon pause",
+   "head": "Oregon's governor halted pollution permits for new data centres until mid-2027.",
+   "body": "Governor Tina Kotek's letter would pause most large data centre building in the state. Amazon warned of lost jobs, and the pause rests on a letter, not a law.",
+   "src": "OPB (Oregon Public Broadcasting)",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "item": "C11-01",
+   "cat": "Robotics / Robotaxi speed",
+   "head": "US safety officials weigh a claim that Tesla's robotaxis speed in school zones.",
+   "body": "An unnamed petitioner says the driverless cars break speed limits while school zones are active. If true, children near schools are at risk, but nothing has been proven yet.",
+   "src": "The Verge",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "item": "C11-03",
+   "cat": "Robotics / Digit listing",
+   "head": "Digit robot maker Agility Robotics cleared a US step toward a stock market listing.",
+   "body": "Owners of a listed shell firm will vote on 2 November on merging with Agility. Agility says it would be the only listed US firm solely making working humanoid robots.",
+   "src": "Agility Robotics",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C02-01",
+   "cat": "Models and tools / Muse Wonder",
+   "head": "Meta launched Muse Wonder, AI models an independent ranking puts near the very top.",
+   "body": "Ranking group Artificial Analysis puts the larger one second, after AI firm Anthropic's model. Developers can use Muse Wonder now; its safety report and paid app version come later.",
+   "src": "Mashable",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "item": "C04-05",
+   "cat": "Research and science / China research",
+   "head": "China has far more AI researchers than the US and keeps more graduates at home.",
+   "body": "Scott Singer, an analyst at US think tank the Carnegie Endowment, puts China months behind. Far fewer advanced chips and much less investment hold Chinese AI back.",
+   "src": "Nature News",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "item": "C13-02",
+   "cat": "Ethics and law / OpenAI bugging",
+   "head": "An OpenAI engineer is charged with hiding a recording device in an executive room.",
+   "body": "OpenAI says its AI helped find him, and it fired him and alerted the FBI. US officials call it a national security threat; OpenAI sees no sign code was taken.",
+   "src": "Associated Press",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "item": "C10-01",
+   "cat": "Health / Hopkins AI",
+   "head": "Johns Hopkins Medicine and AI firm OpenEvidence plan to reshape how doctors train.",
+   "body": "The plans include AI that weighs fresh evidence with each patient's own history. No dates, costs or results were given, so these are aims, not working tools.",
+   "src": "Unite.AI, citing joint release",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "item": "C14-01",
+   "cat": "Society and education / Kroger cuts",
+   "head": "Supermarket chain Kroger will cut 3,000 office jobs as it uses more tech and AI.",
+   "body": "Kroger's chief executive Greg Foran told staff it must cut work done twice. The cuts run over three years, and no teams or dates have been named yet.",
+   "src": "Associated Press",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "item": "C14-15",
+   "cat": "Society and education / Chatbot bust",
+   "head": "Character.ai, a chatbot app sued over harm to children, has filed for bankruptcy.",
+   "body": "Character.ai plans a court-supervised sale by year end, and keeps the app running meanwhile. With no good bid, the app closes, leaving over 20 million monthly users without it.",
+   "src": "Los Angeles Times",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "item": "C16-01",
+   "cat": "Fun and humour / Fun fact",
+   "head": "Today's fun fact: a day of OpenAI's always-on AI helper costs about a latte.",
+   "body": "In security firm Geordie's test, the helper, dot, ran 155 jobs in one day unasked. Hanah-Marie Darley, Geordie's chief AI officer, likens the day's bill to a latte.",
+   "src": "The Register",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "item": "C12-02",
+     "cat": "Security and cyber",
+     "head": "Hundreds of scientists asked for a world body to set safety rules for hacking-capable AI."
+    },
+    {
+     "id": "t2",
+     "item": "C13-03",
+     "cat": "Ethics and law",
+     "head": "OpenAI and Anthropic told British lawmakers that AI safety rules should be binding."
+    },
+    {
+     "id": "t3",
+     "item": "C02-03",
+     "cat": "Models and tools",
+     "head": "Google now lets US adults run apps they built with AI on their own Android phones."
+    },
+    {
+     "id": "t4",
+     "item": "C10-05",
+     "cat": "Health",
+     "head": "Chatbots missed emergencies far more in Vietnamese than in English in a simulated test."
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "AI chip shares keep falling as rising interest rates threaten the AI building boom.",
+   "body": "Chip-machine maker ASML can't fully meet demand, yet chip shares fell on rate fears. Watch TSMC's results on 15 October for demand; not financial advice.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "refs": [
+    "C07-02",
+    "C07-01",
+    "C06-01",
+    "C08-01",
+    "C05-05"
+   ]
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ]
+}

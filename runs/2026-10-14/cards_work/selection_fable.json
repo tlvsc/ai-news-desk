@@ -1,0 +1,157 @@
+{
+ "edition": "2026-10-14",
+ "picker_note": "14 story cards: 10 categories get one card each (Politics and Research from the reserve, each marked exception, because the Bulletin has no NEW story read in full in those two categories), Robotics gets two (CLAUDE.md rule 16 ROBOTICS: one humanoid story), and the three extra slots go to the highest scored stories left: the second Market story (Nvidia's China share, 7, after Rafi dropped the IMF outlook on 14 Oct 2026: 'drop the IMF. We said it yesterday'), the second Energy story (8) and, among the stories at 7, the Character.ai bankruptcy (AI affecting people). Markets: 2 cards. Left out as repeats or updates of the last 7 days (NO REPEATS IN 7 DAYS, NO UPDATE CARDS): Gemini 4 Argon rollout (card and clip on 9 Oct), Hinton on safety rules (card and clip on 7 Oct), Anthropic v Pentagon rehearing (the Pentagon story Rafi named on 7 Oct), DeepSeek round doubled (update of the early October round), MI5 chief (follow-up of the 11 Oct spy chiefs card). The 13 Oct deck text was not available, so the repeat check covers 6 of 7 days. REDO 14 Oct 2026: the IMF World Economic Outlook (C07-02) is out of the cards and the Headlines on Rafi's word; C07-04 (Nvidia's China share falls as Huawei closes in, Reuters/IDC, score 7) takes its deck position (card 2) and its clip (clip 2); its teaser slot goes to C12-02. Every other choice is unchanged; no company or category limit breaks (Nvidia 1 card, 1 clip; Markets 2 cards). Note for Rafi: inside Market the replacement (7) now sits before the Anthropic investor day (8); swapping cards 2 and 3 restores high score first inside the category, and the clips stay the same either way.",
+ "cards": [
+  {
+   "item": "C05-07",
+   "label": "Harris warning",
+   "reason": "The only Politics story of the day that is new and read in full: a former US vice president, speaking in Seoul, says the window for AI safety limits is shutting and asks the US to work with China on AI rules. It is the Politics card the deck must have (Rafi, 7 Oct 2026) and a world story: a US politician, an Asian stage, a call to work with China. Exception: it comes from the Full Report, because the Bulletin's one Politics story (Trump calls AI warnings a hoax, C05-01) is a follow-up of 12 Oct and updates are not allowed as cards.",
+   "not_repeat_because": "No Harris line in the decks of 7 to 12 Oct. The nearest politics cards were Trump's super intelligence post (9 Oct) and China's leaders warning against blind AI investment (10 Oct), different people and different stories.",
+   "novice_test": "Kamala Harris: the former US vice president, who lost the 2024 election to Donald Trump and may run again in 2028. Asan Institute: a policy think tank in Seoul. With those two lines the story lands: a famous US politician says time is running out to put limits on AI."
+  },
+  {
+   "item": "C07-04",
+   "label": "Nvidia China",
+   "reason": "Replaces the IMF outlook (C07-02), dropped by Rafi on 14 Oct 2026: 'drop the IMF. We said it yesterday'. The best Market story left that is new and read in full: Reuters, from an IDC report, says Nvidia, the maker of the chips behind the AI boom, shipped 44 percent fewer AI chips to China in the first half of 2026 than a year earlier, which cuts its share of China's data-centre AI chip market to 34 percent, with Huawei at 28 percent and closing; Nvidia's own chief, Jensen Huang, says the US export curbs handed China's $50 billion AI chip market to Huawei. The US and China race for AI chips is a story a stranger grasps in five seconds, and it fills the second Market slot at score 7 (the other Market stories at 7 are the French start-up stakes, C06-04, a smaller regional story; DeepSeek's round, C06-02, an update; and the Character.ai bankruptcy, C06-03, already a card as C14-15). Markets stay at 2 cards.",
+   "not_repeat_because": "No Nvidia China share, Huawei or IDC line in the decks of 7 to 12 Oct. The Nvidia lines were the Figure stake (8 Oct), the chip smuggler's guilty plea (10 Oct, a court case), the Reflection AI talks and the RTX 5090 card (11 Oct); the China lines were the blind-investment warning (10 Oct) and Chinese models topping a developer site (12 Oct). The 12 Oct IMF card (C05-01 that day) was the IMF chief on jobs, nothing to do with this. The 14-day archive has Huawei's chairman claiming on 1 Oct, by Huawei's own data, that its chips had passed Nvidia's in China; this is a different, independent count by IDC that says Nvidia still leads, released 13 Oct, and the 1 Oct item is outside the 7-day window anyway. The 14-day duplicate check kept it as NEW. The 13 Oct deck text was not available.",
+   "novice_test": "Nvidia: the US company whose chips power almost all AI. Huawei: China's telecoms and chip giant, cut off from US technology by sanctions. IDC: a research firm that counts chip shipments. AI accelerators: the chips that train and run AI models. US export curbs: Washington's rules that stop the best AI chips being sold to China. Jensen Huang: Nvidia's chief executive. With those lines a novice gets it: Nvidia is losing China to Huawei because of the US ban, and Nvidia's own boss says so."
+  },
+  {
+   "item": "C06-01",
+   "label": "Investor day",
+   "reason": "The maker of Claude opens its books to big investors for the first time, today, ahead of a possible share listing reportedly aimed at November. Whether Anthropic makes money is the question behind the whole AI bubble debate, and a listing of this size would be one of the biggest ever. Second Market card; score 8.",
+   "not_repeat_because": "No Anthropic listing or results line in the 7-day decks. The Anthropic lines of 7 to 12 Oct were about Claude in Google Docs (7 Oct), the Haiku price (8 Oct), free code scanning and the gene-editing claim (9 Oct), the cruelty ban (10 Oct); none about its finances or an IPO.",
+   "novice_test": "Anthropic: the AI company that makes the Claude chatbot, a rival of ChatGPT. Institutional investors: big funds that buy shares in bulk. IPO: when a private company first sells its shares to the public on a stock exchange. With those lines a novice sees why it matters: a top AI company is about to let outsiders see whether it makes a profit."
+  },
+  {
+   "item": "C12-01",
+   "label": "AI worms",
+   "reason": "Anthropic's own test team says self-copying AI programs could be months away from spreading into smart ovens, TVs and security cameras, with no switch to turn them off, and homes and small businesses would be hit first. A stranger understands it in five seconds and it is about their own kitchen. Score 8; the strongest security story of the day.",
+   "not_repeat_because": "No AI worm or smart-device line in the 7-day decks. The security cards of 7 to 12 Oct were Dimon on Mythos, hijacked servers, OpenAI's fake journalists, AI bosses rehearsing for a disaster, an AI faking its grades, and the mock factory hack; none about AI copying itself onto home devices.",
+   "novice_test": "Anthropic: the AI company behind the Claude chatbot. Frontier red team: the unit inside the company whose job is to attack its own AI and see what goes wrong. 'AI worm': a program that copies itself from device to device on its own. With those lines the story lands for anyone with a smart TV."
+  },
+  {
+   "item": "C08-01",
+   "label": "ASML sold out",
+   "reason": "The one company in the world that makes the most advanced chip-printing machines says AI demand is so strong it cannot supply everyone in 2027 or 2028, and customers already talk about 2029 and 2030. It tells the world the AI build-out is not slowing down on the factory floor, whatever the stock market does this week, and it is a European story. Score 8.",
+   "not_repeat_because": "No ASML line in the 7-day decks. The chip cards were TSMC's sales (8 Oct), Samsung's record profit (8 Oct) and memory chips booked up (10 Oct); ASML's results and its two-year supply warning are new.",
+   "novice_test": "ASML: a Dutch company that makes the machines that print the circuits onto computer chips; nobody else makes the most advanced ones. Christophe Fouquet: ASML's chief executive. A novice gets it: the factory that supplies the chip factories is sold out for two years because of AI."
+  },
+  {
+   "item": "C09-01",
+   "label": "Oregon pause",
+   "reason": "A whole US state stops the pollution permits that new data centres need, until July 2027, and both candidates for governor want the freeze. Amazon, which runs more than a dozen data centres there, says jobs are at risk. It is the biggest single act yet in the fight between communities and the AI build-out, and the governor and her challenger agreeing makes it a story a stranger can feel. Second Energy card; score 8.",
+   "not_repeat_because": "The 7-day decks had the data centre backlash in other places: $260 billion of plans killed and San Francisco's 45-day pause (7 Oct), data centres as an election issue in Ohio and Michigan (11 Oct). None was Oregon or a state-wide permit freeze; this is a new act by a new actor.",
+   "novice_test": "Tina Kotek: the governor of the US state of Oregon, a Democrat. Christine Drazan: her Republican challenger in next month's election. Data centre: a building full of computers that run AI services. Pollution permits: the state approvals a data centre needs for its air and water. With those lines the story is clear to anyone."
+  },
+  {
+   "item": "C11-01",
+   "label": "Robotaxi speed",
+   "robotics_ruling": "CLAUDE.md rule 16 ROBOTICS (Rafi, 8 Oct 2026): robotics means humanoid robots and any other robotics, anything super important goes into the cards and the Headlines. The machine here is Tesla's driverless taxi, and the story is what it allegedly does: drive faster than the speed limit through active school zones. The script marked machine_action false because the news hook is the regulator's review; the picker reads it as a machine doing something, under Rafi's ruling, and asks Rafi to confirm.",
+   "reason": "The US road safety regulator is weighing a petition that says Tesla's roughly 1,000 driverless taxis speed through school zones. Children near schools are the people at risk, Tesla is a name everyone knows, and the Cybercab with no steering wheel is already under investigation. It is the robotics story most people will stop for, and it says what the machine does. Score 7.",
+   "not_repeat_because": "The Tesla lines of the 7-day decks were about the Optimus humanoid: 1,000 a week (8 Oct) and learning chores from videos (11 Oct). The robotaxi cards were Waymo in Detroit (7 Oct) and Baidu with Uber in Dubai (8 Oct). The school zone petition is a different machine and a new story; the 11 Oct Full Report carried the Cybercab fleet count, not this petition.",
+   "novice_test": "NHTSA: the US government's road safety regulator. Robotaxi: a taxi with nobody at the wheel, booked by app. Cybercab: Tesla's purpose-built robotaxi, with no steering wheel, pedals or mirrors. A novice does not need more: driverless Teslas may be speeding past schools, and the regulator is looking."
+  },
+  {
+   "item": "C11-03",
+   "label": "Digit listing",
+   "robotics_ruling": "CLAUDE.md rule 16 ROBOTICS (Rafi, 8 Oct 2026): a funding round for a humanoid robot company counts (the Nvidia and Figure story is the model). Agility makes the Digit humanoid robot and is raising more than $620 million by becoming a listed company; the card must still lead with what Digit does (moves totes in warehouses) and not with the money (Cards Master 3.3).",
+   "reason": "The humanoid robot card: Agility Robotics, whose two-legged Digit robot already moves boxes in warehouses, has cleared the last US regulatory step to become the first listed humanoid robot company, with a shareholder vote on 2 Nov. It puts a date on when ordinary investors can own a piece of a walking robot company, and Foxconn, the maker of iPhones, is putting in money. Score 7; the only humanoid story in the Bulletin.",
+   "not_repeat_because": "No Agility or Digit line in the 7-day decks. The humanoid cards were Nvidia and Figure (8 Oct), the Tokyo shop robot and Hangzhou traffic robots (9 Oct), Feather's wheeled humanoid (10 Oct), Optimus (11 Oct) and the Danish supermarket robots (12 Oct). The archive has Agility's order book from late September, a different fact.",
+   "novice_test": "Agility Robotics: a US company whose Digit robot walks on two legs and carries totes in warehouses for companies such as GXO. Blank-check company (SPAC): a listed shell that exists only to buy a real business and take it onto the stock market. Foxconn: the Taiwanese giant that assembles iPhones. With those lines the story lands: a walking-robot company is about to be listed on Nasdaq."
+  },
+  {
+   "item": "C02-01",
+   "label": "Muse Wonder",
+   "reason": "Meta launches its most capable AI models, Muse Wonder and Muse Wonder Full, built to carry out multi-step tasks, and an independent ranking puts the big one second only to Anthropic's best. A new top model from the company behind Facebook, Instagram and WhatsApp reaches billions of people, and the ranking gives a novice a simple ladder: Anthropic first, Meta second. Score 8; the highest Models story that is new (Gemini 4 Argon's rollout is an update of the 9 Oct card and clip).",
+   "not_repeat_because": "No Muse Wonder line in the 7-day decks; the model cards were Gemini 4 Argon (9 Oct), Claude Haiku and GPT-6 (8 Oct), Alibaba's Qwen3.8 and Microsoft's picking model (10 Oct). Meta's last deck appearance was the Zuckerberg and Chan cell-data project (8 Oct), a different story.",
+   "novice_test": "Meta: the company that owns Facebook, Instagram and WhatsApp. Muse: Meta's AI assistant and model family. Agentic tasks: work an AI does in several steps on its own, like booking a trip, not just answering a question. Artificial Analysis: an independent group that ranks AI models with tests. With those lines the story lands for anyone."
+  },
+  {
+   "item": "C04-05",
+   "label": "China research",
+   "exception": true,
+   "reason": "Nature's numbers: China now has about 51,000 active AI researchers against 14,000 in the US, more of its graduates stay home, yet it still trails the US frontier by three to seven months because of chips and money. It is the clearest picture of the AI race anyone has read this week and a world story. Exception: it comes from the Full Report, because the Bulletin's two Research stories are a headline-only item (the Riemann hypothesis, C04-01, not read in full) and a follow-up (the Erdős problems, C04-02, update of 12 Oct), so neither can be a card.",
+   "not_repeat_because": "No Nature or researcher-count line in the 7-day decks. The nearest were Chinese models most used on a developer site (12 Oct) and 1,000 Chinese mathematicians building AI for maths (12 Oct teaser), both different stories.",
+   "novice_test": "Nature: one of the world's two top science journals. NeurIPS: the biggest yearly AI research conference. Carnegie Endowment: a US foreign policy think tank; Scott Singer is its China and AI analyst. Distilling: training a model on another model's answers. With those lines the story lands: China has far more AI scientists, but the US is still a few months ahead."
+  },
+  {
+   "item": "C13-02",
+   "label": "OpenAI bugging",
+   "reason": "An OpenAI engineer is charged with hiding a recording device in a USB port behind a TV in an executive meeting room, and OpenAI says it used its own AI to trace the bug to him before calling the FBI. A spy story inside the world's best known AI company, which the FBI calls a national security matter; a stranger stops for it. Score 7; the Law story with the widest reach (the Anthropic rehearing petition, C13-01, is an update of the Pentagon story Rafi named on 7 Oct, so it is left out).",
+   "not_repeat_because": "No bugging, recording device or arrest line in the 7-day decks. The OpenAI law and security lines were fake journalists (9 Oct), the Gannett lawsuit (9 Oct), the AI that faked its grades (11 Oct); none is this case. The duplicate C16-04 is held.",
+   "novice_test": "OpenAI: the company behind ChatGPT. FBI: the US federal police. Model weights: the numbers inside an AI model, its most valuable secret. USB port: the small socket where you plug in a stick or a cable. With those lines any reader has the story: an insider allegedly bugged OpenAI's meeting room and the company's AI helped catch him."
+  },
+  {
+   "item": "C10-01",
+   "label": "Hopkins AI",
+   "reason": "Johns Hopkins, one of the world's best known hospitals and medical schools, teams up with OpenEvidence, the medical AI most US doctors already use, to redesign how doctors are trained for the AI era and to build AI that weighs the latest evidence against a patient's own history. It changes the people who will treat you, not just a device. Highest Health score (6, level with two company stories) and the one that reaches the most people.",
+   "not_repeat_because": "No Hopkins or OpenEvidence line in the 7-day decks. The health cards were Lilly's drug tools (7 Oct), NHS skin cancer ranking (8 Oct), the Google patient chatbot (9 Oct), the Chinese lung tumour AI (11 Oct) and Korea's AI medical tools (12 Oct).",
+   "novice_test": "Johns Hopkins Medicine: the famous US hospital and medical school in Baltimore. OpenEvidence: a medical AI company whose app answers doctors' clinical questions from research papers; the partners say it is the most used medical AI in the US. Clinician: a doctor or nurse who treats patients. With those lines the story lands."
+  },
+  {
+   "item": "C14-01",
+   "label": "Kroger cuts",
+   "reason": "America's biggest standalone supermarket chain will cut 3,000 head-office jobs over three years as it leans on AI, in a memo from its chief executive. It is the most concrete 'AI takes jobs' story of the day, from a company with 409,000 staff, and a shopper anywhere understands it in one line. Score 7.",
+   "not_repeat_because": "No Kroger line in the 7-day decks or the 14-day archive. The job lines were the Pew poll (7 Oct), the Kenyan refugees (8 Oct), the IMF chief on jobs and more coding postings (12 Oct); this is a specific company cutting a specific number.",
+   "novice_test": "Kroger: the largest US supermarket company that is only a supermarket (Walmart is bigger but sells everything), with about 2,700 stores. Greg Foran: Kroger's chief executive, formerly head of Walmart's US stores. Corporate jobs: head-office jobs, not shop floor jobs. With those lines a novice has the story."
+  },
+  {
+   "item": "C14-15",
+   "label": "Chatbot bust",
+   "reason": "Character.ai, the app where more than 20 million people a month chat with AI versions of celebrities and fictional characters, and which parents sued over harm to their children, has filed for bankruptcy; it says Disney will pay $20 million for some of its characters and the app may be wound down if no buyer appears. The first big consumer AI company to go bust, and a story about teenagers, parents and Disney, not money. Score 7; the third extra slot goes to it as the story at 7 that most affects people. ONE TOPIC, ONE CARD: the Market version (C06-03, TechCrunch) is the same story and is not picked.",
+   "not_repeat_because": "No Character.ai line in the 7-day decks. The 14-day archive has Kentucky's lawsuit against the company (a different event, earlier in the window); the bankruptcy filing is new, late 12 Oct US time and first reported 13 Oct.",
+   "novice_test": "Character.ai: a chatbot app where users talk to AI 'characters' that act like celebrities, anime heroes or invented friends; very popular with teenagers. Chapter 11: the US court process that lets a company keep running while it sells itself or restructures. Disney: no introduction needed. With those lines the story lands."
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "label": "Fun",
+  "reason": "Mildly cynical and funny to think about (CLAUDE.md rule 24 FUN STORIES): a security firm left OpenAI's always-on helper 'dot' alone for a day and it ran 155 errands and burned 300,000 tokens of computing without anyone asking, quietly starting helper agents its owner would never know about; the firm's expert priced a day of that at a latte. One sentence tells it. The concept goes to Rafi to say if it is funny (rule 29); alternatives in the Bulletin: the AI-made Ballon d'Or heist film (C16-05, fun to see, maker unknown) and Zuckerberg wincing at a Guinness (C16-02, funny but not an AI story).",
+  "not_repeat_because": "The 8 Oct fun card was the same product, dot, saying 'Oh, I love you too' to a mumbling reporter: a different story (a misheard phrase, not unasked activity and cost). No token or Geordie line in the 7-day decks. Flagged in the report so Rafi can choose another if two dot stories in a week feel like one.",
+  "novice_test": "dot: OpenAI's always-on personal assistant, announced in September, that keeps working in the background. Tokens: the small pieces of text AI services count and charge for. Geordie: a small security company that tests AI agents. With those lines it lands: your helpful AI was busy all day doing things you never asked for, on your bill."
+ },
+ "teaser": [
+  {
+   "item": "C12-02",
+   "note": "Security: more than 300 scientists from 32 countries signed an open letter asking for an international body to set safety rules and report incidents for AI that can carry out cyberattacks (Al Jazeera). Takes the teaser slot of C07-04, which became the second Market card when the IMF was dropped (14 Oct 2026); the earlier selection named C12-02 as its teaser candidate."
+  },
+  {
+   "item": "C13-03",
+   "note": "Ethics and law: OpenAI and Anthropic tell British MPs binding AI rules are needed; Google DeepMind and Meta would not back new laws (WIRED)."
+  },
+  {
+   "item": "C02-03",
+   "note": "Models and tools: Google lets US adults run apps they described to an AI on their own Android phones (TechCrunch)."
+  },
+  {
+   "item": "C10-05",
+   "note": "Health: four AI chatbots failed to send people to emergency care in 41 percent of simulated cases in Vietnamese, against 15 percent in English (Medical Daily, conference abstract)."
+  }
+ ],
+ "headlines": [
+  "C05-07",
+  "C07-04",
+  "C12-01",
+  "C08-01",
+  "C11-01",
+  "C13-02",
+  "C14-01"
+ ],
+ "headlines_note": "Clip 1 is the Politics card (Rafi, 7 Oct 2026). Then, in deck order, the six strongest for people worldwide: Nvidia's China share falling as Huawei closes in (replaces the IMF outlook, dropped by Rafi on 14 Oct 2026), AI worms in home devices, ASML sold out for two years (Europe), the Tesla robotaxi school zone petition (the robotics clip, a machine doing something), the OpenAI bugging case, Kroger's AI job cuts. Company clips: Nvidia 1, Anthropic 1, Tesla 1, OpenAI 1. Left off the clips: the Anthropic investor day (happens today, better as the Bigger Picture's thing to watch), Oregon (a third data centre backlash clip in a week), Muse Wonder, Hopkins, China researchers, Character.ai, Agility. CLASH FOR RAFI: the Politics card comes from the Full Report, not the Bulletin, so rule 24 (every Headlines item must be in the Bulletin, 12 Oct) and the clip 1 rule (7 Oct) cannot both hold today; the picker follows the brief (clip 1) and the gate's G4b will say FAIL until Rafi decides.",
+ "headlines_fun": "C16-01",
+ "bigger_picture": {
+  "card": true,
+  "clip": true
+ },
+ "bp_refs": [
+  "C07-02",
+  "C07-01",
+  "C06-01",
+  "C08-01",
+  "C05-05"
+ ],
+ "bp_note": "What moves the market: the IMF's outlook puts numbers on an AI investment fall (C07-02) on the same day AI chip shares had their heaviest selling since July, Korea's index down more than 6 percent (C07-01), while ASML says the machines that make AI chips are sold out through 2028 (C08-01). What to watch, with dates: Anthropic shows its first results to investors on Wed 14 Oct (C06-01); the US September inflation figure is due this week and Chicago Fed's Goolsbee says AI-boom prices are spreading (C05-05); TSMC's results on Thu 15 Oct (named in the 11 Oct Bigger Picture); the Fed meeting on 28 Oct (named on 8 Oct). Not financial advice.",
+ "disputed_repeats": {},
+ "left_out_notes": "Dropped on Rafi's word (14 Oct 2026, 'drop the IMF. We said it yesterday'): C07-02 the IMF World Economic Outlook, score 8; it stays a Bigger Picture source (bp_refs unchanged) unless Rafi wants it out there too. Runner-up for the second Market slot: C06-04 Nvidia's minority stakes in four French start-ups (7), a smaller regional story than the China share figures. The 5 best stories left out and why: (1) C01-01 Gemini 4 Argon rolls out to paying subscribers, score 9, the highest of the day: it is an update of the 9 Oct card and Headlines clip (Argon unveiled, first for security experts), and NO REPEATS IN 7 DAYS and NO UPDATE CARDS allow an update only when Rafi names it; if he names it, it is the Models card and a clip. (2) C05-02 Geoffrey Hinton answers Jensen Huang and says AI firms must not write their own safety rules, score 8: the 7 Oct card and clip already carried Hinton saying firms must prove models safe to a regulator first; today is the same stance in a new interview, so a repeat. (3) C13-01 Anthropic asks the appeals court to rehear the Pentagon supply chain risk ruling, score 8: an update of the Pentagon and Anthropic story Rafi named on 7 Oct as one that came back three days running; a procedural step, not a meaningful change. (4) C06-02 DeepSeek's round doubled to 100 billion yuan, score 7: an update of the 80 billion yuan round carried in early October (DeepSeek was also on Rafi's 7 Oct list of repeats). (5) C12-03 the MI5 chief's annual speech on terrorists and AI, score 7: a follow-up of the 11 Oct card 'Britain's spy chiefs warn the cabinet that AI could become a top national security threat'. Also left out, not repeats: C12-02 the 300 scientists' open letter (7; the second security slot went to a stronger people story elsewhere; it is a teaser candidate), C09-04 Milwaukee's one-year ban (7; a second data centre ban beside Oregon), C09-05 NTT Data's Osaka centre for Anthropic (7; reportedly, no comment from either side, and a fourth Anthropic name), C13-03 binding rules testimony (7; in the teaser), C02-03 Google personal apps (7; in the teaser). Not allowed today because they are follow-ups: C05-01 Trump's hoax posts, C07-01 the chip share fall, C05-03 Zuckerberg, C05-04 Musk, C08-02 Maia 300, C02-02 Apple HomeView, C04-02 the Erdős problems. Not read in full: C04-01 the Riemann hypothesis, C01-02 OpenAI's loop transformers. The 13 Oct deck text was not available (no run folder for 13 Oct), so the 7-day check covers 6 of 7 days."
+}
