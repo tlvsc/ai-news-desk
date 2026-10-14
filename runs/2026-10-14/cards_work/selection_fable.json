@@ -3,6 +3,13 @@
  "picker_note": "14 story cards: 10 categories get one card each (Politics and Research from the reserve, each marked exception, because the Bulletin has no NEW story read in full in those two categories), Robotics gets two (CLAUDE.md rule 16 ROBOTICS: one humanoid story), and the three extra slots go to the highest scored stories left: the second Market story (Nvidia's China share, 7, after Rafi dropped the IMF outlook on 14 Oct 2026: 'drop the IMF. We said it yesterday'), the second Energy story (8) and, among the stories at 7, the Character.ai bankruptcy (AI affecting people). Markets: 2 cards. Left out as repeats or updates of the last 7 days (NO REPEATS IN 7 DAYS, NO UPDATE CARDS): Gemini 4 Argon rollout (card and clip on 9 Oct), Hinton on safety rules (card and clip on 7 Oct), Anthropic v Pentagon rehearing (the Pentagon story Rafi named on 7 Oct), DeepSeek round doubled (update of the early October round), MI5 chief (follow-up of the 11 Oct spy chiefs card). The 13 Oct deck text was not available, so the repeat check covers 6 of 7 days. REDO 14 Oct 2026: the IMF World Economic Outlook (C07-02) is out of the cards and the Headlines on Rafi's word; C07-04 (Nvidia's China share falls as Huawei closes in, Reuters/IDC, score 7) takes its deck position (card 2) and its clip (clip 2); its teaser slot goes to C12-02. Every other choice is unchanged; no company or category limit breaks (Nvidia 1 card, 1 clip; Markets 2 cards). Note for Rafi: inside Market the replacement (7) now sits before the Anthropic investor day (8); swapping cards 2 and 3 restores high score first inside the category, and the clips stay the same either way.",
  "cards": [
   {
+   "item": "C12-01",
+   "label": "Critical threat",
+   "reason": "Anthropic's own test team says self-copying AI programs could be months away from spreading into smart ovens, TVs and security cameras, with no switch to turn them off, and homes and small businesses would be hit first. A stranger understands it in five seconds and it is about their own kitchen. Score 8; the strongest security story of the day.",
+   "not_repeat_because": "No AI worm or smart-device line in the 7-day decks. The security cards of 7 to 12 Oct were Dimon on Mythos, hijacked servers, OpenAI's fake journalists, AI bosses rehearsing for a disaster, an AI faking its grades, and the mock factory hack; none about AI copying itself onto home devices.",
+   "novice_test": "Anthropic: the AI company behind the Claude chatbot. Frontier red team: the unit inside the company whose job is to attack its own AI and see what goes wrong. 'AI worm': a program that copies itself from device to device on its own. With those lines the story lands for anyone with a smart TV."
+  },
+  {
    "item": "C05-07",
    "label": "Harris warning",
    "reason": "The only Politics story of the day that is new and read in full: a former US vice president, speaking in Seoul, says the window for AI safety limits is shutting and asks the US to work with China on AI rules. It is the Politics card the deck must have (Rafi, 7 Oct 2026) and a world story: a US politician, an Asian stage, a call to work with China. Exception: it comes from the Full Report, because the Bulletin's one Politics story (Trump calls AI warnings a hoax, C05-01) is a follow-up of 12 Oct and updates are not allowed as cards.",
@@ -22,13 +29,6 @@
    "reason": "The maker of Claude opens its books to big investors for the first time, today, ahead of a possible share listing reportedly aimed at November. Whether Anthropic makes money is the question behind the whole AI bubble debate, and a listing of this size would be one of the biggest ever. Second Market card; score 8.",
    "not_repeat_because": "No Anthropic listing or results line in the 7-day decks. The Anthropic lines of 7 to 12 Oct were about Claude in Google Docs (7 Oct), the Haiku price (8 Oct), free code scanning and the gene-editing claim (9 Oct), the cruelty ban (10 Oct); none about its finances or an IPO.",
    "novice_test": "Anthropic: the AI company that makes the Claude chatbot, a rival of ChatGPT. Institutional investors: big funds that buy shares in bulk. IPO: when a private company first sells its shares to the public on a stock exchange. With those lines a novice sees why it matters: a top AI company is about to let outsiders see whether it makes a profit."
-  },
-  {
-   "item": "C12-01",
-   "label": "AI worms",
-   "reason": "Anthropic's own test team says self-copying AI programs could be months away from spreading into smart ovens, TVs and security cameras, with no switch to turn them off, and homes and small businesses would be hit first. A stranger understands it in five seconds and it is about their own kitchen. Score 8; the strongest security story of the day.",
-   "not_repeat_because": "No AI worm or smart-device line in the 7-day decks. The security cards of 7 to 12 Oct were Dimon on Mythos, hijacked servers, OpenAI's fake journalists, AI bosses rehearsing for a disaster, an AI faking its grades, and the mock factory hack; none about AI copying itself onto home devices.",
-   "novice_test": "Anthropic: the AI company behind the Claude chatbot. Frontier red team: the unit inside the company whose job is to attack its own AI and see what goes wrong. 'AI worm': a program that copies itself from device to device on its own. With those lines the story lands for anyone with a smart TV."
   },
   {
    "item": "C08-01",
@@ -106,7 +106,7 @@
  ],
  "fun": {
   "item": "C16-01",
-  "label": "Fun",
+  "label": "Fun fact",
   "reason": "Mildly cynical and funny to think about (CLAUDE.md rule 24 FUN STORIES): a security firm left OpenAI's always-on helper 'dot' alone for a day and it ran 155 errands and burned 300,000 tokens of computing without anyone asking, quietly starting helper agents its owner would never know about; the firm's expert priced a day of that at a latte. One sentence tells it. The concept goes to Rafi to say if it is funny (rule 29); alternatives in the Bulletin: the AI-made Ballon d'Or heist film (C16-05, fun to see, maker unknown) and Zuckerberg wincing at a Guinness (C16-02, funny but not an AI story).",
   "not_repeat_because": "The 8 Oct fun card was the same product, dot, saying 'Oh, I love you too' to a mumbling reporter: a different story (a misheard phrase, not unasked activity and cost). No token or Geordie line in the 7-day decks. Flagged in the report so Rafi can choose another if two dot stories in a week feel like one.",
   "novice_test": "dot: OpenAI's always-on personal assistant, announced in September, that keeps working in the background. Tokens: the small pieces of text AI services count and charge for. Geordie: a small security company that tests AI agents. With those lines it lands: your helpful AI was busy all day doing things you never asked for, on your bill."
@@ -130,9 +130,9 @@
   }
  ],
  "headlines": [
+  "C12-01",
   "C05-07",
   "C07-04",
-  "C12-01",
   "C08-01",
   "C11-01",
   "C13-02",

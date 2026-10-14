@@ -3,16 +3,16 @@
  "note": "chosen by the Fable picker and passed the gate (pick_gate.py); selection_fable.json holds the reasons",
  "cards_in_deck_order": [
   {
-   "card": "s4",
+   "card": "s1",
    "item": "C12-01",
    "category": "Security and cyber",
    "label": "Critical threat",
    "type": "NEW",
    "fresh": "NEW",
-   "score": 8
+   "score": 10
   },
   {
-   "card": "s1",
+   "card": "s2",
    "item": "C05-07",
    "category": "Politics and government",
    "label": "Harris warning",
@@ -21,7 +21,7 @@
    "score": 6
   },
   {
-   "card": "s2",
+   "card": "s3",
    "item": "C07-04",
    "category": "Market, industry and finance",
    "label": "Nvidia China",
@@ -30,7 +30,7 @@
    "score": 7
   },
   {
-   "card": "s3",
+   "card": "s4",
    "item": "C06-01",
    "category": "Market, industry and finance",
    "label": "Investor day",
