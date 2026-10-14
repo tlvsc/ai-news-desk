@@ -49,7 +49,7 @@ helpers run, a lean main chat (never read the lessons file, a pack or a rules fi
 3. If missing: the approved cover base cards_13-9-26_I01_VL1_presenter_preview.png (Drive
    1sizbDjBLJB_7K-3uRzZ4S_xI2zpCjdIs, 1,219,821 bytes) into `<scratchpad>/cards_pkg/drive_refs/`.
 4. The Headlines template is in the skill: `$B/assets/Aind_headlines_comfy_template_13slots.json` (13 slots, the
-   29 Sep reference pair, Spectrum on; md5 bbbed6ed8496ee80f04288468f597aa5). The voice sample is NOT needed here:
+   29 Sep reference pair, Spectrum on; md5 235ede6a86c66fc1d38d7614f079d548). The voice sample is NOT needed here:
    the JSON only names AIND_anchor_voice_sample_4s.wav, which Rafi keeps in ComfyUI/input on his PC.
 
 ### 0b. A fun clip Rafi named from an earlier day (CLAUDE.md rule 23)

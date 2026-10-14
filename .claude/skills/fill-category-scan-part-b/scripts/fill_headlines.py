@@ -132,7 +132,7 @@ def main():
     assert wf['links'] == orig['links'] and len(wf['nodes']) == len(orig['nodes']), 'Topology changed'
     assert nodes[11]['widgets_values'][1] == nodes[11]['widgets_values_named']['steps'] == 8
     assert nodes[8]['widgets_values'][0] == nodes[8]['widgets_values_named']['audio'] == AUDIO
-    assert (nodes[6]['widgets_values'][0], nodes[7]['widgets_values'][0]) == ('AIND_codex_frame_hologram_matched_4K_6_final_preview_v6.png', 'AIND_Comfy_reference_3_2160x3840_smile_v4.png'), 'Reference images are not the 29 Sep pair (1 = final_preview_v6, 2 = smile_v4)'
+    assert (nodes[6]['widgets_values'][0], nodes[7]['widgets_values'][0]) == ('AIND_Comfy_reference_3_2160x3840_smile_v4.png', 'AIND_codex_frame_hologram_matched_4K_6_final_preview_v6.png'), 'Reference images are not the pair of 14 Oct 2026 (1 = smile_v4, 2 = final_preview_v6; was the other way round to 14 Oct): (smile_v4)'
     links = {l[0]: l for l in wf['links']}
     spectrum_node = next(n for n in wf['nodes'] if n['type'] == 'SpectrumApplyMiniMaxH3')
     assert spectrum_node['mode'] == 0 and spectrum_node['widgets_values'][0] is True
