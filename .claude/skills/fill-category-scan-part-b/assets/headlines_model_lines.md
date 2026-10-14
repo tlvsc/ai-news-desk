@@ -13,7 +13,7 @@ The why comes from the article and is one of four:
 4. the likely effect, said carefully: "which could ...", "a sign that ..."
 The why is about whoever the story is about: a company story gets the company's why, a people story gets the people's why.
 If nothing adds weight, end after the action, or add the one fact that is the punch ("and ...").
-Spoken spelling stays: A I spaced, N-vidia and an-thropic cues, numbers as words.
+Spoken spelling stays: A I spaced, N-vidia and anthro-pic cues, numbers as words.
 
 ## The level (Rafi, 12 Oct 2026: "yesterday headlines level were perfect ... we will keep those settings as our constant")
 Measured on the ten approved 11 Oct lines (mine, not Rafi's words; the lines are the truth, these numbers only describe them):

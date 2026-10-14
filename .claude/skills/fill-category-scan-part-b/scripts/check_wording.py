@@ -21,7 +21,7 @@ BANNED = re.compile(r'\b(materially|signals|exposure|ecosystem|headwinds|executi
                     r'leverage)\b', re.I)
 spec = importlib.util.spec_from_file_location('fill', Path(__file__).with_name('fill_headlines.py'))
 fill = importlib.util.module_from_spec(spec); spec.loader.exec_module(fill)
-CUES = {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic', 'Kawa saki': 'Kawasaki'}
+CUES = {'N-vidia': 'Nvidia', 'anthro-pic': 'Anthropic', 'Kawa saki': 'Kawasaki'}
 REPLY = re.compile(r"\b(repl(y|ies|ied)|in response to|responded to|reaction to|reacted to|jab|hits? back|hit back|rebut\w*|"
                    r"answer(s|ed)? (to|a|an|the)|criticis\w+|criticiz\w+|swipe|dig at)\b", re.I)
 SAYS_REPLY = re.compile(r"\b(repl(y|ies|ied)|answer\w*|response|responded|reaction|react\w*|hit back|hits back|rebut\w*)\b", re.I)

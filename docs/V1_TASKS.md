@@ -279,7 +279,7 @@ D2. Writing: every story at level 5, who did what and why it matters in everyday
     record amount of new shares this summer, mostly in AI companies. But rising loan costs are making them more careful."
     Robinson -> "A safety expert quit OpenAI. He says the company does not take safety seriously enough, and wants AI
     checked as strictly as airplanes."
-D3. Hard names as spoken: "N-vidia", "an-thropic", "Kawa saki" (one gap; "Ka-wa-sa-ki" came out "Kavanua Saki").
+D3. Hard names as spoken: "N-vidia", "anthro-pic" (changed 14 Oct 2026, Rafi: an-thropic is pronounced wrong), "Kawa saki" (one gap; "Ka-wa-sa-ki" came out "Kavanua Saki").
 D4. No colon after "Also in the full report": use a period (the colon caused gibberish at the start of C10 three days running).
 D5. Generation: 8 steps. The 4 second voice reference that exists is AIND_anchor_voice_sample_4s.wav (3.82 s), or the 8 s
     mp3 trimmed at 0.24 s for 3.82 s; the JSONs name "_4s.mp3", which does not exist on the PC. Voice description calm and

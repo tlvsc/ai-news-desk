@@ -65,7 +65,7 @@ if pk:
         'unless Rafi asked for new options (CLAUDE.md 16)', 'WARN')
     if re.search(r'\d', op.get('script', '')): out('B3', False, 'digits in the opening line: ' + op.get('script', '')[:60], 'WARN')
 for k, s, kind in clips:
-    syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'an-thropic': 'Anthropic', 'Kawa saki': 'Kawasaki'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
+    syl = fill.syllables(s, {'N-vidia': 'Nvidia', 'anthro-pic': 'Anthropic', 'Kawa saki': 'Kawasaki'}); box, _ = fill.box_seconds(syl, 4.4, 0, 0)
     aim = {'story': 9.0, 'fun': 8.5, 'teaser': 8.5, 'bp': 10.5}[kind]
     out('B1', box <= 12, f'{k} {box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026)') if box > 12 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
     if kind in ('story', 'fun'):
@@ -73,7 +73,7 @@ for k, s, kind in clips:
     if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')
     if kind == 'bp': out('B2a', s.startswith('And for the bigger picture'), 'Bigger Picture opens with "And for the bigger picture"')
     out('B3', not re.search(r'\d', s), f'{k} has no digits')
-    if re.search(r'\bAnthropic\b', s): out('15Sep1', False, f'{k}: write Anthropic as "an-thropic" in speech')
+    if re.search(r'\bAnthropic\b', s): out('15Sep1', False, f'{k}: write Anthropic as "anthro-pic" in speech')
     if re.search(r'\bNvidia\b|\bNVIDIA\b', s): out('15Sep1', False, f'{k}: write Nvidia as "N-vidia" in speech')
     if re.search(r'(?<!Google )DeepMind', s): out('15Sep2', False, f'{k}: say "Google DeepMind"')
     src = entry(W, k).get('source', '') if kind == 'story' else ''
@@ -91,7 +91,7 @@ else:
 cnt = {}
 for k, s, kind in clips[:7]:
     for c in BIG:
-        if re.search(r'\b' + re.escape(c) + r'\b', s.replace('an-thropic', 'Anthropic')): cnt[c] = cnt.get(c, 0) + 1
+        if re.search(r'\b' + re.escape(c) + r'\b', s.replace('anthro-pic', 'Anthropic')): cnt[c] = cnt.get(c, 0) + 1
 over = {c: n for c, n in cnt.items() if n > 2}
 out('C16', not over, f'one company at most 2 story clips: {cnt}')
 names = sorted({m for k, s, kind in clips for m in re.findall(r"\b[A-Z][a-zA-Z]+(?: [A-Z][a-zA-Z]+)*", s)
