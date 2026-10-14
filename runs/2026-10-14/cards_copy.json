@@ -7,7 +7,7 @@
    "kind": "cover"
   },
   {
-   "id": "s4",
+   "id": "s1",
    "kind": "story",
    "item": "C12-01",
    "cat": "Security and cyber / Critical threat",
@@ -15,20 +15,6 @@
    "body": "Anthropic's testers say these self-copying programs may be months away and hard to switch off. Homes and small firms would likely be hit first; no such attack has happened yet.",
    "src": "The Guardian",
    "pill": "CONFIRMED",
-   "coverage": {
-    "robotics": false,
-    "outside_business": true
-   }
-  },
-  {
-   "id": "s1",
-   "kind": "story",
-   "item": "C05-07",
-   "cat": "Politics and government / Harris warning",
-   "head": "Ex-US vice president Kamala Harris warned in Seoul that time for AI limits is short.",
-   "body": "Harris named hacking, AI weapons and AI escaping control, and urged US talks with China. She holds no office, and is still deciding whether to run for president in 2028.",
-   "src": "Reuters",
-   "pill": "REPORTED",
    "coverage": {
     "robotics": false,
     "outside_business": true
@@ -63,7 +49,7 @@
    }
   },
   {
-   "id": "s5",
+   "id": "s4",
    "kind": "story",
    "item": "C08-01",
    "cat": "Energy and infrastructure / ASML sold out",
@@ -77,7 +63,7 @@
    }
   },
   {
-   "id": "s6",
+   "id": "s5",
    "kind": "story",
    "item": "C09-01",
    "cat": "Energy and infrastructure / Oregon pause",
@@ -91,7 +77,7 @@
    }
   },
   {
-   "id": "s7",
+   "id": "s6",
    "kind": "story",
    "item": "C11-01",
    "cat": "Robotics / Robotaxi speed",
@@ -105,7 +91,7 @@
    }
   },
   {
-   "id": "s8",
+   "id": "s7",
    "kind": "story",
    "item": "C11-03",
    "cat": "Robotics / Digit listing",
@@ -119,13 +105,27 @@
    }
   },
   {
-   "id": "s9",
+   "id": "s8",
    "kind": "story",
    "item": "C02-01",
    "cat": "Models and tools / Muse Wonder",
    "head": "Meta launched Muse Wonder, AI models an independent ranking puts near the very top.",
    "body": "Ranking group Artificial Analysis puts the larger one second, after AI firm Anthropic's model. Developers can use Muse Wonder now; its safety report and paid app version come later.",
    "src": "Mashable",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C02-03",
+   "cat": "Models and tools / Build your app",
+   "head": "Google now lets US adults run apps they made with AI on their Android phones.",
+   "body": "People describe an app to Google AI Studio, which builds it, then run it privately. The apps stay out of public listings and must still follow Google Play's rules.",
+   "src": "TechCrunch",
    "pill": "CONFIRMED",
    "coverage": {
     "robotics": false,
@@ -234,15 +234,15 @@
     },
     {
      "id": "t3",
-     "item": "C02-03",
-     "cat": "Models and tools",
-     "head": "Google now lets US adults run apps they built with AI on their own Android phones."
-    },
-    {
-     "id": "t4",
      "item": "C10-05",
      "cat": "Health",
      "head": "Chatbots missed emergencies far more in Vietnamese than in English in a simulated test."
+    },
+    {
+     "id": "t4",
+     "item": "C05-07",
+     "cat": "Politics and government",
+     "head": "Ex-US vice president Kamala Harris warned that time for AI safety limits is running out."
     }
    ]
   },

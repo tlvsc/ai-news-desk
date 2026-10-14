@@ -2,9 +2,9 @@
  "stories": [
   {
    "card": "s1",
-   "item": "C05-07",
-   "head": "Ex-US vice president Kamala Harris warned in Seoul that time for AI limits is short.",
-   "body": "Harris named hacking, AI weapons and AI escaping control, and urged US talks with China. She holds no office, and is still deciding whether to run for president in 2028."
+   "item": "C12-01",
+   "head": "Critical cyber threat: AI firm Anthropic warns AI worms may soon reach smart TVs.",
+   "body": "Anthropic's testers say these self-copying programs may be months away and hard to switch off. Homes and small firms would likely be hit first; no such attack has happened yet."
   },
   {
    "card": "s2",
@@ -20,39 +20,39 @@
   },
   {
    "card": "s4",
-   "item": "C12-01",
-   "head": "Critical cyber threat: AI firm Anthropic warns AI worms may soon reach smart TVs.",
-   "body": "Anthropic's testers say these self-copying programs may be months away and hard to switch off. Homes and small firms would likely be hit first; no such attack has happened yet."
-  },
-  {
-   "card": "s5",
    "item": "C08-01",
    "head": "ASML, the Dutch maker of chip-printing machines, cannot fully meet AI demand to 2028.",
    "body": "Customers already discuss orders for 2029, says ASML chief executive Christophe Fouquet. If ASML is right, the machines stay scarce and AI services could stay costly."
   },
   {
-   "card": "s6",
+   "card": "s5",
    "item": "C09-01",
    "head": "Oregon's governor halted pollution permits for new data centres until mid-2027.",
    "body": "Governor Tina Kotek's letter would pause most large data centre building in the state. Amazon warned of lost jobs, and the pause rests on a letter, not a law."
   },
   {
-   "card": "s7",
+   "card": "s6",
    "item": "C11-01",
    "head": "US safety officials weigh a claim that Tesla's robotaxis speed in school zones.",
    "body": "An unnamed petitioner says the driverless cars break speed limits while school zones are active. If true, children near schools are at risk, but nothing has been proven yet."
   },
   {
-   "card": "s8",
+   "card": "s7",
    "item": "C11-03",
    "head": "Digit robot maker Agility Robotics cleared a US step toward a stock market listing.",
    "body": "Owners of a listed shell firm will vote on 2 November on merging with Agility. Agility says it would be the only listed US firm solely making working humanoid robots."
   },
   {
-   "card": "s9",
+   "card": "s8",
    "item": "C02-01",
    "head": "Meta launched Muse Wonder, AI models an independent ranking puts near the very top.",
    "body": "Ranking group Artificial Analysis puts the larger one second, after AI firm Anthropic's model. Developers can use Muse Wonder now; its safety report and paid app version come later."
+  },
+  {
+   "card": "s9",
+   "item": "C02-03",
+   "head": "Google now lets US adults run apps they made with AI on their Android phones.",
+   "body": "People describe an app to Google AI Studio, which builds it, then run it privately. The apps stay out of public listings and must still follow Google Play's rules."
   },
   {
    "card": "s10",
@@ -105,13 +105,13 @@
   },
   {
    "id": "t3",
-   "item": "C02-03",
-   "head": "Google now lets US adults run apps they built with AI on their own Android phones."
+   "item": "C10-05",
+   "head": "Chatbots missed emergencies far more in Vietnamese than in English in a simulated test."
   },
   {
    "id": "t4",
-   "item": "C10-05",
-   "head": "Chatbots missed emergencies far more in Vietnamese than in English in a simulated test."
+   "item": "C05-07",
+   "head": "Ex-US vice president Kamala Harris warned that time for AI safety limits is running out."
   }
  ],
  "bp": {

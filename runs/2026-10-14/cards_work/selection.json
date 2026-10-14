@@ -13,15 +13,6 @@
   },
   {
    "card": "s2",
-   "item": "C05-07",
-   "category": "Politics and government",
-   "label": "Harris warning",
-   "type": "NEW",
-   "fresh": "NEW",
-   "score": 6
-  },
-  {
-   "card": "s3",
    "item": "C07-04",
    "category": "Market, industry and finance",
    "label": "Nvidia China",
@@ -30,7 +21,7 @@
    "score": 7
   },
   {
-   "card": "s4",
+   "card": "s3",
    "item": "C06-01",
    "category": "Market, industry and finance",
    "label": "Investor day",
@@ -39,7 +30,7 @@
    "score": 8
   },
   {
-   "card": "s5",
+   "card": "s4",
    "item": "C08-01",
    "category": "Energy and infrastructure",
    "label": "ASML sold out",
@@ -48,7 +39,7 @@
    "score": 8
   },
   {
-   "card": "s6",
+   "card": "s5",
    "item": "C09-01",
    "category": "Energy and infrastructure",
    "label": "Oregon pause",
@@ -57,7 +48,7 @@
    "score": 8
   },
   {
-   "card": "s7",
+   "card": "s6",
    "item": "C11-01",
    "category": "Robotics",
    "label": "Robotaxi speed",
@@ -66,7 +57,7 @@
    "score": 7
   },
   {
-   "card": "s8",
+   "card": "s7",
    "item": "C11-03",
    "category": "Robotics",
    "label": "Digit listing",
@@ -75,13 +66,22 @@
    "score": 7
   },
   {
-   "card": "s9",
+   "card": "s8",
    "item": "C02-01",
    "category": "Models and tools",
    "label": "Muse Wonder",
    "type": "NEW",
    "fresh": "NEW",
    "score": 8
+  },
+  {
+   "card": "s9",
+   "item": "C02-03",
+   "category": "Models and tools",
+   "label": "Build your app",
+   "type": "NEW",
+   "fresh": "NEW",
+   "score": 7
   },
   {
    "card": "s10",
@@ -151,21 +151,21 @@
   },
   {
    "id": "t3",
-   "item": "C02-03",
-   "category": "Models and tools"
+   "item": "C10-05",
+   "category": "Health"
   },
   {
    "id": "t4",
-   "item": "C10-05",
-   "category": "Health"
+   "item": "C05-07",
+   "category": "Politics and government"
   }
  ],
  "headlines_story_clips_in_order": [
   "C12-01",
-  "C05-07",
   "C07-04",
   "C08-01",
   "C11-01",
+  "C02-03",
   "C13-02",
   "C14-01"
  ],

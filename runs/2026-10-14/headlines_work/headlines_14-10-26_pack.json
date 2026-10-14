@@ -49,23 +49,14 @@
   {
    "slot": 3,
    "kind": "story",
-   "category": "Politics",
-   "item": "C05-07",
-   "symbol": "a packed conference hall in Seoul seen from the back rows, a speaker at a distant podium under stage lights, audience silhouettes and press cameras in the foreground",
-   "script": "Next, from Seoul. Former US Vice President Kamala Harris says the window for A I safety rules is shutting, and urges America to work with China on them.",
+   "category": "Business",
+   "item": "C07-04",
+   "symbol": "close-up footage of a chip factory line in China, robotic arms placing small square processors onto green circuit boards under bright white light",
+   "script": "Next, on the chip front. N-vidia's share of China's A I chip market fell to about a third, research firm I D C estimates, as Chinese rival Huawei gains ground.",
    "source": "Reuters"
   },
   {
    "slot": 4,
-   "kind": "story",
-   "category": "Business",
-   "item": "C07-04",
-   "symbol": "close-up footage of a chip factory line in China, robotic arms placing small square processors onto green circuit boards under bright white light",
-   "script": "On the chip front. N-vidia's share of China's A I chip market fell to about a third, research firm I D C estimates, as Chinese rival Huawei gains ground.",
-   "source": "Reuters"
-  },
-  {
-   "slot": 5,
    "kind": "story",
    "category": "Infrastructure",
    "item": "C08-01",
@@ -74,13 +65,22 @@
    "source": "Reuters"
   },
   {
-   "slot": 6,
+   "slot": 5,
    "kind": "story",
    "category": "Robotics",
    "item": "C11-01",
    "symbol": "a sleek driverless taxi with no one at the wheel gliding past a school crossing with flashing amber lights, children with backpacks waiting on the pavement seen from behind",
    "script": "In driverless cars. US safety regulators are weighing a complaint that Tesla's robotaxis speed through school zones, where children are most at risk.",
    "source": "The Verge"
+  },
+  {
+   "slot": 6,
+   "kind": "story",
+   "category": "Tools",
+   "item": "C02-03",
+   "symbol": "close-up of a person's hands holding an Android phone at a kitchen table, tapping open a simple home-made app with bright coloured buttons, a laptop open in the soft background",
+   "script": "On your phone. Google now lets US adults run apps they built with A I on their own Android phones, without putting them in the public store.",
+   "source": "TechCrunch"
   },
   {
    "slot": 7,
@@ -113,9 +113,9 @@
    "slot": 10,
    "kind": "teaser",
    "category": "Teaser",
-   "item": "C12-02; C13-03",
+   "item": "C05-07; C12-02; C13-03",
    "symbol": "a grand parliamentary committee room seen from the public gallery, witnesses at a long table facing a curved row of lawmakers",
-   "script": "Also in the full report. Hundreds of scientists want a global A I safety body. OpenAI and an-thropic told British lawmakers A I rules should be binding.",
+   "script": "Also in the full report. Former US Vice President Kamala Harris urges A I limits, scientists want global A I safety rules, and OpenAI and an-thropic back binding laws.",
    "source": "AI News Desk"
   },
   {
