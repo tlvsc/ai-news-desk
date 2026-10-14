@@ -14,4 +14,4 @@ PHRASING FILE OVERRIDE (CLAUDE.md rule 22, Rafi, 11 Oct 2026; the Headlines sect
 
 EXACT FIGURES: a line that turns an exact figure in the entry into a loose phrase ("about a third" for 34%) is a fail. Give the fix with the exact figure.
 
-OPENINGS: a clip opening that names a place instead of the topic ("From the Netherlands") is a fail. Give the fix with an opening that names the topic.
+OPENINGS: a story clip must open with its own category (In finance, In security, In robotics, In tech, In the lab, In law, In health, At work, In infrastructure, In politics); a place or a made-up topic ("From the Netherlands", "In driverless cars", "On your phone") is a fail. Give the fix with the category opening. A story rated 10 may open "First, a critical ...".

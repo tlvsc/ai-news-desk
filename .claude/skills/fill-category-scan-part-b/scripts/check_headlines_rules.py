@@ -41,6 +41,23 @@ def out(rule, ok, msg, level='FAIL'):
     bad += st == 'FAIL'; res.append({'rule': rule, 'status': st, 'detail': msg}); print(f'{st:4} {rule:6} {msg}')
 
 
+# OPENINGS ARE THE STORY'S CATEGORY (Rafi, 14 Oct 2026: "In driverless cars? is this a category? On your phone?"; his list of 6 Oct: In finance,
+# In security, In robotics, In tech, In the lab). A story clip opens with its category, or "First, a critical ..." for a story rated 10.
+CAT_OPENINGS = {'POL': {'in politics', 'in government'}, 'MKT': {'in finance', 'in business', 'in the markets'},
+                'SEC': {'in security', 'in cyber security'}, 'ENE': {'in infrastructure', 'in energy', 'in data centres'},
+                'ROB': {'in robotics'}, 'MOD': {'in tech', 'in models'}, 'RES': {'in the lab', 'in science', 'in research'},
+                'LAW': {'in law', 'in the courts', 'in policy'}, 'HEA': {'in health'},
+                'SOC': {'in society', 'at work', 'in the jobs market', 'in education'}}
+ALL_CAT_OPENINGS = set().union(*CAT_OPENINGS.values())
+
+
+def category_opening_ok(item, it):
+    e = entry(W, item)
+    it = re.sub(r'^(also|next|then|and)[ ,]+', '', it).strip()
+    if int(e.get('score', 0)) >= 10 and it.startswith('first, a critical'): return True
+    return it in CAT_OPENINGS.get(e.get('v1_category', ''), set())
+
+
 def intro(s):
     m = re.match(r'\s*([^.:!?]+)[.:]', s); return (m.group(1).strip() if m else '').lower()
 
@@ -71,6 +88,8 @@ for k, s, kind in clips:
     if kind in ('story', 'fun'):
         it = intro(s); out('B2a', 0 < len(it.split()) <= 5, f'{k} opens with a spoken introduction: "{it}"')
         out('B2d', not re.search(r'\bfrom\b', it), f'{k} opening "{it}" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)')
+    if kind == 'story':
+        out('B2e', category_opening_ok(k, it), f'{k} opening "{it}" must be the story category (for example "In finance", "In robotics", "In tech"); a topic or a place is not a category (Rafi, 14 Oct 2026)')
     if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')
     if kind == 'bp': out('B2a', s.startswith('And for the bigger picture'), 'Bigger Picture opens with "And for the bigger picture"')
     out('B3', not re.search(r'\d', s), f'{k} has no digits')
@@ -84,7 +103,7 @@ prev = prev_scripts(W)
 if prev:
     p = json.loads(Path(prev).read_text())
     old = {intro(x['script']) for x in p.get('stories', [])} | {intro(p.get('fun', {}).get('script', ''))}
-    rep = [(k, intro(s)) for k, s, kind in clips if kind in ('story', 'fun') and intro(s) in old]
+    rep = [(k, intro(s)) for k, s, kind in clips if kind in ('story', 'fun') and intro(s) in old and intro(s) not in ALL_CAT_OPENINGS]   # category openings are Rafi's and may repeat (CLAUDE.md HEADLINES INTROS AND FLOW)
     out('G2', not rep, f'introductions used the previous day ({Path(prev).parent.parent.name}): {rep}' if rep else
         f'no introduction repeats the previous day ({Path(prev).parent.parent.name})')
 else:
