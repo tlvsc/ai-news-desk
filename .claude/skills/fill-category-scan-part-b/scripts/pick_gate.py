@@ -140,6 +140,8 @@ def gate(W):
     chk('G10 company limit on Headlines clips', all(v <= F['company_clips'] for v in comp2.values()), str(comp2))
     chk('G11 Headlines clips are cards, in deck order', all(h in ids for h in hl) and [ids.index(h) for h in hl] == sorted(ids.index(h) for h in hl), str(hl))
     chk('G11b when the deck has a Politics card, its clip is Headlines clip 1, behind only critical stories (Rafi, 7 Oct 2026; criticals always on top, Rafi, 14 Oct 2026)', 'POL' not in cats or ids[cats.index('POL')] not in hl or all(int(ents[x].get('score', 0)) >= 10 for x in hl[:hl.index(ids[cats.index('POL')])]), f'clip 1 is {hl[0]}, the Politics card is {ids[cats.index("POL")] if "POL" in cats else "none"}')
+    crit = [i for i, e in ents.items() if int(e.get('score', 0)) >= 10]
+    chk('G21 every story rated 10 is a card and a Headlines clip, first in both (Rafi, 14 Oct 2026: criticals always on top, they push everything else down)', all(i in ids and i in hl for i in crit) and set(hl[:len(crit)]) == set(crit) and set(ids[:len(crit)]) == set(crit), f'criticals {crit}, first clips {hl[:len(crit)]}, first cards {ids[:len(crit)]}')
     chk('G12 teaser stories are not cards and not clips', not (set(tz) & (set(ids) | set(hl))), str(set(tz) & set(ids)))
     chk('G13 robotics card shows a machine doing something, or carries Rafi\'s robotics ruling (8 Oct 2026: humanoid funding counts)', all(ents[c['item']].get('machine_action') is not False or c.get('robotics_ruling') for c in cards if ents[c['item']]['v1_category'] == 'ROB'), '')
     chk('G14 labels are at most 15 characters', all(len(c.get('label', '')) <= 15 and c.get('label') for c in cards), str([c['item'] for c in cards if len(c.get('label', '')) > 15]))
