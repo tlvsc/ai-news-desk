@@ -127,7 +127,8 @@ def gate(W):
     upd = [i for i in ids + hl + tz if i in ents and ents[i]['freshness'] != 'NEW' and i not in UA]
     chk('G6 no update of an earlier story unless Rafi named it (cards_work/update_allowed.json)', not upd, str(upd))
     cats = [ents[i]['v1_category'] for i in ids]
-    chk('G7 deck is in the Drive category order', [ORDER.index(c) for c in cats] == sorted(ORDER.index(c) for c in cats), str(cats))
+    ncrit = sum(1 for i in ids if int(ents[i].get('score', 0)) >= 10)   # criticals always on top (Rafi, 14 Oct 2026)
+    chk('G7 deck is in the Drive category order, after the critical cards', [ORDER.index(c) for c in cats[ncrit:]] == sorted(ORDER.index(c) for c in cats[ncrit:]), str(cats))
     over = [k for k in set(cats) if cats.count(k) > (F['market_max'] if k == 'MKT' else F['max_per_category'])]
     chk('G8 category limits (2, markets 3: a money heavy deck is a failure)', not over, str(over))
     comp = {}
