@@ -42,6 +42,11 @@
    "detail": "C12-01 opening \"first, a critical cyber threat\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
   },
   {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C12-01 opening \"first, a critical cyber threat\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
+  },
+  {
    "rule": "B3",
    "status": "PASS",
    "detail": "C12-01 has no digits"
@@ -49,17 +54,22 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "C07-04 10.0 s (aim 9.0 s or less)"
+   "detail": "C07-04 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C07-04 opens with a spoken introduction: \"next, on the chip front\""
+   "detail": "C07-04 opens with a spoken introduction: \"in finance\""
   },
   {
    "rule": "B2d",
    "status": "PASS",
-   "detail": "C07-04 opening \"next, on the chip front\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+   "detail": "C07-04 opening \"in finance\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+  },
+  {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C07-04 opening \"in finance\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",
@@ -68,18 +78,23 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C08-01 8.5 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C08-01 10.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C08-01 opens with a spoken introduction: \"in chip making\""
+   "detail": "C08-01 opens with a spoken introduction: \"in infrastructure\""
   },
   {
    "rule": "B2d",
    "status": "PASS",
-   "detail": "C08-01 opening \"in chip making\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+   "detail": "C08-01 opening \"in infrastructure\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+  },
+  {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C08-01 opening \"in infrastructure\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",
@@ -94,12 +109,17 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C11-01 opens with a spoken introduction: \"in driverless cars\""
+   "detail": "C11-01 opens with a spoken introduction: \"in robotics\""
   },
   {
    "rule": "B2d",
    "status": "PASS",
-   "detail": "C11-01 opening \"in driverless cars\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+   "detail": "C11-01 opening \"in robotics\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+  },
+  {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C11-01 opening \"in robotics\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",
@@ -114,12 +134,17 @@
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "C02-03 opens with a spoken introduction: \"on your phone\""
+   "detail": "C02-03 opens with a spoken introduction: \"in tech\""
   },
   {
    "rule": "B2d",
    "status": "PASS",
-   "detail": "C02-03 opening \"on your phone\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+   "detail": "C02-03 opening \"in tech\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+  },
+  {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C02-03 opening \"in tech\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",
@@ -142,6 +167,11 @@
    "detail": "C13-02 opening \"in the courts\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
   },
   {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C13-02 opening \"in the courts\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
+  },
+  {
    "rule": "B3",
    "status": "PASS",
    "detail": "C13-02 has no digits"
@@ -160,6 +190,11 @@
    "rule": "B2d",
    "status": "PASS",
    "detail": "C14-01 opening \"at work\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+  },
+  {
+   "rule": "B2e",
+   "status": "PASS",
+   "detail": "C14-01 opening \"at work\" must be the story category (for example \"In finance\", \"In robotics\", \"In tech\"); a topic or a place is not a category (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",
@@ -229,7 +264,7 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An OpenAI', 'Android', 'Anthro', 'At', 'China', 'Chinese', 'First', 'Former US Vice President Kamala Harris', 'Huawei', 'Kroger', 'Next', 'On', 'This', 'Thursday', 'Today', 'US']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An OpenAI', 'Android', 'Anthro', 'At', 'China', 'Chinese', 'First', 'Former US Vice President Kamala Harris', 'Huawei', 'Kroger', 'This', 'Thursday', 'Today', 'US']"
   }
  ],
  "names_to_tag": [
@@ -243,8 +278,6 @@
   "Former US Vice President Kamala Harris",
   "Huawei",
   "Kroger",
-  "Next",
-  "On",
   "This",
   "Thursday",
   "Today",
