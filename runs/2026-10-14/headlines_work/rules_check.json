@@ -189,13 +189,13 @@
   {
    "rule": "G1.2",
    "status": "PASS",
-   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An', 'An OpenAI', 'Android', 'At', 'China', 'Chinese', 'First', 'Former US Vice President Kamala Harris', 'From', 'Huawei', 'Kroger', 'Netherlands', 'Next', 'On', 'This', 'Thursday', 'Today', 'US']"
+   "detail": "names for the rules agent to tag if under 100 billion dollars: ['An OpenAI', 'Android', 'Anthro', 'At', 'China', 'Chinese', 'First', 'Former US Vice President Kamala Harris', 'From', 'Huawei', 'Kroger', 'Netherlands', 'Next', 'On', 'This', 'Thursday', 'Today', 'US']"
   }
  ],
  "names_to_tag": [
-  "An",
   "An OpenAI",
   "Android",
+  "Anthro",
   "At",
   "China",
   "Chinese",
