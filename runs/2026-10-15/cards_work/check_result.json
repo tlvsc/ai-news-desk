@@ -1,0 +1,166 @@
+[
+ {
+  "card": "s1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "69/173 chars; ministry, Alibaba-owned paper hedge, Apple silence all match entry; SCMP credit right"
+ },
+ {
+  "card": "s2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "82/173; 3.7%, above forecasts, Fed fear, Nvidia down more than 3% all in facts; desk-built entry"
+ },
+ {
+  "card": "s3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "recheck: head 79, body 152; 'what Reuters and CNBC call a record profit' keeps the attribution; $23.86bn and the one-quarter doubt match; reads aloud fine"
+ },
+ {
+  "card": "s4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "82/158; hypothetical, talk first, no company and no test all in entry; Bloomberg credit right"
+ },
+ {
+  "card": "s5",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "85/158; chair of Google DeepMind, 'early warning shots', couple of years, his forecast all match; Reuters"
+ },
+ {
+  "card": "s6",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "recheck: head 85, body 176; 'warned' keeps it as Fink's claim; 49% and Pew kept, 'mostly bad' is Pew's wording; 'Yet' links the two sentences"
+ },
+ {
+  "card": "s7",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "80/150; three cities, airport, invitation, company claims unchecked all in entry; Unite.AI citing Waymo"
+ },
+ {
+  "card": "s8",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "83/173; 50bn yuan, unnamed investors, listing past 2026 per investor all in facts; TechNode citing Caijing. Note: Cards Master 3.3 keeps funding out of a robotics head, but CLAUDE.md ROBOTICS allows a funding-round robotics card (repo wins); no machine fact exists to lead with"
+ },
+ {
+  "card": "s9",
+  "pass": false,
+  "broken": [
+   "1: 'Artificial Analysis testers' no longer says what Artificial Analysis is; the entry's point is that an INDEPENDENT testing firm ranked it, and a stranger could take it for Musk's own testers"
+  ],
+  "fix_head": "",
+  "fix_body": "Independent testers at Artificial Analysis ranked Grok Voice 3.0, from Musk's SpaceXSI, top among talking AI. The lead is small, and OpenAI still wins one test with noisy, accented calls.",
+  "note": "recheck: fix body 187 chars; only the word 'Independent' and 'at' return, everything else as the writer has it"
+ },
+ {
+  "card": "s10",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "83/163; Nature, open source as 'free', bias as 'regular errors', not yet in daily use all match; The Verge"
+ },
+ {
+  "card": "s11",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "82/167; eight states, overly agreeable, age protections, untested claims all in entry; The Guardian"
+ },
+ {
+  "card": "s12",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "82/165; information requests as 'question', Hugging Face escape, lawyers' doubt all in entry; Euronews"
+ },
+ {
+  "card": "s13",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "recheck: head 81, body 177; 'medical researchers' matches the entry; body unchanged and matches facts"
+ },
+ {
+  "card": "s14",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "80/154; label scope, music app first, accuracy unknown all in entry; The Verge"
+ },
+ {
+  "card": "fun",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "72/168; $60,000, misstated record, follow-up without him, goodbye loop all in facts; The Register"
+ },
+ {
+  "card": "t1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "71 chars; up to 17% and the description match the desk entry"
+ },
+ {
+  "card": "t2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "65 chars; 'plans' matches an announced target; OilPrice.com"
+ },
+ {
+  "card": "t3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "85 chars; enzymes cutting Alzheimer's-linked proteins in cells is in facts; Ars Technica"
+ },
+ {
+  "card": "t4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "81 chars; 'say' keeps it as the lab's claim; 1995 to 2026 is about 30 years; IT Home"
+ },
+ {
+  "card": "bp",
+  "pass": false,
+  "broken": [
+   "3: 'chip shares worldwide' is stronger than the facts, which show falls in the US (Nasdaq), South Korea (KOSPI) and Japan (Nikkei) only"
+  ],
+  "fix_head": "",
+  "fix_body": "US inflation and a bond slump at AI computing firm CoreWeave hit chip shares in the US and Asia. Watch the US central bank's rate decision on 28 October.",
+  "note": "recheck: fix body 153 chars (limit 160); CoreWeave now introduced, 28 Oct watch item kept, notice added by make_cards.py"
+ }
+]

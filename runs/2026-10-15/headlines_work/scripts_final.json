@@ -1,0 +1,87 @@
+{
+ "stories": [
+  {
+   "item": "C13-07",
+   "category_word": "politics",
+   "who": "China's technology ministry (its regulators), and Chinese tech group Alibaba's Qwen A I",
+   "what": "reportedly approved Alibaba's Qwen A I for use on Apple's iPhones",
+   "why_for_people": "it could open the way for Apple's A I features to reach iPhone users in China, where Apple has not launched them yet",
+   "script": "In politics. China's regulators have reportedly approved Alibaba's Qwen A I for Apple's iPhones, which could bring Apple's A I features to China.",
+   "screen": "A busy Chinese phone shop at night, shoppers' hands holding new smartphones under bright display lights, a city street with glowing shop fronts behind them, faces out of focus"
+  },
+  {
+   "item": "C07-01",
+   "category_word": "finance",
+   "who": "US shares, led by A I and chip stocks",
+   "what": "fell on Wednesday after a hotter than expected inflation report",
+   "why_for_people": "it raised fears of another interest rate rise by the Federal Reserve",
+   "script": "In finance. U S shares fell on Wednesday after hotter than expected inflation raised fears of another rate rise, hitting A I and chip stocks hardest.",
+   "screen": "A New York stock exchange trading floor, traders seen from behind watching rows of screens glowing red with falling price lines, tense mood"
+  },
+  {
+   "item": "C07-04",
+   "category_word": "finance",
+   "who": "T S M C, the world's biggest contract chip maker",
+   "what": "reported a quarterly profit above forecasts",
+   "why_for_people": "demand for A I chips stayed strong",
+   "script": "Also in finance. T S M C, the world's biggest contract chip maker, beat profit forecasts as demand for A I chips stayed strong.",
+   "screen": "Inside a clean chip factory, workers in white full-body suits and masks moving silicon wafers between machines under yellow light, a gleaming wafer in close-up"
+  },
+  {
+   "item": "C05-01",
+   "category_word": "security",
+   "who": "N-vidia chief executive Jensen Huang",
+   "what": "said he would stop selling chips to a company that builds unsafe A I",
+   "why_for_people": "his own words: it is a hypothetical, so it is a hedged threat, not a policy",
+   "script": "In security. N-vidia chief Jensen Huang says he would stop selling chips to anyone building unsafe A I, though he called it a hypothetical.",
+   "screen": "Rows of glowing computer servers in a dark data centre, a technician's gloved hand sliding a powerful computer chip board into a rack, seen from behind"
+  },
+  {
+   "item": "C11-01",
+   "category_word": "robotics",
+   "who": "Alphabet's driverless taxi company Waymo",
+   "what": "opened its driverless taxis to everyone in San Antonio, San Diego and Tampa",
+   "why_for_people": "so riders there no longer need an invitation",
+   "script": "In robotics. Alphabet's Waymo has opened its driverless taxis to everyone in San Antonio, San Diego and Tampa, with no invitation needed.",
+   "screen": "A white driverless taxi with a spinning roof sensor pulling up at a sunny city kerb with nobody in the driver's seat, a passenger seen from behind opening the rear door"
+  },
+  {
+   "item": "C04-03",
+   "category_word": "research",
+   "who": "Microsoft researchers",
+   "what": "published an A I tool that fixes errors in weather forecast models",
+   "why_for_people": "they hope it gives better forecasts weeks ahead, also for weather agencies with little money",
+   "script": "In the lab. Microsoft researchers say their new A I tool fixes errors in weather models, which could give poorer countries better forecasts weeks ahead.",
+   "screen": "A weather forecaster's room with large screens showing swirling satellite cloud maps over a continent, a farmer's field under heavy storm clouds on a side screen, no readable labels"
+  },
+  {
+   "item": "C13-01",
+   "category_word": "law",
+   "who": "Eight US states",
+   "what": "sued OpenAI",
+   "why_for_people": "they say ChatGPT harms children and the company misled people about how safe it is",
+   "script": "In law. Eight U S states have sued OpenAI, saying ChatGPT harms children and that the company misled people about how safe it is.",
+   "screen": "The stone steps and columns of an American state courthouse, a teenager's hands holding a phone with a chatbot conversation glowing on it, text blurred"
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "who": "a comedian known for trolling A I job interview bots",
+  "what": "sent his own A I stand-in to a job interview run by an A I recruiter",
+  "why_for_people": "the bot undersold his pay, then the two bots got stuck saying goodbye to each other",
+  "script": "And now, something lighter. A comedian sent his A I stand-in to a job interview with an A I recruiter, and the two bots got stuck saying goodbye.",
+  "screen": "A laptop on a desk showing a video call between two cartoon-like robot avatars waving at each other, the room empty, a coffee cup beside it"
+ },
+ "teaser": {
+  "items": [
+   "C07-02",
+   "C04-02"
+  ],
+  "script": "Also in the full report. Shares in A I computing firm CoreWeave fell up to seventeen percent. And Chinese scientists say A I helped solve a thirty year old maths puzzle.",
+  "screen": "A mathematician's chalkboard covered in curving geometric drawings, a hand holding chalk, beside a glowing computer screen of flowing abstract shapes, no readable symbols"
+ },
+ "bp": {
+  "script": "And for the bigger picture: A I and chip shares are falling as borrowing gets dearer, not as demand drops. Watch the U S central bank on October twenty eighth. This is not financial advice.",
+  "screen": "A glowing warning sign that flashes the words \"This is not financial advice\""
+ }
+}
