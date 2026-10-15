@@ -3,7 +3,7 @@
 Edition date: 2026-10-15 (Asia/Jerusalem)  
 Reporting window: 14 Oct 2026 06:14 UTC to 15 Oct 2026 06:14 UTC (24 hours)  
 Run identity: Claude Code cloud session; Google News collection, 16 curator agents (LV2 16-category taxonomy), 16 read-and-write agents, V1 11-category mapping; skill Temporary_independant_claude_only_15_per_category_fill_run  
-Last updated: 2026-10-15 07:37 UTC  
+Last updated: 2026-10-15 08:26 UTC  
 Status: PARTIAL — stories collected through Google News; articles read from the 101-source list where sites allowed it
 
 ## Counts
@@ -13,7 +13,7 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - Removed at pool build: 3 by the editor, 16 same stories in two categories
 - Held back after reading: 46 (32 older news re-dated into the window, 14 duplicate, 0 published before the window)
 - Articles read: 192 of 225; headline only: 33
-- Full Report: 104 (pool score 6 to 10, plus the best stories of score 5 to reach about 104, plus The Fun Side); Bulletin: 45 (pool score 7 to 10, plus 3 Fun Side)
+- Full Report: 104 (pool score 6 to 10, plus the best stories of score 5 to reach about 104, plus The Fun Side); Bulletin: 49 (pool score 7 to 10, plus 3 Fun Side)
 
 ## Removed at pool build
 
@@ -26,10 +26,10 @@ Status: PARTIAL — stories collected through Google News; articles read from th
 - C13-03 · POL · 7 · South China Morning Post · 2026-10-15T01:00:00Z · Exclusive | US, China race to shape AI agenda ahead of Xi-Trump talks in Shenzhen: sources · https://www.scmp.com/news/china/diplomacy/article/3370926/us-and-china-race-shape-ai-agenda-ahead-xi-trump-talks-shenzhen-sources-say · Full Report + Bulletin
 - C13-04 · POL · 7 · Bloomberg · 2026-10-14T15:05:00Z · Russia, China and Iran Harness AI for US Midterm Disinformation · https://www.bloomberg.com/news/articles/2026-10-14/russia-iran-china-use-ai-to-boost-disinformation-before-us-midterms · Full Report + Bulletin
 - C05-08 · POL · 6 · Benzinga · 2026-10-14T19:30:00Z · Bernie Sanders Hits Back at Sam Altman After OpenAI CEO Warns of 'Severe Cyber Incidents' in Exchange for 'Liberty': 'We Won't Accept' It · https://www.yahoo.com/news/politics/articles/bernie-sanders-hits-back-sam-193008566.html · held: older news re-dated into the window (FOLLOW-UP of 12 Oct 2026)
-- C13-07 · POL · 6 · South China Morning Post · 2026-10-14T11:06:00Z · China approves Alibaba AI models for use in iPhone Duo and other Apple handsets · https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets · Full Report
-- C13-08 · POL · 6 · Reuters · 2026-10-14T14:03:00Z · Ukrainian drones hit Russia's top data centre in attack on AI ambitions · https://www.reuters.com/business/finance/ukrainian-drones-hit-russias-biggest-data-centre-2026-10-14/ · Full Report
-- C13-10 · POL · 6 · AI News Desk · 2026-10-14T15:28:00Z · AI safety fault lines at the AI summit in Dublin · https://www.irishtimes.com/business/2026/10/14/ai-companies-should-sell-solutions-rather-than-fear-conference-hears/ · Full Report
-- C13-15 · POL · 6 · Reuters · 2026-10-14T10:46:00Z · ASML CFO says proposed US limits on DUV sales to China would be counterproductive · https://mezha.net/eng/news/mezha-290045bbc75a67bff5d3a060_asml_cfo_says/ · Full Report
+- C13-07 · POL · 6 · South China Morning Post · 2026-10-14T11:06:00Z · China approves Alibaba AI models for use in iPhone Duo and other Apple handsets · https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets · Full Report + Bulletin
+- C13-08 · POL · 6 · Reuters · 2026-10-14T14:03:00Z · Ukrainian drones hit Russia's top data centre in attack on AI ambitions · https://www.reuters.com/business/finance/ukrainian-drones-hit-russias-biggest-data-centre-2026-10-14/ · Full Report + Bulletin
+- C13-10 · POL · 6 · AI News Desk · 2026-10-14T15:28:00Z · AI safety fault lines at the AI summit in Dublin · https://www.irishtimes.com/business/2026/10/14/ai-companies-should-sell-solutions-rather-than-fear-conference-hears/ · Full Report + Bulletin
+- C13-15 · POL · 6 · Reuters · 2026-10-14T10:46:00Z · ASML CFO says proposed US limits on DUV sales to China would be counterproductive · https://mezha.net/eng/news/mezha-290045bbc75a67bff5d3a060_asml_cfo_says/ · Full Report + Bulletin
 - C13-09 · POL · 5 · CNA · 2026-10-14T10:22:00Z · Anthropic opens Singapore office, signs AI safety agreement with government · https://www.channelnewsasia.com/singapore/anthropic-office-safety-agreement-government-deal-6456671 · Full Report
 - C13-11 · POL · 5 · CyberScoop · 2026-10-14T15:12:00Z · Senators press Trump admin to rally federal government around AI safety, security · https://cyberscoop.com/congress-presses-trump-administration-ai-safety-cybersecurity/ · Full Report
 - C06-01 · MKT · 9 · Business Insider (also reported by the Wall Street Journal, Bloomberg and the Financial Times) · 2026-10-15T00:17:00Z · Anthropic’s Quarterly Revenue Jumped 45% to Nearly $17 Billion · https://www.businessinsider.com/anthropic-reveals-16-8b-revenue-amid-ipo-preparations-2026-10 · Full Report + Bulletin

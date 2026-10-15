@@ -1,8 +1,8 @@
 {
  "title": "Daily Bulletin",
  "date": "15 October 2026",
- "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, MOD from 6), plus the top 3 from The Fun Side.",
- "coverage": "14 Oct 2026 06:14 UTC to 15 Oct 2026 06:14 UTC (24 hours) · 42 stories",
+ "purpose": "A concise selection of the day's most important AI developments, taken from the Full Report: every story scored 7 or more (HEA from 6, SOC from 6, MOD from 6, POL from 6), plus the top 3 from The Fun Side.",
+ "coverage": "14 Oct 2026 06:14 UTC to 15 Oct 2026 06:14 UTC (24 hours) · 44 stories",
  "categories": [
   {
    "name": "Politics and government",
@@ -36,6 +36,34 @@
      ],
      "source": "Bloomberg",
      "url": "https://www.bloomberg.com/news/articles/2026-10-14/russia-iran-china-use-ai-to-boost-disinformation-before-us-midterms"
+    },
+    {
+     "headline": "China's technology ministry has reportedly approved Alibaba's Qwen AI models for use in Apple's iPhones, including the new iPhone Duo.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 3,
+     "rank_of": 8,
+     "status": "REPORTED",
+     "paragraphs": [
+      "The South China Morning Post, which Engadget notes is owned by Alibaba, reports that the Ministry of Industry and Information Technology has cleared Alibaba's Qwen language models and its Wanxiang image and video tool for Apple handsets, with the iPhone Duo due to launch in China next week. Apple won clearance for Apple Intelligence in mainland China in July but has not yet launched it there, and has not said what it plans.",
+      "Why it matters: Millions of iPhone users in China could soon get Apple's AI features running on Alibaba's models, which matters to Apple, Alibaba and rivals, though the only source is an Alibaba-owned newspaper and Apple has not commented."
+     ],
+     "source": "South China Morning Post",
+     "url": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets"
+    },
+    {
+     "headline": "Ukrainian drones have hit Russia's largest data centre, run by Sberbank, the latest in a week of strikes on Russian AI computing sites.",
+     "score": 6,
+     "importance": "MEDIUM",
+     "rank": 4,
+     "rank_of": 8,
+     "status": "CONFIRMED",
+     "paragraphs": [
+      "Reuters reports that the strike on Sberbank's Balakovo data centre followed three attacks in the past week on data centres run by Yandex, and that Sberbank confirmed the attack while saying its services are running normally. Neither company says whether supercomputers used to train AI models were damaged; both say they already trail US and Chinese AI leaders by up to nine months, partly because of sanctions on advanced chips.",
+      "Why it matters: Data centres that train AI are now war targets, which could slow Russia's AI work, though neither company says whether any supercomputer was damaged."
+     ],
+     "source": "Reuters",
+     "url": "https://www.reuters.com/business/finance/ukrainian-drones-hit-russias-biggest-data-centre-2026-10-14/"
     }
    ]
   },

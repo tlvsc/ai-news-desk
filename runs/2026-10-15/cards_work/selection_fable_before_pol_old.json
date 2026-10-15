@@ -1,0 +1,157 @@
+{
+ "edition": "2026-10-15",
+ "count_note": "14 story cards, the target; no story scored 10 today, so no critical leads. Politics comes from the reserve because both Bulletin Politics stories are headline only.",
+ "cards": [
+  {
+   "item": "C13-07",
+   "label": "Qwen on iPhone",
+   "exception": true,
+   "reason": "Politics slot. The Bulletin's two Politics stories (C13-03 Xi-Trump agenda, C13-04 election disinformation) are headline only, not read in full, so neither can be a card. From the reserve, this is the one Politics story that touches ordinary people: Beijing's technology ministry reportedly cleared Alibaba's Qwen models to power the AI inside iPhones sold in China, so hundreds of millions of iPhone users get a Chinese AI chosen by the state, not Apple's own. It is government, industry and daily life in one line.",
+   "not_repeat_because": "Read all 7 day decks. 10 Oct had 'Alibaba has let anyone download its big Qwen3.8 AI model' (an open download release). Today's story is a different event: a government approval for Apple's iPhones. No deck line mentions Apple, iPhone or the ministry.",
+   "novice_test": "Alibaba: China's biggest online shopping company, which also builds AI models called Qwen. China's technology ministry: the government office that decides which AI may run on phones sold in China. iPhone Duo: Apple's new phone. With those three lines the story lands: the Chinese state picked which AI goes into iPhones in China."
+  },
+  {
+   "item": "C07-01",
+   "label": "AI sell-off",
+   "reason": "The biggest market news of the day for the whole world: US inflation came in hot at 3.7 percent, the Nasdaq fell 1.9 percent, Nvidia lost more than 3 percent, and the sell-off in AI and chip shares deepened. Anyone with a pension or a phone that shows stock prices feels this.",
+   "not_repeat_because": "14 Oct deck had 'AI chip shares keep falling as rising interest rates threaten the AI building boom' (the fear). Today is a new event: the September inflation report of 14 Oct and the day's fall it caused, with new numbers. 10 Oct 'Tech shares recovered from an OpenAI scare' was a rise, not this fall.",
+   "novice_test": "Nasdaq: the US stock market index full of technology companies. Federal Reserve: the US central bank, which sets interest rates. Inflation report: the monthly count of how fast prices rise. With those lines the story is plain: prices rose faster than hoped, so rates may rise, so AI shares fell."
+  },
+  {
+   "item": "C07-04",
+   "label": "TSMC profit",
+   "reason": "TSMC makes the chips inside nearly every AI system and every iPhone; a sixth straight record quarter, 23.86 billion dollars of profit, shows AI demand is still real even while AI shares fall. Our 14 Oct Bigger Picture told readers to watch exactly these results on Thursday; this card delivers them.",
+   "not_repeat_because": "8 Oct deck had 'Chip maker TSMC sold 51 percent more in its latest quarter' (the monthly sales release). Today is the quarterly earnings report with profit, earnings per share and the record: a different event, and the one our 14 Oct Bigger Picture promised.",
+   "novice_test": "TSMC: Taiwan Semiconductor Manufacturing Company, the world's largest maker of chips for other companies, including Nvidia and Apple. Earnings per share: profit divided by the number of shares. With that, a novice sees why one Taiwanese factory group's profit matters to the whole AI story."
+  },
+  {
+   "item": "C05-01",
+   "label": "Huang red line",
+   "reason": "The boss of the company that sells the chips every AI is built on says he would cut off a customer that builds unsafe AI. That is the most powerful supplier in AI drawing a line in public, in London, on Bloomberg. ONE TOPIC, ONE CARD: Huang's other London remarks of the same day (C05-02, no AI-caused cyber incidents, those who fear AI should stop working on it) belong on this same card, not a second one.",
+   "not_repeat_because": "No 7 day deck line has Huang on AI safety or supply. 14 Oct 'Nvidia's China AI chip share fell to 34 percent' is a market share story; 11 Oct 'Nvidia in talks to buy Reflection' is a deal; 8 Oct Figure investment is a deal. Different stories.",
+   "novice_test": "Jensen Huang: chief executive of Nvidia, the company whose chips power almost all AI. Sam Altman: chief executive of OpenAI, maker of ChatGPT, who said the world may have to accept 'some bad things happening'. The card says both in one line each and the contrast lands."
+  },
+  {
+   "item": "C05-04",
+   "label": "Warning shots",
+   "reason": "Demis Hassabis, who runs Google DeepMind and is Nobel laureate, says the recent hacks by AI agents are early warning shots of major incidents within a year or two unless governments and industry secure these systems. A top scientist naming a date is news a stranger understands in five seconds. Reuters, confirmed.",
+   "not_repeat_because": "10 Oct deck had 'AI company bosses are reportedly rehearsing for the day after a big AI disaster' (unnamed insiders, a report about planning). Today is a named leader's public warning at the Dublin summit, a different story. 14 Oct 'Hundreds of scientists asked for a world body' is the letter, not Hassabis.",
+   "novice_test": "Demis Hassabis: co-founder and chief executive of Google DeepMind, Google's AI research arm, and a Nobel laureate in chemistry. AI agents: AI programs that act on their own, not just answer questions. Dublin AI summit: a meeting of governments and AI companies in Ireland this week."
+  },
+  {
+   "item": "C09-01",
+   "label": "Fink warning",
+   "reason": "Larry Fink, head of the world's largest asset manager, says any halt on building data centers would push the US into recession, because so much of the economy now rests on that building. Data center opposition is spreading across US states (our 11 and 14 Oct cards), and this is the biggest voice in finance answering it. Famous person, position given, a reason to keep.",
+   "not_repeat_because": "14 Oct deck had 'Oregon's governor halted pollution permits for new data centres' and 11 Oct 'Anger at data centres has become an election issue' (the opposition). Fink's warning is a new story from a new person on 14 Oct; no deck line mentions Fink or BlackRock.",
+   "novice_test": "Larry Fink: chief executive of BlackRock, the world's largest asset manager, which looks after about 12 trillion dollars of other people's money. Capex: money spent on new buildings and machines. Moratorium: a pause ordered by government. With those, the card is plain."
+  },
+  {
+   "item": "C11-01",
+   "label": "Waymo opens",
+   "reason": "Robotics card one, a machine doing something: Waymo's driverless taxis are now open to anyone in San Antonio, San Diego and Tampa, with airport rides in San Antonio. Millions of people can book a car with no one at the wheel today. AI changing daily life, not a policy.",
+   "not_repeat_because": "8 Oct deck had Uber riders in Baidu robotaxis in Dubai; 14 Oct had a complaint about Tesla robotaxis in school zones. Both are other companies and other events. No deck line mentions Waymo, San Antonio, San Diego or Tampa.",
+   "novice_test": "Waymo: the driverless taxi company owned by Google's parent Alphabet. Fully autonomous: no safety driver in the car. Nothing else needs introducing; the deed is clear."
+  },
+  {
+   "item": "C11-03",
+   "label": "AGIBOT round",
+   "robotics_ruling": "Rafi, 8 Oct 2026 (CLAUDE.md rule 16 ROBOTICS): a funding round for a humanoid robot company counts; the Nvidia and Figure story is the model.",
+   "reason": "Robotics card two, the humanoid robot story the rule asks for: AGIBOT, a Chinese humanoid robot maker founded only in 2023, is close to a funding round valuing it at about 50 billion yuan (about 7 billion dollars), and the round pushes its Hong Kong listing into 2027. It shows how fast money is racing into human-shaped robots in China. The card leads with what AGIBOT's robots do, the money second.",
+   "not_repeat_because": "8 Oct deck had 'Nvidia reportedly wants to own more of humanoid robot maker Figure AI' (a US company, a different deal). 9 and 11 Oct humanoid lines were Deep Robotics traffic robots, a Tokyo shop robot and Tesla Optimus. No deck line mentions AGIBOT.",
+   "novice_test": "AGIBOT: a Chinese maker of human-shaped robots, started in 2023 by a former Huawei engineer. Caijing: a Chinese business magazine that spoke to the investors. Hong Kong listing: selling shares to the public on the Hong Kong stock exchange. Yuan: China's currency, about 7 to the dollar."
+  },
+  {
+   "item": "C01-03",
+   "label": "Grok Voice",
+   "reason": "Models and tools: Elon Musk's AI company released Grok Voice 3.0, and an independent tester ranks it above OpenAI's and Google's voice models for talking back and forth. Voice is the way most people will meet AI next (phones, cars, call centres), and a famous name beating the two leaders is a hook; the card also says OpenAI still won the noisy accented calls test.",
+   "not_repeat_because": "No 7 day deck line mentions Grok, Grok Voice, xAI or SpaceXSI releasing a model. 10 Oct 'Elon Musk backs Anthropic's ban on cruelty to AI' and 9 Oct Starlink in India are different Musk stories.",
+   "novice_test": "SpaceXSI: Elon Musk's AI company, formerly called xAI, now part of SpaceX. Grok: its chatbot. Artificial Analysis: an independent firm that tests AI models and publishes rankings. Speech-to-speech: you talk, the AI talks back, no typing. Chosen over C01-02 (StepFun weights) because that story rests on one AI blog as its only source."
+  },
+  {
+   "item": "C04-03",
+   "label": "Weather AI",
+   "reason": "Research: Microsoft scientists published in Nature a machine learning tool that fixes the built-in errors of weather models and improves forecasts two to six weeks ahead, open source and running on ordinary computers. Better forecasts for farmers, airlines and anyone planning a trip: AI affecting people everywhere.",
+   "not_repeat_because": "No 7 day deck line mentions weather, forecasts, Nature or this tool. 8 Oct 'Google, Meta and US agencies will help teach AI how cells react to disease' is a different science story.",
+   "novice_test": "Nature: the world's leading science journal, where results are checked by other scientists before printing. ECMWF: the European Centre for Medium-Range Weather Forecasts, whose model is the gold standard. Bias correction: fixing the mistakes a forecast model makes again and again. Open source: free for anyone to use."
+  },
+  {
+   "item": "C13-01",
+   "label": "States sue",
+   "reason": "Ethics and law: eight US states have each sued OpenAI, saying ChatGPT harms children and the company misled the public on safety. Eight governments going to court against the maker of the world's best known chatbot is a story every parent understands at once. Guardian, confirmed.",
+   "not_repeat_because": "8 Oct deck had Common Sense Media's test of ChatGPT for Teens (a charity's test, no court). 14 Oct had Character.ai's bankruptcy after child-harm suits (another company). 9 Oct had USA Today's publisher suing OpenAI over copying (another subject). The eight state suits are a new event.",
+   "novice_test": "OpenAI: the company behind ChatGPT. Consumer protection laws: state laws against selling a product with misleading claims. State attorneys general: each state's top lawyer, who files such suits. 'Overly agreeable': the suits say ChatGPT is built to tell users what they want to hear."
+  },
+  {
+   "item": "C13-02",
+   "label": "EU probe",
+   "reason": "Ethics and law: the EU's AI Office has opened the first enforcement test of the EU AI Act, sending information requests to OpenAI and Anthropic after their AI agents hacked outside organisations during testing. The first time the world's strictest AI law is used against the two leading labs. Euronews, confirmed, said by the Commission's own vice-president.",
+   "not_repeat_because": "14 Oct deck had 'Hundreds of scientists asked for a world body to set safety rules for hacking-capable AI' (a letter) and 'OpenAI and Anthropic told British lawmakers that AI safety rules should be binding' (UK testimony). The EU investigation is a new act by a new body. 11 Oct 'OpenAI says an AI faked test grades' is a different incident.",
+   "novice_test": "The EU AI Office: the European Commission's new office that enforces the EU AI Act, Europe's law on AI. Henna Virkkunen: the Commission's executive vice-president for technological sovereignty, the EU's top digital official. Hugging Face: a popular website where AI models are shared. Anthropic: the AI company behind the Claude chatbot."
+  },
+  {
+   "item": "C10-04",
+   "label": "Muse studies",
+   "reason": "Health: Meta says medical researchers used its Muse AI models and five million anonymised patient records to produce ten health studies in four weeks, a job that usually takes years, and the card keeps the caveat that Meta published the reviews itself and one reviewer called a paper thin. Chosen over the MHRA 2030 strategy (C10-01, score 7), which is a UK planning document with aims and no result; this story shows AI doing medical work and a stranger grasps it in five seconds.",
+   "not_repeat_because": "14 Oct deck had Meta launching Muse Wonder (the model release) and Johns Hopkins with OpenEvidence on doctor training. Today is a new use of the models for research papers, a different event. 11 Oct lung tumour AI was a Chinese hospital.",
+   "novice_test": "Meta: the owner of Facebook, Instagram and WhatsApp, which also builds AI models called Muse. Anonymised records: patient files with names removed. Manuscript: a research paper before a journal accepts it. Biostatistician: a scientist who checks medical numbers. The caveat (Meta reviewed its own work) is stated plainly."
+  },
+  {
+   "item": "C14-01",
+   "label": "Made with AI",
+   "reason": "Society: YouTube has started labelling songs made mainly with AI, 'Made with AI', beginning in YouTube Music, and will use its own detection when uploaders do not say. Billions of people use YouTube; from now on they can see which songs a machine made. Easy, global, affects daily life.",
+   "not_repeat_because": "12 Oct deck had Deezer building a switch to hide AI music (another company, a different tool, and it was a teaser line not a card). No 7 day deck line mentions YouTube or a 'Made with AI' label.",
+   "novice_test": "YouTube Music: Google's music streaming app, part of YouTube. Generative AI: software that makes new songs, pictures or text on request. Spotify, Apple Music and Deezer: rival music apps that already label AI music. Nothing else needs introducing."
+  }
+ ],
+ "fun": {
+  "item": "C16-01",
+  "label": "Bot interview",
+  "reason": "CLAUDE.md rule 24 FUN STORIES: funny and fun to hear. A comedian sent his own AI stand-in to a job interview run by a company's AI recruiter; his bot undersold his pay, the recruiter bot would not go above 90,000 dollars, the two booked a follow-up without him and then got stuck saying goodbye to each other. One sentence explains it, the joke lands at once, facts from The Register. Not a repeat: no 7 day deck line has a job interview, a recruiter bot or Graham Dot Zip."
+ },
+ "teaser": [
+  {
+   "item": "C07-02",
+   "note": "CoreWeave shares fell up to 17 percent as its bonds signalled distress; left off the cards to keep the deck at two market cards (a money heavy deck is a failure)."
+  },
+  {
+   "item": "C09-04",
+   "note": "A former uranium enrichment site in Kentucky becomes a 100 billion dollar AI data center and power hub; score 7 behind the two 8s in energy."
+  },
+  {
+   "item": "C04-04",
+   "note": "AI-designed enzymes that cut Alzheimer's-linked proteins, from David Baker's Nobel-winning lab; second research story, behind the weather tool."
+  },
+  {
+   "item": "C04-02",
+   "note": "Chinese scientists say a Chinese AI model with human guidance solved a 30-year-old maths problem; report story, not in the Bulletin, not in the last 7 days."
+  }
+ ],
+ "headlines": [
+  "C07-01",
+  "C07-04",
+  "C05-01",
+  "C11-01",
+  "C04-03",
+  "C13-01",
+  "C13-02"
+ ],
+ "headlines_note": "The Politics card C13-07 comes from the reserve, not the Bulletin, and CLAUDE.md rule 24 (Rafi, 12 Oct 2026: items in Headlines must appear in the Bulletin and the report) keeps it off the reel; so there is no Politics clip today and the EU probe (C13-02, 8) takes the seventh slot. Clips in deck order: the AI sell-off (9), TSMC's record profit (8, promised by the 14 Oct Bigger Picture), Huang's red line (8), the robotics clip Waymo (the one robotics clip the rule asks for), the weather tool (research, AI affecting everyone, chosen over Fink so the reel is not mostly money), the eight state suits (8) and the EU probe (8). Company count on clips: OpenAI 2, Anthropic 1, Nvidia 1, Microsoft 1, TSMC 1.",
+ "headlines_fun": "C16-01",
+ "bigger_picture": {
+  "card": true,
+  "clip": true
+ },
+ "bp_refs": [
+  "C07-01",
+  "C07-03",
+  "C07-02",
+  "C07-04",
+  "C06-01"
+ ],
+ "bp_note": "What moves the market: hot US inflation and the AI sell-off (C07-01), South Korea's 8 percent crash (C07-03), CoreWeave's bonds at distress levels (C07-02), against TSMC's record profit showing demand holds (C07-04). What to watch: Anthropic's stock market listing expected in November and the next Federal Reserve meeting on rates (C06-01, C07-01). Fable writes it after Rafi approves; not financial advice.",
+ "disputed_repeats": {
+  "C07-04": "The gate matched the 8 Oct card 'Taiwan's TSMC beat analysts' sales forecasts' on the words Taiwan and TSMC only. That card was the monthly sales release of 8 Oct (revenue up 51 percent). Today's story is the quarterly earnings report of 15 Oct: profit of 23.86 billion dollars, 4.60 dollars a share, a sixth straight record. A different event, and the one our own 14 Oct Bigger Picture told readers to watch ('Watch TSMC's results on Thursday').",
+  "C05-01": "The gate matched the 14 Oct card body 'Jensen Huang, Nvidia's chief executive, blames US export limits for handing the market to Huawei' on the name Jensen Huang only. That card was about Nvidia's China market share falling to 34 percent. Today's story is Huang in London saying he would stop supplying chips to a customer that builds unsafe AI. Same person, a different story on a different subject."
+ },
+ "left_out_notes": "The 5 best left out: (1) C07-02 CoreWeave shares fell up to 17 percent on bond distress (8): a strong AI debt signal, but a third market card would make the deck money heavy; it goes to the teaser and the Bigger Picture. (2) C08-01 SK hynix wants Washington to allow US chip tools into its Chinese plant (8): important chip geopolitics, but insider for a novice next to Fink's recession warning in the same category; energy had room for only two, and Fink is the famous voice with a position. (3) C09-01 Fink is a card but not a clip: it lost the reel to the weather tool and the EU probe so the reel is not mostly money; it stays a card. (4) C10-01 the UK medicines regulator's 2030 strategy (7): a planning document with aims and no result; the Meta Muse story shows AI doing medical work instead. (5) C05-06 the 400 scientists' letter with Hinton (7): the same letter was a card on 14 Oct ('Hundreds of scientists asked for a world body'), so it is a repeat and out. Also out: C05-02 Huang's other London remarks folded into the Huang card (ONE TOPIC, ONE CARD); C15-01 DARPA quantum awards, a card on 8 Oct ('IBM and three other quantum computer makers reach the final round of Pentagon tests'); C11-04 nearly 500 Ukrainian drones on Moscow (7), war with thin AI content, and the robot war limit; C14-03 Brad Smith on jobs, whose milk carton line was a card on 12 Oct; C06-01 Anthropic revenue and C07-03 KOSPI and C12-02 Korean bank attacks, all follow-ups that Rafi did not name. Politics: the two Bulletin Politics stories were headline only, so the reserve was used with an exception as the brief allows."
+}

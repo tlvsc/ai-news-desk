@@ -1,15 +1,21 @@
 # Daily Bulletin (Claude-V1) — TEST RUN
 
 15 October 2026. Coverage: 14 Oct 2026 06:14 UTC to 15 Oct 2026 06:14 UTC (24 hours).  
-Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, MOD from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
-**42 stories.**
+Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10, plus the top 3 Fun Side stories (HEA from 6, SOC from 6, MOD from 6, POL from 6) (cutoff set to the day's pool, CLAUDE.md rule 14).  
+**44 stories.**
 
-## POLITICS AND GOVERNMENT — 2
+## POLITICS AND GOVERNMENT — 6
 **7 MEDIUM — The United States and China are competing to set the AI agenda before talks between China's President Xi Jinping and US President Donald Trump in Shenzhen, the South China Morning Post reports, citing sources.** (report item 1)  
 The South China Morning Post reports, citing unnamed sources, that Washington and Beijing are both trying to shape the AI agenda ahead of talks between Xi Jinping and Donald Trump in Shenzhen. *South China Morning Post, REPORTED* *(headline only)*
 
 **7 MEDIUM — Russia, China and Iran are using AI to boost disinformation aimed at the US midterm elections, Bloomberg reports.** (report item 2)  
 Bloomberg reports that Russia, China and Iran are using artificial intelligence to boost disinformation ahead of the US midterm elections. *Bloomberg, REPORTED* *(headline only)*
+
+**6 MEDIUM — China's technology ministry has reportedly approved Alibaba's Qwen AI models for use in Apple's iPhones, including the new iPhone Duo.** (report item 3)  
+The South China Morning Post, which Engadget notes is owned by Alibaba, reports that the Ministry of Industry and Information Technology has cleared Alibaba's Qwen language models and its Wanxiang image and video tool for Apple handsets, with the iPhone Duo due to launch in China next week. Apple won clearance for Apple Intelligence in mainland China in July but has not yet launched it there, and has not said what it plans. *South China Morning Post, REPORTED*
+
+**6 MEDIUM — Ukrainian drones have hit Russia's largest data centre, run by Sberbank, the latest in a week of strikes on Russian AI computing sites.** (report item 4)  
+Reuters reports that the strike on Sberbank's Balakovo data centre followed three attacks in the past week on data centres run by Yandex, and that Sberbank confirmed the attack while saying its services are running normally. Neither company says whether supercomputers used to train AI models were damaged; both say they already trail US and Chinese AI leaders by up to nine months, partly because of sanctions on advanced chips. *Reuters, CONFIRMED*
 
 ## MARKET, INDUSTRY AND FINANCE — 9
 **9 HIGH — Anthropic has told investors its revenue rose about 45% to $16.8 billion in the third quarter, just before a stock market listing expected in November.** (report item 9)  
@@ -143,6 +149,6 @@ The National News Desk reports, relaying Mediaite, that US Senator Marsha Blackb
 
 ## CHECKS
 
-- Stories: 45; all come from the Full Report with facts, scores and sources unchanged.
+- Stories: 49; all come from the Full Report with facts, scores and sources unchanged.
 - Fact check suggested a lower score for 5 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
 - Headline-only stories included: 3.
