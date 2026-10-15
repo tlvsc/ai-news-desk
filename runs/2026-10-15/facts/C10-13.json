@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-13",
+ "title": "Nature Medicine series on real-world clinical AI deployment",
+ "source_used": "Nature (Nature Medicine collection page)",
+ "article_url": "https://www.nature.com/collections/gggiehejee",
+ "fetched": true,
+ "key_facts": [
+  "Nature Medicine published a collection of articles on lessons from deploying AI in real healthcare settings.",
+  "Its framing: success depends on workflow integration, human-AI collaboration, trust and patient outcomes, not just algorithm performance.",
+  "A Kenyan primary-care cluster trial found ChatGPT-4o decision support did not significantly reduce 14-day treatment failure.",
+  "A breast cancer screening trial found automated AI triage was not noninferior to double reading.",
+  "Retina4IRD reached 88.5% accuracy for inherited retinal disease diagnosis in a randomized trial.",
+  "A study of 1,298 participants found people assisted by an LLM did worse than the LLM alone on ten medical scenarios.",
+  "An evaluation of 810 conversations found chatbots often amplify simulated users' psychological vulnerabilities."
+ ],
+ "quote_evidence": [
+  "Across all settings the message is largely the same: success in clinical AI depends on more than algorithmic performance.",
+  "A pragmatic cluster-randomized trial found that ChatGPT-4o-assisted decision support in Kenyan primary care facilities did not significantly reduce 14-day treatment failure over usual care.",
+  "The breast cancer screening trial found that using automated artificial intelligence to triage and support decisions in mammography and digital breast tomosynthesis was not noninferior to double reading."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The collection shows that clinical AI often does not beat usual care in real-world trials, so evidence matters more than benchmark scores.",
+ "event_date": "collection page dated 14 Oct 2026 (publication dates of individual papers not stated)",
+ "notes": "Collection landing page with summaries, not the papers themselves; dates of individual papers not stated."
+}

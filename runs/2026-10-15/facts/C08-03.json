@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-03",
+ "title": "Analysis: GlobalFoundries' calculus behind US$2 billion entry into TSMC's CoWoS ecosystem",
+ "source_used": "digitimes (teaser) plus TradingKey",
+ "article_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262217753-tsmc-record-q3-profit-globalfoundries-cowos-silicon-interposer-supply-tradingkey",
+ "fetched": true,
+ "key_facts": [
+  "GlobalFoundries announced a multi-year manufacturing agreement with TSMC on 8 Oct 2026.",
+  "It will expand silicon interposer capacity at its Malta, New York fab for TSMC's CoWoS packaging.",
+  "Multiple media outlets put the five-year deal at about $2 billion.",
+  "Volume production is expected to ramp in the first half of 2028.",
+  "Interposers connect logic chips with high-bandwidth memory.",
+  "The deal covers interposers only, not chip assembly and testing, so overall CoWoS capacity stays constrained."
+ ],
+ "quote_evidence": [
+  "GlobalFoundries (GF) has reached a multiyear manufacturing agreement with TSMC to expand silicon interposer capacity at its Malta fab in New York, supplying TSMC's Chip-on-Wafer-on-Substrate (CoWoS) advanced-packaging ecosystem...",
+  "However, the agreement primarily covers silicon interposer manufacturing and does not include full chip assembly and testing."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "It adds a US source for a scarce AI packaging part but does not remove the wider packaging bottleneck.",
+ "event_date": "8 Oct 2026",
+ "notes": "digitimes analysis is paywalled after the first sentence; details read from TradingKey. Deal itself is older than 14 Oct."
+}

@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Curl, the data-transfer software used on over 20 billion devices, has fixed 24 security flaws, most found by an AI audit, including a 25-year-old login bypass.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: confirmed release and a striking AI finding, but the main risk is for those who have not yet updated.",
+ "importance_line": "Anyone running Curl, including inside other products, should update to version 8.23.0, and the audit shows AI can uncover long-hidden bugs in trusted code faster than teams can fix them.",
+ "status": "CONFIRMED",
+ "summary": "TechTarget reports that Curl, the open-source tool and library for transferring data that runs on more than 20 billion devices, released version 8.23.0 on 14 Oct 2026 fixing 24 security flaws, 18 of them from a yearlong AI audit by security firm Aisle, including a 25-year-old authentication bypass (CVE-2026-8932). Curl founder Daniel Stenberg says AI analysers now find flaws that nothing did before and that the challenge is dealing with all the findings, and Aisle says the limit will become validating and fixing them fast enough.",
+ "source": "TechTarget",
+ "url": "https://www.techtarget.com/cybersecurity/news/366652233/Historic-Curl-flaw-shows-AI-risk-to-legacy-supply-chain",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Counts as given by TechTarget.",
+ "item_id": "C12-16",
+ "importance_label": "WATCHLIST"
+}

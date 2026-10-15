@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-03",
+ "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index",
+ "source_used": "SiliconANGLE",
+ "article_url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
+ "fetched": true,
+ "key_facts": [
+  "SpaceXSI (formerly xAI, Elon Musk's AI company) released Grok Voice 3.0 on 14 Oct 2026, the speech-to-speech model behind its Voice Agent API.",
+  "Artificial Analysis rated it 86.9 on its Speech-to-Speech Index, ahead of OpenAI's GPT-Live-1 (83.2) and Google's Gemini 3.8 Live (82.6).",
+  "It scored 97% on Full Duplex Bench, which tests handling of pauses and interruptions.",
+  "OpenAI's model kept a narrow lead on Tau-Voice (74.5% vs 71.6%).",
+  "On ServiceNow's open-source EVA-Bench it scored 74% accuracy across more than 200 scenarios.",
+  "Priced at eight cents a minute, the same as Grok Voice 2.0.",
+  "SpaceXSI says Starlink's Grok Voice answers about 20,000 calls a day, about 70% resolved without a human; Tesla cars account for millions of Grok Voice conversations a day."
+ ],
+ "quote_evidence": [
+  "Independent testing firm Artificial Analysis ranks it first among models of its type.",
+  "The OpenAI model kept a narrow lead on Tau-Voice",
+  "Roughly 70% are resolved without a human stepping in, SpaceXSI said"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Voice agents for customer calls are a growing business, and an independent index now puts Grok ahead of OpenAI and Google on overall score.",
+ "event_date": "14 Oct 2026",
+ "notes": "Index scores are from Artificial Analysis; call-centre and Tesla usage figures are SpaceXSI's own claims."
+}

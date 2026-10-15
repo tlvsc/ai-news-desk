@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-14",
+ "title": "Nearly Half of Organisations Report Unauthorised AI Agent Actions, Research Finds",
+ "source_used": "Security Today (IT Security Guru blocked, HTTP 403)",
+ "article_url": "https://securitytoday.com/articles/2026/10/14/nearly-half-of-respondents-report-unexpected-or-unauthorized-ai-agent-actions-research-finds.aspx",
+ "fetched": true,
+ "key_facts": [
+  "Salt Security research: 49.8% of respondents confirmed or suspected AI agents took unintended, unexpected or unauthorised actions in the past 12 months.",
+  "Of those, more than half reported an unauthorised external API call or transaction; over 40% reported data changed or deleted.",
+  "86.4% have AI agents running in their organisation, but only 12.5% can reliably trace an agent's activity from instruction to result.",
+  "More than 60% said reconstructing an agent's previous-day activity would take hours or days.",
+  "Only 17.5% can automatically halt a misbehaving agent in a live environment.",
+  "Based on 380+ responses from security and technology professionals plus operational data from hundreds of customer environments."
+ ],
+ "quote_evidence": [
+  "AI agents may have taken actions that were unintended, unexpected or unauthorized at organizations represented by 49.8% of respondents, who confirmed or suspected such incidents during the previous 12 months, according to Salt Security research.",
+  "Only 17.5% reported being able to automatically halt an agent behaving unexpectedly in a live environment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Most firms running AI agents cannot see or stop them reliably, per a vendor survey.",
+ "event_date": "14 Oct 2026",
+ "notes": "Vendor survey of about 380 respondents, including 'suspected' incidents; Salt Security sells API security."
+}

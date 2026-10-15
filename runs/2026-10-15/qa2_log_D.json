@@ -1,0 +1,39 @@
+{
+ "changes": [
+  {
+   "item_id": "C02-07",
+   "field": "headline",
+   "before": "Microsoft will let everyone on a Microsoft 365 Family or Premium plan share its Copilot AI features, while cutting the storage each person gets.",
+   "after": "Microsoft will let everyone on a Microsoft 365 Family or Premium plan share its Copilot AI features, with storage becoming one shared pool.",
+   "reason": "Meaning: 'cutting the storage each person gets' is stronger than the facts (1 TB each becomes 2 TB shared; total falls only for plans of three or more). Neutral wording, shorter."
+  },
+  {
+   "item_id": "C02-07",
+   "field": "importance_line",
+   "before": "Families can share one AI allowance and storage pool, though the trade is less storage per person and possibly higher AI costs, per The Verge's reading.",
+   "after": "Families can share one AI allowance, though plans with three or more users get less total storage, and The Verge says some may pay more for AI.",
+   "reason": "Meaning: the storage loss was attributed to The Verge's reading, but The Verge's stated view covers only AI costs; storage effect stated exactly (3+ users get less than before), Verge attribution kept for the cost doubt."
+  },
+  {
+   "item_id": "C02-07",
+   "field": "source",
+   "before": "The Verge, as relayed by GNN",
+   "after": "The Verge",
+   "reason": "Credit (rule 8): GNN is a copy site carrying The Verge's report; printed source is the reporting outlet."
+  },
+  {
+   "item_id": "C02-07",
+   "field": "summary",
+   "before": "The Verge reports, as relayed by GNN, that an email to subscribers shows Microsoft will let Microsoft 365 Family and Premium plan holders share Copilot and AI usage with up to five other people. The same changes replace 1 TB of storage per person with 2 TB shared across the plan, and The Verge notes some subscribers could end up paying more for AI use.",
+   "after": "The Verge reports that an email to subscribers shows Microsoft will let Microsoft 365 Family and Premium plan holders share a single Copilot AI allowance with up to five other people. From the first renewal after 2 May 2027, 1 TB of storage per person becomes 2 TB shared across the plan, and The Verge notes some subscribers could pay more for AI use.",
+   "reason": "Credit: removed 'as relayed by GNN' (copy site). Meaning: added the essential timing qualification from the facts (storage change only after the first renewal after 2 May 2027) and the single AI allowance; less close to the quote wording. Same length."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C02-07",
+   "issue": "url points to copy site",
+   "detail": "url is GNN (gnnhd.tv), a copy of The Verge's report; Full Report rules section 6.1 want the original link. Editors may not change url, so the original Verge link is needed from the desk."
+  }
+ ]
+}

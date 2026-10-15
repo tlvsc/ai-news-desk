@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-10",
+ "title": "Argonne Uses AI Agents to Get Closer to Self-Driving Microscopes",
+ "source_used": "Streamlinefeed (account of Argonne's release; HPCwire page blocked)",
+ "article_url": "https://streamlinefeed.co.ke/news/argonne-adds-ai-agent-to-x-ray-microscope",
+ "fetched": true,
+ "key_facts": [
+  "Argonne National Laboratory described on 5 Oct 2026 an agentic AI layer in its SYNAPS-I project.",
+  "At a hard X-ray nanoprobe beamline, scientists asked the agent in plain language to find the boundary between two regions in a microchip, and it scanned, analysed images and steered to it.",
+  "The system uses PtychoFM and Meta's Segment Anything Model 3.",
+  "It does low-risk actions alone and asks for human approval when an action is higher-risk or uncertain.",
+  "No controlled comparison of accuracy, repeatability or time against human operators is given.",
+  "Catalysts, metals and quantum devices are listed as potential applications, not tested outcomes.",
+  "SYNAPS-I links U.S. national laboratories and is part of the Energy Department's Genesis Mission."
+ ],
+ "quote_evidence": [
+  "The release gives no controlled comparison of accuracy, repeatability or time against human operation.",
+  "Argonne says the system can carry out low-risk actions without direct supervision but asks for human approval or guidance when an operation is higher-risk or uncertain."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A step toward instruments that choose their next measurement, with narrow scope and no performance numbers.",
+ "event_date": "5 Oct 2026",
+ "notes": "HPCwire (pool link) returned 403; the same story was read at Streamlinefeed, which describes Argonne's release. Older than 14 Oct, so lowered."
+}

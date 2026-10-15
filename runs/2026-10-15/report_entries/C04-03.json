@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-03",
+ "v1_category": "RES",
+ "headline": "Microsoft researchers have published a machine-learning method in Nature that corrects bias in weather models and improves forecasts two to six weeks ahead.",
+ "score": 7,
+ "score_reason": "Pool score 7 kept: peer-reviewed in Nature, released as open source, with a named field test.",
+ "source": "The Verge",
+ "status": "REPORTED",
+ "summary": "The Verge reports that Microsoft researchers have published in Nature a tool called Probabilistic Bias Correction, which uses machine learning to fix systematic errors in existing forecast models and improved a leading European Centre for Medium-Range Weather Forecasts model for 98 percent of precipitation and 92 percent of temperature targets in the study. Because it runs on ordinary processors and is open source, the authors hope weather agencies with few resources can use it, although the centre's Matthew Chantry, its strategic lead for machine learning, notes that making it work in daily operations is the hardest step.",
+ "importance_line": "Farmers and emergency planners could get more reliable forecasts several weeks ahead, especially in countries without supercomputers, but the gains are the authors' own results and have not yet been used in daily forecasting.",
+ "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "",
+ "importance_label": "MEDIUM"
+}

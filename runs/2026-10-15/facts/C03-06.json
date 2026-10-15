@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-06",
+ "title": "Announcing Intel Inference Microservices: Tuned LLM Inference on Intel Processors",
+ "source_used": "Technetbook (relaying Intel)",
+ "article_url": "https://www.technetbooks.com/2026/10/intel-launches-inference-microservices.html",
+ "fetched": true,
+ "key_facts": [
+  "Intel announced Intel Inference Microservices on 14 Oct 2026, a containerised way to deploy large language models on existing Xeon processors.",
+  "The containers package the vLLM engine and expose an OpenAI-compatible API.",
+  "Hardware settings are applied automatically at launch for 4th, 5th and 6th generation Xeon processors, using built-in Advanced Matrix Extensions and vector instructions.",
+  "On an unrecognised platform, specialised model containers stop with an error; base containers use a verified fallback.",
+  "Runs on Docker or Kubernetes 1.24 or higher; Intel recommends at least 32GB of memory; first releases use BF16 precision.",
+  "Tool calling and structured outputs are raw passthrough from vLLM for now, with verified support, Helm charts and Kubernetes Operators planned.",
+  "Intel plans to extend the model to GPUs, including the upcoming Crescent Island data-centre inference GPUs."
+ ],
+ "quote_evidence": [
+  "Intel has introduced Intel Inference Microservices, a containerized solution designed to automate large language model deployment on existing Xeon hardware.",
+  "Initial container releases rely on the vLLM engine running with BF16 precision.",
+  "Intel plans to expand this containerized microservice model beyond central processors to graphics hardware"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Companies with Intel servers can run AI models without hand-tuning, with a planned path to Intel GPUs.",
+ "event_date": "14 Oct 2026",
+ "notes": "Intel newsroom page returned 403 and showed only an error reference; text read from Technetbook, which relays Intel's announcement. Google News also lists TradingView, KuCoin, Moomoo coverage of the same Intel announcement."
+}

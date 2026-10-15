@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-04",
+ "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+ "source_used": "Google Developers Blog",
+ "article_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
+ "fetched": true,
+ "key_facts": [
+  "Apigee is Google Cloud's API management product; MCP support was first previewed in Apigee last December.",
+  "With Apigee hybrid 1.17.0, released 14 Sep 2026, Model Context Protocol (MCP) support is available and the MCP data plane runs inside the customer's own Kubernetes cluster.",
+  "Each operation in an OpenAPI 3.0.x spec becomes an MCP tool through an MCP Discovery Proxy, with no MCP server code to write.",
+  "MCP request traffic stays inside the cluster; configuration is pulled by a sidecar, so Google never opens a connection into the customer network.",
+  "MCP is optional and off by default; it is enabled with a Helm setting (enableMcpServer: true), and enabling or disabling triggers a staged canary release of runtime pods.",
+  "Defaults are two MCP replicas, autoscaling to ten.",
+  "Distributed tracing with OpenTelemetry can follow a call from the AI client through Apigee to the backend."
+ ],
+ "quote_evidence": [
+  "With Apigee hybrid 1.17.0, released on September 14, 2026, Model Context Protocol support is available in Apigee hybrid and the MCP data plane runs inside your own Kubernetes cluster.",
+  "MCP request traffic stays inside your cluster.",
+  "Configuration is pulled, not pushed."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Companies that must keep systems in their own data centres can let AI agents call their APIs without sending that traffic to Google.",
+ "event_date": "Release 14 Sep 2026; blog post 14 Oct 2026",
+ "notes": "Vendor's own blog; first public announcement appears to be this post, while the software release itself is dated 14 Sep 2026."
+}

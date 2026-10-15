@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-05",
+ "v1_category": "RES",
+ "headline": "Riverlane and NVIDIA said that running the tuning of quantum error-correction software on a graphics chip cut a step from minutes to seconds.",
+ "score": 5,
+ "score_reason": "Company-reported technical benchmark, no outside review.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Quantum researchers and hardware builders may get error correction that stays accurate as machines drift, though these are company benchmarks that outsiders have not reviewed.",
+ "source": "Quantum Computing Report",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Computing Report reports that Riverlane, a quantum error-correction company, and chip maker NVIDIA announced benchmarks showing that an NVIDIA H100 graphics processor cut the training time for recalibrating a decoder from minutes to seconds. The decoder is the software that spots and fixes qubit errors, and the recalibrated settings reduced logical errors by several percent up to a factor of two, according to the announcement.",
+ "url": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Companies' own figures as relayed by QCR."
+}

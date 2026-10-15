@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-08",
+ "title": "Android is using AI to suss out scammers in Google Messages",
+ "source_used": "The Verge (full text)",
+ "article_url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+ "fetched": true,
+ "key_facts": [
+  "Google announced new Android scam defences, including an opt-in 'enhanced protection' setting in Google Messages rolling out in the coming weeks.",
+  "It uses cloud-based Gemini AI models to judge the intentions of messages from unrecognised senders.",
+  "Google says user data is encrypted and processed in a secure dedicated space it cannot access.",
+  "On-device Gemini Nano inspects links for malicious signs before they are opened.",
+  "Other features: blocking apps from enabling call forwarding, and hiding sensitive information during screen-sharing in Chrome and Android WebView.",
+  "Scam detection for chat notifications, launched on Pixel last year, is expanding to Honor, Motorola, Oppo, OnePlus, Realme, Tecno, Vivo, Xiaomi and others, with Google aiming to reach hundreds of millions more users later this year."
+ ],
+ "quote_evidence": [
+  "Scammers often disguise their true motives behind slow-burn conversations.",
+  "A new 'enhanced protection' setting will be rolling out in the coming weeks that taps into cloud-based Gemini AI models."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Android users may get stronger warnings against slow-moving scam chats.",
+ "event_date": "14 Oct 2026",
+ "notes": "Google's claims reported by The Verge; no independent test."
+}

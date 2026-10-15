@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-01",
+ "title": "Figma announces new features to define how agents work on its platform",
+ "source_used": "TechCrunch (full text)",
+ "article_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+ "fetched": true,
+ "key_facts": [
+  "Figma announced Figma Specs, a markdown editor for defining a company's design language, at its first Config event in India.",
+  "Specs can serve as a reference for teams and AI agents designing in Figma, and can link to canvas elements, FigJam diagrams, code layers and designs.",
+  "Teams can add design libraries, code libraries and guidelines so agents follow brand rules.",
+  "The code layers feature, in private beta since June, moves to public beta.",
+  "Figma now supports over 20 new tools through its MCP (Model Context Protocol, a standard for connecting AI tools), including Open Code, Dia, Grok Bot and Sarvam.",
+  "Figma is integrating the Payload headless content management system, which it acquired last year, with Figma Make.",
+  "India is Figma's biggest user market outside the United States; the platform works with 40% of the top 100 companies on the Bombay Stock Exchange."
+ ],
+ "quote_evidence": [
+  "Through some of these features, the company aims to provide a definition for its own and third-party agents to adhere to a brand's design rules better while creating with AI.",
+  "In the past week, the company made its agent on canvas available to a wider user base."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Figma is giving AI agents a written rulebook so their design output stays on-brand and more predictable.",
+ "event_date": "Week of 14 Oct 2026 (Config India)",
+ "notes": "Company announcements reported by one outlet."
+}

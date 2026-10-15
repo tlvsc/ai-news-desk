@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Tencent researchers used an AI system to find a nine-year-old Linux kernel flaw that lets a local user become root and, in one setup, lets a virtual machine attack its host.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: serious and AI-found, but a fix exists and there is no sign of exploitation; write-up dated 12 Oct.",
+ "importance_line": "Administrators of Linux servers and cloud virtual machines need to install the fixed kernel and restrict access to the vhost devices, since Ubuntu 24.04 and 26.04 fixes were still pending on 13 Oct.",
+ "status": "REPORTED",
+ "summary": "The Hacker News reports that Tencent Zhuque Lab, using its multi-agent AI system Corvus AI, found a flaw (CVE-2026-74580, nicknamed Vghost) in the Linux kernel's vhost networking component that has existed since 2017 and lets a local user gain root, and in one virtualisation setup lets an untrusted guest virtual machine write to its host. A fix was released on 3 Aug and the write-up on 12 Oct, there is no public sign of exploitation, Red Hat, Amazon and Oracle have shipped fixes, and Ubuntu 24.04 and 26.04 were still in progress as of 13 Oct.",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Machine-assisted research, not an attack run by AI. Disclosure write-up 12 Oct 2026.",
+ "item_id": "C12-15",
+ "importance_label": "WATCHLIST"
+}

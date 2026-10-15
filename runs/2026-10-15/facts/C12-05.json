@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-05",
+ "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+ "source_used": "SecurityWeek",
+ "article_url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft's October 2026 Patch Tuesday fixed a record 1,413 CVEs, including 1,102 in Windows, 134 in Office, 61 in developer tools and 36 in SharePoint Server.",
+  "This month alone exceeds all of 2025; more than 4,000 flaws fixed so far in 2026, a surge SecurityWeek says is largely driven by AI.",
+  "One Windows zero-day, CVE-2026-96951 (CVSS 8.8), is exploited in the wild: a shell flaw that bypasses Mark of the Web warnings.",
+  "Reported independently by researchers at Fujitsu, Anthropic and an independent expert.",
+  "CISA added it to its Known Exploited Vulnerabilities list and told federal agencies to fix it by 16 Oct.",
+  "Two flaws were public before patches; Microsoft introduced 'risk cohorts' to help prioritise updates."
+ ],
+ "quote_evidence": [
+  "Microsoft's October 2026 Patch Tuesday updates fix a record-breaking number of vulnerabilities, including a Windows zero-day exploited in the wild.",
+  "This month alone, Microsoft patched more vulnerabilities than it did in all of 2025."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Everyone running Windows needs to install this update, and the volume shows AI is speeding up bug discovery.",
+ "event_date": "13 Oct 2026 (Patch Tuesday)",
+ "notes": "Patch Tuesday was 13 Oct 2026; reported 14 Oct. AI as the cause of the surge is SecurityWeek's description; no figure is given."
+}

@@ -1,0 +1,22 @@
+{
+ "item_id": "C03-03",
+ "title": "HydraFusion updates and new Max option",
+ "source_used": "The GitHub Blog (changelog)",
+ "article_url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/",
+ "fetched": true,
+ "key_facts": [
+  "HydraFusion orchestrates multiple AI models to produce a single response, so users need not pick a model for each task.",
+  "It now has an updated model pool and improved orchestration workflows.",
+  "A new option, HydraFusion Max, is tuned for frontier capability on more demanding tasks with higher reasoning effort.",
+  "Both are available in VS Code, the GitHub Copilot app and GitHub Copilot CLI and remain in research preview.",
+  "Available on Copilot Pro, Pro+, Business and Enterprise plans with experimental or preview features enabled, subject to organisation model policies."
+ ],
+ "quote_evidence": [
+  "HydraFusion orchestrates multiple models to produce a single response, bringing together their strengths so you don’t have to choose an individual model for each task.",
+  "Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot CLI and remain in research preview."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Copilot users get a heavier-duty multi-model option for harder coding tasks, still as a preview.",
+ "event_date": "14 Oct 2026",
+ "notes": "Short changelog; no pricing, benchmarks or model names given."
+}

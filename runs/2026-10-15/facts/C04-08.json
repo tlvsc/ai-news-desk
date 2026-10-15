@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-08",
+ "title": "New ‘First Proof’ exam reveals how AI-powered math is a pay-to-play sport",
+ "source_used": "Scientific American",
+ "article_url": "https://www.scientificamerican.com/article/new-first-proof-exam-reveals-how-ai-powered-math-is-a-pay-for-play-sport/",
+ "fetched": true,
+ "key_facts": [
+  "The First Proof project, started in February by top mathematicians, released its third batch of results on 14 Oct 2026.",
+  "Ten research problems were chosen; each model answered with no human input and three graders per problem reviewed the answers.",
+  "The best performer, ProofCouncil (a combination built on OpenAI's GPT 6 Astra), solved nine of 10 to a 'minor revisions' standard.",
+  "Round one's top model solved a few problems; round two's winner solved six or seven.",
+  "The best open-weight model, Kimi K3, solved none.",
+  "OpenAI's newest internal model was excluded because entrants must be openly available; Google did not take part.",
+  "Mohammed Abouzaid of Stanford says the gap between open-weight and frontier models is very large in research maths."
+ ],
+ "quote_evidence": [
+  "“The gap between the open-weight models and frontier models is very large in research mathematics—much larger than in other domains,”",
+  "Notably, the best open-weight model, Kimi K3, solved exactly zero problems."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Independent test shows frontier AI nearly solves research-level proofs while open models fall far behind.",
+ "event_date": "14 Oct 2026",
+ "notes": ""
+}

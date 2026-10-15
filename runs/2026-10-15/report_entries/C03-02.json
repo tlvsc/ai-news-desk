@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "Anthropic now lets developers send detailed records of what their Claude-based AI agents do to standard monitoring tools.",
+ "score": 6,
+ "score_reason": "Official announcement of a public-beta developer feature; moderate reach, mainly developers and companies running agents.",
+ "importance_label": "MEDIUM",
+ "importance_line": "It lets developers and platform teams see latency, token use and tool calls of Claude agents in the same dashboards as their other software, though the benefit figures come from customers quoted by Anthropic.",
+ "source": "Unite.AI, citing Anthropic",
+ "status": "CONFIRMED",
+ "summary": "Unite.AI reports, citing Anthropic's announcement of 14 Oct 2026, that developers can now export OpenTelemetry traces, which are standard step-by-step records of a request, from Claude Managed Agents, the Messages API and Claude's software kits to any compatible monitoring tool; the feature is in public beta. Each agent turn, model call and tool use arrives with timing, token counts and IDs, prompts and replies are left out unless a developer switches on full content, and Anthropic quotes Ramp, a finance software company, as saying token use fell 10-20% on some agents and sessions ran 30% faster.",
+ "url": "https://www.unite.ai/anthropic-adds-opentelemetry-trace-export-to-the-claude-platform/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source is Anthropic's announcement relayed by Unite.AI; Anthropic's own page not opened here."
+}

@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Security firm Noma says a flaw in Anthropic's Claude Code Desktop app could let a malicious web file steal developers' passwords and keys, and that Anthropic has fixed it.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: high-severity flaw in a popular tool, already fixed; details come from the finder.",
+ "importance_line": "Developers who use Claude Code Desktop should be on the fixed version, since the flaw could expose cloud credentials and SSH keys, though the details come from Noma and Anthropic has not commented publicly.",
+ "status": "REPORTED",
+ "summary": "CSO Online reports that security firm Noma Security found a flaw, named SneakPeek, in Anthropic's Claude Code Desktop app where a malicious HTML file larger than 256KB could run code in the preview pane and read local files such as cloud credentials, GitHub secrets and SSH private keys. Noma says Anthropic, which rated it 8.7 on the 10-point severity scale, has fully fixed it after an early patch was bypassed, while Anthropic had not commented to CSO.",
+ "source": "CSO Online",
+ "url": "https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "DevOps.com original blocked; CSO Online (own reporting with Noma) read.",
+ "item_id": "C12-11",
+ "importance_label": "WATCHLIST"
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-15",
+ "v1_category": "ROB",
+ "headline": "Intel has launched robot software and a single-chip platform aimed at running a factory robot's real-time control and AI together.",
+ "score": 5,
+ "score_reason": "Kept at pool score: a company platform launch with unproven performance claims.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It affects robot makers and factory owners choosing between Intel and Nvidia, and the claims come from Intel with no independent production results yet.",
+ "source": "Tech Times",
+ "status": "REPORTED",
+ "summary": "Tech Times reports that Intel unveiled its Robotics AI Suite and Physical AI Studio at a workshop in Seoul on Wednesday 14 Oct 2026, pitching its Core Ultra Series 3 processor, which puts a general processor, graphics unit and AI unit on one chip, as a single-chip alternative to separate controllers and accelerators in factory robots. Tech Times notes that Intel's survey figures are company-commissioned and that production deployments, not workshop claims, will settle how it compares with Nvidia's established Isaac robotics platform.",
+ "url": "https://www.techtimes.com/articles/329057/20261014/intel-unveils-robotics-ai-platform-uniting-real-time-control-ai-one-chip.htm",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Category set to ROB (robot platform); no machine shown doing a task, so machine_action false."
+}

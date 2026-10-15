@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "MOD",
+ "headline": "LangChain has added a search tool to LangSmith that lets developers find AI agent mistakes by describing them in everyday words.",
+ "score": 5,
+ "score_reason": "Vendor feature announcement for developers; useful but niche.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It helps developers catch agents that say a job is done when it is not, though the search reads only a trimmed 8,000-token view of long sessions and may miss details.",
+ "source": "Developer Tech News, citing LangChain",
+ "status": "REPORTED",
+ "summary": "Developer Tech News reports, citing LangChain's announcement, that LangSmith, LangChain's tool for monitoring AI agents, now has AI Search, which lets developers find agent sessions by describing a behaviour such as an agent claiming a task is finished when it is not. LangChain says an AI model reviews each recorded session, but only an 8,000-token portion of long ones, so it may miss details, and the company is working on better ways to pick what to examine.",
+ "url": "https://www.developer-tech.com/news/langsmith-ai-search-debugging-ai-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Company limits (8,000-token budget) are LangChain's statements as relayed by Developer Tech."
+}

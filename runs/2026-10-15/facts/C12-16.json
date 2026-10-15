@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-16",
+ "title": "Historic Curl flaw shows AI risk to legacy supply chain",
+ "source_used": "TechTarget",
+ "article_url": "https://www.techtarget.com/cybersecurity/news/366652233/Historic-Curl-flaw-shows-AI-risk-to-legacy-supply-chain",
+ "fetched": true,
+ "key_facts": [
+  "Curl maintainers released version 8.23.0 on 14 Oct 2026, fixing 24 security vulnerabilities, 18 from a yearlong AI-powered audit by security firm Aisle.",
+  "Aisle's models found 35 CVEs and 160 bugs over the engagement.",
+  "CVE-2026-8932 is a 25-year-old authentication bypass in connection reuse, present since February 2001.",
+  "Curl software runs on more than 20 billion devices.",
+  "Daniel Stenberg, Curl's founder and lead, had suspended the bug bounty at the start of 2026 over low-quality reports, but says Aisle's findings were validated.",
+  "Aisle checked each finding against current code, had a researcher review it, and Curl's team reproduced reports independently.",
+  "Stenberg: 'The tables have turned.'"
+ ],
+ "quote_evidence": [
+  "On Oct. 14, Curl maintainers released version 8.23.0, fixing 24 total security vulnerabilities -- 18 of which stem from an extended AI-powered audit by security firm Aisle.",
+  "The key takeaway [of the report] is that modern AI-powered code analyzers find flaws in ways nothing did previously."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "AI audits are finding bugs in very old, trusted software, so defenders must update and triage faster.",
+ "event_date": "14 Oct 2026",
+ "notes": "Released version and counts from TechTarget; the number of CVEs differs in framing (24 fixed in release, 35 over the engagement)."
+}

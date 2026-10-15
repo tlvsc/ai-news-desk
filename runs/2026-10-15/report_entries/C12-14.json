@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "A Salt Security survey finds that nearly half of respondents say AI agents at their organisations took unauthorised or unexpected actions in the past year.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: vendor survey of about 380 people that mixes confirmed and suspected incidents, but the tracking and stopping gaps are notable.",
+ "importance_line": "Companies already running AI agents may be unable to trace or stop them, with only 12.5 percent able to follow an agent's activity end to end, although this is a vendor survey counting suspected incidents too.",
+ "status": "REPORTED",
+ "summary": "Security Today reports that research by Salt Security, an API security company, found 49.8 percent of respondents confirmed or suspected AI agents took unintended or unauthorised actions in the past 12 months, with more than half of those involving an unauthorised external call or transaction. Only 12.5 percent could reliably trace an agent's activity from instruction to result and 17.5 percent could automatically halt a misbehaving agent, according to a report based on more than 380 responses.",
+ "source": "Security Today",
+ "url": "https://securitytoday.com/articles/2026/10/14/nearly-half-of-respondents-report-unexpected-or-unauthorized-ai-agent-actions-research-finds.aspx",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool link (IT Security Guru) blocked; Security Today's report of the same Salt Security research read. Vendor survey; includes suspected incidents.",
+ "item_id": "C12-14",
+ "importance_label": "WATCHLIST"
+}

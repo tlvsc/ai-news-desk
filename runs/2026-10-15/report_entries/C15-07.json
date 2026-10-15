@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-07",
+ "v1_category": "RES",
+ "headline": "Researchers from Rutgers, IBM and partner institutions showed that a quantum computer can check and reset its own qubits mid-calculation across a chain of up to 100 qubits.",
+ "score": 4,
+ "score_reason": "Peer-reviewed result but a research step, and reported from 12 Oct; lowered by 1 as older news.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Quantum researchers get evidence for the real-time self-correction that future reliable machines need, though no fault-tolerant quantum computer exists yet.",
+ "source": "AZoQuantum",
+ "status": "CONFIRMED",
+ "summary": "AZoQuantum reports, as 12 Oct coverage of a Nature Physics study, that researchers from Rutgers, IBM, City College of New York and other institutions used a 156-qubit IBM processor to run nearly 10,000 combined scrambling and reset operations, the largest such demonstration to date. The team saw a sharp tipping point from chaos to order depending on how often qubits were reset, a step toward the continuous error correction that fault-tolerant machines will need.",
+ "url": "https://www.azoquantum.com/News.aspx?newsID=11282",
+ "freshness": "FOLLOW-UP of 12 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "CCNY release and Phys.org blocked; AZoQuantum read. Our first edition carrying it, but event predates 14 Oct."
+}

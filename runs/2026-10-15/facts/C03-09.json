@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-09",
+ "title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/",
+ "fetched": true,
+ "key_facts": [
+  "CedarDB is a Munich-based database engine spun out of the Technical University of Munich, built on the research project Umbra.",
+  "It supports both analytical queries and operational (transaction) workloads in one system, which CEO and co-founder Moritz Sichert says matters more with agentic AI.",
+  "It is compatible with PostgreSQL, which keeps switching costs low and matches what LLMs know best.",
+  "On Wednesday (14 Oct 2026) it announced limited availability of CedarDB Cloud on stage at TechCrunch Disrupt, where it is one of 21 startups in the Startup Battlefield.",
+  "CedarDB Enterprise (on-premise) and a free Community Edition were announced in May of last year with a EUR 5.3 million (about $6 million) seed round.",
+  "The company has 14 people and Sichert expects to raise its next round once the cloud offering gets traction.",
+  "Databricks launched a similar unified architecture, LTAP, at its June Data + AI Summit."
+ ],
+ "quote_evidence": [
+  "Databases have traditionally been built for one of two jobs.",
+  "the company on Wednesday announced limited availability of CedarDB Cloud onstage at TechCrunch Disrupt",
+  "It is too early to tell how disruptive this might be"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A small startup is bringing a combined database to the cloud just as bigger rivals chase the same idea for AI agents.",
+ "event_date": "14 Oct 2026",
+ "notes": "Interview-based; claims of speed are the company's."
+}

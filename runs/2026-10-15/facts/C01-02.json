@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-02",
+ "title": "Step 5 Preview Weights: Hardware, Access and License",
+ "source_used": "Kingy AI",
+ "article_url": "https://kingy.ai/blog/step-5-preview-weights-hardware-license/",
+ "fetched": true,
+ "key_facts": [
+  "StepFun's Step 5 Preview is a mixture-of-experts model with 600 billion total and 27 billion active parameters, per its model card.",
+  "The official repositories were visible on 14 Oct 2026 (Vancouver), including an NVFP4 version of about 394 GB (95 shards); the main FP8 checkpoint is about 650 GB.",
+  "Kingy's anonymous checks found both repositories not gated (gated: false).",
+  "Weights come under StepFun Model License 1.0: use, copying, redistribution and modification allowed with notice and attribution duties.",
+  "Extra terms apply above 100 million active users or US$20 million revenue in a month (attribution), and commercial agreements for some hardware makers and large MaaS operators.",
+  "StepFun's examples use four B300 or eight H200 GPUs for FP8; a 128 GB machine cannot hold the NVFP4 files.",
+  "Kingy did not download the weights, run inference or test the model; the date the repositories opened is unverified."
+ ],
+ "quote_evidence": [
+  "We did not download the complete weights, install a serving stack, run local inference or execute a matched coding comparison.",
+  "The exact time the repositories first opened to the public remains unverified.",
+  "This is a weight release with licensing limits."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open weights for a 600-billion-parameter model exist, but running them needs data-centre-class hardware and the licence has conditions.",
+ "event_date": "Around 14 Oct 2026 (exact opening unverified)",
+ "notes": "Kingy's own repository check, not a hands-on test; nothing was run. Earlier report of a gated screen not reproduced."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-07",
+ "title": "Google says self-improving AI isn't anywhere close",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+ "fetched": true,
+ "key_facts": [
+  "Google DeepMind engineer Haydn Belfield says self-improving AI is far off.",
+  "DeepMind has seen no measurable acceleration of AI research driven by AI itself.",
+  "AI writes more than 75 percent of production code, but about 88 percent of code changes still need human oversight or review.",
+  "The share of code changes fully delegated to AI rose from 7.5 to 11.9 percent.",
+  "On the RE-Bench ML engineering benchmark (74 tasks), Argon solves about half, versus 27 percent for Gemini 3.7 Flash.",
+  "Gemini capabilities grow about 0.1 General Capability Index points per month with no change in speed.",
+  "Over 20 researchers, including Hinton, Bengio and Pachocki, have warned of a possible intelligence explosion."
+ ],
+ "quote_evidence": [
+  "Google Deepmind has seen no measurable acceleration of AI research driven by AI itself, according to Belfield.",
+  "The team currently rates the risk from AI-driven research automation as low"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A major lab's internal data against the claim that AI is already speeding up AI research.",
+ "event_date": "Not stated",
+ "notes": "Belfield's title is given as Google engineer; the article attributes the findings to him and his team."
+}

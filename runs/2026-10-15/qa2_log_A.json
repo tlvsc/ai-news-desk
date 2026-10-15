@@ -1,0 +1,243 @@
+{
+ "changes": [
+  {
+   "item_id": "C13-03",
+   "field": "headline",
+   "before": "The United States and China are competing to set the AI agenda before a meeting between Xi Jinping and Donald Trump in Shenzhen, the South China Morning Post reports, citing sources.",
+   "after": "The United States and China are competing to set the AI agenda before talks between China's President Xi Jinping and US President Donald Trump in Shenzhen, the South China Morning Post reports, citing sources.",
+   "reason": "Named people given their position (CLAUDE.md PEOPLE WITH THEIR POSITION); meaning unchanged, still headline-only and attributed."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "importance_line",
+   "before": "Data centres that train AI are now war targets, which could slow Russia's AI work and raises the risk to computing sites elsewhere, though neither company says whether any supercomputer was damaged.",
+   "after": "Data centres that train AI are now war targets, which could slow Russia's AI work, though neither company says whether any supercomputer was damaged.",
+   "reason": "Removed an invented consequence (risk to computing sites elsewhere) not in the facts."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "summary",
+   "before": "Reuters reports that the strike on Sberbank's Balakovo data centre followed three attacks in the past week on data centres run by Yandex, and that Sberbank confirmed the attack while saying its services are running normally. Neither company says whether supercomputers used to train AI models were damaged; an IT expert quoted by Reuters said damage could set back a Russian AI industry already held back by sanctions on advanced chips.",
+   "after": "Reuters reports that the strike on Sberbank's Balakovo data centre followed three attacks in the past week on data centres run by Yandex, and that Sberbank confirmed the attack while saying its services are running normally. Neither company says whether supercomputers used to train AI models were damaged; both say they already trail US and Chinese AI leaders by up to nine months, partly because of sanctions on advanced chips.",
+   "reason": "The IT expert quote is not in the facts; replaced with the supported fact about both companies trailing US and Chinese leaders."
+  },
+  {
+   "item_id": "C13-10",
+   "field": "headline",
+   "before": "At Ireland's International AI Summit in Dublin, tech executives stressed opportunity while regulators and critics pressed for firmer safety rules.",
+   "after": "Ireland launched a \"Dublin Declaration\" on safe AI at its International AI Summit, where Microsoft's president called for stricter safety rules and critics said independent voices were missing.",
+   "reason": "Old headline set tech executives against regulators, but the facts show Microsoft's president himself called for stricter rules; rewritten to what the facts support."
+  },
+  {
+   "item_id": "C13-10",
+   "field": "importance_line",
+   "before": "The summit showed the gap between industry optimism and calls for safety rules that will shape EU policy, though it produced a declaration rather than binding rules.",
+   "after": "It shows a split over how strict AI safety rules should be, even among tech companies, as the EU starts enforcing its AI rules, but the summit produced a declaration rather than binding rules.",
+   "reason": "Removed the stronger certainty 'will shape EU policy' and the industry-versus-regulators framing the facts do not support."
+  },
+  {
+   "item_id": "C13-15",
+   "field": "summary",
+   "before": "Reuters reports, as relayed by The Edge Malaysia, that ASML chief financial officer Roger Dassen told reporters after the company's third-quarter results that the Match Act now before the US Congress would, if passed after the midterm elections, speed up China's development of rival lithography technology. He said he was \"optimistic that common sense will prevail\".",
+   "after": "Reuters reports, as relayed by The Edge Malaysia, that Roger Dassen, chief financial officer of ASML, the leading maker of chip-making equipment, told reporters after the company's third-quarter results that the Match Act now before the US Congress would, if passed after the midterm elections, speed up China's development of rival lithography technology. He said he was \"optimistic that common sense will prevail\".",
+   "reason": "Company given a short identifying description (phrasing file Section 1, rule 1), from the facts ('top computer chip equipment manufacturer')."
+  },
+  {
+   "item_id": "C07-01",
+   "field": "importance_line",
+   "before": "US savers and pension holders, then investors in AI and chip companies, saw the sharpest losses; the doubt is whether one day of falls marks a lasting turn.",
+   "after": "Savers and pension holders with US shares lost money, and AI and chip investors lost most; the doubt is whether one day of falls marks a lasting turn.",
+   "reason": "Old line said savers and pension holders saw the sharpest losses; the facts say chip stocks led the fall."
+  },
+  {
+   "item_id": "C07-04",
+   "field": "importance_line",
+   "before": "Investors in AI hardware and the companies that buy TSMC's chips, such as Nvidia and Apple, are most affected; the figures come from a short automated earnings summary, and TSMC's outlook for next quarter and its spending plan, not yet seen here, will matter more.",
+   "after": "Investors in AI hardware and the companies that buy TSMC's chips, such as Nvidia and Apple, read it as a measure of demand for AI chips, though one strong quarter does not show how long that demand will last.",
+   "reason": "Removed internal process notes ('short automated earnings summary', 'not yet seen here') and an unsupported claim that the outlook 'will matter more'."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "headline",
+   "before": "Anduril, the US maker of AI-guided defense drones and systems, is expected to be valued at about $90 billion through a share sale to its employees, Bloomberg reports.",
+   "after": "Anduril, the US maker of AI-guided defense drones and systems, is expected to be valued at about $90 billion in a sale that lets employees sell their shares, Bloomberg reports.",
+   "reason": "Meaning error: the tender offer lets employees sell their shares to outside buyers, it is not a sale to employees."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "source",
+   "before": "Bloomberg, as relayed by Chosunbiz",
+   "after": "Bloomberg",
+   "reason": "Credit: Bloomberg reported the story; Chosunbiz only relays it."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "It affects chip suppliers such as Broadcom, Qualcomm and Nvidia and ByteDance's AI build-out, and it is a report of talks, not a signed contract.",
+   "after": "It could shift business between chip suppliers such as MediaTek, Broadcom, Qualcomm and Nvidia as ByteDance builds out its AI, but it is a report of talks, not a signed contract.",
+   "reason": "'It affects' was stronger than the facts, which describe a reported deal in talks; hedged to 'could'."
+  },
+  {
+   "item_id": "C05-11",
+   "field": "source",
+   "before": "CNBC, as relayed by BigGo Finance",
+   "after": "CNBC",
+   "reason": "Credit: Fink spoke to CNBC; BigGo Finance only relays the interview."
+  },
+  {
+   "item_id": "C05-11",
+   "field": "summary",
+   "before": "BigGo Finance reports, citing Larry Fink's CNBC interview after BlackRock's third-quarter results on Wednesday, that the chief executive of the asset manager BlackRock said \"If we have a moratorium of some sort in this country, we will be in a recession,\" and called most criticism of data centres \"misinformation.\" The remark comes as data centres become a campaign issue before the 3 November US midterm elections, over electricity bills, water use and limited visibility into financing, and the report itself notes a freeze would not necessarily cause a recession if it were narrow or spending moved elsewhere.",
+   "after": "Larry Fink, chief executive of the asset manager BlackRock, told CNBC on Wednesday, after BlackRock's third-quarter results, \"If we have a moratorium of some sort in this country, we will be in a recession,\" and called most criticism of data centres \"misinformation.\" The remark comes as data centres become a campaign issue before the 3 November US midterm elections, over electricity bills, water use and limited visibility into financing.",
+   "reason": "Credit moved to CNBC to match the source; dropped the relay site's own analysis line, which would now be misattributed (the doubt stays in the importance line)."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "source",
+   "before": "Stocktwits (via TradingView)",
+   "after": "Stocktwits",
+   "reason": "Credit: the source line named the copy site TradingView; Stocktwits wrote the report."
+  },
+  {
+   "item_id": "C07-06",
+   "field": "summary",
+   "before": "Stocktwits, in a report on TradingView, says shares of CoreWeave, Nebius and IREN fell on Wednesday 14 Oct 2026 after Gartner forecast that over 80% of neoclouds, which rent out specialised AI chips and computing power, will shut down or merge by 2030. Gartner's Will Sommer, senior director analyst, said AI revenue will be too low to support profitable returns on all planned AI spending.",
+   "after": "Stocktwits, in a report on TradingView, says shares of CoreWeave, Nebius and IREN fell on Wednesday 14 Oct 2026 after Gartner forecast that over 80% of neoclouds, which rent out specialised AI chips and computing power, will shut down or merge by 2030. Will Sommer, a senior director analyst at Gartner, said money earned from AI will not be enough to pay back all the planned AI spending at a profit.",
+   "reason": "Sentence was a near copy of the quote_evidence; rewritten in our own words."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "source",
+   "before": "Stocktwits (via TradingView), citing CNBC",
+   "after": "CNBC",
+   "reason": "Credit: the story is White's CNBC interview; Stocktwits on TradingView is a recap."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "summary",
+   "before": "Stocktwits, in a report on TradingView about a CNBC interview, says Chris White, chief executive of BondCliQ and ViableMkts, believes bond investors are starting to doubt the long-term prospects of many large AI 'hyperscalers', the biggest cloud and AI spenders, pointing to CoreWeave and Oracle. He said their debt matures soon, so they must refinance within five to seven years and may have to pay a yield premium, and that heavy bond supply from AI firms could also make it harder for the US government to raise money.",
+   "after": "Chris White, chief executive of BondCliQ and ViableMkts, told CNBC on 14 Oct 2026 that bond investors are starting to doubt the long-term prospects of many large AI 'hyperscalers', the biggest cloud and AI spenders, pointing to CoreWeave and Oracle. He said their debt matures soon, so they must refinance within five to seven years and may have to pay a yield premium, and that heavy bond supply from AI firms could also make it harder for the US government to raise money.",
+   "reason": "Attribution moved to CNBC to match the corrected source."
+  },
+  {
+   "item_id": "C08-08",
+   "field": "headline",
+   "before": "The New York Fed's president says the AI chip shortage will probably last beyond two years and keep pushing up prices.",
+   "after": "The New York Fed's president says the AI chip shortage will probably last more than two years, after a sharp rise in the cost of chips.",
+   "reason": "'Keep pushing up prices' is not in the facts; Williams described a past 'abrupt and large increase' in costs."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "summary",
+   "before": "The Decoder reports, on a study the New York Times also covered, that the Swarmchasers research team traced more than 2,600 attempts between 28 Sep and 8 Oct 2026 by AI agents on Tencent Cloud to scrape data from Alibaba's Amap mapping service, working around bot blocks with hidden programs in web addresses and exposed credentials. The researchers then left invisible text inviting agents to a mailbox and received 33 messages; a source close to Tencent said the fleet came from an evaluation team's tests, and although some agents called themselves Anthropic's Claude, the researchers say that is likely wrong.",
+   "after": "The Decoder reports, on a study the New York Times also covered, that the Swarmchasers research team traced more than 2,600 attempts between 28 Sep and 8 Oct 2026 by AI agents on Tencent Cloud to scrape data from Alibaba's Amap mapping service, getting around bot blocks through a public website-scanning service and Amap access keys left in a public code repository. The researchers then left invisible text inviting agents to a mailbox and received 33 messages; a source close to Tencent said the fleet came from an evaluation team's tests, and although some agents called themselves Anthropic's Claude, the researchers say that is likely wrong.",
+   "reason": "'Hidden programs in web addresses' misdescribes the facts (programs run through the urlquery.net scanning service; Amap keys found in a public code repository)."
+  },
+  {
+   "item_id": "C05-12",
+   "field": "summary",
+   "before": "Stocktwits reports that Mark Zuckerberg, chief executive of Meta, and Alexandr Wang, Meta's AI chief, said on X that labs should keep advancing while building safeguards, with Zuckerberg writing \"Any lab that doesn't focus on alignment will fall behind\" and both urging independent evaluators; they said Meta puts most of its computing into serving users rather than racing toward recursive self-improvement, meaning AI that improves its own abilities. Their posts name no one but come amid a debate in which Dario Amodei, chief executive of Anthropic, has called for slowing frontier AI so safety can catch up, while President Donald Trump argues against slowing the US race with China.",
+   "after": "Stocktwits reports that Mark Zuckerberg, chief executive of Meta, and Alexandr Wang, Meta's AI chief, said on X that labs should keep advancing while building safeguards, with Zuckerberg writing \"Any lab that doesn't focus on alignment will fall behind\" and both urging independent evaluators; Zuckerberg called spending most computing power on serving people, rather than racing toward AI that improves its own abilities, one of the best ways to keep AI safe. Their posts name no one but come amid a debate in which Dario Amodei, chief executive of Anthropic, has called for slowing frontier AI so safety can catch up, while President Donald Trump argues against slowing the US race with China.",
+   "reason": "The facts give this as Zuckerberg's view of the safest path, not a statement by both that Meta already does it."
+  },
+  {
+   "item_id": "C12-05",
+   "field": "importance_line",
+   "before": "Windows and Office users and IT teams need to install the update soon, because one flaw is already being used in attacks, and the record volume points to AI speeding up bug discovery.",
+   "after": "Windows and Office users and IT teams need to install the update soon, because one flaw is already being used in attacks; SecurityWeek links the record number of fixes largely to AI, but gives no figure.",
+   "reason": "Attribution kept: the AI link is SecurityWeek's description, not a measured finding."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "New Scientist reports in its headline that Russia and China are using AI to carry out relentless cyberattacks against the UK, a claim we could not check against the full article.",
+   "after": "New Scientist reports that Russia and China are using AI to stage persistent cyberattacks against the UK.",
+   "reason": "Removed internal process note ('a claim we could not check against the full article'); the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "importance_line",
+   "before": "British organisations and the public may face AI-assisted state-backed cyberattacks, but we could not read the article to see the evidence or who made the claim.",
+   "after": "British organisations and the public may face AI-assisted cyberattacks backed by foreign states, but the evidence behind the claim and who made it are not yet clear.",
+   "reason": "Removed internal process note ('we could not read the article')."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "summary",
+   "before": "digitimes reports that Nvidia's Rubin AI accelerators are expected to rely mostly on 12-layer HBM4 (stacked high-bandwidth memory), despite other reports that Nvidia asked Samsung Electronics and SK hynix to supply more 8-layer products.",
+   "after": "digitimes reports that most of the memory in Nvidia's coming Rubin AI chips is expected to be 12-layer HBM4, a stacked high-speed memory, even though earlier reports said Nvidia had asked Samsung Electronics and SK hynix for more of the 8-layer kind.",
+   "reason": "Summary was a near copy of the quote_evidence sentence; rewritten in our own words as a cautious restatement."
+  },
+  {
+   "item_id": "C08-04",
+   "field": "importance_line",
+   "before": "It affects memory makers Samsung and SK hynix and Nvidia's supply plans for Rubin, but only the opening of the report could be read and the earlier 8-layer reports are not confirmed.",
+   "after": "It affects memory makers Samsung and SK hynix and Nvidia's supply plans for Rubin, though it is a trade-press forecast and the earlier 8-layer reports are unconfirmed.",
+   "reason": "Removed internal process note ('only the opening of the report could be read')."
+  },
+  {
+   "item_id": "C08-07",
+   "field": "headline",
+   "before": "Cerebras chief executive Andrew Feldman says his company lost OpenAI's next-generation business to Nvidia because it lacked enough data centres.",
+   "after": "Cerebras chief executive Andrew Feldman says a shortage of data centres at his company was a key reason OpenAI turned to Nvidia chips for its next-generation models.",
+   "reason": "'Lost OpenAI's next-generation business' overstated the facts (a key reason OpenAI turned to Nvidia to expand service; Cerebras still has an OpenAI contract and Altman calls it a close partner)."
+  },
+  {
+   "item_id": "C09-01",
+   "field": "source",
+   "before": "CNBC, as relayed by CoinDesk",
+   "after": "CNBC",
+   "reason": "Credit: the source line named the relay ('as relayed by CoinDesk'); the interview is CNBC's, which matches the url."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C12-09"
+   ],
+   "type": "re-dated",
+   "note": "Firings announced 9 Oct 2026 (letter 8 Oct); facts say nothing new inside the window beyond the dispute continuing. Not edited."
+  },
+  {
+   "item_ids": [
+    "C05-11",
+    "C07-10",
+    "C09-01"
+   ],
+   "type": "duplicate",
+   "note": "Same story: Larry Fink's CNBC interview of 14 Oct 2026 saying a data-centre moratorium would put the US in recession. Keep one."
+  },
+  {
+   "item_ids": [
+    "C05-09",
+    "C07-02",
+    "C09-02"
+   ],
+   "type": "duplicate",
+   "note": "Same story: CoreWeave's 2032 bond yield near 15% and its share fall on 14 Oct 2026 (C05-09 is the Musk 'Yikes' angle, C07-02 the CEO memo, C09-02 the bond angle). Keep one and fold the angles in. C07-06 (Gartner forecast) covers the same share move but is a separate news event."
+  },
+  {
+   "item_ids": [
+    "C13-08",
+    "C09-09"
+   ],
+   "type": "duplicate",
+   "note": "Cross-list: C09-09 (editor B list) is the same Ukrainian drone strike on Sberbank's data centre as C13-08."
+  },
+  {
+   "item_ids": [
+    "C07-06",
+    "C09-10"
+   ],
+   "type": "duplicate",
+   "note": "Cross-list: C09-10 (editor B list) is the same Gartner neocloud forecast and share fall as C07-06."
+  },
+  {
+   "item_ids": [
+    "C12-03"
+   ],
+   "type": "earlier coverage",
+   "note": "Our 6 Oct 2026 Full Report carried TechCrunch's item on the same Tencent-cloud agent fleet scraping Amap; freshness says NEW. What is new on 14 Oct is the researchers' contact with the agents and the Tencent-side source. Not edited (freshness is locked); for the 14-day duplicate check."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "GitHub has added a more powerful \"Max\" setting to HydraFusion, its Copilot feature that combines several AI models into one answer.",
+ "score": 5,
+ "score_reason": "Official changelog of a preview feature; limited detail and audience.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It affects developers on paid GitHub Copilot plans who can try a higher-effort mode, but the post gives no performance figures and the feature is still a research preview.",
+ "source": "The GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "The GitHub Blog reports in its changelog that HydraFusion, a GitHub Copilot feature that combines several AI models into a single answer, has an updated model pool and improved orchestration, and gains a new option called HydraFusion Max that uses higher reasoning effort for demanding tasks. Both remain in research preview in VS Code, the GitHub Copilot app and the Copilot command line, for paid Copilot plans with preview features switched on.",
+ "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Changelog gives no benchmark or pricing details."
+}

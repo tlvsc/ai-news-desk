@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-10",
+ "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+ "source_used": "dev.ua (SecurityWeek blocked, HTTP 403)",
+ "article_url": "https://dev.ua/en/news/shi-mozhe-atakuvaty-zavody-1791790056",
+ "fetched": true,
+ "key_facts": [
+  "Booz Allen Hamilton tested whether AI agents could independently take over industrial equipment in a lab simulating a factory.",
+  "The agents succeeded in all eight test scenarios, gaining access to controllers and making a robotic arm move, in a few minutes.",
+  "In one test an agent attacking a SCADA system initially failed because it targeted the wrong software version, then adapted and captured the operator's screen.",
+  "The SCADA server had active connections to 14 industrial devices.",
+  "Agents had to get human permission before exploiting vulnerabilities or taking physical actions.",
+  "Some defences held: one controller refused a stop command and a motor in local control mode could not be started remotely.",
+  "Kyle Miller, Booz Allen vice president of infrastructure cybersecurity, said a real factory hack could damage equipment or injure people."
+ ],
+ "quote_evidence": [
+  "The agents coped with all eight test scenarios.",
+  "However, agents had to obtain human permission before exploiting vulnerabilities or taking actions that could physically affect the equipment."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Lab tests show general AI agents can work out industrial control systems quickly, so basic factory security matters more.",
+ "event_date": "Oct 2026 (research published 14 Oct 2026)",
+ "notes": "SecurityWeek original blocked; dev.ua summarises it without a direct link. Lab test with human sign-off steps; not an attack on a real factory."
+}

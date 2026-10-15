@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "The AI blog Kingy AI says StepFun has put the weights of its 600-billion-parameter Step 5 Preview model online, under a licence with conditions for large commercial users.",
+ "score": 6,
+ "score_reason": "Kept at pool score 6: a real open-weight release, but verified only by file listings and the licence, with no model test.",
+ "importance_line": "Researchers and companies with large GPU clusters can now study or host a big open-weight model from China's StepFun, but ordinary machines cannot run it, the licence adds duties for big commercial users, and nobody has tested its quality.",
+ "status": "REPORTED",
+ "summary": "Kingy AI reports that StepFun, a Chinese AI developer, has made the weights of Step 5 Preview public, a mixture-of-experts model with 600 billion parameters in total and 27 billion in use at a time, with a 394 GB version in NVFP4 (a compressed number format) and a 650 GB FP8 version. The blog read the files and the StepFun Model License 1.0, which allows use and redistribution but adds attribution and commercial-agreement duties above set user or revenue levels, and says it has not run the model or confirmed when the files first went public.",
+ "url": "https://kingy.ai/blog/step-5-preview-weights-hardware-license/",
+ "source": "Kingy AI",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Kingy AI checked the repositories itself on 14 Oct 2026; StepFun's own model card is its source for the parameter counts. Publication date of the release unverified.",
+ "item_id": "C01-02",
+ "importance_label": "MEDIUM"
+}

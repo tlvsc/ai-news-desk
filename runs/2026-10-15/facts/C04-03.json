@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-03",
+ "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft researchers published a method in Nature on 14 Oct 2026 for more accurate weather forecasts two to six weeks ahead.",
+  "The method, Probabilistic Bias Correction (PBC), uses machine learning to correct systematic bias in existing forecast models rather than building a new model.",
+  "It improved the European Centre for Medium-Range Weather Forecasts (ECMWF) physics-based model for 98 percent of precipitation and 92 percent of temperature targets.",
+  "It doubled the accuracy of ECMWF's new AI forecasting system in the study's analysis.",
+  "It runs on CPUs and is released as open-source software.",
+  "Matthew Chantry of ECMWF said turning ideas into an operational process is the hardest step.",
+  "Rhiza Research is testing PBC with the Kenya Meteorological Service Authority, funded by the Gates Foundation."
+ ],
+ "quote_evidence": [
+  "Researchers with the company say they’ve found a new, cost-effective way to make more accurate weather forecasts two to six weeks in advance",
+  "“As always, turning ideas into reality [in] an operational process is a most challenging step,” Chantry added."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Cheap, CPU-only tool could bring better multi-week forecasts to resource-limited weather agencies.",
+ "event_date": "14 Oct 2026",
+ "notes": "Results are the authors' own, published in Nature; not yet operational."
+}

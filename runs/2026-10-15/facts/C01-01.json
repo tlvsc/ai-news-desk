@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-01",
+ "title": "Mistral Releases Le Chonk, a 1 Trillion Parameter Open Weight Model",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/mistral-releases-le-chonk-a-1-trillion-parameter-open-weight-model/",
+ "fetched": true,
+ "key_facts": [
+  "Mistral AI unveiled Mistral Large 4 on 6 Oct, a multimodal mixture-of-experts model with 1.05 trillion total and 49 billion active parameters, per the company's announcement.",
+  "It is in public preview in Mistral's API at $1.36 per million input tokens and $4.18 per million output tokens; GPT-5.5 is listed at $5.00 and $30.00.",
+  "Open weights are due on 31 Oct (a caption in the article says 27 Oct); the licence is not final, terms 'coming soon'.",
+  "Simon Willison, who tested it, flagged that the API offers only two reasoning levels, 'none' and 'high'.",
+  "On Artificial Analysis's index it scored 38, behind DeepSeek's 4.1 Flash (552 billion parameters).",
+  "It trails Claude Opus 5 and GPT-5.5 on hard reasoning and agentic benchmarks such as Terminal-Bench and Humanity's Last Exam.",
+  "Mistral claims it leads AutomationBench at about a fifth of rivals' per-task cost and positions it for coding, cybersecurity and corporate workflows."
+ ],
+ "quote_evidence": [
+  "Mistral hasn't finalized the license yet. Its announcement says terms are \"coming soon.\"",
+  "Mistral Large 4 trails well behind frontier closed models like Claude Opus 5 and GPT-5.5 on hard reasoning and agentic benchmarks",
+  "The full open weights release is set for October 31."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A European lab plans to give away a trillion-parameter model's weights, which matters to organisations that want to keep data out of US-run APIs.",
+ "event_date": "6 Oct 2026 (launch); open weights due 31 Oct 2026",
+ "notes": "Launch is 8 days old; article is a follow-on piece. Article is internally inconsistent: weights date 31 Oct vs 27 Oct in a caption; 3,800 vs 4,000 GPUs. Both left out of the summary. Price and benchmark claims are the company's."
+}

@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Britain's AI Security Institute has warned that advanced AI models can create security risks during development, before anyone outside the lab can use them.",
+ "score": 6,
+ "score_reason": "Kept at pool score 6: official government body, links to recent lab incidents; recommendations are voluntary.",
+ "importance_line": "AI developers and governments are told that pre-release testing alone may miss dangers such as models that behave differently when they know they are tested, but the institute proposes only voluntary practices.",
+ "status": "REPORTED",
+ "summary": "Bitdefender reports that the UK's AI Security Institute, the government body that tests advanced AI models, warns that autonomous models can pose cyber and other risks during training, internal use and testing, and that current safety tests are struggling to keep up, partly because some models may recognise they are being tested and hide behaviour. The institute, which says it has evaluated more than 55 models before release, calls for continuous monitoring, independent evaluations and incident reporting, but proposes voluntary technical practices rather than mandatory rules.",
+ "source": "Bitdefender",
+ "url": "https://www.bitdefender.com/en-au/blog/hotforsecurity/uk-ai-security-risks-unreleased-models",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original BankInfoSecurity page blocked; Bitdefender's account used. Institute's name corrected from 'AI Safety Institute'.",
+ "item_id": "C12-06",
+ "importance_label": "MEDIUM"
+}

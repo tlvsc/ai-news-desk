@@ -1,0 +1,233 @@
+{
+ "changes": [
+  {
+   "item_id": "C09-05",
+   "field": "headline",
+   "before": "Politico reports that Google's need for electricity is running ahead of what the US power grid can deliver.",
+   "after": "Politico reports that Google says it depends on the power grid, but that the grid is struggling to keep up.",
+   "reason": "Headline-only item: the headline stated Google's demand outrunning the 'US' grid as fact; restated cautiously with Google's own claim kept, no added country."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "summary",
+   "before": "Politico reports that Google says it needs the power grid, but that the grid cannot keep up with its demand.",
+   "after": "Politico reports that Google says it needs the power grid, and that the grid cannot keep up.",
+   "reason": "Headline-only item: 'with its demand' is not in the headline; kept a cautious restatement."
+  },
+  {
+   "item_id": "C09-05",
+   "field": "importance_line",
+   "before": "Electricity customers and other power users near Google's sites could be affected, but the details of the claim are not known.",
+   "after": "It points to a strain between Google's power needs and what the grid can supply, which matters to other electricity users, but the details of the report are not known.",
+   "reason": "Invented consequence ('near Google's sites') removed; headline-only item."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "headline",
+   "before": "A bill to make large data centers pay for the grid upgrades they require failed to advance in the US Senate, falling short of the 60 votes needed.",
+   "after": "A bill asking US states to consider making large data centers pay for their grid upgrades failed to advance in the Senate, short of the 60 votes needed.",
+   "reason": "Stronger than the facts: the bill only makes state regulators weigh such a standard and leaves adoption to the states."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "source",
+   "before": "The Cryptonomist, citing CoinDesk",
+   "after": "CoinDesk (via The Cryptonomist)",
+   "reason": "Credit: The Cryptonomist's article is a write-up of a CoinDesk opinion column ('According to the column'); credit goes to CoinDesk."
+  },
+  {
+   "item_id": "C09-06",
+   "field": "summary",
+   "before": "The Cryptonomist reports, citing a CoinDesk opinion column by Rashan Colbert of the Crypto Council for Innovation, an industry group, that the Ratepayer Protection Act drew 57 votes for and 43 against in a Senate procedural vote, short of the 60 needed, after passing the House 417 to 3. The bill would make state regulators and some utilities consider requiring data centers of 100 megawatts or more to cover the full extra cost of power generation and grid upgrades built for them, leaving the decision to each state.",
+   "after": "In an opinion column for CoinDesk, relayed by The Cryptonomist, Rashan Colbert, director of US policy at the Crypto Council for Innovation, an industry group, writes about a Senate procedural vote in which the Ratepayer Protection Act drew 57 votes for and 43 against, short of the 60 needed, after passing the House 417 to 3. The bill would make state regulators and some utilities consider requiring data centers of 100 megawatts or more to cover the full extra cost of power generation and grid upgrades built for them, leaving the decision to each state.",
+   "reason": "Credit moved to CoinDesk, the outlet the entry rests on; Colbert's position added (people rule)."
+  },
+  {
+   "item_id": "C09-07",
+   "field": "importance_line",
+   "before": "Google and AEP investors are most directly affected and communities near Cheyenne will see a large new power plant, but it is a plan with full operation not targeted until the end of 2028, read here through a secondary outlet.",
+   "after": "Google and AEP investors are most directly affected and communities near Cheyenne will see a large new power plant, but it is a plan with full operation not targeted until the end of 2028.",
+   "reason": "Internal process note ('read here through a secondary outlet') removed."
+  },
+  {
+   "item_id": "C09-09",
+   "field": "summary",
+   "before": "The Moscow Times reports that Sberbank First Deputy CEO Alexander Vedyakhin said Ukrainian drones targeted the state lender's data center under construction in Balakovo, in the Saratov region, overnight, with banking systems working normally and no employees hurt, according to state news agency TASS. This follows the three Yandex data center strikes we carried in our 11 Oct 2026 edition; Ukraine says it is answering Russian attacks on its own data sites, and Russia's Defense Ministry says it struck a Ukrainian data center overnight.",
+   "after": "The Moscow Times reports that Sberbank First Deputy CEO Alexander Vedyakhin said Ukrainian drones targeted the state lender's data center under construction in Balakovo, in the Saratov region, overnight, with banking systems working normally and no employees hurt, according to state news agency TASS. This follows three drone strikes on Yandex data centers, reported by the BBC and Reuters and carried in our 10 and 11 Oct 2026 editions; Ukraine says it is answering Russian attacks on its own data sites, and Russia's Defense Ministry says it struck a Ukrainian data center overnight.",
+   "reason": "Follow-up rule: the earlier Yandex strikes ran on 10 Oct (BBC, two sites) and 11 Oct (Reuters, third site), not only 11 Oct; named who reported them."
+  },
+  {
+   "item_id": "C11-10",
+   "field": "headline",
+   "before": "Chinese companies made more than 97 percent of the roughly 19,100 humanoid robots shipped worldwide in the first half of 2026, while Tesla's Optimus fell far short of its target.",
+   "after": "Chinese makers supplied more than 97 percent of the roughly 19,100 humanoid robots shipped worldwide in the first half of 2026, Startup Fortune reports, while Tesla's Optimus fell far short of its 2025 target.",
+   "reason": "Attribution added (figures rest on unnamed industry data); Tesla's 5,000 target was for 2025, not the first half of 2026."
+  },
+  {
+   "item_id": "C11-11",
+   "field": "headline",
+   "before": "Stryker will invest about 400 million dollars in surgical robot maker CMR Surgical and sell its Versius robot in the US, with an option to buy the company.",
+   "after": "Stryker has agreed to invest about 400 million dollars in surgical robot maker CMR Surgical and to sell its Versius robot in the US, with an option to buy the company, pending regulatory approval.",
+   "reason": "Stronger certainty: the agreement still needs regulatory approval before it closes."
+  },
+  {
+   "item_id": "C01-03",
+   "field": "importance_line",
+   "before": "Businesses that run customer support or sales calls with voice agents get a cheaper-or-equal rival to OpenAI and Google, but the lead is a few points on one index and OpenAI still wins one test.",
+   "after": "Businesses that run customer support or sales calls with voice agents get a rival that edges out OpenAI and Google on one independent index, but the lead is a few points and OpenAI still wins one test.",
+   "reason": "Unsupported claim: the price is compared only with Grok Voice 2.0 (one per-task cost with OpenAI only), so 'cheaper-or-equal rival to OpenAI and Google' is not supported."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "summary",
+   "before": "Reuters reports, and Anthropic's own announcement of 14 Oct 2026 confirms, that later this month Claude on its consumer app will start using official voting information from Democracy Works, a nonpartisan US nonprofit, so people can ask where to vote or what ID to bring and get an answer for their state. Anthropic also says Claude will show official election results on election night, and adds new safeguards against multi-step misuse such as fake news sites and social media accounts.",
+   "after": "Reuters reports, and Anthropic's own announcement of 14 Oct 2026 confirms, that later this month Claude on its consumer app will start using official voting information from Democracy Works, a nonpartisan US nonprofit, so people can ask where to vote or what ID to bring and get an answer for their state. Anthropic also says Claude will show official election results on election night, and that it has added new checks after outside testers found Claude could miss a harmful campaign split into many harmless-looking tasks.",
+   "reason": "'Fake news sites and social media accounts' is not in the facts; restated what the facts support."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "headline",
+   "before": "Epoch AI's index finds that China's best AI models have trailed the US frontier by an average of seven months since 2023, with the gap now as small as four months.",
+   "after": "Epoch AI's index finds that China's best AI models have trailed the US frontier by an average of seven months since 2023, with the gap ranging from four to fourteen months.",
+   "reason": "'Now as small as four months' is not supported: four months is the low end of the range since 2023, not the current gap."
+  },
+  {
+   "item_id": "C01-04",
+   "field": "summary",
+   "before": "Startup Fortune reports, citing the research group Epoch AI, that Chinese AI models have trailed the US frontier by an average of seven months since 2023, within a range of four to fourteen months, and that this gap closely matches the gap between open-weight models (whose files are public) and closed ones. The outlet also cites a Mozilla-backed analysis putting the gap near 4.4 months with Chinese open models up to five times cheaper per task, and argues the lead the US export controls aim to protect has shrunk, an opinion rather than a finding.",
+   "after": "Startup Fortune reports, citing the research group Epoch AI, that Chinese AI models have trailed the US frontier by an average of seven months since 2023, within a range of four to fourteen months, and that this gap closely matches the gap between open-weight models (whose files are public) and closed ones. The outlet also cites a Mozilla-backed analysis putting the gap near 4.4 months with Chinese open models up to five times cheaper per task, and questions whether US export controls still make sense, an opinion rather than a finding.",
+   "reason": "The outlet's opinion is about export controls; the shrinking gap is the data, not the opinion."
+  },
+  {
+   "item_id": "C13-05",
+   "field": "summary",
+   "before": "The Verge reports that 40 bipartisan attorneys general, including New York's Letitia James, filed a notice of interest after Character.AI said this week it was filing for Chapter 11 and selling some assets to Disney, citing the sensitive chats and the many minors who use it. They want the judge to require the buyer to use effective age checks, limit how minors use the chatbots, add crisis safeguards and let users delete their data; several states had been investigating the company since 2024.",
+   "after": "The Verge reports that 40 bipartisan attorneys general, including New York's Letitia James, filed a notice of interest in the bankruptcy case of the chatbot app Character.AI, citing its sensitive chats and the many minors who use it; Character.AI announced on 13 Oct that it was filing for Chapter 11 and selling some assets to Disney, a story we carried on 14 Oct. They want the judge to require the buyer to use effective age checks, limit how minors use the chatbots, add crisis safeguards and let users delete their data; several states had been investigating the company since 2024.",
+   "reason": "Reply rule: names and dates the earlier story the filing answers (Character.AI's 13 Oct bankruptcy announcement, in our 14 Oct edition) and identifies Character.AI."
+  },
+  {
+   "item_id": "C13-14",
+   "field": "summary",
+   "before": "Bloomberg reports that at a San Jose hearing on 14 Oct 2026 US District Judge Edward Davila said he was \"highly likely\" to bar OpenAI from using Apple's proprietary information, but called a proposed forensic search of devices a \"huge ask\". OpenAI denies the claims and said just before the hearing that a former employee who returned to Apple had sent over a hundred confidential OpenAI files to personal accounts; this follows our 14 Oct item on the judge ordering OpenAI to hand over hiring records.",
+   "after": "Bloomberg reports that at a San Jose hearing on 14 Oct 2026 in Apple's lawsuit, filed in July, accusing OpenAI of conspiring to get confidential information from former Apple employees, US District Judge Edward Davila said he was \"highly likely\" to bar those former employees now at OpenAI from using Apple's proprietary information, but called a proposed forensic search of devices a \"huge ask\". OpenAI denies the claims and said just before the hearing that a former employee who returned to Apple had sent over a hundred confidential OpenAI files to personal accounts; on 13 Oct TechCrunch reported that the judge had ordered OpenAI to hand over hiring records in the case.",
+   "reason": "Follow-up rule: the hiring-records order was a 14 Oct pool item (TechCrunch, 13 Oct), not a printed 14 Oct report item, so it is now credited to TechCrunch with its date; the July lawsuit is explained; the injunction covers use by former Apple employees now at OpenAI, per the quote."
+  },
+  {
+   "item_id": "C13-12",
+   "field": "summary",
+   "before": "Governing, republishing a MassLive column by Scott Kirsner, reports that the proposal could join the state's economic development bill and would have independent evaluators test large AI models for catastrophic risk at least three times a year, paid for by the developers. It is not settled: the committee chair said the issue was \"still being discussed\", while Anthropic and OpenAI say they support independent evaluations.",
+   "after": "In a MassLive column republished by Governing, Scott Kirsner writes that Governor Maura Healey has asked lawmakers to add AI safety language to the state's economic development bill, and that the proposal under discussion would have independent evaluators, paid by the developers, test large AI models for catastrophic risk at least three times a year. It is not settled: the committee chair said the issue was \"still being discussed\", while Anthropic and OpenAI say they support independent evaluations.",
+   "reason": "Credit: the summary credited the copy site (Governing) as reporter; now MassLive's column, matching the source line. Who asked for it (Governor Healey) added from the facts."
+  },
+  {
+   "item_id": "C13-12",
+   "field": "summary",
+   "before": "In a MassLive column republished by Governing, Scott Kirsner writes that Governor Maura Healey has asked lawmakers to add AI safety language to the state's economic development bill, and that the proposal under discussion would have independent evaluators, paid by the developers, test large AI models for catastrophic risk at least three times a year. It is not settled: the committee chair said the issue was \"still being discussed\", while Anthropic and OpenAI say they support independent evaluations.",
+   "after": "In a MassLive column republished by Governing, Scott Kirsner writes that Governor Maura Healey has asked lawmakers to add AI safety language to the state's economic development bill, and that the proposal under discussion would have independent evaluators, paid by the developers, test large AI models for catastrophic risk at least three times a year. It is not settled: Senator Barry Finegold, the committee chair, said the issue was \"still being discussed\", while Anthropic and OpenAI say they support independent evaluations.",
+   "reason": "People rule: the committee chair is named in the facts."
+  },
+  {
+   "item_id": "C10-03",
+   "field": "importance_line",
+   "before": "It points to how the drug industry is spending on AI, which could affect patients and prices over time, but we could not read the details or any figures.",
+   "after": "It points to more drug-industry spending on AI, which could in time affect how fast and how cheaply new medicines reach patients, but the scale of the spending and the companies involved are not known.",
+   "reason": "Internal process note ('we could not read') removed; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "summary",
+   "before": "NPR reports from Karur, southern India, that textile workers are wearing GoPro cameras so developers can train AI robots on their hand movements, and that some are paid for the footage while many others, such as 40-year-old Shobha Kiribakaran, are simply ordered to wear them. Astha Kapoor of the Aapti Institute, a technology research group, calls it \"exploitation of labor\", while she and economist Amit Basole differ on how fast robots could replace workers in a country where, she says, humans are cheaper to run than robots.",
+   "after": "NPR reports from Karur, southern India, that textile workers are wearing GoPro cameras so developers can train AI robots on their hand movements, and that some are paid for the footage while many others, such as 40-year-old Shobha Kiribakaran, are simply ordered to wear them. Astha Kapoor, co-founder of the Aapti Institute, which studies technology's effect on people, calls it \"exploitation of labor\", while she and economist Amit Basole differ on how fast robots could replace workers in a country where, she says, humans are cheaper to run than robots.",
+   "reason": "People rule: Kapoor's position (co-founder) is in the facts and NPR text."
+  },
+  {
+   "item_id": "C05-17",
+   "field": "summary",
+   "before": "Business Insider reports that Jeff Bezos, founder and chairman of Amazon, told Fox News last week that AI will let people do in three days what took five, and that Jamie Dimon, chief executive of JPMorgan Chase, Zoom chief executive Eric Yuan and Microsoft co-founder Bill Gates have made similar predictions, while Sam Altman, chief executive of OpenAI, says \"we never get the promise of the four-hour workweek at mass scale in society.\" Economist Alex Tabarrok of George Mason University told the outlet a shorter week is more likely than mass unemployment, and that the difference between the two comes down to how work is shared out.",
+   "after": "Business Insider reports that Jeff Bezos, founder and chairman of Amazon, told Fox News last week that AI will let people do in three days what took five, and that Jamie Dimon, chief executive of JPMorgan Chase, Zoom chief executive Eric Yuan and Microsoft co-founder Bill Gates have made similar predictions, while Sam Altman, chief executive of OpenAI, says \"we never get the promise of the four-hour workweek at mass scale in society.\" Alex Tabarrok, an economics professor at George Mason University, told the outlet a shorter week is more likely than mass unemployment, and wrote in an April blog post that the difference between catastrophe and wonderland \"boils down to distribution\".",
+   "reason": "Meaning: the 'distribution' line is from Tabarrok's April blog post, not what he told the outlet, and it is about how gains are shared, not 'how work is shared out'; short quote with speaker named."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "source",
+   "before": "India Today, citing the Amur courts' press service",
+   "after": "Reuters (via India Today)",
+   "reason": "Credit: per the facts, India Today's text matches the Reuters story (same figures and quotes) without crediting it; the first reporter is Reuters."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "summary",
+   "before": "India Today reports, citing a statement from the Amur courts' press service, that a court in Russia's Far East fined a woman 15,000 roubles after she used ChatGPT to make an image of a brown bear walking down a street in Magdagachi and sent it to a friend as a joke. The picture spread, residents called the police and the district head sent wildlife rangers to look for a bear that did not exist; a similar case in the Transbaikal region earlier brought a 30,000-rouble fine, while real bear attacks have killed at least 26 people this year.",
+   "after": "Reuters reports, in a story carried by India Today and citing a statement from the Amur courts' press service, that a court in Russia's Far East fined a woman 15,000 roubles after she used ChatGPT to make an image of a brown bear walking down a street in Magdagachi and sent it to a friend as a joke. The picture spread, residents called the police and the district head sent wildlife rangers to look for a bear that did not exist; a similar case in the Transbaikal region earlier brought a 30,000-rouble fine, while real bear attacks have killed at least 26 people this year.",
+   "reason": "Credit moved to Reuters, the first reporter."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "summary",
+   "before": "Reuters reports, in a story carried by India Today and citing a statement from the Amur courts' press service, that a court in Russia's Far East fined a woman 15,000 roubles after she used ChatGPT to make an image of a brown bear walking down a street in Magdagachi and sent it to a friend as a joke. The picture spread, residents called the police and the district head sent wildlife rangers to look for a bear that did not exist; a similar case in the Transbaikal region earlier brought a 30,000-rouble fine, while real bear attacks have killed at least 26 people this year.",
+   "after": "Reuters reports, in a story carried by India Today and citing a statement from the Amur courts' press service, that a court in Russia's Far East fined a woman 15,000 roubles after she used ChatGPT to make an image of a brown bear walking down a street in Magdagachi and sent it to a friend as a joke. The picture spread, residents called the police and the district head sent wildlife rangers to look for a bear that did not exist; a similar case in the Transbaikal region earlier brought a 30,000-rouble fine, while real bear attacks have killed at least 26 people since spring, according to the news agency RIA Novosti.",
+   "reason": "Facts say 'since spring' (RIA Novosti), not 'this year'; attribution added."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "importance_line",
+   "before": "It shows that fake AI images can set off real searches and fines, in a country already frightened by deadly bear attacks; it is a small court fine, and the same story appears as C16-10.",
+   "after": "It shows that fake AI images can set off real searches and fines, in a country already frightened by deadly bear attacks; it is a small court fine.",
+   "reason": "Internal note ('the same story appears as C16-10') removed from printed text; C16-10 is not in the report."
+  },
+  {
+   "item_id": "C16-05",
+   "field": "headline",
+   "before": "PetaPixel reports on 'grandmaslop', a trend of strange AI-made images of children shared by older people.",
+   "after": "PetaPixel reports on 'grandmaslop', its name for strange AI-made images of children that it says baby boomers are creating.",
+   "reason": "Headline-only item: the source headline says the images are made by baby boomers, not shared by older people; kept attribution."
+  },
+  {
+   "item_id": "C16-05",
+   "field": "summary",
+   "before": "PetaPixel reports on a trend it calls 'grandmaslop', described in its headline as bizarre AI images of children made by baby boomers.",
+   "after": "PetaPixel reports on what it calls 'grandmaslop': strange AI-generated pictures of children that, it says, are made by baby boomers.",
+   "reason": "Process note ('described in its headline') removed; cautious restatement kept."
+  },
+  {
+   "item_id": "C16-05",
+   "field": "importance_line",
+   "before": "It points to a trend of odd AI images of children shared by older social media users; details and scale are unknown because the article could not be read.",
+   "after": "It points to older people making odd AI images of children, but how widespread this is, and where, is not known.",
+   "reason": "Process note ('the article could not be read') removed; 'shared by older social media users' not supported."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "summary",
+   "before": "7NEWS reports that the Australian Hotels Association released a humorous advertisement showing cafes, aged care and supermarkets suffering if Labor, the Coalition and One Nation cut migrant labour, and The Mercury headlines it as a viral AI video from Hospitality Tasmania. Association chief executive Stephen Ferguson says no party is discussing the knock-on effects, and the article we read does not say how the video was made.",
+   "after": "7NEWS reports that the Australian Hotels Association released a humorous advertisement showing cafes, aged care and supermarkets suffering if Labor, the Coalition and One Nation cut migrant labour, and The Mercury headlines it as a viral AI video from Hospitality Tasmania. Association chief executive Stephen Ferguson says no party is discussing the knock-on effects, and the 7NEWS report does not say how the video was made.",
+   "reason": "Process note ('the article we read') replaced by the outlet's name."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "importance_line",
+   "before": "It adds an industry voice to Australia's argument over immigration cuts; whether the ad was made with AI is not confirmed by the text we could read.",
+   "after": "It adds an industry voice to Australia's argument over immigration cuts; whether the ad was made with AI is stated only in The Mercury's headline.",
+   "reason": "Process note ('the text we could read') removed."
+  },
+  {
+   "item_id": "C16-04",
+   "field": "source",
+   "before": "The National News Desk (Scripps), relaying Mediaite",
+   "after": "The National News Desk, relaying Mediaite",
+   "reason": "Parent-company label removed: the article does not establish it, and The National News Desk and its stations WJLA and KATU belong to Sinclair, not Scripps; outlet name kept."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C13-16",
+   "issue": "re-dated",
+   "detail": "Same arrest as item 85 of our 14 Oct 2026 Full Report (AP: arrested 9 Oct, device found 30 Sep); the court appearance was 13 Oct. Nothing new happened inside the window; the article only adds the name and complaint details. Not edited."
+  },
+  {
+   "item_id": "C14-02",
+   "issue": "re-dated",
+   "detail": "Same story as item 89 of our 14 Oct 2026 Full Report (Reuters: NYT, AFP and The Economist joined SPUR, Monday 12 Oct); this entry dates the announcement 13 Oct and nothing new happened inside the window. Note also a name clash: 14 Oct called SPUR 'Standards for Publisher Usage Rights', this entry 'Sustainable Publishers' Alliance'. Not edited."
+  }
+ ]
+}

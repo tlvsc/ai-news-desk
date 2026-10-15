@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Microsoft fixed a record 1,413 security flaws in its October update, including a Windows flaw that attackers are already exploiting.",
+ "score": 6,
+ "score_reason": "Kept at pool score 6: official, record size and an exploited zero-day; the AI link is SecurityWeek's characterisation, not measured.",
+ "importance_line": "Windows and Office users and IT teams need to install the update soon, because one flaw is already being used in attacks; SecurityWeek links the record number of fixes largely to AI, but gives no figure.",
+ "status": "CONFIRMED",
+ "summary": "SecurityWeek reports that Microsoft's October 2026 Patch Tuesday update, released on 13 Oct, fixes a record 1,413 vulnerabilities, more than the whole of 2025, a surge it says is largely driven by AI, including a Windows flaw (CVE-2026-96951) that lets attackers get past Microsoft's warnings on downloaded files and is already exploited. The US cyber agency CISA ordered federal agencies to apply the fix by 16 Oct, and Microsoft also introduced 'risk cohorts', groups of similar flaws, to help customers decide what to patch first.",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Patch Tuesday was 13 Oct 2026, the day before the window; first coverage in this window.",
+ "item_id": "C12-05",
+ "importance_label": "MEDIUM"
+}

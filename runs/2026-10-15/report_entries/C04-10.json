@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-10",
+ "v1_category": "RES",
+ "headline": "Argonne National Laboratory has shown an AI agent that takes plain-language instructions and steers an X-ray microscope to a chosen spot in a microchip.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: the demonstration dates from 5 Oct, and no performance comparison is given.",
+ "source": "Argonne National Laboratory (as relayed by Streamlinefeed)",
+ "status": "REPORTED",
+ "summary": "Streamlinefeed, describing an Argonne National Laboratory release, reports that on 5 Oct 2026 the laboratory showed an AI agent finding the boundary between two regions of a microchip at an X-ray beamline after a plain-language request, by scanning, analysing images and moving to a closer look. It acts alone only on low-risk steps and asks for human approval otherwise, and the release gives no comparison of accuracy or time against human operators.",
+ "importance_line": "Scientists who run costly beamlines could save effort, but the step is narrow, it is not a fully self-driving laboratory, and no speed or accuracy figures are given.",
+ "url": "https://streamlinefeed.co.ke/news/argonne-adds-ai-agent-to-x-ray-microscope",
+ "freshness": "FOLLOW-UP of 5 Oct 2026",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "The pool link (HPCwire) was blocked; the entry rests on Streamlinefeed's account of Argonne's own release. The microscope is steered by software, so machine_action is true only in the sense of an instrument moving.",
+ "importance_label": "WATCHLIST"
+}

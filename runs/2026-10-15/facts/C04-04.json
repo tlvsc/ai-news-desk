@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-04",
+ "title": "Researchers use AI to design proteins that cut up other proteins",
+ "source_used": "Ars Technica",
+ "article_url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers, mainly from David Baker's lab at the University of Washington, used AI design tools to make new protein-cutting enzymes (proteases).",
+  "They kept the catalytic core of two protease types, zinc and cysteine, and redesigned the rest using RFdiffusion2 and ProteinMPNN.",
+  "For the cysteine protease, 13 designs worked, a 19 percent success rate, all less active than the yeast original.",
+  "For the zinc protease, 35 of 38 designs with a placed water molecule showed some activity versus 14 of 89 without.",
+  "Random-mutation tweaks made some versions much more active; a v2 zinc version was 30 times more active than the original design.",
+  "They built zinc proteases that cut proteins linked to Alzheimer's disease and frontotemporal dementia in cells.",
+  "Delivery to cells and immune reactions are major hurdles for any therapy."
+ ],
+ "quote_evidence": [
+  "The resulting enzymes could be tuned to cut specific proteins in half",
+  "there are considerable hurdles that would need to be cleared before we could potentially start developing therapies using this technology."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows AI can design working enzymes from scratch, though activity is still below natural ones.",
+ "event_date": "14 Oct 2026",
+ "notes": "The article states some rate-increase figures with lost superscripts (e.g. '109'); those figures are not used."
+}

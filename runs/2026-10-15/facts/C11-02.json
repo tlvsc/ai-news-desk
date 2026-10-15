@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-02",
+ "title": "An AI-racing drone beat the best humans and set a world record",
+ "source_used": "Popular Science",
+ "article_url": "https://www.popsci.com/technology/fastest-ai-racing-drone/",
+ "fetched": true,
+ "key_facts": [
+  "A Delft University of Technology (Netherlands) team built MonoRace, a lightweight AI-piloted racing drone.",
+  "It won first place at the Abu Dhabi Autonomous Racing League in November 2025, beating all other AI teams and three former human world champion pilots.",
+  "It reached roughly 62 mph; the team says this is the first AI-piloted drone to beat human pilots in an international racing competition.",
+  "A University of Zurich AI drone (Swift) beat human racers in 2022, but only on an indoor track built for it.",
+  "MonoRace runs on a small onboard computer using a camera and an inertial measurement unit, issuing an estimated 500 commands per second.",
+  "A neural network trained by reinforcement learning in simulation controls the motors directly.",
+  "New details were published on 14 Oct 2026 in the journal Science Robotics."
+ ],
+ "quote_evidence": [
+  "The team won this race in November 2025 but new details about the science behind this achievement are published today in the journal Science Robotics.",
+  "During its flights, MonoRace topped speeds of roughly 62 miles per hour as it looped, dove, and zipped through gates.",
+  "According to the team, these results make MonoRace the first AI-piloted drone to beat human pilots in an international racing competition, and could have an impact on drone racing and physical AI more broadly."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI that flies fast with little sensing hardware points to machines that can move safely in the real world.",
+ "event_date": "Race Nov 2025; paper published 14 Oct 2026",
+ "notes": "Race result is older (Nov 2025); the new item is the peer-reviewed paper. 'First' is the team's claim."
+}

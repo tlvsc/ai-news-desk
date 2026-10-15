@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "Anthropic says its Claude model found a CRISPR-like repeating DNA pattern in a bacteriophage in under a day, but its own scientists do not yet know what it does.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the discovery was announced in late September and the finding is an unexplained early lead with no outside review.",
+ "source": "Scientific American",
+ "status": "PRELIMINARY",
+ "summary": "Scientific American reports, from interviews with Eric Kauderer-Abrams, Anthropic's head of life sciences, and Nicholas Perry, an Anthropic researcher, that Claude spotted a repeating stretch of DNA in a bacteriophage, a virus that infects bacteria, next to a gene for an enzyme that copies RNA into DNA; the pattern resembles those used in CRISPR gene editing. Anthropic says the analysis took Claude about a day instead of the weeks to months a human would need, but both scientists stress that its function is unknown, that they are at the very beginning, and that Claude does not replace biologists.",
+ "importance_line": "Biologists and drug developers could see AI speed up the search for new lab tools, but this is a company's own early claim with no known use yet.",
+ "url": "https://www.scientificamerican.com/article/claude-just-found-a-crispr-like-dna-pattern-but-even-anthropics-scientists-arent-sure-what-it-does/",
+ "freshness": "FOLLOW-UP of late Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Anthropic is the company behind the Claude model and the source of the claims; the exact day of the original announcement is not given in the article. Start date of the follow-up is 'late last month' per the article.",
+ "importance_label": "MEDIUM"
+}

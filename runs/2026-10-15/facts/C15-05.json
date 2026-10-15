@@ -1,0 +1,23 @@
+{
+ "item_id": "C15-05",
+ "title": "Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing",
+ "source_used": "Quantum Computing Report",
+ "article_url": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing/",
+ "fetched": true,
+ "key_facts": [
+  "Riverlane (error-correction technology provider) and NVIDIA announced benchmarks for GPU-accelerated recalibration of quantum error-correction decoders",
+  "Decoder settings drift as physical qubits change over time, so they need frequent recalibration",
+  "Uses Riverlane's Local Clustering Decoder adapted for GPUs",
+  "On an H100 GPU, training epochs for surface codes drop from minutes to seconds",
+  "Logical error rates fell by several percent up to a factor of two versus uncalibrated settings",
+  "Method draws on prior-optimization work from Google Quantum AI"
+ ],
+ "quote_evidence": [
+  "By processing batch syndrome workloads in parallel across thousands of threads, the H100 GPU reduces surface-code training epochs from minutes to seconds.",
+  "optimizing the decoder priors against physical device drift yielded logical error rate (LER) reductions ranging from several percent up to a factor of two"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Faster recalibration could make error correction easier to keep accurate as hardware drifts.",
+ "event_date": "15 Oct 2026 (announcement)",
+ "notes": "Company-announced benchmarks; no outside review stated."
+}

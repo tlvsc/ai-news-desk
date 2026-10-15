@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-02",
+ "title": "Anthropic Adds OpenTelemetry Trace Export to the Claude Platform",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/anthropic-adds-opentelemetry-trace-export-to-the-claude-platform/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic announced on 14 Oct 2026 OpenTelemetry trace export for the Claude Platform, in public beta.",
+  "Traces from Claude Managed Agents, the Messages API and Claude SDKs can go to any observability tool that accepts the standard.",
+  "Each agent turn, model call and tool use is sent as a standard trace carrying latency, token counts and IDs.",
+  "API tracing is set up in the Claude Console and needs Admin permission; SDK tracing is configured in code.",
+  "Default content mode is metadata only; Full content adds prompts and responses, up to 0.75 MB per span.",
+  "Organisations under HIPAA, FERPA or K-12 data-handling restrictions with Anthropic export only metadata from destinations.",
+  "Claude Managed Agents is not eligible for zero data retention.",
+  "Ramp engineer David Traina said token use fell 10-20% on some agents and sessions were 30% faster."
+ ],
+ "quote_evidence": [
+  "Anthropic has added OpenTelemetry trace export to the Claude Platform, announcing on October 14, 2026 that developers can now send traces from Claude Managed Agents, the Messages API, and Claude SDKs to any observability tool that accepts the standard, with the feature available in public beta.",
+  "Metadata only, the default, records identifiers, timing, status, token counts, and text the user chooses.",
+  "On some agents, we’ve already cut token usage by 10–20% and made sessions 30% faster,"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Developers can watch what their Claude-based agents do in the monitoring tools they already use.",
+ "event_date": "14 Oct 2026",
+ "notes": "Unite.AI relays Anthropic's own announcement and documentation; company claims such as Ramp's savings are customer statements. Author line is an AI-generated research agent; facts match Anthropic's described announcement."
+}

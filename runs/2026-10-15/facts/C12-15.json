@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-15",
+ "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+ "source_used": "The Hacker News",
+ "article_url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+ "fetched": true,
+ "key_facts": [
+  "A flaw in Linux's vhost subsystem (CVE-2026-74580, named Vghost) lets a local user read and write kernel memory and become root, across kernels from 4.11 to 7.2-rc4.",
+  "In one virtualisation setup an untrusted guest virtual machine can write to the host's memory and take over the QEMU process.",
+  "Tencent Zhuque Lab found it with its multi-agent AI system Corvus AI; the fix was released 3 Aug and the full write-up published 12 Oct.",
+  "No public sign it has been exploited yet.",
+  "Tencent reproduced the root chain on Ubuntu 26.04, RHEL 9.8, Amazon Linux 2023, Azure Linux 3.0 and Oracle Linux 10.2.",
+  "Red Hat, Amazon and Oracle Linux have shipped fixes; Ubuntu 24.04 and 26.04 kernels were still in progress as of 13 Oct.",
+  "Raters differ: kernel.org CVE team 8.8, Red Hat 7.3, Amazon 7.8, Oracle 7.3."
+ ],
+ "quote_evidence": [
+  "The bug was found with help from Corvus AI, a multi-agent system Tencent built for kernel vulnerability research.",
+  "This is machine-assisted research, not an attack run by AI."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A nine-year-old flaw in widely used server software was found by AI, and patches are still arriving.",
+ "event_date": "Fix 3 Aug 2026; write-up 12 Oct 2026",
+ "notes": "Disclosure write-up was 12 Oct, two days before the window; first coverage in this window. Severity ratings differ between raters."
+}

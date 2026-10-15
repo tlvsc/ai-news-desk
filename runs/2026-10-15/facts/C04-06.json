@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-06",
+ "title": "Google launches Deep Review AI tool to help researchers catch manuscript errors",
+ "source_used": "R&D World",
+ "article_url": "https://www.rdworldonline.com/google-launches-deep-review-ai-tool-to-help-researchers-catch-manuscript-errors/",
+ "fetched": true,
+ "key_facts": [
+  "Google Research released Deep Review on 14 Oct 2026 to flag mathematical errors, logical gaps and unsupported claims in technical documents.",
+  "It grew out of the Paper Assistant Tool, piloted at STOC, ICML, NeurIPS and ICLR, which gave feedback on more than 15,000 manuscripts.",
+  "Deep Review splits documents into sections, uses AI agents to examine them and Google Search to check for hallucinations.",
+  "A review takes about 10 to 20 minutes.",
+  "In a June preprint the earlier tool found 89.7 percent of known errors in a benchmark subset versus 55.2 percent for one Gemini 3.1 Pro response (29 errors, 26 papers).",
+  "Pilot users reported cases where it wrongly challenged proofs.",
+  "Google offers two free reviews per week; uploaded documents are not used for training and kept for one year."
+ ],
+ "quote_evidence": [
+  "The public launch follows pilots that provided feedback on more than 15,000 manuscripts, according to Google.",
+  "Pilot participants also reported cases in which the system incorrectly challenged proofs or arguments"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Aims to ease the verification bottleneck as AI makes polished papers cheap to produce.",
+ "event_date": "14 Oct 2026",
+ "notes": "Performance figures are Google's own and from a small benchmark."
+}

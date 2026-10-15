@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-05",
+ "title": "Claude just found a CRISPR-like DNA pattern, but even Anthropic's scientists aren't sure what it does",
+ "source_used": "Scientific American",
+ "article_url": "https://www.scientificamerican.com/article/claude-just-found-a-crispr-like-dna-pattern-but-even-anthropics-scientists-arent-sure-what-it-does/",
+ "fetched": true,
+ "key_facts": [
+  "Late September 2026 Anthropic said Claude found a repeating DNA stretch in a bacteriophage (a virus that infects bacteria).",
+  "The repeats sit next to a gene for a reverse transcriptase, an enzyme that copies RNA into DNA, and resemble the repeats in CRISPR.",
+  "Anthropic's head of life sciences Eric Kauderer-Abrams says what the system does is still unknown.",
+  "Claude was given a fairly generic prompt and found the repeats while looking for accessory proteins.",
+  "The related genes seem limited to jumbo phages, which have very large genomes.",
+  "Claude did the analysis in about a day; a human scientist would need weeks to months, Anthropic says.",
+  "Both scientists stress Claude does not replace biologists and the finding is at the very beginning."
+ ],
+ "quote_evidence": [
+  "“What this internal domain does, we’re still not sure,” Kauderer-Abrams adds.",
+  "we have no idea what its function is yet, and we’re at the very beginning of the research."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "AI agent found a candidate biological tool in under a day, but its function is unknown.",
+ "event_date": "Late Sep 2026 (exact date not stated)",
+ "notes": "The discovery was announced by Anthropic in late September; this is the Scientific American interview with two Anthropic scientists. Anthropic's claims, no outside review."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C10-08",
+ "title": "With AI platform, patients could chat with medical devices to improve health",
+ "source_used": "Penn Engineering news and healthcare-in-europe.com (Washington Post page not opened, HTTP 000)",
+ "article_url": "https://www.engineering.upenn.edu/stories/ai-platform-allows-real-time-conversation-between-patients-and-their-medical-devices/",
+ "fetched": true,
+ "key_facts": [
+  "Penn researchers built an AI platform letting patients message their medical devices from a phone app.",
+  "Proof-of-concept study with 13 adults undergoing EEG brain monitoring in Penn's Epilepsy Monitoring Unit.",
+  "Researchers analysed 1,307 messages; patients asked about brain activity, reported symptoms and corrected seizure detections.",
+  "Patient feedback substantially improved the system's ability to identify seizures.",
+  "Findings published in Nature Medicine; senior author Brian Litt, professor of neurology, neurosurgery and bioengineering.",
+  "Team plans work on tuning deep brain stimulation for Parkinson's disease; supported by a $5.6 million NIH Pioneer Award.",
+  "Ongoing research will test whether it reduces seizure frequency, ER visits and costs."
+ ],
+ "quote_evidence": [
+  "Participants in a proof-of-concept study undergoing monitoring for seizures could ask questions about their brain activity, receive personalized alerts, report symptoms and behaviors, and help train the system to better recognize seizure-related patterns.",
+  "researchers enrolled 13 adults undergoing continuous brain monitoring using electroencephalogram (EEG)"
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Moves medical devices from passive recorders toward two-way partners, but only tested on 13 hospital patients so far.",
+ "event_date": "published 14 Oct 2026",
+ "notes": "Washington Post page unreachable; used the Penn release (the researchers' own account). Whether outcomes improve is not yet shown."
+}

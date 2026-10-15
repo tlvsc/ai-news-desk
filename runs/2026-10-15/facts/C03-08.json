@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-08",
+ "title": "LangChain adds AI Search to LangSmith for debugging AI agents",
+ "source_used": "Developer Tech News",
+ "article_url": "https://www.developer-tech.com/news/langsmith-ai-search-debugging-ai-agents/",
+ "fetched": true,
+ "key_facts": [
+  "LangChain has added AI Search to LangSmith, letting developers search AI agent traces by describing a behaviour in plain language.",
+  "It is meant to find cases such as an agent wrongly claiming a task is complete, an unwanted response or exposed personal data.",
+  "A decision model examines trace content rather than relying on text similarity; natural-language queries can be combined with existing filters.",
+  "SmithDB, LangChain's database for agent observability, converts traces into standardised trajectories; it supports traces from LangChain, LangGraph, OpenAI, Anthropic, Vercel AI SDK and OpenTelemetry.",
+  "Each trajectory gets an 8,000-token budget, so the decision model does not see every detail of long sessions.",
+  "In 150 sampled conversations from LangChain's coding agent Open SWE, the median had about 72,000 tokens and tool outputs made up about 85%.",
+  "LangChain says it is looking at query-dependent context selection and extra checks."
+ ],
+ "quote_evidence": [
+  "AI Search examines recorded agent interactions and returns traces that match a developer’s query.",
+  "AI Search addresses these large records by applying an 8,000-token budget to each trajectory before passing it to the decision model.",
+  "LangChain acknowledged that detecting behaviours such as an agent ignoring a tool error requires access to the corresponding tool result."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers can find agent failures that raise no error by describing the behaviour, with a stated limit on long sessions.",
+ "event_date": "14 Oct 2026",
+ "notes": "Developer Tech relays LangChain's announcement; limits are LangChain's own admission."
+}

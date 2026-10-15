@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-11",
+ "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
+ "source_used": "InfoQ",
+ "article_url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/",
+ "fetched": true,
+ "key_facts": [
+  "Google added support for local models in the Antigravity SDK, so developers can run agent workflows on their own machines and mix in cloud models for high-level tasks.",
+  "It uses an Architect-Builder pattern: a cloud model plans and splits the task using filenames and descriptions without seeing source code; local builder agents do the code work.",
+  "In a demo patching three vulnerable Python modules, Google reports only 95 of about 3,400 tokens were used in the cloud and 97.2% locally, with no source code uploaded.",
+  "The first implementation runs Gemma 4 26B A4B through Google's LiteRT; it also supports OpenAI-compatible local servers such as Ollama, LM Studio and vLLM.",
+  "A Reddit commenter noted the recommended 24GB+ of VRAM or unified memory is a real gate and that speed and cost were not benchmarked.",
+  "The SDK is distinct from the Antigravity IDE, which is built on it."
+ ],
+ "quote_evidence": [
+  "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines",
+  "only 95 out of approximately 3400 tokens were used on the cloud for planning, while the remaining 97.2% were spent locally.",
+  "Google also states that no source code was uploaded to the cloud."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers can keep source code on their own computers while a cloud model only does the planning.",
+ "event_date": "Oct 2026 (exact announcement date not stated)",
+ "notes": "InfoQ reports Google's claims; figures come from a single Google demo. Announcement date not stated in the article."
+}

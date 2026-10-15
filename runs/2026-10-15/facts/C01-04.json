@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-04",
+ "title": "China's open AI models now trail the US frontier by just seven months",
+ "source_used": "Startup Fortune",
+ "article_url": "https://startupfortune.com/chinas-open-ai-models-now-trail-the-us-frontier-by-just-seven-months/",
+ "fetched": true,
+ "key_facts": [
+  "Epoch AI's Capabilities Index (39 benchmarks) shows Chinese models trailing the US frontier by an average of seven months since 2023, in a range of four to fourteen months.",
+  "Every model at the absolute frontier since 2023 came from the US; no Chinese model has yet matched OpenAI's o3 (April 2025).",
+  "The first Chinese model to beat GPT-4 did so in May 2024, fourteen months after GPT-4.",
+  "Epoch found the US-China gap closely tracks the gap between closed and open-weight models: leading Chinese models (DeepSeek, Qwen, Kimi, GLM) are mostly open, US frontier ones mostly closed.",
+  "A Mozilla-backed analysis put the gap at about 4.4 months, with Chinese open models up to five times cheaper per task.",
+  "The Financial Times reported Tencent signed a roughly $7 billion five-year lease for 100,000 AI chips via Oracle's Southeast Asia data centres.",
+  "The article questions whether US export controls still make sense given the shrinking lead."
+ ],
+ "quote_evidence": [
+  "Chinese models have trailed the US frontier by an average of seven months since 2023, with the gap ranging from as little as four months to as much as fourteen.",
+  "No Chinese model has yet matched OpenAI's o3, released in April 2025.",
+  "Epoch found the US-China gap tracks almost exactly onto the gap between closed and open-weight models generally."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A shrinking gap raises doubts about whether chip export controls can preserve a US lead.",
+ "event_date": "Epoch AI analysis, date not stated; article 14 Oct 2026",
+ "notes": "Startup Fortune article mixes Epoch AI with older Stanford AI Index data, a Mozilla-backed study and Bloomberg Intelligence figures; the opinion lines about export controls are the outlet's. Not a new Epoch release date stated."
+}

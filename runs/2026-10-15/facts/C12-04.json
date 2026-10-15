@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-04",
+ "title": "AI linked to 84% of ransomware attacks, new report finds",
+ "source_used": "CBS News",
+ "article_url": "https://www.cbsnews.com/news/ai-linked-ransomeware-attacks-global-cybersecurity-report/",
+ "fetched": true,
+ "key_facts": [
+  "Semperis's 2026 Ransomware Risk Report polled 1,200 IT and security professionals in nine countries.",
+  "84% of surveyed ransomware victims said attackers used AI in the attack; 44% said attackers exploited their own AI systems.",
+  "69% had multiple successful attacks in the past year; 59% paid a ransom at least once; 87% saw attacks on identity systems.",
+  "More than a third faced psychological or physical threats against employees.",
+  "Chris Inglis, former US National Cyber Director and Semperis board member, says autonomous ransomware attacks are already happening.",
+  "Inglis says the weakness that lets attackers in is usually the same as before AI and that defenders must use AI too."
+ ],
+ "quote_evidence": [
+  "Cybercriminals exploited artificial intelligence in ransomware attacks experienced by 84% of surveyed victims, according to a sweeping new global cybersecurity report.",
+  "I think we're already seeing autonomous attacks."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A vendor survey suggests AI is now part of most ransomware attacks, though it is self-reported and from a security vendor.",
+ "event_date": "14 Oct 2026",
+ "notes": "Survey by a security vendor, Semperis, which also employs the quoted experts (Inglis sits on its board); figures are self-reported by respondents."
+}

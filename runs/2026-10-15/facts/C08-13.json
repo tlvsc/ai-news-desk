@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-13",
+ "title": "Synopsys CEO says fully autonomous AI chip design remains out of reach",
+ "source_used": "digitimes",
+ "article_url": "https://www.digitimes.com/news/a20261015PD229/synopsys-ceo-design-development-chips.html",
+ "fetched": true,
+ "key_facts": [
+  "Synopsys CEO Sassine Ghazi spoke at the CEO Summit at SEMICON West 2026.",
+  "He said fully autonomous chip development has not crossed the final hurdle.",
+  "Synopsys has moved from AI-assisted engineering to models that coordinate more than 40 task agents.",
+  "Customers give system specifications to Synopsys' autonomous agents, which directly produce verified register-transfer level (RTL) designs.",
+  "Backend implementation, verification and signoff could become autonomous but are not ready; humans still define architectures and sign off.",
+  "Synopsys announced a partnership with OpenAI at the end of September 2026 for a dedicated GPT-Synopsys model."
+ ],
+ "quote_evidence": [
+  "Synopsys CEO Sassine Ghazi said that fully autonomous chip development has not yet crossed the final hurdle to become reality, although the company has advanced from AI-assisted engineering to models that coordinate more than 40 task agents.",
+  "Autonomous agents do not yet replace human workers, and people must still define architectures and make final pre-production signoff decisions."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A leading chip-design software maker says AI speeds design but humans still make the final calls.",
+ "event_date": "not stated (SEMICON West 2026)",
+ "notes": "Executive's own account of his company."
+}

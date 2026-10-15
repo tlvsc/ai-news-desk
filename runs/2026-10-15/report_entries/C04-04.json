@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-04",
+ "v1_category": "RES",
+ "headline": "Researchers have used AI design tools to create new enzymes that cut chosen proteins, including ones linked to Alzheimer's disease, though the enzymes work less well than natural ones.",
+ "score": 7,
+ "score_reason": "Pool score 7 kept: two Nature papers and a real result, with honest limits on activity and therapy.",
+ "source": "Ars Technica",
+ "status": "REPORTED",
+ "summary": "Ars Technica reports that researchers mainly from the University of Washington lab of Nobel-winning biochemist David Baker used AI protein-design software to build proteases, enzymes that cut other proteins, by keeping the active core of two natural types and redesigning everything around it. Some designs worked, including ones that cut proteins linked to Alzheimer's disease and a form of dementia in cells, but most were less active than natural enzymes, and delivering such proteins into patients' cells remains a considerable hurdle.",
+ "importance_line": "Researchers hoping to treat diseases caused by misshapen proteins gain a new design route, but the enzymes are weaker than natural ones and no therapy is near.",
+ "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Based on two Nature papers (DOIs 10.1038/s41586-026-11143-w and 10.1038/s41586-026-11167-2) as cited by Ars Technica.",
+ "importance_label": "MEDIUM"
+}

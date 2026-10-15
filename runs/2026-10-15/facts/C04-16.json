@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-16",
+ "title": "How scientists used AI to create ultra-stable, freezer-free mRNA vaccines",
+ "source_used": "Drug Discovery News",
+ "article_url": "https://www.drugdiscoverynews.com/how-scientists-used-ai-to-create-ultra-stable-freezer-free-mrna-vaccines-17585",
+ "fetched": true,
+ "key_facts": [
+  "MIT engineers used an AI-driven framework called AGENT (Bayesian optimization with a Gaussian process model) to stabilize lipid nanoparticles carrying mRNA, in a Nature Biotechnology study.",
+  "They worked on formulations used in the Moderna and Pfizer-BioNTech COVID-19 vaccines.",
+  "In six rounds the platform reached 100 percent formulation stability and found a candidate for animal tests.",
+  "Dried formulations kept full bioactivity at 37 degrees Celsius for over two months and at room temperature for a year.",
+  "Mice given long-stored particles had immune responses equal to freshly prepared vaccine.",
+  "The formulation also worked in microneedle patches in rodents and non-human primates, with immune responses comparable to liquid injections.",
+  "Ana Jaklenec, a principal investigator and senior coauthor, spoke to DDN."
+ ],
+ "quote_evidence": [
+  "These formulations helped retain 100 percent bioactivity at 37 degrees Celsius for over two months — eliminating the need for ultra-cold storage completely.",
+  "Mice vaccinated with these long-stored particles showed immune responses equivalent to those given freshly prepared vaccines."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Could remove cold-chain needs for mRNA vaccines, but results are in cells and animals only.",
+ "event_date": "Not stated",
+ "notes": "Preclinical (cells, mice, non-human primates). The article says the formulation 'eliminates' ultra-cold storage; we keep it as a study result."
+}

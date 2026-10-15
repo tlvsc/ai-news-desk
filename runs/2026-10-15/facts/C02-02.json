@@ -1,0 +1,23 @@
+{
+ "item_id": "C02-02",
+ "title": "Anthropic to add US voting information to Claude before midterms",
+ "source_used": "Anthropic's own announcement (anthropic.com/news/2026-us-midterms); Reuters page blocked (HTTP 401)",
+ "article_url": "https://www.anthropic.com/news/2026-us-midterms",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic published its US midterms election-safeguards update on 14 Oct 2026.",
+  "Later this month Claude.ai will draw official voting information from Democracy Works into answers for US users, giving state-specific answers on where to vote or what ID to bring.",
+  "Claude will also show up-to-date official results on election night and after.",
+  "A TurboVote banner from Democracy Works already appears for voter-registration, polling-place and election-date questions.",
+  "Anthropic's analysis of 250,000 US conversations found about 5.75% touch on politics or policy, about 0.51% are specifically about elections or voting, and about 0.01% ask whom to vote for.",
+  "Outside testers found Claude reliably refused a single harmful election request but could miss a malicious campaign split into many harmless-looking tasks; Anthropic says it added new classifiers for multi-step misuse."
+ ],
+ "quote_evidence": [
+  "Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US.",
+  "Claude will begin showing up-to-date results on election night and in the days that follow."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Millions of US users asking an AI where and how to vote will get state-specific official answers.",
+ "event_date": "14 Oct 2026",
+ "notes": "Reuters article blocked; facts read from Anthropic's own post, which Reuters reports. Reuters headline wording not copied."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C05-14",
+ "title": "JPMorgan CEO sends blunt warning on 'rogue' AI agents",
+ "source_used": "PYMNTS",
+ "article_url": "https://www.pymnts.com/news/artificial-intelligence/2026/jamie-dimon-slams-the-door-on-rogue-ai-agents/",
+ "fetched": true,
+ "key_facts": [
+  "Jamie Dimon, JPMorgan Chase chief executive, spoke on the third-quarter earnings call on Tuesday 13 October.",
+  "He said the bank will not allow unvetted outside AI agents into its systems.",
+  "He said 'You don't want rogue agents, and there could be thousands of them'.",
+  "A JPMorgan spokeswoman told CNBC outside agents cannot act for a customer or log in with their credentials.",
+  "Outside agents can view balances read-only if the customer authorises a connector like Plaid; they cannot send money or pay bills.",
+  "The bank gave no timeline for changing that; it already runs AI agents internally and plans customer-facing ones."
+ ],
+ "quote_evidence": [
+  "\"You don't want rogue agents, and there could be thousands of them,\" he added, according to the transcript.",
+  "People who use outside agents should understand the risk and \"the liability transfer,\" he said on the call, adding that the bank is building tools to protect customers."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Shows where a big bank draws the line on third-party AI agents handling customer accounts.",
+ "event_date": "2026-10-13",
+ "notes": "TheStreet page blocked (403). Read PYMNTS, which reported the earnings-call remarks and a CNBC statement from a JPMorgan spokeswoman. Business Insider also covers the story."
+}

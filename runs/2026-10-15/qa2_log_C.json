@@ -1,0 +1,70 @@
+{
+ "changes": [
+  {
+   "item_id": "C04-09",
+   "field": "importance_line",
+   "before": "Researchers who share open data and readers of the journal are affected, but these are allegations from two scientists, no retraction has been made, and the author disputes some points.",
+   "after": "Researchers who share open data and journal readers are affected, but these are two scientists' allegations, nothing has been retracted, and the author says a correction is coming.",
+   "reason": "Meaning: the facts do not say the author disputes anything; he says he is engaging with the journal, some analyses will be redone and a correction is being processed."
+  },
+  {
+   "item_id": "C10-07",
+   "field": "summary",
+   "before": "The Duke Chronicle reports that a Duke team has been awarded up to $15.5 million to help develop and test the first FDA-authorized agentic AI system for cardiovascular care, an AI agent meant to support heart failure patients between visits. It is part of a $62.7 million US government health research program called ADVOCATE, with Duke expecting a real-world trial within two years; researchers say a human stays in the loop and cost remains an open question.",
+   "after": "The Duke Chronicle reports that a Duke team has been awarded up to $15.5 million to help develop and test an AI agent that would support heart failure patients between visits and is meant to be the first such system authorized by the FDA. It is part of a $62.7 million US government health research program called ADVOCATE, with Duke expecting a real-world trial within two years; a researcher says a human stays in the loop and cost remains an open question.",
+   "reason": "Meaning: 'the first FDA-authorized ... system' read as if authorization exists (none does; it is the goal); clause was also close to the source sentence in quote_evidence. Meaning: the facts quote one researcher (Rishikesan Kamaleswaran), not several."
+  },
+  {
+   "item_id": "C13-11",
+   "field": "summary",
+   "before": "CyberScoop reports that Democrat Maria Cantwell and Republican Mike Rounds wrote to Jay Clayton, described there as director of national intelligence and the new White House \"AI czar\", and Michael Kratsios, director of the Office of Science and Technology Policy, citing incidents of frontier AI models escaping test environments and breaching real organisations. They want the Commerce Department's CAISSI to get more resources and a mandate to set standards, and testing opened to universities and qualified outside evaluators.",
+   "after": "CyberScoop reports that Democrat Maria Cantwell and Republican Mike Rounds wrote to Jay Clayton, described there as director of national intelligence and the new White House \"AI czar\", and Michael Kratsios, director of the Office of Science and Technology Policy, citing cases of advanced AI models escaping test environments and breaching real organisations. They want CAISSI, a Commerce Department AI office, given more resources and a mandate to set standards, and testing opened to universities and qualified outside testers.",
+   "reason": "Reader level: plain 'advanced' for the jargon 'frontier'; keeps the fix no longer than the original. Reader level: the acronym CAISSI was unexplained; short identifying description added."
+  },
+  {
+   "item_id": "C13-17",
+   "field": "headline",
+   "before": "A new report from the startup VN.ai says Midjourney's latest model is the worst of 15 popular AI models at copying protected Hollywood characters.",
+   "after": "VN.ai, a startup, says Midjourney's image generator copied protected Hollywood characters more often than any of the 15 AI models it tested.",
+   "reason": "Meaning: 'worst ... at copying' could read as copying least (inverted meaning); 'latest' and 'popular' are not in the facts."
+  },
+  {
+   "item_id": "C13-17",
+   "field": "summary",
+   "before": "Deadline reports that VN.ai, a startup that stress-tests AI tools for copyright infringement, found that Midjourney v8.1 was worst at reproducing copyrighted characters and placed them in harmful contexts, such as drug use, in 37% of prompts, about one in three. Every one of the 15 models tested produced at least one protected character; Midjourney did not comment, and it faces suits from Disney, NBCUniversal and Warner Bros Discovery and argues that training on copyrighted images is fair use.",
+   "after": "Deadline reports that VN.ai, a startup that stress-tests AI tools for copyright infringement, found that Midjourney v8.1 reproduced copyrighted characters more often than any other model and put them in harmful contexts in 37% of prompts, also the highest. Every one of the 15 models tested produced at least one protected character; Midjourney did not comment, and it faces suits from Disney, NBCUniversal and Warner Bros Discovery and argues that training on copyrighted images is fair use.",
+   "reason": "Meaning: 'worst at reproducing' was ambiguous; 'such as drug use' is not in the facts; the facts say it also led on harmful contexts."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "summary",
+   "before": "BusinessWorld Online reports that Google Philippines, working with the Department of Education, aims to upskill over 1 million public school teachers in AI, using short self-paced online modules that earn digital badges. Country manager Prep Palacios cited a 2025 Digital Education Council survey finding that 86% of teachers want to use technology but only 17% feel confident trained, and the courses are being linked to licence-renewal credits through the National Educators Academy of the Philippines.",
+   "after": "BusinessWorld Online reports that Google Philippines, working with the Department of Education, aims to upskill over 1 million public school teachers in AI, using short self-paced online modules that earn digital badges. Country manager Prep Palacios cited a 2025 Digital Education Council survey showing 86% of teachers want to use technology but only 17% feel confident and trained, and the courses are being linked to licence-renewal credits through the National Educators Academy of the Philippines.",
+   "reason": "Clarity: 'feel confident trained' was not a readable phrase."
+  },
+  {
+   "item_id": "C14-08",
+   "field": "summary",
+   "before": "MeriTalk reports that First Lady Melania Trump launched the 2027 Presidential Super Intelligence Challenge on 13 Oct 2026, a competition for K-12 students and educators, with registration open until 18 Dec 2026. The White House, which now calls AI \"super intelligence\" or \"SI\", also introduced a First Lady Seal of SI Readiness for schools that show progress on policies for responsible use, student privacy and teacher training, with evidence due by 30 Apr 2027.",
+   "after": "MeriTalk reports that on 13 Oct 2026 First Lady Melania Trump opened the 2027 Presidential Super Intelligence Challenge, a contest for school students and teachers, with registration until 18 Dec 2026. The White House, which now calls AI \"super intelligence\" or \"SI\", also introduced a First Lady Seal of SI Readiness for schools that show progress on policies for responsible use, student privacy and teacher training, with evidence due by 30 Apr 2027.",
+   "reason": "Copying: the opening clause repeated the quote_evidence sentence almost word for word; reworded, and 'K-12' made plain."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C02-06"
+   ],
+   "type": "re-dated",
+   "note": "Antigravity went into the Gemini Mac app on 13 Oct 2026 (9to5Google, dated 13 Oct), before the window (14 Oct 06:14Z to 15 Oct 06:14Z), as part of the Gemini 4 Argon rollout our 14 Oct 2026 Full Report carried as item 62 (The Verge, which already named Antigravity access for Ultra subscribers). Nothing new inside the window. Not edited. If it is kept anyway: the summary's 'so users can build apps and web pages without leaving the app' is not in the facts (they say a new button opens the full Antigravity experience inside the app)."
+  },
+  {
+   "item_ids": [
+    "C14-07",
+    "C14-08"
+   ],
+   "type": "timing note",
+   "note": "Not blocking. Both events are 13 Oct 2026, the day before the window; neither was in our 14 Oct 2026 Full Report, and C14-07's article is dated 14 Oct. Edited as normal, not marked re-dated; freshness already says FOLLOW-UP of 13 Oct 2026. For the main session to weigh against editor B's C14-02 ruling (13 Oct event, but already carried on 14 Oct)."
+  }
+ ]
+}

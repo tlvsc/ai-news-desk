@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "MOD",
+ "headline": "Google says companies that run its API management software in their own data centres can now let AI agents use their existing APIs without that traffic leaving their network.",
+ "score": 5,
+ "score_reason": "Official vendor announcement of enterprise infrastructure; narrow audience; kept at 5 because this post is the announcement even though the release is from 14 Sep.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to large organisations with regulatory or data-location limits that want AI agents to reach internal systems, though it is a vendor description with no customer results.",
+ "source": "Google Developers Blog",
+ "status": "CONFIRMED",
+ "summary": "Google reports on its Developers Blog that Apigee hybrid 1.17.0, released on 14 Sep 2026, now supports the Model Context Protocol (MCP), the open standard that lets AI agents discover and call tools. The MCP part runs inside the customer's own Kubernetes cluster, so agent requests stay in the customer's network and Google's control plane never connects into it; the feature is off by default, turned on with a configuration setting and, Google says, turns each operation of an existing API description into an agent tool without extra server code.",
+ "url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
+ "freshness": "FOLLOW-UP of 14 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Software release dated 14 Sep 2026; the announcement post appeared 14 Oct 2026. Pool source label blog.google; the post is on developers.googleblog.com."
+}

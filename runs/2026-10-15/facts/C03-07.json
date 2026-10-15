@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-07",
+ "title": "REA server enables AI agents to reverse engineer software",
+ "source_used": "TechGig",
+ "article_url": "https://techgig.com/news/ai/rea-server-enables-ai-agents-to-reverse-engineer-software/134948678",
+ "fetched": true,
+ "key_facts": [
+  "REA (Reverse Engineer Anything) is a new open-source MCP server and command-line tool that lets programming agents disassemble software without source code.",
+  "It can point agents such as Claude Code or Codex at native binaries, Electron apps, .NET assemblies, Android APKs, websites or saved network captures.",
+  "It returns pseudocode, module graphs, request logs and evidence explaining how a function works.",
+  "TechGig reports the morluto/rea GitHub repository gained over 115,000 stars and 25,000 forks within a week and led GitHub Trending for five days between 6 and 12 Oct.",
+  "REA runs locally; deep native analysis needs engines such as Hopper, Ghidra 12.1 with JDK 21 or higher, or IDA.",
+  "For API teams it reads HAR or mitmproxy captures offline and builds an inferred API inventory."
+ ],
+ "quote_evidence": [
+  "REA, or Reverse Engineer Anything, functions as an open-source MCP server and command-line interface, providing programming agents with tools to disassemble software without its source code.",
+  "The morluto/rea repository garnered over 115,000 stars and 25,000 forks on GitHub within a week in October",
+  "REA operates locally, with agents calling its tools to inspect targets using appropriate engines"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A very popular open tool now lets AI agents take apart software, useful for security and API work but also open to misuse.",
+ "event_date": "Trending 6-12 Oct 2026; article 14 Oct 2026",
+ "notes": "One outlet; the star count is TechGig's figure and was not checked against GitHub. Other outlets (HackerNoon, SitePoint, Pasquale Pillitteri) carried the tool 13-14 Oct. Tool appeared before the article date."
+}

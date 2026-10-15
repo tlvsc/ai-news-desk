@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-07",
+ "title": "Scientists move a step toward quantum computers that can correct their own mistakes",
+ "source_used": "AZoQuantum",
+ "article_url": "https://www.azoquantum.com/News.aspx?newsID=11282",
+ "fetched": true,
+ "key_facts": [
+  "Researchers from Rutgers, IBM and partner institutions (including City College of New York) showed a quantum computer can monitor itself and recalibrate during a run",
+  "Used a 156-qubit IBM Heron processor with a chain of up to 100 qubits",
+  "Nearly 10,000 combined scramble and reset operations, the largest successful demonstration of the technique to date",
+  "Found a sharp tipping point from chaos to order depending on how often resets happen",
+  "Results matched theory in systems far beyond the roughly 24-qubit limit of classical simulation",
+  "No fault-tolerant quantum computer has yet been built",
+  "Published in Nature Physics"
+ ],
+ "quote_evidence": [
+  "Currently, no one has succeeded in creating such a device.",
+  "Executing nearly 10,000 combined operations and resets, the team achieved the largest successful demonstration of this technique to date."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A step toward the real-time error correction that fault-tolerant machines will need.",
+ "event_date": "Study reported by 12 Oct 2026",
+ "notes": "AZoQuantum dated 12 Oct 2026; CCNY release (403) and Phys.org (403) not readable. Event older than 14 Oct, score lowered by 1."
+}

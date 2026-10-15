@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-01",
+ "title": "What the Agentic AI Foundation's rule changes mean for anyone building on MCP or A2A",
+ "source_used": "Diginomica",
+ "article_url": "https://diginomica.com/what-agentic-ai-foundations-rule-changes-mean-building-mcp-a2a",
+ "fetched": true,
+ "key_facts": [
+  "The Agentic AI Foundation (AAIF) is a Linux Foundation body that hosts the Model Context Protocol (MCP), Agent2Agent (A2A) and other open source agent projects.",
+  "AAIF co-founder and CTO Manik Surtani described the changes in a keynote at AGNTCon Europe + MCPCon Europe in September and in an interview afterwards.",
+  "AAIF has existed for two years, has more than 270 member organisations (170 at its April update) and seven working groups.",
+  "Entry criteria had been modelled on the Cloud Native Computing Foundation's, which Surtani says a two-year-old field cannot meet.",
+  "AAIF now has three project stages: sandbox, growth and impact; sandbox has a six-month check-in and a 12-month review, and AAIF may open a conversation about archiving a project with no signs of life after a year.",
+  "Working groups, until recently open only to member organisations, are now open to everyone; only members can propose new groups and provide resources.",
+  "AAIF has committed to publishing yearly numbers of projects accepted, promoted and archived.",
+  "Members increasingly ask about security, identity and authentication for agents rather than governance structure."
+ ],
+ "quote_evidence": [
+  "Everything's new in this space. Everything's early. It's not the CNCF.",
+  "AAIF now has three stages instead of two: sandbox, growth, impact.",
+  "For an open source community, that was a bit silly. We want everyone to participate in this stuff."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open agent standards now have an easier path in and open working groups, which affects who can shape MCP and A2A.",
+ "event_date": "Keynote in September 2026 (exact day not stated)",
+ "notes": "Interview piece published 14 Oct 2026; the keynote and rule changes date from September, so the item is re-dated as older news. Exact day of keynote not stated."
+}

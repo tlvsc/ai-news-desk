@@ -1,0 +1,232 @@
+BULLETIN BLUEPRINT V1 — RULES AND STRUCTURE
+AI_News_Desk / Blueprint_Library / Bulletin blueprint V1
+Written 27 Sep 2026 by Claude (Claude Code cloud session) at Rafael's request, from the
+Daily Bulletin PDF of 27 Sep 2026 that Rafael approved ("I loved the bulletin structure,
+the fonts, the build and everything ... this must be conserved for future use").
+
+====================================================================
+0. AUTHORITY AND SCOPE
+====================================================================
+1. This file is the single source of truth for the V1 Daily Bulletin: its look, its
+   structure, its selection, its writing and how it is rebuilt. Where an older record
+   disagrees about the bulletin's PDF look or structure, this file wins.
+2. It does not replace the shared word rules. The words in every product are governed by
+   Article_phrasing_instructions_AIND_V1 (AIND PLAIN LANGUAGE LAW v1, Drive
+   14augNmXoTDbO__Vn-xqZ4ZlVDTPkXieA). Section 5 below says how the law applies here.
+3. This blueprint holds exactly one rules file (this one) and one Permanent Assets folder.
+   Do not create a second rules file, a copy of the program elsewhere, or a parallel
+   bulletin template. Change this file instead and add a line to the change log.
+4. LV1.1 is a different version. Rafael approved on 27 Sep 2026 copying one part of it
+   into this V1 file: the story format (section 5.3). Nothing else from LV1.1 applies.
+
+====================================================================
+1. PERMANENT ASSETS (folder: Bulletin blueprint V1 / Permanent Assets)
+====================================================================
+1. build_pdf.py — the PDF program. One program makes both the Daily Bulletin and the
+   Full Report (--kind bulletin or --kind report). Python 3, ReportLab.
+2. _bulletin_reference_input.json — the exact input that produced the approved 27 Sep
+   2026 bulletin (42 stories, 10 categories). Use it to test any change to the program.
+3. _bulletin_reference_file.pdf — the approved 27 Sep 2026 bulletin itself
+   (Daily_Bulletin_27-9-26.pdf, 20 pages, A4, 168,897 bytes). Rafael adds this file by
+   hand; the Drive connection cannot upload a PDF of this size. Every future bulletin is
+   compared against it.
+4. fonts — optional. The program downloads any missing font on first run (Source Serif 4
+   from adobe-fonts on GitHub, Instrument Sans from google/fonts) and stops if it cannot;
+   it never falls back to another font. Both families are free under the SIL Open Font
+   License. Keeping the files here removes the download step.
+
+====================================================================
+2. LOOK
+====================================================================
+Page: A4 portrait, white. Margins 18 mm left and right, 18 mm top, 20 mm bottom; body
+pages start 24 mm from the top to leave room for the running header.
+
+Colours (exact hex):
+- Navy #09132A: all main text, headlines, rules, masthead.
+- Electric blue #3FA9F5: accent bars, the short thick accent on section rules, rank numerals.
+- Blue ink #1B75BA: small blue text (date line, "SECTION nn", source links, running
+  section name). It is the same hue darkened so small text stays readable on white.
+- Blue tint #E8F4FE: fill of the CONFIRMED status pill.
+- Amber #FFC45A and amber tint #FFF3DB: status pills for REPORTED, PRELIMINARY,
+  UNCONFIRMED and DEVELOPING (tint fill, amber outline); DISPUTED is solid amber.
+- Grey text #566074 (labels, coverage, captions), grey soft #8A93A3 (separators, web
+  domains), grey rule #D8DEE7 (hairlines), grey tint #EEF1F5 (pill for any other status).
+
+Fonts (embedded as subsets; the finished PDF is checked for any non-embedded font):
+- Source Serif 4 for headlines and reading text: Display Semibold for the title and
+  section titles, Subhead Semibold for story headlines, Regular and Italic for body text.
+- Instrument Sans for navigation, labels and source lines: Regular, Medium, SemiBold, Bold.
+
+Sizes in the bulletin (points, size/leading):
+- Product title "Daily Bulletin": Serif Display 50/54.
+- Date line: Sans Medium 14/18, blue ink.
+- Purpose line: Serif Italic 14/20, indented 30 mm from the right.
+- Coverage line: Sans 8.8/13, the word "Coverage" in Sans SemiBold navy.
+- Section title (category name): Serif Display 25/29; above it "SECTION nn" in Sans
+  SemiBold 7.8, blue ink, letter-spaced; under it "n stories · ranked by importance" in Sans 8.5.
+- Story headline: Serif Subhead 16.5/20.5.
+- Story text: Serif 10.8/16, 7 pt after each paragraph.
+- Source line: Sans 8.4/11.
+- Masthead "AI NEWS DESK": Sans Bold 11, letter-spaced, with a blue bar, over a 1.1 pt navy rule.
+
+Front page, top to bottom: masthead, navy rule, title, date, purpose line, coverage line,
+then CONTENTS (blue ink label, "n categories · n stories", a navy rule with a 28 mm blue
+accent, and one linked row per category plus the extra sections, each with its page
+number). In the bulletin the first category starts on the front page under the contents.
+
+Every page: footer with a grey hairline, "AI NEWS DESK" in Sans Bold 6.8, then
+"Daily Bulletin · <date>" in grey, and "Page x of y" on the right in navy.
+Every page after the first: running header with a small blue bar, "AI NEWS DESK",
+"Daily Bulletin", and on the right the name of the category on that page in blue ink,
+over a grey hairline. The PDF opens with its bookmarks panel showing the categories.
+
+Section header: a navy 0.8 pt rule with a 28 mm blue accent, "SECTION nn", the category
+name, and the story count line. A heading never sits alone at the bottom of a page.
+
+Story block (bulletin): single column. The story's rank inside its category hangs in a
+14 mm left gutter as a blue numeral. The text column is indented 12 mm on the right to
+keep lines near 80 characters. Order inside a block:
+1. Headline.
+2. Label row: "Importance: HIGH (8)" (label and score), "Rank n of m in category", and
+   the status pill (CONFIRMED, REPORTED and so on).
+3. The paragraphs (section 5.3).
+4. Source line: "Source: <Publisher> ↗ · domain.com", the publisher name a live link to
+   the original article.
+Stories are separated by a thin divider. The headline, the label row and the first lines
+of the text never split across pages, and a source line never starts a column alone.
+
+====================================================================
+3. STRUCTURE
+====================================================================
+1. Front page as above.
+2. Categories in the V1 order of 23 Sep 2026, skipping any category with no bulletin story:
+   Politics and government; Market, industry and finance; Security and cyber; Energy and
+   infrastructure; Robotics; Models and tools; Research and science; Ethics and law;
+   Health; Society and education; then The Fun Side, last, with its top 3 stories
+   (Rafael, 30 Sep 2026).
+3. Inside each category the highest score comes first; ties keep the Full Report order.
+   Rank n of m is the story's place inside its category in the Full Report.
+4. After the categories: "About this edition" (section 7).
+
+====================================================================
+4. SELECTION
+====================================================================
+1. Source is the Full Report of the same day only. No web-only story is added. Facts,
+   scores, statuses and sources are copied unchanged; a missing story is fixed in the
+   Full Report first.
+2. Rule (Rafael, 28 Sep 2026, CLAUDE.md rule 14): the score cutoff flexes with the day's
+   pool so the bulletin lands near 30 to 50 stories (usually 6, 7 or 8 and up); every Full
+   Report story at or above that cutoff goes in, grouped by category, most important first.
+   State the cutoff and the count. The Fun Side does not count toward the cutoff: its top 3
+   stories are added last (Rafael, 30 Sep 2026). This replaces the 27 Sep 2026 rule "every
+   story scored 7 to 10".
+3. Counts are guidelines, not gates (CLAUDE.md rule 14): the number follows the day's
+   pool; state the number, never stop to ask about it. 27 Sep 2026 had 42 stories.
+4. Score bands: 10 CRITICAL, 8 and 9 HIGH, 6 and 7 MEDIUM, 1 to 5 WATCHLIST.
+
+====================================================================
+5. WRITING
+====================================================================
+5.1 Reader and phrasing: use the shared rules and the Bulletin section of
+    Article_phrasing_instructions_AIND_V1; that file alone defines the reader level.
+5.2 Meaning check (Plain Language Law section 1A, approved 26 Sep 2026) on every bulletin
+    story: read the full source, shorten, compare back, rewrite if a fact, consequence or
+    qualification went missing or a stronger certainty appeared. Keep every hedge and
+    every attribution ("Bloomberg reports"). A possibility is never written as a fact.
+5.3 Story format (copied from the LV1.1 report story format with Rafael's approval,
+    27 Sep 2026):
+    - Headline: one full sentence saying what happened, not leading with an unexplained
+      acronym or product name.
+    - Importance label and score, rank, status (shown in the label row).
+    - Paragraph 1, the summary: one or two complete sentences; the first is the event
+      with its attribution, the next gives the practical "why it matters" or new facts.
+    - Paragraph 2: "Why it matters: " plus one sentence naming what changed, who it
+      affects (people first, then institutions, then companies) and the honest doubt.
+    - Paragraph 3, only when the original article could not be opened: "Note: we could
+      not open the original article; this entry relies on its headline and related
+      coverage."
+    - The headline and summary may repeat the Full Report word for word; the Plain
+      Language Law's "never lift a sentence" rule covers cards and clips, not the bulletin.
+5.4 No sales language, no buy or sell advice, no marketing words.
+
+====================================================================
+6. CREDIT AND LINKS
+====================================================================
+1. Every story names its publisher and links to the original article, never to a
+   Google News or other redirect link. Credit to the people who reported the story is
+   required; this is why the link stays even on headline-only stories.
+2. The source name is the publisher only. Internal notes ("via", "(blocked)", research
+   remarks) are removed before printing; a long name is cut at its first comma.
+
+====================================================================
+7. FIXED TEXT
+====================================================================
+- Title: Daily Bulletin. Date: "<day> <Month> <year>", for example 27 September 2026.
+- Purpose line: "A concise selection of the day's most important AI developments, taken
+  from the Full Report: every story scored <cutoff> or more, plus the top 3 from The Fun
+  Side."
+- Coverage line: "<reporting window> · <n> stories".
+- About this edition, three short paragraphs: where the stories were collected and for
+  which window; how many full articles were read and how many are headline only; the
+  score scale and the line "Nothing here is investment advice."
+
+====================================================================
+8. INPUT FORMAT (what build_pdf.py reads)
+====================================================================
+{"title": "Daily Bulletin", "date": "27 September 2026", "purpose": "...", "coverage": "...",
+ "categories": [{"name": "Politics and government",
+                 "items": [{"headline", "score", "importance", "rank", "rank_of", "status",
+                            "paragraphs": [summary, "Why it matters: ...", optional note],
+                            "source", "url"}]}],
+ "extra_sections": [{"title": "About this edition", "paragraphs": [...]}]}
+Any other key is ignored and never printed. _bulletin_reference_input.json is a complete
+real example.
+
+====================================================================
+9. REBUILD
+====================================================================
+1. Put build_pdf.py in a folder (with a fonts subfolder if the font files are kept).
+2. Build the input JSON from the day's verified Full Report entries (sections 4, 5, 8).
+3. Run: python build_pdf.py --input bulletin_input.json --kind bulletin --out Daily_Bulletin_D-M-YY.pdf
+4. The program installs ReportLab if missing, renders twice so "Page x of y" and the
+   contents page numbers are right, and checks that every font is embedded.
+5. Test after any change to the program: build from _bulletin_reference_input.json and
+   compare page by page with _bulletin_reference_file.pdf.
+
+====================================================================
+10. FILES AND STORAGE
+====================================================================
+- Daily output: Daily_Bulletin_D-M-YY.pdf in AI_News_Desk / daily_data_generated /
+  YYYY-MM-DD / reports; its input JSON and markdown in reports / supportive files
+  (AI News Desk — STORAGE & FILE ROUTING STANDARD, Drive 1ModaHnDZvjn5SxEvwRXwxlrhoXXKzDq-Mhs0NS0eVms).
+- A superseded file gets "_superseded" added to its name and moves to supportive files /
+  archive. Nothing is deleted.
+
+====================================================================
+11. FINAL CHECK BEFORE SHIPPING
+====================================================================
+1. Every story comes from today's Full Report; scores, statuses and sources unchanged.
+2. Every story at or above the day's cutoff is present, in category order, highest first,
+   and the top 3 Fun Side stories come last.
+3. Every story has a publisher name and a working direct link.
+4. Meaning check passed on every story; headline-only stories carry the note.
+5. Page count, contents page numbers and "Page x of y" agree; every font is embedded.
+6. Spot-check the first page and two story pages against the reference PDF.
+7. Publication needs Rafael's explicit approval.
+
+====================================================================
+12. OPEN QUESTIONS FOR RAFAEL
+====================================================================
+1. Answered by Rafael on 28 Sep 2026: the cutoff flexes so the bulletin lands near 30 to
+   50 stories (section 4.2). The old gate of 25 to 30 stories and the 27 Sep rule "every
+   story scored 7 to 10" are superseded.
+2. The web version of the bulletin (for Telegram and the website) should use this same
+   look: same colours, fonts, structure and links.
+
+====================================================================
+13. CHANGE LOG
+====================================================================
+27 Sep 2026: v1 created from the approved 27 Sep 2026 bulletin and its program.
+30 Sep 2026: sections 3.2, 4.2, 7, 11.2 and 12.1 updated to Rafael's rules: the cutoff
+            flexes to land near 30 to 50 stories (28 Sep) and the top 3 Fun Side stories
+            join the bulletin (30 Sep). The earlier text is archived as _superseded.

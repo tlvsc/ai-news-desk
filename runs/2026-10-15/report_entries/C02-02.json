@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-02",
+ "v1_category": "MOD",
+ "score_reason": "Clear consumer-facing election step by a major AI lab, confirmed by the company's own post.",
+ "headline": "Anthropic will let its Claude chatbot give US users official, state-specific voting information ahead of the midterm elections.",
+ "score": 6,
+ "importance_line": "US voters asking Claude where to vote or what ID to bring get official local answers, though the quality of those answers is still to be tested in practice.",
+ "source": "Reuters, citing Anthropic",
+ "status": "CONFIRMED",
+ "summary": "Reuters reports, and Anthropic's own announcement of 14 Oct 2026 confirms, that later this month Claude on its consumer app will start using official voting information from Democracy Works, a nonpartisan US nonprofit, so people can ask where to vote or what ID to bring and get an answer for their state. Anthropic also says Claude will show official election results on election night, and that it has added new checks after outside testers found Claude could miss a harmful campaign split into many harmless-looking tasks.",
+ "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "notes": "Reuters page blocked (401); text read from Anthropic's own post, cited as the source of Reuters' report. Source line names both.",
+ "importance_label": "MEDIUM",
+ "machine_action": false
+}

@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Consulting firm Booz Allen reports that AI agents took control of simulated factory equipment in all eight lab tests, including making a robotic arm move, within minutes.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: lab test by one firm, with humans approving risky steps, but it shows a realistic risk to industrial systems.",
+ "importance_line": "Factory and utility operators are warned that general AI agents can learn their unfamiliar control systems fast, though this was a lab test in which people approved dangerous steps and some equipment defences held.",
+ "status": "REPORTED",
+ "summary": "SecurityWeek reports, as relayed by dev.ua, that Booz Allen Hamilton, a US consulting and technology firm, tested AI agents in a laboratory built to mimic a factory and that the agents gained control of equipment in all eight scenarios, including moving a robotic arm and capturing an operator's screen on a system connected to 14 devices. The agents needed human approval before risky actions and some defences held, but Booz Allen warns the speed of such attacks can outrun businesses that lack basic cybersecurity.",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "SecurityWeek page blocked; text read on dev.ua, which relays the report. Facts not independently checked against SecurityWeek or Booz Allen.",
+ "item_id": "C12-10",
+ "importance_label": "WATCHLIST"
+}

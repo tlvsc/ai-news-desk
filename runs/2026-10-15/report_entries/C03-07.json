@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "MOD",
+ "headline": "A new open-source tool called REA lets AI coding agents pull apart finished software to see how it works, and it has become one of GitHub's fastest-rising projects.",
+ "score": 5,
+ "score_reason": "Widely noticed open-source release; reported by one outlet here, star figures unchecked; the tool trended before 14 Oct.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It gives security researchers and developers a faster way to study programs and web traffic, and the same ability could be used by others against software they do not own, though the article does not discuss misuse.",
+ "source": "TechGig",
+ "status": "REPORTED",
+ "summary": "TechGig reports that REA, short for Reverse Engineer Anything, is a new open-source tool that lets AI coding agents such as Claude Code or Codex analyse programs without their source code, returning readable pseudocode and request logs from desktop apps, Android apps and saved network traffic. TechGig says its GitHub project gained over 115,000 stars in a week, a figure we have not verified, and that the heaviest analysis needs separate tools such as Ghidra or IDA.",
+ "url": "https://techgig.com/news/ai/rea-server-enables-ai-agents-to-reverse-engineer-software/134948678",
+ "freshness": "FOLLOW-UP of 6 Oct 2026 (trending began)",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Star count is TechGig's claim, unchecked. Freshness date is when GitHub trending began per the article, not a launch date, which is not stated."
+}

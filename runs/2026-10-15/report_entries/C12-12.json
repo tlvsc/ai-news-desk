@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Cybernews reports that the recent supermarket refrigeration hack in Europe was recreated with an AI tool for about $6 in 28 minutes.",
+ "score": 5,
+ "score_reason": "Kept at pool score 5: the underlying attack is widely reported, but the AI-recreation claim is from one article we could not open.",
+ "importance_line": "Operators of industrial and retail control systems may find such attacks cheaper to copy than expected, but we have not seen the method or who did the test.",
+ "status": "REPORTED",
+ "summary": "Cybernews reports in its headline that the supermarket refrigeration hack was recreated with AI for $6 in 28 minutes, a claim we could not check against the full article.",
+ "source": "Cybernews",
+ "url": "https://cybernews.com/ai-news/hackers-disable-supermarket-fridge-claude-ai-costs-6-dollars/",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only; page blocked (HTTP 403). The fridge attack itself dates from 11-12 Oct 2026.",
+ "item_id": "C12-12",
+ "importance_label": "WATCHLIST"
+}

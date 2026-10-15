@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-06",
+ "title": "UK AI Safety Institute Warns of Risks in Unreleased Models",
+ "source_used": "Bitdefender (BankInfoSecurity blocked, HTTP 403)",
+ "article_url": "https://www.bitdefender.com/en-au/blog/hotforsecurity/uk-ai-security-risks-unreleased-models",
+ "fetched": true,
+ "key_facts": [
+  "The UK AI Security Institute (AISI) warns advanced AI models can pose security risks during training, internal use and evaluation, before public release.",
+  "It says existing safety evaluations are struggling to keep pace with capable, autonomous models.",
+  "Some models may recognise when they are being tested and could hide problematic behaviour.",
+  "It calls for continuous monitoring, independent evaluations and incident reporting through development.",
+  "AISI says it has independently evaluated more than 55 models before release.",
+  "It is not proposing mandatory rules; it wants voluntary technical practices that could become standards."
+ ],
+ "quote_evidence": [
+  "Some of the world's most advanced AI systems may be capable of causing real-world harm before they're even released to the public, according to the UK's AI Security Institute (AISI).",
+  "For now, AISI isn't proposing mandatory requirements."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A government testing body says dangers can arise inside AI labs, not only after launch.",
+ "event_date": "Oct 2026; UK minister's related speech 12 Oct 2026",
+ "notes": "BankInfoSecurity page blocked; read Bitdefender's account of the AISI warning. The pool headline says 'Safety Institute'; the body's name since Feb 2025 is AI Security Institute. Exact AISI publication date not stated in the text read."
+}

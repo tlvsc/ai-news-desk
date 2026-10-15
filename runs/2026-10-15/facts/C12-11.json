@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-11",
+ "title": "Noma Security Discloses Claude Code Desktop Exploit",
+ "source_used": "CSO Online (DevOps.com blocked, HTTP 403)",
+ "article_url": "https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html",
+ "fetched": true,
+ "key_facts": [
+  "Noma Security found a flaw, called SneakPeek, in Anthropic's Claude Code Desktop app.",
+  "Malicious JavaScript in an HTML file could run in the app's preview pane without further user action and read local files.",
+  "HTML files over 256KB were loaded as file:// URLs, bypassing the content security policy applied to smaller files.",
+  "Data at risk included cloud credentials, GitHub secrets and SSH private keys.",
+  "The flaw has a CVSS score of 8.7 (high), assigned by Anthropic; a CVE ID is not yet available.",
+  "Noma says Anthropic worked with it and fully fixed the issue; an initial patch was bypassed and a deeper fix followed.",
+  "Anthropic did not immediately comment to CSO."
+ ],
+ "quote_evidence": [
+  "Simply asking Anthropic's Claude Code to review an HTML file could hand attackers access to a developer's machine, cloud credentials and software development environment, according to a new Noma Security finding.",
+  "Noma says Anthropic collaborated with Noma Labs during the disclosure process and fully resolved the issue."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A widely used AI coding tool could leak developers' secrets until patched.",
+ "event_date": "Disclosed 14 Oct 2026",
+ "notes": "Claims come from Noma; Anthropic's confirmation is relayed by Noma, and Anthropic had not commented."
+}

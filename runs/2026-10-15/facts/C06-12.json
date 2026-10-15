@@ -1,0 +1,23 @@
+{
+ "item_id": "C06-12",
+ "title": "Prime Intellect acquires Moondream, a vision AI startup founded in Seattle by AWS vets",
+ "source_used": "Prime Intellect company blog and GuruFocus (GeekWire page blocked, HTTP 403)",
+ "article_url": "https://www.primeintellect.ai/blog/moondream",
+ "fetched": true,
+ "key_facts": [
+  "Prime Intellect, an AI training and inference company, announced it has acquired Moondream.",
+  "Moondream founders Vik Korrapati and Jay Allen join to lead inference and multimodal work on vision and computer use.",
+  "Moondream built open-weight vision-language models with millions of monthly downloads, and Photon, an inference engine that compiles a model into a single GPU program.",
+  "Prime Intellect says Moondream 3.1 runs at 34 requests per second, about 24 times faster than the next most accurate open model.",
+  "Moondream 3.1 is already available through Prime Inference.",
+  "GuruFocus describes Prime Intellect as San Francisco based, valued at $1 billion after funding, with revenue above $100 million; terms of the deal were not stated."
+ ],
+ "quote_evidence": [
+  "We’ve acquired Moondream.",
+  "Moondream 3.1 is now available through Prime Inference."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Small, fast specialist AI models are being folded into infrastructure companies.",
+ "event_date": "13 Oct 2026 (announcement)",
+ "notes": "Prime Intellect's blog is dated by outlets 13 Oct, before the 14 Oct window. GuruFocus text is confused (mentions an unrelated stock) so only its Prime Intellect lines were used. Price not disclosed."
+}

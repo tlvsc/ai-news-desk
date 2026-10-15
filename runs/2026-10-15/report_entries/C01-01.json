@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "Mistral, the French AI company, has released its trillion-parameter Mistral Large 4 model in preview and plans to publish its open weights on 31 October.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the launch was 6 Oct, so only the preview, test notes and weights date are new, and the model trails the top closed models.",
+ "importance_line": "Developers and European organisations that want to run a large model on their own systems may gain a cheaper option, but the licence is not final and the model trails Claude Opus 5 and GPT-5.5 on hard reasoning.",
+ "status": "REPORTED",
+ "summary": "Startup Fortune reports, citing Mistral's announcement, that Mistral AI unveiled Mistral Large 4 on 6 Oct 2026, a multimodal model with 1.05 trillion parameters in total (49 billion used per token), now in public preview at $1.36 per million input tokens against $5.00 for OpenAI's GPT-5.5. The open weights, meaning the downloadable model files, are due on 31 Oct, but the licence terms are not final and tests show it trails Claude Opus 5 and GPT-5.5 on hard reasoning; Mistral says it leads one workflow benchmark at about a fifth of rivals' cost, a company claim.",
+ "url": "https://startupfortune.com/mistral-releases-le-chonk-a-1-trillion-parameter-open-weight-model/",
+ "source": "Startup Fortune (citing Mistral AI)",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Source article is a secondary piece on Mistral's own announcement and Simon Willison's test. It gives two weights dates (31 Oct, 27 Oct) and two GPU counts; we used 31 Oct, which the article's main text gives.",
+ "item_id": "C01-01",
+ "importance_label": "MEDIUM"
+}

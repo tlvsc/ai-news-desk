@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-11",
+ "v1_category": "MOD",
+ "headline": "Google's agent toolkit Antigravity SDK can now run its coding agents on local models, so code does not have to leave the developer's computer.",
+ "score": 5,
+ "score_reason": "Developer feature with a privacy angle; results come from one Google demo.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It matters to developers and firms that cannot send code to the cloud and want lower cloud costs, though the figures come from one Google demonstration and the setup needs a powerful computer.",
+ "source": "InfoQ, citing Google",
+ "status": "REPORTED",
+ "summary": "InfoQ reports, citing Google, that the Antigravity SDK, Google's toolkit for building AI coding agents, now supports local models, so a cloud model can plan a job while agents on the developer's own machine do the code work. In a Google demonstration fixing three vulnerable Python modules, Google says only 95 of about 3,400 tokens were used in the cloud and no source code was uploaded; the recommended hardware is 24GB or more of graphics or unified memory.",
+ "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Announcement date not stated by InfoQ; figures are Google's."
+}

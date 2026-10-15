@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-02",
+ "title": "AI-driven cyberattacks hit 16 financial firms, expose 100,000 records",
+ "source_used": "The Korea Times",
+ "article_url": "https://www.koreatimes.co.kr/business/banking-finance/20261014/ai-driven-cyberattacks-hit-16-financial-firms-expose-100000-records",
+ "fetched": true,
+ "key_facts": [
+  "Number of financial firms hit by suspected AI-agent-driven cyberattacks rose to 16, from seven first reported, regulators said on Wednesday 14 Oct 2026.",
+  "About 100,000 records with personal data, including resident registration numbers, were exposed; the tally could rise.",
+  "Affected firms include banks Shinhan, KB Kookmin, BNK Busan and Hana, plus savings banks, credit finance firms, payment providers and crypto businesses.",
+  "No evidence so far that account or card numbers were compromised.",
+  "Regulators are checking whether one hacking group is behind the attacks.",
+  "130 of 555 inspected financial firms (23.4%) had security deficiencies, such as missing patches and no 24-hour monitoring.",
+  "The Financial Services Commission plans broader reforms, including making CEOs and boards more accountable."
+ ],
+ "quote_evidence": [
+  "The number of financial firms affected by suspected artificial intelligence (AI) agent-driven cyberattacks has risen to 16, more than double the seven initially reported, financial regulators said Wednesday.",
+  "About 100,000 records containing personal information, including resident registration numbers, were exposed."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Attacks on Korean finance have more than doubled in reach and exposed ID numbers of ordinary customers.",
+ "event_date": "Attacks since the start of Oct 2026; regulator update 14 Oct 2026",
+ "notes": "The article does not name the tools or models used; the AI-agent link is described as suspected. Earlier pool item (11 Oct) named ARTEX AI and Claude agents; not repeated here because today's article does not."
+}
