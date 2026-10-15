@@ -55,6 +55,7 @@ def category_opening_ok(item, it):
     e = entry(W, item)
     it = re.sub(r'^(also|next|then|and)[ ,]+', '', it).strip()
     if int(e.get('score', 0)) >= 10 and it.startswith('first, a critical'): return True
+    if it == 'from washington' and e.get('v1_category') == 'POL': return True  # Rafi, 15 Oct 2026: "From Washington" is fine for politics
     return it in CAT_OPENINGS.get(e.get('v1_category', ''), set())
 
 
@@ -87,7 +88,7 @@ for k, s, kind in clips:
     out('B1', box <= 12, f'{k} {box} s is over the 12 s maximum (CLAUDE.md rule 22, Rafi 11 Oct 2026)') if box > 12 else out('B1', box <= aim, f'{k} {box} s (aim {aim} s or less)', 'WARN')
     if kind in ('story', 'fun'):
         it = intro(s); out('B2a', 0 < len(it.split()) <= 5, f'{k} opens with a spoken introduction: "{it}"')
-        out('B2d', not re.search(r'\bfrom\b', it), f'{k} opening "{it}" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)')
+        out('B2d', not re.search(r'\bfrom\b', it) or re.sub(r'^(also|next|then|and)[ ,]+', '', it).strip() == 'from washington', f'{k} opening "{it}" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)')
     if kind == 'story':
         out('B2e', category_opening_ok(k, it), f'{k} opening "{it}" must be the story category (for example "In finance", "In robotics", "In tech"); a topic or a place is not a category (Rafi, 14 Oct 2026)')
     if kind == 'teaser': out('B2a', s.startswith('Also in the full report.'), 'teaser opens with "Also in the full report." (full stop, no colon)')

@@ -26,7 +26,7 @@ endings A to D). Use today's report entries (WORKDIR/report_entries) plus earlie
 - Every Fact is attributed as in its story ("a researcher says", "Reuters reports").
   Keep every hedge; a report of a plan is not the plan happening.
 - The one-quarter markets cap (Full Report rule 5.5) does NOT apply to the Bigger Picture corner (CLAUDE.md rule 17, newest ruling, 2 Oct 2026, "for this corner only"); no tickers; no buy or sell advice.
-  Print the share: 3 Oct 2026 was 15 percent.
+  (Rafi, 15 Oct 2026: the markets share is NOT printed in any product. NEVER print a rule number, a file name, "CLAUDE.md", "pool", "cut-off" or any other process wording in the Bigger Picture: it is a customer product. A person named gets a title in the same sentence.)
 
 2. Bulletin: write WORKDIR/bigger_picture_bulletin.json {"title": "The Bigger Picture — Daily AI Analysis",
    "paragraphs": [...]}, 300 to 500 words, only what is necessary (Rafi, 13 Oct 2026: "300-500 words is fine for now"), plain words, NO {Cnn-nn} citations (the Bulletin prints no item numbers):
