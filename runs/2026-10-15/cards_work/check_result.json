@@ -5,7 +5,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "69/173 chars; ministry, Alibaba-owned paper hedge, Apple silence all match entry; SCMP credit right"
+  "note": "recheck 3: head 82, body 121; Alibaba-owned paper hedge and 'Apple has not confirmed' present; plain, reads aloud"
  },
  {
   "card": "s2",
@@ -21,7 +21,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "recheck: head 79, body 152; 'what Reuters and CNBC call a record profit' keeps the attribution; $23.86bn and the one-quarter doubt match; reads aloud fine"
+  "note": "recheck 3: head 82, body 133; $23.86bn, beat forecasts, sixth record in a row attributed to Reuters and CNBC, one-quarter doubt; market card so money in head is allowed"
  },
  {
   "card": "s4",
@@ -29,7 +29,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "82/158; hypothetical, talk first, no company and no test all in entry; Bloomberg credit right"
+  "note": "recheck 3: head 81, body 158; hypothetical, talk first, no company and no test all in facts; 'it' points to the head's idea"
  },
  {
   "card": "s5",
@@ -37,7 +37,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "85/158; chair of Google DeepMind, 'early warning shots', couple of years, his forecast all match; Reuters"
+  "note": "recheck 3: head 85, body 160; chair of Google DeepMind, warning shots, couple of years, 'unless AI is secured' matches the condition, forecast hedge kept"
  },
  {
   "card": "s6",
@@ -61,17 +61,15 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "83/173; 50bn yuan, unnamed investors, listing past 2026 per investor all in facts; TechNode citing Caijing. Note: Cards Master 3.3 keeps funding out of a robotics head, but CLAUDE.md ROBOTICS allows a funding-round robotics card (repo wins); no machine fact exists to lead with"
+  "note": "recheck 3: head 83, body 169; 50bn yuan from unnamed investors, declined to comment, 120-day gap as 'a waiting rule', listing past 2026 per one investor; sentences connect"
  },
  {
   "card": "s9",
-  "pass": false,
-  "broken": [
-   "1: 'Artificial Analysis testers' no longer says what Artificial Analysis is; the entry's point is that an INDEPENDENT testing firm ranked it, and a stranger could take it for Musk's own testers"
-  ],
+  "pass": true,
+  "broken": [],
   "fix_head": "",
-  "fix_body": "Independent testers at Artificial Analysis ranked Grok Voice 3.0, from Musk's SpaceXSI, top among talking AI. The lead is small, and OpenAI still wins one test with noisy, accented calls.",
-  "note": "recheck: fix body 187 chars; only the word 'Independent' and 'at' return, everything else as the writer has it"
+  "fix_body": "",
+  "note": "recheck 3: head 84, body 182; SpaceXSI introduced as Musk's AI firm, 'Independent testers at Artificial Analysis' back, small lead and the noisy accented test kept"
  },
  {
   "card": "s10",
@@ -79,7 +77,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "83/163; Nature, open source as 'free', bias as 'regular errors', not yet in daily use all match; The Verge"
+  "note": "recheck 3: head 81, body 165; body now adds how (errors made again and again) instead of repeating the head; Nature, poorer agencies, not in daily use kept"
  },
  {
   "card": "s11",
@@ -95,7 +93,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "82/165; information requests as 'question', Hugging Face escape, lawyers' doubt all in entry; Euronews"
+  "note": "recheck 3: head 85, body 173; information requests as 'questioning', Hugging Face introduced, lawyers' doubt and the unnamed official's reply match the entry"
  },
  {
   "card": "s13",
@@ -119,7 +117,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "72/168; $60,000, misstated record, follow-up without him, goodbye loop all in facts; The Register"
+  "note": "recheck: head 72, body 162; undersold pay ($60k vs $140-150k wanted), follow-up booked while he was away, goodbye loop all in facts; name linked to 'a comedian' in the head; 'Then' links the sentences"
  },
  {
   "card": "t1",
@@ -155,12 +153,10 @@
  },
  {
   "card": "bp",
-  "pass": false,
-  "broken": [
-   "3: 'chip shares worldwide' is stronger than the facts, which show falls in the US (Nasdaq), South Korea (KOSPI) and Japan (Nikkei) only"
-  ],
+  "pass": true,
+  "broken": [],
   "fix_head": "",
-  "fix_body": "US inflation and a bond slump at AI computing firm CoreWeave hit chip shares in the US and Asia. Watch the US central bank's rate decision on 28 October.",
-  "note": "recheck: fix body 153 chars (limit 160); CoreWeave now introduced, 28 Oct watch item kept, notice added by make_cards.py"
+  "fix_body": "",
+  "note": "recheck 3: head 73, body 140 (limit 160); CoreWeave introduced as AI cloud firm, US and Asian falls match Nasdaq, KOSPI and Nikkei, 28 Oct Fed watch item; notice added by make_cards.py"
  }
 ]

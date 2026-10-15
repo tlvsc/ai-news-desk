@@ -104,7 +104,7 @@
   {
    "rule": "B1",
    "status": "PASS",
-   "detail": "C05-01 8.5 s (aim 9.0 s or less)"
+   "detail": "C05-01 6.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -204,17 +204,17 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "fun 9.0 s (aim 8.5 s or less)"
+   "detail": "fun 12.0 s (aim 8.5 s or less)"
   },
   {
    "rule": "B2a",
    "status": "PASS",
-   "detail": "fun opens with a spoken introduction: \"and now, something lighter\""
+   "detail": "fun opens with a spoken introduction: \"in today's fun corner\""
   },
   {
    "rule": "B2d",
    "status": "PASS",
-   "detail": "fun opening \"and now, something lighter\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
+   "detail": "fun opening \"in today's fun corner\" names a place; it must name the topic of the story (Rafi, 14 Oct 2026)"
   },
   {
    "rule": "B3",

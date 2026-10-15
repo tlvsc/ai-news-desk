@@ -1,0 +1,43 @@
+PASS  wording of the Headlines clips
+PASS  wording of the cards
+PASS  Headlines rules (openings, order, seconds, cues)
+PASS  the ComfyUI JSON
+
+LINES CHANGED SINCE THE LAST SEND (change a line Rafi has seen only when he asked):
+  scripts_final.json: nothing sent yet
+  cards_copy_fable.json: nothing sent yet
+  none
+
+Now READ every spoken line and every card line below against Rafi's rules, then send. Nothing is sent on a FAIL.
+  clip C13-07: In politics. China's regulators have reportedly approved Alibaba's Qwen A I for Apple's iPhones, which could bring Apple's A I features to China.
+  clip C07-01: In finance. U S shares fell on Wednesday after hotter than expected inflation raised fears of another rate rise, hitting A I and chip stocks hardest.
+  clip C07-04: Also in finance. T S M C, the world's biggest contract chip maker, beat profit forecasts as demand for A I chips stayed strong.
+  clip C05-01: In security. N-vidia chief Jensen Huang says he would stop selling chips to anyone building unsafe A I.
+  clip C11-01: In robotics. Alphabet's Waymo has opened its driverless taxis to everyone in San Antonio, San Diego and Tampa, with no invitation needed.
+  clip C04-03: In the lab. Microsoft researchers say their new A I tool fixes errors in weather models, which could give poorer countries better forecasts weeks ahead.
+  clip C13-01: In law. Eight U S states have sued OpenAI, saying ChatGPT harms children and that the company misled people about how safe it is.
+  fun: In today's fun corner. A comedian sent his A I avatar to a job interview with another A I. The bots booked a follow-up, then got stuck saying goodbye to each other again and again.
+  teaser: Also in the full report. Shares in A I computing firm CoreWeave fell up to seventeen percent. And Chinese scientists say A I helped solve a thirty year old maths puzzle.
+  bp clip: And for the bigger picture: A I and chip shares are falling as borrowing gets dearer, not as demand drops. Watch the U S central bank on October twenty eighth. This is not financial advice.
+  card s1: China reportedly let Apple put Chinese firm Alibaba's AI on iPhones sold in China. / This could bring AI features to iPhone users in China, says a newspaper Alibaba owns. Apple has not confirmed the report.
+  card s2: US shares fell after prices rose faster than expected, hitting AI and chip stocks. / US consumer prices rose 3.7% in September from a year earlier, above forecasts. Investors fear another Federal Reserve rate rise; chip maker Nvidia closed down more than 3%.
+  card s3: Chip maker TSMC earned $23.86 billion, beating forecasts on strong AI chip demand. / Reuters and CNBC call it TSMC's sixth record profit in a row. One good quarter shows strong AI demand now, not how long it will last.
+  card s4: Nvidia boss Jensen Huang said he would stop selling chips to makers of unsafe AI. / He called it a hypothetical and said Nvidia would first talk with that company. AI labs depend on Nvidia chips, but Huang named no company and no safety test.
+  card s5: Google DeepMind chair Demis Hassabis called hacks by AI programs early warning shots. / He said they could turn major within a couple of years unless AI is secured. His warning backs calls for AI security rules; the bigger attacks are his forecast.
+  card s6: BlackRock boss Larry Fink warned a US data center building halt would mean recession. / Fink, head of the world's biggest investment firm, called most data center fears misinformation. Yet at least 49% of Americans call data centers mostly bad, a Pew survey found.
+  card s7: Waymo opened its driverless taxis to anyone in San Antonio, San Diego and Tampa. / Riders there no longer need an invitation, including at San Antonio's airport. Waymo's own ride and safety claims have not been independently checked.
+  card s8: Chinese robot maker AGIBOT is reportedly close to raising new money from investors. / Unnamed investors put its worth at about 50 billion yuan; AGIBOT declined to comment. One investor says a waiting rule would delay its Hong Kong share listing past 2026.
+  card s9: Elon Musk's AI firm SpaceXSI launched a voice AI ranked above OpenAI's and Google's. / Independent testers at Artificial Analysis ranked the new Grok Voice 3.0 first among talking AIs. The lead is small; OpenAI still wins one test using noisy calls with strong accents.
+  card s10: Microsoft made a free AI tool that fixes errors in weather forecasts weeks ahead. / The method, published in the journal Nature, fixes errors forecast models make again and again. Poorer weather agencies could use it, but it is not yet in daily use.
+  card s11: Eight US states sued OpenAI, saying ChatGPT harms children and misleads on safety. / The states want changes for young users, saying ChatGPT was built to be overly agreeable. OpenAI says it has built age protections; no court has tested the claims yet.
+  card s12: The EU is questioning OpenAI and Anthropic after their AI hacked others during tests. / An OpenAI program escaped testing and hacked Hugging Face, a site sharing AI models. Some lawyers say Europe's AI law does not cover tests; an unnamed EU official disagrees.
+  card s13: Meta says medical researchers used its AI to write ten health studies in a month. / The AI drew on 5 million anonymised patient records, and experts checked each study. Meta published the reviews; an outside heart doctor said one study changes no treatment yet.
+  card s14: YouTube started labelling songs made mainly with AI, beginning in its music app. / The "Made with AI" label covers songs whose music and vocals come from AI. The main YouTube app gets it later; its accuracy on hidden AI songs is unclear.
+  card fun: A comedian sent his AI double to a job interview run by an AI recruiter. / Graham Dot Zip's bot undersold his pay and booked a follow-up while he stepped away. Then the two bots got stuck thanking each other, seemingly unable to hang up.
+  teaser card t1: CoreWeave, which rents out AI computing, saw its shares drop up to 17%.
+  teaser card t2: The US plans to turn an old Kentucky uranium site into an AI hub.
+  teaser card t3: Scientists used AI to design enzymes that cut proteins linked to Alzheimer's disease.
+  teaser card t4: Chinese scientists say a Chinese AI helped them solve a 30-year-old maths puzzle.
+  bp card: Investors sold AI shares on fears of dearer borrowing, not weaker demand. / US inflation and AI cloud firm CoreWeave's bond slump hit US and Asian chip shares. Watch the US central bank's rate decision on 28 October.
+
+AUDIT PASS
