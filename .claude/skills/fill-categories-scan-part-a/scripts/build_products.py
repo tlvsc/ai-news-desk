@@ -119,7 +119,7 @@ def main():
         rule_r = f"pool score {rmin} to 10, plus the best stories of score {rmin - 1} to reach about {a.report_fill_to}, plus The Fun Side"
     rule_b = f"every story scored {bmin} to 10, plus the top {len(fun)} Fun Side stories"
     if catmin:
-        rule_b += " (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")"
+        rule_b += " (" + ", ".join(f"{NAMES.get(k, k)} from {v}" for k, v in catmin.items()) + ")"
 
     # ---------- Full Report markdown (the card renderer reads it as report_file)
     L = ["# Daily Global AI Intelligence Report (Claude-V1) — TEST RUN", "",
@@ -205,7 +205,7 @@ def main():
         bb = json.loads(bbf.read_text(encoding='utf-8'))
         bul_extra.insert(0, {"title": bb['title'], "paragraphs": bb['paragraphs']})
     bul_json = {"title": "Daily Bulletin", "date": DATE,
-                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more" + (" (" + ", ".join(f"{k} from {v}" for k, v in catmin.items()) + ")" if catmin else "") + f", plus the top {len(fun)} from The Fun Side.",
+                "purpose": f"A concise selection of the day's most important AI developments, taken from the Full Report: every story scored {bmin} or more" + (" (" + ", ".join(f"{NAMES.get(k, k)} from {v}" for k, v in catmin.items()) + ")" if catmin else "") + f", plus the top {len(fun)} from The Fun Side.",
                 "coverage": f"{WINDOW} · {len(bulletin)} stories",
                 "categories": cats(bulletin), "extra_sections": bul_extra}
     (OUT / 'report_pdf.json').write_text(json.dumps(rep_json, indent=1, ensure_ascii=False), encoding='utf-8')
