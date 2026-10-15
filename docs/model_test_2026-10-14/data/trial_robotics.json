@@ -1,0 +1,283 @@
+{
+ "trial": "single story, article preloaded: robotics",
+ "story": "Google Gemini 4 Argon for Robotics (Google for Developers blog, 13 Oct 2026)",
+ "item": {
+  "item_id": "R01",
+  "title": "Gemini 4 Argon for Robotics",
+  "source": "Google for Developers Blog",
+  "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+  "google_url": "",
+  "published": "13 Oct 2026 16:02 GMT",
+  "pool_importance": 8,
+  "follow_up": false,
+  "follow_up_of": null,
+  "curator_note": "Google's new Gemini 4 Argon model controls real robots (Boston Dynamics Spot) and learns skills from ordinary video; scores 87% on an embodied reasoning test.",
+  "default_v1": "ROB"
+ },
+ "versions": [
+  {
+   "label": "A",
+   "version": "haiku xhigh",
+   "seconds": 87,
+   "est_input_cost_usd": 0.017,
+   "context_tokens": 540700,
+   "entry": {
+    "headline": "Google has released Gemini 4 Argon, a new AI model that it says can control real robots.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google's developer blog says its new Gemini 4 Argon model can control real robots: in one demo a four-legged Spot robot from Boston Dynamics first rehearsed in a physics simulator, then learned to step on a foot pedal and drop soda cans into a bin. Google says Argon scores 87% on the Embodied Reasoning (ERQA) test, which checks how well an AI solves physical, spatial problems in 3D, and that this beats every other leading model; it is available now to paid developers and Google AI Ultra subscribers.",
+    "importance_line": "Robot developers and researchers can now build on a model that Google says controls real machines, but the 87% score and the robot demos are Google's own claims, and no outside review is reported.",
+    "verified_text": true,
+    "notes": "Test run, one item. Read from the full article text in fulltext/R01.txt; the original publisher is Google itself, so no other outlet was needed. machine_action is true from the post's written description of the Spot and arm demos (walking to a bin and pressing a pedal; placing a mug); the demo videos did not play in the text copy, so check them before any card uses this clip. Curator note 'learns skills from ordinary video' is not supported by the post and was not used. Freshness NEW: published 13 Oct 2026. No rule conflict found."
+   }
+  },
+  {
+   "label": "B",
+   "version": "sonnet high",
+   "seconds": 40,
+   "est_input_cost_usd": 0.277,
+   "context_tokens": 429479,
+   "entry": {
+    "headline": "Google has released Gemini 4 Argon, an AI model it says can reason about the physical world well enough to help control robots.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says in a post on its developer blog that Gemini 4 Argon, which it calls a general-purpose model for physical reasoning, can control robots, including a Boston Dynamics Spot four-legged robot that learned to step on a foot-pedal bin and drop soda cans inside after practising in a simulated copy of the bin. Google also reports that Argon scored 87% on ERQA, a test of physical and spatial problem-solving in 3D settings, ahead of every other leading model; that is the company's own claim, and the model is available to developers on the paid tier of the Gemini API.",
+    "importance_line": "Developers building robots get a general-purpose AI model for physical tasks, which could make robots easier to program, but Google's 87% test score and demos are its own claims and have not been independently reviewed.",
+    "verified_text": true,
+    "notes": "Official vendor post, single source. Spot demo is shown on video in the post; machine_action true on that basis."
+   }
+  },
+  {
+   "label": "C",
+   "version": "sonnet max",
+   "seconds": 692,
+   "est_input_cost_usd": 0.941,
+   "context_tokens": 1581016,
+   "entry": {
+    "headline": "Google has released Gemini 4 Argon, an AI model it says can control robots and beat every other leading model on a physical-reasoning test.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says in a post on its developers blog that its new AI model, Gemini 4 Argon, can control robots, for instance getting Boston Dynamics' four-legged Spot to step on a bin's foot pedal and throw away soda cans after practising in a computer simulation. Google also says the model scored 87% on ERQA, a test of physical and spatial problem-solving in 3D settings, ahead of every other leading model, and that training data from a simulation the model built from a single photo lifted a real robot's success rate from 56% to 75%.",
+    "importance_line": "For now it matters mainly to robot developers and researchers with paid Google access, who can try one model for controlling robots, building simulations and making training data, but the post offers only Google's own demonstrations and figures, with no outside testing reported.",
+    "verified_text": true,
+    "notes": "Full article read (fulltext/R01.txt, HTTP 200); no other outlet used. The source is Google's own post, so every score and demonstration is Google's claim: the text gives no rival scores, no trial counts for 56% to 75% and no outside test, and the demo videos could not be played here. The 87% is given 'using pure reasoning', a test condition the post does not explain, so the entry does not repeat it. The pool note's 'learns skills from ordinary video' is only loosely supported (video becomes simulations, labels and progress estimates; Spot practised in a simulated bin), so the entry does not say it. Kept in ROB per default_v1, although the post is also a model launch. machine_action is true because the text describes Spot and robot arms doing tasks."
+   }
+  },
+  {
+   "label": "D",
+   "version": "haiku medium",
+   "seconds": 43,
+   "est_input_cost_usd": 0.014,
+   "context_tokens": 356334,
+   "entry": {
+    "headline": "Google has launched Gemini 4 Argon, an AI model it says can understand physical space and control robots.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google reports that its new model, Gemini 4 Argon, controls real robots in its demonstrations, including a Boston Dynamics Spot four-legged robot taught to step on a foot-pedal bin and drop in soda cans. On ERQA, a test of physical and spatial reasoning in 3D scenes, Google says Argon scores 87 percent, ahead of every other frontier model (the most advanced AI systems); the score and the demos are Google's own and not independently checked.",
+    "importance_line": "Developers can now use the model through the paid Gemini API and Google AI Studio (Ultra subscribers), which could make robots easier to teach new tasks for the people who work beside them; the benchmark and demos are Google's own and unverified.",
+    "verified_text": true,
+    "notes": "Read in full from the official post (WORKDIR/fulltext/R01.txt). Robot action (Spot pedal bin, mug and napkin) is described in the post as Google's demo; the demo videos were not viewed. Curator note 'learns skills from ordinary video' not stated in the text, not used. Test run, one item."
+   }
+  },
+  {
+   "label": "E",
+   "version": "opus max",
+   "seconds": 421,
+   "est_input_cost_usd": 1.183,
+   "context_tokens": 857577,
+   "entry": {
+    "headline": "Google released Gemini 4 Argon, an AI model it says can plan and control real robots.",
+    "score": 8,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says Gemini 4 Argon controlled Boston Dynamics' four-legged Spot robot as it learned to step on a bin's foot pedal and drop soda cans inside, after building a simulated copy of the bin to practise on. Google also claims the model scores 87% on ERQA, a test of how well AI models solve physical and spatial problems in 3D, beating every other leading model, and that training data it generated in simulation raised a real robot's success rate from 56% to 75%.",
+    "importance_line": "A model that Google says can plan, rehearse and carry out robot tasks is now open to paying developers, with stakes for people who may one day work alongside such robots, for research labs and for robot makers, though so far the only evidence is Google's own demonstrations and test scores.",
+    "verified_text": true,
+    "notes": "Primary source is Google's own blog, so the benchmark lead and robot results are written as Google's claims. Curator's 'learns skills from ordinary video' not used: the post shows human video turned into a simulation, not a real robot learning from it. Possible duplicate: Gemini 4 Argon looks like a general model launch that may also appear in MOD. Meaning check (Section 1A) against the full text of R01: event, both claims, attribution and hedges kept, no stronger certainty added; pass. No rule conflict found (Section 1B formally covers bulletin, cards and headlines; the entry answers who, what and why anyway)."
+   }
+  },
+  {
+   "label": "F",
+   "version": "opus xhigh",
+   "seconds": 88,
+   "est_input_cost_usd": 0.573,
+   "context_tokens": 433478,
+   "entry": {
+    "headline": "Google has released a new AI model for robots that it says can plan and control real machines, including Boston Dynamics' four-legged Spot robot.",
+    "score": 8,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says on its developer blog that Gemini 4 Argon, a new AI model built to reason about the physical world, directed robot maker Boston Dynamics' four-legged Spot robot to pick up soda cans and drop them into a foot-pedal bin after rehearsing the move in a virtual copy of the bin, and that it scores 87% on ERQA, a test of spatial and physical problem-solving, ahead of every other leading model. Google adds that practice runs Argon generated in simulation raised one real robot's task success rate from 56% to 75%; these are the company's own results with no outside review reported, and the model is available now to paying developers and Google AI Ultra subscribers.",
+    "importance_line": "Google now offers developers one model that plans robot movements, builds virtual practice copies of real scenes and creates its own training data, which it presents as a step toward robots that work alongside people and which could speed up research labs and robot makers, though every result so far comes from Google's own demonstrations and benchmark rather than independent tests.",
+    "verified_text": true,
+    "notes": "Written from the full Google post (fulltext/R01.txt). Meaning check (Sections 1A and 1B): who = Google and its Gemini 4 Argon robotics model, Spot identified as Boston Dynamics' four-legged robot; what = robot control on real hardware, simulation rehearsal, ERQA 87%, success 56% to 75%; why = faster robot learning, hedged as Google's own unreviewed claims. 'Learns skills from ordinary video' in the curator note was not used, as the post does not support it. Status CONFIRMED covers the release itself. machine_action true: the post shows Spot stepping on the pedal and dropping cans, and real arms placing objects. No rules conflict found."
+   }
+  },
+  {
+   "label": "G",
+   "version": "opus high",
+   "seconds": 45,
+   "est_input_cost_usd": 0.522,
+   "context_tokens": 352121,
+   "entry": {
+    "headline": "Google released Gemini 4 Argon, a new AI model it says understands the physical world well enough to plan and steer real robots.",
+    "score": 8,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google announced on its developer blog that Gemini 4 Argon, a new model in its Gemini AI family built for physical reasoning, can control real machines, showing it guide a Boston Dynamics Spot four-legged robot to step on a pedal bin and drop soda cans inside after first practising the move in a computer simulation. Google says Argon scores 87% on ERQA, a test of spatial and physical problem solving, ahead of every other leading model, and that simulated practice it generated lifted a real robot's success rate on table tasks from 56% to 75%; it is available from today to paying Gemini API customers and Google AI Ultra subscribers.",
+    "importance_line": "Paying developers can now use a general model that rehearses tasks in simulation and then steers real robots, which could make robots easier to program for people who cannot write control code, though every result so far comes from Google's own demonstrations and benchmark, not outside testing.",
+    "verified_text": true,
+    "notes": "Source is Google's own announcement, so the release is CONFIRMED while the benchmark and success-rate figures are company claims (hedged with 'Google says'). Curator note wording 'learns skills from ordinary video' is not supported as stated and was not used. Rules conflict: none found."
+   }
+  },
+  {
+   "label": "H",
+   "version": "haiku max",
+   "seconds": 270,
+   "est_input_cost_usd": 0.026,
+   "context_tokens": 1229450,
+   "entry": {
+    "headline": "Google says its new AI model, Gemini 4 Argon, controls real robots and beats every rival model on a test of physical reasoning.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says its Argon model controls a four-legged Spot robot made by robotics firm Boston Dynamics, and a robot arm, in demonstrations, and that it scores 87% on ERQA, a test of physical and spatial reasoning, beating every other leading AI model. Google also reports that more than 4,500 simulated practice runs lifted one real robot's success rate from 56% to 75% and cut the time to finish a task from 35 to 24 seconds.",
+    "importance_line": "Developers on paid Google plans can use the model from today, and robot builders could use it to generate simulated training data, but every figure and demo is Google's own claim with no outside review reported.",
+    "verified_text": true,
+    "notes": "Test run, one item; text from WORKDIR/fulltext/R01.txt only, no online access. The demo videos did not play in the text, so demo descriptions come from the post's own text. Figures are Google's own (ERQA 87%, 56% to 75%, 35s to 24s, 6 of 6 boxes); no outside review in the post. Source is Google's own blog, the first reporter of its own launch. Not a reply and not a follow-up. Event 13 Oct 2026, so NEW. machine_action true: the post describes a Spot robot stepping on a pedal and an arm placing a mug. The curator note's 'learns skills from ordinary video' is not shown as stated (see facts notes). Conflicts with the brief or the rules: none found."
+   }
+  },
+  {
+   "label": "I",
+   "version": "opus medium",
+   "seconds": 46,
+   "est_input_cost_usd": 0.547,
+   "context_tokens": 426188,
+   "entry": {
+    "headline": "Google released Gemini 4 Argon, an AI model that plans and controls real robots, and showed it guiding Boston Dynamics' Spot to throw cans in a bin.",
+    "score": 8,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google announced on its developer blog that Gemini 4 Argon, a model built for physical reasoning, can control robots directly, demonstrating Boston Dynamics' four-legged Spot robot practising in a computer simulation before stepping on a real foot-pedal bin to drop cans inside, and claiming an 87% score on ERQA, a test of 3D spatial problem-solving, ahead of every rival model. Google also says training data that Argon generated in simulation lifted a real robot's success rate on table tasks from 56% to 75%; the model is available to paying Gemini API users and Google AI Ultra subscribers.",
+    "importance_line": "Developers and robot makers can now buy access to a general model that plans, simulates and directly steers robots, which could make teaching machines new tasks cheaper; the benchmark lead and the real-robot gains are Google's own claims, not yet checked by others.",
+    "verified_text": true,
+    "notes": "Read the full Google post from fulltext/R01.txt. All figures (87% ERQA, 56% to 75%) are company claims; kept attributed to Google. Curator note's 'learns skills from ordinary video' is not supported by the text and was not used. Section 1A check: event, significance and the company-claim qualification are all kept; no unsupported claim added."
+   }
+  },
+  {
+   "label": "J",
+   "version": "sonnet medium",
+   "seconds": 34,
+   "est_input_cost_usd": 0.253,
+   "context_tokens": 346385,
+   "entry": {
+    "headline": "Google has unveiled Gemini 4 Argon, an AI model that it shows steering real robots and training them through simulation.",
+    "score": 8,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says in a developer blog post that its new Gemini 4 Argon model can control robots, including a Boston Dynamics Spot four-legged robot that it had step on a pedal bin to throw away soda cans after practising in a simulated copy. Google also reports a score of 87% on the ERQA test of physical and spatial reasoning, ahead of every other leading model, and says simulation data made by Argon lifted a real robot's success rate from 56% to 75%; these are company claims with no outside review.",
+    "importance_line": "A general AI model that can both run a robot and generate its training data could make robots easier to build for developers and eventually the people who use them, but every result so far is Google's own and untested by outsiders.",
+    "verified_text": true,
+    "notes": "Read from fulltext/R01.txt. Single company source; claims not independently verified. Curator's 'learns from ordinary video' softened to match the article (human video used to build simulations)."
+   }
+  },
+  {
+   "label": "K",
+   "version": "sonnet xhigh",
+   "seconds": 74,
+   "est_input_cost_usd": 0.292,
+   "context_tokens": 431789,
+   "entry": {
+    "headline": "Google says its Gemini 4 Argon AI model can control robots, including Boston Dynamics' four-legged Spot, and scored 87% on a physical reasoning test.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "In a developer blog post, Google says its Gemini 4 Argon AI model can control robots, including Boston Dynamics' four-legged Spot, which in one demonstration practises stepping on a foot-pedal bin in a simulated copy of it before trying the real one. Google also reports that Argon scores 87% on ERQA, a test of physical and spatial problem solving, ahead of every other leading model, and that practice data made in simulation raised a real robot's success rate from 56% to 75%; these are Google's own figures, with no independent testing reported.",
+    "importance_line": "Google presents one AI model that can control a robot and build its own practice simulations, which could make robots easier for developers to teach and, as Google hopes, let them work alongside people, but every result is Google's own and none has been independently tested.",
+    "verified_text": true,
+    "notes": "Read from fulltext/R01.txt (Google's own blog post, HTTP 200). Company announcement, so status is PRELIMINARY and score lowered by 1. Demo videos not viewable in the text. No conflict found between the task brief and the rules files."
+   }
+  },
+  {
+   "label": "L",
+   "version": "haiku high",
+   "seconds": 77,
+   "est_input_cost_usd": 0.019,
+   "context_tokens": 793301,
+   "entry": {
+    "headline": "Google launches Gemini 4 Argon, an AI model it says can control real robots.",
+    "score": 7,
+    "status": "PRELIMINARY",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google reports that its new model, Gemini 4 Argon, can steer real robots. In one demo, Boston Dynamics' four-legged robot Spot first rehearses stepping on a foot-pedal bin in a computer model of that bin, then steps on the real pedal to drop soda cans in. On ERQA, a test of physical and spatial reasoning, Google says the model scores 87%, ahead of every other leading AI model.",
+    "importance_line": "Developers and robot builders can use the model from today through paid Gemini access and Google AI Ultra, but the robot results and the 87% score are Google's own demonstrations and test, and no outside review is cited.",
+    "verified_text": true,
+    "notes": "Read in full from fulltext/R01.txt (test run, offline). Machine action: the Spot and robot-arm demos are shown in the post; the footage did not come through in the text, so the description is taken from Google's written account. Primary source: Google's own announcement; no outside outlet read. Status PRELIMINARY because the results are the company's own and unreviewed. Freshness NEW: post dated 13 Oct 2026."
+   }
+  }
+ ],
+ "detail_test_sonnet_low": [
+  {
+   "run": 1,
+   "seconds": 29,
+   "est_input_cost_usd": 0.264,
+   "entry": {
+    "headline": "Google has released an AI model that it says can reason about the physical world and control real robots.",
+    "score": 8,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google reports in its developer blog that its new Gemini 4 Argon model, which it calls \"a step change in physical understanding\", scored 87% on the ERQA test of physical and spatial reasoning and, in one demo, controlled a Boston Dynamics Spot robot dog as it practised in a simulated copy of a foot-pedal bin before stepping on the real pedal to throw away soda cans. Google says Argon is already available to Google AI Ultra subscribers and through the paid Gemini API tier, though the results are the company's own claims and no outside review is reported.",
+    "importance_line": "Developers of robots could get a general-purpose model that plans and controls machines, but the 87% score and the demos come only from Google and have not been independently checked.",
+    "verified_text": true,
+    "notes": "Read from fulltext R01.txt only (test run). First-party announcement, single source. Rules conflict: none; detail test asked for quote, detail and next step within two sentences."
+   }
+  },
+  {
+   "run": 2,
+   "seconds": 28,
+   "est_input_cost_usd": 0.263,
+   "entry": {
+    "headline": "Google has released Gemini 4 Argon, an AI model that it says can control real robots and teach itself new skills in simulation.",
+    "score": 7,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "Google for Developers Blog",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "Google says in a developer blog post that its new Gemini 4 Argon model, which can steer a Boston Dynamics Spot robot and scored 87% on a physical-reasoning test, \"marks a step change in physical understanding,\" the post says. In one demo, Argon used a single photo of a table to build a simulated copy of it and generate more than 4,500 practice runs, which Google says lifted a real robot's success rate from 56% to 75% and cut task time from 35 to 24 seconds; the model is now available to AI Ultra subscribers and through the paid Gemini API.",
+    "importance_line": "It changes how robot software could be built, mainly for developers and robotics labs, but the benchmark and success-rate figures come only from Google and have not been independently checked.",
+    "verified_text": true,
+    "notes": "Quote speaker: Google's blog post (Kanishka Rao, Principal Software Engineer). Read from fulltext/R01.txt only. Summary is two sentences; the second is long, trim if the limit is stricter."
+   }
+  }
+ ]
+}

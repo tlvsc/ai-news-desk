@@ -1,0 +1,131 @@
+{
+ "trial": "single story, article preloaded: society",
+ "story": "Elon University survey: Americans fear AI will hollow out work (Elon University, 13 Oct 2026)",
+ "item": {
+  "item_id": "S01",
+  "title": "Elon survey finds Americans fear AI will hollow out the meaning of work",
+  "source": "Elon University",
+  "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+  "google_url": "",
+  "published": "13 Oct 2026 15:55 GMT",
+  "pool_importance": 6,
+  "follow_up": false,
+  "follow_up_of": null,
+  "curator_note": "National survey by Elon University: most Americans expect AI to cut more jobs than it creates and fear work will lose meaning, though most workers are ready to use AI.",
+  "default_v1": "SOC"
+ },
+ "versions": [
+  {
+   "label": "A",
+   "version": "opus low",
+   "seconds": 30,
+   "est_input_cost_usd": 0.309,
+   "context_tokens": 327246,
+   "entry": {
+    "headline": "A national poll finds most Americans expect AI to destroy more jobs than it creates and to drain meaning from work.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports that 83% of 1,158 US adults polled in August expect AI to eliminate more jobs than it creates, and 65% fear that less meaningful work would cost people their sense of purpose and dignity. Two-thirds of workers are nonetheless comfortable using AI or open to it with training, but only 11% are highly confident government agencies would help if AI upended their jobs, a gap the center's director Lee Rainie calls \"an enormous policy challenge.\"",
+    "importance_line": "It shows workers ready to learn AI yet distrustful that employers, schools or government will help them through job changes, which puts pressure on institutions, though the figures measure expectations rather than actual job losses.",
+    "verified_text": true,
+    "notes": "Survey fielded by SSRS 20-24 Aug 2026, released 13 Oct 2026; margin of error +/-3.4 points. Freshness NEW: the release is the news event. No rule conflicts found."
+   }
+  },
+  {
+   "label": "B",
+   "version": "sonnet low",
+   "seconds": 26,
+   "est_input_cost_usd": 0.24,
+   "context_tokens": 389249,
+   "entry": {
+    "headline": "A new US survey finds most Americans expect artificial intelligence to destroy more jobs than it creates and to drain work of its meaning.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports that, in a survey of 1,158 US adults, 83% expect AI to eliminate more jobs than it creates, 68% expect most jobs to pay too little for a decent lifestyle and 62% expect most jobs to be dull and unfulfilling. Yet 66% of workers say they are already comfortable using AI at work or would be with more training, and only 11% are highly confident government agencies would help if AI changed their jobs.",
+    "importance_line": "It shows widespread worry among US workers, who are still willing to use AI, and little trust in employers, schools or government to help them, though the findings are opinions from one survey.",
+    "verified_text": true,
+    "notes": "Source is the survey authors' own release (fielded by polling firm SSRS, 20-24 Aug 2026, margin of error 3.4 points). Findings are expectations, not measured job losses."
+   }
+  },
+  {
+   "label": "C",
+   "version": "sonnet low",
+   "seconds": 27,
+   "est_input_cost_usd": 0.242,
+   "context_tokens": 386510,
+   "entry": {
+    "headline": "A new U.S. survey finds most Americans expect AI to destroy more jobs than it creates and to make work less meaningful.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports that 83% of U.S. adults expect AI to eliminate more jobs than it creates, and 65% agree that less meaningful work would cost people their sense of purpose and dignity. Yet 66% of workers say they already use AI comfortably or would welcome it with training, and only 11% are highly confident government agencies would help if AI hit their jobs, according to the survey of 1,158 adults run with pollster SSRS in August.",
+    "importance_line": "The survey shows broad worry among American workers about jobs, pay and purpose, and little trust in government or employers to help, but it records expectations, not outcomes.",
+    "verified_text": true,
+    "notes": "Why it matters line is in importance_line. Survey by the report's own source, so no outside review; margin of error 3.4 points."
+   }
+  },
+  {
+   "label": "D",
+   "version": "opus low",
+   "seconds": 28,
+   "est_input_cost_usd": 0.457,
+   "context_tokens": 322826,
+   "entry": {
+    "headline": "A national survey finds most Americans expect AI to destroy more jobs than it creates and to drain meaning from work.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports that 83% of U.S. adults expect AI to cut more jobs than it creates, 68% expect most jobs to pay too little for a decent life, and 65% fear that less meaningful work would cost people their sense of purpose, in a poll of 1,158 adults run by the firm SSRS in late August. Yet two in three workers say they already use AI comfortably or would with more training, while only 11% are highly confident government would help if AI hit their job, a gap center director Lee Rainie calls \"an enormous policy challenge.\"",
+    "importance_line": "It shows how workers feel before AI reshapes their jobs: most expect fewer, worse-paid and less meaningful jobs and trust government and employers little to help, though these are expectations, not measured job losses.",
+    "verified_text": true,
+    "notes": "Survey fieldwork 20-24 Aug 2026, published 13 Oct 2026; treated as NEW since the release is the event. No rule conflicts found."
+   }
+  }
+ ],
+ "detail_test_sonnet_low": [
+  {
+   "run": 1,
+   "seconds": 21,
+   "est_input_cost_usd": 0.23,
+   "entry": {
+    "headline": "A new Elon University survey finds most Americans expect AI to destroy more jobs than it creates and to make work less meaningful.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports that 83% of 1,158 U.S. adults surveyed expect AI to eliminate more jobs than it creates, while 66% of workers say they are already comfortable with AI at work or would welcome it with training. Only 11% of workers are highly confident government agencies would help if AI hits their jobs, and centre director Lee Rainie called the results \"an enormous policy challenge\"; the findings were due to be presented at the Tech Rising Summit in Charlotte on 13 Oct 2026.",
+    "importance_line": "It shows how workers feel about AI and work, with little trust in government help, but the findings are expectations from one survey, not measured job losses.",
+    "verified_text": true,
+    "notes": "Source is the university's own press release; survey run by SSRS, 20-24 Aug 2026, margin of error 3.4 points."
+   }
+  },
+  {
+   "run": 2,
+   "seconds": 28,
+   "est_input_cost_usd": 0.252,
+   "entry": {
+    "headline": "A new national survey finds most Americans expect artificial intelligence to destroy more jobs than it creates and to make work less meaningful.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "Elon University",
+    "url": "https://www.elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work/",
+    "summary": "Elon University's Imagining the Digital Future Center reports a survey of 1,158 US adults, run by polling firm SSRS in August, in which 83% expect AI to eliminate more jobs than it creates, even though two-thirds of workers say they already use AI comfortably or would welcome it with training. Only 11% of workers are highly confident government agencies would help them, and center director Lee Rainie said \"these findings pose an enormous policy challenge\"; the results were due to be presented at the Tech Rising Summit in Charlotte on 13 Oct 2026.",
+    "importance_line": "It shows public expectations about AI and work, which affects workers first and then employers and governments, but it records fears and not measured job losses.",
+    "verified_text": true,
+    "notes": "Read from fulltext/S01.txt. Survey was fielded 20-24 Aug 2026, published 13 Oct 2026; margin of error plus or minus 3.4 points."
+   }
+  }
+ ]
+}

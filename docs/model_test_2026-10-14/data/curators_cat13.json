@@ -1,0 +1,1697 @@
+{
+ "trial": "curator test, category 13",
+ "window": {
+  "edition": "2026-10-14",
+  "start": "2026-10-13T09:16Z",
+  "end": "2026-10-14T09:16Z",
+  "hours": 24,
+  "yesterday": "/tmp/claude-0/-home-user-ai-news-desk/07984756-1dfd-5785-9a18-e3845700145d/scratchpad/run_2026-10-13/out/AIND_Pool_2026-10-13.csv"
+ },
+ "candidates": 346,
+ "versions": [
+  {
+   "folder": "cur13_A",
+   "version": "opus high",
+   "seconds": 280,
+   "est_input_cost_usd": 1.567,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Scientists call for international body to oversee advanced AI",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:14:54Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "AI giants face UK parliament over safety and regulation",
+     "source": "CNA",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:05:37Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:53Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "TechCrunch",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36:44Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Nvidia pledges $250 million to boost UK AI safety research",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:19:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Anthropic signs MOU with Singapore to evaluate AI models for safety and security",
+     "source": "Yahoo News Singapore",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:30:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "EU watchdog says smart glasses must give 'clear warnings' when recording",
+     "source": "France 24",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:59:41Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors’ Data Without Parental Consent",
+     "source": "Bloomberg Law News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:27Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48:53Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Deloitte’s WA uni merger report littered with AI errors",
+     "source": "The West Australian",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T03:18:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "10,000 GPUs for India AI Mission; MeitY invites proposals",
+     "source": "MediaNama",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:37:03Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Judge skeptical of claims Google AI tool wiretapped customer service calls",
+     "source": "Courthouse News",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:02:26Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "New Democrat PAC hits GOP on AI in tight midterm races",
+     "source": "Politico",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:01:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": true,
+     "title": "Grandmother falsely accused of bank theft after alleged AI facial recognition match sues for $10M",
+     "source": "ABC News",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:54:30Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Trump administration rolls out SI.gov as part of push to rebrand AI as super intelligence",
+     "source": "Firstpost",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:38:20Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "JLARC: State government 'falling short' in preparing for AI",
+     "source": "Richmond Times-Dispatch",
+     "importance": 3,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:00:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_B",
+   "version": "opus medium",
+   "seconds": 108,
+   "est_input_cost_usd": 0.868,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Pressed by UK lawmakers, Anthropic, Google, Meta, OpenAI differ on AI regulation",
+     "source": "MLex",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:34:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Scientists call for international body to oversee advanced AI",
+     "source": "Reuters",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:14:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Palantir CTO says the Pentagon has already replaced Anthropic’s AI",
+     "source": "The Next Web",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:16:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "U.S. Defense Startups Flock to Taiwan to Build China-Free Drones",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:00:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Massachusetts may be about to set the toughest AI safety standard in the country. Here's how",
+     "source": "MassLive.com",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:33:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors’ Data Without Parental Consent",
+     "source": "Bloomberg Law News",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "FTC to refund money to 2.1 million Cleo AI customers after lawsuit",
+     "source": "USA Today",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:06:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Google AI Customer Service Privacy Lawsuit Gets Doubtful Judge",
+     "source": "Bloomberg Law News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:41:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Grandmother falsely accused of bank theft after alleged AI facial recognition match sues for $10M",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:54:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "Legislature sends Shapiro a bill requiring labels on AI-altered ads",
+     "source": "The Bradford Era",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:07:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": false,
+     "title": "Pope's AI adviser warns Australia's copyright changes risk 'new form of colonialism'",
+     "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:36:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": false,
+     "title": "El-Sayed, Releasing His Platform on A.I., Calls It an ‘Existential Crisis’",
+     "source": "The New York Times",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T10:01:00Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "Bi­par­tisan pair of senators ask national security officials to address AI threats",
+     "source": "Spectrum News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:15:00Z"
+    },
+    {
+     "rank": 22,
+     "backup": true,
+     "title": "Singapore office and government MOU",
+     "source": "Anthropic",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:30:00Z"
+    },
+    {
+     "rank": 23,
+     "backup": true,
+     "title": "AI Regulation Needed Now Before Accidents Occur, Mittal Says",
+     "source": "Bloomberg.com",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:55:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_C",
+   "version": "opus low",
+   "seconds": 46,
+   "est_input_cost_usd": 0.648,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Pressed by UK lawmakers, Anthropic, Google, Meta, OpenAI differ on AI regulation",
+     "source": "MLex",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:34Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "AI godfathers Hinton, Bengio including 400 scientists call for global body to monitor advanced AI",
+     "source": "TRT World",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:49Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors’ Data Without Parental Consent",
+     "source": "Bloomberg Law News",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Legislature sends Shapiro a bill requiring labels on AI-altered ads",
+     "source": "The Bradford Era",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:07Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "From Cases to Rules: China’s New Judicial Guidance on AI Disputes",
+     "source": "Lexology",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T10:44Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "FTC to refund money to 2.1 million Cleo AI customers after lawsuit",
+     "source": "USA Today",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:06Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Grok cases highlight risks for AI companies under Illinois privacy law",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Judge skeptical of claims Google AI tool wiretapped customer service calls",
+     "source": "Courthouse News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:02Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "AI Regulation Needed Now Before Accidents Occur, Mittal Says",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:55Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Michael Dell says AI needs safeguards and controls, and government has a role to play",
+     "source": "CNBC",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:08Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Microsoft’s Brad Smith calls for ‘middle ground’ on global AI regulation",
+     "source": "MLex",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:20Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "UK spy agency creates AI threat center to inform government policy",
+     "source": "MLex",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:58Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "Bi­par­tisan pair of senators ask national security officials to address AI threats",
+     "source": "Spectrum News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:15Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_D",
+   "version": "sonnet low",
+   "seconds": 50,
+   "est_input_cost_usd": 0.319,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "AI giants face UK parliament over safety and regulation",
+     "source": "CNA",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:05:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Jensen Huang: Export Controls Should Protect a Tech Flywheel, Not Just Deny Rivals",
+     "source": "BigGo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:08:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Pope's AI adviser warns Australia's copyright changes risk 'new form of colonialism'",
+     "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:36:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Super Micro Stock Falls After Guilty Plea in $2.5 Billion China AI Server Case",
+     "source": "TradingView",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:37:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Judge skeptical of claims Google AI tool wiretapped customer service calls",
+     "source": "Courthouse News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:02:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Meta AI glasses face Dutch court fight over privacy concerns",
+     "source": "Cybernews",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:26:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "‘AI is mother of all technologies’: S. Jaishankar on AI regulation, access and everyday impact",
+     "source": "Business Today",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:47:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "AI Regulation Needed Now Before Accidents Occur, Mittal Says",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:55:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Grandmother falsely accused of bank theft after alleged AI facial recognition match sues for $10M",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:54:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "UAE’s Export Control Upgrade Confirms a New US Model for Trusted AI Partners, WorldECR",
+     "source": "Morgan Lewis",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:00:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Bi­par­tisan pair of senators ask national security officials to address AI threats",
+     "source": "Spectrum News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:15:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "Europe's clashing with Apple means no HomeView for the EU",
+     "source": "AppleInsider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:18:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Judge appears skeptical of Pentagon arguments in legal fight over Anthropic 'supply chain risk' designation",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:26:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "U.S. Defense Startups Flock to Taiwan to Build China-Free Drones",
+     "source": "WSJ",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:00:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_E",
+   "version": "fable low",
+   "seconds": 188,
+   "est_input_cost_usd": 2.031,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Scientists call for international body to oversee advanced AI",
+     "source": "Reuters",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:14:54Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "AI giants face UK parliament over safety and regulation",
+     "source": "CNA",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:05:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "EU's AI rules face first enforcement test over lab incidents",
+     "source": "Euronews",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Kupor: 'Super Intelligence' task force will press companies on AI safety",
+     "source": "Politico",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:30:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Apple wins early discovery in trade-secret fight with OpenAI",
+     "source": "CNBC",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:02:58Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Singapore office and government MOU",
+     "source": "Anthropic",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:30:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Nearly 3,000 Californians weigh in on state's approach to AI regulation",
+     "source": "ABC10",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:05:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "McDonald's Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "FTC to refund money to 2.1 million Cleo AI customers after lawsuit",
+     "source": "USA Today",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:06:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors' Data Without Parental Consent",
+     "source": "Bloomberg Law",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Europe's clashing with Apple means no HomeView for the EU",
+     "source": "AppleInsider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:18:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Massachusetts may be about to set the toughest AI safety standard in the country. Here's how",
+     "source": "MassLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:33:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "ChatGPT will soon start secretly watermarking its answers — here's what that means for the text you copy and share",
+     "source": "TechRadar",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:37:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "Legislature sends Shapiro a bill requiring labels on AI-altered ads",
+     "source": "The Bradford Era",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:07:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Bipartisan pair of senators ask national security officials to address AI threats",
+     "source": "Spectrum News",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:15:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_F",
+   "version": "sonnet high",
+   "seconds": 109,
+   "est_input_cost_usd": 0.409,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "AI giants face UK parliament over safety and regulation",
+     "source": "CNA",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:05:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "AI godfathers Hinton, Bengio including 400 scientists call for global body to monitor advanced AI",
+     "source": "TRT World",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:49:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Super Micro Stock Falls After Guilty Plea in $2.5 Billion China AI Server Case",
+     "source": "TradingView",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:37:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Palantir CTO says the Pentagon has already replaced Anthropic’s AI",
+     "source": "The Next Web",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:16:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Europe's clashing with Apple means no HomeView for the EU",
+     "source": "AppleInsider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:18:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Legislature sends Shapiro a bill requiring labels on AI-altered ads",
+     "source": "The Bradford Era",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:07:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "Meta AI glasses face Dutch court fight over privacy concerns",
+     "source": "Cybernews",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:26:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Grandmother falsely accused of bank theft after alleged AI facial recognition match sues for $10M",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:54:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Pope's AI adviser warns Australia's copyright changes risk 'new form of colonialism'",
+     "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:36:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors’ Data Without Parental Consent",
+     "source": "Bloomberg Law News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "Lobbyists and trade groups fight to shape how states regulate medical AI",
+     "source": "STAT",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:34:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "CPI | Microsoft President Says UK Is Best Placed to Lead AI Regulation",
+     "source": "PYMNTS.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:53:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "Massachusetts may be about to set the toughest AI safety standard in the country. Here's how",
+     "source": "MassLive.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:33:00Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_G",
+   "version": "haiku high",
+   "seconds": 233,
+   "est_input_cost_usd": 0.028,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting",
+     "source": "CNBC",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T22:41:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "AI godfathers Hinton, Bengio including 400 scientists call for global body to monitor advanced AI",
+     "source": "TRT World",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:49:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Pressed by UK lawmakers, Anthropic, Google, Meta, OpenAI differ on AI regulation",
+     "source": "MLex",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:34:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Kupor: ‘Super Intelligence’ task force will press companies on AI safety",
+     "source": "Politico",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:30:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Palantir CTO says the Pentagon has already replaced Anthropic’s AI",
+     "source": "The Next Web",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:16:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "China's Moonshot Reportedly Seeks Access To More NVDA Blackwell Chips A Week After Trump Official Flagged Export Control Breach",
+     "source": "Stocktwits",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:46:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Explainer: US and China take different paths on super intelligence regulation",
+     "source": "VOA - Voice of America English News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:05:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Proposed Bill Would Create White House Office to Coordinate Federal AI Governance",
+     "source": "CDO Magazine",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:35:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "UAE’s Export Control Upgrade Confirms a New US Model for Trusted AI Partners, WorldECR",
+     "source": "Morgan Lewis",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:00:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Bi­par­tisan pair of senators ask national security officials to address AI threats",
+     "source": "Spectrum News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:15:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "OpenAI Accused of Taking Minors’ Data Without Parental Consent",
+     "source": "Bloomberg Law News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:42:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Nvidia Faces Suit Over AI Training Music Data",
+     "source": "Law360",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:11:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "El-Sayed, Releasing His Platform on A.I., Calls It an ‘Existential Crisis’",
+     "source": "The New York Times",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T10:01:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Super Micro Stock Falls After Guilty Plea in $2.5 Billion China AI Server Case",
+     "source": "TradingView",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:37:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "California Signs Landmark New AI Workplace Laws on Termination, Layoffs and Surveillance",
+     "source": "JD Supra",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T16:47:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "California Enacts Law Requiring Clinician Judgment in AI-Assisted Care",
+     "source": "FindArticles",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:23:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur13_H",
+   "version": "sonnet medium",
+   "seconds": 86,
+   "est_input_cost_usd": 0.371,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+     "source": "Reuters",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "AI godfathers Hinton, Bengio including 400 scientists call for global body to monitor advanced AI",
+     "source": "TRT World",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:49:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "AI giants face UK parliament over safety and regulation",
+     "source": "CNA",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:05:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "EU’s AI rules face first enforcement test over lab incidents",
+     "source": "Euronews.com",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:35:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Super Micro Stock Falls After Guilty Plea in $2.5 Billion China AI Server Case",
+     "source": "TradingView",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:37:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Exclusive: AI safety money floods into political races",
+     "source": "Axios",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:01:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:15:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Palantir CTO says the Pentagon has already replaced Anthropic’s AI",
+     "source": "The Next Web",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:16:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:36:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Judge skeptical of claims Google AI tool wiretapped customer service calls",
+     "source": "Courthouse News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:02:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Pope's AI adviser warns Australia's copyright changes risk 'new form of colonialism'",
+     "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:36:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Meta AI glasses face Dutch court fight over privacy concerns",
+     "source": "Cybernews",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T08:26:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "California Signs Landmark New AI Workplace Laws on Termination, Layoffs and Surveillance",
+     "source": "JD Supra",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T16:47:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Massachusetts may be about to set the toughest AI safety standard in the country. Here's how",
+     "source": "MassLive.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T09:33:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Legislature sends Shapiro a bill requiring labels on AI-altered ads",
+     "source": "The Bradford Era",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:07:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "McDonald’s Sued Over AI Tool That Recommends Prices to US Franchisees",
+     "source": "WTTW News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:09:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Federal government expands AI program with $500M boost",
+     "source": "CTV News",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:48:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "FTC to refund money to 2.1 million Cleo AI customers after lawsuit",
+     "source": "USA Today",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T19:06:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Europe's clashing with Apple means no HomeView for the EU",
+     "source": "AppleInsider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:18:00Z"
+    }
+   ]
+  }
+ ]
+}

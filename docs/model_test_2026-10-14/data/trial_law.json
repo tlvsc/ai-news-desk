@@ -1,0 +1,207 @@
+{
+ "trial": "single story, article preloaded: law",
+ "story": "Arizona appeals court tosses sentence over AI video of slain victim (ABC News, 13 Oct 2026)",
+ "item": {
+  "item_id": "L01",
+  "title": "Manslaughter sentence tossed over AI-generated video of slain victim used at trial",
+  "source": "ABC News",
+  "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+  "google_url": "",
+  "published": "13 Oct 2026 12:15 GMT",
+  "pool_importance": 7,
+  "follow_up": false,
+  "follow_up_of": null,
+  "curator_note": "Arizona appeals court threw out a manslaughter sentence because the judge was shown an AI-generated video of the victim speaking; first appeals ruling on AI victim statements.",
+  "default_v1": "LAW"
+ },
+ "versions": [
+  {
+   "label": "A",
+   "version": "opus medium",
+   "seconds": 37,
+   "est_input_cost_usd": 0.349,
+   "context_tokens": 397362,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the judge had watched an AI video of the victim speaking.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals, in a 30 Sep 2026 ruling, upheld Gabriel Paul Horcasitas' manslaughter conviction for the 2021 road rage killing of Christopher Pelkey but ordered a new sentencing, because the trial judge had been shown an AI-generated video in which Pelkey's likeness and voice, scripted by his sister, spoke of forgiveness. The three judges found that weighing the video made the hearing \"fundamentally unfair\", saying it blurred the line between what the family believed Pelkey would say and his own voice; his sister told ABC News the family has no regrets and she will read the script herself at the new hearing.",
+    "importance_line": "Families of crime victims may lose the option of speaking through an AI recreation of their loved one at sentencing, and courts gain a warning that such videos can make a sentence unfair, though this is one state appeals panel and the resentencing has no date yet.",
+    "verified_text": true,
+    "notes": "Read from the ABC News article (fulltext L01). Ruling dated 30 Sep 2026, reported 13 Oct; the article's 'last week' conflicts with that date. Sentence length given inconsistently (10 vs 10.5 years), so left out. 'First appeals ruling' from the curator note is not in the article and is not claimed. Meaning check (1A) passed: event, reason, hedges and who answered whom kept; not a reply story."
+   }
+  },
+  {
+   "label": "B",
+   "version": "sonnet medium",
+   "seconds": 26,
+   "est_input_cost_usd": 0.153,
+   "context_tokens": 325020,
+   "entry": {
+    "headline": "An Arizona appeals court has thrown out a man's manslaughter sentence because the judge watched an AI-made video of the man he killed.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals upheld Gabriel Paul Horcasitas' conviction for the 2021 road rage killing of Christopher Pelkey but ordered his 10-and-a-half-year sentence thrown out, because the judge saw an AI-generated video of Pelkey, made by his sister, at the May 2025 sentencing. The judges said the video so prejudiced the hearing that it was fundamentally unfair and that \"no disclaimer could cure that error\"; no date is set for resentencing, and the ruling dates from 30 Sep 2026.",
+    "importance_line": "A court has ruled that an AI recreation of a victim's voice can make a sentencing unfair, which affects victims' families and courts deciding how to treat such statements, though this is one state appeal and the wider effect is untested.",
+    "verified_text": true,
+    "notes": "Full text read from fulltext/L01.txt. No conflict with the rules. Ruling date 30 Sep 2026 per ABC; the article's 'last week' wording is loose. Not described as the first such ruling, as the article does not say so."
+   }
+  },
+  {
+   "label": "C",
+   "version": "haiku high",
+   "seconds": 75,
+   "est_input_cost_usd": 0.014,
+   "context_tokens": 411905,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a manslaughter sentence after the judge watched an AI-generated video of the dead victim speaking.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that an Arizona appeals court upheld the manslaughter conviction of Gabriel Paul Horcasitas but threw out his prison sentence, because at the May 2025 sentencing the judge had watched an AI-generated video (a video that used the likeness and voice of the victim, Christopher Pelkey, made by artificial intelligence) in which Pelkey spoke to the defendant. The court said the video made the sentencing \"fundamentally unfair\" and that no disclaimer could cure the error; the ruling is dated 30 Sep 2026, so this is older news re-dated, and no resentencing date has been set.",
+    "importance_line": "The ruling sends the prison sentence back for a new sentencing hearing, which matters most to the convicted man and the victim's family, and it is one court's ruling on one case with no resentencing date set.",
+    "verified_text": true,
+    "notes": "Test run, one item: text from WORKDIR/fulltext/L01.txt; no web use. Source is ABC News, which wrote its own report and spoke to Wales; no copy site involved. Not a reply story. Not a follow_up in the chunk; treated as older news re-dated because the event is dated 30 Sep 2026 (before 13 Oct 2026). Score lowered by 1 for staleness. Article's 'last week' versus 30 Sep date conflict noted in facts."
+   }
+  },
+  {
+   "label": "D",
+   "version": "opus high",
+   "seconds": 45,
+   "est_input_cost_usd": 0.384,
+   "context_tokens": 468253,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the trial judge was swayed by an AI-generated video of the dead victim speaking.",
+    "score": 5,
+    "status": "CONFIRMED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that a three-judge panel of the Arizona Court of Appeals, in a ruling of 30 Sep 2026, kept Gabriel Paul Horcasitas' manslaughter conviction for a 2021 road rage killing but ordered a new sentencing, because the judge had been shown a video, made with AI by the victim's sister, in which an avatar of Christopher Pelkey spoke about forgiveness. The panel said the video so prejudiced the defendant that the 10.5-year sentence was \"fundamentally unfair\", since it blurred what the family believed Pelkey would say with his own voice; his sister told ABC News the family has no regrets and she will read the script herself at the new hearing.",
+    "importance_line": "A court has now ruled that letting an AI version of a dead victim address the judge can make a sentence unfair, which affects grieving families who want such videos and the courts deciding whether to allow them, though it is one state court's ruling and the resentencing has no date yet.",
+    "verified_text": true,
+    "notes": "Ruling dated 30 Sep 2026, older than the window; article says 'last week', so it may be re-dated (Full Report rule 4.1 holds back re-dated items without new facts; the only new fact is the sister's comment to ABC News). Score lowered from 7 to 5 for staleness. Sentence given as 10 and as 10.5 years in the article; 10.5 used. Curator claim 'first appeals ruling on AI victim statements' not supported by the article and left out."
+   }
+  },
+  {
+   "label": "E",
+   "version": "sonnet low",
+   "seconds": 26,
+   "est_input_cost_usd": 0.159,
+   "context_tokens": 387025,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a manslaughter sentence because the judge had watched an AI-made video of the dead victim speaking.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals, in a ruling dated 30 Sep 2026, upheld Gabriel Paul Horcasitas' manslaughter conviction for the 2021 road rage killing of Christopher Pelkey but ordered his 10-and-a-half-year sentence thrown out. The judges said the AI-generated video of Pelkey, made by his sister and played to the judge at the May 2025 sentencing, so prejudiced the hearing that it was fundamentally unfair, and that \"no disclaimer could cure that error\"; no resentencing date has been set.",
+    "importance_line": "Courts in Arizona must now treat an AI recreation of a victim's voice at sentencing as potentially unfair to the defendant, which touches victims' families first and then judges and prosecutors, though this is one state appeals ruling and the defendant's conviction stands.",
+    "verified_text": true,
+    "notes": "Read from fulltext/L01.txt. Event (ruling) dated 30 Sep 2026, reported 13 Oct 2026. Curator's 'first appeals ruling' claim not in article, left out."
+   }
+  },
+  {
+   "label": "F",
+   "version": "sonnet high",
+   "seconds": 31,
+   "est_input_cost_usd": 0.167,
+   "context_tokens": 334242,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the judge had been shown an AI video of the victim speaking.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals, in a ruling dated 30 Sep 2026, upheld Gabriel Paul Horcasitas' manslaughter conviction for a November 2021 road rage shooting but ordered his roughly 10.5-year sentence thrown out, because the sentencing judge in May 2025 had been shown an AI-generated video in which the victim, Christopher Pelkey, appeared to speak about forgiveness. The video, made by Pelkey's sister, was found to have left the sentencing \"fundamentally unfair\" in the judges' words, and no resentencing date has been set.",
+    "importance_line": "An appeals court has warned that an AI recreation of a victim's voice can make a sentencing unfair, which affects defendants, victims' families and judges, though it is one Arizona panel's ruling and the article does not say whether it will be challenged further.",
+    "verified_text": true,
+    "notes": "Read from fulltext/L01.txt (HTTP 200); original ABC News own reporting, so it is the source. Ruling dated 30 Sep 2026, reported 13 Oct 2026. Curator note's 'first appeals ruling' claim is not supported by the article and was left out. No conflict with the rules files."
+   }
+  },
+  {
+   "label": "G",
+   "version": "opus low",
+   "seconds": 30,
+   "est_input_cost_usd": 0.326,
+   "context_tokens": 388292,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the judge had watched an AI-made video of the victim speaking.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals, in a 30 Sep 2026 ruling, kept Gabriel Paul Horcasitas' manslaughter conviction for a 2021 road rage killing but ordered a new sentence, because the trial judge was shown an AI-generated video (an avatar built from the victim's face and voice, scripted by his sister) speaking about forgiveness. The panel said the video made the hearing \"fundamentally unfair\" because it blurred the line between what the family believed and what the victim himself would have said, and that \"no disclaimer could cure that error\".",
+    "importance_line": "Victims' families and courts now have an appellate warning that an AI avatar speaking for a dead victim can make a sentence unfair, though the ruling binds only Arizona and the case returns for resentencing with no date set.",
+    "verified_text": true,
+    "notes": "Ruling dated 30 Sep 2026, reported 13 Oct 2026; score lowered 7 to 6 as stale. Curator's 'first appeals ruling' claim not in the article, left out. Not a reply story. Meaning check vs source: pass (event, conviction upheld, reason, hedge on resentencing kept)."
+   }
+  },
+  {
+   "label": "H",
+   "version": "fable low",
+   "seconds": 53,
+   "est_input_cost_usd": 1.251,
+   "context_tokens": 396737,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a manslaughter sentence because the judge was swayed by an AI-generated video of the dead victim.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that a three-judge panel of the Arizona Court of Appeals, in a ruling dated 30 Sep 2026, ordered a new sentencing for Gabriel Paul Horcasitas, who shot Christopher Pelkey dead in a 2021 road rage incident, because at the May 2025 hearing the judge watched an AI-generated video of Pelkey, made and scripted by his sister, speaking about forgiveness, and said he \"loved that AI\" before handing down ten and a half years. The panel upheld the conviction but found the video so prejudiced the defendant that the hearing was fundamentally unfair, saying no disclaimer could fix it; no resentencing date is set, and the sister told ABC News she will read her script herself next time.",
+    "importance_line": "A court has ruled that letting an AI version of a victim address the judge made the sentencing unfair, which protects defendants' right to a fair hearing, guides judges and prosecutors on AI evidence, and limits what grieving families can present, though the conviction stands and the sentence will be set again.",
+    "verified_text": true,
+    "notes": "Read from fulltext/L01.txt, ABC News own reporting (interview with the sister, declined comments). Ruling date 30 Sep 2026, reported 13 Oct 2026. Curator's 'first appeals ruling of its kind' not in the article, left out."
+   }
+  }
+ ],
+ "detail_test_sonnet_low": [
+  {
+   "run": 1,
+   "seconds": 27,
+   "est_input_cost_usd": 0.228,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the judge watched an AI video of the dead victim speaking.",
+    "score": 6,
+    "status": "REPORTED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals upheld Gabriel Paul Horcasitas' conviction for the 2021 shooting of Christopher Pelkey but ordered his 10.5-year sentence thrown out, because the judge was shown an AI-generated video of Pelkey, made by his sister Stacey Wales, at the May 2025 hearing. The judges wrote that such a video \"erases the interpretive distance between the family's belief about what the victim would have said and the victim's own voice and opinions\"; the ruling dates from 30 Sep 2026, no resentencing date is set, and Wales says she will read her script herself at the new hearing.",
+    "importance_line": "It changes how families may speak for victims in Arizona sentencing hearings, touching victims' relatives, judges and prosecutors, though this is one state appeals ruling and the resentencing is not yet set.",
+    "verified_text": true,
+    "notes": "Read from fulltext/L01.txt. Article text gives both 'last week' and Sept. 30 for the ruling; Sept. 30 used. Year assumed 2026. Summary is two long sentences; 'first appeals ruling' from curator note not in article, omitted."
+   }
+  },
+  {
+   "run": 2,
+   "seconds": 30,
+   "est_input_cost_usd": 0.239,
+   "entry": {
+    "headline": "An Arizona appeals court threw out a killer's prison sentence because the judge was shown an AI video of the victim speaking.",
+    "score": 6,
+    "status": "CONFIRMED",
+    "freshness": "FOLLOW-UP of 30 Sep 2026",
+    "source": "ABC News",
+    "url": "https://abcnews.com/US/manslaughter-sentence-tossed-ai-generated-video-slain-victim/story?id=137045055",
+    "summary": "ABC News reports that the Arizona Court of Appeals kept Gabriel Paul Horcasitas' manslaughter conviction but ordered his 10-and-a-half-year sentence thrown out, because an AI video of victim Christopher Pelkey, scripted by his sister, was played at the May 2025 hearing and the judges said it \"erases the interpretive distance\" between the family's views and the victim's own voice. No resentencing date is set, and the sister says she will read her script herself next time.",
+    "importance_line": "It tells courts that AI recreations of victims can make a sentencing unfair, which affects victims' families and judges, though the article reports only this one case.",
+    "verified_text": true,
+    "notes": "Ruling year inferred as 2026 from the article date. Text read from fulltext/L01.txt only. Detail test: quote, telling detail (sister wrote script) and next step included within two sentences."
+   }
+  }
+ ]
+}

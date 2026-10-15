@@ -149,6 +149,8 @@ not about which project it is.
     16 writers, setup, Drive delivery) run on Sonnet (Agent tool model "sonnet"). Hard tasks run on Opus 5.5 at extra high
     effort (Agent tool model "opus"): the editors, the stranger check, the
     rules agent and the rewrite agent. NEVER Haiku (Rafi, 7 Oct 2026: not for setup, Drive, writers or anything else).
+    MODEL TEST (Rafi, 15 Oct 2026): before changing any model or effort, read docs/model_test_2026-10-14/README.md (72 blind
+    runs of 14 Oct 2026; nothing changed yet; the options and the decisions log are in its 3_CONCLUSIONS.md).
     STORY CHOICE FOR CARDS AND HEADLINES (Rafi, 7 Oct 2026, replaces the Fable-only-on-request line: "this is our adverts, if it
     sucks nobody follows and the business falls"): Fable chooses the stories of the cards and the Headlines and writes their wording, under the Drive
     Cards Master (Sections 2 and 3) and Headlines Master (Sections A and B), the phrasing file and this file. A script gates the choice (ids exist, read in full, no

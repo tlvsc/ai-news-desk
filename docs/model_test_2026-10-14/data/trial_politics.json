@@ -1,0 +1,207 @@
+{
+ "trial": "single story, article preloaded: politics",
+ "story": "Anthropic-linked Public First Action gives $3m to PAC backing Scott Wiener (San Francisco Standard, 13 Oct 2026)",
+ "item": {
+  "item_id": "P01",
+  "title": "AI group pours millions into race for Pelosi's seat. Its pick: Scott Wiener",
+  "source": "The San Francisco Standard",
+  "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+  "google_url": "",
+  "published": "13 Oct 2026 22:56 GMT",
+  "pool_importance": 7,
+  "follow_up": false,
+  "follow_up_of": null,
+  "curator_note": "Anthropic-linked Public First Action gave $3 million to a PAC backing Scott Wiener for Nancy Pelosi's House seat; AI money becomes a campaign issue.",
+  "default_v1": "POL"
+ },
+ "versions": [
+  {
+   "label": "A",
+   "version": "opus medium",
+   "seconds": 38,
+   "est_input_cost_usd": 0.485,
+   "context_tokens": 334439,
+   "entry": {
+    "headline": "A group backed by Anthropic donations has put $3 million behind Scott Wiener's bid for Nancy Pelosi's House seat, making AI money a campaign fight.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports that Public First Action, a group that campaigns for AI safeguards and has received two $20 million donations from Anthropic, the San Francisco maker of the Claude chatbot, gave $3 million since August to a political action committee backing state Sen. Scott Wiener, the author of California's AI safety law, in the race for Rep. Nancy Pelosi's seat; Punchbowl News first reported the donation. At a debate on 13 Oct his rival, Supervisor Connie Chan, said the AI industry is bankrolling him, while Wiener insisted \"there is no Anthropic money in this race\", and Anthropic says its gifts can fund only education and policy work, though the group has not said who pays for its political spending.",
+    "importance_line": "AI regulation is now a deciding issue for San Francisco voters choosing Pelosi's successor on 3 Nov, and the fight over who funds candidates reaches AI firms such as Anthropic, though whether any Anthropic money reached the race is disputed and the group's political donors are undisclosed.",
+    "verified_text": true,
+    "notes": "Written from WORKDIR/fulltext/P01.txt. Donation first reported by Punchbowl News; SF Standard confirmed it with a Public First Action spokesperson and reported the debate itself, so it is credited as source with Punchbowl named. Status CONFIRMED on the spokesperson's confirmation of the donation; the claim that Anthropic money funds the race is disputed and kept as each side's claim. Not a reply story."
+   }
+  },
+  {
+   "label": "B",
+   "version": "fable low",
+   "seconds": 58,
+   "est_input_cost_usd": 1.277,
+   "context_tokens": 403433,
+   "entry": {
+    "headline": "An AI-safety group tied to Anthropic has put $3 million behind Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, citing a spokesperson for the group and a donation first reported by Punchbowl News, that Public First Action, an advocacy group that pushes for AI safeguards and has received two $20 million gifts from Anthropic, has given $3 million since August to a PAC supporting state Sen. Scott Wiener against Supervisor Connie Chan for Nancy Pelosi's seat in the 3 Nov 2026 election. At a debate on 13 Oct 2026 Chan said voters cannot trust a candidate \"bankrolled by the AI industries\" to regulate it, while Wiener replied that \"there is no Anthropic money in this race\", and Anthropic says its donations to the group may be used only for education and policy work, not campaigns.",
+    "importance_line": "AI money is now the main argument in the contest for Pelosi's seat, which affects San Francisco voters first and then any candidate taking AI-linked support, though whether Anthropic's own money reached the race is contested and the group has not named its political donors.",
+    "verified_text": true,
+    "notes": "The Standard credits Punchbowl News with first reporting the donation but confirmed it itself and reported the debate, so The Standard is the source and Punchbowl is named inside. The reader-level and format rules were read; no conflict found."
+   }
+  },
+  {
+   "label": "C",
+   "version": "haiku high",
+   "seconds": 76,
+   "est_input_cost_usd": 0.016,
+   "context_tokens": 533093,
+   "entry": {
+    "headline": "A group pushing for AI safeguards has put $3 million behind Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, citing Punchbowl News, which first reported the donation, that Public First Action, a group pushing for AI safeguards, has given $3 million since August to the Abundant Future PAC, a political action committee (a fund that backs candidates) supporting state Sen. Scott Wiener in the Nov. 3 race for Nancy Pelosi's House seat. This is a reply on both sides: Wiener's rival, Supervisor Connie Chan, said Wiener is 'delusional' to think voters will see him as a watchdog for AI, and Wiener answered at a debate that \"there is no Anthropic money in this race.\"",
+    "importance_line": "Voters in the Nov. 3 race now see AI-linked money in the contest, and the honest doubt is that Anthropic says its two $20 million gifts to the group cannot be spent on politics, while the group has not said who funds its political spending.",
+    "verified_text": true,
+    "notes": "Source: the Standard wrote the debate and campaign reporting; it credits Punchbowl News with the first report of the donation, so the summary names both. Reply entry: Chan's spokesperson answered the donation report, and Wiener's debate answer rebutted the Anthropic link; the Punchbowl date is not in our text. Freshness left NEW because the disclosure and the campaign exchange are today's news, but the gifts were made Aug and Sep 2026, so QA should decide whether this is a follow-up. Anthropic (maker of Claude) says its gifts to Public First Action cannot be spent on political races; the group has not disclosed who funds its political spending. Campaign statements are attributed as claims. Full article text read from fulltext/P01.txt (HTTP 200)."
+   }
+  },
+  {
+   "label": "D",
+   "version": "opus low",
+   "seconds": 32,
+   "est_input_cost_usd": 0.49,
+   "context_tokens": 393651,
+   "entry": {
+    "headline": "An AI safety group backed by Anthropic money has put $3 million behind Scott Wiener's run for Nancy Pelosi's House seat, turning AI funding into a campaign fight.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports that Public First Action, a group pushing for AI safeguards that has received $40 million from Anthropic, the maker of the Claude chatbot, gave $3 million to a political action committee backing California state senator Scott Wiener for Nancy Pelosi's seat; the donation was first reported by Punchbowl News. At a debate on 13 Oct 2026 his rival Connie Chan said the AI industry is \"bankrolling\" him, while Wiener insisted \"there is no Anthropic money in this race,\" and Anthropic says its gifts can fund only education and policy work.",
+    "importance_line": "San Francisco voters now weigh whether AI-linked money compromises a candidate who promises to regulate AI, though Anthropic says its $40 million to the group cannot be spent on elections and the group has not disclosed its political donors.",
+    "verified_text": true,
+    "notes": "Own reporting by the Standard (spokesperson confirmed amounts); Punchbowl News first reported the donation and is credited in the summary. Donations made Aug-Sep, but the confirmation and debate clash are 13 Oct, so NEW."
+   }
+  },
+  {
+   "label": "E",
+   "version": "sonnet medium",
+   "seconds": 30,
+   "est_input_cost_usd": 0.248,
+   "context_tokens": 395894,
+   "entry": {
+    "headline": "A group that pushes for AI safeguards has given $3 million to a committee backing Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard, citing Punchbowl News",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports that Public First Action, a group that campaigns for AI safeguards and has received two $20 million donations from Anthropic (the company behind the Claude chatbot), has given $3 million since August to the Abundant Future PAC (a political action committee, a fund that spends money to back candidates) supporting state Sen. Scott Wiener, a spokesperson confirmed; Punchbowl News first reported the gift. Wiener's rival Connie Chan says the money makes him unfit to regulate the industry, while Wiener says \"there is no Anthropic money in this race\" and Anthropic says its gifts cannot be spent on political races, though Public First Action has not said who funds its political spending.\n\nWhy it matters: AI regulation has become a central issue in the 3 Nov contest for Nancy Pelosi's seat, so voters and the AI industry are watching how outside money is used, but the claim of an Anthropic link remains disputed.",
+    "importance_line": "AI-industry money has entered a major House race weeks before the 3 Nov vote, which affects San Francisco voters and the wider debate on who writes AI rules, though whether Anthropic's money reaches the race is disputed.",
+    "verified_text": true,
+    "notes": "Written from the supplied full text only."
+   }
+  },
+  {
+   "label": "F",
+   "version": "opus high",
+   "seconds": 77,
+   "est_input_cost_usd": 0.619,
+   "context_tokens": 616316,
+   "entry": {
+    "headline": "A group funded by AI company Anthropic has put $3 million behind Scott Wiener's run for Nancy Pelosi's House seat, and the money became a flashpoint at Tuesday's debate.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, after a first report by Punchbowl News, that Public First Action, a group pushing for AI safeguards that Anthropic (maker of the Claude chatbot) has backed with two $20 million gifts, gave $3 million in August and September to a political action committee supporting California state senator Scott Wiener in the 3 Nov election for Nancy Pelosi's seat. At a debate on 13 Oct his rival, San Francisco Supervisor Connie Chan, said the AI industry is bankrolling him, while Wiener replied that \"there is no Anthropic money in this race\"; Anthropic says its gifts cannot be spent on elections, but the group has not disclosed who funds its political spending.",
+    "importance_line": "AI industry money is now an open question for San Francisco voters choosing a member of Congress who promises to regulate AI, and a test case for how AI-safety groups shape elections, though how much of the group's political money traces back to Anthropic remains undisclosed.",
+    "verified_text": true,
+    "notes": "Freshness NEW because the debate clash is 13 Oct 2026; the donations were made in Aug and Sep 2026 and first reported by Punchbowl News (date not stated), which the summary names. Source is The Standard for its own reporting (debate, spokesperson confirmation). Anthropic's claim that its money cannot be used in races is the company's statement, kept as such. Chan's camp also alleges Anthropic helped write Wiener's state AI bill (left out for length; a campaign claim). Meaning check (Section 1A): event, consequence, attribution and both hedges (Anthropic's restriction, undisclosed political donors) kept; no new claims. No rule conflict found."
+   }
+  },
+  {
+   "label": "G",
+   "version": "sonnet high",
+   "seconds": 38,
+   "est_input_cost_usd": 0.248,
+   "context_tokens": 395248,
+   "entry": {
+    "headline": "An AI-safety group linked to Anthropic has put $3 million into a political committee backing Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports that Public First Action, a group pushing for AI safeguards, has given $3 million since August to the Abundant Future PAC (a political committee) supporting state Sen. Scott Wiener, bringing its total to $3.5 million, which a spokesperson confirmed; Punchbowl News first reported the donation. Anthropic has given the group $40 million in two gifts but says none of it may be spent on political races, and Wiener told a debate on 13 Oct 2026 there is \"no Anthropic money in this race\", while his opponent, Supervisor Connie Chan, argues the AI industry is \"bankrolling\" him.",
+    "importance_line": "The story shows AI regulation and AI-industry money becoming a campaign issue for voters in San Francisco's 3 Nov 2026 House election, though Anthropic and Wiener say none of Anthropic's money can be spent on the race and the group has not named its other donors.",
+    "verified_text": true,
+    "notes": "Full article text read (fulltext/P01.txt). Source is The San Francisco Standard's own reporting; it credits Punchbowl News with the first report of the donation, named in the summary. Group confirmed the donation; the Anthropic link is contested by the candidates. No reply-story rule applied: the debate exchange is part of the same story, not an answer to an earlier report. Conflicts with rules: none."
+   }
+  },
+  {
+   "label": "H",
+   "version": "sonnet low",
+   "seconds": 33,
+   "est_input_cost_usd": 0.249,
+   "context_tokens": 392033,
+   "entry": {
+    "headline": "An AI safety group linked to Anthropic has given $3 million to a committee backing Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "CONFIRMED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard, citing Punchbowl News",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, citing Punchbowl News for the first report, that Public First Action, a group pushing for AI safeguards that has received $40 million from Anthropic, gave $1 million in August and $2 million in September to the Abundant Future PAC, bringing its total to $3.5 million for state Sen. Scott Wiener's campaign. Wiener told a 13 Oct debate there is 'no Anthropic money in this race', and Anthropic says its gifts cannot be spent on political races, while rival Connie Chan says the industry is 'bankrolling' him.",
+    "importance_line": "Voters in San Francisco's 3 Nov election, and later everyone affected by federal AI rules, are watching whether AI-industry money shapes who writes them, though the Anthropic link is disputed and the group has not named its political donors.",
+    "verified_text": true,
+    "notes": "Read from fulltext/P01.txt only. Summary is two long sentences; $40 million is two $20 million gifts per the article. Punchbowl News first reported per the article."
+   }
+  }
+ ],
+ "detail_test_sonnet_low": [
+  {
+   "run": 1,
+   "seconds": 26,
+   "est_input_cost_usd": 0.232,
+   "entry": {
+    "headline": "A pro-AI-safety group backed by Anthropic has given $3 million to a committee supporting Scott Wiener in the race for Nancy Pelosi's House seat.",
+    "score": 7,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard, citing Punchbowl News",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, citing Punchbowl News for the first report, that Public First Action, an advocacy group for AI safeguards that Anthropic has given two $20 million donations, has given $3 million since August to the Abundant Future PAC backing state Sen. Scott Wiener, bringing its total to that PAC to $3.5 million. At a Tuesday debate Wiener said \"there is no Anthropic money in this race,\" while rival Supervisor Connie Chan asked whether politicians \"bankrolled by the AI industries\" can regulate it, and the election is on 3 Nov 2026.",
+    "importance_line": "Voters in San Francisco choose on 3 Nov and the donation puts AI money and AI rules at the centre of the race, though Anthropic says its funds cannot be spent on campaigns and the group has not named the donors behind its political spending.",
+    "verified_text": true,
+    "notes": "Read from supplied fulltext P01.txt only. Punchbowl News credited for first report of the donation; the Standard confirmed it with a Public First Action spokesperson and did its own debate reporting."
+   }
+  },
+  {
+   "run": 2,
+   "seconds": 29,
+   "est_input_cost_usd": 0.258,
+   "entry": {
+    "headline": "A group that Anthropic funds has put $3 million behind Scott Wiener, who is running for Nancy Pelosi's House seat in San Francisco.",
+    "score": 7,
+    "status": "REPORTED",
+    "freshness": "NEW",
+    "source": "The San Francisco Standard",
+    "url": "https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/",
+    "summary": "The San Francisco Standard reports, in a story that credits Punchbowl News with first reporting the gift, that Public First Action, an AI-safety advocacy group funded by Anthropic, has given $3 million since August to a PAC backing state Sen. Scott Wiener, bringing its total to $3.5 million; at a debate on 13 Oct his rival Connie Chan said the industry is bankrolling him, while Wiener replied \"there is no Anthropic money in this race\", and Anthropic says its gifts cannot be spent on political races. Voters in the Pelosi seat decide the contest on 3 Nov 2026, and the group has not said who pays for its political spending.",
+    "importance_line": "AI industry money is now an issue for San Francisco voters in a House race, but the link between Anthropic's gifts and the PAC spending is disputed and the donors behind the political money are undisclosed.",
+    "verified_text": true,
+    "notes": "Detail test: quote, $3.5M total detail and next step (3 Nov vote) included. Summary is two long sentences; no rule conflict found."
+   }
+  }
+ ]
+}

@@ -1,0 +1,1667 @@
+{
+ "trial": "curator test, category 07",
+ "window": {
+  "edition": "2026-10-14",
+  "start": "2026-10-13T09:16Z",
+  "end": "2026-10-14T09:16Z",
+  "hours": 24,
+  "yesterday": "/tmp/claude-0/-home-user-ai-news-desk/07984756-1dfd-5785-9a18-e3845700145d/scratchpad/run_2026-10-13/out/AIND_Pool_2026-10-13.csv"
+ },
+ "candidates": 345,
+ "versions": [
+  {
+   "folder": "cur07_A",
+   "version": "fable low",
+   "seconds": 159,
+   "est_input_cost_usd": 1.706,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Fed's Goolsbee Says Bubble Unwinds 'Can Get Ugly' Depending On Leverage, Sees AI Demand Starting To Overheat",
+     "source": "Stocktwits",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:40Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Nvidia Buys Into Doctolib and Genesis AI as Its Investment Book Tops $51 Billion",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:50Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C06-09",
+     "published": "2026-10-13T23:40Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "IBM Stock Wavers After-Hours Amid Revenue Miss, Lower 2026 Outlook — AI Demand Remains Strong, Says Company",
+     "source": "Stocktwits",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:36Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
+     "source": "Barron's",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:56Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+     "source": "Business Insider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:15Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Retail investors log biggest weekly net buying in 15 years at $9.1 billion, piling into AI and chip stocks",
+     "source": "BigGo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:35Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Meta shares rise for a second straight day as new AI model family impresses",
+     "source": "CNBC",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:53Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Tencent raises $7.2b in debt sale as demand defies AI scrutiny, Money News",
+     "source": "AsiaOne",
+     "importance": 5,
+     "follow_up": true,
+     "follow_up_of": "C07-09",
+     "published": "2026-10-14T02:37Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "LSEG teams up with NVIDIA for faster market data processing",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:21Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "WOLF Stock Drops 11% After Earnings Miss — Wolfspeed’s AI Growth Fails To Offset Negative Margins",
+     "source": "Stocktwits",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T22:13Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_B",
+   "version": "sonnet high",
+   "seconds": 118,
+   "est_input_cost_usd": 0.362,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Tencent raises $7.2b in debt sale as demand defies AI scrutiny, Money News",
+     "source": "AsiaOne",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C07-09",
+     "published": "2026-10-14T02:37:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "COMMENTARY: AI may be rocket fuel for US stocks, less so for GDP",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:00:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Blackstone’s AI data centre deals are looking shaky",
+     "source": "The Edge Singapore",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
+     "source": "Barron's",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:56:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Financing the AI boom: Winners and losers in corporate bond markets",
+     "source": "CEPR",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:58:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "‘Another dot-com bubble?’ How OpenAI, Anthropic IPOs could pressure stocks in 2027",
+     "source": "Livemint",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:49:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Retail investors log biggest weekly net buying in 15 years at $9.1 billion, piling into AI and chip stocks",
+     "source": "BigGo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:35:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": true,
+     "follow_up_of": "C06-09",
+     "published": "2026-10-13T23:40:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "TSMC Stocks Slip as Thursday's Earnings Put AI Margins Under Scrutiny",
+     "source": "TradingView",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:54:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Who’s paying whom? The circular money machine behind the AI boom (or bubble)",
+     "source": "The Conversation",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:51:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_C",
+   "version": "haiku high",
+   "seconds": 197,
+   "est_input_cost_usd": 0.023,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Blackstone’s AI data centre deals are looking shaky",
+     "source": "The Edge Singapore",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "COMMENTARY: AI may be rocket fuel for US stocks, less so for GDP",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:00:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "More fund managers see AI capex cuts coming, but most still don’t",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T11:47:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "AI investment to hit $750B by 2026 amid investor optimism: Bloomberg",
+     "source": "Crypto Briefing, citing Bloomberg",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T10:30:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:27:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Cisco Beat Revenue at 18% Growth and $9.3B AI Orders — So Why Did the Stock Plunge 9% to $112?",
+     "source": "TradingKey",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:31:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "IBM Stock Wavers After-Hours Amid Revenue Miss, Lower 2026 Outlook — AI Demand Remains Strong, Says Company",
+     "source": "Stocktwits",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:36:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+     "source": "Business Insider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:15:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "Financing the AI boom: Winners and losers in corporate bond markets",
+     "source": "CEPR",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:58:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Tech stocks slide as investors fret AI overspending",
+     "source": "Semafor",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T11:38:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Fed's Goolsbee Says Bubble Unwinds 'Can Get Ugly' Depending On Leverage, Sees AI Demand Starting To Overheat",
+     "source": "Stocktwits",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:40:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "S&P 500 earnings just hit a record. The AI data centre bill hasn't landed yet",
+     "source": "FXStreet",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:22:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "S&P 500 earnings surge as AI capex drains cash flow and threatens buyback support",
+     "source": "VT Markets",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:44:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "AI Exposure Surges Along With Investor Expectations",
+     "source": "Bloomberg.com",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T10:24:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_D",
+   "version": "opus medium",
+   "seconds": 167,
+   "est_input_cost_usd": 1.185,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Microsoft Cloud President Asks Leaders to Find 20% Cost Cuts",
+     "source": "The Information",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C06-09",
+     "published": "2026-10-13T21:42Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Exclusive / AI is an inflation problem, Fed’s Goolsbee says",
+     "source": "Semafor",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "BlackRock takes profits on stocks as it turns to Treasurys after six years",
+     "source": "CNBC",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T11:56Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Blackstone’s AI Data Center Deals Are Looking Shaky",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Citadel Securities’ Rubner Says Retail Traders Return to AI Bets",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:30Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "LSEG teams up with NVIDIA for faster market data processing",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:21Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+     "source": "Business Insider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:15Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44Z"
+    },
+    {
+     "rank": 16,
+     "backup": true,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "Financing the AI boom: Winners and losers in corporate bond markets",
+     "source": "CEPR",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:58Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_E",
+   "version": "opus low",
+   "seconds": 44,
+   "est_input_cost_usd": 0.587,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "IBM Stock Wavers After-Hours Amid Revenue Miss, Lower 2026 Outlook — AI Demand Remains Strong, Says Company",
+     "source": "Stocktwits",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:36Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Fed's Goolsbee Says Bubble Unwinds 'Can Get Ugly' Depending On Leverage, Sees AI Demand Starting To Overheat",
+     "source": "Stocktwits",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:40Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "BlackRock cools on U.S. stocks, makes first bond bet in six years",
+     "source": "www.thestreet.com",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:30Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:40Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Cisco Beat Revenue at 18% Growth and $9.3B AI Orders — So Why Did the Stock Plunge 9% to $112?",
+     "source": "TradingKey",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:31Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
+     "source": "Barron's",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:56Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+     "source": "Business Insider",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:15Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Blackstone’s AI data centre deals are looking shaky",
+     "source": "The Edge Singapore",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Retail investors log biggest weekly net buying in 15 years at $9.1 billion, piling into AI and chip stocks",
+     "source": "BigGo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:35Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "WOLF Stock Drops 11% After Earnings Miss — Wolfspeed’s AI Growth Fails To Offset Negative Margins",
+     "source": "Stocktwits",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T22:13Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "Financing the AI boom: Winners and losers in corporate bond markets",
+     "source": "CEPR",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:58Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_F",
+   "version": "opus high",
+   "seconds": 173,
+   "est_input_cost_usd": 1.056,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Microsoft Cloud President Asks Leaders to Find 20% Cost Cuts",
+     "source": "The Information",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C06-09",
+     "published": "2026-10-13T21:42Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Exclusive / AI is an inflation problem, Fed’s Goolsbee says",
+     "source": "Semafor",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "Citadel Securities’ Rubner Says Retail Traders Return to AI Bets",
+     "source": "Bloomberg",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T21:30Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
+     "source": "Barron's",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:56Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Adobe Stock Slips as HSBC Downgrades Stock on AI Threat",
+     "source": "TradingView",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:46Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+     "source": "Business Insider",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:15Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "SpaceX stock slammed as AI memory trade crumbles in South Korea",
+     "source": "Yahoo Finance",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:53Z"
+    },
+    {
+     "rank": 16,
+     "backup": true,
+     "title": "ASX data centre stocks crack as Firmus and AirTrunk listings stall",
+     "source": "Market Index",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T04:11Z"
+    },
+    {
+     "rank": 17,
+     "backup": true,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "COMMENTARY: AI may be rocket fuel for US stocks, less so for GDP",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_G",
+   "version": "sonnet medium",
+   "seconds": 67,
+   "est_input_cost_usd": 0.34,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": true,
+     "follow_up_of": "C05-09",
+     "published": "2026-10-14T05:14:00Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:50:00Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00:00Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Bank of America Survey Shows Investors Are Split on AI Bubble Risks",
+     "source": "Barron's",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T12:51:00Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "BlackRock cools on U.S. stocks, makes first bond bet in six years",
+     "source": "www.thestreet.com",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:30:00Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10:00Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "IBM Stock Wavers After-Hours Amid Revenue Miss, Lower 2026 Outlook — AI Demand Remains Strong, Says Company",
+     "source": "Stocktwits",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:36:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "‘Another dot-com bubble?’ How OpenAI, Anthropic IPOs could pressure stocks in 2027",
+     "source": "Livemint",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:49:00Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56:00Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33:00Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "Fed's Goolsbee Says Bubble Unwinds 'Can Get Ugly' Depending On Leverage, Sees AI Demand Starting To Overheat",
+     "source": "Stocktwits",
+     "importance": 7,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:40:00Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "Corporate Profits Soared Fueled By AI Investment As Markets Gear Up For Q3 Earnings",
+     "source": "Yahoo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:27:00Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "COMMENTARY: AI may be rocket fuel for US stocks, less so for GDP",
+     "source": "Reuters",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:00:00Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "TCS shares rally 11% in a week: IT major poised for bigger recovery as ‘Reverse AI Trade’ gains momentum? Decoded",
+     "source": "Livemint",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T07:04:00Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Big US banks report strong earnings and stay bullish on AI",
+     "source": "France 24",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:13:00Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
+     "source": "Barron's",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T20:56:00Z"
+    },
+    {
+     "rank": 18,
+     "backup": false,
+     "title": "Blackstone’s AI data centre deals are looking shaky",
+     "source": "The Edge Singapore",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33:00Z"
+    },
+    {
+     "rank": 19,
+     "backup": false,
+     "title": "U.S. Stocks Rise as AI Momentum Builds",
+     "source": "WSJ",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33:00Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point: ‘60-40 We’re Down That Path’",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T13:44:00Z"
+    },
+    {
+     "rank": 21,
+     "backup": true,
+     "title": "S&P 500 earnings just hit a record. The AI data centre bill hasn't landed yet",
+     "source": "FXStreet",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:22:00Z"
+    },
+    {
+     "rank": 22,
+     "backup": true,
+     "title": "Four ways the $1trn AI spending boom could play out and how to spot what’s coming next",
+     "source": "Trustnet",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:01:00Z"
+    }
+   ]
+  },
+  {
+   "folder": "cur07_H",
+   "version": "sonnet low",
+   "seconds": 62,
+   "est_input_cost_usd": 0.339,
+   "picks": [
+    {
+     "rank": 1,
+     "backup": false,
+     "title": "Anthropic Discloses Q3 Financial Data for the First Time Ahead of IPO: What Investors Need to Know",
+     "source": "TradingKey",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T03:51Z"
+    },
+    {
+     "rank": 2,
+     "backup": false,
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "source": "CNBC",
+     "importance": 8,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T05:14Z"
+    },
+    {
+     "rank": 3,
+     "backup": false,
+     "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+     "source": "Yahoo Finance",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C06-09",
+     "published": "2026-10-13T23:40Z"
+    },
+    {
+     "rank": 4,
+     "backup": false,
+     "title": "Tencent raises $7.2b in debt sale as demand defies AI scrutiny, Money News",
+     "source": "AsiaOne",
+     "importance": 6,
+     "follow_up": true,
+     "follow_up_of": "C07-09",
+     "published": "2026-10-14T02:37Z"
+    },
+    {
+     "rank": 5,
+     "backup": false,
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "source": "WSJ",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:00Z"
+    },
+    {
+     "rank": 6,
+     "backup": false,
+     "title": "Blackstone’s AI data centre deals are looking shaky",
+     "source": "The Edge Singapore",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:33Z"
+    },
+    {
+     "rank": 7,
+     "backup": false,
+     "title": "BlackRock cools on U.S. stocks, makes first bond bet in six years",
+     "source": "www.thestreet.com",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T02:30Z"
+    },
+    {
+     "rank": 8,
+     "backup": false,
+     "title": "AI math isn't mathing: infrastructure spending forecast to outstrip expected revenue",
+     "source": "The Register",
+     "importance": 6,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T09:00Z"
+    },
+    {
+     "rank": 9,
+     "backup": false,
+     "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T18:33Z"
+    },
+    {
+     "rank": 10,
+     "backup": false,
+     "title": "Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom",
+     "source": "Bloomberg.com",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:27Z"
+    },
+    {
+     "rank": 11,
+     "backup": false,
+     "title": "Retail investors log biggest weekly net buying in 15 years at $9.1 billion, piling into AI and chip stocks",
+     "source": "BigGo Finance",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T00:35Z"
+    },
+    {
+     "rank": 12,
+     "backup": false,
+     "title": "UBS sees 28% Q3 S&P 500 earnings growth, says AI and cyclicals can lift US stocks",
+     "source": "investingLive",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:10Z"
+    },
+    {
+     "rank": 13,
+     "backup": false,
+     "title": "IBM Stock Wavers After-Hours Amid Revenue Miss, Lower 2026 Outlook — AI Demand Remains Strong, Says Company",
+     "source": "Stocktwits",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:36Z"
+    },
+    {
+     "rank": 14,
+     "backup": false,
+     "title": "Dell CEO Rejects AI Bubble Fears, Says Chip Supply Could Stay Tight Through 2030",
+     "source": "Stocktwits",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T17:19Z"
+    },
+    {
+     "rank": 15,
+     "backup": false,
+     "title": "Financing the AI boom: Winners and losers in corporate bond markets",
+     "source": "CEPR",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T23:58Z"
+    },
+    {
+     "rank": 16,
+     "backup": false,
+     "title": "Citi CEO Jane Fraser Prepares For ‘AI-Driven Future’ As Bank Posts Best Q3 Revenue In A Decade",
+     "source": "TradingView",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T14:07Z"
+    },
+    {
+     "rank": 17,
+     "backup": false,
+     "title": "Nvidia just hit a record high. Here’s why the stock still looks cheap to me",
+     "source": "CNBC",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T01:04Z"
+    },
+    {
+     "rank": 18,
+     "backup": true,
+     "title": "Cisco Beat Revenue at 18% Growth and $9.3B AI Orders — So Why Did the Stock Plunge 9% to $112?",
+     "source": "TradingKey",
+     "importance": 5,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-13T15:31Z"
+    },
+    {
+     "rank": 19,
+     "backup": true,
+     "title": "India's proxy AI trade shines in a bleak year for stocks",
+     "source": "Reuters",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:56Z"
+    },
+    {
+     "rank": 20,
+     "backup": true,
+     "title": "Four ways the $1trn AI spending boom could play out and how to spot what’s coming next",
+     "source": "Trustnet",
+     "importance": 4,
+     "follow_up": false,
+     "follow_up_of": null,
+     "published": "2026-10-14T06:01Z"
+    }
+   ]
+  }
+ ]
+}
