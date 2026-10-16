@@ -1,0 +1,273 @@
+{
+ "edition": "2026-10-16",
+ "note": "Card wording written by Fable from the Full Report entries, checked by check_wording.py and a stranger check.",
+ "cards": [
+  {
+   "id": "cover",
+   "kind": "cover"
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "item": "C13-03",
+   "cat": "Politics and government / Anthropic IPO",
+   "head": "New York City's pension chief asked AI company Anthropic to delay its share sale.",
+   "body": "Mark Levine, the city's comptroller, wants Anthropic to set out safety audits and controls first. He cannot block the listing, and Anthropic has not answered yet.",
+   "src": "Reuters, citing CNBC",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "item": "C07-01",
+   "cat": "Market, industry and finance / AI debt fear",
+   "head": "Insurance against tech firms failing to repay debt hit record prices on AI fears.",
+   "body": "Data centre operator CoreWeave was hit hardest, as investors worry AI borrowers cannot pay. Its price passed the level Reuters says implies a 64% default risk within five years.",
+   "src": "Reuters",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": false
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "item": "C12-03",
+   "cat": "Security and cyber / G7 cyber drill",
+   "head": "Finance chiefs of the rich G7 nations agreed to rehearse an AI cyber attack.",
+   "body": "Satsuki Katayama, Japan's finance minister, said the drills will test responses and update manuals. The plan follows a warning from the International Monetary Fund, but no dates are set.",
+   "src": "CNA",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "story",
+   "item": "C08-01",
+   "cat": "Energy and infrastructure / TSMC Terafab",
+   "head": "TSMC is in talks to join Tesla chief Elon Musk's planned Texas chip plant.",
+   "body": "TSMC, the largest contract chip maker, said any such plant must be run by TSMC. Musk has said his own companies will build and run it, and nothing is signed.",
+   "src": "Fortune",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "story",
+   "item": "C08-04",
+   "cat": "Energy and infrastructure / Apple memory",
+   "head": "Apple's boss said Apple will weigh every option to beat a memory chip shortage.",
+   "body": "John Ternus, Apple's chief executive, called the shortage a serious crisis but named no supplier. Korean paper Chosun Ilbo reads this as room for Chinese chips, which US senators oppose.",
+   "src": "Chosun Ilbo, citing Time",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "story",
+   "item": "C11-01",
+   "cat": "Robotics / Volvo driving",
+   "head": "Volvo plans hands-free driving on local roads, built on chip maker Nvidia's AI.",
+   "body": "The system would handle traffic lights and turns, but drivers must watch the road. Volvo only promises it before 2030 and has not named which models come first.",
+   "src": "The Verge",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "story",
+   "item": "C11-02",
+   "cat": "Robotics / Cheap humanoid",
+   "head": "Car maker Faraday Future launched a small humanoid robot for developers at $2,490.",
+   "body": "A $299 teaching version is aimed at schools. But the robot walks at a crawl, and the first run is 100 units.",
+   "src": "Unite.AI (citing the companies' announcement)",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": true,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s8",
+   "kind": "story",
+   "item": "C01-01",
+   "cat": "Models and tools / Meta on Macs",
+   "head": "Meta released a very large AI model that anyone can download to run on Macs.",
+   "body": "Meta says Muse Spark Open beats other free-to-download models, based on its own tests. It needs at least 1 terabyte of memory and works best on Apple's Mac Studio.",
+   "src": "TechCrunch",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s9",
+   "kind": "story",
+   "item": "C02-01",
+   "cat": "Models and tools / ChatGPT tabs",
+   "head": "OpenAI's ChatGPT can now read the tabs you have open in Google's Chrome browser.",
+   "body": "An updated Chrome add-on lets ChatGPT compare open pages, like three sofas you are weighing. Its Work mode can even fill in forms and send messages; no safeguards were described.",
+   "src": "The Verge",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s10",
+   "kind": "story",
+   "item": "C15-01",
+   "cat": "Research and science / Quantum leap",
+   "head": "Google made a key quantum computer part with fewer errors, on a real chip.",
+   "body": "Google's quantum team cut errors in these parts about 40-fold, in one lab's small test. Making them the old way was expected to use up to 95% of a machine.",
+   "src": "Quantum Computing Report",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s11",
+   "kind": "story",
+   "item": "C04-01",
+   "cat": "Research and science / AI physics",
+   "head": "OpenAI's coding agent got all but one of 50 unpublished physics problems right.",
+   "body": "Each answer cost under $3, in a test built by Harvard and Google DeepMind researchers. The authors say AI still lacks the taste to choose good problems.",
+   "src": "The Decoder",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s12",
+   "kind": "story",
+   "item": "C13-01",
+   "cat": "Ethics and law / FTC subpoenas",
+   "head": "A US regulator ordered OpenAI and Anthropic to hand over AI safety incident files.",
+   "body": "The Federal Trade Commission, which protects consumers, also wants their privacy policies and safeguards. A spokesperson confirmed the demands, which are not a finding of wrongdoing.",
+   "src": "Axios",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s13",
+   "kind": "story",
+   "item": "C10-02",
+   "cat": "Health / Cancer AI",
+   "head": "US regulators cleared an AI tool that estimates if early breast cancer will return.",
+   "body": "Made by SimBioSys, it reads an existing breast scan and lab results before surgery. It was tested only on past records, and insurers do not cover it yet.",
+   "src": "ABC News",
+   "pill": "CONFIRMED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "s14",
+   "kind": "story",
+   "item": "C14-02",
+   "cat": "Society and education / Fed AI hiring",
+   "head": "Some US firms are hiring fewer people after investing in AI, the Fed reports.",
+   "body": "The Federal Reserve's latest business survey heard this in five of its twelve regions. Most regions saw little job change, and the survey rests on what bosses told it.",
+   "src": "24/7 Wall St.",
+   "pill": "REPORTED",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "fun",
+   "kind": "fun",
+   "item": "C16-02",
+   "cat": "Fun and humour / AI castaways",
+   "head": "MIT researchers left AI agents alone on a virtual island, and one built a temple.",
+   "body": "Each agent got a lobster body and thirty hours with no instructions. Six found a throwing trick nobody had coded, which the researchers liken to animal play.",
+   "src": "Gizmodo",
+   "pill": "PRELIMINARY",
+   "coverage": {
+    "robotics": false,
+    "outside_business": true
+   }
+  },
+  {
+   "id": "teaser",
+   "kind": "teaser",
+   "entries": [
+    {
+     "id": "t1",
+     "item": "C12-01",
+     "cat": "Security and cyber",
+     "head": "Anthropic let six outside safety testers work inside the company with staff-level access."
+    },
+    {
+     "id": "t2",
+     "item": "C10-01",
+     "cat": "Health",
+     "head": "Drug maker AstraZeneca hired AI firm insitro to hunt for liver and heart drug targets."
+    },
+    {
+     "id": "t3",
+     "item": "C14-06",
+     "cat": "Society and education",
+     "head": "Cameroon banned nursery and primary school pupils from using AI chatbots like ChatGPT."
+    },
+    {
+     "id": "t4",
+     "item": "C01-02",
+     "cat": "Models and tools",
+     "head": "Microsoft finished training a giant AI model it says needs far less computing power."
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "kind": "analysis",
+   "opening": "And for the bigger picture…",
+   "cat": "The Bigger Picture / AIND",
+   "head": "Money for AI is getting dearer: debt fears hit records as chip demand stays strong.",
+   "body": "Insuring CoreWeave's data centre debt hit a record as chipmaker TSMC made record profit. Watch Meta's results on 21 October: less spending means weaker demand.",
+   "src": "AI News Desk",
+   "pill": "AIND",
+   "refs": [
+    "C07-01",
+    "C07-03",
+    "C07-02",
+    "C08-03",
+    "C06-01"
+   ]
+  },
+  {
+   "id": "closing",
+   "kind": "closing",
+   "head": "Like, follow and share.",
+   "body": "That was today’s headlines in cards. Soon, subscribers and followers will get access to our full daily report and industry analysis helping investors understand the bigger picture behind AI developments.\n\nIf this adds value to your day, share it with someone who should know. Thank you, and see you tomorrow."
+  }
+ ]
+}

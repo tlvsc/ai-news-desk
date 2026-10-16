@@ -1,0 +1,124 @@
+{
+ "edition": "2026-10-16",
+ "count_note": "14 story cards: POL 1, MKT 1, SEC 1, ENE 2, ROB 2, MOD 2, RES 2, LAW 1, HEA 1, SOC 1. One market card only, because the chip rout (C07-03) and the CoreWeave bonds (C07-02) are the same money story that ran as cards and clips on 14 and 15 Oct; a money heavy deck is a failure.",
+ "cards": [
+  {
+   "item": "C13-03",
+   "label": "Anthropic IPO",
+   "reason": "The man who guards New York City's pension money publicly tells Anthropic to hold its stock market debut until it shows real safety audits. Politics meets the biggest AI listing ever; a stranger gets it in five seconds: money people now ask AI firms to prove they are safe.",
+   "not_repeat_because": "The 7 day decks carry Anthropic showing its finances to funds (14 Oct) and its revenue growth (15 Oct, pool only); no deck has the New York comptroller or a call to delay the listing. New actor, new demand.",
+   "novice_test": "Mark Levine: New York City's elected comptroller, the official who watches the city's money and sits as trustee of its pension funds. Anthropic: the AI company behind the Claude assistant. Dario Amodei: Anthropic's chief executive. IPO: a company's first sale of shares to the public. With these lines it lands."
+  },
+  {
+   "item": "C07-01",
+   "label": "AI debt fear",
+   "reason": "The cost of insuring against big tech borrowers failing hit a record, led by CoreWeave, whose contract now implies a 64 percent chance of default in five years. This is the day's clearest signal that the money world fears the AI build-out is running on debt it cannot carry; it feeds the Bigger Picture.",
+   "not_repeat_because": "15 Oct carried CoreWeave's share fall (teaser) and AI shares falling on dearer borrowing; 11 and 12 Oct carried AI debt getting costlier in general. None had default insurance at a record or the 64 percent default chance; this is a new, measurable step.",
+   "novice_test": "CoreWeave: a US company that rents out data centres full of AI chips, and has borrowed heavily to build them. Credit default swap: insurance an investor buys against a borrower not paying back. Basis points: hundredths of a percent. Explained, a reader sees that insurers now price CoreWeave as a likely default."
+  },
+  {
+   "item": "C12-03",
+   "label": "G7 cyber drill",
+   "reason": "The finance ministers of the seven richest democracies agreed to rehearse an AI-driven cyber attack on the banking system, days after the IMF warned one could shake confidence. World story, every reader has a bank account.",
+   "not_repeat_because": "12 Oct carried the FSB warning to G20 finance chiefs and Bill Gates on AI cyber crime; 14 Oct carried Anthropic's AI worm warning. No deck has the G7 agreeing to run practice drills; this is a decision, not a warning.",
+   "novice_test": "G7: the group of seven rich democracies (US, UK, Germany, France, Italy, Japan, Canada). Satsuki Katayama: Japan's finance minister, who announced the agreement. Tabletop exercise: a practice run of a crisis on paper. IMF: the International Monetary Fund, the world's lender of last resort. It lands."
+  },
+  {
+   "item": "C08-01",
+   "label": "TSMC Terafab",
+   "reason": "The world's biggest chip maker says it is in talks to join Elon Musk's giant Texas chip complex, but only if TSMC runs the factory, directly contradicting Musk, who says his companies will run it. Two of the most famous names in tech, a public tug of war over who controls the chips AI needs.",
+   "not_repeat_because": "15 Oct carried TSMC's record profit and strong AI chip demand (card and clip); no deck has Terafab, Musk's chip complex or TSMC's condition to run it. Different story, same company.",
+   "novice_test": "TSMC: the Taiwanese company that makes the chips for Nvidia, Apple and AMD, the world's largest contract chip maker. C.C. Wei: TSMC's chairman and chief executive. Terafab: the huge chip factory complex Elon Musk, chief executive of Tesla, plans in Texas. Musk needs no introduction beyond his title. It lands."
+  },
+  {
+   "item": "C08-04",
+   "label": "Apple memory",
+   "reason": "Apple's new chief executive calls the memory chip shortage a serious crisis and says Apple will review all options, read as leaving the door open to Chinese memory. Everyone with a phone feels a memory shortage in the price; a US giant eyeing Chinese chips is politics and business in one line.",
+   "not_repeat_because": "10 Oct carried big buyers booking Samsung's memory; 14 Oct carried ASML's shortage of chip machines. No deck has Apple, its new chief executive or Chinese memory as an option. New company, new angle.",
+   "novice_test": "John Ternus: Apple's new chief executive, who took over from Tim Cook. DRAM: the memory chips every phone and computer needs. CXMT: a Chinese memory chip maker. Chosun Ilbo: a big South Korean newspaper, reading a Time magazine interview. With the introductions, the stranger understands why his next iPhone may cost more."
+  },
+  {
+   "item": "C11-01",
+   "label": "Volvo driving",
+   "reason": "Volvo will give its cars hands-free driving on local roads, handling traffic lights and turns on Nvidia's AI chips. A car driving itself through town is a machine doing something every driver can picture, and a safety-first brand joining Tesla's game is news worldwide.",
+   "not_repeat_because": "The 7 day decks have Tesla robotaxi school zones (14 Oct) and Waymo opening cities (15 Oct). No deck has Volvo or a hands-free system for ordinary cars on local roads. New company, new product.",
+   "robotics_ruling": "Rafi, 8 Oct 2026: robotics means anything about humanoid robots and any other robotics, robot inventions and developments; a car that steers, stops at lights and turns by itself is a machine doing something. The entry's machine_action flag is False only because the system launches later.",
+   "novice_test": "Volvo: the Swedish car maker, owned by China's Geely. Nvidia: the world's leading AI chip maker, which also sells driving software. Level 2++: hands off the wheel, eyes still on the road. Explained, a reader sees that normal family cars are getting Tesla-style driving."
+  },
+  {
+   "item": "C11-02",
+   "label": "Cheap humanoid",
+   "reason": "A walking humanoid robot for 2,490 dollars and a tiny teaching one for 299, aimed at developers and schools. The humanoid card of the day: a machine that walks (slowly) at a price a school can pay; readers love the price-and-size contrast.",
+   "not_repeat_because": "10 Oct carried Feather Robotics' wheeled humanoid under 30,000 dollars; 11 Oct Tesla's Optimus learning chores; 12 Oct humanoids stocking Danish shelves; 15 Oct AGIBOT raising money. No deck has Faraday Future, FF Nova or a 299 dollar humanoid. Different company, different product.",
+   "robotics_ruling": "Rafi, 8 Oct 2026: anything about humanoid robots counts, one of the two robotics cards must be a humanoid robot story. The robot walks on its own legs, a machine doing something; the entry's machine_action flag is False because it is a product launch.",
+   "novice_test": "Faraday Future: a small US electric car company. FF EAI Robotics: its robotics partner. FF Nova: a 50 centimetre walking robot for developers; FF Nova Mini: a 299 dollar teaching version. Unite.AI: the AI news site reporting it. Explained, the story lands: humanoid robots are getting as cheap as a laptop."
+  },
+  {
+   "item": "C01-01",
+   "label": "Meta on Macs",
+   "reason": "Meta released Muse Spark Open, an 816 billion parameter model anyone can download, built to run on Apple's Mac computers, with Mark Zuckerberg and Apple's new chief backing each other in public. The big release of the day, and two of the world's biggest companies working together.",
+   "not_repeat_because": "14 Oct carried Meta's Muse Wonder (closed models ranked near the top). Muse Spark Open is a different model, open weight, and the Apple tie-up is new; no deck has it. The Verge's Meta and Apple story (C06-02) is the same topic and is folded into this card (ONE TOPIC, ONE CARD).",
+   "novice_test": "Muse Spark Open: Meta's new AI model whose trained files are public for anyone to download and adapt (open weight). Parameters: the numbers inside a model, a rough measure of its size. Mark Zuckerberg: Meta's chief executive. John Ternus: Apple's new chief executive. Mac Studio: Apple's high-end desktop computer. With these lines it lands."
+  },
+  {
+   "item": "C02-01",
+   "label": "ChatGPT tabs",
+   "reason": "ChatGPT can now read the tabs a person already has open in Chrome, and in Work mode act on them: fill forms, send messages, download files. A stranger understands this at once, and it touches hundreds of millions of browser users.",
+   "not_repeat_because": "No deck in the last 7 days carries ChatGPT's Chrome extension, tab reading or ChatGPT Work. 14 Oct's Google Android apps story is a different product.",
+   "novice_test": "OpenAI: the company behind ChatGPT. Chrome: Google's web browser. ChatGPT Work: OpenAI's mode where the assistant does tasks instead of only answering. Tabs: the open pages of a browser. It lands without more."
+  },
+  {
+   "item": "C15-01",
+   "label": "Quantum leap",
+   "reason": "Google's quantum team cut errors about 40 fold in the special building blocks that error-corrected quantum computers need, published in Science and run on real hardware. The biggest science result of the day; it moves the date when quantum computers become useful.",
+   "not_repeat_because": "No deck in the last 7 days carries Google Quantum AI, the Willow chip or magic state cultivation. The maths puzzle (15 Oct) and the enzyme stories are different.",
+   "novice_test": "Google Quantum AI: Google's quantum computing lab. Willow: its superconducting quantum chip. Qubit: the quantum version of a computer bit. Magic state, or T-state: a special ingredient a universal quantum computer needs, hard to make without errors. Science: the journal. With these lines a reader gets why 40 times fewer errors matters."
+  },
+  {
+   "item": "C04-01",
+   "label": "AI physics",
+   "reason": "On 50 unpublished theoretical physics problems, OpenAI's GPT-6-Astra agent solved 49, at under 3 dollars each, with no human hints. A number everyone understands, and a clear sign of where AI research is heading.",
+   "not_repeat_because": "12 Oct carried Epoch AI saying top AIs are far from doing research alone and overstated results; 15 Oct carried a Chinese AI helping solve a maths puzzle. No deck has TheoPhysEval, GPT-6-Astra or 49 of 50 physics problems. New test, new result.",
+   "novice_test": "GPT-6-Astra: OpenAI's newest model, run as a coding agent in its Codex tool. TheoPhysEval: a new test of 50 physics problems built by 35 researchers from Harvard, Google DeepMind and others. Opus 5.5: Anthropic's rival model, second at 92 percent. The Decoder: the AI news site reporting it. It lands."
+  },
+  {
+   "item": "C13-01",
+   "label": "FTC subpoenas",
+   "reason": "The US consumer regulator has sent formal demands to OpenAI and Anthropic for documents on safety incidents, privacy and safeguards. The US government is now compelling the two top AI labs to show what went wrong; a law story everybody understands.",
+   "not_repeat_because": "15 Oct carried eight US states suing OpenAI over children and the EU questioning OpenAI and Anthropic about hacks. Neither deck has the FTC, subpoenas or safety incident documents; this is a different regulator and a different step.",
+   "novice_test": "FTC: the Federal Trade Commission, the US consumer protection regulator. Subpoena: a legal order to hand over documents. Axios: the US news site that reported it, relayed by CBS News. It lands."
+  },
+  {
+   "item": "C10-02",
+   "label": "Cancer AI",
+   "reason": "The US drug regulator cleared an AI that reads a woman's breast MRI and pathology to estimate, before surgery, whether early breast cancer will return. Health card that leads with the deed and touches millions of families; chosen over the AstraZeneca deal, which leads with money.",
+   "not_repeat_because": "The 7 day decks carry Google's chatbot questioning patients (9 Oct), a Chinese lung tumour AI (11 Oct), Korea's AI medical tools (12 Oct), Meta's health studies and Alzheimer enzymes (15 Oct). No deck has TumorSight Risk, SimBioSys or breast cancer recurrence.",
+   "novice_test": "FDA: the US Food and Drug Administration, which clears medical devices. SimBioSys: the US company that makes TumorSight Risk, running on Nvidia chips. MRI: a detailed body scan. Pathology: the lab report on the tumour tissue. With these lines it lands."
+  },
+  {
+   "item": "C14-02",
+   "label": "Fed AI hiring",
+   "reason": "The US central bank's own business survey says firms in five of its twelve regions cut staff, delayed hiring or expect fewer jobs after raising productivity with AI. First official evidence from the Fed that AI is cutting hiring; a jobs story for every worker.",
+   "not_repeat_because": "12 Oct carried the IMF chief's AI jobs tsunami and US coding jobs rising; 14 Oct carried Kroger's 3,000 office cuts. No deck has the Beige Book or the Fed's districts. New source, new evidence.",
+   "novice_test": "The Federal Reserve: the US central bank. Beige Book: its survey of business conditions, published eight times a year. Districts: the twelve regions the Fed divides the US into. Attrition: not replacing people who leave. 24/7 Wall St.: the finance site reporting it, carried by Yahoo Finance. It lands."
+  }
+ ],
+ "fun": {
+  "item": "C16-02",
+  "label": "AI castaways",
+  "reason": "MIT researchers left thirteen AI agents alone on a virtual island for thirty hours, with lobster bodies and no instructions, and they stacked blocks, built temples and invented a block-throwing game nobody designed. Fun to hear and to picture, one sentence to explain, mildly funny to think about (AI on holiday builds temples). Rule 24 FUN STORIES. C16-01 (the wiped TV show) is a follow-up of 14 Oct, so not NEW; C16-03 (spy jokes) hangs on the 14 Oct OpenAI bugging card."
+ },
+ "teaser": [
+  {"item": "C12-01"},
+  {"item": "C10-01"},
+  {"item": "C14-06"},
+  {"item": "C01-02"}
+ ],
+ "headlines": ["C13-03", "C07-01", "C08-01", "C11-01", "C01-01", "C04-01", "C13-01"],
+ "headlines_note": "Politics first (C13-03), then the strongest cards in deck order. The five 8s are C07-01, C08-01, C01-01, C15-01 and C13-01; C15-01 (quantum error correction) is swapped for C04-01 (AI solved 49 of 50 physics problems), because a stranger grasps it in one sentence and it shows AI changing research (CLAUDE.md rule 16, stories chosen for what matters to people worldwide). Robotics clip: C11-01 Volvo hands-free driving. Company clips: Anthropic 2 (C13-03, C13-01).",
+ "headlines_fun": "C16-02",
+ "bigger_picture": {"card": true, "clip": true},
+ "bp_refs": ["C07-01", "C07-03", "C07-02", "C08-03", "C06-01"],
+ "disputed_repeats": {},
+ "left_out_notes": "1. C07-03 chip and memory stocks lose 1 trillion dollars this week: the same chip rout that was a card and clip on 14 and 15 Oct (NO REPEATS IN 7 DAYS); it goes to the Bigger Picture. 2. C07-02 CoreWeave bonds near 15 percent yield: same topic as C07-01 (ONE TOPIC, ONE CARD) and CoreWeave's fall was a 15 Oct teaser; Bigger Picture source. 3. C12-01 Anthropic gives METR staff-level access: good story, dropped to hold the deck at 14 and keep Anthropic at 2 cards; it is teaser 1. 4. C10-01 AstraZeneca pays insitro up to 1.5 billion dollars: scores 7, but it leads with the money and the deed (finding drug targets) is years away; the FDA breast cancer tool leads with the deed, so health took C10-02; AstraZeneca is teaser 2. 5. C13-04 Pentagon holds the Iranian school strike report until after the midterms: mainly war and politics, and the strike and Palantir's answer were a 12 Oct card; Politics took the comptroller story instead. Also left: C06-02 (same topic as C01-01), C08-02 Taiwan industrial parks (ENE already has two), C09-01 Venture Global gas plants (ENE already has two), C01-02 Microsoft MAI-Base-2 (teaser 4), C14-06 Cameroon bans AI for small pupils (teaser 3)."
+}

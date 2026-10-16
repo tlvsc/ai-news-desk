@@ -1,0 +1,72 @@
+[
+ {
+  "clip": "C13-03",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "40 syllables, 9.09 s. Who (Mark Levine, oversees NYC pension funds = his position and organisation in plain words), what (asked Anthropic to delay its listing), why (deal with AI safety first, his own purpose). Facts match the entry (letter of 14 Oct asking to pause the IPO and set out audits and controls first). Card s1 agrees. Opening 'In politics' is the category."
+ },
+ {
+  "clip": "C07-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "CONFIRMED after the writer's fix: 39 syllables, 8.86 s. Stranger: insurance against tech firms failing to repay reached record prices, cause (fears over AI debt), CoreWeave hit hardest; no unclear name. Reads as one sentence. Facts: record CDS highs on 15 Oct, CoreWeave 'hit hardest' (the facts' own word), company tag kept. Card s2 agrees ('Insurance against tech firms failing to repay debt hit record prices')."
+ },
+ {
+  "clip": "C08-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "42 syllables, 9.55 s (10 acceptable for a long item). Who (Taiwan's chip giant TSMC), what (says it is in talks to join Musk's planned Texas chip plant), punch fact (only if TSMC runs it) all match the Fortune entry and facts (Wei: 'in discussions to be part of' Terafab, 'must be run by TSMC'). Musk has position and organisation (Tesla boss). 'says' keeps the REPORTED status. Card s4 agrees. Opening 'In infrastructure' is a listed category."
+ },
+ {
+  "clip": "C11-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "42 syllables, 9.55 s. Who (Swedish car maker Volvo), what (plans hands-free driving on local roads with Nvidia's AI), and the end part is the robot-does-what detail plus the essential qualification (traffic lights and turns, driver keeps watch), both in the facts (Level 2++: traffic lights, stop signs, turns; driver must still watch the road). 'plans' keeps it a plan, as the entry notes. Card s6 agrees. N-vidia cue present and the brand is spoken."
+ },
+ {
+  "clip": "C01-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "CONFIRMED after the writer's fix: 41 syllables, 9.32 s. Who (Meta), what (released a very large open-weight AI model built to run on Macs), end part is the essential qualification of the entry and card s8 (at least 1 terabyte of memory, per Engadget in the entry). One sentence, reads cleanly. 'open-weight' as in Rafi's approved model line 2."
+ },
+ {
+  "clip": "C04-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "43 syllables, 9.77 s (10 acceptable for a long item). Exact figure kept (ninety eight percent = 49 of 50 in the facts). Harvard and Google DeepMind are named in the entry; 'no human help' matches 'no human hints'. No why needed: the line is clear without one and the punch is the figure. Card s11 agrees. Opening 'In the lab' is a listed category. (Optional, not a fail: 'found an' instead of 'found that an' saves one syllable.)"
+ },
+ {
+  "clip": "C13-01",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "OPEN, not a fail (coordinator, 16 Oct 2026): the line now opens 'In law.' (43 syllables, 9.77 s); whether the G2 rotation rule or the category-opening rule of 14 Oct wins goes to Rafi. The body is unchanged and passed the first check. Facts match (civil investigative demands for documents on safety incidents, two weeks after the FTC said it was investigating the two firms); 'as it investigates them' is the cause. Card s12 agrees. 'In law' was also yesterday's law opening (G2): the category-opening rule of 14 Oct is newer and check_headlines_rules.py G2 passed the same repeat for politics, finance, robotics and the lab, so it is reported here, not failed; the main session decides if G2 still applies to category openings."
+ },
+ {
+  "clip": "fun",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "CONFIRMED after the writer's fix: 39 syllables, 8.86 s; 'empty' dropped, so the island matches the entry. Every fact is in the Gizmodo entry (MIT CSAIL agents, lobster body, temples, invented games such as bowling and a block-throwing trick). Card fun agrees. Opening rotates from yesterday's 'In today's fun corner'. Fun by rule 24: fun to hear."
+ },
+ {
+  "clip": "teaser",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "44 syllables, 10.0 s (under the 12 s limit). Both items (C14-06, C12-01) are on the teaser card. Cameroon: entry says the ban covers kindergarten and primary pupils and tools such as ChatGPT ('young pupils', 'A I chatbots' are faithful). METR: entry headline says 'the same kind of access to its models and internal tools as its own staff'. Fixed lead-in 'Also in the full report' kept. No outlet spoken."
+ },
+ {
+  "clip": "bp",
+  "pass": true,
+  "broken": [],
+  "fix": "",
+  "note": "50 syllables, 11.36 s, inside the 12 s hard limit (about 10 is the aim; 'big' could go to save one syllable, taste only). Summation matches the Bigger Picture bulletin text (demand strong, repriced on the cost of money); the thing to watch is dated there (Meta's results, Wednesday 21 October, Meta's own notice) and card bp says 21 October, no contradiction. 'This is not financial advice' is spoken and the screen flashes the words."
+ }
+]
