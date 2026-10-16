@@ -28,8 +28,8 @@
   },
   {
    "rule": "B1",
-   "status": "PASS",
-   "detail": "C13-03 9.0 s (aim 9.0 s or less)"
+   "status": "WARN",
+   "detail": "C13-03 9.5 s (aim 9.0 s or less)"
   },
   {
    "rule": "B2a",
@@ -239,7 +239,7 @@
   {
    "rule": "B1",
    "status": "WARN",
-   "detail": "bp 11.5 s (aim 10.5 s or less)"
+   "detail": "bp 12.0 s (aim 10.5 s or less)"
   },
   {
    "rule": "B2a",
