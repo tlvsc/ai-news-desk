@@ -4,14 +4,14 @@
   "pass": true,
   "broken": [],
   "fix": "",
-  "note": "40 syllables, 9.09 s. Who (Mark Levine, oversees NYC pension funds = his position and organisation in plain words), what (asked Anthropic to delay its listing), why (deal with AI safety first, his own purpose). Facts match the entry (letter of 14 Oct asking to pause the IPO and set out audits and controls first). Card s1 agrees. Opening 'In politics' is the category."
+  "note": "CONFIRMED after the plain-words change (rule 36): 39 syllables, 8.86 s. 'looks after' and 'stock market launch' are daily words; who (Mark Levine, looks after NYC pension funds = position and organisation), what (asked Anthropic to delay its listing), why (deal with AI safety first, his own purpose). Facts match the entry (letter of 14 Oct asking to pause the IPO and set out audits and controls first). Card s1 ('delay its share sale') agrees. No rare word left."
  },
  {
   "clip": "C07-01",
   "pass": true,
   "broken": [],
   "fix": "",
-  "note": "CONFIRMED after the writer's fix: 39 syllables, 8.86 s. Stranger: insurance against tech firms failing to repay reached record prices, cause (fears over AI debt), CoreWeave hit hardest; no unclear name. Reads as one sentence. Facts: record CDS highs on 15 Oct, CoreWeave 'hit hardest' (the facts' own word), company tag kept. Card s2 agrees ('Insurance against tech firms failing to repay debt hit record prices')."
+  "note": "CONFIRMED after the plain-words change (rule 36): 38 syllables, 8.64 s. 'worst hit' is daily speech and means the same as the facts' 'hit hardest'. Stranger: insurance against tech firms failing to repay reached record prices, cause (fears over AI debt), CoreWeave worst hit; no unclear name. One sentence. Facts: record CDS highs on 15 Oct, company tag kept. Card s2 agrees. 'centre' is British spelling only in writing; spoken the same (subtitle text may use it or 'center', the writer's call)."
  },
  {
   "clip": "C08-01",
@@ -46,7 +46,7 @@
   "pass": true,
   "broken": [],
   "fix": "",
-  "note": "OPEN, not a fail (coordinator, 16 Oct 2026): the line now opens 'In law.' (43 syllables, 9.77 s); whether the G2 rotation rule or the category-opening rule of 14 Oct wins goes to Rafi. The body is unchanged and passed the first check. Facts match (civil investigative demands for documents on safety incidents, two weeks after the FTC said it was investigating the two firms); 'as it investigates them' is the cause. Card s12 agrees. 'In law' was also yesterday's law opening (G2): the category-opening rule of 14 Oct is newer and check_headlines_rules.py G2 passed the same repeat for politics, finance, robotics and the lab, so it is reported here, not failed; the main session decides if G2 still applies to category openings."
+  "note": "CONFIRMED after the writer applied 'consumer regulator' (rule 36's own word): 43 syllables, 9.77 s. Stranger: a US regulator ordered the two firms to hand over safety incident records because it looks into them; nothing unclear. Facts (FTC civil investigative demands for documents on safety incidents, two weeks after it said it was investigating) and card s12 (which names the FTC) agree. The opening 'In law.' stays OPEN for Rafi (G2 rotation vs the category-opening rule of 14 Oct). Facts match (civil investigative demands for documents on safety incidents, two weeks after the FTC said it was investigating the two firms); 'as it investigates them' is the cause. Card s12 agrees. 'In law' was also yesterday's law opening (G2): the category-opening rule of 14 Oct is newer and check_headlines_rules.py G2 passed the same repeat for politics, finance, robotics and the lab, so it is reported here, not failed; the main session decides if G2 still applies to category openings."
  },
  {
   "clip": "fun",
@@ -60,13 +60,13 @@
   "pass": true,
   "broken": [],
   "fix": "",
-  "note": "44 syllables, 10.0 s (under the 12 s limit). Both items (C14-06, C12-01) are on the teaser card. Cameroon: entry says the ban covers kindergarten and primary pupils and tools such as ChatGPT ('young pupils', 'A I chatbots' are faithful). METR: entry headline says 'the same kind of access to its models and internal tools as its own staff'. Fixed lead-in 'Also in the full report' kept. No outlet spoken."
+  "note": "CONFIRMED after the writer applied 'young school kids': 44 syllables, 10.0 s, under the 12 s limit; every fact kept (kindergarten and primary pupils = young school kids; METR access as the entry headline says). Both items are on the teaser card; teaser card t3 still says 'pupils', the card checker's call. No other rare word found in the ten lines: 'open-weight' stays as in Rafi's approved model line 2, 'terabyte' is the memory figure of the entry. Before the sweep: 44 syllables, 10.0 s (under the 12 s limit). Both items (C14-06, C12-01) are on the teaser card. Cameroon: entry says the ban covers kindergarten and primary pupils and tools such as ChatGPT ('young pupils', 'A I chatbots' are faithful). METR: entry headline says 'the same kind of access to its models and internal tools as its own staff'. Fixed lead-in 'Also in the full report' kept. No outlet spoken."
  },
  {
   "clip": "bp",
   "pass": true,
   "broken": [],
   "fix": "",
-  "note": "50 syllables, 11.36 s, inside the 12 s hard limit (about 10 is the aim; 'big' could go to save one syllable, taste only). Summation matches the Bigger Picture bulletin text (demand strong, repriced on the cost of money); the thing to watch is dated there (Meta's results, Wednesday 21 October, Meta's own notice) and card bp says 21 October, no contradiction. 'This is not financial advice' is spoken and the screen flashes the words."
+  "note": "CONFIRMED after the plain-words change (rule 36): 49 syllables, 11.14 s, inside the 12 s hard limit (about 10 is the aim; 'big' could go to save one syllable, taste only). 'costing more' and 'spending lasts' are daily words and keep the meaning of the Bigger Picture text (repriced on the cost of money; whether Meta's plan holds). Summation matches the Bigger Picture bulletin text (demand strong, repriced on the cost of money); the thing to watch is dated there (Meta's results, Wednesday 21 October, Meta's own notice) and card bp says 21 October, no contradiction. 'This is not financial advice' is spoken and the screen flashes the words."
  }
 ]

@@ -5,7 +5,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Levine named as the city comptroller (position and organisation); cannot block, no answer yet, both in the entry; 81/162 chars."
+  "note": "Recheck of the plain-words change: \"the city's top money official\" keeps position and organisation (Mark Levine, New York City from the head); safety checks and share sale match the entry; 81/158 chars, 14 and 12 words. PASS."
  },
  {
   "card": "s2",
@@ -13,7 +13,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck after fix: body 177 chars, two sentences of 14 and 15 words; CoreWeave introduced; worry (not doubt) matches the entry; 64% kept exact, tied to CoreWeave's level above 1,000 with Reuters named; reads as speech. PASS."
+  "note": "Recheck: suffered most, worry, risk of not paying are plain; 64% kept exact and tied to CoreWeave's price with Reuters named (its spread is above the 1,000 level that implies 64%, so \"over\" holds); 81/163 chars, 13 and 15 words. PASS."
  },
  {
   "card": "s3",
@@ -21,7 +21,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Katayama with position and country; IMF named in full; no dates set is in the entry; 76/186 chars."
+  "note": "Recheck: \"practice for an AI cyber attack\" is plain and matches the facts (tabletop exercises); 80/186 chars. PASS."
  },
  {
   "card": "s4",
@@ -37,7 +37,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Ternus as Apple chief executive; the Chinese-chips reading is attributed to Chosun Ilbo as in the entry; senators oppose matches the facts; 79/186 chars."
+  "note": "Recheck: \"look at every option\" matches \"review all options\"; 81/186 chars. PASS."
  },
  {
   "card": "s6",
@@ -53,7 +53,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck after fix: body 108 chars, 8 and 14 words; the But links the two sentences; walks at a crawl and 100 units are in the entry and facts. PASS."
+  "note": "Recheck: \"walks very slowly\" and \"only 100 are made at first\" match the facts (0.1 m/s; first run 100 units); 82/109 chars, 8 and 13 words. PASS."
  },
  {
   "card": "s8",
@@ -69,7 +69,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Three sofas, Work mode filling forms and sending messages, no safeguards described: all in the entry; 80/178 chars."
+  "note": "Recheck: \"three sofas you might buy\" matches the demo in the facts; 80/175 chars. PASS."
  },
  {
   "card": "s10",
@@ -77,7 +77,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck after fix: body 155 chars, 15 and 15 words; \"these parts\" and \"them\" point back to the part in the head, so nothing is left unintroduced; 40-fold, one lab's small test and up to 95% (of the machine's qubits, translated as \"of a machine\") are in the facts. PASS."
+  "note": "Recheck: body is the checker's exact fix, 148 chars, 15 and 15 words; \"40 times fewer errors\" is plain and exact (40-fold in the facts); one small test kept as the doubt; these parts points back to the head. PASS."
  },
  {
   "card": "s11",
@@ -117,7 +117,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Lobster body, thirty hours, no instructions, six found the throwing trick, animal play: all in the facts; 81/157 chars."
+  "note": "Recheck: \"compare to animal play\" matches the facts; 81/159 chars. PASS."
  },
  {
   "card": "t1",
@@ -157,6 +157,6 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck after fix: body 159 chars, 14 and 11 words, within 160; CoreWeave and TSMC now introduced; Meta 21 October from the Bulletin text; summation plus what to watch; notice added by make_cards.py. PASS."
+  "note": "Recheck: head \"Borrowing for AI costs more\" is plain (dearer gone), 80 chars; body unchanged and within 160; summation plus what to watch; notice added by make_cards.py. PASS."
  }
 ]
