@@ -13,7 +13,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck: suffered most, worry, risk of not paying are plain; 64% kept exact and tied to CoreWeave's price with Reuters named (its spread is above the 1,000 level that implies 64%, so \"over\" holds); 81/163 chars, 13 and 15 words. PASS."
+  "note": "Recheck: \"data center\" US spelling, plain; rest unchanged and passed; 81/163 chars. PASS."
  },
  {
   "card": "s3",
@@ -21,7 +21,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck: \"practice for an AI cyber attack\" is plain and matches the facts (tabletop exercises); 80/186 chars. PASS."
+  "note": "Recheck: head \"hold a drill for AI cyber attacks\" matches the facts (tabletop exercises to guard against AI cyber attacks), plain words, 78 chars; body unchanged. PASS."
  },
  {
   "card": "s4",
@@ -85,7 +85,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "49 of 50, under $3 each, Harvard and Google DeepMind among the institutions, the taste line: all in the facts; 79/152 chars."
+  "note": "Recheck: head 82 chars; 98% equals 49 of 50 and the facts state 98 percent; \"in a new test\" matches TheoPhysEval released by the researchers; body unchanged. PASS."
  },
  {
   "card": "s12",
@@ -141,7 +141,7 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "86 chars, deed first; kindergarten and primary pupils, ChatGPT named, per the facts."
+  "note": "Recheck: 89 chars, deed first; \"preschool and elementary school kids\" matches kindergarten and primary pupils in the facts; plain US words. PASS."
  },
  {
   "card": "t4",
@@ -157,6 +157,6 @@
   "broken": [],
   "fix_head": "",
   "fix_body": "",
-  "note": "Recheck: head \"Borrowing for AI costs more\" is plain (dearer gone), 80 chars; body unchanged and within 160; summation plus what to watch; notice added by make_cards.py. PASS."
+  "note": "Recheck: \"data center\" US spelling; body 159 chars within 160, head 80; summation plus what to watch; notice added by make_cards.py. PASS."
  }
 ]
