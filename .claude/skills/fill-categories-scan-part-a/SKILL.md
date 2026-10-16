@@ -213,6 +213,9 @@ python3 $K/make_pool_pdf.py --workdir $W        # the pool PDF, every story by c
 ```
 D-M-YY is the file-name date, e.g. 3-10-26.
 
+### 11b. Not-found note (Rafi, 16 Oct 2026, CLAUDE.md rule 35; skill text only, build_products.py is unchanged until he says yes)
+After the final build_products.py and before build_pdf.py, in both `products/report_pdf.json` and `products/bulletin_pdf.json`, every paragraph that starts with "Note: we could not open" is replaced by "Read the full article at <the story's source>." (the source name and link print under the story anyway). Before that, a story with no readable copy gets one quick search for the same story at another outlet and related sources, and one paragraph from what was read (a writer, then an editor check, then the Bigger Picture facts that cite it are rechecked). Keep the before copy as `*_old.json`.
+
 ### 12. Second check (a different angle)
 - Open the front page, one story page and the Bigger Picture page of the report as images (PyMuPDF, 70 dpi) and look.
 - Every Bigger Picture fact against its entry: same attribution, same hedge. No {Cnn-nn} left in either PDF input.
