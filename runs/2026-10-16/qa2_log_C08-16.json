@@ -1,0 +1,33 @@
+{
+ "changes": [
+  {
+   "item_id": "C08-16",
+   "field": "headline",
+   "before": "Microsoft has tuned Windows for Nvidia's new Arm-based RTX Spark laptops, adding a two-click setup for AI agents, a faster emulator for older apps and game anti-cheat support.",
+   "after": "Microsoft has tuned Windows for AI agents and games on Nvidia's new Arm-based RTX Spark laptops, The Verge reports.",
+   "reason": "Headline shape and length: 30 words with a stacked list of three items cut to one plain sentence (19 words); 'a faster emulator' is not in the text (it says Prism was optimized for the chip, no speed measured); attribution to The Verge added because much of it is Microsoft's account."
+  },
+  {
+   "item_id": "C08-16",
+   "field": "summary",
+   "before": "The Verge reports, after a hands-on session with Nvidia and Microsoft, that Windows on the RTX Spark laptops has a new Get Started screen that installs an AI agent in two clicks, starting with Hermes, Perplexity and OpenClaw, and that Microsoft says it has tuned its Prism emulator, which runs older x64 apps on Arm chips, for the chip and ships compatibility updates monthly. New today compared with our 9 Oct story on prices and pre-orders: details of the Windows work, including a slider to share up to 128GB of unified memory with the graphics chip, anti-cheat support for Fortnite and Counter-Strike 2 now and for Call of Duty and Battlefield in 2027, and the reviewer's finding of roughly 60 frames a second at medium settings, while Copilot Plus PC features such as Recall are missing at launch.",
+   "after": "The Verge reports, after an Nvidia briefing and its own testing, that Windows on Nvidia's new RTX Spark laptops opens with a screen that installs an AI agent such as Perplexity in two clicks, and that Microsoft says it has tuned Prism, its tool for running apps built for Intel and AMD chips on the laptops' Arm-based chip. Beyond the prices and pre-orders in our 9 Oct edition, it adds that games with anti-cheat software, such as Fortnite and Counter-Strike 2, run from launch, with Call of Duty and Battlefield due in 2027, that the tester got a steady 60 frames a second in most games at medium settings, and that Microsoft's Copilot Plus AI features, such as Recall, are missing at launch.",
+   "reason": "Summary: two sentences of about 75 words each, stacked clauses, cut to about 120 words. Accuracy fixes: 'hands-on session with Nvidia and Microsoft' -> an Nvidia briefing plus The Verge's own testing; 'older x64 apps' -> apps built for Intel and AMD chips (the text does not say older), which also explains Arm; 'a slider to share up to 128GB' dropped (128GB is the Surface Laptop Ultra's maximum memory, the slider only splits memory between processor and graphics); 'in most games' added to the 60 frames finding; process wording 'New today compared with our 9 Oct story' made reader-facing ('Beyond the prices and pre-orders in our 9 Oct edition', checked against archive14/2026-10-09.md item 33, PCWorld). Microsoft claims kept as claims."
+  },
+  {
+   "item_id": "C08-16",
+   "field": "importance_line",
+   "before": "Buyers of the premium laptops get a clearer picture of what runs well today, but Microsoft's claims are largely untested, the AI features Recall and others are delayed, and many big games' anti-cheat support only comes in 2027.",
+   "after": "Buyers of the premium laptops learn what works today, but much rests on Microsoft's own claims and one tester's early results, and Recall, Call of Duty and Battlefield arrive only later.",
+   "reason": "Meaning: 'Microsoft's claims are largely untested' overstated (The Verge tested agents and games for a week) -> 'much rests on Microsoft's own claims and one tester's early results'; 'many big games' anti-cheat support only comes in 2027' overstated -> named games; ungrammatical 'the AI features Recall and others' fixed. Shorter than before (31 words, was 37)."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C08-16",
+   "issue": "duplicate",
+   "with": "C08-07",
+   "note": "Overlap, not edited: C08-07 (score 6, The Verge, 'everything will run on Arm' hands-on piece, url .../1011705/...) is also in list A today and covers the same RTX Spark launch, Prism emulation, anti-cheat games and gaming tests; C08-16 (score 7, viral floor, url .../1011996/...) is the Windows-side piece. Different articles and angles, but the same topic from the same outlet; main session to decide whether to keep both or merge. Note their gaming findings differ but do not conflict: C08-16 says a steady 60 frames a second in most games, C08-07 says some processor-heavy games stay near 30."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-13",
+ "v1_category": "SEC",
+ "headline": "A security researcher says hidden instructions in a public code repository can trick ChatGPT's GitHub connection into leaking secrets from a user's private repository.",
+ "score": 4,
+ "score_reason": "Single researcher's unconfirmed claim; the 'critical' rating is his own and OpenAI's documentation conflicts with it; lowered by 1.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who connect ChatGPT to their code could have secrets exposed, but OpenAI has not confirmed the flaw, and its documentation describes the standard connector as read-only.",
+ "source": "CyberSecurityNews",
+ "status": "PRELIMINARY",
+ "summary": "CyberSecurityNews reports that researcher Sunil Tripathy says hidden instructions in a public GitHub repository led ChatGPT to add a workflow to a different private repository that sent a test secret to an outside server, a technique called indirect prompt injection. The findings are his own, with a severity score he assigned himself, and OpenAI has not confirmed them; he says OpenAI closed his report as out of scope on 14 October.",
+ "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. All findings are the researcher's and unverified. Score lowered from 5 to 4 because the headline's 'Critical' is the researcher's own rating and OpenAI documentation conflicts with the reported behaviour; below the report cutoff so pool only."
+}

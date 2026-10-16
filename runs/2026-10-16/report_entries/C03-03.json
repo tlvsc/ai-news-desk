@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "GitHub has made its AI-powered security scan for pull requests generally available.",
+ "score": 5,
+ "score_reason": "Official product release with real use, but findings are advisory and the scope is narrow.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software teams using PHP, shell scripts, Terraform or Docker files get automatic security checks they lacked, but the findings cannot block a merge and use paid credits.",
+ "source": "The GitHub Blog",
+ "status": "CONFIRMED",
+ "summary": "The GitHub Blog announces that AI Scan for pull requests, a feature of GitHub's code scanning, is now generally available; it checks proposed code changes for security flaws in languages and formats that GitHub's main scanner, CodeQL, does not cover, such as PHP, shell scripts, Terraform and Dockerfiles. Its findings are advisory and cannot block a merge, it does not run on forks or Dependabot pull requests, and it uses Code Security AI Credits, with private repositories needing GitHub Code Security or Advanced Security.",
+ "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Category set to SEC because the tool finds security vulnerabilities; default was MOD.",
+ "item_id": "C03-03"
+}

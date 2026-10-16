@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-09",
+ "title": "Intel’s new D270 AI chip gives bigger models more room to work",
+ "source_used": "The Gadgeteer",
+ "article_url": "https://the-gadgeteer.com/2026/10/15/intels-new-d270-ai-chip-gives-bigger-models-more-room-to-work/",
+ "fetched": true,
+ "key_facts": [
+  "Intel shared new details on 12 Oct at the Open Compute Project Global Summit on its GPU D-series; the D270 is a server accelerator for running AI models (inference).",
+  "It is the hardware earlier called Crescent Island, first announced in October 2025; customer sampling is under way.",
+  "Intel's own card has 160GB of LPDDR5X memory; partners can build cards with up to 480GB.",
+  "Intel says it supports models up to 300 billion parameters on one card, or over a trillion across eight.",
+  "Memory bandwidth is 1.5 TB/s; it uses the Xe3P architecture, PCIe 5.0, 350 watts and passive air cooling.",
+  "No general availability date or pricing was given; supported-model figures are Intel's claims and do not show speed."
+ ],
+ "quote_evidence": [
+  "This is the hardware previously called Crescent Island, which Intel first announced in October 2025.",
+  "Intel's October announcement doesn't provide general availability or pricing."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Intel is pitching big memory and air cooling for cheaper AI serving.",
+ "event_date": "12 Oct 2026",
+ "notes": "Read in full. Overlaps with C08-13 (same product, different angle)."
+}

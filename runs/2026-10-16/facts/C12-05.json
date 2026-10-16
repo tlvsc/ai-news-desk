@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-05",
+ "title": "Google restricts access to new AI model over safety concerns",
+ "source_used": "The Guardian",
+ "article_url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+ "fetched": true,
+ "key_facts": [
+  "Google said on Wednesday (30 Sep 2026) it would withhold its most powerful AI model, Gemini 4 Argon, from the public for now",
+  "It released Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers",
+  "Koray Kavukcuoglu, Google's chief AI architect, wrote that safely releasing frontier capabilities at this level requires a phased approach",
+  "Google gave the US government early access and will gather tester feedback before wider release",
+  "Google says early testers used Argon to find a flaw in software used by hospitals worldwide that other models missed",
+  "Rival Anthropic keeps its most advanced model, Claude Mythos Preview, restricted to a small number of trusted organisations"
+ ],
+ "quote_evidence": [
+  "Google on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.",
+  "Safely releasing frontier capabilities at this level requires a phased approach"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A major lab is limiting a top model because of cyber-attack risk.",
+ "event_date": "30 Sep 2026",
+ "notes": "IOL page blocked (Cloudflare, 403) and dated 1 Oct 2026 in its URL; read the same story at The Guardian (1 Oct 2026). Stale for a 16 Oct edition."
+}

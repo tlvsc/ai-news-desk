@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-01",
+ "title": "Magic state cultivation on a superconducting quantum processor",
+ "source_used": "Quantum Computing Report (Google Quantum AI study in Science)",
+ "article_url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone/",
+ "fetched": true,
+ "key_facts": [
+  "Google Quantum AI published the study in Science",
+  "First physical hardware implementation of magic state cultivation, on the Willow superconducting processor",
+  "40-fold error reduction",
+  "T-states with record 99.99(1)% logical fidelity (error rate at or below 0.0001)",
+  "Older distillation was projected to use 90-95% of a quantum computer's physical qubits",
+  "Method: noisy state injected into a distance-3 color code, error-filtered, then switched into a distance-5 surface code",
+  "Team invented a self-referential benchmarking protocol to bound fidelity",
+  "Validates Google's 2024 cultivation theory"
+ ],
+ "quote_evidence": [
+  "In a milestone study published in Science, experimentalists and software engineers at Google Quantum AI have demonstrated the first physical hardware implementation of magic state cultivation, achieving a 40-fold error reduction and producing T-states with a record 99.99(1)% logical fidelity.",
+  "The hardware achievement directly validates Google's foundational 2024 cultivation theory framework."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Making T-states cheaply removes one of the biggest qubit costs of fault-tolerant quantum computing.",
+ "event_date": "15 Oct 2026",
+ "notes": "Science page blocked (403); read the Quantum Computing Report article on the same Science paper. Google blog and paper not read directly."
+}

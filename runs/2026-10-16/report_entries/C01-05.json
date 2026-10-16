@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-05",
+ "v1_category": "RES",
+ "headline": "CERN, the European particle physics laboratory, and French AI company Mistral have signed a statement of intent to build the first foundation model for collider physics.",
+ "score": 6,
+ "score_reason": "Notable science partnership, but it is a statement of intent, not a finished model.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Physicists analysing Large Hadron Collider data could eventually get one shared AI tool, but this is only an agreed intention and no model, timeline or funding is given.",
+ "source": "CERN",
+ "status": "CONFIRMED",
+ "summary": "CERN says in its own announcement, which Reuters also reported, that it has signed a statement of intent with Mistral AI to develop a \"Large Physics Model\", a single AI model trained on billions of simulated proton collisions from the Large Hadron Collider, the world's largest particle accelerator. It would help reconstruct collisions, identify particles and flag unexpected signals, but it is an early agreement and no delivery date is given.",
+ "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters returned 401; read CERN's own announcement instead and credited CERN. Reuters also carried the story. Category set to RES (physics science) from default MOD."
+}

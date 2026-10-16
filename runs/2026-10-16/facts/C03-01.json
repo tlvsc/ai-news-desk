@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "Perplexity to open source tool used to contain AI agents",
+ "source_used": "SiliconANGLE (citing a Semafor interview)",
+ "article_url": "https://siliconangle.com/2026/10/15/perplexity-ai-open-sources-its-secure-ai-agent-sandbox-space/",
+ "fetched": true,
+ "key_facts": [
+  "Perplexity AI released SPACE, a sandbox that isolates AI agents, as open source on 15 Oct 2026.",
+  "SPACE was built to protect Perplexity's own Computer agents; each agent runs in a small virtual machine with its own operating system.",
+  "Network access and credentials are managed outside the sandbox, which is treated as untrusted; the system takes snapshots and checkpoints so work can be rolled back.",
+  "CoreWeave, Akamai and Crusoe are already deploying it, according to the article.",
+  "Perplexity engineer Zibi Braniecki told Semafor the team tested nine frontier models in 118 attempts to break out; none escaped, though some got around network restrictions, which were then fixed.",
+  "Perplexity says agents escaped from several other proprietary sandboxes in the same tests.",
+  "Nvidia's OpenShell, released last month, is another open-source agent sandbox."
+ ],
+ "quote_evidence": [
+  "The company has developed an AI sandbox specifically for isolating AI agents called SPACE, and it's being made open source from today.",
+  "In 118 attempts, none of them succeeded, though some did manage to find their way around the network restrictions.",
+  "Braniecki said the open-source nature of SPACE is key to securing AI agents."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Agents escaping sandboxes has caused real incidents, so a shared open-source containment tool lets other developers use the same protection; the escape test results are Perplexity's own.",
+ "event_date": "15 Oct 2026",
+ "notes": "investing.com page blocked (403). Read SiliconANGLE instead, which relies on a Semafor exclusive interview. Test results are company claims, not independent."
+}

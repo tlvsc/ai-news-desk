@@ -1,0 +1,399 @@
+{
+ "C07-02": {
+  "found": true,
+  "note": "FT text itself not readable; same story (investors dumping AI data centre debt, CoreWeave bonds as the gauge) read at other outlets.",
+  "sources_read": [
+   "BigGo Finance (https://finance.biggo.com/news/f27c1986-9c78-41b7-87b3-1793dca5cc74)",
+   "BigGo Finance (https://finance.biggo.com/news/27b850fe-9a10-4934-bf08-9d0125ce5674)",
+   "Startup Fortune (https://startupfortune.com/banks-that-financed-the-ai-data-center-boom-now-want-out-of-that-debt/)",
+   "Investor's Business Daily (snippet only)"
+  ],
+  "changes": [
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "headline",
+    "old": "The Financial Times reports that investors are selling data centre bonds as AI borrowers face a 'Darwin moment'.",
+    "new": "BigGo Finance reports that investors dumped bonds of the AI data centre company CoreWeave this week, pushing the yield on its 2032 notes to almost 15%, in a sell-off the Financial Times calls a 'Darwin moment' for AI borrowers."
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "score",
+    "old": 6,
+    "new": 7
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "score_reason",
+    "old": "Headline only (Financial Times paywall, no other outlet carried it); lowered 1 as unverified.",
+    "new": "Restored to the pool score of 7: the sell-off is confirmed by several outlets with figures (CoreWeave 2032 bonds below 80 cents on the dollar, yield about 14.8%, about $80 billion wiped off AI infrastructure stocks on 14 Oct)."
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "importance_line",
+    "old": "If investors are pulling back from the debt that funds AI data centres, the builders would pay more to borrow, but the scale of the selling and the borrowers involved are not known.",
+    "new": "If lenders demand much higher rates from AI data centre builders, building gets dearer and weaker borrowers may be shut out of the debt market, which affects bond and pension funds as well as AI companies; analysts expect pain at the weaker borrowers rather than a wide default, and the Financial Times article itself was not available to us in full."
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "source",
+    "old": "Financial Times",
+    "new": "BigGo Finance, citing LSEG data and the Financial Times"
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "status",
+    "old": "REPORTED",
+    "new": "CONFIRMED"
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "summary",
+    "old": "The Financial Times reports that investors are dumping data centre bonds and describes AI borrowers as facing a \"Darwin moment\".",
+    "new": "BigGo Finance reports that CoreWeave, a US company that rents out data centres full of AI chips, saw its bonds due 2032 fall below 80 cents on the dollar on 14 October, lifting their yield to about 14.8% against 9.625% when they were issued in June, according to LSEG data. CoreWeave's total debts, including leases, were $52 billion at the end of June, citing the Financial Times, and its quarterly net interest bill more than doubled to $640 million. Shares of CoreWeave fell 15% and Oracle, Nebius and Dell fell too, as a hotter US inflation reading of 3.7% raised bets on more rate rises; analysts quoted say the strain will more likely push weaker borrowers out of the market than cause a wide default, and Startup Fortune adds that banks are struggling to sell the last of a record $38 billion data centre loan tied to Oracle."
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "url",
+    "old": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc",
+    "new": "https://finance.biggo.com/news/f27c1986-9c78-41b7-87b3-1793dca5cc74"
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "verified_text",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "report_entries/C07-02.json",
+    "field": "notes",
+    "old": "FT page returned 403 in the fetch and in the retry; Google News found no other outlet with the same story. Headline only. Related context in C07-01 and C07-04.",
+    "new": "Read at BigGo Finance (two pages) and Startup Fortune. The Financial Times 'Darwin moment' wording comes from its headline only; the FT article text was not read. Figures differ slightly between outlets (14.5% to about 15% yield); BigGo's 14.8% (LSEG) is used."
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "title",
+    "old": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+    "new": "CoreWeave bonds plunge, yield hits 15% — warning sign for AI infrastructure financing"
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "source_used",
+    "old": "none (Financial Times page blocked)",
+    "new": "BigGo Finance; Startup Fortune"
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "article_url",
+    "old": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc",
+    "new": "https://finance.biggo.com/news/f27c1986-9c78-41b7-87b3-1793dca5cc74"
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "fetched",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "key_facts",
+    "old": [],
+    "new": [
+     "CoreWeave bonds due 2032 fell below 80 cents on the dollar by 14 Oct; the yield rose to 14.8% (LSEG), against a 9.625% coupon at issue in June; the 2031 bonds traded near 14.9%.",
+     "CoreWeave total liabilities including leases were $52 billion at end-June (BigGo, citing the Financial Times); net interest payments in April-June were $640 million, up from $267 million a year earlier.",
+     "On 14 Oct CoreWeave shares fell 15%, Nebius 10%, Oracle 9%, Dell 10%, Arm 7%; the Nasdaq Composite closed down 1.9%; sector lost about $80 billion in value (BigGo, citing Bloomberg).",
+     "US September inflation was 3.7%, above expectations, raising bets on more rate rises.",
+     "Analysts quoted by BigGo expect the strain to push weaker, marginal borrowers out of financing markets rather than cause a wide default; Gartner projects 80% of neocloud providers will cease independent operations by 2030.",
+     "Startup Fortune: JPMorgan and MUFG have spent over six months trying to place a record $38 billion construction loan for Oracle-linked data centres in Texas and Wisconsin; less than $1 billion is left, and some lenders sell slices at a discount."
+    ]
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "quote_evidence",
+    "old": [],
+    "new": [
+     "Investors are increasingly questioning the debt-fueled growth model that has underpinned AI data center businesses. (BigGo)",
+     "Analysts believe the unraveling of the AI borrowing boom may not take the form of a systemic industry-wide default, but is more likely to manifest as weaker, marginal borrowers being gradually pushed out of financing markets. (BigGo)"
+    ]
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "status",
+    "old": "REPORTED",
+    "new": "CONFIRMED"
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "why_it_matters_hint",
+    "old": "",
+    "new": "Rising borrowing costs for AI data centre builders could shut weaker borrowers out of debt markets."
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "event_date",
+    "old": "2026-10-15",
+    "new": "2026-10-14"
+   },
+   {
+    "file": "facts/C07-02.json",
+    "field": "notes",
+    "old": "FT page returned 403 in the fetch and in the retry; Google News found no other outlet with the same story. Headline only. Related context in C07-01 and C07-04.",
+    "new": "FT page itself not readable; same story read at BigGo Finance and Startup Fortune. 'Darwin moment' is the FT headline wording only."
+   }
+  ]
+ },
+ "C08-02": {
+  "found": true,
+  "sources_read": [
+   "Investing.com via Yahoo Finance (https://finance.yahoo.com/technology/ai/articles/taiwan-plans-4-bln-texas-030702909.html), reporting Bloomberg",
+   "BigGo Finance (https://finance.biggo.com/news/a3a3cc9f-1a46-4ab2-9cfe-b0b42769d6a6), reporting Bloomberg"
+  ],
+  "changes": [
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "headline",
+    "old": "Bloomberg reports that Taiwan plans to fund a $4 billion complex in Texas for AI companies and Nvidia's partners.",
+    "new": "Investing.com reports, citing Bloomberg, that Taiwan plans industrial parks in the US, starting with a Texas site costing up to $4 billion, to help suppliers of Nvidia's manufacturing partners build there."
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "score",
+    "old": 6,
+    "new": 7
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "score_reason",
+    "old": "Lowered from 7: only the headline could be read, so size and terms are unverified.",
+    "new": "Restored to the pool score of 7: the text confirms the size, the lead minister, the funding route and the link to Taiwan's trade deal with the US."
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "importance_line",
+    "old": "It points to Taiwan's government helping its chip supply chain follow Nvidia to the US, but the terms and timing are not yet known.",
+    "new": "It shows Taiwan's government helping its smaller chip and server suppliers follow Nvidia's main makers to the US, which may speed US AI hardware supply, but the Texas site, the timing and the companies that will move in are not yet named."
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "source",
+    "old": "Bloomberg",
+    "new": "Investing.com, citing Bloomberg"
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "summary",
+    "old": "Bloomberg reports that Taiwan will fund a $4 billion complex in Texas aimed at AI companies and partners of Nvidia, the leading AI chip designer.",
+    "new": "Investing.com reports, citing a Bloomberg interview of 12 October with Kung Ming-hsin, Taiwan's economy minister, that Taiwan plans several industrial parks in the US, each costing up to $4 billion (BigGo, also citing Bloomberg, gives $2 billion to $4 billion), and that the first will be in Texas. The aim is to help smaller Taiwanese suppliers set up in the US to serve firms such as TSMC, Nvidia's main chip maker, and Foxconn, its server assembler. The money will be raised by the Taiwan Electrical and Electronic Manufacturers' Association, with the government offering loan guarantees and help with US rules, and the plan comes as Taiwan faces pressure to deliver investment promised under its trade deal with Washington."
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "url",
+    "old": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners",
+    "new": "https://finance.yahoo.com/technology/ai/articles/taiwan-plans-4-bln-texas-030702909.html"
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "verified_text",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "report_entries/C08-02.json",
+    "field": "notes",
+    "old": "Headline only; Bloomberg blocked. Crypto Briefing headline gives the same story with the words 'up to' $4 billion and 'industrial park for Nvidia suppliers'.",
+    "new": "Read Investing.com's account of the Bloomberg report (on Yahoo Finance) and BigGo Finance's. Bloomberg itself says the manufacturers' association raises the money, so 'Taiwan to fund' is the government backing it with guarantees. Cost per park: up to $4 billion (Investing.com) or $2 to $4 billion (BigGo)."
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "title",
+    "old": "Taiwan to Fund $4 Billion Texas Complex for AI, Nvidia Partners",
+    "new": "Taiwan plans $4 bln Texas park to support Nvidia's AI supply chain - Bloomberg"
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "source_used",
+    "old": "Bloomberg headline; Crypto Briefing headline",
+    "new": "Investing.com (via Yahoo Finance), citing Bloomberg; BigGo Finance, citing Bloomberg"
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "article_url",
+    "old": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners",
+    "new": "https://finance.yahoo.com/technology/ai/articles/taiwan-plans-4-bln-texas-030702909.html"
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "fetched",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "key_facts",
+    "old": [],
+    "new": [
+     "Taiwan plans several industrial parks in the US, each needing up to $4 billion; the first will be in Texas (Bloomberg, 16 Oct, citing Economy Minister Kung Ming-hsin).",
+     "Kung spoke to Bloomberg in an interview on 12 October; BigGo adds each park would cost $2 billion to $4 billion and that there will be 'more than one'.",
+     "The parks aim to help smaller Taiwanese suppliers set up in the US, supporting TSMC and Foxconn, Nvidia's key manufacturing partners.",
+     "The Taiwan Electrical and Electronic Manufacturers' Association will raise the funding; the government offers loan guarantees and help with US rules (BigGo adds visas and land).",
+     "Context: Taiwan faces pressure to meet investment commitments under its trade deal with Washington (BigGo: a $250 billion credit guarantee commitment) and to cut risk from tensions with China; TSMC has pledged $265 billion for US expansion."
+    ]
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "quote_evidence",
+    "old": [],
+    "new": [
+     "\"We will build a long-term, sustainable supply chain locally — not just for Taiwanese companies, but American companies and local workers can participate as well,\" Kung said. (BigGo)"
+    ]
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "why_it_matters_hint",
+    "old": "",
+    "new": "Taiwan's government is helping its chip supply chain move to the US alongside Nvidia's main makers."
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "event_date",
+    "old": "",
+    "new": "2026-10-12"
+   },
+   {
+    "file": "facts/C08-02.json",
+    "field": "notes",
+    "old": "Bloomberg is behind a robot check (403). Crypto Briefing carries a headline about the same story ('Taiwan plans up to $4 billion Texas industrial park for Nvidia suppliers') but its text is also blocked. No article text obtained; headline only.",
+    "new": "Bloomberg page not readable; read Investing.com's and BigGo's accounts of the same Bloomberg report. Site in Texas not named."
+   }
+  ]
+ },
+ "C08-03": {
+  "found": true,
+  "note": "CNBC text not readable; TSMC earnings call of 15 Oct read at other outlets. The specific CNBC claim of a fight among Nvidia, Apple and Broadcom for space is not in the text read, only in CNBC headlines; entry says so plainly.",
+  "sources_read": [
+   "Livemint (https://www.livemint.com/companies/news/tsmc-open-to-partnership-with-elon-musk-s-terafab-as-chip-giants-q3-profit-hits-record-23-6-billion-11792051967864.html)",
+   "Focus Taiwan / CNA (https://focustaiwan.tw/business/202610150018)",
+   "SEMIVISION substack (preview only)"
+  ],
+  "changes": [
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "headline",
+    "old": "CNBC reports that Nvidia, Apple and Broadcom are fighting hard for chipmaking capacity at TSMC as the company posts a record quarter.",
+    "new": "Livemint reports that TSMC's chief executive said demand for its most advanced chips is extremely robust and that it wants to take every piece of business it can, as CNBC describes Nvidia, Apple and Broadcom in a fierce battle for its capacity."
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "score_reason",
+    "old": "Lowered from 7: CNBC text could not be read; the general point (demand above supply) is backed by other outlets.",
+    "new": "Kept at 6: the record quarter and the demand statements are confirmed, but the detail of how Nvidia, Apple and Broadcom compete for space comes only from CNBC's headline."
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "importance_line",
+    "old": "Whoever wins space at TSMC gets AI and phone chips sooner, but how TSMC is sharing out its scarce capacity is not yet clear.",
+    "new": "TSMC makes chips for Nvidia, Apple, AMD and Broadcom, so tight capacity decides who gets AI and phone chips first, but how TSMC is dividing its space among them has not been made public, and CNBC's own account of the contest was not available to us in full."
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "source",
+    "old": "CNBC",
+    "new": "Livemint, citing TSMC's earnings call; CNBC reports the capacity contest"
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "summary",
+    "old": "CNBC reports that Nvidia, Apple and Broadcom are in a fierce contest for manufacturing space at TSMC, the world's largest contract chipmaker, which has just reported a record quarter.",
+    "new": "Livemint reports that TSMC, the world's largest contract chipmaker, posted a record third-quarter net profit of NT$763.1 billion (about $23.6 billion), up 68.7% from a year earlier, and that C.C. Wei, its chairman and chief executive, called demand for advanced chips \"extremely robust\" and said \"we have no intention to leave food on the table for others, and we want to capture every piece of business possible.\" The company makes chips for Nvidia, Apple, AMD and Broadcom, and Focus Taiwan (CNA) adds that it raised its 2026 sales growth forecast to 44% and kept its capital spending at $60 billion to $64 billion. TSMC is cautious about 2027 because of rising component prices and economic uncertainty."
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "url",
+    "old": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+    "new": "https://www.livemint.com/companies/news/tsmc-open-to-partnership-with-elon-musk-s-terafab-as-chip-giants-q3-profit-hits-record-23-6-billion-11792051967864.html"
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "verified_text",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "report_entries/C08-03.json",
+    "field": "notes",
+    "old": "Headline only; CNBC blocked.",
+    "new": "Read Livemint's and Focus Taiwan's reports of the 15 Oct TSMC call. CNBC's headline says Nvidia, Apple and Broadcom are in a 'fierce' battle for TSMC capacity; that detail was not found in the text read, so it is attributed to CNBC and not expanded."
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "title",
+    "old": "TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter",
+    "new": "TSMC open to partnership with Elon Musk's Terafab as chip giant's Q3 profit hits record $23.6 billion"
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "source_used",
+    "old": "CNBC headline; BigGo and Livemint and Yellow.com coverage of the same TSMC call",
+    "new": "Livemint; Focus Taiwan (CNA); CNBC headline only"
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "article_url",
+    "old": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+    "new": "https://www.livemint.com/companies/news/tsmc-open-to-partnership-with-elon-musk-s-terafab-as-chip-giants-q3-profit-hits-record-23-6-billion-11792051967864.html"
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "fetched",
+    "old": false,
+    "new": true
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "key_facts",
+    "old": [
+     "CNBC headline: TSMC chip capacity is a 'fierce' battleground for AI customers, amid a record quarter; a second CNBC title names Nvidia, Apple and Broadcom.",
+     "Other outlets on the 15 Oct call: C.C. Wei said demand is far above TSMC's supply and the company is working to narrow the gap.",
+     "BigGo's call summary: TSMC does not allow customers to sublet or auction off capacity."
+    ],
+    "new": [
+     "TSMC Q3 net profit NT$763.06 billion (about $23.6 billion), up 68.7%; revenue NT$1.49 trillion, up 50.9% (Livemint).",
+     "Customers named by Livemint: Nvidia, Apple, AMD and Broadcom.",
+     "C.C. Wei, TSMC chairman and chief executive: demand for advanced chips remains 'extremely robust'; TSMC is working to expand capacity.",
+     "TSMC raised its 2026 sales growth forecast to 44% in US dollars, kept 2026 capex at $60-64 billion; Q4 revenue guided at $52.3-$54.3 billion (Focus Taiwan; Livemint citing Reuters).",
+     "2nm chips were 8% of Q3 sales; demand for CoWoS packaging stays strong and TSMC will work with customers to ensure enough capacity (Focus Taiwan).",
+     "TSMC is cautious going into 2027 because of rising component prices and macro uncertainty.",
+     "CNBC headlines (15 Oct): TSMC capacity is a 'fierce' battleground for AI customers; Nvidia, Apple, Broadcom in a 'fierce' battle for manufacturing space. Detail not read."
+    ]
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "quote_evidence",
+    "old": [
+     "\"The demand, actually, is still far above our capability today to supply, and we're working very hard to narrow the gap.\" (Wei, as quoted by Fortune)"
+    ],
+    "new": [
+     "\"We have no intention to leave food on the table for others, and we want to capture every piece of business possible.\" (Wei, Livemint)",
+     "Wei said demand for advanced chips remained \"extremely robust\". (Livemint)"
+    ]
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "why_it_matters_hint",
+    "old": "Tight capacity at TSMC shapes who gets AI chips first.",
+    "new": "Tight capacity at TSMC shapes who gets AI and phone chips first."
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "event_date",
+    "old": "15 Oct 2026",
+    "new": "2026-10-15"
+   },
+   {
+    "file": "facts/C08-03.json",
+    "field": "notes",
+    "old": "CNBC page blocked (only an Akamai error page). Entry rests on the CNBC headline; the competition detail between named firms was not read in text.",
+    "new": "CNBC page blocked; the earnings call read at Livemint and Focus Taiwan. The contest among Nvidia, Apple and Broadcom is CNBC's headline claim only."
+   }
+  ]
+ }
+}

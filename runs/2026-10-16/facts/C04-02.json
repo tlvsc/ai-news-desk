@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-02",
+ "title": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level",
+ "source_used": "36Kr (republishing Academic Headline, WeChat)",
+ "article_url": "https://eu.36kr.com/en/p/4027795416814215",
+ "fetched": true,
+ "key_facts": [
+  "A team led by Nobel laureate in Chemistry David Baker published a study in Science using the generative AI model RFdiffusion3 (RFD3).",
+  "RFD3 designs at the all-atom level, so researchers can specify key atom positions and let the model generate the protein backbone.",
+  "A designed phosphotriesterase hydrolyzes toxic organophosphorus compounds: 4 of the first 96 designs were active, and ZAPP-2 sped the reaction about 500,000 times over the uncatalyzed rate.",
+  "Designed proteases targeting a peptide from transthyretin (linked to amyloidosis): 56 of 96 designs cleaved more than 10 percent in a test; TTRg11 cut at the intended position.",
+  "RFD3 beat the previous generation on 37 of 41 enzyme active-site tasks and was over twice as fast as RFD1 and BoltzGen.",
+  "The article says this cannot yet prove clearing of TTR deposits in people, and some RNA results rely on computer prediction only."
+ ],
+ "quote_evidence": [
+  "Now, Baker's team has published a new study in Science: using the generative AI model RFdiffusion3 (RFD3) to further break through the design constraints of functional sites of complex biomolecules, and achieved two important results in experiments: artificial enzymes capable of hydrolyzing toxic organophosphorus compounds, and proteases capable of selectively cleaving specific peptides.",
+  "This result demonstrates the potential of designing artificial proteases according to specified substrates, but it cannot yet prove that it can clear TTR amyloid deposits in the human body, let alone mean that a therapeutic drug has been obtained."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI can now design working enzymes for complex chemistry, a step toward pollution clean-up and disease tools, but still lab-stage.",
+ "event_date": "Not stated; paper in Science, reported 16 Oct 2026",
+ "notes": "Full text read; republished from WeChat account Academic Headline (author Zhang Jiayi). Paper date not stated. Peer-reviewed in Science but reported by one outlet."
+}

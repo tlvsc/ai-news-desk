@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-02",
+ "v1_category": "HEA",
+ "headline": "An AI tool that estimates whether early breast cancer will come back has won FDA clearance and can give the estimate before surgery.",
+ "score": 6,
+ "score_reason": "Cleared clinical tool with real study numbers; no outside review of the company's data reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Women with the most common type of early breast cancer and their doctors get a recurrence estimate before surgery, but the evidence so far is a review of past records and insurers have not yet agreed to cover it.",
+ "source": "ABC News",
+ "status": "CONFIRMED",
+ "summary": "ABC News reports that the FDA has cleared TumorSight Risk, made by SimBioSys and powered by NVIDIA chips, which reads a patient's existing breast MRI together with pathology results to score her chance of cancer returning within five to ten years. In a study of 2,129 women, 95.5% of those rated low risk stayed cancer-free after five years against 89.6% of those rated high risk, and SimBioSys says it is working with Medicare, Medicaid and private insurers to get the test covered.",
+ "url": "https://abcnews.com/amp/GMA/Wellness/new-fda-cleared-ai-tool-predict-breast-cancer/story?id=137268417",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Retrospective study; the figures come from the company's analysis as relayed by ABC News. Applies to hormone receptor-positive, HER2-negative early-stage cancer."
+}

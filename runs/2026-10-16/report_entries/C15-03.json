@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-03",
+ "v1_category": "RES",
+ "headline": "Researchers at Google and MIT propose linking many small flat quantum chips in a hyperbolic pattern so that error correction needs more than 30 times fewer physical qubits.",
+ "score": 6,
+ "score_reason": "Large claimed saving, but a preprint on arXiv with circuit simulations only, no hardware and no peer review reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "If it holds up on real devices it could make large error-corrected quantum computers more buildable from modest chips, which matters to hardware makers; the figures come from simulation in a preprint and have not been shown on hardware.",
+ "source": "Quantum Computing Report",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Computing Report reports that researchers at Google Quantum AI, Google DeepMind and MIT propose, in a preprint on arXiv, linking small flat chips of about 100 qubits along their edges to run a more efficient type of error-correcting code, needing over 30 times fewer qubits than the standard surface-code approach. The result comes only from computer simulations, which held up even when links between chips were 10 times noisier than operations on a chip.",
+ "url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Quantum Computing Report article (ext fetch via curl; fulltext file was empty). arXiv paper not read directly. Simulation only."
+}

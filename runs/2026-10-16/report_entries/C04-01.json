@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-01",
+ "v1_category": "RES",
+ "headline": "A new test of 50 unpublished theoretical physics problems found that OpenAI's GPT-6-Astra coding agent solved 49 of them, at an average cost of under $3 each.",
+ "score": 7,
+ "score_reason": "Strong result on a hard, new benchmark from a large team, but it is the authors' own test and not independently reviewed.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Physicists, and especially early-career researchers whose first projects look like these problems, may see their training change, though the benchmark leaves out open questions and the authors say agents still lack the judgment to pick good problems.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that 35 researchers from institutions including Harvard University and Google DeepMind built TheoPhysEval, and that OpenAI's GPT-6-Astra, running in the Codex coding tool, answered 98 percent correctly with no human hints, ahead of Anthropic's Opus 5.5 at 92 percent. The authors say the agents still lack the \"taste\" to choose good problems, and warn that rising compute costs could make research budgets matter more, even in theoretical physics.",
+ "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file."
+}

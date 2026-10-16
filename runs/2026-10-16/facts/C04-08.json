@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-08",
+ "title": "AI model decodes the language cells use to communicate",
+ "source_used": "MIT News",
+ "article_url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+ "fetched": true,
+ "key_facts": [
+  "A team led by Pulin Li (MIT assistant professor of biology, Whitehead Institute member) and graduate student Nicholas Hutchins found each cell signaling pathway leaves a unique gene-activity 'fingerprint'.",
+  "The fingerprints are consistent across cell types, so pathways need not be mapped cell type by cell type.",
+  "A machine learning model called IRIS detects them and estimates which signals a cell received at different developmental stages, even for unseen cell types.",
+  "It was trained on a dataset of thousands of human embryonic stem cells exposed to dozens of combinations of six signaling pathways.",
+  "Tested on mouse embryo cells; a model prediction about a pathway promoting lung development was confirmed in mouse embryos.",
+  "Published in Nature Methods on 8 Sep; could help stem cell engineering and organoids for studying disease."
+ ],
+ "quote_evidence": [
+  "The researchers’ detailed open-access findings, published in the journal Nature Methods on Sept. 8, could accelerate stem cell engineering for regenerative medicine and improve the creation of organoids — miniature, 3D models that mimic real organs — for studying disease mechanisms and testing new drugs.",
+  "Experiments in mouse embryos confirmed the model's prediction."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Could make it cheaper to learn which signals steer stem cells into specific tissues.",
+ "event_date": "8 Sep 2026 (Nature Methods)",
+ "notes": "Full text read. Paper date 8 Sep, MIT news 15 Oct; stale so score lowered."
+}

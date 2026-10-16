@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-04",
+ "title": "Black Forest Labs has released FLUX 3 Image Klein, a small open-weights image model that can run on an ordinary graphics card with 8 gigabytes of memory.",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+ "fetched": true,
+ "key_facts": [
+  "Black Forest Labs released FLUX 3 Image Klein, 5.6B parameters, open weights",
+  "Text-to-image, editing, up to ten reference images, native 4K output",
+  "Company says highest Elo among open models in internal testing, beating Ideogram V4.5 and FLUX.2 [pro]",
+  "91 Elo points above FLUX.2 [klein] with 38% fewer parameters (9B before)",
+  "INT8 build runs on NVIDIA GPUs with 8 GB VRAM; under 9 seconds per image on RTX 4070",
+  "FLUX Kommunity License: free commercial use for companies under $5 million annual revenue",
+  "API price $0.009 per 1,000 images; also on Hugging Face Spaces, ComfyUI, Diffusers"
+ ],
+ "quote_evidence": [
+  "Black Forest Labs says it scores the highest Elo ratings among all open models in internal testing, beating closed competitors Ideogram V4.5 and even BFL's own FLUX.2 [pro].",
+  "An INT8 build lets it run on NVIDIA GPUs with just 8 GB of VRAM, generating an image in under 9 seconds on an RTX 4070.",
+  "The weights ship under the FLUX Kommunity License, free for commercial use by companies making under $5 million annually."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Image generation that fits on a mid-range gaming graphics card.",
+ "event_date": "15 Oct 2026",
+ "notes": "Full text read (short article)."
+}

@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-12",
+ "title": "DeepSeek offers user refunds after suffering another major outage",
+ "source_used": "CGTN",
+ "article_url": "https://news.cgtn.com/news/2026-10-15/DeepSeek-offers-compensation-after-restoring-from-service-outage-1RgrRBZHn9u/p.html",
+ "fetched": true,
+ "key_facts": [
+  "DeepSeek restored its API and Chat Service at 1:04 p.m. Beijing time on Thursday 15 Oct 2026 after an outage that began that morning (8:11 a.m. per BigGo, about 4 hours 52 minutes)",
+  "Affected: DeepSeek V4 Pro API, V4.1 Flash API and Chat Service, plus third-party apps relying on DeepSeek",
+  "DeepSeek will refund API spending from 8 to 14 October as credit, deposited automatically",
+  "It apologised, launched an investigation and said it had reviewed and eliminated single points of dependency; no root cause given",
+  "Status page shows eight incidents in September; BigGo counts at least 10 major outages in 2026",
+  "Its chat answer said servers 'couldn't handle so many users', reported by BigGo citing China News Service Jingwei"
+ ],
+ "quote_evidence": [
+  "DeepSeek restored its application programming interface (API) and Chat Service at 1:04 p.m. Beijing Time on Thursday, after an outage that began in the morning.",
+  "The notice did not disclose the root cause."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A major Chinese AI provider's repeated outages hit business users, and it is paying back a week of fees.",
+ "event_date": "15 Oct 2026",
+ "notes": "SCMP original blocked (HTTP 403); read CGTN and BigGo Finance reports of the same outage and DeepSeek's own notice."
+}

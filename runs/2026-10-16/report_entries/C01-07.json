@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-07",
+ "v1_category": "MOD",
+ "headline": "Ant Group's Bailing team has released Ling-3.1-flash, an open-source AI model with about 560 billion parameters and support for very long documents.",
+ "score": 5,
+ "score_reason": "Notable Chinese open-source release, but the report is a short flash item mostly of the team's own figures.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that run models on their own servers get an open option for long documents that needs fewer chips, but the speed figures are from the team's own tests.",
+ "source": "KuCoin News, citing Ant Group's Bailing team",
+ "status": "REPORTED",
+ "summary": "KuCoin News reports that Ant Group's Bailing team has open-sourced Ling-3.1-flash, a model with about 560 billion parameters in total, about 25 billion used per token, and a 1 million token context window (the amount of text it can handle at once). The team says a compression technique cut the weight storage from about 534 GB to 292 GB, so a server needs 4 chips instead of 8, though real requirements vary with workload.",
+ "url": "https://www.kucoin.com/news/flash/ant-group-s-bailing-open-sources-ling-3-1-flash-ai-model-with-1m-context-support",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "KuCoin flash article, which relays the team's announcement; the original announcement was not read. Article says 'yesterday', published 16 Oct 00:59 UTC."
+}

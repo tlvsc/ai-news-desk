@@ -1,0 +1,26 @@
+{
+ "item_id": "C10-02",
+ "title": "New FDA-cleared AI tool could help predict if breast cancer will return",
+ "source_used": "ABC News",
+ "article_url": "https://abcnews.com/amp/GMA/Wellness/new-fda-cleared-ai-tool-predict-breast-cancer/story?id=137268417",
+ "fetched": true,
+ "key_facts": [
+  "SimBioSys's TumorSight Risk, powered by NVIDIA GPUs, is FDA-cleared",
+  "It estimates the chance of breast cancer returning over 5 to 10 years, using an existing breast MRI plus pathology and clinical data",
+  "Score runs 0 to 100: low, intermediate or high risk; available before surgery",
+  "Study of 2,129 women: 95.5% of low-risk stayed cancer-free after 5 years vs 89.6% of high-risk",
+  "High-risk group had more than three times the recurrence risk of low-risk",
+  "Each 10-point rise in score linked to 22% higher relative recurrence risk",
+  "Applies to early-stage, hormone receptor-positive, HER2-negative cancer (about 74% of US breast cancer diagnoses per the National Cancer Institute)",
+  "SimBioSys is working with Medicare, Medicaid and private insurers on coverage"
+ ],
+ "quote_evidence": [
+  "TumorSight Risk doesn't require any additional scans.",
+  "Researchers analyzed data from 2,129 women and found that 95.5% of those classified as low-risk remained cancer-free after five years, compared with 89.6% of those classified as high-risk.",
+  "The company behind this new technology is working with Medicare, Medicaid, and private insurers to get the test covered."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Gives women and doctors a recurrence estimate before surgery from a scan already taken.",
+ "event_date": "Not stated; clearance and study reported 15 Oct 2026",
+ "notes": "FDA clearance date not given in the article. Study data were previously collected (retrospective)."
+}

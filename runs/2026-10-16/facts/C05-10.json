@@ -1,0 +1,24 @@
+{
+ "item_id": "C05-10",
+ "title": "Microsoft AI chief says the company beat OpenAI at its own game, using a quarter of the computing power",
+ "source_used": "Business Insider",
+ "article_url": "https://www.businessinsider.com/microsoft-ai-ceo-new-model-beats-openai-using-less-compute-2026-10",
+ "fetched": true,
+ "key_facts": [
+  "Suleyman said at a Thursday town hall Microsoft has a stronger pre-trained base model than the one behind GPT 5.6",
+  "He said it used one-quarter of the compute OpenAI used",
+  "Model is MAI-Base-2, announced Thursday",
+  "Suleyman said Microsoft compared it privately with OpenAI models, including one nicknamed 'Spud'",
+  "Comparison rests on technical information Microsoft has about OpenAI's models",
+  "He also claimed 12 times less computation than DeepSeek, apparently DeepSeek-V4-Pro-Base",
+  "Microsoft owns a stake in OpenAI likely worth over $100 billion; the relationship has frayed"
+ ],
+ "quote_evidence": [
+  "\"We now have a stronger pre-trained base model than the model that currently powers GPT 5.6 Sol,\" Suleyman said.",
+  "\"And in fact, we used one-quarter of the compute that OpenAI used to train their model.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If true, training top models gets much cheaper, and Microsoft needs OpenAI less.",
+ "event_date": "15 Oct 2026",
+ "notes": "Full text read. Claims are Microsoft's own; Microsoft declined further comment."
+}

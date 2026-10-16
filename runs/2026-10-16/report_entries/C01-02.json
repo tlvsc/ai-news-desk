@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-02",
+ "v1_category": "MOD",
+ "headline": "Microsoft says it has finished training MAI-Base-2, a 2.8 trillion-parameter AI model it claims needs far less computing power than a leading Chinese rival to reach the same results.",
+ "score": 7,
+ "score_reason": "Large model announcement from a major company, but efficiency figures are Microsoft's internal tests and the model is not yet released.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Businesses that could later license the model gain a possible cheaper option, but the claimed gains come from Microsoft's own tests, post-training is unfinished and release date and price are not announced.",
+ "source": "Microsoft, as reported by BigGo Finance",
+ "status": "REPORTED",
+ "summary": "Microsoft says on its official blog, as relayed by BigGo Finance, that it has finished pre-training MAI-Base-2, a model with 2.8 trillion parameters, using 16,000 Nvidia GB200 chips over 38 days. The company claims it needs 4.2 to 12.3 times less computing power than DeepSeek's DeepSeek-V4-Pro-Base to reach the same performance, based on its internal evaluation; it is still being refined after training, and release timing and pricing are not disclosed.",
+ "url": "https://finance.biggo.com/news/628565eb-7cc6-46b5-a61f-8be6fcbebc5b",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Investing.com original returned 403; read BigGo Finance relaying Microsoft's blog. BigGo says blog dated the 16th, other outlets report 15 Oct. Efficiency figures are Microsoft's own, not independently verified."
+}

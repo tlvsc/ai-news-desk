@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-15",
+ "v1_category": "RES",
+ "headline": "Israeli startup doubleAI says its autonomous maths system improved a 38-year-old graph theory bound for under $2,000 of computing, with the proof checked in the Lean proof assistant.",
+ "score": 5,
+ "score_reason": "Striking claim with a checkable proof, but a company claim, not yet reviewed by mathematicians.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Mathematicians and engineers of error-correcting codes may gain from a cheap AI-found improvement, but the claim is the company's and has not been independently reviewed.",
+ "source": "Calcalist, as relayed by Startup Fortune",
+ "status": "REPORTED",
+ "summary": "Startup Fortune, relaying a Calcalist report, says doubleAI, led by Mobileye co-founder Amnon Shashua, claims its Double Agent system raised the best known girth coefficient (roughly, how far one can travel in a network before looping back) for explicit graph constructions from 4/3 to 8/5, a mark unmoved since 1988. The proof is written in Lean, a program that checks logic step by step, but it has not been peer reviewed, and Startup Fortune says to treat the \"first improvement in 38 years\" framing as the company's claim.",
+ "url": "https://startupfortune.com/an-israeli-ai-startup-says-it-cracked-a-38-year-old-graph-theory-bound-for-2000/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file; Calcalist original not read."
+}

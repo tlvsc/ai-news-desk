@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-01",
+ "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+ "source_used": "TechCrunch",
+ "article_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+ "fetched": true,
+ "key_facts": [
+  "Anthropic gives six researchers from METR, a nonprofit that tests frontier AI models, employee-level access to assess its models, safety practices and risk management",
+  "Announced in an Anthropic blog post on Thursday 15 Oct 2026",
+  "METR gets company laptops, office space and internal tools roughly on par with Anthropic's own risk assessment teams",
+  "METR will publish its own assessments; Anthropic cannot veto publication but can require redaction of narrow categories (customer data, privileged material, model architecture details)",
+  "METR is the only evaluator so far in the top tier of a three-tier system Anthropic is building; SecureBio sits in the bottom tier and needs approval to publish",
+  "Follows a September essay by CEO Dario Amodei proposing outside evaluators inside AI labs; OpenAI pledged the same",
+  "Anthropic, OpenAI, Google, Meta, Nvidia and xAI have signed a White House accord committing to independent review"
+ ],
+ "quote_evidence": [
+  "Anthropic is giving employee-level access to six researchers from METR, a nonprofit that tests frontier AI models, to independently assess Anthropic's models, safety practices, and risk management, the company said in a blog post on Thursday.",
+  "Anthropic can't veto publication, but we can require them to redact information if it falls into narrow, pre-defined categories"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Outside checkers can now see inside a leading AI lab and publish what they find, which tests whether labs can be held accountable.",
+ "event_date": "15 Oct 2026",
+ "notes": "Read at TechCrunch (Reuters link returned 401). TechCrunch relays Anthropic's own blog post."
+}

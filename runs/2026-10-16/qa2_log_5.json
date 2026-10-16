@@ -1,0 +1,165 @@
+{
+ "editor": "editor5 (re-check of five rewritten entries)",
+ "edition": "2026-10-16",
+ "changes": [
+  {
+   "item_id": "C07-02",
+   "field": "headline",
+   "before": "BigGo Finance reports that investors dumped bonds of the AI data centre company CoreWeave this week, pushing the yield on its 2032 notes to almost 15%, in a sell-off the Financial Times calls a 'Darwin moment' for AI borrowers.",
+   "after": "BigGo Finance reports that investors this week sold off the bonds of CoreWeave, a US company that rents out AI data centres, pushing the yield on its 2032 notes to almost 15%, in what the Financial Times describes as a 'Darwin moment' for AI borrowers.",
+   "reason": "Shorter and exact: the FT's 'Darwin moment' wording is put in quotes from its own report rather than as the FT's own label; CoreWeave identified; 'dumped' made plain."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "summary",
+   "before": "BigGo Finance reports that CoreWeave, a US company that rents out data centres full of AI chips, saw its bonds due 2032 fall below 80 cents on the dollar on 14 October, lifting their yield to about 14.8% against 9.625% when they were issued in June, according to LSEG data. CoreWeave's total debts, including leases, were $52 billion at the end of June, citing the Financial Times, and its quarterly net interest bill more than doubled to $640 million. Shares of CoreWeave fell 15% and Oracle, Nebius and Dell fell too, as a hotter US inflation reading of 3.7% raised bets on more rate rises; analysts quoted say the strain will more likely push weaker borrowers out of the market than cause a wide default, and Startup Fortune adds that banks are struggling to sell the last of a record $38 billion data centre loan tied to Oracle.",
+   "after": "BigGo Finance reports, citing LSEG data, that the 2032 bonds of CoreWeave, which rents out data centres full of AI chips, fell below 80 cents on the dollar by 14 October, lifting their yield to about 14.8% against the 9.625% interest rate they carried when sold in June, and, citing the Financial Times, that the company's debts including leases reached $52 billion at the end of June. CoreWeave's shares fell 15% that day, with Oracle, Nebius and Dell also down, after a higher than expected US inflation figure of 3.7% for September raised bets on more rate rises; analysts cited by BigGo expect weaker borrowers to be pushed out of the debt market rather than a wide wave of defaults, and Startup Fortune adds that banks are still trying to sell the last of a record $38 billion data centre loan tied to Oracle.",
+   "reason": "Three sentences cut to two (rule: 1 to 2); dangling 'citing the Financial Times' fixed; 'by 14 October' as BigGo says (fall began 13 Oct); interest-bill detail dropped for length. June sale at 9.625% checked in Startup Fortune; LSEG, FT $52bn, share falls, CPI 3.7% and analysts checked in the BigGo article (fetched); $38bn Oracle loan checked in Startup Fortune (fetched)."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "importance_line",
+   "before": "If lenders demand much higher rates from AI data centre builders, building gets dearer and weaker borrowers may be shut out of the debt market, which affects bond and pension funds as well as AI companies; analysts expect pain at the weaker borrowers rather than a wide default, and the Financial Times article itself was not available to us in full.",
+   "after": "If lenders demand much higher rates from AI data centre builders, new building gets dearer and weaker borrowers may be shut out of the debt market, which hits the investors holding their bonds, though analysts expect a shake-out of the weaker borrowers rather than a wide default.",
+   "reason": "Removed process wording ('the Financial Times article itself was not available to us in full'); removed unsupported 'pension funds' (not in facts or article); kept the analysts' doubt."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "headline",
+   "before": "Investing.com reports, citing Bloomberg, that Taiwan plans industrial parks in the US, starting with a Texas site costing up to $4 billion, to help suppliers of Nvidia's manufacturing partners build there.",
+   "after": "Bloomberg reports that Taiwan plans several industrial parks in the US, starting with a Texas site costing up to $4 billion, to help smaller Taiwanese suppliers of Nvidia's main manufacturers set up there.",
+   "reason": "Credit: Investing.com's piece is a rewrite of Bloomberg's report ('Bloomberg News reported on Friday ... the report said'), so the first reporter is credited. 'smaller Taiwanese suppliers' as the text says."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "summary",
+   "before": "Investing.com reports, citing a Bloomberg interview of 12 October with Kung Ming-hsin, Taiwan's economy minister, that Taiwan plans several industrial parks in the US, each costing up to $4 billion (BigGo, also citing Bloomberg, gives $2 billion to $4 billion), and that the first will be in Texas. The aim is to help smaller Taiwanese suppliers set up in the US to serve firms such as TSMC, Nvidia's main chip maker, and Foxconn, its server assembler. The money will be raised by the Taiwan Electrical and Electronic Manufacturers' Association, with the government offering loan guarantees and help with US rules, and the plan comes as Taiwan faces pressure to deliver investment promised under its trade deal with Washington.",
+   "after": "Bloomberg reports, as relayed by Investing.com, that Taiwan plans several industrial parks in the US, each costing up to $4 billion and the first in Texas, to help smaller Taiwanese suppliers set up there and support firms such as TSMC, Nvidia's main chip maker, and Foxconn, its server assembler, according to Kung Ming-hsin, Taiwan's economy minister, who spoke to Bloomberg on 12 October. A Taiwanese industry group, the Taiwan Electrical and Electronic Manufacturers' Association, will raise the money while the government offers loan guarantees and help with US rules, as Taiwan faces pressure to deliver the investment promised under its trade deal with Washington.",
+   "reason": "Credit moved to Bloomberg (Investing.com relays it); three sentences cut to two; the BigGo range in brackets dropped (up to $4bn already covers it). All claims checked in the Investing.com text on Yahoo Finance (fetched)."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "It shows Taiwan's government helping its smaller chip and server suppliers follow Nvidia's main makers to the US, which may speed US AI hardware supply, but the Texas site, the timing and the companies that will move in are not yet named.",
+   "after": "It shows Taiwan's government helping its smaller suppliers follow TSMC and Foxconn to the US, which is meant to strengthen the supply of AI hardware there, but the exact Texas site, the timing and the companies that will move in have not been named.",
+   "reason": "'chip and server suppliers' is not in the text (it says smaller Taiwanese suppliers); 'may speed US AI hardware supply' replaced by the stated aim (strengthen the supply chain for AI hardware makers)."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "source",
+   "before": "Investing.com, citing Bloomberg",
+   "after": "Bloomberg",
+   "reason": "Credit rule: the outlet that reported is Bloomberg; Investing.com relays its report. url kept (the text read), as earlier editors did for relayed stories."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "headline",
+   "before": "Livemint reports that TSMC's chief executive said demand for its most advanced chips is extremely robust and that it wants to take every piece of business it can, as CNBC describes Nvidia, Apple and Broadcom in a fierce battle for its capacity.",
+   "after": "Livemint reports that C.C. Wei, chief executive of TSMC, said demand for its advanced chips is extremely robust and that it wants every piece of business it can get, while CNBC reports a fierce battle among Nvidia, Apple and Broadcom for its factory space.",
+   "reason": "'most advanced chips' was stronger than the source ('advanced chips'); the speaker is named with his position; the CNBC clause made grammatical."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "summary",
+   "before": "Livemint reports that TSMC, the world's largest contract chipmaker, posted a record third-quarter net profit of NT$763.1 billion (about $23.6 billion), up 68.7% from a year earlier, and that C.C. Wei, its chairman and chief executive, called demand for advanced chips \"extremely robust\" and said \"we have no intention to leave food on the table for others, and we want to capture every piece of business possible.\" The company makes chips for Nvidia, Apple, AMD and Broadcom, and Focus Taiwan (CNA) adds that it raised its 2026 sales growth forecast to 44% and kept its capital spending at $60 billion to $64 billion. TSMC is cautious about 2027 because of rising component prices and economic uncertainty.",
+   "after": "Livemint reports that C.C. Wei, chairman and chief executive of TSMC, the Taiwanese company that makes chips for Nvidia, Apple, AMD and Broadcom, said on its earnings call on 15 October that demand for advanced chips remains \"extremely robust\" and that \"we want to capture every piece of business possible\", after TSMC posted a record third-quarter net profit of NT$763.1 billion (about $23.6 billion), up 68.7% from a year earlier. Taiwan's Central News Agency adds that TSMC raised its 2026 sales growth forecast to 44% and kept its capital spending plan at $60 billion to $64 billion, though Wei said it is planning cautiously for 2027 because rising component prices and economic uncertainty are hurting price-sensitive markets.",
+   "reason": "Three sentences cut to two; leads with the new call remarks (the record profit ran in the 15 Oct report, item 13); 'world's largest contract chipmaker' replaced by the description Livemint gives; 'Focus Taiwan (CNA)' acronym replaced by plain name. Checked in Livemint (fetched) and Focus Taiwan 202610150018 (fetched): 44%, capex $60-64bn, 2027 caution quote."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "importance_line",
+   "before": "TSMC makes chips for Nvidia, Apple, AMD and Broadcom, so tight capacity decides who gets AI and phone chips first, but how TSMC is dividing its space among them has not been made public, and CNBC's own account of the contest was not available to us in full.",
+   "after": "TSMC makes chips for Nvidia, Apple, AMD and Broadcom, so how it shares out its scarce factory space shapes who gets AI and phone chips first, though how it is dividing that space among them has not been made public.",
+   "reason": "Removed process wording ('CNBC's own account of the contest was not available to us in full'); 'decides' softened to 'shapes'."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "score_reason",
+   "before": "Kept at 6: the record quarter and the demand statements are confirmed, but the detail of how Nvidia, Apple and Broadcom compete for space comes only from CNBC's headline.",
+   "after": "Kept at 6: the record quarter and the demand statements are confirmed, while the contest for space among Nvidia, Apple and Broadcom rests on CNBC alone.",
+   "reason": "Printed in the markdown edition ('SCORE: 6 — ...'); 'comes only from CNBC's headline' is process wording. Score unchanged."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "headline",
+   "before": "Yahoo News reports, citing Axios, that Bill Gates, co-founder of Microsoft, is preparing a bigger campaign for AI safety and is personally pressing business leaders to join it.",
+   "after": "Axios reports that Bill Gates, co-founder of Microsoft, is preparing a bigger campaign for AI safety and is personally pressing business leaders on the issue.",
+   "reason": "Credit: the Yahoo News page is a copy of a Newsmax article (page footer '(c) 2026 Newsmax', provider newsmax), which relays Axios; first reporter Axios credited. 'pressing business leaders to join it' was not in the text (it says 'personally pressing business leaders')."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "Yahoo News reports, citing Axios, that Bill Gates, co-founder of Microsoft, is preparing to widen his AI safety campaign, is personally pressing business leaders and is weighing a significant commitment of resources; he is said to have told one adviser, \"I can reach CEOs on this better than you can.\" The report says he is worried by fast-advancing AI capabilities, security incidents and weak government oversight, and has spoken with tech executives, researchers and safety advocates, including Dario Amodei, chief executive of Anthropic; the Trump administration favors voluntary industry safeguards.",
+   "after": "Axios reports, citing people familiar with his plans, that Bill Gates, co-founder of Microsoft, is preparing to widen his AI safety campaign, is personally pressing business leaders and is considering committing significant resources, and that he told one person he consulted, \"I can reach CEOs on this better than you can.\" According to the report, as relayed by Newsmax, he is worried by fast-advancing AI capabilities, security incidents and what he sees as weak government oversight, and has spoken with tech executives, researchers and safety advocates, including Dario Amodei, chief executive of Anthropic; Newsmax notes that the Trump administration favors voluntary industry safeguards.",
+   "reason": "Credit moved from the copy site (Yahoo News) to Axios, relayed by Newsmax; unnamed-sources hedge added ('citing people familiar with his plans'); 'one adviser' changed to 'one person he consulted' as the text says; 'weak oversight' kept as his view; 'weighing a significant commitment of resources' put in our words. Checked in the Yahoo/Newsmax text (fetched)."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "source",
+   "before": "Yahoo News, citing Axios",
+   "after": "Axios",
+   "reason": "Credit rule: Yahoo News carries Newsmax's text, which relays Axios's scoop (Axios, 15 Oct 2026 09:01 UTC). url kept (the text read)."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C16-05"
+   ],
+   "type": "re-dated",
+   "note": "Not edited (edit_A rule 6). The NBC Boston page is NBC News' article (byline Angela Yang | NBC News; page metadata datePublished 2026-10-07T18:22-04:00). The meme spread late September to early October; the same story ran in the 8 Oct 2026 Full Report (item 103, The Fun Side, source NBC News, https://www.nbcnews.com/tech/internet/ai-generated-rumpelstiltskin-meme-freaking-much-internet-rcna602132). Nothing new inside the window except a Know Your Meme video page (pool item published 2026-10-16T03:33Z). If the main session keeps it anyway: source should be 'NBC News' (NBC Boston carries NBC News' text), the summary has 3 sentences (rule is 1 to 2), and Riff Raff needs an identifier ('the rapper Riff Raff', as the article says)."
+  },
+  {
+   "item_ids": [
+    "C07-02"
+   ],
+   "type": "possible repeat",
+   "note": "Edited, but the main event was in the 15 Oct 2026 report: item 11 (CoreWeave shares down up to 17% as its bonds came under pressure, 14 Oct), item 20 (Gartner neocloud forecast), item 22 (BondCliQ on CoreWeave and Oracle debt) and the 3.7% CPI. The BigGo article read was published 2026-10-14T21:05Z, before today's window (starts 2026-10-15T04:54Z). New inside the window: the Financial Times piece (2026-10-15T18:27Z, not readable) and Startup Fortune's Oracle loan detail. Main session to decide at the NO OLD NEWS step."
+  },
+  {
+   "item_ids": [
+    "C08-03",
+    "C08-01"
+   ],
+   "type": "overlap, not a clear duplicate",
+   "note": "C08-03 (TSMC demand remarks and CNBC's capacity contest) and C08-01 (Fortune: TSMC in talks to join Musk's Terafab) come from the same 15 Oct earnings call and both mention the record profit; the record profit itself ran in the 15 Oct report (item 13, Associated Press). C08-03 now leads with the call remarks. CNBC's page returns 403, so the capacity contest rests on CNBC's own title. Main session to decide whether both stay."
+  },
+  {
+   "item_ids": [
+    "C08-02",
+    "C05-06"
+   ],
+   "type": "info: original links",
+   "note": "Source credit moved to the first reporter; url kept on the relay text that was read, as earlier editors did this run (C16-06, C04-02, C04-03). Originals if wanted: C08-02 Bloomberg https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners (the pool url); C05-06 Axios https://www.axios.com/2026/10/15/bill-gates-ai-safety-push (decoded from the Google News item 'Scoop: \"OG\" Bill Gates returns to wage war on AI risks', 2026-10-15T09:01Z; returns 403 to us), Newsmax original https://www.newsmax.com/us/bill-gates-ai-safeguards/2026/10/15/id/1272904."
+  }
+ ],
+ "checked": [
+  "C07-02",
+  "C08-02",
+  "C08-03",
+  "C05-06",
+  "C16-05"
+ ],
+ "edited": [
+  "C07-02",
+  "C08-02",
+  "C08-03",
+  "C05-06"
+ ],
+ "fetched": {
+  "read_ok": [
+   "finance.biggo.com (C07-02)",
+   "finance.yahoo.com Investing.com text (C08-02)",
+   "livemint.com (C08-03)",
+   "yahoo.com Newsmax text (C05-06)",
+   "nbcboston.com (C16-05)",
+   "focustaiwan.tw/business/202610150018",
+   "startupfortune.com/banks-that-financed-the-ai-data-center-boom-now-want-out-of-that-debt/"
+  ],
+  "blocked": [
+   "cnbc.com (403)",
+   "axios.com (403)",
+   "newsmax.com (connection error)"
+  ]
+ }
+}

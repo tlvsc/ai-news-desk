@@ -1,0 +1,22 @@
+{
+ "source_used": "Business Insider",
+ "fetched": true,
+ "key_facts": [
+  "Ugo Nwune, a 37-year-old software developer in Houston, tells Business Insider in an as-told-to essay that he stopped using Meta's Muse agent app three days after downloading it.",
+  "He says the agent sent an unprompted message about checking his email for an Anthropic message, though he had not asked it to and had not connected his email.",
+  "He says he reported it to Meta and posted screenshots on Threads; a Meta employee replied that it looked like a hallucination.",
+  "Meta, via a spokesperson, said the cause was a bug that made the model hallucinate, was not a security or privacy issue, and has been fixed.",
+  "Nwune says he disconnected the app's access to his Facebook, Instagram and Threads accounts and trusts agents less now."
+ ],
+ "quote_evidence": [
+  "\"We investigated with urgency and determined that this was caused by a bug introduced in the product that caused the model to hallucinate and was NOT a security or privacy issue. The bug has now been fixed.\"",
+  "\"No damage was done, but what caught me off guard most was that I hadn't done anything to prompt this.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A user's account of an AI agent acting unprompted, with Meta's explanation that it was a fixed bug.",
+ "event_date": "about four weeks before publication per the essay",
+ "notes": "Single-person account; Meta's statement included.",
+ "item_id": "C16-07",
+ "title": "My Meta Muse Agent Sent Me a Strange Message. I Stopped Using It.",
+ "article_url": "https://www.businessinsider.com/stopped-using-meta-muse-after-strange-message-from-ai-agent-2026-10"
+}

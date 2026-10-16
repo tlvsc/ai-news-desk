@@ -1,0 +1,108 @@
+{
+ "C05-06": {
+  "result": "found",
+  "sources_read": [
+   "https://www.yahoo.com/news/politics/articles/gates-urges-ceos-ai-safety-173245805.html (Yahoo News citing Axios)",
+   "search results naming Axios, Newsmax, Washington Times (pages not readable)"
+  ],
+  "changes": {
+   "headline": {
+    "old": "Washington Times reports, citing sources, that Bill Gates plans a bigger push on AI safety and intends to lean on tech chief executives.",
+    "new": "Yahoo News reports, citing Axios, that Bill Gates, co-founder of Microsoft, is preparing a bigger campaign for AI safety and is personally pressing business leaders to join it."
+   },
+   "score_reason": {
+    "old": "A famous philanthropist's reported plan, from unnamed sources, with no detail read; his earlier public calls are documented elsewhere.",
+    "new": "A famous philanthropist's reported plan, from unnamed sources; the report gives no funding figure or timetable, so the pool score of 6 stands."
+   },
+   "importance_line": {
+    "old": "Pressure from a widely followed figure could add weight to calls for AI safeguards, but this is a reported plan from unnamed sources and its scope is unconfirmed.",
+    "new": "A widely followed figure pressing chief executives could add weight to calls for AI safeguards, but the plan comes from unnamed sources and the report gives no amount of money or timetable."
+   },
+   "source": {
+    "old": "Washington Times",
+    "new": "Yahoo News, citing Axios"
+   },
+   "summary": {
+    "old": "The Washington Times reports, citing sources, that Bill Gates, co-founder of Microsoft and a leading philanthropist, plans to step up his campaign for AI safety and press tech chief executives to act.",
+    "new": "Yahoo News reports, citing Axios, that Bill Gates, co-founder of Microsoft, is preparing to widen his AI safety campaign, is personally pressing business leaders and is weighing a significant commitment of resources; he is said to have told one adviser, \"I can reach CEOs on this better than you can.\" The report says he is worried by fast-advancing AI capabilities, security incidents and weak government oversight, and has spoken with tech executives, researchers and safety advocates, including Dario Amodei, chief executive of Anthropic; the Trump administration favors voluntary industry safeguards."
+   },
+   "url": {
+    "old": "https://www.washingtontimes.com/news/2026/oct/15/bill-gates-plans-bigger-ai-safety-push-leaning-ceos-sources-say/",
+    "new": "https://www.yahoo.com/news/politics/articles/gates-urges-ceos-ai-safety-173245805.html"
+   },
+   "verified_text": {
+    "old": false,
+    "new": true
+   },
+   "notes": {
+    "old": "Washington Times blocked (403); Axios scoop of the same day was also blocked. Headline-only entry. Context seen elsewhere (Benzinga via Yahoo): Gates posted on X on 11 Oct that AI needs safeguards like planes, cars and medicines, and on CNN said oversight would move beyond self-governance within a year; not used in the summary because the plan itself is unread. Gates description is general knowledge, not from the article.",
+    "new": "Read in full from Yahoo News (Theodore Bunker, 15 Oct 2026), which cites Axios; the Axios and Washington Times pages themselves were not readable. No funding figure or timetable is given. Context in the text: Gates on NBC Meet the Press (27 Sep) said industry self-regulation is not enough; Sen. Maria Cantwell released a federal AI safety framework on 7 Oct."
+   }
+  },
+  "facts_changed": {
+   "title": {
+    "old": "Bill Gates plans bigger AI safety push, leaning on CEOs, sources say",
+    "new": "Gates Urges CEOs on AI Safety as Oversight Calls Grow"
+   },
+   "source_used": {
+    "old": "Washington Times",
+    "new": "Yahoo News (citing Axios)"
+   },
+   "article_url": {
+    "old": "https://www.washingtontimes.com/news/2026/oct/15/bill-gates-plans-bigger-ai-safety-push-leaning-ceos-sources-say/",
+    "new": "https://www.yahoo.com/news/politics/articles/gates-urges-ceos-ai-safety-173245805.html"
+   },
+   "fetched": {
+    "old": false,
+    "new": true
+   },
+   "key_facts": {
+    "old": [],
+    "new": [
+     "Bill Gates is preparing to expand his AI safety campaign, personally pressing business leaders and weighing a significant commitment of resources; the Axios report gives no funding figure or timetable.",
+     "He told one adviser: \"I can reach CEOs on this better than you can.\"",
+     "He is concerned about fast-advancing AI capabilities, security incidents and weak government oversight.",
+     "He has discussed the risks with tech executives, researchers and safety advocates, including Anthropic CEO Dario Amodei.",
+     "On NBC's Meet the Press on 27 Sep 2026 he urged congressional action, said industry self-regulation is insufficient, and warned international AI cooperation would be harder than Cold War nuclear arms agreements.",
+     "The Trump administration favors voluntary industry safeguards; major tech companies recently signed a safety pact at the White House.",
+     "On 7 Oct 2026 Sen. Maria Cantwell (D-Wash.) released a framework calling for enforceable federal AI safety standards, testing and independent audits.",
+     "Axios reports that people who spoke with Gates see the advocacy partly as an effort to rebuild his legacy after scrutiny of his past association with Jeffrey Epstein, which he called 'a huge mistake' in August."
+    ]
+   },
+   "quote_evidence": {
+    "old": [],
+    "new": [
+     "I can reach CEOs on this better than you can."
+    ]
+   },
+   "why_it_matters_hint": {
+    "old": "",
+    "new": "A famous philanthropist may press tech chiefs harder on AI safety, against an administration that prefers voluntary safeguards."
+   },
+   "notes": {
+    "old": "Washington Times blocked (403); Axios scoop of the same day was also blocked. Headline-only entry. Context seen elsewhere (Benzinga via Yahoo): Gates posted on X on 11 Oct that AI needs safeguards like planes, cars and medicines, and on CNN said oversight would move beyond self-governance within a year; not used in the summary because the plan itself is unread. Gates description is general knowledge, not from the article.",
+    "new": "Read in full from Yahoo News (Theodore Bunker, 15 Oct 2026), which cites Axios; the Axios and Washington Times pages themselves were not readable. No funding figure or timetable is given. Context in the text: Gates on NBC Meet the Press (27 Sep) said industry self-regulation is not enough; Sen. Maria Cantwell released a federal AI safety framework on 7 Oct."
+   }
+  }
+ },
+ "C14-04": {
+  "result": "NOT FOUND",
+  "sources_read": [
+   "WebSearch results (Fortune Feb and Jun 2026, Yahoo/Benzinga; older, different interviews)",
+   "Fox News page (about Eric So, not Acemoglu)"
+  ],
+  "changes": {},
+  "note": "CNBC video page only; no written account of the 15 Oct interview found. Files unchanged."
+ },
+ "C13-08": {
+  "result": "NOT FOUND",
+  "sources_read": [
+   "RTE 14 Oct Dublin summit report",
+   "Irish Times 14 Oct",
+   "Tech Policy Press",
+   "DIGITALEUROPE 12 May 2026 release"
+  ],
+  "changes": {},
+  "note": "Related Dublin summit coverage shows Brad Smith and Demis Hassabis calling for regulation, not pressing to revamp the law; nothing confirms the Politico claim. Files unchanged."
+ }
+}

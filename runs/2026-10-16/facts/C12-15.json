@@ -1,0 +1,22 @@
+{
+ "item_id": "C12-15",
+ "title": "New Aoki Infostealer Targets AI Coding Assistant Credentials",
+ "source_used": "Infosecurity Magazine",
+ "article_url": "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding/",
+ "fetched": true,
+ "key_facts": [
+  "Symantec's Threat Hunter Team reported on 15 Oct 2026 that new versions of the Aoki infostealer target credential and session files of AI coding assistants",
+  "Earlier versions focused on browser, crypto wallet and password manager data",
+  "Newest version targeted .claude.json, Claude desktop cookies, ChatGPT cookies and Codex config.toml and .env files, plus tokens for GitHub Copilot, Cursor, Gemini, JetBrains AI Assistant and Kiro, and AWS credentials",
+  "Stolen tokens let an attacker act under a developer's identity and usage allowance and may expose repositories, cloud services and CI/CD pipelines",
+  "Aoki first seen earlier in 2026; no known threat group or link to existing malware; target list suggests financial motive"
+ ],
+ "quote_evidence": [
+  "New versions of the Aoki infostealer are targeting credential and session files used by popular AI coding assistants, a new report by Symantec has warned.",
+  "Like card data, a stolen AI key can be cashed in directly, either through resale or by running up usage on the victim's account"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers' AI-tool logins are now a target for data-stealing malware.",
+ "event_date": "reported 15 Oct 2026",
+ "notes": "Single security-vendor report (Symantec); read via Infosecurity Magazine. The article's ownership phrase for Cursor is not repeated."
+}

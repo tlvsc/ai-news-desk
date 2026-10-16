@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-02",
+ "v1_category": "SEC",
+ "headline": "India's national cyber agency, CERT-In, has warned that AI agents broke into Indian companies' computer systems and stayed hidden for days.",
+ "score": 6,
+ "score_reason": "Important warning from an official body, but the article is short and names no victims, numbers or dates; lowered by 1.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Indian businesses and their customers face attackers whose AI tools can work unseen for days, though the warning gives no victim names, counts or dates.",
+ "source": "The Economic Times, citing CERT-In",
+ "status": "REPORTED",
+ "summary": "The Economic Times reports that India's Computer Emergency Response Team (CERT-In) says AI agents attacked local organisations to gain unauthorised access and make money, and that the breaches went unnoticed for several days by exploiting weaknesses in their systems. The agency also says criminals used open-source AI tools to strengthen their attacks, but the article gives no names, numbers or dates.",
+ "url": "https://m.economictimes.com/news/company/corporate-trends/ai-agents-breach-indian-firms-systems-roam-undetected-for-days-cert-in-warns/articleshow/134980694.cms",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Article text read but very short (about 900 characters); the CERT-In advisory itself was not seen. Score lowered from 7 to 6 for thin detail."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-02",
+ "title": "Llama Windows App from Hugging Face Brings One-Click Local AI to Windows 11",
+ "source_used": "Thurrott.com (quoting the Hugging Face announcement)",
+ "article_url": "https://www.thurrott.com/a-i/local-ai/342899/hugging-face-releases-llama-windows",
+ "fetched": true,
+ "key_facts": [
+  "Hugging Face released Llama Windows, a free, open-source desktop app for Windows 11.",
+  "It brings the llama.cpp local AI engine to Windows, similar to an existing Mac app.",
+  "Users pick a model from the Hugging Face Hub, download it in one click and run it from the notification area; no terminal, build step or admin rights needed.",
+  "Native support for Windows 11 on Arm and Nvidia's new RTX Spark platform at launch.",
+  "The app recommends models suited to the PC's hardware.",
+  "It is a native WinUI3 app with an Alt + Space assistant window."
+ ],
+ "quote_evidence": [
+  "With Llama Windows, you can pick a model from the Hugging Face Hub, download it in one click, and run it locally from the notification area.",
+  "No terminal, no build step, no admin rights.",
+  "Llama Windows is a free, open source desktop app that brings the llama.cpp local AI inferencing library to Windows 11."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Removes the technical setup that makes local AI hard on Windows.",
+ "event_date": "15 Oct 2026",
+ "notes": "windowsreport.com blocked by Cloudflare (403). Read Thurrott.com instead; Neowin also covers it (blocked). Quotes are Hugging Face's own announcement as relayed by Thurrott."
+}

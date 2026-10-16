@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "Cryptographers disagree over whether OpenAI's burst of AI-written maths papers means AI could one day break the encryption that protects online banking and messages.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: the release is from 6 Oct and the article is expert opinion, not a new finding.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Anyone who banks or messages online is affected only if a shortcut is found, which no one has shown, and experts mostly advise against panic while asking AI labs to say what they have tried.",
+ "source": "Scientific American",
+ "status": "REPORTED",
+ "summary": "Scientific American reports that after OpenAI posted 722 AI-written maths manuscripts, Matthew Green, a cryptographer at Johns Hopkins University, put the chance of losing confidence in current public-key encryption at 15 percent, while Yehuda Lindell, a Bar-Ilan University professor and head of cryptography at Coinbase, sees \"no evidence whatsoever\" of a breakthrough. None of the 722 papers deals with cryptography, and the researchers quoted agree that no deployed algorithm has yet been broken by AI.",
+ "url": "https://www.scientificamerican.com/article/can-ai-break-encryption-openai-new-math-has-cryptographers-divided/",
+ "freshness": "FOLLOW-UP of 6 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file. Analysis of expert views; no new technical result."
+}

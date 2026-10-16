@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-08",
+ "title": "Chinese company Kunlun Tech has released Matrix-Game 4.0, an open-source system that lets AI generate a playable game in real time on a single consumer graphics card.",
+ "source_used": "BigGo Finance, citing Kunlun Tech",
+ "article_url": "https://finance.biggo.com/news/9d295eb2-edd6-495b-8ab6-cfadf774196c",
+ "fetched": true,
+ "key_facts": [
+  "Kunlun Tech released Matrix-Game 4.0 on 15 Oct 2026, code, weights and assets open-sourced",
+  "Claims first video foundation model game on a single consumer GPU (RTX 5090), 480p at 60 FPS, latency under 150 ms",
+  "External game engine maintains world state; video model renders frames from structural frames",
+  "Measured latency 112 ms vs 10.2 s, 545 ms and 878 ms for three other systems, per Kunlun's comparison",
+  "Peak VRAM 18.5 GiB; other systems need H200, GB200 or H100 data-centre cards",
+  "Built on Wan2.2 5B video model; coding agent lets players change terrain and NPC behaviour by text",
+  "Data from Kunlun's official technical comparison"
+ ],
+ "quote_evidence": [
+  "On October 15, 2026, Kunlun Tech officially released Matrix-Game 4.0, which it claims is the world's first video foundation model game running on a single consumer-grade GPU.",
+  "The project's code, weights, and white-box assets have been open-sourced simultaneously.",
+  "Note: Data sourced from Kunlun Tech's official technical comparison."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows AI-rendered interactive games moving from data-centre hardware to a single gaming card.",
+ "event_date": "15 Oct 2026",
+ "notes": "Full text read. All performance claims are Kunlun's own."
+}

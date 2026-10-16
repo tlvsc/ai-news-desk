@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-01",
+ "v1_category": "MOD",
+ "headline": "Meta has released Muse Spark Open, a very large open-weight AI model built to run on Apple's Mac computers.",
+ "score": 8,
+ "score_reason": "Large open-weight release from a major lab, but the performance claims come from Meta's own tests and the hardware need is extreme.",
+ "importance_label": "HIGH",
+ "importance_line": "People and companies that want to run a top-tier model on their own machine gain a new option, but running it needs at least 1 terabyte of memory and the performance claims come only from Meta.",
+ "source": "TechCrunch",
+ "status": "REPORTED",
+ "summary": "TechCrunch reports that Meta has launched Muse Spark Open, an open-weight model (its trained files are public for anyone to download and adapt) with 816 billion parameters and a 1 million token context window, the amount of text it can consider at once, designed to run locally on Apple computers. Meta says its own tests show it beats other popular open-weight models, but running it needs at least 1 terabyte of memory, according to Engadget, and it works best on a Mac Studio with an M5 Ultra chip.",
+ "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file. Performance claims are Meta's own."
+}

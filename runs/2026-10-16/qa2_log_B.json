@@ -1,0 +1,224 @@
+{
+ "changes": [
+  {
+   "item_id": "C11-07",
+   "field": "importance_line",
+   "before": "Robot makers and the factories, offices and homes that want them could benefit if simulation works, but it is one start-up's bet and the text we read shows no results.",
+   "after": "Robot makers and the factories, offices and homes that want them could benefit if simulation works, but it is one start-up's bet, based on its chief executive's word.",
+   "reason": "Removed internal process note ('the text we read'); doubt now rests on what the facts support (claims are the CEO's)."
+  },
+  {
+   "item_id": "C11-09",
+   "field": "importance_line",
+   "before": "Hong Kong residents get their first public rides in driverless cars, but the trial is short, uses one 5 km route in Tung Chung and does not mean a commercial service is coming.",
+   "after": "Hong Kong residents get their first public rides in driverless cars, but the trial is short, free and limited to one 5 km route in Tung Chung.",
+   "reason": "Removed an unsupported forecast about a commercial service; kept the supported limits of the trial."
+  },
+  {
+   "item_id": "C01-01",
+   "field": "summary",
+   "before": "TechCrunch reports that Meta has launched Muse Spark Open, an open-weight model with 816 billion parameters and a 1 million token context window (the amount of text it can consider at once), designed to run locally on Apple computers. Meta says its own tests show it beats other popular open-weight models, but running it needs at least 1 terabyte of memory, according to Engadget, and it works best on a Mac Studio with an M5 Ultra chip. \"Open-weight\" means the trained model files are public so others can download and adapt them.",
+   "after": "TechCrunch reports that Meta has launched Muse Spark Open, an open-weight model (its trained files are public for anyone to download and adapt) with 816 billion parameters and a 1 million token context window, the amount of text it can consider at once, designed to run locally on Apple computers. Meta says its own tests show it beats other popular open-weight models, but running it needs at least 1 terabyte of memory, according to Engadget, and it works best on a Mac Studio with an M5 Ultra chip.",
+   "reason": "Summary was three sentences; folded the open-weight definition into the first sentence (rule: 1-2 sentences)."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "summary",
+   "before": "India Today reports that Elon Musk wrote on X, \"Maybe we should start a competitor to Amazon,\" after a user said Amazon was blocking Grok Bot, the AI shopping agent from Musk's SpaceX-owned xAI business, from placing orders; Musk gave no details and no plan. The story sits within a wider dispute over AI shopping agents: Amazon told GeekWire it blocked Meta's Muse agent because Meta had not warned it, the agent did not identify itself and appeared to store customer credentials. Teslarati notes Amazon has not commented on the Grok block and that Musk also promised on X that SpaceX would reimburse users if Grok Bot botches a purchase.",
+   "after": "India Today reports that Elon Musk, head of SpaceX and Tesla, wrote on X, \"Maybe we should start a competitor to Amazon,\" after a user said Amazon was blocking Grok Bot, the AI shopping agent from Musk's SpaceX-owned xAI business, from placing orders; Musk gave no details or plan, and Teslarati notes Amazon has not commented on the Grok block. The remark comes amid a wider dispute over AI shopping agents: Amazon told GeekWire it blocked Meta's Muse agent because Meta had not warned it, the agent did not identify itself and it appeared to store customer credentials.",
+   "reason": "Summary was three sentences; cut to two (dropped the side note on reimbursement), added Musk's position."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "source",
+   "before": "36Kr, republishing Academic Headline",
+   "after": "Academic Headline",
+   "reason": "Credit: 36Kr republishes the text of Academic Headline (a Chinese science news account), so the reporting outlet is credited, not the copy site."
+  },
+  {
+   "item_id": "C04-02",
+   "field": "summary",
+   "before": "36Kr, republishing a report from the Chinese science account Academic Headline, says a study in the journal Science describes RFdiffusion3, which designed an enzyme that breaks down toxic organophosphorus compounds (chemicals used in pesticides) and proteases (proteins that cut other proteins) aimed at a peptide linked to the disease amyloidosis. In lab tests, 4 of the first 96 enzyme designs were active, but the report stresses this does not show any treatment for amyloid deposits in people.",
+   "after": "Chinese science news account Academic Headline, as republished by 36Kr, reports that a study in the journal Science describes RFdiffusion3, which designed an enzyme that breaks down toxic organophosphorus compounds (chemicals used in pesticides) and proteases (proteins that cut other proteins) aimed at a peptide linked to the disease amyloidosis. In lab tests, 4 of the first 96 enzyme designs were active, but the report stresses this does not show any treatment for amyloid deposits in people.",
+   "reason": "Attribution follows the credit fix: Academic Headline is the reporter, 36Kr the site carrying its text."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "source",
+   "before": "Blockchain.News, citing NVIDIA",
+   "after": "NVIDIA",
+   "reason": "Credit: the entry rests on NVIDIA's own blog post (read directly, per the notes); Blockchain.News only relays it."
+  },
+  {
+   "item_id": "C04-03",
+   "field": "summary",
+   "before": "Blockchain.News reports, citing NVIDIA's blog, that the European Commission launched the AI in Science Enablers Initiative at a summit in Dublin on 15 Oct, tied to RAISE, the Resource for AI Science in Europe, and that NVIDIA is joining with open models and software, free course materials and access to European supercomputing centres. Research Commissioner Ekaterina Zaharieva said the campaign turns ambition into \"concrete commitments\".",
+   "after": "NVIDIA says on its blog that the European Commission launched the AI in Science Enablers Initiative at a summit in Dublin on 15 Oct, tied to RAISE, the Resource for AI Science in Europe, and that it is joining with open models and software, free course materials and access to European supercomputing centres. Research Commissioner Ekaterina Zaharieva said the campaign turns ambition into \"concrete commitments\".",
+   "reason": "Attribution follows the credit fix: NVIDIA's blog is the source of the account."
+  },
+  {
+   "item_id": "C04-04",
+   "field": "importance_line",
+   "before": "Mathematicians who must judge hundreds of AI-written papers gain funding and tools, while the donation also shows how much checking AI results will cost the profession.",
+   "after": "Mathematicians who must judge hundreds of AI-written papers gain funding and tools, paid for in part by OpenAI, whose AI wrote the papers.",
+   "reason": "Removed an invented consequence (cost to the profession); replaced with a supported point from the facts."
+  },
+  {
+   "item_id": "C15-03",
+   "field": "summary",
+   "before": "Quantum Computing Report reports that Google Quantum AI, Google DeepMind and MIT researchers describe, in a paper on arXiv, a design that networks small chips of about 100 qubits through fixed boundary couplers to run efficient qLDPC error-correcting codes, with more than 30 times lower qubit overhead than standard 2D surface codes. The result comes from circuit-level simulations, which kept error rates low even when links between chips were 10 times noisier than gates on a chip.",
+   "after": "Quantum Computing Report reports that researchers at Google Quantum AI, Google DeepMind and MIT propose, in a preprint on arXiv, linking small flat chips of about 100 qubits along their edges to run a more efficient type of error-correcting code, needing over 30 times fewer qubits than the standard surface-code approach. The result comes only from computer simulations, which held up even when links between chips were 10 times noisier than operations on a chip.",
+   "reason": "Unexplained jargon (qLDPC, boundary couplers, circuit-level) replaced with plain wording at reader level 7; 'propose' and 'only from simulations' keep the preliminary status."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "summary",
+   "before": "Analytics Insight reports that AstraZeneca will pay insitro $40 million up front, with up to $1.46 billion more in milestone payments and royalties, to find drug targets for the liver disease MASH and for heart muscle diseases called cardiomyopathies. Insitro, a California biotech firm, will use its machine-learning platform built on lab-grown cell models to find targets nominated by AstraZeneca, which will fund and run any later clinical trials and hold the worldwide rights to selected programs.",
+   "after": "Analytics Insight reports that AstraZeneca will pay insitro $40 million up front, with up to $1.46 billion more in milestone payments and royalties, to find drug targets for the liver disease MASH and for heart muscle diseases called cardiomyopathies. Insitro, a California biotech firm, will use its machine-learning platform built on lab-grown cell models to work on targets AstraZeneca nominates; AstraZeneca funds and runs any later clinical trials and holds worldwide rights to chosen programs.",
+   "reason": "Meaning: facts say insitro works on targets nominated by AstraZeneca, not that it finds them."
+  },
+  {
+   "item_id": "C10-01",
+   "field": "importance_line",
+   "before": "AstraZeneca and insitro are looking for new drug targets for liver and heart disease, which could one day help patients with few treatment options, but most of the money depends on milestones and any medicine is years from the clinic.",
+   "after": "AstraZeneca and insitro are looking for new drug targets for liver and heart disease, which could one day help patients with few treatment options, but most of the money depends on milestones and any medicine must still pass trials.",
+   "reason": "'Years from the clinic' is not in the facts; kept the supported doubt."
+  },
+  {
+   "item_id": "C10-03",
+   "field": "summary",
+   "before": "Medical Republic reports that Australia's Therapeutic Goods Administration found eight of 12 digital scribe products it reviewed, including some of the best-known, have functions likely to qualify as medical devices, because newer AI features can draw clinical conclusions or recommendations rather than only transcribe. The regulator stressed that it did not test safety or performance, and said disclaimers saying a product is not a medical device are not enough.",
+   "after": "Medical Republic reports that Australia's Therapeutic Goods Administration reviewed 12 digital scribe products, some of them the best-known, and found eight have functions likely to qualify as medical devices, because newer AI features can draw clinical conclusions or recommendations rather than only transcribe. The regulator stressed that it did not test safety or performance, and said disclaimers saying a product is not a medical device are not enough.",
+   "reason": "Meaning: the regulator has not named the eight; the best-known products were among the 12 reviewed, which the old wording left ambiguous."
+  },
+  {
+   "item_id": "C13-08",
+   "field": "importance_line",
+   "before": "The details of what changes are sought and by whom are not available to us, and coverage of the Dublin summit shows Microsoft president Brad Smith calling for stronger safety rules, so the direction of the pressure is unclear.",
+   "after": "Any change to the EU's AI law would affect the rules protecting people who use AI in Europe, but which companies want which changes is not yet clear.",
+   "reason": "Headline-only item: removed internal process note ('not available to us') and the side context the facts mark as not to be used; cautious restatement kept."
+  },
+  {
+   "item_id": "C09-12",
+   "field": "importance_line",
+   "before": "Greek electricity customers are meant to be protected from grid costs, data center investors face higher costs and guarantees, and the rules are only a draft until 24 Oct consultation ends.",
+   "after": "Data center investors in Greece would pay their own grid costs and post guarantees, but the rules are only a draft until public comment closes on 24 Oct.",
+   "reason": "Removed an unsupported purpose claim (customers 'meant to be protected'); kept what the facts say."
+  },
+  {
+   "item_id": "C14-02",
+   "field": "headline",
+   "before": "The US Federal Reserve's latest business survey says companies in five of its twelve regions have cut back or delayed hiring because they invested in AI.",
+   "after": "The US Federal Reserve's latest business survey says some companies in five of its twelve regions have cut back or delayed hiring after investing in AI.",
+   "reason": "Meaning: the Beige Book says firms pulled back 'after' investing in AI; 'because' and 'companies' (all) were stronger than the facts."
+  },
+  {
+   "item_id": "C14-03",
+   "field": "summary",
+   "before": "Fortune reports, from an interview with its editor-in-chief Alyson Shontell, that Aneel Bhusri, cofounder and chief executive of Workday (software for HR and finance used by about 60 percent of the Fortune 500, according to Fortune), expects AI to displace “a lot” of jobs “within the next five years”, naming junior auditors and some legal work as examples. He said hands-on workers and people who learn to use AI tools should be fine, and that the main risk is a painful in-between period before displaced workers are retrained.",
+   "after": "Fortune reports, from an interview with its editor-in-chief Alyson Shontell, that Aneel Bhusri, cofounder and chief executive of Workday (software for HR and finance used by about 60 percent of the Fortune 500, according to Fortune), expects AI to displace “a lot” of jobs “within the next five years”, naming junior auditors and some legal work as examples. He said hands-on workers and people who learn to use AI tools should be fine, and that he worries most about an in-between period before displaced workers are retrained.",
+   "reason": "Kept to his words ('what I worry about most'); removed the added drama word 'painful'."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "summary",
+   "before": "CNBC reports in a video headline that MIT professor Daron Acemoglu says mass AI job displacement could be detrimental to democracy.",
+   "after": "CNBC reports, in a video, that MIT professor Daron Acemoglu says mass AI job displacement could be detrimental to democracy.",
+   "reason": "Headline-only item: removed process wording ('video headline'); cautious restatement with attribution kept."
+  },
+  {
+   "item_id": "C14-04",
+   "field": "importance_line",
+   "before": "Workers and policymakers may care about a prominent academic's warning on AI job losses and democracy, but we could not read the interview and have only its headline.",
+   "after": "Workers and policymakers may weigh a prominent academic's warning that mass AI job losses could harm democracy, though it is one expert's view, not a finding.",
+   "reason": "Removed internal process note ('we could not read'); the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C14-06",
+   "field": "importance_line",
+   "before": "Young children and teachers in every Cameroonian school are affected, but only one outlet reports it and the article admits the ban will be hard to enforce at home.",
+   "after": "Young children and teachers in every Cameroonian school are affected, but only one outlet reports it and the article says enforcement at home rests on parents.",
+   "reason": "Meaning: the article says enforcement depends on parents, not that it 'admits' it will be hard."
+  },
+  {
+   "item_id": "C05-11",
+   "field": "importance_line",
+   "before": "Software developers, especially beginners, are the people most affected, but the article's own data shows job postings for developers rose, so Musk's forecast is far from established.",
+   "after": "Software developers, especially beginners, are most affected, but it is one man's forecast in a social media reply, and the article's own job data is mixed.",
+   "reason": "The article's data is mixed (postings up, early-career jobs down); the old line picked one side and drew a conclusion the facts do not make."
+  },
+  {
+   "item_id": "C14-07",
+   "field": "importance_line",
+   "before": "Job seekers get an upbeat signal, but it records what bosses say they expect, not what they actually do, and it sits against warnings of cuts from other executives.",
+   "after": "Job seekers get an upbeat signal, but it records what bosses say they expect, not what they actually do.",
+   "reason": "Removed context not in the facts (other executives' warnings)."
+  },
+  {
+   "item_id": "C16-02",
+   "field": "importance_line",
+   "before": "It hints at a different way to train AI through free play, but it is a small study seen through one outlet, and the researchers say strict guardrails would be needed.",
+   "after": "It hints at a different way to train AI through free play, but it is a small study seen through one outlet, and Gizmodo notes it would need strict guardrails.",
+   "reason": "Misattribution: in the article the guardrails remark is Gizmodo's own comment, not the researchers'."
+  },
+  {
+   "item_id": "C16-03",
+   "field": "importance_line",
+   "before": "It shows how worry about spying at AI labs, after an FBI case, has spilled into public humour, but the underlying security guidance was reported by the Wall Street Journal and we have not seen it.",
+   "after": "It shows how worry about spying at AI labs, after an FBI case, has spilled into public humour, but the security guidance itself comes from a Wall Street Journal report.",
+   "reason": "Removed internal process note ('we have not seen it')."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "source",
+   "before": "A.V. Club (citing Business Insider)",
+   "after": "Business Insider",
+   "reason": "Credit: Musk's quoted remarks are Business Insider's report (first reporter); The A.V. Club relays them in a commentary."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "summary",
+   "before": "The A.V. Club, citing Business Insider's coverage of a Twitter event, reports that Elon Musk, owner of X and chief of SpaceX and Tesla, said he has had 'AI or SI psychosis probably like half a dozen times' this year and 'a little bit of cyber psychosis'. The piece, written as commentary, notes that AI psychosis is not a medically recognised condition and that Musk then praised AI-generated music.",
+   "after": "Business Insider reports, as relayed by The A.V. Club, that Elon Musk, owner of X and chief of SpaceX and Tesla, said at a Twitter event that he has had 'AI or SI psychosis probably like half a dozen times' this year and 'a little bit of cyber psychosis'. The A.V. Club's satirical commentary notes that AI psychosis is not a medically recognised condition and that Musk then praised AI-generated music.",
+   "reason": "Attribution follows the credit fix: Business Insider first reported the remarks; the commentary is The A.V. Club's."
+  },
+  {
+   "item_id": "C16-06",
+   "field": "importance_line",
+   "before": "It shows a leading tech figure describing AI-related delusion in himself, but AI psychosis is not a recognised medical condition and the comment may be partly a joke.",
+   "after": "It shows a leading tech figure describing AI-related delusion in himself, but AI psychosis is not a recognised medical condition.",
+   "reason": "Removed an unsupported guess ('may be partly a joke')."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "summary",
+   "before": "Futurism reports, as relayed by Gizmodo, that startup Outlit sells businesses AI agents that watch customers almost around the clock, reading call logs and public social media posts to build profiles and plans for upselling and winning back lost leads. Founder Josh Earle told Futurism that the practice is legal; Gizmodo's piece is critical commentary and questions what 'anonymized' means for such profiles.",
+   "after": "Futurism reports, as relayed by Gizmodo, that startup Outlit offers businesses AI agents that watch customers almost around the clock, reading call logs and public social media posts to build profiles and plans for upselling and winning back lost leads. Founder Josh Earle told Futurism that the practice is legal; Gizmodo's piece is critical commentary and questions what 'anonymized' means for such profiles.",
+   "reason": "Meaning: facts say Outlit pitches (offers) the idea; no sales or deployment are reported."
+  },
+  {
+   "item_id": "C16-08",
+   "field": "importance_line",
+   "before": "It would affect customers whose calls and public posts are profiled, and raises privacy questions, but we only have the founder's own description of how it works.",
+   "after": "It would affect customers whose calls and public posts are profiled, and raises privacy questions, but the details come only from the startup's own pitch.",
+   "reason": "Removed internal process note ('we only have')."
+  },
+  {
+   "item_id": "C16-09",
+   "field": "summary",
+   "before": "Comic Basics reports that Emily Hampshire, who plays the AI persona E.D.I.T.H. in Marvel's new Disney+ series 'VisionQuest', told New York Comic Con her character is chaotic because Tony Stark gave a copy of his ego, and access to dangerous weapons, to a teenager in the 2019 film 'Spider-Man: Far From Home'. The series premiered on 14 Oct 2026 with two of its eight episodes.",
+   "after": "Comic Basics reports that Emily Hampshire, who plays the AI persona E.D.I.T.H. in Marvel's new Disney+ series 'VisionQuest', told New York Comic Con she pictures the character as Tony Stark's ego bottled in sunglasses, armed with weapons and handed to a teenager, as in 2019's 'Spider-Man: Far From Home'. The series premiered on 14 Oct 2026 with two of its eight episodes.",
+   "reason": "Meaning: she described an imagined picture ('If Tony Stark bottled his ego...'), not a stated cause."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_ids": [
+    "C16-04",
+    "C16-06"
+   ],
+   "type": "duplicate",
+   "note": "Possible overlap, not a clear duplicate: both come from the same Musk remarks at one event. C16-04 is a Creative Bloq column on his 'awesomecore' rebranding of AI music; C16-06 is his 'AI psychosis' remark, which also mentions 'awesome-core'. Different angle; main session to decide whether both stay in Fun."
+  }
+ ]
+}

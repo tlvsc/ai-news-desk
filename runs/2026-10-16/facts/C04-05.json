@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-05",
+ "title": "Can AI break encryption? OpenAI’s new math has cryptographers divided",
+ "source_used": "Scientific American",
+ "article_url": "https://www.scientificamerican.com/article/can-ai-break-encryption-openai-new-math-has-cryptographers-divided/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI posted 722 AI-written maths manuscripts in one go; it withdrew three within a day.",
+  "Matthew Green of Johns Hopkins University suggested a 15 percent chance we could lose confidence in existing public-key encryption.",
+  "Yehuda Lindell (Bar-Ilan University, head of cryptography at Coinbase) says there is no evidence whatsoever of a breakthrough against the underlying problems.",
+  "Dan Boneh of Stanford calls it striking that none of the 722 papers deals with cryptography.",
+  "A preprint by Florian Tramer of ETH Zurich and colleagues, three at Anthropic, tested models on 191 code-breaking challenges; Anthropic says Claude found an improved attack on the HAWK signature scheme.",
+  "Govind Pimpale concedes that no currently deployed algorithm has been broken by AI; Bart Preneel says there is no real reason to panic."
+ ],
+ "quote_evidence": [
+  "Today no currently deployed algorithm has been broken by AI,” Pimpale concedes.",
+  "“I think there is, at least at this moment, no real reason to panic,” he says."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Encryption secures banking and messaging, so even a hypothetical AI-found shortcut would matter, but nothing has been shown.",
+ "event_date": "OpenAI release 6 Oct 2026; debate in the days after",
+ "notes": "Full text read. The 6 Oct release date is from other outlets in the pool; the article says 'last week'."
+}

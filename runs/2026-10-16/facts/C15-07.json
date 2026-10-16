@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-07",
+ "title": "IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost",
+ "source_used": "Quantum Computing Report",
+ "article_url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost/",
+ "fetched": true,
+ "key_facts": [
+  "IBM Research paper using AI agent factories for high-level synthesis chip design",
+  "Target: hardware for the Relay-BP decoder for the [[144,12,12]] bivariate bicycle qLDPC code",
+  "Up to 204x hardware speedup",
+  "11.5x lower AI inference cost using open-weight models",
+  "One coordinator model with four parallel worker agents",
+  "Open-source llm-d serving, 98% prefix-cache hit rate, about $0.11 per million tokens",
+  "52x speedup for $26 in the all-open setup"
+ ],
+ "quote_evidence": [
+  "IBM Research have demonstrated the use of AI agent factories to automate the architectural design of specialized classical hardware for Quantum Error Correction (QEC) decoders, achieving up to a 204x hardware speedup while cutting AI inference costs by 11.5x using open-weight models.",
+  "This allowed the all-open agent factory to deliver a 52x hardware speedup for $26 in inference cost."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "AI agents on open models may make designing quantum decoder chips cheap enough to be practical.",
+ "event_date": "15 Oct 2026",
+ "notes": "Read Quantum Computing Report article via curl (fulltext file was empty). Paper not read directly. Authors named in the article include Abhishek Bhandwaldar, Mihir Choudhury and Ruchir Puri; roles not stated, so not named in the entry."
+}

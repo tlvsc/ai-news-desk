@@ -1,0 +1,17 @@
+{
+ "v1_category": "SEC",
+ "headline": "Perplexity has released the sandbox it uses to keep its AI agents contained as free, open-source software.",
+ "score": 6,
+ "score_reason": "Concrete release with named adopters, but the security results are the company's own claims.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers building AI agents can now use a containment tool tested against escape attempts, but the 118-attempt result comes from Perplexity itself and has not been independently checked.",
+ "source": "SiliconANGLE, citing Semafor",
+ "status": "REPORTED",
+ "summary": "SiliconANGLE reports, citing a Semafor interview, that Perplexity AI, a search-engine startup, has made SPACE open source; the tool runs each AI agent inside its own small virtual machine so that mistakes or hostile instructions cannot reach the host computer or company network. Perplexity engineer Zibi Braniecki told Semafor that nine leading AI models failed to break out in 118 attempts, although some found ways around network limits that Perplexity says it has since fixed, and cloud firms CoreWeave, Akamai and Crusoe are already deploying it.",
+ "url": "https://siliconangle.com/2026/10/15/perplexity-ai-open-sources-its-secure-ai-agent-sandbox-space/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Original investing.com link was blocked; text read at SiliconANGLE, which credits a Semafor interview. Escape-test figures are Perplexity's own.",
+ "item_id": "C03-01"
+}

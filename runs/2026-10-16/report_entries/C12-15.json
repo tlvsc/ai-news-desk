@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "A data-stealing program called Aoki now also grabs the login tokens of AI coding assistants such as Claude, Codex, Cursor and Gemini, according to Symantec.",
+ "score": 5,
+ "score_reason": "Credible vendor report of a real malware change; no victim numbers and no known culprit.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software developers whose computers are infected could have their AI accounts run up bills and their code and cloud systems opened up, though Symantec gives no victim numbers and does not know who is behind the program.",
+ "source": "Infosecurity Magazine, citing Symantec",
+ "status": "REPORTED",
+ "summary": "Infosecurity Magazine reports, citing a Symantec report, that newer versions of the Aoki infostealer, a program that steals passwords and login files, now also target the credentials of AI coding assistants including Anthropic's Claude, OpenAI's Codex, Cursor and Google's Gemini. Symantec says such tokens can let an attacker run up usage on a victim's account or reach their code and cloud systems, and it does not know who is behind the malware.",
+ "url": "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. Based on one Symantec report; no victim counts given."
+}

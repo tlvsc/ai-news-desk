@@ -1,0 +1,26 @@
+{
+ "item_id": "C08-16",
+ "title": "How Windows is being optimized for Nvidia's RTX Spark laptops",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+ "fetched": true,
+ "key_facts": [
+  "RTX Spark laptops use Arm-based chips with an Nvidia Blackwell GPU and unified memory, so they run x64 Windows apps through Microsoft's Prism emulator, which Microsoft tuned for the chip's design.",
+  "A new Get Started experience lets users find, install and open an AI agent in two clicks; agents install and update through the Windows Store.",
+  "Hermes, Perplexity and OpenClaw are the first three officially supported agents; the reviewer had trouble setting up OpenClaw and needed a reinstall.",
+  "Microsoft ships a Prism compatibility update every month, according to Peter Dawoud, principal program manager at Microsoft.",
+  "Microsoft's Surface Laptop Ultra can have up to 128GB of unified memory; a slider in Nvidia's Windows app sets how much goes to the GPU.",
+  "Anti-cheat support is built in for Fortnite, Marvel Rivals, Arc Raiders, Counter-Strike 2 and Dota 2; Call of Duty's Ricochet is due in 2027, Battlefield in early 2027, PUBG in the first half of 2027.",
+  "Reviewer's gaming tests: medium settings at 1440p with DLSS performance gave a stable 60fps in most games.",
+  "Copilot Plus PC features such as Recall are not available at launch; Microsoft expects them to reach Windows Insiders later this year."
+ ],
+ "quote_evidence": [
+  "Emulation isn't generic. Each platform needs tuning.",
+  "Surprisingly, Copilot Plus PC features like Recall aren't available on RTX Spark devices at launch.",
+  "Large local models are still a lot slower at responding to prompts than cloud models."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows what Microsoft changed in Windows so AI agents and games run on Arm-based Nvidia laptops, and what is still missing.",
+ "event_date": "Published 15 Oct 2026; based on an Nvidia event the day after the San Francisco launch event of the previous week.",
+ "notes": "Hands-on report by The Verge's Tom Warren with Microsoft quotes; Microsoft statements are company claims. Follow-up of the 9 Oct launch/price story (C08-02 that day). Viral rule: carried by 20 outlets, score floor 7."
+}

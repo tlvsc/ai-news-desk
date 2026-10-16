@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "Nvidia has released Nemotron 3.5 Super VL, an open model with 120 billion parameters aimed at business AI agents that run continuously, along with two smaller models for local computers.",
+ "score": 6,
+ "score_reason": "Notable open release tied to Nvidia hardware; benchmark claims are mostly Nvidia's own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Companies that want to run AI agents on their own servers gain an open option, but most performance claims come from Nvidia and the models are tuned to sell its hardware.",
+ "source": "The Decoder",
+ "status": "REPORTED",
+ "summary": "The Decoder reports that Nvidia has released Nemotron 3.5 Super VL, an open multimodal model (it reads text, images, documents and video) with 120 billion parameters, of which only 12 billion are active at a time, built for business agents that run in the background. Nvidia says it matches the accuracy of its larger Ultra model at about a fifth of the size and shares training data and tools too, while The Decoder notes the models are tuned for Nvidia hardware, which drives demand for its chips.",
+ "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. Performance numbers are Nvidia's claims; EXO Labs test is the one independent test cited."
+}

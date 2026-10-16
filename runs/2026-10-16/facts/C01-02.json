@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-02",
+ "title": "Microsoft says it has finished training MAI-Base-2, a 2.8 trillion-parameter AI model it claims needs far less computing power than a leading Chinese rival to reach the same results.",
+ "source_used": "Microsoft, as reported by BigGo Finance",
+ "article_url": "https://finance.biggo.com/news/628565eb-7cc6-46b5-a61f-8be6fcbebc5b",
+ "fetched": true,
+ "key_facts": [
+  "Microsoft completed pre-training of MAI-Base-2, 2.8 trillion total parameters",
+  "Trained 38 days (Aug-Sep) on 16,000 Nvidia GB200 GPUs, about 50 trillion tokens; 18% visual data",
+  "Mixture-of-experts: about 80 billion parameters active during use",
+  "Microsoft claims 4.2x to 12.3x less compute than DeepSeek-V4-Pro-Base for equal performance (internal evaluation)",
+  "Successor to MAI-Base-1 from June; unique training data up about 36%; no distillation from other models' outputs",
+  "Post-training ongoing; plans to offer weights to enterprise customers via Microsoft Foundry; availability and pricing undisclosed",
+  "Preparing MAI-Base-3"
+ ],
+ "quote_evidence": [
+  "Microsoft announced on its official blog on the 16th that it has completed pre-training of \"MAI-Base-2,\" a next-generation foundation model with a total of 2.8 trillion parameters.",
+  "According to Microsoft's internal evaluation results, MAI-Base-2 outperformed all major open-weight models used as benchmarks.",
+  "General availability timing and pricing have not yet been disclosed."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Efficiency claims, if confirmed, would lower the cost of training and running very large models.",
+ "event_date": "15 Oct 2026",
+ "notes": "Investing.com original returned 403; read BigGo Finance relaying Microsoft's blog. BigGo says blog dated the 16th, other outlets report 15 Oct. Efficiency figures are Microsoft's own, not independently verified."
+}

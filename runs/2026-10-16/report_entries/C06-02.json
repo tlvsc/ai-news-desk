@@ -1,0 +1,17 @@
+{
+ "item_id": "C06-02",
+ "v1_category": "MKT",
+ "headline": "Meta and Apple worked together so that Meta's new open-weight AI model, Muse Spark Open, can run on two high-end Apple Mac Studio computers.",
+ "score": 7,
+ "score_reason": "Pool score kept: a rare joint effort by two rivals, but the performance claims are Meta's own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Gives developers and companies a route to run a top-tier open model on their own desk machines instead of rented servers, though it takes two top-end Mac Studios and the capability claims are Meta's.",
+ "source": "The Verge",
+ "status": "CONFIRMED",
+ "summary": "The Verge reports that Meta released the weights (the trained numbers that define the model) of Muse Spark Open, an 816-billion-parameter AI model, and says two Apple M5 Ultra Mac Studio computers can run it using Apple's MLX software framework. Meta CEO Mark Zuckerberg and Apple CEO John Ternus publicly backed each other's work on X, but the label \"most capable US open-weight model\" is Meta's own claim.",
+ "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Model itself also appears in category 1 (C01-01); this entry covers the partnership."
+}

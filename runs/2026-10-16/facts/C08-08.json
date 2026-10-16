@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-08",
+ "title": "Nvidia and Cisco unveil next-gen network interface built for the AI data center boom",
+ "source_used": "SiliconANGLE (guest column by Zeus Kerravala, ZK Research)",
+ "article_url": "https://siliconangle.com/2026/10/13/ciscos-ocp-message-the-network-is-now-ais-critical-path-and-openness-is-the-price-of-admission/",
+ "fetched": true,
+ "key_facts": [
+  "At the Open Compute Project Global Summit in San Jose, Cisco showed a new pluggable optics form factor developed with Nvidia, called USFP (Ultra-Dense Small Form Factor Pluggable).",
+  "USFP is the first pluggable module designed for 400-gigabit-per-lane signalling, up to 12.8 Tbps, about four times the bandwidth density of today's leading modules.",
+  "It is being standardised as a multisource agreement with TE Connectivity and Amphenol.",
+  "Cisco says the rival XPO approach needs liquid cooling, which no optic needs today.",
+  "Cisco also shipped its first Silicon One G300 systems and introduced the G302 top-of-rack chip.",
+  "The largest AI clusters now use hundreds of thousands of GPUs, so network slowdowns leave costly GPUs idle."
+ ],
+ "quote_evidence": [
+  "The Ultra-Dense Small Form Factor Pluggable, or USFP (pictured), is the first pluggable module designed for 400-gigabit-per-lane signaling, delivering up to 12.8 Tbps and about four times the bandwidth density of today's leading modules.",
+  "USFP is being standardized as a multisource agreement with TE Connectivity and Amphenol."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Faster, standard optics ease the network bottleneck in giant AI clusters.",
+ "event_date": "OCP Global Summit, this week of 13 Oct 2026",
+ "notes": "TechSpot returned 403. Read SiliconANGLE's analyst column on the same announcements. Cisco's claims are company statements; the analyst's praise is opinion."
+}

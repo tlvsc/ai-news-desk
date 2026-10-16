@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-07",
+ "title": "Ant Group's Bailing team has released Ling-3.1-flash, an open-source AI model with about 560 billion parameters and support for very long documents.",
+ "source_used": "KuCoin News, citing Ant Group's Bailing team",
+ "article_url": "https://www.kucoin.com/news/flash/ant-group-s-bailing-open-sources-ling-3-1-flash-ai-model-with-1m-context-support",
+ "fetched": true,
+ "key_facts": [
+  "Ant Group's Bailing (written Bailin in the article) open-sourced Ling-3.1-flash",
+  "About 560B total parameters, about 25B active per token, 1 million token context",
+  "Artificial Analysis intelligence score 41, output about 210 tokens per second",
+  "Compression cut weights from about 534 GB to 292 GB; deployment from 8 to 4 Hopper GPUs",
+  "First token in 604 ms on 8 GPUs in simulated production tests",
+  "About 1.36 QPS on 4 GPUs under stated latency limits",
+  "Limited-time 2.5x discount on the online service"
+ ],
+ "quote_evidence": [
+  "Ling-3.1-flash has approximately 560 billion total parameters, activates about 25 billion parameters per token, and supports a maximum context length of 1 million.",
+  "In the public evaluation by Artificial Analysis, Ling-3.1-flash has an intelligence score of 41 and an output speed of approximately 210 tokens per second.",
+  "On the corresponding Hopper GPU test configuration, service deployment was reduced from 8 GPUs to 4 GPUs"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Fewer chips needed to self-host a large long-context model.",
+ "event_date": "15 Oct 2026",
+ "notes": "KuCoin flash article, which relays the team's announcement; the original announcement was not read. Article says 'yesterday', published 16 Oct 00:59 UTC."
+}

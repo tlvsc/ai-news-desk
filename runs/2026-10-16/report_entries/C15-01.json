@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-01",
+ "v1_category": "RES",
+ "headline": "Google's quantum team has shown on real hardware a way to make the special quantum building blocks that error-corrected computers need with far less error and far fewer qubits.",
+ "score": 8,
+ "score_reason": "Peer-reviewed in Science, first hardware demonstration of a long-predicted technique; verified from a detailed trade report.",
+ "importance_label": "HIGH",
+ "importance_line": "This is a hardware proof of an idea Google proposed in theory in 2024, and it points to future error-corrected quantum computers needing fewer qubits, which matters first to quantum researchers and hardware companies; it is one lab's result on a small code and does not by itself show a full-scale machine.",
+ "source": "Quantum Computing Report",
+ "status": "CONFIRMED",
+ "summary": "Quantum Computing Report reports that Google Quantum AI, in a study published in Science, ran a technique called magic state cultivation on its Willow superconducting chip, cutting errors about 40-fold and reaching a record 99.99% fidelity (a measure of how accurate a quantum state is) for the special \"T-states\" that universal quantum computers require. Until now such states were expected to take up 90% to 95% of a fault-tolerant machine's qubits when made by the older distillation method, while cultivation uses a small error-checking code and then moves the cleaned state into a larger one.",
+ "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Science page blocked (403); read the Quantum Computing Report article on the same Science paper. Google blog and paper not read directly."
+}

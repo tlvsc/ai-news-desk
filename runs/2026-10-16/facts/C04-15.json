@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-15",
+ "title": "An Israeli AI startup says it cracked a 38 year old graph theory bound for $2,000",
+ "source_used": "Startup Fortune (relaying Calcalist)",
+ "article_url": "https://startupfortune.com/an-israeli-ai-startup-says-it-cracked-a-38-year-old-graph-theory-bound-for-2000/",
+ "fetched": true,
+ "key_facts": [
+  "Israeli startup doubleAI says its autonomous Double Agent system improved a graph theory girth bound that stood since 1988.",
+  "The best earlier explicit constructions (Margulis; Lubotzky, Phillips and Sarnak) reached a girth coefficient of 4/3; Double Agent reached 8/5, the theoretical ceiling being 2.",
+  "It reportedly used under $2,000 of computing with no human steering the maths.",
+  "The proof is written in the Lean proof assistant, so others can check it.",
+  "Girth matters for building low-density parity-check error-correcting codes.",
+  "Nothing has been peer reviewed; the 'first improvement in 38 years' framing should be treated as the company's claim.",
+  "doubleAI is led by Mobileye co-founder Amnon Shashua of Hebrew University."
+ ],
+ "quote_evidence": [
+  "Nothing about this result has gone through peer review yet, and extremal graph theory is a field with a small number of experts who will need time to pick the construction apart, Lean formalization or not.",
+  "Treat the \"first improvement in 38 years\" framing as doubleAI's claim until independent mathematicians weigh in publicly."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If it holds, a cheap AI run moved a decades-old maths bound that feeds error-correcting codes.",
+ "event_date": "Not stated; reported 15 Oct 2026",
+ "notes": "Full text read. Startup Fortune relays a Calcalist report (Calcalist not read directly). Company claim, not peer reviewed."
+}

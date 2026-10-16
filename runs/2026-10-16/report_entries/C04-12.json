@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-12",
+ "v1_category": "RES",
+ "headline": "Google Research says its experimental Earth AI agent, which plans map and satellite analyses, scored 62.7 on a test of how closely it follows expert workflows.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: Google reported it on 14 Oct 2026, and the results are the company's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Health and disaster agencies may get faster map analysis, but the score measures workflow quality rather than correct answers, comes from Google, and access is limited to early users.",
+ "source": "NeoTeo, citing Google Research",
+ "status": "REPORTED",
+ "summary": "NeoTeo reports, citing Google Research, that its Geospatial Reasoning agent running on Gemini 3.8 Flash scored 62.7 on GeoExpertQueries, against 3.3 for the same model with basic tools, though the test measures workflow quality, not whether answers are correct. Google says the World Health Organization's Africa office used it during an Ebola outbreak in the Democratic Republic of the Congo to map 48 exposed settlements and more than 45,500 people at risk in minutes rather than weeks.",
+ "url": "https://www.neoteo.com/en/google-reports-benchmark-results-for-its-experimental-earth-ai-geospatial-agent",
+ "freshness": "FOLLOW-UP of 14 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file. Google's own benchmark."
+}

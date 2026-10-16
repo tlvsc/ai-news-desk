@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-05",
+ "title": "OpenAI promised developers six months’ notice. GPT-4o users got three.",
+ "source_used": "The New Stack",
+ "article_url": "https://thenewstack.io/openai-gpt4o-api-shutdown/",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI will retire GPT-4o, GPT-4o mini, GPT-4.1 and GPT-4.1 mini from its API on 14 Jan 2027, including dated snapshots and fine-tuned models built on them.",
+  "The notice went to developers on Wednesday (14 Oct 2026, by the article's timing), about three months ahead.",
+  "OpenAI's own policy promises at least six months' notice for generally available models, with exceptions for safety or compliance; no reason was given here.",
+  "The recommended replacement, GPT-6 Luna, costs $0.10 per million input tokens and $0.50 per million output tokens, but handles reasoning and tool calls differently.",
+  "Above 272,000 input tokens, input pricing doubles and output rises 50% for the whole request.",
+  "New self-serve fine-tuning jobs end on 6 Jan 2027.",
+  "The List models API now has a shutdown_date field.",
+  "Customers needing more time may arrange dedicated capacity with OpenAI sales."
+ ],
+ "quote_evidence": [
+  "The three-month warning also falls short of OpenAI's own deprecation policy, which promises at least six months' notice for generally available models.",
+  "The policy allows exceptions for safety or compliance reasons, but there's no explanation for why GPT-4o and GPT-4.1 are getting only half that time.",
+  "OpenAI is retiring four GPT-4 models from its API on January 14, 2027."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Developers must migrate production apps in three months, half the notice OpenAI's policy promises.",
+ "event_date": "14 Oct 2026 (notice sent Wednesday)",
+ "notes": "Article does not give the notice date explicitly; 'Wednesday' with a 15 Oct publication implies 14 Oct. Single outlet's reading of OpenAI's notice."
+}

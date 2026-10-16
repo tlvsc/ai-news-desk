@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-03",
+ "title": "Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction",
+ "source_used": "Quantum Computing Report",
+ "article_url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction/",
+ "fetched": true,
+ "key_facts": [
+  "Joint arXiv manuscript by Google Quantum AI, Google DeepMind and MIT researchers",
+  "Paper: Low-Overhead Quantum Error Correction with Boundary-Connected Planar Modules",
+  "Over 30x lower physical-qubit overhead than standard 2D surface codes",
+  "Flat modules of 72 or 116 qubits linked across boundary seams in a hyperbolic tiling",
+  "Circuit-level simulations decoded with the AlphaQubit neural network and matching decoders",
+  "Tolerates inter-module seam noise of 1%, 10x the on-chip gate error",
+  "Fault-tolerant logic via code automorphisms and ribbon extractors about 4.5x smaller than the memory"
+ ],
+ "quote_evidence": [
+  "Researchers from Google Quantum AI, Google DeepMind, and MIT have introduced a modular quantum error correction (QEC) architecture that reduces physical qubit overhead by more than 30x compared to standard 2D surface codes.",
+  "Circuit-level simulations under the SI1000 noise model decoded via the AlphaQubit neural network and correlated minimum-weight perfect matching demonstrated high tolerance to elevated inter-module seam noise."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Modular chips could ease the wiring problem that has held back efficient qLDPC codes.",
+ "event_date": "15 Oct 2026 (arXiv)",
+ "notes": "Read Quantum Computing Report article (ext fetch via curl; fulltext file was empty). arXiv paper not read directly. Simulation only."
+}

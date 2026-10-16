@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-07",
+ "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia's first RTX Spark laptops go on sale Friday 16 Oct, running full Windows 11 on an Arm-based chip, using Microsoft's Prism emulator for older apps.",
+  "Justin Walker, Nvidia senior director of products, said 'all your apps, all your games, everything's going to run great'.",
+  "Nvidia says it supports anti-cheat software for Fortnite, Roblox, Rust and others, with Call of Duty, Valorant and more coming later.",
+  "Verge testers found some CPU-bound games stuck at about 30fps; graphics power is akin to a midrange RTX 5060 laptop GPU.",
+  "Prices: Surface Laptop Ultra from $2,600 up to $5,900 for 128GB of memory; Verge calls it expensive partly because memory prices have soared.",
+  "The RTX Spark chip is the same one Nvidia put in AI developer mini desktops a year ago, which ran Linux."
+ ],
+ "quote_evidence": [
+  "\"All your apps, all your games, everything's going to run great on Spark,\" Nvidia senior director of products Justin Walker told journalists last week.",
+  "The reality is that some \"CPU-limited\" games will run slower because Microsoft's Prism has to convert their x86 instructions to Arm instructions in real time"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If Windows apps and games run well on Arm, Nvidia and Qualcomm laptops become more real rivals to Intel, AMD and Apple.",
+ "event_date": "Launch 16 Oct 2026",
+ "notes": "Verge opinion piece with early hands-on testing; Nvidia claims noted as claims."
+}

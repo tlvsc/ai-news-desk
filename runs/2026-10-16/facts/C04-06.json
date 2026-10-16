@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-06",
+ "title": "Researchers Dispute Whether AI Has Passed Turing Test",
+ "source_used": "Mirage News (carrying a University of Canterbury release)",
+ "article_url": "https://www.miragenews.com/researchers-dispute-whether-ai-has-passed-1761627/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at the University of Canterbury (New Zealand), philosopher Diane Proudfoot, PhD student Sharon Temtsin and Professor Christoph Bartneck, argue many 'Turing Tests' do not follow Turing's original design.",
+  "They say the five-minute limit and the 30 percent fooled rule were not Turing's rules; he envisaged an open-ended three-player game.",
+  "They ran what they say is the first experiment of Turing's original design, using GPT-4-Turbo.",
+  "36 of 37 participants (97 percent) correctly identified GPT-4-Turbo; 33 (89 percent) took longer than five minutes; the average chat lasted 14 minutes, the longest 46.",
+  "The authors say no large language model has yet been shown to pass the original design, but newer models may perform differently.",
+  "Published in Philosophy of Science."
+ ],
+ "quote_evidence": [
+  "Of 37 participants, 36 correctly identified GPT-4-Turbo - a recognition rate of 97%.",
+  "The researchers stress that their findings do not show that all current or future AI models would fail."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Claims that AI has 'passed the Turing Test' depend on which version of the test is used.",
+ "event_date": "Not stated; reported 16 Oct 2026",
+ "notes": "Mirage News carries a University of Canterbury press release; the university is credited as source. Study used an older model."
+}

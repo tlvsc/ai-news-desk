@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-03",
+ "title": "Nvidia has released Nemotron 3.5 Super VL, an open model with 120 billion parameters aimed at business AI agents that run continuously, along with two smaller models for local computers.",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia released Nemotron 3.5 Super VL, open multimodal, 120B parameters with 12B active per token",
+  "Built for enterprise agents running continuously; developed with the Nemotron Coalition (Mistral AI, Thinking Machines Lab, Perplexity, Black Forest Labs)",
+  "Two smaller Bolt models for local PCs and edge devices: 74B-A9B 24GB now, E4B 4GB later this month",
+  "Nvidia says it matches Nemotron 3 Ultra accuracy with about one-fifth the parameters on agent tasks",
+  "Up to five times the throughput of similar open models on a single GPU, per Nvidia citing Artificial Analysis",
+  "Also releases training data and open datasets, including one with 22 Indian languages",
+  "Nvidia recently invested $12.9 billion in Hugging Face (per The Decoder)"
+ ],
+ "quote_evidence": [
+  "Nvidia has released Nemotron 3.5 Super VL, an open multimodal model with 120 billion parameters built for enterprise agents.",
+  "Nvidia releases the models openly but tunes them for its own products, from data center servers to workstations.",
+  "The strategy behind Nvidia's open models is self-serving."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open models let firms fine-tune on their own data and keep it on their own servers.",
+ "event_date": "15 Oct 2026",
+ "notes": "Full text read. Performance numbers are Nvidia's claims; EXO Labs test is the one independent test cited."
+}

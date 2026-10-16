@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-05",
+ "title": "CERN, the European particle physics laboratory, and French AI company Mistral have signed a statement of intent to build the first foundation model for collider physics.",
+ "source_used": "CERN",
+ "article_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+ "fetched": true,
+ "key_facts": [
+  "CERN and Mistral signed a statement of intent for a long-term partnership on foundation models for scientific discovery",
+  "Goal: a single pretrained Large Physics Model, first foundation model for collider physics",
+  "Trained on billions of simulated proton-proton collisions at the LHC",
+  "Tasks: reconstructing collisions, identifying particles, flagging unexpected signals, evaluating future detector designs",
+  "CERN holds about one exabyte of LHC data; collisions to rise tenfold with the HL-LHC around 2030",
+  "Quoted: Enrica Porcari (CERN Chief Information Officer) and Johannes Brandstetter (Mistral VP of AI for Engineering)",
+  "Initial focus is high-energy physics"
+ ],
+ "quote_evidence": [
+  "CERN, the European Laboratory for Particle Physics, and Mistral, a European developer of large-scale AI models, have signed a statement of intent to establish a long-term strategic partnership focused on developing foundation models for scientific discovery.",
+  "At the heart of this work is the ambition to develop a single pretrained Large Physics Model – the first foundation model for collider physics.",
+  "CERN is home to one of the world's largest volumes of scientific data, with around one exabyte – one million terabytes – of experimental data from the LHC stored to date."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "One shared model could replace a chain of specialised analysis steps.",
+ "event_date": "15 Oct 2026",
+ "notes": "Reuters returned 401; read CERN's own announcement instead and credited CERN. Reuters also carried the story. Category set to RES (physics science) from default MOD."
+}

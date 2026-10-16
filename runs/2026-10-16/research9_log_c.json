@@ -1,0 +1,115 @@
+{
+ "C12-08": {
+  "result": "NOT FOUND",
+  "sources_read": [
+   "Google News searches (about 7); SCMP page blocked; Anthropic post 'GLM-5.3 and the spread of advanced cyber capabilities', Unite.AI GLM-5.3 launch article and ASPI Strategist piece read: none mentions the fake-safety-test fear"
+  ],
+  "changed": {}
+ },
+ "C12-09": {
+  "result": "NOT FOUND",
+  "sources_read": [
+   "Google News searches (about 7); Reuters, Investing.com and Investing.com South Africa copies all blocked; only related older items (proposed Rule 707, May 2026 Reuters on panel delay) seen as headlines"
+  ],
+  "changed": {}
+ },
+ "C16-05": {
+  "result": "FOUND",
+  "sources_read": [
+   "https://www.nbcboston.com/entertainment/entertainment-news/ai-generated-rumpelstiltskin-meme/4027565/",
+   "https://trending.knowyourmeme.com/editorials/guides/is-the-rumpelstiltskin-tip-toein-in-my-jordans-meme-ai-the-viral-80s-fantasy-movie-memes-explained",
+   "https://earlygame.com/news/entertainment/creepy-ai-rumpelstiltskin-sends-viewers-searching-for-a-movie-that-never-existed"
+  ],
+  "changed": {
+   "entry": {
+    "headline": {
+     "old": "Know Your Meme has added an entry for a video titled 'AI Rumpelstiltskin: Tip Toein' In My Jordans'.",
+     "new": "NBC Boston reports that an AI-made video of a dancing Rumpelstiltskin-like imp, which many viewers took for a clip from an old film, has become a viral meme set to a Riff Raff song."
+    },
+    "score_reason": {
+     "old": "The page has almost no text, so the story is unverified; one point below the pool score.",
+     "new": "Pool score kept; the story is now confirmed by two outlets (NBC Boston and Know Your Meme) and is a light, widely shared internet moment."
+    },
+    "importance_line": {
+     "old": "It is a passing internet joke with no stated reach or origin, so there is little to weigh beyond the entry itself.",
+     "new": "It shows how an AI clip can fool people into hunting for a film that does not exist and still become a joke millions copy; the total number of views across all versions was not given."
+    },
+    "source": {
+     "old": "Know Your Meme",
+     "new": "NBC Boston, citing Know Your Meme"
+    },
+    "status": {
+     "old": "REPORTED",
+     "new": "CONFIRMED"
+    },
+    "summary": {
+     "old": "Know Your Meme lists a video titled 'AI Rumpelstiltskin \"Tip Toein' In My Jordans\"', but the page gives no further detail on who made it or how widely it spread.",
+     "new": "NBC Boston reports that a clip showing an imp dancing for a frightened woman in a heap of straw, turning the straw into gold and then becoming a prince when she kisses him, was taken by many viewers for a scene from an old fantasy film, such as the 1987 musical 'Rumpelstiltskin'. It was in fact made with AI and posted in August by Tatyana Tereshchenko, who describes herself as an AI artist and filmmaker. Know Your Meme, a website that tracks internet memes, says a TikTok user paired the clip with Riff Raff's song 'Tip Toe Wing In My Jawwdinz' and a joke about dollar-store melatonin dreams, a post that passed 900,000 views; people now swap in other characters and public figures."
+    },
+    "url": {
+     "old": "https://knowyourmeme.com/videos/440849-ai-rumpelstiltskin-tip-toein-in-my-jordans",
+     "new": "https://www.nbcboston.com/entertainment/entertainment-news/ai-generated-rumpelstiltskin-meme/4027565/"
+    },
+    "verified_text": {
+     "old": false,
+     "new": true
+    },
+    "notes": {
+     "old": "Page text too thin to verify details; no other outlet checked as it is a meme listing.",
+     "new": "Read in full on NBC Boston and on a Know Your Meme guide; the exact date NBC Boston published its report was not shown in the text."
+    }
+   },
+   "facts": {
+    "source_used": {
+     "old": "Know Your Meme",
+     "new": "NBC Boston (with Know Your Meme guide and EarlyGame)"
+    },
+    "key_facts": {
+     "old": [
+      "Know Your Meme has an entry titled 'AI Rumpelstiltskin \"Tip Toein' In My Jordans\"'.",
+      "The page text is only an embedded tweet caption from @TheAKGuy, with a joke about a 'ham planet' and cookies.",
+      "No explanation of the video's origin, creator or reach was in the text we could read."
+     ],
+     "new": [
+      "The clip shows an imp-like character dancing for a woman sitting in straw; he turns the straw into gold coins and, when she kisses him, becomes a prince.",
+      "Many viewers thought it came from an old film; some pointed to the real 1987 musical 'Rumpelstiltskin'; it is AI-generated.",
+      "Original posted in August 2026 (27 August per EarlyGame) on Instagram by Tatyana Tereshchenko (Stroinaya), a self-described AI artist and filmmaker.",
+      "A TikTok user, @6aimbot9, paired it with Riff Raff's 'Tip Toe Wing In My Jawwdinz' and the caption 'The type of dreams I be having after taking dollar store melatonin' (29 September per EarlyGame); more than 900,000 views.",
+      "Users replaced the imp with characters such as Sam and Dean Winchester, Wednesday Addams, Ronald McDonald and public figures such as Gypsy-Rose Blanchard.",
+      "Know Your Meme says it spread on X, TikTok and Instagram Reels between late September and early October 2026."
+     ]
+    },
+    "quote_evidence": {
+     "old": [
+      "AI Rumpelstiltskin \"Tip Toein' In My Jordans\" (page title)"
+     ],
+     "new": [
+      "It took days before viewers began realizing it was simply AI-generated. (NBC Boston)",
+      "The type of dreams I be having after taking dollar store melatonin (TikTok caption, as quoted by NBC Boston)"
+     ]
+    },
+    "status": {
+     "old": "REPORTED",
+     "new": "CONFIRMED"
+    },
+    "why_it_matters_hint": {
+     "old": "Only a headline-level meme listing; no further context.",
+     "new": "An AI clip fooled people into searching for a film that does not exist, then became a copied joke."
+    },
+    "event_date": {
+     "old": "not stated",
+     "new": "clip posted August 2026; meme spread late September to early October 2026"
+    },
+    "notes": {
+     "old": "Page held almost no text (574 characters); treated as headline only.",
+     "new": "Read NBC Boston in full, plus the Know Your Meme guide and EarlyGame."
+    },
+    "article_url": {
+     "old": "https://knowyourmeme.com/videos/440849-ai-rumpelstiltskin-tip-toein-in-my-jordans",
+     "new": "https://www.nbcboston.com/entertainment/entertainment-news/ai-generated-rumpelstiltskin-meme/4027565/"
+    }
+   }
+  },
+  "score_note": "score 2 kept: stated as 'pool score less one'; new text does not change the pool score, left at 2 for the main session to decide."
+ }
+}

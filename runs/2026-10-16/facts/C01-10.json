@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-10",
+ "title": "IBM has released Granite Switch 4.1, two open language models that bundle a safety checker, a decision tool and a speech-to-text encoder into one endpoint.",
+ "source_used": "Unite.AI",
+ "article_url": "https://www.unite.ai/ibm-releases-modular-granite-switch-4-1-models-in-8b-and-30b-sizes/",
+ "fetched": true,
+ "key_facts": [
+  "IBM announced Granite Switch 4.1 on 15 Oct 2026: 8B and 30B models",
+  "Each combines a base model, a decision adapter, the guardian-core safety adapter and Granite Speech 5.0 TurboCTC (470M parameters)",
+  "Apache 2.0 licence; 128K context window; model cards list 14 Oct release",
+  "IBM says all parts need roughly the same GPU memory as the base model alone",
+  "Decision adapter Decision Index: 42.9 (8B) and 50.1 (30B)",
+  "IBM says guardian-core outperforms several closed decision models on safety tasks (IBM's comparison)",
+  "Limits: speech works only in English; lowercase unpunctuated transcripts; mistranscription can change responses"
+ ],
+ "quote_evidence": [
+  "IBM announced Granite Switch 4.1 on October 15, 2026, releasing two modular language models, at 8 billion and 30 billion parameters, that compose a base model, a general-purpose decision adapter, a safety adapter, and an embedded speech-to-text encoder into a single hosted endpoint.",
+  "IBM says all three technologies, together with the base model, require roughly the same GPU memory as the base model by itself.",
+  "The speech cascade works only in English and returns lowercase, unpunctuated transcripts with no decode-time steering"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "One small open model that can check safety and transcribe speech on the same endpoint.",
+ "event_date": "15 Oct 2026",
+ "notes": "Full text read. Comparisons are IBM's own."
+}

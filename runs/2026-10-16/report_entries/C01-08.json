@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-08",
+ "v1_category": "MOD",
+ "headline": "Chinese company Kunlun Tech has released Matrix-Game 4.0, an open-source system that lets AI generate a playable game in real time on a single consumer graphics card.",
+ "score": 5,
+ "score_reason": "Interesting open release, but the 'world's first' and speed claims are Kunlun's own comparison.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Game developers and researchers get open tools to try AI-rendered games on one high-end gaming card, but the 'first' claim and the speed comparisons come from Kunlun itself.",
+ "source": "BigGo Finance, citing Kunlun Tech",
+ "status": "REPORTED",
+ "summary": "BigGo Finance reports that Kunlun Tech released Matrix-Game 4.0 on 15 October 2026 as open source, saying it is the first video-generating game system to run on a single consumer graphics card, an Nvidia RTX 5090, at 480p and 60 frames a second. A normal game engine keeps track of the rules and the world while the AI model only draws the pictures, and the company says delay between a key press and the screen reacting was about 112 milliseconds in its own tests.",
+ "url": "https://finance.biggo.com/news/9d295eb2-edd6-495b-8ab6-cfadf774196c",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. All performance claims are Kunlun's own."
+}

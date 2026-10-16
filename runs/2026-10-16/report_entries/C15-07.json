@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-07",
+ "v1_category": "RES",
+ "headline": "IBM researchers used teams of AI agents running on open models to design a chip for decoding quantum errors, at a fraction of the usual AI cost.",
+ "score": 5,
+ "score_reason": "Research preprint of interest to quantum and AI engineers; savings are the authors own figures.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It suggests AI agents could help design the specialised classical chips that error-corrected quantum computers need, which matters to quantum and chip engineers, but the figures are the authors' own and apply to one decoder design.",
+ "source": "Quantum Computing Report",
+ "status": "PRELIMINARY",
+ "summary": "Quantum Computing Report reports that IBM Research used an \"agent factory\" of cooperating AI agents on open-weight models to design hardware for a quantum error-correction decoder, cutting AI inference costs by 11.5 times and reaching up to a 204 times hardware speedup. In the all-open setup, a 52 times speedup cost $26 in inference, according to the authors' paper.",
+ "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Quantum Computing Report article via curl (fulltext file was empty). Paper not read directly. Authors named in the article include Abhishek Bhandwaldar, Mihir Choudhury and Ruchir Puri; roles not stated, so not named in the entry."
+}

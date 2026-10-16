@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-01",
+ "v1_category": "SEC",
+ "headline": "Anthropic has given six researchers from the independent testing group METR the same kind of access to its models and internal tools as its own staff, and METR can publish what it finds.",
+ "score": 7,
+ "score_reason": "Rare move from a leading AI lab toward real outside checking; the effect depends on what METR publishes.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Anyone relying on AI labs to police themselves gets a first test of outside checking, with Anthropic's own account the only source so far and no METR findings yet.",
+ "source": "TechCrunch, citing Anthropic",
+ "status": "CONFIRMED",
+ "summary": "TechCrunch reports, citing a blog post from Anthropic, that the AI company is giving six researchers from METR, a nonprofit that tests advanced AI models, access to its models and internal tools roughly on par with its own risk teams. Anthropic says it cannot block METR from publishing, though it can require removal of narrow categories such as customer data, and the company compares the setup to bank regulators who place examiners inside the largest banks.",
+ "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read at TechCrunch; the Reuters original was blocked (HTTP 401). Reuters also carried the story. Claims about the arrangement are Anthropic's own; no METR statement seen."
+}

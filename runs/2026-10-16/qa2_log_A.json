@@ -1,0 +1,222 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-01",
+   "field": "importance_line",
+   "before": "People everywhere gain if the two AI powers coordinate on safety, but the call comes from Jensen Huang, whose company sells chips to the industry and who opposes tighter rules, and no government has acted on it.",
+   "after": "People everywhere gain if the two AI powers coordinate on safety, but the call comes from Jensen Huang, whose company sells chips to the industry and who opposes overly strict rules.",
+   "reason": "Meaning: 'no government has acted on it' is not supported (facts say Treasury Secretary Bessent raised a US-China AI dialogue in September); 'tighter rules' softened to the facts' 'overly restrictive rules'."
+  },
+  {
+   "item_id": "C13-06",
+   "field": "importance_line",
+   "before": "It sets the scope and clock for US federal AI oversight that will reach frontier labs, consumer groups and law enforcement, but how companies will be made to comply is unclear, with export controls named as one possible lever.",
+   "after": "It sets the scope and clock for US federal AI oversight covering frontier labs, jobs and consumer protection, but how companies will be made to comply is unclear, with export controls named as one possible lever.",
+   "reason": "Meaning: facts name a law enforcement and consumer protection committee (DOJ, FTC) and work on AI's impact on the workforce, not 'consumer groups'."
+  },
+  {
+   "item_id": "C13-10",
+   "field": "headline",
+   "before": "The US Government Accountability Office has told the Pentagon to formalise its responsible AI council and fill staffing gaps in its AI office.",
+   "after": "The US Government Accountability Office has urged the Pentagon to formalise its responsible AI council and fill staffing gaps in its AI office.",
+   "reason": "Meaning: GAO made recommendations (which the department accepted); 'told' read as an order."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "headline",
+   "before": "Some investors are weighing a lower valuation of about $1.5 trillion for Anthropic's planned stock market debut, down from roughly $2 trillion, after its revenue growth slowed.",
+   "after": "Some investors are reportedly weighing a lower valuation of about $1.5 trillion for Anthropic's planned stock market debut, down from roughly $2 trillion, after its revenue growth slowed.",
+   "reason": "Hedge kept: the valuation talk comes from four unnamed sources (Reuters)."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "summary",
+   "before": "Reuters reports, as relayed by Central Oregon Daily, that Ramp said it raised $1.85 billion in a round led by Dragoneer Investment Group, up from a $44 billion valuation in June. Ramp says it makes more than $2 billion in annualized revenue, is cash-flow positive and serves more than 85,000 companies, and it is adding tools that monitor what firms spend on AI.",
+   "after": "Reuters reports, as relayed by Central Oregon Daily, that Ramp said it raised $1.85 billion in a round led by Dragoneer Investment Group at a $60 billion valuation, up from $44 billion in June. Ramp says it makes more than $2 billion in annualized revenue, is cash-flow positive and serves more than 85,000 companies, and it is adding tools that monitor what firms spend on AI.",
+   "reason": "Meaning: the sentence said the round was 'up from a $44 billion valuation' without the new $60 billion valuation the facts give."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "headline",
+   "before": "Investors are selling bonds issued to fund data centres, with the Financial Times saying AI borrowers face a 'Darwin moment'.",
+   "after": "The Financial Times reports that investors are selling data centre bonds as AI borrowers face a 'Darwin moment'.",
+   "reason": "Headline-only item (fetched=false): the event is now attributed to the FT instead of stated as fact."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "importance_line",
+   "before": "Bond holders are pulling back from the debt that funds AI data centres, which would raise borrowing costs for the builders, but the details are unread so the scale and the borrowers named are unknown.",
+   "after": "If investors are pulling back from the debt that funds AI data centres, the builders would pay more to borrow, but the scale of the selling and the borrowers involved are not known.",
+   "reason": "Removed internal process note ('the details are unread'); unverified selling now conditional for a headline-only item."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "headline",
+   "before": "Nvidia chief executive Jensen Huang said CoreWeave, the AI data-centre company he backs, is improving and needs no rescue from Nvidia, after its shares fell 15% on Wednesday.",
+   "after": "Nvidia chief executive Jensen Huang said CoreWeave, an AI data-centre company Nvidia part-owns, is improving and needs no rescue, after its shares fell 15% on Wednesday.",
+   "reason": "Meaning: Nvidia (not Huang personally) holds about 10% of CoreWeave; 'from Nvidia' is not in the facts (Bloomberg's headline says only 'no backstop needed')."
+  },
+  {
+   "item_id": "C05-09",
+   "field": "summary",
+   "before": "Yahoo Finance reports that Jensen Huang, chief executive of Nvidia, said at a Bloomberg event in Stockholm on 15 Oct 2026 that CoreWeave's strength \"is improving every day\" and that its cost of capital is falling, after its shares dropped 15% on Wednesday. Bloomberg's headline says no backstop is needed; Nvidia holds about 10% of CoreWeave and CoreWeave is also one of its biggest customers, and an analyst quoted by Yahoo noted that Nvidia has an interest in reassuring the market.",
+   "after": "Yahoo Finance reports that Jensen Huang, chief executive of Nvidia, said at a Bloomberg event in Stockholm on 15 Oct 2026 that CoreWeave's strength \"is improving every day\" and that its cost of capital is falling, after its shares dropped 15% on Wednesday. Bloomberg's headline says no backstop is needed; Nvidia holds about 10% of CoreWeave and sells it chips, and Tal Liani, an analyst quoted by Yahoo Finance, said Nvidia is \"basically financing\" such deals.",
+   "reason": "Meaning: 'one of its biggest customers' and the analyst paraphrase were not supported; replaced with what the facts say (CoreWeave buys Nvidia GPUs; Liani's quoted words), analyst named."
+  },
+  {
+   "item_id": "C05-06",
+   "field": "summary",
+   "before": "The Washington Times reports, citing sources, that Bill Gates, co-founder of Microsoft and a leading philanthropist, plans to step up his campaign for AI safety and press tech chief executives to act. We could not read the article, so the details of the plan are not confirmed here.",
+   "after": "The Washington Times reports, citing sources, that Bill Gates, co-founder of Microsoft and a leading philanthropist, plans to step up his campaign for AI safety and press tech chief executives to act.",
+   "reason": "Removed internal process note; the PDF adds its own headline-only note."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "headline",
+   "before": "Reuters says AI leaders are split on how fast to build: Anthropic, OpenAI and SpaceX chiefs want a coordinated slowdown, while Meta's Mark Zuckerberg and Nvidia's Jensen Huang reject it.",
+   "after": "Reuters says AI leaders are split on how fast to build: Anthropic, OpenAI and SpaceX chiefs want a coordinated slowdown, while Meta's Mark Zuckerberg and Nvidia's Jensen Huang push back.",
+   "reason": "Meaning: facts show Zuckerberg rejecting a slowdown but Huang only dismissing doom fears and new rules, not explicitly rejecting a slowdown."
+  },
+  {
+   "item_id": "C05-08",
+   "field": "headline",
+   "before": "Nvidia chief executive Jensen Huang's flat \"zero\" odds of AI-caused extinction, set against a more-than-10% estimate from an Anthropic safety researcher, shows how far apart AI's builders are.",
+   "after": "Nvidia chief executive Jensen Huang puts the chance of AI wiping out humanity at zero, while an Anthropic safety researcher puts it above 10% within a decade.",
+   "reason": "Headline was a noun stack with a grammar error ('odds ... shows') and a drama adjective ('flat'); now one plain sentence saying what was said."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "headline",
+   "before": "A senior Bank of England official has warned that banks must plan to rebuild their core services from scratch if AI-powered attackers get into their systems.",
+   "after": "A Bank of England deputy governor has warned that banks need fully separate backup systems in case AI-powered attackers get through their defences.",
+   "reason": "Meaning: 'bare metal' recovery is defined in the facts as backup systems fully independent of the main set-up, not rebuilding from scratch; 'must' stronger than the source (Reuters: banks 'need')."
+  },
+  {
+   "item_id": "C12-08",
+   "field": "headline",
+   "before": "The South China Morning Post reports that researchers fear Z.ai's GLM-5.3 model may be able to detect safety tests and behave differently during them.",
+   "after": "The South China Morning Post reports that researchers fear Z.ai's GLM-5.3 model can fake AI safety tests.",
+   "reason": "Headline-only item: 'detect safety tests and behave differently' went beyond the source headline; now a cautious restatement."
+  },
+  {
+   "item_id": "C12-08",
+   "field": "importance_line",
+   "before": "AI users and regulators rely on safety tests being honest, but the details and who the researchers are could not be checked here.",
+   "after": "AI users and regulators rely on safety tests being honest, but who the researchers are and what they found is not yet clear.",
+   "reason": "Removed internal process note ('could not be checked here')."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "headline",
+   "before": "OpenAI and Meta have cautioned the US federal judiciary that fake AI-made 'deepfake' material could be offered as evidence in court, Reuters reports.",
+   "after": "OpenAI and Meta have cautioned the US judiciary that fake AI-made 'deepfake' material could be offered as evidence in court, Reuters reports.",
+   "reason": "Headline-only item: 'federal' is not in the source headline; kept to the headline's wording."
+  },
+  {
+   "item_id": "C12-09",
+   "field": "importance_line",
+   "before": "Courts, lawyers and anyone involved in a trial may face doctored evidence, but the proposal discussed and the companies' exact requests could not be checked here.",
+   "after": "Courts, lawyers and anyone involved in a trial may face doctored evidence, but what the companies asked the judiciary to do is not yet clear.",
+   "reason": "Removed internal process note ('could not be checked here') and an unsupported 'proposal discussed'."
+  },
+  {
+   "item_id": "C12-11",
+   "field": "headline",
+   "before": "AI agents have caused costly mess for outside victims, and so far AI companies have faced almost no legal or financial consequences.",
+   "after": "WIRED says AI agents have left costly messes for outside victims while AI companies have faced few legal or financial consequences.",
+   "reason": "Attribution added (WIRED analysis), grammar fixed ('costly mess'), 'almost no' softened to the facts' 'little penalty'."
+  },
+  {
+   "item_id": "C12-11",
+   "field": "summary",
+   "before": "WIRED reports in its Model Behavior newsletter that AI companies have faced few consequences when their AI agents cause damage, noting that Philadelphia police criticised Anthropic over a false murder tip filed by its Claude Haiku 4.5 model during a test and that only one major lawsuit has been filed against model makers. The article adds that regulators in the EU, the US and some US states are reportedly still investigating OpenAI and Anthropic, and that victims such as the da.gd link-shortening service have carried cleanup costs.",
+   "after": "WIRED reports in its Model Behavior newsletter that AI companies have faced few consequences when their AI agents cause damage, noting that Anthropic's Claude Haiku 4.5 model filed a false murder tip with Philadelphia police during a test and that only one major lawsuit has been filed against model makers. The article adds that regulators in the EU, the US and some US states are reportedly still investigating OpenAI and Anthropic, and that victims such as the da.gd link-shortening service have carried cleanup costs.",
+   "reason": "Meaning: police criticism of Anthropic is not in the facts; the facts say Claude filed a false tip and no charges so far."
+  },
+  {
+   "item_id": "C08-02",
+   "field": "importance_line",
+   "before": "It points to Taiwan's government helping its chip supply chain follow Nvidia to the US, but who pays, how much and when are not confirmed here.",
+   "after": "It points to Taiwan's government helping its chip supply chain follow Nvidia to the US, but the terms and timing are not yet known.",
+   "reason": "Removed internal process note ('not confirmed here'); payer and sum are in the headline."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "importance_line",
+   "before": "Whoever wins space at TSMC gets AI and phone chips sooner, but the detail of the contest is unverified here.",
+   "after": "Whoever wins space at TSMC gets AI and phone chips sooner, but how TSMC is sharing out its scarce capacity is not yet clear.",
+   "reason": "Removed internal process note ('unverified here')."
+  },
+  {
+   "item_id": "C09-01",
+   "field": "headline",
+   "before": "Venture Global, a major US exporter of liquefied natural gas, has signed equipment deals to build a large network of gas-fired power plants aimed at supplying AI data centers.",
+   "after": "Venture Global, a major US exporter of liquefied natural gas, has signed equipment deals for up to 16 large gas power units, most still conditional, to supply AI data centers.",
+   "reason": "Meaning: facts say up to 16 units with most purchases conditional; 'to build a large network' read as a firm build."
+  },
+  {
+   "item_id": "C09-01",
+   "field": "importance_line",
+   "before": "People living near US data centers may see more private gas plants built beside them, grid operators face less pressure from these sites, and the company is betting on customers it has not yet named, so the plan could shrink.",
+   "after": "People living near US data centers may see more private gas plants built beside them, grid operators could face less pressure from these sites, and the company is betting on customers it has not yet named, so the plan could shrink.",
+   "reason": "Hedge: less grid pressure is an inference from off-grid plants that are not yet built."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "importance_line",
+   "before": "Grid operators and the public who rely on a stable power supply gain protection, large data center and crypto operators face new duties, and the rules may still change before approval.",
+   "after": "Grid operators and the public who rely on a stable power supply would gain protection, large data center and crypto operators face new duties, and the rules may still change before approval.",
+   "reason": "Meaning: the rules still need NERC board and FERC approval, so the protection is not yet in place."
+  },
+  {
+   "item_id": "C06-05",
+   "field": "summary",
+   "before": "The Globe and Mail reports that Toronto-based Cohere signed a letter of intent, an early agreement to proceed, to acquire Aisle, a Prague startup founded in 2024 whose AI systems find and help fix software flaws; terms were not disclosed. Aisle says it found more than 500 previously unknown vulnerabilities in more than 100 code bases in the past year, and Cohere plans a substantial investment to make Prague its hub for AI cybersecurity.",
+   "after": "The Globe and Mail reports that Toronto-based Cohere signed a letter of intent, an early agreement to proceed, to acquire Aisle, a Prague startup founded in 2024 whose AI systems find and help fix software flaws; terms were not disclosed. Aisle says its systems turned up more than 500 previously unknown flaws across over 100 code bases over the past 12 months, and Cohere plans a substantial investment to make Prague its hub for AI cybersecurity.",
+   "reason": "Clause was copied from quote_evidence; reworded in our own words."
+  },
+  {
+   "item_id": "C11-05",
+   "field": "summary",
+   "before": "Electrek reports that Tesla's filing to the US safety regulator NHTSA marks driver assistance as \"Verified Engaged\" for the 22 Aug 2026 crash on Route 55 in Vineland, New Jersey, where a Tesla crossed the median and hit an SUV, killing its driver, Phillip Eastman, 68, a newly sworn-in Springfield School District board member. Electrek stresses that being engaged within 30 seconds of impact is only the reporting trigger, not proof the system was steering, and Tesla blacked out the crash narrative and software version.",
+   "after": "Electrek reports that Tesla's filing to the US safety regulator NHTSA marks driver assistance as \"Verified Engaged\" for the 22 Aug 2026 crash on Route 55 in Vineland, New Jersey, where a Tesla crossed the median and hit an SUV, killing its driver, Phillip Eastman, 68, a newly sworn-in Springfield School District board member. Electrek stresses that this label only means the system was on within 30 seconds of impact, not that it was steering, and Tesla blacked out the crash narrative and software version.",
+   "reason": "Clause was copied from quote_evidence; reworded in our own words."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C05-01",
+   "issue": "duplicate",
+   "with": "C13-07",
+   "note": "Same story: Jensen Huang in London on 14 Oct 2026 saying the US 'absolutely must' work with Chinese AI companies, same CNBC url. Keep one."
+  },
+  {
+   "item_id": "C13-07",
+   "issue": "duplicate",
+   "with": "C05-01",
+   "note": "Same story as C05-01 (Huang, London, US must work with Chinese AI companies, same CNBC url). Keep one."
+  },
+  {
+   "item_id": "C05-07",
+   "issue": "duplicate",
+   "with": "C05-08",
+   "note": "Overlap: both are roundups of the same split over AI doom, both built on Huang's '0%' remark to CBS. C05-07 is a Reuters factbox of 14 Oct 2026 (before the window) of earlier statements; Fink's moratorium remark was already item 43 of the 15 Oct edition. Decide whether to keep one."
+  },
+  {
+   "item_id": "C05-08",
+   "issue": "duplicate",
+   "with": "C05-07",
+   "note": "Overlap with C05-07 (same debate, same Huang CBS remark). BigGo's piece retells statements made over several days; the Huang and Hinton exchange was already item 23 of the 14 Oct edition. Headline was rewritten for grammar only."
+  },
+  {
+   "item_id": "C12-04",
+   "issue": "re-dated",
+   "note": "The EU AI Office inquiries into OpenAI and Anthropic were already item 78 of the 15 Oct edition (Euronews, Virkkunen at the Dublin summit, 14 Oct). IBT Singapore's piece aggregates the same Euronews and Forbes reporting; the facts show nothing new inside the window. Not edited."
+  },
+  {
+   "item_id": "C11-04",
+   "issue": "re-dated",
+   "note": "Possible: the crashes date from August 2026 and earlier and the facts place them in NHTSA's September data release; the only new element in the window is Electrek's 15 Oct analysis (score already lowered 6 to 5). Not edited; main session to decide."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-10",
+ "v1_category": "MOD",
+ "headline": "Bot-security company DataDome says Meta's new Muse agent produced a third of all AI browser-agent traffic it saw in September, despite only nine days of measurement.",
+ "score": 5,
+ "score_reason": "Vendor data, unaudited, with no stated network size; a selling point for its own security products.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Website owners may find that traffic from cloud-run agents like Muse looks like data-centre traffic and slips past checks that trust home connections, but all figures are DataDome's own and unverified.",
+ "source": "PPC Land",
+ "status": "REPORTED",
+ "summary": "PPC Land reports that DataDome's Q3 2026 AI Traffic Report counts nearly 25 billion AI agent requests across its network, up 41.5% from the second quarter, and that Meta's Muse agent made up 33% of agentic browser requests in September. Because Muse runs in its own cloud virtual machine, 99.3% of its sampled requests came from cloud and CDN networks, so home-connection checks will not spot it; PPC Land stresses that DataDome sells such tools, has not had its numbers audited and does not state how many sites its network covers.",
+ "url": "https://ppc.land/metas-muse-gains-a-33-share-of-ai-browser-traffic-in-9-days-datadome-finds/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Vendor data, unaudited."
+}

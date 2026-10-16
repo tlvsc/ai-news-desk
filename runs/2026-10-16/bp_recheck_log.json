@@ -1,0 +1,148 @@
+{
+ "task": "Recheck of the Bigger Picture after the rewrite of C07-02, C08-02, C08-03 and C05-06",
+ "backups": [
+  "bigger_picture_old2_before_recheck.json",
+  "bigger_picture_bulletin_old2_before_recheck.json"
+ ],
+ "changes": [
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[2] '3. Safety, security and law' paragraph 0",
+   "cites": "C05-06",
+   "old": "Fact: The Washington Times reports, citing sources, that Bill Gates, co-founder of Microsoft, plans a bigger push on AI safety and intends to lean on tech chief executives; the plan's scope is unconfirmed {C05-06}.",
+   "new": "Fact: Axios reports, citing people familiar with his plans, that Bill Gates, co-founder of Microsoft, is preparing to widen his AI safety campaign and is personally pressing business leaders on it; the report gives no amount of money or timetable {C05-06}.",
+   "why": "The entry is now Axios, read in full through a relay, not the Washington Times headline; 'plans ... lean on' becomes the entry's 'preparing to widen ... personally pressing business leaders'; 'scope unconfirmed' becomes the entry's 'no amount of money or timetable'."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[3] '4. Infrastructure' paragraph 0",
+   "cites": "C08-02",
+   "old": "Fact: Bloomberg reports that Taiwan plans to fund a 4 billion dollar complex in Texas for AI companies and Nvidia's partners; the terms and timing are not known {C08-02}.",
+   "new": "Fact: Bloomberg reports, as relayed by Investing.com, that Taiwan plans several industrial parks in the US, the first a Texas site costing up to 4 billion dollars, to help smaller Taiwanese suppliers of Nvidia's main manufacturers set up there; the exact site and the timing are not known {C08-02}.",
+   "why": "Entry now: several US parks, the first in Texas, up to 4 billion dollars, for smaller Taiwanese suppliers; the money is raised by an industry group with government loan guarantees, so 'Taiwan plans to fund a 4 billion dollar complex ... for AI companies' is no longer supported; the funding route is now known, so only site and timing stay unknown."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[3] '4. Infrastructure' paragraph 0",
+   "cites": "C08-02",
+   "old": "Taiwan's 4 billion dollar complex and, in section 2",
+   "new": "Taiwan's planned supplier park of up to 4 billion dollars and, in section 2",
+   "why": "Inference wording aligned with the corrected C08-02 fact (a supplier park, up to 4 billion dollars, planned)."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[4] '5. Markets' paragraph 0",
+   "cites": "C07-02",
+   "old": "Fact: The Financial Times reports that investors are selling data centre bonds and describes AI borrowers as facing a 'Darwin moment'; the scale of the selling and the borrowers involved are not known {C07-02}.",
+   "new": "Fact: BigGo Finance reports, citing LSEG data, that investors sold off the bonds of CoreWeave this week, lifting the yield on its 2032 bonds to about 14.8 percent by 14 October, in what the Financial Times describes as a 'Darwin moment' for AI borrowers {C07-02}.",
+   "why": "Entry is now BigGo Finance citing LSEG and the FT, naming the borrower (CoreWeave) and the size (2032 bonds yielding about 14.8 percent); 'the scale of the selling and the borrowers involved are not known' is no longer true; the FT text itself was still not read, so the FT keeps only the 'Darwin moment' wording."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[5] 'Forecasts' paragraph 0",
+   "cites": "C08-02",
+   "old": "and Taiwan's 4 billion dollar Texas complex {C08-02}.",
+   "new": "and Taiwan's planned supplier park in Texas, of up to 4 billion dollars {C08-02}.",
+   "why": "Aligned with the corrected C08-02 entry."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[5] 'Forecasts' paragraph 0",
+   "cites": "C07-02",
+   "old": "the Financial Times' report of investors selling data centre bonds {C07-02};",
+   "new": "investors selling CoreWeave's bonds, in what the Financial Times describes as a 'Darwin moment' for AI borrowers {C07-02};",
+   "why": "The selling is now reported by BigGo citing LSEG and is about CoreWeave's bonds; the FT is cited only for the 'Darwin moment' wording."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[5] 'Forecasts' paragraph 1",
+   "cites": "C07-02",
+   "old": "investors selling data centre bonds, by the Financial Times' headline {C07-02};",
+   "new": "investors selling CoreWeave's bonds, by BigGo Finance's account citing LSEG data {C07-02};",
+   "why": "Attribution and subject aligned with the rewritten C07-02 entry."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[5] 'Forecasts' paragraph 11",
+   "cites": "C07-02",
+   "old": "investors selling data centre bonds, by the Financial Times' headline {C07-02};",
+   "new": "investors selling CoreWeave's bonds, by BigGo Finance's account citing LSEG data {C07-02};",
+   "why": "Attribution and subject aligned with the rewritten C07-02 entry."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[5] 'Forecasts' paragraph 17",
+   "cites": "C08-02",
+   "old": "Taiwan's planned 4 billion dollar Texas complex {C08-02}.",
+   "new": "Taiwan's planned supplier park in Texas, of up to 4 billion dollars {C08-02}.",
+   "why": "Aligned with the corrected C08-02 entry."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[7] 'B. Low probability, high impact scenarios' paragraph 0",
+   "cites": "C07-02",
+   "old": "investors selling data centre bonds {C07-02}",
+   "new": "investors selling CoreWeave's bonds {C07-02}",
+   "why": "The entry now reports selling of CoreWeave's bonds, not data centre bonds in general."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[8] 'C. Signals that would change this view' paragraph 0",
+   "cites": "C07-02",
+   "old": "the Financial Times' selling named by borrower and size {C07-02};",
+   "new": "the bond selling spreading beyond CoreWeave to other named borrowers {C07-02};",
+   "why": "The old signal (selling named by borrower and size) is already met by the rewritten entry (CoreWeave, about 14.8 percent); the signal now watches for spread beyond CoreWeave. No new fact."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[9] 'D. Key unknowns and data gaps' paragraph 1",
+   "cites": "C07-02 C08-02 C05-06",
+   "old": "Missing data: no details beyond the headline are known for the Financial Times on data centre bonds {C07-02}, Bloomberg on Taiwan's Texas complex {C08-02}, CNBC on the fight for TSMC's capacity {C08-03}, the South China Morning Post on GLM-5.3 {C12-08}, Reuters on deepfake evidence {C12-09}, the Washington Times on Bill Gates {C05-06}, Politico Europe on the EU AI law {C13-08} and CNBC's video of Daron Acemoglu {C14-04}.",
+   "new": "Missing data: no details beyond the headline are known for CNBC on the fight for TSMC's capacity {C08-03}, the South China Morning Post on GLM-5.3 {C12-08}, Reuters on deepfake evidence {C12-09}, Politico Europe on the EU AI law {C13-08} and CNBC's video of Daron Acemoglu {C14-04}, and the Financial Times article on data centre bonds is known only from its headline and BigGo Finance's account of it {C07-02}.",
+   "why": "C08-02 and C05-06 are no longer headline only (read through Investing.com/BigGo and through a relay of Axios), so they move to the relay list below; C07-02 is no longer headline only, but the FT text itself was not read; C08-03 stays: the CNBC capacity claim is still headline only per the entry notes; C12-08, C12-09, C13-08 and C14-04 checked, still headline only (verified_text false)."
+  },
+  {
+   "file": "bigger_picture.json",
+   "place": "sections[9] 'D. Key unknowns and data gaps' paragraph 1",
+   "cites": "C08-02 C05-06",
+   "old": "{C13-01} {C07-05} {C13-05} {C09-01} {C01-02};",
+   "new": "{C13-01} {C07-05} {C13-05} {C09-01} {C01-02} {C08-02} {C05-06};",
+   "why": "The sentence already names Bloomberg and Axios reports known through relays; the two rewritten entries are now in that group, so their markers move here (same paragraph, each marker still once)."
+  }
+ ],
+ "checked_no_change": [
+  {
+   "file": "bigger_picture.json",
+   "cites": "C08-03",
+   "places": [
+    "4. Infrastructure, Fact 'CNBC reports that Nvidia, Apple and Broadcom are fighting hard for manufacturing space at TSMC...'",
+    "4. Infrastructure, Inference '...three of its biggest customers fighting for space by CNBC's headline'",
+    "Forecast 1 (a) signal 'CNBC's report of Nvidia, Apple and Broadcom fighting for its capacity'",
+    "D. Key unknowns: 'no details beyond the headline are known for CNBC on the fight for TSMC's capacity'"
+   ],
+   "why": "The rewritten entry still attributes the capacity contest to CNBC alone (headline only, notes: detail not found in the text read); the record quarter is backed by Livemint; nothing in these lines goes beyond that."
+  },
+  {
+   "file": "bigger_picture_bulletin.json",
+   "cites": "none (searched by topic)",
+   "places": [
+    "Paragraph 3: TSMC record quarter, demand far above supply, prudent about 2027 (cited to Fortune, i.e. C08-01, not rewritten; C08-01 still says this)",
+    "Paragraph 6 Unknowns: 'what the Financial Times found behind its report of investors selling data centre bonds'"
+   ],
+   "why": "No Taiwan parks and no Gates text in the Bulletin. The Unknowns line is still true: the FT article text was not read (C07-02 notes). No change; 499 words; the not-financial-advice ending is intact."
+  }
+ ],
+ "numbers": {
+  "bigger_picture_json_edits": 13,
+  "citation_markers_before": 306,
+  "citation_markers_after": 306,
+  "marker_counts_identical": true,
+  "bulletin_words": 499,
+  "bulletin_changed": false
+ },
+ "unresolved": [
+  "C05-06: the entry summary says the Axios report was read 'as relayed by Newsmax', while the facts file and the entry notes say Yahoo News (Theodore Bunker). The Bigger Picture now says only 'Axios reports, citing people familiar with his plans' and lists it under reports known through relays, so it does not take a side; the entry itself may need one relay name.",
+  "The products already built (products/report_pdf.json, products/bulletin_pdf.json and the two .md files) still carry the old Bigger Picture text; they need a rebuild to pick up these changes.",
+  "Forecast probabilities that list C07-02 or C08-02 as a signal were not changed: the corrected facts point the same way (the bond selling is now named and sized), and changing a probability is the author's judgment, not a fact fix."
+ ]
+}

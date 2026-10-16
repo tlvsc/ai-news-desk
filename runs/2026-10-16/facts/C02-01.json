@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-01",
+ "title": "ChatGPT can peek at your Chrome tabs now",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+ "fetched": true,
+ "key_facts": [
+  "OpenAI updated its ChatGPT extension for Google Chrome.",
+  "With the extension, ChatGPT can view open tabs when the user tags Chrome in the web or desktop app.",
+  "OpenAI's demo video shows ChatGPT comparing three open tabs of sofas.",
+  "The sidebar now offers the full ChatGPT with the whole conversation history in Chat or Work.",
+  "ChatGPT Work can control tabs: sending messages, filling out forms, downloading files, and organizing or grouping tabs.",
+  "The Verge compares it with Google's Gemini-powered auto browse.",
+  "The article notes the ChatGPT Atlas browser is gone."
+ ],
+ "quote_evidence": [
+  "OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app.",
+  "It also enables ChatGPT Work to \"control\" your Chrome tabs for tasks like \"sending messages, filling out forms, or downloading files\""
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Gives the assistant direct access to what a user is browsing and lets it act on pages.",
+ "event_date": "2026-10-15",
+ "notes": "Short article (about 1,200 characters); a list of sample queries did not come through. No safeguards or availability details in the text."
+}

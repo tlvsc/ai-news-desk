@@ -1,0 +1,24 @@
+{
+ "item_id": "C02-10",
+ "title": "Meta's Muse gains a 33% share of AI browser traffic in 9 days, DataDome finds",
+ "source_used": "PPC Land",
+ "article_url": "https://ppc.land/metas-muse-gains-a-33-share-of-ai-browser-traffic-in-9-days-datadome-finds/",
+ "fetched": true,
+ "key_facts": [
+  "DataDome's Q3 2026 report counts nearly 25 billion AI agent requests, up from 17.7 billion in Q2 (up 41.5%).",
+  "Agentic browser requests rose from about 12.5 million in August to 58.2 million in September (4.7x).",
+  "Muse took 33% of agentic browser requests in September, from nine days of detection; 29.1 million Muse requests between 22 Sep and 3 Oct.",
+  "99.3% of sampled Muse requests came from cloud and CDN infrastructure; 0.6% from consumer ISPs.",
+  "8.9% of Muse requests hit sensitive flows such as forms, logins, payments.",
+  "Meta's crawlers were 49.7% of AI agent traffic in Q3; ClaudeBot grew 159%.",
+  "Figures are DataDome's own and unaudited; network size not stated; Profound's earlier claim that Muse uses residential connections conflicts with DataDome's sample."
+ ],
+ "quote_evidence": [
+  "The numbers in the report are DataDome's own, drawn from traffic crossing its bot-management network, and they have not been independently audited.",
+  "\"Muse is not a standalone browser,\" according to the report."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows how fast cloud-run AI agents are becoming a web traffic class that existing bot checks may miss.",
+ "event_date": "2026-10-15",
+ "notes": "Vendor data, unaudited."
+}

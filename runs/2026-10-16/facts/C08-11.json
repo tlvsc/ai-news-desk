@@ -1,0 +1,23 @@
+{
+ "item_id": "C08-11",
+ "title": "Arm Calls for Rack-Level CPU Benchmarks for Agentic AI, Claims Twice AMD's Performance",
+ "source_used": "THE ELEC",
+ "article_url": "https://www.thelec.net/news/articleView.html?idxno=14629",
+ "fetched": true,
+ "key_facts": [
+  "Arm said on 15 Oct it developed a new CPU benchmark framework for agentic AI, with support from Fujitsu, Meta and OpenAI.",
+  "Arm claims its AGI CPU delivered about twice the task throughput per rack of AMD's fifth-generation EPYC Turin 9755.",
+  "The measurements were made by analyst firm Signal65 at Arm's request.",
+  "The AGI CPU, unveiled in March, is Arm's first in-house server CPU, co-developed with Meta.",
+  "Agents call tools, fetch data and run code; GPUs run the model while CPUs manage tool calls, data and scheduling.",
+  "Meta is adopting the AGI CPU in its next-generation Yosemite YV5 server rack."
+ ],
+ "quote_evidence": [
+  "Arm claimed its AGI CPU delivered approximately twice the task throughput per rack of AMD's fifth-generation EPYC Turin 9755 server CPU under the new framework.",
+  "The measurements were conducted by analyst firm Signal65 at Arm's request."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Arm wants its benchmark to become the yardstick for AI-agent server chips.",
+ "event_date": "15 Oct 2026",
+ "notes": "Claim is Arm's; test commissioned by Arm."
+}

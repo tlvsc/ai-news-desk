@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-10",
+ "v1_category": "MOD",
+ "headline": "IBM has released Granite Switch 4.1, two open language models that bundle a safety checker, a decision tool and a speech-to-text encoder into one endpoint.",
+ "score": 5,
+ "score_reason": "Technical release mostly of interest to developers; comparisons are IBM's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers get open, small models with a built-in safety check and speech transcription that need about the same memory as the base model, but IBM's comparisons are its own and the speech part works only in English.",
+ "source": "Unite.AI",
+ "status": "REPORTED",
+ "summary": "Unite.AI reports that IBM announced Granite Switch 4.1 on 15 October 2026, releasing 8-billion and 30-billion-parameter models under the Apache 2.0 open licence, each combining a base model, a decision adapter, a safety adapter and an English speech-to-text encoder in one hosted endpoint. IBM says the extra parts need roughly the same graphics memory as the base model alone; the published limits include that speech works only in English and a mistranscription can silently change the answer.",
+ "url": "https://www.unite.ai/ibm-releases-modular-granite-switch-4-1-models-in-8b-and-30b-sizes/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. Comparisons are IBM's own."
+}

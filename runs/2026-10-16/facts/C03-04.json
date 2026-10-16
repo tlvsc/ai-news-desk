@@ -1,0 +1,26 @@
+{
+ "item_id": "C03-04",
+ "title": "NVIDIA Unveils 2.8T-Token Indic Pretraining Corpus and Open Pipeline",
+ "source_used": "Unite.AI (reporting an NVIDIA and AI4Bharat announcement)",
+ "article_url": "https://www.unite.ai/nvidia-unveils-2-8t-token-indic-pretraining-corpus-and-open-pipeline/",
+ "fetched": true,
+ "key_facts": [
+  "NVIDIA, with IIT Madras and its AI4Bharat lab, introduced Nemotron-pretraining-Indic-v1 on 16 Oct 2026; the corpus is 'releasing soon'.",
+  "It holds about 2.8 trillion tokens of synthetic (machine-translated) text across the 22 languages listed in India's Constitution.",
+  "The 22 languages are the first language of 97% of Indians, per the announcement.",
+  "The open data-generation pipeline (prompts, workflows, quality checks) is released so developers can adapt it.",
+  "Translations are scored by Gemma-4-31B-it and kept only at 75 out of 100 or higher; the translator also acts as judge for twelve languages.",
+  "Continued pretraining with Indic data raised scores on five Indic benchmarks by 4.98 to 9.82 percentage points; NVIDIA says this does not isolate the synthetic corpus's effect.",
+  "AI4Bharat also released Indic-LLM-Eval-Suite, an open benchmark collection.",
+  "NVIDIA cautions translated text does not replace native-written text and may contain errors; quality checking is mainly automated."
+ ],
+ "quote_evidence": [
+  "Khapra, who heads AI4Bharat, has named the core problem: \"we do not have enough data for Indian languages.\"",
+  "NVIDIA cautions that translation does not replace text originally written in Indian languages or guarantee coverage of local knowledge and culture.",
+  "The post states that retained text can still contain errors."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Aims at the shortage of training data for Indian languages, with candid limits.",
+ "event_date": "16 Oct 2026",
+ "notes": "Company announcement relayed by Unite.AI; benchmark gains are NVIDIA's own claims. Corpus not yet released at time of report."
+}

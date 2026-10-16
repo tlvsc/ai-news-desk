@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-08",
+ "v1_category": "RES",
+ "headline": "MIT and Whitehead Institute researchers built an AI model, IRIS, that reads the gene-activity fingerprints left by the chemical signals cells receive as an embryo develops.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: the study was published on 8 Sep 2026 and the MIT article is later coverage.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Biologists building lab-grown tissue could save experiments, and the researchers say it may later help study diseases such as asthma and lung cancer, but results so far are in cells and mouse embryos.",
+ "source": "MIT News",
+ "status": "REPORTED",
+ "summary": "MIT News reports that a team led by Pulin Li, assistant professor of biology at MIT and member of the Whitehead Institute, found that each cell-signalling pathway leaves a consistent gene-activity fingerprint, and trained a neural network called IRIS to read them. The study, published in Nature Methods on 8 Sep, says IRIS correctly predicted signals in mouse embryo cells and a pathway that promotes lung development, which mouse embryo experiments confirmed.",
+ "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+ "freshness": "FOLLOW-UP of 8 Sep 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text from fulltext file. Study date 8 Sep; MIT article dated 15 Oct."
+}

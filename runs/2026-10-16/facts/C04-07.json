@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-07",
+ "title": "AlphaGenome Atlas Catalogs 9 Billion Genetic Variations",
+ "source_used": "Fortune (8 Sep 2026); Geeky Gadgets blocked (HTTP 403)",
+ "article_url": "https://fortune.com/2026/09/08/google-deepmind-ai-predictions-9-billion-mutation-human-genome/",
+ "fetched": true,
+ "key_facts": [
+  "Google DeepMind published AlphaGenome Atlas on 8 Sep 2026, a precomputed catalogue of the likely effect of each of the roughly 9 billion single-letter DNA substitutions.",
+  "Each variant links to about 27,000 predictions across hundreds of human and mouse cell and tissue types.",
+  "A new AlphaGenome Variant Impact (AVI) score ranks how strongly a variant matters.",
+  "Available free for non-commercial use; commercial use via Google Cloud licensing 'soon'; a paper is on the bioRxiv preprint server.",
+  "In a retrospective test, AVI put the known causal variant in a patient's top 50 candidates 29.5 percent of the time versus 12.5 percent for CADD.",
+  "The 98 percent of DNA that does not code for proteins has been much harder to interpret."
+ ],
+ "quote_evidence": [
+  "Atlas is available for non-commercial use from today through a website Google DeepMind has set up for it.",
+  "A paper describing the Atlas and how it was created is being released on bioRxiv, a repository for biomedical preprint academic papers."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Researchers can look up the likely effect of almost any DNA change without running a model each time.",
+ "event_date": "8 Sep 2026",
+ "notes": "Geeky Gadgets re-covered the 8 Sep launch on 15 Oct; stale, so score lowered. Read Fortune's original report."
+}

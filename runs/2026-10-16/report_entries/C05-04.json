@@ -1,0 +1,17 @@
+{
+ "item_id": "C05-04",
+ "v1_category": "SEC",
+ "headline": "NBC News reports that Microsoft chief executive Satya Nadella says AI agents should be treated as an \"insider risk\".",
+ "score": 5,
+ "score_reason": "Headline-level report from a major outlet on a safety stance from a top executive; NBC's article text could not be read, so wording and context are unconfirmed.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies deploying AI agents may adopt tighter controls if Nadella's stance spreads, but only a headline and a weekend post were seen, not NBC's full account.",
+ "source": "NBC News",
+ "status": "REPORTED",
+ "summary": "NBC News reports that Satya Nadella, chief executive of Microsoft, wants AI agents to do far more on computers while saying they should not simply be trusted. Separately, a Yahoo Finance column says he posted at the weekend that AI needs containment systems whose behaviour can be observed, limits that can be tested and actions that can always be contained.",
+ "url": "https://www.nbcnews.com/tech/tech-news/microsoft-ceo-satya-nadella-says-ai-agents-are-insider-risk-rcna602355",
+ "freshness": "FOLLOW-UP of 11 Oct 2026",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "NBC page gave only two sentences. Context from a Yahoo Finance (24/7 Wall St) piece of 13 Oct about Nadella's weekend post on containment / kill switches; the 'insider risk' wording itself is NBC's headline and was not confirmed in text. Score lowered 6 to 5 as unverified."
+}

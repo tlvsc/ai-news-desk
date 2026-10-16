@@ -1,0 +1,24 @@
+{
+ "item_id": "C06-02",
+ "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+ "source_used": "The Verge",
+ "article_url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+ "fetched": true,
+ "key_facts": [
+  "Meta announced Muse Spark Open and calls it the most capable US open-weight model to date",
+  "Meta says it is the first model in its class that can run on a desktop using two Apple M5 Ultra Mac Studios with Apple's MLX framework",
+  "Model is natively multimodal with 816 billion total parameters, per Meta",
+  "Meta CEO Mark Zuckerberg thanked Apple CEO John Ternus on X; Ternus replied praising the on-device result",
+  "Alexandr Wang, Meta's chief AI officer, told Axios the companies had collaborated for several months",
+  "Apple published a technical post on MLX, Muse Spark Open and two other open models"
+ ],
+ "quote_evidence": [
+  "Meta and Apple, typically rivals, worked together on the launch and are publicly supporting each other.",
+  "\"Muse Spark Open -- weights releasing today -- runs great on new Mac Studios thanks to work with @johnternus and Apple,\" Meta CEO Mark Zuckerberg said on X.",
+  "The new model is a \"natively multimodal model\" with 816 billion total parameters."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Two usually rival tech giants jointly back running a large open model on a desk computer.",
+ "event_date": "15 Oct 2026",
+ "notes": "Performance and \"most capable\" claims are Meta's own. Same model is covered as a model story in category 1 (C01-01); this entry is the Meta and Apple partnership angle."
+}

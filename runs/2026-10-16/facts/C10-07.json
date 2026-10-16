@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-07",
+ "title": "AI Mortality Models Collapse When Moved Between Hospitals, Study Warns",
+ "source_used": "Bioengineer.org (carrying Scienmag's report of the Frontiers in Digital Health study)",
+ "article_url": "https://bioengineer.org/ai-mortality-models-collapse-when-moved-between-hospitals-study-warns/",
+ "fetched": true,
+ "key_facts": [
+  "Study in Frontiers in Digital Health by Jorge Robalino-Díaz, William Villegas-Ch and colleagues, Universidad de Las Américas, Quito",
+  "Three ICU mortality models (logistic regression, random forest, gradient boosting) were trained on one database and tested on the other (MIMIC-III and eICU)",
+  "Transfer eICU to MIMIC: AUC only 0.598 to 0.642, near coin-flip 0.5",
+  "Random forest predicted no deaths at all after transfer, missing all 33 deaths",
+  "Gradient boosting caught 2 of 33 deaths; logistic regression caught 18 but wrongly flagged 33 of 77 survivors",
+  "MIMIC to eICU: logistic regression caught 44 of 117 deaths with 422 false alarms",
+  "Small, retrospective sample (110 MIMIC episodes, 1,324 eICU); authors call results exploratory"
+ ],
+ "quote_evidence": [
+  "Machine-learning models that promise to forecast which intensive-care patients will die may look impressive on paper and fail completely the moment they are moved to a different hospital.",
+  "Random Forest, despite its respectable AUC, produced no positive predictions at all after transfer: every single MIMIC patient was classified as a survivor, including all 33 who died.",
+  "the analysis is retrospective, so the authors frame their results as exploratory evidence of threshold-specific instability under dataset shift rather than a definitive estimate of deployment performance."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Scores that look good in the developer's own data can hide models that miss deaths at another hospital.",
+ "event_date": "Study dated 2026; reported 15 Oct 2026",
+ "notes": "Bioengineer.org republishes Scienmag (Ophelia Keating, 15 Oct 2026). Publication date of the study itself not stated."
+}

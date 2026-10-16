@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-12",
+ "title": "Google reports benchmark results for its experimental Earth AI geospatial agent",
+ "source_used": "NeoTeo",
+ "article_url": "https://www.neoteo.com/en/google-reports-benchmark-results-for-its-experimental-earth-ai-geospatial-agent",
+ "fetched": true,
+ "key_facts": [
+  "On 14 Oct 2026 Google Research reported benchmark results and partner testing for the experimental Geospatial Reasoning agent (GRA) in Google Earth AI.",
+  "Full GRA with Gemini 3.8 Flash scored 62.7 plus or minus 2.5 on GeoExpertQueries, averaged over three runs; with basic tools it scored 3.3.",
+  "GeoExpertQueries measures how closely a system follows expert workflows, not general answer accuracy.",
+  "Estimated model inference cost is $0.199 per query with Gemini 3.8 Flash and $0.688 with Gemini 3.1 Pro, excluding Earth Engine and other services.",
+  "WHO AFRO used GRA during an Ebola outbreak in the DR Congo to map 48 exposed settlements and over 45,500 people at risk; Google says it took minutes, not weeks.",
+  "Expanded access is limited to a group of early users."
+ ],
+ "quote_evidence": [
+  "The headline GeoExpertQueries result—62.7 ± 2.5 for full GRA with Gemini 3.8 Flash—measures how closely a system follows expert workflows, not whether its final answers are correct.",
+  "Google says expanded access to GRA’s experimental routes is limited to a group of early users."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An AI agent that plans map and satellite analyses could speed public-health and disaster work, but the scores are Google's own.",
+ "event_date": "14 Oct 2026",
+ "notes": "Full text read. Company's own benchmark and partner claims. Event 14 Oct, so score lowered."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-09",
+ "title": "Abu Dhabi's MBZUAI and the company Inception42 have launched Jais 3, a set of six open Arabic AI language models plus an Arabic speech recognition model.",
+ "source_used": "Gulf News",
+ "article_url": "https://gulfnews.com/uae/uae-launches-jais-3-arabic-native-ai-for-speech-writing-and-agents-1.500711935",
+ "fetched": true,
+ "key_facts": [
+  "MBZUAI's Institute of Foundation Models (IFM) and Inception42 introduced Jais 3",
+  "Six open language models, 900 million to 375 billion parameters, plus Jais Speech",
+  "Trained on Modern Standard Arabic and dialects, for more than 400 million Arabic speakers",
+  "Built on K2 Horizon, IFM's open-source model fleet released September 2026; made with Cerebras Systems",
+  "Evaluated on 24 Arabic benchmarks released publicly; largest model leads open models on agentic tasks (developers' claim)",
+  "512,000 token context window",
+  "Available today on Hugging Face"
+ ],
+ "quote_evidence": [
+  "Mohamed bin Zayed University of Artificial Intelligence's (MBZUAI) Institute of Foundation Models (IFM), and Inception42 have introduced Jais 3, a fleet of models built for Arabic",
+  "The fleet pairs six open language models, from 900 million to 375 billion parameters, with Jais Speech, a speech recognition model for Arabic and its dialects.",
+  "Jais 3 and Jais Speech are available today on Hugging Face, with deployment support for vLLM and SGLang."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Open Arabic models for speech and agents, including dialects.",
+ "event_date": "15 Oct 2026",
+ "notes": "WAM page returned no text; read Gulf News carrying the same announcement (also on WAM and PR Newswire). benchmark claims are the developers'."
+}

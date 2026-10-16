@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-03",
+ "title": "AI Scan for pull requests generally available",
+ "source_used": "The GitHub Blog changelog",
+ "article_url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+ "fetched": true,
+ "key_facts": [
+  "GitHub made AI Scan for pull requests generally available on 15 Oct 2026.",
+  "It complements CodeQL by checking pull request changes in languages CodeQL does not cover, including PHP, Shell/Bash, Terraform (HCL), Dockerfiles, JSP and Blazor.",
+  "Findings appear beside CodeQL results with an 'AI' marker and can include an explanation and a suggested fix.",
+  "Findings are advisory: they do not fail the code scanning check or block merges.",
+  "It does not run on pull requests from forks or from Dependabot.",
+  "Free for public repositories; private and internal repositories need GitHub Code Security or Advanced Security; no Copilot licence required.",
+  "It consumes Code Security AI Credits, billed usage-based."
+ ],
+ "quote_evidence": [
+  "AI Scan findings are advisory. They do not fail the code scanning check and cannot block pull request merges through ruleset requirements.",
+  "AI Scan for pull requests consumes Code Security AI Credits.",
+  "A GitHub Copilot license is not required."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Extends automatic security review to languages CodeQL does not support, but results are advisory and cost credits.",
+ "event_date": "15 Oct 2026",
+ "notes": "Official GitHub changelog; first-party announcement."
+}

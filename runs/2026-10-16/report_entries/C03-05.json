@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "OpenAI has told developers its GPT-4o and GPT-4.1 models will leave its API in January 2027, with only about three months' notice.",
+ "score": 5,
+ "score_reason": "Affects many developers with a real deadline, but it is one outlet's reading of OpenAI's notice and the notice came a day before the window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers running apps on the older models must migrate by 14 Jan 2027, and the notice is half the six months OpenAI's own policy promises, with no reason given.",
+ "source": "The New Stack",
+ "status": "REPORTED",
+ "summary": "The New Stack reports that OpenAI is retiring GPT-4o, GPT-4o mini, GPT-4.1 and GPT-4.1 mini, along with models fine-tuned from them, from its developer API on 14 Jan 2027, according to a notice sent to developers on Wednesday. That is about three months' warning, short of the six months OpenAI's own deprecation policy promises for generally available models, and OpenAI gave no reason; the recommended replacement, GPT-6 Luna, is cheaper but handles reasoning and tool calls differently, so migration may need code changes.",
+ "url": "https://thenewstack.io/openai-gpt4o-api-shutdown/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Notice sent Wednesday (14 Oct 2026 by inference), one day before window start; kept at 5 since coverage is dated 15 Oct and it has not run before.",
+ "item_id": "C03-05"
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-09",
+ "title": "ORCA launches PT-3 quantum computer in London datacentre",
+ "source_used": "The Quantum Insider (ORCA press release)",
+ "article_url": "https://thequantuminsider.com/2026/10/15/orca-computing-launches-pt-3-the-latest-generation-of-its-photonic-quantum-computers/",
+ "fetched": true,
+ "key_facts": [
+  "ORCA Computing launched the PT-3 photonic quantum computer",
+  "First system live in Digital Realty Innovation Lab, London, next to NVIDIA accelerated computing",
+  "Hybrid Proteina model trained on 32 NVIDIA Hopper GPUs with 64 photons in 128 qumodes",
+  "20% improvement in ratio of useful proteins versus classical baseline",
+  "Energy scheduling on 25,755-variable benchmark in about an hour, over 12x faster than predecessor",
+  "ORCA calls it the first built to deliver commercial quantum advantage",
+  "CEO Richard Murray; customers trialling life sciences, defence, energy and logistics"
+ ],
+ "quote_evidence": [
+  "ORCA Computing, the company pioneering quantum-accelerated AI for science, today launches the PT-3, the newest generation of its photonic quantum computers, and the first built to deliver commercial quantum advantage.",
+  "The hybrid model showed enhanced designability over the classical baseline, improving the ratio of useful proteins by 20%."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Photonic quantum hardware paired with GPUs for AI for science, per the company.",
+ "event_date": "15 Oct 2026",
+ "notes": "Computer Weekly blocked (403, Cloudflare); HPWire also blocked; read The Quantum Insider, which carries the ORCA press release. All figures are company claims."
+}

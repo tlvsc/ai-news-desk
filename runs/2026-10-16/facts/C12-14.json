@@ -1,0 +1,24 @@
+{
+ "item_id": "C12-14",
+ "title": "Jev and other decision models can still be tricked with prompt injection",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/15/jev-and-other-decision-models-can-still-be-tricked-with-prompt-injection/5303184",
+ "fetched": true,
+ "key_facts": [
+  "HiddenLayer, a security company, tested TypeSafe AI's Jev 'decision model', which gives probabilities and a confidence score rather than free text",
+  "TypeSafe claims Jev cannot hallucinate and never makes type errors",
+  "HiddenLayer says such models are under the hood language models with a different decoding method, so face many of the same risks",
+  "In a simulated online store, an open-source browser agent built on jev-ultrafast was told to buy what was in the cart; a sponsored ad with a 'Confirm Price' button hijacked its click",
+  "Same attack worked on Qwen3.8-27B tuned as a decision model; Jev gave in less often",
+  "A TokenBreak variant also slipped toxic prompts past prompt verification",
+  "TypeSafe AI did not immediately respond to a request for comment"
+ ],
+ "quote_evidence": [
+  "Though System One models cannot arbitrarily output tokens, they still face many of the same risks that an autoregressive model might face",
+  "A model that returns a decision is still a language model, and its decision still becomes an action in your systems."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "A new kind of AI model sold as safer can still be tricked by hidden instructions on a web page.",
+ "event_date": "15 Oct 2026",
+ "notes": "Findings are HiddenLayer's own lab tests; TypeSafe AI had not replied."
+}

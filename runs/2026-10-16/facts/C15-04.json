@@ -1,0 +1,25 @@
+{
+ "item_id": "C15-04",
+ "title": "Silicon qubits surpass 99.99% gate fidelity while operating three at once",
+ "source_used": "Nature Physics paper",
+ "article_url": "https://www.nature.com/articles/s41567-026-03466-2",
+ "fetched": true,
+ "key_facts": [
+  "Study in Nature Physics on a five-qubit silicon spin array",
+  "Dominant cause of fidelity loss in parallel operation: microwave-drive-induced a.c.-Stark shifts",
+  "Fix: pairwise phase calibrations with tailored pulses on a shared control line",
+  "Single-qubit X and Y gate fidelities well above 99.99%, some near 99.999%",
+  "Above 99.99% with up to three qubits running at once",
+  "Above 99.9% fault-tolerant threshold with all five running",
+  "Earlier silicon/silicon-germanium work saw 99.95% fall to 99.5% with two qubits"
+ ],
+ "quote_evidence": [
+  "Using tailored control pulses on a shared control line, we achieve primitive X and Y gate fidelities well above 99.99% for each qubit individually, with some approaching 99.999%.",
+  "Furthermore, these fidelities are preserved above 99.99% during simultaneous operation of up to three qubits.",
+  "During parallel five-qubit operation, fidelities remain above the widely targeted fault-tolerant threshold of 99.9%."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Parallel high-fidelity control through shared lines eases wiring for large silicon quantum processors.",
+ "event_date": "15 Oct 2026",
+ "notes": "Phys.org blocked (403); read the Nature Physics paper itself (Simultaneous high-fidelity single-qubit gates in a spin qubit array). Author team and institutions not captured in the text read, so none are named."
+}

@@ -1,0 +1,642 @@
+[
+ {
+  "category": "Politics and government of AI",
+  "source": "Reuters",
+  "page": "https://www.reuters.com/technology/",
+  "page_http": "401",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 48,
+  "kept": 32
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "Associated Press",
+  "page": "https://apnews.com/technology",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 64,
+  "kept": 8
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "POLITICO",
+  "page": "https://www.politico.eu/section/technology/",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 24,
+  "kept": 3
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "Financial Times",
+  "page": "https://www.ft.com/artificial-intelligence",
+  "page_http": "403",
+  "how": "feed",
+  "feed": "https://www.ft.com/artificial-intelligence?format=rss",
+  "in_window": 14,
+  "kept": 14
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "South China Morning Post",
+  "page": "https://www.scmp.com/tech",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.scmp.com/rss/320663/feed",
+  "in_window": 5,
+  "kept": 2
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Reuters Business",
+  "page": "https://www.reuters.com/business/",
+  "page_http": "401",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 48,
+  "kept": 32
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Bloomberg",
+  "page": "https://www.bloomberg.com/technology",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 42,
+  "kept": 29
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Financial Times",
+  "page": "https://www.ft.com/artificial-intelligence",
+  "page_http": "403",
+  "how": "feed",
+  "feed": "https://www.ft.com/artificial-intelligence?format=rss",
+  "in_window": 14,
+  "kept": 14
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Wall Street Journal",
+  "page": "https://www.wsj.com/tech/ai",
+  "page_http": "401",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 53,
+  "kept": 16
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Yicai Global",
+  "page": "https://www.yicaiglobal.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 4,
+  "kept": 0
+ },
+ {
+  "category": "Security and cyber",
+  "source": "BleepingComputer",
+  "page": "https://www.bleepingcomputer.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.bleepingcomputer.com/feed/",
+  "in_window": 9,
+  "kept": 2
+ },
+ {
+  "category": "Security and cyber",
+  "source": "Dark Reading",
+  "page": "https://www.darkreading.com/",
+  "page_http": "403",
+  "how": "feed",
+  "feed": "https://www.darkreading.com/rss.xml",
+  "in_window": 5,
+  "kept": 1
+ },
+ {
+  "category": "Security and cyber",
+  "source": "The Record",
+  "page": "https://therecord.media/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://therecord.media/feed/",
+  "in_window": 4,
+  "kept": 0
+ },
+ {
+  "category": "Security and cyber",
+  "source": "SecurityWeek",
+  "page": "https://www.securityweek.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.securityweek.com/feed/",
+  "in_window": 10,
+  "kept": 0
+ },
+ {
+  "category": "Security and cyber",
+  "source": "Krebs on Security",
+  "page": "https://krebsonsecurity.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://krebsonsecurity.com/feed/",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Energy and infrastructure",
+  "source": "Data Center Dynamics",
+  "page": "https://www.datacenterdynamics.com/",
+  "page_http": "403",
+  "how": "feed",
+  "feed": "https://www.datacenterdynamics.com/en/rss/",
+  "in_window": 20,
+  "kept": 16
+ },
+ {
+  "category": "Energy and infrastructure",
+  "source": "Data Center Frontier",
+  "page": "https://www.datacenterfrontier.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 3,
+  "kept": 2
+ },
+ {
+  "category": "Energy and infrastructure",
+  "source": "Utility Dive",
+  "page": "https://www.utilitydive.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.utilitydive.com/feeds/news/",
+  "in_window": 5,
+  "kept": 2
+ },
+ {
+  "category": "Energy and infrastructure",
+  "source": "Canary Media",
+  "page": "https://www.canarymedia.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.canarymedia.com/rss.rss",
+  "in_window": 3,
+  "kept": 1
+ },
+ {
+  "category": "Energy and infrastructure",
+  "source": "SemiAnalysis",
+  "page": "https://semianalysis.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://semianalysis.com/feed/",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Robotics",
+  "source": "The Robot Report",
+  "page": "https://www.therobotreport.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.therobotreport.com/feed/",
+  "in_window": 3,
+  "kept": 3
+ },
+ {
+  "category": "Robotics",
+  "source": "IEEE Spectrum",
+  "page": "https://spectrum.ieee.org/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Robotics",
+  "source": "Robotics 24/7",
+  "page": "https://www.robotics247.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 2,
+  "kept": 1
+ },
+ {
+  "category": "Robotics",
+  "source": "Robotics & Automation News",
+  "page": "https://roboticsandautomationnews.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://roboticsandautomationnews.com/feed/",
+  "in_window": 11,
+  "kept": 4
+ },
+ {
+  "category": "Robotics",
+  "source": "Live Science Robotics",
+  "page": "https://www.livescience.com/technology/robotics",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.livescience.com/feeds.xml",
+  "in_window": 4,
+  "kept": 0
+ },
+ {
+  "category": "Models and tools",
+  "source": "TechCrunch",
+  "page": "https://techcrunch.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "in_window": 10,
+  "kept": 8
+ },
+ {
+  "category": "Models and tools",
+  "source": "The Verge",
+  "page": "https://www.theverge.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "in_window": 10,
+  "kept": 8
+ },
+ {
+  "category": "Models and tools",
+  "source": "Ars Technica",
+  "page": "https://arstechnica.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "in_window": 1,
+  "kept": 0
+ },
+ {
+  "category": "Models and tools",
+  "source": "VentureBeat",
+  "page": "https://venturebeat.com/",
+  "page_http": "000",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 9,
+  "kept": 5
+ },
+ {
+  "category": "Models and tools",
+  "source": "The Decoder",
+  "page": "https://the-decoder.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://the-decoder.com/feed/",
+  "in_window": 7,
+  "kept": 7
+ },
+ {
+  "category": "Research and science",
+  "source": "Nature News",
+  "page": "https://www.nature.com/news",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.nature.com/nature.rss",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Research and science",
+  "source": "Science",
+  "page": "https://www.science.org/news",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 29,
+  "kept": 3
+ },
+ {
+  "category": "Research and science",
+  "source": "MIT Technology Review",
+  "page": "https://www.technologyreview.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Research and science",
+  "source": "New Scientist",
+  "page": "https://www.newscientist.com/",
+  "page_http": "406",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 9,
+  "kept": 3
+ },
+ {
+  "category": "Research and science",
+  "source": "Science News",
+  "page": "https://www.sciencenews.org/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.sciencenews.org/feed",
+  "in_window": 3,
+  "kept": 0
+ },
+ {
+  "category": "Ethics and law",
+  "source": "Reuters Legal",
+  "page": "https://www.reuters.com/legal/",
+  "page_http": "401",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 48,
+  "kept": 32
+ },
+ {
+  "category": "Ethics and law",
+  "source": "MLex",
+  "page": "https://www.mlex.com/mlex/artificial-intelligence",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.mlex.com/mlex/artificial-intelligence/rss",
+  "in_window": 6,
+  "kept": 4
+ },
+ {
+  "category": "Ethics and law",
+  "source": "Law360",
+  "page": "https://www.law360.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 44,
+  "kept": 26
+ },
+ {
+  "category": "Ethics and law",
+  "source": "Lawfare",
+  "page": "https://www.lawfaremedia.org/topics/artificial-intelligence",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 1,
+  "kept": 1
+ },
+ {
+  "category": "Ethics and law",
+  "source": "AlgorithmWatch",
+  "page": "https://algorithmwatch.org/en/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://algorithmwatch.org/feed/",
+  "in_window": 1,
+  "kept": 0
+ },
+ {
+  "category": "Health",
+  "source": "STAT",
+  "page": "https://www.statnews.com/topic/artificial-intelligence/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.statnews.com/feed/",
+  "in_window": 14,
+  "kept": 2
+ },
+ {
+  "category": "Health",
+  "source": "Fierce Healthcare",
+  "page": "https://www.fiercehealthcare.com/",
+  "page_http": "403",
+  "how": "feed",
+  "feed": "https://www.fiercehealthcare.com/rss.xml",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Health",
+  "source": "Healthcare IT News",
+  "page": "https://www.healthcareitnews.com/",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 2,
+  "kept": 0
+ },
+ {
+  "category": "Health",
+  "source": "MobiHealthNews",
+  "page": "https://www.mobihealthnews.com/",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 7,
+  "kept": 1
+ },
+ {
+  "category": "Health",
+  "source": "MedTech Dive",
+  "page": "https://www.medtechdive.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.medtechdive.com/feeds/news/",
+  "in_window": 2,
+  "kept": 0
+ },
+ {
+  "category": "Society and education",
+  "source": "The Guardian Technology",
+  "page": "https://www.theguardian.com/technology",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+  "in_window": 6,
+  "kept": 4
+ },
+ {
+  "category": "Society and education",
+  "source": "Rest of World",
+  "page": "https://restofworld.org/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://restofworld.org/feed/latest/",
+  "in_window": 1,
+  "kept": 1
+ },
+ {
+  "category": "Society and education",
+  "source": "Education Week",
+  "page": "https://www.edweek.org/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.edweek.org/index.rss",
+  "in_window": 8,
+  "kept": 2
+ },
+ {
+  "category": "Society and education",
+  "source": "Inside Higher Ed",
+  "page": "https://www.insidehighered.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.insidehighered.com/rss.xml",
+  "in_window": 10,
+  "kept": 1
+ },
+ {
+  "category": "Society and education",
+  "source": "WIRED",
+  "page": "https://www.wired.com/tag/artificial-intelligence/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "in_window": 2,
+  "kept": 2
+ },
+ {
+  "category": "Fun and humour",
+  "source": "AI Weirdness",
+  "page": "https://www.aiweirdness.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.aiweirdness.com/rss/",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Fun and humour",
+  "source": "IEEE Spectrum’s Video Friday",
+  "page": "https://spectrum.ieee.org/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+  "in_window": 0,
+  "kept": 0
+ },
+ {
+  "category": "Fun and humour",
+  "source": "Gizmodo",
+  "page": "https://gizmodo.com/tech/artificial-intelligence",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://gizmodo.com/feed",
+  "in_window": 20,
+  "kept": 5
+ },
+ {
+  "category": "Fun and humour",
+  "source": "Engadget",
+  "page": "https://www.engadget.com/category/ai/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.engadget.com/rss.xml",
+  "in_window": 20,
+  "kept": 4
+ },
+ {
+  "category": "Fun and humour",
+  "source": "PC Gamer",
+  "page": "https://www.pcgamer.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.pcgamer.com/feeds.xml",
+  "in_window": 30,
+  "kept": 4
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "investing.com",
+  "page": "https://www.investing.com/",
+  "page_http": "403",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 70,
+  "kept": 70
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "MarketWatch",
+  "page": "https://www.marketwatch.com/",
+  "page_http": "401",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 57,
+  "kept": 18
+ },
+ {
+  "category": "Market, industry and finance",
+  "source": "Yahoo Finance",
+  "page": "https://finance.yahoo.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 52,
+  "kept": 52
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "CNA (Asia)",
+  "page": "https://www.channelnewsasia.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 59,
+  "kept": 36
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "BBC News",
+  "page": "https://www.bbc.com/news",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 57,
+  "kept": 6
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "Euronews",
+  "page": "https://www.euronews.com/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://www.euronews.com/rss",
+  "in_window": 50,
+  "kept": 3
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "DW News",
+  "page": "https://www.dw.com/en/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 48,
+  "kept": 15
+ },
+ {
+  "category": "Politics and government of AI",
+  "source": "taz (German, left-leaning daily)",
+  "page": "https://taz.de/",
+  "page_http": "200",
+  "how": "feed",
+  "feed": "https://taz.de/atom.xml",
+  "in_window": 46,
+  "kept": 0
+ },
+ {
+  "category": "Society and education",
+  "source": "Sixth Tone (Chinese, English)",
+  "page": "https://www.sixthtone.com/",
+  "page_http": "200",
+  "how": "google site search",
+  "feed": null,
+  "in_window": 2,
+  "kept": 2
+ }
+]

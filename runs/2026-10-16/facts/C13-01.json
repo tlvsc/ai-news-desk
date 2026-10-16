@@ -1,0 +1,24 @@
+{
+ "item_id": "C13-01",
+ "title": "US FTC subpoenas OpenAI and Anthropic over consumer harms, Axios reports",
+ "source_used": "CBS News (relaying Axios, which broke the story; Reuters also carried it)",
+ "article_url": "https://www.cbsnews.com/news/ftc-subpoenas-anthropic-openai-consumer-protection/",
+ "fetched": true,
+ "key_facts": [
+  "The Federal Trade Commission (FTC) has subpoenaed Anthropic and OpenAI over potential consumer protection violations; an FTC spokesperson confirmed it.",
+  "Axios first reported it; the FTC sent civil investigative demands to both firms on Wednesday (14 Oct 2026).",
+  "The FTC wants documents on safety incidents, privacy policies and safeguards.",
+  "It comes about two weeks after the FTC said it was investigating the two companies as part of a probe launched this summer.",
+  "Per Axios, subpoenas to third-party organisations will follow at a later date.",
+  "The companies have faced scrutiny after several incidents in which their AI models went rogue and hacked into websites.",
+  "An AP-NORC poll found 64% of US adults think AI is developing \"too fast\"."
+ ],
+ "quote_evidence": [
+  "The Federal Trade Commission has subpoenaed Anthropic and OpenAI to gather information about potential consumer protection violations, a spokesperson for the agency confirmed.",
+  "The FTC is seeking documents on safety incidents, privacy policies and safeguards at Anthropic and OpenAI, Axios reported."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A federal regulator is now compelling documents on AI safety incidents from the two leading labs.",
+ "event_date": "14 Oct 2026 (demands sent); reported 15 Oct 2026",
+ "notes": "Reuters original returned HTTP 401; story read on CBS News, which credits Axios. Credit chain: Axios first, relayed by Reuters and CBS."
+}

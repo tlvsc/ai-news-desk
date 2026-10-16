@@ -1,0 +1,24 @@
+{
+ "item_id": "C04-01",
+ "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+ "fetched": true,
+ "key_facts": [
+  "35 researchers from institutions including ICTS, Harvard, KU Leuven and Google DeepMind released TheoPhysEval, a benchmark of 50 unpublished theoretical physics research problems with verifiable answers.",
+  "OpenAI's GPT-6-Astra in the Codex environment solved 49 of 50 (98 percent) with no human hints, at under $3 per problem and just under $116 for the whole benchmark.",
+  "Anthropic's Opus 5.5 in Claude Code scored 92 percent, Gemini 3.8 Flash 68 percent, DeepSeek-V4.1-Flash 54 percent and GLM 5.3 42 percent.",
+  "Without web search, Astra and Opus each scored 92 percent, which the authors read as a sign models have memorized much of the theoretical physics literature.",
+  "The problems are 'turn-the-crank' calculations; the authors say agents lack the 'taste' to choose good problems and that this is not a forecast.",
+  "The authors warn that rising compute needs could make a group's budget matter more even in theoretical physics, raising access and equal-opportunity questions."
+ ],
+ "quote_evidence": [
+  "GPT-6-Astra, running in OpenAI's Codex coding environment, came out on top.",
+  "It found the right answer for 49 of 50 problems, or 98 percent, at an average cost of under $3 per problem and just under $116 for the whole benchmark.",
+  "Agents don't seem to have this \"taste\" yet."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Top AI agents now match specialists on concrete physics calculations, which may change how early-career researchers are trained and who can afford research.",
+ "event_date": "Not stated; reported 15 Oct 2026",
+ "notes": "Full text read. Benchmark is the authors' own; no independent review reported."
+}

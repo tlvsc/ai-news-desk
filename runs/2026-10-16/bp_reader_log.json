@@ -1,0 +1,302 @@
+{
+ "reader": "second reader, Bigger Picture (brief item 4)",
+ "date": "2026-10-16",
+ "changes": [
+  {
+   "id": "E1",
+   "file": "bigger_picture.json",
+   "section": "1. What AI can do now",
+   "paragraph_index": 2,
+   "reason": "sec1 inference (C04-04): Anthropic's models did not write the 722 manuscripts; only OpenAI's did",
+   "old": "15 million dollars from the two labs whose models wrote the papers and a foundation",
+   "new": "15 million dollars from OpenAI, whose models wrote the papers, Anthropic and a foundation"
+  },
+  {
+   "id": "E2",
+   "file": "bigger_picture.json",
+   "section": "1. What AI can do now",
+   "paragraph_index": 3,
+   "reason": "sec1 inference (C11-08): 'nearly three times' not supported; source gives under 40 seconds against about 15",
+   "old": "and a cycle nearly three times a person's,",
+   "new": "and a cycle of under 40 seconds against a skilled worker's 15,"
+  },
+  {
+   "id": "E3",
+   "file": "bigger_picture.json",
+   "section": "2. People and society",
+   "paragraph_index": 1,
+   "reason": "sec2 inference (C13-05): the order was given on 15 Oct, ten days before the 25 Oct runoff, not nine",
+   "old": "nine days before the vote",
+   "new": "ten days before the vote"
+  },
+  {
+   "id": "E4",
+   "file": "bigger_picture.json",
+   "section": "2. People and society",
+   "paragraph_index": 1,
+   "reason": "sec2 inference (C09-12): the draft covers new data centres; nothing says Greece has none yet",
+   "old": "Greece is writing its conditions before the first campus arrives",
+   "new": "Greece is writing its conditions before the new campuses arrive"
+  },
+  {
+   "id": "E5",
+   "file": "bigger_picture.json",
+   "section": "2. People and society",
+   "paragraph_index": 2,
+   "reason": "sec2 inference (C10-03): hedge restored; the regulator found eight of 12 likely count as devices",
+   "old": "the regulator finds the scribes have become devices by adding advice to transcription",
+   "new": "the regulator finds eight of twelve scribes have likely become devices by adding advice to transcription"
+  },
+  {
+   "id": "E6",
+   "file": "bigger_picture.json",
+   "section": "3. Safety, security and law",
+   "paragraph_index": 0,
+   "reason": "sec3 inference (C05-01, C05-08): Huang's remarks were not all on one day, and Nvidia pledged 250 million over five years, it did not give it",
+   "old": "and the chip maker's chief executive, the same day, dismissed their extinction case, asked for dialogue with China and gave Britain 250 million dollars for safety research, a position",
+   "new": "and the chip maker's chief executive, in recent days, dismissed their extinction case and asked for dialogue with China, after Nvidia pledged Britain 250 million dollars over five years for safety research, a position"
+  },
+  {
+   "id": "E7",
+   "file": "bigger_picture.json",
+   "section": "3. Safety, security and law",
+   "paragraph_index": 0,
+   "reason": "sec3 Fact (C13-10): the department accepted GAO's recommendations, which the sentence did not state",
+   "old": "were filled as of February 2026, recommendations the department accepted {C13-10}",
+   "new": "were filled as of February 2026, and recommended a charter and more staff, which the department accepted {C13-10}"
+  },
+  {
+   "id": "E8",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 0,
+   "reason": "sec5 Fact (C07-01): Reuters says Amazon, Alphabet and Meta hit records; for Oracle it says the spread neared 300 basis points",
+   "old": "and contracts on Oracle, Amazon, Alphabet and Meta also hit records, rising more slowly {C07-01}",
+   "new": "and contracts on Amazon, Alphabet and Meta also hit records, rising more slowly, while Oracle's neared 300 basis points {C07-01}"
+  },
+  {
+   "id": "E9",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 0,
+   "reason": "sec5 Fact (C05-09): the Bloomberg headline is not part of the Yahoo Finance report; attribution separated",
+   "old": "after its shares fell 15 percent on Wednesday, and that Bloomberg's headline says no backstop is needed;",
+   "new": "after its shares fell 15 percent on Wednesday; Bloomberg's headline says no backstop is needed;"
+  },
+  {
+   "id": "E10",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 0,
+   "reason": "sec5 inference (C07-05): Kospi fell 7.6 percent, not 8",
+   "old": "Korea fell 8 percent on Thursday",
+   "new": "Korea fell 7.6 percent on Thursday"
+  },
+  {
+   "id": "E11",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 0,
+   "reason": "sec5 inference (C07-01): Reuters calls CoreWeave hardest hit among heavily indebted operators, not the most indebted borrower",
+   "old": "the price of insuring the build's most indebted borrower against default set a record",
+   "new": "the price of insuring the build's hardest-hit borrower against default set a record"
+  },
+  {
+   "id": "E12",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 1,
+   "reason": "sec5 inference (C06-01, C07-07): Anthropic's listing is planned; nothing supports 'the year's largest listing'",
+   "old": "the price of the year's largest listing moved down by a quarter in a day",
+   "new": "the price of Anthropic's planned listing moved down by a quarter in a day"
+  },
+  {
+   "id": "E13",
+   "file": "bigger_picture.json",
+   "section": "5. Markets",
+   "paragraph_index": 1,
+   "reason": "sec5 inference (C12-01, C13-03): the METR step was not an answer to the comptroller, who had no reply",
+   "old": "and the lab's answer the same day, six examiners from METR,",
+   "new": "and the lab's own step the same day, six examiners from METR,"
+  },
+  {
+   "id": "E14",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 0,
+   "reason": "Forecast 1(a) (C09-01): hedge restored, up to 16 power units, most conditional",
+   "old": "Venture Global's 16 turbines for data centres {C09-01}",
+   "new": "Venture Global's deals for up to 16 gas power units for data centres, most still conditional {C09-01}"
+  },
+  {
+   "id": "E15",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 0,
+   "reason": "Forecast 1(b) (C07-01): Reuters names records for Amazon, Alphabet and Meta only; Microsoft is not named",
+   "old": "record prices for insuring the four spenders' own debt, rising more slowly than CoreWeave's {C07-01}",
+   "new": "record prices for insuring the debt of three of the four spenders, Amazon, Alphabet and Meta, rising more slowly than CoreWeave's {C07-01}"
+  },
+  {
+   "id": "E16",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 0,
+   "reason": "Forecast 1 (C07-01): same correction, three of the four spenders",
+   "old": "because the insurance on the spenders' own debt set records today",
+   "new": "because the insurance on three of the spenders' own debt set records today"
+  },
+  {
+   "id": "E17",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 6,
+   "reason": "Forecast 7 (C14-08): the states recommended protections; they are not a condition unless the court adopts them",
+   "old": "asking for privacy and safety protections on any sale, a condition on every bidder {C14-08}",
+   "new": "asking for privacy and safety protections on any sale, which would bind every bidder if the court adopts them {C14-08}"
+  },
+  {
+   "id": "E18",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 7,
+   "reason": "Forecast 8 (C11-08): the source says routine operation, not paid work",
+   "old": "humanoids doing paid work on a Chinese factory line {C11-08}",
+   "new": "humanoids in routine work on a Chinese factory line {C11-08}"
+  },
+  {
+   "id": "E19",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 10,
+   "reason": "Forecast 11 (C07-01): Reuters does not say CoreWeave must refinance; it says heavily indebted",
+   "old": "the borrowers that must refinance first, CoreWeave by Reuters' account {C07-01}",
+   "new": "the heavily indebted borrowers first, CoreWeave by Reuters' account {C07-01}"
+  },
+  {
+   "id": "E20",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 11,
+   "reason": "Forecast 12 (C07-01): Reuters ties the 64 percent to a spread of 1,000, not to CoreWeave's 1,100",
+   "old": "past 1,100 basis points, implying a 64 percent chance of default in five years by Reuters' rule of thumb,",
+   "new": "past 1,100 basis points, where by Reuters' rule of thumb a spread of 1,000 implies a 64 percent chance of default in five years,"
+  },
+  {
+   "id": "E21",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 11,
+   "reason": "Forecast 12 (C03-01): CoreWeave deploys Perplexity's free open-source sandbox; no deal or work won is reported",
+   "old": "and Perplexity's sandbox deal showing CoreWeave still winning work {C03-01}",
+   "new": "and CoreWeave among the cloud firms deploying Perplexity's open-source sandbox {C03-01}"
+  },
+  {
+   "id": "E22",
+   "file": "bigger_picture.json",
+   "section": "Forecasts",
+   "paragraph_index": 14,
+   "reason": "Forecast 15 (C12-11): hedge restored, WIRED says regulators are reportedly still investigating",
+   "old": "WIRED's report that EU regulators are still investigating both {C12-11}",
+   "new": "WIRED's report that EU regulators are reportedly still investigating both {C12-11}"
+  },
+  {
+   "id": "E23",
+   "file": "bigger_picture.json",
+   "section": "A. Highest conviction developments to watch",
+   "paragraph_index": 2,
+   "reason": "A.2 (C13-09): 'the first large European government deal with Nvidia since SOOFI was launched' is not in the Handelsblatt report as read",
+   "old": "Why: the first large European government deal with Nvidia since the SOOFI project was launched, by Handelsblatt's account, decides forecast 16",
+   "new": "Why: a deal of hundreds of millions of euros built around Germany's sovereign open-source project, by Handelsblatt's account, decides forecast 16"
+  },
+  {
+   "id": "E24",
+   "file": "bigger_picture.json",
+   "section": "A. Highest conviction developments to watch",
+   "paragraph_index": 4,
+   "reason": "A.4 (C09-12): 24 October 2026 is a Saturday",
+   "old": "Friday 24 October: public comment closes",
+   "new": "Saturday 24 October: public comment closes"
+  },
+  {
+   "id": "E25",
+   "file": "bigger_picture.json",
+   "section": "A. Highest conviction developments to watch",
+   "paragraph_index": 6,
+   "reason": "A.6: 2 November 2026 is a Monday",
+   "old": "Sunday 2 November: Churchill Capital Corp XI",
+   "new": "Monday 2 November: Churchill Capital Corp XI"
+  },
+  {
+   "id": "B1",
+   "file": "bigger_picture_bulletin.json",
+   "section": "paragraphs",
+   "paragraph_index": 1,
+   "reason": "Bulletin para 2 (C07-01): Reuters ties the 64 percent to a spread of 1,000, not to the 1,100 level",
+   "old": "whose five-year contract passed 1,100 basis points, a level Reuters says implies a 64 percent chance of default within five years, against about 30 percent a year ago.",
+   "new": "whose five-year contract passed 1,100 basis points; Reuters says 1,000 implies a 64 percent chance of default within five years, against about 30 percent a year ago."
+  },
+  {
+   "id": "B2",
+   "file": "bigger_picture_bulletin.json",
+   "section": "paragraphs",
+   "paragraph_index": 3,
+   "reason": "Bulletin para 4 (C07-01): CoreWeave does not pay for the default insurance; the price of insuring against its default hit a record; 'most indebted' replaced by Reuters' 'hit hardest'",
+   "old": "and the most indebted borrower at the top paid a record for insurance on the same day",
+   "new": "and default insurance on the hardest-hit borrower at the top hit a record the same day"
+  },
+  {
+   "id": "B3",
+   "file": "bigger_picture_bulletin.json",
+   "section": "paragraphs",
+   "paragraph_index": 5,
+   "reason": "Bulletin para 6 (C06-01): hedge restored, the 16.8 billion figure is reported and not confirmed by Anthropic",
+   "old": "Whether Anthropic's 16.8 billion dollars of quarterly revenue",
+   "new": "Whether Anthropic's reported 16.8 billion dollars of quarterly revenue"
+  }
+ ],
+ "unresolved": [
+  "Section 1 inference calls DeepSeek-V4.1-Flash and GLM 5.3 'two Chinese open ones'; the entries do not say these two models are open. Left as written (widely known as open-weight, but not in today's sources).",
+  "References to earlier editions (Epoch's seven months and First Proof's none of ten, Silicon Republic's 415 signatories, 40 attorneys general, the Korea count, Osaka and Kentucky, Nvidia's stakes in four French start-ups, the 9 November roadshow, the Agility vote date, the Micron rally, the Memphis vote, the Jio dates, the CISA deadline, Neura's laundry demo) cannot be checked against today's entries; all are labelled as earlier editions and left.",
+  "Dates the first writer found by web search (Berlin summit 19 and 20 October; GTC Berlin keynote 21 October at the Tempodrom; SK hynix's SEC filing; Intel's 6 October notice; NERC's December board target; third-party dates for Amazon, Apple, Samsung, Nvidia and CoreWeave) are not in the pack and could not be verified here; each names its source and says whether it is confirmed.",
+  "Section 5 inference says 'inflation came in hot on Wednesday' and 'the lenders repriced on Monday'; today's entries give the figures but not the release days. Left.",
+  "Scenario B.7 horizon 'in 10 days': the runoff is 9 days from 16 October; an approximate horizon, not changed.",
+  "Section 1 Fact (C04-03) says the commissioner 'called the pledges concrete commitments'; her words are that the campaign turns ambition into concrete commitments. A fair paraphrase; not changed.",
+  "Section 2 weak signal says 'fewer young hires'; the Stanford figure is employment of 22 to 25 year-olds down 16 percent, not hires. Minor; not changed.",
+  "No separate list from the first writer of facts-file details was found in WORKDIR; each such detail was checked against the facts files directly (see checks.facts_file_details_confirmed)."
+ ],
+ "bulletin_words": 499,
+ "checks": {
+  "facts_checked": "every Fact sentence of both files against the entry and facts of its cited item (83 items in the pack)",
+  "not_financial_advice_sentence": "present in both files",
+  "process_wording": "none found (no pool, cut-off, rule numbers, file names or similar)",
+  "bulletin_citations": "none",
+  "citation_count_full_report": "306 before and after",
+  "dates": "every dated event in section A and the forecasts is either from a cited entry, labelled as checked for an earlier edition, labelled as found today with its source, or labelled unconfirmed; two weekday errors fixed (E24, E25)",
+  "facts_file_details_confirmed": [
+   "C08-04 Samsung and SK hynix iPhone memory price rises of 80 and 100 percent",
+   "C08-06 Terafab does not change Tesla's 16.5 billion dollar Samsung deal",
+   "C13-06 FTC chair Andrew Ferguson a task-force vice chair",
+   "C13-09 Merz and Huang expected to unveil the deal on Monday (BigGo, Investing.com)",
+   "C09-04 FERC filing deadline 31 December",
+   "C07-01 CoreWeave 2031 bond yield up to 16 then about 14 percent; nearly 50 billion owed (LSEG); Amazon, Alphabet and Meta records",
+   "C07-03 92 percent odds of another Fed rise; September inflation 3.7 percent",
+   "C07-04 TD Securities' Newnaha 'highly counterintuitive'; about 40 percent odds for October",
+   "C07-06 CoreWeave, Nebius, Oracle near the bottom on free cash flow; pullback 'healthy'",
+   "C14-02 only two districts with moderate growth",
+   "C13-03 Bloomberg 1 October report of trading before Thanksgiving; 80 pages of risk disclosures",
+   "C06-01 Gavin Baker, Atreides Management, positive free cash flow",
+   "C07-07 seven of the ten largest IPOs below offer price",
+   "C04-01 other model scores and the 92 percent without web search",
+   "C08-01 2026 capital budget 60 to 64 billion from 52 to 56; prudent about 2027; price-sensitive consumer markets",
+   "C01-01 available through API platforms",
+   "C06-02 Zuckerberg thanked Ternus on X",
+   "C09-07 Green Chile pipeline; precedent fear",
+   "C11-09 tickets from 16 October"
+  ],
+  "facts_file_details_not_supported": [
+   "C07-01 an Oracle record (Reuters gives Oracle's spread near 300 basis points; fixed E8)",
+   "C07-01 records for all four spenders (Microsoft not named; fixed E15, E16)"
+  ]
+ }
+}

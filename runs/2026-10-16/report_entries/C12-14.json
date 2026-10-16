@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-14",
+ "v1_category": "SEC",
+ "headline": "The security firm HiddenLayer says it tricked TypeSafe AI's Jev model, which is sold as safer than chatbots, into clicking a fake button in a simulated online store.",
+ "score": 5,
+ "score_reason": "Vendor lab test on a niche model, with no independent confirmation yet.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies that plan to let AI agents shop or click for them should not assume a new model type is safe from hidden-instruction attacks, though this is one security firm's lab test and TypeSafe AI has not answered.",
+ "source": "The Register, citing HiddenLayer",
+ "status": "PRELIMINARY",
+ "summary": "The Register reports that security company HiddenLayer says it tricked TypeSafe AI's Jev model, which returns decisions with a confidence score rather than free text, into clicking a fake 'Confirm Price' button in a simulated shop through a hidden instruction in an ad. HiddenLayer says the same attack worked on a standard language model tuned the same way, though Jev gave in less often, and TypeSafe AI had not responded.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/15/jev-and-other-decision-models-can-still-be-tricked-with-prompt-injection/5303184",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full text read. Results are HiddenLayer's own tests; the 'Qwen3.8-27B' name is as printed by the outlet."
+}

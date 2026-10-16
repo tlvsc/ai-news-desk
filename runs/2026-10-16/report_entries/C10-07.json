@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-07",
+ "v1_category": "HEA",
+ "headline": "A new study found that AI models that predict intensive-care deaths can fail badly when they are used in a different hospital from the one that trained them.",
+ "score": 5,
+ "score_reason": "Small retrospective study, but a clear warning on clinical AI validation; score unchanged.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients and hospitals relying on outside AI tools should demand testing at their own site, though the study used small samples and the authors call it exploratory.",
+ "source": "Scienmag, as relayed by Bioengineer.org",
+ "status": "PRELIMINARY",
+ "summary": "Scienmag reports, as relayed by Bioengineer.org, that researchers at Universidad de Las Américas in Quito, Ecuador, moved three intensive-care mortality models between two hospital databases and found one predicted no deaths at all, missing all 33 patients who died. The study, in Frontiers in Digital Health, says common scores such as AUC can look acceptable while the models fail at the cutoff where clinical decisions are made, though the authors call their retrospective results exploratory.",
+ "url": "https://bioengineer.org/ai-mortality-models-collapse-when-moved-between-hospitals-study-warns/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Bioengineer.org carries Scienmag's text; the study was published in Frontiers in Digital Health."
+}

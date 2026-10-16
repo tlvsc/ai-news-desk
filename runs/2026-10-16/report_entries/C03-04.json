@@ -1,0 +1,17 @@
+{
+ "v1_category": "MOD",
+ "headline": "NVIDIA and an Indian university lab announced a huge set of machine-translated training text for 22 Indian languages.",
+ "score": 5,
+ "score_reason": "Significant open resource for under-served languages, but not yet released and results are the company's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Speakers of India's 22 official languages stand to gain better AI tools, but the data is translated from English, mostly checked by machines, and not yet available.",
+ "source": "Unite.AI, reporting an NVIDIA and AI4Bharat announcement",
+ "status": "REPORTED",
+ "summary": "Unite.AI reports that NVIDIA and AI4Bharat, a research lab at IIT Madras, announced a corpus of about 2.8 trillion tokens (word-sized pieces of text used to train AI) translated from English into 22 Indian languages, plus the open tools used to make it; the corpus is due for release soon. NVIDIA says continued training with Indic data lifted five benchmark scores by about 5 to 10 percentage points, but it warns that translated text cannot replace text written natively, that checking was mostly automated, and that errors remain.",
+ "url": "https://www.unite.ai/nvidia-unveils-2-8t-token-indic-pretraining-corpus-and-open-pipeline/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Benchmark gains are NVIDIA's claims; the report notes the effect of the synthetic corpus alone was not isolated.",
+ "item_id": "C03-04"
+}

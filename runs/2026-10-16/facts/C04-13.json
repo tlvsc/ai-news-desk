@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-13",
+ "title": "GPT vs Claude Robot Task Direction Capability: First-Ever Evaluation Ranking Released",
+ "source_used": "36Kr (republishing Robot Forward Outlook, WeChat)",
+ "article_url": "https://eu.36kr.com/en/p/4027929770152584",
+ "fetched": true,
+ "key_facts": [
+  "Artificial Analysis, a US AI benchmark company, released AA-Robotics v0.1, a research preview, on 14 Oct 2026.",
+  "Models such as GPT-6 Astra, GPT-6.1 Sol and Gemini 4 Argon write code to control a Hiwonder NexArm 6-axis robotic arm on 8 desktop tasks, watching through 4 cameras.",
+  "GPT-6 Astra ranked first with 69; it averaged 30 minutes and $16.36 per task; GPT-6.1 Sol cost $1.93 per task and scored 65.",
+  "Models were close to 100 times slower than humans (about 30 minutes versus 20 seconds per task) and at least about 10 times as costly.",
+  "Models often kept fiddling after a task was already complete, which sometimes caused failure.",
+  "In grasping and fine manipulation, Astra and Claude Fable 5.1 succeeded about 45 percent of the time."
+ ],
+ "quote_evidence": [
+  "In AA-Robotics v0.1, GPT-6 Astra ranks first with a score of 69.",
+  "The evaluation results show that the speed of current language models to complete AA-Robotics v0.1 tasks is only about 1/100 of that of humans."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "General AI models can now operate a robot arm, but are far too slow and costly for production.",
+ "event_date": "14 Oct 2026",
+ "notes": "Full text read. Republished from WeChat account Robot Forward Outlook; original benchmark by Artificial Analysis was not read directly. Event 14 Oct, so score lowered."
+}

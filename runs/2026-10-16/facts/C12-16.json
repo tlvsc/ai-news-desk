@@ -1,0 +1,23 @@
+{
+ "item_id": "C12-16",
+ "title": "Android gets AI defenses against messaging scams, fake calls",
+ "source_used": "BleepingComputer",
+ "article_url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+ "fetched": true,
+ "key_facts": [
+  "Google announced new AI-powered defences against scam messages and call-forwarding abuse on Android, rolling out to eligible devices",
+  "Google says existing Phone and Messages scam detection flags more than 5 million suspected scam calls and texts a month",
+  "New protections for Google Messages use cloud-based Gemini analysis inside its encrypted Private AI Compute environment, plus on-device Gemini Nano checks of unfamiliar links",
+  "The cloud-based protections are off by default; users must switch them on",
+  "Verified bank calls system expanded: it ends a call automatically if a bank's call centre did not start it; Google says it blocked over 3 million fraudulent calls since June for Banco do Brasil and Itau Unibanco alone",
+  "Revolut and other institutions are supported"
+ ],
+ "quote_evidence": [
+  "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices.",
+  "The new cloud-based protections are currently disabled by default, allowing users to activate them."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Android users get AI scam checking, but the stronger version must be turned on.",
+ "event_date": "15 Oct 2026",
+ "notes": "Google's own announcement as relayed by BleepingComputer; figures are Google's."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-05",
+ "title": "Tesla confirms Autopilot/FSD was ‘engaged’ when car crossed a median and killed a man",
+ "source_used": "Electrek",
+ "article_url": "https://electrek.co/2026/10/15/tesla-driver-assist-median-crossing-vineland/",
+ "fetched": true,
+ "key_facts": [
+  "On Saturday 22 Aug 2026 a Tesla crossed the grass median of Route 55 in Vineland, New Jersey, hit a tree and struck an SUV head-on.",
+  "The SUV driver, Phillip Eastman, 68, of Springfield, Pennsylvania, was killed; the Tesla driver and an SUV passenger were taken to hospital with moderate injuries.",
+  "Police described it as a driver who lost control; no early report mentioned driver assistance.",
+  "Tesla's report to NHTSA, made under a Standing General Order, lists the driver-assist 'Engagement Status' as 'Verified Engaged' for a 2021 Model Y.",
+  "Tesla redacted the crash narrative, software version and whether the road was in the system's approved area.",
+  "Electrek says 'engaged within 30 seconds of impact' is the reporting trigger, not proof the system was steering; the driver may have been overriding it.",
+  "Eastman had just been sworn in as a Springfield School District board member and coached youth and high-school ice hockey for nearly three decades."
+ ],
+ "quote_evidence": [
+  "Under a NHTSA Standing General Order, automakers must report crashes where a Level 2 driver-assist system was engaged within 30 seconds of impact and someone is killed.",
+  "“Engaged within 30 seconds of impact” is the reporting trigger, not proof the system was steering when the car crossed the median.",
+  "Then it redacts the fields that would explain what the car did: the crash narrative, the software version, and whether the road was within the system’s approved operating area."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows what Tesla's filing does and does not establish about driver assistance in a fatal crash.",
+ "event_date": "22 Aug 2026",
+ "notes": "Electrek investigation matching crashes to redacted NHTSA data. The pool headline (\"confirms engaged when car ... killed a man\") overstates what the filing proves, so score lowered by 1 and headline worded cautiously."
+}

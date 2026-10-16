@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-04",
+ "v1_category": "RES",
+ "headline": "Scientists have kept silicon quantum bits above 99.99% accuracy while running three of them at the same time, by fixing a control problem that normally degrades them.",
+ "score": 6,
+ "score_reason": "Peer-reviewed, clear technical advance for silicon qubits, but on a five-qubit lab device.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Being able to drive many silicon qubits at once through one shared control line is a step toward large chips that can be made in ordinary semiconductor factories, but the demonstration is five qubits and quantum computers will need millions.",
+ "source": "Nature Physics",
+ "status": "CONFIRMED",
+ "summary": "Researchers report in Nature Physics that in a five-qubit silicon spin device they traced the drop in accuracy during parallel operation to microwave-driven energy shifts (a.c.-Stark shifts) and removed it with a simple calibration of qubit pairs, giving gate fidelities well above 99.99% for single qubits and above 99.99% with three running together. With all five qubits running at once fidelity stayed above 99.9%, the level widely targeted for fault-tolerant quantum computing.",
+ "url": "https://www.nature.com/articles/s41567-026-03466-2",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Phys.org blocked (403); read the Nature Physics paper itself (Simultaneous high-fidelity single-qubit gates in a spin qubit array). Author team and institutions not captured in the text read, so none are named."
+}

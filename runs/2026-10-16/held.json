@@ -1,0 +1,40 @@
+{
+ "stale_redated": [
+  "C02-11",
+  "C04-05",
+  "C04-07",
+  "C04-08",
+  "C04-10",
+  "C05-03",
+  "C05-04",
+  "C05-05",
+  "C05-16",
+  "C06-09",
+  "C08-08",
+  "C08-09",
+  "C08-13",
+  "C09-02",
+  "C09-09",
+  "C09-14",
+  "C10-04",
+  "C12-05",
+  "C12-17",
+  "C13-02",
+  "C13-11",
+  "C14-05",
+  "C14-09",
+  "C14-12",
+  "C14-14",
+  "C15-02"
+ ],
+ "duplicate": {
+  "C06-06": "same story kept as C10-01",
+  "C02-06": "same story kept as C01-06 (ChatGPT voice mode, GPT-Live-1.1)",
+  "C05-13": "repeat of 2026-10-15 (Larry Fink moratorium recession, item 43)",
+  "C12-04": "repeat of 2026-10-15 (EU AI Office information requests to OpenAI and Anthropic)",
+  "C06-03": "repeat of 2026-10-10 (Ramp .85B at 0B, item 16)",
+  "C13-07": "same Huang London remarks, same CNBC link, kept as C05-01",
+  "C05-07": "overlaps C05-08 (AI doom split, Huang 0% remark); C05-07 is a 14 Oct Reuters factbox, before the window; kept C05-08",
+  "C16-05": "repeat of 2026-10-08 (AI Rumpelstiltskin video, NBC News, item 103 of the 8 Oct report)"
+ }
+}

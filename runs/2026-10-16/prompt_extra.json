@@ -1,0 +1,11 @@
+{
+ "curate": {
+  "1": "MUST INCLUDE, score at least 7 (VIRAL RULE): Meta wants to challenge China's AI dominance with its new Muse Spark Open model, carried by 69 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "10": "MUST INCLUDE, score at least 7 (VIRAL RULE): AstraZeneca and insitro Sign USD 1.5 Billion AI Drug Discovery Partnership, carried by 29 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "13": "MUST INCLUDE, score at least 7 (VIRAL RULE): (a) States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults, carried by 48 outlets; (b) Comptroller Mark Levine urges Anthropic to delay IPO over safety, carried by 24 outlets. Take the best readable outlet for each; scores are not lowered for tone.",
+  "15": "MUST INCLUDE, score at least 7 (VIRAL RULE): Google Quantum AI demonstrates magic state cultivation on the Willow processor (Science), carried by 21 outlets; take the best readable outlet; the score is not lowered for tone."
+ },
+ "write": {
+  "8": "WRITE ONLY ITEM C08-16 (The Verge, how Windows is being optimized for Nvidia's RTX Spark laptops). The other items of this category are already written and edited: do not read, rewrite or touch their facts or report_entries files. C08-16 is a follow-up of the 9 Oct 2026 RTX Spark launch story (C08-02 that day, score 7) and is carried by 20 outlets, so its score is at least 7 (VIRAL RULE; you cannot lower it; check facts and dates as usual). Say plainly what is new today compared with the launch story. Its text is in fulltext/C08-16.txt."
+ }
+}

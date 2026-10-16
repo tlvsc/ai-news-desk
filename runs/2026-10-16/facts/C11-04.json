@@ -1,0 +1,24 @@
+{
+ "item_id": "C11-04",
+ "title": "Tesla remote operators keep crashing its ‘Robotaxis,’ data shows",
+ "source_used": "Electrek",
+ "article_url": "https://electrek.co/2026/10/15/tesla-remote-operators-crashing-robotaxis/",
+ "fetched": true,
+ "key_facts": [
+  "Tesla's latest crash reports to the US safety regulator NHTSA add two more Robotaxi crashes in which a remote operator, not the car's software, was driving.",
+  "That makes five such crashes in the data; each ended in a collision. Tesla now has 36 unique Robotaxi incident reports, up from 22 in July.",
+  "The two new crashes were in August: Dallas (about 0.40 mph, hit a parked SUV) and Austin (about 1 mph, hit a dumpster); no passengers aboard, property damage only.",
+  "Two earlier ones, in July 2025 and January 2026 in Austin, were at 8 and 9 mph.",
+  "Tesla does not disclose how often remote operators intervene, so no rate can be calculated.",
+  "Waymo wrote in a February 2026 letter to Senator Ed Markey that it has not used remote driving where a human performs the driving task."
+ ],
+ "quote_evidence": [
+  "Tesla now has 36 unique “Robotaxi” incident reports on file, up from 22 when we last looked at this in July.",
+  "Tesla doesn’t disclose how often remote operators intervene, so there’s no way to calculate a rate.",
+  "Nobody’s been hurt, and we’re talking about bumpers, a dumpster, and a tree stump at walking speed."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Shows how often robotaxis still need a human to rescue them, and how that rescue has gone.",
+ "event_date": "Crashes in August 2026 (also Jul 2025, Jan 2026); in NHTSA September data release",
+ "notes": "Electrek's own analysis of NHTSA data; the article mixes reporting with opinion, only the data-based facts used. Crash events are older than 15 Oct, so score lowered by 1."
+}
