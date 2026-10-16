@@ -51,6 +51,11 @@ Too long (10.5 s): A hospital and a testing firm in China released an A I that r
 Right (8.5 s): A Chinese hospital says its new A I checks lung tumours for gene changes in as little as a minute, which could make these tests far cheaper.
 The difference every time: one actor, one verb, one why. Examples, second details and quotes are cut.
 
+## Examples from 16 Oct 2026 (Rafi's own words or lines he approved; examples only, they change no rule above)
+1. In finance. The cost of insuring A I debt hit a record, which means investors fear it may not be repaid, and data centre firms like CoreWeave are hurt most. (Rafi: "an amazing item, and that's how things should be explained. Simple English so people understand what is going on.")
+2. In robotics. Swedish car maker Volvo plans hands-free driving using N-vidia's A I by twenty thirty. (Rafi's own wording for that one item: "That's it. Not more, not less.")
+3. In politics. Mark Levine, New York City's chief financial officer, asked anthro-pic to delay its stock market debut and deal with A I safety first. (Rafi: name the man with his real position.)
+
 ## Never like this (lines Rafi rejected, and why)
 - "...but Japan's prime minister Takaichi keeps A I for now and so can you." (9 Oct: a made-up "you" ending)
 - "...so watch if they still fund the A I you use." (9 Oct: a made-up "you" ending)
