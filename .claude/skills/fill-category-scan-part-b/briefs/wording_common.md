@@ -24,3 +24,4 @@ Write for the ear: read each line aloud once; if a listener needs it repeated, r
 
 EXACT FIGURES (Rafi, 14 Oct 2026, "dont you have a rule to put numbers? why do you write thirds?"): when the entry gives an exact figure (34%, 3,000, 155), use that figure, never a loose phrase such as "about a third", "nearly half" or "a handful". In Headlines the figure is spoken as words ("thirty four percent"); on cards it is written as a number. Keep the hedge the entry has (an estimate stays an estimate).
 PLAIN WORDS (Rafi, 16 Oct 2026, CLAUDE.md rule 36): every line, spoken or on a card, uses words an ordinary person says in daily talk. No rare or British words (not dearer, debut, watchdog). Read each line once for this before handing back.
+REGISTER (Rafi, 16 Oct 2026, CLAUDE.md rule 36): news-like but very, very simple; not chatty. Say more expensive or costs more, never dearer; a plain number or percent (down 30 percent), never a fraction like a fifth.
