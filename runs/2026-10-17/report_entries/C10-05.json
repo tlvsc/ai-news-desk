@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-05",
+ "v1_category": "HEA",
+ "headline": "A Chinese study of 114 AI-related clinical trials found that 58 percent of their patient consent forms did not say what kind of AI was used or what it was for.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered to 4: the study dates from 2 Jul and the commentary from 14 Oct, both before the window, and only the lead of the article was available.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients volunteering for AI trials may not know how AI shapes their care, which matters to ethics boards and regulators and then to the companies running such trials, though this is one analysis of 114 trials and the warning that consent rules may be inadequate is the author's own view.",
+ "source": "TrialSite News",
+ "status": "REPORTED",
+ "summary": "TrialSite News reports that Hankun Su and Fen Xiao, researchers at Xiangya Hospital of Central South University in China, studied the consent forms of 114 AI-related clinical trials in a paper published on 2 Jul 2026 in the Journal of Medical Internet Research, and found that 18.4 percent left out risk information and only 14 percent met the study's readability and length standards. Su revisited the findings in a commentary on 14 Oct 2026, warning that traditional informed consent, the process of explaining a study's risks so a patient can agree knowingly, may not be adequate for research driven by AI.",
+ "url": "https://www.trialsitenews.com/a/ai-clinical-trials-have-a-consent-crisis-58-of-forms-fail-to-explain-ais-role-70a4ad75",
+ "freshness": "FOLLOW-UP of 2 Jul 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Only the lead paragraphs of the TrialSite page were readable (the rest is not served to a plain fetch). The study itself is from 2 Jul 2026; the news hook is the 14 Oct commentary."
+}

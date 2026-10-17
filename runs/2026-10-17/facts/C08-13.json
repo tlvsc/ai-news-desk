@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-13",
+ "title": "Ericsson and Partners Launch Sferical One AI Supercomputer in Sweden",
+ "source_used": "Tech Times (16 Oct 2026) and NVIDIA blog (15 Oct 2026)",
+ "article_url": "https://www.techtimes.com/articles/329133/20261016/sferical-one-goes-live-swedish-industry-coalition-shares-1152-blackwell-ultra-gpus.htm",
+ "fetched": true,
+ "key_facts": [
+  "Sferical One, a supercomputer jointly owned by AstraZeneca, Ericsson, Saab, SEB and Wallenberg Investments, was formally launched in Stockholm on 15 Oct 2026, with Nvidia's Jensen Huang on stage.",
+  "It runs two NVIDIA DGX SuperPODs with 1,152 Blackwell Ultra GPUs in 16 DGX GB300 NVL72 racks (Tech Times and NVIDIA's blog agree).",
+  "It has been running since late summer 2026, per Tech Times.",
+  "Tech Times says the aim is to run frontier-scale AI on sensitive proprietary data without routing it through a US-based cloud.",
+  "The partners buy compute capacity at per-GPU-hour rates from Sferical AI, which operates the cluster; Sferical AI was formed in August 2025.",
+  "It uses NVIDIA Nemotron open-weights models; a dedicated NVIDIA AI Technology Centre in Sweden is planned.",
+  "NVIDIA's blog (15 Oct 2026) names SKF as strategic partner."
+ ],
+ "quote_evidence": [
+  "The machine is called Sferical One. It has been running since late summer 2026.",
+  "Sferical One is built on two NVIDIA DGX SuperPODs, spanning 1,152 Blackwell Ultra GPUs organized across 16 NVIDIA DGX GB300 NVL72 systems.",
+  "In Sweden, a consortium anchored by Ericsson, AstraZeneca, Saab, SEB and Wallenberg Investments, with SKF as strategic partner, launched Sferical One — a shared supercomputer running on two NVIDIA DGX SuperPODs with 16 racks of NVIDIA DGX GB300 systems and 1,152 GPUs."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Large European companies pooling money for their own AI computing to keep sensitive data in Sweden.",
+ "event_date": "15 Oct 2026",
+ "notes": "Pool source HPCwire (an Ericsson press release, Cloudflare block) not readable; Tech Times (analysis-heavy) and NVIDIA's blog read. Event is 15 Oct 2026, older than the window. Tech Times names Per Narvinger as Ericsson CEO; not used because it is single-source."
+}

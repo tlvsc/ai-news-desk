@@ -1,0 +1,25 @@
+{
+ "item_id": "C14-02",
+ "title": "Anthropic is hiring fewer juniors, says AI now does 6 times more work than humans",
+ "source_used": "Anthropic research page 'How employment is changing at Anthropic' (full text) and India Today (full text)",
+ "article_url": "https://www.anthropic.com/research/employment-at-anthropic",
+ "fetched": true,
+ "key_facts": [
+  "The proportion of junior technical hires at Anthropic fell from 27% to 9%; the share of junior-level employees in technical departments slipped from 21% to 14% since early 2025.",
+  "The technical departments' share of Anthropic's employment fell from 61% to 56% over the last year, partly because sales, finance and recruiting hiring grew faster.",
+  "By August, the AI agents run by employees worked about six times as many hours as their human handlers; in March 2026 combined autonomous and interactive agent hours first passed human work hours.",
+  "Researchers followed 192 engineers who adopted coding agents against 74 who did not; output rose after adoption and agent-written code was removed or reverted at about the same rate as human-written code.",
+  "Employees at the company for at least a year were 50% more likely to move across departments each month in 2026 than in 2025; Anthropic set up an early warning system for jobs at risk and prioritises internal moves.",
+  "Claude sessions spend about 80% of their time waiting for human input, and reading the output would take more than half a work week even for non-technical teams.",
+  "The study uses internal data and 17 employee interviews; one account executive said Claude automations replaced about 20% of prior tasks and let them talk to 30% more customers."
+ ],
+ "quote_evidence": [
+  "The proportion of junior technical hires fell even faster, from 27% to 9%.",
+  "By August interactive AI agent hours outnumbered employees' 6 to 1.",
+  "One engineer described work as facing \"an army of Claudes, with every one asking for my attention.\""
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A leading AI lab's own data show fewer junior technical hires as agents take on more work.",
+ "event_date": "16 Oct 2026 (study published)",
+ "notes": "Company's own research about itself; no outside review reported."
+}

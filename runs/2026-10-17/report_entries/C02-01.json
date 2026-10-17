@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-01",
+ "v1_category": "MOD",
+ "headline": "Charles Schwab and JPMorgan Chase are blocking outside AI agents from moving customers' money, and Schwab says that includes Meta's Muse.",
+ "score": 7,
+ "score_reason": "Pool score 7 kept: the Schwab statement was made on 16 Oct 2026, the JPMorgan position was stated on its earnings call this week, and several outlets carry both.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Customers who give an AI agent their banking password can now be refused by their bank, and the banks rather than the agents' makers are setting the rules; the evidence so far is executives' statements, and Schwab says blocks of the big agents run only in the tens and twenties a week.",
+ "source": "Bloomberg",
+ "status": "CONFIRMED",
+ "summary": "Bloomberg reports, as relayed by The Next Web and Gizmodo, that Rick Wurster, chief executive of the brokerage Charles Schwab, told Bloomberg Television on Friday 16 Oct 2026 that Schwab blocks outside AI agents such as Meta's Muse, a personal AI assistant, from moving client money, because neither the firm nor the client can control them and it is unclear who is liable if something goes wrong. Jamie Dimon, chief executive of JPMorgan Chase, the largest US bank, said on its earnings call this week that the bank will not let outside agents act inside its systems, and Schwab plans to let outside AI tools see balances and do research, but not move money, through controlled connections.",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-banks-block-ai-agents-attempting-to-move-money-for-customers",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Bloomberg page blocked (HTTP 403, robot check). Read The Next Web (schwab-blocks-ai-agents-meta-muse) and Gizmodo, which both relay Wurster's Bloomberg Television interview; the Dimon remarks come from the same two pages (earnings call; Cybernews and CNBC cited there). The Financial Times headline 'Citi becomes latest US bank to restrict AI agents from accessing accounts' was seen in search results only and is not used in the summary. Dimon's words predate the window (13 Oct) but the Schwab statement is of 16 Oct, so no staleness cut."
+}

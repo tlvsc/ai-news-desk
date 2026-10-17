@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-09",
+ "v1_category": "MOD",
+ "headline": "Tencent has open-sourced Hy Memory 2.0, a toolkit that gives AI agents longer-lasting memory, and says its own memory model scored slightly above Anthropic's Claude Opus 5 on a memory test.",
+ "score": 5,
+ "score_reason": "Kept at 5: a concrete open-source release, but every performance claim is Tencent's own.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI agents are affected first, since the tools are free to use, but the comparison with Claude Opus 5 covers only memory tests, not general ability, and no outside check is reported.",
+ "source": "IT Home",
+ "status": "REPORTED",
+ "summary": "IT Home reports, as relayed by KuCoin, that Tencent's Hunyuan AI team has open-sourced Hy Memory 2.0, a three-part package for giving AI agents a memory: a dedicated model, a software framework for storing and updating memories of chats, work and code, and MemHub, a local app that shares one memory across 10 AI tools, including Cursor and Codex. Tencent says the framework beat open-source rivals such as Mem0 and MemOS on four benchmarks (standard tests) and that its memory model scored 55.49% against Claude Opus 5's 54.62% on a fixed 20% sample of four memory tests, but these are Tencent's own results.",
+ "url": "https://www.kucoin.com/news/flash/tencent-hunyuan-launches-open-source-hy-memory-2-0-framework-claims-superior-performance-over-opus-5",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read the KuCoin News flash, which carries IT Home's text ('IT Home, October 16'); the original IT Home link was not available, so the KuCoin page is the url. Pandaily (17 Oct) also reports the release, but its page text could not be read. All benchmark figures are Tencent's own, taken from its announcement and an arXiv paper as relayed by IT Home."
+}

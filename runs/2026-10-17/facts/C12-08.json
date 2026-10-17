@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-08",
+ "title": "AI-Assisted Hackers Compromise Government Linux Servers to Deploy Backdoors and Steal Credentials",
+ "source_used": "Unit 42 (Palo Alto Networks), primary report; GBHackers News relay also read",
+ "article_url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+ "fetched": true,
+ "key_facts": [
+  "Unit 42 identified a campaign against government entities and state-affiliated infrastructure, observed from October 2025 to April 2026 and tracked as CL-UNK-1211.",
+  "UNK means Unit 42 has not determined whether the activity is state-sponsored or financially motivated.",
+  "Scripts contained conversational, step-by-step reasoning notes, suggesting the code was copied from an AI output or deployed by an automated AI agent.",
+  "One AI-made mailbox script, zip_mails.sh, had a broken variable assignment and would have failed.",
+  "The attackers used web shells, changed PHP's auto_prepend_file setting for persistence, and replaced .bashrc with an alias that captured sudo passwords while forwarding them to real sudo.",
+  "They deployed SysGoRAT, a custom Go remote access Trojan for Linux and Windows, and in-memory reverse shells to at least seven command servers.",
+  "They searched government mail directories for social-media-related emails and tried to dump databases; GBHackers notes attempts are not confirmed successful transfers.",
+  "They tried to end Cortex XDR processes, which Unit 42 says the product detected and blocked, wiped logs, backdated file times and planted RedTeamOps2025 and pentest123 markers to look like authorised testing."
+ ],
+ "quote_evidence": [
+  "Unit 42 identified a campaign targeting government entities and state-affiliated infrastructure, with observed activity spanning from October 2025–April 2026.",
+  "We designate the term UNK to clusters of activity whose affiliation with either nation-state or cybercrime activity we have not yet determined.",
+  "In this particular instance, we found that the script contained syntax errors, such as a broken variable assignment user=\\;) and would fail upon execution."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Attackers appear to use AI to write attack scripts quickly, but AI-made code was not always functional and security tools still caught some steps.",
+ "event_date": "Unit 42 report published 15 Oct 2026; activity October 2025 to April 2026",
+ "notes": "Pool item was GBHackers News (17 Oct), which relays Unit 42's research; the primary Unit 42 report was opened and used. The AI link is Unit 42's inference from code comments, not proof of autonomous operation. Cortex XDR is Palo Alto Networks' own product."
+}

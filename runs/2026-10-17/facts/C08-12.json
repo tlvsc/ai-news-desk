@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-12",
+ "title": "IBM Opens Its 0.7nm Nanostack Process To Chip Designers In Q1 2027, Shipping Design Kits For Tech That Could Be The Next Breakthrough For Reducing AI Chip Size",
+ "source_used": "IBM Research blog (original), plus Wccftech",
+ "article_url": "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
+ "fetched": true,
+ "key_facts": [
+  "IBM announced plans to make an early research and development process design kit (PDK) for its 7-angstrom (0.7 nm) nanostack technology available in the first quarter of 2027.",
+  "Nanostack stacks n-type and p-type transistors one above the other instead of side by side; IBM says it gives nearly 100 billion transistors on a 150 mm2 chip, almost double the density of its 2 nm node, 50 percent better performance, 70 percent more energy efficiency and 40 percent SRAM scaling.",
+  "A PDK provides the models, design rules and libraries engineers need to start designing chips for a process.",
+  "Potential collaborators: fabless chip companies, design-software (EDA) vendors, equipment suppliers and research organisations.",
+  "The first PDK will include example standard-cell libraries and an example SRAM design, but not every model of a mature commercial kit.",
+  "IBM Research's post is dated 13 Oct 2026 (Google News); Wccftech's article is dated 16 Oct 2026 and says the technology was launched in June (IBM says 'earlier this year').",
+  "Wccftech adds that SRAM is about 10 percent of die area in Nvidia's H100 and 12 to 15 percent with L1 cache."
+ ],
+ "quote_evidence": [
+  "IBM is announcing plans to make available an early research and development process design kit, or PDK, for the 7-angstrom nanostack technology in the first quarter of 2027.",
+  "The initial release will not contain every model that a mature commercial PDK would include.",
+  "IBM’s planned offering will help semiconductor companies evaluate nanostack technology well before it is ready for widespread adoption."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "An early research kit lets chip firms and tool makers start preparing for a stacked-transistor layout.",
+ "event_date": "13 Oct 2026",
+ "notes": "Event is 13 Oct 2026 (IBM Research post), older than the window; Wccftech ran it on 16 Oct. Wccftech's headline ('opens its process to chip designers') overstates an early research kit."
+}

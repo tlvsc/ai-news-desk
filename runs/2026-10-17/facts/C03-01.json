@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-01",
+ "title": "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
+ "source_used": "PC Gamer (item link) and The Register (original report)",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140",
+ "fetched": true,
+ "key_facts": [
+  "The Linux kernel's Maintainers Summit reached consensus to deprecate the 'Assisted-by' tag and remove the documentation requiring it, per a message from kernel developer Sasha Levin (an engineer at Nvidia) quoted by The Register.",
+  "The tag requirement was added to the kernel documentation in January 2026; it asked contributors to acknowledge use of 'any sort of advanced coding tool' in a patch.",
+  "Laurent Pinchart, a Linux kernel developer and founder of Ideas on Board, objected to removing the tag without another disclosure mechanism.",
+  "Linus Torvalds replied that he does not understand the 'idiotic concept' of 'don't use AI for X' and that such rules would be 'UTTERLY STUPID' (his capitals).",
+  "Torvalds said he expects people to do their best and understand what they are doing, which has little to do with the tools they use; he compared such rules to banning compilers.",
+  "PC Gamer notes the rule that was dropped required disclosure and was not a ban on AI use.",
+  "Jeff Layton, a kernel developer at Red Hat, earlier gave reasons for dropping the tag: not everyone follows the policy, it works as free advertising for proprietary AI companies, and it is unclear why the information is collected."
+ ],
+ "quote_evidence": [
+  "The Linux kernel has dropped a rule, implemented in January this year, that required contributors submitting code to the project to explicitly declare any usage of AI tools in that code's creation.",
+  "\"The Maintainers Summit reached consensus to deprecate the Assisted-by Tag,\" said Sasha Levin, a Linux kernel developer and engineer at Nvidia, in a message to the Linux kernel mailing list last week.",
+  "The kind of expectations *I* have is that people do their best and I expect people to understand what they are doing."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The kernel project that runs much of the world's software will treat AI as an ordinary tool and judge code on whether its author understands it, not on which tools were used.",
+ "event_date": "Pinchart's post Tuesday 13 Oct 2026, Torvalds's reply reported 14 Oct; Maintainers Summit decision announced the week before",
+ "notes": "PC Gamer link used for the item; The Register credited and read. Phoronix 13 Oct report is the earlier story (our 14 Oct edition)."
+}

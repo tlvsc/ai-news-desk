@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-09",
+ "v1_category": "SEC",
+ "headline": "MITRE has added its first techniques for prompt injection, AI-enabled data theft and AI result poisoning to ATT&CK, its catalogue of known hacker methods.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: MITRE released it on 13 Oct 2026, before the window; it is a reference update, not an attack.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Security teams are affected first, since they can now tag AI-related incidents with standard IDs, then the companies that use ATT&CK to plan defences, though the release itself stops no attack and was published earlier in the week.",
+ "source": "MITRE ATT&CK",
+ "status": "CONFIRMED",
+ "summary": "MITRE says in the release notes for ATT&CK v20, published on 13 Oct 2026, that its catalogue of attacker methods adds nine Enterprise techniques, among them Direct Prompt Injection and Indirect Prompt Injection (tricking an AI system with hidden instructions), AI-Enabled Exfiltration and AI Result Poisoning, plus new campaigns on attacks against US water utilities and an AI-assisted breach of Mexican government infrastructure. GBHackers News reported the release on 16 Oct 2026, noting that defenders can now map AI-related incidents to standard ATT&CK IDs for detections and reports.",
+ "url": "https://attack.mitre.org/resources/updates/updates-october-2026/",
+ "freshness": "FOLLOW-UP of 13 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item was GBHackers News (16 Oct); credited to MITRE, whose release page was read. Not carried in earlier editions."
+}

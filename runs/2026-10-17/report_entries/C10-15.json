@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-15",
+ "v1_category": "HEA",
+ "headline": "A study of four popular AI chatbots found that every one gave some misleading answers to heart failure patient questions, from 5.6 percent of answers for DeepSeek to 14.8 percent for Perplexity.",
+ "score": 4,
+ "score_reason": "Pool 5, lowered to 4: the study was published on 15 Oct, before the window, and tests date from Aug 2025.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Heart failure patients who ask chatbots about their condition could be misled on medicines or self-care, which concerns clinicians and the makers of these tools, but the results are a snapshot from August 2025 tests of single questions, with no measure of what patients understood or did.",
+ "source": "Scienmag",
+ "status": "REPORTED",
+ "summary": "Scienmag reports on a study in Frontiers in Public Health by researchers at the General Hospital of Northern Theater Command in Shenyang, China, who put 108 heart failure questions to ChatGPT, DeepSeek, Perplexity and Microsoft Copilot and had reviewers check the 432 answers against the 2022 US heart failure guideline. Answers judged hallucinated, meaning they contradicted guidelines or evidence or could mislead, made up 5.56 percent for DeepSeek, 7.41 percent for ChatGPT, 9.26 percent for Copilot and 14.81 percent for Perplexity, none of high severity, and the authors say the chatbots should be treated as aids that need clinician oversight, not trusted sources.",
+ "url": "https://scienmag.com/ai-chatbots-flunk-the-heart-failure-test-even-the-best-hallucinated-in-landmark-patient-education-study/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool link was the Bioengineer.org copy of Scienmag's article; the Scienmag original (same slug) was read and is credited. Journal publication date 15 Oct 2026, before the window."
+}

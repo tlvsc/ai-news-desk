@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-07",
+ "title": "Skild AI trains robots to learn physical skills through self-play",
+ "source_used": "Robotics & Automation News (full text)",
+ "article_url": "https://roboticsandautomationnews.com/2026/10/16/skild-ai-trains-robots-to-learn-physical-skills-through-self-play/105994/",
+ "fetched": true,
+ "key_facts": [
+  "Skild AI says it trained robots through self-play: a policy learned to play soccer in Nvidia Isaac Sim over more than 140 years of simulated play with a single objective, to score a goal.",
+  "The policy competed against progressively stronger versions of itself; early on it could barely walk, later it learned to recover from falls, dribble around defenders, shield the ball and tackle.",
+  "Skild transferred the trained policy from simulation to a physical humanoid robot and demonstrated it playing soccer.",
+  "The work extends S1, Skild's robotics foundation model introduced in August, which is pre-trained on human videos, glove data, simulation and teleoperation.",
+  "Skild argues that models trained on human data are capped at human capability and says physical self-play could let robots go beyond it.",
+  "Early four-agent soccer experiments have begun to produce passing and coordination, according to the company; future work is expected to cover collaborative manipulation and navigation.",
+  "Skild says the approach is not limited to sport and is already being extended to everyday robot tasks."
+ ],
+ "quote_evidence": [
+  "Skild AI has demonstrated a new self-play training approach that enables robots to develop physical skills without relying on human demonstrations, using its S1 robotics foundation model to learn soccer through more than 140 years of simulated play.",
+  "After more than 140 years of simulated play, Skild transferred the resulting policy from simulation to a physical humanoid robot and demonstrated it playing soccer.",
+  "Early four-agent soccer experiments have begun to produce behaviors including passing and coordination, according to the company."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "If self-play carries over to real tasks, robots could need far less human-made training data, but this is a company demonstration on a soccer task.",
+ "event_date": "Reported Friday 16 Oct 2026; exact date of the Skild demonstration not stated",
+ "notes": "Trade-press account of Skild's own announcement; every result is Skild's own and no outside review is reported."
+}

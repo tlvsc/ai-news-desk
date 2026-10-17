@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-06",
+ "title": "Google speeds protein structure prediction 8.6-fold to advance targeted cancer research",
+ "source_used": "Interesting Engineering (reporting Google Research)",
+ "article_url": "https://interestingengineering.com/ai-robotics/google-protein-design-cancer-binders",
+ "fetched": true,
+ "key_facts": [
+  "Google researchers developed a method that speeds protein structure prediction by 8.6 times, per Google, without sacrificing structural accuracy in its tests.",
+  "The method, \"surgical epitope excision\", focuses predictions on the local region where a designed protein is expected to attach.",
+  "It was applied to design proteins binding fibroblast activation protein alpha (FAP), a molecule associated with solid tumours.",
+  "The strongest lab-tested designs reached single-digit nanomolar binding affinity.",
+  "In a computational comparison with equal computing, a scientist working with an agent got nearly twice the predicted hit rate of a scientist alone.",
+  "Two other Google projects: DNA aptamers reached 33.5% (myoglobin) and 42.1% (alpha-thrombin) confirmed on-target hit rates by round three, and VERID, a digital lab model for robotic experiments.",
+  "The systems are experimental and the binders have not been shown to work as cancer treatments."
+ ],
+ "quote_evidence": [
+  "According to Google, the approach accelerated structure prediction by 8.6 times without sacrificing structural accuracy in its tests.",
+  "The strongest experimentally tested designs achieved single-digit nanomolar binding affinity, indicating a tight molecular interaction.",
+  "However, the systems remain experimental, and the protein binders have not been demonstrated as cancer treatments."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Cheaper protein design could shorten early drug discovery, but nothing is shown to treat cancer yet.",
+ "event_date": "Reported 16 Oct 2026 (Google release date not stated)",
+ "notes": "Company's own results as relayed by Interesting Engineering; no outside review reported."
+}

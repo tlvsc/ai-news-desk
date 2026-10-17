@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-01",
+ "v1_category": "RES",
+ "headline": "Anthropic says its Claude model, working largely on its own, designed quantum computing circuits for eight tasks that beat the best published designs, in some cases by ten times or more.",
+ "score": 7,
+ "score_reason": "Pool score kept: a large claimed cut in the size of quantum computer needed for useful work, from a leading AI lab, but the results are the company's own and no outside review is reported.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Researchers who hope to use quantum computers for chemistry, materials and optimisation, and the companies building the machines, could get useful quantum computers sooner if the savings hold, but the results are Anthropic's own and were scored by an evaluator the team supplied, with no outside review reported.",
+ "source": "Anthropic",
+ "status": "PRELIMINARY",
+ "summary": "Anthropic, the company that makes Claude, reports that its Claude Mythos 5 model, given plain-language descriptions of eight quantum circuits (the sequences of operations, called gates, that a quantum computer runs) and a program that checks and scores each design, produced versions that improve on the best published ones, in some cases by ten times or more, in work led by Andi Gu in Anthropic's STEM Fellows Program, mentored by Alek Kemeny, a quantum physicist at Anthropic, with Susanne Yelin and Mikhail Lukin of Harvard University. Anthropic says one 53-hour run found a new way to do the arithmetic behind elliptic-curve calculations and another design cut the gates in a key step of a quantum optimisation method about 12 times compared with Google's earlier circuit, which it says could bring useful quantum computers sooner.",
+ "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full on anthropic.com. Company's own research post with a paper on arXiv (preprint, no outside review reported). Editor B (17 Oct 2026): names added from the post: Andi Gu led the work in Anthropic's STEM Fellows Program; Alek Kemeny is described in the post as a quantum physicist at Anthropic; Susanne Yelin (Harvard University) and Mikhail Lukin (Harvard University and QuEra Computing) are given with their organisations only, because the post gives no titles and none could be confirmed without browsing. The default category RES is kept."
+}

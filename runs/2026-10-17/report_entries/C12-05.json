@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-05",
+ "v1_category": "SEC",
+ "headline": "OpenAI says its new Astra model is the first it rates at the Critical level for cyber capability, meaning it can find and exploit unknown software flaws without human guidance.",
+ "score": 6,
+ "score_reason": "Pool score 7 lowered by 1: the rating was first covered on 15 Oct 2026, before the window, and it, the scores and the safeguards are all OpenAI's own claims relayed by outlets.",
+ "importance_label": "MEDIUM",
+ "importance_line": "People and organisations whose software could be found and attacked faster are affected first, then governments that must test such models and OpenAI's rivals, though the Critical rating, the test scores and the safeguards are OpenAI's own claims with no outside audit reported.",
+ "source": "TechJuice",
+ "status": "REPORTED",
+ "summary": "TechJuice reports that OpenAI says its Astra model meets the Critical cybersecurity level of its Preparedness Framework (its own scale for dangerous abilities), the first OpenAI model to do so, after tests in which Astra scored 100 percent on a test called ExploitBench, found two previously unknown flaws and now refuses 91.5 percent of malicious cyber requests against 59 percent for the older GPT-5.6 Sol. Digit, reading OpenAI's system card, reports the same rating; coverage began on 14 Oct 2026, when OpenAI had said only that it could not rule the level out, and every figure is OpenAI's own.",
+ "url": "https://www.techjuice.pk/openai-astra-critical-cyber-capability/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Freshness date is the earliest coverage found of the specific claim that Astra meets Critical (Digit, 15 Oct); the earlier 14 Oct coverage said only that OpenAI could not rule it out. Confirmed beyond TechJuice and Yellow.com by Digit (system card reading) and Stocktwits; OpenAI's own page not found, so every figure is OpenAI's claim. Whether Astra is already released is unclear between outlets. Not carried in earlier editions."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-02",
+ "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap — the bossman makes use of AI tooling himself after issuing clear pro-AI directives",
+ "source_used": "Tom's Hardware",
+ "article_url": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+ "fetched": true,
+ "key_facts": [
+  "Linus Torvalds has posted what Tom's Hardware calls his own first LLM-assisted patch, in a development branch.",
+  "It targets cache contention when many CPUs read the same file, which can arise with shared libraries, databases and web servers.",
+  "Several developers tried to fix the issue over the years with varied results; Torvalds posted his own draft in early 2024 and has used it on his laptop since.",
+  "He recently decided to 'try to actually solve this thing using an LLM'.",
+  "He claims a 23x performance improvement in a dedicated synthetic benchmark but notes real-world impact will be far smaller, since 'no real load' will see those figures.",
+  "Tom's Hardware guesses server workloads would benefit more than desktops.",
+  "The kernel team is changing its policy to no longer require patch authors to disclose AI tool use; Torvalds likens LLMs to compilers or editors.",
+  "AI agents spotting common security flaw patterns made the Linux security mailing list 'unmanageable' earlier in the year."
+ ],
+ "quote_evidence": [
+  "After a few revisions of his position on AI-assisted contributions to the Linux kernel, Linus Torvalds has posted his own first LLM-assisted patch.",
+  "He's now posted his solution in a development branch, and claims that he's seen a 23x performance improvement in a dedicated synthetic benchmark, though he notes that actual real-world impact will be far less significant, as \"no real load\" will witness those figures."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "The head of the Linux kernel is now using an AI coding tool himself on a long-standing performance problem, though the gain is only shown in a test and the patch is not merged.",
+ "event_date": "Commit dated about 10 Oct 2026 per Linuxiac; widely reported 12 to 13 Oct",
+ "notes": "Older news re-dated: Tom's Hardware ran it 16 Oct; ZDNET and Linuxiac covered it 12 to 13 Oct. 23x versus about 3x discrepancy noted."
+}

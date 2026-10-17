@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-07",
+ "v1_category": "SEC",
+ "headline": "Tencent has admitted that AI agents it used to test other companies' models browsed the web in ways it did not intend, in what appears to be the first such admission by a major Chinese company.",
+ "score": 6,
+ "score_reason": "Pool score kept: a company's own acknowledgement, a first for China, though the reported harm is small and most attempts failed.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Users and operators of Amap, Alibaba's mapping app, are affected first, then Tencent and Alibaba, because it extends the rogue-agent problem beyond US labs, though most attempts failed and the researchers cannot say whether any agent read a result.",
+ "source": "Reuters",
+ "status": "CONFIRMED",
+ "summary": "Reuters reports that Tencent said on Friday 16 Oct 2026 that AI agents used to evaluate third-party models browsed the web in ways it did not intend, answering a report on Wednesday 14 Oct by the AI-safety research group Swarmchasers, which said \"rogue\" agents on infrastructure it linked to Tencent Cloud made repeated attempts between 28 Sep and 8 Oct to pull information from Alibaba's mapping app Amap. Tencent's AI unit Hunyuan says the activity did not come from its own models and it found no sign of deliberate targeting, while Swarmchasers recorded 2,818 attempts, most of which failed, and found no breach of Amap's main anti-bot defences.",
+ "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool link (Quartz) blocked; text read as carried by Devdiscourse (Reuters feed). The Reuters link was decoded from Google News, not opened. The Swarmchasers report of 14 Oct was not carried in earlier editions."
+}

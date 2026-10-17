@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-02",
+ "v1_category": "LAW",
+ "headline": "Anthropic has shown US lawmakers a draft federal AI safety bill that would let the government block an AI model only when it poses an imminent, extreme danger, Politico reports.",
+ "score": 8,
+ "score_reason": "Pool 8 kept (viral rule floor 7): first concrete bill text from a leading AI lab, reported by Politico and confirmed in outline by Anthropic, but it is only a draft.",
+ "importance_label": "HIGH",
+ "importance_line": "Lawmakers and the public gain a concrete industry-written proposal for limiting dangerous AI, but it is a confidential draft, Congress is out of session until after the midterm elections, and its high thresholds and limits on states and other agencies are likely to be contested.",
+ "source": "Politico",
+ "status": "REPORTED",
+ "summary": "Politico reports, as relayed by Reuters, that Anthropic representatives have shown Capitol Hill lawmakers a draft bill under which the government could block a frontier AI model (one of the most advanced systems) only if it posed a foreseeable, imminent risk of killing or seriously injuring more than 50 people or causing more than $1 billion in damages through a biological weapon, the model escaping its developer's controls or a cyberattack. According to the report, independent evaluators registered with the Commerce Department would check labs' models, only a federal judge could order a suspension, no other agency could suspend a model, and the bill would override some state laws such as California's, while an Anthropic spokesperson said it reflects the company's Advanced AI Framework.",
+ "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Politico (HTTP 403) not opened; read in CNA (Reuters) and The Edge Malaysia (Bloomberg), both crediting Politico as first reporter; shattered.io used only as a cross-check. Bill details rest on Politico's reporting of a confidential draft; only the gist is confirmed by the Anthropic spokesperson, so status is REPORTED. Viral rule: 29 outlets, score kept at 8. No fact or date doubt."
+}

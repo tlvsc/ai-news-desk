@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-06",
+ "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+ "source_used": "InfoQ",
+ "article_url": "https://www.infoq.com/news/2026/10/aws-strands-agents/",
+ "fetched": true,
+ "key_facts": [
+  "AWS introduced two open-source projects: Strands Decider 2B, a small decision model, and Strands Box, a sandbox for controlling agent execution.",
+  "Strands Decider 2B has two billion parameters, is based on Qwen3.5-2B and selects between predefined options with confidence scores, for tasks such as model routing, tool selection, classification and guardrails.",
+  "AWS released the weights, training data and scripts; median decision latency is about 115 ms on an NVIDIA RTX 3090 and 153 ms on an Apple M3 MacBook for small tasks.",
+  "AWS reports 72.3% accuracy on JevBench across 231 public tasks for its v19 checkpoint.",
+  "Strands Box (developer preview) combines operating-system isolation with Dogwood, an open-source policy language that defines which actions an agent can take, based on content and execution history.",
+  "InfoQ says the published results do not establish a direct performance advantage over TypeSafe AI's Jev, which is available through a managed API.",
+  "GitHub discussions have raised concurrent requests, Apple Silicon compatibility and cold-start latency."
+ ],
+ "quote_evidence": [
+  "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution.",
+  "AWS evaluated Strands Decider using JevBench, although the published results do not establish a direct performance advantage over Jev."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Controls that sit outside the language model give developers a firmer way to limit what an AI agent can do, though the tools are new and self-reported.",
+ "event_date": "Not stated; reported 16 Oct 2026",
+ "notes": "Release date not given; benchmark figures are AWS's own."
+}

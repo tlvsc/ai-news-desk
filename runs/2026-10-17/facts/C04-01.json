@@ -1,0 +1,26 @@
+{
+ "item_id": "C04-01",
+ "title": "Terry Tao Is on the Front Lines of the Debate Over AI and the Future of Math",
+ "source_used": "The Indian Express (related coverage of the same debate); the New York Times article itself could not be opened (HTTP 403)",
+ "article_url": "https://indianexpress.com/article/explained/explained-ai/ai-in-mathematics-terence-tao-proof-verification-10920833/",
+ "fetched": false,
+ "key_facts": [
+  "[Indian Express] Fields Medallist Terence Tao gave a lecture titled Math 2.0 at Caltech on 9 Oct 2026.",
+  "[Indian Express] Tao argued that solving problems is only a means to broader ends in mathematics.",
+  "[Indian Express] He said blind optimisation of problem-solving alone is now actively harmful to the long-term health of mathematics.",
+  "[Indian Express] He described open problems as lighthouses that guide exploration, not destinations.",
+  "[Indian Express] He warned that reaching them too quickly with automated tools risks stifling ideas that emerge along the way.",
+  "[Indian Express] The debate sits against AI-made proofs: OpenAI released 722 AI-generated manuscripts on 6 Oct 2026 and three were withdrawn on 7 Oct after a sign error.",
+  "[Indian Express] Other researchers urge caution: a formal Lean check does not by itself show a result is mathematically significant.",
+  "[NYT headline only] The New York Times says Tao is on the front lines of the debate over AI and the future of math."
+ ],
+ "quote_evidence": [
+  "In a lecture at Caltech on October 9, Fields Medallist Terence Tao argued that solving problems, historically one of the most visible goals of mathematical research, is only a means to broader ends.",
+  "“Further blind optimization of problem-solving alone is now actively harmful to the long-term health of mathematics,” he said in his presentation titled Math 2.0.",
+  "Reaching these problems too quickly through automated tools, he warned, risks disrupting the exploration of alternative approaches and stifling the ideas that might otherwise emerge along the way."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI is producing proofs at scale, so mathematicians are rethinking what counts as progress; Tao is a leading voice.",
+ "event_date": "NYT piece 16 Oct 2026; Tao lecture 9 Oct 2026",
+ "notes": "NYT article returned 403, so the entry is built from the NYT headline plus The Indian Express (14 Oct 2026), which covers Tao's 9 Oct Caltech lecture. The NYT article's own content was not seen; nothing is attributed to it beyond its headline. Source set to AI News Desk, outlets named in the summary."
+}

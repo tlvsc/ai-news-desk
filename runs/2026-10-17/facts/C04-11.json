@@ -1,0 +1,23 @@
+{
+ "item_id": "C04-11",
+ "title": "Will physics be the next field to be turned upside down by AI?",
+ "source_used": "OfficeChai (related coverage on AI and physics); the New Scientist article could not be opened (HTTP 406)",
+ "article_url": "https://officechai.com/ai/gpt-6-astra-solves-49-50-unpublished-physics-research-problems-under-theophyseval-benchmark-for-3-a-problem/",
+ "fetched": false,
+ "key_facts": [
+  "[New Scientist headline only] New Scientist asks on 16 Oct 2026 whether physics will be the next field to be turned upside down by AI.",
+  "[OfficeChai, 15 Oct 2026] A benchmark called TheoPhysEval was built by nearly 30 physicists from institutions including Harvard, Google DeepMind, TIFR, Duke and the International Centre for Theoretical Sciences.",
+  "[OfficeChai] It has 50 new, unpublished research-level theoretical physics problems with verifiable answers.",
+  "[OfficeChai] OpenAI's GPT-6-Astra, run in the Codex harness with internet and tools, solved 49 of 50 (98 percent), at under $3 per problem on average.",
+  "[OfficeChai] Anthropic's Claude Opus 5.5 in Claude Code solved 46 of 50 (92 percent).",
+  "[OfficeChai] The authors describe the problems as turn-the-crank research problems, often publishable but not quite groundbreaking."
+ ],
+ "quote_evidence": [
+  "A new benchmark built by a team of nearly 30 physicists from institutions including Harvard, Google DeepMind, TIFR, Duke and the International Centre for Theoretical Sciences has found that frontier AI agents can now solve genuine, unpublished, research-level theoretical physics problems with near-perfect accuracy, and at a strikingly low cost.",
+  "The headline result is the one being talked about: GPT-6-Astra, run inside OpenAI’s Codex harness, solved 49 of the 50 problems when given access to the internet and research tools, a 98% accuracy rate, at an average API cost of under $3 per problem."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI is already solving research-level physics problems; what that means for the field is the question New Scientist raises.",
+ "event_date": "New Scientist piece 16 Oct 2026",
+ "notes": "New Scientist returned 406; the content of its article is unknown beyond its headline. The OfficeChai item is a separate story on the same theme, not shown to be what New Scientist writes about. Desk-built entry, source AI News Desk. Score lowered 1 as unverified."
+}

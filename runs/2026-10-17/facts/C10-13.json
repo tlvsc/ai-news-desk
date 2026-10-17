@@ -1,0 +1,24 @@
+{
+ "item_id": "C10-13",
+ "title": "AI model can uncover unseen health issues in CT scans",
+ "source_used": "Penn Medicine",
+ "article_url": "https://www.pennmedicine.org/news/ai-model-can-uncover-unseen-health-issues-in-ct-scans",
+ "fetched": true,
+ "key_facts": [
+  "Penn Medicine researchers developed an AI model called Percival, described in a study in NPJ Digital Medicine, that reads CT scans for disease signs and future health risks beyond the reason the scan was ordered.",
+  "Percival was trained on data from the Penn Medicine BioBank (more than 350,000 people); about 400,000 CT scans from roughly 50,000 patients were used to hone it.",
+  "It found traces of atrial fibrillation and chronic kidney disease, and flagged pancreatic cancer, cirrhosis and bacterial pneumonia much more reliably than a similar model, TotalSegmentator.",
+  "Percival is still being tested preclinically; developers hope to test it early next year with a view to clinical use.",
+  "Code and training model specifications are open source.",
+  "Senior author Walter Witschey, associate professor of Radiology at Penn, hopes to elevate 'opportunistic screening'.",
+  "Work supported by the NIH Office of the Director and the National Institute of Biomedical Imaging and Bioengineering."
+ ],
+ "quote_evidence": [
+  "The researchers used roughly 400,000 CT scans from approximately 50,000 patients to hone Percival’s abilities, which are still being tested preclinically.",
+  "Percival’s code and training model specifications are open source, which could also help it improve."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Routine CT scans could be mined for early signs of unrelated disease.",
+ "event_date": "Press release 16 Oct 2026.",
+ "notes": "Read in full from fulltext. University press release on its own study."
+}

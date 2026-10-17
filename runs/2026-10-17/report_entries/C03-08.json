@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-08",
+ "v1_category": "MOD",
+ "headline": "Gartner has forecast that the cost of running AI agent workflows will rise more than fivefold by the end of 2028, even though the price of each token is falling.",
+ "score": 3,
+ "score_reason": "Lowered from 5 to 3: the forecast was first published on 17 Aug 2026, two months ago, and today's piece re-reports it.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies planning to run AI agents are affected first, since the forecast says savings from cheaper tokens will not keep up with heavier use, but it is an analyst projection from August, not a measured result.",
+ "source": "The Register",
+ "status": "CONFIRMED",
+ "summary": "The Register reported on 17 Aug 2026 that the analyst firm Gartner expects the cost of agentic AI workflows (AI systems that carry out multi-step tasks on their own) to rise more than fivefold by the end of 2028, because cheaper tokens, the units AI services bill by, tempt users to build more complex workflows that use far more of them; VentureBeat revisited the forecast on 16 Oct 2026 under a headline promising ways to keep costs in check. Will Sommer, a senior director analyst at Gartner, says an AI agent must constantly reason and question itself, unlike a simple chatbot, and Gartner advises sending each task to the cheapest model able to handle it.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+ "freshness": "FOLLOW-UP of 17 Aug 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Item came from VentureBeat (16 Oct, blocked: HTTP 429 then no connection), so its advice section was not read. The Gartner forecast was first reported 17 Aug 2026 by The Register, Computerworld, Deccan Herald and ARN; The Register article was read in full and is used as source and link. Insurance Business (16 Oct) also dates the forecast to August 2026. Older news re-dated."
+}

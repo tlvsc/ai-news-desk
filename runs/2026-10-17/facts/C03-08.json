@@ -1,0 +1,23 @@
+{
+ "item_id": "C03-08",
+ "title": "Gartner says agent costs will rise fivefold by 2028 even as tokens get cheaper. Here is how to keep them in check",
+ "source_used": "The Register (17 Aug 2026; VentureBeat blocked)",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+ "fetched": true,
+ "key_facts": [
+  "Gartner forecasts the cost of agentic AI workflows will increase more than fivefold by the end of 2028.",
+  "Falling model prices tempt users to build more complex workflows whose greater token use can outweigh the savings and push total inference costs up.",
+  "Will Sommer, a Gartner senior director analyst, contrasts a simple chatbot with an AI agent that 'must constantly reason, negotiate, and question itself'.",
+  "Routing a task to an agentic reasoning model increases inference costs at least fivefold, and potentially much more as tasks get more complex.",
+  "Gartner says the answer is more return or better optimisation of inference, routing and orchestration, such as assigning each task to the most cost-efficient capable model.",
+  "Some AI providers moving from flat-rate subscriptions to usage-based billing has not helped, per The Register."
+ ],
+ "quote_evidence": [
+  "The cost of agentic AI workflows is forecast to increase more than fivefold by the end of 2028 as users adopt more complex applications of the technology.",
+  "Gartner believes falling model prices are tempting users to build more complex workflows, whose greater token consumption can outweigh those savings and drive up overall inference costs."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Cheaper tokens do not mean cheaper AI agents; heavier use may outrun the savings, according to Gartner's forecast.",
+ "event_date": "17 Aug 2026 (Gartner forecast first reported)",
+ "notes": "Older news re-dated: the forecast is from 17 Aug 2026; VentureBeat re-reported it on 16 Oct 2026."
+}

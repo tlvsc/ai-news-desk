@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-16",
+ "title": "HackerOne Report Finds Vulnerability Backlogs Grew 131% in Two Years",
+ "source_used": "Cybersecurity Insiders (carrying HackerOne's release)",
+ "article_url": "https://www.cybersecurity-insiders.com/hackerone-report-finds-vulnerability-backlogs-grew-131-in-two-years/",
+ "fetched": true,
+ "key_facts": [
+  "HackerOne released its 10th annual Security Research Report, 'Exposure Debt: The Next Challenge in Cybersecurity'.",
+  "The backlog of validated, unresolved vulnerabilities on its platform grew 131 percent over two years, even as the average time to resolve one fell from 135 to 62 days (a 54 percent improvement).",
+  "Nearly 70 percent of surveyed security leaders say findings arrive faster than their teams can fix them; 75 percent say their organisations formally track 'exposure debt'.",
+  "AI-assisted research is adding to findings: 85 percent of surveyed researchers are building AI skills and nearly three-quarters say AI has meaningfully raised their valid findings.",
+  "AI vulnerability reports rose: system prompt leakage 557 percent, misinformation 455 percent and improper output handling 264 percent year over year; prompt injection and sensitive information disclosure remain the most reported categories.",
+  "Researchers earned a record $89 million in bug bounties on the platform between July 2025 and June 2026, up 18 percent.",
+  "The data covers July 2025 to June 2026 plus surveys of 111 security leaders at organisations with more than $100 million in revenue in six countries and 408 active researchers.",
+  "Kara Sprague, HackerOne's chief executive, said the constraint is no longer discovery but everything between a report arriving and a risk being resolved."
+ ],
+ "quote_evidence": [
+  "The report, “Exposure Debt: The Next Challenge in Cybersecurity,” found that the increase occurred even as organizations reduced the average time needed to resolve vulnerabilities from 135 days to 62 days, a 54% improvement.",
+  "Researchers earned a record $89 million through bug bounty programs on the H1 Platform between July 2025 and June 2026.",
+  "Fixing got faster. It still lost ground."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Known security flaws are piling up faster than they are fixed, partly because AI helps researchers find more of them.",
+ "event_date": "Report released around 16-17 Oct 2026 (exact date not stated)",
+ "notes": "Text is HackerOne's own release as carried by Cybersecurity Insiders; vendor data and a survey of 111 leaders and 408 researchers, some of whom are HackerOne customers. Release date not stated."
+}

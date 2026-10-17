@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-01",
+ "title": "Reflection's Beam aims to undercut Chinese open models with fewer tokens, not cheaper tokens",
+ "source_used": "SiliconANGLE (own reporting), Unite.AI (relaying Reflection and Baseten announcements), AWS Machine Learning Blog (Reflection partner post); the VentureBeat original returned HTTP 429 and was not opened",
+ "article_url": "https://siliconangle.com/2026/10/16/reflection-ai-open-sources-beams-weights-post-training-recipes/",
+ "fetched": true,
+ "key_facts": [
+  "Reflection AI, a US start-up, made the weights of Beam, its first large language model, available on Hugging Face on 16 Oct 2026, with training recipes and tools to customize and measure the model (SiliconANGLE).",
+  "Beam is a mixture-of-experts model with 501 billion total and 23 billion active parameters, released under the Apache 2.0 license in BF16, FP8 and NVFP4 versions, plus a drafter model for speculative decoding (Unite.AI; AWS blog).",
+  "Reflection says it trained Beam to solve coding and agent tasks while using fewer tokens, with long reinforcement-learning rollouts and a length penalty; a reasoning-effort setting lets users trade shorter answers for deeper thinking (Baseten launch post, as relayed by Unite.AI).",
+  "Benchmark scores quoted come from Reflection's own evaluations, for example 90.5% on GPQA Diamond and 80.9% on SWE-bench Verified (Unite.AI, citing Baseten).",
+  "Reflection first introduced Beam on 5 Oct 2026, when early access was limited to a waitlist and weights were promised later in the month (Unite.AI).",
+  "Reflection plans more training recipes (self-distillation) in the coming days (SiliconANGLE; Unite.AI).",
+  "Launch platforms named include Amazon Web Services, Google Cloud, Microsoft Azure, Cloudflare, Databricks, Vercel, Ollama and OpenRouter (Unite.AI)."
+ ],
+ "quote_evidence": [
+  "Startup Reflection AI Inc. today made the weights of Beam, its first large language model, available on Hugging Face.",
+  "Reflection releases Beam’s weights through Hugging Face under the Apache 2.0 license.",
+  "Baseten said Reflection trained Beam to solve coding and agentic tasks while using fewer tokens"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Anyone can now download and test a US-built open model that Reflection says competes with Chinese ones; the performance claims rest on Reflection's own evaluations.",
+ "event_date": "16 Oct 2026 (weights release); first unveiled 5 Oct 2026",
+ "notes": "VentureBeat page blocked (HTTP 429). Same news read at SiliconANGLE (16 Oct 2026), Unite.AI and the AWS blog. Unite.AI labels its author as an AI-generated research agent, so its details are attributed to Reflection or Baseten and the 501B size, 23B active size and Apache 2.0 license were cross-checked against the AWS blog. Nvidia backing and the 5 Oct unveiling come from our own 5 and 6 Oct 2026 editions."
+}

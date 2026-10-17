@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-05",
+ "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+ "source_used": "CoinDesk",
+ "article_url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
+ "fetched": true,
+ "key_facts": [
+  "Nine crypto companies unveiled the Quantum Alliance on Thursday (15 Oct 2026) to develop common security standards for bitcoin, Ethereum and other blockchain networks.",
+  "Members include Hacken, Midnight Foundation, Quantus and Postquant Labs; the alliance plans to publish common security tests and guidance for moving existing networks to quantum-resistant systems.",
+  "The concern is that future quantum computers could work out a wallet's secret key from its publicly visible key and steal the funds.",
+  "The alliance estimates that 6.4 million bitcoin, or 30.2% of the supply, have public keys already exposed; those coins cannot be stolen this way today because no existing quantum computer is powerful enough.",
+  "Richard Carback, chief technology officer of Postquant Labs, believes 2028 is a realistic date for a machine that can break today's cryptography; Bryn Bennett, chief revenue officer at The Vault, says nobody knows the date.",
+  "Christopher Smith, CEO of quantum-resistant blockchain Quantus, says whoever gets the first cryptographically relevant quantum computer will probably take Satoshi Nakamoto's 1.1 million bitcoin.",
+  "Experts differ on freezing vulnerable coins: Carback prefers moving them, Bennett calls a freeze a governance decision for the Bitcoin network that would set a precedent on property rights.",
+  "Making bitcoin quantum-resistant means replacing its digital signatures, which needs agreement among developers, miners, wallet providers, exchanges and users, and the new signatures could take more space and raise fees."
+ ],
+ "quote_evidence": [
+  "The Alliance estimates that 6.4 million bitcoin, or 30.2% of the supply, have public keys already exposed.",
+  "But no existing machine can break their cryptography, and predictions about when one might arrive remain disputed.",
+  "“Nobody knows the date, but the estimates keep falling, and the risk is one we can already plan for."
+ ],
+ "why_it_matters_hint": "A large share of bitcoin sits at addresses with exposed public keys, and the fix needs wide agreement among the people who run the network.",
+ "event_date": "Alliance unveiled Thursday 15 Oct 2026; CoinDesk article 16 Oct 2026",
+ "status": "REPORTED",
+ "notes": "The 6.4 million / 30.2% figure is the alliance's own estimate. Several people quoted lead firms in this field (for example Quantus builds a quantum-resistant blockchain). Not previously carried in our editions."
+}

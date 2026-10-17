@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-11",
+ "v1_category": "RES",
+ "headline": "New Scientist asks whether physics will be the next field to be transformed by AI.",
+ "score": 4,
+ "score_reason": "Lowered by 1: only New Scientist's question is known; the related benchmark report is a separate story.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "If AI can now solve research-level physics problems, as the benchmark authors report, it could change how physicists work, though the problems are what the authors call “turn-the-crank” research rather than groundbreaking discoveries.",
+ "source": "AI News Desk",
+ "status": "REPORTED",
+ "summary": "New Scientist asks on 16 Oct 2026 whether physics will be the next field to be turned upside down by AI. Separately, OfficeChai reported on 15 Oct 2026 on a new benchmark called TheoPhysEval, built by nearly 30 physicists from institutions including Harvard and Google DeepMind, in which OpenAI's GPT-6-Astra solved 49 of 50 new theoretical physics research problems.",
+ "url": "https://www.newscientist.com/article/2593273-will-physics-be-the-next-field-to-get-turned-upside-down-by-ai/",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "Headline only for the New Scientist piece; related context from OfficeChai (https://officechai.com/ai/gpt-6-astra-solves-49-50-unpublished-physics-research-problems-under-theophyseval-benchmark-for-3-a-problem/), a separate story. Desk-built entry."
+}

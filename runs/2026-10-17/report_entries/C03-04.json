@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-04",
+ "v1_category": "SEC",
+ "headline": "Perplexity has made SPACE open source, the sandbox that runs each of its AI agents inside its own isolated virtual machine.",
+ "score": 3,
+ "score_reason": "Lowered from 5 to 3: the release was on 15 Oct and our 16 Oct edition already carried it; today's coverage adds technical detail only.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI agents get a free tool that is already used in production, and cloud firms CoreWeave, Akamai and Crusoe are working to offer it, but the escape-test results are Perplexity's own and the release itself dates from 15 Oct.",
+ "source": "AI News Desk",
+ "status": "REPORTED",
+ "summary": "TokenPost and BigGo Finance report that Perplexity, the AI search company, released SPACE as free open-source software on 15 Oct 2026, a system that runs each AI agent task in its own virtual machine while keeping credentials such as API keys and outside network traffic controlled from outside it; we carried the announcement in our 16 Oct edition, citing SiliconANGLE and Semafor. Perplexity says SPACE has run every session of its Computer agent product since July 2026, cutting the time to create a sandbox from about 185 to about 60 milliseconds, and that none of more than 100 escape attempts by leading AI models broke out of the virtual machine, though some got around network limits that it says are now fixed; these results are the company's own.",
+ "url": "https://finance.biggo.com/news/71b26a93-47fd-49bb-9c17-b86fc8efcd9f",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Item came from MarkTechPost (blocked, HTTP 403). Facts read at TokenPost, BigGo Finance and Forkast News, so source is AI News Desk naming those outlets; url is the BigGo page where the text was read. Attempt count differs between outlets (BigGo 108, Forkast about 118, our 16 Oct entry 118 from SiliconANGLE and Semafor), so the summary says more than 100. Repeat of the 15 Oct release already carried as C03-01 in the 16 Oct edition. Category SEC as in the 16 Oct entry (default_v1 is MOD)."
+}

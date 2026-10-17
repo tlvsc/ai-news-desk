@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-01",
+ "v1_category": "POL",
+ "headline": "China has published a draft plan to ban or restrict exports of 40 technologies, 23 of them in artificial intelligence, citing national security.",
+ "score": 8,
+ "score_reason": "Pool 8 kept (viral rule floor 7): two ministries published the draft and it covers major AI models, but it is a draft, not yet in force.",
+ "importance_label": "HIGH",
+ "importance_line": "Researchers, governments and companies abroad that use Chinese AI models, chips or solar technology could lose access and the technology split between China and the US could widen, but this is only a draft and the final list is not yet known.",
+ "source": "Associated Press",
+ "status": "CONFIRMED",
+ "summary": "The Associated Press reports that China's Ministry of Commerce and Ministry of Science and Technology jointly published the draft on 16 Oct 2026; it would prohibit exports of core technology for AI models trained on sensitive national data and of AI agents built for sensitive uses such as national defense, and could restrict exports of models with 2 trillion or more parameters (a rough measure of a model's size) or certain world-leading abilities, alongside some chip design, solar and biomedicine technologies. The commerce ministry called the steps necessary for national security and to keep AI under human control, and AP notes the draft names no specific models.",
+ "url": "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "AP original returned HTTP 403; AP text read in the PBS NewsHour copy (AP dateline). Draft catalog only; AP gives no comment deadline. Viral rule: 50 outlets, score kept at 8, not below 7. Facts and dates checked against the AP text; no doubt found."
+}

@@ -1,0 +1,24 @@
+{
+ "item_id": "C15-03",
+ "title": "University of Oxford Entangles Multi-Species Atom Network and Extends Memory Storage Beyond 10 Seconds",
+ "source_used": "Quantum Computing Report",
+ "article_url": "https://quantumcomputingreport.com/university-of-oxford-entangles-multi-species-atom-network-and-extends-memory-storage-beyond-10-seconds/",
+ "fetched": true,
+ "key_facts": [
+  "University of Oxford physicists published a study in Physical Review Letters (Phys. Rev. Lett. 137, 160801), 'Multipartite Mixed-Species Entanglement over a Quantum Network'.",
+  "They built a heterogeneous quantum network across separate trapped-ion modules using two atomic elements: strontium (88Sr+) and calcium (43Ca+).",
+  "They generated entangled (GHZ) states of up to 4 qubits across macroscopic distances and stored the distributed entanglement in calcium memory qubits for more than 10 seconds, extending entanglement lifetimes by more than 100x over the creation time.",
+  "Using one species for both networking and storage is a trade-off, because the laser pulses and photon emissions needed for networking disturb nearby memory qubits; the team uses a strontium ion as the network interface and a calcium ion as the memory at each node.",
+  "Photons emitted at 422 nm from the strontium ions interfere at a central station to create remote entanglement, which local 402 nm laser pulses then transfer onto the calcium memory qubits.",
+  "The calcium memory preserved remote entanglement for more than 10 seconds (reported time constant 14 +/- 4 s), against an average entanglement generation time of about 100 ms.",
+  "Quantum Computing Report says this clears a major hurdle for distributed quantum computing and quantum sensing networks."
+ ],
+ "quote_evidence": [
+  "In a study published in Physical Review Letters, physicists at the University of Oxford have demonstrated a heterogeneous quantum network that generates multipartite entangled states across separate trapped-ion modules using two distinct atomic elements: strontium (88Sr+) and calcium (43Ca+).",
+  "exceeding the average entanglement generation time (~100 ms) by two orders of magnitude and clearing a major hurdle for distributed quantum computing and quantum sensing networks."
+ ],
+ "why_it_matters_hint": "Holding entanglement between distant modules for over 10 seconds is the kind of storage a network of quantum computers or sensors would need.",
+ "event_date": "Paper publication date not stated; trade-site report 17 Oct 2026",
+ "status": "REPORTED",
+ "notes": "Single trade outlet's summary of a peer-reviewed paper; the paper itself and the Oxford release were not opened. Distance between modules is described only as 'macroscopic'. Full text read from quantumcomputingreport.com (HTTP 200)."
+}

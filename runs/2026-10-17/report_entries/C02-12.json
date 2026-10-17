@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-12",
+ "v1_category": "MOD",
+ "headline": "Nvidia's PC app now includes a switch that lets AI agents control it, and it appears to be turned on by default, so some users are warning others to switch it off.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: the update shipped on 13 Oct 2026 but the default-on finding and the warnings were reported on 16 Oct; no exploit is reported and Nvidia has not yet commented.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Anyone who updates the Nvidia App on a gaming PC may have an AI-agent connection open without choosing it, which matters most to security-minded gamers, but the server runs only on the user's own computer, no exploits are reported and Nvidia has not explained the default.",
+ "source": "VideoCardz, with Tbreak and IGN",
+ "status": "REPORTED",
+ "summary": "VideoCardz reports, with Tbreak and IGN also covering it, that version 11.0.9.565 of the Nvidia App, released on 13 Oct 2026, adds a local server using the Model Context Protocol (MCP), a standard way for AI assistants to connect to software, that lets compatible agents change graphics settings and start recordings, and that the setting appears to be on by default. Nvidia's release notes confirm the feature but not the default, IGN reports no known exploits so far, and users, among them Agustin Cordes, cinematic director of Silent Hill: Ascension, are urging people to switch it off under Settings.",
+ "url": "https://videocardz.com/newz/nvidia-now-automatically-enables-ai-server-in-nvidia-app-heres-how-to-disable-it",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "VideoCardz page blocked (HTTP 403, security check). Read Tbreak (which summarises VideoCardz's findings) and IGN's own report instead. The software update is dated 13 Oct 2026 (IGN) but the default-on discovery and warnings are dated 16 Oct 2026 (VideoCardz 14:26Z, IGN 18:18Z), so the staleness cut was not applied."
+}

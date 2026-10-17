@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-05",
+ "v1_category": "FUN",
+ "headline": "A CNET reviewer found that Meta's Muse AI agent could not finish a customer-service task for a phone plan because the carrier's website blocks automated visitors.",
+ "score": 3,
+ "score_reason": "Light first-hand test with a clear result; the facts fit the pool score of 3.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows that sites that shut out bots limit what AI agents can do for ordinary customers, but it rests on one reviewer's single test and Visible's view is not reported.",
+ "source": "CNET",
+ "status": "REPORTED",
+ "summary": "CNET reports that a reviewer asked Meta's Muse, a personal AI agent app, to talk to the chatbot of Visible, Verizon's cheap all-digital phone brand, to check who owns a recycled number that keeps getting calls for a man named Andrew, but Visible's website shut the agent out. Muse did find data-broker pages linking the number to Andrew and advised how to ask for their removal, yet the reviewer had to take over and use Visible's live support, and the problem was not solved.",
+ "url": "https://www.cnet.com/tech/services-and-software/meta-muse-contact-phone-provider-ai-agent-blocked/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Software agent test, so machine_action is false."
+}

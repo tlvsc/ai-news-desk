@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-06",
+ "v1_category": "RES",
+ "headline": "Google Research says a new shortcut makes protein structure prediction 8.6 times faster and helped design lab-tested proteins that bind a molecule linked to solid tumours.",
+ "score": 5,
+ "score_reason": "Company-reported early research step with lab tests; no outside review and no treatment shown.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Faster protein design could shorten the early search for targeted cancer drugs, which matters to researchers and eventually patients, but this is early-stage work reported by the company itself and the binders have not been shown to work as treatments.",
+ "source": "Interesting Engineering",
+ "status": "PRELIMINARY",
+ "summary": "Interesting Engineering reports, citing Google Research, that a method called “surgical epitope excision,” which runs structure prediction only on the region of the target where a designed protein should attach, made that step 8.6 times faster without losing accuracy in Google's tests. The team used it to design proteins that bind tightly to fibroblast activation protein alpha, a molecule associated with solid tumours, with the best lab-tested designs reaching single-digit nanomolar binding, a tight bond, although the binders have not been shown to work as cancer treatments.",
+ "url": "https://interestingengineering.com/ai-robotics/google-protein-design-cancer-binders",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from Interesting Engineering, which attributes the results to Google."
+}

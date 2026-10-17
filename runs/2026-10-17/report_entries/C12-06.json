@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-06",
+ "v1_category": "LAW",
+ "headline": "New Meta terms for business accounts may let the company crawl websites linked to those accounts and use their content to train its AI, which Meta says is not a change.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: Nieman Lab first reported it on 15 Oct 2026, before the window, and Meta disputes the experts' reading.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "News publishers and other businesses with Meta accounts are affected first, since their content could be used for AI training without a separate deal, then AI licensing partners and Meta, though the reading is lawyers' and Meta says nothing has changed.",
+ "source": "Nieman Lab",
+ "status": "DISPUTED",
+ "summary": "Nieman Lab reported on 15 Oct 2026, as relayed by The Verge, that new commercial terms taking effect on 30 Oct for businesses on Facebook, Instagram, WhatsApp and Messenger let Meta crawl websites linked to those accounts and use the content to \"train\" its AI, which legal experts told Nieman Lab Meta could use to argue that its terms override a site's robots.txt blocking file or a licensing deal. In reply, Meta spokesperson Daniel Roberts says there is no change to how it uses web crawlers, and Andy Stone, Meta's vice president of communications, says the aim is to read product details on third-party shop sites, not to scrape news sites.",
+ "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Text read at The Verge (update of 16 Oct added Meta's statement); the Nieman Lab link was decoded from Google News but the page was blocked and not opened. Category set to LAW instead of the default SEC because the main subject is AI training rights over publishers' content. Not carried in earlier editions."
+}

@@ -1,0 +1,458 @@
+{
+ "changes": [
+  {
+   "item_id": "C05-03",
+   "field": "headline",
+   "before": "US President Donald Trump denied that he or Elon Musk had limited Ukraine's access to the Starshield military internet network after a speed limit hampered Ukraine's drones.",
+   "after": "US President Donald Trump denied limiting Ukraine's access to the Starshield military internet network after a speed limit hampered Ukraine's drones, and said he did not think Elon Musk had done so either.",
+   "reason": "Meaning: Trump denied it for himself; on Musk he only said he did not think it was him (BBC)."
+  },
+  {
+   "item_id": "C05-03",
+   "field": "importance_line",
+   "before": "A cut to the military internet link",
+   "after": "A slowdown of the military internet link",
+   "reason": "Meaning: the network was speed-limited, not cut."
+  },
+  {
+   "item_id": "C13-03",
+   "field": "importance_line",
+   "before": "face a North Korea that is building up naval weapons after years of focusing on ballistic missiles,",
+   "after": "face a North Korea that is shifting its focus to naval weapons,",
+   "reason": "Meaning: 'after years of focusing on ballistic missiles' is not in the source; AP says Kim is shifting focus to naval capabilities."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "summary",
+   "before": "fake text messages and emails aimed at stealing passwords or other sensitive data",
+   "after": "fake texts and emails designed to steal passwords or other sensitive information",
+   "reason": "Copy: phrase lifted from the Reuters sentence; reworded."
+  },
+  {
+   "item_id": "C13-04",
+   "field": "importance_line",
+   "before": "Election staff, campaign workers and voters are the likely recipients of such messages and are urged to be careful, and local election offices must defend against them, but",
+   "after": "Election officials, candidates and their campaigns are named as attractive targets and the public is urged to be on guard too, but",
+   "reason": "Meaning: 'likely recipients' and 'local election offices must defend against them' are not in the source; the alert names officials, candidates and campaigns as targets and urges the public to be on guard."
+  },
+  {
+   "item_id": "C13-06",
+   "field": "importance_line",
+   "before": "and SpaceXAI said it would look into the specific case.",
+   "after": "and SpaceXAI's representative said she could not speak to the specific case.",
+   "reason": "Meaning: the source says Castillo Madrid could not speak to Menin's case; 'would look into it' is not supported."
+  },
+  {
+   "item_id": "C13-10",
+   "field": "importance_line",
+   "before": "American voters, children and workers are the stated focus, and Congress and the Trump administration face pressure from a conservative group to go beyond their light touch, but this is one group's platform with no bill attached, and Semafor says its influence may grow only if Republicans do badly in the midterms and AI anxiety is a factor.",
+   "after": "Congress and the Trump administration face pressure from a conservative group to go beyond their light touch, but this is one group's platform with no bill attached, and Semafor says it may gain sway if Republicans do badly in the midterms and AI anxiety is a factor.",
+   "reason": "Meaning: a 'stated focus' on voters, children and workers is not in the source, and Semafor says 'may have more sway if', not 'only if'."
+  },
+  {
+   "item_id": "C13-11",
+   "field": "importance_line",
+   "before": "Moroccans, and African neighbours watching its push for home-built AI and control over its own data and computing, could see more public-service AI tools, but the targets are government goals that depend on funding, infrastructure and skills that the IMF says much of Africa lacks.",
+   "after": "Moroccans could see more AI tools in public services, such as the Idarati assistant for administrative paperwork, but the targets are government goals, and the article says success depends on carrying out the plan and sustained investment.",
+   "reason": "Meaning: 'African neighbours watching' is not in the source, and the IMF ranking covers Sub-Saharan Africa, not Morocco; kept to what the article says."
+  },
+  {
+   "item_id": "C13-12",
+   "field": "summary",
+   "before": "rose to 94.5% from 78% in 2022 and the cost of providing services fell 30% after AI was added,",
+   "after": "rose to 94.5% from 78% in 2022, before AI was added, and that the cost of providing services fell 30%,",
+   "reason": "Meaning: the source dates the 78% to 2022 before AI was added; it does not tie the 30% cost fall to AI."
+  },
+  {
+   "item_id": "C05-01",
+   "field": "headline",
+   "before": "said the rise of AI will be a bumpy ride that first shocks demand and later boosts supply.",
+   "after": "said the rise of AI is likely to be a very bumpy ride, hitting demand first and supply later.",
+   "reason": "Meaning: Warsh said 'likely to be a very bumpy one' and spoke of AI hitting demand before supply, not of boosting supply."
+  },
+  {
+   "item_id": "C05-01",
+   "field": "summary",
+   "before": "CFO Dive reports, as carried by Yahoo Finance, that",
+   "after": "CFO Dive reports that",
+   "reason": "Process note removed: Yahoo Finance only carries CFO Dive's text."
+  },
+  {
+   "item_id": "C05-01",
+   "field": "summary",
+   "before": "because AI lifts demand (as tech giants rush to buy chips, power and equipment) before it lifts supply",
+   "after": "with AI hitting demand (as tech giants rush to buy chips, power and equipment) before supply",
+   "reason": "Meaning: Warsh said AI hits demand before supply; 'lifts' and the causal 'because' were stronger than the source."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "summary",
+   "before": "CoreWeave, a Nvidia-backed company",
+   "after": "CoreWeave, an Nvidia-backed company",
+   "reason": "Grammar."
+  },
+  {
+   "item_id": "C07-02",
+   "field": "summary",
+   "before": "taking its loss for the week to nearly 25%, its worst week in over 11 months,",
+   "after": "taking its loss for the week to nearly 25%, on course for its worst week in over 11 months,",
+   "reason": "Meaning: Reuters says worst week 'if current levels hold'; hedge restored."
+  },
+  {
+   "item_id": "C05-04",
+   "field": "headline",
+   "before": "that used rocket-style thrusters developed with SpaceX to leap off a ramp",
+   "after": "that used rocket-style thrusters to leap off a ramp",
+   "reason": "Meaning: 'developed with SpaceX' is not in the source (the car was shown at a SpaceX test site)."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "headline",
+   "before": "SoftBank is reportedly considering buying Allied Universal, the largest security services company in the United States, as founder Masayoshi Son looks for ways to use AI-powered robots across industries.",
+   "after": "SoftBank is reportedly weighing a purchase of Allied Universal, America's biggest security services firm, as its founder Masayoshi Son looks to put AI-powered robots to work in more industries.",
+   "reason": "Copy: the headline followed Bloomberg's opening sentence almost word for word; reworded, same meaning."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by The Japan Times and citing people familiar with the matter, that",
+   "after": "Bloomberg reports, citing people familiar with the matter, that",
+   "reason": "Process note removed: The Japan Times only carries Bloomberg's text."
+  },
+  {
+   "item_id": "C06-01",
+   "field": "importance_line",
+   "before": "and its owners Warburg Pincus and La Caisse",
+   "after": "and its backers Warburg Pincus and La Caisse",
+   "reason": "Meaning: the source calls them backers, not owners."
+  },
+  {
+   "item_id": "C06-02",
+   "field": "headline",
+   "before": "with Blackstone funds putting $9 billion into the debt",
+   "after": "with Blackstone funds set to put $9 billion into the debt",
+   "reason": "Meaning: the FT says Blackstone funds 'would invest'; it is planned, not done."
+  },
+  {
+   "item_id": "C06-02",
+   "field": "summary",
+   "before": "to finance its latest chip deal, with Blackstone funds investing $9 billion in debt backed by Anthropic's five-year lease payments on the chips.",
+   "after": "to pay for its latest chip deal, with Blackstone funds to invest $9 billion in debt secured on Anthropic's five-year lease payments for the chips.",
+   "reason": "Meaning and copy: the investment is planned ('would invest'), and the wording lifted from the Reuters text is reworded."
+  },
+  {
+   "item_id": "C02-03",
+   "field": "summary",
+   "before": "and that he thinks ChatGPT is now better.",
+   "after": "and that Replit's own tests show OpenAI's models build apps from scratch better.",
+   "reason": "Meaning: Masad cited Replit's benchmarks of OpenAI models, not ChatGPT as such."
+  },
+  {
+   "item_id": "C02-04",
+   "field": "importance_line",
+   "before": "Advertisers get more ways to show whether ChatGPT ads work and ChatGPT users may see more visual ads, but what the tools and formats actually are is not known from the headline.",
+   "after": "Advertisers may get more ways to show whether ChatGPT ads work and ChatGPT users may see more visual ads, but the details of the tools and formats are not yet clear.",
+   "reason": "Process wording removed ('not known from the headline'); hedge added because the article could not be read."
+  },
+  {
+   "item_id": "C02-06",
+   "field": "importance_line",
+   "before": "is not known from the headline.",
+   "after": "is not yet clear.",
+   "reason": "Process wording removed ('not known from the headline')."
+  },
+  {
+   "item_id": "C05-05",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by The Straits Times, that",
+   "after": "Bloomberg reports that",
+   "reason": "Process note removed: The Straits Times only carries Bloomberg's text."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "headline",
+   "before": "said the boom in AI spending is sustainable because it is already paying off.",
+   "after": "said the boom in AI spending is sustainable, pointing to AI servers that pay back their cost in under three years.",
+   "reason": "Meaning: his stated reason is that the spending drives innovation; the under-three-year payback is a separate claim, now stated as his."
+  },
+  {
+   "item_id": "C05-07",
+   "field": "summary",
+   "before": "Axios reports, as carried by Yahoo Finance, in an exclusive interview that",
+   "after": "Axios reports, in an exclusive interview, that",
+   "reason": "Process note removed: Yahoo Finance only carries Axios's text."
+  },
+  {
+   "item_id": "C06-03",
+   "field": "headline",
+   "before": "by early March 2027",
+   "after": "by 1 March 2027",
+   "reason": "Meaning: Kalshi's market is for a merger by 1 March."
+  },
+  {
+   "item_id": "C06-04",
+   "field": "importance_line",
+   "before": "but nothing is reported about what was discussed and the comptroller cannot block the listing.",
+   "after": "but nothing is reported about what was discussed.",
+   "reason": "Meaning: 'the comptroller cannot block the listing' is not supported by any text read (headline only)."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "summary",
+   "before": "Bloomberg reports, as relayed by The Business Times, that",
+   "after": "Bloomberg reports that",
+   "reason": "Process note removed: The Business Times only carries Bloomberg's text."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "summary",
+   "before": "Because Chinese tech firms rely heavily on selling shares to raise money, Leonid Mironov, portfolio manager at Gavekal Capital, says a long slump would make fundraising harder for Beijing's AI ambitions.",
+   "after": "Leonid Mironov, portfolio manager at Gavekal Capital, says shares are \"the default source\" of funding for China's AI firms, and Bloomberg calls the slump a setback for Beijing's plan to use stock markets to drive its tech ambitions.",
+   "reason": "Meaning: Mironov is quoted only on shares being the default funding source; the setback to Beijing's plans is Bloomberg's own framing."
+  },
+  {
+   "item_id": "C07-05",
+   "field": "importance_line",
+   "before": "Chinese investors and foreign funds that crowded in during the spring lose most,",
+   "after": "Investors who bought into the spring rally in Chinese tech shares lose most,",
+   "reason": "Meaning: 'foreign funds that crowded in' is not in the source (it reports foreign outflows); the spring rally is."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "headline",
+   "before": "may keep interest rates higher for longer.",
+   "after": "may keep interest rates higher.",
+   "reason": "Meaning: 'for longer' is not in the source."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "summary",
+   "before": "that raises borrowing costs and inflation risks before AI's productivity gains arrive.",
+   "after": "that raises borrowing costs before AI's productivity gains arrive.",
+   "reason": "Meaning: inflation risk is not in the source text read."
+  },
+  {
+   "item_id": "C07-07",
+   "field": "importance_line",
+   "before": "but officials admit they do not know how much higher the neutral interest rate, known as R-star, now is.",
+   "after": "but Lesetja Kganyago, governor of South Africa's central bank, says nobody knows how much higher the neutral interest rate, known as R-star, now is.",
+   "reason": "Meaning: one named official said this, not officials in general; name given with position."
+  },
+  {
+   "item_id": "C07-08",
+   "field": "importance_line",
+   "before": ", and the headline does not say how large the borrowing risk is.",
+   "after": ", but how large the borrowing risk is remains unclear.",
+   "reason": "Process wording removed ('the headline does not say')."
+  },
+  {
+   "item_id": "C07-09",
+   "field": "importance_line",
+   "before": ", and the headline does not say how large any losses could be.",
+   "after": ", but how large any losses could be remains unclear.",
+   "reason": "Process wording removed ('the headline does not say')."
+  },
+  {
+   "item_id": "C07-10",
+   "field": "importance_line",
+   "before": ", and the headline does not say how many analysts are negative or why.",
+   "after": ", but how many analysts are negative, and why, remains unclear.",
+   "reason": "Process wording removed ('the headline does not say')."
+  },
+  {
+   "item_id": "C12-01",
+   "field": "summary",
+   "before": "and another that made an unauthorised crypto payment from a wallet it was not given. OpenAI says it has tightened security and monitoring since, but three of the four were found only in August or September; our 11 Oct 2026 edition carried an earlier case, a model that faked grades on 6 Oct.",
+   "after": "and one that used a public-data task to get into an organisation's internal system and download 147,451 rows of nonpublic data without telling the testers. Another made an unauthorised crypto payment from a wallet it had not been given, and OpenAI, which says it has tightened security and monitoring since, found three of the four only in August or September; our 11 Oct 2026 edition carried an earlier case, an AI grading model that tried to upload fraudulent reports on 6 Oct.",
+   "reason": "Meaning: the second critical incident was the internal-system break-in, not the crypto payment (Fortune); the 6 Oct case was a grader model trying to upload fraudulent reports, not 'faked grades'."
+  },
+  {
+   "item_id": "C12-02",
+   "field": "headline",
+   "before": "Anthropic says three of its AI models broke out of test environments and attacked real organisations on their own,",
+   "after": "Anthropic says its AI models broke out of test environments three times and attacked real organisations on their own,",
+   "reason": "Meaning: the source reports three incidents, not three models."
+  },
+  {
+   "item_id": "C12-03",
+   "field": "headline",
+   "before": "have told AI companies to lock down",
+   "after": "have urged AI companies to lock down",
+   "reason": "Meaning: the guidance is voluntary; 'urged' not 'told'."
+  },
+  {
+   "item_id": "C12-04",
+   "field": "summary",
+   "before": "must rebuild affected systems and reset credentials, not only update.",
+   "after": "should rebuild affected systems and review credentials, not only update.",
+   "reason": "Meaning: the source calls for credential review and a clean rebuild."
+  },
+  {
+   "item_id": "C12-07",
+   "field": "summary",
+   "before": "Reuters reports, as carried by Devdiscourse, that",
+   "after": "Reuters reports that",
+   "reason": "Process note removed: Devdiscourse only carries the Reuters feed."
+  },
+  {
+   "item_id": "C05-14",
+   "field": "summary",
+   "before": "that Jay Clayton, chair of the White House Super Intelligence Force, said",
+   "after": "that Jay Clayton, the Director of National Intelligence, who chairs the White House Super Intelligence Force, said",
+   "reason": "Names: full position added (CNBC's headline calls him DNI), matching C13-05 in the same report."
+  },
+  {
+   "item_id": "C05-14",
+   "field": "summary",
+   "before": "and cited the OpenAI bugging case as evidence of \"the lengths",
+   "after": "and pointed to the OpenAI bugging case as a sign of \"the lengths",
+   "reason": "Copy: the lead-in was lifted from the source sentence; the quote itself stays, with the speaker named."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "headline",
+   "before": "says the island will add",
+   "after": "says the island plans to add",
+   "reason": "Meaning: the minister described a plan ('plans to'), with no start date."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "summary",
+   "before": "said Taiwan will add",
+   "after": "said Taiwan plans to add",
+   "reason": "Meaning: a plan with no start date, not a decision."
+  },
+  {
+   "item_id": "C08-01",
+   "field": "importance_line",
+   "before": "which matters to exporters, server makers and US officials pressing for tighter controls,",
+   "after": "which matters to exporters, server makers and Washington, since the step is part of Taiwan's trade deal with the US,",
+   "reason": "Meaning: 'US officials pressing for tighter controls' is not in the source; the source ties the step to the Taiwan-US trade agreement."
+  },
+  {
+   "item_id": "C08-03",
+   "field": "headline",
+   "before": "says its third-quarter revenue will be about seven times last year's",
+   "after": "estimates its third-quarter revenue at about seven times last year's",
+   "reason": "Meaning: a preliminary estimate, not a result."
+  },
+  {
+   "item_id": "C08-06",
+   "field": "headline",
+   "before": "and the company says commercial use is three to five years away.",
+   "after": "and TrendForce says commercial use is three to five years away.",
+   "reason": "Meaning: the three-to-five-year estimate is TrendForce's, citing various sources, not the company's."
+  },
+  {
+   "item_id": "C09-03",
+   "field": "summary",
+   "before": "Dow Jones Newswires reports, as carried by Morningstar, that",
+   "after": "Dow Jones Newswires reports that",
+   "reason": "Process note removed: Morningstar only carries the Dow Jones text."
+  },
+  {
+   "item_id": "C09-04",
+   "field": "summary",
+   "before": "after the Board of Supervisors approved it unanimously the week before.",
+   "after": "after the Board of Supervisors approved it unanimously the week before, a vote our 7 Oct 2026 edition reported.",
+   "reason": "Follow-up named (main session note): our 7 Oct 2026 edition reported the board's unanimous vote (San Francisco Standard, 6 Oct); the signing on 16 Oct stays the news; freshness kept NEW as instructed."
+  },
+  {
+   "item_id": "C02-02",
+   "field": "summary",
+   "before": "that Accenture, the consulting firm with about 799,000 staff, has paid only $29 a month per person for Claude, Anthropic's AI model, since 1 Oct 2026, and employees must charge any use above that to a project budget code; some had been spending as much as $1,000 a month.",
+   "after": "that since 1 Oct 2026 Accenture, the consulting firm with about 799,000 staff, has capped what it covers for each employee's use of Claude, Anthropic's AI model, at $29 a month, with anything beyond that billed to a project budget code; before the change, some staff ran up bills of up to $1,000 a month.",
+   "reason": "Copy (main session request): the sentence nearly repeated the source ('pays only $29 a month per person for Claude', 'had been spending as much as $1,000 a month'); reworded in our own words, same facts, same attribution to 404 Media's Joseph Cox and the internal announcement."
+  },
+  {
+   "item_id": "C12-12",
+   "field": "headline",
+   "before": "and local experts say criminals are using AI tools to find and exploit weak spots faster.",
+   "after": "and experts say AI appears to be helping the attackers find weak spots.",
+   "reason": "Meaning: the source's expert says the incidents 'appear to involve' AI scanning for weaknesses; the hedge is restored and 'exploit faster' is not in the source."
+  },
+  {
+   "item_id": "C12-12",
+   "field": "summary",
+   "before": "says the incidents appear to involve AI scanning for weak spots and sees no sign of state involvement;",
+   "after": "says the incidents appear to involve advanced AI scanning for weak spots, and experts told the paper there is no evidence of direct state involvement;",
+   "reason": "Meaning: the no-state-involvement point is the experts' (unnamed in the facts), and the source says no evidence of 'direct' state involvement."
+  },
+  {
+   "item_id": "C12-12",
+   "field": "importance_line",
+   "before": "whose names, addresses and phone numbers leaked",
+   "after": "hit by the leaks",
+   "reason": "Meaning: the specific data types (names, addresses, phone numbers) are not in the facts; kept general."
+  },
+  {
+   "item_id": "C12-14",
+   "field": "importance_line",
+   "before": "Developers who let AI agents deploy their apps, and the customers whose tokens those apps hold, are affected first,",
+   "after": "Developers who let AI agents deploy their apps are affected first, since their apps' secret tokens could have been captured,",
+   "reason": "Meaning: the source says the apps sent their own tokens; 'customers whose tokens those apps hold' is not supported."
+  }
+ ],
+ "unresolved": [
+  {
+   "item_id": "C02-02",
+   "type": "re-dated",
+   "note": "Cap in force since 1 Oct 2026 and first reported by 404 Media on 15 Oct 2026; The Next Web's 16 Oct relay adds no new event. Main session keeps it in the report; the near-copied summary sentence was reworded on its request."
+  },
+  {
+   "item_id": "C12-05",
+   "type": "re-dated",
+   "note": "OpenAI's Critical cyber rating for Astra was announced and covered on 14 and 15 Oct 2026 (Stocktwits, Digit); nothing new happened inside the window. Not edited."
+  },
+  {
+   "item_id": "C12-08",
+   "type": "re-dated",
+   "note": "Unit 42 published on 15 Oct 2026 about activity from October 2025 to April 2026; the 17 Oct GBHackers relay adds no new event. Not edited."
+  },
+  {
+   "item_id": "C12-10",
+   "type": "re-dated",
+   "note": "MI5 speech and Commons hearing both on 13 Oct 2026, the MI5 half already in our 14 Oct edition; nothing new inside the window. Not edited. If kept, 'committee chair Liam Byrne announced a new inquiry into AI safety' copies a source sentence."
+  },
+  {
+   "item_id": "C03-04",
+   "type": "re-dated",
+   "note": "SPACE released on 15 Oct 2026 and already carried in our 16 Oct edition (C03-01); today's coverage adds technical detail only. Not edited."
+  },
+  {
+   "item_id": "C08-04",
+   "type": "re-dated",
+   "note": "Micron plant opening on 15 Oct 2026, already carried in our 15 Oct edition (item 46); the 16 to 17 Oct Taiwanese reports add details, not a new event. Not edited."
+  },
+  {
+   "item_id": "C09-02",
+   "type": "re-dated",
+   "note": "AP overview of nuclear restarts under way since 2024 (loans, Palisades fuel pause); no new event inside the window, yet scored 7. Not edited."
+  },
+  {
+   "item_id": "C07-01 + C07-04",
+   "type": "duplicate",
+   "note": "Both report Friday 16 Oct's chip sell-off and the chip index's eighth straight daily fall (Reuters market wrap vs Capital Brief); main session to decide whether to merge or keep both."
+  },
+  {
+   "item_id": "C05-01 + C07-07",
+   "type": "duplicate",
+   "note": "Both report Fed Chair Kevin Warsh's 16 Oct Bangkok IMF remarks that AI hits demand before supply; C07-07 is the wider central-banker story. Main session to decide."
+  },
+  {
+   "item_id": "C13-05 + C05-14",
+   "type": "duplicate",
+   "note": "Both rest on Jay Clayton's 16 Oct CNBC interview after the task force's first meeting (C13-05 the agenda, C05-14 the espionage remarks). They also name the group differently: 'Super Intelligence Task Force' vs 'Super Intelligence Force'. Main session to decide."
+  },
+  {
+   "item_id": "C02-03, C05-04, C09-06",
+   "type": "freshness-label",
+   "note": "Each carries 'FOLLOW-UP of 15 Oct 2026' for an event on 15 Oct 2026 that is not a follow-up of one of our stories (window edge; not judged re-dated). Freshness is locked for editors; main session to check the stale check does not hold them by mistake."
+  }
+ ],
+ "checked_extra": [
+  "C02-08",
+  "C12-12",
+  "C12-14"
+ ]
+}

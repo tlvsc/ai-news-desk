@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-06",
+ "v1_category": "MOD",
+ "headline": "TypeSafe AI's Jev, a model that picks between a few fixed answers, reached 35% of paid teams on Vercel's platform in its first two weeks, the fastest start of any model in Vercel's data.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: first hard usage numbers for a model we have carried, but they come from one platform's gateway, which sees only part of the market, and the data was published a day before the scan window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers choosing a model for cheap, fast sorting jobs now have usage numbers showing how quickly Jev caught on, and rivals such as OpenAI and Amazon are responding, but the figures come from one platform's gateway and TechCrunch itself says the claim holds “at least by some measures”.",
+ "source": "TechCrunch",
+ "status": "REPORTED",
+ "summary": "TechCrunch reports that data Vercel published on Thursday 15 Oct 2026 shows Jev, the model from TypeSafe AI that chooses between a few predetermined outputs instead of writing text, was used by 35% of Vercel's paid teams in its first two weeks, nearly double the reach of the second most popular model, Sonnet 5.5, and Vercel's data call this the fastest adoption any model has had in its first two weeks. TechCrunch cautions that the figures come from Vercel's AI gateway, which routes developers' requests to many models and may undercount OpenAI and Anthropic because they also sell through their own interfaces, and the same report shows open-source models now carry more than 70% of the tokens through the gateway but nearly 25% of the spending; this continues the Jev story we carried on 10 Oct 2026 (TypeSafe's $870 million funding round), and the new fact today is the first hard usage data.",
+ "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Follow-up (follow_up_of 1015:C01-10, the Jev 1.14 release pool item). Vercel published the data on Thursday 15 Oct 2026, one day before the scan window, so freshness is FOLLOW-UP; score kept at 5 because TechCrunch's report is in the window. The 'two weeks' vs 'limited release 15 September' wording in the article is not reconciled there; Vercel's measure is quoted as given."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C13-04",
+ "v1_category": "POL",
+ "headline": "The FBI and the US cyber defense agency CISA have warned that hackers are using AI to make scam emails and texts more convincing ahead of next month's midterm elections.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: official joint alert before a national election, but a general warning with no specific incident named.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Election officials, candidates and their campaigns are named as attractive targets and the public is urged to be on guard too, but the alert describes a risk and the report names no specific attack.",
+ "source": "Reuters",
+ "status": "CONFIRMED",
+ "summary": "Reuters reports that an alert issued on 16 Oct 2026 by the FBI and CISA, the Cybersecurity and Infrastructure Security Agency, says hackers may try to disrupt the midterm elections with fake texts and emails designed to steal passwords or other sensitive information. The alert says AI is helping attackers make these messages look and sound more convincing, and it describes election officials, candidates and their political organizations as attractive targets.",
+ "url": "https://www.reuters.com/legal/litigation/us-tells-election-officials-be-guard-against-ai-powered-tricks-ahead-midterms-2026-10-16/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Reuters original returned HTTP 401; the short Reuters text (Raphael Satter) was read in the Lufkin Daily News Reuters copy. Security (SEC) would also fit as category; POL kept because the subject is a government election warning."
+}

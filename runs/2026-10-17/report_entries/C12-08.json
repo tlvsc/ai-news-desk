@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-08",
+ "v1_category": "SEC",
+ "headline": "Palo Alto Networks' Unit 42 says attackers whose scripts appear to be AI-written broke into government Linux servers and stole administrator passwords while posing as a security test.",
+ "score": 5,
+ "score_reason": "Pool score 6 lowered by 1: Unit 42 published on 15 Oct 2026, before the window, and the AI link is an inference from code comments.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Government staff and anyone whose mail and databases sit on the targeted servers are affected first, then hosting providers and security teams, as the case shows AI helping write attack code, though Unit 42 does not name the group or victims and its AI finding is an inference.",
+ "source": "Unit 42",
+ "status": "REPORTED",
+ "summary": "Unit 42, the threat-research team of security firm Palo Alto Networks, reports in a 15 Oct 2026 analysis that an unidentified group it tracks as CL-UNK-1211 targeted government and state-linked Linux servers between October 2025 and April 2026, using scripts whose chatty, step-by-step comments suggest an AI model wrote them or an AI agent ran them, together with web shells, a custom backdoor called SysGoRAT and a hijacked sudo command that recorded administrators' passwords. Unit 42 says it has not determined whether the group is a state or a criminal actor, that one AI-written mailbox script had a bug and would have failed, and that its own Cortex XDR product stopped an attempt to switch it off.",
+ "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item was GBHackers News (17 Oct); credited to Unit 42, the first publisher, whose page was read. Not carried in earlier editions. Victims are not named."
+}

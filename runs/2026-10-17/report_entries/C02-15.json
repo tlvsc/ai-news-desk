@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-15",
+ "v1_category": "SEC",
+ "headline": "Brave has connected its Leo AI assistant to a model running inside secure hardware, so users' chats are encrypted all the way to the model.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: a concrete privacy design from a named browser maker, but it is described by the company and The Register as unfinished and its claims have not been independently verified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People who want private conversations with an AI assistant get a design in which, by Brave's account, no one in the chain sees both the question and who asked, but it relies on trusting the hardware makers and several verification steps are still to come.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reports that Brave Software, maker of the Brave browser, has connected its Leo AI assistant to Z.ai's GLM 5.3 Flash model running inside a trusted execution environment run by NEAR AI, a sealed area of hardware whose contents the host cannot read, so a prompt is encrypted on the user's device and, by design, Brave cannot read what was asked and NEAR AI does not learn who asked. Brendan Eich, Brave's co-founder and chief executive, said too much AI \"still runs on 'trust me bro' promises\", but The Register notes the set-up is incomplete: Brave still plans to move verification into the browser, publish a log of enclave keys and attest the exact model weights.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Register in full. v1_category changed from MOD to SEC: privacy and encryption is the main subject. Brave's earlier experiment with NEAR AI was launched last November, per The Register. The privacy properties are the companies' design claims."
+}

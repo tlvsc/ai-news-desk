@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-15",
+ "v1_category": "ROB",
+ "headline": "Nvidia's research lab has released ASPIRE 1.0 as free open-source software in which an AI language model writes and fixes robot-control code, and a robot arm solved a Rubik's Cube without being trained for it.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a concrete open release with a notable demo, but the 99 percent score is the project's own benchmark and the release date is only given as October.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Robot researchers and start-ups get free code showing that a language model can debug a robot's control loop, but the results are Nvidia's own and the code runs without a security sandbox.",
+ "source": "Startup Fortune",
+ "status": "PRELIMINARY",
+ "summary": "Startup Fortune reports, citing Nvidia's open-source repository, that Nvidia's GEAR lab, co-founded by Jim Fan and Yuke Zhu, released ASPIRE 1.0 this month, a system in which a language model writes Python control code for a robot, watches the result and rewrites it when it fails, instead of training the robot through millions of trial-and-error runs. The project reports 99 percent success on 80 tasks in a robot-manipulation benchmark, but its own tests show success on ten tasks jumping from 15 to 99 percent just by swapping the language model, and its documentation warns the code is not run in a security sandbox.",
+ "url": "https://startupfortune.com/nvidias-open-source-aspire-system-taught-a-robot-to-solve-a-rubiks-cube/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Release date given only as \"this month\" (October 2026); the first coverage found is 16 Oct 2026, so NEW. All benchmark figures are the project's own. Machine action: a robot arm solves a Rubik's Cube."
+}

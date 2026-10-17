@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-04",
+ "v1_category": "SEC",
+ "headline": "Researchers say a likely Russian-speaking hacker used hundreds of AI agents to break into at least 440 PaperCut print-management servers worldwide and steal Windows login credentials.",
+ "score": 7,
+ "score_reason": "Pool score kept: several security firms document a large real campaign with an AI-run workflow, but it is vendor research and the attribution is only 'likely'.",
+ "importance_label": "MEDIUM",
+ "importance_line": "IT teams running PaperCut servers and the people whose Windows logins sit on them are affected first, then the organisations behind them, and the case shows AI speeding up a real attack, though the figures and the attribution come from security firms and are described as likely, not proven.",
+ "source": "GBHackers News",
+ "status": "REPORTED",
+ "summary": "GBHackers News reports, citing research from GreyNoise, Hunt.io and Blackpoint Cyber, that a likely Russian-speaking attacker ran OpenAI's Codex coding software with a DeepSeek model, not an OpenAI model, plus public hacking tools to exploit two PaperCut flaws, hitting at least 440 servers at 395 organisations in 48 countries and gaining domain-administrator control at 12, GreyNoise found. The researchers say AI kept the attack loop going from research to repeated attempts, that patches are available, and that anyone who suspects a compromise should rebuild affected systems and review credentials, not only update.",
+ "url": "https://gbhackers.com/ai-agents-target-papercut/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Dates of the underlying GreyNoise, Hunt.io and Blackpoint reports are not stated; first coverage found was 16 Oct 2026. Primary reports not opened."
+}

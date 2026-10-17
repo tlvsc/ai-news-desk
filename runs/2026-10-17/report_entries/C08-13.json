@@ -1,0 +1,17 @@
+{
+ "item_id": "C08-13",
+ "v1_category": "ENE",
+ "headline": "Five Swedish and international companies, including Ericsson and AstraZeneca, have launched the jointly owned Sferical One AI supercomputer, with 1,152 Nvidia chips.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: the launch took place on 15 Oct, before this edition's window, and rests on company-linked sources.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It shows large European companies pooling money for their own AI computing so sensitive data stays under Swedish control, which matters to their customers, to regulators and to cloud providers, but the claimed advantages come from Tech Times and Nvidia, not independent tests.",
+ "source": "Tech Times",
+ "status": "REPORTED",
+ "summary": "Tech Times reports that Sferical One, a supercomputer jointly owned by the drugmaker AstraZeneca, the telecoms equipment maker Ericsson, the defence group Saab, the bank SEB and the investment company Wallenberg Investments, was formally launched in Stockholm on 15 Oct 2026 with Nvidia chief executive Jensen Huang on stage. It runs 1,152 Nvidia Blackwell Ultra processors in 16 racks, has been in use since late summer 2026, and lets the partners run AI on sensitive data without sending it through a US-based cloud, according to Tech Times; Nvidia's own blog also describes the 1,152-processor system.",
+ "url": "https://www.techtimes.com/articles/329133/20261016/sferical-one-goes-live-swedish-industry-coalition-shares-1152-blackwell-ultra-gpus.htm",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool source HPCwire (press release, blocked by Cloudflare) not readable; read Tech Times and NVIDIA's blog (blogs.nvidia.com/blog/nordics-technology-ecosystem/). Launch on 15 Oct 2026 is older than the window; the editor decides whether it prints."
+}

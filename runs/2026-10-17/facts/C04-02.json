@@ -1,0 +1,27 @@
+{
+ "item_id": "C04-02",
+ "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+ "source_used": "The Decoder",
+ "article_url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+ "fetched": true,
+ "key_facts": [
+  "Nick Cammarata, a researcher at the interpretability lab Goodfire, published an essay titled \"Neural Networks Are Already Clean\".",
+  "He argues that the inner workings of large AI models are much easier to understand than assumed and rejects the superposition explanation he helped shape.",
+  "He reinterprets the famous cat-and-car neuron in InceptionV1 as a V-shape detector, not a mix of unrelated concepts.",
+  "For Qwen3-32B he gives preliminary numbers: about 90 percent of neuron poles have one main job, about 7 percent have two related ones, 2 to 4 percent are unexplained.",
+  "Goodfire says it sees similar results in models with up to trillions of parameters; AI agents analysing neurons in bulk did most of the work.",
+  "Roon, an OpenAI employee who posts under that pseudonym on X, called it a possible major moment in scientific history but said others still need to confirm the results.",
+  "Neel Nanda, who leads the interpretability team at Google DeepMind, says the work is interesting but does not really change the big picture and that neuron-based analysis will miss a lot.",
+  "The technical companion paper has not been released yet and Goodfire has a stake in the thesis."
+ ],
+ "quote_evidence": [
+  "In a long essay titled \"Neural Networks Are Already Clean,\" Nick Cammarata argues that the inner workings of large AI models are much easier to understand than previously thought.",
+  "In Qwen3-32B, about 90 percent of neuron poles have one main job and about 7 percent have two related ones.",
+  "Cammarata's work is interesting but doesn't really change the big picture, Nanda writes.",
+  "The technical companion paper hasn't been released yet."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "If neurons are easier to read than thought, it could help check whether AI models deceive or behave dangerously.",
+ "event_date": "Essay reported 16 Oct 2026 (exact publication date not stated)",
+ "notes": "Essay-based claim, no companion paper yet, author's company has a stake; disputed in tone by Neel Nanda."
+}

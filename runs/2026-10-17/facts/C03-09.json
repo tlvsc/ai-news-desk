@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-09",
+ "title": "Tencent Hunyuan Launches Open-Source HyMemory 2.0 Framework, Claims Superior Performance Over Opus 5",
+ "source_used": "KuCoin News flash carrying IT Home's report",
+ "article_url": "https://www.kucoin.com/news/flash/tencent-hunyuan-launches-open-source-hy-memory-2-0-framework-claims-superior-performance-over-opus-5",
+ "fetched": true,
+ "key_facts": [
+  "Tencent Hunyuan announced on 16 Oct 2026 the open-source Agent Memory Framework Hy Memory 2.0, with three layers: a dedicated model, a memory framework and the MemHub application.",
+  "Tencent says the framework is the first to propose a memory architecture combining working memory and code memory.",
+  "On four benchmarks covering chat, work and code, Tencent says Hy Memory beats open-source frameworks such as Mem0, MemOS, EverOS, OpenViking, RepoMemory and Simple RAG.",
+  "On LoCoMo, chat memory reached 72.6% accuracy against EverOS's 71.9% while cutting average tokens per question from 1,159 to 703, a 39.3% decrease.",
+  "Hy-Memory-30A3B, trained for memory tasks with about 3B activated parameters, scored 55.49 against Claude Opus 5's 54.62 on a fixed 20% baseline subset of four benchmarks, according to an arXiv paper.",
+  "MemHub is a local memory tool (CLI and Mac app) that imports sessions from 10 AI tools, including WorkBuddy, Cursor, Codex, Pi, Qwen Code, Hermes, DeepSeek Harness and OpenCode.",
+  "The SDK and MemHub are on GitHub and the Hy-Memory-30B-A3B weights are on Hugging Face."
+ ],
+ "quote_evidence": [
+  "IT Home, October 16: Tencent Hunyuan officially announced today the launch of the Agent Memory Framework Hy Memory 2.0, open-sourcing three layers of capabilities: the dedicated model, the memory framework, and the MemHub application.",
+  "In tests involving the Hy Memory, Mem0, MemOS, and EverMemOS memory systems, Hy-Memory-30A3B scored 55.49, outperforming Opus 5 at 54.62, DeepSeek V4.1 Flash at 53.64, and Qwen3-30B-A3B at 44.37."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A free memory toolkit for AI agents from a major Chinese tech firm, with performance claims that are Tencent's own.",
+ "event_date": "16 Oct 2026",
+ "notes": "Copy site KuCoin carries IT Home's text; IT Home is the source. Company claims only."
+}

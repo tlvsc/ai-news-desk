@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-05",
+ "title": "Employees are vibe-coding their own apps. Cloudflare open-sources Void to give IT a handle on them",
+ "source_used": "The New Stack",
+ "article_url": "https://thenewstack.io/cloudflare-voidzero-void-vibe-coding/",
+ "fetched": true,
+ "key_facts": [
+  "On Thursday (15 Oct 2026) Cloudflare released Void, a collection of three open-source tools including a self-hosted platform to deploy and manage employees' AI-built apps.",
+  "The three parts are the Void SDK (building blocks for full-stack apps with Vite), the Void CLI (deployment) and Void Platform (a shared environment with an admin dashboard).",
+  "Administrators can set who can deploy and access apps, inspect deployments and logs, monitor resource use and set usage limits.",
+  "Void began at VoidZero, which Cloudflare acquired in June; Evan You (founder of VoidZero) said it no longer needs to be a commercial product, so it is open source.",
+  "Void's docs show admins can make new apps public by default and there is no mandatory IT security review before an app goes live; companies would have to build approval steps themselves.",
+  "Self-hosting needs a paid Cloudflare Workers for Platforms plan from $25 a month, R2 storage and a separately hosted PostgreSQL database; there is no managed version yet.",
+  "Cloudflare uses Void Platform internally, restricted to employees."
+ ],
+ "quote_evidence": [
+  "On Thursday, the company announced the release of Void, a collection of three open-source tools that includes a self-hosted platform where companies can deploy and manage their employees’ AI-built applications.",
+  "Void’s documented deployment process also contains no mandatory IT security review before an application goes live."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Employees building their own apps with AI is creating unmanaged 'shadow IT'; Void gives companies a place to host and control such apps, with limits.",
+ "event_date": "Thursday 15 Oct 2026",
+ "notes": "Announcement a day before the window; reported 16 Oct."
+}

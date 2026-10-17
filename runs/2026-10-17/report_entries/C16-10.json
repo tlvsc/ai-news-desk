@@ -1,0 +1,17 @@
+{
+ "item_id": "C16-10",
+ "v1_category": "FUN",
+ "headline": "A PCMag UK reviewer who gave the same everyday tasks to three AI agents found OpenAI's Dots the most reliable, ahead of Google's Spark and Meta's Muse.",
+ "score": 3,
+ "score_reason": "Hands-on comparison with clear results; the facts fit the pool score of 3 for a light AI-experiment story.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "It helps people deciding whether to pay for an AI agent, since the best performer needs a plan from $100 a month, but it is one reviewer's five tasks, not a lab benchmark.",
+ "source": "PCMag UK",
+ "status": "REPORTED",
+ "summary": "PCMag UK reports that a reviewer gave five everyday tasks, including grocery ordering, job hunting, restaurant booking and inbox cleanup, to three AI agents, and found ChatGPT's Dots the most reliable, while Google's Gemini Spark and Meta's Muse fell short on several, for example Spark could not get into the reviewer's Instacart account. The reviewer concludes that Dots, which needs a ChatGPT plan from $100 a month, is not worth it unless you have many simple online tasks to automate, and that none of the agents is yet essential.",
+ "url": "https://uk.pcmag.com/ai/167960/i-let-3-ai-agents-take-over-my-life-only-1-didnt-fail",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Software agents only, so machine_action is false. Headline's claim that only one did not fail is softened: the article says Muse eventually completed some tasks."
+}

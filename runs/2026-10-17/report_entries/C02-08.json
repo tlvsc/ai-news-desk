@@ -1,0 +1,17 @@
+{
+ "item_id": "C02-08",
+ "v1_category": "MOD",
+ "headline": "FIS has made its AI agent for investigating money-laundering alerts, built with Anthropic's Claude models, available to any US bank.",
+ "score": 5,
+ "score_reason": "Pool score 5 kept: a real commercial launch with a named first bank, but the time savings are one bank's projections and the release date is not stated precisely.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Bank analysts who spend much of their time gathering evidence for money-laundering alerts may get faster work, and banks that are not FIS clients can now buy the tool, but the savings are projections by one bank and every case still needs a human's confirmation.",
+ "source": "The Paypers",
+ "status": "CONFIRMED",
+ "summary": "The Paypers reports that FIS, a US-based financial technology company, has made its AML Investigations Agent, which it first announced with Anthropic in May 2026, commercially available to any US bank, including non-clients, with Amalgamated Bank as the design partner now deploying it. The agent gathers the evidence on anti-money-laundering (AML) alerts for analysts, who must confirm every case, and Amalgamated's estimate of more than 90 percent less time on first-level alert review is a projection, not a measured result from live use.",
+ "url": "https://thepaypers.com/fraud-and-fincrime/news/fis-opens-aml-investigations-agent-built-with-anthropic-to-us-banks",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Paypers in full. Exact release date not stated ('as of October 2026'); first announced May 2026, so the freshness cannot be dated more precisely. The Paypers describes FIS as developing and owning the agent, running in FIS's private cloud on Anthropic's Claude models. AML = anti-money-laundering."
+}

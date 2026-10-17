@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-07",
+ "title": "Forecasting 'tipping points' with AI climate simulation",
+ "source_used": "Earth.com (same story; the Phys.org original could not be opened, HTTP 403)",
+ "article_url": "https://www.earth.com/science/ai-can-predict-when-climate-systems-will-reach-a-tipping-point/",
+ "fetched": true,
+ "key_facts": [
+  "Researchers at Caltech, the University of Colorado Boulder and NVIDIA trained an AI system to forecast tipping points.",
+  "It uses a recurrent neural operator (RNO), an AI model with memory of how a physical system changes over time.",
+  "Trained only on pre-tipping data, it predicted a simulated climate tipping point, the disappearance of low marine stratocumulus clouds, more than two years ahead, off by about 11 days.",
+  "It was also applied to aerodynamic stall on a simulated wing and in tests it beat other AI models, especially at longer horizons.",
+  "Senior author Anandkumar of Caltech says it was demonstrated on a simplified climate model and a model of air turbulence.",
+  "The study is published in the Proceedings of the National Academy of Sciences and has been cited in a UN report on tipping points.",
+  "It could eventually help with ecosystems and disease outbreaks."
+ ],
+ "quote_evidence": [
+  "In the simulated climate scenario, the AI predicted the cloud-disappearance tipping point more than two years in advance, missing the actual transition by only about 11 days.",
+  "“We demonstrated it on a simplified climate model and a model of air turbulence over a wing – systems that weren’t tractable with earlier methods.”",
+  "The study is published in the journal Proceedings of the National Academy of Sciences."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Years of warning before abrupt climate shifts would help planning, but this was shown only in simulations.",
+ "event_date": "Reported 16 Oct 2026 (PNAS publication date not stated)",
+ "notes": "Earth.com text read; the Phys.org page was not openable. Earth.com spells the first name of the senior author inconsistently, so the entry does not use it. Simulation only."
+}

@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-04",
+ "title": "Elorian’s first AI model wants to reason with images, not just about them",
+ "source_used": "TechCrunch (full text)",
+ "article_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+ "fetched": true,
+ "key_facts": [
+  "Elorian, a Palo Alto AI start-up that raised a $55 million seed round at a $300 million valuation before launching a product, released its first model, Glimpse, on Friday 16 Oct 2026, as a research preview with API access and a chat interface (TechCrunch exclusive).",
+  "Most multimodal models look at an image once, convert it to tokens and reason in text; Glimpse goes back to the source mid-reasoning, cropping into a region, pulling video frames or running code to measure, which Elorian calls a 'visual scratch space'.",
+  "The approach is not completely new: OpenAI added crop-and-zoom during reasoning to its o-series models in 2025.",
+  "Elorian says a small team trained Glimpse on a few hundred GPUs and the model is substantially smaller than the frontier systems it is compared with.",
+  "Price: $0.60 per million tokens in and $3 per million out, cheaper than mid-level models such as Sonnet and Sol, more expensive than lightweight ones such as Haiku and Luna.",
+  "By Elorian's evaluations Glimpse beats GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+  "Andrew Dai, Elorian's CEO and a former Google DeepMind researcher, says AI models still cannot really see; investors include Striker Venture Partners, Menlo Ventures, Altimeter Capital, Nvidia and Jeff Dean, Google's chief scientist."
+ ],
+ "quote_evidence": [
+  "Elorian, the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned.",
+  "But according to Elorian’s evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+  "The approach isn’t completely new"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A new start-up bets that models which re-inspect images while reasoning can beat bigger systems on visual tasks at lower cost, though the results are its own.",
+ "event_date": "Friday 16 Oct 2026",
+ "notes": "TechCrunch exclusive; all benchmark results are Elorian's own evaluations, not independently verified."
+}

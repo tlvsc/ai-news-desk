@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-02",
+ "title": "Kling AI 4.0 suggests a shift in AI video competition from visual quality to directorial control",
+ "source_used": "TechNode (full text); Pandaily for the preview-to-general-rollout context",
+ "article_url": "https://technode.com/2026/10/16/kling-ai-4-0-suggests-a-shift-in-ai-video-competition-from-visual-quality-to-directorial-control/",
+ "fetched": true,
+ "key_facts": [
+  "Kling AI released Kling 4.0, focused on motion performance, creative control and longer-form storytelling (TechNode).",
+  "It supports native video of up to 30 seconds in one generation, up to 15 multimodal reference assets (images, video, audio) and up to 10 keyframes (TechNode).",
+  "Reference assets guide how a video should look and feel; keyframes let creators define how the story unfolds (TechNode).",
+  "A Kling spokesperson told TechNode the biggest bottleneck for longer AI video is stability, controllability and narrative coherence, and that fidelity is becoming a baseline rather than the sole advantage.",
+  "TechNode's own assessment: the features could reduce repeated generations, but effectiveness depends on scene complexity, and story development, shot selection and final editing still need human judgment.",
+  "Pandaily reports Kling 4.0 moved from preview access to general availability on klingai.com, following a September preview that already announced 30-second clips and multi-reference control."
+ ],
+ "quote_evidence": [
+  "Kling 4.0 supports native video generation of up to 30 seconds in a single generation, along with up to 15 multimodal reference assets and 10 keyframes, giving creators more control over characters, scenes, actions and camera movements.",
+  "More control does not mean AI can independently make a film.",
+  "Kling AI’s latest release, Kling 4.0, introduces features designed to tackle these challenges."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "AI video makers are competing on control and continuity across shots, not only on how real a single clip looks.",
+ "event_date": "General rollout reported 16 Oct 2026; preview in September 2026",
+ "notes": "Feature specs are the company's; the analysis (control over realism, effect on repeated generations) is TechNode's. Release date is not stated in the TechNode text; Pandaily's 16 Oct 2026 report describes the full launch. Pandaily lists different reference limits per job (10 images, 5 videos, 7 subjects) than TechNode's 15 assets; the entry uses TechNode's figures."
+}

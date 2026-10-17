@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-01",
+ "v1_category": "MOD",
+ "headline": "The Linux kernel's maintainers have dropped the rule that asked contributors to label code written with AI tools, and Linus Torvalds has defended the change.",
+ "score": 5,
+ "score_reason": "Lowered from 6 to 5: the decision and Torvalds's reply date from 13 and 14 Oct, and our 14 Oct edition already carried the plan; today's piece adds the reasons and his words.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Kernel developers are affected first, then the many companies that build on Linux, but some contributors still want a disclosure rule and the reports do not say whether anything will replace the tag.",
+ "source": "The Register",
+ "status": "CONFIRMED",
+ "summary": "The Register reported on 14 Oct 2026, as relayed by PC Gamer, that the kernel's Maintainers Summit agreed to scrap the \"Assisted-by\" tag, a label added to the project's rules in January 2026 for code written with AI coding tools, which follows the plan we carried from Phoronix in our 14 Oct edition. Linus Torvalds, the creator and lead maintainer of Linux, answered an objection from Laurent Pinchart, a Linux kernel developer and founder of Ideas on Board, by calling rules against using AI tools \"utterly stupid\" and saying he expects contributors to understand their code whatever tools they use; the dropped tag only asked for disclosure and never banned AI.",
+ "url": "https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140",
+ "freshness": "FOLLOW-UP of 13 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Item came from PC Gamer (16 Oct 2026, read in full); PC Gamer credits The Register, so The Register (14 Oct, also read) is the source and its link is used. Phoronix first reported the plan on 13 Oct (our 14 Oct edition, headline only). Pinchart's post was on Tuesday 13 Oct and Torvalds's reply was reported by The Register on 14 Oct; Sasha Levin's message on the Maintainers Summit decision was 'last week' per The Register. PC Gamer says the tag is already removed from the documentation."
+}

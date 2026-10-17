@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-02",
+ "v1_category": "MOD",
+ "headline": "Linux creator Linus Torvalds has posted a kernel patch written with an AI coding assistant, aimed at removing a slowdown when many processor cores read the same file.",
+ "score": 4,
+ "score_reason": "Lowered from 6 to 4: the patches date from about 10 to 12 Oct and were widely reported then, and the 23-fold figure differs from the roughly threefold other outlets reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Linux kernel developers and the many organisations that run Linux are affected first, but the 23-fold figure comes from a synthetic test, ZDNET and Linuxiac reported about threefold in the main test they described, and the patches are not yet in the main kernel.",
+ "source": "Tom's Hardware",
+ "status": "CONFIRMED",
+ "summary": "Tom's Hardware reports that Linus Torvalds, the creator and lead maintainer of the Linux kernel, has posted what it calls his first AI-assisted patch, a fix for a slowdown that occurs when many processor cores read the same file, and that he claims it ran 23 times faster in a synthetic benchmark, a figure he says real workloads would not match. The work was first reported around 12 Oct 2026, when our edition of that day carried Phoronix's report that Torvalds was building a kernel improvement with Anthropic's Claude Code; the patch sits on a development branch, not in the main kernel.",
+ "url": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+ "freshness": "FOLLOW-UP of 12 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read Tom's Hardware in full (16 Oct). Context read at ZDNET (13 Oct) and Linuxiac (12 Oct): Torvalds's own commit text, dated 10 Oct per Linuxiac, says the code, tests and review were done with Claude Code under his direction; they report about 10 million to 30-33 million reads per second (about threefold) in the main eight-thread test and a branch outside mainline Linux 7.3-rc6 as of 13 Oct. Tom's Hardware's 23x figure could not be matched to those numbers; XenoSpectrum (17 Oct) reports a race condition found in review, but its page was blocked, so that is not used."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-07",
+ "v1_category": "ROB",
+ "headline": "Robotics start-up Skild AI says its software learned to play soccer by competing against copies of itself in simulation for more than 140 years of game time, and then worked on a real humanoid robot.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: an interesting training method, but it is the company's own demonstration on one task with no outside review reported.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Robot makers and the factories, building sites and homes that want to use them could need less human-made training data if the method carries over, but so far it is one company's soccer demonstration.",
+ "source": "Robotics & Automation News",
+ "status": "PRELIMINARY",
+ "summary": "Robotics & Automation News reports, citing Skild AI, that the company trained a policy on Nvidia's Isaac Sim simulator with one goal, scoring, by having it play against ever-stronger copies of itself, then moved it to a physical humanoid robot that played soccer. Skild says the method could let robots learn complex skills in factories, construction sites and homes without people demonstrating every action, but the evidence so far is its own soccer demonstration.",
+ "url": "https://roboticsandautomationnews.com/2026/10/16/skild-ai-trains-robots-to-learn-physical-skills-through-self-play/105994/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Skild AI builds general-purpose AI models for robots (a \"robotics foundation model\"). The outlet restates Skild's own statements; no independent test reported."
+}

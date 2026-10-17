@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-05",
+ "v1_category": "RES",
+ "headline": "The European weather centre ECMWF has launched an experimental AI system that forecasts air pollution and other atmospheric gases up to 10 days ahead.",
+ "score": 5,
+ "score_reason": "Official launch of a useful experimental tool from a leading forecaster; results are its own early tests.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Faster, cheaper air-quality forecasts that reach further ahead could support health warnings for people exposed to pollution, but the system is experimental and Laurence Rouil, who directs the Copernicus atmosphere service at ECMWF, says the current operational system “remains the benchmark for accuracy and reliability.”",
+ "source": "ECMWF",
+ "status": "PRELIMINARY",
+ "summary": "ECMWF says its new AIFS-COMPO system, trained on data from the Copernicus Atmosphere Monitoring Service that ECMWF runs for the European Commission, forecasts dust, particle pollution and gases such as ozone and nitrogen dioxide up to 10 days ahead, twice the five-day range of the current operational forecasts, at much lower computing cost. In ECMWF's own first tests it matched or improved on the current physics-based system for several key pollutants, but it remains experimental, starts from that system's analyses and covers fewer chemical species.",
+ "url": "https://www.ecmwf.int/en/about/media-centre/news/2026/aifs-compo-ai-atmospheric-composition-forecasting",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read in full from the ECMWF announcement. Skill comparison is ECMWF's own, with a preprint on arXiv."
+}

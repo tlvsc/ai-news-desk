@@ -1,0 +1,15 @@
+{
+ "curate": {
+  "13": "MUST INCLUDE, score at least 7 (VIRAL RULE): China proposes export controls on 23 AI technologies, including open-weight models (draft rules, 16 Oct), carried by 50 outlets; take the best readable outlet; the score is not lowered for tone. ALSO MUST INCLUDE, score at least 7 (VIRAL RULE): Anthropic quietly pitches its own AI safety bill to US lawmakers (Politico report, 16 Oct), carried by 29 outlets; credit Politico as the first reporter; take the best readable outlet; the score is not lowered for tone.",
+  "11": "MUST INCLUDE, score at least 7 (VIRAL RULE): Waymo starts driverless testing in Toronto and plans its first Canadian robotaxi service there by 2028, carried by 41 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "1": "MUST INCLUDE, score at least 7 (VIRAL RULE): Meta releases Muse Spark Open, an open-weight model (816 billion parameters) that it worked on with Apple to run on Mac Studios, while keeping its strongest model closed, carried by 29 outlets; take the best readable outlet; the score is not lowered for tone.",
+  "8": "MUST INCLUDE, score at least 7 (VIRAL RULE): Nvidia RTX Spark laptops go on sale (from about 2,599 dollars) and the first benchmarks and reviews are out (The Register, The Verge, Tom's Hardware), carried by 28 outlets; take the best readable outlet; the score is not lowered for tone. It is a meaningful update (on sale, price, first test results) of the RTX Spark launch of 9 Oct and the Windows story of 16 Oct (CLAUDE.md rule 34): set follow_up_of to the 16 Oct story and say what is new."
+ },
+ "write": {
+  "13": "VIRAL RULE (CLAUDE.md): C13-01 (China export controls on AI technologies, 50 outlets) and C13-02 (Anthropic's own AI safety bill, first reported by Politico, 29 outlets) keep a score of at least 7; you check facts and dates but never lower them below 7; a fact or date doubt goes into notes for the main session. Credit Politico as the first reporter of C13-02.",
+  "11": "VIRAL RULE (CLAUDE.md): C11-01 (Waymo driverless testing in Toronto, first Canadian robotaxi service planned for 2028, 41 outlets) keeps a score of at least 7; you check facts and dates but never lower it below 7; a doubt goes into notes.",
+  "14": "The Census study on the earnings of graduates in AI-exposed jobs was found only at Campus Reform: look for the Census Bureau's own release or another outlet and credit the first reporter; if it cannot be confirmed, say so plainly in the entry.",
+  "12": "The Astra 'critical cyber threshold' item rests on TechJuice and Yellow.com only: look for the company's own statement or a stronger outlet before writing it; if it cannot be confirmed, say whose claim it is.",
+  "2": "The Accenture cap on Claude spending was first reported by 404 Media: credit 404 Media as the first reporter (X reports, citing 404 Media)."
+ }
+}

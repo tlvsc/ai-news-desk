@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-07",
+ "title": "AI agents rewrite TypeScript compiler in Rust for $24,000",
+ "source_used": "The Register (Techzine blocked)",
+ "article_url": "https://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+ "fetched": true,
+ "key_facts": [
+  "Developer and YouTuber Theo Browne used AI agents to port Microsoft's TypeScript compiler, type checker and language server to Rust (project TS_Rust).",
+  "He claims the Rust port runs twice as fast as Microsoft's Go-based TypeScript rewrite (v7) and 12.5 times as fast as the previous version (v6), and says he has not inspected the code.",
+  "Earlier attempts with OpenAI's GPT-5.6 Sol and GPT-6 Astra burned more than $400,000 worth of API-equivalent tokens and reached roughly 84 percent compatibility.",
+  "With Anthropic's Claude Opus 5.5, released last month, he got a working implementation for about $24,000 worth of API-equivalent tokens, passing the conformance tests with nearly 100 percent accuracy.",
+  "The model ported Microsoft's Go version to Rust rather than translating from JavaScript, copying a few bugs from the original.",
+  "Browne argues a Rust-based TypeScript could let some agent workloads run inside Google's V8 engine instead of VMs or containers, cutting costs.",
+  "Microsoft recently rewrote the Copilot runtime in Rust at about $120,000 in AI usage, per The Register."
+ ],
+ "quote_evidence": [
+  "With some extra tokens to burn, developer and popular YouTuber Theo Browne used AI agents to port Microsoft's TypeScript compiler to Rust, just to see if it could be done.",
+  "The resulting implementation passed the TypeScript conformance tests with nearly 100 percent accuracy."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI agents completing a very large code port for tens of thousands of dollars shows how fast the cost of big rewrites is falling, though the claims are one developer's.",
+ "event_date": "Reported 15 Oct 2026",
+ "notes": "Older news re-dated: The Register ran it 15 Oct; Techzine 16 Oct."
+}

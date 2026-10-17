@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-07",
+ "v1_category": "MOD",
+ "headline": "A developer used AI coding agents to rewrite Microsoft's TypeScript compiler in the Rust programming language for about $24,000 of AI usage, and says it runs twice as fast as Microsoft's own version.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: first reported on 15 Oct, before the window, and the speed and test results are the developer's own claims.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Software developers and teams building AI coding tools are affected first, and the result suggests large code rewrites are getting much cheaper, but the figures are the developer's own and no independent check is reported.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reported on 15 Oct 2026 that Theo Browne, a developer and popular YouTuber, used AI coding agents to port Microsoft's TypeScript compiler (the program that checks TypeScript code and turns it into JavaScript) to Rust for about $24,000 worth of tokens, the units AI services bill by, on Anthropic's Claude Opus 5.5, after earlier tries with OpenAI models, costing over $400,000 in tokens, reached only about 84% compatibility. Browne claims, though he says he has not inspected the code, that the result passes nearly all of TypeScript's conformance tests and runs about twice as fast as Microsoft's own rewrite in Go, and he argues it could let AI agents run in lighter environments; these are his own claims.",
+ "url": "https://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Item came from Techzine Global (16 Oct, blocked HTTP 403). The Register's earlier report (15 Oct) was read in full and is used as source and link. Speed and compatibility figures are Browne's claims from his video as relayed by The Register."
+}

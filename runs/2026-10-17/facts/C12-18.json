@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-18",
+ "title": "Eilik AI robot exposes 8.3M chats and hijack flaws",
+ "source_used": "The Verge (Cybernews, the pool link, was blocked)",
+ "article_url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+ "fetched": true,
+ "key_facts": [
+  "The Verge says the servers behind Energize Lab's Eilik AI robot toy (it spells it Eiliko) were left unprotected and store users' conversations on Chinese servers.",
+  "Security researcher Sammy Azdoufal could read about 13 million conversations from tens of thousands of people and reach seemingly the whole active fleet of 68,000 toys; over 31,000 profiles in the US belong to children, per the data.",
+  "The service reads conversations and builds a profile of each user, including name, age, birthday, profession, family and what kind of person they seem to be, stored with email and IP address.",
+  "Energize Lab also stores photos of children and short audio recordings at public web addresses, although its privacy policy says recordings are deleted after processing.",
+  "Many admin passwords were on common-password lists.",
+  "Azdoufal remotely rewrote the toy's memory and took over its language model from the other side of the world, changing what it said.",
+  "Azdoufal plans to publish nine official CVE vulnerability reports for Energize Lab.",
+  "The Verge tried for over a month to reach the company through ten addresses; no one answered its questions."
+ ],
+ "quote_evidence": [
+  "He could read 13 million conversations from tens of thousands of people.",
+  "Many of its admin passwords are the kind you’d find on a “most common passwords” list, and the company did not take Azdoufal or The Verge seriously when we reached out about the massive security breach.",
+  "In the end, not a single person stepped forward to answer our questions."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A toy marketed to families kept children's private chats on servers that anyone who found the flaw could read or take over.",
+ "event_date": "The Verge investigation published 15 Oct 2026; Cybernews report 16 Oct 2026",
+ "notes": "Cybernews (pool link, 'Eilik AI robot exposes 8.3M chats') was blocked (403); The Verge's own investigation of the same toy was read instead. Counts differ: Verge says about 13 million conversations; Cybernews' headline says 8.3 million chats. The 8.3 million figure is unconfirmed and not used. The Verge spells the product Eiliko in places."
+}

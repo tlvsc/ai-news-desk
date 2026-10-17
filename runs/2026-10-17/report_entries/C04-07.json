@@ -1,0 +1,17 @@
+{
+ "item_id": "C04-07",
+ "v1_category": "RES",
+ "headline": "Researchers at Caltech, the University of Colorado Boulder and Nvidia trained an AI that predicted a simulated climate tipping point more than two years ahead, missing the date by about 11 days.",
+ "score": 5,
+ "score_reason": "Peer-reviewed method with a striking result, but tested only in simulations.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Early warning of abrupt climate shifts would give governments and communities more time to prepare, but the tests used simplified simulations rather than real-world data, so warning in practice is unproven.",
+ "source": "Earth.com",
+ "status": "REPORTED",
+ "summary": "Earth.com reports that the team, publishing in the Proceedings of the National Academy of Sciences, built a recurrent neural operator, an AI model that tracks how a physical system changes over time, and trained it only on data from before a tipping point, the moment a system shifts toward irreversible change. In a simulated climate scenario it predicted the abrupt disappearance of low marine clouds more than two years ahead, off by about 11 days, and it was also applied to the onset of stall on a simulated aeroplane wing.",
+ "url": "https://www.earth.com/science/ai-can-predict-when-climate-systems-will-reach-a-tipping-point/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Phys.org original (https://phys.org/news/2026-10-ai-climate-simulation.html) was not openable; Earth.com carries the same study and was read in full. Bioengineer.org and London Daily News also carry it."
+}

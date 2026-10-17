@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-01",
+ "v1_category": "MOD",
+ "headline": "Reflection AI, a US start-up, has released the weights of its Beam model, so anyone can now download, run and adapt it.",
+ "score": 6,
+ "score_reason": "Pool 6 kept: the release is confirmed by the company, two news outlets and a cloud partner, but the benchmark claims are still Reflection's own.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers, companies and governments that want a US-made alternative to Chinese open models can now download and test Beam themselves, but so far the performance scores come from Reflection's own evaluations.",
+ "source": "SiliconANGLE",
+ "status": "CONFIRMED",
+ "summary": "SiliconANGLE reports that Reflection AI, a US start-up backed by Nvidia, put the weights of Beam, its first large language model, on the Hugging Face model-sharing site on 16 Oct 2026, together with training recipes for customizing it (weights are the trained values that let others run and adapt a model). Unite.AI, relaying Reflection's announcement and a launch post from the AI hosting firm Baseten, adds that the 501-billion-parameter model is released under the Apache 2.0 open-source license, that Baseten says Reflection trained it to use fewer tokens (the word pieces a model reads and writes) on coding and agent tasks, and that the benchmark scores quoted so far are Reflection's own; this follows Beam's unveiling on 5 Oct 2026, which we carried in our 6 Oct 2026 edition, and the new fact today is that the weights are public.",
+ "url": "https://siliconangle.com/2026/10/16/reflection-ai-open-sources-beams-weights-post-training-recipes/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "VentureBeat original (HTTP 429) not opened; story read at SiliconANGLE and Unite.AI, size and license cross-checked on the AWS blog. Continues the Beam unveiling of 5 Oct 2026 (our 6 Oct 2026 edition); the weights release itself is 16 Oct 2026, so freshness NEW."
+}

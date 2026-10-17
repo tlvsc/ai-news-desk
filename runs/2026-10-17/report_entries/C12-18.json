@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-18",
+ "v1_category": "SEC",
+ "headline": "The Verge reports that an AI robot toy called Eilik, made by Energize Lab, stored its users' private chats on poorly protected servers that a researcher could read and use to take over the toy.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: The Verge published the investigation on 15 Oct 2026, before the window, and the findings come from one researcher's access.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Families who bought the toy, especially the children whose chats and photos are stored, are affected first, then Energize Lab, because anyone who found the flaw could read conversations or change what the toy says, though the findings rest on one researcher's access and the company has not answered.",
+ "source": "The Verge",
+ "status": "REPORTED",
+ "summary": "The Verge reports that Sammy Azdoufal, a security researcher who has exposed flaws in other connected devices, found the servers behind Energize Lab's Eilik robot toy unprotected, letting him read about 13 million conversations from tens of thousands of users, reach a fleet of about 68,000 toys and rewrite one toy's behaviour from abroad. Energize Lab did not answer The Verge's questions over more than a month, and Azdoufal plans to publish nine official vulnerability reports (CVEs) for the company.",
+ "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Pool item was Cybernews (16 Oct), blocked; The Verge's investigation (15 Oct) was read and credited. Cybernews' headline says 8.3 million chats, The Verge says about 13 million conversations; the entry uses The Verge's figures only. Not carried in earlier editions."
+}

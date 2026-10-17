@@ -1,0 +1,25 @@
+{
+ "item_id": "C16-05",
+ "title": "I Let Meta Muse Talk to Customer Service Bots. It Didn’t Go Well",
+ "source_used": "CNET",
+ "article_url": "https://www.cnet.com/tech/services-and-software/meta-muse-contact-phone-provider-ai-agent-blocked/",
+ "fetched": true,
+ "key_facts": [
+  "A CNET reviewer, a customer of Visible (Verizon's cheap all-digital phone brand, $25 a month), keeps getting spam calls and messages meant for a man named Andrew, probably the number's previous owner.",
+  "The reviewer asked Meta's Muse, a personal AI agent app, to talk to Visible's chatbot and check who is formally listed as owner of the number.",
+  "Visible blocks bot visits, so Muse could not get through; it also got blocked in a guest chat and the reviewer hit a 403 forbidden error after taking over the browser.",
+  "Muse found a data-broker page linking the number to Andrew and advised requesting removal from sites such as WhitePages and FastBackgroundCheck.",
+  "The reviewer was escalated to Visible's advanced support, which said to keep the browser open for 4 to 24 hours.",
+  "The reviewer concludes most websites block bots, so Muse still feels like a regular chatbot giving guidance to follow.",
+  "The problem was not solved at the time of writing."
+ ],
+ "quote_evidence": [
+  "But Muse couldn’t get through, as Visible blocks bot visits.",
+  "But with a lot of these websites blocking AI agents, it makes autonomous task completion a challenge.",
+  "For me, in this situation, Muse still feels like a regular chatbot, giving guidance for me to follow."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Websites that block bots limit how much AI agents can finish on their own.",
+ "event_date": "Published 16 Oct 2026",
+ "notes": "First-hand test by one CNET reviewer (name not in the text). Visible's own response was not sought. CNET affiliate boilerplate skipped."
+}

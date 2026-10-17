@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-04",
+ "v1_category": "MOD",
+ "headline": "Elorian, a Palo Alto start-up, has released Glimpse, an AI model that zooms back into images and video while it reasons instead of looking at them only once.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a fresh first model from a well-funded start-up with a clear technical idea, but the results are the company's own and a research preview.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies with lots of video, such as robotics firms, labs and media groups, get a cheaper model aimed at visual reasoning, but Elorian's claims of beating GPT-6 Astra come from its own tests and the crop-and-zoom idea is not new.",
+ "source": "TechCrunch",
+ "status": "REPORTED",
+ "summary": "TechCrunch reports, in an exclusive, that Elorian, a Palo Alto AI start-up led by chief executive Andrew Dai, a former Google DeepMind researcher, which raised a $55 million seed round at a $300 million valuation before launching a product, released its first model, Glimpse, as a research preview with API access and a chat interface on Friday 16 Oct 2026. Most models that handle images turn them into tokens (small units of data) once and then reason in text, whereas Glimpse can crop into a region, pull frames from a video or run code to measure what it sees while it reasons; Elorian says it beats GPT-6 Astra on scientific chart reasoning and short-form video captioning at a price between mid-sized and lightweight rival models, but those results are its own evaluations and TechCrunch notes OpenAI added a similar crop-and-zoom step to its o-series models in 2025.",
+ "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Full TechCrunch text read. All performance claims are Elorian's own; Elorian says it plans later to move from seeing to doing, including directly controlling robots, which is a goal, not a product."
+}

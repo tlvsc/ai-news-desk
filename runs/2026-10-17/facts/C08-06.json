@@ -1,0 +1,25 @@
+{
+ "item_id": "C08-06",
+ "title": "China startup demoes prototype EUV light source — 15W of output power and 90% domestic components, still years away from viability",
+ "source_used": "Tom's Hardware (citing TrendForce)",
+ "article_url": "https://www.tomshardware.com/tech-industry/semiconductors/china-startup-demoes-prototype-euv-light-source-15w-of-output-power-and-90-percent-domestic-components-still-years-away-from-viability",
+ "fetched": true,
+ "key_facts": [
+  "Chinese start-up Langdao Silex demonstrated a prototype EUV light source this week at the 26th China International Industry Fair in Shanghai, without lighting it.",
+  "Claims: over 15 W of EUV output, 90 percent domestic components, over 100 hours of continuous running; no way to verify them.",
+  "Langdao was set up in 2024 by alumni of Tsinghua University's Gas Discharge Plasma Laboratory.",
+  "TrendForce, citing various sources, says it needs three to five more years to commercialise.",
+  "Tom's Hardware notes the 15 W may be measured at the plasma, not at the intermediate focus used by ASML, so usable power would be lower.",
+  "A full EUV scanner also needs collection and illumination optics, multilayer mirrors, wafer and reticle stages and a supply chain that hardly exists in China today.",
+  "Tom's Hardware concludes China has not got significantly closer to its own EUV scanner."
+ ],
+ "quote_evidence": [
+  "This week, Chinese startup Langdao Silex demonstrated a prototype extreme ultraviolet (EUV) light source with over 15W of output power, 90% domestic components, and decent uptime.",
+  "The company will need another three to five years to commercialize its technology, reports TrendForce, citing various sources.",
+  "Langdao Silex has not demonstrated its EUV light source in action, so all we know about it comes from the company itself."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "China is trying to build the EUV technology it cannot buy from ASML, but this is an unverified prototype light source only.",
+ "event_date": "this week (fair in Shanghai); exact day not stated",
+ "notes": "Tom's Hardware's own analysis built on a TrendForce report; TrendForce original not read."
+}

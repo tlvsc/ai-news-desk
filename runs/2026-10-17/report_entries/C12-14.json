@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-14",
+ "v1_category": "SEC",
+ "headline": "Researchers found that an official OpenAI skill, a set of instructions for AI coding agents, told apps to send secret tokens to a web address nobody had registered, which an attacker could have claimed.",
+ "score": 5,
+ "score_reason": "Pool score kept: a real flaw in an official AI component, but fixed in August and CSO reports no misuse by attackers.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers who let AI agents deploy their apps are affected first, since their apps' secret tokens could have been captured, then platform firms such as Render and OpenAI, though CSO reports no attacker misuse and the flaw was fixed in August.",
+ "source": "CSO Online",
+ "status": "REPORTED",
+ "summary": "CSO Online reports that AIR Security's research lab found that an official OpenAI skill (a set of instructions that teaches AI agents how to use a service) for deploying apps on Render told production apps to send their tokens to an unregistered domain, render-internal.com, which AIR registered as a listening-only trap that then received tokens and API calls from real apps. The flaw was added in a January commit and fixed in mid-August after AIR told OpenAI and Render, and Niv Hoffman, AIR Security's co-founder and chief technology officer, says skills \"should be vetted and monitored like any other part of the software supply chain\".",
+ "url": "https://www.csoonline.com/article/4236659/hallucinated-domain-in-official-openai-skill-underscores-ai-supply-chain-risks.html",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "The flaw and fix date from January and August; the public write-up and CSO's report are from mid-October, so treated as new. No attacker misuse reported."
+}

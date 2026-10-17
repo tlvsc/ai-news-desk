@@ -1,0 +1,24 @@
+{
+ "item_id": "C07-06",
+ "title": "Morgan Stanley: AI Investment's True Scale Underestimated—2027 Capex Could Reach $1.58 Trillion When Leases Are Included",
+ "source_used": "BigGo Finance (reporting Morgan Stanley research)",
+ "article_url": "https://finance.biggo.com/news/a6176bcd-0994-4d90-8b25-761b4bab3eb7",
+ "fetched": true,
+ "key_facts": [
+  "Morgan Stanley (Nicholas Lentini's team) estimates total AI compute investment including leases at about $980 billion in 2026, $1.58 trillion in 2027 and $1.81 trillion in 2028.",
+  "The 2027 figure is about 14% above the traditional cash capital-spending measure, because data-centre leases do not appear in capex or in management guidance.",
+  "Hyperscalers have disclosed more than $1.1 trillion of lease commitments that have not yet started.",
+  "Morgan Stanley expects 2027 to be the year with the largest cash flow deficit in its forecast period; hyperscalers have issued about $255 billion of unsecured bonds this year, and 10-year all-in yields are up about 100 to 180 basis points since the end of 2025.",
+  "Highly rated borrowers (Amazon, Meta, Google, Microsoft) have interest cover of about 30.7 times; lower-rated ones such as Oracle about 4 times, falling to about 1.8 times if they borrow another $120 billion in 2027.",
+  "The bank estimates returns on new compute capacity at 25% to 50%, and says about 65% of AI capex ends up in S&P 500 companies' revenue, with Nvidia taking about two-thirds of that."
+ ],
+ "quote_evidence": [
+  "Morgan Stanley's latest research shows that when lease financing is included, total AI compute investment by hyperscalers and emerging cloud providers will reach approximately $1.58 trillion in 2027—about 14% larger than the traditional cash capex measure.",
+  "Data center leases are economically equivalent to debt-financed asset purchases, but they do not appear as capital expenditures on cash flow statements, nor do they enter management's capex guidance.",
+  "Morgan Stanley estimates that 2027 will be the largest cash flow deficit year in its forecast period."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "The real size of AI spending, and of the debt behind it, is larger than company capex figures show.",
+ "event_date": "Research note reported 16 Oct 2026; note date not stated",
+ "notes": "BigGo Finance is an aggregator; the Morgan Stanley note itself was not seen. The article says the increase from 2026 to 2027 is about $700 billion, but its own figures ($980 billion to $1.58 trillion) imply about $600 billion, so that figure is not used. The same article also covers a separate JPMorgan note (Google Cloud, AWS, Meta, Fiverr), not used here."
+}

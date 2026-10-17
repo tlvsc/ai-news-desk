@@ -1,0 +1,25 @@
+{
+ "item_id": "C09-01",
+ "title": "Anthropic signs lease for first Canadian data center",
+ "source_used": "CBC News (full text); Reuters and Bloomberg headlines only",
+ "article_url": "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-anthropic-s-ai-assistant-claude-9.7383129",
+ "fetched": true,
+ "key_facts": [
+  "EverWind Fuels will build and own a data centre at Point Tupper, an industrial park just outside Port Hawkesbury on Cape Breton Island, Nova Scotia; Anthropic will lease the first phase for a term of at least 20 years (CBC).",
+  "Phase 1 has a capacity of 95 megawatts and is due online by the end of 2027; phase 2 adds 325 megawatts in 2028, for 420 megawatts in total, against Nova Scotia's current generating capacity of close to 3,000 megawatts (CBC).",
+  "EverWind says it is raising $8 billion in private capital for the project and $2 billion more for four onshore wind farms; EverWind and Anthropic say they will pay for any required upgrades to the electricity system (CBC).",
+  "Existing generation on the provincial grid would be the main supply at first; the Independent Energy System Operator did not say specifically whether there is capacity, though EverWind officials say they were assured there is capacity at least for phase 1 (CBC).",
+  "Cooling is a closed-loop water-glycol system; the preliminary water estimate is an average of 100,000 litres a day for phase 1 and 500,000 litres a day for both phases, drawn from Landrie Lake (CBC).",
+  "A consortium of Mi'kmaw communities fronted by Membertou First Nation is negotiating a nine per cent equity stake; the Ecology Action Centre says the project poses more questions than it answers and wants impact assessments (CBC).",
+  "Anthropic said in a news release the data centre 'will power Claude models and serve growing demand from Canadian and global customers'; Reuters' headline calls it Anthropic's first Canadian data center."
+ ],
+ "quote_evidence": [
+  "EverWind Fuels will build and own the facility, while Anthropic will lease the first phase for a term of at least 20 years.",
+  "The first phase will have a capacity of 95 megawatts and the second, 325 megawatts, for a total of 420 megawatts.",
+  "EverWind said it is raising $8 billion in private capital to fund the project and an additional $2 billion for four of the onshore wind farms it is planning to build."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A 420-megawatt AI data centre in a province with about 3,000 megawatts of generating capacity is a large new demand on the Nova Scotia grid, and the grid operator has not said it can connect it.",
+ "event_date": "16 Oct 2026 (announcement at Point Tupper)",
+ "notes": "Reuters (publisher link in the chunk) was behind a 401; CBC News reported the same announcement from Point Tupper and is used as the source. 'First Canadian data center' comes from the Reuters headline; the CBC text does not use the word first. The CBC article does not say which dollars ($8 billion and $2 billion); it is a Canadian outlet but the currency is not stated."
+}

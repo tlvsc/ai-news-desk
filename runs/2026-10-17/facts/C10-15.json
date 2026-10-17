@@ -1,0 +1,25 @@
+{
+ "item_id": "C10-15",
+ "title": "AI Chatbots Flunk the Heart Failure Test: Even the Best Hallucinated in Landmark Patient Education Study",
+ "source_used": "Scienmag (original of the Bioengineer.org copy); abstract checked at Frontiers",
+ "article_url": "https://scienmag.com/ai-chatbots-flunk-the-heart-failure-test-even-the-best-hallucinated-in-landmark-patient-education-study/",
+ "fetched": true,
+ "key_facts": [
+  "A study in Frontiers in Public Health, led by investigators from the General Hospital of Northern Theater Command in Shenyang, China, tested ChatGPT, DeepSeek, Perplexity and Microsoft Copilot on 108 standardised heart failure questions (432 responses).",
+  "Queries were run between 1 and 5 Aug 2025; ChatGPT and DeepSeek had web browsing disabled, Perplexity and Copilot used default online retrieval.",
+  "Responses were checked against the 2022 AHA/ACC/HFSA guideline by two reviewers with cardiovascular surgical training.",
+  "Hallucination rates: DeepSeek 5.56%, ChatGPT 7.41%, Copilot 9.26%, Perplexity 14.81%.",
+  "No high-severity hallucinations; all were low or moderate severity.",
+  "DeepSeek had the highest content quality; Perplexity the lowest and the most complex text in the primary readability analysis, though a second calculator ranked Copilot most complex.",
+  "Limits: single-turn questions, different retrieval abilities, no measure of patient comprehension or outcomes; a time-specific evaluation, not a permanent ranking.",
+  "The Frontiers record gives the publication date as 15 Oct 2026."
+ ],
+ "quote_evidence": [
+  "The results were sobering: DeepSeek produced hallucinations in 5.56 percent of responses, ChatGPT in 7.41 percent, Copilot in 9.26 percent, and Perplexity in 14.81 percent.",
+  "The researchers emphasize that their findings should be interpreted as a time-specific evaluation rather than a permanent ranking, given how rapidly these systems evolve."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Every chatbot gave some misleading heart failure advice, so patients should not treat them as trusted sources.",
+ "event_date": "Study published 15 Oct 2026 (Frontiers record); tests run 1 to 5 Aug 2025; Scienmag report 16 Oct 2026.",
+ "notes": "Pool link was Bioengineer.org, which carries Scienmag's article; the Scienmag original was read. Journal abstract at doi.org confirms the percentages."
+}

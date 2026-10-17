@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-15",
+ "title": "Nvidia's open-source ASPIRE system taught a robot to solve a Rubik's Cube",
+ "source_used": "Startup Fortune (full text)",
+ "article_url": "https://startupfortune.com/nvidias-open-source-aspire-system-taught-a-robot-to-solve-a-rubiks-cube/",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia's GEAR lab, co-founded by Jim Fan and Yuke Zhu, released version 1.0 of ASPIRE on GitHub \"this month\" (October 2026) under an Apache 2.0 license, so anyone can download, modify and run it.",
+  "ASPIRE is a code-as-policy system: a large language model writes Python control code for a robot, watches what happens when it runs, rewrites it when it fails, and stores validated fixes in a skill library.",
+  "This differs from reinforcement learning, which trains a policy over millions of trial-and-error attempts in simulation.",
+  "The project reports 99% success across 80 LIBERO-Pro tasks plus selected Robosuite and BEHAVIOR-1K tasks; the headline demo is a robot arm solving a Rubik's Cube it was not trained for.",
+  "On ten LIBERO-Pro tasks, swapping only the underlying language model took success from 15% to 99% with the same robot and code engine.",
+  "ASPIRE first appeared as a research paper on arXiv on 30 June 2026; the Rubik's Cube and the version 1.0 label came with the October release.",
+  "Nvidia's own documentation warns that ASPIRE runs model-written Python with full import access and is not a security sandbox."
+ ],
+ "quote_evidence": [
+  "Nvidia's GEAR lab released version 1.0 of ASPIRE on GitHub this month, and the headline demo is a robot arm solving a Rubik's Cube without ever being trained specifically to do it.",
+  "A large language model writes actual Python control code for the robot, watches what happens when that code runs, and rewrites it when it fails.",
+  "ASPIRE executes language-model-generated Python with full import access."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Open code shows an AI language model can debug a robot's control loop, shifting attention from hardware to the model, but the scores are the project's own and the code is unsafe outside a lab.",
+ "event_date": "October 2026 release (exact day not stated); paper 30 June 2026",
+ "notes": "Benchmark results are the project's own, not independently verified. The article gives the release date only as \"this month\". It names specific language models in its benchmark; the entry does not, to avoid repeating unverified model names."
+}

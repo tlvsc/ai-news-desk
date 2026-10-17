@@ -1,0 +1,25 @@
+{
+ "item_id": "C06-06",
+ "title": "Nebius acquires inference optimization startup Inferize to accelerate AI deployments",
+ "source_used": "SDxCentral (fulltext/C06-06.txt)",
+ "article_url": "https://www.sdxcentral.com/news/nebius-acquires-inference-optimization-startup-inferize-to-accelerate-ai-deployments/",
+ "fetched": true,
+ "key_facts": [
+  "Nebius, described as a 'neocloud', acquired Inferize, an inference optimization company.",
+  "Nebius claims the technology can shorten the time to launch large-scale AI models.",
+  "Inferize was founded earlier this year by alumni of Granulate and will join Nebius' Token Factory managed inference platform.",
+  "Financial terms were not disclosed.",
+  "Inferize co-founders Lior Gorbonos and Guy Bortnikov previously founded Granulate, an Israel-based software optimization firm sold to Intel in 2022.",
+  "Inferize's technology cuts 'cold starts', the time models need to load before serving a request, which improves use of capacity.",
+  "Earlier this year Nebius bought Eigen AI, another optimization firm, which added autoscaling endpoints and fine-tuning pipelines."
+ ],
+ "quote_evidence": [
+  "Neocloud darling Nebius acquired an inference optimization company whose technology it claims can shorten the time to launch large-scale AI models.",
+  "Financial terms of the deal were not disclosed.",
+  "Among Inferize's innovations are means to cut cold starts – the time models need to load before serving a single request, thereby improving capacity utilization."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Nebius adds technology meant to get extra AI computing capacity ready faster when customer demand changes.",
+ "event_date": "16 Oct 2026",
+ "notes": "Read in full. Statements come from Nebius' chief technology officer Danila Shtan and Inferize co-founder Guy Bortnikov in the company's statement; speed gains are the companies' own claims."
+}

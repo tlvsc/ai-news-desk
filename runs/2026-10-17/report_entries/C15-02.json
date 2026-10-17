@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-02",
+ "v1_category": "RES",
+ "headline": "A Gartner analyst argues that companies are already late in preparing for quantum computers that could break today's encryption, because most cannot see where they use it.",
+ "score": 5,
+ "score_reason": "Pool score kept: useful warning with two Gartner figures, but a contributed opinion column, not a new finding.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "People whose medical, identity and legal records must stay secret for years, and the government and company IT teams that hold those records, face the most pressure to start replacing their encryption, but the 2030 date is Gartner's prediction and the piece is one analyst's opinion, not a new finding.",
+ "source": "TechRadar",
+ "status": "REPORTED",
+ "summary": "A director analyst at Gartner, the research and advisory firm, writes in TechRadar Pro's contributed Perspectives column that organisations are behind on preparing for quantum computers that could break today's public-key (asymmetric) encryption, citing Gartner's prediction that by 2030 such cryptography will be unsafe to use and its finding that 61% of organisations lack full visibility into the cryptography they use. The author says well-resourced state actors are already collecting encrypted data to decrypt later, and urges firms to take an inventory of their encryption and build \"crypto-agility\", the ability to swap encryption methods quickly, adding that the views are the author's and not necessarily TechRadar's.",
+ "url": "https://www.techradar.com/pro/gartner-the-quantum-threat-is-already-behind-schedule",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Contributed opinion column; the author's name is not in the fetched text, so the entry names the role only. Quantum-security default category RES kept (SEC would also fit). Headline on TechRadar attributes the view to Gartner as a whole, which overstates a single analyst's column."
+}

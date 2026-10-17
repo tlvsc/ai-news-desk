@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-15",
+ "title": "Want your AI chats to stay private? Brave TEEs up end-to-end encryption",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+ "fetched": true,
+ "key_facts": [
+  "Brave Software has connected its Leo AI assistant to Z.ai's GLM 5.3 Flash under end-to-end encryption, using NEAR AI's trusted execution environment (TEE).",
+  "A prompt is encrypted on the device, sent using Oblivious HTTP, and forwarded by Brave's AI Gateway to the TEE without the user's IP address.",
+  "After Brave verifies the enclave's attestation, the browser encrypts the query with a key bound to the TEE; the TEE decrypts it, runs the model and returns an encrypted response.",
+  "NEAR AI's pipeline uses Intel TDX and Nvidia Confidential Compute; it keeps Brave from knowing what was asked and NEAR AI from knowing who asked during the network hop.",
+  "Leo can still search through the Brave Search API from inside the TEE, which keeps the user's IP address out of the picture.",
+  "Brendan Eich, Brave's co-founder and chief executive, said too much AI 'still runs on trust me bro promises'.",
+  "The implementation is incomplete: Brave intends to move verification into the browser, publish a log of TEE keys and provide enclave attestation for the exact model weights.",
+  "Apple, AWS, Google, Nvidia and Microsoft have some form of private cloud compute for AI; running an open weight model on local hardware is another route to privacy."
+ ],
+ "quote_evidence": [
+  "Brave Software has set up a secure space so those using its browser can converse with the company's AI assistant in private.",
+  "The implementation isn't quite complete: Brave intends to work on moving the verification step into the browser and to publish a log of TEE keys, and to provide enclave attestation for exact model weights loaded into memory, among other things.",
+  "AI has raised the stakes, yet too much of it still runs on 'trust me bro' promises, often at the user's expense."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A mainstream browser offers a verifiable private channel to an AI assistant at a time when agents ask for broad access to personal data.",
+ "event_date": "article 16 Oct 2026; launch date not stated",
+ "notes": "Design claims are Brave's and NEAR AI's; The Register notes it is unfinished."
+}

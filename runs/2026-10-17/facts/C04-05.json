@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-05",
+ "title": "ECMWF introduces AIFS-COMPO, a new AI system for atmospheric composition forecasting",
+ "source_used": "ECMWF (official announcement)",
+ "article_url": "https://www.ecmwf.int/en/about/media-centre/news/2026/aifs-compo-ai-atmospheric-composition-forecasting",
+ "fetched": true,
+ "key_facts": [
+  "ECMWF introduced AIFS-COMPO, a data-driven AI system forecasting global atmospheric composition (aerosols and reactive gases) up to 10 days ahead.",
+  "The operational CAMS global forecast, run by ECMWF for the European Commission, covers five days, updated twice a day.",
+  "Initial evaluation shows competitive forecasts at substantially lower computational cost, with comparable or improved skill for several key species.",
+  "AIFS-COMPO is a forecasting model only: it starts from the operational CAMS analyses and relies on their satellite data assimilation.",
+  "It is experimental: it lacks time-varying emissions as inputs and forecasts fewer variables and chemical species, at lower resolution.",
+  "Laurence Rouil, Director of CAMS at ECMWF, says the operational CAMS system remains the benchmark for accuracy and reliability.",
+  "First charts are on the ECMWF website; the underlying data will be released later; a preprint is on arXiv."
+ ],
+ "quote_evidence": [
+  "AIFS-COMPO currently produces forecasts out to 10 days, extending beyond the five-day horizon of the operational CAMS global atmospheric composition forecasts.",
+  "Initial evaluation of AIFS-COMPO shows that the data-driven approach can provide competitive forecasts at substantially lower computational cost.",
+  "AIFS-COMPO is currently an experimental system, with several areas of development under way."
+ ],
+ "status": "PRELIMINARY",
+ "why_it_matters_hint": "Faster, cheaper air-quality forecasts that reach further ahead could support public health warnings.",
+ "event_date": "16 Oct 2026",
+ "notes": "Performance claims are ECMWF's own initial evaluation; no outside review reported."
+}

@@ -1,0 +1,147 @@
+{
+  "changes": [
+    {
+      "item_id": "C11-04",
+      "field": "headline",
+      "before": "SoftBank is reportedly weighing a purchase of Allied Universal, the largest US security services firm, in a deal worth up to about 30 billion dollars including debt, because founder Masayoshi Son sees security work as a place to use robots.",
+      "after": "SoftBank is reportedly weighing a purchase of Allied Universal, the largest US security services firm, in a deal worth up to about 30 billion dollars including debt, as founder Masayoshi Son eyes security work as a place to use robots.",
+      "reason": "Meaning: 'because' stated Son's view as the proven motive; Bloomberg only says he has identified security as a promising area for robots."
+    },
+    {
+      "item_id": "C11-04",
+      "field": "summary",
+      "before": "Bloomberg reports, as relayed by Investing.com, that SoftBank Group is considering buying Allied Universal, which could be valued at up to 18 billion dollars in equity, or close to 30 billion dollars with about 12 billion dollars of publicly traded debt. Founder Masayoshi Son sees its large guard workforce and customer base as a place to put AI-powered robots to work, though talks are preliminary and no decision has been made.",
+      "after": "Bloomberg reports, as relayed by Investing.com, that SoftBank Group is considering buying Allied Universal, which could be valued at up to 18 billion dollars in equity, or close to 30 billion dollars with about 12 billion dollars of publicly traded debt. Bloomberg says founder Masayoshi Son sees security as a promising field for robots, though talks are preliminary and no decision has been made.",
+      "reason": "Meaning: the 'workforce and customer base' line is Investing.com's own comment ('could give'), not Son's stated view; replaced with what Bloomberg reports Son said, with attribution."
+    },
+    {
+      "item_id": "C02-01",
+      "field": "source",
+      "before": "Bloomberg, as relayed by The Next Web and Gizmodo",
+      "after": "Bloomberg",
+      "reason": "Credit and FR rules 6.2: the source is the publisher only (Bloomberg, first reporter); the relay outlets stay named in the summary."
+    },
+    {
+      "item_id": "C03-03",
+      "field": "headline",
+      "before": "The PostgreSQL project has delayed version 19 of its open-source database to about 19 November and pulled eight to ten features, partly because AI-assisted code reviews found more flaws than developers could fix in time.",
+      "after": "The PostgreSQL project has delayed version 19 of its open-source database to about 19 November and pulled eight to ten features, partly because AI-assisted code reviews found more flaws, a leading developer says.",
+      "reason": "Meaning: the cause is Peter Eisentraut's own account (FR rule 5.2, a claim is not a finding); attribution added and the publisher's 'more than could be fixed' phrasing dropped."
+    },
+    {
+      "item_id": "C01-03",
+      "field": "headline",
+      "before": "The Shanghai Artificial Intelligence Laboratory has released the full version of Atria Dawn, its AI agent model, with the amount of text it can handle at once doubled to 512,000 tokens.",
+      "after": "The Shanghai Artificial Intelligence Laboratory has released the full version of Atria Dawn, its AI agent model, and says the amount of text it can handle at once has doubled to 512,000 tokens.",
+      "reason": "Meaning: the 512K figure is the lab's claim and conflicts with its own download table; hedge added to the headline."
+    },
+    {
+      "item_id": "C01-06",
+      "field": "headline",
+      "before": "Vercel's data shows that TypeSafe AI's Jev, a model that picks between a few fixed answers, was adopted faster than any model before it, reaching 35% of paid teams in two weeks.",
+      "after": "TypeSafe AI's Jev, a model that picks between a few fixed answers, reached 35% of paid teams on Vercel's platform in its first two weeks, the fastest start of any model in Vercel's data.",
+      "reason": "Meaning: 'faster than any model before it' was stronger than the source, which limits the record to Vercel's data and the first two weeks ('at least by some measures')."
+    },
+    {
+      "item_id": "C04-06",
+      "field": "source",
+      "before": "Interesting Engineering, citing Google Research",
+      "after": "Interesting Engineering",
+      "reason": "FR rules 6.2: source is the publisher only, cut at the first comma; Google Research stays named in the summary."
+    },
+    {
+      "item_id": "C04-09",
+      "field": "source",
+      "before": "ExecutiveGov, citing the Department of Energy",
+      "after": "ExecutiveGov",
+      "reason": "FR rules 6.2: source is the publisher only, cut at the first comma; the DOE stays named in the summary."
+    },
+    {
+      "item_id": "C15-01",
+      "field": "summary",
+      "before": "Anthropic, the company that makes Claude, reports that its Claude Mythos 5 model, given plain-language descriptions of eight quantum circuits (the sequences of operations, called gates, that a quantum computer runs) and a program that checks and scores each design, produced versions that improve on the best published ones, in some cases by ten times or more. Among the results, Anthropic says a new way to do the arithmetic behind elliptic-curve calculations came from one 53-hour run, and another design cut the gates in a key step of a quantum optimisation method about 12 times compared with Google's earlier circuit, which it says could bring useful quantum computers sooner.",
+      "after": "Anthropic, the company that makes Claude, reports that its Claude Mythos 5 model, given plain-language descriptions of eight quantum circuits (the sequences of operations, called gates, that a quantum computer runs) and a program that checks and scores each design, produced versions that improve on the best published ones, in some cases by ten times or more, in work led by Andi Gu in Anthropic's STEM Fellows Program, mentored by Alek Kemeny, a quantum physicist at Anthropic, with Susanne Yelin and Mikhail Lukin of Harvard University. Anthropic says one 53-hour run found a new way to do the arithmetic behind elliptic-curve calculations and another design cut the gates in a key step of a quantum optimisation method about 12 times compared with Google's earlier circuit, which it says could bring useful quantum computers sooner.",
+      "reason": "Main session note and CLAUDE.md (names introduced, never avoided): the post names the people who did the work; added Andi Gu (Anthropic STEM Fellows Program), Alek Kemeny (quantum physicist at Anthropic, title from the post) and the Harvard collaborators Susanne Yelin and Mikhail Lukin (organisation only; the post gives no titles). Second sentence tightened to keep two sentences."
+    },
+    {
+      "item_id": "C15-01",
+      "field": "notes",
+      "before": "Read in full on anthropic.com. Company's own research post with a paper on arXiv (preprint, no outside review reported). Harvard University collaborators and the Anthropic fellows programme are named in the post but left out of the entry to avoid people without positions. The default category RES is kept.",
+      "after": "Read in full on anthropic.com. Company's own research post with a paper on arXiv (preprint, no outside review reported). Editor B (17 Oct 2026): names added from the post: Andi Gu led the work in Anthropic's STEM Fellows Program; Alek Kemeny is described in the post as a quantum physicist at Anthropic; Susanne Yelin (Harvard University) and Mikhail Lukin (Harvard University and QuEra Computing) are given with their organisations only, because the post gives no titles and none could be confirmed without browsing. The default category RES is kept.",
+      "reason": "Notes updated to match the names now in the summary and to record that the Harvard titles are unconfirmed."
+    },
+    {
+      "item_id": "C12-06",
+      "field": "summary",
+      "before": "Nieman Lab reported on 15 Oct 2026, as relayed by The Verge, that new commercial terms taking effect on 30 Oct for businesses on Facebook, Instagram, WhatsApp and Messenger let Meta crawl websites linked to those accounts and use the content to \"train\" its AI, which legal experts told Nieman Lab could let Meta override a site's robots.txt blocking file or a licensing deal. In reply, Meta spokesperson Daniel Roberts says there is no change to how it uses web crawlers, and Andy Stone, Meta's vice president of communications, says the aim is to read product details on third-party shop sites, not to scrape news sites.",
+      "after": "Nieman Lab reported on 15 Oct 2026, as relayed by The Verge, that new commercial terms taking effect on 30 Oct for businesses on Facebook, Instagram, WhatsApp and Messenger let Meta crawl websites linked to those accounts and use the content to \"train\" its AI, which legal experts told Nieman Lab Meta could use to argue that its terms override a site's robots.txt blocking file or a licensing deal. In reply, Meta spokesperson Daniel Roberts says there is no change to how it uses web crawlers, and Andy Stone, Meta's vice president of communications, says the aim is to read product details on third-party shop sites, not to scrape news sites.",
+      "reason": "Meaning: the experts said Meta could argue its terms override robots.txt, not that the terms let it do so; wording otherwise kept."
+    },
+    {
+      "item_id": "C13-16",
+      "field": "headline",
+      "before": "Apple has updated its App Store rules to ban apps that use AI to make nonconsensual intimate images and to remove developers who do not prevent them.",
+      "after": "Apple's updated App Store rules more explicitly ban apps that use AI to make nonconsensual intimate images and say developers who do not prevent them may be removed.",
+      "reason": "Meaning: The Verge says the rules ban such apps 'more explicitly' and that developers 'may be removed'; the headline stated removal as certain."
+    },
+    {
+      "item_id": "C13-02",
+      "field": "headline",
+      "before": "Anthropic has quietly pitched US lawmakers a draft federal AI safety bill that would let the government block an AI model only when it poses an imminent, extreme danger.",
+      "after": "Anthropic has shown US lawmakers a draft federal AI safety bill that would let the government block an AI model only when it poses an imminent, extreme danger, Politico reports.",
+      "reason": "Meaning and own words: the bill details rest on Politico's report of a confidential draft, so attribution added; dropped the publisher's 'quietly pitches' headline wording."
+    },
+    {
+      "item_id": "C10-03",
+      "field": "importance_line",
+      "before": "Providers who could be barred from federal programmes and taxpayers whose money is at stake are affected first, then states and the agency itself, but the pilot's results are not yet public, the savings figures are CMS's own, and Brandt admitted “there are a lot of things about WISeR that are not working”, an AI-assisted pre-approval pilot for Medicare services.",
+      "after": "Providers who could be barred from federal programmes and taxpayers whose money is at stake are affected first, then states and the agency itself, but the pilot's results are not yet public, the savings figures are CMS's own, and Brandt admitted that “a lot of things” about WISeR, an AI-assisted pre-approval pilot for Medicare services, are not working.",
+      "reason": "Clarity: the explanation of WISeR came after the quote and read as if it described the quote; moved before it."
+    },
+    {
+      "item_id": "C11-15",
+      "field": "importance_line",
+      "before": "Robot researchers and start-ups get free code showing that a language model can debug a robot's control loop, but the results are Nvidia's own and the code is not safe to run outside a lab.",
+      "after": "Robot researchers and start-ups get free code showing that a language model can debug a robot's control loop, but the results are Nvidia's own and the code runs without a security sandbox.",
+      "reason": "Meaning: the source says only that the code is not a security sandbox; 'not safe to run outside a lab' was a stronger claim."
+    },
+    {
+      "item_id": "C16-05",
+      "field": "summary",
+      "before": "CNET reports that a reviewer asked Meta's Muse, a personal AI agent app, to talk to the chatbot of Visible, Verizon's cheap all-digital phone brand, to check who owns a recycled number that keeps getting calls for a man named Andrew, but Visible's sites blocked the agent. Muse did find data-broker pages linking the number to Andrew and advised how to ask for their removal, yet the reviewer had to take over and use Visible's live support, and the problem was not solved.",
+      "after": "CNET reports that a reviewer asked Meta's Muse, a personal AI agent app, to talk to the chatbot of Visible, Verizon's cheap all-digital phone brand, to check who owns a recycled number that keeps getting calls for a man named Andrew, but Visible's website shut the agent out. Muse did find data-broker pages linking the number to Andrew and advised how to ask for their removal, yet the reviewer had to take over and use Visible's live support, and the problem was not solved.",
+      "reason": "Main session note: the summary carried the flagged word 'blocked'; reworded as plain customer text, same meaning."
+    },
+    {
+      "item_id": "C16-05",
+      "field": "importance_line",
+      "before": "It shows that sites blocking bots limit what AI agents can do for ordinary customers, but it rests on one reviewer's single test and Visible has not commented.",
+      "after": "It shows that sites that shut out bots limit what AI agents can do for ordinary customers, but it rests on one reviewer's single test and Visible's view is not reported.",
+      "reason": "Plain customer text and meaning: removes the flagged word; 'Visible has not commented' implied Visible was asked, which the source does not say."
+    },
+    {
+      "item_id": "C16-06",
+      "field": "source",
+      "before": "OK! Magazine, as carried by AOL.com",
+      "after": "OK! Magazine",
+      "reason": "Credit and FR rules 6.2: the source is the original outlet only; AOL is the carrier and stays named in the summary."
+    }
+  ],
+  "unresolved": [
+    {
+      "item_id": "C02-05",
+      "type": "re-dated",
+      "detail": "Main event (Muse on iPad, with the new connectors) was announced on 7 Oct 2026, nine days before the window; Mashable's 16 Oct piece adds only an install estimate and a recap of known complaints and of Amazon's block. Not edited."
+    },
+    {
+      "item_id": "C03-01",
+      "type": "re-dated",
+      "detail": "The Maintainers Summit decision came the week before, Pinchart's post on 13 Oct and Torvalds's reply was reported by The Register on 14 Oct 2026 (our 14 Oct edition already carried the plan); the only in-window item is PC Gamer's 16 Oct relay. Not edited."
+    },
+    {
+      "item_id": "C03-02",
+      "type": "re-dated",
+      "detail": "Torvalds's AI-assisted patch dates from about 10 Oct 2026 and was widely reported on 12 to 13 Oct (our 12 Oct edition carried Phoronix's report); Tom's Hardware's 16 Oct piece adds nothing new besides its 23x framing. Not edited."
+    }
+  ]
+}

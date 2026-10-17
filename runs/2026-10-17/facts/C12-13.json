@@ -1,0 +1,25 @@
+{
+ "item_id": "C12-13",
+ "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+ "source_used": "Ars Technica",
+ "article_url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+ "fetched": true,
+ "key_facts": [
+  "Some Ray-Ban Meta smart glasses recorded people's conversations without the wearer saying the 'Hey, Meta' prompt, in a bug Meta says is fixed.",
+  "A Reddit user said it happened across three pairs with the 'Respond without Hey Meta' setting off, and that the Meta AI app saved audio and transcripts of the conversations; they first noticed it after a recent firmware update.",
+  "Android Authority reported the discussions on Tuesday 13 Oct and published Meta's response that the issue 'has been resolved'.",
+  "Meta has not said what caused the bug, whether a firmware update was responsible or how many devices were affected; Android Authority could not replicate the problem.",
+  "Ars Technica argues the bug shows the glasses' recording light is not enough to prevent inadvertent recording, and that even a handful of affected devices is a concern.",
+  "Earlier this year Swedish journalists reported that contractors at Sama, a data-annotation firm in Kenya, had viewed private footage from the glasses; that led to a lawsuit seeking class-action status and an investigation by Texas Attorney General Ken Paxton.",
+  "In August Meta updated the glasses so they will not record if the indicator light is covered; Norway is considering a temporary ban on such glasses."
+ ],
+ "quote_evidence": [
+  "Some Ray-Ban Meta smart glasses were recording people’s conversations without the wearer knowing.",
+  "Meta hasn’t said what caused the Ray-Ban Metas to record people without user consent.",
+  "We also don’t know how many Meta smart glasses were affected."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Wearers and bystanders could be recorded without knowing, though the cause and scale are unknown and Meta says it is fixed.",
+ "event_date": "13 Oct 2026 (reports and Meta's fix)",
+ "notes": "Read in full at Ars Technica. First reports and Meta's response were on 13 Oct 2026, before the window; not carried in earlier editions."
+}

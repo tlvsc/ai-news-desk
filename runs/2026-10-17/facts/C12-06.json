@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-06",
+ "title": "Meta's new terms may allow it to train AI on news sites for free",
+ "source_used": "The Verge (relaying Nieman Lab)",
+ "article_url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+ "fetched": true,
+ "key_facts": [
+  "Nieman Lab reported that Meta's new commercial terms appear to let it crawl and scrape websites associated with businesses that use its platforms, including publishers.",
+  "The terms take effect on 30 Oct 2026 and apply to business accounts promoting content on Facebook, Instagram, WhatsApp and Messenger.",
+  "Meta may use the outside content to 'develop, improve, research' and 'train' its AI products.",
+  "Legal experts told Nieman Lab Meta could argue its commercial terms override blocking instructions such as a site's robots.txt file, and could bypass a licensing deal.",
+  "Meta spokesperson Daniel Roberts says Meta is only consolidating its commercial and self-serve ad terms and that there is no change to how it uses web crawlers; publishers can still use robots.txt flags.",
+  "Andy Stone, Meta's vice president of communications, says the change is meant to pull accurate product information from third-party shop sites, not to scrape news sites.",
+  "James Grimmelmann, professor of digital and information law at Cornell, told Nieman Lab it clearly gives Meta permission to train AI on any content from news publishers' sites.",
+  "Businesses that reject the terms 'may stop all access or use' of Meta's products for business purposes; Meta has also begun charging businesses to post links."
+ ],
+ "quote_evidence": [
+  "While Meta spokesperson Daniel Roberts says that the company is just “consolidating” its commercial and self-serve ad terms, legal experts tell Nieman Lab that this could allow Meta “to argue its commercial terms supersede other blocking instructions,” like a site’s robots.txt file.",
+  "The new terms, which go into effect on October 30th, say Meta can use this outside content to “develop, improve, research,” and “train” its AI products.",
+  "Update, October 16th: Added a statement from Meta and legal commentary."
+ ],
+ "status": "DISPUTED",
+ "why_it_matters_hint": "Publishers could lose control over whether Meta trains its AI on their sites, while Meta says nothing has changed.",
+ "event_date": "Nieman Lab report 15 Oct 2026; terms effective 30 Oct 2026",
+ "notes": "Read at The Verge (updated 16 Oct with Meta's statement). Nieman Lab (first reporter, 15 Oct) was blocked by Cloudflare; its link was decoded from Google News and not opened."
+}

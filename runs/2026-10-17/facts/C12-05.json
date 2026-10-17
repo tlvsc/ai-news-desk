@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-05",
+ "title": "OpenAI's Astra Becomes First Model to Hit Critical Cyber Threshold",
+ "source_used": "TechJuice (corroborated by Digit, Yellow.com and Stocktwits)",
+ "article_url": "https://www.techjuice.pk/openai-astra-critical-cyber-capability/",
+ "fetched": true,
+ "key_facts": [
+  "TechJuice reports that OpenAI now believes its Astra model meets the Critical cybersecurity capability level of its Preparedness Framework, the first OpenAI model rated at that level.",
+  "At Critical, a model can with the right tools and access find unknown security flaws and build exploits across well-protected systems without a person guiding each step.",
+  "OpenAI says Astra scored 100 percent on ExploitBench and found two previously unknown zero-day flaws, which OpenAI is disclosing to the maintainers.",
+  "In expert-led tests Astra built a browser-compromise chain that escaped the sandbox and chained flaws to gain root access.",
+  "OpenAI delayed parts of Astra's development, paused some large training runs for two weeks after a separate security incident, and says Astra refuses 91.5 percent of malicious cyber requests against 59 percent for GPT-5.6 Sol.",
+  "Access to Astra's strongest cyber abilities starts with a small group of alpha testers; broader defensive access follows through a programme called Daybreak Blue.",
+  "Digit, reading OpenAI's system card, also reports that Astra reaches the Critical cyber standard, the first OpenAI system to do so, with ExploitBench at 100 percent against 78.5 percent for Sol.",
+  "Earlier coverage (Stocktwits, 14 Oct; Yellow.com) said only that OpenAI could not rule out Critical capabilities and had paused internal Astra work."
+ ],
+ "quote_evidence": [
+  "The company now believes Astra meets the Critical cybersecurity capability level under its Preparedness Framework.",
+  "This makes Astra the first OpenAI model designated at this level.",
+  "Access to Astra’s most advanced cyber capabilities will remain limited initially."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "OpenAI's own rating says a new model can find and exploit unknown flaws on its own, which is why it is limiting access.",
+ "event_date": "OpenAI announcement reported 14-15 Oct 2026",
+ "notes": "TechJuice and Yellow.com alone were not enough, so Digit (15 Oct, reading OpenAI's system card) and Stocktwits (14 Oct) were also read. None of them is OpenAI's own page, which was not found: the Critical rating and all test scores are OpenAI's own claims. Coverage is inconsistent on whether Astra is released (TechJuice 'upcoming'; Digit 'releasing'; Yellow.com 'has not been released')."
+}

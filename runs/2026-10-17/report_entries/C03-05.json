@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-05",
+ "v1_category": "MOD",
+ "headline": "Cloudflare has released Void as open-source software, giving companies a way to host and control the apps their employees now build with AI.",
+ "score": 4,
+ "score_reason": "Lowered from 5 to 4: Cloudflare announced Void on Thursday 15 Oct, before this edition's window.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "IT teams and security staff at companies that let non-engineers build software with AI are affected first, but the platform leaves security review to each company and runs on Cloudflare's paid services.",
+ "source": "The New Stack",
+ "status": "CONFIRMED",
+ "summary": "The New Stack reports that Cloudflare, the web infrastructure company, announced on Thursday 15 Oct 2026 that Void, a set of three open-source tools, is now fully open source, including a self-hosted platform where companies can deploy employees' AI-built apps while administrators control who can deploy and use them. The report notes limits: administrators can set new apps to be public by default, Void has no mandatory security review before an app goes live, and companies that host the platform themselves need a paid Cloudflare plan, from $25 a month, plus a separately hosted database.",
+ "url": "https://thenewstack.io/cloudflare-voidzero-void-vibe-coding/",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The New Stack in full (16 Oct). 'Thursday' is 15 Oct 2026. Cloudflare executives (Michael Dong, strategy lead; Christoph Nakazawa, director of engineering) are quoted directly, hence CONFIRMED. VoidZero was acquired by Cloudflare in June, Deno last week, Astro in January per the article."
+}

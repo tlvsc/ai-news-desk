@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-15",
+ "v1_category": "SEC",
+ "headline": "A VentureBeat report says 17 of 40 teams that claim to control what their AI agents may do still share the login credentials those agents use.",
+ "score": 4,
+ "score_reason": "Pool score 5 lowered by 1: headline only, so the claim and its sample of 40 teams are unverified.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Companies running AI agents, and the customers whose data those agents can reach, are affected, but without the article we cannot say who the 40 teams are or how they were counted.",
+ "source": "VentureBeat",
+ "status": "REPORTED",
+ "summary": "VentureBeat reports that 17 of 40 teams that say they enforce permissions for their AI agents still share the credentials behind them.",
+ "url": "https://venturebeat.com/security/17-of-40-teams-that-say-they-enforce-ai-agent-permissions-still-share-the-credentials-behind-them",
+ "freshness": "NEW",
+ "verified_text": false,
+ "machine_action": false,
+ "notes": "VentureBeat blocked (HTTP 429 checkpoint); no other outlet found. Headline only."
+}

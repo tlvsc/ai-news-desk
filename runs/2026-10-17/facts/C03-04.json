@@ -1,0 +1,25 @@
+{
+ "item_id": "C03-04",
+ "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
+ "source_used": "TokenPost, BigGo Finance and Forkast News (MarkTechPost blocked)",
+ "article_url": "https://finance.biggo.com/news/71b26a93-47fd-49bb-9c17-b86fc8efcd9f",
+ "fetched": true,
+ "key_facts": [
+  "Perplexity open-sourced SPACE (Sandboxed Platform for Agentic Code Execution) on 15 Oct 2026 under the Apache 2.0 licence; it is written in Rust.",
+  "Each agent task runs in its own Firecracker microVM; API keys stay outside each VM and external traffic goes through a gateway.",
+  "SPACE can save a VM's memory, running state and files so tasks can pause, resume or branch from a saved point.",
+  "Perplexity replaced its previous commercial sandbox service with SPACE in July 2026; it creates millions of sandboxes a day and median creation time fell from 185 to 60 milliseconds.",
+  "In security tests nine frontier models tried to break out; BigGo reports zero VM-to-host escapes in 108 attempts, Forkast about 118; some network-restriction bypasses were found and the company says they are patched.",
+  "CoreWeave and Akamai are testing and running SPACE and Crusoe has a partnership to add it to its managed AI services.",
+  "Nvidia's OpenShell is another open-source agent sandbox."
+ ],
+ "quote_evidence": [
+  "SPACE powers Perplexity’s Computer product and uses Firecracker to create a separate microVM for every agent task.",
+  "The company says these have been patched, and the exploits no longer succeed in retesting.",
+  "In July 2026, Perplexity replaced its previous commercial sandbox service with SPACE."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A free, production-used way to contain AI agents, though the security results are the company's own.",
+ "event_date": "15 Oct 2026",
+ "notes": "Older news re-dated: released 15 Oct, already in the 16 Oct edition. Attempt count differs between outlets."
+}

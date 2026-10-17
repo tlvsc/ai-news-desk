@@ -1,0 +1,24 @@
+{
+ "item_id": "C01-05",
+ "title": "Western open-weight models still can’t beat China",
+ "source_used": "Rest of World (full text)",
+ "article_url": "https://restofworld.org/2026/china-open-weight-models/",
+ "fetched": true,
+ "key_facts": [
+  "Experts at a Rest of World event in San Francisco (described as last week in the 16 Oct 2026 article) said new open-weight models from US and European companies fall short of the dominant Chinese systems, despite greater resources.",
+  "Reflection launched its first open-weight model and European labs Aleph Alpha and Mistral also released new open-weight models.",
+  "Four Chinese models (DeepSeek, Z.ai, Xiaomi, Tencent) were among the top five on the OpenRouter leaderboard last week; on LiveBench the top Chinese models lag US rivals by just 3% on benchmark scores.",
+  "Graham Webster, research scholar and editor-in-chief of the DigiChina Project at Stanford University: 'If you need relatively frontier capability, right now that's Chinese open models only.'",
+  "Daniel Björkegren, assistant professor at Columbia University: cost is the main factor for lower-income countries, which also worry about depending on the US for frontier intelligence.",
+  "Chinese open models can do some tasks 50% to 90% cheaper than leading US frontier models; Moonshot AI is negotiating revenue-sharing deals with Microsoft, Amazon and Google to host its Kimi K3 model.",
+  "Kristy Loke, research fellow at the AI safety program MATS, said open models let China soften trust concerns because users can download and own them."
+ ],
+ "quote_evidence": [
+  "“If you need relatively frontier capability, right now that’s Chinese open models only,” he said.",
+  "A slew of new open-weight artificial intelligence models from American and European companies aim to convert users of Chinese open models who are concerned about security, but fall short of the dominant Chinese systems on performance despite having greater resources, experts said at a Rest of World event in San Francisco."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "If frontier-level open models are Chinese, governments and firms that want open systems, especially in poorer countries, may end up relying on China.",
+ "event_date": "Rest of World event 'last week' (exact date not stated); article 16 Oct 2026",
+ "notes": "Opinion and analysis piece built on a panel event held the week before publication; exact event date not stated. Score kept at 5 because the article is first coverage in the window and cites current rankings, but the main session may judge it partly stale. The article also mentions a US directive to Anthropic and Hugging Face using a Chinese model against OpenAI agents; those side claims are not repeated in the entry because they are not the story's subject and are not verified here."
+}

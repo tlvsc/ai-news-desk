@@ -1,0 +1,17 @@
+{
+ "item_id": "C11-14",
+ "v1_category": "ROB",
+ "headline": "RoboParty has launched RP1, an open-source humanoid research robot whose hardware designs and control software researchers can inspect and change.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a notable open humanoid platform, but all claims are the company's own and no price or outside test is given.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Robotics researchers and AI developers get a robot they can open up and modify, which could speed up academic work, but there is no price, availability or independent test yet.",
+ "source": "Engineering.com",
+ "status": "REPORTED",
+ "summary": "Engineering.com reports that RoboParty has launched RP1, a research humanoid about 1.3 meters tall, in a 24-joint standard version and a 30-joint Pro version with a neck and two arms, with its hardware designs, low-level control software and simulation tools opened to the public. RoboParty says opening the whole robot lets researchers trace faults across the AI model, controller, motors and body, and that RP1 already walks, recovers from pushes and gets up after a fall.",
+ "url": "https://www.engineering.com/roboparty-launches-open-source-rp1-humanoid-robot/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": true,
+ "notes": "Text reads like a RoboParty release, so abilities are attributed to the company; no demonstration is described. machine_action true because the article says the robot already walks and recovers from falls."
+}

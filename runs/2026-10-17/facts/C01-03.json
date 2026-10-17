@@ -1,0 +1,23 @@
+{
+ "item_id": "C01-03",
+ "title": "Shanghai AI Laboratory Releases Atria Dawn Full Version With a 512K Context Window",
+ "source_used": "Pandaily (article text read from the article data embedded in the page, which the page itself served; the plain HTML had no visible body)",
+ "article_url": "https://pandaily.com/shanghai-ai-lab-atria-dawn-full-release-512k-context-jobbench-weights-coming-soon",
+ "fetched": true,
+ "key_facts": [
+  "Shanghai Artificial Intelligence Laboratory released the full version of Atria Dawn, an agent-oriented large model, about a month after the preview of mid-September 2026.",
+  "The model is trained on the 744-billion-parameter mixture-of-experts GLM-5.2 base and targets research and engineering work needing tool calls and multi-step tasks.",
+  "The context window grows to 512K tokens from the preview's 256K, but the project's GitHub download table still lists 256K for the full and FP8 models.",
+  "Gains over the preview: JobBench 57.5 against 50.3 (+7.2), WideSearch 84.6 against 81.9, PaperBench 89.6 against 87.0; on BrowseComp the preview's 92.5 beats the full version's 91.3.",
+  "The model is available through hosted APIs with international and China endpoints and accepts text input only.",
+  "Code is under the MIT license; weights for the full release are still listed as 'Coming soon' on Hugging Face and ModelScope."
+ ],
+ "quote_evidence": [
+  "The headline change in the lab's announcement is the context window, which grows to 512K tokens from the 256K offered by the preview.",
+  "The code is released under the MIT license, but weights for the full release are still listed as 'Coming soon' on Hugging Face and ModelScope; only the preview weights can be downloaded today."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A Chinese AI lab's agent model gets a longer memory and modest benchmark gains, but outsiders cannot yet download or test the full version.",
+ "event_date": "Not stated; full version released about a month after the mid-September 2026 preview; Pandaily published 17 Oct 2026",
+ "notes": "Release date not given in the text. The 512K figure is the lab's announcement and conflicts with the lab's own GitHub table (256K); benchmark numbers are the lab's. The Pandaily page showed no body text in plain HTML (fetch status listed 0 characters); the article body was read from the data the page itself delivered, not from another site."
+}

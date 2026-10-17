@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-06",
+ "v1_category": "MOD",
+ "headline": "Amazon Web Services has released two open-source tools for building AI agents: a small model that makes decisions inside agent workflows and a sandbox that limits what an agent may do.",
+ "score": 5,
+ "score_reason": "Kept at 5: two concrete open-source releases from a major cloud firm, but the accuracy figures are AWS's own and the sandbox is a preview.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers building AI agents on AWS's Strands agent software are affected first, as the sandbox rules sit outside the language model rather than in its instructions, but the accuracy figures are AWS's own, the sandbox is a preview and early users report problems.",
+ "source": "InfoQ",
+ "status": "REPORTED",
+ "summary": "InfoQ reports that Amazon's cloud arm AWS has open-sourced Strands Decider 2B, a two-billion-parameter model that picks among preset options, such as which tool or model to use, instead of writing text, and Strands Box, a sandbox in developer preview that applies rules written in an open-source policy language called Dogwood to what an agent can do. AWS reports 72.3% accuracy for the model on a benchmark called JevBench, but InfoQ notes the published results do not show a clear advantage over the rival Jev model from TypeSafe AI, and early users have raised problems with simultaneous requests, Apple Silicon computers and start-up delay.",
+ "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read InfoQ in full (16 Oct). The release date is not stated (an embedded post says 'today'); no earlier coverage found, so kept NEW. AWS's benchmark claims are not independently verified."
+}

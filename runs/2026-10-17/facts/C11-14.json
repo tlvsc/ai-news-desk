@@ -1,0 +1,25 @@
+{
+ "item_id": "C11-14",
+ "title": "RoboParty launches open-source RP1 humanoid robot",
+ "source_used": "Engineering.com (full text)",
+ "article_url": "https://www.engineering.com/roboparty-launches-open-source-rp1-humanoid-robot/",
+ "fetched": true,
+ "key_facts": [
+  "RoboParty launched RP1 (ROBOTO 01), a full-stack open-source humanoid robot for robotics research and embodied AI (AI that controls a physical body).",
+  "Hardware designs, the RoboParty-made ROMOMO joint motors, low-level drivers, control code, simulation resources and software kits are opened to researchers.",
+  "The standard RP1 is about 1.3 meters tall with 24 actuated joints; the Pro version has 30, including a neck and two arms; the counts exclude the hands.",
+  "RP1 already supports walking, recovery from pushes, getting up after a fall and human motion tracking, according to the article.",
+  "Tools include virtual reality teleoperation, data collection and playback, motion retargeting and whole-body control.",
+  "RoboParty started the open-source RPO project in January 2026; it has more than 2,600 GitHub stars.",
+  "The text reads like a company release: no price, availability, customers or independent test is given."
+ ],
+ "quote_evidence": [
+  "RoboParty officially launches RP1 (ROBOTO 01), a high-performance, full-stack open-source humanoid robot designed for advanced robotics research and embodied AI development.",
+  "The standard RP1 stands approximately 1.3 meters tall and features 24 actuated degrees of freedom (DoF), supporting research into gait, balance control and sim-to-real transfer.",
+  "RP1 already supports foundational motor capabilities, including continuous walking, recovery from external disturbances, getting back up after a fall and human motion tracking."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An open humanoid platform lets researchers inspect and change the robot itself, not just its software, but no price or independent test is given.",
+ "event_date": "Reported Friday 16 Oct 2026",
+ "notes": "The article reads like RoboParty's own release; all capabilities are company statements. No price, availability or outside test is stated."
+}

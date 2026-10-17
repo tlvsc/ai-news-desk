@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-04",
+ "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials",
+ "source_used": "GBHackers News",
+ "article_url": "https://gbhackers.com/ai-agents-target-papercut/",
+ "fetched": true,
+ "key_facts": [
+  "A likely Russian-speaking threat actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and keep access to internal networks.",
+  "GreyNoise identified at least 440 compromised instances at 395 organisations in 48 countries, domain-administrator access at 12 organisations and credential harvesting from 280 instances.",
+  "The operator combined OpenAI's Codex harness with a DeepSeek model, not an OpenAI model, and publicly available offensive tools.",
+  "The main attack chained an authentication bypass (CVE-2026-81578, CVSS 8.8) with an unsafe class-loading flaw (CVE-2026-82078, CVSS 9.4), allowing arbitrary Java code to run in the PaperCut process.",
+  "Hunt.io saw the campaign go from an empty workspace to working remote code execution in under four hours; in a later wave the actor compromised 11 organisations in 26 seconds.",
+  "45 targets had working reverse SOCKS5 pivots at capture; Metasploit logs held 2,165 attempts and five confirmed interactive sessions, figures that describe that dataset only.",
+  "Conventional hardening still disrupted attacks; one web application firewall blocked an attempt.",
+  "PaperCut lists releases 26.0.5, 25.0.13 and 24.1.10 as replacing emergency patches; suspected compromise needs broader incident response and a clean rebuild, not only an update."
+ ],
+ "quote_evidence": [
+  "GreyNoise identified at least 440 compromised instances belonging to 395 organizations across 48 countries, demonstrating how agent-assisted workflows can accelerate exploitation of enterprise infrastructure.",
+  "The operator combined OpenAI’s Codex harness with a DeepSeek model, not an OpenAI model, and publicly available offensive tools.",
+  "Suspected compromise requires broader incident response, credential review and clean rebuilding not simply installing an update."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "AI agents let one actor hit hundreds of servers quickly, but fast patching and basic hardening still stopped attacks.",
+ "event_date": "Research reported 16 Oct 2026; attack dates not stated",
+ "notes": "Read in full at GBHackers News, which relays research by GreyNoise, Hunt.io and Blackpoint Cyber. The primary reports were not opened. Attribution to a Russian-speaking actor is described as likely."
+}

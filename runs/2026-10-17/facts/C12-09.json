@@ -1,0 +1,26 @@
+{
+ "item_id": "C12-09",
+ "title": "MITRE ATT&CK v20 Adds New AI Attack Techniques for Prompt Injection and Data Theft",
+ "source_used": "MITRE ATT&CK release page (primary), GBHackers News relay also read",
+ "article_url": "https://attack.mitre.org/resources/updates/updates-october-2026/",
+ "fetched": true,
+ "key_facts": [
+  "MITRE released ATT&CK v20 on 13 Oct 2026, updating Techniques, Groups, Campaigns and Software for Enterprise, Mobile and ICS.",
+  "Nine new Enterprise techniques arrive at v1.0; MITRE's list includes AI-Enabled Exfiltration, Direct Prompt Injection, Indirect Prompt Injection and AI Result Poisoning, plus Impair Autonomous Defenses (five AI-related, per GBHackers).",
+  "New Campaigns cover attacks on US water utilities and an AI-assisted breach of Mexican government infrastructure.",
+  "The matrix holds 971 Software entries, 182 Groups and 61 Campaigns; Enterprise has 227 Techniques and 479 Sub-Techniques (GBHackers).",
+  "New Enterprise Groups are NIMBUS MANTICORE and The Gentlemen; Salt Typhoon and APT38 got major updates (GBHackers).",
+  "New Detection Strategies cover AI-Enabled Exfiltration and AI Result Poisoning (GBHackers).",
+  "Security teams can map prompt-injection and AI-driven exfiltration incidents to standard ATT&CK IDs (GBHackers).",
+  "MITRE will discuss the release at ATT&CKcon 7.0 on 27-28 Oct 2026 in McLean, Virginia (GBHackers)."
+ ],
+ "quote_evidence": [
+  "The October 2026 (v20) ATT&CK release updates Techniques, Groups, Campaigns and Software for Enterprise, Mobile, and ICS.",
+  "This version of ATT&CK contains 971 Software, 182 Groups, and 61 Campaigns.",
+  "MITRE released ATT&CK v20 on October 13, 2026."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Defenders can now name and track prompt injection and AI-enabled data theft with standard ATT&CK IDs.",
+ "event_date": "13 Oct 2026",
+ "notes": "Pool item was GBHackers News (16 Oct); MITRE's own release page was opened and confirms the release, the date and the technique names, so MITRE is credited. Counts of techniques, group names and the conference date come from GBHackers only."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C03-03",
+ "v1_category": "MOD",
+ "headline": "The PostgreSQL project has delayed version 19 of its open-source database to about 19 November and pulled eight to ten features, partly because AI-assisted code reviews found more flaws, a leading developer says.",
+ "score": 6,
+ "score_reason": "Concrete, sourced change to a very widely used open-source database; the explanation is the maintainers' own account.",
+ "importance_label": "MEDIUM",
+ "importance_line": "Developers and companies that run PostgreSQL face a delay of several weeks and the loss of some new features until the next version, and the explanation that better AI review raised the quality bar is the maintainers' own account, not an independent finding.",
+ "source": "The Register",
+ "status": "REPORTED",
+ "summary": "The Register reports that the PostgreSQL Global Development Group has delayed PostgreSQL 19, the next version of the widely used open-source database, from late September or early October to around 19 Nov 2026, and pulled between eight and 10 major features, including support for SQL property graph queries, with the aim of shipping them in next year's version 20. Peter Eisentraut, a vice president at the support firm EDB and a leading PostgreSQL committer (a developer who can change the code), wrote that AI-assisted code review now finds many small bugs that once surfaced years later, and that some features also had deeper design flaws, but he stressed the cause is not vibe coding (AI-written code from loose instructions), which was not available when most features were written.",
+ "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Read The Register in full (16 Oct). Eisentraut's blog post is quoted by The Register; its date is not stated, so freshness is NEW from the 16 Oct report. 'Veep at EDB' in The Register is rendered as vice president."
+}

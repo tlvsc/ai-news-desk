@@ -1,0 +1,17 @@
+{
+ "item_id": "C15-05",
+ "v1_category": "RES",
+ "headline": "Nine crypto companies have formed a Quantum Alliance to set common security standards for blockchains, while experts disagree on when quantum computers could threaten bitcoin.",
+ "score": 5,
+ "score_reason": "Pool score kept: the launch happened on 15 Oct, a day before the window, but it is new to our editions and CoinDesk's 16 Oct reporting adds the expert disagreement; the alliance's figure is its own estimate.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Bitcoin and Ethereum holders, and the exchanges and wallet providers that guard their coins, could face a costly move to new signature methods if quantum computers arrive early, but no existing machine can break the cryptography today, the 30.2% figure is the alliance's own estimate and the experts quoted disagree on both the date and the fix.",
+ "source": "CoinDesk",
+ "status": "REPORTED",
+ "summary": "CoinDesk reports that nine crypto companies, including Hacken, Midnight Foundation, Quantus and Postquant Labs, launched the Quantum Alliance on Thursday 15 Oct 2026 to develop common security standards for bitcoin, Ethereum and other blockchains against future quantum computers, which could use a wallet's publicly visible key to work out its secret key and steal the funds. The alliance estimates that 6.4 million bitcoin, 30.2% of the supply, sit at addresses with already exposed public keys that no existing machine can attack, and the experts quoted disagree on timing, from Richard Carback, chief technology officer of Postquant Labs, who calls 2028 realistic, to Bryn Bennett, chief revenue officer at The Vault, who says nobody knows the date.",
+ "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Alliance launch was Thursday 15 Oct 2026, one day before the 16 Oct window start, so freshness is dated; kept at 5 because the story has not run in our editions and the CoinDesk report is from 16 Oct. Main session may lower it if one-day-old launches count as stale. Default category RES kept (SEC would also fit)."
+}

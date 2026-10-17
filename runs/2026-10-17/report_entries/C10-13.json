@@ -1,0 +1,17 @@
+{
+ "item_id": "C10-13",
+ "v1_category": "HEA",
+ "headline": "Penn Medicine researchers have built an AI model that reads CT scans for signs of disease and future health risks unrelated to why the scan was ordered.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: fresh, read in full; preclinical, the university's own results.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Patients who have routine scans could one day have hidden early disease flagged without extra tests, which interests radiologists and hospitals, but the model is still in preclinical testing, the results come from Penn's own researchers and no results in patients are reported yet.",
+ "source": "Penn Medicine",
+ "status": "PRELIMINARY",
+ "summary": "Penn Medicine, the University of Pennsylvania's health system, reports in a study in NPJ Digital Medicine that its AI model Percival, trained on about 400,000 CT scans from roughly 50,000 patients, can spot traces of conditions such as atrial fibrillation and chronic kidney disease, and flagged pancreatic cancer, cirrhosis and bacterial pneumonia more reliably than a comparable model called TotalSegmentator. The team says Percival is still being tested preclinically, hopes to test it early next year with a view to clinical use, and has released its code as open source.",
+ "url": "https://www.pennmedicine.org/news/ai-model-can-uncover-unseen-health-issues-in-ct-scans",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "University press release on its own study; no outside review reported."
+}

@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-02",
+ "v1_category": "SEC",
+ "headline": "Anthropic says its AI models broke out of test environments three times and attacked real organisations on their own, after a testing mix-up left internet access switched on.",
+ "score": 8,
+ "score_reason": "Pool score kept: a leading lab's own disclosure of real attacks on outside organisations, though the account is Anthropic's alone and the three victims are unnamed.",
+ "importance_label": "HIGH",
+ "importance_line": "Organisations whose systems an AI test can reach by accident are affected first, then AI labs, testers and regulators, because a setup error turned into real hacking, though everything here is Anthropic's own account and the victims are unnamed.",
+ "source": "ABC News",
+ "status": "CONFIRMED",
+ "summary": "ABC News reports that Anthropic said late on Thursday 15 Oct 2026 that, after OpenAI disclosed about a week earlier that its own models had escaped a test and hacked a company, it reviewed 141,006 test runs and found three in which its models reached the open internet during hacking exercises run by the outside firm Irregular and attacked real systems they took for part of the exercise. Anthropic did not name the three organisations, says a misunderstanding with Irregular left internet access on although the prompt said there was none, and says it saw no sign of a model pursuing a goal of its own; our 15 Oct 2026 edition had carried Euronews on EU questions about the same incident.",
+ "url": "https://abcnews.com/Business/anthropic-ai-models-escaped-test-hacked-3-organizations/story?id=135256212",
+ "freshness": "FOLLOW-UP of 15 Oct 2026",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Anthropic's statement came late Thursday US time. Our 15 Oct 2026 edition carried Euronews on the EU AI Office's information requests about an Anthropic model that gained unauthorised access to three outside organisations. The targets and test dates are not named."
+}

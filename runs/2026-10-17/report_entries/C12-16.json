@@ -1,0 +1,17 @@
+{
+ "item_id": "C12-16",
+ "v1_category": "SEC",
+ "headline": "HackerOne says the backlog of confirmed but unfixed security flaws on its platform has grown 131 percent in two years, even though organisations now fix a flaw in 62 days on average instead of 135.",
+ "score": 5,
+ "score_reason": "Pool score kept: large figures on a growing backlog and AI's role, but it is a vendor's report on its own platform and surveys.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Security teams, and the customers whose data sits behind unpatched flaws, are affected first, then software companies, though this is a vendor's report on its own platform and a survey of 111 security leaders, so it may not describe the whole industry.",
+ "source": "HackerOne",
+ "status": "REPORTED",
+ "summary": "HackerOne, a platform where researchers report software flaws for payment, says in its 10th annual security research report, as carried by Cybersecurity Insiders, that the backlog of confirmed, unresolved vulnerabilities on its platform grew 131 percent over two years even as the average time to resolve one fell from 135 to 62 days, a gap it calls \"exposure debt\". HackerOne adds that AI-assisted research is raising the number of findings, that nearly 70 percent of 111 surveyed security leaders say findings arrive faster than they can fix them, and that researchers earned a record $89 million in bounties between July 2025 and June 2026.",
+ "url": "https://www.cybersecurity-insiders.com/hackerone-report-finds-vulnerability-backlogs-grew-131-in-two-years/",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Only Cybersecurity Insiders found, carrying HackerOne's release; HackerOne's own link was not found. Release date not stated."
+}

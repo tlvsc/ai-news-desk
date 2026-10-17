@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-01",
+ "title": "US Banks Block AI Agents Attempting to Move Money for Customers",
+ "source_used": "The Next Web and Gizmodo (both relay Bloomberg Television's Friday 16 Oct 2026 interview with Schwab's chief executive); Bloomberg's own page was blocked",
+ "article_url": "https://www.bloomberg.com/news/articles/2026-10-16/us-banks-block-ai-agents-attempting-to-move-money-for-customers",
+ "fetched": true,
+ "key_facts": [
+  "Rick Wurster, chief executive of Charles Schwab, told Bloomberg Television on Friday 16 Oct 2026 that Schwab is blocking outside AI agents, including Meta's Muse, that try to move clients' money.",
+  "His reason: clients hand their passwords to an agent that then acts for them; 'something could go wrong and who's liable?'",
+  "Wurster gets a weekly report on blocked agents; the big agents are stopped 'in the tens and twenties' a week, which he reads as clients not yet ready to hand their accounts to AI.",
+  "Schwab will set up Model Context Protocol (MCP) servers, secure links under Schwab's rules, so outside AI tools can check balances and do research but not move money.",
+  "Schwab wants clients to use its own assistant, Charley, announced on 30 Sep 2026; Charley handles administrative and informational tasks at first, not trading.",
+  "On the JPMorgan Chase earnings call earlier this week, chief executive Jamie Dimon said the bank will not let any outside AI agent inside its systems and warned of 'rogue agents'; a spokesperson told CNBC this means any external agent for retail clients (Gizmodo).",
+  "JPMorgan already lets some third-party tools view account data but not send money or pay bills (The Next Web, citing Cybernews).",
+  "The Next Web says AI agent liability is still being debated in the US Congress."
+ ],
+ "quote_evidence": [
+  "Charles Schwab is blocking outside AI agents that try to move its clients’ money, including Meta’s Muse, chief executive Rick Wurster told Bloomberg Television on Friday.",
+  "“We’re not going to allow them to move money, but if they want to come in and see their account balances and do research, they will be able to do that through their LLMs.”",
+  "“We’re not going to allow just any… outside agent to come in inside the company, because it’s just too risky for clients and for JPMorgan.”"
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "Banks are drawing a line on who may act on a customer's account, just as personal AI agents such as Muse launch.",
+ "event_date": "Friday 16 Oct 2026 (Schwab interview); Tuesday 13 Oct 2026 (Dimon, earnings call)",
+ "notes": "Bloomberg page blocked; facts from two outlets that quote the Bloomberg Television interview."
+}

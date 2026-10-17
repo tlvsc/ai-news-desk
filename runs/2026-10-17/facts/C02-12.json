@@ -1,0 +1,25 @@
+{
+ "item_id": "C02-12",
+ "title": "NVIDIA now automatically enables AI server in NVIDIA App, here’s how to disable it",
+ "source_used": "Tbreak (relaying VideoCardz) and IGN; VideoCardz page was blocked",
+ "article_url": "https://videocardz.com/newz/nvidia-now-automatically-enables-ai-server-in-nvidia-app-heres-how-to-disable-it",
+ "fetched": true,
+ "key_facts": [
+  "Nvidia added an option for AI agents to control the Nvidia App in version 11.0.9.565 on 13 Oct 2026 (IGN).",
+  "Patch notes: the app includes a local MCP (Model Context Protocol) server that lets a compatible AI agent control the app with natural-language requests, for example applying optimal settings or enabling ShadowPlay recording.",
+  "VideoCardz found the feature already switched on after updating, and reports other users saw the same (Tbreak); IGN says it is on by default and not exclusive to RTX Spark systems.",
+  "Users including Silent Hill: Ascension cinematic director Agustin Cordes warned of a security risk; one user who appears to be a cybersecurity professional said there are no reported exploits yet.",
+  "The server runs locally at 127.0.0.1, port 13508 by default; an agent using a cloud service could send retrieved information to that service (Tbreak, citing VideoCardz).",
+  "To disable: Nvidia App, Settings, 'AI Agents and App Connections' (Features, Connect Agents & Apps), switch off 'Allow Agents to control Nvidia App'.",
+  "IGN reached out to Nvidia about the security implications and will update; Nvidia's release notes confirm MCP support but do not explain the default-on behaviour (Tbreak)."
+ ],
+ "quote_evidence": [
+  "Nvidia added the option in Nvidia App 11.0.9.565 on October 13.",
+  "The problem really seems to be that the Nvidia App update turns the setting on by default, which is almost a surefire way to get people to hate any given feature in a tech product.",
+  "The automatic activation is VideoCardz’s observation, supported by other user reports it cites."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "An update quietly opens a path for AI agents to control a widely installed PC app, which some users see as a security risk.",
+ "event_date": "Update 13 Oct 2026; default-on finding and warnings 16 Oct 2026",
+ "notes": "VideoCardz original blocked; its findings read via Tbreak. IGN is first-hand on the patch notes and user reactions."
+}

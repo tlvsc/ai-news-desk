@@ -1,0 +1,26 @@
+{
+ "item_id": "C15-02",
+ "title": "Gartner: The quantum threat is already behind schedule",
+ "source_used": "TechRadar Pro (Perspectives, contributed column)",
+ "article_url": "https://www.techradar.com/pro/gartner-the-quantum-threat-is-already-behind-schedule",
+ "fetched": true,
+ "key_facts": [
+  "The piece is a contributed TechRadar Pro Perspectives column by a Director Analyst in the ITL Application and Data Security research team at Gartner; the author's name is not in the fetched text.",
+  "Gartner predicts that by 2030 advances in quantum computing will make conventional asymmetric cryptography unsafe to use.",
+  "Gartner research finds that 61% of organizations lack full visibility into their own cryptographic systems.",
+  "The author says well-resourced state actors are already using 'harvest now, decrypt later': collecting encrypted data now and waiting until decryption becomes trivial.",
+  "Data with a long shelf life, such as government records, medical files, intellectual property, legal contracts and identity documents, is exposed because the theft happens now.",
+  "Replacing algorithms is not a drop-in swap: larger key sizes strain older systems, signing speeds change, and more standards are still being developed.",
+  "Advice given: build an inventory of all cryptography, protect first the data that must stay secret after 2030, build crypto-agility (the ability to change algorithms and keys quickly) and set up a cross-functional Cryptographic Centre of Excellence.",
+  "The author says IBM, Amazon and Google roadmaps or breakthroughs on error correction and qubit stability show the timeline to a cryptographically relevant quantum computer is shrinking."
+ ],
+ "quote_evidence": [
+  "Gartner predicts that by 2030, advances in quantum computing will make conventional asymmetric cryptography unsafe to use.",
+  "Gartner’s research puts a number on the blind spot: 61% of organizations lack full visibility into their own cryptographic systems.",
+  "The views expressed here are those of the author and are not necessarily those of TechRadarPro or Future plc."
+ ],
+ "why_it_matters_hint": "Organisations holding long-lived sensitive data are told to start replacing and inventorying their encryption now, because migration takes years.",
+ "event_date": "16 Oct 2026 (column published)",
+ "status": "REPORTED",
+ "notes": "An opinion column, not a news report or a new study: the 2030 date and the 61% figure are Gartner's own, relayed by one of its analysts. Author's name not present in the text. Full text read from techradar.com (HTTP 200, newsletter boilerplate skipped)."
+}

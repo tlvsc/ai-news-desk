@@ -1,0 +1,17 @@
+{
+ "item_id": "C01-03",
+ "v1_category": "MOD",
+ "headline": "The Shanghai Artificial Intelligence Laboratory has released the full version of Atria Dawn, its AI agent model, and says the amount of text it can handle at once has doubled to 512,000 tokens.",
+ "score": 5,
+ "score_reason": "Pool 5 kept: a real release from a Chinese AI lab, but the gains are modest and the lab's own numbers, the weights are not out and the 512K figure conflicts with the lab's download table.",
+ "importance_label": "WATCHLIST",
+ "importance_line": "Developers and researchers who want a Chinese agent model get a longer-memory version through hosted APIs, but the 512K claim conflicts with the lab's own download table and the weights are not yet public, so outsiders cannot test it.",
+ "source": "Pandaily",
+ "status": "REPORTED",
+ "summary": "Pandaily reports that the Shanghai Artificial Intelligence Laboratory, a Chinese AI research lab, has released the full version of Atria Dawn, an agent model (one built to use tools and finish multi-step tasks) on a 744-billion-parameter base called GLM-5.2, about a month after a mid-September preview. The lab says the context window, the amount of text the model can consider at once, grows to 512K tokens from 256K and reports gains over the preview of 7.2 points on JobBench (57.5 against 50.3) and smaller ones elsewhere, but Pandaily notes the lab's own download table still shows 256K, the preview scores higher on BrowseComp (92.5 against 91.3), and the full weights are still listed as 'Coming soon', so only the hosted APIs can be used today.",
+ "url": "https://pandaily.com/shanghai-ai-lab-atria-dawn-full-release-512k-context-jobbench-weights-coming-soon",
+ "freshness": "NEW",
+ "verified_text": true,
+ "machine_action": false,
+ "notes": "Exact release date not stated; Pandaily published 17 Oct 2026 07:20 UTC, inside the scan window, and says the release came about a month after the mid-September preview. Plain-HTML fetch showed no body, so the text was read from the article data embedded in the Pandaily page itself."
+}

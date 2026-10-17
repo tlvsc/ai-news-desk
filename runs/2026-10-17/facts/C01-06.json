@@ -1,0 +1,25 @@
+{
+ "item_id": "C01-06",
+ "title": "Jev is Vercel’s fastest-adopted AI model ever",
+ "source_used": "TechCrunch (full text)",
+ "article_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+ "fetched": true,
+ "key_facts": [
+  "Vercel data published on Thursday (15 Oct 2026) shows that within two weeks of launch Jev was used by 35% of paid teams, nearly double the reach of the second most popular model, Sonnet 5.5 (TechCrunch).",
+  "According to Vercel's data it is the fastest adoption a model has seen in its first two weeks; its makers are TypeSafe AI.",
+  "Jev was published in limited release on 15 September and is a lightweight model that chooses between a few predetermined outputs, which makes it cheaper and faster than models such as Sonnet for classifying large amounts of data.",
+  "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter, a limited view that is at risk of undercounting labs such as OpenAI and Anthropic that offer their own APIs.",
+  "Vercel was an early adopter, using Jev to replace GPT-6 Luna for classifying harmful commands.",
+  "Competing offerings from OpenAI and Amazon, among others, followed Jev's buzz.",
+  "Open source models now account for more than 70% of tokens processed through Vercel's gateway and nearly 25% of total spend; spending on frontier labs has grown tenfold."
+ ],
+ "quote_evidence": [
+  "Vercel data published on Thursday shows that, within two weeks of its launch, the buzzy decision model was being used by 35% of paid teams, with nearly double the reach of the second most popular model, Sonnet 5.5.",
+  "Jev has become the fastest adopted AI model ever — at least by some measures.",
+  "It’s a necessarily limited view"
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "First hard usage figures behind the buzz around Jev, from one platform's gateway that sees only part of the market.",
+ "event_date": "Vercel data published Thursday 15 Oct 2026; Jev released in limited form 15 Sep 2026",
+ "notes": "The article says 'within two weeks of its launch' and also 'limited release on September 15'; the two-week window is Vercel's measure and its start date is not given, so the summary says 'in its first two weeks' as Vercel's data does. Earlier coverage: our 10 Oct 2026 edition (TypeSafe AI's $870 million funding round); the 15 Oct pool had a Jev 1.14 release item that was pool only."
+}

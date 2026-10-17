@@ -1,0 +1,24 @@
+{
+ "item_id": "C03-03",
+ "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+ "source_used": "The Register",
+ "article_url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+ "fetched": true,
+ "key_facts": [
+  "The PostgreSQL Global Development Group has delayed PostgreSQL 19; it was due in late September or early October and is now expected around 19 November.",
+  "Between eight and 10 significant features were dropped and postponed to PostgreSQL 20, next year's release.",
+  "Peter Eisentraut, a vice president at EDB and a leading PostgreSQL committer, attributed the reverts at least in part to LLM-assisted code review.",
+  "Some reverted features had significant architectural defects that would have been hard to fix quickly during beta; LLM review also surfaced a long tail of harmless edge-case issues, 'a list of forty defect reports'.",
+  "SQL Property Graph Queries (SQL/PGQ), part of the SQL standard since 2023, was among the features pulled; Tom Lane warned shipping it risked bugs unfixable until v20.",
+  "Eisentraut said the reverts were not due to vibe coding, as the technique was not available when most features were written.",
+  "PostgreSQL 19 will still include REPACK CONCURRENTLY; Eisentraut calls it 'a great release' that will be 'very robust'."
+ ],
+ "quote_evidence": [
+  "The PostgreSQL Global Development Group has delayed the release of PostgreSQL 19, the latest iteration of the popular open source database, and held back an unusual number of features.",
+  "“The effective quality bar has been raised after the time the feature was written and committed. Unless the capabilities of LLM-assisted code review keep improving at the current rate, this situation should sort itself out for future development cycles,” Eisentraut said."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "A very widely used open-source database ships several weeks late and without some planned features, as AI code review raises the quality bar.",
+ "event_date": "Reported 16 Oct 2026; new release date around 19 Nov 2026",
+ "notes": "Single outlet; maintainers' own account."
+}

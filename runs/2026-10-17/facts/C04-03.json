@@ -1,0 +1,25 @@
+{
+ "item_id": "C04-03",
+ "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+ "source_used": "Quanta Magazine",
+ "article_url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+ "fetched": true,
+ "key_facts": [
+  "Quanta Magazine interviewed Moritz Hardt, a computer scientist and director at the Max Planck Institute for Intelligent Systems.",
+  "Hardt's 2026 book is The Emerging Science of Machine Learning Benchmarks; he calls benchmarks \"the mistake that made machine learning\".",
+  "He says the benchmarking ecosystem is broken, and that absolute scores on a benchmark do not mean much.",
+  "He says rankings of models, by contrast, have historically stayed stable across different datasets, which is why machine learning escaped a scientific crisis.",
+  "That stability needs models to train on the same data; with LLMs the training data is unknown and builders can assemble data mixes that promote benchmark performance.",
+  "He proposes \"altitude training\": giving every model a little benchmark-relevant preparation to level the playing field and restore the validity of rankings.",
+  "He says benchmarking can in the long run lead to new scientific knowledge, citing the CASP protein-folding benchmark."
+ ],
+ "quote_evidence": [
+  "In his 2026 book The Emerging Science of Machine Learning Benchmarks, Hardt makes the provocative case that these measuring sticks have been broken for decades already",
+  "Hardt cautions that the scores AI models receive on benchmarks don’t mean much. But comparisons, or rankings, among models do.",
+  "The problem is not so much that people optimize to the benchmarks — it’s that they optimize to different degrees."
+ ],
+ "status": "REPORTED",
+ "why_it_matters_hint": "Benchmarks decide how AI models are judged and sold; a researcher says the system is broken but fixable.",
+ "event_date": "Interview published 16 Oct 2026",
+ "notes": "A condensed and edited interview; the views are Hardt's, and the fix is a proposal."
+}

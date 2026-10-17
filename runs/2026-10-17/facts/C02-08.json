@@ -1,0 +1,26 @@
+{
+ "item_id": "C02-08",
+ "title": "FIS AML agent built with Anthropic reaches US banks",
+ "source_used": "The Paypers",
+ "article_url": "https://thepaypers.com/fraud-and-fincrime/news/fis-opens-aml-investigations-agent-built-with-anthropic-to-us-banks",
+ "fetched": true,
+ "key_facts": [
+  "FIS announced commercial availability of the FIS AML Investigations Agent, first announced jointly with Anthropic in May 2026; from October 2026 it is available to any US-based bank, including non-FIS clients.",
+  "Amalgamated Bank, the design partner, is deploying it; it is the first product in FIS's planned roadmap of AI agents for banking.",
+  "Citing LexisNexis data from 2023, FIS says US financial institutions spend about USD 35 billion to 40 billion a year on anti-money-laundering (AML) operations; Datos Insights (2023) puts false-positive rates at 90% to 95%.",
+  "Amalgamated projects the agent will cut Level 1 alert review time by more than 90%, Level 2 case investigation time by about 98% and suspicious activity report narrative preparation time by more than 80%; these are projections, not measured results from live deployment.",
+  "The agent maps each alert against the customer's type, history and expected behaviour before assembling evidence and explains its rationale to the analyst.",
+  "All outputs are recommendations and no case can be closed without explicit analyst confirmation; recommendations, reasoning and the analyst's decision are logged in an audit trail.",
+  "FIS owns the agent, which runs in FIS's private cloud and uses Anthropic's Claude models; an Anthropic team worked embedded within FIS's product and compliance teams.",
+  "It integrates natively with FIS Horizon and FIS Systematics core banking platforms; FIS IBS is next."
+ ],
+ "quote_evidence": [
+  "As of October 2026, the agent is available to any US-based bank, including institutions that are not existing FIS clients.",
+  "These figures are projections rather than measured results from live deployment.",
+  "All outputs are recommendations, and no case can be closed without explicit analyst confirmation."
+ ],
+ "status": "CONFIRMED",
+ "why_it_matters_hint": "A bank-compliance AI agent built on Claude is now sold beyond FIS's own clients, with a human sign-off built in.",
+ "event_date": "October 2026 (exact date not stated); first announced May 2026",
+ "notes": "Company announcement relayed by a trade outlet; time-saving figures are projections."
+}
