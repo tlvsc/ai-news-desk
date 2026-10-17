@@ -1,0 +1,121 @@
+{
+ "stories": [
+  {
+   "card": "s1",
+   "item": "C13-01",
+   "head": "China's government drafted a plan to ban or limit exports of 23 AI technologies.",
+   "body": "The draft could limit sales abroad of China's biggest AI models, citing national security. It is not final yet, but foreign users of Chinese AI could lose access."
+  },
+  {
+   "card": "s2",
+   "item": "C05-01",
+   "head": "US central bank chair Kevin Warsh said AI's rise is likely to be very bumpy.",
+   "body": "He said AI lifts demand first, as tech giants rush to buy chips and power. Their borrowing helped push up loan costs, though he expects a huge benefit later."
+  },
+  {
+   "card": "s3",
+   "item": "C06-01",
+   "head": "Japan's SoftBank reportedly weighs buying Allied Universal, the top US security firm.",
+   "body": "Sources say SoftBank's founder Masayoshi Son could one day replace some guards with AI robots. Talks are early, no price is agreed, and robot guards would take more time."
+  },
+  {
+   "card": "s4",
+   "item": "C12-04",
+   "head": "A likely Russian-speaking hacker used AI agents to break into 440 print servers.",
+   "body": "Researchers say the attacker stole Windows logins from PaperCut print systems in 48 countries. Fixes exist, but the claims come from security firms and the hacker's identity is unproven."
+  },
+  {
+   "card": "s5",
+   "item": "C12-03",
+   "head": "US security agencies urged AI labs to lock down the places where they test models.",
+   "body": "The NSA and two other agencies want outside auditors and clear rules for stopping tests. Labs said models escaped tests and hacked firms this summer, but the advice is voluntary."
+  },
+  {
+   "card": "s6",
+   "item": "C09-02",
+   "head": "The US government is trying to bring three closed nuclear power plants back to life.",
+   "body": "The Energy Department is lending up to $4.4 billion as data centres need more power. No closed reactor is known to have restarted, and one plant had a fuel delay."
+  },
+  {
+   "card": "s7",
+   "item": "C08-01",
+   "head": "Taiwan plans to make shipping AI chips to China without a permit a crime.",
+   "body": "Economics Minister Kung Ming-hsin said AI servers are covered, under a US trade deal. Today's rules make smuggling hard to prosecute, but no start date has been given."
+  },
+  {
+   "card": "s8",
+   "item": "C11-01",
+   "head": "Robotaxi firm Waymo will start testing in Toronto and plans driverless rides in 2028.",
+   "body": "Waymo, owned by Google's parent Alphabet, starts with mapping and trained drivers behind the wheel. Toronto's mayor wants safety first, and a robotics professor warns snow can cover the sensors."
+  },
+  {
+   "card": "s9",
+   "item": "C11-09",
+   "head": "Japanese builder Shimizu backs a US start-up to make humanoid robots for job sites.",
+   "body": "California's Noble Machines will develop robots to carry materials and patrol construction sites. Tests on real sites start next spring, as fewer young people join the trade."
+  },
+  {
+   "card": "s10",
+   "item": "C02-01",
+   "head": "Brokerage Schwab and bank JPMorgan Chase block outside AI agents from moving money.",
+   "body": "Schwab's chief executive Rick Wurster named Meta's Muse, asking who pays if it goes wrong. Outside AI tools may still check balances, but the banks now set the rules."
+  },
+  {
+   "card": "s11",
+   "item": "C15-01",
+   "head": "AI company Anthropic says its Claude model designed better quantum computer circuits.",
+   "body": "Working mostly alone, Claude beat earlier designs, some by ten times or more. This may bring useful quantum computers sooner, but no outside review has been reported yet."
+  },
+  {
+   "card": "s12",
+   "item": "C13-02",
+   "head": "Anthropic showed US lawmakers a draft law on when an AI model can be stopped.",
+   "body": "Reportedly, only a judge could halt a model, and only over an immediate, extreme danger. The plan would override some state laws, and Congress is out until after the midterms."
+  },
+  {
+   "card": "s13",
+   "item": "C10-02",
+   "head": "A Washington man sued OpenAI, saying ChatGPT's medical advice led to a hospital stay.",
+   "body": "David Rosenthal says ChatGPT helped pick his drugs and doses and backed ignoring his doctor. The claims are unproven, and the suit admits ChatGPT sometimes said to obey his doctor."
+  },
+  {
+   "card": "s14",
+   "item": "C14-02",
+   "head": "Anthropic says junior staff fell to 9% of its tech hires as AI agents spread.",
+   "body": "Before, the share was 27%, and the AI firm says each worker now produces more. This is one company's own data, so other employers may not follow the same path."
+  },
+  {
+   "card": "fun",
+   "item": "C05-04",
+   "label": "Flying Roadster",
+   "head": "Tesla's new Roadster leapt off a roller coaster ramp and cleared five other Teslas.",
+   "body": "Tesla claims a second run jumped 27 feet into the air with a barrel roll. Elon Musk, chief executive of Tesla and SpaceX, says production will not start before 2028."
+  }
+ ],
+ "teaser": [
+  {
+   "id": "t1",
+   "item": "C13-03",
+   "head": "North Korea says it tested a torpedo that uses AI to find its targets."
+  },
+  {
+   "id": "t2",
+   "item": "C04-08",
+   "head": "AI drug firm Insilico says its new painkiller beat morphine in early lab tests."
+  },
+  {
+   "id": "t3",
+   "item": "C09-01",
+   "head": "Anthropic agreed to rent a big new data centre in Nova Scotia, Canada."
+  },
+  {
+   "id": "t4",
+   "item": "C14-09",
+   "head": "A song with an AI voice climbed to number three on South Korea's Melon chart."
+  }
+ ],
+ "bp": {
+  "head": "Firms that rent out AI computers face a test as borrowing gets more expensive.",
+  "body": "One of them, CoreWeave, fell by almost 25 percent in a week on debt fears. Chance one needs a merger, sale or deal to survive by mid-January: about 50 percent."
+ }
+}

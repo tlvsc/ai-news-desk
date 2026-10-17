@@ -1,0 +1,172 @@
+[
+ {
+  "card": "s1",
+  "pass": false,
+  "broken": [
+   "2: the second sentence ('Foreign users of Chinese AI models could lose access') repeats the first (limit sales abroad) and is the entry's speculation, not a new fact"
+  ],
+  "fix_head": "",
+  "fix_body": "The draft could limit sales abroad of China's biggest AI models, citing national security. The plan also covers chip design and solar technology, and it is still only a draft.",
+  "note": "round 3; fix body 175, two sentences; key_facts: '40 technologies spanning AI, chips and solar power', 'several chip design technologies ... are also on the list', draft catalog not a final rule."
+ },
+ {
+  "card": "s2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 2: hedge restored ('is likely to be very bumpy'); chair and US central bank given; head 76, body 157 unchanged and passing."
+ },
+ {
+  "card": "s3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'could value Allied Universal at up to $18 billion' = key_fact 'equity value of as much as $18 billion' (Bloomberg); 'could' is the one-word hedge; market card, money allowed; adds the size of the deal; body 154."
+ },
+ {
+  "card": "s4",
+  "pass": false,
+  "broken": [
+   "2: 'hacked systems should be rebuilt, not just updated' is advice to IT teams (sourced to the researchers, but printed as the card's own advice) and does not tell the reader why the story matters: that AI made the attack fast"
+  ],
+  "fix_head": "",
+  "fix_body": "Researchers say the attacker stole Windows logins from PaperCut print systems in 48 countries. In one wave the agents broke into 11 organisations in 26 seconds, a sign of how AI speeds up attacks.",
+  "note": "round 3; fix body 196, two sentences; key_fact: 'in a later wave the actor compromised 11 organisations in 26 seconds' (Hunt.io); the why is the entry's importance line ('the case shows AI speeding up a real attack')."
+ },
+ {
+  "card": "s5",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'Labs said models escaped tests and hacked real firms this summer' = key_fact 'OpenAI, Anthropic, Google, Meta and others say their models escaped testing environments and hacked real organisations'; it is the reason for the guidance; 'urged' in the head carries that the advice is voluntary; body 154."
+ },
+ {
+  "card": "s6",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'Microsoft and Google have deals to buy power from two of the plants' = key_facts: Crane has a 20-year agreement with Microsoft, Duane Arnold is with Google; adds who pays for the restarts; body 153."
+ },
+ {
+  "card": "s7",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'Today's rules make such smuggling hard to prosecute' = key_fact (CNA): current rules do not specifically cover AI chips and servers, so some unauthorised shipments are hard to prosecute; it is the reason for the law; body 138."
+ },
+ {
+  "card": "s8",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: Sidney Givigi, robotics professor at Queen's University, warns snow can block the sensors = key_fact; name with position and organisation; the honest doubt; body 192."
+ },
+ {
+  "card": "s9",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "Shimizu, Noble Machines of California, carry materials and patrol sites, real-site tests next spring, fewer young workers: in the entry; no money in the head (none stated anyway)."
+ },
+ {
+  "card": "s10",
+  "pass": false,
+  "broken": [
+   "2: 'Outside AI tools may still check balances' only softens the head and leaves JPMorgan Chase, named in the head, unexplained; thin, a slot filler"
+  ],
+  "fix_head": "",
+  "fix_body": "Schwab's chief executive Rick Wurster named Meta's Muse, asking who pays if it goes wrong. Jamie Dimon, chief executive of JPMorgan Chase, called such outside agents too risky for clients and the bank.",
+  "note": "round 3; fix body 201, two sentences; key_fact: Dimon said on the earnings call the bank will not let any outside AI agent inside its systems; quote_evidence: 'it's just too risky for clients and for JPMorgan'; Dimon has position and organisation."
+ },
+ {
+  "card": "s11",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'This may bring useful quantum computers sooner, Anthropic says' = entry 'which it says could bring useful quantum computers sooner'; 'may' is the one-word hedge and 'Anthropic says' keeps it the company's claim; body 141."
+ },
+ {
+  "card": "s12",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'The plan would also override some state laws, such as California's' = key_fact (Reuters write-up of Politico); 'would' one-word hedge; adds the states angle; body 156."
+ },
+ {
+  "card": "s13",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 3: 'The suit says ChatGPT is a faulty product acting as a doctor without a licence' = key_facts: 'describes ChatGPT as a defective, unsafe product' and 'breaks California law barring the practice of medicine without a licence'; 'The suit says' keeps it an allegation; body 172."
+ },
+ {
+  "card": "s14",
+  "pass": false,
+  "broken": [
+   "3: 'Staff's AI agents now log six times as many hours as the staff' is confusing to a stranger (staff twice, 'log')"
+  ],
+  "fix_head": "",
+  "fix_body": "Before, the share was 27%, and the AI firm says each worker now produces more. The firm's AI agents now work about six times as many hours as its employees.",
+  "note": "round 3; fix body 156, two sentences; key_fact: 'By August, the AI agents run by employees worked about six times as many hours as their human handlers'; 'about' kept."
+ },
+ {
+  "card": "fun",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "round 2: head and body as fixed; checked again against facts/C05-04.json in the pack: drove up the ramp and launched over five other Teslas, 27 feet in the air with a barrel roll as Tesla's claim, Musk chief executive of Tesla and SpaceX, production not before 2028. Head 83, body 165."
+ },
+ {
+  "card": "t1",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "70 chars; 'says' keeps the state-media hedge; AI for target detection: in the AP entry."
+ },
+ {
+  "card": "t2",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "79 chars; 'says', 'early lab tests' = preclinical; Insilico introduced as AI drug firm."
+ },
+ {
+  "card": "t3",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "70 chars; lease of the first phase for at least 20 years, Nova Scotia: in the CBC entry."
+ },
+ {
+  "card": "t4",
+  "pass": true,
+  "broken": [],
+  "fix_head": "",
+  "fix_body": "",
+  "note": "77 chars; number three on Melon: in the entry."
+ },
+ {
+  "card": "bp",
+  "pass": false,
+  "broken": [
+   "2: 'merges, sells or makes a deal' says nothing new: a merger and a sale are deals; the key point's third option is restructuring, in plain words reworking its debt"
+  ],
+  "fix_head": "",
+  "fix_body": "One of them, CoreWeave, fell almost 25 percent in a week on debt fears. Chance one such firm merges, sells or reworks its debt by mid-January: about 50 percent.",
+  "note": "round 3; fix body 160 (the limit), two sentences; 'by' before 'almost' must go to fit; key point 2: 'at least one AI cloud renter announces a merger, sale or restructuring by mid-January: about 50%'; the pack bans the word restructuring, so 'reworks its debt'."
+ }
+]

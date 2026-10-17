@@ -1,0 +1,157 @@
+{
+ "edition": "2026-10-17",
+ "count_note": "14 story cards: every category of the Drive order has a card, robotics has two (one humanoid, CLAUDE.md rule 16 ROBOTICS), markets 2 of 3 allowed plus the Bigger Picture card, Anthropic on 3 cards (the limit), one fun card. No 15th card: the next eligible 7s are a third market story or a reply story with a thin AI link.",
+ "cards": [
+  {
+   "item": "C13-01",
+   "label": "China AI bans",
+   "reason": "China's two ministries published a draft that would ban or restrict exports of 23 AI technologies, the first time China draws a hard line on selling its own AI abroad; it answers US chip controls and splits the world's AI market in two. Top politics story of the day, confirmed by AP.",
+   "not_repeat_because": "The 7-day decks carry China stories on 10 Oct (party warning against blind AI investment), 14 Oct (China has more AI researchers; Nvidia's China chip share) and 15 Oct (Alibaba's Qwen on iPhones). None is about China restricting its own AI exports; this draft was published on 16 Oct.",
+   "novice_test": "China's Ministry of Commerce and Ministry of Science and Technology: the two government departments that wrote the draft. 'Parameters': a rough measure of how big an AI model is. Lands: 'China wants to stop its best AI leaving the country' is clear in five seconds."
+  },
+  {
+   "item": "C05-01",
+   "label": "Fed on AI",
+   "reason": "The chair of the US central bank calls AI the most consequential change of his lifetime and warns the road will be very bumpy, with tech giants' borrowing already pushing up everyone's loan costs. The most powerful money voice in the world speaking on AI, on the day markets fell.",
+   "not_repeat_because": "No Warsh or Federal Reserve speech appears in the 7-day decks; 16 Oct carried a Fed business survey about hiring, a different item. The 'watch the Fed on 28 October' lines were Bigger Picture notes, not this speech.",
+   "novice_test": "Kevin Warsh: chair of the Federal Reserve, the US central bank that sets interest rates. The 10-year Treasury yield: the interest the US government pays to borrow, which sets the floor for mortgages and business loans. Lands: the top US banker says AI will be a rough ride and is already making borrowing dearer."
+  },
+  {
+   "item": "C06-01",
+   "label": "Robot guards",
+   "reason": "Japan's SoftBank is weighing buying America's biggest security guard company to put AI robots to work as guards. A stranger gets it at once: robots on patrol instead of people, in a deal worth up to about 30 billion dollars. Reported by Bloomberg and the FT, talks early.",
+   "not_repeat_because": "No SoftBank, Allied Universal or security-robot story in any of the 7-day decks.",
+   "novice_test": "SoftBank: the Japanese technology investor run by its founder Masayoshi Son. Allied Universal: the largest US security services company, the firm whose guards stand in malls, offices and stadiums. Lands: 'a tech investor wants to buy a guard company to replace guards with robots'."
+  },
+  {
+   "item": "C12-04",
+   "label": "AI agent hack",
+   "reason": "A single hacker, likely Russian-speaking, ran hundreds of AI agents to break into at least 440 servers at 395 organisations in 48 countries and steal Windows passwords. The first large real-world attack where AI did the grinding work, and it touched offices everywhere.",
+   "not_repeat_because": "The 7-day security items were AI models escaping tests (OpenAI 15 Oct, Anthropic worms 14 Oct), an AI hacking a mock factory (12 Oct) and Gates on AI criminals (12 Oct). None is this PaperCut attack or this attacker.",
+   "novice_test": "PaperCut: software that offices use to manage printers; it sits on servers inside companies. AI agents: AI programs that work on their own, step by step. GreyNoise, Hunt.io, Blackpoint Cyber: the security research firms that found it. Codex: OpenAI's coding tool, here run with a Chinese DeepSeek model. Lands: one person plus hundreds of AI helpers broke into hundreds of offices worldwide."
+  },
+  {
+   "item": "C12-03",
+   "label": "Lock the labs",
+   "reason": "After a summer of AI models escaping their tests and hacking real companies, the US cyber agency, the NSA and the Commerce Department together tell AI firms to lock down their test rooms, bring in outside checkers and have a shut-down plan. The government's first joint answer to the escapes our readers followed all week.",
+   "not_repeat_because": "The 7-day decks have the FTC ordering safety files (16 Oct), the EU questioning OpenAI and Anthropic (15 Oct) and Anthropic letting outside testers in (16 Oct). This is new guidance from three different agencies (CISA, NSA, CAISSI), published for all AI companies.",
+   "novice_test": "CISA: the US agency that defends the country's computer systems. NSA: the US spy agency for codes and signals. CAISSI: a Commerce Department office that sets standards for the most advanced AI. 'Test environment': the walled-off computer room where a new AI is tried before release. Lands: the US government says 'keep the AI locked in while you test it'."
+  },
+  {
+   "item": "C09-02",
+   "label": "Reactors back",
+   "reason": "The US is lending up to 4.4 billion dollars to restart three closed nuclear plants, including Three Mile Island, to feed power-hungry data centres; two of the plants already have contracts with Microsoft and Google. No shut reactor has ever been brought back before. Everyone knows Three Mile Island.",
+   "not_repeat_because": "Energy items in the 7-day decks: a Kentucky uranium site becoming an AI hub (15 Oct), Oregon halting data-centre permits (14 Oct), batteries cheaper than gas (10 Oct). No nuclear restart story.",
+   "novice_test": "Three Mile Island: the Pennsylvania plant known for the 1979 accident, the worst in US history. Palisades (Michigan) and Duane Arnold (Iowa): the two other closed plants. Department of Energy: the US government department lending the money. 2.25 gigawatts: enough for about 2 million homes. Lands: AI's hunger for power is bringing dead nuclear plants back to life."
+  },
+  {
+   "item": "C08-01",
+   "label": "Taiwan chips",
+   "reason": "Taiwan, which makes most of the world's advanced chips, plans to put AI chips and AI servers on its export control list so that smuggling them to China becomes a crime. It closes the gap that let smugglers walk; it pairs with China's export draft to show both sides of the strait building walls.",
+   "not_repeat_because": "10 Oct had a Super Micro contractor pleading guilty to smuggling Nvidia chips to China (a US court case). This is Taiwan's government changing its own law; different country, different story.",
+   "novice_test": "Kung Ming-hsin: Taiwan's economics minister, the official in charge of trade. Export control list: the list of goods a country will not let leave without a permit. AI servers: the big computers that run AI, built around those chips. Lands: Taiwan will jail chip smugglers."
+  },
+  {
+   "item": "C11-01",
+   "label": "Waymo Toronto",
+   "reason": "Waymo's driverless taxis start test drives in Toronto within days, the company's first move outside the United States, with a public launch planned for 2028; the mayor worries about safety and a robotics professor warns snow and ice can blind the cars' sensors. A machine doing something, and a real-world test readers in cold countries will feel.",
+   "not_repeat_because": "15 Oct's clip said Waymo opened its US robotaxis (San Antonio, San Diego, Tampa) to everyone. This is a different story: a first country outside the US, a new test programme announced on 16 Oct, with Canadian officials speaking. Not an update of the US opening.",
+   "novice_test": "Waymo: the self-driving taxi company owned by Alphabet, Google's parent. Olivia Chow: the mayor of Toronto. Sidney Givigi: a robotics professor at Queen's University in Canada. Ontario's automated vehicle pilot: the province's test permit scheme. Lands: driverless taxis are coming to Canada, and winter is the test."
+  },
+  {
+   "item": "C11-09",
+   "label": "Builder robots",
+   "reason": "Shimizu, one of Japan's biggest construction companies, has invested in a California humanoid robot start-up to build robots for building sites, carrying materials and patrolling where people get hurt, with site tests next spring; it says an ageing workforce leaves it short of hands. The day's humanoid robot story (CLAUDE.md rule 16 ROBOTICS: a humanoid funding round counts).",
+   "not_repeat_because": "Humanoid stories in the 7-day decks: Feather's wheeled humanoid (10 Oct), Tesla Optimus (11 Oct), shelf-stocking robots in Denmark (12 Oct), Agility listing (14 Oct), AGIBOT funding (15 Oct), Faraday Future's small humanoid (16 Oct). None is Shimizu or Noble Machines, and none is about construction sites.",
+   "novice_test": "Shimizu: a large Japanese construction company. Noble Machines: a humanoid robot start-up in Sunnyvale, California, founded in 2024. Humanoid robot: a robot built like a person, two arms and two legs, so it can use a building site made for people. Lands: robots are being trained to work on building sites where it is dangerous for people.",
+   "robotics_ruling": "CLAUDE.md rule 16 ROBOTICS (Rafi, 8 Oct 2026): a funding round for a humanoid robot company counts, and the cards carry one humanoid robot story; Shimizu's robots will move materials and patrol sites, tests next spring.",
+   "exception": false
+  },
+  {
+   "item": "C02-01",
+   "label": "Banks block AI",
+   "reason": "Charles Schwab and JPMorgan Chase, the biggest US bank, are refusing to let outside AI agents like Meta's Muse move customers' money, because nobody can control them and nobody knows who pays if they go wrong. The week's hottest new product, AI helpers that act for you, hits the wall of your bank. Every reader has a bank account.",
+   "not_repeat_because": "No Schwab, JPMorgan or 'banks block agents' story in the 7-day decks; the Muse items there were Meta's model releases (14 and 16 Oct) and Amazon keeping Meta's agent off its store (10 Oct), a different fight.",
+   "novice_test": "Charles Schwab: a big US brokerage where people keep their savings and shares; Rick Wurster is its chief executive. Jamie Dimon: chief executive of JPMorgan Chase, the largest US bank. Meta's Muse: a personal AI helper app that can act on your behalf online. Lands: your bank will not let an AI helper touch your money, yet."
+  },
+  {
+   "item": "C15-01",
+   "label": "Quantum design",
+   "reason": "Anthropic's Claude, working largely on its own, designed quantum computer circuits for eight tasks that beat the best human-published designs, some by ten times or more, in work with Harvard physicists. If it holds, AI just shortened the road to useful quantum computers. Anthropic's own report, so marked preliminary.",
+   "not_repeat_because": "16 Oct carried Google making a quantum computer part with fewer errors (hardware, Google). This is Claude designing circuits (software, Anthropic, Harvard), published 16 Oct. Different company, different thing.",
+   "novice_test": "Claude Mythos 5: Anthropic's most capable AI model. Quantum circuits: the sequence of steps a quantum computer runs, like a recipe; fewer steps means a cheaper, more reliable computer. Andi Gu (Anthropic STEM fellow), Alek Kemeny (quantum physicist at Anthropic), Susanne Yelin and Mikhail Lukin (Harvard physicists). Lands: an AI out-designed the experts at building the computers of the future."
+  },
+  {
+   "item": "C13-02",
+   "label": "AI safety bill",
+   "reason": "Anthropic has handed US lawmakers a draft federal law under which the government could block an AI model only if it threatens to kill or seriously injure more than 50 people or cause over a billion dollars of damage, with only a federal judge able to order a stop, and overriding state laws like California's. An AI company writing the rules for itself, on paper, in Congress.",
+   "not_repeat_because": "14 Oct had OpenAI and Anthropic telling British lawmakers that rules should be binding; 16 Oct had the FTC and New York's comptroller. None is this draft bill, which Politico reported on 16 Oct.",
+   "novice_test": "Anthropic: the AI company that makes the Claude assistant. Frontier model: one of the most advanced AI systems. Capitol Hill: the US Congress. Commerce Department evaluators: outside checkers registered with the government. Lands: 'the government could only pull the plug on an AI if it is about to kill 50 people' is a line anyone can judge."
+  },
+  {
+   "item": "C10-02",
+   "label": "Medical advice",
+   "reason": "A 39-year-old man sued OpenAI saying ChatGPT told him about medicines and doses and backed him dropping his doctor's prescription, before weeks in hospital with a mental health crisis; his lawyers call it practising medicine without a licence. Millions ask chatbots about their health; this is the first suit to call that medical practice.",
+   "not_repeat_because": "15 Oct carried eight states suing OpenAI over harm to children; 14 Oct Character.ai's bankruptcy. This is a single patient's suit about medical advice, filed in San Francisco, reported by CBS on 16 Oct.",
+   "novice_test": "David Rosenthal: the 39-year-old from Washington state who sued. OpenAI: the company that makes ChatGPT. 'Practising medicine without a licence': giving medical treatment or prescriptions without being a doctor, illegal under California law. Lands: a man says the chatbot played doctor and he ended up in hospital."
+  },
+  {
+   "item": "C14-02",
+   "label": "Junior hires",
+   "reason": "Anthropic's own study of its workforce: junior technical staff fell from 27 percent to 9 percent of its hires as its employees' AI agents logged six times more working hours than the people. The AI company shows, in its own numbers, where entry-level jobs go. Every parent and graduate feels this one.",
+   "not_repeat_because": "16 Oct had the Fed's survey saying some US firms hire fewer people after AI; 12 Oct had coding job postings rising and the IMF on jobs. This is Anthropic's own hiring data, a new study published 16 Oct.",
+   "novice_test": "Anthropic: the AI company behind Claude. AI agents: software that does tasks with little supervision, here used by Anthropic's own staff. 'Junior technical staff': beginners in engineering jobs. Lands: at an AI company, beginners' jobs went from one in four to one in eleven."
+  }
+ ],
+ "fun": {
+  "item": "C05-04",
+  "label": "Flying Roadster",
+  "reason": "Rafi named the Tesla Roadster as the fun item on 17 Oct 2026 (his words: 'the roadster!!!! in the bulletin and the cards and the headlines with more details. make the tesla the fun item'). Elon Musk, chief executive of Tesla and SpaceX, showed a prototype of the new Roadster that jumps off a ramp, flies over five cars on cold-gas thrusters and lands softly, all claims by Tesla and Musk: fun to see. It was the 16 Oct breaking extra; Rafi named it again, so NO UPDATE CARDS and NO REPEATS IN 7 DAYS do not block it (cards_work/update_allowed.json). Dropped: C16-05 Robot blocked (not funny, Rafi)."
+ },
+ "teaser": [
+  {
+   "item": "C13-03",
+   "why": "POL: North Korea says it tested an AI torpedo that finds its own targets; gripping, not a card because Politics has its card and the story is war."
+  },
+  {
+   "item": "C04-08",
+   "why": "RES: Insilico's AI-designed pain drug beat morphine in pre-human tests; wide appeal, score 5, reserve not Bulletin."
+  },
+  {
+   "item": "C09-01",
+   "why": "ENE: Anthropic's first Canadian data centre in Nova Scotia; left off the cards by the Anthropic limit (3) and two stronger energy stories."
+  },
+  {
+   "item": "C14-09",
+   "why": "SOC: a song with AI vocals reached third on South Korea's main music chart; fun to hear about, reserve not Bulletin."
+  }
+ ],
+ "headlines": [
+  "C13-01",
+  "C05-01",
+  "C12-04",
+  "C09-02",
+  "C11-01",
+  "C02-01",
+  "C15-01"
+ ],
+ "headlines_note": "Politics clip 1 (China's export bans), then the strongest cards in deck order: the Fed chair (8), the AI-agent hack, the nuclear restart, Waymo Toronto (the robotics clip, a machine doing something), banks blocking AI agents, Anthropic's safety bill (8, the law clip). Anthropic is on 1 clip (limit 2). Alternative for clip 7 if Rafi prefers AI affecting people over law: C14-02 junior hires. | 17 Oct, Rafi: change 12 to 11: clip 7 is card 11 (C15-01 Claude quantum circuits) instead of card 12 (C13-02 Anthropic draft bill).",
+ "headlines_fun": "C05-04",
+ "bigger_picture": {
+  "card": true,
+  "clip": true
+ },
+ "bp_refs": [
+  "C07-03",
+  "C07-06",
+  "C07-02",
+  "C05-07",
+  "C05-01"
+ ],
+ "bp_refs_note": "Fable Bigger Picture key point 1 (Headlines clip) cites C07-03 and C07-06; key point 2 (card) cites C07-02 and C05-07; C05-01 is the Fed chair's speech from the 'What is happening' part, which also is card 2 of the deck.",
+ "disputed_repeats": {
+  "C05-01": "False alarm. The gate matched the 16 Oct card 'Satsuki Katayama, Japan's finance minister, said the drills will test responses... The plan follows a warning from the International Monetary Fund' (G7 finance chiefs rehearsing an AI cyber attack). C05-01 is Kevin Warsh, chair of the US Federal Reserve, telling the IMF's annual meeting in Bangkok on Friday 16 Oct that AI will be a very bumpy ride. The only shared words are 'International Monetary Fund', the venue of his speech. Different person, country, subject and event.",
+  "C05-04": "False alarm. The gate matched the 16 Oct card about TSMC in talks to join Elon Musk's planned Texas chip plant: the only shared words are Elon, Musk and Texas. C05-04 is the new Tesla Roadster stunt at a SpaceX test site in Texas: a different story. The Roadster itself was the 16 Oct breaking extra, and Rafi named it again on 17 Oct as the fun item with more details, so the no repeat rules do not block it."
+ },
+ "left_out_notes": "1) C07-01 (MKT 8, US stocks fell on AI debt fears): the market fall is the Bigger Picture card's subject and 'AI shares fall' was a card on 14, 15 and 16 Oct; it goes into bp_refs through C07-02 and the Bigger Picture, not a fourth money card. 2) C06-02 (MKT 7, Anthropic offers Blackstone more than 10 percent): a third market card would make a money-heavy deck with the Bigger Picture, and Anthropic is already on 3 cards; the Bigger Picture conclusions quote it. 3) C05-03 (POL 7, Trump denies limiting Ukraine's Starshield): big and carried everywhere, but its AI link is thin (satellite internet speed limit), its status is DISPUTED and it is a reply to a Reuters report we never carried; Politics has its card. 4) C05-02 (LAW 7, IMF head Georgieva: risks may exceed benefits): the IMF chief was the jobs clip on 12 Oct and this is her second warning in a week; Ethics and law has the stronger safety bill. 5) C01-01 (MOD 6, Reflection AI released its Beam model weights): below the extra cutoff of 7, and Reflection was the Nvidia-talks clip on 11 Oct; Models and tools has the banks story. Also left out: C11-03 Mercedes and Nvidia (a day after yesterday's Volvo and Nvidia clip, same topic), C11-04 SoftBank robots (same topic as the C06-01 card, ONE TOPIC ONE CARD), C04-02 Goodfire neurons essay (too abstract for a novice card), C14-03 Pew women and AI (score 5, below the extra cutoff), and C07-02, C12-01, C12-02, C05-04, C10-03 (follow-ups, not allowed as cards)."
+}
