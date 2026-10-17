@@ -61,9 +61,15 @@ def _story_pack(sub, ids, extras):
             fa = json.loads(f.read_text(encoding='utf-8'))
             out.append('FACTS: ' + json.dumps({k: fa.get(k) for k in ('key_facts', 'quote_evidence', 'notes', 'status')}, ensure_ascii=False))
         out.append('')
+    bpf = W / 'bigger_picture.json'   # 17 Oct 2026, Rafi's yes: the card and clip points live in the one page Full Report file (CLAUDE.md rule 38)
+    if bpf.exists():
+        pick = [k for k in (json.loads(bpf.read_text(encoding='utf-8')).get('key_points') or []) if k.get('use') in ('headline', 'card')]
+        if pick:
+            out += ['## THE BIGGER PICTURE KEY POINTS FOR THE CLIP AND THE CARD (point marked headline = the Headlines clip, point marked card = the card; plain words only, say a percent not a fraction, no "restructuring", and it is not financial advice)', '',
+                    json.dumps(pick, ensure_ascii=False, indent=1)]
     bpb = W / 'bigger_picture_bulletin.json'
     if bpb.exists():
-        out += ['## THE BIGGER PICTURE BULLETIN TEXT (the only source of the Bigger Picture card and clip)', '', bpb.read_text(encoding='utf-8')]
+        out += ['## THE BIGGER PICTURE BULLETIN TEXT (the longer cousin; the clip and card take their point from the key points above when there are key points, otherwise this text is the only source)', '', bpb.read_text(encoding='utf-8')]
     (W / sub / 'story_pack.md').write_text('\n'.join(out), encoding='utf-8')
     return len('\n'.join(out))
 selp = W / 'cards_work' / 'selection.json'
