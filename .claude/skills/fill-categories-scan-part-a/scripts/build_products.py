@@ -184,8 +184,8 @@ def main():
                 "source": clean_source(e.get('source', '')), "url": e.get('url', '')}
 
     about = {"title": "About this edition", "paragraphs": [
-        f"This is a test edition. Stories were collected through Google News for the {run['hours']} hours ending {end:%H:%M} UTC on {long_date(end.date())}, and articles were read from our 101-source list where the sites allowed it.",
-        f"We read the full article for {len(report) - headline_only} of {len(report)} stories. The rest are marked as headline only because their websites could not be opened from our system.",
+        f"This is a beta edition: we are still improving it. Stories were collected over the {run['hours']} hours ending {end:%H:%M} UTC on {long_date(end.date())}, from Google News and more than 100 news sources.",
+        "Each story names the outlet that reported it, with a link to read the full article.",
         "Scores run from 1 to 10: 10 is critical, 8 and 9 high, 6 and 7 medium, 5 and below watchlist. Nothing here is investment advice."]}
     cats = lambda sel: [{"name": NAMES[k], "items": [pdf_item(e) for e in sel if e['v1_category'] == k]}
                         for k in ORDER if any(e['v1_category'] == k for e in sel)]
