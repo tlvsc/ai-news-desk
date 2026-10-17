@@ -826,3 +826,102 @@ D51. (11 Oct) Done the same day: the three Drive files above were renamed "_supe
 316. (16 Oct) A SECOND-READ HELPER RESTORED SCORES WHEN THE STORY WAS FOUND (6 back to 7): the writer lowers a headline-only story by 1, so finding the text should restore the pool score; check that the new score matches the pool, not the lowered one (C16-05 was left at 2 against a pool 3).
 317. (16 Oct, Part B, Rafi angry) THE BIGGER PICTURE CLIP SAID BORROWING IS GETTING "DEARER". Headlines and cards are level 5 out of 10, plain daily English; the writer, the script check, the Fable checker and I all let a British word through, and I read the lines before sending without testing for it. Prevention: the wording brief now has a PLAIN WORDS line and each writer reads every line once for it (CLAUDE.md rule 36); the checkers check it; I read every line for rare words before sending, as a separate pass. Fix applied: both writers replace the word and review all lines, then the same checkers confirm.
 318. (16 Oct, Part B, Rafi's decision, not a rule) BREAKING TESLA FLYING ROADSTER, ADDED AFTER THE SCAN WINDOW. The story broke 7 to 12 UTC, after the 04:54 UTC window, so no product had it. Rafi's choice: one extra Headlines clip played first and one extra card without a number, nothing else regenerated. Built as separate files: a one-clip JSON (and a two-part JSON of 8.5 s each), and one card rendered inside a copy of the full edition with a local copy of the renderer that takes a label field (BREAKING NEWS instead of STORY nn / 14). The gate's rule that every clip story is also in the Bulletin was skipped for this story at his word. Footage: no reuse licence was found (Tesla's pages block the cloud session with 403; the shorts show no Creative Commons mark; credit alone is not permission); 8 outlets checked, most host Tesla's footage in their own player, Euronews credits it "Copyright @Tesla". Rafi chose to put a Tesla clip on the screen with the credit "Copyright @Tesla" (same as Euronews), at his own risk; the download and the stitch happen on his PC in the local chat. Sources of the official clips: Tesla's YouTube shorts "The Ramp" and "The Kickflip" and the "Roadster Event" video.
+
+## Part 10: open items from all chats of 10 to 16 Oct 2026 (collected 17 Oct 2026, Rafi's ask: "collect all the open topics ... into one chat so I'm not gonna have to jump between windows")
+Read by helpers from the cloud chats of 10, 11, 12, 13, 14, 15 and 16 Oct (Part A), the 11 Oct Part B chat (the PC chat, 8 to 16 Oct), Comfy work review (12 to 15 Oct), Scan efficiency (13 to 15 Oct), Postiz (15 Oct) and Setup check (13 Oct, nothing open). Some early hours of the 10, 12, 13 and 14 Oct chats were read only through their summaries. Repeats across chats are merged; items about one past day's product (a line, a card, a screen of that day) are dropped as stale. Status is as of 17 Oct; nothing here is decided.
+
+### A. Rules and clashes, for Rafi to decide
+A1. Rule 14: every Bulletin section at least 2 to 3 stories, going down to 6, or 5 if no 6; replaces "exactly 2" (Rafi 16 Oct: "yes for the next runs"; exact wording waits for his yes).
+A2. The rule clashes found by the rules check and the audit (18, from 13 and 14 Oct), the six CLAUDE.md clashes of 10 Oct, and rule 8b item 7 (one check round) against "nothing goes to Rafi with a rules FAIL". Rafi: clashes last.
+A3. Preferences clash: VOICE WALKTHROUGH (one item, then stop) against ANSWERS IN POINTS (all in one reply).
+A4. Rafi's "fix everything" against CLAUDE.md rule 4 (one fix at a time) and the scripts-only-between-runs line of rule 16.
+A5. CLAUDE.md rule 21 (lessons only in the repo) against the Drive "Claude to ChatGPT Sync Checkpoint Protocol" (a CLAUDE_HANDOFF file for ChatGPT).
+A6. Viral rule against the repeat rules (Gemini 4 and Musk, lesson 286): rule 34 answers part; skill step 1c and viral_sweep.py wait for his yes.
+A7. What goes into the repo per day: text only, text and PDFs, or everything with cards; clashes with rule 0 "no media" and rule 9.
+A8. Reference image 2: Drive says "fists", the script uses smile_v4; "smile is fine" was never written down.
+A9. Comfy rulebook clashes: 6 against 8 steps, "don't round up" against round up to half a second, the old boundary mock v9.
+A10. Two Codex V1 pipeline copies (OneDrive, 11 Oct, against E: drive, 27 Sep): which one is the real one.
+A11. May writers move a story to another category, or does the curator's category stay?
+A12. Stories whose event happened before the scan window: count only events inside the window?
+A13. Standing permission for gate script edits the day Rafi gives a new rule.
+A14. Full review of the process against Rafi's own words: which rules are Claude's additions, what can be cut without losing quality (Rafi: later).
+A15. Does rule 37 (say what happened and what it means) apply to every clip?
+A16. Write Rafi's 8 Oct customer text rules into CLAUDE.md?
+A17. Lesson 318 and its handoff note: keep or remove (Rafi 16 Oct: "lets see if it will disturb us").
+A18. "Name the item for what it truly is" for politics labels: how to apply it.
+A19. Two scans fill the same Drive day folder: which run is the day's product.
+A20. A plan so the chain runs without Rafi's decisions, only critical ones.
+
+### B. Script and skill fixes waiting for Rafi's yes (scripts change only between runs)
+B1. The 12 Oct edit list for 8 Headlines clips and 13 to 15 cards.
+B2. A standing rules check that tests only what changed (Rafi: "very important", later).
+B3. A time limit in every helper brief, and never wait idle for a helper (lessons 262, 263).
+B4. Five fixes for side effects of the Group 1 efficiency changes (viral check, "never open scripts", rule file reading, CLAUDE.md reread, PDF tool check).
+B5. Last week's Bigger Picture texts in the fact checker pack.
+B6. New checks: unexplained spoken short forms (I M F); a named person with no title (lesson 307); a stranger plain English check; brief examples that break a script check; the 18 rules with no script check, one at a time.
+B7. A model check at the start of a run that stops on Haiku (13 and 14 Oct ran on Haiku).
+B8. Repeat checks: read past reports from the repo first, not Drive; a stricter match (26 of 43 flags false on 14 Oct); run collect after the four day repeat list (bug, wrong order 14 and 15 Oct, lesson 278).
+B9. Bulletin build: an exact number per section (lessons 301, 14 Oct cap).
+B10. Fill drift: build the fill after the holds, editor C for new fill ids (lesson 302).
+B11. Viral check false FAILs: title mismatch, shared Google link (Harmonic and Labelbox).
+B12. The script does not check scores set by a helper's own count.
+B13. save_state.py: old session link hard coded.
+B14. The pool markdown file name has no date (clashes with earlier days).
+B15. Rule 35 into build_products.py (the skill post-build step does it for now).
+B16. Stale lines: fill_headlines.py screen prompt "no people, no faces"; review list intro "no text and no people".
+B17. Customer PDFs: remove "test edition" and the source count lines, add "Page N" in the contents.
+B18. Check that the PDF tools installed before Part A step 11.
+B19. The "markets share of this analysis" sentence in the Full Report Bigger Picture (Rafi said remove, 15 Oct; not done in the builder).
+B20. About 20 small fixes from the lessons, and the 24 lessons written but not built (12 Oct audit).
+B21. Lean main chat did not work: count questions, helpers still run git status.
+B22. Part A writers read the rules once in two categories (lesson 315).
+B23. Two day-folder Bulletin scripts of 13 Oct not moved into the repo.
+
+### C. Speed, cost and models
+C1. The Group 2 efficiency list (15 items): effort for curators, fillers and Part A writers; Part B writers medium or high; rules read once in Part A; Bigger Picture on Opus high or started during the editors; drop the regional search; thin days write score 4; slimmer CLAUDE.md; Part B in a fresh chat; one approval stop in Part B; and the items in B.
+C2. Model test decisions: writers on Sonnet high or Opus medium; curators on Sonnet medium plus an old news check; Fable low for top stories only; a detail line for Sonnet low writers.
+C3. Tests never judged: the faster Part B writers; Part B writers medium against high on the same stories; the 15 Oct Sonnet medium run against the 13 Oct backup; the chain fix rollback (options 1, 2, 3).
+C4. Rafi's target of a 20 minute scan with a report: 14 Oct took 106 minutes; no target agreed.
+C5. A word limit for the Full Report Bigger Picture (about 12,300 words on 15 Oct; lesson 303).
+C6. The Fable check cheaper, later.
+C7. Rafi's question never answered: "why would Sonnet just figure things out the best way?"
+C8. The model test walkthrough stopped after lesson 3 of 8.
+
+### D. Repo and saving
+D1. The 13 Oct run is not in the repo (runs/ has no 2026-10-13): Rafi's yes in the 13 Oct chat, or the 13 Oct pool from his PC.
+D2. The 13 Oct chat holds 50 old local commits on a stale copy; push options never picked.
+D3. Backup tag backup-claude-partb-2026-10-11 never pushed.
+D4. PC scripts of 13 to 16 Oct (tvwall.py, realglow2.py, fix_wall_v8 and v10, breaking and footage scripts), the TV spec and its reference PNG are not backed up in the repo.
+D5. Lessons not yet in this file: the PC chat's of 12 to 16 Oct, the 14 Oct chat's (fun line passed 3 checks, chain fix, Haiku start, PC app archive), the 12 Oct Comfy line (take only Comfy technical knowledge from other projects).
+D6. docs/DRIVE_DIFFS_FOR_CHATGPT.md: ten differences missing, three old lines.
+D7. Reports of 1, 2 and 13 Oct missing for the 14 day old news check.
+
+### E. Drive (only on Rafi's order, rule 0)
+E1. Claude's Drive duplicates (aind_caption_effects.py, AIND_lessons_11-10-26.md, four tools in the 10 Oct supportive files, five files in all): rename _superseded and archive (Rafi 13 Oct: "rename and move to archive!"); not shown done.
+E2. Missing products on Drive: the 21 files of 10 Oct, the 13 Oct PDFs, the products audit.
+E3. "dearer" still in the Drive phrasing sheet (two examples); rules G7 item 3 still credits the teaser to the old report name; the Drive Project Task List out of date since 2 Oct; four tools of 10 Oct never compared with the repo.
+E4. The automatic Drive upload (waits for the Google Cloud key from ChatGPT's account).
+E5. Send the repo lessons to Astra on Drive (Rafi: later).
+
+### F. Video, PC and ComfyUI
+F1. Tesla permission email to press@tesla.com (Rafi sends it).
+F2. Verdicts waiting: 16 Oct main video (three spots: C02 at 5.7 s, C07 at 6.4 s "its its", end of C04); 16 Oct breaking video v2.
+F3. The official V1 stitcher: the handoff to ChatGPT not sent; old opening and ending, fixed _ChatGPT-V1 label; Claude's stitch effects (cyan word, rolling strip, full screen date, footage, stutter mute, TV method, BREAKING strip) not merged.
+F4. Real footage in the daily stitch: not built; licences.
+F5. Small look questions: the 13 Oct ending "looks like a kid made it" (card or ending clip); the opening date in the DIN broadcast font; a more realistic warning sign; new skills, apps or connectors for Claude's editing.
+F6. Source facts of posted videos never verified (13 Oct C10 Bloomberg, 12 Oct C05, 14 Oct latte).
+F7. The V1 Headlines writer lets hard wording through ("fell a fifth", semicolons, on-screen text prompts).
+F8. PC stability: 0x4E blue screen after the BIOS update; XMP off and a RAM test advised; crash cause not confirmed; no test render since.
+F9. ComfyUI tests and fixes: Sparse Attention node, ComfyUI 0.40.0, the 8 step H3 speed LoRA, the Spectrum node, tests A to E, opener audio fix and the 4 s voice reference, VRAM thrash, the Qwen editor black output, "Takaichi" pronunciation, the desk reflection.
+F10. ComfyUI ideas waiting for a go: audio-first lip sync, Xenia face and studio LoRAs, a HeyGen-style avatar, H3 clip chaining, Alpha-Gen matte, a backup lip sync tool.
+F11. PC housekeeping: 14 stalled .part downloads (needs yes); the broken 13 Sep chat (save the summary or check Windows Previous Versions); stray Temp scripts; Comfy knowledge from other chats only partly collected.
+F12. How the local chat keeps all repo rules in mind.
+
+### G. Social posting and small questions
+G1. Postiz: where it runs (Google Cloud, a cheap server, hosted, the PC); which platforms first; access to Google Cloud; Drive media access; cloud chat posts cards and PC chat posts video; compare Mixpost, n8n, direct APIs; platform approvals take days; rule 33's "3) doesn't matter" unclear.
+G2. Post text: where it lives, who writes it, closing question, hashtags, emojis, a short X version.
+G3. Renting a 5090 for ComfyUI (RunPod, Vast.ai).
+G4. A list of every fun story Rafi says yes or no to, so the picker learns what is funny.
+G5. A real xlsx of the pool, or is the CSV enough?
+G6. Five small questions: France 24 credit, MarkTechPost feed, keep the regional search, the XPeng card note, the crab clip credit (Digitec or KingKong Robotics).
+G7. The token counter jumped back to 15 million on 15 Oct: a compaction?
