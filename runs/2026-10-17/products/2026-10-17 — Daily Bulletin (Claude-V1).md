@@ -1,8 +1,8 @@
 # Daily Bulletin (Claude-V1) — TEST RUN
 
 17 October 2026. Coverage: 16 Oct 2026 07:44 UTC to 17 Oct 2026 07:44 UTC (24 hours).  
-Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10 (Health and Society and education from 6; Robotics also takes its best stories from 5), plus the top 3 Fun Side stories.  
-**30 stories.**
+Source: the Full Report only. Order: category order of 23 Sep, highest score first. Rule: every story scored 7 to 10 (Health from 6; Robotics from 5), plus the top 3 Fun Side stories; a section with only one story also gets its next best.  
+**33 stories.**
 
 ## POLITICS AND GOVERNMENT — 2
 **8 HIGH — China has published a draft plan to ban or restrict exports of 40 technologies, 23 of them in artificial intelligence, citing national security.** (report item 1)  
@@ -69,13 +69,19 @@ Bloomberg reports, as relayed by Investing.com, that SoftBank Group is consideri
 **5 WATCHLIST — Japanese builder Shimizu has invested in Noble Machines, a California humanoid robot startup, and launched a joint effort to develop robots for construction sites.** (report item 53)  
 AI Insider reports, citing Shimizu, that the Japanese construction company has invested in Noble Machines, a Sunnyvale, California, startup founded in May 2024, to develop humanoid robots that could assist with or replace workers in hard and hazardous tasks such as moving materials, navigating sites and patrols. Computer simulations are due to start by the end of this year and tests on real construction sites next spring, and Shimizu says an aging workforce and fewer young entrants are squeezing the industry. *AI Insider, REPORTED*
 
-## MODELS AND TOOLS — 1
+## MODELS AND TOOLS — 2
 **7 MEDIUM — Charles Schwab and JPMorgan Chase are blocking outside AI agents from moving customers' money, and Schwab says that includes Meta's Muse.** (report item 57)  
 Bloomberg reports, as relayed by The Next Web and Gizmodo, that Rick Wurster, chief executive of the brokerage Charles Schwab, told Bloomberg Television on Friday 16 Oct 2026 that Schwab blocks outside AI agents such as Meta's Muse, a personal AI assistant, from moving client money, because neither the firm nor the client can control them and it is unclear who is liable if something goes wrong. Jamie Dimon, chief executive of JPMorgan Chase, the largest US bank, said on its earnings call this week that the bank will not let outside agents act inside its systems, and Schwab plans to let outside AI tools see balances and do research, but not move money, through controlled connections. *Bloomberg, CONFIRMED*
 
-## RESEARCH AND SCIENCE — 1
+**6 MEDIUM — Reflection AI, a US start-up, has released the weights of its Beam model, so anyone can now download, run and adapt it.** (report item 58)  
+SiliconANGLE reports that Reflection AI, a US start-up backed by Nvidia, put the weights of Beam, its first large language model, on the Hugging Face model-sharing site on 16 Oct 2026, together with training recipes for customizing it (weights are the trained values that let others run and adapt a model). Unite.AI, relaying Reflection's announcement and a launch post from the AI hosting firm Baseten, adds that the 501-billion-parameter model is released under the Apache 2.0 open-source license, that Baseten says Reflection trained it to use fewer tokens (the word pieces a model reads and writes) on coding and agent tasks, and that the benchmark scores quoted so far are Reflection's own; this follows Beam's unveiling on 5 Oct 2026, which we carried in our 6 Oct 2026 edition, and the new fact today is that the weights are public. *SiliconANGLE, CONFIRMED*
+
+## RESEARCH AND SCIENCE — 2
 **7 MEDIUM — Anthropic says its Claude model, working largely on its own, designed quantum computing circuits for eight tasks that beat the best published designs, in some cases by ten times or more.** (report item 66)  
 Anthropic, the company that makes Claude, reports that its Claude Mythos 5 model, given plain-language descriptions of eight quantum circuits (the sequences of operations, called gates, that a quantum computer runs) and a program that checks and scores each design, produced versions that improve on the best published ones, in some cases by ten times or more, in work led by Andi Gu in Anthropic's STEM Fellows Program, mentored by Alek Kemeny, a quantum physicist at Anthropic, with Susanne Yelin and Mikhail Lukin of Harvard University. Anthropic says one 53-hour run found a new way to do the arithmetic behind elliptic-curve calculations and another design cut the gates in a key step of a quantum optimisation method about 12 times compared with Google's earlier circuit, which it says could bring useful quantum computers sooner. *Anthropic, PRELIMINARY*
+
+**6 MEDIUM — A Goodfire researcher argues in a new essay that the inner workings of AI models are far easier to read than the field believed, and other experts are split on whether he is right.** (report item 68)  
+The Decoder reports that Nick Cammarata, a researcher at the interpretability lab Goodfire, argues in an essay that single neurons in AI models mostly have one clear job, rejecting the widely held idea of superposition, in which a network packs unrelated concepts into the same neurons, and gives early figures for the Qwen3-32B model in which about 90 percent of the neuron poles he counted have one main job. OpenAI's Roon, an employee who posts under that pseudonym on X, calls it a possible major moment in scientific history, while Neel Nanda, who leads the interpretability team at Google DeepMind, says it does not really change the big picture, and the companion technical paper has not yet been released. *The Decoder, PRELIMINARY*
 
 ## ETHICS AND LAW — 2
 **8 HIGH — Anthropic has shown US lawmakers a draft federal AI safety bill that would let the government block an AI model only when it poses an imminent, extreme danger, Politico reports.** (report item 75)  
@@ -91,9 +97,12 @@ CBS News reports that David Rosenthal, 39, has sued OpenAI in a San Francisco co
 **6 MEDIUM — The US Medicare and Medicaid agency plans to publish the results of an AI pilot that flags Medicaid fraud before payment and hopes to suspend far more suspect providers.** (report item 83)  
 Nextgov/FCW reports that Kimberly Brandt, deputy administrator of the Centers for Medicare and Medicaid Services (CMS), the federal agency that runs both programmes, said at a conference in Santa Fe on Thursday 15 Oct 2026 that CMS will soon publish results of an Indiana pilot, run with the technology company Oracle, that uses AI to flag suspicious Medicaid billing before money is paid. She added that CMS is working with five more states on similar pilots and hopes provider suspensions will quadruple within six months, now that the Department of Health and Human Services has given CMS new power to bar providers from federal health programmes. *Nextgov/FCW, REPORTED*
 
-## SOCIETY AND EDUCATION — 1
+## SOCIETY AND EDUCATION — 2
 **7 MEDIUM — Anthropic reports that the share of junior technical staff among its hires fell from 27 per cent to 9 per cent as its AI agents took on more of the company's work.** (report item 89)  
 Anthropic, the AI company behind the Claude assistant, reports in a study of its own workforce, covered by India Today, that junior technical staff made up 9 per cent of its technical hires, down from 27 per cent, while its employees' AI agents (software that carries out tasks with little supervision) logged about six times as many working hours as the employees by August. Anthropic says output per person rose as staff adopted agents, but this is the company's own data and counts agent hours, not jobs lost or finished work. *Anthropic, REPORTED*
+
+**5 WATCHLIST — Pew Research Center finds that American women are more wary of AI than men, while men use chatbots somewhat more for work and information, and both use ChatGPT at the same rate.** (report item 91)  
+Pew Research Center reports from a survey of 5,119 US adults in February 2026 that women are about twice as likely to say AI will affect them personally for the worse over the next 20 years than for the better (33% against 17%), and 68% of women against 58% of men say AI is advancing too fast. Men are more likely to say chatbots help their productivity (35% against 25%) and to use Microsoft's Copilot (22% against 13%), but ChatGPT is used by identical shares of men and women; the figures come from a broader June 2026 Pew study, so the gender breakdown is the new part. *Pew Research Center, CONFIRMED*
 
 ## THE FUN SIDE — 3
 **3 WATCHLIST — A Vox writer who handed everyday chores to AI agents for two weeks found them useful for simple tasks but unpredictable and at times unnerving.** (report item 95)  
@@ -107,6 +116,6 @@ PCMag UK reports that a reviewer gave five everyday tasks, including grocery ord
 
 ## CHECKS
 
-- Stories: 30; all come from the Full Report with facts, scores and sources unchanged.
+- Stories: 33; all come from the Full Report with facts, scores and sources unchanged.
 - Fact check suggested a lower score for 3 of these stories (stale, overstated or headline only); selection follows the pool score as Rafi ruled.
 - Headline-only stories included: 0.
